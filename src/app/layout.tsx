@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next";
 import NavBar from "./_components/NavBar";
 import "./globals.css";
@@ -13,6 +14,7 @@ function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
       <body>
         <NavBar/>
         {children}
+        <Analytics />
       </body>
     </html>
   );
