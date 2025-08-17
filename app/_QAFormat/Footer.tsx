@@ -1,20 +1,33 @@
-import { Dispatch, SetStateAction } from "react"
+import { Dispatch, RefObject, SetStateAction } from "react"
 import { Button } from "@/components/ui/button"
 
 type Props = {
   index: number,
   setIndex: Dispatch<SetStateAction<number>>,
+  resumeIndex: RefObject<number>,
   totalQuestions: number,
-  setFinishModal: Dispatch<SetStateAction<boolean>>
+  setFinishModal: Dispatch<SetStateAction<boolean>>,
+  lock: RefObject<boolean>
 }
 
-const Footer = ({ index, setIndex, totalQuestions, setFinishModal }: Props) => {
+const Footer = ({ index, setIndex, resumeIndex, totalQuestions, setFinishModal, lock }: Props) => {
   const Back = () => {
-    if (index > 0) setIndex(prev => prev - 1)
+    if (index > 0) {
+      setIndex(prev => prev - 1)
+      lock.current = true
+    }
   }
 
   const Next = () => {
-    if (index + 1 < totalQuestions) setIndex(prev => prev + 1)
+    if (index + 1 < totalQuestions) {
+      setIndex(prev => prev + 1)
+      if (resumeIndex.current > index) {
+        lock.current = true
+      }
+      else {
+        lock.current = false
+      }
+    }
   }
 
   const Finish = () => {

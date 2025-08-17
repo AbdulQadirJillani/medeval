@@ -10,6 +10,10 @@ import Options from "./Options"
 import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
+import { findModule_ClickedOptions } from "../actions/findModule_ClickedOptions" 
+import { useUser } from "@clerk/nextjs"
+import { createPerformance } from "../actions/createPerformance"
+import { deleteModule } from "../actions/deleteModule"
 
 type Props = {
   id: number,
@@ -20,32 +24,21 @@ type Props = {
   answers: { option: string, explanation?: string, bool: boolean }[]
 }[]
 
-type clicked = {
-  optionHx: { questionIndex: number, optionIndex: number }[]
-}
+type clicked = { questionIndex: number, optionIndex: number[] }[]
 
-type performance = {
-  performance: {
-    dateTime: string,
-    questionOrigin: string,
-    score: number,
-    totalQuestions: number
-  }[]
-}
 
 function Format({ data }: { data: Props }) {
+  const { user } = useUser()
+  const userId = user?.id
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
-  const [clickedOption, setClickedOption] = useState<clicked>({ optionHx: [] })
-  const hasPageBeenRenderedFirstTime = useRef<boolean>(false)
+  const [clickedOption, setClickedOption] = useState<clicked>([])
   const resumeIndex = useRef<number>(0)
   const [resumeModal, setResumeModal] = useState<boolean>(false)
   const [finishModal, setFinishModal] = useState<boolean>(false)
   const score = useRef<number>(0)
   const lock = useRef<boolean>(false)
-  const highestIndex = useRef<number>(-1)
   const totalQuestions = useMemo((): number => data.length, [data])
-  const performance = useRef<performance>({performance: []})
 
   let questionOrigin = 'question'
   if (typeof data[0].info === typeof 'string') {
@@ -58,106 +51,169 @@ function Format({ data }: { data: Props }) {
     const yearArr = []
     for (let i = 1; i < data[index].info.length; i++) {
       const array = data[index].info[i].split("/")
-      console.log(array)
       mod = array[1]
       yearArr.push(` ${array[2]}`)
     }
     questionOrigin = `${mod} - compiled (${yearArr.toString()} )`
   }
 
-  // use Effect for storing performance in local storage
-  useEffect(() => {
-    const storedPerformance = JSON.parse(localStorage.getItem('performance') as string)
-    if (storedPerformance == null) {
-      performance.current = {performance: []}
-    }
-    else {
-      performance.current = storedPerformance
-    }
-    if (finishModal) {
-      const newPerf = {
-        dateTime: `${new Date().toLocaleString('en-us', {day: '2-digit', month: 'short', year: 'numeric'})} - ${new Date().toLocaleString('en-us', {hour: '2-digit', minute: '2-digit', hour12: true})}`,
-        questionOrigin: questionOrigin,
-        score: score.current,
-        totalQuestions: totalQuestions
-      }
-      if (performance.current.performance.length > 0) {
-        const lastPerf = performance.current.performance[performance.current.performance.length - 1]
-        if (lastPerf.dateTime == newPerf.dateTime && lastPerf.questionOrigin == newPerf.questionOrigin) {
-        }
-        else {
-          performance.current.performance.push(newPerf)
-          localStorage.setItem('performance', JSON.stringify(performance.current))
+
+  //useEffect for saving and debouncing module data to local storage
+  useEffect(()=>{
+    const handler = setTimeout(() => {
+      const storedModDataString = localStorage.getItem(`${pathname}-module`)
+      if (storedModDataString) {
+        const storedModDataObject = JSON.parse(storedModDataString)
+        if (userId == storedModDataObject.clerkId) {
+          storedModDataObject.score = score.current
+          if (index > storedModDataObject.resumeIndex) {
+            storedModDataObject.resumeIndex = index
+            resumeIndex.current = index
+          }
+          storedModDataObject.answers = clickedOption
+          localStorage.setItem(`${pathname}-module`, JSON.stringify(storedModDataObject))
         }
       }
       else {
-        performance.current.performance.push(newPerf)
-        localStorage.setItem('performance', JSON.stringify(performance.current))
+        const stateModData = {
+          clerkId: userId,
+          pathname: pathname,
+          score: score.current,
+          resumeIndex: resumeIndex.current,
+          totalQuestions: totalQuestions,
+          startDateTime: new Date(),
+          answers: clickedOption
+        }
+        localStorage.setItem(`${pathname}-module`, JSON.stringify(stateModData))
+      }
+    }, 300)
+    return () => clearTimeout(handler)
+  }, [userId, pathname, score, index, totalQuestions, clickedOption])
+
+
+  //useEffect for saving module data to the DB
+  useEffect(() => {
+    const handleUnload = () => {
+      const storedModDataString = localStorage.getItem(`${pathname}-module`)
+      if (!storedModDataString) return
+      navigator.sendBeacon(
+        "/api/createModuleData",
+        new Blob([storedModDataString], { type: "application/json" })
+      )
+    }
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "hidden") {
+        handleUnload();
       }
     }
+    window.addEventListener("beforeunload", handleUnload)
+    document.addEventListener("visibilitychange", handleVisibilityChange)
+    return () => {
+      window.removeEventListener("beforeunload", handleUnload)
+      document.removeEventListener("visibilitychange", handleVisibilityChange)
+    }
+  }, [pathname])
 
-    // eslint-disable-next-line
-  }, [score, finishModal])
 
-  // use Effect for setting score and option lock
-  useEffect(() => {
-    if (index > highestIndex.current) {
-      lock.current = false
-      highestIndex.current = index
-    } else lock.current = true
-
-    const storedScore = parseInt(localStorage.getItem(`${pathname}-score`) as string)
-
-    if (index === 0 && storedScore > 0) {
-    } else localStorage.setItem(`${pathname}-score`, score.current.toString())
-  }, [index, score, pathname])
-
-  // use Effect for showing resume modal on first render
-  useEffect(() => {
-    const storedIndex = parseInt(localStorage.getItem(`${pathname}-index`) as string)
-    const storedHx = localStorage.getItem(`${pathname}-hx`) as string
-    const storedScore = parseInt(localStorage.getItem(`${pathname}-score`) as string)
-
-    if (index < storedIndex) {
-      if (storedIndex + 1 == totalQuestions) {
-        localStorage.removeItem(storedIndex.toString())
-        localStorage.removeItem(storedHx)
-        localStorage.removeItem(storedScore.toString())
-      }
-      else {
-        setClickedOption(JSON.parse(storedHx))
-        resumeIndex.current = storedIndex
-        score.current = storedScore
+  //useEffect for saving resume index, score and clicked options from local storage to state and opening resume modal + looking up in DB and then saving to state and local storage if not in local storage
+  useEffect(()=>{
+    const storedModDataString = localStorage.getItem(`${pathname}-module`)
+    if (storedModDataString) {
+      const storedModDataObject = JSON.parse(storedModDataString)
+      if (storedModDataObject.resumeIndex > 0) {
+        resumeIndex.current = storedModDataObject.resumeIndex
+        score.current = storedModDataObject.score
+        setClickedOption(storedModDataObject.answers)
         setResumeModal(true)
+        return
       }
     }
-    // eslint-disable-next-line
-  }, [])
+    (async() => {
+      try {
+        const data = await findModule_ClickedOptions(pathname)
+        if (!data) {
+          console.log("No module data found")
+          return
+        }
+        const { mod, clickedOptions } = data
+        if (mod) {
+          resumeIndex.current = mod.resumeIndex
+          score.current = mod.score
+          setResumeModal(true)
+        }
+        if (clickedOptions) setClickedOption(clickedOptions)
+        
+        const stateModData = {
+          clerkId: userId,
+          pathname: pathname,
+          score: mod.score,
+          resumeIndex: mod.resumeIndex,
+          totalQuestions: mod.totalQuestions,
+          startDateTime: new Date(mod.startDateTime),
+          answers: clickedOptions
+        }
+        localStorage.setItem(`${pathname}-module`, JSON.stringify(stateModData))
+      }
+      catch(err) {
+        console.error(err, 'Finding module data from DB failed!')
+      }
+    })()
+  }, [pathname, userId])
 
-  // use Effect for setting index in local storage on each render (except first render) and setting clicked option in local storage on each render (except when both the index is zero and the storedHx is not empty)
+
+  //useEffect for saving and debouncing performance history to local storage and DB
+  useEffect(()=>{
+    const handler = setTimeout(async() => {
+      if (!userId) return null
+      const statePerformanceData = {
+        clerkId: userId,
+        pathname: pathname,
+        score: score.current,
+        totalQuestions: totalQuestions,
+        finishDateTime: new Date()
+      }
+      if (finishModal) {
+        localStorage.setItem(`${pathname}-performance`, JSON.stringify(statePerformanceData))
+        await createPerformance(statePerformanceData)
+      }
+    }, 500)
+    return () => clearTimeout(handler)
+  }, [userId, finishModal, pathname, totalQuestions])
+
+
+  //useEffect for deleting module data from local storage and DB on finish
   useEffect(() => {
-    const storedHx = `${pathname}-hx`
-    const storedIndex = `${pathname}-index`
+    if (finishModal) {
+      (async() => {
+        try {
+          await deleteModule(pathname)
+        }
+        catch (err) {
+          console.error(err, 'Deleting module data from DB failed!')
+        }
+      })()
+      localStorage.removeItem(`${pathname}-module`)
+    }
+  }, [pathname, finishModal])
 
-    if (index == 0 && localStorage.getItem(storedHx) !== null) {
-    }
-    else {
-      localStorage.setItem(storedHx, JSON.stringify(clickedOption))
-    }
-
-    if (hasPageBeenRenderedFirstTime.current) {
-      localStorage.setItem(storedIndex, index.toString())
-    }
-    hasPageBeenRenderedFirstTime.current = true
-  }, [index, clickedOption, pathname])
   
-  // use Effect for keyboard navigation
+  // useEffect for keyboard navigation
   useEffect(() => {
     function navigate(e: KeyboardEvent) {
-      if (e.key==='ArrowRight' && index + 1 < totalQuestions) setIndex(prev => prev + 1)
-      else if (e.key==='ArrowLeft' && index > 0) setIndex(prev => prev - 1)
+      if (e.key==='ArrowRight' && index + 1 < totalQuestions) {
+        setIndex(prev => prev + 1)
+        if (resumeIndex.current > index) {
+          lock.current = true
+        }
+        else {
+          lock.current = false
+        }
+      }
+      else if (e.key==='ArrowLeft' && index > 0) {
+        setIndex(prev => prev - 1)
+        lock.current = true
+      }
     }
-
     document.addEventListener('keydown', navigate)
     return () => document.removeEventListener('keydown', navigate)
   }, [index, totalQuestions, pathname])
@@ -175,13 +231,13 @@ function Format({ data }: { data: Props }) {
         <HintDifficulty hint={data[index].hint} difficulty={data[index].difficulty}/>
       }
 
-      <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} index={index} score={score} lock={lock} highestIndex={highestIndex}/>
+      <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock}/>
 
-      <Footer index={index} setIndex={setIndex} totalQuestions={totalQuestions} setFinishModal={setFinishModal}/>
+      <Footer index={index} setIndex={setIndex} resumeIndex={resumeIndex} totalQuestions={totalQuestions} setFinishModal={setFinishModal} lock={lock}/>
 
     </div>
 
-    <ResumeModal resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} setClickedOption={setClickedOption} setIndex={setIndex}/>
+    <ResumeModal resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} setClickedOption={setClickedOption} setIndex={setIndex} pathname={pathname}/>
 
     <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions}/>
     </>

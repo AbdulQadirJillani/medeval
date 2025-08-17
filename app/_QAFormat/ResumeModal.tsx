@@ -1,4 +1,4 @@
-import { Dispatch, MutableRefObject, SetStateAction } from "react"
+import { Dispatch, RefObject, SetStateAction } from "react"
 import {
   Dialog,
   DialogContent,
@@ -7,28 +7,34 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
+// import { deleteModule } from "../actions/deleteModule"
 
-type clicked = {
-  optionHx: { questionIndex: number, optionIndex: number }[]
-}
+type clicked = { questionIndex: number, optionIndex: number[] }[]
 
 type Props = {
   resumeModal: boolean,
   setResumeModal: Dispatch<SetStateAction<boolean>>,
-  resumeIndex: MutableRefObject<number>,
+  resumeIndex: RefObject<number>,
   setClickedOption: Dispatch<SetStateAction<clicked>>,
-  setIndex: Dispatch<SetStateAction<number>>
+  setIndex: Dispatch<SetStateAction<number>>,
+  pathname: string
 }
 
-const ResumeModal = ({ resumeModal, setResumeModal, resumeIndex, setClickedOption, setIndex }: Props) => {
+const ResumeModal = ({ resumeModal, setResumeModal, resumeIndex, setClickedOption, setIndex, pathname }: Props) => {
   const Resume = () => {
     setResumeModal(false)
     setIndex(resumeIndex.current)
   }
 
-  const StartBegin = () => {
-    setClickedOption({ optionHx: [] })
+  const StartBegin = async() => {
+    setClickedOption([])
     setResumeModal(false)
+    // try {
+    //   await deleteModule(pathname)
+    // }
+    // catch(err) {
+    //   console.error(err, 'Deleting module data from DB failed!')
+    // }
   }
 
   return (
