@@ -7,11 +7,11 @@ export async function findPerformance() {
   const { userId } = await auth()
   if (!userId) throw new Error('Not athenticated')
 
-  // @ts-ignore
+  // @ts-expect-error
   const user = await prisma.user.findUnique({ where: { clerkId: userId } })
   if (!user) throw new Error('User not found')
 
-  // @ts-ignore
+  // @ts-expect-error
   const perf = await prisma.performance.findMany({
     where: {
       userId: user.id

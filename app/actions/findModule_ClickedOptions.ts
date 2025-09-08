@@ -7,11 +7,11 @@ export async function findModule_ClickedOptions(pathname: string) {
   const { userId } = await auth()
   if (!userId) throw new Error('Not athenticated')
 
-  // @ts-ignore
+  // @ts-expect-error
   const user = await prisma.user.findUnique({ where: { clerkId: userId } })
   if (!user) throw new Error('User not found')
 
-  // @ts-ignore
+  // @ts-expect-error
   const mod = await prisma.module.findUnique({
     where: {
       userId_pathname: {
@@ -23,7 +23,7 @@ export async function findModule_ClickedOptions(pathname: string) {
 
   if (!mod) return
 
-  // @ts-ignore
+  // @ts-expect-error
   const clickedOptions = await prisma.answers.findMany({
     where: { attemptId: mod.id }
   })

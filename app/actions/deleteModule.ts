@@ -7,7 +7,7 @@ export async function deleteModule(pathname: string) {
   const { userId } = await auth()
   if (!userId) throw new Error('Not athenticated')
 
-  // @ts-ignore
+  // @ts-expect-error
   const user = await prisma.user.findUnique({ where: { clerkId: userId } })
   if (!user) throw new Error('User not found')
 

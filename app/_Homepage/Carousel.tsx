@@ -4,6 +4,7 @@ import * as React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import type { EmblaCarouselType } from "embla-carousel";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 type Pics = {
   pics: string[];
@@ -73,10 +74,12 @@ export default function Carousel({ pics }: Pics) {
               key={i}
               className="flex-[0_0_100%] relative"
             >
-              <img
+              <Image
+                width={1200}
+                height={675}
                 src={src}
                 alt={`Slide ${i + 1}`}
-                className="w-full aspect-[16/9] object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>

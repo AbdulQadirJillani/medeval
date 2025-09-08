@@ -53,7 +53,9 @@ export async function POST(req: Request) {
           email: primaryEmail.email_address
         }
       })
-    } catch (err: any) {
+    }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    catch (err: any) {
       console.error("❌ DB ERROR:", JSON.stringify(err, null, 2))
       return new Response("Error creating new user in database", { status: 400 })
     }

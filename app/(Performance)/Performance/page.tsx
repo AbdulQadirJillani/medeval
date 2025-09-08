@@ -53,6 +53,7 @@ function Page() {
         setPerformance(perfItemsDB)
 
         // Save to localStorage
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         perfItemsDB.forEach((i: any) => {
           const key = `${i.pathname}-performance`
           const value = {
