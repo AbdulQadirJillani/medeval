@@ -1,0 +1,866 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which of these gases is the main component of the 'sewer gas'?",
+    "answers": [
+      {
+        "option": "Carbon monoxide (CO)",
+        "bool": false
+      },
+      {
+        "option": "Carbon dioxide (CO2)",
+        "bool": false
+      },
+      {
+        "option": "Nitrous oxide (N2O)",
+        "bool": false
+      },
+      {
+        "option": "Hydrogen sulfide (H2S)",
+        "bool": true
+      },
+      {
+        "option": "Chlorine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A researcher wants to predict changes in systolic blood pressure with respect to the antihypertensive drug dosage that is prescribed. Which of the following analysis technique can help in predicting the change in SBP correctly?",
+    "answers": [
+      {
+        "option": "Independent sample student T-test",
+        "bool": false
+      },
+      {
+        "option": "Analysis of variance test",
+        "bool": false
+      },
+      {
+        "option": "Regression analysis",
+        "bool": true
+      },
+      {
+        "option": "Paired sample student T-test",
+        "bool": false
+      },
+      {
+        "option": "Chi square test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A researcher predicted a relationship between salt consumption in milligrams and a change in blood pressure in millimeters of mercury. considering the prediction equation y= a+bx. the change in the blood pressure in this equation is denoted by which of the following letters?",
+    "answers": [
+      {
+        "option": "x",
+        "bool": false
+      },
+      {
+        "option": "a",
+        "bool": false
+      },
+      {
+        "option": "y",
+        "bool": true
+      },
+      {
+        "option": "both a and b",
+        "bool": false
+      },
+      {
+        "option": "b",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which one of the following would be the most appropriate statistical test to compare the proportions for passing the annual exam among males and females undergraduates students?",
+    "answers": [
+      {
+        "option": "Chi square test",
+        "bool": true
+      },
+      {
+        "option": "Dependent sample test",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "Independent sample test",
+        "bool": false
+      },
+      {
+        "option": "Mc Nemar test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "The Chi-square test is the most appropriate statistical test to apply to a data set when the researcher wants to compare the difference between which of the following?",
+    "answers": [
+      {
+        "option": "Dependent data for continuous variables",
+        "bool": false
+      },
+      {
+        "option": "Between more than two continuous variables",
+        "bool": false
+      },
+      {
+        "option": "Dependent data for categorical variables",
+        "bool": false
+      },
+      {
+        "option": "Two independent continues variables",
+        "bool": false
+      },
+      {
+        "option": "Two or more categorical variables",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which of the following is described as a powerful statistical method that allows you to examine the relationship between two or more variables of interest in which the influence of one or more independent variables on a dependent variable can be studied?",
+    "answers": [
+      {
+        "option": "Regression analysis",
+        "bool": true
+      },
+      {
+        "option": "MANOVA",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "T-test",
+        "bool": false
+      },
+      {
+        "option": "Chi-square",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which of the following can be used to check the linearity of data in the SPSS software?",
+    "answers": [
+      {
+        "option": "Box plot",
+        "bool": false
+      },
+      {
+        "option": "Pie charts",
+        "bool": false
+      },
+      {
+        "option": "Scatter plot",
+        "bool": true
+      },
+      {
+        "option": "Bar charts",
+        "bool": false
+      },
+      {
+        "option": "Histogram",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which of the following tests can determine the difference in distribution between two or more categorical variables?",
+    "answers": [
+      {
+        "option": "MANOVA",
+        "bool": false
+      },
+      {
+        "option": "Z test",
+        "bool": false
+      },
+      {
+        "option": "T test",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "Pearson's \u03c72 test",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A researcher wants to find out the difference in the intensity of stress between three groups of factory workers. The variables being used are continuous. Which of the following tests can be used in this case?",
+    "answers": [
+      {
+        "option": "Chi-Square",
+        "bool": false
+      },
+      {
+        "option": "T-test",
+        "bool": false
+      },
+      {
+        "option": "MANOVA",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": true
+      },
+      {
+        "option": "Regression",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which of the following tests can be used in the study to compare the difference between groups and within groups to find out if they're statistically significant or not?",
+    "answers": [
+      {
+        "option": "T-test",
+        "bool": true
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "Chi-square",
+        "bool": false
+      },
+      {
+        "option": "Regression",
+        "bool": false
+      },
+      {
+        "option": "MANOVA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A professor wants to award a prize to his students on their remarkable performance in the exam. There were five students who are tied for the first position while the professor had to choose only one student among the 5. Which of the following would be a fair technique, which will help the professor choose one out of the five eligible students?",
+    "answers": [
+      {
+        "option": "Convenience sampling",
+        "bool": false
+      },
+      {
+        "option": "Stratified random sampling",
+        "bool": false
+      },
+      {
+        "option": "Quota sampling",
+        "bool": false
+      },
+      {
+        "option": "Simple random sampling",
+        "bool": true
+      },
+      {
+        "option": "Consecutive sampling",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A researcher wants to select an unbiased sample, which will account for the various ethnicities residing in the area. Which of the following techniques will help the professor to recruit such a sample?",
+    "answers": [
+      {
+        "option": "Stratified random sampling",
+        "bool": true
+      },
+      {
+        "option": "Simple random sampling",
+        "bool": false
+      },
+      {
+        "option": "Quota sampling",
+        "bool": false
+      },
+      {
+        "option": "Consecutive sampling",
+        "bool": false
+      },
+      {
+        "option": "Systemic random sampling",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A professor was giving a lecture on the significance of sample size estimation. He emphasized that a large sample size will help to find whether the difference between two or more groups exists in reality. Which of the following was the professor referring to?",
+    "answers": [
+      {
+        "option": "Type 1 error",
+        "bool": false
+      },
+      {
+        "option": "Alpha error",
+        "bool": false
+      },
+      {
+        "option": "Confidence interval",
+        "bool": false
+      },
+      {
+        "option": "P-value",
+        "bool": false
+      },
+      {
+        "option": "Power",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A researcher wants to select an unbiased national-level sample, which will account for the various ethnicities residing in Pakistan. He received a milllion dollar grant to find out the prevalence of hemoglobinopathies in Pakistan. Which of the following techniques will help the professor recruit such a sample?",
+    "answers": [
+      {
+        "option": "Convenience sampling",
+        "bool": false
+      },
+      {
+        "option": "Purposive sampling",
+        "bool": false
+      },
+      {
+        "option": "Cluster sampling",
+        "bool": true
+      },
+      {
+        "option": "Quota sampling",
+        "bool": false
+      },
+      {
+        "option": "Consecutive sampling",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A group of medical students submits the plan for their research project to the institutional board. This plan contains background, objectives, hypothesis, methodology, consent form, questionnaire, and references. Which of the following best defines this plan for research given in the above scenario?",
+    "answers": [
+      {
+        "option": "Abstract",
+        "bool": false
+      },
+      {
+        "option": "Introduction",
+        "bool": false
+      },
+      {
+        "option": "Hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Rationale",
+        "bool": false
+      },
+      {
+        "option": "Synopsis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A group of researchers write a research proposal and in it they gave an explanation of the fundamental reasons for their research. Which of the following best describes the justification of the research work?",
+    "answers": [
+      {
+        "option": "Objective",
+        "bool": false
+      },
+      {
+        "option": "Operational definition",
+        "bool": false
+      },
+      {
+        "option": "Rationale",
+        "bool": true
+      },
+      {
+        "option": "Hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Introduction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "100 cancer patients were divided into two groups. One group was given chemotherapy while the other was given medications plus chemotherapy. This is an example of which of the following types of research?",
+    "answers": [
+      {
+        "option": "Cohort study",
+        "bool": false
+      },
+      {
+        "option": "Clinical trial",
+        "bool": true
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Case report",
+        "bool": false
+      },
+      {
+        "option": "Case control study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Qualitative data cannot be divided into quantitative data like x and y groups and hence a correlation cannot be established. For example, the frequency of male smokers to female smokers. Which of the following can be used to assess such data?",
+    "answers": [
+      {
+        "option": "Chi square",
+        "bool": true
+      },
+      {
+        "option": "Odds ratio",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "Independent t test",
+        "bool": false
+      },
+      {
+        "option": "Paired t test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "To conduct a study on the cleanliness of operation theatres, researchers chose 1 out of 4 city districts. Out of that district they chose 5 out of 20 hospitals and visited them. Which of the following research methods did they use?",
+    "answers": [
+      {
+        "option": "Cluster random",
+        "bool": true
+      },
+      {
+        "option": "Simple random",
+        "bool": false
+      },
+      {
+        "option": "Stratified random",
+        "bool": false
+      },
+      {
+        "option": "Consecutive",
+        "bool": false
+      },
+      {
+        "option": "Quota",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "For the P value to be <0.05, which hypothesis is rejected?",
+    "answers": [
+      {
+        "option": "No hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Double hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Single hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Null hypothesis",
+        "bool": true
+      },
+      {
+        "option": "Alternative hypothesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "To conduct a study, researchers dug out the records of students from Oxford University. They found all the previous data and death certificates to find the mortality rate. What type of study is this?",
+    "answers": [
+      {
+        "option": "Case-series",
+        "bool": false
+      },
+      {
+        "option": "Clinical trial",
+        "bool": false
+      },
+      {
+        "option": "Prospective cohort",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional",
+        "bool": false
+      },
+      {
+        "option": "Retrospective cohort",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A research study stated, \"To assess the prevalence of anemia in Pakistan.\" Which of the following could this statement be best defined as?",
+    "answers": [
+      {
+        "option": "Rationale",
+        "bool": false
+      },
+      {
+        "option": "Introduction",
+        "bool": false
+      },
+      {
+        "option": "Synopsis",
+        "bool": false
+      },
+      {
+        "option": "Method",
+        "bool": false
+      },
+      {
+        "option": "Objective",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A group of students conducting research did not ask for consent of the participants. Which of the following medical ethics did they violate?",
+    "answers": [
+      {
+        "option": "Beneficence",
+        "bool": false
+      },
+      {
+        "option": "Equality",
+        "bool": false
+      },
+      {
+        "option": "Malevolence",
+        "bool": false
+      },
+      {
+        "option": "Autonomy",
+        "bool": true
+      },
+      {
+        "option": "Justice",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "In a research questionnaire, a question asked, \"How has your university experience been?\" There were no options given and the students could write anything they wanted. What kind of question is this?",
+    "answers": [
+      {
+        "option": "Open-ended question",
+        "bool": true
+      },
+      {
+        "option": "Closed-ended question",
+        "bool": false
+      },
+      {
+        "option": "Single-barrelled question",
+        "bool": false
+      },
+      {
+        "option": "Subjective question",
+        "bool": false
+      },
+      {
+        "option": "Double-barrelled question",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "Which of the following is used to calculate the sample size for a study?",
+    "answers": [
+      {
+        "option": "SPSS",
+        "bool": false
+      },
+      {
+        "option": "Info Epi",
+        "bool": true
+      },
+      {
+        "option": "Web Epi",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "STATA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A survey was conducted to assess the opinion of students regarding internet service and free breakfast at the campus. It contained a question: \"Should the administration provide high-speed internet and free breakfast at the campus for all students? \"Which one of the following options is the most appropriate classification of the above question?",
+    "answers": [
+      {
+        "option": "Double barreled",
+        "bool": true
+      },
+      {
+        "option": "Judgmental",
+        "bool": false
+      },
+      {
+        "option": "Open ended",
+        "bool": false
+      },
+      {
+        "option": "Negative frame",
+        "bool": false
+      },
+      {
+        "option": "Leading question",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A survey is conducted on medical students' mental and emotional well-being. The questionnaire contains a question: \"How do you feel about life in medical college?\" There are no options for the answer and each participant can freely write exactly how they feel. Which one of the following options is the most appropriate classification of the above question?",
+    "answers": [
+      {
+        "option": "Negative frame question",
+        "bool": false
+      },
+      {
+        "option": "Positive frame question",
+        "bool": false
+      },
+      {
+        "option": "Closed ended question",
+        "bool": false
+      },
+      {
+        "option": "Open ended question",
+        "bool": true
+      },
+      {
+        "option": "Leading question",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A professor wants to select a sample of 100 students from a class of 350 students. The recommended unbiased sample selection method would be:",
+    "answers": [
+      {
+        "option": "Convenience sample",
+        "bool": false
+      },
+      {
+        "option": "Random sample",
+        "bool": true
+      },
+      {
+        "option": "Purposive sample",
+        "bool": false
+      },
+      {
+        "option": "Snow ball sample",
+        "bool": false
+      },
+      {
+        "option": "Consecutive sample",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A medical student is preparing an abstract for a case report. The most critical element to include in the abstract is:",
+    "answers": [
+      {
+        "option": "Detailed patient demographics",
+        "bool": false
+      },
+      {
+        "option": "Full discussion of treatment options",
+        "bool": false
+      },
+      {
+        "option": "Introduction and relevance of the case",
+        "bool": true
+      },
+      {
+        "option": "Acknowledgment of co-authors",
+        "bool": false
+      },
+      {
+        "option": "Comprehensive list of references",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A student copies text from a journal article and pastes it into his assignment without citation. The term that best describes this act is:",
+    "answers": [
+      {
+        "option": "Paraphrasing",
+        "bool": false
+      },
+      {
+        "option": "Plagiarism",
+        "bool": true
+      },
+      {
+        "option": "Rephrasing",
+        "bool": false
+      },
+      {
+        "option": "Referencing",
+        "bool": false
+      },
+      {
+        "option": "Summarizing",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A research article contains an abstract with these sections: introduction, Methods, Results, and Conclusion. The Type of abstract described here is?",
+    "answers": [
+      {
+        "option": "Narrative",
+        "bool": false
+      },
+      {
+        "option": "Structured",
+        "bool": true
+      },
+      {
+        "option": "Descriptive",
+        "bool": false
+      },
+      {
+        "option": "Annotated",
+        "bool": false
+      },
+      {
+        "option": "Unstructured",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "3rd-year/endocrinology-2/community-medicine",
+    "question": "A 30-year-old woman has been complaining of increasing weight gain, fatigability, depression, and poor memory for the last three months. She was noticed to have a pale complexion, dry scaly skin, and high blood pressure. What is the most important investigation you will advise? The given explanation best corresponds to which one of the following?",
+    "answers": [
+      {
+        "option": "ECG",
+        "bool": false
+      },
+      {
+        "option": "TSH",
+        "bool": true
+      },
+      {
+        "option": "Fasting Lipid profile",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count (CBC)",
+        "bool": false
+      },
+      {
+        "option": "Liver Function Tests",
+        "bool": false
+      }
+    ]
+  }
+]

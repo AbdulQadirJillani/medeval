@@ -1,0 +1,623 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "According to the World Health Organization, how long is the loss of cerebral function for it to be called a stroke?",
+    "answers": [
+      {
+        "option": "More than 3 minutes",
+        "bool": false
+      },
+      {
+        "option": "More than 1 hour",
+        "bool": false
+      },
+      {
+        "option": "Atleast 3 days",
+        "bool": false
+      },
+      {
+        "option": "Less than 1 hour",
+        "bool": false
+      },
+      {
+        "option": "More than 24 hours",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following terms refers to disease constantly present in a small population?",
+    "answers": [
+      {
+        "option": "Epidemic",
+        "bool": false
+      },
+      {
+        "option": "Outbreak",
+        "bool": false
+      },
+      {
+        "option": "Endemic",
+        "bool": true
+      },
+      {
+        "option": "Pandemic",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A public health officer ordered his staff to take measures for vector control in order to prevent diseases. Which of the following diseases can be prevented by this project?",
+    "answers": [
+      {
+        "option": "Meningitis",
+        "bool": false
+      },
+      {
+        "option": "Gastritis",
+        "bool": false
+      },
+      {
+        "option": "Peptic ulcer",
+        "bool": false
+      },
+      {
+        "option": "Diphtheria",
+        "bool": false
+      },
+      {
+        "option": "Cerebral malaria",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following should be the relationship between the doctor and the patient?",
+    "answers": [
+      {
+        "option": "Paternalistic relationship",
+        "bool": false
+      },
+      {
+        "option": "Default relationship",
+        "bool": false
+      },
+      {
+        "option": "Both should be equally involved in consultation as partners",
+        "bool": false
+      },
+      {
+        "option": "Consumeristic relationship",
+        "bool": false
+      },
+      {
+        "option": "Mutual relationship",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following is the most common cause of stroke in young adults?",
+    "answers": [
+      {
+        "option": "Alcohol",
+        "bool": false
+      },
+      {
+        "option": "Obesity",
+        "bool": false
+      },
+      {
+        "option": "Fatty diet",
+        "bool": false
+      },
+      {
+        "option": "Lack of exercise",
+        "bool": false
+      },
+      {
+        "option": "Smoking",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A reproductive age female reported to the outpatient department with no prior dose of tetanus vaccine. What are the recommended doses by EPI protocol of tetanus for long-term prevention?",
+    "answers": [
+      {
+        "option": "Four doses",
+        "bool": false
+      },
+      {
+        "option": "Five doses",
+        "bool": true
+      },
+      {
+        "option": "Two doses",
+        "bool": false
+      },
+      {
+        "option": "Three doses",
+        "bool": false
+      },
+      {
+        "option": "Single dose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Practicing a healthy lifestyle by eating a diet rich in fruits and vegetables, and maintaining a healthy weight for the prevention of hypertension and stroke is advised by physicians. Which one of the following preventions is applied here?",
+    "answers": [
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Quarternary",
+        "bool": false
+      },
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A surgeon working in a private rehabilitation facility encounters a patient with a certain tumor that responds only to radiotherapy and surgery. The surgeon is enthusiastic to perform the surgery and proceeds to convince the patient to perform the surgery despite the lack of evidence of surgery being the better option. Which of the following principles of ethical communication has the surgeon breached in the above scenario?",
+    "answers": [
+      {
+        "option": "Active listening",
+        "bool": false
+      },
+      {
+        "option": "Equity and justice",
+        "bool": false
+      },
+      {
+        "option": "Honesty and truthfulness",
+        "bool": true
+      },
+      {
+        "option": "Empathy",
+        "bool": false
+      },
+      {
+        "option": "Beneficence",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "An 85-year-old male is in a coma in a hospital. His daughter makes all the decisions regarding his treatment on his behalf. Which of the following options best describes the type of consent in this scenario?",
+    "answers": [
+      {
+        "option": "Opt-out consent",
+        "bool": false
+      },
+      {
+        "option": "Expressed consent",
+        "bool": false
+      },
+      {
+        "option": "Surrogate consent",
+        "bool": true
+      },
+      {
+        "option": "Implied consent",
+        "bool": false
+      },
+      {
+        "option": "Informed consent",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following is a modifiable risk factor for stroke?",
+    "answers": [
+      {
+        "option": "Age",
+        "bool": false
+      },
+      {
+        "option": "Genetics",
+        "bool": false
+      },
+      {
+        "option": "Family history",
+        "bool": false
+      },
+      {
+        "option": "Gender",
+        "bool": false
+      },
+      {
+        "option": "Obesity",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following terms correctly describes the diphtheria toxin?",
+    "answers": [
+      {
+        "option": "Endotoxin",
+        "bool": false
+      },
+      {
+        "option": "Enterotoxin",
+        "bool": false
+      },
+      {
+        "option": "Neurotoxin",
+        "bool": false
+      },
+      {
+        "option": "Cytotoxin",
+        "bool": false
+      },
+      {
+        "option": "Exotoxin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following is the most appropriate intervention after a child has been diagnosed with paralytic poliomyelitis?",
+    "answers": [
+      {
+        "option": "Vaccination",
+        "bool": false
+      },
+      {
+        "option": "Nutritional supplementation",
+        "bool": false
+      },
+      {
+        "option": "Awareness",
+        "bool": false
+      },
+      {
+        "option": "Health education",
+        "bool": false
+      },
+      {
+        "option": "Rehabilitation",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A 36-year-old man is hired as a laboratory worker and he will be handling Rabies related viruses and vaccines. Which of the following vaccines is he advised to get?",
+    "answers": [
+      {
+        "option": "H-RIG (human rabies immunoglobulin)",
+        "bool": false
+      },
+      {
+        "option": "Tetanus",
+        "bool": false
+      },
+      {
+        "option": "Pre-exposure prophylaxis",
+        "bool": true
+      },
+      {
+        "option": "E-RIG (equine rabies immunoglobulin)",
+        "bool": false
+      },
+      {
+        "option": "Post-exposure prophylaxis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A 32-year-old mother of two children visits a primary healthcare center with complaints of feeling sad, irritable, and empty, and often finds herself crying for no reason for the past three months. She has a loss of interest in all activities and finds it really hard to carry out her daily activities. She feels as if she would be better off dead and even has thoughts about taking her life at times. Which one of the following disorders is she most likely suffering from?",
+    "answers": [
+      {
+        "option": "Depression",
+        "bool": true
+      },
+      {
+        "option": "Post-traumatic stress disorder",
+        "bool": false
+      },
+      {
+        "option": "Schizophrenia",
+        "bool": false
+      },
+      {
+        "option": "Bipolar disorder",
+        "bool": false
+      },
+      {
+        "option": "Anxiety",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Which of the following terms refers to the constant presence of a disease or infectious agent within its usual or expected frequency in a given geographical area or population group?",
+    "answers": [
+      {
+        "option": "Epidemic",
+        "bool": false
+      },
+      {
+        "option": "Prevalence",
+        "bool": false
+      },
+      {
+        "option": "Incidence",
+        "bool": false
+      },
+      {
+        "option": "Sporadic",
+        "bool": false
+      },
+      {
+        "option": "Endemic",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Polio is now endemic in only 2 countries; Pakistan and Afghanistan. Two very effective polio vaccines, the oral and injectable vaccines are being given in the EPI program, and in addition, special immunization campaigns are repeatedly conducted all over Pakistan to eradicate polio. In the routine EPI schedule, which of the following is the correct age for the administration of the injectable polio vaccine (IPV)?",
+    "answers": [
+      {
+        "option": "14 weeks",
+        "bool": false
+      },
+      {
+        "option": "14 weeks and 9 months",
+        "bool": true
+      },
+      {
+        "option": "6 weeks",
+        "bool": false
+      },
+      {
+        "option": "10 weeks",
+        "bool": false
+      },
+      {
+        "option": "9 months",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "According to the World Health Organization (WHO), which of the following is the most important method in eradicating and controlling polio?",
+    "answers": [
+      {
+        "option": "Surveillance of polio cases",
+        "bool": false
+      },
+      {
+        "option": "Disinfection",
+        "bool": false
+      },
+      {
+        "option": "Health education to spread awareness",
+        "bool": false
+      },
+      {
+        "option": "Isolation of infected individuals",
+        "bool": false
+      },
+      {
+        "option": "Mass immunization of children in vulnerable age groups",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "According to the WHO 2001 guidelines for mental health education, what is the recommended approach for better mental health in the community?",
+    "answers": [
+      {
+        "option": "Enhancing psychiatric hospital facilities,",
+        "bool": false
+      },
+      {
+        "option": "Promoting inpatient care over outpatient care",
+        "bool": false
+      },
+      {
+        "option": "Increasing mental health awareness in the community",
+        "bool": true
+      },
+      {
+        "option": "Increasing patient care in asylums",
+        "bool": false
+      },
+      {
+        "option": "Expanding pharmaceutical treatment options",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Infection by which of the following organisms causes the formation of a grayish membrane over the tonsils, pharynx, or larynx, with well-defined edges and bleeding of the surface due to the membrane's removal?",
+    "answers": [
+      {
+        "option": "Klebsiella",
+        "bool": false
+      },
+      {
+        "option": "Corynebacterium diphtheriae",
+        "bool": true
+      },
+      {
+        "option": "Bordetella Pertussis",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus",
+        "bool": false
+      },
+      {
+        "option": "Pseudomonas",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "Poliomyelitis mainly affects children under 5 years of age and may lead to irreversible paralysis. Which human body system is primarily Infected by the polio virus?",
+    "answers": [
+      {
+        "option": "Respiratory system",
+        "bool": false
+      },
+      {
+        "option": "Musculoskeletal system",
+        "bool": false
+      },
+      {
+        "option": "Cardiovascular system",
+        "bool": false
+      },
+      {
+        "option": "Gastrointestinal system",
+        "bool": true
+      },
+      {
+        "option": "Nervous system",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A 14-year-old boy, while coming back from school, was bitten by a stray dog without any provocation. There was some bleeding from wounds. He was taken to a nearby hospital. What is the first step which should be done immediately?",
+    "answers": [
+      {
+        "option": "Clean wound with antiseptic",
+        "bool": false
+      },
+      {
+        "option": "Wash the wound with water and soap for 10-15 minutes",
+        "bool": true
+      },
+      {
+        "option": "Give Rabies Vaccine",
+        "bool": false
+      },
+      {
+        "option": "Give Rabies Vaccine and Rabies immunoglobulin",
+        "bool": false
+      },
+      {
+        "option": "Observe the dog",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A 42-year-old male visits a primary healthcare center with complaints of feeling sad, irritable, empty, and crying often for three months. He has lost interest in activities and finds it very difficult to carry out daily activities. He feels he is better off dead. Which one of the following is the most likely mental disorder that he is suffering from?",
+    "answers": [
+      {
+        "option": "Depression",
+        "bool": true
+      },
+      {
+        "option": "Schizophrenia",
+        "bool": false
+      },
+      {
+        "option": "Bipolar disorder",
+        "bool": false
+      },
+      {
+        "option": "Post-Traumatic Stress Disorder",
+        "bool": false
+      },
+      {
+        "option": "Anxiety",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "2nd-year/neuroscience-1/community-medicine",
+    "question": "A snake bite victim exhibiting the signs of ptosis, diplopia, dysphagia, and respiratory failure is affected by which of the following types of snake venom?",
+    "answers": [
+      {
+        "option": "Neurotoxin",
+        "bool": true
+      },
+      {
+        "option": "Cytolytic",
+        "bool": false
+      },
+      {
+        "option": "Hemolytic",
+        "bool": false
+      },
+      {
+        "option": "Hemotoxic",
+        "bool": false
+      },
+      {
+        "option": "Cytotoxic",
+        "bool": false
+      }
+    ]
+  }
+]

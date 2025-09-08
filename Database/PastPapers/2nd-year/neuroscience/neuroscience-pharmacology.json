@@ -1,0 +1,542 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Morphine is used for relief from which of the following?",
+    "answers": [
+      {
+        "option": "Migraine",
+        "bool": false
+      },
+      {
+        "option": "Pain in limbs",
+        "bool": false
+      },
+      {
+        "option": "Pain in kidney",
+        "bool": false
+      },
+      {
+        "option": "Chest pain",
+        "bool": true
+      },
+      {
+        "option": "Referred pain",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Odd statement regarding heparin:",
+    "answers": [
+      {
+        "option": "Activity measured by aPTT",
+        "bool": false
+      },
+      {
+        "option": "Major side effect is bleeding",
+        "bool": false
+      },
+      {
+        "option": "Does not cause bruising",
+        "bool": true
+      },
+      {
+        "option": "Depends on antithrombin III levels",
+        "bool": false
+      },
+      {
+        "option": "Activity measured by PTT",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Using morphine to treat pain may cause following adverse effect:",
+    "answers": [
+      {
+        "option": "Miosis",
+        "bool": true
+      },
+      {
+        "option": "Increase blood pressure",
+        "bool": false
+      },
+      {
+        "option": "Mydriasis",
+        "bool": false
+      },
+      {
+        "option": "Stimulation of respiratory centres",
+        "bool": false
+      },
+      {
+        "option": "Addiction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "What receptor(s) does scopolamine bind to?",
+    "answers": [
+      {
+        "option": "Binds irreversibly to nicotinic receptors",
+        "bool": false
+      },
+      {
+        "option": "Binds reversibly to muscarinic receptors",
+        "bool": true
+      },
+      {
+        "option": "Binds reversibly to nicotinic receptors",
+        "bool": false
+      },
+      {
+        "option": "Binds irreversibly to both muscarinic and nicotinic receptors",
+        "bool": false
+      },
+      {
+        "option": "Binds irreversibly to muscarinic receptors",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following accurately describes the action of cimetidine on warfarin?",
+    "answers": [
+      {
+        "option": "Increases the affinity of warfarin for vitman K epoxide reductase",
+        "bool": false
+      },
+      {
+        "option": "Decreases the metabolism of warfarin",
+        "bool": true
+      },
+      {
+        "option": "Decreases the affinity of warfarin for vitamin K epoxide reductase",
+        "bool": false
+      },
+      {
+        "option": "Increases the metabolism of warfarin",
+        "bool": false
+      },
+      {
+        "option": "Affects the activity of the platelets",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following is not a feature of meperidine?",
+    "answers": [
+      {
+        "option": "It is a synthetic compound",
+        "bool": false
+      },
+      {
+        "option": "It produces mydriasis",
+        "bool": false
+      },
+      {
+        "option": "It produces miosis",
+        "bool": true
+      },
+      {
+        "option": "It has no antitussive effect",
+        "bool": false
+      },
+      {
+        "option": "It can cause convulsions in large doses",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following is a contraindication of a thrombolytic drug?",
+    "answers": [
+      {
+        "option": "Acute ischemic stroke",
+        "bool": false
+      },
+      {
+        "option": "History of hypertension",
+        "bool": true
+      },
+      {
+        "option": "Acute pulmonary thromboembolism",
+        "bool": false
+      },
+      {
+        "option": "Deep vein thrombosis",
+        "bool": false
+      },
+      {
+        "option": "Acute myocardial infarction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "A patient is given an opioid injection after surgery for pain relief. Which of the following statements is correct regarding opioids?",
+    "answers": [
+      {
+        "option": "They are local anesthetic agents",
+        "bool": false
+      },
+      {
+        "option": "They will cause placebo effect",
+        "bool": false
+      },
+      {
+        "option": "They will cause more respiratory stimulation",
+        "bool": false
+      },
+      {
+        "option": "Giving NSAIDs in addition will help provide more relief",
+        "bool": true
+      },
+      {
+        "option": "Their action will be enhanced by naloxone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which fibrinolytic drug also has an antigenic effect?",
+    "answers": [
+      {
+        "option": "Alteplase",
+        "bool": false
+      },
+      {
+        "option": "Urokinase",
+        "bool": false
+      },
+      {
+        "option": "Streptokinase + Alteplase",
+        "bool": false
+      },
+      {
+        "option": "Urokinase + Alteplase",
+        "bool": false
+      },
+      {
+        "option": "Streptokinase",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following is a possible side effect of morphine?",
+    "answers": [
+      {
+        "option": "Mydriasis",
+        "bool": false
+      },
+      {
+        "option": "Miosis",
+        "bool": true
+      },
+      {
+        "option": "Blood pressure elevation",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Respiratory stimulation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following statements is correct regarding the mu receptor stimulation?",
+    "answers": [
+      {
+        "option": "Analgesia (spinal)",
+        "bool": false
+      },
+      {
+        "option": "Sedation",
+        "bool": false
+      },
+      {
+        "option": "Respiratory depression",
+        "bool": true
+      },
+      {
+        "option": "Hallucinations",
+        "bool": false
+      },
+      {
+        "option": "Miosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Vitamin K reverses the overdose of which of the following agents?",
+    "answers": [
+      {
+        "option": "Warfarin",
+        "bool": true
+      },
+      {
+        "option": "Clopidogrel",
+        "bool": false
+      },
+      {
+        "option": "Unfractionated heparin",
+        "bool": false
+      },
+      {
+        "option": "Tirofiban",
+        "bool": false
+      },
+      {
+        "option": "Eptifibatide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following is an opioid receptor antagonist used as a drug for opioid overdose and toxicity?",
+    "answers": [
+      {
+        "option": "Fentanyl",
+        "bool": false
+      },
+      {
+        "option": "Morphine",
+        "bool": false
+      },
+      {
+        "option": "Buprenorphine",
+        "bool": false
+      },
+      {
+        "option": "Naloxone",
+        "bool": true
+      },
+      {
+        "option": "Nalbuphine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following opioid drugs is used to treat diarrhea?",
+    "answers": [
+      {
+        "option": "Naloxone",
+        "bool": false
+      },
+      {
+        "option": "Morphine",
+        "bool": false
+      },
+      {
+        "option": "Loperamide",
+        "bool": true
+      },
+      {
+        "option": "Levorphanol",
+        "bool": false
+      },
+      {
+        "option": "Methadone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Heparin binds to which of the following molecules to produce its anti-coagulant effect?",
+    "answers": [
+      {
+        "option": "Vitamin K",
+        "bool": false
+      },
+      {
+        "option": "Von Willebrand factor",
+        "bool": false
+      },
+      {
+        "option": "Anti-thrombin III",
+        "bool": true
+      },
+      {
+        "option": "Fibrinogen",
+        "bool": false
+      },
+      {
+        "option": "Protein C",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following is an inhibitory neurotransmitter that causes hyperpolarization of neurons?",
+    "answers": [
+      {
+        "option": "Glutamate",
+        "bool": false
+      },
+      {
+        "option": "Acetylcholine",
+        "bool": false
+      },
+      {
+        "option": "Norepinephrine",
+        "bool": false
+      },
+      {
+        "option": "GABA (gamma aminobutyric acid)",
+        "bool": true
+      },
+      {
+        "option": "Dopamine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "The analgesic properties of opioids are primarily mediated by which of the following receptors?",
+    "answers": [
+      {
+        "option": "Cholinergic receptor",
+        "bool": false
+      },
+      {
+        "option": "Delta receptor",
+        "bool": false
+      },
+      {
+        "option": "Kappa receptor",
+        "bool": false
+      },
+      {
+        "option": "Adrenergic receptor",
+        "bool": false
+      },
+      {
+        "option": "Mu receptor",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "Which of the following opioid agonists is used to treat diarrhea?",
+    "answers": [
+      {
+        "option": "Codeine",
+        "bool": false
+      },
+      {
+        "option": "Loperamide",
+        "bool": true
+      },
+      {
+        "option": "Morphine",
+        "bool": false
+      },
+      {
+        "option": "Fentanyl",
+        "bool": false
+      },
+      {
+        "option": "Naloxone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "This transmitter is mostly located in diffuse neuronal systems in the CNS, with cell bodies, particularly in the raphe nuclei. It appears to play a major role in the expression of mood states, and many antidepressant drugs are thought to increase its functional activity.",
+    "answers": [
+      {
+        "option": "Serotonin",
+        "bool": true
+      },
+      {
+        "option": "Acetylcholine",
+        "bool": false
+      },
+      {
+        "option": "Dopamine",
+        "bool": false
+      },
+      {
+        "option": "Glutamate",
+        "bool": false
+      },
+      {
+        "option": "GABA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/neuroscience-1/pharmacology",
+    "question": "A decrease in K+ conductance is associated with neuronal excitation. Which of the following neurotransmitters does not follow this mechanism (decrease in K+ conductance)?",
+    "answers": [
+      {
+        "option": "Norepinephrine",
+        "bool": false
+      },
+      {
+        "option": "Glutamic acid",
+        "bool": false
+      },
+      {
+        "option": "Dopamine",
+        "bool": true
+      },
+      {
+        "option": "Serotonin",
+        "bool": false
+      },
+      {
+        "option": "Acetylcholine",
+        "bool": false
+      }
+    ]
+  }
+]

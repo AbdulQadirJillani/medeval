@@ -1,0 +1,3863 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is not a feature of a life-threatening condition in asthma?",
+    "answers": [
+      {
+        "option": "Confusion",
+        "bool": false
+      },
+      {
+        "option": "Silent chest",
+        "bool": false
+      },
+      {
+        "option": "Respiratory rate > 25/min",
+        "bool": true
+      },
+      {
+        "option": "Bradycardia",
+        "bool": false
+      },
+      {
+        "option": "Hypotension",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 24-year-old patient presents to the emergency room with acute exacerbation of asthma. He is tachycardic and is unable to complete a sentence in 1 breath. Oxygen therapy is given. What should be the next step in his management regimen?",
+    "answers": [
+      {
+        "option": "Intravenous fluids",
+        "bool": false
+      },
+      {
+        "option": "Potassium supplements",
+        "bool": false
+      },
+      {
+        "option": "Salmeterol",
+        "bool": false
+      },
+      {
+        "option": "Formoterol",
+        "bool": false
+      },
+      {
+        "option": "Salbutamol",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which obstructive lung disease is characterized by a low diffusing capacity of the lung for carbon monoxide (DLCO)?",
+    "answers": [
+      {
+        "option": "Bronchitis",
+        "bool": false
+      },
+      {
+        "option": "Interstitial lung disease",
+        "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": true
+      },
+      {
+        "option": "Asthma",
+        "bool": false
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following features, according to Light's criteria, is suggestive of exudative effusion?",
+    "answers": [
+      {
+        "option": "Pleural fluid protein : serum protein ratio < 0.5",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid LDH < 2/3 of upper limit of normal serum LDH",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid LDH : serum LDH ratio > 0.6",
+        "bool": true
+      },
+      {
+        "option": "Pleural fluid glucose is higher than serum glucose",
+        "bool": false
+      },
+      {
+        "option": "Protein content of fluid < 30 g/L",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A false negative purified protein derivative (PPD) test is NOT found in which of the following?",
+    "answers": [
+      {
+        "option": "In malnutrition",
+        "bool": false
+      },
+      {
+        "option": "In malignancy",
+        "bool": false
+      },
+      {
+        "option": "In newborns",
+        "bool": false
+      },
+      {
+        "option": "In Human Immunodeficiency Virus (HIV) positive tests",
+        "bool": false
+      },
+      {
+        "option": "Prior Bacille Calmette-Gu\u00e9rin (BCG) vaccination",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Exposure to asbestos will not lead to which of the following?",
+    "answers": [
+      {
+        "option": "Pleural effusion",
+        "bool": false
+      },
+      {
+        "option": "Interstitial fibrosis",
+        "bool": false
+      },
+      {
+        "option": "Bronchogenic cancer",
+        "bool": false
+      },
+      {
+        "option": "Mesothelioma",
+        "bool": false
+      },
+      {
+        "option": "Asthma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "The radiograph of a 31-year-old patient shows bilateral reticulonodular opacities in the subpleural regions of the lower lobes. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Chronic bronchitis",
+        "bool": false
+      },
+      {
+        "option": "Congestive heart failure",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary embolism",
+        "bool": false
+      },
+      {
+        "option": "Bronchial asthma",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic pulmonary fibrosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the most common site of lung cancer metastasis?",
+    "answers": [
+      {
+        "option": "Liver",
+        "bool": false
+      },
+      {
+        "option": "Adrenals",
+        "bool": false
+      },
+      {
+        "option": "Brain",
+        "bool": false
+      },
+      {
+        "option": "Bone",
+        "bool": false
+      },
+      {
+        "option": "Hilar lymph nodes",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following are avoided during chronic obstructive pulmonary disease (COPD)?",
+    "answers": [
+      {
+        "option": "Non-steroidal anti-inflammatory drugs",
+        "bool": true
+      },
+      {
+        "option": "Anticholinergics",
+        "bool": false
+      },
+      {
+        "option": "Long-acting beta-agonists",
+        "bool": false
+      },
+      {
+        "option": "Inhaled corticosteroids",
+        "bool": false
+      },
+      {
+        "option": "Short-acting beta-agonists",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 35-year-old female brings her pleural fluid analysis report, which shows the exudative nature of pleural fluid with a high amylase level. She gives a history of upper abdominal pain and vomiting in the recent past. She also had pulmonary tuberculosis 10 years ago. She has now developed pleural effusion. What is the most likely cause of her current condition?",
+    "answers": [
+      {
+        "option": "Tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Malignancy",
+        "bool": false
+      },
+      {
+        "option": "Systemic lupus erythematosus",
+        "bool": false
+      },
+      {
+        "option": "Acute pancreatitis",
+        "bool": true
+      },
+      {
+        "option": "Acute cholecystitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 54-year-old man with obesity marks on his abdomen presents with dyspnea and chest pain. He has a history of paraneoplastic syndrome. After suitable investigations, the doctor diagnoses him with lung cancer. Which type of lung cancer is most likely present in this patient?",
+    "answers": [
+      {
+        "option": "Large cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Carcinoid tumor",
+        "bool": false
+      },
+      {
+        "option": "Adenocarcinoma",
+        "bool": false
+      },
+      {
+        "option": "Small cell carcinoma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A young female presented with a low-grade fever and dry cough for the past 6 months. On examination, there were bilateral fine crepitations. Investigations showed increased serum calcium levels and bilateral hilar lymphadenopathy on chest X-ray. What is the most probable diagnosis for this lady?",
+    "answers": [
+      {
+        "option": "Lymphoma",
+        "bool": false
+      },
+      {
+        "option": "Lung cancer",
+        "bool": false
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": true
+      },
+      {
+        "option": "Pulmonary tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Interstitial pneumonitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is not associated with sarcoidosis?",
+    "answers": [
+      {
+        "option": "Hypocalcemia",
+        "bool": true
+      },
+      {
+        "option": "Erythema nodosum",
+        "bool": false
+      },
+      {
+        "option": "Arthralgia",
+        "bool": false
+      },
+      {
+        "option": "Cardiac arrhythmias",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve palsies",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is not associated with chronic obstructive pulmonary disease (COPD)?",
+    "answers": [
+      {
+        "option": "Chronic liver disease",
+        "bool": true
+      },
+      {
+        "option": "Metabolic syndrome",
+        "bool": false
+      },
+      {
+        "option": "Osteoporosis",
+        "bool": false
+      },
+      {
+        "option": "Muscle wasting",
+        "bool": false
+      },
+      {
+        "option": "Depression",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following histological findings will be observed in sarcoidosis?",
+    "answers": [
+      {
+        "option": "Tuberculoma",
+        "bool": false
+      },
+      {
+        "option": "Caseating granuloma",
+        "bool": false
+      },
+      {
+        "option": "Coin lesions",
+        "bool": false
+      },
+      {
+        "option": "Non-caseating granuloma",
+        "bool": true
+      },
+      {
+        "option": "Bird-beak appearance",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 24-year-old asthmatic lady becomes pregnant. On examination, she has severe bilateral bronchospasm. Which of the following complications might she develop due to uncontrolled asthma?",
+    "answers": [
+      {
+        "option": "Intrauterine growth retardation",
+        "bool": false
+      },
+      {
+        "option": "Fetal cardiac defects",
+        "bool": false
+      },
+      {
+        "option": "Post date delivery",
+        "bool": false
+      },
+      {
+        "option": "Maternal eclampsia",
+        "bool": true
+      },
+      {
+        "option": "Spina bifida",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 35-year-old female presents to the outpatient department with progressive shortness of breath and dry cough. She has a history of red eyes as well. Chest X-Ray shows bilateral hilar lymphadenopathy, widespread pulmonary lines, and honeycombing. Which of the following is the best diagnostic test?",
+    "answers": [
+      {
+        "option": "Chest high-resolution CT (HRCT)",
+        "bool": false
+      },
+      {
+        "option": "Serum ACE level",
+        "bool": false
+      },
+      {
+        "option": "Bronchoalveolar lavage",
+        "bool": false
+      },
+      {
+        "option": "Lung biopsy",
+        "bool": true
+      },
+      {
+        "option": "Pulmonary function test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 45-year-old female presents to the outpatient department with progressive shortness of breath and dry cough. She has a history of joint pain and red eyes as well. Chest X-ray shows bilateral hilar lymphadenopathy, widespread pulmonary lines, and honeycombing. Which of the following would the patient be suffering from?",
+    "answers": [
+      {
+        "option": "Alveolar cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Pneumoconiosis",
+        "bool": false
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": true
+      },
+      {
+        "option": "Cryptogenic fibrosing alveolitis",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 65-year-old known case of chronic obstructive pulmonary disease (COPD) and bronchiectasis is admitted to the intensive care unit with fever and shortness of breath. The patient is put on a mechanical ventilator. He then develops bronchopneumonia. What is the suitable choice of antibiotic to be used?",
+    "answers": [
+      {
+        "option": "Ceftazidime and ciprofloxacin",
+        "bool": true
+      },
+      {
+        "option": "Penicillin and aminoglycoside",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Ciprofloxacillin and aminoglycoside",
+        "bool": false
+      },
+      {
+        "option": "Ceftazidime and aminoglycoside",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 70-year-old male presents with high-grade fever and chest pain. Examination shows bronchial breathing affecting the right lower part suggesting consolidation. Which of the following will be used for severity assessment?",
+    "answers": [
+      {
+        "option": "Bilateral lower lobe involvement",
+        "bool": false
+      },
+      {
+        "option": "Age > 65",
+        "bool": false
+      },
+      {
+        "option": "CURB-65",
+        "bool": true
+      },
+      {
+        "option": "ABG with SaO2 < 92%",
+        "bool": false
+      },
+      {
+        "option": "ABG with PaO2 < 8K Pa",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 12-year-old boy came to the emergency department with complaints of abrupt onset of high fever with shaking chills, productive cough, and mucopurulent sputum. On gram stain, numerous pus cells with gram-positive lancet-shaped diplococci were observed. Which of the following is the most likely organism?",
+    "answers": [
+      {
+        "option": "Legionella pneumophila",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
+      },
+      {
+        "option": "Hemophilus influenzae",
+        "bool": false
+      },
+      {
+        "option": "Moraxella catarrhalis",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 2-year-old girl is brought to the emergency room with complaints of high-grade fever, noisy breathing, and drooling for 1 day. On examination, temperature = 104\u00b0F and respiratory rate = 60/min. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Peritonsillar abscess",
+        "bool": false
+      },
+      {
+        "option": "Acute laryngeotracheobronchtis",
+        "bool": false
+      },
+      {
+        "option": "Spasmodic croup",
+        "bool": false
+      },
+      {
+        "option": "Epiglottitis",
+        "bool": true
+      },
+      {
+        "option": "Bacterial tracheitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 26-year-old housewife develops a high-grade fever, cough with purulent sputum, and pleuritic type of chest pain. The lady was previously in a good state of health. What is the most probable diagnosis?",
+    "answers": [
+      {
+        "option": "Bacterial pneumonia",
+        "bool": true
+      },
+      {
+        "option": "Pulmonary tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": false
+      },
+      {
+        "option": "Acute exacerbation of chronic bronchitis",
+        "bool": false
+      },
+      {
+        "option": "Bronchiectasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 26-year-old woman comes to the hospital due to dyspnea on mild exertion. The patient has no other medical conditions or addictions and is not currently on any medication. Her mother had similar symptoms and died at the age of 42 years. After an extensive workup, a lung biopsy is performed which shows medial hypertrophy, intimal fibrosis, and decreased intraluminal diameter of small branches of the pulmonary artery. Which of the following best describes this condition?",
+    "answers": [
+      {
+        "option": "Asthma",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary hypertension",
+        "bool": true
+      },
+      {
+        "option": "Chronic obstructive pulmonary disease",
+        "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": false
+      },
+      {
+        "option": "Bronchiectasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 4-year-old boy has a 1-month history of recurrent cough with wheezing. There is no history of previous similar complaints and no family history of asthma or tuberculosis. Examination shows enlarged cervical nodes and bronchi. Chest X-Ray shows air trapping on the right side during inspiration. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Foreign body aspiration",
+        "bool": true
+      },
+      {
+        "option": "Reactive airway disease",
+        "bool": false
+      },
+      {
+        "option": "Gastro esophageal reflux",
+        "bool": false
+      },
+      {
+        "option": "Nodal tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Right middle lobe syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 40-year-old known asthmatic patient is brought to the emergency room due to severe exacerbation of asthma. He must be given oxygen and frequent administration of corticosteroid with which of the following?",
+    "answers": [
+      {
+        "option": "Cromolyn",
+        "bool": false
+      },
+      {
+        "option": "Zileuton",
+        "bool": false
+      },
+      {
+        "option": "Ipratropium",
+        "bool": false
+      },
+      {
+        "option": "Salbutamol",
+        "bool": true
+      },
+      {
+        "option": "Epinephrine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 3-year-old boy is brought with complaints of difficulty in breathing, noisy harsh sounds produced during inspiration, and high-grade fever for 2 days. What will be the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Laryngitis",
+        "bool": false
+      },
+      {
+        "option": "Bacterial tracheitis",
+        "bool": false
+      },
+      {
+        "option": "Foreign body inhalation",
+        "bool": false
+      },
+      {
+        "option": "Acute laryngotracheobronchitis (croup)",
+        "bool": false
+      },
+      {
+        "option": "Epiglottitis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 6-year-old male child is brought to the emergency room because of recurrent wheezing. He is on inhaled steroids. His mother gives a history that he has daytime symptoms> 2/week and nighttime symptoms > 2/months. On spirometry, his FEV is > 80% with a PEF variability of 30%. He gets diagnosed with asthma. What is the classification of severity of asthma in this patient?",
+    "answers": [
+      {
+        "option": "Cough variant asthma",
+        "bool": false
+      },
+      {
+        "option": "Mild persistent asthma",
+        "bool": true
+      },
+      {
+        "option": "Severe persistent asthma",
+        "bool": false
+      },
+      {
+        "option": "Mild intermittent asthma",
+        "bool": false
+      },
+      {
+        "option": "Moderate persistent asthma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 6-year-old child has a sudden onset of dyspnea with wheezing. On physical examination, he is afebrile but has absent breath sounds on the right. His temperature = 37 \u00b0C, pulse = 82/minute, respiratory rate = 28/minute, and blood pressure = 100/60 mm Hg. An arterial blood gas measurement shows pO2 = 95 mm Hg, pCO2 = 25 mm Hg, and pH = 7.55. Following the administration of 100% FiO2 by nasal canula, a repeat measurement shows pO2 = 95 mm Hg, pCO2 = 25 mm Hg, and pH = 7.55. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Thromboembolism",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary edema",
+        "bool": false
+      },
+      {
+        "option": "Paraseptal emphysema",
+        "bool": false
+      },
+      {
+        "option": "Foreign body aspiration",
+        "bool": true
+      },
+      {
+        "option": "Bronchial asthma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 65-year-old man comes to the emergency department due to the sudden onset of shortness of breath and chest pain that started a few hours ago. He has been immobilized due to left leg pain and calf swelling for the past 30 days. The patient has no other medical condition, no addiction, and takes no medication. His temperature = 36 \u00b0C, blood pressure = 80/60, pulse = 112 min, respiratory rate = 30/min. Chest X-Ray reveals a wedge shaped infiltrate. Which of the following best describes this condition?",
+    "answers": [
+      {
+        "option": "Pulmonary embolism",
+        "bool": true
+      },
+      {
+        "option": "Asthma",
+        "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary hypertension",
+        "bool": false
+      },
+      {
+        "option": "Chronic obstructive pulmonary diease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A middle-aged male presents with a two-week history of severe shortness of breath and fever. On examination, he is cyanosed with bilateral coarse crepitations all over the chest. Chest X-Ray shows bilateral lung infiltrates, with O2 saturation of 88% on room air. What is the next best investigation as part of management?",
+    "answers": [
+      {
+        "option": "High resolution CT",
+        "bool": true
+      },
+      {
+        "option": "ESR and CRP",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      },
+      {
+        "option": "Arterial blood gases",
+        "bool": false
+      },
+      {
+        "option": "Bronchoscopy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A patient is taking some kind of RNA synthesis inhibitor for the treatment of a mycobacterium infection. They return back to the clinic extremely worried about recent events. They claim their urine, saliva, sweat, tears, and feces are all reddish-orange in color. What drug is the patient most likely to be taking?",
+    "answers": [
+      {
+        "option": "Cycloserine",
+        "bool": false
+      },
+      {
+        "option": "Streptomycin",
+        "bool": false
+      },
+      {
+        "option": "Isoniazide",
+        "bool": false
+      },
+      {
+        "option": "Ethambutol",
+        "bool": false
+      },
+      {
+        "option": "Rifampin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 20-year-old thin, tall boy presented to the emergency room with sudden onset of cough, severe shortness of breath, and chest pain. He recently arrived from the USA after a 16-hour flight. Immediate chest X-Ray was advised with the suspicion of pneumothorax. Which chest examination finding best reveals pneumothorax?",
+    "answers": [
+      {
+        "option": "Increased chest movements on the affected side",
+        "bool": false
+      },
+      {
+        "option": "Resonant percussion note on the affected side",
+        "bool": false
+      },
+      {
+        "option": "Dull percussion note on the affected side",
+        "bool": false
+      },
+      {
+        "option": "Hyper-resonant percussion note on the affected side",
+        "bool": true
+      },
+      {
+        "option": "Increased breath sounds on auscultation on the affected side",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 20-year-old female presents with shortness of breath. On auscultation, bilateral rhonchi are audible. Spirometry shows an obstructive pattern with complete reversibility after bronchoconstriction. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Coal worker pneumoconiosis",
+        "bool": false
+      },
+      {
+        "option": "Silicosis",
+        "bool": false
+      },
+      {
+        "option": "COPD",
+        "bool": false
+      },
+      {
+        "option": "Bronchial asthma",
+        "bool": true
+      },
+      {
+        "option": "Interstitial lung disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 28-year-old female came with acute shortness of breath for one day. She is experiencing night symptoms for the past 2 months. What is the cause of raised diffusion capacity for carbon monoxide (DLCO) in pulmonary function tests?",
+    "answers": [
+      {
+        "option": "Cardiac failure",
+        "bool": false
+      },
+      {
+        "option": "Interstitial lung disease",
+        "bool": false
+      },
+      {
+        "option": "Asthma",
+        "bool": true
+      },
+      {
+        "option": "Emphysema",
+        "bool": false
+      },
+      {
+        "option": "Obstructive sleep apnea",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 45-year-old male presents in the emergency department with shortness of breath, insidious in onset, and progressive with dry cough. On examination, there is cyanosis, clubbing, and end-inspiratory respiratory crepitation in bilateral lung fields. Which of the following investigation is most appropriate to establish a diagnosis?",
+    "answers": [
+      {
+        "option": "Bronchoalveolar lavage",
+        "bool": false
+      },
+      {
+        "option": "Lung biopsy",
+        "bool": false
+      },
+      {
+        "option": "Chest high-resolution computed tomography (HRCT)",
+        "bool": true
+      },
+      {
+        "option": "Chest X-Ray",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary function test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 50-year-old male patient presents to the outpatient clinic with shortness of breath which is gradual in onset along with dry cough for the last 5 years. On examination, there is the clubbing of fingers and bilateral basal end respiratory crackles are audible. Chest X-Ray shows bilateral lower lobe subpleural reticular shadowing. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Rheumatoid lung",
+        "bool": false
+      },
+      {
+        "option": "Hypersensitivity pneumonitis",
+        "bool": false
+      },
+      {
+        "option": "Lymphangitis carcinomatosis",
+        "bool": false
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic pulmonary fibrosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 70-year-old male patient, a heavy smoker, previously diagnosed case of COPD, has presented with cough, hemoptysis, low-grade fever, significant weight loss, and anorexia. X-ray chest reveals a large, left-sided pleural effusion. Pleural fluid analysis is done which is suggestive of exudative pleural effusion, according to Light's criteria. According to Light's criteria, exudate is likely if which of the following criteria has been met?",
+    "answers": [
+      {
+        "option": "Pleural fluid LDH: serum LDH ratio<0.6",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid protein: serum protein ratio <0.5",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid LDH < two thirds of the upper limit of normal serum LDH",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid LDH: serum LDH ratio<0.3",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid protein: serum protein ratio >0.5",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "An adult male brought his chest X-Ray film having findings highly suggestive of post-primary tuberculosis. Which of the following radiological findings is consistent with that?",
+    "answers": [
+      {
+        "option": "Miliary mottling",
+        "bool": false
+      },
+      {
+        "option": "Apical patchy shadowing",
+        "bool": true
+      },
+      {
+        "option": "Small pleural effusion",
+        "bool": false
+      },
+      {
+        "option": "Gohn's focus",
+        "bool": false
+      },
+      {
+        "option": "Hilar lymphadenopathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "An elderly female is admitted to the intensive care unit (ICU) for acute respiratory distress syndrome on the 4th day of total hip replacement for a fracture of the neck of the femur. Which of the following is the cause of acute respiratory distress syndrome in this patient?",
+    "answers": [
+      {
+        "option": "Infection",
+        "bool": false
+      },
+      {
+        "option": "Thromboembolism",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Disseminated intravascular coagulation",
+        "bool": false
+      },
+      {
+        "option": "Fat embolism",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Caplan syndrome consists of which of the following?",
+    "answers": [
+      {
+        "option": "Berriliosis",
+        "bool": false
+      },
+      {
+        "option": "Pneumoconiosis and rheumatoid arthritis",
+        "bool": true
+      },
+      {
+        "option": "Byssinosis and rheumatoid arthritis",
+        "bool": false
+      },
+      {
+        "option": "Asbestosis and tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Silicosis and tuberculosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Clinical signs and symptoms of pulmonary embolism may mimic myocardial infarction. Which of the following is the most correct method of diagnosing pulmonary embolism?",
+    "answers": [
+      {
+        "option": "Chest X-ray",
+        "bool": false
+      },
+      {
+        "option": "Venography",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary arteriography",
+        "bool": true
+      },
+      {
+        "option": "Radio isotope perfusion pulmonary scintigraphy",
+        "bool": false
+      },
+      {
+        "option": "ECG",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Clinically, chronic obstructive pulmonary disease (COPD) include which of the following?",
+    "answers": [
+      {
+        "option": "Asthma and bronchiectasis",
+        "bool": false
+      },
+      {
+        "option": "Emphysema and asthma",
+        "bool": false
+      },
+      {
+        "option": "Bronchiectasis and emphysema",
+        "bool": false
+      },
+      {
+        "option": "Chronic bronchitis and emphysema",
+        "bool": true
+      },
+      {
+        "option": "Emphysema and bronchiolitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Hypercalcemia is the paraneoplastic syndrome associated with which of the following?",
+    "answers": [
+      {
+        "option": "Small cell carcinoma of lung",
+        "bool": false
+      },
+      {
+        "option": "Carcinoid tumor",
+        "bool": false
+      },
+      {
+        "option": "Large cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Adenocarcinoma",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell cancer",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "If pulmonary function test shows FEV1/FVC ratio less than 0.70 with increased total lung capacity (TLC), then the interpretation would be:",
+    "answers": [
+      {
+        "option": "Mixed pattern",
+        "bool": false
+      },
+      {
+        "option": "Obstructive pattern",
+        "bool": true
+      },
+      {
+        "option": "Normal",
+        "bool": false
+      },
+      {
+        "option": "Non-specific reductions in FEV1 and FVC",
+        "bool": false
+      },
+      {
+        "option": "Restrictive pattern",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "In arterial blood gases, low pH and high CO2 are seen in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Metabolic acidosis",
+        "bool": false
+      },
+      {
+        "option": "Compensatory metabolic alkalosis",
+        "bool": false
+      },
+      {
+        "option": "Metabolic alkalosis",
+        "bool": false
+      },
+      {
+        "option": "Respiratory acidosis",
+        "bool": true
+      },
+      {
+        "option": "Respiratory alkalosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "In tuberculosis, macrophages play an important role in antigen recognition and processing. They activate TH-1 cells through the production of which one of the important cytokines given below?",
+    "answers": [
+      {
+        "option": "Defensins",
+        "bool": false
+      },
+      {
+        "option": "INF- \u0194",
+        "bool": false
+      },
+      {
+        "option": "IL-6",
+        "bool": false
+      },
+      {
+        "option": "TNF",
+        "bool": false
+      },
+      {
+        "option": "IL-12",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Inhaled allergens in atopic asthma elicit TH2-dominated response IgE production and recruitment of which of the following cells?",
+    "answers": [
+      {
+        "option": "Dendritic cells",
+        "bool": false
+      },
+      {
+        "option": "Eosinophils",
+        "bool": true
+      },
+      {
+        "option": "Plasma cells",
+        "bool": false
+      },
+      {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Macrophages",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Inhaled salbutamol is useful in bronchial asthma due to which of the following?",
+    "answers": [
+      {
+        "option": "Suppresses hyper-reactivity",
+        "bool": false
+      },
+      {
+        "option": "Status asthmaticus",
+        "bool": false
+      },
+      {
+        "option": "Aborting/terminating asthma attacks",
+        "bool": true
+      },
+      {
+        "option": "Round the clock prophylaxis of asthma",
+        "bool": false
+      },
+      {
+        "option": "Reduces inflammation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the interpretation of the following spirometry results; FEV1=3.35L (Patient's value); FVC=5.22 L (Patient's value), and FEV1/FVC ratio=0.64?",
+    "answers": [
+      {
+        "option": "Normal",
+        "bool": false
+      },
+      {
+        "option": "Non-specific reductions in FEV1 and FVC",
+        "bool": false
+      },
+      {
+        "option": "Restrictive pattern",
+        "bool": false
+      },
+      {
+        "option": "Obstructive pattern",
+        "bool": true
+      },
+      {
+        "option": "Mixed pattern",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Lung cancers may be associated with paraneoplastic syndromes. Cushing syndrome develops as a paraneoplastic syndrome due to the production of which of the following hormones?",
+    "answers": [
+      {
+        "option": "Calcitonin",
+        "bool": false
+      },
+      {
+        "option": "Gonadotropins",
+        "bool": false
+      },
+      {
+        "option": "Parathormone",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone",
+        "bool": true
+      },
+      {
+        "option": "Anti diuretic hormone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 55-year-old patient with chronic obstructive pulmonary disease (COPD) is admitted with a complaint of increased shortness of breath, fever and cough. He was treated with antibiotics, bronchodilators and oxygen. On discharge, his resting SaO2 was 80%. Which of the following is the only drug therapy known to cause improvement in the natural history?",
+    "answers": [
+      {
+        "option": "Oxygen therapy",
+        "bool": false
+      },
+      {
+        "option": "Inhaled bronchodilators",
+        "bool": false
+      },
+      {
+        "option": "Smoking cessation",
+        "bool": true
+      },
+      {
+        "option": "Theophylline",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroids",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following medium is used to grow Mycobacterium tuberculosis?",
+    "answers": [
+      {
+        "option": "McConkeys Agar",
+        "bool": false
+      },
+      {
+        "option": "Triple sugar iron test",
+        "bool": false
+      },
+      {
+        "option": "L\u00f6wenstein-Jensen medium",
+        "bool": true
+      },
+      {
+        "option": "Blood agar",
+        "bool": false
+      },
+      {
+        "option": "Luria broth",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "The most common association of pneumothorax is:",
+    "answers": [
+      {
+        "option": "Bronchiolitis",
+        "bool": false
+      },
+      {
+        "option": "Chronic bronchiolitis",
+        "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": true
+      },
+      {
+        "option": "Mesothelioma",
+        "bool": false
+      },
+      {
+        "option": "Adenocarcinoma of the lung",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Mycobacterium tuberculosis resides in which of the following?",
+    "answers": [
+      {
+        "option": "Basophils",
+        "bool": false
+      },
+      {
+        "option": "Lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Macrophages",
+        "bool": true
+      },
+      {
+        "option": "Eosinophils",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "On the 11th day of operation of adenocarcinoma of the prostate, a 70-year-old man suddenly became extremely dyspneic and diaphoretic, with chest pain, palpitations, and a feeling of panic. Which of the following postoperative pulmonary complications is most likely to develop?",
+    "answers": [
+      {
+        "option": "Atelectasis",
+        "bool": false
+      },
+      {
+        "option": "Pleural effusion",
+        "bool": false
+      },
+      {
+        "option": "Thromboembolus",
+        "bool": true
+      },
+      {
+        "option": "Diffuse alveolar damage",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary edema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 4-year-old boy is brought to you with complaints of fever and cough, persistent for the past 6 weeks, and has lost his weight in this period. On examination, of the chest, crepitations and a wheeze are audible on the right side of the chest. Labs show hemoglobin (Hb) of 9 gm/dl, erythrocyte sedimentation rate (ESR) of 60 mm/hr, and induration in Mycobacterium tuberculin (MT) test is 11 mm. How will you treat?",
+    "answers": [
+      {
+        "option": "Broad spectrum antibiotic with antipyretic",
+        "bool": false
+      },
+      {
+        "option": "Antipyretic with antiallergy for 6 months",
+        "bool": false
+      },
+      {
+        "option": "12 months of antituberculous therapy",
+        "bool": false
+      },
+      {
+        "option": "6 months of antituberculous therapy",
+        "bool": true
+      },
+      {
+        "option": "Broad spectrum antibiotic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is a key component of photochemical smog?",
+    "answers": [
+      {
+        "option": "Ozone layer in upper atmosphere",
+        "bool": false
+      },
+      {
+        "option": "Hydrocarbons",
+        "bool": false
+      },
+      {
+        "option": "Particulate matter",
+        "bool": false
+      },
+      {
+        "option": "Ozone at ground level",
+        "bool": true
+      },
+      {
+        "option": "Biological pollutants",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Pleural plaque is the most common manifestation of exposure to which of the following?",
+    "answers": [
+      {
+        "option": "Silica",
+        "bool": false
+      },
+      {
+        "option": "Radiation",
+        "bool": false
+      },
+      {
+        "option": "Coal",
+        "bool": false
+      },
+      {
+        "option": "Asbestos",
+        "bool": true
+      },
+      {
+        "option": "Beryllium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Regarding laryngeotracheobronchitis, the most frequently observed radiological finding is:",
+    "answers": [
+      {
+        "option": "Thickened nasopharyngeal space",
+        "bool": false
+      },
+      {
+        "option": "Ragged tracheal border",
+        "bool": false
+      },
+      {
+        "option": "Thumb sign at epiglottis",
+        "bool": false
+      },
+      {
+        "option": "Steeple sign",
+        "bool": true
+      },
+      {
+        "option": "Normal",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Regarding occupational health, genetic changes are caused by:",
+    "answers": [
+      {
+        "option": "Ingestion of mercury",
+        "bool": false
+      },
+      {
+        "option": "Silica",
+        "bool": false
+      },
+      {
+        "option": "Radioactive radiations",
+        "bool": true
+      },
+      {
+        "option": "Noise",
+        "bool": false
+      },
+      {
+        "option": "Poor lighting",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Regarding the morphology of sarcoidosis, which of the following is correct?",
+    "answers": [
+      {
+        "option": "Schaumann bodies are pathognomonic for sarcoid",
+        "bool": false
+      },
+      {
+        "option": "Lymph node involvement is rare",
+        "bool": false
+      },
+      {
+        "option": "Central necrosis is common",
+        "bool": false
+      },
+      {
+        "option": "Asteroid bodies enclosed within giant cells are present",
+        "bool": true
+      },
+      {
+        "option": "Only the lung shows the classic granulomas",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Rifampin is not indicated in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Staphylococcus osteomyelitis",
+        "bool": false
+      },
+      {
+        "option": "Leprosy",
+        "bool": false
+      },
+      {
+        "option": "Hemophilus influenzae",
+        "bool": false
+      },
+      {
+        "option": "Plaque",
+        "bool": true
+      },
+      {
+        "option": "Endocarditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Secondary mycobacterial infection should always be an important consideration in HIV-positive patients who present with pulmonary disease. Which of the following is the most common causative organism of this condition?",
+    "answers": [
+      {
+        "option": "M. kansasi",
+        "bool": false
+      },
+      {
+        "option": "M. avium complex",
+        "bool": false
+      },
+      {
+        "option": "M. scrofulaceum",
+        "bool": false
+      },
+      {
+        "option": "M. leprae",
+        "bool": false
+      },
+      {
+        "option": "M. tuberculosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following drugs is neither a bronchodilator nor an anti-inflammatory but has antihistaminic and mast cell stabilizing activity?",
+    "answers": [
+      {
+        "option": "Beclomethasone dipropionate",
+        "bool": false
+      },
+      {
+        "option": "Ketotifen",
+        "bool": true
+      },
+      {
+        "option": "Sodium cromoglycate",
+        "bool": false
+      },
+      {
+        "option": "Chlorpheniramine",
+        "bool": false
+      },
+      {
+        "option": "Ipratropium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is the most serious adverse event associated with ethambutol?",
+    "answers": [
+      {
+        "option": "Hepatitis",
+        "bool": false
+      },
+      {
+        "option": "Nephritis",
+        "bool": false
+      },
+      {
+        "option": "Psychotic reaction",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow suppression",
+        "bool": false
+      },
+      {
+        "option": "Optic neuritis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Smoking is associated with which of the following subtypes of emphysema?",
+    "answers": [
+      {
+        "option": "Distal acinar",
+        "bool": false
+      },
+      {
+        "option": "Paraseptal acinar",
+        "bool": false
+      },
+      {
+        "option": "Panacinar",
+        "bool": false
+      },
+      {
+        "option": "Septal acinar",
+        "bool": false
+      },
+      {
+        "option": "Centriacinar",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Some of the pulmonary disorders are characterized by irreversible enlargement of air spaces distal to terminal bronchioles accompanied by destruction of their walls and without any obvious fibrosis. Which of the following conditions best characterizes the above statement?",
+    "answers": [
+      {
+        "option": "Asthma",
+        "bool": false
+      },
+      {
+        "option": "Bronchitis",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic pulmonary fibrosis",
+        "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": true
+      },
+      {
+        "option": "Bronchiectasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Spirometry is a clinical test used to assess the severity of diffuse pulmonary diseases that could be obstructive or restrictive. In which one of the following conditions is there a proportionate decrease in total lung capacity and forced expiratory volume in 1 sec (FEV1/FCV = normal)?",
+    "answers": [
+      {
+        "option": "Bronchiectasis",
+        "bool": false
+      },
+      {
+        "option": "Chronic bronchitis",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic pulmonary fibrosis",
+        "bool": true
+      },
+      {
+        "option": "Bronchiolitis",
+        "bool": false
+      },
+      {
+        "option": "Bronchial asthma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the amount of air a person can breathe in beginning at the normal expiratory level and distending the lungs to the maximum amount?",
+    "answers": [
+      {
+        "option": "Total lung capacity",
+        "bool": false
+      },
+      {
+        "option": "Expiratory capacity",
+        "bool": false
+      },
+      {
+        "option": "Inspiratory capacity",
+        "bool": true
+      },
+      {
+        "option": "Vital capacity",
+        "bool": false
+      },
+      {
+        "option": "Functional residual capacity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "The DNA damage due to radicals formed as a result of radiation is an example of which of the following?",
+    "answers": [
+      {
+        "option": "Indirect damage",
+        "bool": true
+      },
+      {
+        "option": "Splitting of chemical bonds",
+        "bool": false
+      },
+      {
+        "option": "Direct damage",
+        "bool": false
+      },
+      {
+        "option": "Accidental damage",
+        "bool": false
+      },
+      {
+        "option": "Threshold level damage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is a long-acting \u03b22-adrenergic agonist?",
+    "answers": [
+      {
+        "option": "Metaproterenol",
+        "bool": false
+      },
+      {
+        "option": "Salmeterol",
+        "bool": true
+      },
+      {
+        "option": "Terbutaline",
+        "bool": false
+      },
+      {
+        "option": "Albuterol",
+        "bool": false
+      },
+      {
+        "option": "Pirbuterol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the extra volume of air that can be expired above the tidal volume, upon full expiration, called?",
+    "answers": [
+      {
+        "option": "Expiratory reserve volume",
+        "bool": true
+      },
+      {
+        "option": "Inspiratory reserve volume",
+        "bool": false
+      },
+      {
+        "option": "Alveolar volume",
+        "bool": false
+      },
+      {
+        "option": "Residual volume",
+        "bool": false
+      },
+      {
+        "option": "Tidal volume",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of these is a life-saving drug given parenterally in severe status asthmaticus that will act by inhibiting phospholipase A2?",
+    "answers": [
+      {
+        "option": "Prednisone",
+        "bool": true
+      },
+      {
+        "option": "Salbutamol",
+        "bool": false
+      },
+      {
+        "option": "Aminophylline",
+        "bool": false
+      },
+      {
+        "option": "Epinephrine",
+        "bool": false
+      },
+      {
+        "option": "Metaproterenol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is the most important cause of panacinar (panlobular) emphysema?",
+    "answers": [
+      {
+        "option": "Air pollution",
+        "bool": false
+      },
+      {
+        "option": "Cigarette smoking",
+        "bool": false
+      },
+      {
+        "option": "Occupational dust",
+        "bool": false
+      },
+      {
+        "option": "Alpha 1 antitrypsin deficiency",
+        "bool": true
+      },
+      {
+        "option": "Infection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 16-year-old tall male comes with sudden shortness of breath while he is playing football. His examination reveals, decreased air entry, hyper resonant percussion note with absent breath sound on the left side of the chest. Which of the following chest X-ray views should be requested to assess the lung pathology?",
+    "answers": [
+      {
+        "option": "Later decubitus view",
+        "bool": false
+      },
+      {
+        "option": "Inspiratory A/P view",
+        "bool": false
+      },
+      {
+        "option": "Superior A/P view",
+        "bool": false
+      },
+      {
+        "option": "Chest X-Ray P/A view",
+        "bool": false
+      },
+      {
+        "option": "Expiratory P/A view",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A young girl complains of a nocturnal cough and shortness of breath, which disturbs her sleep. A diagnosis of bronchial asthma is made. The most important investigation to confirm this diagnosis is?",
+    "answers": [
+      {
+        "option": "X-Ray chest",
+        "bool": false
+      },
+      {
+        "option": "Lung function test",
+        "bool": true
+      },
+      {
+        "option": "Sputum examination",
+        "bool": false
+      },
+      {
+        "option": "Serum IgG level",
+        "bool": false
+      },
+      {
+        "option": "Eosinophil count",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which HLA subtype is involved in the development of sarcoidosis?",
+    "answers": [
+      {
+        "option": "HLA-B27",
+        "bool": false
+      },
+      {
+        "option": "HLA-A2",
+        "bool": false
+      },
+      {
+        "option": "HLA-B8",
+        "bool": true
+      },
+      {
+        "option": "HLA-A3",
+        "bool": false
+      },
+      {
+        "option": "HLA-B1",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 25-year-old male presents with a one-week history of cough and fever. On examination, he has signs of consolidation. Which of the following signs is more specific for consolidation?",
+    "answers": [
+      {
+        "option": "Decreased chest movement on affected side",
+        "bool": false
+      },
+      {
+        "option": "Dull percussion note",
+        "bool": true
+      },
+      {
+        "option": "Mediastinal shifting",
+        "bool": false
+      },
+      {
+        "option": "Bronchial breathing",
+        "bool": false
+      },
+      {
+        "option": "Fine crepitation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the maximum volume of air that can be expelled after normal expiration?",
+    "answers": [
+      {
+        "option": "Inspiratory reserve volume",
+        "bool": false
+      },
+      {
+        "option": "Functional residual capacity",
+        "bool": false
+      },
+      {
+        "option": "Residual volume",
+        "bool": false
+      },
+      {
+        "option": "Tidal volume",
+        "bool": false
+      },
+      {
+        "option": "Expiratory reserve volume",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is false about transudative effusion?",
+    "answers": [
+      {
+        "option": "Protein content is <3 g/dL",
+        "bool": false
+      },
+      {
+        "option": "Appearance is colourless",
+        "bool": false
+      },
+      {
+        "option": "Occurs mostly in congestive heart failure",
+        "bool": false
+      },
+      {
+        "option": "Specific gravity is <1.015",
+        "bool": false
+      },
+      {
+        "option": "Serum LDH ratio is >0.6",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is not a feature of transudative pleural effusion?",
+    "answers": [
+      {
+        "option": "Specific gravity of fluid is less than 1.102",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid to serum protein ratio < 0.5",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid to serum LDH ratio < 0.6",
+        "bool": false
+      },
+      {
+        "option": "Pleural fluid LDH < 2/3 Serum LDH Upper Limit of Normal",
+        "bool": false
+      },
+      {
+        "option": "Protein content is > 3 g/dl",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the medical term for the yellow, creamy pus in the pleural cavity?",
+    "answers": [
+      {
+        "option": "Emphysema",
+        "bool": false
+      },
+      {
+        "option": "Pleural exudate",
+        "bool": false
+      },
+      {
+        "option": "Empyema",
+        "bool": true
+      },
+      {
+        "option": "Pleural transudate",
+        "bool": false
+      },
+      {
+        "option": "Pustule",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Pulmonary edema does not occur in which of the following?",
+    "answers": [
+      {
+        "option": "Burns",
+        "bool": false
+      },
+      {
+        "option": "Sepsis",
+        "bool": false
+      },
+      {
+        "option": "Breast cancer",
+        "bool": true
+      },
+      {
+        "option": "Adverse reaction to certain medications",
+        "bool": false
+      },
+      {
+        "option": "Pneumonia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Mycobacterium tuberculosis can be cultured in which medium?",
+    "answers": [
+      {
+        "option": "Chocolate agar",
+        "bool": false
+      },
+      {
+        "option": "Streptococcuseosin methylene blue (EMB)",
+        "bool": false
+      },
+      {
+        "option": "None of the above",
+        "bool": false
+      },
+      {
+        "option": "Blood agar",
+        "bool": false
+      },
+      {
+        "option": "L\u00f6wenstein\u2013Jensen",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What stain is used for Mycobacterium tuberculosis?",
+    "answers": [
+      {
+        "option": "Congo red capsule stain",
+        "bool": false
+      },
+      {
+        "option": "Hematoxylin and eosin stain",
+        "bool": false
+      },
+      {
+        "option": "Endospore stain",
+        "bool": false
+      },
+      {
+        "option": "Ziehl\u2013Neelsen stain",
+        "bool": true
+      },
+      {
+        "option": "Gram-negative stain",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is an interferon-gamma release assay used to diagnose?",
+    "answers": [
+      {
+        "option": "Bacterial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis disease",
+        "bool": false
+      },
+      {
+        "option": "Latent tuberculosis infection",
+        "bool": true
+      },
+      {
+        "option": "Atypical pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis infection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is true about transudative effusion?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Protein content is >2.5 g/dL",
+        "bool": false
+      },
+      {
+        "option": "Specific gravity of fluid is more than 1.102",
+        "bool": false
+      },
+      {
+        "option": "Serum LDH ratio is >0.6",
+        "bool": false
+      },
+      {
+        "option": "Protein content is <2.5 g/dL",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is the correct Light's criteria for LDH serum ratio in exudative pleural effusion?",
+    "answers": [
+      {
+        "option": "Greater than 0.6 IU/ml",
+        "bool": true
+      },
+      {
+        "option": "Less than 0.4 IU/ml",
+        "bool": false
+      },
+      {
+        "option": "Less than 0.6 IU/ml",
+        "bool": false
+      },
+      {
+        "option": "Less than 0.5 IU/ml",
+        "bool": false
+      },
+      {
+        "option": "Greater than 0.5 IU/ml",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which type of pneumonia is seen in patients that have a weakened immune system due to the human immunodeficiency virus (HIV)?",
+    "answers": [
+      {
+        "option": "Bronchopneumonia",
+        "bool": false
+      },
+      {
+        "option": "Interstitial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Aspiration pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Pneumocystis pneumonia",
+        "bool": true
+      },
+      {
+        "option": "Lobar pneumonia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "When is a gastric lavage contraindicated?",
+    "answers": [
+      {
+        "option": "Corrosive poisoning",
+        "bool": true
+      },
+      {
+        "option": "Blood meal",
+        "bool": false
+      },
+      {
+        "option": "Aspirin overdose",
+        "bool": false
+      },
+      {
+        "option": "Carbolic acid poisioning",
+        "bool": false
+      },
+      {
+        "option": "Iron tablet overdose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "ICU admission for a patient with pneumonia is indicated with which CURB-65 score?",
+    "answers": [
+      {
+        "option": "3 or more",
+        "bool": true
+      },
+      {
+        "option": "3",
+        "bool": false
+      },
+      {
+        "option": "4 or more",
+        "bool": false
+      },
+      {
+        "option": "1",
+        "bool": false
+      },
+      {
+        "option": "2",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 25-year-old man suffering from a respiratory illness is advised by the doctor to get a chest X-ray. There are pleural plaques seen on his x-ray. These plaques are indicative of which disease?",
+    "answers": [
+      {
+        "option": "Pleural effusion",
+        "bool": false
+      },
+      {
+        "option": "Pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Asbestosis",
+        "bool": true
+      },
+      {
+        "option": "Small cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Pneumothorax",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "In which of the following diseases fibrosis on lung CT is initially seen in subpleural patches, but eventually results in diffuse fibrosis with end-stage 'honeycomb' lung?",
+    "answers": [
+      {
+        "option": "Silicosis",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic pulmonary fibrosis",
+        "bool": true
+      },
+      {
+        "option": "Pneumoconioses",
+        "bool": false
+      },
+      {
+        "option": "Hypersensitivity pneumonitis",
+        "bool": false
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following investigations are done to confirm tuberculosis?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "3 morning sputum samples taken for sputum culture",
+        "bool": true
+      },
+      {
+        "option": "Purified protein derivative skin test",
+        "bool": false
+      },
+      {
+        "option": "Lung biopsy",
+        "bool": false
+      },
+      {
+        "option": "Sputum staining",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the best first-line diagnostic test for pulmonary embolism?",
+    "answers": [
+      {
+        "option": "Computerized tomography (CT) pulmonary angiography",
+        "bool": true
+      },
+      {
+        "option": "Chest x-ray",
+        "bool": false
+      },
+      {
+        "option": "Arterial blood gases",
+        "bool": false
+      },
+      {
+        "option": "Coagulation profile",
+        "bool": false
+      },
+      {
+        "option": "Electrocardiography",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 27-year-old patient got a chest X-ray which showed a round thick-walled cavity with an air-fluid level, and surrounding consolidation. Which of the following is the most likely cause of this patient's condition?",
+    "answers": [
+      {
+        "option": "Aspiration pneumonia",
+        "bool": true
+      },
+      {
+        "option": "Trauma",
+        "bool": false
+      },
+      {
+        "option": "Lung infection",
+        "bool": false
+      },
+      {
+        "option": "Foreign body inhalation",
+        "bool": false
+      },
+      {
+        "option": "Antecedent infection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is not associated with triggering or increasing the risk of developing asthma?",
+    "answers": [
+      {
+        "option": "Childhood respiratory syncytial virus infection",
+        "bool": false
+      },
+      {
+        "option": "Childhood tuberculosis infection",
+        "bool": false
+      },
+      {
+        "option": "Parental asthma",
+        "bool": false
+      },
+      {
+        "option": "Formula feeding instead of breastmilk",
+        "bool": false
+      },
+      {
+        "option": "Low population density",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is a triggering factor for asthma?",
+    "answers": [
+      {
+        "option": "Childhood respiratory syncytial virus (RSV) infection",
+        "bool": true
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Childhood infection with parasites",
+        "bool": false
+      },
+      {
+        "option": "The predominance of lactobacilli in the gut",
+        "bool": false
+      },
+      {
+        "option": "Living on farm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following methods is used to make a diagnosis of sarcoidosis?",
+    "answers": [
+      {
+        "option": "Sputum culture",
+        "bool": false
+      },
+      {
+        "option": "Chest x-ray",
+        "bool": false
+      },
+      {
+        "option": "Gastric lavage",
+        "bool": false
+      },
+      {
+        "option": "Transbronchial biopsy",
+        "bool": true
+      },
+      {
+        "option": "Bronchoalveolar lavage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following radiological methods is the best way to diagnose desquamative interstitial pneumonia?",
+    "answers": [
+      {
+        "option": "Ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Fluoroscopy",
+        "bool": false
+      },
+      {
+        "option": "High-resolution computed tomography (HRCT)",
+        "bool": true
+      },
+      {
+        "option": "Magnetic resonance imaging",
+        "bool": false
+      },
+      {
+        "option": "Chest x-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following best describes the radiological findings in the case of desquamative interstitial pneumonia?",
+    "answers": [
+      {
+        "option": "Diffuse interstitial infiltrates",
+        "bool": true
+      },
+      {
+        "option": "Honeycomb-like appearance",
+        "bool": false
+      },
+      {
+        "option": "Multifocal consolidation",
+        "bool": false
+      },
+      {
+        "option": "Fibrosis",
+        "bool": false
+      },
+      {
+        "option": "Scattered, patchy consolidation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the mechanism of action of corticosteroids?",
+    "answers": [
+      {
+        "option": "Inhibition of inflammatory cytokines",
+        "bool": true
+      },
+      {
+        "option": "Inhibition of inflammatory macrophages",
+        "bool": false
+      },
+      {
+        "option": "Attenuation of inflammatory cytokines",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of inflammatory eosinophils",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of inflammatory neutrophils",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 3-year-old boy is brought with complaints of difficulty in breathing, noisy harsh sounds produced during inspiration, and high-grade fever for 2 days. What will be the finding on his chest X-ray?",
+    "answers": [
+      {
+        "option": "Thumbprinting sign",
+        "bool": true
+      },
+      {
+        "option": "Steeple sign",
+        "bool": false
+      },
+      {
+        "option": "Continuous diaphragm sign",
+        "bool": false
+      },
+      {
+        "option": "Collar's sign",
+        "bool": false
+      },
+      {
+        "option": "Cottage loaf sign",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 3-year-old boy is brought with complaints of difficulty in breathing, noisy harsh sounds produced during inspiration, and high-grade fever for 2 days. What will be the most important step in management?",
+    "answers": [
+      {
+        "option": "Antibiotics",
+        "bool": true
+      },
+      {
+        "option": "Racemic epinephrine",
+        "bool": false
+      },
+      {
+        "option": "Intravenous normal saline",
+        "bool": false
+      },
+      {
+        "option": "Hydration",
+        "bool": false
+      },
+      {
+        "option": "Intravenous dextrose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is the best X-ray view for pneumothorax?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Lateral",
+        "bool": false
+      },
+      {
+        "option": "Anteroposterior",
+        "bool": false
+      },
+      {
+        "option": "Posteroanterior",
+        "bool": true
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of these screening tests is most commonly used to diagnose tuberculosis?",
+    "answers": [
+      {
+        "option": "Sputum culture test",
+        "bool": false
+      },
+      {
+        "option": "Bacilus Calmette-Guerin (BCG)",
+        "bool": false
+      },
+      {
+        "option": "Chest X-ray",
+        "bool": false
+      },
+      {
+        "option": "Polymerase chain reaction (PCR)",
+        "bool": false
+      },
+      {
+        "option": "Tuberculin skin test",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A pregnant woman has severe asthma. She neglects her treatment by not taking her inhaled corticosteroids. Which of the following is most likely to happen?",
+    "answers": [
+      {
+        "option": "Maternal eclampsia",
+        "bool": true
+      },
+      {
+        "option": "Growth retardation",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Severe cardiac problems",
+        "bool": false
+      },
+      {
+        "option": "Hypotension",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is not included in the diagnostic criteria of pulmonary hypertension?",
+    "answers": [
+      {
+        "option": "Pulmonary vascular resistance > 240 dynes/s/cm(-5)",
+        "bool": false
+      },
+      {
+        "option": "Mean pulmonary artery pressure > 30 mmHg with exercise",
+        "bool": false
+      },
+      {
+        "option": "Mean pulmonary artery pressure > 30 mmHg at rest",
+        "bool": true
+      },
+      {
+        "option": "Pulmonary capillary wedge pressure < 15mmHg",
+        "bool": false
+      },
+      {
+        "option": "Mean pulmonary artery pressure > 25 mmHg at rest",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is correct regarding bronchial carcinoma?",
+    "answers": [
+      {
+        "option": "The overall prognosis in bronchial carcinoma is good",
+        "bool": false
+      },
+      {
+        "option": "Bronchoscopic laser treatment is not useful",
+        "bool": false
+      },
+      {
+        "option": "Chemotherapy side-effects can be treated with 5-HT3 receptor agonists",
+        "bool": false
+      },
+      {
+        "option": "Radiotherapy is given to alleviate bone pain in primary lung cancer",
+        "bool": true
+      },
+      {
+        "option": "Endobronchial stents are used for pleural effusion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 24-year-old patient with asthma has a peak expiratory flow (PEF) of 25%, FEV1 (predicted > 80%), with diurnal asthma episodes greater than 2 per week, and nocturnal episodes greater than 2 per month. He is currently on beta-agonists and inhaled corticosteroids (ICS). Which type of asthma is he suffering from?",
+    "answers": [
+      {
+        "option": "Severe persistent asthma",
+        "bool": false
+      },
+      {
+        "option": "Mild persistent asthma",
+        "bool": true
+      },
+      {
+        "option": "Severe nocturnal asthma",
+        "bool": false
+      },
+      {
+        "option": "Moderate persistent asthma",
+        "bool": false
+      },
+      {
+        "option": "Mild intermittent asthma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Surgical intervention is required in which of the following?",
+    "answers": [
+      {
+        "option": "Bullous emphysema",
+        "bool": true
+      },
+      {
+        "option": "Bronchiectasis",
+        "bool": false
+      },
+      {
+        "option": "Mild persistent asthma",
+        "bool": false
+      },
+      {
+        "option": "Severe asthma",
+        "bool": false
+      },
+      {
+        "option": "Chronic bronchitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 58-year-old man presented to the outpatient department with complaints of abdominal pain and swelling in the lower limb for two years. On examination, he has raised jugular venous pressure even upon sitting. The liver is enlarged and tender. Pitting edema can be observed in the lower extremities Chest radiograph shows pleural effusion and increased lucency of the lung field. What is the probable diagnosis of this case?",
+    "answers": [
+      {
+        "option": "Myocardial infarction",
+        "bool": false
+      },
+      {
+        "option": "Right-sided heart failure",
+        "bool": true
+      },
+      {
+        "option": "Left-sided heart failure",
+        "bool": false
+      },
+      {
+        "option": "Endocarditis",
+        "bool": false
+      },
+      {
+        "option": "Myocarditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 60-year-old man presented to the outpatient department with the complaint of onset of sudden substernal chest pain when performing exertional tasks. The pain has increased in frequency over the past year. On examination, he was afebrile, his heart rate was 78 bpm, and his heartbeat was regular, with no murmurs or gallops. What is the probable diagnosis of this case?",
+    "answers": [
+      {
+        "option": "Fibrinous pericarditis",
+        "bool": false
+      },
+      {
+        "option": "Left-sided heart failure",
+        "bool": false
+      },
+      {
+        "option": "Angina pectoris",
+        "bool": true
+      },
+      {
+        "option": "Myocardial infarction",
+        "bool": false
+      },
+      {
+        "option": "Aortic stenosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 69-year-old man presented to the outpatient department with complaints of chronic fatigue for the last 15 months. He has had a history of hypertension for many years. On examination, he is afebrile. Chest x-ray shows bilateral pulmonary edema with a prominent border on the left side of the heart. What is the probable diagnosis of this case?",
+    "answers": [
+      {
+        "option": "Eccentric hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Concentric hypertrophy",
+        "bool": true
+      },
+      {
+        "option": "Hypertrophic obstructive cardiomyopathy",
+        "bool": false
+      },
+      {
+        "option": "Normal heart",
+        "bool": false
+      },
+      {
+        "option": "Dilated cardiomyopathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Based on which of the following factors can extrinsic asthma be diagnosed?",
+    "answers": [
+      {
+        "option": "Raised white blood cell count",
+        "bool": false
+      },
+      {
+        "option": "Raised IgE levels",
+        "bool": true
+      },
+      {
+        "option": "Raised IgG levels",
+        "bool": false
+      },
+      {
+        "option": "On the basis of history",
+        "bool": false
+      },
+      {
+        "option": "Chest x-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 20-year-old male presents to the clinic with the complaint of fever for 5 days. Chest examination reveals dull percussion notes and decreased breath sounds in the left lung base. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Pulmonary embolism",
+        "bool": false
+      },
+      {
+        "option": "Pneumothorax",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary edema",
+        "bool": false
+      },
+      {
+        "option": "Lung collapse",
+        "bool": false
+      },
+      {
+        "option": "Pleural effusion",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A pneumonia patient has a CURB-65 score of 4.0. How will you manage the patient?",
+    "answers": [
+      {
+        "option": "Hospital-supervised outpatient treatment",
+        "bool": false
+      },
+      {
+        "option": "Intensive care unit (ICU) and high-dependency unit (HDU) for severe pneumonia",
+        "bool": true
+      },
+      {
+        "option": "Admit in ward and administer antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Home treatment",
+        "bool": false
+      },
+      {
+        "option": "No treatment needed",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following increases in obstructive pulmonary diseases?",
+    "answers": [
+      {
+        "option": "Vital capacity",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Tidal volume",
+        "bool": false
+      },
+      {
+        "option": "Forced expiratory volume",
+        "bool": false
+      },
+      {
+        "option": "Residual volume",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What is the treatment for hypersensitivity pneumonitis?",
+    "answers": [
+      {
+        "option": "Bronchodilators",
+        "bool": false
+      },
+      {
+        "option": "No treatment needed",
+        "bool": false
+      },
+      {
+        "option": "Glucocorticoids and removal of antigen exposure",
+        "bool": true
+      },
+      {
+        "option": "Glucocorticoids and bronchodilators",
+        "bool": false
+      },
+      {
+        "option": "Antibiotics and removal of antigen exposure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "In an arterial blood gas (ABG) test, pH = 7.38, pO2 = 30 mmHg, and pCO2 = 50 mmHg. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Type 1 respiratory failure",
+        "bool": false
+      },
+      {
+        "option": "Type 2 respiratory failure",
+        "bool": true
+      },
+      {
+        "option": "Respiratory acidosis",
+        "bool": false
+      },
+      {
+        "option": "Respiratory alkalosis",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "In an arterial blood gas (ABG) test, pH = 7.32, pO2 = 30 mmHg, and pCO2 = 25 mmHg. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Respiratory acidosis",
+        "bool": false
+      },
+      {
+        "option": "Type 1 respiratory failure",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Type 2 respiratory failure",
+        "bool": false
+      },
+      {
+        "option": "Respiratory alkalosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A young woman was being treated with antibiotics for postpartum sepsis since 2 days. She suddenly developed tachypnea and cyanosis. What will be found on lung biopsy?",
+    "answers": [
+      {
+        "option": "Lymphocyte infiltrate",
+        "bool": false
+      },
+      {
+        "option": "Neutrophil infiltrate",
+        "bool": false
+      },
+      {
+        "option": "Respiratory bronchiole damage",
+        "bool": false
+      },
+      {
+        "option": "Hyaline membrane in alveoli",
+        "bool": true
+      },
+      {
+        "option": "Fibrosis and scarring",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 45-year-old male smoker has a dry cough. On physical examination, he has crackles and clubbing. The radiograph shows honeycomb cysts and traction bronchiectasis. What type of interstitial pneumonia does the man most likely have?",
+    "answers": [
+      {
+        "option": "Desquamative interstitial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Non-specific interstitial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Lymphocytic interstitial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Acute interstitial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Usual interstitial pneumonia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Long-term oxygen therapy is initiated in patients at which of the following partial pressures of arterial blood gases?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "PaCO\u2082 < 40 mmHg",
+        "bool": false
+      },
+      {
+        "option": "PaCO\u2082 < 35 mmHg",
+        "bool": false
+      },
+      {
+        "option": "PaO\u2082 = 55-102 mmHg",
+        "bool": false
+      },
+      {
+        "option": "PaO\u2082 < 55 mmHg",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which method is used to diagnose and classify chronic obstructive pulmonary disease (COPD)?",
+    "answers": [
+      {
+        "option": "Computerized tomography (CT) scan",
+        "bool": false
+      },
+      {
+        "option": "Methacholine test",
+        "bool": false
+      },
+      {
+        "option": "Chest radiograph",
+        "bool": false
+      },
+      {
+        "option": "Exercise tolerance test (ETT)",
+        "bool": false
+      },
+      {
+        "option": "Spirometry",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What instrument is used to assess the volume of inspired and expired air?",
+    "answers": [
+      {
+        "option": "Tonometer",
+        "bool": false
+      },
+      {
+        "option": "Spirometer",
+        "bool": true
+      },
+      {
+        "option": "Arterial blood gas (ABG) analyzer",
+        "bool": false
+      },
+      {
+        "option": "Oximeter",
+        "bool": false
+      },
+      {
+        "option": "Sphygmomanometer",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "What findings suggest that a pleural effusion has become empyema?",
+    "answers": [
+      {
+        "option": "Glucose less than 60 mg/dL in pleural fluid",
+        "bool": true
+      },
+      {
+        "option": "Glucose more than 60 mg/dL in pleural fluid",
+        "bool": false
+      },
+      {
+        "option": "Low serum glucose",
+        "bool": false
+      },
+      {
+        "option": "pH > 7",
+        "bool": false
+      },
+      {
+        "option": "Pleural LDH less than serum LDH",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Which of the following is the most appropriate asthma diagnosis?",
+    "answers": [
+      {
+        "option": "Chest X-ray shows hyperinflation",
+        "bool": false
+      },
+      {
+        "option": "Strong family history of asthma and raised serum IgE",
+        "bool": false
+      },
+      {
+        "option": "Post bronchodilator FEV1/FVC less than 70% on spirometry",
+        "bool": false
+      },
+      {
+        "option": "Wheezing on chest auscultation",
+        "bool": false
+      },
+      {
+        "option": "Increase in FEV1 of 12% and 200ml after bronchodilators in an obstructive pattern on spirometry",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "In a patient suspected of community-acquired pneumonia who has mild symptoms. Which of the following tests is/are indicated?",
+    "answers": [
+      {
+        "option": "Blood culture (C/S)",
+        "bool": false
+      },
+      {
+        "option": "CBC, X-ray, chest PA view, sputum C/S",
+        "bool": false
+      },
+      {
+        "option": "None",
+        "bool": true
+      },
+      {
+        "option": "Complete blood count (CBC)",
+        "bool": false
+      },
+      {
+        "option": "Sputum for culture and sensitivity (C/S)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A patient diagnosed with pulmonary tuberculosis has never taken antitubercular drugs before. Which of the following regimens is most appropriate?",
+    "answers": [
+      {
+        "option": "2 months of isoniazid and rifampicin followed by 2 months of pyrazinamide and ethambutol",
+        "bool": false
+      },
+      {
+        "option": "2 months of isoniazid, rifampicin, pyrazinamide, and ethambutol followed by 4 months of isoniazid and rifampicin",
+        "bool": true
+      },
+      {
+        "option": "2 months of isoniazid, rifampicin, pyrazinamide, and ethambutol followed by 2 months of isoniazid and rifampicin",
+        "bool": false
+      },
+      {
+        "option": "6 months of isoniazid, rifampicin, pyrazinamide, and ethambutol",
+        "bool": false
+      },
+      {
+        "option": "3 months of isoniazid, rifampicin, pyrazinamide, and ethambutol followed by 5 months of isoniazid, rifampicin, and ethambutol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 70-year-old male known smoker presents to the emergency room with complaints of fever and cough for 4 days and shortness of breath for 1 day. On examination, he is in respiratory distress with a blood pressure of 90/60, pulse of 110/min, temperature of 101F, and respiratory rate of 36/min. His chest x-ray shows consolidation on the right lower lobe with effusion. His calculated CURB-65 score is 4. Which of the following is the most appropriate step of management?",
+    "answers": [
+      {
+        "option": "Treat as hospital acquired pneumonia with injectable antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Treat outpatient with oral antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Treat in HDU/ICU as severe pneumonia",
+        "bool": true
+      },
+      {
+        "option": "Treat inpatient in ward with oral antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Treat as ventilator associated pneumonia with MRSA coverage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 32-year-old male who has a history of asthma comes to the emergency department with complaints of severe shortness of breath and productive cough for the last 1 week. Arterial blood gases (ABGs) are done showing pH 7.35, PO2=60 mm of Hg, PCO2=25mm of Hg, and HCO3=20. What will be the best interpretation of his arterial blood gases (ABGs) report?",
+    "answers": [
+      {
+        "option": "Respiratory acidosis",
+        "bool": false
+      },
+      {
+        "option": "Type II respiratory failure",
+        "bool": false
+      },
+      {
+        "option": "Respiratory alkalosis",
+        "bool": false
+      },
+      {
+        "option": "Type I respiratory failure",
+        "bool": true
+      },
+      {
+        "option": "Respiratory failure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 50-year-old male chain smoker for the past 20 years presents to the emergency room with progressive shortness of breath, fever, and productive cough for 5 days. On examination, bilateral rhonchi are present. Arterial blood gas (ABGs) report shows a pH of 7.38, PO2=54 mm of Hg, PCO2=55 mm of Hg, and HCO3=26 mEq/L. What is the likely interpretation of his ABGs?",
+    "answers": [
+      {
+        "option": "Chronic obstructive pulmonary disease",
+        "bool": false
+      },
+      {
+        "option": "Type II respiratory failure",
+        "bool": true
+      },
+      {
+        "option": "Metabolic acidosis",
+        "bool": false
+      },
+      {
+        "option": "Type I respiratory failure",
+        "bool": false
+      },
+      {
+        "option": "Metabolic alkalosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 30-year-old female comes to the outpatient department with complaints of low-grade fever and productive cough for the last 15 days and also gives a history of decreased appetite. On examination, the patient is having tachycardia and tachypnea. Absent breath sounds are heard in the right lower lung zone with absent vocal resonance, with bronchial breathing present, normal vesicular breathing on the left lung. What is the best explanation for her clinical finding?",
+    "answers": [
+      {
+        "option": "Pulmonary tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Lower respiratory tract infection",
+        "bool": false
+      },
+      {
+        "option": "Pneumonia",
+        "bool": true
+      },
+      {
+        "option": "Pleural effusion",
+        "bool": false
+      },
+      {
+        "option": "Para-pneumonic effusion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 50-year-old male presents to the outpatient department with complaints of fever and cough for the last 5 days. On examination, his blood pressure is 120/90, pulse is 100/min, the temperature is 101F, respiratory rate is 30/min. Chest examination reveals bronchial breathing with dull percussion notes on the right lower lobes with increased vocal resonance. Which of the following investigation would confirm the diagnosis?",
+    "answers": [
+      {
+        "option": "Chest X-ray (PA view)",
+        "bool": true
+      },
+      {
+        "option": "Arterial blood gases",
+        "bool": false
+      },
+      {
+        "option": "Sputum culture",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      },
+      {
+        "option": "CT chest",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 55-year-old female without known comorbidities presents to the outpatient department with complaints of fever and cough for 1 week. On examination, her blood pressure is 100/70, her pulse is 90/min, her respiratory rate is 20/min, and her temperature is 100F. On chest examination, her bronchial breathing in the left lower zone with decreased breath sound and increased vocal resonance. Her chest x-ray shows consolidation in the left lower lung. Which organism is responsible for her current illness?",
+    "answers": [
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": true
+      },
+      {
+        "option": "Mycobacterium tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Legionella pneumophila",
+        "bool": false
+      },
+      {
+        "option": "Chlamydia pneumoniae",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 20-year-old male presents to the emergency room with shortness of breath and abdominal pain. His arterial blood gas analysis shows: pH = 7.23, pCO2 = 17, pO2 = 110, HCO3 = 7, electrolytes Na+ = 123, Cl\u2013 = 97. What is the patient's acid-base status?",
+    "answers": [
+      {
+        "option": "Respiratory acidosis",
+        "bool": false
+      },
+      {
+        "option": "Combined respiratory and metabolic acidosis",
+        "bool": false
+      },
+      {
+        "option": "Normal anion gap metabolic acidosis",
+        "bool": false
+      },
+      {
+        "option": "High anion gap metabolic acidosis",
+        "bool": true
+      },
+      {
+        "option": "Metabolic acidosis with respiratory alkalosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 55-year-old man presents to OPD with shortness of breath on exertion. He complains that he has to stop for taking breath while walking 70 yards on flat ground. What is his dyspnea grade according to the Modified MRC dyspnea scale?",
+    "answers": [
+      {
+        "option": "Grade 2",
+        "bool": false
+      },
+      {
+        "option": "Grade 1",
+        "bool": false
+      },
+      {
+        "option": "Grade 3",
+        "bool": true
+      },
+      {
+        "option": "Grade 4",
+        "bool": false
+      },
+      {
+        "option": "Grade zero",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 60-year-old female is referred for dyspnea on exertion and chronic cough. Her dyspnea and cough have worsened continuously during the past 12 months. She has an environmental exposure history. Pulmonary function testing reveals an FVC of 60% predicted, FEV1 of 60% predicted, FEV1/FVC ratio of 100%, and DLCO of 38% predicted. High-resolution CT scan shows bilateral basal and sub-pleural honeycombing, interlobular septal thickening, and traction bronchiectasis. Her connective tissue workup is negative. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Chronic obstructive lung disease",
+        "bool": false
+      },
+      {
+        "option": "Hypersensitivity pneumonitis",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic pulmonary fibrosis",
+        "bool": true
+      },
+      {
+        "option": "Bronchiectasis",
+        "bool": false
+      },
+      {
+        "option": "Asthma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 45-year-old female with a 20-pack-year history of smoking presents with complaints of fever, dry cough, and weight loss for one month. On examination, the patient has palpable bilateral cervical lymph nodes. Chest X-ray shows alveolar infiltrates in the right upper zone. Fine needle aspiration cytology of the lymph node was done, and the report showed caseating granulomas. What is the likely diagnosis?",
+    "answers": [
+      {
+        "option": "Nocardiosis",
+        "bool": false
+      },
+      {
+        "option": "Histoplasmosis",
+        "bool": false
+      },
+      {
+        "option": "Bronchogenic carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary tuberculosis",
+        "bool": true
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "A 65-year-old man, a 30-pack-year smoker, came to the clinic with a cough, right-sided chest pain, and weight loss. Chest X-ray shows a right upper zone mass, likely bronchogenic carcinoma. The patient also complains of pain in the right arm and weakness of the small muscles of the right hand. What is the possible cause of pain and weakness of the right arm?",
+    "answers": [
+      {
+        "option": "Hypertrophic pulmonary osteoarthropathy",
+        "bool": false
+      },
+      {
+        "option": "Invasion of tumor to brachial plexus",
+        "bool": true
+      },
+      {
+        "option": "Superior vena cava obstruction",
+        "bool": false
+      },
+      {
+        "option": "Metastasis of tumor in hand and arm bones",
+        "bool": false
+      },
+      {
+        "option": "Horner syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "info": "3rd-year/respiratory-2/medicine",
+    "question": "Asthma is a major non-communicable disease (NCD), affecting both children and adults. Also, it is the most common chronic disease among children. The strongest risk factors for developing asthma are:",
+    "answers": [
+      {
+        "option": "Inhaled substances and particles that may provoke allergic reactions or irritate the airways",
+        "bool": true
+      },
+      {
+        "option": "Use of antibiotics in respiratory infections",
+        "bool": false
+      },
+      {
+        "option": "Improper use of antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Deforestation",
+        "bool": false
+      },
+      {
+        "option": "Poor disposal of waste disposal, particularly burning garbage",
+        "bool": false
+      }
+    ]
+  }
+]

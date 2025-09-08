@@ -1,0 +1,623 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "What is the term used for the origin and synthesis of white blood cells (WBCs)?",
+    "answers": [
+      {
+        "option": "Erythropoiesis",
+        "bool": false
+      },
+      {
+        "option": "Granulocytopoiesis",
+        "bool": false
+      },
+      {
+        "option": "Thrombopoiesis",
+        "bool": false
+      },
+      {
+        "option": "Hematopoiesis",
+        "bool": false
+      },
+      {
+        "option": "Leukopoiesis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following represents hot and cold antibodies respectively?",
+    "answers": [
+      {
+        "option": "IgG and IgE",
+        "bool": false
+      },
+      {
+        "option": "IgG and IgM",
+        "bool": true
+      },
+      {
+        "option": "IgM and IgE",
+        "bool": false
+      },
+      {
+        "option": "IgA and IgE",
+        "bool": false
+      },
+      {
+        "option": "IgD and IgE",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which component of blood is best for transfusion in case of multiple coagulation factor deficiencies?",
+    "answers": [
+      {
+        "option": "Pooled platelets",
+        "bool": false
+      },
+      {
+        "option": "Packed red cells",
+        "bool": false
+      },
+      {
+        "option": "Fresh frozen plasma",
+        "bool": true
+      },
+      {
+        "option": "Whole blood",
+        "bool": false
+      },
+      {
+        "option": "Cryoprecipitate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following is the most abundant cell type in the blood?",
+    "answers": [
+      {
+        "option": "Granulocyte",
+        "bool": false
+      },
+      {
+        "option": "Lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Erythrocytes",
+        "bool": true
+      },
+      {
+        "option": "Monocytes",
+        "bool": false
+      },
+      {
+        "option": "Platelets",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following is most likely seen due to platelet disorders?",
+    "answers": [
+      {
+        "option": "Thrombocytopenia with normal PT and aPTT",
+        "bool": true
+      },
+      {
+        "option": "Thrombocytopenia with raised PT and aPTT",
+        "bool": false
+      },
+      {
+        "option": "Normal platelet count with normal PT and aPTT",
+        "bool": false
+      },
+      {
+        "option": "Thrombocytopenia with raised PT but normal aPTT",
+        "bool": false
+      },
+      {
+        "option": "Normal platelet count with raised PT and aPTT",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "The erythropoietin receptor belongs to which class of receptors?",
+    "answers": [
+      {
+        "option": "Cytokine receptor",
+        "bool": true
+      },
+      {
+        "option": "Tyrosine kinase receptor",
+        "bool": false
+      },
+      {
+        "option": "G protein-coupled receptor",
+        "bool": false
+      },
+      {
+        "option": "Ligand-gated ion channel",
+        "bool": false
+      },
+      {
+        "option": "Intracellular receptor",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "The levels of protein C and protein S depend on which vitamin?",
+    "answers": [
+      {
+        "option": "Vitamin D",
+        "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": true
+      },
+      {
+        "option": "Vitamin A",
+        "bool": false
+      },
+      {
+        "option": "Vitamin E",
+        "bool": false
+      },
+      {
+        "option": "Vitamin C",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following substances are released from granules in basophils?",
+    "answers": [
+      {
+        "option": "Hemoglobin",
+        "bool": false
+      },
+      {
+        "option": "Histamine and heparin",
+        "bool": true
+      },
+      {
+        "option": "ADP and calcium ions",
+        "bool": false
+      },
+      {
+        "option": "Fibrinogen and fibronectin",
+        "bool": false
+      },
+      {
+        "option": "vWF",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "What of the following substances are found in mast cell granules?",
+    "answers": [
+      {
+        "option": "Histamine and bradykinin",
+        "bool": false
+      },
+      {
+        "option": "Histamine and heparin",
+        "bool": true
+      },
+      {
+        "option": "Bradykinin and mucus",
+        "bool": false
+      },
+      {
+        "option": "Heparin and mucus",
+        "bool": false
+      },
+      {
+        "option": "Histamine and mucus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following antibodies would be present in a person having blood group B?",
+    "answers": [
+      {
+        "option": "Anti A antibodies",
+        "bool": true
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Anti Rh antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti B antibodies",
+        "bool": false
+      },
+      {
+        "option": "IgM and IgG antibodies",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "What is the mode of action of corticosteroids?",
+    "answers": [
+      {
+        "option": "Inhibition of nitric oxide",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of the IL-2 receptor",
+        "bool": false
+      },
+      {
+        "option": "Activation of macrophages",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of MCH-II",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of NF-\u03baB in leukocytes",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following foods have best iron absorption from the intestine?",
+    "answers": [
+      {
+        "option": "Oranges",
+        "bool": false
+      },
+      {
+        "option": "Red meat",
+        "bool": true
+      },
+      {
+        "option": "Pulses",
+        "bool": false
+      },
+      {
+        "option": "Pomogrenate",
+        "bool": false
+      },
+      {
+        "option": "Mangoes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Intrinsic coagulation is initiated by what factor?",
+    "answers": [
+      {
+        "option": "Heparin-like factor",
+        "bool": false
+      },
+      {
+        "option": "Factor II",
+        "bool": false
+      },
+      {
+        "option": "Hageman factor",
+        "bool": true
+      },
+      {
+        "option": "Rheumatoid factor",
+        "bool": false
+      },
+      {
+        "option": "Factor VII",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which stage of erythropoiesis has a condensed nucleus with 34% hemoglobin and no endoplasmic reticulum?",
+    "answers": [
+      {
+        "option": "Basophilic erythroblast",
+        "bool": false
+      },
+      {
+        "option": "Orthochromatic erythroblast",
+        "bool": false
+      },
+      {
+        "option": "Reticulocyte",
+        "bool": true
+      },
+      {
+        "option": "Polychromatic erythroblast",
+        "bool": false
+      },
+      {
+        "option": "Normoblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "What is the maximum amount of hemoglobin that can be concentrated in the red blood cell fluid?",
+    "answers": [
+      {
+        "option": "10 g/dL",
+        "bool": false
+      },
+      {
+        "option": "37 g/dL",
+        "bool": true
+      },
+      {
+        "option": "15 g/dL",
+        "bool": false
+      },
+      {
+        "option": "25 g/dL",
+        "bool": false
+      },
+      {
+        "option": "19 g/dL",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following white blood cells produce the major basic protein?",
+    "answers": [
+      {
+        "option": "Megakaryocytes",
+        "bool": false
+      },
+      {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Eosinophils",
+        "bool": true
+      },
+      {
+        "option": "Monocytes",
+        "bool": false
+      },
+      {
+        "option": "Basophils",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following factors is required for red blood cell maturation?",
+    "answers": [
+      {
+        "option": "Iron",
+        "bool": false
+      },
+      {
+        "option": "Thiamine",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Vitamin B12",
+        "bool": true
+      },
+      {
+        "option": "Vitamin C",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "What is the composition of hemoglobin A2 (HbA2)?",
+    "answers": [
+      {
+        "option": "\u03b12, \u03b32",
+        "bool": false
+      },
+      {
+        "option": "\u03b32, \u03b52",
+        "bool": false
+      },
+      {
+        "option": "\u03b12, \u03b42",
+        "bool": true
+      },
+      {
+        "option": "\u03b12, \u03b22",
+        "bool": false
+      },
+      {
+        "option": "\u03b22, \u03b32",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which interleukin is required for the growth and proliferation of all the stem cells?",
+    "answers": [
+      {
+        "option": "Interleukin-1",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-4",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-2",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-3",
+        "bool": true
+      },
+      {
+        "option": "Interleukin-5",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "which of the following cell types is a precursor to platelets?",
+    "answers": [
+      {
+        "option": "Myeloid precursors",
+        "bool": false
+      },
+      {
+        "option": "Megakaryocytes",
+        "bool": true
+      },
+      {
+        "option": "Erythroid precursors",
+        "bool": false
+      },
+      {
+        "option": "Macrophages",
+        "bool": false
+      },
+      {
+        "option": "Histiocytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "In case of an injury, a deficiency of which of the following would impair the adhesion of platelets to the subendothelial collagen?",
+    "answers": [
+      {
+        "option": "Fibrinogen stabilizing factor",
+        "bool": false
+      },
+      {
+        "option": "Antithrombin III",
+        "bool": false
+      },
+      {
+        "option": "Plasmin",
+        "bool": false
+      },
+      {
+        "option": "Von Willebrand factor",
+        "bool": true
+      },
+      {
+        "option": "Heparin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "A 20-year-old man is rushed to the emergency department after getting into a severe bike accident. He needs a blood transfusion immediately as he suffered from severe blood loss. Which blood group is considered a universal donor?",
+    "answers": [
+      {
+        "option": "B positive",
+        "bool": false
+      },
+      {
+        "option": "AB negative",
+        "bool": false
+      },
+      {
+        "option": "AB positive",
+        "bool": false
+      },
+      {
+        "option": "O positive",
+        "bool": false
+      },
+      {
+        "option": "O negative",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "3rd-year/blood-2/physiology",
+    "question": "Which of the following is the best statement regarding the use of vitamin B12 and folic acid?",
+    "answers": [
+      {
+        "option": "DNA synthesis is impaired only when both vitamin B12 and folic acid are deficient",
+        "bool": false
+      },
+      {
+        "option": "Vitamin B12 is given for neural tube defects",
+        "bool": false
+      },
+      {
+        "option": "Folic acid deficiency causes neuropathy",
+        "bool": false
+      },
+      {
+        "option": "Vitamin B12 is used to treat pernicious anemia",
+        "bool": true
+      },
+      {
+        "option": "They are always given together in cases of deficiency",
+        "bool": false
+      }
+    ]
+  }
+]

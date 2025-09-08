@@ -1,0 +1,1433 @@
+[
+  {
+    "id": 0,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which bacteria have a shape that is roughly spherical?",
+    "answers": [
+      {
+        "option": "Spirochetes",
+        "bool": false
+      },
+      {
+        "option": "Bacilli",
+        "bool": false
+      },
+      {
+        "option": "Coccobacillus",
+        "bool": false
+      },
+      {
+        "option": "Cocci",
+        "bool": true
+      },
+      {
+        "option": "Spirilla",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Immunization falls under which level of prevention?",
+    "answers": [
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Intervention",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      },
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Treatment",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Bacteriophages transfer DNA from one cell to the bacterial host cell. What is this known as?",
+    "answers": [
+      {
+        "option": "Transfusion",
+        "bool": false
+      },
+      {
+        "option": "Translocation",
+        "bool": false
+      },
+      {
+        "option": "Transduction",
+        "bool": true
+      },
+      {
+        "option": "Conjugation",
+        "bool": false
+      },
+      {
+        "option": "Transformation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "What is the transfer of DNA from one bacteria to another on its own called?",
+    "answers": [
+      {
+        "option": "Transduction",
+        "bool": false
+      },
+      {
+        "option": "Transfusion",
+        "bool": false
+      },
+      {
+        "option": "Transformation",
+        "bool": false
+      },
+      {
+        "option": "Translocation",
+        "bool": false
+      },
+      {
+        "option": "Conjugation",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Bacteria can transfer antibiotic resistance genes between 2 cells by conjugation. The plasmid involved in conjugation is known as which of the following?",
+    "answers": [
+      {
+        "option": "Transposable plasmid",
+        "bool": false
+      },
+      {
+        "option": "Resistance plasmid",
+        "bool": true
+      },
+      {
+        "option": "Fertility plasmid",
+        "bool": false
+      },
+      {
+        "option": "Pathogenic plasmid",
+        "bool": false
+      },
+      {
+        "option": "Transfer plasmid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following bacteria are found in cold temperatures?",
+    "answers": [
+      {
+        "option": "Acidophiles",
+        "bool": false
+      },
+      {
+        "option": "Mesophiles",
+        "bool": false
+      },
+      {
+        "option": "Psychrophiles",
+        "bool": true
+      },
+      {
+        "option": "Extreme thermophiles",
+        "bool": false
+      },
+      {
+        "option": "Thermophiles",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Bacteria transfer material for antibiotic resistance through which method?",
+    "answers": [
+      {
+        "option": "Special transduction",
+        "bool": false
+      },
+      {
+        "option": "Conjugation",
+        "bool": true
+      },
+      {
+        "option": "Signal transduction",
+        "bool": false
+      },
+      {
+        "option": "Transformation",
+        "bool": false
+      },
+      {
+        "option": "General tranduction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Sterilization is achieved through a process called autoclaving. Which of the following is the principle involved in this process?",
+    "answers": [
+      {
+        "option": "Uses dry heat",
+        "bool": false
+      },
+      {
+        "option": "Clostridium perfringens are used to check integrity of autoclaving",
+        "bool": false
+      },
+      {
+        "option": "Bacterial spores are not easily killed",
+        "bool": false
+      },
+      {
+        "option": "Uses pressure at 25 pounds per inches square",
+        "bool": false
+      },
+      {
+        "option": "Uses moist heat",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Milk can be pasteurized in order to kill microbes without destroying nutrients. This process works optimally in which condition?",
+    "answers": [
+      {
+        "option": "Heating at 18 \u00b0C for 10 seconds",
+        "bool": false
+      },
+      {
+        "option": "Heating at 62 \u00b0C for 30 minutes",
+        "bool": false
+      },
+      {
+        "option": "Heating at 62 \u00b0C for 15 seconds",
+        "bool": false
+      },
+      {
+        "option": "Heating at 45 \u00b0C for 20 minutes",
+        "bool": false
+      },
+      {
+        "option": "Heating at 72 \u00b0C for 15 seconds",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Sterilization by filtration can be used to leave out spores and bacteria. This method is used for which of the following?",
+    "answers": [
+      {
+        "option": "Venipunctures",
+        "bool": false
+      },
+      {
+        "option": "Blood culture samples",
+        "bool": false
+      },
+      {
+        "option": "Fecal samples",
+        "bool": false
+      },
+      {
+        "option": "Surgical equipment",
+        "bool": false
+      },
+      {
+        "option": "Intravenous (IV) fluids",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Ultraviolet (UV) radiation can be used to sterilize an operation theatre when it is not in use. At which wavelength is the UV effect on microbial activity at maximum?",
+    "answers": [
+      {
+        "option": "225-230 nm",
+        "bool": false
+      },
+      {
+        "option": "270-280 nm",
+        "bool": false
+      },
+      {
+        "option": "250-260 nm",
+        "bool": true
+      },
+      {
+        "option": "235-240 nm",
+        "bool": false
+      },
+      {
+        "option": "220-225 nm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Prokaryotes are primitive cells. Which of the following distinguishes eukaryotes from prokaryotes?",
+    "answers": [
+      {
+        "option": "Presence of RNA",
+        "bool": false
+      },
+      {
+        "option": "Nucleus with nuclear envelope",
+        "bool": true
+      },
+      {
+        "option": "Ribosomes",
+        "bool": false
+      },
+      {
+        "option": "Nucleus without nuclear envelope",
+        "bool": false
+      },
+      {
+        "option": "Endoplasmic reticulum",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "In bacterial genetics, bacterial cells are which of the following?",
+    "answers": [
+      {
+        "option": "Triploid",
+        "bool": false
+      },
+      {
+        "option": "Haploid",
+        "bool": true
+      },
+      {
+        "option": "Diploid",
+        "bool": false
+      },
+      {
+        "option": "Polyploid",
+        "bool": false
+      },
+      {
+        "option": "Tetraploid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "A bacteria is found to be inside the human body but does not cause disease nor show any symptoms but can still be transferred to another host and act as a pathogen. What is this state called?",
+    "answers": [
+      {
+        "option": "Lag phase",
+        "bool": false
+      },
+      {
+        "option": "Intermediate state",
+        "bool": false
+      },
+      {
+        "option": "Transient state",
+        "bool": false
+      },
+      {
+        "option": "Mobile state",
+        "bool": false
+      },
+      {
+        "option": "Carrier state",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Gaseous sterilization is the subtype of which type of sterilization?",
+    "answers": [
+      {
+        "option": "Dry heat",
+        "bool": false
+      },
+      {
+        "option": "Liquid",
+        "bool": false
+      },
+      {
+        "option": "Physical",
+        "bool": false
+      },
+      {
+        "option": "Chemical",
+        "bool": true
+      },
+      {
+        "option": "Moist heat",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "An organism (for example bacteria, virus, or parasite) rises in a person's body in such a way that it does not cause harm but is transferred to another person and can cause infection. This phase is termed as?",
+    "answers": [
+      {
+        "option": "Mobile phase",
+        "bool": false
+      },
+      {
+        "option": "Transient phase",
+        "bool": false
+      },
+      {
+        "option": "Stationary phase",
+        "bool": false
+      },
+      {
+        "option": "Log phase",
+        "bool": false
+      },
+      {
+        "option": "Carrier phase",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Alcohol is used in which type of sterilization?",
+    "answers": [
+      {
+        "option": "Moist heat",
+        "bool": false
+      },
+      {
+        "option": "Liquid",
+        "bool": false
+      },
+      {
+        "option": "Chemical",
+        "bool": true
+      },
+      {
+        "option": "Physical",
+        "bool": false
+      },
+      {
+        "option": "Gaseous",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "In which part of the body are non-hemolytic streptococci found?",
+    "answers": [
+      {
+        "option": "Lower gastrointestinal tract",
+        "bool": true
+      },
+      {
+        "option": "Lower respiratory tract",
+        "bool": false
+      },
+      {
+        "option": "Upper respiratory tract",
+        "bool": false
+      },
+      {
+        "option": "Upper gastrointestinal tract",
+        "bool": false
+      },
+      {
+        "option": "Oral cavity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Some bacteria cause respiratory tract infections. Which structure in bacteria is responsible for adherence to the respiratory tract?",
+    "answers": [
+      {
+        "option": "Proteoglycan",
+        "bool": false
+      },
+      {
+        "option": "Plasmid",
+        "bool": false
+      },
+      {
+        "option": "Teichoic acid",
+        "bool": false
+      },
+      {
+        "option": "Pili",
+        "bool": true
+      },
+      {
+        "option": "Glycocalyx",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "What is the average size of a bacterial cell?",
+    "answers": [
+      {
+        "option": "10-15 \u03bcm",
+        "bool": false
+      },
+      {
+        "option": "50-80 \u03bcm",
+        "bool": false
+      },
+      {
+        "option": "5-10 \u03bcm",
+        "bool": false
+      },
+      {
+        "option": "0.2-5 \u03bcm",
+        "bool": true
+      },
+      {
+        "option": "0.03-0.05 \u03bcm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "By which mechanism do bacteria reproduce?",
+    "answers": [
+      {
+        "option": "Mitosis",
+        "bool": false
+      },
+      {
+        "option": "Conjugation",
+        "bool": false
+      },
+      {
+        "option": "Mating",
+        "bool": false
+      },
+      {
+        "option": "Meiosis",
+        "bool": false
+      },
+      {
+        "option": "Binary fission",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following types of bacteria is found in swimming pools?",
+    "answers": [
+      {
+        "option": "Candida",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus",
+        "bool": false
+      },
+      {
+        "option": "Leptospira",
+        "bool": true
+      },
+      {
+        "option": "Helicobacter",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Rocky Mountain spotted fever is caused by which of the following?",
+    "answers": [
+      {
+        "option": "Rickettsia",
+        "bool": true
+      },
+      {
+        "option": "Clostridium",
+        "bool": false
+      },
+      {
+        "option": "Coxiella",
+        "bool": false
+      },
+      {
+        "option": "Salmonella",
+        "bool": false
+      },
+      {
+        "option": "Spirochaetes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which one of the following is not a gram-negative bacterium?",
+    "answers": [
+      {
+        "option": "Escherichia coli",
+        "bool": false
+      },
+      {
+        "option": "Campylobacter jejuni",
+        "bool": false
+      },
+      {
+        "option": "Klebsiella pneumoniae",
+        "bool": false
+      },
+      {
+        "option": "Clostridium difficile",
+        "bool": true
+      },
+      {
+        "option": "Haemophilus influenzae",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following statements is false?",
+    "answers": [
+      {
+        "option": "Exotoxins are produced by both gram-positive and gram-negative bacteria",
+        "bool": false
+      },
+      {
+        "option": "Exotoxins may be heat-stabile proteins",
+        "bool": false
+      },
+      {
+        "option": "Endotoxins are present in gram-positive bacteria",
+        "bool": true
+      },
+      {
+        "option": "Endotoxins are present in gram-negative bacteria",
+        "bool": false
+      },
+      {
+        "option": "Endotoxin are heat-stable lipopolysaccharide-protein complex",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which statement is false?",
+    "answers": [
+      {
+        "option": "Staphylococcus epidermidis is a non-pathogen on skin",
+        "bool": false
+      },
+      {
+        "option": "Intestinal bacteria help in synthesis and absorption of several minerals",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus mutans can be commonly found in dental plaques",
+        "bool": false
+      },
+      {
+        "option": "Group B streptococci is present in normal flora of vagina",
+        "bool": false
+      },
+      {
+        "option": "Yeast is not part of the normal flora",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of these is true regarding bacteria?",
+    "answers": [
+      {
+        "option": "They have linear DNA",
+        "bool": false
+      },
+      {
+        "option": "Their DNA is surrounded by a nuclear membrane",
+        "bool": false
+      },
+      {
+        "option": "Gram-negative bacterial cell membranes are rich in teichoic acid",
+        "bool": false
+      },
+      {
+        "option": "They are genetically haploid",
+        "bool": true
+      },
+      {
+        "option": "Their method of replication is budding",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which structure in a gram-positive bacteria is concerned with septic shock?",
+    "answers": [
+      {
+        "option": "Peptidoglycan wall",
+        "bool": false
+      },
+      {
+        "option": "Teichoic acid",
+        "bool": true
+      },
+      {
+        "option": "Pilus",
+        "bool": false
+      },
+      {
+        "option": "Capsule",
+        "bool": false
+      },
+      {
+        "option": "Flagellum",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which structure of a bacteria is concerned with the quellung reactions?",
+    "answers": [
+      {
+        "option": "Peptidoglycans",
+        "bool": false
+      },
+      {
+        "option": "Cytoplasmic membrane",
+        "bool": false
+      },
+      {
+        "option": "Flagellum",
+        "bool": false
+      },
+      {
+        "option": "Pilus",
+        "bool": false
+      },
+      {
+        "option": "Capsule",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which bacterial structure helps in chemotaxis towards nutrients?",
+    "answers": [
+      {
+        "option": "Plasmid",
+        "bool": false
+      },
+      {
+        "option": "Flagella",
+        "bool": true
+      },
+      {
+        "option": "Teichoic acid",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Pili",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which structure helps in the attachment of bacteria to surfaces?",
+    "answers": [
+      {
+        "option": "Pilus",
+        "bool": true
+      },
+      {
+        "option": "Cytoplasmic membrane",
+        "bool": false
+      },
+      {
+        "option": "Capsule",
+        "bool": false
+      },
+      {
+        "option": "Teichoic acid",
+        "bool": false
+      },
+      {
+        "option": "Flagella",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "After transfer of DNA from donor, it is incorportated into the host genome. Which of the following best describes this process?",
+    "answers": [
+      {
+        "option": "Conjugation",
+        "bool": false
+      },
+      {
+        "option": "Transduction",
+        "bool": false
+      },
+      {
+        "option": "Transfusion",
+        "bool": false
+      },
+      {
+        "option": "Recombination",
+        "bool": true
+      },
+      {
+        "option": "Transformation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following occurs in the conjugation process of the bacteria?",
+    "answers": [
+      {
+        "option": "Growth of bacteria",
+        "bool": false
+      },
+      {
+        "option": "Exchange of genetic material",
+        "bool": true
+      },
+      {
+        "option": "Lysis of bacteria",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Cells joining together to form a bigger cell",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following parts of the bacterial cell shows the most antigenic variability?",
+    "answers": [
+      {
+        "option": "Peptidoglycan",
+        "bool": false
+      },
+      {
+        "option": "Spore",
+        "bool": false
+      },
+      {
+        "option": "Capsule",
+        "bool": true
+      },
+      {
+        "option": "Slime",
+        "bool": false
+      },
+      {
+        "option": "Lipid A of endotoxin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "The presence of a cluster of flagella on a single pole of a bacterial cell is termed?",
+    "answers": [
+      {
+        "option": "Petritrichous",
+        "bool": false
+      },
+      {
+        "option": "Monotrichous",
+        "bool": false
+      },
+      {
+        "option": "Amphitrichous",
+        "bool": false
+      },
+      {
+        "option": "Bipolar flagella",
+        "bool": false
+      },
+      {
+        "option": "Lophotrichous",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "What is the function of flagella in bacteria?",
+    "answers": [
+      {
+        "option": "Adherence to tissue surface",
+        "bool": false
+      },
+      {
+        "option": "Acts as sex pilli",
+        "bool": false
+      },
+      {
+        "option": "Reproduction",
+        "bool": false
+      },
+      {
+        "option": "To obtain nutrient in agar medium",
+        "bool": false
+      },
+      {
+        "option": "Locomotion",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Bacteria that are permanent residents in various parts of the body are known as normal flora. Which of the following statements best describes the colonization of the bacteria?",
+    "answers": [
+      {
+        "option": "They are permanent residents",
+        "bool": false
+      },
+      {
+        "option": "This is the acquisition of new organisms",
+        "bool": true
+      },
+      {
+        "option": "Certain bacteria and fungi which are always present in mouth, colon and vagina",
+        "bool": false
+      },
+      {
+        "option": "They provide essential vitamins",
+        "bool": false
+      },
+      {
+        "option": "They inhibit pathogenic organism from binding to the epithelial surfaces",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "The normal flora inhibits pathogenic bacteria from binding to the mucosal surfaces of the body. Which of the following statements best describes the mechanism of colonization resistance?",
+    "answers": [
+      {
+        "option": "The resident bacteria occupy attachment sites on the mucosa",
+        "bool": true
+      },
+      {
+        "option": "Excessive use of antibiotics suppress normal flora",
+        "bool": false
+      },
+      {
+        "option": "Malnourished patients develop vitamin deficiencies due to reduced flora",
+        "bool": false
+      },
+      {
+        "option": "Intestinal bacteria provide vitamins B and K",
+        "bool": false
+      },
+      {
+        "option": "Normal flora causes disease in immunocompromised patients",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "The excessive use of antibiotics can have serious side effects on the body, especially the gastrointestinal tract (GIT). Which organism can lead to the formation of a pseudo-membrane in the GIT due to excessive antibiotic use?",
+    "answers": [
+      {
+        "option": "Staphylococci",
+        "bool": false
+      },
+      {
+        "option": "Clostridium difficile",
+        "bool": true
+      },
+      {
+        "option": "Balantidium coli",
+        "bool": false
+      },
+      {
+        "option": "Streptococci",
+        "bool": false
+      },
+      {
+        "option": "Escherichia coli",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "In which of the following regions of the body the normal flora is absent?",
+    "answers": [
+      {
+        "option": "Small intestine",
+        "bool": false
+      },
+      {
+        "option": "Skin",
+        "bool": false
+      },
+      {
+        "option": "Large intestine",
+        "bool": false
+      },
+      {
+        "option": "Blood",
+        "bool": true
+      },
+      {
+        "option": "Throat",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following best explains why obligate anaerobes cannot grow in the presence of oxygen?",
+    "answers": [
+      {
+        "option": "They possess defences to make aerobic life possible",
+        "bool": false
+      },
+      {
+        "option": "They can not use the fermentation pathway for ATP generation",
+        "bool": false
+      },
+      {
+        "option": "They require oxygen for ATP generation",
+        "bool": false
+      },
+      {
+        "option": "They need ATP produced by host cells for survival",
+        "bool": false
+      },
+      {
+        "option": "They lack superoxide dismutase and catalase",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Some viruses are defective and need another virus to help replicate. Which of the following is an example of these viruses?",
+    "answers": [
+      {
+        "option": "Influenza",
+        "bool": false
+      },
+      {
+        "option": "Measles",
+        "bool": false
+      },
+      {
+        "option": "Dengue",
+        "bool": false
+      },
+      {
+        "option": "Hepatitis D",
+        "bool": true
+      },
+      {
+        "option": "Mumps",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Enveloped viruses are sensitive to desiccation and are mostly transmitted through the body fluids. From where do these viruses derive their envelopes from?",
+    "answers": [
+      {
+        "option": "Golgi bodies",
+        "bool": false
+      },
+      {
+        "option": "Plasma membrane",
+        "bool": true
+      },
+      {
+        "option": "Lysosomes",
+        "bool": false
+      },
+      {
+        "option": "Endoplasmic reticulum",
+        "bool": false
+      },
+      {
+        "option": "Ribosomes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Toxic shock syndrome caused by exotoxin directly binds to class II MHC protein and T-cell receptor. Which of the following organisms is responsible for this disease?",
+    "answers": [
+      {
+        "option": "Staphylococcus aureus",
+        "bool": true
+      },
+      {
+        "option": "Staphylococcus epidermidis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus saprophyticus",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pyogenes",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus haemolyticus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Through which of the following ways are gastrointestinal tract diseases commonly transmitted in a human?",
+    "answers": [
+      {
+        "option": "Direct human to human contact",
+        "bool": false
+      },
+      {
+        "option": "Food or water",
+        "bool": true
+      },
+      {
+        "option": "Blood borne",
+        "bool": false
+      },
+      {
+        "option": "Trans placental",
+        "bool": false
+      },
+      {
+        "option": "Indirect human to human contact",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which of the following statements best corresponds to transposons?",
+    "answers": [
+      {
+        "option": "Short sequences of DNA contain antibiotic-resistant genes",
+        "bool": true
+      },
+      {
+        "option": "Short sequences of transfer RNA required for mutation",
+        "bool": false
+      },
+      {
+        "option": "Required for enzyme degradation during replication",
+        "bool": false
+      },
+      {
+        "option": "Short sequences of DNA contain regulatory genes",
+        "bool": false
+      },
+      {
+        "option": "Short sequences of DNA contain mutation genes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Which plasmid makes the bacterial cell develop resistance against some specific antibiotics?",
+    "answers": [
+      {
+        "option": "F plasmid",
+        "bool": false
+      },
+      {
+        "option": "Virulence plasmid",
+        "bool": false
+      },
+      {
+        "option": "Col plasmid",
+        "bool": false
+      },
+      {
+        "option": "Degradative plasmid",
+        "bool": false
+      },
+      {
+        "option": "R plasmid",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "What is the function of flagella in a bacterial cell?",
+    "answers": [
+      {
+        "option": "Locomotion",
+        "bool": true
+      },
+      {
+        "option": "Adhere to tissue surfaces",
+        "bool": false
+      },
+      {
+        "option": "Thrive in nutrient agar",
+        "bool": false
+      },
+      {
+        "option": "Acts as a sex pili",
+        "bool": false
+      },
+      {
+        "option": "Reproduction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "What is a cluster of polar flagella in a bacterial cell known as?",
+    "answers": [
+      {
+        "option": "Peritrichous",
+        "bool": false
+      },
+      {
+        "option": "Monotrichous",
+        "bool": false
+      },
+      {
+        "option": "Lophotrichous",
+        "bool": true
+      },
+      {
+        "option": "Bipolar flagella",
+        "bool": false
+      },
+      {
+        "option": "Amphitrichous",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "The quantitative measure of bacterial pathogenicity is represented by which of the following?",
+    "answers": [
+      {
+        "option": "Inflammation",
+        "bool": false
+      },
+      {
+        "option": "Colony count",
+        "bool": false
+      },
+      {
+        "option": "Pathogenesis",
+        "bool": false
+      },
+      {
+        "option": "Virulence",
+        "bool": true
+      },
+      {
+        "option": "Resistance",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Normal flora is not present at which of the following sites?",
+    "answers": [
+      {
+        "option": "Blood",
+        "bool": true
+      },
+      {
+        "option": "Skin",
+        "bool": false
+      },
+      {
+        "option": "Vagina",
+        "bool": false
+      },
+      {
+        "option": "Mouth",
+        "bool": false
+      },
+      {
+        "option": "Nose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "Antibiotics inhibit bacterial cell wall synthesis by inhibiting the synthesis of which of the following?",
+    "answers": [
+      {
+        "option": "Nucleoid",
+        "bool": false
+      },
+      {
+        "option": "Flagella",
+        "bool": false
+      },
+      {
+        "option": "Peptidoglycan",
+        "bool": true
+      },
+      {
+        "option": "Ribosome",
+        "bool": false
+      },
+      {
+        "option": "Cell membrane",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "1st-year/foundation-1/microbiology",
+    "question": "A 52-year-old man with spasms and rigidity likely has tetanus. How does the pathogen enter?",
+    "answers": [
+      {
+        "option": "Consumption of contaminated food",
+        "bool": false
+      },
+      {
+        "option": "Inhalation of spores",
+        "bool": false
+      },
+      {
+        "option": "Direct entry into bloodstream",
+        "bool": false
+      },
+      {
+        "option": "Syringes used on other patients",
+        "bool": false
+      },
+      {
+        "option": "Acquisition of spores from soil",
+        "bool": true
+      }
+    ]
+  }
+]

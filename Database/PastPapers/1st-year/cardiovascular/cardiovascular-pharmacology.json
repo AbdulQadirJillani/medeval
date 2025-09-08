@@ -1,0 +1,677 @@
+[
+  {
+    "id": 0,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following is a prodrug?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Lovastatin",
+        "bool": true
+      },
+      {
+        "option": "Rosuvastatin",
+        "bool": false
+      },
+      {
+        "option": "Atorvastatin",
+        "bool": false
+      },
+      {
+        "option": "FIuvastatin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which drug inhibits the formation of angiotensin?",
+    "answers": [
+      {
+        "option": "Digitoxin",
+        "bool": false
+      },
+      {
+        "option": "Metoprolol",
+        "bool": false
+      },
+      {
+        "option": "HydraIazine",
+        "bool": false
+      },
+      {
+        "option": "Propranolol",
+        "bool": false
+      },
+      {
+        "option": "Captopril",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following is the mechanism of action of propanolol in angina?",
+    "answers": [
+      {
+        "option": "Reduction of heart rate and myocardial contractility to reduce myocardial oxygen demand",
+        "bool": true
+      },
+      {
+        "option": "Increase of heart rate and myocardial contractility to compensate myocardial oxygen demand",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Vasodilation to counter coronary vasospasms",
+        "bool": false
+      },
+      {
+        "option": "Increased sympathetic stimulation of heart for the survival of patient",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following drugs is most commonly used in hypertensive emergencies?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Coptopril",
+        "bool": false
+      },
+      {
+        "option": "Propanolol",
+        "bool": false
+      },
+      {
+        "option": "Sodium nitroprusside",
+        "bool": true
+      },
+      {
+        "option": "Atropine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "The antiarrhythmic drug milrinone is preferred due to which of the following reasons?",
+    "answers": [
+      {
+        "option": "It selectively inhibits cAMP and phosphodiesterase type IV enzymes",
+        "bool": false
+      },
+      {
+        "option": "It directly stimulates myocardial contractility",
+        "bool": true
+      },
+      {
+        "option": "It gives long-term ionotropic support in the case of heart failure",
+        "bool": false
+      },
+      {
+        "option": "It has a long life",
+        "bool": false
+      },
+      {
+        "option": "It prevents thrombocytopenia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which one of the following drugs belongs to the class 1C antiarrhythmic?",
+    "answers": [
+      {
+        "option": "Mexilitine",
+        "bool": false
+      },
+      {
+        "option": "Lidocaine",
+        "bool": false
+      },
+      {
+        "option": "Flecainide",
+        "bool": true
+      },
+      {
+        "option": "Phenytoin",
+        "bool": false
+      },
+      {
+        "option": "Tocainide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following is true regarding nitrates?",
+    "answers": [
+      {
+        "option": "Nitroglycerine is placed under tongue because if swallowed it would be destroyed by the gastric juice",
+        "bool": false
+      },
+      {
+        "option": "They are selective coronary dilators",
+        "bool": false
+      },
+      {
+        "option": "They are more effective as prophylactic measures taken daily than to relieve an anginal attack",
+        "bool": false
+      },
+      {
+        "option": "They constrict meningeal blood vessels causing headache",
+        "bool": false
+      },
+      {
+        "option": "They usually decrease venous return",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following is a cardioselective beta-1 antagonist?",
+    "answers": [
+      {
+        "option": "Propanolol",
+        "bool": false
+      },
+      {
+        "option": "Atenolol",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Nadalol",
+        "bool": false
+      },
+      {
+        "option": "Pindolol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following groups of anti-hypertensive drugs decreases the metabolism of bradykinin?",
+    "answers": [
+      {
+        "option": "Ganglion blockers",
+        "bool": false
+      },
+      {
+        "option": "Alpha-adrenoreceptor blockers",
+        "bool": false
+      },
+      {
+        "option": "Angiotensin receptor blockers",
+        "bool": false
+      },
+      {
+        "option": "Angiotensin-converting enzyme inhibitor",
+        "bool": true
+      },
+      {
+        "option": "Beta-adrenoreceptor blockers",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following anti-hypertensive drugs functions as a ganglion blocker?",
+    "answers": [
+      {
+        "option": "Propranolol",
+        "bool": false
+      },
+      {
+        "option": "Clonidine",
+        "bool": false
+      },
+      {
+        "option": "Reserpine",
+        "bool": false
+      },
+      {
+        "option": "Trimethaphan",
+        "bool": true
+      },
+      {
+        "option": "Nicotine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following drugs is both an alpha and beta-adrenoreceptor blocking agent?",
+    "answers": [
+      {
+        "option": "Carvedilol",
+        "bool": false
+      },
+      {
+        "option": "Esmolol",
+        "bool": false
+      },
+      {
+        "option": "Both labetalol and carvedilol",
+        "bool": true
+      },
+      {
+        "option": "Metoprolol",
+        "bool": false
+      },
+      {
+        "option": "Labetalol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following drugs is a selective beta-adrenoreceptor blocking agent?",
+    "answers": [
+      {
+        "option": "Acebutolol",
+        "bool": false
+      },
+      {
+        "option": "Atenolol",
+        "bool": true
+      },
+      {
+        "option": "Labetalol",
+        "bool": false
+      },
+      {
+        "option": "Propranolol",
+        "bool": false
+      },
+      {
+        "option": "Timolol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which level of prevention involves the treatment of streptococcal throat infection with benzathine benzylpenicillin for preventing rheumatic heart disease?",
+    "answers": [
+      {
+        "option": "Tertiary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primary prevention",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": true
+      },
+      {
+        "option": "Evaluation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following is a property of digoxin?",
+    "answers": [
+      {
+        "option": "It targets to inhibit the sodium-potassium ATPase",
+        "bool": true
+      },
+      {
+        "option": "It is used in the treatment of acute heart failure",
+        "bool": false
+      },
+      {
+        "option": "It decreases contractility of the cardiac sarcomere",
+        "bool": false
+      },
+      {
+        "option": "It brings about a decrease in the intracellular sodium",
+        "bool": false
+      },
+      {
+        "option": "It belongs to drug class of aldosterone receptor antagonists",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "What are the potential side effects of nitroglycerin?",
+    "answers": [
+      {
+        "option": "Anemia",
+        "bool": false
+      },
+      {
+        "option": "Seizures",
+        "bool": false
+      },
+      {
+        "option": "Constipation",
+        "bool": false
+      },
+      {
+        "option": "Throbbing headache",
+        "bool": true
+      },
+      {
+        "option": "Edema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following drugs causes the closure of L-type calcium channel?",
+    "answers": [
+      {
+        "option": "Furosemide",
+        "bool": false
+      },
+      {
+        "option": "Metoprolol",
+        "bool": false
+      },
+      {
+        "option": "Esmolol",
+        "bool": false
+      },
+      {
+        "option": "Amiodarone",
+        "bool": false
+      },
+      {
+        "option": "Diltiazem",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "What is the recommended antiplatelet medication for treating acute myocardial infarction?",
+    "answers": [
+      {
+        "option": "Enoxaparin",
+        "bool": false
+      },
+      {
+        "option": "Aspirin",
+        "bool": true
+      },
+      {
+        "option": "Clopidogrel",
+        "bool": false
+      },
+      {
+        "option": "Warfarin",
+        "bool": false
+      },
+      {
+        "option": "Heparin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which class of drugs reduces LDL cholesterol?",
+    "answers": [
+      {
+        "option": "Statins",
+        "bool": true
+      },
+      {
+        "option": "Beta blockers",
+        "bool": false
+      },
+      {
+        "option": "Diuretics",
+        "bool": false
+      },
+      {
+        "option": "Calcium channel blockers",
+        "bool": false
+      },
+      {
+        "option": "ACE inhibitors",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following has a positive ionotropic effect on the heart?",
+    "answers": [
+      {
+        "option": "Isoproterenol",
+        "bool": false
+      },
+      {
+        "option": "Dopamine",
+        "bool": false
+      },
+      {
+        "option": "Norepinephrine",
+        "bool": false
+      },
+      {
+        "option": "Acetylcholine",
+        "bool": false
+      },
+      {
+        "option": "Digitalis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "What is the mechanism of action of verapamil?",
+    "answers": [
+      {
+        "option": "Reduces blood pressure",
+        "bool": false
+      },
+      {
+        "option": "Blocks K ion channels",
+        "bool": false
+      },
+      {
+        "option": "Activates Na ion channels",
+        "bool": false
+      },
+      {
+        "option": "Blocks slow Ca ion channels",
+        "bool": true
+      },
+      {
+        "option": "Increases heart rate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following is a class IB antiarrhythmic drug?",
+    "answers": [
+      {
+        "option": "Quinidine",
+        "bool": false
+      },
+      {
+        "option": "Disopyramide",
+        "bool": false
+      },
+      {
+        "option": "Lidocaine",
+        "bool": true
+      },
+      {
+        "option": "Propafenone",
+        "bool": false
+      },
+      {
+        "option": "Flecainide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "A 45-year-old man was just started on therapy for hypertension and developed a persistent, dry cough. Which drug is most likely responsible for this side effect?",
+    "answers": [
+      {
+        "option": "Metoprolol",
+        "bool": false
+      },
+      {
+        "option": "Captopril",
+        "bool": true
+      },
+      {
+        "option": "Prazosin",
+        "bool": false
+      },
+      {
+        "option": "Losartan",
+        "bool": false
+      },
+      {
+        "option": "Nifedipine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following drugs belongs to angiotensin receptor blockers (ARBs)?",
+    "answers": [
+      {
+        "option": "Hydralazine",
+        "bool": false
+      },
+      {
+        "option": "Metoprolol",
+        "bool": false
+      },
+      {
+        "option": "Prazosin",
+        "bool": false
+      },
+      {
+        "option": "Lavetalol",
+        "bool": false
+      },
+      {
+        "option": "Losartan",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "The principal action common to all class I antiarrhythmic drugs is?",
+    "answers": [
+      {
+        "option": "Na+ channel opening",
+        "bool": false
+      },
+      {
+        "option": "Na+ channel blockade",
+        "bool": true
+      },
+      {
+        "option": "K+ channel opening",
+        "bool": false
+      },
+      {
+        "option": "Ca2+ channel blockade",
+        "bool": false
+      },
+      {
+        "option": "K+ channel blockade",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/cardiovascular-1/pharmacology",
+    "question": "Which of the following antihypertensives belong to vasodilators?",
+    "answers": [
+      {
+        "option": "Hydralazine",
+        "bool": true
+      },
+      {
+        "option": "Spironolactone",
+        "bool": false
+      },
+      {
+        "option": "Verapamil",
+        "bool": false
+      },
+      {
+        "option": "Furosemide",
+        "bool": false
+      },
+      {
+        "option": "Metoprolol",
+        "bool": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,3431 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is not used for leprosy treatment anymore?",
+    "answers": [
+      {
+        "option": "Ethionamide",
+        "bool": false
+      },
+      {
+        "option": "Dapsone",
+        "bool": false
+      },
+      {
+        "option": "Rifampin",
+        "bool": false
+      },
+      {
+        "option": "Thalidomide",
+        "bool": true
+      },
+      {
+        "option": "Clofazimine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is used for the treatment of inoperable hydatid cysts?",
+    "answers": [
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroid",
+        "bool": false
+      },
+      {
+        "option": "Fluconazole",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which drug inhibits the protein synthesis by reversibly binding to the 50S subunit of the bacterial ribosome and thereby restricting the formation of peptide bonds?",
+    "answers": [
+      {
+        "option": "Cephalosporins",
+        "bool": false
+      },
+      {
+        "option": "Actinomycin-D",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": true
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following side effects is not associated with fluoroquinolones?",
+    "answers": [
+      {
+        "option": "Damage to growing cartilage",
+        "bool": false
+      },
+      {
+        "option": "Deafness",
+        "bool": true
+      },
+      {
+        "option": "Hallucinations",
+        "bool": false
+      },
+      {
+        "option": "Phototoxicity",
+        "bool": false
+      },
+      {
+        "option": "Hepatotoxicity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the treatment for acute typhoid fever?",
+    "answers": [
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": true
+      },
+      {
+        "option": "Cefotaxime",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the treatment of choice for hydatid disease?",
+    "answers": [
+      {
+        "option": "Albendazole",
+        "bool": true
+      },
+      {
+        "option": "Mebendazole",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Infections caused by which of the following organisms cannot be treated with praziquantel?",
+    "answers": [
+      {
+        "option": "Taenia solium",
+        "bool": false
+      },
+      {
+        "option": "Clonorchic sinensis",
+        "bool": false
+      },
+      {
+        "option": "Ascaris lumbricoides",
+        "bool": true
+      },
+      {
+        "option": "Diphyllobothriasis latum",
+        "bool": false
+      },
+      {
+        "option": "Paragonimus westermani",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is a common side effect of clofazimine?",
+    "answers": [
+      {
+        "option": "Dizziness",
+        "bool": false
+      },
+      {
+        "option": "Red-green color blindness",
+        "bool": false
+      },
+      {
+        "option": "Hair loss",
+        "bool": false
+      },
+      {
+        "option": "Burning micturition",
+        "bool": false
+      },
+      {
+        "option": "Skin discoloration",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What anti-retroviral drug is a polypeptide that inhibits an HIV protein?",
+    "answers": [
+      {
+        "option": "Nevirapine",
+        "bool": false
+      },
+      {
+        "option": "Ritonavir",
+        "bool": false
+      },
+      {
+        "option": "Enfuvirtide",
+        "bool": true
+      },
+      {
+        "option": "Raltegrase",
+        "bool": false
+      },
+      {
+        "option": "Maraviroc",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Infections caused by which organisms are treated with pyrantel pamoate?",
+    "answers": [
+      {
+        "option": "Trichinella spiralis and Strongyloides stercoralis",
+        "bool": false
+      },
+      {
+        "option": "Enterobius vermicularis and Ascaris lumbricoides",
+        "bool": true
+      },
+      {
+        "option": "Taenia solium and Echinococcus granulosus",
+        "bool": false
+      },
+      {
+        "option": "Clonorchis sinensis and Trichuris trichuria",
+        "bool": false
+      },
+      {
+        "option": "Diphyllobothrium latum and Wucheria bancrofti",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 20-year-old college student, who has returned from his trip to India, now presents with fever and malaise. His peripheral blood smear confirms the presence of malaria species. His physician prescribes him chloroquine and asks him to take rest at home. What is the problem with this physician's choice of treatment of this patient?",
+    "answers": [
+      {
+        "option": "He should also have prescribed a drug to treat yellow fever because these diseases are often transmitted together",
+        "bool": false
+      },
+      {
+        "option": "He should have prescribed primaquine in addition to chloroquine",
+        "bool": true
+      },
+      {
+        "option": "There is nothing wrong with this prescription",
+        "bool": false
+      },
+      {
+        "option": "Primaquine is not the drug of choice, he should have prescribed albendazole",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine is unnecessary because malaria infection is short lived and benign",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is the most important toxicity of amphotericin B?",
+    "answers": [
+      {
+        "option": "Nephrotoxicity",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Hepatotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Neurotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow depression",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of action of fluoroquinolones?",
+    "answers": [
+      {
+        "option": "DNA gyrase inhibition",
+        "bool": true
+      },
+      {
+        "option": "Disruption of folic acid metabolism",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of protein synthesis",
+        "bool": false
+      },
+      {
+        "option": "Inactivation of RNA polymerase enzyme",
+        "bool": false
+      },
+      {
+        "option": "Inhibiting cell wall synthesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 27-year-old boy is started with a human immunodeficiency virus (HIV) drug regimen after the diagnosis of HIV infection. Which of the following drugs blocks the cleavage of HIV polyproteins?",
+    "answers": [
+      {
+        "option": "Enfuvirtide",
+        "bool": false
+      },
+      {
+        "option": "Maraviroc",
+        "bool": false
+      },
+      {
+        "option": "Delavirdine",
+        "bool": false
+      },
+      {
+        "option": "Stavudine",
+        "bool": false
+      },
+      {
+        "option": "Darunavir",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A young male experiences skin discoloration after the start of drug therapy for leprosy. His skin color ranges from red-brown to black. Which of the following drugs causes this side effect?",
+    "answers": [
+      {
+        "option": "Sulfadoxine",
+        "bool": false
+      },
+      {
+        "option": "Dapsone",
+        "bool": false
+      },
+      {
+        "option": "Clofazimine",
+        "bool": true
+      },
+      {
+        "option": "Rifabutin",
+        "bool": false
+      },
+      {
+        "option": "Acedapsone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Leprosy (also known as Hansen's disease) can be treated efficiently with dapsone and rifampin along with clofazimine in multibacillary cases. Which of the following enzymes is inhibited by one of the leprosy drugs mentioned?",
+    "answers": [
+      {
+        "option": "Dihydropteroate synthetase enzyme",
+        "bool": true
+      },
+      {
+        "option": "DNA-gyrase enzyme",
+        "bool": false
+      },
+      {
+        "option": "Dihydrofolate reductase enzyme",
+        "bool": false
+      },
+      {
+        "option": "Topoisomerase IV enzyme",
+        "bool": false
+      },
+      {
+        "option": "Acetyltransferase enzyme",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which antiretroviral drug is associated with hematological abnormalities?",
+    "answers": [
+      {
+        "option": "Indinavir",
+        "bool": false
+      },
+      {
+        "option": "Zidovudine",
+        "bool": true
+      },
+      {
+        "option": "Raltegravir",
+        "bool": false
+      },
+      {
+        "option": "Efavirenz",
+        "bool": false
+      },
+      {
+        "option": "Didanosine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is given in chloroquine-resistant plasmodium falciparum?",
+    "answers": [
+      {
+        "option": "Hydroxychloroquine",
+        "bool": false
+      },
+      {
+        "option": "Artesunate",
+        "bool": false
+      },
+      {
+        "option": "Atovaquone",
+        "bool": false
+      },
+      {
+        "option": "Mefloquine",
+        "bool": false
+      },
+      {
+        "option": "Artemesinin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of action of the drug clofazimine?",
+    "answers": [
+      {
+        "option": "Protein synthesis inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Cell wall synthesis inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Folate synthesis inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Cell membrane damage",
+        "bool": false
+      },
+      {
+        "option": "DNA damage",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the below enlisted antiretroviral drugs is NOT a protease inhibitor?",
+    "answers": [
+      {
+        "option": "Talepravir",
+        "bool": false
+      },
+      {
+        "option": "Lopinavir",
+        "bool": false
+      },
+      {
+        "option": "Saquinavir",
+        "bool": false
+      },
+      {
+        "option": "Cidofovir",
+        "bool": true
+      },
+      {
+        "option": "Ritonavir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is classified as a 'fluoroquinolone'?",
+    "answers": [
+      {
+        "option": "Ciprofloxacin",
+        "bool": true
+      },
+      {
+        "option": "Azithromycin",
+        "bool": false
+      },
+      {
+        "option": "Trimethoprim",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Sulfamethoxazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 30-year-old male consults his doctor with the complaint of watery diarrhea for the past 3 days. He has to leave for a business trip and has heard of 'adsorbents' that help reduce acute watery diarrhea. Which of the following is an example of this class of antidiarrheal drugs?",
+    "answers": [
+      {
+        "option": "Cholestyramine",
+        "bool": false
+      },
+      {
+        "option": "Docusate",
+        "bool": false
+      },
+      {
+        "option": "Diphenoxylate",
+        "bool": false
+      },
+      {
+        "option": "Kaolin",
+        "bool": true
+      },
+      {
+        "option": "Milk of magnesia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of action of the antiprotozoal drug albendazole?",
+    "answers": [
+      {
+        "option": "Inhibits protozoal metabolic pathway",
+        "bool": false
+      },
+      {
+        "option": "Increases gastric motility",
+        "bool": false
+      },
+      {
+        "option": "Interfere with larval maturation",
+        "bool": false
+      },
+      {
+        "option": "Inhibit glucose utilization",
+        "bool": true
+      },
+      {
+        "option": "Increases activity of cell membrane pumps",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the below-enlisted antibiotics inhibits protein synthesis via binding to the 50S subunit of bacteria?",
+    "answers": [
+      {
+        "option": "Trimethoprim",
+        "bool": false
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Streptomycin",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A young male, living in a non-malarious area, plans to visit an area where chloroquine-resistant Plasmodium falciparum is common. He is known to be intolerant to mefloquine and his glucose-6-phosphate dehydrogenase (G6PD) status is not known. Which of the following drugs will be prescribed to him for prophylaxis?",
+    "answers": [
+      {
+        "option": "Amoquine",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      },
+      {
+        "option": "Doxycycline",
+        "bool": true
+      },
+      {
+        "option": "Amodiaquine",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is a drug of choice for cerebral cysticercosis?",
+    "answers": [
+      {
+        "option": "Albendazole",
+        "bool": true
+      },
+      {
+        "option": "Hydrocortisone",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Prednisolone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is not used for the management of Clostridium difficile-associated diarrhea?",
+    "answers": [
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Intravenous immunoglobulin",
+        "bool": false
+      },
+      {
+        "option": "Patient should be isolated",
+        "bool": false
+      },
+      {
+        "option": "Intravenous vancomycin",
+        "bool": true
+      },
+      {
+        "option": "Stop the offending antibiotic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is/are contraindicated in dengue?",
+    "answers": [
+      {
+        "option": "NSAID and aspirin",
+        "bool": true
+      },
+      {
+        "option": "Antiemetics",
+        "bool": false
+      },
+      {
+        "option": "Acetaminophen",
+        "bool": false
+      },
+      {
+        "option": "Antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Antimalarial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is untrue about chloramphenicol?",
+    "answers": [
+      {
+        "option": "No longer used in the treatment of enteric fever",
+        "bool": false
+      },
+      {
+        "option": "Broad-spectrum antibiotic",
+        "bool": false
+      },
+      {
+        "option": "Binds to 50S ribosomal subunit",
+        "bool": false
+      },
+      {
+        "option": "Used in gram negative, positive, and Rickettsia infections",
+        "bool": false
+      },
+      {
+        "option": "Bacteriocidal",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs inhibits the microtubule formation in roundworm, pinworm, and hookworm infections and can eradicate worm infestation?",
+    "answers": [
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Thiabendazole",
+        "bool": false
+      },
+      {
+        "option": "Mebendazole",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of action of niclosamide?",
+    "answers": [
+      {
+        "option": "Increasing cell membrane permeability for calcium, resulting in paralysis, dislodgement and death of helminths",
+        "bool": false
+      },
+      {
+        "option": "Blocking acetylcholine transmission at the myoneural junction and paralysis of helminths",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of phosphorylation of ADP in some species of helminths",
+        "bool": true
+      },
+      {
+        "option": "Lysis of helminthic proteins through decrease in intracellular pH",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of microtubule synthesis in helminths and irreversible impairment of glucose uptake",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "In which of the following helminthic infestation albendazole is the drug of choice?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Hydatid disease",
+        "bool": true
+      },
+      {
+        "option": "Ascariasis",
+        "bool": false
+      },
+      {
+        "option": "Strongyloidiasis",
+        "bool": false
+      },
+      {
+        "option": "Ankylostomiasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of resistance by Streptococcus pneumoniae towards beta-lactam antibiotics?",
+    "answers": [
+      {
+        "option": "Penicillin-binding protein alterations",
+        "bool": true
+      },
+      {
+        "option": "D-ala-D-ala mutation",
+        "bool": false
+      },
+      {
+        "option": "Acetylation",
+        "bool": false
+      },
+      {
+        "option": "Methylation of 23rRNA-bingind site",
+        "bool": false
+      },
+      {
+        "option": "Penicillinases",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "An old man came with slowly progressive skin lesions on the chest and abdomen. He had a previous history of skin lesions that healed spontaneously. After doing investigations, he was a confirmed case of tuberculoid leprosy. What would be the treatment of choice?",
+    "answers": [
+      {
+        "option": "Pyrazinamide and chloramphenicol",
+        "bool": false
+      },
+      {
+        "option": "Ethambutol and linezolid",
+        "bool": false
+      },
+      {
+        "option": "Dapsone and rifampin",
+        "bool": true
+      },
+      {
+        "option": "Daptomycin and streptomycin",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid and TMP-SMX",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is seen in dapsone toxicity?",
+    "answers": [
+      {
+        "option": "Thrombocytopenia",
+        "bool": false
+      },
+      {
+        "option": "Myopathy",
+        "bool": false
+      },
+      {
+        "option": "Leucopenia",
+        "bool": false
+      },
+      {
+        "option": "Neutropenia",
+        "bool": false
+      },
+      {
+        "option": "Methemoglobinemia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the management of tuberculosis in a patient with HIV infection?",
+    "answers": [
+      {
+        "option": "HRZE for 6 months",
+        "bool": false
+      },
+      {
+        "option": "HR for 4 months and HRZE for 4 months",
+        "bool": false
+      },
+      {
+        "option": "HRZE for 2 months and HR for another 4 months",
+        "bool": true
+      },
+      {
+        "option": "HRZE for 8 months",
+        "bool": false
+      },
+      {
+        "option": "Zidovudine for 4 months with isoniazid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the drug of choice in neurocysticercosis?",
+    "answers": [
+      {
+        "option": "Diethylcarbamazine",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": true
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the drug of choice in cestode infection?",
+    "answers": [
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Diethylcarbamazine",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": true
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What condition requires cautious dosing of primaquine?",
+    "answers": [
+      {
+        "option": "Glycogen phosphorylase deficiency",
+        "bool": false
+      },
+      {
+        "option": "Glucose-6-phosphate dehydrogenase deficiency",
+        "bool": true
+      },
+      {
+        "option": "Pyruvate kinase deficiency",
+        "bool": false
+      },
+      {
+        "option": "Hypersplenism",
+        "bool": false
+      },
+      {
+        "option": "Glucocerebrosidase deficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is seen in fluoroquinolone toxicity?",
+    "answers": [
+      {
+        "option": "Disulfiram-like reaction",
+        "bool": false
+      },
+      {
+        "option": "Ototoxicity",
+        "bool": false
+      },
+      {
+        "option": "Cartilage damage",
+        "bool": true
+      },
+      {
+        "option": "Neurotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Nephrotoxicity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is a preferred prophylactic regimen of malaria in pregnant women?",
+    "answers": [
+      {
+        "option": "Mefloquine",
+        "bool": true
+      },
+      {
+        "option": "Pyrimethamine",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following nucleoside reverse transcriptase inhibitors may lead to gastrointestinal toxicity, such as pancreatitis?",
+    "answers": [
+      {
+        "option": "Zidovudine",
+        "bool": false
+      },
+      {
+        "option": "Lamivudine",
+        "bool": false
+      },
+      {
+        "option": "Tenofovir",
+        "bool": false
+      },
+      {
+        "option": "Abacavir",
+        "bool": false
+      },
+      {
+        "option": "Didanosine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following nucleoside reverse transcriptase inhibitors causes antagonism with zidovudine?",
+    "answers": [
+      {
+        "option": "Stavudine",
+        "bool": true
+      },
+      {
+        "option": "Didanosine",
+        "bool": false
+      },
+      {
+        "option": "Lamivudine",
+        "bool": false
+      },
+      {
+        "option": "Tenofovir",
+        "bool": false
+      },
+      {
+        "option": "Abacavir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drug is the preferable treatment in the case of neurocysticercosis?",
+    "answers": [
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Mebendazaole",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": true
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following anti-leprotic drugs can cause pink to brownish-black discoloration of the skin with an itchy-dry texture?",
+    "answers": [
+      {
+        "option": "Dapsone",
+        "bool": false
+      },
+      {
+        "option": "Ethionamide",
+        "bool": false
+      },
+      {
+        "option": "Moxifloxacin",
+        "bool": false
+      },
+      {
+        "option": "Clofazimine",
+        "bool": true
+      },
+      {
+        "option": "Rifampin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following antimalarial drugs is effective against the exo-erythrocytic form of malarial parasite?",
+    "answers": [
+      {
+        "option": "Mefloquine",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Pyrimethamine",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": true
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 20-year-old male is given ceftriaxone for the treatment of gonorrhea. Which of the following antibiotic groups does this antibiotic belong to?",
+    "answers": [
+      {
+        "option": "Cell-wall synthesis inhibitor",
+        "bool": true
+      },
+      {
+        "option": "Folic acid synthesis inhibitor",
+        "bool": false
+      },
+      {
+        "option": "DNA synthesis inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Cell membrane inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Protein synthesis inhibitor",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is administered to a pregnant woman diagnosed with Chlamydial urethritis?",
+    "answers": [
+      {
+        "option": "Amoxicillin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin V",
+        "bool": false
+      },
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Doxycycline",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs directly inhibits human-immunodeficiency virus (HIV) reverse transcriptase without phosphorylation?",
+    "answers": [
+      {
+        "option": "Lamivudine",
+        "bool": false
+      },
+      {
+        "option": "Stavudine",
+        "bool": false
+      },
+      {
+        "option": "Nevirapene",
+        "bool": true
+      },
+      {
+        "option": "Zidovudine",
+        "bool": false
+      },
+      {
+        "option": "Abacavir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A very effective vaccine for which of the following is available to prevent diarrhea in children?",
+    "answers": [
+      {
+        "option": "Vibrio cholerae",
+        "bool": false
+      },
+      {
+        "option": "Escherichia coli",
+        "bool": false
+      },
+      {
+        "option": "Rota virus",
+        "bool": true
+      },
+      {
+        "option": "Shigella",
+        "bool": false
+      },
+      {
+        "option": "Salmonella",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "An antiviral drug ritonavir acts by inhibiting which of the following enzymes?",
+    "answers": [
+      {
+        "option": "Human immunodeficiency virus (HIV) protease",
+        "bool": true
+      },
+      {
+        "option": "Beta-lactamase",
+        "bool": false
+      },
+      {
+        "option": "Hydrolase",
+        "bool": false
+      },
+      {
+        "option": "Reverse transcriptase",
+        "bool": false
+      },
+      {
+        "option": "Peptidyl transferase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "In which of the following conditions can the anti-inflammatory effect of chloroquine be used?",
+    "answers": [
+      {
+        "option": "Cellulitis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatic fever",
+        "bool": false
+      },
+      {
+        "option": "Myocarditis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": true
+      },
+      {
+        "option": "Hepatitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is an appropriate drug in the treatment of acute enteric fever?",
+    "answers": [
+      {
+        "option": "Amoxicillin",
+        "bool": false
+      },
+      {
+        "option": "Ceftriaxone",
+        "bool": true
+      },
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      },
+      {
+        "option": "Sulphonamide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of these drugs is used to treat the exoerythrocytic stage of malarial parasite?",
+    "answers": [
+      {
+        "option": "Chloroquinine",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": true
+      },
+      {
+        "option": "Dapsone",
+        "bool": false
+      },
+      {
+        "option": "Artemether",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the most common side effect of penicillin?",
+    "answers": [
+      {
+        "option": "Paraeshtesias",
+        "bool": false
+      },
+      {
+        "option": "Hypersensitivity reactions",
+        "bool": true
+      },
+      {
+        "option": "Nephrotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Rhabdomyolysis",
+        "bool": false
+      },
+      {
+        "option": "Ototoxicity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "For which of these organisms is pyrantel pamoate not effective?",
+    "answers": [
+      {
+        "option": "All nematodes",
+        "bool": false
+      },
+      {
+        "option": "Pinworm",
+        "bool": false
+      },
+      {
+        "option": "Whipworm",
+        "bool": true
+      },
+      {
+        "option": "Roundworm",
+        "bool": false
+      },
+      {
+        "option": "Hookworm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of these drugs is useful for the prevention of retrograde intestinal cysticercosis?",
+    "answers": [
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": true
+      },
+      {
+        "option": "Steroids",
+        "bool": false
+      },
+      {
+        "option": "Ketoconazole",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "For which of the following disorders is chloroquine used as an anti-inflammatory drug?",
+    "answers": [
+      {
+        "option": "Babesiosis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": true
+      },
+      {
+        "option": "Malaria",
+        "bool": false
+      },
+      {
+        "option": "Intestinal amebiasis",
+        "bool": false
+      },
+      {
+        "option": "Hepatic amebiasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of these drugs is penicillinase-resistant?",
+    "answers": [
+      {
+        "option": "Methicillin",
+        "bool": true
+      },
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Amoxicillin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin V",
+        "bool": false
+      },
+      {
+        "option": "Penicillin G",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of these drugs is not a nucleotide reverse transcriptase inhibitor?",
+    "answers": [
+      {
+        "option": "Delavirdine",
+        "bool": true
+      },
+      {
+        "option": "Didanosine",
+        "bool": false
+      },
+      {
+        "option": "Stavudine",
+        "bool": false
+      },
+      {
+        "option": "Zidovudine",
+        "bool": false
+      },
+      {
+        "option": "Abacavir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Intake of which of the following drugs causes a Mazzotti-like reaction?",
+    "answers": [
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is used in the treatment of filariasis?",
+    "answers": [
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Diethylcarbamazine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs acts on the nicotinic receptor?",
+    "answers": [
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Mebendazole",
+        "bool": false
+      },
+      {
+        "option": "Piperazine",
+        "bool": true
+      },
+      {
+        "option": "Diethylcarbamazine",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is given in Wuchereria bancrofti?",
+    "answers": [
+      {
+        "option": "Diethylcarbamazine",
+        "bool": true
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mode of action of dapsone?",
+    "answers": [
+      {
+        "option": "Inhibition of bacterial protein synthesis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of bacterial folate synthesis",
+        "bool": true
+      },
+      {
+        "option": "Lysis of bacterial cell walls",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of bacterial topoisomerases",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of bacterial transcription",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the route of administration of enfuvirtide?",
+    "answers": [
+      {
+        "option": "Dermal",
+        "bool": false
+      },
+      {
+        "option": "Intravenous",
+        "bool": false
+      },
+      {
+        "option": "Oral",
+        "bool": false
+      },
+      {
+        "option": "Subcutaneous",
+        "bool": true
+      },
+      {
+        "option": "Intramuscular",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which drug acts by inhibiting ADP phosphorylation?",
+    "answers": [
+      {
+        "option": "Diethylcarbamazine",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Niclosamide",
+        "bool": true
+      },
+      {
+        "option": "lvermectin",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of these cephalosporins is 4th generation?",
+    "answers": [
+      {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Cefoxitin",
+        "bool": false
+      },
+      {
+        "option": "Cefepime",
+        "bool": true
+      },
+      {
+        "option": "Ceftazidime",
+        "bool": false
+      },
+      {
+        "option": "Cefazolin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which drug that is used to treat leparomatous leprosy also has an anti-inflammatory effect?",
+    "answers": [
+      {
+        "option": "Ofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Dapsone",
+        "bool": false
+      },
+      {
+        "option": "Minocycline",
+        "bool": false
+      },
+      {
+        "option": "Clofazimine",
+        "bool": true
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is not present in oral rehydration therapy (ORS)?",
+    "answers": [
+      {
+        "option": "Potassium",
+        "bool": false
+      },
+      {
+        "option": "Glucose",
+        "bool": false
+      },
+      {
+        "option": "Albumin",
+        "bool": true
+      },
+      {
+        "option": "Sodium",
+        "bool": false
+      },
+      {
+        "option": "Water",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is praziquantel ineffective against?",
+    "answers": [
+      {
+        "option": "Clonorchis sinensis",
+        "bool": false
+      },
+      {
+        "option": "Blood flukes",
+        "bool": false
+      },
+      {
+        "option": "Trematodes",
+        "bool": false
+      },
+      {
+        "option": "Nematodes",
+        "bool": true
+      },
+      {
+        "option": "Paragonimus westermani",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is the drug of choice for onchocerciasis?",
+    "answers": [
+      {
+        "option": "Ivermectin",
+        "bool": true
+      },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Bithional",
+        "bool": false
+      },
+      {
+        "option": "Triclabendazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is the drug of choice for filariasis?",
+    "answers": [
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Diethylcarbamazine",
+        "bool": true
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Bithional",
+        "bool": false
+      },
+      {
+        "option": "Triclabendazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What intravenous drugs should be given as the first choice, following fluid resuscitation, in sepsis?",
+    "answers": [
+      {
+        "option": "Adrenaline",
+        "bool": false
+      },
+      {
+        "option": "Dobutamine",
+        "bool": false
+      },
+      {
+        "option": "Vasopressin",
+        "bool": false
+      },
+      {
+        "option": "Dopamine",
+        "bool": false
+      },
+      {
+        "option": "Noradrenaline",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which inotropic agent is given in cardiogenic shock?",
+    "answers": [
+      {
+        "option": "Phenoxybenzamine",
+        "bool": false
+      },
+      {
+        "option": "Dobutamine",
+        "bool": true
+      },
+      {
+        "option": "Epinephrine",
+        "bool": false
+      },
+      {
+        "option": "Norepinephrine",
+        "bool": false
+      },
+      {
+        "option": "Dopamine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is a protease inhibitor?",
+    "answers": [
+      {
+        "option": "Efavirenz",
+        "bool": false
+      },
+      {
+        "option": "Stavudine",
+        "bool": false
+      },
+      {
+        "option": "Abacavir",
+        "bool": false
+      },
+      {
+        "option": "Zidovudine",
+        "bool": false
+      },
+      {
+        "option": "Ritonavir",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Tinidazole is better than metronidazole due to which of the following?",
+    "answers": [
+      {
+        "option": "It has longer half-life",
+        "bool": true
+      },
+      {
+        "option": "It surpasses first pass effect",
+        "bool": false
+      },
+      {
+        "option": "It is not active against anerobic bacteria",
+        "bool": false
+      },
+      {
+        "option": "It is used in the pregnancy",
+        "bool": false
+      },
+      {
+        "option": "It has better absorption",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Other than its anthelmintic activity, which of the following does tinidazole have activity against?",
+    "answers": [
+      {
+        "option": "Gram negative cocci",
+        "bool": false
+      },
+      {
+        "option": "Gram positive cocci",
+        "bool": false
+      },
+      {
+        "option": "Obligate aerobe",
+        "bool": false
+      },
+      {
+        "option": "Aerobic bacteria",
+        "bool": false
+      },
+      {
+        "option": "Anaerobic bacteria",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs acts by increasing the GABA activity?",
+    "answers": [
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": true
+      },
+      {
+        "option": "Diethylcarbamazine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is used for the treatment of syphilis?",
+    "answers": [
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Acyclovir",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is used for giardiasis and gives rise to metallic taste as its side effect?",
+    "answers": [
+      {
+        "option": "Penicillin",
+        "bool": false
+      },
+      {
+        "option": "Pyrimethamine",
+        "bool": false
+      },
+      {
+        "option": "Metronidazole",
+        "bool": true
+      },
+      {
+        "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Sodium stibogluconate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 34-year-old presents with abdominal pain, bloating, nausea, and vomiting for the past few days. A complete blood count reveals eosinophilia. Small bowel obstruction is present. A nasogastric (NG) tube is inserted. Which of the following drugs is the most appropriate?",
+    "answers": [
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Piperazine",
+        "bool": true
+      },
+      {
+        "option": "Mebendazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of action of ciprofloxacin?",
+    "answers": [
+      {
+        "option": "Inhibitor of cell wall synthesis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of transpeptidase",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of dihydrofolate reductase",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of topoisomerase I",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of topoisomerase IV",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Megaloblastic anemia caused by pyrimethamine can be reversed by which of the following?",
+    "answers": [
+      {
+        "option": "Ascorbic acid",
+        "bool": false
+      },
+      {
+        "option": "Alpha tocopherol",
+        "bool": false
+      },
+      {
+        "option": "Riboflavin",
+        "bool": false
+      },
+      {
+        "option": "Cyanocobalamin",
+        "bool": false
+      },
+      {
+        "option": "Leucovorin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the mechanism of action of maraviroc?",
+    "answers": [
+      {
+        "option": "Reverse transcriptase inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of glycoprotein 16",
+        "bool": false
+      },
+      {
+        "option": "Fusion of virion to T cell",
+        "bool": true
+      },
+      {
+        "option": "Integrase transfer strand inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Competitive inhibition of HIV polymerase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Zidovudine belongs to which class of group?",
+    "answers": [
+      {
+        "option": "Integrase inhibitor",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Protease inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Non-nucleoside reverse transcriptase inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Nucleotide reverse transcriptase inhibitor",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What is the drug of choice for visceral leishmaniasis?",
+    "answers": [
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Sodium stibogluconate",
+        "bool": true
+      },
+      {
+        "option": "Liposomal amphotericin B",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 20-year-old boy presents to the outpatient department with a complaint of fever after returning from his trip. The doctor prescribed him chloroquine. Which other drug should also be prescribed to him?",
+    "answers": [
+      {
+        "option": "Primaquine",
+        "bool": true
+      },
+      {
+        "option": "Mefloquine",
+        "bool": false
+      },
+      {
+        "option": "Proguanil",
+        "bool": false
+      },
+      {
+        "option": "Co-trimoxazole",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Dying deposition has more weightage than dying declaration due to which of the following?",
+    "answers": [
+      {
+        "option": "Magistrate time is precious",
+        "bool": false
+      },
+      {
+        "option": "Given in the presence of accused",
+        "bool": true
+      },
+      {
+        "option": "It is recorded by magistrate",
+        "bool": false
+      },
+      {
+        "option": "Remain valid after recovery",
+        "bool": false
+      },
+      {
+        "option": "It is taken under oath",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following antimalarial drugs is used for the treatment of chloroquine-resistant falciparum malaria?",
+    "answers": [
+      {
+        "option": "Sulfadoxine",
+        "bool": false
+      },
+      {
+        "option": "Pyrimethamine",
+        "bool": false
+      },
+      {
+        "option": "Mefloquine",
+        "bool": false
+      },
+      {
+        "option": "Proguanil",
+        "bool": false
+      },
+      {
+        "option": "Artemisinin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following antiviral drugs inhibits the synthesis of viral DNA?",
+    "answers": [
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Saquinavir",
+        "bool": false
+      },
+      {
+        "option": "Amantadine",
+        "bool": false
+      },
+      {
+        "option": "Interferon",
+        "bool": false
+      },
+      {
+        "option": "Acyclovir",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following statements is correct about the mechanism of action of mebendazole?",
+    "answers": [
+      {
+        "option": "Inhibits oxidative phosphorylation in some species of helminths.",
+        "bool": false
+      },
+      {
+        "option": "Increases cell membrane permeability for calcium ions, resulting in paralysis, dislodgement, and death of helminths.",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Blocks acetylcholine transmission at the myoneural junction resulting in paralysis of helminths.",
+        "bool": false
+      },
+      {
+        "option": "Inhibits microtubule synthesis in helminths and causes irreversible impairment of glucose uptake.",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which drug is the most effective in treating systemic fungal infections in patients with acquired immunodeficiency syndrome (AIDS)?",
+    "answers": [
+      {
+        "option": "Flucytosine",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Griseofulvin",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin B",
+        "bool": true
+      },
+      {
+        "option": "Itraconazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which antimalarial drug can cause blackwater fever?",
+    "answers": [
+      {
+        "option": "Mefloquine",
+        "bool": false
+      },
+      {
+        "option": "Pyremethamine",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": false
+      },
+      {
+        "option": "Artemisinin",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which antimalarial drug is used for causal prophylaxis?",
+    "answers": [
+      {
+        "option": "Quinidine",
+        "bool": false
+      },
+      {
+        "option": "Mefloquine",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": true
+      },
+      {
+        "option": "Pyrimethamine",
+        "bool": false
+      },
+      {
+        "option": "Amodiaquine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is/are an unwanted effect(s) of aminoglycosides?",
+    "answers": [
+      {
+        "option": "Pancytopenia",
+        "bool": false
+      },
+      {
+        "option": "Hepatotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Ototoxicity, nephrotoxicity",
+        "bool": true
+      },
+      {
+        "option": "Irritation of gastrointestinal mucosa",
+        "bool": false
+      },
+      {
+        "option": "Dry cough",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which antibiotic is safe to use for respiratory tract infections during the first trimester of pregnancy?",
+    "answers": [
+      {
+        "option": "Doxycycline",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Fluoroquinolones",
+        "bool": false
+      },
+      {
+        "option": "Streptomycin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which antibiotic can cause grey baby syndrome?",
+    "answers": [
+      {
+        "option": "Aminoglycosides",
+        "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": true
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Cephalosporin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which drug is the first line agent in the treatment of syphilis?",
+    "answers": [
+      {
+        "option": "Amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Macrolides",
+        "bool": false
+      },
+      {
+        "option": "Cephalosporin",
+        "bool": false
+      },
+      {
+        "option": "Benzathine penicillin G",
+        "bool": true
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Penicillin should not be administered via which of the following routes?",
+    "answers": [
+      {
+        "option": "Intravenous route",
+        "bool": false
+      },
+      {
+        "option": "Intraperitoneal route",
+        "bool": false
+      },
+      {
+        "option": "Intrathecal route",
+        "bool": true
+      },
+      {
+        "option": "Intramuscular route",
+        "bool": false
+      },
+      {
+        "option": "Intra-articular route",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is used for the treatment of methicillin-resistant Staphylococcus aureus?",
+    "answers": [
+      {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Vancomycin",
+        "bool": true
+      },
+      {
+        "option": "Penicillin G",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Nafcillin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following drugs is a protease inhibitor?",
+    "answers": [
+      {
+        "option": "Zidovudine",
+        "bool": false
+      },
+      {
+        "option": "Stavudine",
+        "bool": false
+      },
+      {
+        "option": "Indinavir",
+        "bool": true
+      },
+      {
+        "option": "Tenofovir",
+        "bool": false
+      },
+      {
+        "option": "Raltegravir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following statements is true about chloramphenicol?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "It inhibits the 50S subunit of ribosomes",
+        "bool": true
+      },
+      {
+        "option": "It is an antifungal drug",
+        "bool": false
+      },
+      {
+        "option": "It is a narrow-spectrum antibiotic",
+        "bool": false
+      },
+      {
+        "option": "It is bactericidal",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following statements about interferon-\u03b1 is incorrect?",
+    "answers": [
+      {
+        "option": "At the start of treatment, most patients experience flu like symptoms",
+        "bool": false
+      },
+      {
+        "option": "Lamivudine interferes with its activity against hepatitis B",
+        "bool": true
+      },
+      {
+        "option": "Indications include treatment of genital warts",
+        "bool": false
+      },
+      {
+        "option": "It is used in the management of hepatitis C",
+        "bool": false
+      },
+      {
+        "option": "Toxicity includes bone marrow suppression",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is an important dose-dependent adverse effect of dapsone?",
+    "answers": [
+      {
+        "option": "Hemolysis",
+        "bool": false
+      },
+      {
+        "option": "Cirrhosis",
+        "bool": false
+      },
+      {
+        "option": "Methemoglobinemia",
+        "bool": true
+      },
+      {
+        "option": "Hepatitis",
+        "bool": false
+      },
+      {
+        "option": "Renal failure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A person, before going on a trip to a malaria-endemic area, takes prophylaxis for chloroquine-resistant falciparum malaria but nonetheless develops Plasmodium vivax malaria. Which of the following drugs did he most likely take?",
+    "answers": [
+      {
+        "option": "Atovaqoune",
+        "bool": false
+      },
+      {
+        "option": "Mefloquine",
+        "bool": true
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      },
+      {
+        "option": "Proguanil",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following antimalarial drugs acts as a blood schizonticide and a sporontocide?",
+    "answers": [
+      {
+        "option": "Atovaquone",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine",
+        "bool": true
+      },
+      {
+        "option": "Artimisinin",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is the first choice drug for the treatment of enteric fever?",
+    "answers": [
+      {
+        "option": "Ceftriaxone",
+        "bool": true
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Trimethoprim",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is the drug of choice for a cestode infestation?",
+    "answers": [
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Carbamizapine",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Praziquantal",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following is a protease inhibitor used in combination for treatment of HIV?",
+    "answers": [
+      {
+        "option": "Indinavir",
+        "bool": true
+      },
+      {
+        "option": "Efavirenz",
+        "bool": false
+      },
+      {
+        "option": "Etravirine",
+        "bool": false
+      },
+      {
+        "option": "Raltegravir",
+        "bool": false
+      },
+      {
+        "option": "Tenofovir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following statements is correct about anti-staphylococcal antibiotics?",
+    "answers": [
+      {
+        "option": "Penicillinase-sensitive",
+        "bool": false
+      },
+      {
+        "option": "Extended spectrum",
+        "bool": false
+      },
+      {
+        "option": "Are synthetic",
+        "bool": false
+      },
+      {
+        "option": "Penicillinase-resistant",
+        "bool": true
+      },
+      {
+        "option": "Broad spectrum",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 27-year-old nursing mother is diagnosed as suffering from genital herpes. She has a history of this viral infection. Previously, she responded to a drug used topically. Which drug to be used orally is most likely to be prescribed at this time?",
+    "answers": [
+      {
+        "option": "Ritonavir",
+        "bool": false
+      },
+      {
+        "option": "Amantadine",
+        "bool": false
+      },
+      {
+        "option": "Valacyclovir",
+        "bool": true
+      },
+      {
+        "option": "Foscarnet",
+        "bool": false
+      },
+      {
+        "option": "Trifluridine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A patient with AIDS has a CD4 count of 45/\u00b5L. He is being maintained on a 3-drug regimen of indinavir, didanosine, and zidovudine. Which of the following drugs may cause an episode of acute pancreatitis?",
+    "answers": [
+      {
+        "option": "Ketoconazole",
+        "bool": false
+      },
+      {
+        "option": "Ritonavir",
+        "bool": false
+      },
+      {
+        "option": "Didanosine",
+        "bool": true
+      },
+      {
+        "option": "Zidovudine",
+        "bool": false
+      },
+      {
+        "option": "Acyclovir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A premature neonate suffered respiratory distress and was given an antibiotic 100 mg/kg/day orally. Over the next two days, his condition worsened. He became dull, stopped feeding, and developed abdominal distention, and an ashen grey appearance. Which is the most likely antibiotic given to him?",
+    "answers": [
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Minocycline",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": true
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Ampicillin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "An 8-year-old child presented with brownish discolored and deformed anterior teeth. He has a history of taking an antibiotic about 4 years earlier. Which antibiotic could be responsible for the condition?",
+    "answers": [
+      {
+        "option": "Gentamicin",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": true
+      },
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which enzymes are the target for the quinolone antibacterial agents?",
+    "answers": [
+      {
+        "option": "Kinases",
+        "bool": false
+      },
+      {
+        "option": "Transpeptidases",
+        "bool": false
+      },
+      {
+        "option": "Topoisomerases",
+        "bool": true
+      },
+      {
+        "option": "Cyclases",
+        "bool": false
+      },
+      {
+        "option": "Proteases",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which fluoroquinolone is highly active against Mycobacterium leprae and is being used in alternative multidrug therapy regimens?",
+    "answers": [
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Ofloxacin",
+        "bool": true
+      },
+      {
+        "option": "Levofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Lomefloxacin",
+        "bool": false
+      },
+      {
+        "option": "Norfloxacin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "What does the term bactericidal mean in the context of treating bacterial infections?",
+    "answers": [
+      {
+        "option": "Antimicrobial agents used in leprosy",
+        "bool": false
+      },
+      {
+        "option": "Drugs that inhibit folate synthesis",
+        "bool": false
+      },
+      {
+        "option": "Drugs that inhibit the growth of bacteria",
+        "bool": false
+      },
+      {
+        "option": "Antimicrobial drugs that eradicate bacterial infection/kill bacteria",
+        "bool": true
+      },
+      {
+        "option": "Antibiotics that cause hypersensitivity reactions",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following penicillin is an example of a narrow-spectrum antibiotic?",
+    "answers": [
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin G",
+        "bool": true
+      },
+      {
+        "option": "Vancomycin",
+        "bool": false
+      },
+      {
+        "option": "Piperacillin",
+        "bool": false
+      },
+      {
+        "option": "Amoxicillin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following statements is correct about vancomycin?",
+    "answers": [
+      {
+        "option": "Active against methicillin-resistant staphylococci",
+        "bool": true
+      },
+      {
+        "option": "Binds to penicillin binding protein for its mechanism of action",
+        "bool": false
+      },
+      {
+        "option": "Vancomycin is a beta-lactam antibiotic",
+        "bool": false
+      },
+      {
+        "option": "Vancomycin is bacteriostatic in effect",
+        "bool": false
+      },
+      {
+        "option": "Has a very good oral bioavailability",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following antibiotics can cause Fanconi Syndrome when expired:",
+    "answers": [
+      {
+        "option": "Macrolides",
+        "bool": false
+      },
+      {
+        "option": "Clindamycin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      },
+      {
+        "option": "Ketolides",
+        "bool": false
+      },
+      {
+        "option": "Tetracyclines",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A premature neonate suffered respiratory distress and was given an antibiotic 100 mg/kg/day orally. Over the next two days his condition worsened, he became dull, stopped feeding, and developed abdominal distention and an ashen gray appearance. Which is the most likely antibiotic given to him?",
+    "answers": [
+      {
+        "option": "Tetracyclines",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "Which of the following antibiotics acts by inhibiting nucleic acid synthesis?",
+    "answers": [
+      {
+        "option": "Tetracyclines",
+        "bool": false
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Cephalosporin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": false
+      },
+      {
+        "option": "Quinolones",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "The most important dose-dependent toxicity of dapsone is:",
+    "answers": [
+      {
+        "option": "Hepatitis",
+        "bool": false
+      },
+      {
+        "option": "Dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Skin rashes",
+        "bool": false
+      },
+      {
+        "option": "Hemolysis",
+        "bool": true
+      },
+      {
+        "option": "Neuropathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A traveler in a geographical region where chloroquine-resistant Plasmodium falciparum is endemic used a drug for prophylaxis but nevertheless developed a severe attack of P vivax malaria. The drug taken for chemoprophylaxis was probably:",
+    "answers": [
+      {
+        "option": "Diloxanide furoate",
+        "bool": false
+      },
+      {
+        "option": "Atovaquone",
+        "bool": false
+      },
+      {
+        "option": "Mefloquine",
+        "bool": true
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      },
+      {
+        "option": "Proguanil",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A male patient presents with lower abdominal discomfort, flatulence, and occasional diarrhea. A diagnosis of intestinal amebiasis is made, and Entamoeba histolytica is identified in his diarrheal stools. The preferred treatment that he should have received for the initial symptoms (which were indicative of mild-to-moderate disease) is:",
+    "answers": [
+      {
+        "option": "Metronidazole plus diloxanide furoate",
+        "bool": true
+      },
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Paromomycin",
+        "bool": false
+      },
+      {
+        "option": "Diloxanide furoate",
+        "bool": false
+      },
+      {
+        "option": "Iodoquinol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "info": "3rd-year/infectious/pharmacology",
+    "question": "A 36-year-old male presented to the emergency department with a fever lasting for three days, accompanied by mild abdominal pain. Upon examination, he exhibited a fever of 103\u00b0F and jaundice, along with a palpable spleen. A peripheral blood film revealed the presence of trophozoites of Plasmodium falciparum. What is the preferred treatment for uncomplicated falciparum malaria?",
+    "answers": [
+      {
+        "option": "Artemether plus Proguanil",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Artemether plus Lumifantrine",
+        "bool": true
+      },
+      {
+        "option": "Primaquine",
+        "bool": false
+      },
+      {
+        "option": "Quinine plus Doxycycline",
+        "bool": false
+      }
+    ]
+  }
+]

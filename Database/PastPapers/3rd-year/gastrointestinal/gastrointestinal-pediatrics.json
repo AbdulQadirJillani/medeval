@@ -1,0 +1,839 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "What is the most common cause of viral gastroenteritis in children?",
+    "answers": [
+      {
+        "option": "Norovirus",
+        "bool": false
+      },
+      {
+        "option": "Adenovirus",
+        "bool": false
+      },
+      {
+        "option": "Astrovirus",
+        "bool": false
+      },
+      {
+        "option": "Rotavirus",
+        "bool": true
+      },
+      {
+        "option": "Poliovirus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 3-month-old male baby was brought to the outpatient department (OPD) with effortless spitting. The mother gave the history of on and off vomiting since 2nd week of life. On examination, weight was found to be 5 kg. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Esophageal stricture",
+        "bool": false
+      },
+      {
+        "option": "Hiatus hernia",
+        "bool": false
+      },
+      {
+        "option": "Tracheoesophageal fistula",
+        "bool": false
+      },
+      {
+        "option": "Gastroesophageal reflux disease",
+        "bool": true
+      },
+      {
+        "option": "Pyloric stenosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 9-month-old female baby weighing 8 kg is brought to the emergency department with the complaint of loose motions for the last 3 days. On examination, the baby is irritable and her eyes are sunken. She is eager to drink and her skin pinch goes back slowly. What is the most likely diagnosis according to the IMNCI protocol?",
+    "answers": [
+      {
+        "option": "No dehydration",
+        "bool": false
+      },
+      {
+        "option": "Mild dehydration",
+        "bool": false
+      },
+      {
+        "option": "Severe dehydration",
+        "bool": false
+      },
+      {
+        "option": "Shock",
+        "bool": false
+      },
+      {
+        "option": "Some dehydration",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "Protein and calorie malnutrition is found in which of the following diseases?",
+    "answers": [
+      {
+        "option": "Starvation",
+        "bool": false
+      },
+      {
+        "option": "Marasmus",
+        "bool": true
+      },
+      {
+        "option": "Rickets",
+        "bool": false
+      },
+      {
+        "option": "Scurvy",
+        "bool": false
+      },
+      {
+        "option": "Kwashiorkor",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "Neonates who are nutritionally at risk may have birth weight less than:",
+    "answers": [
+      {
+        "option": "2500 gm",
+        "bool": true
+      },
+      {
+        "option": "1000 gm",
+        "bool": false
+      },
+      {
+        "option": "3000 gm",
+        "bool": false
+      },
+      {
+        "option": "2000 gm",
+        "bool": false
+      },
+      {
+        "option": "1500 gm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A week-old female baby, weighing 3.5 kg, on breast milk feeding, was brought to the outpatient department (OPD) with complaints of yellow discoloration of skin and sclera for the last one week. The baby is passing dark yellow urine and clay-colored stool. On examination, the baby looks well but the liver is grossly enlarged. The most likely diagnosis is:",
+    "answers": [
+      {
+        "option": "Neonatal hepatitis",
+        "bool": false
+      },
+      {
+        "option": "Breast milk jaundice",
+        "bool": false
+      },
+      {
+        "option": "Glycogen storage disease",
+        "bool": false
+      },
+      {
+        "option": "G-6PD deficiency",
+        "bool": false
+      },
+      {
+        "option": "Congenital biliary atresia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 3-year-old child was given one tablet three times a day to control loose motions. The diarrhea stopped but the next day the child was brought in a toxic condition with abdominal distention and vomiting. He had paralytic ileus, mild dehydration, low blood pressure, and sluggish reflexes. Which antidiarrheal drug could have caused this condition?",
+    "answers": [
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Loperamide",
+        "bool": true
+      },
+      {
+        "option": "Furazolidone",
+        "bool": false
+      },
+      {
+        "option": "Ondansetron",
+        "bool": false
+      },
+      {
+        "option": "Iodochlorhydroxyquinoline",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "An 8-year-old boy had a sudden episode of nausea, vomiting, and profuse rice watery diarrhea. He developed dehydration, circulatory collapse, and anuria due to rapid loss of fluid and electrolytes. Which one of the following bacteria is most probably involved?",
+    "answers": [
+      {
+        "option": "Shigella dysenteriae",
+        "bool": false
+      },
+      {
+        "option": "Vibrio cholerae",
+        "bool": true
+      },
+      {
+        "option": "Salmonella typhimurium",
+        "bool": false
+      },
+      {
+        "option": "Campylobacter jejuni",
+        "bool": false
+      },
+      {
+        "option": "Enterotoxigenic E.coli",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A child aged 3 years presents with congestion and is accidentally diagnosed as a case of chronic child abuse. What will the X-ray findings be?",
+    "answers": [
+      {
+        "option": "Greenstick fracture",
+        "bool": false
+      },
+      {
+        "option": "Spaulding sign",
+        "bool": false
+      },
+      {
+        "option": "Talus fracture",
+        "bool": false
+      },
+      {
+        "option": "Overlapping of skull bones",
+        "bool": false
+      },
+      {
+        "option": "Nobbing fracture",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A premature newborn has abdominal distention and several episodes of bloody diarrhea. What is the most likely diagnosis in this patient?",
+    "answers": [
+      {
+        "option": "Reyes syndrome",
+        "bool": false
+      },
+      {
+        "option": "Necrotizing enterocolitis",
+        "bool": true
+      },
+      {
+        "option": "Malabsorption",
+        "bool": false
+      },
+      {
+        "option": "Whipple's disease",
+        "bool": false
+      },
+      {
+        "option": "Ulcerative colitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "What is the state of complete emaciation called?",
+    "answers": [
+      {
+        "option": "Kwashiorkor",
+        "bool": false
+      },
+      {
+        "option": "Marasmus",
+        "bool": true
+      },
+      {
+        "option": "Malnutrition",
+        "bool": false
+      },
+      {
+        "option": "Chronic liver disease",
+        "bool": false
+      },
+      {
+        "option": "Malabsorption",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 3-week-old male is referred for persistent vomiting. He was well until 5 days ago but is now vomiting with each feed and is not putting on weight. After a test feed, he has projectile non-bilious vomiting. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Duodenal atresia",
+        "bool": false
+      },
+      {
+        "option": "Pyloric stenosis",
+        "bool": true
+      },
+      {
+        "option": "Gastritis",
+        "bool": false
+      },
+      {
+        "option": "Ileal atresia",
+        "bool": false
+      },
+      {
+        "option": "Gastroesophageal reflux",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "Protein malnutrition with edema in children leads to a condition called as?",
+    "answers": [
+      {
+        "option": "Goitre",
+        "bool": false
+      },
+      {
+        "option": "Anemia",
+        "bool": false
+      },
+      {
+        "option": "Kwashiorkor",
+        "bool": true
+      },
+      {
+        "option": "Nephrotic syndrome",
+        "bool": false
+      },
+      {
+        "option": "Marasmus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 6-year-old child presents with lethargy, unconsciousness, and an acidotic breath. Which of the following tests would be appropriate in this case?",
+    "answers": [
+      {
+        "option": "Chest X-ray",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      },
+      {
+        "option": "Renal function test",
+        "bool": false
+      },
+      {
+        "option": "Blood sugar level",
+        "bool": true
+      },
+      {
+        "option": "Liver function test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 10-year-old boy is brought to the emergency room with heavy breathing and convulsions. His blood sugar level is 400 mg/dL. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Hypokalemia",
+        "bool": false
+      },
+      {
+        "option": "Respiratory distress syndrome",
+        "bool": false
+      },
+      {
+        "option": "Salicylate toxicity",
+        "bool": false
+      },
+      {
+        "option": "Diabetic ketoacidosis",
+        "bool": true
+      },
+      {
+        "option": "Asthma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "An infant presents with cherry-red spots on the macula. He has had progressive loss of developmental milestones and shows signs of mental retardation. Which of the following investigations should be done?",
+    "answers": [
+      {
+        "option": "Liver biopsy",
+        "bool": true
+      },
+      {
+        "option": "Serum ammonia",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow biopsy",
+        "bool": false
+      },
+      {
+        "option": "Liver function test",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "The 5-year-old child is having episodes of convulsions. On examination hepatosplenomegaly, and abdominal distention is observed. A blood sugar test reveals hypoglycemia. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "McArdle disease",
+        "bool": false
+      },
+      {
+        "option": "Von Gierke disease",
+        "bool": true
+      },
+      {
+        "option": "Pompe disease",
+        "bool": false
+      },
+      {
+        "option": "Niemann pick disease",
+        "bool": false
+      },
+      {
+        "option": "Hereditary galactokinase deficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 2-month-old infant is brought from a rural area to the emergency room of a city hospital with fever, diarrhea, and vomiting. The stools are watery with frequent episodes. The child is given oral rehydration. The illness resolves without the administration of antibiotics. What is the most likely pathogen involved?",
+    "answers": [
+      {
+        "option": "Escherichia coli",
+        "bool": false
+      },
+      {
+        "option": "Clostridium difficile",
+        "bool": false
+      },
+      {
+        "option": "Rotavirus",
+        "bool": true
+      },
+      {
+        "option": "Vibrio cholera",
+        "bool": false
+      },
+      {
+        "option": "Norwalk virus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 2-year-old child is brought to the emergency room with a history of loose stools for the past 3 days. On examination, the child is lethargic, has sunken eyes, and is unable to drink. What is the most appropriate treatment according to IMNCI?",
+    "answers": [
+      {
+        "option": "Oral ciprofloxacin 20 mg/Kg/day for 5 days",
+        "bool": false
+      },
+      {
+        "option": "Resomal 70 cc/Kg in 6 hours",
+        "bool": false
+      },
+      {
+        "option": "Intravenous ampicillin 100 mg/Kg/day for 5 days",
+        "bool": false
+      },
+      {
+        "option": "Intravenous Ringer's lactate 100 mg/Kg in 3 hours",
+        "bool": true
+      },
+      {
+        "option": "Oral rehydration solution 75 ml/Kg in hours",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 6-month-old boy presented to the clinic with a four hours history of crying and intermittent drawing up of his knees to his chest and was looking very pale. He had passed several currant jelly stools. On abdominal examination, there was a sausage-like mass in the right upper quadrant. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Volvulus",
+        "bool": false
+      },
+      {
+        "option": "Hirschsprung disease",
+        "bool": false
+      },
+      {
+        "option": "Intussusception",
+        "bool": true
+      },
+      {
+        "option": "Biliary atresia",
+        "bool": false
+      },
+      {
+        "option": "Malrotation of the gut",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 6-year-old girl is brought to the clinic with a history of jaundice for the last 10 days. She has had nausea and vomiting with decreased oral intake for the past 15 days. She has also had an altered state of consciousness for the past 2 days. On examination, she has a Glasgow coma scale score of 10/15 with severe jaundice. Her liver is tender and palpable 2.5 cm below the costal margin. Laboratory testing shows hypoglycemia with deranged liver function test values and a PT-INR > 3.0. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Cerebral malaria",
+        "bool": false
+      },
+      {
+        "option": "Acute on chronic liver disease with hepatic encephalopathy",
+        "bool": false
+      },
+      {
+        "option": "Hepatic encephalitis",
+        "bool": false
+      },
+      {
+        "option": "Acute liver failure with hepatic encephalopathy",
+        "bool": true
+      },
+      {
+        "option": "Chronic liver disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "What are the diagnostic criteria for acute liver failure?",
+    "answers": [
+      {
+        "option": "Symptoms > 6 weeks with hepatic encephalopathy",
+        "bool": false
+      },
+      {
+        "option": "Symptoms < 6 weeks with PT-INR > 1.5 and hepatic encephalopathy",
+        "bool": false
+      },
+      {
+        "option": "Symptoms < 8 weeks with normal PT-INR",
+        "bool": false
+      },
+      {
+        "option": "Symptoms > 6 weeks with PT-INR > 1.5 and hepatic encephalopathy",
+        "bool": false
+      },
+      {
+        "option": "Symptoms < 8 weeks with PT-INR > 1.5 and hepatic encephalopathy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A one-week-old girl was brought to the emergency department with severe hypoxemia, tachypnea, and costal retractions. History from the family revealed cyanosis, apnea, and occasional arching of the back especially during the feeds, which further worsens the symptoms. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Central hypoventilation syndrome",
+        "bool": false
+      },
+      {
+        "option": "Meningitis",
+        "bool": false
+      },
+      {
+        "option": "Cerebral concussion",
+        "bool": false
+      },
+      {
+        "option": "Gastroesophageal reflux disease",
+        "bool": true
+      },
+      {
+        "option": "Respiratory chain disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 3-year-old male child presents with a history of constipation and abdominal distension for the last few years. The plain abdominal X-ray reveals fecal matter contained distended bowel loops. A barium study shows a transitional zone at the rectosigmoid junction. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Congenital megacolon",
+        "bool": false
+      },
+      {
+        "option": "Malrotation of gut",
+        "bool": false
+      },
+      {
+        "option": "Small intestinal atresia",
+        "bool": false
+      },
+      {
+        "option": "Anal atresia",
+        "bool": false
+      },
+      {
+        "option": "Hirschsprung's disease",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 5-month-old child presents with a history of recurrent vomiting mostly after feed but never containing blood. He is on mother feed with alternate bottle feed. He is admitted to hospital due to vomiting. He was a full-term baby and his birth weight was 2.7 Kg. On examination, the child is irritable with a current weight of 3.1 Kg and bilateral mild crepitations. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Gastroesophageal reflux disease",
+        "bool": true
+      },
+      {
+        "option": "Rumination disorder",
+        "bool": false
+      },
+      {
+        "option": "Esophageal diverticula",
+        "bool": false
+      },
+      {
+        "option": "Peptic ulcer disease",
+        "bool": false
+      },
+      {
+        "option": "Eosinophilic esophagitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 13-year-old girl presented with severe weight loss, and recurrent episodes of diarrhea, containing blood and mucus from last year. There was also a history of lower abdominal pain as well. She has visited multiple hospitals and taken antibiotics but has not improved clinically. Her fecal calprotectin levels were highly raised. Her barium enema showed a string sign in the ileal region. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Celiac Disease",
+        "bool": false
+      },
+      {
+        "option": "Acute gastroenteritis",
+        "bool": false
+      },
+      {
+        "option": "Inflammatory bowel disease",
+        "bool": true
+      },
+      {
+        "option": "Giardiasis",
+        "bool": false
+      },
+      {
+        "option": "Eosinophilic gastroenteritis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 3-year-old child comes to you with complaints of recurrent diarrhea since 8 months of age. The stools are bulky and foul-smelling. He was started on a complementary diet at 6 months of age. The weight is 7 kg. His Stool DR shows numerous fat globules. What further investigation you will advise to confirm the diagnosis?",
+    "answers": [
+      {
+        "option": "Tissue Transglutaminase IgG and Serum IgA",
+        "bool": false
+      },
+      {
+        "option": "Stool culture and sensitivity",
+        "bool": false
+      },
+      {
+        "option": "Barium meal and follow through",
+        "bool": false
+      },
+      {
+        "option": "Tissue Transglutaminase IgA and serum IgA",
+        "bool": true
+      },
+      {
+        "option": "Stool for reducing substance",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A 5-year-old child presented with a history of abdominal distension for the last 2 weeks. He has a history of recurrent foul-smelling, bulky stools containing no blood or mucus. He was admitted to the hospital two times with the above-mentioned complaints but didn't improve. On examination, his weight was 11 Kg, height was 99 cm, edematous child with hypo and hyperpigmentation all over the body. There was no peri-orbital edema, heart sounds were audible. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Abdominal tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Malabsorptive syndrome",
+        "bool": true
+      },
+      {
+        "option": "Nephrotic syndrome",
+        "bool": false
+      },
+      {
+        "option": "Congenital heart disease",
+        "bool": false
+      },
+      {
+        "option": "Chronic liver disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "The weight of a child doubles upon reaching which of the following ages?",
+    "answers": [
+      {
+        "option": "1 year",
+        "bool": false
+      },
+      {
+        "option": "2 years",
+        "bool": false
+      },
+      {
+        "option": "2 months",
+        "bool": false
+      },
+      {
+        "option": "5 months",
+        "bool": true
+      },
+      {
+        "option": "15 months",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "A kid who has not been eating for the last one month develops diarrhea. On physical examination, he looks weak and pale. He has generalized edema, an enlarged liver, and a distended stomach. His investigations revealed hemoglobin (Hb): 6.5 g/dL, protein: 3.2 mg/dL, and albumin: 2.0 g/dL. What is the diagnosis?",
+    "answers": [
+      {
+        "option": "Diabetes",
+        "bool": false
+      },
+      {
+        "option": "Wilson disease",
+        "bool": false
+      },
+      {
+        "option": "Jaundice",
+        "bool": false
+      },
+      {
+        "option": "Marasmus",
+        "bool": false
+      },
+      {
+        "option": "Kwashiorkor",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "3rd-year/gastrointestinal-2/pediatrics",
+    "question": "As a child grows up, both growth and development are observed. What is meant by development?",
+    "answers": [
+      {
+        "option": "Increase in weight",
+        "bool": false
+      },
+      {
+        "option": "Increase in cognitive, social, and functional skills",
+        "bool": true
+      },
+      {
+        "option": "All of the these",
+        "bool": false
+      },
+      {
+        "option": "Increase in weight and height",
+        "bool": false
+      },
+      {
+        "option": "Increase in size",
+        "bool": false
+      }
+    ]
+  }
+]

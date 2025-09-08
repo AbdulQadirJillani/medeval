@@ -1,0 +1,758 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "In which of the following conditions is vasopressin indicated?",
+    "answers": [
+      {
+        "option": "Bronchospasm",
+        "bool": false
+      },
+      {
+        "option": "Tachycardia",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Diabetes mellitus",
+        "bool": false
+      },
+      {
+        "option": "Central diabetes insipidus",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A woman comes to the outpatient department with a complaint of being restless for the past 3 months. She has a single painless swelling in her neck. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Subacute granulomatous thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Toxic multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Subacute lymphocytic thyroiditis",
+        "bool": true
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "What quantity of iodine is required per day for the normal production of thyroid hormones?",
+    "answers": [
+      {
+        "option": "500 microgram",
+        "bool": false
+      },
+      {
+        "option": "50 microgram",
+        "bool": false
+      },
+      {
+        "option": "150 microgram",
+        "bool": true
+      },
+      {
+        "option": "250 microgram",
+        "bool": false
+      },
+      {
+        "option": "350 microgram",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 62-year-old male presents to the clinic with complaints of weight gain and lethargy. He suffers from hypertension and ischemic heart disease, for which he is taking drugs. His TSH and FT4 levels are 21 mIU/L and 0.02 ng/dL, respectively. Considering drug-induced hypothyroidism, which of the following drug might be the most common cause?",
+    "answers": [
+      {
+        "option": "Interleukin blockers",
+        "bool": false
+      },
+      {
+        "option": "Phenylbutazone",
+        "bool": false
+      },
+      {
+        "option": "Interferon",
+        "bool": false
+      },
+      {
+        "option": "Amiodarone",
+        "bool": true
+      },
+      {
+        "option": "Sulphasalazine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A girl presents to the outpatient department with enlargement of the right thyroid gland. Which of the following lymph nodes would not be involved?",
+    "answers": [
+      {
+        "option": "Paratracheal",
+        "bool": false
+      },
+      {
+        "option": "Prelaryngeal",
+        "bool": false
+      },
+      {
+        "option": "Deep cervical",
+        "bool": false
+      },
+      {
+        "option": "Superficial cervical",
+        "bool": true
+      },
+      {
+        "option": "Pretracheal",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following will be decreased in plasma in hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Albumin",
+        "bool": false
+      },
+      {
+        "option": "RT3",
+        "bool": false
+      },
+      {
+        "option": "Cholesterol",
+        "bool": true
+      },
+      {
+        "option": "Thyroxine binding globulin",
+        "bool": false
+      },
+      {
+        "option": "Bilirubin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following is the diagnostic test for acromegaly?",
+    "answers": [
+      {
+        "option": "Glucose tolerance test",
+        "bool": true
+      },
+      {
+        "option": "Insulin levels",
+        "bool": false
+      },
+      {
+        "option": "Homocysteine levels",
+        "bool": false
+      },
+      {
+        "option": "Somatostatin levels",
+        "bool": false
+      },
+      {
+        "option": "Liver function test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following changes in thyroid profile are seen in pregnancy?",
+    "answers": [
+      {
+        "option": "High total T4 and normal TSH",
+        "bool": true
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "High free T3 and T4",
+        "bool": false
+      },
+      {
+        "option": "Low total T3 and T4",
+        "bool": false
+      },
+      {
+        "option": "Low free T3 and T4",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following is the very first test to be done for hypothyroidism?",
+    "answers": [
+      {
+        "option": "T4",
+        "bool": false
+      },
+      {
+        "option": "Free T3",
+        "bool": false
+      },
+      {
+        "option": "T3",
+        "bool": false
+      },
+      {
+        "option": "Total T4 and T3",
+        "bool": false
+      },
+      {
+        "option": "TSH",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following is used to check catecholamine degradation?",
+    "answers": [
+      {
+        "option": "Glucose tolerance test",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Lactate threshold test",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      },
+      {
+        "option": "Vanillylmandelic acid in urine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "What is the HbA1c cut-off for diabetes mellitus diagnosis?",
+    "answers": [
+      {
+        "option": ">9%",
+        "bool": false
+      },
+      {
+        "option": ">2.5%",
+        "bool": false
+      },
+      {
+        "option": ">6.5%",
+        "bool": true
+      },
+      {
+        "option": ">10%",
+        "bool": false
+      },
+      {
+        "option": ">1%",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A lean lady comes to the clinic with the complaint of fragility and irritability. On examination, her blood pressure is 90/60 mmHg. Her laboratory results show blood sugar 240 mg/dL. What test would you first suggest to be done?",
+    "answers": [
+      {
+        "option": "ACTH",
+        "bool": true
+      },
+      {
+        "option": "T3",
+        "bool": false
+      },
+      {
+        "option": "Cortisol",
+        "bool": false
+      },
+      {
+        "option": "Electrolytes",
+        "bool": false
+      },
+      {
+        "option": "T4",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A hypothyroid patient is treated with thyroxine. How frequently should a thyroid function test be repeated?",
+    "answers": [
+      {
+        "option": "6 month interval",
+        "bool": false
+      },
+      {
+        "option": "3 month interval",
+        "bool": false
+      },
+      {
+        "option": "1 month interval",
+        "bool": true
+      },
+      {
+        "option": "1 year interval",
+        "bool": false
+      },
+      {
+        "option": "2 week interval",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A patient is suffering from diabetic ketoacidosis. He is admitted to the hospital and is undergoing insulin therapy. Which of the following should be regularly monitored in the patient?",
+    "answers": [
+      {
+        "option": "Levels of ketone bodies in blood",
+        "bool": false
+      },
+      {
+        "option": "Blood glucose levels",
+        "bool": true
+      },
+      {
+        "option": "Blood insulin levels",
+        "bool": false
+      },
+      {
+        "option": "Glucose levels in urine",
+        "bool": false
+      },
+      {
+        "option": "HbA1c",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "What should be the treatment for a patient with diabetic ketoacidosis?",
+    "answers": [
+      {
+        "option": "High protein diet and insulin",
+        "bool": false
+      },
+      {
+        "option": "Low fat diet and insulin",
+        "bool": false
+      },
+      {
+        "option": "Balanced diet and insulin",
+        "bool": false
+      },
+      {
+        "option": "Oral hypoglycemic drugs",
+        "bool": false
+      },
+      {
+        "option": "Diabetic diet and insulin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 32-year-old patient presented with a raised heart rate, profuse sweating, palpitations, and restlessness 2 months ago. His serum T3 and T4 were high and TSH was low. He had been getting treatment for his condition since then. Which follow-up tests should be performed?",
+    "answers": [
+      {
+        "option": "TRH levels",
+        "bool": false
+      },
+      {
+        "option": "Repeat TSH and serum T3 and T4 levels",
+        "bool": true
+      },
+      {
+        "option": "Free serum T3",
+        "bool": false
+      },
+      {
+        "option": "Repeat TSH",
+        "bool": false
+      },
+      {
+        "option": "Serum T3 and T4 levels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A person with cardiovascular disease wants to decrease his low-density lipoprotein (LDL) cholesterol level. What would be the preferred suggestion?",
+    "answers": [
+      {
+        "option": "Exercise",
+        "bool": false
+      },
+      {
+        "option": "Statins",
+        "bool": true
+      },
+      {
+        "option": "Niacin",
+        "bool": false
+      },
+      {
+        "option": "Fibrates",
+        "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 25-year-old man presents with features of hypothyroidism. He lives in a mountainous area. Which of these is the most likely cause of his condition?",
+    "answers": [
+      {
+        "option": "Autoimmunity",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": true
+      },
+      {
+        "option": "Iodine excess",
+        "bool": false
+      },
+      {
+        "option": "Thyroid tumor",
+        "bool": false
+      },
+      {
+        "option": "Drug use",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "High PTH, high plasma calcium, and normal levels of creatinine and vitamin D are consistent with which of the following parathyroid states?",
+    "answers": [
+      {
+        "option": "Secondary hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Secondary hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Primary hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Primary hyperparathyroidism",
+        "bool": true
+      },
+      {
+        "option": "Tertiary hyperparathyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 30-year-old man presents to the medical outpatient department with complaints of headache for the past 2 days. Pain is moderate in intensity and associated with blurring of vision. On examination, he has a blood pressure of 160/90 mmHg and body mass index (BMI) of 30 kg/m^2. Which of the following is required to fulfill the definition of metabolic syndrome?",
+    "answers": [
+      {
+        "option": "History of using corticosteroids",
+        "bool": false
+      },
+      {
+        "option": "Presence of acanthosis nigricans",
+        "bool": false
+      },
+      {
+        "option": "Impaired fasting glucose, increased triglycerides, decreased HDL, raised uric acid",
+        "bool": false
+      },
+      {
+        "option": "Impaired fasting glucose, increased triglycerides, decreased HDL",
+        "bool": true
+      },
+      {
+        "option": "Raised cholesterol and LDL",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 25-year-old man presents to the medical and patient department with complaints of raised blood pressure for the past 2 months. He has no significant past medical history. On examination, he is looking obese. Which of the following criterion is used for the diagnosis of insulin resistance syndrome?",
+    "answers": [
+      {
+        "option": "Triglyceride greater than 150mg/dL",
+        "bool": true
+      },
+      {
+        "option": "Presence of acanthosis nigericans",
+        "bool": false
+      },
+      {
+        "option": "Blood pressure reading 120/80mmHg",
+        "bool": false
+      },
+      {
+        "option": "Fasting blood glucose value of 80-100mg/dl",
+        "bool": false
+      },
+      {
+        "option": "HDL > 50mg/dL",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 40-year-old woman presents to a medical specialist with a complaint of excessive hair growth over the face. She is diagnosed with a case of metabolic syndrome. Which of the following should be included during the evaluation of patients for metabolic syndrome?",
+    "answers": [
+      {
+        "option": "BMI calculation",
+        "bool": false
+      },
+      {
+        "option": "Measurement of vital signs",
+        "bool": false
+      },
+      {
+        "option": "Measurement of fasting blood sugar",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": true
+      },
+      {
+        "option": "Lipid profile",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "A 30-year-old man presents to the outpatient department for a workup of obesity. He is diagnosed with a case of metabolic syndrome. The first step in the prevention of metabolic syndrome is which of the following?",
+    "answers": [
+      {
+        "option": "Effective lifestyle interventions, focusing on nutrition and exercise",
+        "bool": true
+      },
+      {
+        "option": "Caloric restriction",
+        "bool": false
+      },
+      {
+        "option": "Liposuction",
+        "bool": false
+      },
+      {
+        "option": "Pharmacotherapy",
+        "bool": false
+      },
+      {
+        "option": "Insulin administration",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which serum prolactin level is used as a differential for macroprolactinoma diagnosis?",
+    "answers": [
+      {
+        "option": ">5000 mlU/L",
+        "bool": true
+      },
+      {
+        "option": ">10000 mlU/L",
+        "bool": false
+      },
+      {
+        "option": ">500 mlU/L",
+        "bool": false
+      },
+      {
+        "option": "1000-5000 mlU/L",
+        "bool": false
+      },
+      {
+        "option": "500-1000 mlU/L",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following is the gold standard for diagnosing Helicobacter pylori?",
+    "answers": [
+      {
+        "option": "Urease test",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Histopathology",
+        "bool": false
+      },
+      {
+        "option": "Urea breath test",
+        "bool": false
+      },
+      {
+        "option": "Microbiological culture",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following is a life-threatening complication that may occur with improper management of diabetic ketoacidosis?",
+    "answers": [
+      {
+        "option": "Hyperkalemia",
+        "bool": true
+      },
+      {
+        "option": "Dehydration",
+        "bool": false
+      },
+      {
+        "option": "Renal failure",
+        "bool": false
+      },
+      {
+        "option": "Hyperglycemia",
+        "bool": false
+      },
+      {
+        "option": "Cerebral edema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "What is the marked macrovascular complication of type 2 diabetes mellitus?",
+    "answers": [
+      {
+        "option": "Diminishing vision",
+        "bool": false
+      },
+      {
+        "option": "Accelerated arthritis",
+        "bool": false
+      },
+      {
+        "option": "Tunnel vision",
+        "bool": false
+      },
+      {
+        "option": "Accelerated atherosclerosis",
+        "bool": true
+      },
+      {
+        "option": "Retinal vein occlusion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "2nd-year/endocrinology-1/medicine",
+    "question": "Which of the following is the most common cause of hypoparathyroidism?",
+    "answers": [
+      {
+        "option": "Thyroidectomy",
+        "bool": true
+      },
+      {
+        "option": "Chronic renal failure",
+        "bool": false
+      },
+      {
+        "option": "DiGeorge syndrome",
+        "bool": false
+      },
+      {
+        "option": "Autoimmune polyendocrine syndrome type 1",
+        "bool": false
+      },
+      {
+        "option": "Vitamin d deficiency",
+        "bool": false
+      }
+    ]
+  }
+]

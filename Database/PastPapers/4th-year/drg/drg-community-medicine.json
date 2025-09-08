@@ -1,0 +1,623 @@
+[
+  {
+    "id": 0,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A person is brought out of a smoke-filled room in an unconscious state. Which poisoning is suspected?",
+    "answers": [
+      {
+        "option": "Carbon dioxide",
+        "bool": false
+      },
+      {
+        "option": "Carbon monoxide",
+        "bool": true
+      },
+      {
+        "option": "Oxygen",
+        "bool": false
+      },
+      {
+        "option": "Cyanide",
+        "bool": false
+      },
+      {
+        "option": "Nitrogen dioxide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "4th-year/drg/community-medicine",
+    "question": "If a child is diagnosed with scabies, which of the following treatment approach is recommended?",
+    "answers": [
+      {
+        "option": "Friends",
+        "bool": false
+      },
+      {
+        "option": "School fellows",
+        "bool": false
+      },
+      {
+        "option": "Family",
+        "bool": false
+      },
+      {
+        "option": "Close contacts",
+        "bool": true
+      },
+      {
+        "option": "Individual",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "4th-year/drg/community-medicine",
+    "question": "What is the main cause of death due to burn injury?",
+    "answers": [
+      {
+        "option": "Hyperthermia",
+        "bool": false
+      },
+      {
+        "option": "Hypothermia",
+        "bool": false
+      },
+      {
+        "option": "Neurogenic",
+        "bool": false
+      },
+      {
+        "option": "Sepsis",
+        "bool": true
+      },
+      {
+        "option": "Contracture",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "4th-year/drg/community-medicine",
+    "question": "If a person accidentally suffers from an electrical burn. What is done first?",
+    "answers": [
+      {
+        "option": "Remove the person from the electrical source",
+        "bool": true
+      },
+      {
+        "option": "Give intravenous fluids",
+        "bool": false
+      },
+      {
+        "option": "Cover burned area with a blanket",
+        "bool": false
+      },
+      {
+        "option": "Apply ointment or butter",
+        "bool": false
+      },
+      {
+        "option": "Apply ice on the area of contact",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A patient presents with undue restlessness after suffering from a burn injury. What is the possible cause of this symptom?",
+    "answers": [
+      {
+        "option": "Hyponatremia",
+        "bool": false
+      },
+      {
+        "option": "Hyperkalemia",
+        "bool": false
+      },
+      {
+        "option": "Hypovolemia",
+        "bool": true
+      },
+      {
+        "option": "Hypoxia",
+        "bool": false
+      },
+      {
+        "option": "Anxiety",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/drg/community-medicine",
+    "question": "What is the degree of burns if blisters are present?",
+    "answers": [
+      {
+        "option": "Third",
+        "bool": false
+      },
+      {
+        "option": "Fourth",
+        "bool": false
+      },
+      {
+        "option": "Second",
+        "bool": true
+      },
+      {
+        "option": "First",
+        "bool": false
+      },
+      {
+        "option": "Fifth",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A patient developed painful shiny blisters after a burn injury. The lesions healed within 6 weeks. What is the appropriate classification for this type of burn injury?",
+    "answers": [
+      {
+        "option": "Third-degree burn",
+        "bool": false
+      },
+      {
+        "option": "First-degree burn",
+        "bool": false
+      },
+      {
+        "option": "Second-degree burn",
+        "bool": true
+      },
+      {
+        "option": "Fourth-degree burn",
+        "bool": false
+      },
+      {
+        "option": "Full thickness burn",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A sudden explosion happens in a busy marketplace, after which rescue workers start assessing the injured and tagging them with different color codes. Which of the following term best describes this action?",
+    "answers": [
+      {
+        "option": "Triage",
+        "bool": true
+      },
+      {
+        "option": "Search",
+        "bool": false
+      },
+      {
+        "option": "Rescue",
+        "bool": false
+      },
+      {
+        "option": "Field care",
+        "bool": false
+      },
+      {
+        "option": "Identification",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "4th-year/drg/community-medicine",
+    "question": "The four principal components in managing humanitarian supplies are acquisition, transportation, storage, and distribution. These happen during which phase of disaster management?",
+    "answers": [
+      {
+        "option": "Impact",
+        "bool": false
+      },
+      {
+        "option": "Field care",
+        "bool": false
+      },
+      {
+        "option": "Relief phase",
+        "bool": true
+      },
+      {
+        "option": "Search and rescue phase",
+        "bool": false
+      },
+      {
+        "option": "Mitigation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "4th-year/drg/community-medicine",
+    "question": "Which of the following conditions is most commonly encountered due to heat exposure in industries?",
+    "answers": [
+      {
+        "option": "Burn",
+        "bool": true
+      },
+      {
+        "option": "Respiratory distress",
+        "bool": false
+      },
+      {
+        "option": "Infection",
+        "bool": false
+      },
+      {
+        "option": "Frost bite",
+        "bool": false
+      },
+      {
+        "option": "Dermatitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "4th-year/drg/community-medicine",
+    "question": "According to the classification of burns, the burnt area which shows blisters filled with clear fluid and is very tender to touch falls under which category?",
+    "answers": [
+      {
+        "option": "Second degree",
+        "bool": true
+      },
+      {
+        "option": "First degree",
+        "bool": false
+      },
+      {
+        "option": "Third degree",
+        "bool": false
+      },
+      {
+        "option": "Cannot be assessed on physical examination",
+        "bool": false
+      },
+      {
+        "option": "Fourth degree",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A 60-year-old female comes to a primary health clinic. She complains of intense itching over her entire body, especially at night, for the last 1 week. On examination, she has a pimple-like rash on her wrists, armpits, abdomen, and buttocks. There are sores on the body caused by scratching. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Psoriasis",
+        "bool": false
+      },
+      {
+        "option": "Scabies",
+        "bool": true
+      },
+      {
+        "option": "Tinea corporis",
+        "bool": false
+      },
+      {
+        "option": "Pimples",
+        "bool": false
+      },
+      {
+        "option": "Allergic reaction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "4th-year/drg/community-medicine",
+    "question": "'Any loss or abnormality of anatomical, physiological, or psychological structure or function which results from abnormalities of body structure, appearance, organ, or system function.' Which of the following terms best corresponds to this definition?",
+    "answers": [
+      {
+        "option": "Handicap",
+        "bool": false
+      },
+      {
+        "option": "Disability",
+        "bool": false
+      },
+      {
+        "option": "Impairment",
+        "bool": true
+      },
+      {
+        "option": "Limitation",
+        "bool": false
+      },
+      {
+        "option": "Restriction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/drg/community-medicine",
+    "question": "According to the four-color code system, what color are moribund patients assigned in case of a disaster?",
+    "answers": [
+      {
+        "option": "Black",
+        "bool": true
+      },
+      {
+        "option": "Grey",
+        "bool": false
+      },
+      {
+        "option": "Yellow",
+        "bool": false
+      },
+      {
+        "option": "Red",
+        "bool": false
+      },
+      {
+        "option": "Green",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A female athlete comes to the clinic with complaints of reduction in breast size, falling of hair, increased facial hair, and being very aggressive and anxious lately. On examination, the patient has a muscular build, signs of breast atrophy, hirsutism, and acne on the face. Which of the following drugs is she most probably abusing?",
+    "answers": [
+      {
+        "option": "Beta blockers",
+        "bool": false
+      },
+      {
+        "option": "Calcium gluconate",
+        "bool": false
+      },
+      {
+        "option": "Anabolic steroids",
+        "bool": true
+      },
+      {
+        "option": "Ephedrine",
+        "bool": false
+      },
+      {
+        "option": "Amphetamines",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "4th-year/drg/community-medicine",
+    "question": "The students of the fourth year are given a form with a question about how they feel about 4th year and they can answer freely about it. What type of question it is?",
+    "answers": [
+      {
+        "option": "Clarifying question",
+        "bool": false
+      },
+      {
+        "option": "Open-ended question",
+        "bool": true
+      },
+      {
+        "option": "Choice question",
+        "bool": false
+      },
+      {
+        "option": "Leading question",
+        "bool": false
+      },
+      {
+        "option": "Close-ended question",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/drg/community-medicine",
+    "question": "An effective burn prevention plan should be multi-sectoral and include broad efforts to improve awareness and develop and enforce effective policy. For this purpose, what is the first and most important step?",
+    "answers": [
+      {
+        "option": "Describe burden and identify risk factors",
+        "bool": true
+      },
+      {
+        "option": "Set research priorities with promotion of promising interventions",
+        "bool": false
+      },
+      {
+        "option": "Training of health professionals",
+        "bool": false
+      },
+      {
+        "option": "Improve burn care facilities in hospitals",
+        "bool": false
+      },
+      {
+        "option": "Provide burn prevention programs",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A man visited a primary healthcare center with complaints of pimple-like rash between fingers, on wrist, elbows, armpits, and navel. He complained of intense itching, especially at night. There were sores on the body caused by scratching. Which one of the following is the most appropriate treatment for this patient's condition?",
+    "answers": [
+      {
+        "option": "Oral ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Antifungal cream",
+        "bool": false
+      },
+      {
+        "option": "Daily bath",
+        "bool": false
+      },
+      {
+        "option": "Antibiotic ointment",
+        "bool": false
+      },
+      {
+        "option": "Permethrin cream",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A building collapsed even before the completion of the project, many workers were severely injured. What are the efforts aimed at treating and rehabilitating the victims referred as?",
+    "answers": [
+      {
+        "option": "Primary prevention",
+        "bool": false
+      },
+      {
+        "option": "Health education",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Tertiary prevention",
+        "bool": true
+      },
+      {
+        "option": "Health promotion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "4th-year/drg/community-medicine",
+    "question": "In developing countries morbidity and mortality due to accidents are rising. According to the observations made by the Karachi Development Authority, which of the following is the most affected in city accidents?",
+    "answers": [
+      {
+        "option": "Pedestrian",
+        "bool": true
+      },
+      {
+        "option": "Motorbikes",
+        "bool": false
+      },
+      {
+        "option": "Automobiles",
+        "bool": false
+      },
+      {
+        "option": "Animal carts",
+        "bool": false
+      },
+      {
+        "option": "Rickshaw",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A 20-year-old resident from Gadap Town Karachi visited a hospital for complaints of weight loss, irritation, and white bands on fingernails. He is a farmer who used to drink well water. There is no history of addiction. Chronic poisoning from which of the following is most likely to be present in this patient?",
+    "answers": [
+      {
+        "option": "Lead",
+        "bool": false
+      },
+      {
+        "option": "Cobalt",
+        "bool": false
+      },
+      {
+        "option": "Mercury",
+        "bool": false
+      },
+      {
+        "option": "Phosphorous",
+        "bool": false
+      },
+      {
+        "option": "Arsenic",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "4th-year/drg/community-medicine",
+    "question": "A young medical student has developed foul-smelling breath for the last few weeks. He noticed a bluish line on the gums of the upper jaw and a loss of appetite. Red marks on the back are also present. Poisoning from which of the following is most likely in this patient?",
+    "answers": [
+      {
+        "option": "Mercury",
+        "bool": false
+      },
+      {
+        "option": "Copper",
+        "bool": false
+      },
+      {
+        "option": "Lead",
+        "bool": true
+      },
+      {
+        "option": "Thallium",
+        "bool": false
+      },
+      {
+        "option": "Arsenic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "4th-year/drg/community-medicine",
+    "question": "Louse-borne relapsing fever epidemic appears from time to time in districts of Pakistan adjoining Afghanistan, particularly when nomads migrate during winter. Louse does not transmit infection through bite or feces but the organism gains access through infected fluid liberated when the victim crushes the louse or scratches the area where the louse is feeding. Which one of the following is the most appropriate prevention for this infection?",
+    "answers": [
+      {
+        "option": "Insecticide",
+        "bool": false
+      },
+      {
+        "option": "5% permethrin cream",
+        "bool": false
+      },
+      {
+        "option": "Improve living conditions",
+        "bool": true
+      },
+      {
+        "option": "Antibiotic prophylaxis",
+        "bool": false
+      },
+      {
+        "option": "Water disinfection",
+        "bool": false
+      }
+    ]
+  }
+]

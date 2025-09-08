@@ -1,0 +1,1109 @@
+[
+  {
+    "id": 0,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the advantage of administering drugs through the subcutaneous route?",
+    "answers": [
+      {
+        "option": "Useful when patients are under anaphylactic shock",
+        "bool": false
+      },
+      {
+        "option": "Slow releasing drugs are given subcutaneously",
+        "bool": false
+      },
+      {
+        "option": "Gives immediate drug action",
+        "bool": false
+      },
+      {
+        "option": "Gives a longer duration of action",
+        "bool": true
+      },
+      {
+        "option": "Fast releasing drugs are given subcutaneously",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the effect of biotransformation on drugs?",
+    "answers": [
+      {
+        "option": "Less lipid soluble",
+        "bool": true
+      },
+      {
+        "option": "Less ionized",
+        "bool": false
+      },
+      {
+        "option": "More pharmacologically active",
+        "bool": false
+      },
+      {
+        "option": "Less readily eliminated",
+        "bool": false
+      },
+      {
+        "option": "More lipid soluble",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the action of a drug on the body known as?",
+    "answers": [
+      {
+        "option": "Solubility",
+        "bool": false
+      },
+      {
+        "option": "Drug clearance",
+        "bool": false
+      },
+      {
+        "option": "Pharmacokinetics",
+        "bool": false
+      },
+      {
+        "option": "Pharmacodynamics",
+        "bool": true
+      },
+      {
+        "option": "Bioavailability",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "How can the therapeutic index be calculated?",
+    "answers": [
+      {
+        "option": "Pharmacokinetics/pharmacodynamics",
+        "bool": false
+      },
+      {
+        "option": "PT/INR",
+        "bool": false
+      },
+      {
+        "option": "TD\u2085\u2080/ED\u2085\u2080",
+        "bool": true
+      },
+      {
+        "option": "Efficacy/potency",
+        "bool": false
+      },
+      {
+        "option": "[E]/[E\u2098\u2090\u2093]",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following is not a phase I reaction?",
+    "answers": [
+      {
+        "option": "Glucuronidation",
+        "bool": true
+      },
+      {
+        "option": "Deamination",
+        "bool": false
+      },
+      {
+        "option": "Hydrolysis",
+        "bool": false
+      },
+      {
+        "option": "Oxidation",
+        "bool": false
+      },
+      {
+        "option": "Reduction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Drug administration through which of the following routes is most likely to go through first pass metabolism?",
+    "answers": [
+      {
+        "option": "Oral",
+        "bool": true
+      },
+      {
+        "option": "Intravenous",
+        "bool": false
+      },
+      {
+        "option": "Buccal",
+        "bool": false
+      },
+      {
+        "option": "Intramuscular",
+        "bool": false
+      },
+      {
+        "option": "Subcutaneous",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following states the advantage of parenteral drug administration?",
+    "answers": [
+      {
+        "option": "It has slow-onset and long duration of action",
+        "bool": false
+      },
+      {
+        "option": "It is too slow to be used in an emergency",
+        "bool": false
+      },
+      {
+        "option": "It cannot be used in unconscious patients",
+        "bool": false
+      },
+      {
+        "option": "Its dosage cannot be monitored",
+        "bool": false
+      },
+      {
+        "option": "It can provide an immediate effect",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following refers to the process that makes the drugs less effective?",
+    "answers": [
+      {
+        "option": "Glycosylation",
+        "bool": false
+      },
+      {
+        "option": "Hydrogenation",
+        "bool": false
+      },
+      {
+        "option": "Phosphorylation",
+        "bool": false
+      },
+      {
+        "option": "Biotransformation",
+        "bool": true
+      },
+      {
+        "option": "Oxidation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following is true regarding biotransformation?",
+    "answers": [
+      {
+        "option": "It causes hydrolysis of a drug",
+        "bool": false
+      },
+      {
+        "option": "It decreases ionization of a drug",
+        "bool": false
+      },
+      {
+        "option": "It increases ionization of a drug",
+        "bool": false
+      },
+      {
+        "option": "It increases lipid solubility of a drug",
+        "bool": false
+      },
+      {
+        "option": "It decreases lipid solubility of a drug",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following statements best describes bioavailability?",
+    "answers": [
+      {
+        "option": "The rate of absorption of the administered drug into the systemic circulation",
+        "bool": false
+      },
+      {
+        "option": "The amount of administered drug that reaches the systemic circulation",
+        "bool": false
+      },
+      {
+        "option": "The frequency at which the administered drug reaches the systemic circulation",
+        "bool": false
+      },
+      {
+        "option": "The fraction of administered drug that reaches the systemic circulation in unchanged form",
+        "bool": true
+      },
+      {
+        "option": "The speed at which the administered drug reaches the systemic circulation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the immune-mediated response activated in a patient in response to a certain drug called?",
+    "answers": [
+      {
+        "option": "Tachyphylaxis",
+        "bool": false
+      },
+      {
+        "option": "Supersensitivity",
+        "bool": false
+      },
+      {
+        "option": "Tolerance",
+        "bool": false
+      },
+      {
+        "option": "Anaphylaxis",
+        "bool": false
+      },
+      {
+        "option": "Idiosyncrasy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "The subcutaneous route is used due to which of the following advantages?",
+    "answers": [
+      {
+        "option": "Slow absorption",
+        "bool": true
+      },
+      {
+        "option": "Avoids usage of injections",
+        "bool": false
+      },
+      {
+        "option": "Prevention of shock",
+        "bool": false
+      },
+      {
+        "option": "Immediate action",
+        "bool": false
+      },
+      {
+        "option": "Fast absorption",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A 3-year-old boy has ingested some toxins that may kill him. Which of the following routes of administering the antidote will have the most rapid effect?",
+    "answers": [
+      {
+        "option": "Oral",
+        "bool": false
+      },
+      {
+        "option": "Intravenous (IV)",
+        "bool": true
+      },
+      {
+        "option": "Sublingual",
+        "bool": false
+      },
+      {
+        "option": "Rectal",
+        "bool": false
+      },
+      {
+        "option": "Subcutaneous",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of these acts as an inhibitor of CYP450?",
+    "answers": [
+      {
+        "option": "Rifampin",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid",
+        "bool": true
+      },
+      {
+        "option": "Nicotine",
+        "bool": false
+      },
+      {
+        "option": "Augmentin",
+        "bool": false
+      },
+      {
+        "option": "Morphine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "The subcutaneous route is used due to which property?",
+    "answers": [
+      {
+        "option": "Slow absorption and prolonged effect",
+        "bool": true
+      },
+      {
+        "option": "Avoids usage of injections",
+        "bool": false
+      },
+      {
+        "option": "Fast absorption",
+        "bool": false
+      },
+      {
+        "option": "Prevention of shock",
+        "bool": false
+      },
+      {
+        "option": "Immediate effect",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the rapid reduction in the response of a drug after a single administration defined as?",
+    "answers": [
+      {
+        "option": "Tolerance",
+        "bool": false
+      },
+      {
+        "option": "Tachyphylaxis",
+        "bool": true
+      },
+      {
+        "option": "Supersensitivity",
+        "bool": false
+      },
+      {
+        "option": "Anaphylaxis",
+        "bool": false
+      },
+      {
+        "option": "Hypersensitivity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A case of premature closure of the ductus arteriosus is seen. Which drug was the fetus exposed to?",
+    "answers": [
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Tranquillizer",
+        "bool": false
+      },
+      {
+        "option": "Retinoic acid",
+        "bool": false
+      },
+      {
+        "option": "Insulin",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroids",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A patient comes into the emergency department and is about to collapse. He is immediately given a large dose of a drug to stabilize him. What is this dose called?",
+    "answers": [
+      {
+        "option": "Maintenance dose",
+        "bool": false
+      },
+      {
+        "option": "Lethal dose",
+        "bool": false
+      },
+      {
+        "option": "Pediatric dose",
+        "bool": false
+      },
+      {
+        "option": "Toxic dose",
+        "bool": false
+      },
+      {
+        "option": "Loading dose",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which statement correctly describes the situation of the administration of a drug to a malnourished child?",
+    "answers": [
+      {
+        "option": "There will be decreased drug excretion due to decreased renal activity",
+        "bool": false
+      },
+      {
+        "option": "Less drug will remain free in blood due to increased level of plasma proteins",
+        "bool": false
+      },
+      {
+        "option": "More drug will remain free in blood due to decreased level of plasma proteins",
+        "bool": true
+      },
+      {
+        "option": "There will be increased drug excretion due to increased renal activity",
+        "bool": false
+      },
+      {
+        "option": "There will be fast absorption of drug in gastrointestinal tract leading to increased drug effect",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the formula for the calculation of the volume distribution of drugs?",
+    "answers": [
+      {
+        "option": "Vd = Plasma concentration / dose",
+        "bool": false
+      },
+      {
+        "option": "Vd= plasma concentration + dose",
+        "bool": false
+      },
+      {
+        "option": "Vd = administered dose / plasma concentration",
+        "bool": true
+      },
+      {
+        "option": "Vd = 2 x plasma concentration / dose",
+        "bool": false
+      },
+      {
+        "option": "Vd = plasma concentration \u00d7 dose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which process occurs in phase 2 of biotransformation?",
+    "answers": [
+      {
+        "option": "Reduction",
+        "bool": false
+      },
+      {
+        "option": "Oxidation",
+        "bool": false
+      },
+      {
+        "option": "Acetylation",
+        "bool": true
+      },
+      {
+        "option": "Hydrolysis",
+        "bool": false
+      },
+      {
+        "option": "Phosphorylation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A person uses aspirin (pain killer) for headache relief. What is the most common method of absorption of drugs?",
+    "answers": [
+      {
+        "option": "Carrier mediated transport",
+        "bool": false
+      },
+      {
+        "option": "Active transport",
+        "bool": false
+      },
+      {
+        "option": "Osmosis",
+        "bool": false
+      },
+      {
+        "option": "Endocytosis",
+        "bool": false
+      },
+      {
+        "option": "Passive diffusion",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the advantage of the parenteral route?",
+    "answers": [
+      {
+        "option": "Cannot be used in emergency",
+        "bool": false
+      },
+      {
+        "option": "Takes time to reach the site of action",
+        "bool": false
+      },
+      {
+        "option": "Greater absorption than oral route",
+        "bool": true
+      },
+      {
+        "option": "Delayed access to systematic circulation",
+        "bool": false
+      },
+      {
+        "option": "Cannot be given to unconscious patients",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which drug prevents the synthesis of folic acid?",
+    "answers": [
+      {
+        "option": "Trimethoprim",
+        "bool": true
+      },
+      {
+        "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Probenecid",
+        "bool": false
+      },
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the ability of a drug to produce a response called?",
+    "answers": [
+      {
+        "option": "Kinematics",
+        "bool": false
+      },
+      {
+        "option": "Bioavailibilty",
+        "bool": false
+      },
+      {
+        "option": "Potency",
+        "bool": false
+      },
+      {
+        "option": "Efficacy",
+        "bool": false
+      },
+      {
+        "option": "Intrinsic activity",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the effect of drugs on the body called?",
+    "answers": [
+      {
+        "option": "Pharmacogenesis",
+        "bool": false
+      },
+      {
+        "option": "Pharmacokinetics",
+        "bool": false
+      },
+      {
+        "option": "Pharmacogenomics",
+        "bool": false
+      },
+      {
+        "option": "Pharmacodynamics",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the ability of the drug to elicit a response after binding to a receptor called?",
+    "answers": [
+      {
+        "option": "Efficacy",
+        "bool": false
+      },
+      {
+        "option": "Intrinsic activity",
+        "bool": true
+      },
+      {
+        "option": "Elimination",
+        "bool": false
+      },
+      {
+        "option": "Pharmacology",
+        "bool": false
+      },
+      {
+        "option": "Potency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Two drugs act on the same organ or tissue and activate different receptors that produce different responses. Which type of antagonism is this?",
+    "answers": [
+      {
+        "option": "Dispositional",
+        "bool": false
+      },
+      {
+        "option": "Chemical",
+        "bool": false
+      },
+      {
+        "option": "Competitive",
+        "bool": false
+      },
+      {
+        "option": "Physiological",
+        "bool": true
+      },
+      {
+        "option": "Pharmacological",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following refers to the affinity of the drug?",
+    "answers": [
+      {
+        "option": "Measure of rate at which it is eliminated",
+        "bool": false
+      },
+      {
+        "option": "How tightly drug binds to plasma proteins",
+        "bool": false
+      },
+      {
+        "option": "Measure of inhibiting potency of a drug",
+        "bool": false
+      },
+      {
+        "option": "Measure of bioavailability of a drug",
+        "bool": false
+      },
+      {
+        "option": "How drug binds to a receptor",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is the term used for the study of natural drugs and their physical and chemical properties?",
+    "answers": [
+      {
+        "option": "Toxicology",
+        "bool": false
+      },
+      {
+        "option": "Pharmacy",
+        "bool": false
+      },
+      {
+        "option": "Pharmacopoeia",
+        "bool": false
+      },
+      {
+        "option": "Pharmacognosy",
+        "bool": true
+      },
+      {
+        "option": "Pharmacodynamics",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "What is meant by the term pharmacokinetics?",
+    "answers": [
+      {
+        "option": "Methods of new drug development",
+        "bool": false
+      },
+      {
+        "option": "Study of identification of drugs",
+        "bool": false
+      },
+      {
+        "option": "Effect of drug on body",
+        "bool": false
+      },
+      {
+        "option": "Biological and therapeutic effects of drug",
+        "bool": false
+      },
+      {
+        "option": "Absorption, metabolism and excretion of drugs",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following refers to the gradual decrease in responsiveness due to repeated administration of the drug?",
+    "answers": [
+      {
+        "option": "Hypersensitivity",
+        "bool": false
+      },
+      {
+        "option": "Tolerance",
+        "bool": true
+      },
+      {
+        "option": "Tachyphylaxis",
+        "bool": false
+      },
+      {
+        "option": "Idiosyncrasy",
+        "bool": false
+      },
+      {
+        "option": "Placebo effect",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Pharmacodynamics is the study of which of the following?",
+    "answers": [
+      {
+        "option": "Metabolism of drugs",
+        "bool": false
+      },
+      {
+        "option": "Assimilation of drugs",
+        "bool": false
+      },
+      {
+        "option": "Excretion of drugs",
+        "bool": false
+      },
+      {
+        "option": "Absorption of drugs",
+        "bool": false
+      },
+      {
+        "option": "Action of drugs on body",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A hypertensive patient is given an angiotensin-converting enzyme (ACE) inhibitor that works by lowering Vmax. What type of inhibition is most likely to be involved in this case?",
+    "answers": [
+      {
+        "option": "Competitive",
+        "bool": false
+      },
+      {
+        "option": "Allosteric",
+        "bool": false
+      },
+      {
+        "option": "Full agonist",
+        "bool": false
+      },
+      {
+        "option": "Partial agonist",
+        "bool": false
+      },
+      {
+        "option": "Non-competitive",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following is not a phase 1 reaction in the process of drug metabolism?",
+    "answers": [
+      {
+        "option": "Dehydrogenation",
+        "bool": false
+      },
+      {
+        "option": "Hydrolysis",
+        "bool": false
+      },
+      {
+        "option": "Conjugation",
+        "bool": true
+      },
+      {
+        "option": "Oxidation",
+        "bool": false
+      },
+      {
+        "option": "Reduction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A pharmacologist invents a new drug and experiments with it on a human volunteer. What is the earliest evidence that the drug is most likely being stored in tissue?",
+    "answers": [
+      {
+        "option": "Decreased amount of free drug excreted in the urine",
+        "bool": false
+      },
+      {
+        "option": "Increased number of side effects",
+        "bool": false
+      },
+      {
+        "option": "Increased plasma protein bounding",
+        "bool": false
+      },
+      {
+        "option": "A large volume of distribution",
+        "bool": true
+      },
+      {
+        "option": "Decreased rate of drug metabolism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A 45-year-old patient is being administered a drug through a route that offers the most first-pass metabolism. Through which route is the drug most likely being administered?",
+    "answers": [
+      {
+        "option": "Intramuscular",
+        "bool": false
+      },
+      {
+        "option": "Sublingual",
+        "bool": false
+      },
+      {
+        "option": "Inhalation",
+        "bool": false
+      },
+      {
+        "option": "Rectal",
+        "bool": false
+      },
+      {
+        "option": "Oral",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "A patient is given drug X to decrease the toxicity of heavy metal by directly binding to it and not allowing it to bind to tissues. Which of the following is an example of this kind of antagonism?",
+    "answers": [
+      {
+        "option": "Functional",
+        "bool": false
+      },
+      {
+        "option": "Chemical",
+        "bool": true
+      },
+      {
+        "option": "Allosteric",
+        "bool": false
+      },
+      {
+        "option": "Pharmacokinetic",
+        "bool": false
+      },
+      {
+        "option": "Irreversible",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "The toxic effects produced by a drug at therapeutic doses can be predicted by which of the following?",
+    "answers": [
+      {
+        "option": "Receptor selectivity",
+        "bool": false
+      },
+      {
+        "option": "Dose-response relationships",
+        "bool": false
+      },
+      {
+        "option": "Pharmacodynamics",
+        "bool": true
+      },
+      {
+        "option": "Pharmacokinetics",
+        "bool": false
+      },
+      {
+        "option": "Drug metabolism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Zinc is primarily absorbed at which site?",
+    "answers": [
+      {
+        "option": "Intestines",
+        "bool": true
+      },
+      {
+        "option": "Tissues",
+        "bool": false
+      },
+      {
+        "option": "Muscles",
+        "bool": false
+      },
+      {
+        "option": "Stomach",
+        "bool": false
+      },
+      {
+        "option": "Skin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "1st-year/foundation-1/pharmacology",
+    "question": "Which of the following processes occur in the second phase of biotransformation?",
+    "answers": [
+      {
+        "option": "Reduction",
+        "bool": false
+      },
+      {
+        "option": "Acetylation",
+        "bool": true
+      },
+      {
+        "option": "Sulfation",
+        "bool": false
+      },
+      {
+        "option": "Oxidation",
+        "bool": false
+      },
+      {
+        "option": "Hydrolysis",
+        "bool": false
+      }
+    ]
+  }
+]

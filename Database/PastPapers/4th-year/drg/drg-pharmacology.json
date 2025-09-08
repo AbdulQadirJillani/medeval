@@ -1,0 +1,812 @@
+[
+  {
+    "id": 0,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of these medications can be used orally for scabies?",
+    "answers": [
+      {
+        "option": "Lindane",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": true
+      },
+      {
+        "option": "Permethrin",
+        "bool": false
+      },
+      {
+        "option": "Malathion",
+        "bool": false
+      },
+      {
+        "option": "Benzoyl benzoate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which one of these is the most important treatment for body louse?",
+    "answers": [
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "25% benzoyl benzoate",
+        "bool": false
+      },
+      {
+        "option": "5% permethrin",
+        "bool": false
+      },
+      {
+        "option": "1% permethrin",
+        "bool": false
+      },
+      {
+        "option": "Washing clothing",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which one of these is the drug of choice in psoriasis?",
+    "answers": [
+      {
+        "option": "Antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Antifungals",
+        "bool": false
+      },
+      {
+        "option": "Selenium sulfide",
+        "bool": false
+      },
+      {
+        "option": "Topical vitamin D",
+        "bool": true
+      },
+      {
+        "option": "Permethrin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which one of these is a suitable drug for psoriasis?",
+    "answers": [
+      {
+        "option": "Acitretin",
+        "bool": true
+      },
+      {
+        "option": "Crypoterone acetate",
+        "bool": false
+      },
+      {
+        "option": "Mycophenolate",
+        "bool": false
+      },
+      {
+        "option": "Azathioprine",
+        "bool": false
+      },
+      {
+        "option": "Fumaric acid derivative",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which one of the following electrolyte abnormalities are caused by amphotericin B?",
+    "answers": [
+      {
+        "option": "Hypophosphatemia",
+        "bool": false
+      },
+      {
+        "option": "Hypocalcemia",
+        "bool": false
+      },
+      {
+        "option": "Hypokalemia",
+        "bool": true
+      },
+      {
+        "option": "Hyponatremia",
+        "bool": false
+      },
+      {
+        "option": "Hypermagnesemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which one of the following anti-spasticity agents is least sedative?",
+    "answers": [
+      {
+        "option": "Metaxolone",
+        "bool": true
+      },
+      {
+        "option": "Dantrolene sodium",
+        "bool": false
+      },
+      {
+        "option": "Midazolam",
+        "bool": false
+      },
+      {
+        "option": "Baclofen",
+        "bool": false
+      },
+      {
+        "option": "Tizanidine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 24-year-old male presents with large psoriatic plaques on his elbows and knees. He is recommended an emollient to help control the scaling. What would be the most appropriate further prescription to use as a first-line treatment for his plaques?",
+    "answers": [
+      {
+        "option": "Topical steroids plus calcipotriol",
+        "bool": false
+      },
+      {
+        "option": "Topical coal tar",
+        "bool": false
+      },
+      {
+        "option": "Topical calcipotriol only",
+        "bool": true
+      },
+      {
+        "option": "Topical steroids only",
+        "bool": false
+      },
+      {
+        "option": "Topical dithranol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 55-year-old female presents to the hospital with shortness of breath, fever, and malaise. She has a history of breast cancer which was diagnosed 3 months ago and has been treated with chemotherapy. Her chest X-ray (CXR) shows signs of possible pneumonia and respiratory cultures are positive for Aspergillus fumigatus. Which of the following is the most appropriate choice of treatment?",
+    "answers": [
+      {
+        "option": "Itraconazole",
+        "bool": false
+      },
+      {
+        "option": "Fluconazole",
+        "bool": false
+      },
+      {
+        "option": "Ketoconazole",
+        "bool": false
+      },
+      {
+        "option": "Voriconazole",
+        "bool": true
+      },
+      {
+        "option": "Flucytosine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 65-year-old male presents to the hospital with shortness of breath and cardiac illness. Which of the following antifungal agents should be avoided in patients with evidence of ventricular dysfunction?",
+    "answers": [
+      {
+        "option": "Terbinafine",
+        "bool": false
+      },
+      {
+        "option": "Ketoconazole",
+        "bool": false
+      },
+      {
+        "option": "Micafungin",
+        "bool": false
+      },
+      {
+        "option": "Posaconazole",
+        "bool": false
+      },
+      {
+        "option": "Itraconazole",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following drugs is an example of an allylamine?",
+    "answers": [
+      {
+        "option": "Fluconazole",
+        "bool": false
+      },
+      {
+        "option": "Nystatin",
+        "bool": false
+      },
+      {
+        "option": "Flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Terbinafine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which drug should be used in the treatment of tinea capitis?",
+    "answers": [
+      {
+        "option": "Oral flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Oral terbinafine",
+        "bool": true
+      },
+      {
+        "option": "Oral clotrimazole",
+        "bool": false
+      },
+      {
+        "option": "IV amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Topical clotrimazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which antifungals are used for the treatment of cryptococcal meningitis?",
+    "answers": [
+      {
+        "option": "Triazoles",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin-B and 5-fluorocytosine",
+        "bool": true
+      },
+      {
+        "option": "5-fluorocytosine and triazoles",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin-B and triazoles",
+        "bool": false
+      },
+      {
+        "option": "5-fluorocytosine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following drugs can be taken orally for the treatment of psoriasis?",
+    "answers": [
+      {
+        "option": "Salicylic acid",
+        "bool": false
+      },
+      {
+        "option": "Methotrexate",
+        "bool": true
+      },
+      {
+        "option": "Etanercept",
+        "bool": false
+      },
+      {
+        "option": "Tazarotene",
+        "bool": false
+      },
+      {
+        "option": "Coal tar",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following drugs used in the treatment of psoriasis is correctly matched with its mechanism of action?",
+    "answers": [
+      {
+        "option": "Ustekimumab - IL-17A inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Broadalumab - TNF beta inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Infliximab - IL-23 inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Ixekizumab - IL-23 inhibitor",
+        "bool": false
+      },
+      {
+        "option": "Etanercept - TNF alpha inhibitor",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of these drugs is most appropriate for mild psoriasis?",
+    "answers": [
+      {
+        "option": "Methotrexate",
+        "bool": false
+      },
+      {
+        "option": "Topical steroids",
+        "bool": true
+      },
+      {
+        "option": "Topical clobetasol propionate",
+        "bool": false
+      },
+      {
+        "option": "Systemic steroids",
+        "bool": false
+      },
+      {
+        "option": "Oral isotretinoin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "4th-year/drg/pharmacology",
+    "question": "What is the mechanism of action of biological drugs in psoriasis?",
+    "answers": [
+      {
+        "option": "Inhibit excessive cell growth",
+        "bool": false
+      },
+      {
+        "option": "Block the action of B cells",
+        "bool": false
+      },
+      {
+        "option": "Act as antagonists of folic acid",
+        "bool": false
+      },
+      {
+        "option": "Reduce the thickening of the skin",
+        "bool": false
+      },
+      {
+        "option": "Block the action of T cells",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following is the mechanism of action of amphotericin B?",
+    "answers": [
+      {
+        "option": "Inhibition of squalene epioxdase",
+        "bool": false
+      },
+      {
+        "option": "Binding to ergosterol and pore formation",
+        "bool": true
+      },
+      {
+        "option": "Inhibition of fungal mitosis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of 14-alpha demythylase",
+        "bool": false
+      },
+      {
+        "option": "Distortion of fungal hyphae",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 22-year-old male presented to the emergency department with complaints of inability to see in sunlight and fever for the past 14 days. Upon further inquiry, he also revealed that he had headaches for the past 7 days. His past medical history was significant for AIDS which was diagnosed 1 year ago. Which of the following is the most appropriate drug for treating this patient's condition?",
+    "answers": [
+      {
+        "option": "Flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Penicillin G",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin B",
+        "bool": true
+      },
+      {
+        "option": "Ganicyclovir",
+        "bool": false
+      },
+      {
+        "option": "Gentamicin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following statements regarding the side effects of amphotericin B is the correct one?",
+    "answers": [
+      {
+        "option": "It has dose dependent renal toxicity",
+        "bool": false
+      },
+      {
+        "option": "Intravenous form can cause shock like decrease in blood pressure",
+        "bool": true
+      },
+      {
+        "option": "Intravenous form can cause decrease in temperature",
+        "bool": false
+      },
+      {
+        "option": "It can cause metabolic alkalosis",
+        "bool": false
+      },
+      {
+        "option": "Lipid formulation of the drug reduces some toxicity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following is the most common side effect of methotrexate?",
+    "answers": [
+      {
+        "option": "Angioedema",
+        "bool": false
+      },
+      {
+        "option": "Megaloblastic anemia",
+        "bool": true
+      },
+      {
+        "option": "Sideroblastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Super infection",
+        "bool": false
+      },
+      {
+        "option": "Urticaria",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "4th-year/drg/pharmacology",
+    "question": "What is the primary reason behind the contraindication of acitretin?",
+    "answers": [
+      {
+        "option": "Torsades de pointes",
+        "bool": false
+      },
+      {
+        "option": "Teratogenicity",
+        "bool": true
+      },
+      {
+        "option": "Toxic epidermal necrolysis",
+        "bool": false
+      },
+      {
+        "option": "Steven-Johnson syndrome",
+        "bool": false
+      },
+      {
+        "option": "Agranulocytosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 36-year-old male presents with swollen, painful heels, and left lower back pain that wakes him up from sleep. The back pain gets better with exercise. He reports 1 to 2 hours of morning stiffness. He also has a history of psoriasis and psoriatic arthritis since he was 12 years old. It is decided to change his current regimen of indomethacin to a biologic that targets tumor necrosis factor (TNF-\u03b1). Which of the following is a chimeric monoclonal antibody that binds to TNF-\u03b1 and inhibits its action?",
+    "answers": [
+      {
+        "option": "Trastuzumab",
+        "bool": false
+      },
+      {
+        "option": "Etanercept",
+        "bool": false
+      },
+      {
+        "option": "Thalidomide",
+        "bool": false
+      },
+      {
+        "option": "Infliximab",
+        "bool": true
+      },
+      {
+        "option": "Sirolimus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 36-year-old man presents with swollen, painful heels, nail changes, and left lower back pain that wakes him up from sleep. The back pain gets better with exercise. He reports 1 to 2 hours of morning stiffness. He also has a history of psoriasis and psoriatic arthritis since he was 12 years old. It is decided to change his current regimen of indomethacin to a biologic that is a cluster of differentiation-2 (CD-2) receptor antagonist used in the treatment of psoriasis. Which of the following drugs is prescribed to him?",
+    "answers": [
+      {
+        "option": "Efalizumab",
+        "bool": false
+      },
+      {
+        "option": "Calcitriol",
+        "bool": false
+      },
+      {
+        "option": "Prednisone",
+        "bool": false
+      },
+      {
+        "option": "Alefacept",
+        "bool": true
+      },
+      {
+        "option": "Methotrexate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "4th-year/drg/pharmacology",
+    "question": "An 8-year-old boy presents to the clinic with an extremely itchy rash for the past 2 days. He is the fourth student in his class to present with the same symptom. The rash is across his hands, wrists, and elbows bilaterally. Small erythematous papules with obvious burrows, looking like insect bites, aligned in 8 cm segments are seen on examination. What is the most appropriate treatment?",
+    "answers": [
+      {
+        "option": "Diphenhydramine",
+        "bool": false
+      },
+      {
+        "option": "Doxycycline",
+        "bool": false
+      },
+      {
+        "option": "Permethrin",
+        "bool": true
+      },
+      {
+        "option": "Lindane",
+        "bool": false
+      },
+      {
+        "option": "Topical corticosteroids",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 56-year-old female with diabetes presents for a routine foot evaluation with her podiatrist. The patient complains of thickening of the right big toenail and a color change (yellow). The podiatrist diagnoses the patient with onychomycosis of the toenails. Which of the following is the most appropriate choice of treatment for this infection?",
+    "answers": [
+      {
+        "option": "Flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Griseofulvin",
+        "bool": false
+      },
+      {
+        "option": "Terbinafine",
+        "bool": true
+      },
+      {
+        "option": "Micafungin",
+        "bool": false
+      },
+      {
+        "option": "Itraconazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following is an adverse effect of flucytosine?",
+    "answers": [
+      {
+        "option": "Cardiac failure",
+        "bool": false
+      },
+      {
+        "option": "Infertility",
+        "bool": false
+      },
+      {
+        "option": "Gynecomastia",
+        "bool": false
+      },
+      {
+        "option": "Myelosuppression",
+        "bool": true
+      },
+      {
+        "option": "Visual disturbances",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "4th-year/drg/pharmacology",
+    "question": "What is the mechanism of action of methotrexate?",
+    "answers": [
+      {
+        "option": "Inhibition of dihydroorotate dehydrogenase",
+        "bool": false
+      },
+      {
+        "option": "Disturbs RNA structure",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of dihydrofolate reductase",
+        "bool": true
+      },
+      {
+        "option": "Disturbs protein assembly",
+        "bool": false
+      },
+      {
+        "option": "Attacks phosphodiester bonds in DNA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Which of the following is a vitamin D analog?",
+    "answers": [
+      {
+        "option": "Caspofungin",
+        "bool": false
+      },
+      {
+        "option": "Tazarolene",
+        "bool": false
+      },
+      {
+        "option": "Finasteride",
+        "bool": false
+      },
+      {
+        "option": "Calcipotriene",
+        "bool": true
+      },
+      {
+        "option": "Calcineurin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "4th-year/drg/pharmacology",
+    "question": "Ivermectin is indicated in the treatment of which of the following skin infections?",
+    "answers": [
+      {
+        "option": "Syphilis",
+        "bool": false
+      },
+      {
+        "option": "Scabies",
+        "bool": true
+      },
+      {
+        "option": "Dermatophytosis",
+        "bool": false
+      },
+      {
+        "option": "Psoriasis",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "4th-year/drg/pharmacology",
+    "question": "A 37-year-old man complained of anorexia, nausea, enlargement of his breast, and fatigue. The man, recently diagnosed with pulmonary coccidioidomycosis, has been receiving an antifungal treatment for two weeks. Which of the following drugs most likely caused these adverse effects?",
+    "answers": [
+      {
+        "option": "Amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Fluconazole",
+        "bool": false
+      },
+      {
+        "option": "Nystatin",
+        "bool": false
+      },
+      {
+        "option": "Griseofulvin",
+        "bool": false
+      },
+      {
+        "option": "Ketoconazole",
+        "bool": true
+      }
+    ]
+  }
+]

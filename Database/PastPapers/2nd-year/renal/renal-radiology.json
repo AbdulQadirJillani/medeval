@@ -1,0 +1,137 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/renal-1/radiology",
+    "question": "Which of the following shows a bright shadow in ultrasound?",
+    "answers": [
+      {
+        "option": "Cortex",
+        "bool": false
+      },
+      {
+        "option": "Fat",
+        "bool": false
+      },
+      {
+        "option": "Calculus",
+        "bool": true
+      },
+      {
+        "option": "Fluid",
+        "bool": false
+      },
+      {
+        "option": "Medulla",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/renal-1/radiology",
+    "question": "What is the primary indication for micturating cystourethrography?",
+    "answers": [
+      {
+        "option": "Urethral malignancy",
+        "bool": false
+      },
+      {
+        "option": "Urethral trauma",
+        "bool": false
+      },
+      {
+        "option": "Vesicoureteric reflux",
+        "bool": true
+      },
+      {
+        "option": "Acute urinary tract infection",
+        "bool": false
+      },
+      {
+        "option": "Fistula",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/renal-1/radiology",
+    "question": "A man came with the complaint of right lumbar pain and hematuria for four hours. Which of the following should be the choice of investigation?",
+    "answers": [
+      {
+        "option": "X-ray KUB",
+        "bool": false
+      },
+      {
+        "option": "CT scan",
+        "bool": false
+      },
+      {
+        "option": "Plain radiography KUB",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound KUB",
+        "bool": true
+      },
+      {
+        "option": "MRI scan",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/renal-1/radiology",
+    "question": "A 2.2x2.4 cm mass is accidentally found on ultrasound at the lower pole of the kidney. What should be the subsequent investigation of choice?",
+    "answers": [
+      {
+        "option": "CT scan",
+        "bool": true
+      },
+      {
+        "option": "Ultrasound KUB",
+        "bool": false
+      },
+      {
+        "option": "Plain radiography KUB",
+        "bool": false
+      },
+      {
+        "option": "X-ray KUB",
+        "bool": false
+      },
+      {
+        "option": "MRI pelvis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/renal-1/radiology",
+    "question": "What is the investigation of choice to diagnose vesicoureteric reflux in a male toddler?",
+    "answers": [
+      {
+        "option": "Ultrasound bladder with pre and post void volumes",
+        "bool": false
+      },
+      {
+        "option": "MR urethrography",
+        "bool": false
+      },
+      {
+        "option": "Micturating cystourethrography",
+        "bool": true
+      },
+      {
+        "option": "CT urography",
+        "bool": false
+      },
+      {
+        "option": "IV urography",
+        "bool": false
+      }
+    ]
+  }
+]

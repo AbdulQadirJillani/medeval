@@ -1,0 +1,55 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String        @id @default(cuid())
+  clerkId     String        @unique
+  email       String        @unique
+  module      Module[]
+  Performance Performance[]
+}
+
+model Module {
+  id             String    @id @default(cuid())
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId         String
+  pathname       String
+  score          Int
+  resumeIndex    Int
+  totalQuestions Int
+  startDateTime  DateTime  @default(now())
+  answers        Answers[]
+
+  @@unique([userId, pathname], name: "userId_pathname")
+}
+
+model Answers {
+  id            String @id @default(cuid())
+  module        Module @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  attemptId     String
+  questionIndex Int
+  optionIndex   Int[]
+}
+
+model Performance {
+  id             String   @id @default(cuid())
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId         String
+  pathname       String
+  score          Int
+  totalQuestions Int
+  finishDateTime DateTime @default(now())
+}

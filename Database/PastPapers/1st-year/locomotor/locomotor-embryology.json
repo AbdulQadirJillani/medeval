@@ -1,0 +1,785 @@
+[
+  {
+    "id": 0,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following embryonic layers is responsible for the formation of bones and cartilages?",
+    "answers": [
+      {
+        "option": "Paraxial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Lateral plate mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Intermediate mesoderm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Cardiac muscle is derived from which of the following?",
+    "answers": [
+      {
+        "option": "Splanchnic mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Lateral plate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Paraxial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Intermediate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Somatic mesoderm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "1st-year/locomotor/embryology",
+    "question": "At what time do the primary ossification centers appear in long bones?",
+    "answers": [
+      {
+        "option": "Soon after birth",
+        "bool": false
+      },
+      {
+        "option": "Organogenesis period",
+        "bool": false
+      },
+      {
+        "option": "12th week of intrauterine life",
+        "bool": true
+      },
+      {
+        "option": "At birth",
+        "bool": false
+      },
+      {
+        "option": "3rd week of intrauterine life",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which teratogenic drug causes malformation of the limbs?",
+    "answers": [
+      {
+        "option": "Acetyl salicylic acid",
+        "bool": false
+      },
+      {
+        "option": "Amoxicillin",
+        "bool": false
+      },
+      {
+        "option": "Thalidomide",
+        "bool": true
+      },
+      {
+        "option": "Paracetamol",
+        "bool": false
+      },
+      {
+        "option": "Acetaminophen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Extraembryonic mesoderm is present in between which of the following?",
+    "answers": [
+      {
+        "option": "Extraembryonic membrane and syncitiotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Exocoelomic membrane and cytotrophoblast",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Extraembryonic membrane and cytotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Syncytiotrophoblast and cytotrophoblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Regarding the development of clavicle, which of the following is incorrect?",
+    "answers": [
+      {
+        "option": "It unifies within membranes and proteins via solely intramembranous ossification",
+        "bool": true
+      },
+      {
+        "option": "Ossification begins between the 5th and 6th weeks of gestation",
+        "bool": false
+      },
+      {
+        "option": "It ossifies from 2 primary centers of ossification",
+        "bool": false
+      },
+      {
+        "option": "It is the 1st bone to begin ossification",
+        "bool": false
+      },
+      {
+        "option": "It is the last to finish ossification at around 21-25 years of age",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following terms is used for the fusion of two or more digits?",
+    "answers": [
+      {
+        "option": "Synpolydactyly",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Polydactyly",
+        "bool": false
+      },
+      {
+        "option": "Brachydactyly",
+        "bool": false
+      },
+      {
+        "option": "Syndactyly",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following hormones is responsible for breast development in the last trimester?",
+    "answers": [
+      {
+        "option": "Progesterone",
+        "bool": true
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Oxytocin",
+        "bool": false
+      },
+      {
+        "option": "Human chorionic gonadotropin",
+        "bool": false
+      },
+      {
+        "option": "Estrogen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "1st-year/locomotor/embryology",
+    "question": "During which period of development does the primary ossification center of the scapula develop?",
+    "answers": [
+      {
+        "option": "At puberty",
+        "bool": false
+      },
+      {
+        "option": "5 weeks in utero",
+        "bool": false
+      },
+      {
+        "option": "At birth",
+        "bool": false
+      },
+      {
+        "option": "8 weeks in utero",
+        "bool": true
+      },
+      {
+        "option": "During organogenesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Where does cartilage originate from?",
+    "answers": [
+      {
+        "option": "Mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Epithelium",
+        "bool": false
+      },
+      {
+        "option": "Proctoderm",
+        "bool": false
+      },
+      {
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Ectoderm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following helps in the implantation of the blastocyst?",
+    "answers": [
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Syncytiotrophoblast",
+        "bool": true
+      },
+      {
+        "option": "Uterine fluid",
+        "bool": false
+      },
+      {
+        "option": "Endometrium",
+        "bool": false
+      },
+      {
+        "option": "Cytotrophoblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following give rise to the external ocular muscles?",
+    "answers": [
+      {
+        "option": "Thoracic somites",
+        "bool": false
+      },
+      {
+        "option": "Cervical somites",
+        "bool": false
+      },
+      {
+        "option": "Occipital somites",
+        "bool": false
+      },
+      {
+        "option": "Lumbar somites",
+        "bool": false
+      },
+      {
+        "option": "Preotic somites",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Mesenchymal cells of the limb bud flatten to form a hand plate which differentiates to form digital rays. Which of the following is correct regarding digital rays?",
+    "answers": [
+      {
+        "option": "Apical ectodermal ridge (AER) is present at the tip",
+        "bool": true
+      },
+      {
+        "option": "The interval between the digital rays is made of compact bone",
+        "bool": false
+      },
+      {
+        "option": "Separate digits are present by the end of 6th week",
+        "bool": false
+      },
+      {
+        "option": "The tip of each ray is covered by hyaline cartilage",
+        "bool": false
+      },
+      {
+        "option": "The process begins at the end of 10th week",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following is correct regarding apical ectodermal ridge (AER)?",
+    "answers": [
+      {
+        "option": "It forms earlier on the lower limbs as compared to the upper limbs",
+        "bool": false
+      },
+      {
+        "option": "It is made from mesoderm",
+        "bool": false
+      },
+      {
+        "option": "It forms on the proximal part of the developing limbs",
+        "bool": false
+      },
+      {
+        "option": "It consists of a single layer of cells",
+        "bool": false
+      },
+      {
+        "option": "Bone morphogenetic protein (BMP) signaling is required for its formation",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following is not true regarding achondroplasia?",
+    "answers": [
+      {
+        "option": "Caused by inhibition of chondrocyte proliferation",
+        "bool": false
+      },
+      {
+        "option": "Failure of horizontal bone growth",
+        "bool": true
+      },
+      {
+        "option": "Most common cause of dwarfism",
+        "bool": false
+      },
+      {
+        "option": "Failure of longitudinal bone growth",
+        "bool": false
+      },
+      {
+        "option": "Results from constant activation of FGFR3",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following somites give rise to pharyngeal arches?",
+    "answers": [
+      {
+        "option": "3-6",
+        "bool": false
+      },
+      {
+        "option": "1-10",
+        "bool": false
+      },
+      {
+        "option": "1-3",
+        "bool": false
+      },
+      {
+        "option": "3-12",
+        "bool": false
+      },
+      {
+        "option": "1-6",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following is the most accurate statement?",
+    "answers": [
+      {
+        "option": "Apical ectodermal ridge (AER) has a negative effect",
+        "bool": false
+      },
+      {
+        "option": "Upper limb buds are evident earlier than lower limb buds",
+        "bool": true
+      },
+      {
+        "option": "Limb buds become visible in the sixth week of development",
+        "bool": false
+      },
+      {
+        "option": "Limbs of different mammals are different",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/locomotor/embryology",
+    "question": "The scapula is formed by which of the following structures?",
+    "answers": [
+      {
+        "option": "Splanchnic lateral plate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Paraxial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Somatic lateral plate mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Axial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Neural crest cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "1st-year/locomotor/embryology",
+    "question": "The ventral and lateral flexor muscles of the vertebral column are derived from which of the following myotomes?",
+    "answers": [
+      {
+        "option": "Sacrococcygeal",
+        "bool": false
+      },
+      {
+        "option": "Lumbar",
+        "bool": false
+      },
+      {
+        "option": "Epaxial division",
+        "bool": false
+      },
+      {
+        "option": "Cervical",
+        "bool": false
+      },
+      {
+        "option": "Thoracic",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "1st-year/locomotor/embryology",
+    "question": "A pregnant woman undergoes an ultrasound and finds out that her baby's right upper limb has not developed. It is concluded that the deformity is due to an abnormality in mesenchymal cells. Where do these abnormal mesenchymal cells belong?",
+    "answers": [
+      {
+        "option": "Paraxial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Lateral plate mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Intermediate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Prochordal plate",
+        "bool": false
+      },
+      {
+        "option": "Notochord",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following is the incorrect statement regarding the development of skeletal muscle of the limbs?",
+    "answers": [
+      {
+        "option": "Develop from ventrolateral edge of somites",
+        "bool": false
+      },
+      {
+        "option": "They belong to primaxial domain",
+        "bool": true
+      },
+      {
+        "option": "Patterning of limb muscles is controlled by connective tissue derived from parietal layer",
+        "bool": false
+      },
+      {
+        "option": "Innervated by ventral primary rami",
+        "bool": false
+      },
+      {
+        "option": "Paraxial mesoderm will form muscles",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Which of the following is the incorrect statement regarding cleft hand and foot malformation?",
+    "answers": [
+      {
+        "option": "Muscles and soft tissue are intact",
+        "bool": true
+      },
+      {
+        "option": "Abnormal cleft between second and fourth metacarpal bone",
+        "bool": false
+      },
+      {
+        "option": "Also called lobster claw deformity",
+        "bool": false
+      },
+      {
+        "option": "Third metacarpal bone is absent",
+        "bool": false
+      },
+      {
+        "option": "Associated with syndactyly",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "1st-year/locomotor/embryology",
+    "question": "What happens when the apical ridge is removed?",
+    "answers": [
+      {
+        "option": "Regeneration of the entire limb bud from underlying mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Continued development in the progress zone, once the apical ridge has induced progress zone formation",
+        "bool": false
+      },
+      {
+        "option": "Degeneration of the limb bud",
+        "bool": false
+      },
+      {
+        "option": "Regeneration of new apical ridge from adjacent epidermal tissue",
+        "bool": false
+      },
+      {
+        "option": "Formation of structures proximal to the apical ridge, but no formation of new distal structures",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "1st-year/locomotor/embryology",
+    "question": "What is the most likely feature to be observed as a result of failure of apoptosis?",
+    "answers": [
+      {
+        "option": "The bones and muscles would not form",
+        "bool": false
+      },
+      {
+        "option": "The digits would be connected by webbing, and would not be separated",
+        "bool": true
+      },
+      {
+        "option": "The overlying epidermis would not form",
+        "bool": false
+      },
+      {
+        "option": "All bones would form as the same structure",
+        "bool": false
+      },
+      {
+        "option": "The proximo-distal patterning would not occur normally",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Somites develop from which of the following embryological derivates?",
+    "answers": [
+      {
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Neural crest cells",
+        "bool": false
+      },
+      {
+        "option": "Lateral plate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Paraxial mesoderm",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Removal of the apical ridge leads to which of the following outcomes?",
+    "answers": [
+      {
+        "option": "Continued development in the proximal structures, but no distal structures formed",
+        "bool": false
+      },
+      {
+        "option": "Degeneration of the limb bud",
+        "bool": false
+      },
+      {
+        "option": "Regeneration of the entire limb bud from underlying mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Regeneration of a new apical ridge from adjacent epidermal tissue",
+        "bool": false
+      },
+      {
+        "option": "Formation of structures proximal to the apical ridge, but no formation of new distal structures",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "1st-year/locomotor/embryology",
+    "question": "The most likely feature to be observed as a result of failure of apoptosis is that:",
+    "answers": [
+      {
+        "option": "The digits would be connected by webbing, and would not be separated",
+        "bool": true
+      },
+      {
+        "option": "The overlying epidermis would not form",
+        "bool": false
+      },
+      {
+        "option": "The proximo-distal patterning would not occur normally",
+        "bool": false
+      },
+      {
+        "option": "The bones and muscles would not form",
+        "bool": false
+      },
+      {
+        "option": "All the bones would form as the same structure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "1st-year/locomotor/embryology",
+    "question": "Somites develop from which of the following embryological derivations?",
+    "answers": [
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Paraxial mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Lateral plate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Neural crest cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "1st-year/locomotor/embryology",
+    "question": "During the model study of bones, the demonstrator explained the development of the scapula. She told the students about all primary and secondary centers of ossification. The scapula is developed by which of the following?",
+    "answers": [
+      {
+        "option": "Somatic mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Somatic lateral plate mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Neural crest cells",
+        "bool": false
+      },
+      {
+        "option": "Splanchnic lateral plate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Axial mesoderm",
+        "bool": false
+      }
+    ]
+  }
+]

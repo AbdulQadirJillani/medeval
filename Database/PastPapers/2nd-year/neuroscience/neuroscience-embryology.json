@@ -1,0 +1,623 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Holoprosencephaly is a malformation characterized by an inability of the cerebral hemispheres to separate at the midline. Which genetic disorder is this malformation associated with?",
+    "answers": [
+      {
+        "option": "Trisomy 17",
+        "bool": false
+      },
+      {
+        "option": "Trisomy 18",
+        "bool": false
+      },
+      {
+        "option": "Trisomy 15",
+        "bool": false
+      },
+      {
+        "option": "Trisomy 13",
+        "bool": true
+      },
+      {
+        "option": "Trisomy 21",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "What is the cerebellum embryologically derived from?",
+    "answers": [
+      {
+        "option": "Rhombencephalon",
+        "bool": false
+      },
+      {
+        "option": "Telencephalon",
+        "bool": false
+      },
+      {
+        "option": "Diencephalon",
+        "bool": false
+      },
+      {
+        "option": "Metencephalon",
+        "bool": true
+      },
+      {
+        "option": "Myelencephalon",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Rhombic alar lips of metencephalon form which of the following structures?",
+    "answers": [
+      {
+        "option": "Pons",
+        "bool": false
+      },
+      {
+        "option": "Medulla",
+        "bool": false
+      },
+      {
+        "option": "Midbrain",
+        "bool": false
+      },
+      {
+        "option": "Cerebrum",
+        "bool": false
+      },
+      {
+        "option": "Cerebellum",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which of the following is not a derivative of neuroectoderm?",
+    "answers": [
+      {
+        "option": "Macroglia",
+        "bool": false
+      },
+      {
+        "option": "Microglia",
+        "bool": true
+      },
+      {
+        "option": "Ependyma",
+        "bool": false
+      },
+      {
+        "option": "Astrocytes",
+        "bool": false
+      },
+      {
+        "option": "Oligodendrocytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which one of the following is formed by cells in the alar plate?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Motor neurons",
+        "bool": false
+      },
+      {
+        "option": "Anterior gray horn",
+        "bool": false
+      },
+      {
+        "option": "Posterior gray horn",
+        "bool": true
+      },
+      {
+        "option": "Autonomic ganglia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Human chorionic gonadotropin (HCG) in a woman's blood indicates pregnancy. It is secreted by which one of the following?",
+    "answers": [
+      {
+        "option": "Epiblast",
+        "bool": false
+      },
+      {
+        "option": "Hypoblast",
+        "bool": false
+      },
+      {
+        "option": "Cytotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Syncytiotrophoblast",
+        "bool": true
+      },
+      {
+        "option": "Placenta",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "The most severe form of cranial neural tube defects (NTD) is characterized by: 1) major portions of the cranium and intracranial structures being absent, 2) orbits and face being present (bulging eyes) 3) polyhydramnios 4) macroglossia 5) very short neck. What type of neural tube defect is this likely to be?",
+    "answers": [
+      {
+        "option": "Iniencephaly",
+        "bool": false
+      },
+      {
+        "option": "Acrania",
+        "bool": false
+      },
+      {
+        "option": "Meningitis",
+        "bool": false
+      },
+      {
+        "option": "Anencephaly",
+        "bool": true
+      },
+      {
+        "option": "Encephalocele",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "On ultrasonography, the amniotic fluid around the embryo seems to be in excess. The cavity containing this fluid is lined by cells derived from which of the following?",
+    "answers": [
+      {
+        "option": "Hypoblast",
+        "bool": false
+      },
+      {
+        "option": "Cytotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Extraembryonic mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Epiblast",
+        "bool": true
+      },
+      {
+        "option": "Syncytiotrophoblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which of these is the most accurate statement regarding brain development?",
+    "answers": [
+      {
+        "option": "Fornix is the 3rd commissure to develop",
+        "bool": false
+      },
+      {
+        "option": "Fornix is the 2nd commissure to develop",
+        "bool": true
+      },
+      {
+        "option": "The corpus callosum is not a commissure",
+        "bool": false
+      },
+      {
+        "option": "Commissures are axon bundles that run anteriorly/posteriorly",
+        "bool": false
+      },
+      {
+        "option": "The anterior commissure is the last one to appear",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which nerve is derived from the 1st pharyngeal arch?",
+    "answers": [
+      {
+        "option": "Ulnar nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve",
+        "bool": false
+      },
+      {
+        "option": "Trigeminal nerve",
+        "bool": true
+      },
+      {
+        "option": "Optic nerve",
+        "bool": false
+      },
+      {
+        "option": "Vagus nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "The choroid plexus of the third ventricle is derived from which part of the brain?",
+    "answers": [
+      {
+        "option": "Roof plates of diencephalon",
+        "bool": true
+      },
+      {
+        "option": "Rathke\u2019s pouch",
+        "bool": false
+      },
+      {
+        "option": "Basal plate of prosencephalon",
+        "bool": false
+      },
+      {
+        "option": "Alar plates of diencephalon",
+        "bool": false
+      },
+      {
+        "option": "Floor plate of diencephalon",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which of the following does not arise from the neural tube?",
+    "answers": [
+      {
+        "option": "Oligodendrocytes",
+        "bool": false
+      },
+      {
+        "option": "Astrocytes",
+        "bool": false
+      },
+      {
+        "option": "Ependymal",
+        "bool": false
+      },
+      {
+        "option": "Microglia",
+        "bool": true
+      },
+      {
+        "option": "Neuroblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Cerebrospinal-filled cavities are lined by ependymal cells. These cells are derived from which of the following?",
+    "answers": [
+      {
+        "option": "Meningovax",
+        "bool": false
+      },
+      {
+        "option": "Marginal Layer",
+        "bool": false
+      },
+      {
+        "option": "Leptomeninges",
+        "bool": false
+      },
+      {
+        "option": "Neuroepithelium",
+        "bool": true
+      },
+      {
+        "option": "Pachymeninges",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "The posterior grey horn of the spinal cord develops from which of the following?",
+    "answers": [
+      {
+        "option": "Roof plate",
+        "bool": false
+      },
+      {
+        "option": "Floor plate",
+        "bool": false
+      },
+      {
+        "option": "Sulcus limitans",
+        "bool": false
+      },
+      {
+        "option": "Alar plate",
+        "bool": true
+      },
+      {
+        "option": "Basal plate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which of the following glial cells is not derived from the neuroectoderm?",
+    "answers": [
+      {
+        "option": "Schwann cells",
+        "bool": false
+      },
+      {
+        "option": "Ependymal cells",
+        "bool": false
+      },
+      {
+        "option": "Oligodendrocytes",
+        "bool": false
+      },
+      {
+        "option": "Microglial cells",
+        "bool": true
+      },
+      {
+        "option": "Astrocytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Gray rami communicans are derived from which of the following?",
+    "answers": [
+      {
+        "option": "Paravertebral ganglion",
+        "bool": true
+      },
+      {
+        "option": "Anterior horn of spinal cord",
+        "bool": false
+      },
+      {
+        "option": "Adjacent ganglion of sympathetic trunk",
+        "bool": false
+      },
+      {
+        "option": "Posterior root ganglion",
+        "bool": false
+      },
+      {
+        "option": "Lateral horn of spinal cord",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Meroanencephaly is defined as the partial absence of the brain. It is caused by which of the following defects?",
+    "answers": [
+      {
+        "option": "Failure of neural crest cells formation",
+        "bool": false
+      },
+      {
+        "option": "Disorder of myelination",
+        "bool": false
+      },
+      {
+        "option": "Defect in regionalization",
+        "bool": false
+      },
+      {
+        "option": "Failure of closure of posterior neuropore",
+        "bool": false
+      },
+      {
+        "option": "Failure of closure of anterior neuropore",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Basal nuclei are a collection of cell bodies that control voluntary movements. Which of the following vesicles gives rise to basal nuclei?",
+    "answers": [
+      {
+        "option": "Diencephalon",
+        "bool": false
+      },
+      {
+        "option": "Mesencephalon",
+        "bool": false
+      },
+      {
+        "option": "Myelencephalon",
+        "bool": false
+      },
+      {
+        "option": "Telencephalon",
+        "bool": true
+      },
+      {
+        "option": "Metencephalon",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "Which of the following embryological structures gives rise to the dorsal sensory horn of the spinal cord?",
+    "answers": [
+      {
+        "option": "Roof plate",
+        "bool": false
+      },
+      {
+        "option": "Marginal layer",
+        "bool": false
+      },
+      {
+        "option": "Alar plate",
+        "bool": true
+      },
+      {
+        "option": "Floor plate",
+        "bool": false
+      },
+      {
+        "option": "Basal plate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "During the development of the spinal cord, the central canal is lined by three layers. Which of the three layers contains cell bodies of neurons?",
+    "answers": [
+      {
+        "option": "Marginal layer",
+        "bool": false
+      },
+      {
+        "option": "Alar plate",
+        "bool": false
+      },
+      {
+        "option": "Ependymal layer",
+        "bool": false
+      },
+      {
+        "option": "Mantle layer",
+        "bool": true
+      },
+      {
+        "option": "Ventricular layer",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "During the 5th week of development, five brain swellings appear. These include the telencephalon, diencephalon, mesencephalon, metencephalon, and myelencephalon. The mesencephalon gives rise to which of the following structures?",
+    "answers": [
+      {
+        "option": "Midbrain",
+        "bool": true
+      },
+      {
+        "option": "Pons",
+        "bool": false
+      },
+      {
+        "option": "Cerebrum",
+        "bool": false
+      },
+      {
+        "option": "Cerebellum",
+        "bool": false
+      },
+      {
+        "option": "Medulla",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "In the development of the diencephalon, three swellings form around a ventricle for the thalamus, hypothalamus, and epithalamus. Which ventricle is this?",
+    "answers": [
+      {
+        "option": "Third ventricle",
+        "bool": true
+      },
+      {
+        "option": "Central canal",
+        "bool": false
+      },
+      {
+        "option": "Lateral ventricles",
+        "bool": false
+      },
+      {
+        "option": "Fourth ventricle",
+        "bool": false
+      },
+      {
+        "option": "Cerebral aqueduct",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "2nd-year/neuroscience-1/embryology",
+    "question": "In the development of the diencephalon, three swellings form around a ventricle for the thalamus, hypothalamus, and epithalamus. Which part of the ventricular system is this?",
+    "answers": [
+      {
+        "option": "Lateral ventricle",
+        "bool": false
+      },
+      {
+        "option": "Cerebral aqueduct",
+        "bool": false
+      },
+      {
+        "option": "Fourth ventricle",
+        "bool": false
+      },
+      {
+        "option": "Central canal",
+        "bool": false
+      },
+      {
+        "option": "Third ventricle",
+        "bool": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotation {
+    0% { --gradient-angle: 0deg; }
+    100% { --gradient-angle: 360deg; }
+}
+
+.modulewrapper {
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.5em;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modulewrapper::before,
+.modulewrapper::after {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+}
+
+.modulewrapper::before {
+    inset: -0.8rem;
+    z-index: -200;
+    background-image: conic-gradient(
+        from var(--gradient-angle),
+        hsl(202, 100%, 56%, 0.7),
+        hsl(269, 100%, 61%, 0.7),
+        hsl(343, 100%, 50%, 0.7),
+        hsl(269, 100%, 61%, 0.7),
+        hsl(202, 100%, 56%, 0.7));
+    animation: rotation 10s linear infinite;
+    filter: blur(0.1rem);
+}
+
+.modulewrapper::after {
+    inset: -0.3rem;
+    z-index: -100;
+    background-image: linear-gradient(to bottom right, var(--accent), var(--background), var(--accent));
+}

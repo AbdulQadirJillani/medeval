@@ -1,0 +1,137 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/gastrointestinal-1/radiology",
+    "question": "Which of the following can be assessed through X-ray?",
+    "answers": [
+      {
+        "option": "Torn ligament",
+        "bool": false
+      },
+      {
+        "option": "Nerve compression",
+        "bool": false
+      },
+      {
+        "option": "Splenomegaly",
+        "bool": true
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Muscular atrophy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/gastrointestinal-1/radiology",
+    "question": "A high-resolution transducer is used in the transluminal sonography of the gastrointestinal tract. For the esophagus, how many layers can normally be visualized?",
+    "answers": [
+      {
+        "option": "5 concentric layers",
+        "bool": true
+      },
+      {
+        "option": "2 concentric layers",
+        "bool": false
+      },
+      {
+        "option": "3 concentric layers",
+        "bool": false
+      },
+      {
+        "option": "6 concentric layers",
+        "bool": false
+      },
+      {
+        "option": "4 concentric layers",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/gastrointestinal-1/radiology",
+    "question": "A 20-year-old male presented with abdominal pain, bloating, and loose motion. No history of fever and cough. He is suspected of malabsorption disease. With which radiological investigation will you view the small bowels?",
+    "answers": [
+      {
+        "option": "Barium enema",
+        "bool": false
+      },
+      {
+        "option": "Barium swallow test",
+        "bool": false
+      },
+      {
+        "option": "Abdominal X-ray",
+        "bool": false
+      },
+      {
+        "option": "Barium meal",
+        "bool": false
+      },
+      {
+        "option": "Barium follow through",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/gastrointestinal-1/radiology",
+    "question": "A 58-year-old lady, with recurrent episodes of subacute intestinal obstruction for 20 years, presents to the outpatient department with a complaint of constipation and abdominal distension for 3 days. Her initial X-rays were normal but then she developed abdominal pain and ultrasound showed free fluid in Morrison\u2019s pouch. As a suspected case of bowel perforation, you advise her a small bowel dynamic fluoroscopic study. What will be the contrast agent of choice in this patient?",
+    "answers": [
+      {
+        "option": "Effervescent powder acid (ENO)",
+        "bool": false
+      },
+      {
+        "option": "Normal saline",
+        "bool": false
+      },
+      {
+        "option": "Methyl cellulose",
+        "bool": false
+      },
+      {
+        "option": "Barium sulfate (EZ HD)",
+        "bool": false
+      },
+      {
+        "option": "Amidotrizoate (Gastrografin)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/gastrointestinal-1/radiology",
+    "question": "Regarding segmental anatomy of liver on contrast enhanced CT abdomen, which of the following structures divide the liver into eight segments?",
+    "answers": [
+      {
+        "option": "Hepatic veins and portal vein",
+        "bool": true
+      },
+      {
+        "option": "Portal vein and bile ducts",
+        "bool": false
+      },
+      {
+        "option": "Hepatic veins and bile ducts",
+        "bool": false
+      },
+      {
+        "option": "Hepatic artery and vein",
+        "bool": false
+      },
+      {
+        "option": "Hepatic artery and portal vein",
+        "bool": false
+      }
+    ]
+  }
+]

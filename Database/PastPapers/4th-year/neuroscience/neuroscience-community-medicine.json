@@ -1,0 +1,1244 @@
+[
+  {
+    "id": 0,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Which of the following foods is given to a stroke patient?",
+    "answers": [
+      {
+        "option": "Food rich in saturated fat",
+        "bool": false
+      },
+      {
+        "option": "Salty food",
+        "bool": false
+      },
+      {
+        "option": "Sugary food",
+        "bool": false
+      },
+      {
+        "option": "Sauteed food",
+        "bool": false
+      },
+      {
+        "option": "Pureed food",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "What is the global burden of neuropsychiatric disorders?",
+    "answers": [
+      {
+        "option": "10%",
+        "bool": false
+      },
+      {
+        "option": "5%",
+        "bool": false
+      },
+      {
+        "option": "7%",
+        "bool": false
+      },
+      {
+        "option": "1%",
+        "bool": false
+      },
+      {
+        "option": "2%",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A physician want to see the differences of blood sugar levels among three groups at different diabetic hospitals. What is the most suitable statistical test for accurate results in this case?",
+    "answers": [
+      {
+        "option": "Chi-square",
+        "bool": false
+      },
+      {
+        "option": "Multivariate regression analysis",
+        "bool": false
+      },
+      {
+        "option": "Univariate regression analysis",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": true
+      },
+      {
+        "option": "T-test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A researcher wants to see the mean difference of height amongst two groups of school children. What statistical test is best suited?",
+    "answers": [
+      {
+        "option": "T-test",
+        "bool": true
+      },
+      {
+        "option": "Regression",
+        "bool": false
+      },
+      {
+        "option": "Logistic regression",
+        "bool": false
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "Chi square",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A medical researcher wants to predict the dose-related effects of a drug on cancer patients. What best predictive model will be helpful in the given scenario?",
+    "answers": [
+      {
+        "option": "Chi square",
+        "bool": false
+      },
+      {
+        "option": "T-test",
+        "bool": false
+      },
+      {
+        "option": "Regression",
+        "bool": true
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      },
+      {
+        "option": "Paired T-test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "The United Nations Office of Drug Control (UNODC) is an international body that has the charter to support the government in its effort to curb the problems related to drugs. According to the UNODC report, which drug is most commonly abused in Pakistan?",
+    "answers": [
+      {
+        "option": "Cannabis",
+        "bool": true
+      },
+      {
+        "option": "Opium",
+        "bool": false
+      },
+      {
+        "option": "Heroin",
+        "bool": false
+      },
+      {
+        "option": "Alcohol",
+        "bool": false
+      },
+      {
+        "option": "Crystal meth",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "What type of prevention is the administration of the polio vaccine as part of the expanded program on immunization (EPI)?",
+    "answers": [
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Quarternary",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Which type of prevention is exemplified by wearing a helmet?",
+    "answers": [
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      },
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A government decides to educate the common population to spread awareness about a certain disease, so that people are aware of its preventive measures. What type of prevention is this?",
+    "answers": [
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
+      },
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Control of diabetes and hyperlipidemia is recommended to prevent potential strokes. What type of prevention is this?",
+    "answers": [
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      },
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Anticonvulsive therapy is provided to patients in order to manage epilepsy patients and keep them seizure-free. What type of prevention is this?",
+    "answers": [
+      {
+        "option": "Primordial",
+        "bool": false
+      },
+      {
+        "option": "Secondary",
+        "bool": true
+      },
+      {
+        "option": "Tertiary",
+        "bool": false
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
+      },
+      {
+        "option": "Primary",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A politician intends to implement a primary prevention program against neurological diseases in the area. Which of the following measures would be appropriate as a primary prevention in the community?",
+    "answers": [
+      {
+        "option": "Preparing expert neurosurgeons",
+        "bool": false
+      },
+      {
+        "option": "Building advance hospitals",
+        "bool": false
+      },
+      {
+        "option": "Screening of psychiatric diseases",
+        "bool": false
+      },
+      {
+        "option": "Free supplies of psychiatric drugs",
+        "bool": false
+      },
+      {
+        "option": "Fostering strong social support",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A group of students used an analysis of variance test (ANOVA) to test the hypothesis that the mean systolic blood pressure among various ethnicities is different. In the first step of ANOVA, they obtained an F-statistic less than the critical value. What would be the second step considering their analysis is correct?",
+    "answers": [
+      {
+        "option": "Report the results as it is",
+        "bool": true
+      },
+      {
+        "option": "Apply more advanced statistical tests",
+        "bool": false
+      },
+      {
+        "option": "Do the post hoc analysis",
+        "bool": false
+      },
+      {
+        "option": "Re-do the analysis",
+        "bool": false
+      },
+      {
+        "option": "Reject the null hypothesis (H\u00b0)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A student compares the body weights of a group of 100 children before and after four weeks of nutrition supplementation for his research project. His hypothesis is: \"the nutrition supplementation brings a change in the body weights of children\". He uses an independent sample t-test for his hypothesis testing and finds highly significant results at a p-value of 0.001. His professor checks his report and rejects it. Which of the following assumptions must have been violated?",
+    "answers": [
+      {
+        "option": "Independent variable should consist of three categories",
+        "bool": false
+      },
+      {
+        "option": "Independence of observations should be there",
+        "bool": true
+      },
+      {
+        "option": "The dependent variable should be categorical",
+        "bool": false
+      },
+      {
+        "option": "There should be more significant outliers",
+        "bool": false
+      },
+      {
+        "option": "The dependent variable should be skewed",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A lecturer is teaching epidemiological study designs to his students. He emphasizes the follow-up data of the patients and how to reduce the loss of follow-up in an observational study design. The professor is teaching which of the following epidemiological study designs to his students?",
+    "answers": [
+      {
+        "option": "Case series",
+        "bool": false
+      },
+      {
+        "option": "Case control study",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Cohort study",
+        "bool": true
+      },
+      {
+        "option": "Experimental study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A group of students was conducting a research study to find out the risk factors of stomach cancer in Karachi city. They had a limited budget and time to complete this study on a rare disease such as stomach cancer. Which of the following epidemiological study designs would be appropriate to fulfill their study objectives?",
+    "answers": [
+      {
+        "option": "Case control study",
+        "bool": true
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Cohort study",
+        "bool": false
+      },
+      {
+        "option": "Case series",
+        "bool": false
+      },
+      {
+        "option": "Experimental study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A group of researchers was conducting a study on the relationship of high dose vitamin D on stomach cancer 5-year survival outcome. They identified 100 stomach cancer patients and randomly allocated 50 patients to vitamin D and the other 50 to the placebo through a coin toss. The above statement refers to which of the following study designs?",
+    "answers": [
+      {
+        "option": "Experimental study",
+        "bool": true
+      },
+      {
+        "option": "Case series",
+        "bool": false
+      },
+      {
+        "option": "Cohort study",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Case control study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "While working in the health office of district Thatta a student came across several cases of oral cancers from 10 talukas. The student also had data on the number of gutka outlets in different talukas. He wanted to find an association between the number of persons affected and gutka sales in the area. What would be the most appropriate study design?",
+    "answers": [
+      {
+        "option": "Cohort",
+        "bool": false
+      },
+      {
+        "option": "Correlational",
+        "bool": true
+      },
+      {
+        "option": "Case series",
+        "bool": false
+      },
+      {
+        "option": "Case control",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A medical student wants to find the prevalence of coronary heart disease among adult males in the district central of Karachi. Which epidemiological study design is most appropriate for this study?",
+    "answers": [
+      {
+        "option": "Cross sectional",
+        "bool": true
+      },
+      {
+        "option": "Cohort",
+        "bool": false
+      },
+      {
+        "option": "Case control",
+        "bool": false
+      },
+      {
+        "option": "Clinical trial",
+        "bool": false
+      },
+      {
+        "option": "Case series",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Qualitative data does not have quantitative x and y observations for each participant so the relationship between two variables cannot be computed by correlation coefficient. For example: the frequency of males smoking versus females smoking. Which one of the following tests can be performed to see the association between two variables in such situations?",
+    "answers": [
+      {
+        "option": "Chi square test",
+        "bool": true
+      },
+      {
+        "option": "Independent T-test",
+        "bool": false
+      },
+      {
+        "option": "Correlation",
+        "bool": false
+      },
+      {
+        "option": "Paired T-test",
+        "bool": false
+      },
+      {
+        "option": "Analysis of variance (ANOVA)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A survey of 100 men and 100 women revealed that 15 of the men and 36 of the women were overweight. The chi-square test of significance was applied to find an association at alpha equal to 0.05. Which one of the following options contains the correct decision if the calculated value for Chi is greater than the Chi critical?",
+    "answers": [
+      {
+        "option": "Reject the null hypothesis",
+        "bool": true
+      },
+      {
+        "option": "Fail to accept the alternate hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Accept the null hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Reject the alternate hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Inconclusive",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Which of the following steps should be avoided while giving first aid to the victim of a snake bite?",
+    "answers": [
+      {
+        "option": "Cleaning the wound area with water",
+        "bool": false
+      },
+      {
+        "option": "Removing any items or clothing which may constrict the bitten area",
+        "bool": false
+      },
+      {
+        "option": "Immobilizing the person",
+        "bool": false
+      },
+      {
+        "option": "Incision or suction of venom from bitten area",
+        "bool": true
+      },
+      {
+        "option": "Application of local antibiotic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "The snake venom can cause damage to multiple systems of the body depending upon the type of snake venom injected by the snake bite. A bite may also trigger a potentially fatal anaphylactic reaction. The manifestations of local pain, redness, swelling, and extravasation of blood are mostly in envenomation by which of the following snakes?",
+    "answers": [
+      {
+        "option": "Cobra",
+        "bool": false
+      },
+      {
+        "option": "Rattlesnake",
+        "bool": false
+      },
+      {
+        "option": "Sea snake",
+        "bool": false
+      },
+      {
+        "option": "Pit viper",
+        "bool": true
+      },
+      {
+        "option": "Krait",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A consultant asked a medical student to assess a patient on a Glasgow coma scale in the emergency department. This scale generally assesses which of the following?",
+    "answers": [
+      {
+        "option": "Gastrointestinal system",
+        "bool": false
+      },
+      {
+        "option": "Neuromuscular system",
+        "bool": true
+      },
+      {
+        "option": "Cardiovascular system",
+        "bool": false
+      },
+      {
+        "option": "Respiratory system",
+        "bool": false
+      },
+      {
+        "option": "Renal system",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "The researcher wanted to compare the difference in the mean blood glucose level of a group of 25 participants before and after meals. Which statistical test would be appropriate to use?",
+    "answers": [
+      {
+        "option": "Meta-regression",
+        "bool": false
+      },
+      {
+        "option": "Regression",
+        "bool": false
+      },
+      {
+        "option": "Chi-square test",
+        "bool": false
+      },
+      {
+        "option": "T-test",
+        "bool": true
+      },
+      {
+        "option": "ANOVA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "What contributes significantly to the global burden of neurological disease?",
+    "answers": [
+      {
+        "option": "Parkinson disease",
+        "bool": false
+      },
+      {
+        "option": "Cerebrovascular diseases",
+        "bool": true
+      },
+      {
+        "option": "Alzheimer disease and other dementias",
+        "bool": false
+      },
+      {
+        "option": "Migraine",
+        "bool": false
+      },
+      {
+        "option": "Epilepsy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "More than half of the neurological burden in disability-adjusted life years (DALYs) is attributed to which of the following conditions?",
+    "answers": [
+      {
+        "option": "Migraine",
+        "bool": false
+      },
+      {
+        "option": "Cerebrovascular diseases",
+        "bool": true
+      },
+      {
+        "option": "Epilepsy",
+        "bool": false
+      },
+      {
+        "option": "Alzheimer disease and other dementias",
+        "bool": false
+      },
+      {
+        "option": "Parkinson disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "The sum of the years of life lost due to premature mortality and the years lived with a disability due to prevalent cases of the disease is known as which of the following?",
+    "answers": [
+      {
+        "option": "Disability-adjusted life years (DALYs)",
+        "bool": true
+      },
+      {
+        "option": "Life expectancy",
+        "bool": false
+      },
+      {
+        "option": "Mortality",
+        "bool": false
+      },
+      {
+        "option": "Life table",
+        "bool": false
+      },
+      {
+        "option": "Morbidity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Rehabilitation for stroke is initiated immediately after stroke. Which type of prevention is it?",
+    "answers": [
+      {
+        "option": "Tertiary",
+        "bool": true
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      },
+      {
+        "option": "Primary",
+        "bool": false
+      },
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Which type of prevention includes global polio eradication vaccination?",
+    "answers": [
+      {
+        "option": "Tertiary",
+        "bool": false
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
+      },
+      {
+        "option": "Primary",
+        "bool": true
+      },
+      {
+        "option": "Secondary",
+        "bool": false
+      },
+      {
+        "option": "Primordial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A local government intends to implement a primary prevention program against neurological diseases in the area. What is the measure that is most appropriate as a primary prevention in the community?",
+    "answers": [
+      {
+        "option": "Training expert neurosurgeons",
+        "bool": false
+      },
+      {
+        "option": "Abundant supply of psychiatric drugs",
+        "bool": false
+      },
+      {
+        "option": "Building advance hospitals",
+        "bool": false
+      },
+      {
+        "option": "Screening of psychiatric diseases",
+        "bool": false
+      },
+      {
+        "option": "Promoting strong social support",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A 40-year-old man was bitten by a snake while working in his field. He was brought to the hospital within 30 minutes after the bite. He was anxious, and the healthcare provider noted his heart rate was 110 beats per minute, shallow breathing, and pinpoint pupils. He was immediately admitted to the ICU, and the hospital was planning the next step for him. Which of the following is the MOST appropriate management in this scenario?",
+    "answers": [
+      {
+        "option": "Apply a torniquet above the bite site",
+        "bool": false
+      },
+      {
+        "option": "Elevate the affected limb above heart leve",
+        "bool": false
+      },
+      {
+        "option": "Apply ice pack to bite area",
+        "bool": false
+      },
+      {
+        "option": "Keep the affected limb immbolized at the heart level",
+        "bool": true
+      },
+      {
+        "option": "Make an incision at the bite site to let the venom out",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A lecturer was conducting a research study \"to find out the associated risk factors of stomach cancer in Karachi city.\" He had limited budget and time to complete his study on stomach cancer, which is a rare disease in Pakistan. The following epidemiological study design is appropriate for his study objectives:",
+    "answers": [
+      {
+        "option": "Experimental study",
+        "bool": false
+      },
+      {
+        "option": "Prospective cohort study",
+        "bool": false
+      },
+      {
+        "option": "Ecological study",
+        "bool": false
+      },
+      {
+        "option": "Case-control study",
+        "bool": true
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A professor was studying \"the effect of high dose vitamin D on 5-year survival of stomach cancer.\" She identified 100 stomach cancer patients and then randomized 50 above patients to vitamin D and the other 50 to the placebo through coin toss. The above statement refers to one of the following study designs:",
+    "answers": [
+      {
+        "option": "Cohort study",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Case control study",
+        "bool": false
+      },
+      {
+        "option": "Experimental study",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A student collected data from his residential colony about the nutritional habits of teenage children during the period of January to December 2023. The above statement refers to one of the following study designs:",
+    "answers": [
+      {
+        "option": "Experimental study",
+        "bool": false
+      },
+      {
+        "option": "Retrospective cohort",
+        "bool": false
+      },
+      {
+        "option": "Case control study",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": true
+      },
+      {
+        "option": "Prospective cohort",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A researcher wants to compare the mean Hemoglobin levels of male and female students. Which of the following statistical tests is appropriate to apply?",
+    "answers": [
+      {
+        "option": "Chi square test",
+        "bool": false
+      },
+      {
+        "option": "Independent sample t-test",
+        "bool": true
+      },
+      {
+        "option": "Paired sample t-test",
+        "bool": false
+      },
+      {
+        "option": "Correlational analysis",
+        "bool": false
+      },
+      {
+        "option": "One sample t-test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "Stroke is a leading cause of disability and mortality worldwide, and reducing modifiable risk factors is crucial in high-risk populations. Which of the following is the most important modifiable risk factor for preventing stroke in high-risk populations?",
+    "answers": [
+      {
+        "option": "High blood pressure",
+        "bool": true
+      },
+      {
+        "option": "Male gender",
+        "bool": false
+      },
+      {
+        "option": "Family history of stroke",
+        "bool": false
+      },
+      {
+        "option": "Physical inactivity",
+        "bool": false
+      },
+      {
+        "option": "Diabetes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A researcher wants to determine if there is an association between physical activity and depression. Which statistical test is most appropriate to analyze the association between these two variables?",
+    "answers": [
+      {
+        "option": "One sample t-test",
+        "bool": false
+      },
+      {
+        "option": "Odds ratio",
+        "bool": false
+      },
+      {
+        "option": "Correlation test",
+        "bool": true
+      },
+      {
+        "option": "Independent sample t-test",
+        "bool": false
+      },
+      {
+        "option": "Chi square test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A study was conducted to investigate whether a specific dietary supplement can reduce the risk of developing osteoarthritis. Participants are randomly assigned to receive either the supplement or a placebo, and their joint health is monitored after six months. Which epidemiological study design would be suitable for this research?",
+    "answers": [
+      {
+        "option": "Cohort study",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Ecological study",
+        "bool": false
+      },
+      {
+        "option": "Randomized controlled trial",
+        "bool": true
+      },
+      {
+        "option": "Case-control study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A lecturer wants to compare the mean body mass index of smokers, ex-smokers, and current smokers. She should choose the following statistical test for the above task:",
+    "answers": [
+      {
+        "option": "ANOVA test",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Independent sample t-test",
+        "bool": false
+      },
+      {
+        "option": "Chi square test",
+        "bool": false
+      },
+      {
+        "option": "One sample t-test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A group of students want to compare the proportion of smokers among diabetics, pre-diabetics, and non-diabetics individuals. They should choose the following statistical test for the above task:",
+    "answers": [
+      {
+        "option": "Independent sample t-test",
+        "bool": false
+      },
+      {
+        "option": "Chi square test",
+        "bool": true
+      },
+      {
+        "option": "ANOVA test",
+        "bool": false
+      },
+      {
+        "option": "One sample t-test",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A survey of 100 men and 100 women revealed that 15 of the men and 36 of the women were overweight. Chi square test of significance was applied to find an association at Alpha = 0.05. Which one of the following options contains the correct decision if the calculated value for Chi square is greater than the Chi critical?",
+    "answers": [
+      {
+        "option": "Reject the alternate hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Fail to accept the alternate hypothesis",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Accept the null hypothesis",
+        "bool": false
+      },
+      {
+        "option": "Reject the null hypothesis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A case-control study was conducted to find the association of sudden weight loss with gallbladder stones. The calculated odds ratio was 2.05. Which one of the following interpretations is the most appropriate?",
+    "answers": [
+      {
+        "option": "Attributable risk",
+        "bool": false
+      },
+      {
+        "option": "Positive association",
+        "bool": true
+      },
+      {
+        "option": "Negative association",
+        "bool": false
+      },
+      {
+        "option": "Relative risk",
+        "bool": false
+      },
+      {
+        "option": "Protective effect",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "When entering data into SPSS, it is important to consider the types of variables being used in the dataset. Which of the following variable types is most appropriate for categorical data such as gender or ethnicity?",
+    "answers": [
+      {
+        "option": "Numeric variable",
+        "bool": false
+      },
+      {
+        "option": "String variable",
+        "bool": false
+      },
+      {
+        "option": "Scale variable",
+        "bool": false
+      },
+      {
+        "option": "Ordinal variable",
+        "bool": false
+      },
+      {
+        "option": "Nominal variable",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A lecturer was conducting a research study \"to find out the associated risk factors of stomach cancer in Karachi city.\" He had a limited budget and time to complete this study on stomach cancer which is a rare disease in Pakistan. Which of the following epidemiologic study designs are useful in this scenario?",
+    "answers": [
+      {
+        "option": "Ecological study",
+        "bool": false
+      },
+      {
+        "option": "Case control study",
+        "bool": true
+      },
+      {
+        "option": "Case series",
+        "bool": false
+      },
+      {
+        "option": "Experimental study",
+        "bool": false
+      },
+      {
+        "option": "Prospective cohort study",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "4th-year/neuroscience-2/community-medicine",
+    "question": "A case-control study was conducted to find the association between sudden weight loss with gallbladder stones. The calculated odds ratio was 2.05. Which one of the following interpretations is the most appropriate?",
+    "answers": [
+      {
+        "option": "Relative risk",
+        "bool": false
+      },
+      {
+        "option": "Negative association",
+        "bool": false
+      },
+      {
+        "option": "Protective effect",
+        "bool": false
+      },
+      {
+        "option": "Attributable risk",
+        "bool": false
+      },
+      {
+        "option": "Positive association",
+        "bool": true
+      }
+    ]
+  }
+]

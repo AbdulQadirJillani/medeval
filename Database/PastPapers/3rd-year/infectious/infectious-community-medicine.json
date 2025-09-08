@@ -1,0 +1,758 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Mumps virus is an RNA virus that is transmitted through respiratory droplets and has an incubation period of 18-21 days. It presents with fever, malaise, and anorexia followed by unilateral or bilateral parotid swelling. How is mumps diagnosed?",
+    "answers": [
+      {
+        "option": "Hemagglutination inhibition test",
+        "bool": false
+      },
+      {
+        "option": "Spinal fluid culture",
+        "bool": false
+      },
+      {
+        "option": "Clinical examination",
+        "bool": true
+      },
+      {
+        "option": "Mumps skin test",
+        "bool": false
+      },
+      {
+        "option": "Complement fixation test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Which of the following negligences refers to defective hospital care and equipment, incompetent employees, and failure to maintain the standards of care?",
+    "answers": [
+      {
+        "option": "Contributory negligence",
+        "bool": false
+      },
+      {
+        "option": "Third party negligence",
+        "bool": false
+      },
+      {
+        "option": "Criminal negligence",
+        "bool": false
+      },
+      {
+        "option": "Civil negligence",
+        "bool": false
+      },
+      {
+        "option": "Corporate negligence",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A 1-year-old girl is brought by her parents to the outpatient department (OPD) with complaints of fever and rashes. The doctor on-duty suspects measles. At what stage can measles spread to others?",
+    "answers": [
+      {
+        "option": "Patient remains infectious up to 2 weeks after the appearance of rashes",
+        "bool": false
+      },
+      {
+        "option": "Seven days before the appearance of rash upto 5 days after its onset",
+        "bool": false
+      },
+      {
+        "option": "Ten days before the appearance of rash upto 7 days after its onset",
+        "bool": false
+      },
+      {
+        "option": "The day of appearance of rash till 7 days after the onset",
+        "bool": false
+      },
+      {
+        "option": "Three days before the appearance of rash upto 4 to 6 days after its onset",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "All the travelers who are exposed to the risk of yellow fever or pass through the endemic zones of yellow fever should have a valid vaccination card for yellow fever before they enter a country. If any of them fails to possess the card, which of the following should be done?",
+    "answers": [
+      {
+        "option": "Sent back",
+        "bool": false
+      },
+      {
+        "option": "Immunized",
+        "bool": false
+      },
+      {
+        "option": "Kept in isolation",
+        "bool": false
+      },
+      {
+        "option": "Kept in quarantine",
+        "bool": true
+      },
+      {
+        "option": "Treated",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Which of the following refers to the restriction of the movement of a sick person in order to stop the spread of certain diseases?",
+    "answers": [
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      },
+      {
+        "option": "Quarantine",
+        "bool": false
+      },
+      {
+        "option": "Isolation",
+        "bool": true
+      },
+      {
+        "option": "Rehabilitation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Prevention of fecal-oral transmission is unlikely to be achieved by which of the following?",
+    "answers": [
+      {
+        "option": "Wearing masks",
+        "bool": true
+      },
+      {
+        "option": "Proper waste disposal systems",
+        "bool": false
+      },
+      {
+        "option": "Better sanitation",
+        "bool": false
+      },
+      {
+        "option": "Handwashing",
+        "bool": false
+      },
+      {
+        "option": "Drinking boiled water",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Which of the following is true about the prevention of dengue fever?",
+    "answers": [
+      {
+        "option": "Antibiotics provide effective prophylaxis",
+        "bool": false
+      },
+      {
+        "option": "Masks are effective in limiting transmission",
+        "bool": false
+      },
+      {
+        "option": "There is no vaccine available",
+        "bool": false
+      },
+      {
+        "option": "Improvement in sanitation limits mosquito reproduction",
+        "bool": true
+      },
+      {
+        "option": "Awareness campaigns to increase better hygiene practices are effective",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "What is an unusual, more than expected occurrence of a disease or any event related to health, in a community, called?",
+    "answers": [
+      {
+        "option": "Sporadic",
+        "bool": false
+      },
+      {
+        "option": "Endemic",
+        "bool": false
+      },
+      {
+        "option": "Pandemic",
+        "bool": false
+      },
+      {
+        "option": "Hyperendemic",
+        "bool": false
+      },
+      {
+        "option": "Epidemic",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Which of the following counts as secondary prevention of malaria?",
+    "answers": [
+      {
+        "option": "Biological control via natural predators",
+        "bool": false
+      },
+      {
+        "option": "Insecticide-treated mosquito nets",
+        "bool": false
+      },
+      {
+        "option": "Indoor residual spraying",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine administered prophylactically",
+        "bool": true
+      },
+      {
+        "option": "Administering malaria vaccine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Which of the following can not be prevented by the protective measures taken against the mosquitoes?",
+    "answers": [
+      {
+        "option": "Dengue fever",
+        "bool": false
+      },
+      {
+        "option": "Chikungunya fever",
+        "bool": false
+      },
+      {
+        "option": "Congo Crimean hemorrhagic fever",
+        "bool": true
+      },
+      {
+        "option": "Yellow fever",
+        "bool": false
+      },
+      {
+        "option": "Malaria fever",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A doctor receives 5 cases of cholera together at his private clinic in Lahore. He should report these cases to which of the following authorities?",
+    "answers": [
+      {
+        "option": "District nazim",
+        "bool": false
+      },
+      {
+        "option": "District police station",
+        "bool": false
+      },
+      {
+        "option": "Local police station",
+        "bool": false
+      },
+      {
+        "option": "Area magistrate",
+        "bool": false
+      },
+      {
+        "option": "District health authorities",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "What is the primary reason for the increasing typhoid disease burden in Pakistan?",
+    "answers": [
+      {
+        "option": "Inaccessibility of healthcare facilities",
+        "bool": false
+      },
+      {
+        "option": "Drug resistance",
+        "bool": true
+      },
+      {
+        "option": "Lack of awareness of hygiene practices",
+        "bool": false
+      },
+      {
+        "option": "Vaccine hesitancy",
+        "bool": false
+      },
+      {
+        "option": "Lack of skilled professionals",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A doctor is called in sessions court as a witness. During cross-examination, he utters an indecent remark on the defense counsel, which is brought to the knowledge of the judge who gives minimum punishment to the doctor. Which of the following would it be?",
+    "answers": [
+      {
+        "option": "Fee of Rs. 50 only",
+        "bool": false
+      },
+      {
+        "option": "Detaining him in the court till rising of the court for the day",
+        "bool": true
+      },
+      {
+        "option": "Fee of Rs. 100 only",
+        "bool": false
+      },
+      {
+        "option": "Warning in writing with copy to the employer",
+        "bool": false
+      },
+      {
+        "option": "Fee of Rs. 10 only",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "The present-day societies have high expectations from medical professionals regarding their ideal ethical practice. The broader guidelines can be learned from the subject of medical ethics. What does this subject deal with?",
+    "answers": [
+      {
+        "option": "Confidentiality of patient record as an ideal ethical practice",
+        "bool": false
+      },
+      {
+        "option": "Moral values to be observed by medical professional in their practice",
+        "bool": true
+      },
+      {
+        "option": "Interpersonal relationships are the basic requirement",
+        "bool": false
+      },
+      {
+        "option": "Implied contract and its details",
+        "bool": false
+      },
+      {
+        "option": "Research ethics should be made mandatory",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "What is the term used for diarrhea that lasts for at least 14 days and has no blood?",
+    "answers": [
+      {
+        "option": "Acute diarrhea",
+        "bool": false
+      },
+      {
+        "option": "Persistent diarrhea",
+        "bool": true
+      },
+      {
+        "option": "Chronic diarrhea",
+        "bool": false
+      },
+      {
+        "option": "Dysentery",
+        "bool": false
+      },
+      {
+        "option": "Amebic dysentery",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "What is the term used for the disease whose number of cases are occurring infrequently, haphazardly, and at different times and places?",
+    "answers": [
+      {
+        "option": "Sporadic",
+        "bool": true
+      },
+      {
+        "option": "Hyperendemic",
+        "bool": false
+      },
+      {
+        "option": "Pandemic",
+        "bool": false
+      },
+      {
+        "option": "Endemic",
+        "bool": false
+      },
+      {
+        "option": "Epidemic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A patient with a history of AIDs and tuberculosis 2 years back is admitted for the surgery of appendicitis. What precautions should be taken?",
+    "answers": [
+      {
+        "option": "General ward with standard precautions",
+        "bool": false
+      },
+      {
+        "option": "Single ward with standard precautions",
+        "bool": false
+      },
+      {
+        "option": "Single ward with contact precautions",
+        "bool": false
+      },
+      {
+        "option": "Single ward with respiratory precautions",
+        "bool": true
+      },
+      {
+        "option": "General ward with contact precautions",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A medical officer detects an HIV (human immunodeficiency virus) positive case in the blood bank and searches for the sexual partner of the donor to prevent and treat the disease in the partner. Which process is described here?",
+    "answers": [
+      {
+        "option": "HIV contact tracing",
+        "bool": true
+      },
+      {
+        "option": "HIV screening",
+        "bool": false
+      },
+      {
+        "option": "HIV prophylaxis",
+        "bool": false
+      },
+      {
+        "option": "HIV primary prevention",
+        "bool": false
+      },
+      {
+        "option": "HIV case detection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A person, while traveling, carries a disease with him from an area where it is highly prevalent, to a place in which it does not normally occur. Which of the following terms is used for it?",
+    "answers": [
+      {
+        "option": "Holo endemic",
+        "bool": false
+      },
+      {
+        "option": "Exotic",
+        "bool": true
+      },
+      {
+        "option": "Hyper epidemic",
+        "bool": false
+      },
+      {
+        "option": "Pandemic",
+        "bool": false
+      },
+      {
+        "option": "Endemic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A patient who was diagnosed with AIDS (acquired immune deficiency syndrome) and tuberculosis (TB) 2 years back is admitted for surgery for appendicitis. He is compliant with HIV medications. He completed anti-TB therapy and now his chest x-ray is clear with no pulmonary infiltrates and no bacteria in his sputum. What precautions should be taken?",
+    "answers": [
+      {
+        "option": "Single room with contact and airborne precautions",
+        "bool": false
+      },
+      {
+        "option": "General ward with contact precautions",
+        "bool": false
+      },
+      {
+        "option": "Single ward with contact precautions",
+        "bool": false
+      },
+      {
+        "option": "Single ward with standard precautions",
+        "bool": false
+      },
+      {
+        "option": "General ward with standard precautions",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A health officer has taken up the challenge to eradicate HIV (human immunodeficiency virus). His team identified groups of high-risk individuals. Which of the following high-risk groups should be intervened first?",
+    "answers": [
+      {
+        "option": "Neonates",
+        "bool": false
+      },
+      {
+        "option": "Sex workers",
+        "bool": false
+      },
+      {
+        "option": "Men having sex with men",
+        "bool": true
+      },
+      {
+        "option": "Pregnant women",
+        "bool": false
+      },
+      {
+        "option": "Professional or paid blood donors",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "The district government of a certain city is trying to control a malaria epidemic. For this purpose, they want to initiate the strategy of vector control. They launch the distribution of insecticide-treated nets (ITNs) to households. Which of the following captures the other core intervention that must be used for effective vector control?",
+    "answers": [
+      {
+        "option": "Prophylaxis",
+        "bool": false
+      },
+      {
+        "option": "Indoor residual spraying (IRS)",
+        "bool": true
+      },
+      {
+        "option": "Surveillance",
+        "bool": false
+      },
+      {
+        "option": "Vaccine",
+        "bool": false
+      },
+      {
+        "option": "Preventive chemotherapies",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A non-governmental organization working to control malaria in flood-affected areas of Pakistan seeks advice from a public health specialist regarding the control and elimination of malaria. Which one of the following options captures the most appropriate advice?",
+    "answers": [
+      {
+        "option": "Vector control",
+        "bool": true
+      },
+      {
+        "option": "Vaccine",
+        "bool": false
+      },
+      {
+        "option": "Surveillance",
+        "bool": false
+      },
+      {
+        "option": "Preventive chemotherapies",
+        "bool": false
+      },
+      {
+        "option": "DDT spraying",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A physician is interested in performing entomological testing on the mosquito which is an important vector for transmitting viral fevers in Pakistan. Which of the following mosquitoes is of interest to him?",
+    "answers": [
+      {
+        "option": "Anopheles stephensi",
+        "bool": false
+      },
+      {
+        "option": "Culiseta mosquito",
+        "bool": false
+      },
+      {
+        "option": "Aedes triseriatus",
+        "bool": false
+      },
+      {
+        "option": "Culex mosquito",
+        "bool": false
+      },
+      {
+        "option": "Aedes aegypti",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A 29-year-old woman reported to your clinic with complaints of sudden onset chills and high fever, intense headache, muscle and joint pain. The joint pain restricted her movements for the last two days. A provisional diagnosis of Chikungunya infection was made. What will be the next appropriate patient management step should be taken?",
+    "answers": [
+      {
+        "option": "Administer NSAIDS for severe muscle and joint pain",
+        "bool": false
+      },
+      {
+        "option": "Advice antibody and antigen levels",
+        "bool": false
+      },
+      {
+        "option": "Prevent person-to-person direct transfer of infection",
+        "bool": false
+      },
+      {
+        "option": "Ensure oral rehydration and give acetaminophen",
+        "bool": true
+      },
+      {
+        "option": "Ensure timely administration of antibiotics",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "Balanced infection control practices (ICP) can save hospitals a considerable amount of money, e.g., an outbreak of GNR can be controlled effectively by hand hygiene rather than prescribing expensive antibiotics. \"The first requirement in a hospital is that it should do the sick no harm.\" Who said the above words?",
+    "answers": [
+      {
+        "option": "Willam",
+        "bool": false
+      },
+      {
+        "option": "Lister",
+        "bool": false
+      },
+      {
+        "option": "Ogston",
+        "bool": false
+      },
+      {
+        "option": "Colbrook",
+        "bool": false
+      },
+      {
+        "option": "Florence Nightingale",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "A 50-year-old male patient enters the emergency department with a profuse, productive cough. The infection control nurse instructs the patient's attendant to take their patient to the separate waiting area at the corner. Which of the following is the segregation of patients before they enter the usual waiting room?",
+    "answers": [
+      {
+        "option": "Triage",
+        "bool": true
+      },
+      {
+        "option": "Cohorting",
+        "bool": false
+      },
+      {
+        "option": "Contact precautions",
+        "bool": false
+      },
+      {
+        "option": "Standard precautions",
+        "bool": false
+      },
+      {
+        "option": "Surveillance",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "3rd-year/infectious/community-medicine",
+    "question": "An 18-year-old male, who appeared disoriented, was brought to the Emergency Department due to a single episode of nosebleeding and continuous gum bleeding for the past six hours. His mother reported that he had experienced a high-grade fever and vomiting for the last three days. During the physical examination, the patient had a temperature of 100.4 degrees Fahrenheit, cold and clammy skin, a feeble pulse, and small red spots on his skin. What is considered the gold standard diagnostic test for this condition?",
+    "answers": [
+      {
+        "option": "Bone Marrow culture",
+        "bool": false
+      },
+      {
+        "option": "Complete Blood Count",
+        "bool": false
+      },
+      {
+        "option": "Enzyme Linked Immunology assays",
+        "bool": false
+      },
+      {
+        "option": "Polymerase Chain Reaction",
+        "bool": true
+      },
+      {
+        "option": "Blood Culture",
+        "bool": false
+      }
+    ]
+  }
+]

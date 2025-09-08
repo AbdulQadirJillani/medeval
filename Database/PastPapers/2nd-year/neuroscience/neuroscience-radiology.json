@@ -1,0 +1,299 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "What is the preferred imaging modality in spinal cord lesions?",
+    "answers": [
+      {
+        "option": "CT scan",
+        "bool": false
+      },
+      {
+        "option": "Myelography",
+        "bool": false
+      },
+      {
+        "option": "PET/CT",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      },
+      {
+        "option": "MRI",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "Which of the following is the first choice of modality for diagnosing and examining suspected spinal cord lesions in patients who have suffered trauma?",
+    "answers": [
+      {
+        "option": "Positron emission tomography scan",
+        "bool": false
+      },
+      {
+        "option": "Computed tomography scan",
+        "bool": false
+      },
+      {
+        "option": "Electroencephalography",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging",
+        "bool": true
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "In a T2WI section magnetic resonance imaging (MRI), the intervertebral disc appears as which of the following?",
+    "answers": [
+      {
+        "option": "Dark",
+        "bool": false
+      },
+      {
+        "option": "Grey",
+        "bool": false
+      },
+      {
+        "option": "Bright",
+        "bool": true
+      },
+      {
+        "option": "Black",
+        "bool": false
+      },
+      {
+        "option": "Jet black",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "In a T2WI section magnetic resonance imaging (MRI), the cerebrospinal fluid appears as which of the following?",
+    "answers": [
+      {
+        "option": "Black",
+        "bool": false
+      },
+      {
+        "option": "Dark",
+        "bool": false
+      },
+      {
+        "option": "Jet black",
+        "bool": false
+      },
+      {
+        "option": "Grey",
+        "bool": false
+      },
+      {
+        "option": "Bright",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "An 8-year-old boy fractured his skull during his fall. What is the first modality to be used for the examination of the fracture of the skull?",
+    "answers": [
+      {
+        "option": "PET scan",
+        "bool": false
+      },
+      {
+        "option": "CT scan",
+        "bool": true
+      },
+      {
+        "option": "MRI",
+        "bool": false
+      },
+      {
+        "option": "Myelography",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "Which of the following is the best method to detect slipped intervertebral disc or herniated disc?",
+    "answers": [
+      {
+        "option": "Ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Electroencephalography",
+        "bool": false
+      },
+      {
+        "option": "Electrocardiography",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging",
+        "bool": true
+      },
+      {
+        "option": "Computed tomography scan",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "What is the initial modality used for fractures?",
+    "answers": [
+      {
+        "option": "Myelography",
+        "bool": false
+      },
+      {
+        "option": "CT",
+        "bool": false
+      },
+      {
+        "option": "PET",
+        "bool": false
+      },
+      {
+        "option": "MRI",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "What is the absolute contraindication of magnetic resonance imaging (MRI)?",
+    "answers": [
+      {
+        "option": "Claustrophobia",
+        "bool": false
+      },
+      {
+        "option": "Dyspnea",
+        "bool": false
+      },
+      {
+        "option": "Allergies",
+        "bool": false
+      },
+      {
+        "option": "Movement Disorders",
+        "bool": false
+      },
+      {
+        "option": "Indwelling cardiac pace maker",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "What is the major advantage of magnetic resonance imaging (MRI) over computed tomography (CT) scan?",
+    "answers": [
+      {
+        "option": "Quick modality",
+        "bool": false
+      },
+      {
+        "option": "Excellent soft tissue imaging with high contrast sensitivity",
+        "bool": true
+      },
+      {
+        "option": "Does not require any prior preparation",
+        "bool": false
+      },
+      {
+        "option": "Use of ionization radiation",
+        "bool": false
+      },
+      {
+        "option": "Superior in detection of calcified lesions",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "A 32-year-old male was brought to the Emergency department with a history of loss of consciousness after a road traffic accident. What will be the first radiologic investigation of choice?",
+    "answers": [
+      {
+        "option": "X-rays",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging",
+        "bool": false
+      },
+      {
+        "option": "Fluoroscopy",
+        "bool": false
+      },
+      {
+        "option": "Computed Tomography",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/neuroscience-1/radiology",
+    "question": "A 54-year-old male presented to the Outpatient department with a backache radiating to the right lower limb for four weeks. There is no history of trauma or fever. His x-ray lumbar spine done two weeks earlier, was unremarkable. Which of the following radiological investigations will show spinal nerve compression?",
+    "answers": [
+      {
+        "option": "Magnetic Resonance Imaging (MRI)",
+        "bool": true
+      },
+      {
+        "option": "Myelography",
+        "bool": false
+      },
+      {
+        "option": "Radionuclide bone scan",
+        "bool": false
+      },
+      {
+        "option": "Computed Tomography (CT)",
+        "bool": false
+      },
+      {
+        "option": "Tractography",
+        "bool": false
+      }
+    ]
+  }
+]

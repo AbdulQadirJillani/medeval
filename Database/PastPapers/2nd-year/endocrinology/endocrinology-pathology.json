@@ -1,0 +1,6374 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 20-year-old man was brought to the emergency room presenting with seizures, paresthesia, cramps, and tetany. After managing his symptoms, his blood calcium levels were investigated and were found to be lower than normal. The doctor explained to the patient's attendant that he had a disease that was caused by the deficiency of a specific hormone. What is the most common cause of this condition?",
+    "answers": [
+      {
+        "option": "Idiopathic",
+        "bool": false
+      },
+      {
+        "option": "Neoplasia",
+        "bool": false
+      },
+      {
+        "option": "Surgical",
+        "bool": true
+      },
+      {
+        "option": "Autoimmune",
+        "bool": false
+      },
+      {
+        "option": "Congenital",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 15-year-old boy presents to the outpatient department with backache, moon face, and truncal obesity. On examination, the child has elevated blood pressure and delayed reflexes. The laboratory results show increased cortisol levels. What is the most likely disease from which the boy is suffering?",
+    "answers": [
+      {
+        "option": "Addison disease",
+        "bool": false
+      },
+      {
+        "option": "Adrenal cortex tumor",
+        "bool": false
+      },
+      {
+        "option": "Pseudo-Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": false
+      },
+      {
+        "option": "Cushing disease",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 42-year-old woman presents to the clinic complaining of excessive facial hair and irregular menstrual cycles. On physical exam, the patient has truncal obesity and a characteristic 'moon-facies'. CT of the head shows a mass in the pituitary gland. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Cushing disease",
+        "bool": true
+      },
+      {
+        "option": "Prolactinoma",
+        "bool": false
+      },
+      {
+        "option": "Cushing's syndrome",
+        "bool": false
+      },
+      {
+        "option": "Polycystic ovarian syndrome (PCOS)",
+        "bool": false
+      },
+      {
+        "option": "Waterhouse-Friderichsen syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following symptoms characterizes diabetes insipidus?",
+    "answers": [
+      {
+        "option": "Frequent urination",
+        "bool": true
+      },
+      {
+        "option": "Acromegaly",
+        "bool": false
+      },
+      {
+        "option": "Sexual dysfunction",
+        "bool": false
+      },
+      {
+        "option": "No urine",
+        "bool": false
+      },
+      {
+        "option": "Infertility",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A lady arrives at the clinic for the delivery of her baby. After the delivery, the lady has significant bleeding and exhibits post-partum symptoms of poor lactation, loss of pubic hair, and fatigue. Which of the following describes the condition the patient is suffering from?",
+    "answers": [
+      {
+        "option": "Sheehan syndrome",
+        "bool": true
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly",
+        "bool": false
+      },
+      {
+        "option": "Empty sella syndrome",
+        "bool": false
+      },
+      {
+        "option": "Prolactinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common neoplasm of the thyroid?",
+    "answers": [
+      {
+        "option": "Follicular carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Papillary carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Medullary carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Anaplastic (undifferentiated) carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Adenoma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 26-year-old woman presents to the clinic due to fatigue and difficulty in breastfeeding her 5-week-old baby. She also notices a slower growth of pubic hair, constipation, weight gain, and severe fatigue. Antenatal history is unremarkable, however, she has a history of severe bleeding with blood transfusion right after her delivery. What is the diagnosis of this patient?",
+    "answers": [
+      {
+        "option": "Thyroid dysfunction",
+        "bool": false
+      },
+      {
+        "option": "MEN syndrome",
+        "bool": false
+      },
+      {
+        "option": "Prolactinoma",
+        "bool": false
+      },
+      {
+        "option": "Ineffective latching",
+        "bool": false
+      },
+      {
+        "option": "Sheehan's syndrome",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is correct regarding gene mutations responsible for parathyroid neoplasia?",
+    "answers": [
+      {
+        "option": "Cyclin D1 gene deletion leads to over-expression of cyclin D1 and thus causes parathyroid adenoma",
+        "bool": false
+      },
+      {
+        "option": "The most important susceptibility locus for parathyroid adenomas is the HLA gene cluster on chromosome 6p21",
+        "bool": false
+      },
+      {
+        "option": "MEN-1 mutations are responsible for parathyroid tumors",
+        "bool": true
+      },
+      {
+        "option": "The mutations causing parathyroid adenomas are rarely sporadic",
+        "bool": false
+      },
+      {
+        "option": "GNAS mutations are responsible for familial parathyroid tumors",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most important complication of metabolic syndrome that leads to type 2 diabetes?",
+    "answers": [
+      {
+        "option": "Hypertriglyceridemia",
+        "bool": false
+      },
+      {
+        "option": "Acidosis",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Visceral obesity",
+        "bool": true
+      },
+      {
+        "option": "Alkalosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Exophthalmos is most strongly associated with which of the following pathologies?",
+    "answers": [
+      {
+        "option": "Hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Conn syndrome",
+        "bool": false
+      },
+      {
+        "option": "Graves disease",
+        "bool": true
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person with diabetes mellitus has defect in which type of pancreatic cells?",
+    "answers": [
+      {
+        "option": "Delta cells",
+        "bool": false
+      },
+      {
+        "option": "Alpha cells",
+        "bool": false
+      },
+      {
+        "option": "Gamma cells",
+        "bool": false
+      },
+      {
+        "option": "PP cells",
+        "bool": false
+      },
+      {
+        "option": "Beta cells",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Extremely high iodine levels lead to which of the following?",
+    "answers": [
+      {
+        "option": "Hypothyroidism",
+        "bool": true
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Exophthalmos",
+        "bool": false
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Conn syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "The Chvostek sign is seen in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Primary hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypoparathyroidism",
+        "bool": true
+      },
+      {
+        "option": "Pseudohypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Vitamin D toxicity",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Phentolamine is used to reduce hypertension in which of the following conditions?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Diabetes mellitus",
+        "bool": false
+      },
+      {
+        "option": "Hypercholesterolemia",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": true
+      },
+      {
+        "option": "Metabolic syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Congenital hypothyroidism is most commonly associated with which of the following congenital anomalies?",
+    "answers": [
+      {
+        "option": "Renal and ureteric anomalies",
+        "bool": true
+      },
+      {
+        "option": "Cleft lip and palate",
+        "bool": false
+      },
+      {
+        "option": "Facial abnormalities",
+        "bool": false
+      },
+      {
+        "option": "Limb defects",
+        "bool": false
+      },
+      {
+        "option": "Situs inversus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most common cause of congenital hypothyroidism worldwide?",
+    "answers": [
+      {
+        "option": "Dyshormonogenetic goiter",
+        "bool": false
+      },
+      {
+        "option": "Failure of thyroid gland to develop",
+        "bool": false
+      },
+      {
+        "option": "Hereditary",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": true
+      },
+      {
+        "option": "Lack of iodine intake in childhood",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the best diagnostic test for Cushing syndrome?",
+    "answers": [
+      {
+        "option": "Serum cortisol levels test",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone(ACTH) levels test",
+        "bool": false
+      },
+      {
+        "option": "24-hour urine collection for analysis of free cortisol",
+        "bool": true
+      },
+      {
+        "option": "Corticotropin-releasing hormone(CRH) stimulation test",
+        "bool": false
+      },
+      {
+        "option": "High-dose dexamethasone suppression test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the test for Graves disease?",
+    "answers": [
+      {
+        "option": "Corticotropin-releasing hormone (CRH) levels",
+        "bool": false
+      },
+      {
+        "option": "T4 levels",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone (ACTH) levels",
+        "bool": false
+      },
+      {
+        "option": "T3 levels",
+        "bool": false
+      },
+      {
+        "option": "Thyroid stimulating hormone (TSH) concentration",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A woman comes to the outpatient department with a complaint of being restless for the past 3 months. She has a single painless swelling in her neck. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Subacute lymphocytic thyroiditis",
+        "bool": true
+      },
+      {
+        "option": "Subacute granulomatous thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": false
+      },
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Toxic multinodular goiter",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following statements is wrong about the Sheehan syndrome?",
+    "answers": [
+      {
+        "option": "It can present as cold intolerance",
+        "bool": false
+      },
+      {
+        "option": "It results from ischemia to pituitary gland",
+        "bool": false
+      },
+      {
+        "option": "It is associated with antepartum hemorrhage",
+        "bool": true
+      },
+      {
+        "option": "It is associated with postpartum hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "It leads to pituitary necrosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hyperthyroidism is characterized by which of the following?",
+    "answers": [
+      {
+        "option": "Cold intolerance",
+        "bool": false
+      },
+      {
+        "option": "Increase in body weight",
+        "bool": false
+      },
+      {
+        "option": "Brittle hair",
+        "bool": false
+      },
+      {
+        "option": "Decrease in sweating",
+        "bool": false
+      },
+      {
+        "option": "Increase in basal metabolic rate",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "If the growth hormone level in the blood is increased due to a tumor of the pituitary gland, then which cells of the pituitary gland are most likely affected by the tumor?",
+    "answers": [
+      {
+        "option": "Somatotropes",
+        "bool": true
+      },
+      {
+        "option": "Thyrotropes",
+        "bool": false
+      },
+      {
+        "option": "Gonadotropes",
+        "bool": false
+      },
+      {
+        "option": "Corticotropes",
+        "bool": false
+      },
+      {
+        "option": "Lactotropes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not a feature of Cushing syndrome?",
+    "answers": [
+      {
+        "option": "Increased plasma protein levels",
+        "bool": false
+      },
+      {
+        "option": "Hypernatremia",
+        "bool": false
+      },
+      {
+        "option": "Hypokalemia",
+        "bool": false
+      },
+      {
+        "option": "Increased mobilization of fat from the lower body",
+        "bool": false
+      },
+      {
+        "option": "Hypoglycemia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A deficiency of which of the following hormones can cause a life-threatening condition?",
+    "answers": [
+      {
+        "option": "Thyroxine",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone",
+        "bool": false
+      },
+      {
+        "option": "Cortisol",
+        "bool": true
+      },
+      {
+        "option": "Insulin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common pituitary disease?",
+    "answers": [
+      {
+        "option": "Pituitary apoplexy",
+        "bool": false
+      },
+      {
+        "option": "Pituitary metastatic tumors",
+        "bool": false
+      },
+      {
+        "option": "Empty sella syndrome",
+        "bool": false
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": true
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Tetany is seen in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Pseudohypoparathydroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypoparathyroidism",
+        "bool": true
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Prolactinoma is a tumor of what type of cells?",
+    "answers": [
+      {
+        "option": "Gonadotropes",
+        "bool": false
+      },
+      {
+        "option": "Corticotropes",
+        "bool": false
+      },
+      {
+        "option": "Mammotropes",
+        "bool": true
+      },
+      {
+        "option": "Mammary gland cells",
+        "bool": false
+      },
+      {
+        "option": "Somatotropes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Secondary hyperparathyroidism can arise due to which of the following?",
+    "answers": [
+      {
+        "option": "Deficiency of both 1\u03b1-hydroxylase and 21\u03b1-hydroxylase",
+        "bool": false
+      },
+      {
+        "option": "1\u03b1-hydroxylase deficiency",
+        "bool": true
+      },
+      {
+        "option": "21\u03b1-hydroxylase deficiency",
+        "bool": false
+      },
+      {
+        "option": "1\u03b1-hydroxylase overexpression",
+        "bool": false
+      },
+      {
+        "option": "17\u03b1-hydroxylase deficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In gigantism, which of the following cell types is overactive?",
+    "answers": [
+      {
+        "option": "Gonadotropes",
+        "bool": false
+      },
+      {
+        "option": "Mammotropes",
+        "bool": false
+      },
+      {
+        "option": "Corticotropes",
+        "bool": false
+      },
+      {
+        "option": "Thyrotropes",
+        "bool": false
+      },
+      {
+        "option": "Somatotropes",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Excessive parathyroid hormone causes which of the following conditions?",
+    "answers": [
+      {
+        "option": "Collagen degradation",
+        "bool": false
+      },
+      {
+        "option": "Bone formation",
+        "bool": false
+      },
+      {
+        "option": "Bone resorption",
+        "bool": true
+      },
+      {
+        "option": "Collagen synthesis",
+        "bool": false
+      },
+      {
+        "option": "Increased vitamin C uptake",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which metabolic derangement is seen in Conn syndrome?",
+    "answers": [
+      {
+        "option": "Metabolic acidosis",
+        "bool": false
+      },
+      {
+        "option": "Metabolic alkalosis",
+        "bool": true
+      },
+      {
+        "option": "Respiratory acidosis",
+        "bool": false
+      },
+      {
+        "option": "Hyperkalemia",
+        "bool": false
+      },
+      {
+        "option": "Hypercalcemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following leads to Addison disease?",
+    "answers": [
+      {
+        "option": "Secondary adrenal hypofunction",
+        "bool": false
+      },
+      {
+        "option": "Tertiary disorder of the cortisol hormone system",
+        "bool": false
+      },
+      {
+        "option": "Functional disability of the hormone cortisol",
+        "bool": false
+      },
+      {
+        "option": "Primary adrenocortical hypofunction",
+        "bool": true
+      },
+      {
+        "option": "Abnormal growth of the thyroid gland",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following involves excessive secretion of adrenocorticotropic hormone (ACTH)?",
+    "answers": [
+      {
+        "option": "Cushing disease",
+        "bool": true
+      },
+      {
+        "option": "Addison disease",
+        "bool": false
+      },
+      {
+        "option": "Thyrotoxicosis",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": false
+      },
+      {
+        "option": "Myxodema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old woman presents with 5 kg weight loss over 4 months, heat intolerance, and palpitations. On examination, there is diffuse thyroid enlargement. Serology shows TSH receptor antibodies. Which of the following is the correct diagnosis?",
+    "answers": [
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Lymphocytic thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Grave's disease",
+        "bool": true
+      },
+      {
+        "option": "De Quervain's thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Palpation thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the best sign seen in hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Constipation",
+        "bool": false
+      },
+      {
+        "option": "Lethargy",
+        "bool": false
+      },
+      {
+        "option": "Heat intolerance",
+        "bool": true
+      },
+      {
+        "option": "Bradycardia",
+        "bool": false
+      },
+      {
+        "option": "Weight gain",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common cause of congenital hypothyroidism worldwide?",
+    "answers": [
+      {
+        "option": "Cellular atrophy",
+        "bool": false
+      },
+      {
+        "option": "Hypercortisolism",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": true
+      },
+      {
+        "option": "Autoimmune destruction",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the mode of inheritance of congenital adrenal hyperplasia?",
+    "answers": [
+      {
+        "option": "X-linked recessive",
+        "bool": false
+      },
+      {
+        "option": "Mitochondrial inheritance",
+        "bool": false
+      },
+      {
+        "option": "Autosomal dominant",
+        "bool": false
+      },
+      {
+        "option": "Autosomal recessive",
+        "bool": true
+      },
+      {
+        "option": "X-linked dominant",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the diagnostic test for acromegaly?",
+    "answers": [
+      {
+        "option": "Homocysteine levels",
+        "bool": false
+      },
+      {
+        "option": "Liver function test",
+        "bool": false
+      },
+      {
+        "option": "Somatostatin levels",
+        "bool": false
+      },
+      {
+        "option": "Insulin levels",
+        "bool": false
+      },
+      {
+        "option": "Glucose tolerance test",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the cut-off for fasting blood glucose level in diabetes?",
+    "answers": [
+      {
+        "option": "126 mg/dl",
+        "bool": true
+      },
+      {
+        "option": "80 mg/dl",
+        "bool": false
+      },
+      {
+        "option": "100 mg/dl",
+        "bool": false
+      },
+      {
+        "option": "250 mg/dl",
+        "bool": false
+      },
+      {
+        "option": "140 mg/dl",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most common cause of hypoparathyroidism?",
+    "answers": [
+      {
+        "option": "Genetic",
+        "bool": false
+      },
+      {
+        "option": "Autoimmune",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic",
+        "bool": false
+      },
+      {
+        "option": "Congenital",
+        "bool": false
+      },
+      {
+        "option": "Surgery",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most common cause of hyperparathyroidism?",
+    "answers": [
+      {
+        "option": "Autoimmune",
+        "bool": false
+      },
+      {
+        "option": "Hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Solitary adenoma",
+        "bool": true
+      },
+      {
+        "option": "Infection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most sensitive test for myxedema?",
+    "answers": [
+      {
+        "option": "Thyrotropin-releasing hormone (TRH)",
+        "bool": false
+      },
+      {
+        "option": "Free T3",
+        "bool": false
+      },
+      {
+        "option": "Thyroxine (T4)",
+        "bool": false
+      },
+      {
+        "option": "Triiodothyronine (T3)",
+        "bool": false
+      },
+      {
+        "option": "Thyroid stimulating hormone (TSH)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is a diagnostic test for pituitary tumors?",
+    "answers": [
+      {
+        "option": "IGF-1 plasma level",
+        "bool": false
+      },
+      {
+        "option": "TSH plasma level",
+        "bool": false
+      },
+      {
+        "option": "ACTH plasma level",
+        "bool": false
+      },
+      {
+        "option": "Visual field exam",
+        "bool": true
+      },
+      {
+        "option": "Prolactin level in blood",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A pregnant woman, with no previous history of diabetes, started developing hyperglycemia, coupled with polyuria and glycosuria in her 2nd trimester. She is brought to the emergency room on the 29th week of gestation and an emergency caesarian is performed. Her baby is born overweight and develops seizures immediately after birth. Which of the following is the most likely reason for the baby's condition?",
+    "answers": [
+      {
+        "option": "Maturity onset diabetes of young",
+        "bool": false
+      },
+      {
+        "option": "Neonatal diabetes",
+        "bool": false
+      },
+      {
+        "option": "Type 1 diabetes mellitus",
+        "bool": false
+      },
+      {
+        "option": "Gestational diabetes",
+        "bool": true
+      },
+      {
+        "option": "Type 2 diabetes mellitus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 25-year-old male comes to the outpatient department with complaints of intermittent headache and nausea for 4 months. On examination of the eyes, he has slightly impaired vision and diplopia. What is the most appropriate diagnosis for this patient?",
+    "answers": [
+      {
+        "option": "Retinal damage",
+        "bool": false
+      },
+      {
+        "option": "Corneal infection",
+        "bool": false
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": true
+      },
+      {
+        "option": "Ophthalmic inflammation",
+        "bool": false
+      },
+      {
+        "option": "Hypothalamic ischemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not seen in Cushing's syndrome?",
+    "answers": [
+      {
+        "option": "Hirsutism",
+        "bool": false
+      },
+      {
+        "option": "Weight gain",
+        "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": true
+      },
+      {
+        "option": "Purple striae",
+        "bool": false
+      },
+      {
+        "option": "Hyperglycemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is cretinism?",
+    "answers": [
+      {
+        "option": "Exophthalmos",
+        "bool": false
+      },
+      {
+        "option": "Hypoparathyroidism in children",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism in infancy and childhood",
+        "bool": true
+      },
+      {
+        "option": "Hypothyroidism in adults",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism in adults",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "An excess of mineralocorticoids will cause which of the following?",
+    "answers": [
+      {
+        "option": "Low osmolarity of blood",
+        "bool": false
+      },
+      {
+        "option": "High growth hormone",
+        "bool": false
+      },
+      {
+        "option": "High cortisol",
+        "bool": false
+      },
+      {
+        "option": "High blood pressure",
+        "bool": true
+      },
+      {
+        "option": "Low blood pressure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A woman presents to the emergency with amenorrhea and milk secretion for the past 2 months. On examination, it was found that the patient has pituitary adenoma. Which of the following hormone, released by the tumor, is responsible for the patient's symptoms?",
+    "answers": [
+      {
+        "option": "Follicle-stimulating hormone (FSH) and luteinizing hormone (LH)",
+        "bool": false
+      },
+      {
+        "option": "Luteinizing hormone (LH)",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": true
+      },
+      {
+        "option": "Follicle-stimulating hormone (FSH)",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person known to have small cell lung carcinoma presents to the outpatient department and had developed hyponatremia. Which of the following hormone released by the carcinoma is responsible for the patient's symptoms?",
+    "answers": [
+      {
+        "option": "Thyroxine",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone (ACTH)",
+        "bool": false
+      },
+      {
+        "option": "Antidiuretic hormone (ADH)",
+        "bool": true
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Luteinizing hormone (LH)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In hypopituitarism, secretion of which hormone is affected first?",
+    "answers": [
+      {
+        "option": "FSH",
+        "bool": false
+      },
+      {
+        "option": "ACTH",
+        "bool": false
+      },
+      {
+        "option": "TSH",
+        "bool": false
+      },
+      {
+        "option": "LH",
+        "bool": false
+      },
+      {
+        "option": "GH",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person may get brown skin due to which of the following conditions?",
+    "answers": [
+      {
+        "option": "Increased ACTH production",
+        "bool": true
+      },
+      {
+        "option": "Decreased ACTH production",
+        "bool": false
+      },
+      {
+        "option": "Increased activity of somatotrophs",
+        "bool": false
+      },
+      {
+        "option": "Decreased melanin",
+        "bool": false
+      },
+      {
+        "option": "Decreased activity of somatotrophs",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person with pulmonary tuberculosis undergoing treatment for 3 months is likely to develop which pathology?",
+    "answers": [
+      {
+        "option": "Addison disease",
+        "bool": true
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Conn syndrome",
+        "bool": false
+      },
+      {
+        "option": "Cushing disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the major lifestyle risk of developing type 2 diabetes mellitus?",
+    "answers": [
+      {
+        "option": "Physically active",
+        "bool": false
+      },
+      {
+        "option": "Obesity",
+        "bool": true
+      },
+      {
+        "option": "Underweight",
+        "bool": false
+      },
+      {
+        "option": "High mental stress",
+        "bool": false
+      },
+      {
+        "option": "Parenthood",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is correct regarding Sheehan syndrome?",
+    "answers": [
+      {
+        "option": "During pregnancy posterior pituitary enlarges twice its size",
+        "bool": false
+      },
+      {
+        "option": "Prepartum necrosis of adenohypophysis",
+        "bool": false
+      },
+      {
+        "option": "Infarction of posterior lobe",
+        "bool": false
+      },
+      {
+        "option": "Ischemic necrosis of pituitary",
+        "bool": true
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common type of pituitary adenoma?",
+    "answers": [
+      {
+        "option": "Prolactinoma",
+        "bool": true
+      },
+      {
+        "option": "LH-producing adenoma",
+        "bool": false
+      },
+      {
+        "option": "ACTH cell adenoma",
+        "bool": false
+      },
+      {
+        "option": "FSH-producing adenoma",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone cell adenoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A patient with excess growth hormone will have which of the following conditions?",
+    "answers": [
+      {
+        "option": "Gigantism after adolescence",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly during adolescence",
+        "bool": false
+      },
+      {
+        "option": "Hypoglycemia",
+        "bool": false
+      },
+      {
+        "option": "Lion-like facies",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly after adolescence",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following will help confirm Addison's disease?",
+    "answers": [
+      {
+        "option": "Cortisol levels",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone levels",
+        "bool": false
+      },
+      {
+        "option": "Glucose levels",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone levels",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone stimulation test",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 35-year-old female went to see her doctor because she had been feeling hot lately and was sweating at night. Her T3 and T4 levels were found to be high, whereas her TSH level was low. What is the most likely diagnosis made by the doctor?",
+    "answers": [
+      {
+        "option": "Pituitary adenoma",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Myxedema",
+        "bool": false
+      },
+      {
+        "option": "Primary hyperthyroidism",
+        "bool": true
+      },
+      {
+        "option": "Secondary hyperthyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "The superior parathyroid gland developed from which of the following?",
+    "answers": [
+      {
+        "option": "1st pharyngeal arch",
+        "bool": false
+      },
+      {
+        "option": "4th pharyngeal pouch",
+        "bool": true
+      },
+      {
+        "option": "3rd pharyngeal pouch",
+        "bool": false
+      },
+      {
+        "option": "1st pharyngeal pouch",
+        "bool": false
+      },
+      {
+        "option": "3rd pharyngeal arch",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common disease of the thyroid in mountainous areas?",
+    "answers": [
+      {
+        "option": "Myxedema",
+        "bool": false
+      },
+      {
+        "option": "Graves disease",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Endemic goiter",
+        "bool": true
+      },
+      {
+        "option": "Iatrogenic goiter",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A patient diagnosed with acromegaly typically presents with which of the following?",
+    "answers": [
+      {
+        "option": "Decreased gluconeogenesis",
+        "bool": false
+      },
+      {
+        "option": "Insulin resistance",
+        "bool": true
+      },
+      {
+        "option": "Decreased protein synthesis",
+        "bool": false
+      },
+      {
+        "option": "Decreased lipolysis",
+        "bool": false
+      },
+      {
+        "option": "Hypoglycemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Genetic abnormalities are associated with pituitary adenomas. Which of the following is the most common genetic abnormality in pituitary adenomas?",
+    "answers": [
+      {
+        "option": "G-protein mutation",
+        "bool": true
+      },
+      {
+        "option": "cAMP formation mutation",
+        "bool": false
+      },
+      {
+        "option": "GDP formation mutation",
+        "bool": false
+      },
+      {
+        "option": "Defect in retinoblastoma",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is incorrect regarding congenital adrenal hyperplasia (CAH)?",
+    "answers": [
+      {
+        "option": "Autosomal recessive disorder",
+        "bool": false
+      },
+      {
+        "option": "Masculinization of female external genitalia",
+        "bool": false
+      },
+      {
+        "option": "Autosomal dominant disorder",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Increases in adrenal androgen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is true for Addison disease?",
+    "answers": [
+      {
+        "option": "Infectious diseases are the major cause",
+        "bool": false
+      },
+      {
+        "option": "Occurs due to hypofunction of adrenal gland",
+        "bool": true
+      },
+      {
+        "option": "Occurs due to hyperfunction of pituitary gland",
+        "bool": false
+      },
+      {
+        "option": "Occurs due to hyperfunction of adrenal gland",
+        "bool": false
+      },
+      {
+        "option": "Primary disease of adrenal medulla",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old man comes to the OPD complaining of muscle weakness. He is 6 feet tall and has a protruding lower jaw, along with enlarged hands and feet. What is your diagnosis of the patient and what will you expect his lab tests to reveal?",
+    "answers": [
+      {
+        "option": "Hypopituitarism, with increased GH",
+        "bool": false
+      },
+      {
+        "option": "Hashitoxicosis, with increased T3 and T4, and low TSH",
+        "bool": false
+      },
+      {
+        "option": "Gigantism, with increased GH and IGF-1",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly, with increased GH and IGF-1",
+        "bool": true
+      },
+      {
+        "option": "Cushing syndrome, with increased midnight plasma cortisol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In which of the following conditions is human growth hormone given?",
+    "answers": [
+      {
+        "option": "Acromegaly",
+        "bool": false
+      },
+      {
+        "option": "Hyperpituitarism",
+        "bool": false
+      },
+      {
+        "option": "Panhypopituitarism",
+        "bool": true
+      },
+      {
+        "option": "Gigantism",
+        "bool": false
+      },
+      {
+        "option": "All of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following does not occur in panhypopituitarism?",
+    "answers": [
+      {
+        "option": "None of them",
+        "bool": true
+      },
+      {
+        "option": "Hypogonadism",
+        "bool": false
+      },
+      {
+        "option": "Reduced thyroxine",
+        "bool": false
+      },
+      {
+        "option": "Reduced growth",
+        "bool": false
+      },
+      {
+        "option": "Mental retardation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Deficiency of which hormone causes fatty liver?",
+    "answers": [
+      {
+        "option": "Oxytocin",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Somatostatin",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not associated with acromegaly?",
+    "answers": [
+      {
+        "option": "Large tongue and hands",
+        "bool": false
+      },
+      {
+        "option": "Insulin resistance",
+        "bool": false
+      },
+      {
+        "option": "Mental deficit",
+        "bool": true
+      },
+      {
+        "option": "Frontal bossing",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Growth retardation occurs due to deficiency of which hormone?",
+    "answers": [
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Follicle stimulating hormone",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What are the main clinical features of a prolactinoma?",
+    "answers": [
+      {
+        "option": "Vision disturbance, headaches, and mood swings",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly, hyperostosis, and prognathism",
+        "bool": false
+      },
+      {
+        "option": "Acne and weight gain",
+        "bool": false
+      },
+      {
+        "option": "Hyperpigmentation and decreased libido",
+        "bool": false
+      },
+      {
+        "option": "Galactorrhea, amenorrhea, and infertility",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the confirmation test for Addison's disease?",
+    "answers": [
+      {
+        "option": "Cortisol levels",
+        "bool": false
+      },
+      {
+        "option": "Glucose levels",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone levels",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone stimulation test",
+        "bool": true
+      },
+      {
+        "option": "Adrenocorticotropic hormone levels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Thyroid storm is seen in which of the following diseases?",
+    "answers": [
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Myxedema coma",
+        "bool": false
+      },
+      {
+        "option": "Wolff-Chaikoff effect",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto\u2019s thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Grave\u2019s disease",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 6-month-old baby boy was diagnosed with thyroid hormone deficiency. What is the most appropriate medical terminology used for this patient?",
+    "answers": [
+      {
+        "option": "Acromegaly",
+        "bool": false
+      },
+      {
+        "option": "Myxedema",
+        "bool": false
+      },
+      {
+        "option": "Cretinism",
+        "bool": true
+      },
+      {
+        "option": "Dwarfism",
+        "bool": false
+      },
+      {
+        "option": "Cushingoid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Graves disease is an example of which type of hypersensitivity?",
+    "answers": [
+      {
+        "option": "Type IV",
+        "bool": false
+      },
+      {
+        "option": "Type III",
+        "bool": false
+      },
+      {
+        "option": "Type II",
+        "bool": true
+      },
+      {
+        "option": "Type I",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the confirmatory test for acromegaly?",
+    "answers": [
+      {
+        "option": "Insulin levels",
+        "bool": false
+      },
+      {
+        "option": "Glucose tolerance test",
+        "bool": true
+      },
+      {
+        "option": "Somatostatin levels",
+        "bool": false
+      },
+      {
+        "option": "IGF-1 levels",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone levels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not seen in hypopituitarism?",
+    "answers": [
+      {
+        "option": "Amenorrhea",
+        "bool": false
+      },
+      {
+        "option": "Dwarfism",
+        "bool": false
+      },
+      {
+        "option": "Cachexia",
+        "bool": true
+      },
+      {
+        "option": "Pallor",
+        "bool": false
+      },
+      {
+        "option": "Decreased libido",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "How to differentiate between type 1 and type 2 diabetes mellitus?",
+    "answers": [
+      {
+        "option": "By the presence of receptor",
+        "bool": false
+      },
+      {
+        "option": "By the presence of peptide c",
+        "bool": true
+      },
+      {
+        "option": "By the presence of glucagon",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "By the presence of somatostatin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "One of the reasons for gigantism is the oversecretion of which of the following hormone?",
+    "answers": [
+      {
+        "option": "Thyrotropin",
+        "bool": false
+      },
+      {
+        "option": "Somatotropin",
+        "bool": true
+      },
+      {
+        "option": "Gonadotropin",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Corticotropin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "An old lady with a diagnosis of hyperthyroidism undergoes a thyroid scan. The findings show increased uptake of radioactive iodine in a solitary circumscribed area. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Toxic adenoma",
+        "bool": true
+      },
+      {
+        "option": "Thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hurthle cell (oxyphil) adenoma",
+        "bool": false
+      },
+      {
+        "option": "Colloid nodule",
+        "bool": false
+      },
+      {
+        "option": "Follicular adenoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hypoparathyroidism most commonly occurs secondary to which of the following?",
+    "answers": [
+      {
+        "option": "Autosomal dominant hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Congenital absence of the parathyroid glands",
+        "bool": false
+      },
+      {
+        "option": "Familial isolated hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Surgery-induced hypoparathyroidism",
+        "bool": true
+      },
+      {
+        "option": "Autoimmune hypoparathyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common parathyroid tumor?",
+    "answers": [
+      {
+        "option": "Parathyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid adenoma",
+        "bool": true
+      },
+      {
+        "option": "Multiple endocrine neoplasia type 1",
+        "bool": false
+      },
+      {
+        "option": "Multiple endocrine neoplasia type 2",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In which of the following conditions, thyroid-stimulating hormone does not respond to thyrotropin-releasing hormone?",
+    "answers": [
+      {
+        "option": "Graves' disease",
+        "bool": false
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": true
+      },
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following causes muscle weakness in Conn's syndrome?",
+    "answers": [
+      {
+        "option": "Acidosis",
+        "bool": false
+      },
+      {
+        "option": "Hypokalemia",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Hyperkalemia",
+        "bool": false
+      },
+      {
+        "option": "Hyponatremia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not a result of iodine deficiency?",
+    "answers": [
+      {
+        "option": "Cold intolerance",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Endemic goiter",
+        "bool": false
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": true
+      },
+      {
+        "option": "Intellectual disability",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Pheochromocytoma is a tumor of which of the following?",
+    "answers": [
+      {
+        "option": "Hepatic origin",
+        "bool": false
+      },
+      {
+        "option": "Adrenal medulla",
+        "bool": true
+      },
+      {
+        "option": "Adrenal cortex",
+        "bool": false
+      },
+      {
+        "option": "Vascular origin",
+        "bool": false
+      },
+      {
+        "option": "Hepatic origin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of these is a characteristic clinical feature of hypothyroidism?",
+    "answers": [
+      {
+        "option": "Myxedema",
+        "bool": true
+      },
+      {
+        "option": "Weight loss",
+        "bool": false
+      },
+      {
+        "option": "Exophthalmos (protrusion of eyeball)",
+        "bool": false
+      },
+      {
+        "option": "Muscle weakness",
+        "bool": false
+      },
+      {
+        "option": "Nervousness",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not a microvascular complication of long-standing diabetes?",
+    "answers": [
+      {
+        "option": "Myocardial infarction",
+        "bool": true
+      },
+      {
+        "option": "Diabetic neuropathy",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Retinopathy",
+        "bool": false
+      },
+      {
+        "option": "Diabetic nephropathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old woman comes to the outpatient department with the complaint of increased frequency of micturition and passing very large quantities of pale urine. She says that she is always thirsty. On radiography, a hypothalamic lesion is seen. The lesion is affecting which of the following nuclei?",
+    "answers": [
+      {
+        "option": "Preoptic nucleus",
+        "bool": false
+      },
+      {
+        "option": "Suprachiasmatic nucleus",
+        "bool": false
+      },
+      {
+        "option": "Paraventricular nucleus",
+        "bool": false
+      },
+      {
+        "option": "Posterior nucleus",
+        "bool": false
+      },
+      {
+        "option": "Supraoptic nucleus",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Thyroiditis is the inflammation of the thyroid gland encompassing a number of disorders that have some elements of inflammation. Subacute thyroiditis is believed to be triggered by which of the following insults?",
+    "answers": [
+      {
+        "option": "Iodine deficiency",
+        "bool": false
+      },
+      {
+        "option": "Fungal infection",
+        "bool": false
+      },
+      {
+        "option": "Trauma",
+        "bool": false
+      },
+      {
+        "option": "Viral infection",
+        "bool": true
+      },
+      {
+        "option": "Bacterial infection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 45-year-old patient has been prescribed the 4-drug anti-tuberculous regimen for the next 3 months following a diagnosis of pulmonary tuberculosis. However, a few days later it is reported that the patient expired. What underlying undiagnosed condition most likely resulted in the demise of this patient?",
+    "answers": [
+      {
+        "option": "Addison's disease",
+        "bool": true
+      },
+      {
+        "option": "Congenital adrenal hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Hyperaldosteronism",
+        "bool": false
+      },
+      {
+        "option": "Hypoaldosteronism",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most common cause of congenital hypothyroidism in iodine sufficient regions?",
+    "answers": [
+      {
+        "option": "Deficiency of thyroid stimulating hormone",
+        "bool": false
+      },
+      {
+        "option": "Poor feeding",
+        "bool": false
+      },
+      {
+        "option": "Drugs during pregnancy",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Dyshormonogenetic goiter",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the cause of central hypothyroidism?",
+    "answers": [
+      {
+        "option": "Decreased free T3",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Insufficient stimulation by TSH",
+        "bool": true
+      },
+      {
+        "option": "Decreased T4",
+        "bool": false
+      },
+      {
+        "option": "Defect in thyroid gland",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following conditions causes hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Graves disease",
+        "bool": true
+      },
+      {
+        "option": "Congenital hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "All of them",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the very first test to be done for hypothyroidism?",
+    "answers": [
+      {
+        "option": "T3",
+        "bool": false
+      },
+      {
+        "option": "Free T3",
+        "bool": false
+      },
+      {
+        "option": "Total T4 and T3",
+        "bool": false
+      },
+      {
+        "option": "TSH",
+        "bool": true
+      },
+      {
+        "option": "T4",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hyperparathyroidism leads to a decrease in plasma levels of which of these?",
+    "answers": [
+      {
+        "option": "Sodium",
+        "bool": false
+      },
+      {
+        "option": "Calcium",
+        "bool": false
+      },
+      {
+        "option": "Phosphate",
+        "bool": true
+      },
+      {
+        "option": "Potassium",
+        "bool": false
+      },
+      {
+        "option": "Calcitonin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 34-year-old female comes to the outpatient department with uncontrolled hypertension. A computed tomography (CT) scan reveals bilateral enlargement of the suprarenal gland. What is the most probable cause?",
+    "answers": [
+      {
+        "option": "Renal tumor",
+        "bool": false
+      },
+      {
+        "option": "Hyperplasia of suprarenal cortex",
+        "bool": false
+      },
+      {
+        "option": "Hyperplasia of suprarenal medulla",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": true
+      },
+      {
+        "option": "Renal cyst",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 35-year-old lady is diagnosed with autoimmune hypothyroidism. Her physician is concerned about thyroid autoantibodies. Which of the following is the most appropriate antibody to detect autoimmune thyroid disease?",
+    "answers": [
+      {
+        "option": "Antinuclear",
+        "bool": false
+      },
+      {
+        "option": "Anticytoplasmic",
+        "bool": false
+      },
+      {
+        "option": "Antiperoxidase",
+        "bool": true
+      },
+      {
+        "option": "Antifollicular",
+        "bool": false
+      },
+      {
+        "option": "Anti-membrane",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which is the most common site of thyroglossal cyst?",
+    "answers": [
+      {
+        "option": "Infront of trachea",
+        "bool": false
+      },
+      {
+        "option": "Base of tongue",
+        "bool": false
+      },
+      {
+        "option": "Near the lower border of mandible",
+        "bool": false
+      },
+      {
+        "option": "Near lower border of the body of the hyoid bone",
+        "bool": true
+      },
+      {
+        "option": "Near laryngeal cartilages",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What does pheochromocytoma, a rare tumor, secrete?",
+    "answers": [
+      {
+        "option": "Oxytocin",
+        "bool": false
+      },
+      {
+        "option": "Androgen",
+        "bool": false
+      },
+      {
+        "option": "Insulin",
+        "bool": false
+      },
+      {
+        "option": "Tyrosinase",
+        "bool": false
+      },
+      {
+        "option": "Catecholamines",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is a characteristic of hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Intolerance to cold",
+        "bool": false
+      },
+      {
+        "option": "Decreased sweating",
+        "bool": false
+      },
+      {
+        "option": "Bradycardia",
+        "bool": false
+      },
+      {
+        "option": "Increased basal metabolic rate (BMR)",
+        "bool": true
+      },
+      {
+        "option": "Increased body weight",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Mutation in which of the following genes is the most common cause of pituitary adenoma caused by genetic defects?",
+    "answers": [
+      {
+        "option": "GNAS",
+        "bool": true
+      },
+      {
+        "option": "AIP",
+        "bool": false
+      },
+      {
+        "option": "RB gene",
+        "bool": false
+      },
+      {
+        "option": "MEN-2",
+        "bool": false
+      },
+      {
+        "option": "MEN-1",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which one of the following is a characteristic sign of hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Slow reflexes",
+        "bool": false
+      },
+      {
+        "option": "Coarse tremor of muscles",
+        "bool": false
+      },
+      {
+        "option": "Jerky reflexes",
+        "bool": false
+      },
+      {
+        "option": "Fine muscle tremor",
+        "bool": true
+      },
+      {
+        "option": "Bradycardia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is true regarding the lab diagnosis of hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Thyroid stimulating hormone (TSH) levels increased",
+        "bool": false
+      },
+      {
+        "option": "Free T3 and T4 levels decreased",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid hormone levels decreased",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid hormone levels increased",
+        "bool": false
+      },
+      {
+        "option": "Thyroid stimulating hormone (TSH) levels decreased",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old lady comes to the outpatient department with a painful swelling on the neck. She has high T3 and T4 and her TSH is diminished. The thyroid gland is tender and palpable. What is the most likely cause of her thyrotoxicosis?",
+    "answers": [
+      {
+        "option": "Graves disease",
+        "bool": false
+      },
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Granulomatous/Subacute (de Quervain) thyroiditis",
+        "bool": true
+      },
+      {
+        "option": "Iodine induced hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "One major clinical manifestation of hypoparathyroidism is tetany which is a hallmark of which of these?",
+    "answers": [
+      {
+        "option": "Hypocalcemia",
+        "bool": true
+      },
+      {
+        "option": "Parathyroid hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Neuropathy",
+        "bool": false
+      },
+      {
+        "option": "Hyperkalemia",
+        "bool": false
+      },
+      {
+        "option": "Vitamin D deficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A patient presented to the clinic with the symptoms of hyperthyroidism. Which of the following should be assessed to confirm the diagnosis?",
+    "answers": [
+      {
+        "option": "T4",
+        "bool": false
+      },
+      {
+        "option": "TRH",
+        "bool": false
+      },
+      {
+        "option": "TSH",
+        "bool": true
+      },
+      {
+        "option": "Thyroglobulin",
+        "bool": false
+      },
+      {
+        "option": "Free T3",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hurthle cells show:",
+    "answers": [
+      {
+        "option": "Hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Metaplastic change",
+        "bool": true
+      },
+      {
+        "option": "Dysplasia",
+        "bool": false
+      },
+      {
+        "option": "Atrophy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hashimoto thyroiditis can lead to:",
+    "answers": [
+      {
+        "option": "Pretibial myxedema",
+        "bool": false
+      },
+      {
+        "option": "Leukemia",
+        "bool": false
+      },
+      {
+        "option": "All of them",
+        "bool": false
+      },
+      {
+        "option": "Thyroid lymphoma",
+        "bool": true
+      },
+      {
+        "option": "Pancytopenia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 30-year-old woman presents to the outpatient department with pain in the lower abdomen and has passed three stones in the urine. She also has high calcium and low phosphate levels in her blood. What is the diagnosis?",
+    "answers": [
+      {
+        "option": "Paget's disease",
+        "bool": false
+      },
+      {
+        "option": "Chronic renal failure",
+        "bool": false
+      },
+      {
+        "option": "Osteoporosis",
+        "bool": false
+      },
+      {
+        "option": "Osteitis fibrosa cystica",
+        "bool": true
+      },
+      {
+        "option": "Osteogenesis imperfecta",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old man comes to the outpatient department with an enlarged face, prognathism and swollen hands and feet. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperaldosteronism",
+        "bool": false
+      },
+      {
+        "option": "Gigantism",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Cretinism is due to:",
+    "answers": [
+      {
+        "option": "Hyperthyroidism during childhood",
+        "bool": false
+      },
+      {
+        "option": "Increased growth hormone",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism during adult life",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism during fetal life, infancy & childhood",
+        "bool": true
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Diabetes insipidus is caused by deficiency of which hormone?",
+    "answers": [
+      {
+        "option": "FSH",
+        "bool": false
+      },
+      {
+        "option": "ADH",
+        "bool": true
+      },
+      {
+        "option": "Angiotensin II",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone",
+        "bool": false
+      },
+      {
+        "option": "Insulin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Type I diabetes is associated with which of the following?",
+    "answers": [
+      {
+        "option": "Obesity",
+        "bool": false
+      },
+      {
+        "option": "Smoking",
+        "bool": false
+      },
+      {
+        "option": "Excess growth hormone",
+        "bool": false
+      },
+      {
+        "option": "Autoimmunity",
+        "bool": true
+      },
+      {
+        "option": "Metabolic syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Chvostek sign is seen in which of the following?",
+    "answers": [
+      {
+        "option": "Both hyperthyroidism and hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypoparathyroidism",
+        "bool": true
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypercalcemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A nurse was brought to the emergency with hypoglycemia. Investigations were carried out, which showed high insulin levels with decreased C-peptide. Which of the following is mostly likely responsible for hypoglycemia?",
+    "answers": [
+      {
+        "option": "Insulinoma",
+        "bool": false
+      },
+      {
+        "option": "Exogenous insulin",
+        "bool": true
+      },
+      {
+        "option": "Sulfonylurea drug",
+        "bool": false
+      },
+      {
+        "option": "Endogenous physiological insulin production",
+        "bool": false
+      },
+      {
+        "option": "Metformin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the HbA1c cut-off for diabetes mellitus diagnosis?",
+    "answers": [
+      {
+        "option": ">10%",
+        "bool": false
+      },
+      {
+        "option": ">6.5%",
+        "bool": true
+      },
+      {
+        "option": ">1%",
+        "bool": false
+      },
+      {
+        "option": ">9%",
+        "bool": false
+      },
+      {
+        "option": ">2.5%",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A female presents to the outpatient department with a central neck mass above the hyoid bone, that moves on tongue protrusion. Which of the following will be the probable diagnosis?",
+    "answers": [
+      {
+        "option": "Thyroid swelling (goiter)",
+        "bool": false
+      },
+      {
+        "option": "Paraganglioma",
+        "bool": false
+      },
+      {
+        "option": "Branchial cyst",
+        "bool": false
+      },
+      {
+        "option": "Thyroglossal duct cyst",
+        "bool": true
+      },
+      {
+        "option": "Osteoporosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is referred to as a combination of Hashimoto thyroiditis and Addison's disease?",
+    "answers": [
+      {
+        "option": "Schmidt syndrome",
+        "bool": true
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": false
+      },
+      {
+        "option": "Autoimmune polyglandular syndrome Type I",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is a metabolic complication arising from insulin-dependent diabetes?",
+    "answers": [
+      {
+        "option": "Both relative and absolute deficiency of insulin",
+        "bool": false
+      },
+      {
+        "option": "Relative deficiency of insulin",
+        "bool": false
+      },
+      {
+        "option": "Insulin toxicity",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Absolute deficiency of insulin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following conditions causes amenorrhea, obesity, and constipation?",
+    "answers": [
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": true
+      },
+      {
+        "option": "Hyperpituitarism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of these is the least frequent thyroid tumor?",
+    "answers": [
+      {
+        "option": "Anaplastic",
+        "bool": true
+      },
+      {
+        "option": "Follicular",
+        "bool": false
+      },
+      {
+        "option": "Metastatic",
+        "bool": false
+      },
+      {
+        "option": "Papillary",
+        "bool": false
+      },
+      {
+        "option": "Medullary",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "There is increased uptake of radioactive iodine in a solitary area of the thyroid gland. What is most likely present in that area?",
+    "answers": [
+      {
+        "option": "Colloid nodule",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": false
+      },
+      {
+        "option": "Follicular carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Toxic adenoma",
+        "bool": true
+      },
+      {
+        "option": "Thyroglossal cyst",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 10-year-old-girl is brought to the emergency room in a semi-conscious state with a complaint of abdominal pain for the past 10 hours. On examination, she is visibly drowsy and has a peculiar fruity smell in her breath. What is the most likely cause to be considered in this case?",
+    "answers": [
+      {
+        "option": "Acute renal failure",
+        "bool": false
+      },
+      {
+        "option": "Diabetic ketoacidosis",
+        "bool": true
+      },
+      {
+        "option": "Sepsis",
+        "bool": false
+      },
+      {
+        "option": "Starvation ketosis",
+        "bool": false
+      },
+      {
+        "option": "Salicylate poisoning",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Why is insulin administered in diabetic ketoacidosis?",
+    "answers": [
+      {
+        "option": "To destroy ketone bodies",
+        "bool": false
+      },
+      {
+        "option": "To decrease glucose uptake by liver",
+        "bool": false
+      },
+      {
+        "option": "To decrease glucose uptake by fat cells",
+        "bool": false
+      },
+      {
+        "option": "To stimulate ketone utilization in brain tissue",
+        "bool": false
+      },
+      {
+        "option": "To increase glucose uptake by muscle",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most common cause of Addison's disease in the West?",
+    "answers": [
+      {
+        "option": "Congenital absence of adrenal gland",
+        "bool": false
+      },
+      {
+        "option": "Tumor of adrenal gland",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Infection",
+        "bool": false
+      },
+      {
+        "option": "Autoimmune adrenalitis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not a symptom of hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Tachycardia",
+        "bool": false
+      },
+      {
+        "option": "Fine tremors",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Cold intolerance",
+        "bool": true
+      },
+      {
+        "option": "Increase in body temperature",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A woman presented to the clinic with the complaint of weight loss despite having a good appetite, increased sweating, and oligomenorrhea. Her laboratory results show increased thyroid hormone levels in the body. Which of the following is the most likely cause for the woman's symptoms?",
+    "answers": [
+      {
+        "option": "Hashimoto thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": true
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is increased in hypothyroidism?",
+    "answers": [
+      {
+        "option": "Basal metabolic rate",
+        "bool": false
+      },
+      {
+        "option": "Cholesterol",
+        "bool": true
+      },
+      {
+        "option": "Temperature",
+        "bool": false
+      },
+      {
+        "option": "Blood flow to skin",
+        "bool": false
+      },
+      {
+        "option": "Sweating",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Pheochromocytoma is a tumor of which cell type?",
+    "answers": [
+      {
+        "option": "Neural crest cells",
+        "bool": false
+      },
+      {
+        "option": "Chromaffin cells",
+        "bool": true
+      },
+      {
+        "option": "Parafollicular C cells",
+        "bool": false
+      },
+      {
+        "option": "Islets of Langerhans",
+        "bool": false
+      },
+      {
+        "option": "Delta cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is confirmatory for pheochromocytoma?",
+    "answers": [
+      {
+        "option": "High serum calcium levels",
+        "bool": false
+      },
+      {
+        "option": "Increased T4 levels",
+        "bool": false
+      },
+      {
+        "option": "Increased vanillylmandelic acid (VMA) and homovanillic acid (HVA) levels",
+        "bool": true
+      },
+      {
+        "option": "Charcot-leyden crystals",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following test should be performed for pheochromocytoma?",
+    "answers": [
+      {
+        "option": "Serum urea",
+        "bool": false
+      },
+      {
+        "option": "Test for catecholamines",
+        "bool": true
+      },
+      {
+        "option": "Buccal smear test",
+        "bool": false
+      },
+      {
+        "option": "Serum creatinine",
+        "bool": false
+      },
+      {
+        "option": "Barr body test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Decreased tissue response to the parathyroid hormone is seen in which of the following condition?",
+    "answers": [
+      {
+        "option": "Congenital absence of parathyroid gland",
+        "bool": false
+      },
+      {
+        "option": "Primary hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Secondary hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Pseudohypoparathyroidism",
+        "bool": true
+      },
+      {
+        "option": "Acquired hypoparathyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What happens to osmolality and serum sodium levels, respectively, in diabetes insipidus?",
+    "answers": [
+      {
+        "option": "Increase, decrease",
+        "bool": false
+      },
+      {
+        "option": "Both are unaffected",
+        "bool": false
+      },
+      {
+        "option": "Decrease, increase",
+        "bool": false
+      },
+      {
+        "option": "Decrease, decrease",
+        "bool": false
+      },
+      {
+        "option": "Increase, increase",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "An excess of growth hormone in childhood leads to what pathology?",
+    "answers": [
+      {
+        "option": "Retinal detachment",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly",
+        "bool": false
+      },
+      {
+        "option": "Gigantism",
+        "bool": true
+      },
+      {
+        "option": "Cushing disease",
+        "bool": false
+      },
+      {
+        "option": "Myxedema coma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is nephrocalcinosis?",
+    "answers": [
+      {
+        "option": "Lipid deposits in renal structure",
+        "bool": false
+      },
+      {
+        "option": "Calcification of renal structures",
+        "bool": true
+      },
+      {
+        "option": "Calcification of myocardium",
+        "bool": false
+      },
+      {
+        "option": "Calcification of lower respiratory tract",
+        "bool": false
+      },
+      {
+        "option": "Lyonisation of DNA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In which of the following conditions thyroid-stimulating hormone (TSH) is not responsive to thyroid-releasing hormone (TRH)?",
+    "answers": [
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Primary hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Tertiary hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Secondary hypothyroidism",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Pheochromocytoma is a neoplasm that secretes which of the following?",
+    "answers": [
+      {
+        "option": "Adrenaline",
+        "bool": true
+      },
+      {
+        "option": "Aldosterone",
+        "bool": false
+      },
+      {
+        "option": "All of them",
+        "bool": false
+      },
+      {
+        "option": "Cortisol",
+        "bool": false
+      },
+      {
+        "option": "Sex hormones",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Deficiency of which of the following hormone causes the life-threatening conditions?",
+    "answers": [
+      {
+        "option": "Adrenaline",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone",
+        "bool": false
+      },
+      {
+        "option": "Cortisol",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "The most common site for neural crest tumor in children is:",
+    "answers": [
+      {
+        "option": "Liver",
+        "bool": false
+      },
+      {
+        "option": "Adrenal gland",
+        "bool": true
+      },
+      {
+        "option": "Pancreas",
+        "bool": false
+      },
+      {
+        "option": "Spinal cord",
+        "bool": false
+      },
+      {
+        "option": "Kidney",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is seen in Addison's disease?",
+    "answers": [
+      {
+        "option": "Decrease in both aldosterone and cortisol",
+        "bool": true
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Increase in cortisol",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Decrease in cortisol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is affected by the pituitary tumors to cause an increase in cortisol?",
+    "answers": [
+      {
+        "option": "Lactotrophs",
+        "bool": false
+      },
+      {
+        "option": "Thyrotrophs",
+        "bool": false
+      },
+      {
+        "option": "Somatotrophs",
+        "bool": false
+      },
+      {
+        "option": "Corticotrophs",
+        "bool": true
+      },
+      {
+        "option": "Gonadotrophs",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not associated with hyperparathyroidism?",
+    "answers": [
+      {
+        "option": "Calcium present in the urine",
+        "bool": false
+      },
+      {
+        "option": "Tetany",
+        "bool": true
+      },
+      {
+        "option": "Hypophosphatemia",
+        "bool": false
+      },
+      {
+        "option": "Osteitis fibrosa cystica",
+        "bool": false
+      },
+      {
+        "option": "Hypercalcemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Trousseau's sign is characterized by:",
+    "answers": [
+      {
+        "option": "Bronchospasm",
+        "bool": false
+      },
+      {
+        "option": "Contraction of facial muscles",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Carpopedal spasm",
+        "bool": true
+      },
+      {
+        "option": "Narrowing of pupil",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Chovestek sign is characterized by:",
+    "answers": [
+      {
+        "option": "Twitching of facial muscles",
+        "bool": true
+      },
+      {
+        "option": "Increased reflexes",
+        "bool": false
+      },
+      {
+        "option": "Extension of the arm",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Carpopedal spasm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following causes lead to muscle weakness in Conn syndrome?",
+    "answers": [
+      {
+        "option": "Hypernatremia",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Hypokalemia",
+        "bool": true
+      },
+      {
+        "option": "Hypercalcemia",
+        "bool": false
+      },
+      {
+        "option": "Neuropathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A patient presents with swelling in his right leg and edema. He is diagnosed with Hashimoto thyroiditis. Which of the following is true for the reason behind fluid accumulation in his leg?",
+    "answers": [
+      {
+        "option": "Abscess",
+        "bool": false
+      },
+      {
+        "option": "Hyperglycemia",
+        "bool": false
+      },
+      {
+        "option": "Hives",
+        "bool": false
+      },
+      {
+        "option": "Increase in acetic acid",
+        "bool": false
+      },
+      {
+        "option": "Increase in hyaluronic acid",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In diabetes mellitus gangrene of the lower extremity is caused by which of the following?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Macrovascular disease",
+        "bool": true
+      },
+      {
+        "option": "Microvascular disease",
+        "bool": false
+      },
+      {
+        "option": "Trauma",
+        "bool": false
+      },
+      {
+        "option": "Skin disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A middle-aged man presents to the outpatient department with mild hypothermia. A physical examination reveals goiter, sparse hair, ptosis, and non-pitting edema. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Cretinism",
+        "bool": false
+      },
+      {
+        "option": "Myxedema",
+        "bool": true
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A diabetes mellitus patient wants to drink insulin instead of using the injection to avoid pain. Which of the following would be true as an after effect?",
+    "answers": [
+      {
+        "option": "Uremia",
+        "bool": false
+      },
+      {
+        "option": "Nausea",
+        "bool": false
+      },
+      {
+        "option": "Diarrhea",
+        "bool": false
+      },
+      {
+        "option": "Persistent hyperglycemia",
+        "bool": true
+      },
+      {
+        "option": "Transient Ischemic attack",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the ocular change in hypoparathyroidism?",
+    "answers": [
+      {
+        "option": "Myopia",
+        "bool": false
+      },
+      {
+        "option": "Dryness",
+        "bool": false
+      },
+      {
+        "option": "Vision loss",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Cataract",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following leads to hypercalcemia?",
+    "answers": [
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hypovitaminosis",
+        "bool": false
+      },
+      {
+        "option": "Hypervitaminosis D",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common etiology of hypothyroidism?",
+    "answers": [
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Radioactive thyroid scan",
+        "bool": false
+      },
+      {
+        "option": "Anti-TSH receptor antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti-thyroglobulin antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti-thyroid peroxidase antibodies",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common cause of Cushing's syndrome?",
+    "answers": [
+      {
+        "option": "Glucocorticoid therapy",
+        "bool": true
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": false
+      },
+      {
+        "option": "Iatrogenic cause",
+        "bool": false
+      },
+      {
+        "option": "Adrenal cortex adenoma",
+        "bool": false
+      },
+      {
+        "option": "Adrenal carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Gigantism is due to hypersecretion of which of the following cells?",
+    "answers": [
+      {
+        "option": "Corticotrophs",
+        "bool": false
+      },
+      {
+        "option": "Lactotrophs",
+        "bool": false
+      },
+      {
+        "option": "Gonadotrophs",
+        "bool": false
+      },
+      {
+        "option": "Somatotrophs",
+        "bool": true
+      },
+      {
+        "option": "Thyrotrophs",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "An 18-year-old female presents with weight gain, thinning of hair, low pulse and blood pressure, cold intolerance, clammy skin that is cold, constipation, and difficulty to concentrate. What would be the most probable diagnosis?",
+    "answers": [
+      {
+        "option": "Hypothyroidism",
+        "bool": true
+      },
+      {
+        "option": "Hypoparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following diseases affects both mineralocorticoid and glucocorticoid secretion?",
+    "answers": [
+      {
+        "option": "Addison disease",
+        "bool": true
+      },
+      {
+        "option": "Conn syndrome",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": false
+      },
+      {
+        "option": "Waterhouse-Friderichsen syndrome",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Parathyroid adenoma is most commonly associated with which of the following?",
+    "answers": [
+      {
+        "option": "Hypoparathyriodism",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "MEN-1",
+        "bool": true
+      },
+      {
+        "option": "Secondary hyperparathyriodism",
+        "bool": false
+      },
+      {
+        "option": "MEN-2",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A newborn was diagnosed with multiple congenital anomalies and was having seizures right after it was born with a glucose level of 19 mg/dl. What would be the disease the mother is suffering from to cause these defects in the child?",
+    "answers": [
+      {
+        "option": "Diabetes of the young",
+        "bool": false
+      },
+      {
+        "option": "Pancreatic endocrine tumor",
+        "bool": false
+      },
+      {
+        "option": "Gestational diabetes",
+        "bool": true
+      },
+      {
+        "option": "Diabetes mellitus type 2",
+        "bool": false
+      },
+      {
+        "option": "Adrenal carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A lady was taking oral glucocorticoids as per her doctor's recommendation. After that, she went for surgery due to a hip fracture. Which of the following would be a cause of bone fracture?",
+    "answers": [
+      {
+        "option": "Osteoarthritis",
+        "bool": false
+      },
+      {
+        "option": "Resorption of calcium from bone",
+        "bool": true
+      },
+      {
+        "option": "Osteochondroma",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Decreased bone formation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most appropriate investigation for long-term monitoring of glucose levels?",
+    "answers": [
+      {
+        "option": "Oral glucose tolerance",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "HBA1c",
+        "bool": true
+      },
+      {
+        "option": "Random blood glucose",
+        "bool": false
+      },
+      {
+        "option": "Fasting blood glucose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A man presents with enlarged hands and is diagnosed with acromegaly. Which of the following was used to confirm the diagnosis?",
+    "answers": [
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "GH levels",
+        "bool": false
+      },
+      {
+        "option": "IGF-1 level",
+        "bool": false
+      },
+      {
+        "option": "Oral glucose test",
+        "bool": true
+      },
+      {
+        "option": "ACTH levels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is an indication for vasopressin?",
+    "answers": [
+      {
+        "option": "Diabetes mellitus",
+        "bool": false
+      },
+      {
+        "option": "Diabetes insipidus",
+        "bool": true
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Adrenal carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is one of the major problems in diabetes mellitus?",
+    "answers": [
+      {
+        "option": "Decreased ketogenesis",
+        "bool": false
+      },
+      {
+        "option": "Decreased lipolysis",
+        "bool": false
+      },
+      {
+        "option": "Increased gluconeogenesis",
+        "bool": true
+      },
+      {
+        "option": "Increased lipogenesis",
+        "bool": false
+      },
+      {
+        "option": "Decreased gluconeogenesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most common cause of congenital hypothyroidism?",
+    "answers": [
+      {
+        "option": "Obesity",
+        "bool": false
+      },
+      {
+        "option": "Failure of thyroid gland to develop",
+        "bool": false
+      },
+      {
+        "option": "Hereditary",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": true
+      },
+      {
+        "option": "Lack of iodine intake in childhood",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Best diagnostic test for Cushing syndrome:",
+    "answers": [
+      {
+        "option": "Dexamethasone suppression",
+        "bool": false
+      },
+      {
+        "option": "24-hour urine collection for analysis of free cortisol",
+        "bool": true
+      },
+      {
+        "option": "Serum cortisol levels",
+        "bool": false
+      },
+      {
+        "option": "Blood glucose levels",
+        "bool": false
+      },
+      {
+        "option": "ACTH levels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A woman comes to the outpatient department with the complaint of restlessness for 3 months. She also has painless swellings in her neck. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Thyroid neoplasia",
+        "bool": false
+      },
+      {
+        "option": "Iodine deficiency",
+        "bool": false
+      },
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Subacute thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Subacute lymphocytic thyroiditis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is wrong regarding Sheehan syndrome?",
+    "answers": [
+      {
+        "option": "It is associated with antepartum hemorrhage",
+        "bool": true
+      },
+      {
+        "option": "It is a result of ischemic necrosis of pituitary",
+        "bool": false
+      },
+      {
+        "option": "During pregnancy anterior pituitary enlarges to twice its size",
+        "bool": false
+      },
+      {
+        "option": "It is associated with infarction of the anterior lobe",
+        "bool": false
+      },
+      {
+        "option": "It is associated with postpartum hemorrhage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hypopituitarism can result from hemorrhage into a pituitary adenoma. What is this condition known as?",
+    "answers": [
+      {
+        "option": "Pituitary apoplexy",
+        "bool": true
+      },
+      {
+        "option": "Sheehan syndrome",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Empty sella syndrome",
+        "bool": false
+      },
+      {
+        "option": "Craniopharyngioma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 30-year-old woman suffering from diabetes presents to the outpatient department with lightheadedness and bone pain. Her serum calcitonin and calcium levels are low and phosphate levels are high. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Anaplastic carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Follicuar thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Papillary thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Medullary thyroid carcinoma",
+        "bool": true
+      },
+      {
+        "option": "Parathyroid carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 56-year-old man presents to the outpatient department with pain in his phalanges. He is found to have high levels of parathyroid hormone and hypercalcemia. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Vitamin D overload",
+        "bool": false
+      },
+      {
+        "option": "Osteoporosis",
+        "bool": false
+      },
+      {
+        "option": "Oteitis fibrosa cystica",
+        "bool": true
+      },
+      {
+        "option": "Scurvy",
+        "bool": false
+      },
+      {
+        "option": "Pagets disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following symptoms is associated with hypothyroidism?",
+    "answers": [
+      {
+        "option": "Tachycardia",
+        "bool": false
+      },
+      {
+        "option": "Tachypnea",
+        "bool": false
+      },
+      {
+        "option": "Hyperthermia",
+        "bool": false
+      },
+      {
+        "option": "Profuse sweating",
+        "bool": false
+      },
+      {
+        "option": "Drowsiness",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is responsible for hyperpigmentation in Addisons disease?",
+    "answers": [
+      {
+        "option": "Aldosterone",
+        "bool": false
+      },
+      {
+        "option": "Cortisol",
+        "bool": false
+      },
+      {
+        "option": "Adrenocorticotropic hormone (ACTH)",
+        "bool": true
+      },
+      {
+        "option": "Corticotropin-releasing hormone (CRH)",
+        "bool": false
+      },
+      {
+        "option": "Angiotensin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following cells is destroyed in type 1 diabetes mellitus?",
+    "answers": [
+      {
+        "option": "Alpha cells",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Pancreatic polypeptide cells (PP cells)",
+        "bool": false
+      },
+      {
+        "option": "Delta cells",
+        "bool": false
+      },
+      {
+        "option": "Beta cells",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "H\u00fcrthle cells are present in which of the following?",
+    "answers": [
+      {
+        "option": "Graves disease",
+        "bool": false
+      },
+      {
+        "option": "De Quervain thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Postpartum thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto thyroiditis",
+        "bool": true
+      },
+      {
+        "option": "Subacute lymphocytic thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is an autoimmune disorder resulting in hyperthyroidism?",
+    "answers": [
+      {
+        "option": "Graves disease",
+        "bool": true
+      },
+      {
+        "option": "Subacute lymphocytic thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "De Quervain thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Postpartum thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following will result from a lesion at the optic chiasma?",
+    "answers": [
+      {
+        "option": "Heteronymous bitemporal hemianopia",
+        "bool": true
+      },
+      {
+        "option": "Unilateral hemianopsia",
+        "bool": false
+      },
+      {
+        "option": "Homonymous hemianopsia",
+        "bool": false
+      },
+      {
+        "option": "Complete loss of vision",
+        "bool": false
+      },
+      {
+        "option": "Homonymous quadrantanopia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Testosterone is produced under the control of which of the following hormones?",
+    "answers": [
+      {
+        "option": "Follicle stimulating hormone",
+        "bool": false
+      },
+      {
+        "option": "Luteinizing hormone",
+        "bool": true
+      },
+      {
+        "option": "Adrenocorticotropic hormone",
+        "bool": false
+      },
+      {
+        "option": "Human chorionic gonadotrophin",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A patient was diagnosed with Addison's disease. Which of the following would explain the symptom of orthostatic hypotension in this patient?",
+    "answers": [
+      {
+        "option": "Hyperaldosteronism",
+        "bool": false
+      },
+      {
+        "option": "Hypoandrogenism",
+        "bool": false
+      },
+      {
+        "option": "Hypoaldosteronism",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Hypercortisolism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the active circulating thyroid hormone?",
+    "answers": [
+      {
+        "option": "T4",
+        "bool": false
+      },
+      {
+        "option": "Transthyretin",
+        "bool": false
+      },
+      {
+        "option": "Thyroglubin",
+        "bool": false
+      },
+      {
+        "option": "Thyroid stimulating hormone",
+        "bool": false
+      },
+      {
+        "option": "T3",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Prolactinoma is a tumor of which of the following?",
+    "answers": [
+      {
+        "option": "Gonadotropes",
+        "bool": false
+      },
+      {
+        "option": "Breast",
+        "bool": false
+      },
+      {
+        "option": "Mammotropes",
+        "bool": true
+      },
+      {
+        "option": "Hypothalamus",
+        "bool": false
+      },
+      {
+        "option": "Somatotropes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is not a microvascular complication of diabetes?",
+    "answers": [
+      {
+        "option": "Retinopathy",
+        "bool": false
+      },
+      {
+        "option": "Stroke",
+        "bool": true
+      },
+      {
+        "option": "Nephropathy",
+        "bool": false
+      },
+      {
+        "option": "Cataracts",
+        "bool": false
+      },
+      {
+        "option": "Neuropathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is released from the bone marrow in excess amounts in erythroblastosis fetalis?",
+    "answers": [
+      {
+        "option": "Red blood cells",
+        "bool": false
+      },
+      {
+        "option": "Blast cells",
+        "bool": true
+      },
+      {
+        "option": "Lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Macrophages",
+        "bool": false
+      },
+      {
+        "option": "Megakaryocytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 50-year-old male patient came into the outpatient department with yellowish pigmentation of the skin, itching, and was diagnosed as a case of obstructive jaundice. What is the most likely cause of this patient's jaundice?",
+    "answers": [
+      {
+        "option": "Obstruction of main pancreatic duct",
+        "bool": false
+      },
+      {
+        "option": "Perforated ulcer of the stomach",
+        "bool": false
+      },
+      {
+        "option": "Perforation of duodenum",
+        "bool": false
+      },
+      {
+        "option": "Cancer in the head of pancreas",
+        "bool": true
+      },
+      {
+        "option": "Cancer in the body of pancreas",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In the absence of ADH, the permeability of the distal tubules and collecting ducts to water is low, causing the kidneys to excrete large amounts of dilute urine. This condition is known as which of the following?",
+    "answers": [
+      {
+        "option": "Nephrogenic diabetes",
+        "bool": false
+      },
+      {
+        "option": "Central diabetes",
+        "bool": false
+      },
+      {
+        "option": "Diabetes insipidus",
+        "bool": true
+      },
+      {
+        "option": "Gestational diabetes",
+        "bool": false
+      },
+      {
+        "option": "Diabetes mellitus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Polyuria can occur in which of the following?",
+    "answers": [
+      {
+        "option": "Diarrhoea",
+        "bool": false
+      },
+      {
+        "option": "Diabetes mellitus",
+        "bool": true
+      },
+      {
+        "option": "Acute glomerulonephritis",
+        "bool": false
+      },
+      {
+        "option": "High fever",
+        "bool": false
+      },
+      {
+        "option": "Infections",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 55-year-old man complains of muscle weakness and dizziness for 4 months. His blood pressure is 190/105 mmHg. Laboratory results show hypernatremia, hypokalemia, elevated serum aldosterone, and low renin and angiotensin. Blood urea nitrogen (BUN) is 26 mg/dL, and creatinine is 1.3 mg/dL. The attending physician rules out Cushing syndrome. Which of the following is the most likley cause of hypertension in this patient?",
+    "answers": [
+      {
+        "option": "Chronic renal failure",
+        "bool": false
+      },
+      {
+        "option": "Pheochromocytoma",
+        "bool": false
+      },
+      {
+        "option": "Adrenogenital syndrome",
+        "bool": false
+      },
+      {
+        "option": "Conn syndrome",
+        "bool": true
+      },
+      {
+        "option": "Chronic adrenal failure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 16-year-old is brought to the emergency department with diabetic ketoacidosis. Upon checking blood glucose levels, he is diagnosed with type 1 diabetes. Insulin is administered and advised for the future as well. What is the cause of his condition?",
+    "answers": [
+      {
+        "option": "Decreased ketogenesis",
+        "bool": false
+      },
+      {
+        "option": "Reduced gluconeogenesis",
+        "bool": false
+      },
+      {
+        "option": "Reduced lipolysis",
+        "bool": false
+      },
+      {
+        "option": "Increased ketogenesis",
+        "bool": true
+      },
+      {
+        "option": "Reduced proteolysis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 61-year-old diabetic comes into the emergency room. His laboratory results shows a random blood sugar of 890 mg/dL and serum osmolarity of 460 mOsm. The patient is dehydrated and confused. What is this condition known as?",
+    "answers": [
+      {
+        "option": "Diabetic neuropathy",
+        "bool": false
+      },
+      {
+        "option": "Diabetic nephropathy",
+        "bool": false
+      },
+      {
+        "option": "Renal tubular acidosis",
+        "bool": false
+      },
+      {
+        "option": "Diabetic ketoacidosis",
+        "bool": false
+      },
+      {
+        "option": "Hyperosmolar hyperglycemic nonketotic syndrome",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 55-year-old housewife presents to the clinic with complaints of feeling tired and partaking in heavy daytime sleepiness. She also complains of breathlessness and feeling cold all the time. Her face is puffy with dry, coarse skin. She has a dull expression on her face and her tongue protrudes from her mouth. Further examination shows midline neck swelling and edema of her legs. Which laboratory investigation will be the most useful in diagnosing her condition?",
+    "answers": [
+      {
+        "option": "CT scan",
+        "bool": false
+      },
+      {
+        "option": "Serum TSH levels",
+        "bool": true
+      },
+      {
+        "option": "Radio iodine uptake scan",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound scan of her neck swelling",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Hypothyroidism is caused by structural or functional derangement that interferes with thyroid hormone production. Which of the following statements regarding hypothyroidism is correct?",
+    "answers": [
+      {
+        "option": "Hashimoto thyroiditis is an important cause in the developed world",
+        "bool": true
+      },
+      {
+        "option": "Throughout the world, hypothyroidism is associated with zinc deficiency",
+        "bool": false
+      },
+      {
+        "option": "Most common cause in iodine deficient areas of Pakistan is Grave's diesease",
+        "bool": false
+      },
+      {
+        "option": "Thyroid opthalmopathy with proptosis is a common feature",
+        "bool": false
+      },
+      {
+        "option": "In infants, it results in myxoedema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Physical examination of a neonate shows a markedly virilized and hypertrophic clitoris with partial fusion of the labioscrotal folds in a female having 46, XX karyotype. Laboratory studies will most likely reveal a deficiency of which of the following?",
+    "answers": [
+      {
+        "option": "Progesterone",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Corticotropin",
+        "bool": false
+      },
+      {
+        "option": "21-hydroxylase",
+        "bool": true
+      },
+      {
+        "option": "Androstenedione",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Autopsy of an 8-week-old infant reveals massive bilateral adrenal enlargement, who died after developing severe dehydration and hypotension. Hypovolemic shock in this infant was most likely caused by inadequate synthesis of which of the following hormones?",
+    "answers": [
+      {
+        "option": "Atrial natriuretic factor",
+        "bool": false
+      },
+      {
+        "option": "Renin",
+        "bool": false
+      },
+      {
+        "option": "Angiotensin",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone",
+        "bool": true
+      },
+      {
+        "option": "Antidiuretic hormone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 35-year-old female comes to the clinic with symptoms of hypothyroidism. The physician is concerned about thyroid auto-antibodies. Which antibody is most commonly observed in Hashimoto thyroiditis?",
+    "answers": [
+      {
+        "option": "Anti-follicular antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti-peroxidase antibodies",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Anti-nuclear antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti-cytoplasmic antibodies",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A child presents with very tall height and large viscera and is diagnosed with gigantism. Increased activity of which cells of the anterior pituitary are responsible for this condition?",
+    "answers": [
+      {
+        "option": "Corticotrophs",
+        "bool": false
+      },
+      {
+        "option": "Mammotrophs",
+        "bool": false
+      },
+      {
+        "option": "Gonadotrophs",
+        "bool": false
+      },
+      {
+        "option": "Thyrotrophs",
+        "bool": false
+      },
+      {
+        "option": "Somatotrophs",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following are seen with lactotroph adenoma?",
+    "answers": [
+      {
+        "option": "Galactorrhea, amenorrhea, increased libido",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Galactorrhea, polymenorrhea, increased libido",
+        "bool": false
+      },
+      {
+        "option": "Galactorrhea, amenorrhea, infertility",
+        "bool": true
+      },
+      {
+        "option": "Galactorrhea, increased libido, infertility",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common cause of hyperthyroidism or thyrotoxicosis?",
+    "answers": [
+      {
+        "option": "Subacute lymphocytic thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Granulomatous thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Graves disease",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person is diagnosed with hypothyroidism and goiter. Her laboratory tests most likely show which of the following?",
+    "answers": [
+      {
+        "option": "Decreased TSH and decreased T3, T4",
+        "bool": false
+      },
+      {
+        "option": "Increased TSH and increased T3, T4",
+        "bool": false
+      },
+      {
+        "option": "Decreased TSH and increased T3, T4",
+        "bool": false
+      },
+      {
+        "option": "Increased TSH and decreased T3, T4",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A young woman comes into the emergency room experiencing vertigo, nausea, bradycardia, failure to lactate, and loss of genital and axillary hair. She has given birth one month before and stayed in the hospital for 1 week postpartum. What is the most probable diagnosis?",
+    "answers": [
+      {
+        "option": "Addison disease",
+        "bool": false
+      },
+      {
+        "option": "MEN syndrome",
+        "bool": false
+      },
+      {
+        "option": "Sheehan syndrome",
+        "bool": true
+      },
+      {
+        "option": "Graves disease",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "In thyrotoxicosis, laboratory tests will most likely show which of the following?",
+    "answers": [
+      {
+        "option": "Increased T3, T4, and decreased TSH",
+        "bool": false
+      },
+      {
+        "option": "Increased T3 and T4",
+        "bool": false
+      },
+      {
+        "option": "Increased T3, T4, TSH (thyroid-stimulating hormone), and TRH (thyroid-releasing hormone)",
+        "bool": false
+      },
+      {
+        "option": "Increased TSH",
+        "bool": false
+      },
+      {
+        "option": "Increased T3, T4, and decreased TSH, TRH",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person comes to the clinic with polydipsia and polyuria with blood glucose levels of 84 mg/dL. Deficiency of which hormone is responsible for this condition?",
+    "answers": [
+      {
+        "option": "Insulin",
+        "bool": false
+      },
+      {
+        "option": "Angiotensin II",
+        "bool": false
+      },
+      {
+        "option": "Glucagon",
+        "bool": false
+      },
+      {
+        "option": "Antidiuretic hormone",
+        "bool": true
+      },
+      {
+        "option": "Aldosterone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A person has diabetes mellitus type-2. The dysfunction of which of the following cells is responsible for this condition?",
+    "answers": [
+      {
+        "option": "Delta cells",
+        "bool": false
+      },
+      {
+        "option": "Pancreatic polypeptide cells",
+        "bool": false
+      },
+      {
+        "option": "Beta cells",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Alpha cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 30-year-old woman comes into the clinic with a history of irritability, loose stools, and weight loss. The doctor suspects an autoimmune condition and suggests antibody tests. Antibodies against which of the following will be found?",
+    "answers": [
+      {
+        "option": "T4-R",
+        "bool": false
+      },
+      {
+        "option": "TRH-R",
+        "bool": false
+      },
+      {
+        "option": "T3-R",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "TSH-R",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following is the most common cause of endogenous Cushing syndrome?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Cushing disease",
+        "bool": true
+      },
+      {
+        "option": "Adrenal adenoma",
+        "bool": false
+      },
+      {
+        "option": "Adrenal carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Small cell carcinoma of lung",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "The autoimmune destruction of beta cells results in which of the following diseases?",
+    "answers": [
+      {
+        "option": "Diabetes mellitus type-1",
+        "bool": true
+      },
+      {
+        "option": "Cushing disease",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Diabetes mellitus type-2",
+        "bool": false
+      },
+      {
+        "option": "Diabetes-insipidus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "The differentiation between ACTH (adrenocorticotropic hormone)-dependent and ACTH-independent Cushing syndrome is made by administering high doses of which of the following synthetic glucocorticoids?",
+    "answers": [
+      {
+        "option": "Methylprednisolone",
+        "bool": false
+      },
+      {
+        "option": "Dexamethasone",
+        "bool": true
+      },
+      {
+        "option": "Corticosterone",
+        "bool": false
+      },
+      {
+        "option": "Prednisolone",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 65-year-old woman comes into the outpatient department suffering from polyuria and polydipsia. She looks dehydrated and her skin has lost some turgor. Lab tests show glucosuria +4. What is the most important pathogenesis of this disease?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "HLA-DR4/ HLA-DR3",
+        "bool": false
+      },
+      {
+        "option": "Peripheral resistance",
+        "bool": true
+      },
+      {
+        "option": "Insulitis",
+        "bool": false
+      },
+      {
+        "option": "Glucokinase gene mutation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the most important factor in the development of type-1 diabetes?",
+    "answers": [
+      {
+        "option": "Environment",
+        "bool": false
+      },
+      {
+        "option": "Genes",
+        "bool": true
+      },
+      {
+        "option": "Exercise",
+        "bool": false
+      },
+      {
+        "option": "Obesity",
+        "bool": false
+      },
+      {
+        "option": "Physical activity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 49-year-old female experienced multiple attacks of abdominal pain last year. Three times she had passed stones in the urine during these episodes of pain. Now she is experiencing pain in her right middle finger for one month. On physical examination, her finger is tender. Laboratory reports show calcium 13.7 mg/ dL, phosphate 1.9 mg/ dL, and Creatinine 1.1mg/ dL, albumin 4.8 mg/ dL. Which of the following bone lesions is she most likely to have?",
+    "answers": [
+      {
+        "option": "Osteoma",
+        "bool": false
+      },
+      {
+        "option": "Osteochondroma",
+        "bool": false
+      },
+      {
+        "option": "Osteomyelitis",
+        "bool": false
+      },
+      {
+        "option": "Osteoid",
+        "bool": false
+      },
+      {
+        "option": "Osteitis fibrosa cystica",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 54-year-old, married woman para-2 comes to the clinic with the complaint of weight gain and lethargy for the past 3 months. She had her last menstrual period 6 years back. Her blood pressure is 150/90 mmHg, her pulse is 65/min, and is regular bilaterally. Her body mass index (BMI) falls in the obese range. Her eyes are puffy, she complains of breathlessness, and cold intolerance, her skin is coarse and her abdomen has white striations present. What is the best diagnostic test for this woman?",
+    "answers": [
+      {
+        "option": "Serum cortisol",
+        "bool": false
+      },
+      {
+        "option": "Oral glucose tolerance test and TSH",
+        "bool": false
+      },
+      {
+        "option": "Oral glucose tolerance test",
+        "bool": false
+      },
+      {
+        "option": "Serum TSH level",
+        "bool": true
+      },
+      {
+        "option": "Serum cortisol and TSH",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 57-year-old man is found comatose. On physical examination, he has decreased skin turgor. Laboratory studies show a blood glucose of 780 mg/ dL. Urinalysis reveals ketosis and proteinuria along with 4+ glycosuria. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Ingestion of large quantity of sugar",
+        "bool": false
+      },
+      {
+        "option": "Type-II diabetes mellitus",
+        "bool": false
+      },
+      {
+        "option": "Neuroendocrine tumor secreting glucagon",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Type-I diabetes mellitus",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "After undergoing total thyroidectomy for follicular carcinoma of the thyroid a 50-year-old man develops a tingling sensation and neuromuscular instability post-operatively. Which of the following laboratory test should be carried out on an urgent basis to determine the further proceedings of the therapy?",
+    "answers": [
+      {
+        "option": "Thyroid stimulating hormone",
+        "bool": false
+      },
+      {
+        "option": "Serum calcium",
+        "bool": false
+      },
+      {
+        "option": "Serotonin",
+        "bool": false
+      },
+      {
+        "option": "Iodine",
+        "bool": false
+      },
+      {
+        "option": "Parathormone",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A clinical study is performed involving subjects who developed Addison's disease. They were recorded to have laboratory studies with hyponatremia, hyperkalemia, hypoglycemia, and decreased plasma cortisol. They became hypotensive. In some subjects, this disease had an acute onset in less than 2 days. Which of the following conditions is most likely to produce this acute course?",
+    "answers": [
+      {
+        "option": "Blunt force abdominal trauma",
+        "bool": false
+      },
+      {
+        "option": "Reactive systemic amyloidosis",
+        "bool": false
+      },
+      {
+        "option": "Disseminated Mycobacterium tuberculosis infection",
+        "bool": false
+      },
+      {
+        "option": "Waterhouse-Friedrichsen syndrome",
+        "bool": true
+      },
+      {
+        "option": "Metastatic small cell anaplastic carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 30-year-old woman presents to the clinic with palpitations, weight loss, and excessive sweating for almost 5-6 months. She cannot concentrate on carrying out her daily activities especially looking after her children. Recently, she also developed pain in both eyes and her friend told her that one of her eyes has become more prominent than the other. What is the most likely cause of her condition?",
+    "answers": [
+      {
+        "option": "Generalized anxiety disorder",
+        "bool": false
+      },
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Grave\u2019s disease",
+        "bool": true
+      },
+      {
+        "option": "Toxic nodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto\u2019s thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 30-year-old female patient, obese, nondiabetic, presented with significant weight gain, easy fatiguability, and lethargy. On examination, she looked pale, obese, and slightly confused. Her blood pressure is 170/90 mmHg, and her pulse rate is 52 beats/min. She was unable to stand from a sitting position without support and her deep tendon reflexes were diminished. With the given scenario, what is the probable diagnosis?",
+    "answers": [
+      {
+        "option": "Obstructive sleep apnea",
+        "bool": false
+      },
+      {
+        "option": "Obesity",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": true
+      },
+      {
+        "option": "Polycystic ovarian disease",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the name of the sweet odor breath that is often associated with uncontrolled diabetes?",
+    "answers": [
+      {
+        "option": "Methane breath",
+        "bool": false
+      },
+      {
+        "option": "Ammonia breath",
+        "bool": false
+      },
+      {
+        "option": "Acetone breath",
+        "bool": true
+      },
+      {
+        "option": "Halitosis",
+        "bool": false
+      },
+      {
+        "option": "Garlic breath",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 50-year-old lady presents to the emergency department with an enlarged thyroid, protruded eyes, severe palpitations, sweating, and complaints of fatigue. What is the diagnosis?",
+    "answers": [
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Graves disease",
+        "bool": true
+      },
+      {
+        "option": "Endemic goiter",
+        "bool": false
+      },
+      {
+        "option": "Myxedema",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "What is the marked macrovascular complication of type 2 diabetes mellitus?",
+    "answers": [
+      {
+        "option": "Tunnel vision",
+        "bool": false
+      },
+      {
+        "option": "Diminishing vision",
+        "bool": false
+      },
+      {
+        "option": "Accelerated atherosclerosis",
+        "bool": true
+      },
+      {
+        "option": "Retinal vein occlusion",
+        "bool": false
+      },
+      {
+        "option": "Accelerated arthritis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 50-year-old diabetic man presents to the outpatient department. The medication prescribed to him will lower his HbA1c down to which value?",
+    "answers": [
+      {
+        "option": "> 5%",
+        "bool": false
+      },
+      {
+        "option": "> 10%",
+        "bool": false
+      },
+      {
+        "option": "> 7%",
+        "bool": false
+      },
+      {
+        "option": "> 6.5%",
+        "bool": true
+      },
+      {
+        "option": "> 6%",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "Which of the following may present in a female with hypothyroidism?",
+    "answers": [
+      {
+        "option": "Somnolence",
+        "bool": true
+      },
+      {
+        "option": "Heat intolerance",
+        "bool": false
+      },
+      {
+        "option": "Tachycardia",
+        "bool": false
+      },
+      {
+        "option": "Goiter",
+        "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old man comes into the outpatient department because of weight loss, increased appetite, and diplopia. On physical examination, his temperature is 37.7\u00b0 C, pulse is 106/min, respiration rate is 15/min, and blood pressure is 140/80 mmHg. A fine tremor is observed in his outstretched hand. He has bilateral proptosis. The serum laboratory findings include a serum TSH level of 0.1 pU/mL. A radioiodine scan indicates increased diffuse uptake throughout the thyroid, Which of the following best describes the microscopic appearance of the patient's thyroid gland?",
+    "answers": [
+      {
+        "option": "Destruction of follicles, lymphoid aggregates, and Hurthle cell metaplasia",
+        "bool": false
+      },
+      {
+        "option": "Enlarged thyroid follicles lined by flattened epithelial cells",
+        "bool": false
+      },
+      {
+        "option": "Papillary projections in thyroid follicles and lymphoid aggregates in the stroma",
+        "bool": true
+      },
+      {
+        "option": "Follicular destruction with inflammatory infiltrates containing giant cells",
+        "bool": false
+      },
+      {
+        "option": "Nodules with nests of cells separated by hyaline stroma that stains with Congo red",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 30-year-old man visits the hospital because he has had a headache, weakness, and a 5-kg weight gain over the last 4 months. On physical examination, his face is puffy. His temperature is 36.9\u00b0C, pulse is 79/min, and blood pressure is 160/75 mm Hg while lying down. He has cutaneous striae over the lower abdomen and ecchymoses scattered over the extremities. A radiograph of the spine shows a compressed fracture of T11. Laboratory findings show a fasting plasma glucose level of 200 mg/dL, the plasma cortisol level is 38 pg/dL at 8:00 am and 37 pg/dL at 6:00 pm. Which of the following conditions is most likely to be present in this patient?",
+    "answers": [
+      {
+        "option": "Small-cell carcinoma of the lung with bilateral hyperplasia of the adrenal cortex",
+        "bool": false
+      },
+      {
+        "option": "Corticotroph adenoma of the anterior pituitary with bilateral hyperplasia of the adrenal cortex",
+        "bool": true
+      },
+      {
+        "option": "Corticotroph adenoma of the anterior pituitary, medullary carcinoma of thyroid, and bilateral nodular hyperplasia of the adrenal cortex",
+        "bool": false
+      },
+      {
+        "option": "Adenoma of the right adrenal cortex with atrophy of the contralateral adrenal cortex",
+        "bool": false
+      },
+      {
+        "option": "Adenoma of the right adrenal cortex without atrophy of contralateral adrenal cortex",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 40-year-old man visits the physician due to weakness and easy fatiguability for 2 months. On physical examination, there are no remarkable findings. Laboratory studies show serum calcium of 11.5 mg/dl, inorganic phosphorus of 2.4 mg/dl, and parathyroid hormone of 54 pg/ml, which is near the top of the reference range. Radionuclear bone scan fails to show any uptake. What is the most likely cause of these findings?",
+    "answers": [
+      {
+        "option": "Hypervitaminosis D",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Chronic renal failure",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid adenoma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 35-year-old woman presents with complaints of feeling of fullness in her neck but has no other complaints. The enlargement has been gradual and painless for more than 1 year. Physical examination confirms diffuse enlargement of the thyroid gland without any apparent masses. Laboratory studies of thyroid function show a normal free T4 level and a slightly increased TSH level. What is the most likely cause of these findings?",
+    "answers": [
+      {
+        "option": "Diffuse nontoxic goiter",
+        "bool": true
+      },
+      {
+        "option": "Toxic multinodular goiter",
+        "bool": false
+      },
+      {
+        "option": "Papillary carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Subacute granulomatous thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto's thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 23-year-old, previously healthy woman died suddenly after complaining of a mild sore throat the previous day. At autopsy, her adrenal glands are enlarged, and there are extensive bilateral cortical hemorrhages. Which of the following organisms best accounts for these findings?",
+    "answers": [
+      {
+        "option": "Neisseria meningitidis",
+        "bool": true
+      },
+      {
+        "option": "Histoplasma capsulatum",
+        "bool": false
+      },
+      {
+        "option": "Cytomegalovirus",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Mycobacterium tuberculosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 32-year-old woman with systemic lupus erythematosus has been treated with corticosteroid therapy for several years, because of recurrent lupus nephritis. While on vacation, she undergoes an emergency appendectomy for acute appendicitis. On postoperative day 2, she becomes somnolent and develops severe nausea and vomiting. She then becomes hypotensive. Blood cultures are negative, and laboratory studies now show Na+ of 128 mmol/L, K+ of 4.9 mmol/L, Cl- of 89 mmol/L, CO2 of 19 mmol/L, glucose of 52 mg/dL, and creatinine of 1.3 mg/dL. Which of the following morphologic findings in the adrenal glands is most likely to be present in this patient?",
+    "answers": [
+      {
+        "option": "Solitary 1-cm adenoma without atrophy of the contralateral adrenal cortex",
+        "bool": false
+      },
+      {
+        "option": "Bilateral cortical nodular hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Bilateral hemorrhagic necrosis",
+        "bool": false
+      },
+      {
+        "option": "Bilateral caseating granulomas",
+        "bool": false
+      },
+      {
+        "option": "Bilateral cortical atrophy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 42-year-old man sees his physician because he has had polyuria and polydipsia for the last 4 months. His medical history shows that he fell off a ladder and hit his head just before the onset of these problems. On physical examination, there are no specific findings. Laboratory findings include serum Na+, 155 mmol/L; K+, 3.9 mmol/L; Cl-, 111 mmol/L; C02,27 mmol/L; glucose 84 mg/dL; creatinine, 1 mg/dL; and osmolality, 350 mOsm/mL. The specific gravity of urine is 1.002. This patient is most likely to have a deficiency of which of the following hormones?",
+    "answers": [
+      {
+        "option": "Melatonin",
+        "bool": false
+      },
+      {
+        "option": "Corticotrophin",
+        "bool": false
+      },
+      {
+        "option": "Oxytocin",
+        "bool": false
+      },
+      {
+        "option": "Antidiuretic hormone",
+        "bool": true
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 25-year-old woman has noted breast secretions for the last 1 month. She is not breastfeeding and has never been pregnant. She has not menstruated for the past 5 months. Physical examination yields no abnormal findings. MRI of the brain shows a 0.7-cm mass in the adenohypophysis. Which of the following additional complications is most likely to be present in this patient?",
+    "answers": [
+      {
+        "option": "Hyperthyroidism",
+        "bool": false
+      },
+      {
+        "option": "Cushing's disease",
+        "bool": false
+      },
+      {
+        "option": "Syndrome of inappropriate antidiuretic hormone secretion",
+        "bool": false
+      },
+      {
+        "option": "Acromegaly",
+        "bool": false
+      },
+      {
+        "option": "Infertility",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 23-year-old woman has a routine health status examination. Her body mass index is 22. Laboratory studies show fasting plasma glucose is 120 mg/dL. Urinalysis shows mild glucosuria, but no ketonuria or proteinuria. She has no detectable insulin autoantibodies. Her father was similarly affected at age 20. She is most likely to have a mutation in a gene encoding for which of the following?",
+    "answers": [
+      {
+        "option": "GLUT4",
+        "bool": false
+      },
+      {
+        "option": "Glucagon",
+        "bool": false
+      },
+      {
+        "option": "Insulin",
+        "bool": false
+      },
+      {
+        "option": "MHC DR",
+        "bool": false
+      },
+      {
+        "option": "Glucokinase",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 51-year-old man has noted increasing weakness and weight gain over the past 5 months. He has experienced low back pain for the past week. On physical examination, vital signs include a temperature of 37.3\u00b0C, pulse of 80/min, respirations of 15/min, and blood pressure of 155/95 mm Hg. He has bilateral breast enlargement, testicular atrophy, and a prominent fat pad in the posterior neck and back. His serum ACTH level is low. A radiograph of the spine shows decreased bone density with a compression fracture at T9, Which of the following findings is most likely to be present in this patient?",
+    "answers": [
+      {
+        "option": "Pulmonary 6-cm right hilar mass on chest radiograph",
+        "bool": false
+      },
+      {
+        "option": "Sella turcica enlargement with erosion on head CT scan",
+        "bool": false
+      },
+      {
+        "option": "Decreased radionuclide uptake in a thyroid gland nodule",
+        "bool": false
+      },
+      {
+        "option": "Left adrenal 10-cm solid mass with abdominal CT scan",
+        "bool": true
+      },
+      {
+        "option": "Retroperitoneal 5-cm mass at the aortic bifurcation on pelvic MRI scan",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A research study wants to check thyroid activity in a selected population. Which test will be the most sensitive for that?",
+    "answers": [
+      {
+        "option": "TRH",
+        "bool": false
+      },
+      {
+        "option": "TSH",
+        "bool": true
+      },
+      {
+        "option": "Bound T4",
+        "bool": false
+      },
+      {
+        "option": "Bound T3",
+        "bool": false
+      },
+      {
+        "option": "Thyroid scan",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A child born to a mother who is suffering from iodine deficiency is likely to be born with which of the following condition?",
+    "answers": [
+      {
+        "option": "Goiter",
+        "bool": false
+      },
+      {
+        "option": "Thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Cryptorchidism",
+        "bool": false
+      },
+      {
+        "option": "Cretinism",
+        "bool": true
+      },
+      {
+        "option": "Hypogonadism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A diabetic patient\u2019s scan showed renal nodules that are PAS-positive, along with tubular atrophy and interstitial fibrosis. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Nodular glomerulosclerosis",
+        "bool": true
+      },
+      {
+        "option": "Focal segmental glomerulosclerosis",
+        "bool": false
+      },
+      {
+        "option": "Contrast nephropathy",
+        "bool": false
+      },
+      {
+        "option": "IgA nephropathy",
+        "bool": false
+      },
+      {
+        "option": "Amyloidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A 60-year-old man with an adrenal cortex tumor came to the ER with high blood pressure, an abnormal ECG, and hypokalemia. An excess of which hormone would cause this condition?",
+    "answers": [
+      {
+        "option": "Cortisol",
+        "bool": false
+      },
+      {
+        "option": "Aldosterone",
+        "bool": true
+      },
+      {
+        "option": "ACTH",
+        "bool": false
+      },
+      {
+        "option": "Renin",
+        "bool": false
+      },
+      {
+        "option": "Epinephrine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "info": "2nd-year/endocrinology-1/pathology",
+    "question": "A woman has muscle weakness, softening of bones, and increased frequency of fractures. She has low calcium, phosphate, and alkaline phosphatase levels. Which of the following is the most probable diagnosis?",
+    "answers": [
+      {
+        "option": "Osteoporosis",
+        "bool": false
+      },
+      {
+        "option": "Osteomalacia",
+        "bool": true
+      },
+      {
+        "option": "Primary hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Rickets",
+        "bool": false
+      },
+      {
+        "option": "Pagets disease",
+        "bool": false
+      }
+    ]
+  }
+]

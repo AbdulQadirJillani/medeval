@@ -1,0 +1,461 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "What is the preferred treatment of hyperammonemia?",
+    "answers": [
+      {
+        "option": "Limit protein in diet",
+        "bool": true
+      },
+      {
+        "option": "Increase protein in diet",
+        "bool": false
+      },
+      {
+        "option": "Give antiemetics",
+        "bool": false
+      },
+      {
+        "option": "Give antivirals",
+        "bool": false
+      },
+      {
+        "option": "Give antidiarrheals",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "What is the term used in regards to the patient who is not adhering to their treatment?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Discordance",
+        "bool": false
+      },
+      {
+        "option": "Concordance",
+        "bool": false
+      },
+      {
+        "option": "Non-compliance",
+        "bool": true
+      },
+      {
+        "option": "Compliance",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A 20-year-old female arrives in the emergency room with barbiturates poisoning. Nasogastric (NG) tube is intubated immediately. What is the most appropriate application of NG intubation in this patient?",
+    "answers": [
+      {
+        "option": "Decompression of gastrointestinal tract",
+        "bool": false
+      },
+      {
+        "option": "Prevention of aspiration",
+        "bool": false
+      },
+      {
+        "option": "Administration of oral feeding",
+        "bool": false
+      },
+      {
+        "option": "Upper gastrointestinal hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Administration of charcoal as antidote",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A boy presented to the outpatient department with the complaint of severe diarrhea. On examination, peristaltic waves were heard after every three seconds. How are these gut sounds classified?",
+    "answers": [
+      {
+        "option": "Hyperactive",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Polarised",
+        "bool": false
+      },
+      {
+        "option": "Absent",
+        "bool": false
+      },
+      {
+        "option": "Hypoactive",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "Why is a liver biopsy done in non-alcoholic fatty liver disease (NAFLD)?",
+    "answers": [
+      {
+        "option": "To find the onset of NAFLD",
+        "bool": false
+      },
+      {
+        "option": "To find the cause of NAFLD",
+        "bool": false
+      },
+      {
+        "option": "To confirm NAFLD",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "To find the spread of NAFLD to organelles",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "The levels of which of the following rise in obstructive jaundice?",
+    "answers": [
+      {
+        "option": "Aspartate aminotransferase (AST)",
+        "bool": false
+      },
+      {
+        "option": "Alkaline phosphatase (ALP)",
+        "bool": false
+      },
+      {
+        "option": "Alanine aminotransferase (ALT)",
+        "bool": false
+      },
+      {
+        "option": "5-nucleotidase",
+        "bool": false
+      },
+      {
+        "option": "Alkaline phosphatase (ALP) and gamma-glutamyl transferase (GGT)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "Which of these give quick relief from gastric irritation?",
+    "answers": [
+      {
+        "option": "Milk",
+        "bool": false
+      },
+      {
+        "option": "Aspirin",
+        "bool": false
+      },
+      {
+        "option": "Alcohol",
+        "bool": false
+      },
+      {
+        "option": "Antacids",
+        "bool": true
+      },
+      {
+        "option": "Lemon juice",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A 55-year-old female presents to the outpatient department with dysphagia on the consumption of solid food. She is suspected to have esophageal carcinoma. Which radiological investigation should she be evaluated with?",
+    "answers": [
+      {
+        "option": "Chest X-ray",
+        "bool": false
+      },
+      {
+        "option": "Barium meal",
+        "bool": false
+      },
+      {
+        "option": "Barium enema",
+        "bool": false
+      },
+      {
+        "option": "Barium follow through",
+        "bool": false
+      },
+      {
+        "option": "Barium swallow examination",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "Which of the following tests can be used to calculate the viral load in a patient who is suspected to have got hepatitis C?",
+    "answers": [
+      {
+        "option": "Electrophoresis",
+        "bool": false
+      },
+      {
+        "option": "Enzyme-linked immunoassay (ELISA)",
+        "bool": false
+      },
+      {
+        "option": "Immunoassay",
+        "bool": false
+      },
+      {
+        "option": "Polymerase chain reaction (PCR)",
+        "bool": true
+      },
+      {
+        "option": "High-performance liquid chromatography (HPLC)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "Which of the following is the most appropriate screening test for hepatitis C?",
+    "answers": [
+      {
+        "option": "Decreased RNA levels",
+        "bool": false
+      },
+      {
+        "option": "Increased RNA levels",
+        "bool": false
+      },
+      {
+        "option": "Hepatitis C virus (HCV) antibody test",
+        "bool": true
+      },
+      {
+        "option": "Hepatitis C virus (HCV) antigen test",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count (CBC)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A child comes to the emergency department with pain in the right iliac fossa. The doctor suspects appendicitis and orders sonography to rule it out. What would the preparative measure be?",
+    "answers": [
+      {
+        "option": "Laxative must be given",
+        "bool": false
+      },
+      {
+        "option": "Nothing given orally for 12 hours",
+        "bool": false
+      },
+      {
+        "option": "Nothing given orally for 8 hours",
+        "bool": false
+      },
+      {
+        "option": "No preparation, it is an emergency procedure",
+        "bool": true
+      },
+      {
+        "option": "Patient is asked to come for sonography the next day",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A patient with decompensated chronic liver disease (DCLD) presents with abdominal distension. He has moderate ascites. What is the finding on examination that can confirm this?",
+    "answers": [
+      {
+        "option": "Tender hepatomegaly",
+        "bool": false
+      },
+      {
+        "option": "Fluid thrill",
+        "bool": true
+      },
+      {
+        "option": "Hyperresonance",
+        "bool": false
+      },
+      {
+        "option": "Shifting dullness",
+        "bool": false
+      },
+      {
+        "option": "Dullness to percussion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "Ascites secondary to an increase in hydrostatic pressure solely occur in which of the following diseases?",
+    "answers": [
+      {
+        "option": "Nephrotic syndrome",
+        "bool": false
+      },
+      {
+        "option": "Neoplasm",
+        "bool": false
+      },
+      {
+        "option": "Infection",
+        "bool": false
+      },
+      {
+        "option": "Cirrhosis",
+        "bool": true
+      },
+      {
+        "option": "Constructive pericarditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "When is the primary prophylaxis in spontaneous bacterial peritonitis indicated?",
+    "answers": [
+      {
+        "option": "Ascites fluid protein > 1.5 g/l",
+        "bool": false
+      },
+      {
+        "option": "Serum Na > 130 mg/l",
+        "bool": false
+      },
+      {
+        "option": "Child pugh score > 9",
+        "bool": true
+      },
+      {
+        "option": "Bilirubin < 2.5 mg/dl",
+        "bool": false
+      },
+      {
+        "option": "Creatine > 1.2 mg/dl",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A 30-year-old female presents with polyuria and polydipsia. She has been living a good life with no loss in weight. Her urine dipstick test shows no glucose in urine. What other tests should be ordered next?",
+    "answers": [
+      {
+        "option": "Fasting blood glucose",
+        "bool": false
+      },
+      {
+        "option": "Serum osmolality",
+        "bool": false
+      },
+      {
+        "option": "Brain MRI",
+        "bool": false
+      },
+      {
+        "option": "Water deprivation test",
+        "bool": true
+      },
+      {
+        "option": "Urine electrolytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "A 40-year-old male presented to the medical outpatient department with upper abdominal discomfort. On examination, the liver is palpable. He is advised ultrasound abdomen which showed a fatty liver. Which of the following tests is considered a gold standard for diagnosis and assessment of the degree of inflammation and extent of fibrosis?",
+    "answers": [
+      {
+        "option": "Liver biopsy",
+        "bool": true
+      },
+      {
+        "option": "Ultrasound abdomen",
+        "bool": false
+      },
+      {
+        "option": "CT scan abdomen",
+        "bool": false
+      },
+      {
+        "option": "Liver function tests",
+        "bool": false
+      },
+      {
+        "option": "Fibroscan liver",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/gastrointestinal-1/medicine",
+    "question": "An eight-month pregnant woman presented with a history of yellow discoloration of skin, and sclera, along with fever, and vomiting. Her liver function tests are as follows: total bilirubin: 11.4 mg/dl, direct bilirubin: 9.7 mg/dl, ALT: 1236 u/l, AST: 900 u/l, ALP: 432 u/l, GGT: 155 u/l. What is the most likely diagnosis in this case?",
+    "answers": [
+      {
+        "option": "Acute cholecystitis",
+        "bool": false
+      },
+      {
+        "option": "Acute malaria",
+        "bool": false
+      },
+      {
+        "option": "Acute hepatitis",
+        "bool": true
+      },
+      {
+        "option": "Sepsis",
+        "bool": false
+      },
+      {
+        "option": "Hepatic abscess",
+        "bool": false
+      }
+    ]
+  }
+]

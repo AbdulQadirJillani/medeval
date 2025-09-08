@@ -1,0 +1,758 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "A 65-year-old male patient complains of urgency and frequency, especially at night. His urologist suspects benign prostate hyperplasia and places him on 5-alpha-reductase inhibitor therapy. What does this enzyme promote?",
+    "answers": [
+      {
+        "option": "Release of calcium from endoplasmic reticulum",
+        "bool": false
+      },
+      {
+        "option": "Conversion of cAMP to adenosine",
+        "bool": false
+      },
+      {
+        "option": "Prostaglandin synthesis",
+        "bool": false
+      },
+      {
+        "option": "Conversion of angiotensin I to angiotensin II",
+        "bool": false
+      },
+      {
+        "option": "Conversion of testosterone to dihydrotestosterone (DHT)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "The addition of progestins for 10-12 days each month in an estrogen replacement therapy in menopausal women is recommended. What is the purpose of this?",
+    "answers": [
+      {
+        "option": "Reduces the risk of endometrial carcinoma due to estrogen",
+        "bool": true
+      },
+      {
+        "option": "Enhances pharmacological properties of the estrogen",
+        "bool": false
+      },
+      {
+        "option": "Reduces the risk of myocardial infarction",
+        "bool": false
+      },
+      {
+        "option": "Enhances metabolic effects of estrogen therapy",
+        "bool": false
+      },
+      {
+        "option": "Reverses vulvar atrophy occurring in post menopausal women",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Increasing the intake of which of the following should be done in women who are trying to conceive?",
+    "answers": [
+      {
+        "option": "Lycopene",
+        "bool": false
+      },
+      {
+        "option": "Nickel",
+        "bool": false
+      },
+      {
+        "option": "Iron",
+        "bool": false
+      },
+      {
+        "option": "Folic acid",
+        "bool": true
+      },
+      {
+        "option": "Potassium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following is not the side effect of estrogen in postmenopausal hormone replacement therapy?",
+    "answers": [
+      {
+        "option": "Blood clotting",
+        "bool": false
+      },
+      {
+        "option": "Hot flashes",
+        "bool": true
+      },
+      {
+        "option": "Vaginal discharge",
+        "bool": false
+      },
+      {
+        "option": "Breast pain",
+        "bool": false
+      },
+      {
+        "option": "Uterine cancer",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "How do oral contraceptives prevent pregnancy?",
+    "answers": [
+      {
+        "option": "Prevent menstruation",
+        "bool": false
+      },
+      {
+        "option": "Reduce egg population",
+        "bool": false
+      },
+      {
+        "option": "Prevent implantation",
+        "bool": false
+      },
+      {
+        "option": "Prevent ovulation",
+        "bool": true
+      },
+      {
+        "option": "Inhibit fertilization",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following can be an adverse effect of oral contraceptives?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Venous thromboembolism",
+        "bool": true
+      },
+      {
+        "option": "Ovarian atrophy",
+        "bool": false
+      },
+      {
+        "option": "Endothelial dysfunction",
+        "bool": false
+      },
+      {
+        "option": "Polycystic ovary syndrome (PCOS)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following drugs when administered orally causes cervical ripening in a pregnant woman to help induce labor?",
+    "answers": [
+      {
+        "option": "Natural progesterone",
+        "bool": false
+      },
+      {
+        "option": "Temoxifen",
+        "bool": false
+      },
+      {
+        "option": "Raloxifene",
+        "bool": false
+      },
+      {
+        "option": "Levonorgestrel",
+        "bool": false
+      },
+      {
+        "option": "Mifepristone",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Finasteride is an inhibitor of which of the following?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "5 alpha-reductase",
+        "bool": true
+      },
+      {
+        "option": "11-hydroxylase",
+        "bool": false
+      },
+      {
+        "option": "17-Hydroxylase",
+        "bool": false
+      },
+      {
+        "option": "21-hydroxylase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following emergency contraceptive pills is prescribed to a couple who want to prevent pregnancy after unprotected sexual intercourse?",
+    "answers": [
+      {
+        "option": "Mifepristone",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Tadalafil",
+        "bool": false
+      },
+      {
+        "option": "Norgestrel",
+        "bool": false
+      },
+      {
+        "option": "Levonorgestrel",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following adverse effects is not associated with the use of oral contraceptives?",
+    "answers": [
+      {
+        "option": "Increased risk of migraines",
+        "bool": false
+      },
+      {
+        "option": "Breast tenderness",
+        "bool": false
+      },
+      {
+        "option": "Nausea",
+        "bool": false
+      },
+      {
+        "option": "Edema",
+        "bool": false
+      },
+      {
+        "option": "Increased risk of ovarian cancer",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Where along the course of the pudendal nerve is the anesthetic agent administered?",
+    "answers": [
+      {
+        "option": "Ischial spine",
+        "bool": true
+      },
+      {
+        "option": "Subpubic angle",
+        "bool": false
+      },
+      {
+        "option": "Tip of coccyx",
+        "bool": false
+      },
+      {
+        "option": "Sacrum",
+        "bool": false
+      },
+      {
+        "option": "Pubic symphysis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following best describes what finasteride is?",
+    "answers": [
+      {
+        "option": "An inhibitor of 5 alpha-reductase to prevent benign prostatic hyperplasia",
+        "bool": true
+      },
+      {
+        "option": "A synthetic steroid to inhibit the action of progesterone to induce abortion",
+        "bool": false
+      },
+      {
+        "option": "An anti-cancer chemotherapy drug",
+        "bool": false
+      },
+      {
+        "option": "A drug that competes with 17\u03b2-estradiol (E2) to block its promotional role in breast cancer",
+        "bool": false
+      },
+      {
+        "option": "A drug used to lower blood sugar levels by improving the way human body handles insulin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "In which of the following is endocrine therapy used as a palliative treatment?",
+    "answers": [
+      {
+        "option": "Cervical carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Uterine sarcoma",
+        "bool": false
+      },
+      {
+        "option": "Ovarian carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Metastatic breast cancer",
+        "bool": true
+      },
+      {
+        "option": "Endometrial carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following problems could be solved in postmenopausal women using exogenous estrogen?",
+    "answers": [
+      {
+        "option": "Lower back pain",
+        "bool": false
+      },
+      {
+        "option": "Menstrual cramps",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Migraine",
+        "bool": false
+      },
+      {
+        "option": "Osteoporosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following protects young women against heart disease?",
+    "answers": [
+      {
+        "option": "Oxytocin",
+        "bool": false
+      },
+      {
+        "option": "Estrogen",
+        "bool": true
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Human chorionic gonadotropin",
+        "bool": false
+      },
+      {
+        "option": "Progesterone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following is a synthetic estrogen used in oral contraceptives?",
+    "answers": [
+      {
+        "option": "Mestranol",
+        "bool": true
+      },
+      {
+        "option": "Estradiol",
+        "bool": false
+      },
+      {
+        "option": "Clomiphene",
+        "bool": false
+      },
+      {
+        "option": "Norethindrone",
+        "bool": false
+      },
+      {
+        "option": "Norgestrol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of the following is correct?",
+    "answers": [
+      {
+        "option": "Diethylstilbestrol increases fertility",
+        "bool": false
+      },
+      {
+        "option": "Tamoxifen is an estrogen antagonist",
+        "bool": true
+      },
+      {
+        "option": "Tamoxifen is used to treat infertility",
+        "bool": false
+      },
+      {
+        "option": "Estrogens are mainly excreted in the urine unchanged",
+        "bool": false
+      },
+      {
+        "option": "Dexamethasone has weak inflammatory properties",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of these statements is an odd one out for testosterone?",
+    "answers": [
+      {
+        "option": "It regulates male libido",
+        "bool": false
+      },
+      {
+        "option": "Dihydrotestosterone is more potent than testosterone",
+        "bool": false
+      },
+      {
+        "option": "It is converted to dihydrotestosterone by 5 alpha reductase",
+        "bool": false
+      },
+      {
+        "option": "It causes epiphyseal plate closure",
+        "bool": false
+      },
+      {
+        "option": "Anabolic synthetic steroids have a shorter half life",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of these statements is incorrect regarding mifepristone?",
+    "answers": [
+      {
+        "option": "It is typically used in combination with misoprostol",
+        "bool": false
+      },
+      {
+        "option": "It is used orally",
+        "bool": false
+      },
+      {
+        "option": "It is effective in early pregnancy",
+        "bool": false
+      },
+      {
+        "option": "It is an anti-abortion drug",
+        "bool": true
+      },
+      {
+        "option": "It is a progesterone antagonist",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of these is not an effect of estrogen replacement therapy in postmenopausal women?",
+    "answers": [
+      {
+        "option": "Increased risk of endometrial carcinoma if used alone",
+        "bool": false
+      },
+      {
+        "option": "Breast tenderness",
+        "bool": false
+      },
+      {
+        "option": "Hot flashes",
+        "bool": true
+      },
+      {
+        "option": "Reduced osteoporotic fractures",
+        "bool": false
+      },
+      {
+        "option": "Increased thromboembolic risk",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which of these is an estrogen oral contraceptive?",
+    "answers": [
+      {
+        "option": "Norgesterol",
+        "bool": false
+      },
+      {
+        "option": "Cimetidrol",
+        "bool": false
+      },
+      {
+        "option": "Mestranol",
+        "bool": true
+      },
+      {
+        "option": "Androstenedione",
+        "bool": false
+      },
+      {
+        "option": "Estradiol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Young athletes who abuse androgens should be made aware of the side effects of these drugs. Which one of the following is, however, not of concern?",
+    "answers": [
+      {
+        "option": "Increased muscle mass",
+        "bool": false
+      },
+      {
+        "option": "Decreased spermatogenesis",
+        "bool": false
+      },
+      {
+        "option": "Stunted growth",
+        "bool": false
+      },
+      {
+        "option": "Overly aggressive behavior",
+        "bool": false
+      },
+      {
+        "option": "Anemia due to bone marrow failure",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "A teenager seeks post-coital contraception. Which of the following preparations will be effective for this purpose?",
+    "answers": [
+      {
+        "option": "Norgestrel",
+        "bool": true
+      },
+      {
+        "option": "Diethylstilbestrol",
+        "bool": false
+      },
+      {
+        "option": "Clomiphene",
+        "bool": false
+      },
+      {
+        "option": "Ethinyl estradiol",
+        "bool": false
+      },
+      {
+        "option": "Mifepristone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Which synthetic estrogen is commonly used?",
+    "answers": [
+      {
+        "option": "Estradiol valerate",
+        "bool": false
+      },
+      {
+        "option": "Conjugated estrogens",
+        "bool": false
+      },
+      {
+        "option": "Mestranol",
+        "bool": true
+      },
+      {
+        "option": "Ethinyl estradiol",
+        "bool": false
+      },
+      {
+        "option": "Estriol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "Rifampicin inhibits which RNA enzyme?",
+    "answers": [
+      {
+        "option": "Reverse transcriptase",
+        "bool": false
+      },
+      {
+        "option": "Helicase",
+        "bool": false
+      },
+      {
+        "option": "DNA polymerase",
+        "bool": false
+      },
+      {
+        "option": "Primase",
+        "bool": false
+      },
+      {
+        "option": "RNA polymerase",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "A 50-year-old woman with a positive mammogram undergoes lumpectomy and a small carcinoma is removed. Biochemical analysis of the cancer reveals the presence of estrogen and progesterone receptors. After this procedure, which of the following drugs will she most likely be treated with?",
+    "answers": [
+      {
+        "option": "Tamoxifen",
+        "bool": true
+      },
+      {
+        "option": "Flutamide",
+        "bool": false
+      },
+      {
+        "option": "Leuprolide",
+        "bool": false
+      },
+      {
+        "option": "Danazol",
+        "bool": false
+      },
+      {
+        "option": "Mifepristone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "A young woman complains of abdominal pain during menstruation, and endometrial deposits on the pelvic peritoneum are detected. Which of the following is the most appropriate medical therapy for endometriosis?",
+    "answers": [
+      {
+        "option": "Danazol",
+        "bool": false
+      },
+      {
+        "option": "Medroxyprogesterone",
+        "bool": false
+      },
+      {
+        "option": "Leuprolide",
+        "bool": true
+      },
+      {
+        "option": "Mifepristone",
+        "bool": false
+      },
+      {
+        "option": "Ethinyl estradiol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "2nd-year/reproductive-1/pharmacology",
+    "question": "A 70-year-old woman is being treated with raloxifene for osteoporosis. What is a concern with this therapy?",
+    "answers": [
+      {
+        "option": "Hypercholesterolemia",
+        "bool": false
+      },
+      {
+        "option": "Venous thrombosis",
+        "bool": true
+      },
+      {
+        "option": "Endometrial cancer",
+        "bool": false
+      },
+      {
+        "option": "Bleeding",
+        "bool": false
+      },
+      {
+        "option": "Breast cancer",
+        "bool": false
+      }
+    ]
+  }
+]

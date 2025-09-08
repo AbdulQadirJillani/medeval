@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/cardiovascular-2/microbiology",
+    "question": "What congenital defect is rubella most commonly associated with?",
+    "answers": [
+      {
+        "option": "Patent ductus arteriosus",
+        "bool": true
+      },
+      {
+        "option": "Bicuspid aortic valve",
+        "bool": false
+      },
+      {
+        "option": "Teratology of Fallot",
+        "bool": false
+      },
+      {
+        "option": "Coarctation of aorta",
+        "bool": false
+      },
+      {
+        "option": "Atrial septal defect",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/cardiovascular-2/microbiology",
+    "question": "Which of the following is most likely to cause infectious endocarditis in an intravenous (IV) drug abuser?",
+    "answers": [
+      {
+        "option": "Streptococcus viridans",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus bovis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus epidermidis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus saprophyticus",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/cardiovascular-2/microbiology",
+    "question": "Which of these organisms is involved in rheumatic fever?",
+    "answers": [
+      {
+        "option": "Group B streptococci",
+        "bool": false
+      },
+      {
+        "option": "E coli",
+        "bool": false
+      },
+      {
+        "option": "Staph epidermidis",
+        "bool": false
+      },
+      {
+        "option": "Staph aureus",
+        "bool": false
+      },
+      {
+        "option": "Group A streptococci",
+        "bool": true
+      }
+    ]
+  }
+]
