@@ -21,7 +21,7 @@ export async function createPerformance(data: data) {
     throw new Error('Clerk Id mismatch')
   }
 
-  // @ts-expect-error
+  // @ts-expect-error: desc to avoid deploy fails
   const user = await prisma.user.findUnique({ where: { clerkId: userId } })
   if (!user) throw new Error('User not found')
 

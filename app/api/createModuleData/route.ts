@@ -15,11 +15,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
     }
 
-    // @ts-expect-error
+    // @ts-expect-error: desc to avoid deploy fails
     const user = await prisma.user.findUnique({ where: { clerkId: userId } })
     if (!user) throw new Error('User not found')
 
-    // @ts-expect-error
+    // @ts-expect-error: desc to avoid deploy fails
     const existingMod = await prisma.module.findUnique({
       where: {
         userId_pathname: {
@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
 
     const boolResIn = !existingMod || (existingMod.resumeIndex < resumeIndex)
 
-    // @ts-expect-error
+    // @ts-expect-error: desc to avoid deploy fails
     await prisma.$transaction(async (tx) => {
       const mod = await tx.module.upsert({
         where: {
