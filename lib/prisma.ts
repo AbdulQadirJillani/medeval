@@ -12,7 +12,7 @@ const connectionString = `${process.env.DATABASE_URL}`;
 const adapter = new PrismaNeon({ connectionString });
 
 function prismaClientInit() {
-    const client = new PrismaClient({ adapter });
+    const client = new PrismaClient();
     // Only extend with Accelerate in production
     return process.env.NODE_ENV === 'production'
         ? client.$extends(withAccelerate())
