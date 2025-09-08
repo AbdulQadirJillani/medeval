@@ -1,20 +1,20 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MedEval",
+  "name": "MedEval — Free Medical Assessment Hub",
   "icons": [
     {
-        "src": "/android-chrome-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-        "src": "/android-chrome-384x384.png",
-        "sizes": "384x384",
-        "type": "image/png"
+      "src": "/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
     }
-],
-  "start_url": ".",
+  ],
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#ffffff",
+  "theme_color": "#06b6d4",
   "background_color": "#ffffff"
 }
