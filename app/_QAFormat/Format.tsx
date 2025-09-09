@@ -10,8 +10,7 @@ import Options from "./Options"
 import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
-import { findModule_ClickedOptions, createPerformance, deleteModule } from "../actions/functions"
-import { useUser } from "@clerk/nextjs"
+// import { findModule_ClickedOptions, createPerformance, deleteModule } from "../actions/functions"
 import { useSwipeable } from "react-swipeable"
 
 type Props = {
@@ -27,8 +26,6 @@ type clicked = { questionIndex: number, optionIndex: number[] }[]
 
 
 function Format({ data }: { data: Props }) {
-  const { user } = useUser()
-  const userId = user?.id
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
   const [clickedOption, setClickedOption] = useState<clicked>([])
@@ -46,19 +43,19 @@ function Format({ data }: { data: Props }) {
       const storedModDataString = localStorage.getItem(`${pathname}-module`)
       if (storedModDataString) {
         const storedModDataObject = JSON.parse(storedModDataString)
-        if (userId == storedModDataObject.clerkId) {
-          storedModDataObject.score = score.current
-          if (index > storedModDataObject.resumeIndex) {
-            storedModDataObject.resumeIndex = index
-            resumeIndex.current = index
-          }
-          storedModDataObject.answers = clickedOption
-          localStorage.setItem(`${pathname}-module`, JSON.stringify(storedModDataObject))
+        // if (userId == storedModDataObject.clerkId) {
+        storedModDataObject.score = score.current
+        if (index > storedModDataObject.resumeIndex) {
+          storedModDataObject.resumeIndex = index
+          resumeIndex.current = index
         }
+        storedModDataObject.answers = clickedOption
+        localStorage.setItem(`${pathname}-module`, JSON.stringify(storedModDataObject))
+        // }
       }
       else {
         const stateModData = {
-          clerkId: userId,
+          // clerkId: userId,
           pathname: pathname,
           score: score.current,
           resumeIndex: resumeIndex.current,
@@ -70,31 +67,31 @@ function Format({ data }: { data: Props }) {
       }
     }, 300)
     return () => clearTimeout(handler)
-  }, [userId, pathname, score, index, totalQuestions, clickedOption])
+  }, [pathname, score, index, totalQuestions, clickedOption])
 
 
   //useEffect for saving module data to the DB
-  useEffect(() => {
-    const handleUnload = () => {
-      const storedModDataString = localStorage.getItem(`${pathname}-module`)
-      if (!storedModDataString) return
-      navigator.sendBeacon(
-        "/api/createModuleData",
-        new Blob([storedModDataString], { type: "application/json" })
-      )
-    }
-    const handleVisibilityChange = () => {
-      if (document.visibilityState === "hidden") {
-        handleUnload();
-      }
-    }
-    window.addEventListener("beforeunload", handleUnload)
-    document.addEventListener("visibilitychange", handleVisibilityChange)
-    return () => {
-      window.removeEventListener("beforeunload", handleUnload)
-      document.removeEventListener("visibilitychange", handleVisibilityChange)
-    }
-  }, [pathname])
+  // useEffect(() => {
+  //   const handleUnload = () => {
+  //     const storedModDataString = localStorage.getItem(`${pathname}-module`)
+  //     if (!storedModDataString) return
+  //     navigator.sendBeacon(
+  //       "/api/createModuleData",
+  //       new Blob([storedModDataString], { type: "application/json" })
+  //     )
+  //   }
+  //   const handleVisibilityChange = () => {
+  //     if (document.visibilityState === "hidden") {
+  //       handleUnload();
+  //     }
+  //   }
+  //   window.addEventListener("beforeunload", handleUnload)
+  //   document.addEventListener("visibilitychange", handleVisibilityChange)
+  //   return () => {
+  //     window.removeEventListener("beforeunload", handleUnload)
+  //     document.removeEventListener("visibilitychange", handleVisibilityChange)
+  //   }
+  // }, [pathname])
 
 
   //useEffect for saving resume index, score and clicked options from local storage to state and opening resume modal + looking up in DB and then saving to state and local storage if not in local storage
@@ -116,44 +113,44 @@ function Format({ data }: { data: Props }) {
         return
       }
     }
-    (async () => {
-      try {
-        const data = await findModule_ClickedOptions(pathname)
-        if (!data) {
-          return
-        }
-        const { mod, clickedOptions } = data
-        if (mod) {
-          resumeIndex.current = mod.resumeIndex
-          score.current = mod.score
-          setResumeModal(true)
-        }
-        if (clickedOptions) setClickedOption(clickedOptions)
+    // (async () => {
+    //   try {
+    //     const data = await findModule_ClickedOptions(pathname)
+    //     if (!data) {
+    //       return
+    //     }
+    //     const { mod, clickedOptions } = data
+    //     if (mod) {
+    //       resumeIndex.current = mod.resumeIndex
+    //       score.current = mod.score
+    //       setResumeModal(true)
+    //     }
+    //     if (clickedOptions) setClickedOption(clickedOptions)
 
-        const stateModData = {
-          clerkId: userId,
-          pathname: pathname,
-          score: mod.score,
-          resumeIndex: mod.resumeIndex,
-          totalQuestions: mod.totalQuestions,
-          startDateTime: new Date(mod.startDateTime),
-          answers: clickedOptions
-        }
-        localStorage.setItem(`${pathname}-module`, JSON.stringify(stateModData))
-      }
-      catch (err) {
-        console.error(err, 'Finding module data from DB failed!')
-      }
-    })()
-  }, [pathname, userId])
+    //     const stateModData = {
+    //       // clerkId: userId,
+    //       pathname: pathname,
+    //       score: mod.score,
+    //       resumeIndex: mod.resumeIndex,
+    //       totalQuestions: mod.totalQuestions,
+    //       startDateTime: new Date(mod.startDateTime),
+    //       answers: clickedOptions
+    //     }
+    //     localStorage.setItem(`${pathname}-module`, JSON.stringify(stateModData))
+    //   }
+    //   catch (err) {
+    //     console.error(err, 'Finding module data from DB failed!')
+    //   }
+    // })()
+  }, [pathname])
 
 
   //useEffect for saving and debouncing performance history to local storage and DB
   useEffect(() => {
     const handler = setTimeout(async () => {
-      if (!userId) return null
+      // if (!userId) return null
       const statePerformanceData = {
-        clerkId: userId,
+        // clerkId: userId,
         pathname: pathname,
         score: score.current,
         totalQuestions: totalQuestions,
@@ -161,24 +158,24 @@ function Format({ data }: { data: Props }) {
       }
       if (finishModal) {
         localStorage.setItem(`${pathname}-performance`, JSON.stringify(statePerformanceData))
-        await createPerformance(statePerformanceData)
+        // await createPerformance(statePerformanceData)
       }
     }, 500)
     return () => clearTimeout(handler)
-  }, [userId, finishModal, pathname, totalQuestions])
+  }, [finishModal, pathname, totalQuestions])
 
 
   //useEffect for deleting module data from local storage and DB on finish
   useEffect(() => {
     if (finishModal) {
-      (async () => {
-        try {
-          await deleteModule(pathname)
-        }
-        catch (err) {
-          console.error(err, 'Deleting module data from DB failed!')
-        }
-      })()
+      // (async () => {
+      //   try {
+      //     await deleteModule(pathname)
+      //   }
+      //   catch (err) {
+      //     console.error(err, 'Deleting module data from DB failed!')
+      //   }
+      // })()
       localStorage.removeItem(`${pathname}-module`)
     }
   }, [pathname, finishModal])
