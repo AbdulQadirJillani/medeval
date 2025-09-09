@@ -3,13 +3,15 @@ import prisma from '@/lib/prisma'
 import { auth } from '@clerk/nextjs/server'
 
 export async function POST(req: NextRequest) {
-  console.log('it fired')
+  console.log('createModuleData API called')
   try {
     const data = await req.json()
     const { clerkId, pathname, score, resumeIndex, totalQuestions, startDateTime, answers } = data
 
     const { userId } = await auth()
-    if (!userId) throw new Error('Not authenticated')
+    if (!userId) {
+      return NextResponse.json({ error: 'Not authenticated' }, { status: 401 })
+    }
 
     if (clerkId !== userId) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 })

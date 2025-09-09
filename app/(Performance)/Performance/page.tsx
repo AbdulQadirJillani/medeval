@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import Performance from "../Performance"
-import { findPerformance } from "@/app/actions/findPerformance"
+import { findPerformance } from "@/app/actions/functions"
 import { useUser } from "@clerk/nextjs"
 
 type Performance = {

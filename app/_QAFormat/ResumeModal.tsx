@@ -7,7 +7,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-import { deleteModule } from "../actions/deleteModule"
+import { deleteModule } from "../actions/functions"
 
 type clicked = { questionIndex: number, optionIndex: number[] }[]
 

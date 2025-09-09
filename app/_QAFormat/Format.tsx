@@ -10,10 +10,8 @@ import Options from "./Options"
 import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
-import { findModule_ClickedOptions } from "../actions/findModule_ClickedOptions"
+import { findModule_ClickedOptions, createPerformance, deleteModule } from "../actions/functions"
 import { useUser } from "@clerk/nextjs"
-import { createPerformance } from "../actions/createPerformance"
-import { deleteModule } from "../actions/deleteModule"
 import { useSwipeable } from "react-swipeable"
 
 type Props = {

@@ -1,32 +1,27 @@
-import 'dotenv/config';
 import { PrismaClient } from '@prisma/client';
 import { withAccelerate } from '@prisma/extension-accelerate';
-import { PrismaNeon } from '@prisma/adapter-neon';
-import { neonConfig } from '@neondatabase/serverless';
 
-import ws from 'ws';
-neonConfig.webSocketConstructor = ws;
+// Singleton pattern to prevent multiple instances
+const globalForPrisma = globalThis as unknown as {
+  prisma: PrismaClient | undefined;
+};
 
-// Neon connection
-const connectionString = `${process.env.DATABASE_URL}`;
-const adapter = new PrismaNeon({ connectionString });
+// Create a single Prisma instance with proper configuration
+export const prisma =
+  globalForPrisma.prisma ??
+  new PrismaClient({
+    // Add logging only in development to reduce overhead
+    log: process.env.NODE_ENV === 'development'
+      ? ['query', 'error', 'warn']
+      : ['error'],
+    // Optimize error formatting
+    errorFormat: 'minimal',
+  }).$extends(withAccelerate());
 
-function prismaClientInit() {
-    const client = new PrismaClient();
-    // Only extend with Accelerate in production
-    return process.env.NODE_ENV === 'production'
-        ? client.$extends(withAccelerate())
-        : client;
+// Prevent creating new instances in development
+if (process.env.NODE_ENV !== 'production') {
+  // @ts-expect-error: ignore it
+  globalForPrisma.prisma = prisma;
 }
-
-// To work in edge environments (Cloudflare Workers, Vercel Edge, etc.), enable querying over fetch
-// neonConfig.poolQueryViaFetch = true
-
-declare global {
-    var prisma: ReturnType<typeof prismaClientInit> | undefined;
-}
-
-const prisma = global.prisma || prismaClientInit();
-if (process.env.NODE_ENV === 'development') global.prisma = prisma;
 
 export default prisma;
