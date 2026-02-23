@@ -1,3 +1,5 @@
+"use client"
+
 import { subDays, isWithinInterval, endOfDay, startOfDay } from "date-fns";
 import { BarChart3, TrendingUp } from "lucide-react";
 import StatCard from "./StatCard";
@@ -32,18 +34,18 @@ function summarize(data: performance) {
 }
 
 export function filterLast7Days(data: performance, ref: Date = new Date()) {
-  const end = endOfDay(ref)                // today 23:59:59
-  const start = startOfDay(subDays(ref, 6)) // 7 days ago 00:00:00
+  const end = endOfDay(ref)
+  const start = startOfDay(subDays(ref, 6))
   return data.filter((item) =>
-    isWithinInterval(item.finishDateTime, { start, end })
+    isWithinInterval(new Date(item.finishDateTime), { start, end })  // ← wrap in new Date()
   )
 }
 
 function filterLast30Days(data: performance, ref: Date = new Date()) {
-  const end = endOfDay(ref)                   // today 23:59
-  const start = startOfDay(subDays(ref, 29))  // 30 days ago 00:00
+  const end = endOfDay(ref)
+  const start = startOfDay(subDays(ref, 29))
   return data.filter((item) =>
-    isWithinInterval(item.finishDateTime, { start, end })
+    isWithinInterval(new Date(item.finishDateTime), { start, end })  // ← wrap in new Date()
   )
 }
 

@@ -8,7 +8,6 @@ export default function Home() {
     "Access exams from all years and all modules",
     "Study with compiled papers or focus on individual modules",
     "Resume anytime, without losing progress",
-    "Sync seamlessly across devices",
     "Receive detailed performance insights after each attempt"
   ]
   const picsP = ["/homepage/slideshow/slide1.png", "/homepage/slideshow/slide2.png", "/homepage/slideshow/slide3.png", "/homepage/slideshow/slide4.png"]

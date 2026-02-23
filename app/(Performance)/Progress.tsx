@@ -32,11 +32,13 @@ const Progress = ({ percentage, className }: Props) => {
         />
       </g>
 
-      <linearGradient id="MyGradient">
+      <defs>
+        <linearGradient id="MyGradient">
           <stop offset="0%" stopColor="#1fadffcc" />
           <stop offset="50%" stopColor="#9838ffcc" />
           <stop offset="100%" stopColor="#ff0048cc" />
-      </linearGradient>
+        </linearGradient>
+      </defs>
 
       <text className="text-3xl fill-foreground"
         x="50%"

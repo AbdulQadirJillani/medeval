@@ -20,13 +20,11 @@ async function page({ params }: { params: Promise<Props> }) {
     const { QA } = await params
     const promisedData = await import(`../../../../Database/SystemReview/${QA}.jsx`)
     data = await promisedData.default
+    return <Format data={data} />
   }
   catch {
     redirect("/")
   }
-  return (
-    <Format data={data}/>
-  )
 }
 
 export default page

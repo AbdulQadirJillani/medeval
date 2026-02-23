@@ -7,7 +7,6 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-// import { deleteModule } from "../actions/functions"
 
 type clicked = { questionIndex: number, optionIndex: number[] }[]
 
@@ -30,7 +29,6 @@ const ResumeModal = ({ pathname, resumeModal, setResumeModal, resumeIndex, score
   const StartBegin = async () => {
     //For deleting module data from local storage and DB on StartBegin
     try {
-      // await deleteModule(pathname)
       localStorage.removeItem(`${pathname}-module`)
       resumeIndex.current = 0
       score.current = 0
