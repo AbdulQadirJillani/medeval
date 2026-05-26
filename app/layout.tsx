@@ -78,8 +78,13 @@ export const metadata: Metadata = {
 
 function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-theme='false'>
+    <html lang="en" suppressHydrationWarning>
       <body>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{if(localStorage.getItem('theme')==='true'){document.documentElement.classList.add('dark')}}catch(e){}})()`,
+          }}
+        />
         <NavBar />
         {children}
       </body>

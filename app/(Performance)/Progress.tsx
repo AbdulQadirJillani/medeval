@@ -1,3 +1,6 @@
+"use client"
+
+import { useId } from "react"
 import { cn } from "@/lib/utils";
 
 type Props = {
@@ -6,6 +9,7 @@ type Props = {
 }
 
 const Progress = ({ percentage, className }: Props) => {
+  const gradientId = useId()
   const radius = 90
   const circ = 2 * Math.PI * radius;
   const strokePct = ((100 - percentage) * circ) / 100
@@ -21,7 +25,7 @@ const Progress = ({ percentage, className }: Props) => {
           strokeDasharray={circ}
           strokeDashoffset={0}
         />
-        <circle className={strokePct !== circ ? "stroke-[url(#MyGradient)]" : ""}
+        <circle
           r={radius}
           cx={100}
           cy={100}
@@ -29,11 +33,12 @@ const Progress = ({ percentage, className }: Props) => {
           strokeWidth={"1rem"}
           strokeDasharray={circ}
           strokeDashoffset={strokePct}
+          stroke={strokePct !== circ ? `url(#${gradientId})` : undefined}
         />
       </g>
 
       <defs>
-        <linearGradient id="MyGradient">
+        <linearGradient id={gradientId}>
           <stop offset="0%" stopColor="#1fadffcc" />
           <stop offset="50%" stopColor="#9838ffcc" />
           <stop offset="100%" stopColor="#ff0048cc" />
