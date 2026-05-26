@@ -1,5 +1,10 @@
 import Format from "@/app/_QAFormat/Format"
 import { redirect } from "next/navigation"
+import { systems } from "../systems"
+
+export function generateStaticParams() {
+  return systems.map(QA => ({ QA }))
+}
 
 type Props = {
   QA: string

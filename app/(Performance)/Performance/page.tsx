@@ -1,19 +1,10 @@
 "use client"
 import { useEffect, useState } from "react"
 import Performance from "../Performance"
-
-type Performance = {
-  id?: string,
-  userId?: string,
-  clerkId?: string,
-  pathname: string,
-  score: number,
-  totalQuestions: number,
-  finishDateTime: Date
-}[]
+import { type PerformanceData } from "../types"
 
 function Page() {
-  const [performance, setPerformance] = useState<Performance>([])
+  const [performance, setPerformance] = useState<PerformanceData>([])
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
@@ -27,10 +18,18 @@ function Page() {
         const valueString = localStorage.getItem(key)
         if (valueString) {
           const value = JSON.parse(valueString)
-          perfItemsLS.push(value)
+          if (Array.isArray(value)) {
+            perfItemsLS.push(...value)
+          } else {
+            perfItemsLS.push(value)
+          }
         }
       }
     }
+
+    perfItemsLS.sort(
+      (a, b) => new Date(b.finishDateTime).getTime() - new Date(a.finishDateTime).getTime()
+    )
 
     if (perfItemsLS.length > 0) {
       setPerformance(perfItemsLS)

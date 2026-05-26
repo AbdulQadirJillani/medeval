@@ -1,5 +1,10 @@
 import { redirect } from "next/navigation"
 import Books from "../Books"
+import { subjects } from "../subjects"
+
+export function generateStaticParams() {
+  return subjects.map(subject => ({ subject }))
+}
 
 type Props = {
   subject: string

@@ -97,7 +97,11 @@ function Format({ data }: { data: Props }) {
         finishDateTime: new Date()
       }
       if (finishModal) {
-        localStorage.setItem(`${pathname}-performance`, JSON.stringify(statePerformanceData))
+        const key = `${pathname}-performance`
+        const existing = localStorage.getItem(key)
+        const prev = existing ? JSON.parse(existing) : []
+        const arr = Array.isArray(prev) ? prev : [prev]
+        localStorage.setItem(key, JSON.stringify([...arr, statePerformanceData]))
       }
     }, 500)
     return () => clearTimeout(handler)

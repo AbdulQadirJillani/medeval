@@ -10,18 +10,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts"
+import { type PerformanceEntry } from "./types"
 
-interface PerformanceItem {
-  id?: string
-  userId?: string
-  clerkId?: string
-  pathname: string
-  score: number
-  totalQuestions: number
-  finishDateTime: Date
-}
-
-// Helper function to format date as YYYY-MM-DD
 function formatDate(date: Date): string {
   const year = date.getFullYear()
   const month = String(date.getMonth() + 1).padStart(2, "0")
@@ -29,7 +19,7 @@ function formatDate(date: Date): string {
   return `${year}-${month}-${day}`
 }
 
-function accuracyTrend(data: PerformanceItem[]) {
+function accuracyTrend(data: PerformanceEntry[]) {
   const grouped: Record<string, { score: number; total: number }> = {}
 
   // Group by actual date instead of week start
@@ -87,7 +77,7 @@ const CustomTooltip: React.FC<TooltipProps> = ({
 
 // Chart component that accepts `data` as prop
 interface AccuracyTrendChartProps {
-  data: PerformanceItem[]
+  data: PerformanceEntry[]
 }
 
 const AccuracyTrendChart: React.FC<AccuracyTrendChartProps> = ({

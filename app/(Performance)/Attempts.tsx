@@ -1,16 +1,7 @@
 import Progress from "./Progress";
+import { type PerformanceData } from "./types";
 
-type performance = {
-  id?: string,
-  userId?: string,
-  clerkId?: string;
-  pathname: string;
-  score: number;
-  totalQuestions: number;
-  finishDateTime: Date
-}[]
-
-function Attempts({ data }: { data: performance }) {
+function Attempts({ data }: { data: PerformanceData }) {
   return (
     <div className="grid lg:grid-cols-2 gap-3">
       {

@@ -1,0 +1,9 @@
+export const systems = [
+  'blood-and-lymphoreticular-system', 'immune-system', 'gastrointestinal-system',
+  'musculoskeletal-system', 'nervous-system-and-special-senses', 'endocrine-system',
+  'respiratory-system', 'cardiovascular-system', 'renal-and-urinary-system',
+  'male-reproductive-system', 'female-reproductive-system-and-breast',
+  'pregnancy-childbirth-and-puerperium', 'skin-and-subcutaneous-tissue',
+  'multisystem-processes-and-disorders', 'human-development',
+  'behavioral-sciences', 'social-sciences'
+]
