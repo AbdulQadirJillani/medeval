@@ -30,34 +30,34 @@ export default function Carousel({ pics }: Pics) {
     onSelect(emblaApi);
   }, [emblaApi, onSelect]);
 
-  // Autoplay with pause on hover
+  // Autoplay with pause on hover, hidden tab, and reduced-motion preference
   React.useEffect(() => {
     if (!emblaApi) return;
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
 
     const play = () => {
       stop();
-      autoplayRef.current = setInterval(() => {
-        emblaApi.scrollNext();
-      }, 3500); // Slightly slower for smoother feel
+      autoplayRef.current = setInterval(() => emblaApi.scrollNext(), 3500);
     };
-
     const stop = () => {
       if (autoplayRef.current) {
         clearInterval(autoplayRef.current);
         autoplayRef.current = null;
       }
     };
+    const onVisibility = () => (document.hidden ? stop() : play());
 
     play();
-
     const node = emblaApi.containerNode();
     node.addEventListener("mouseenter", stop);
     node.addEventListener("mouseleave", play);
+    document.addEventListener("visibilitychange", onVisibility);
 
     return () => {
       stop();
       node.removeEventListener("mouseenter", stop);
       node.removeEventListener("mouseleave", play);
+      document.removeEventListener("visibilitychange", onVisibility);
     };
   }, [emblaApi]);
 
@@ -79,6 +79,7 @@ export default function Carousel({ pics }: Pics) {
                 height={675}
                 src={src}
                 alt={`Slide ${i + 1}`}
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                 loading="lazy"
               />

@@ -12,6 +12,13 @@ import {
 } from "recharts"
 import { type PerformanceEntry } from "./types"
 
+type TooltipPayload = { value: number | string }
+type CustomTooltipProps = {
+  active?: boolean
+  payload?: TooltipPayload[]
+  label?: string
+}
+
 function formatDate(date: Date): string {
   const year = date.getFullYear()
   const month = String(date.getMonth() + 1).padStart(2, "0")
@@ -36,22 +43,14 @@ function accuracyTrend(data: PerformanceEntry[]) {
   return Object.entries(grouped)
     .map(([date, vals]) => ({
       date,
-      accuracy: Math.round((vals.score / vals.total) * 100 * 10) / 10,
+      accuracy: Number(((vals.score / vals.total) * 100).toFixed(1)),
     }))
     .sort(
       (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
     )
 }
 
-// Custom tooltip component
-interface TooltipProps {
-  active?: boolean
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  payload?: any[]
-  label?: string
-}
-
-const CustomTooltip: React.FC<TooltipProps> = ({
+const CustomTooltip: React.FC<CustomTooltipProps> = ({
   active,
   payload,
   label,

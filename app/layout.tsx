@@ -1,9 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import NavBar from "./_NavBar/NavBar";
 import "./globals.css";
 
+export const viewport: Viewport = {
+  themeColor: "#00ACE6",
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   // Essentials
+  metadataBase: new URL("https://med-eval.vercel.app"),
   title: "MedEval",
   description: "MedEval is a free, student-built medical study hub. Access past papers, a growing book bank, and hospital maps. All 100% FREE. Study smarter, not harder.",
 

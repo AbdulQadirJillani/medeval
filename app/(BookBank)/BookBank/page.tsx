@@ -1,10 +1,8 @@
-import BookBank from "../BookBank"
+import LinkGrid from "@/app/_components/LinkGrid"
 import { subjects } from "./subjects"
 
 function page() {
-	return (
-		<BookBank subjects={subjects} />
-	)
+	return <LinkGrid items={subjects} basePath="/BookBank" />
 }
 
 export default page

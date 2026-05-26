@@ -1,4 +1,5 @@
 import Format from "@/app/_QAFormat/Format"
+import type { Quiz } from "@/app/_QAFormat/types"
 import { redirect } from "next/navigation"
 import { systems } from "../systems"
 
@@ -10,17 +11,8 @@ type Props = {
   QA: string
 }
 
-type Data = {
-  id: number,
-  info: string,
-  question: string,
-  difficulty: number,
-  hint: string,
-  answers: { option: string, explanation: string, bool: boolean }[]
-}[]
-
 async function page({ params }: { params: Promise<Props> }) {
-  let data: Data
+  let data: Quiz
   try {
     const { QA } = await params
     const promisedData = await import(`../../../../Database/SystemReview/${QA}.jsx`)

@@ -1,19 +1,18 @@
 import Format from "@/app/_QAFormat/Format"
+import type { Quiz } from "@/app/_QAFormat/types"
+import { allRoutes } from "@/app/(PastPapers)/pastPapers"
 import { redirect } from "next/navigation"
+
+export function generateStaticParams() {
+  return allRoutes()
+}
 
 type Props = {
   QA: string[]
 }
 
-type Data = {
-  id: number,
-  info: string,
-  question: string,
-  answers: { option: string, bool: boolean }[]
-}[]
-
 const page = async ({ params }: { params: Promise<Props> }) => {
-  let data: Data
+  let data: Quiz
   try {
     const { QA } = await params
     const [annual, module, year] = QA

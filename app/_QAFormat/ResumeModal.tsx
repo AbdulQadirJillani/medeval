@@ -50,12 +50,14 @@ const ResumeModal = ({ pathname, resumeModal, setResumeModal, resumeIndex, score
           <DialogTitle>Resume from where you left off?</DialogTitle>
           <DialogDescription>
             You left off at question number: {resumeIndex.current + 1}
+            <br />
+            Score so far: {score.current}/{resumeIndex.current + 1}
           </DialogDescription>
         </DialogHeader>
-        <Button className="bg-[#00ACE6] hover:bg-[#008fbf]" onClick={Resume}>
+        <Button variant="brand" onClick={Resume}>
           Resume
         </Button>
-        <Button className="bg-[#00ACE6] hover:bg-[#008fbf]" onClick={StartBegin}>
+        <Button variant="brand" onClick={StartBegin}>
           Start from beginning
         </Button>
       </DialogContent>

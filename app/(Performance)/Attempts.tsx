@@ -5,8 +5,8 @@ function Attempts({ data }: { data: PerformanceData }) {
   return (
     <div className="grid lg:grid-cols-2 gap-3">
       {
-        data.map(({ pathname, score, totalQuestions, finishDateTime }, n) => (
-          <div key={n} className="flex justify-between items-center gap-3 rounded-xl ring ring-accent px-6 md:px-8 py-4">
+        data.map(({ pathname, score, totalQuestions, finishDateTime }) => (
+          <div key={`${pathname}-${new Date(finishDateTime).getTime()}`} className="flex justify-between items-center gap-3 rounded-xl ring ring-accent px-6 md:px-8 py-4">
             <div className="flex flex-col gap-1">
               <p className="text-xs sm:text-sm text-muted-foreground">
                 {new Date(finishDateTime).toLocaleString("en-GB", {

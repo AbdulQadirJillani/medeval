@@ -1,16 +1,10 @@
 import PastPaper from "@/app/(PastPapers)/PastPaper"
+import { MODULE_ORDER, yearsFor } from "@/app/(PastPapers)/pastPapers"
+
+const ANNUAL = "1st-year"
 
 export default function page() {
-  const modules = ['foundation', 'blood', 'locomotor', 'respiratory', 'cardiovascular']
-  const years = {
-    foundation: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    blood: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    locomotor: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    respiratory: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    cardiovascular: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled']
-  }
-
-  return (
-    <PastPaper modules={modules} years={years} annual="1st-year" />
-  )
+  const modules = MODULE_ORDER[ANNUAL]
+  const years = Object.fromEntries(modules.map(m => [m, yearsFor(ANNUAL, m)]))
+  return <PastPaper modules={modules} years={years} annual={ANNUAL} />
 }

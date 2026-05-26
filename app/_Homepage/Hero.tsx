@@ -41,6 +41,7 @@ export default function Hero() {
             alt="Hero illustration"
             width={380}
             height={380}
+            sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, 384px"
             className="w-64 sm:w-80 md:w-96 h-auto"
             priority
           />

@@ -9,24 +9,20 @@ type props = {
 }
 
 function Toggle({ toggle, setToggle }: props) {
-  const def = useRef<boolean>(false)
+  const hydrated = useRef(false)
 
   useEffect(() => {
-    if (localStorage.getItem('theme') == 'true') setToggle(true)
-    else setToggle(false)
-  }, [])
+    setToggle(localStorage.getItem('theme') === 'true')
+    hydrated.current = true
+  }, [setToggle])
+
   useEffect(() => {
-    localStorage.setItem('theme', toggle.toString())
-    const documentElemClass = document.querySelector('html')?.classList
-    if (toggle) documentElemClass?.add('dark')
-    else documentElemClass?.remove('dark')
+    if (!hydrated.current) return
+    localStorage.setItem('theme', String(toggle))
+    document.documentElement.classList.toggle('dark', toggle)
   }, [toggle])
-  function change() {
-    setToggle((prev) => !prev)
-  }
-  return (
-    <Switch defaultChecked={def.current} checked={toggle} onCheckedChange={change} />
-  )
+
+  return <Switch checked={toggle} onCheckedChange={setToggle} />
 }
 
 export default Toggle

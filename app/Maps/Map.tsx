@@ -10,20 +10,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { routes, Routes } from './routes';
+import { routes } from './routes';
 
 interface HospitalMapProps {
-  // You can pass the SVG content as children or as a prop
   children?: React.ReactNode;
-  // Optional: initial route to display
-  initialRoute?: string;
-  // Optional: show controls
   showControls?: boolean;
 }
 
 const Map: React.FC<HospitalMapProps> = ({
   children,
-  initialRoute,
   showControls = true
 }) => {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -72,13 +67,6 @@ const Map: React.FC<HospitalMapProps> = ({
       panzoom.destroy();
     };
   }, []);
-
-  // Initialize with initial route if provided
-  useEffect(() => {
-    if (initialRoute && routes[initialRoute]) {
-      addRoute(initialRoute);
-    }
-  }, [initialRoute]);
 
   const focusOnPath = (pathElement: SVGPathElement, padding: number = 0.08) => {
     if (!pathElement || !svgRef.current || !panzoomRef.current) {
@@ -210,7 +198,7 @@ const Map: React.FC<HospitalMapProps> = ({
       {showControls && (
         <div className="absolute top-5 right-5 z-50 bg-background p-3 rounded-lg shadow-accent shadow-lg ring ring-accent">
           <div className="flex flex-col gap-2">
-            <Button onClick={resetView} size={'sm'} className='bg-[#00ACE6] hover:bg-[#008fbf]'>
+            <Button onClick={resetView} size={'sm'} variant="brand">
               Reset View
             </Button>
             <Select onValueChange={handleRouteChange} value={selectedRoute}>

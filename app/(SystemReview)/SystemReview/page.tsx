@@ -1,10 +1,8 @@
-import SystemReview from "../SystemReview"
+import LinkGrid from "@/app/_components/LinkGrid"
 import { systems } from "./systems"
 
 function page() {
-  return (
-    <SystemReview systems={systems} />
-  )
+  return <LinkGrid items={systems} basePath="/SystemReview" />
 }
 
 export default page

@@ -10,17 +10,17 @@ type Props = {
   subject: string
 }
 
-type subjects = {
+type Book = {
   title: string,
   authors: string,
   edition: string,
   tag: string,
   cover: string,
   fileID: string
-}[]
+}
 
 async function page({ params }: { params: Promise<Props> }) {
-  let data: subjects
+  let data: Book[]
   try {
     const { subject } = await params
     const promisedData = await import(`../../../../Database/BookBank/${subject}.json`)

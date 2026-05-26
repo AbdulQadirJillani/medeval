@@ -1,7 +1,7 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 import Header from "./Header"
 import Question from "./Question"
@@ -11,20 +11,13 @@ import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
-
-type Props = {
-  id: number,
-  info: string,
-  question: string,
-  difficulty?: number,
-  hint?: string,
-  answers: { option: string, explanation?: string, bool: boolean }[]
-}[]
+import type { Quiz } from "./types"
+import useQuizPersistence from "./useQuizPersistence"
 
 type clicked = { questionIndex: number, optionIndex: number[] }[]
 
 
-function Format({ data }: { data: Props }) {
+function Format({ data }: { data: Quiz }) {
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
   const [clickedOption, setClickedOption] = useState<clicked>([])
@@ -33,87 +26,22 @@ function Format({ data }: { data: Props }) {
   const [finishModal, setFinishModal] = useState<boolean>(false)
   const score = useRef<number>(0)
   const lock = useRef<boolean>(false)
-  const totalQuestions = useMemo((): number => data.length, [data])
+  const recorded = useRef<boolean>(false)
+  const totalQuestions = data.length
   const questionOrigin = data[index].info.replace(/-/g, ' ')
 
-  //useEffect for saving and debouncing module data to local storage
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      const storedModDataString = localStorage.getItem(`${pathname}-module`)
-      if (storedModDataString) {
-        const storedModDataObject = JSON.parse(storedModDataString)
-        storedModDataObject.score = score.current
-        if (index > storedModDataObject.resumeIndex) {
-          storedModDataObject.resumeIndex = index
-          resumeIndex.current = index
-        }
-        storedModDataObject.answers = clickedOption
-        localStorage.setItem(`${pathname}-module`, JSON.stringify(storedModDataObject))
-      }
-      else {
-        const stateModData = {
-          pathname: pathname,
-          score: score.current,
-          resumeIndex: resumeIndex.current,
-          totalQuestions: totalQuestions,
-          startDateTime: new Date(),
-          answers: clickedOption
-        }
-        localStorage.setItem(`${pathname}-module`, JSON.stringify(stateModData))
-      }
-    }, 300)
-    return () => clearTimeout(handler)
-  }, [pathname, score, index, totalQuestions, clickedOption])
-
-  //useEffect for saving resume index, score and clicked options from local storage to state and opening resume modal + looking up in DB and then saving to state and local storage if not in local storage
-  useEffect(() => {
-    const resetFlag = localStorage.getItem(`${pathname}-reset`)
-    if (resetFlag) {
-      localStorage.removeItem(`${pathname}-reset`)
-      //skip restoring
-      return
-    }
-    const storedModDataString = localStorage.getItem(`${pathname}-module`)
-    if (storedModDataString) {
-      const storedModDataObject = JSON.parse(storedModDataString)
-      if (storedModDataObject.resumeIndex > 0) {
-        resumeIndex.current = storedModDataObject.resumeIndex
-        score.current = storedModDataObject.score
-        setClickedOption(storedModDataObject.answers)
-        setResumeModal(true)
-        return
-      }
-    }
-  }, [pathname])
-
-
-  //useEffect for saving and debouncing performance history to local storage and DB
-  useEffect(() => {
-    const handler = setTimeout(async () => {
-      const statePerformanceData = {
-        pathname: pathname,
-        score: score.current,
-        totalQuestions: totalQuestions,
-        finishDateTime: new Date()
-      }
-      if (finishModal) {
-        const key = `${pathname}-performance`
-        const existing = localStorage.getItem(key)
-        const prev = existing ? JSON.parse(existing) : []
-        const arr = Array.isArray(prev) ? prev : [prev]
-        localStorage.setItem(key, JSON.stringify([...arr, statePerformanceData]))
-      }
-    }, 500)
-    return () => clearTimeout(handler)
-  }, [finishModal, pathname, totalQuestions])
-
-
-  //useEffect for deleting module data from local storage and DB on finish
-  useEffect(() => {
-    if (finishModal) {
-      localStorage.removeItem(`${pathname}-module`)
-    }
-  }, [pathname, finishModal])
+  useQuizPersistence({
+    pathname,
+    totalQuestions,
+    index,
+    clickedOption,
+    score,
+    resumeIndex,
+    recorded,
+    finishModal,
+    setClickedOption,
+    setResumeModal,
+  })
 
   // Back, Next, Finish functions
   const Back = () => {
@@ -137,6 +65,17 @@ function Format({ data }: { data: Props }) {
 
   const Finish = () => {
     setFinishModal(true)
+  }
+
+  const Retake = () => {
+    localStorage.setItem(`${pathname}-reset`, "true")
+    score.current = 0
+    resumeIndex.current = 0
+    lock.current = false
+    recorded.current = false
+    setIndex(0)
+    setClickedOption([])
+    setFinishModal(false)
   }
 
   // useEffect for keyboard navigation
@@ -179,7 +118,7 @@ function Format({ data }: { data: Props }) {
 
       <ResumeModal pathname={pathname} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
 
-      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} />
+      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} />
     </div>
   )
 }

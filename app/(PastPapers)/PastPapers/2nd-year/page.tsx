@@ -1,17 +1,10 @@
 import PastPaper from "@/app/(PastPapers)/PastPaper"
+import { MODULE_ORDER, yearsFor } from "@/app/(PastPapers)/pastPapers"
+
+const ANNUAL = "2nd-year"
 
 export default function page() {
-  const modules = ['neuroscience', 'head-and-neck', 'endocrinology', 'gastrointestinal', 'renal', 'reproductive']
-  const years = {
-    neuroscience: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    'head-and-neck': [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    endocrinology: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    gastrointestinal: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    renal: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled'],
-    reproductive: [2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 'compiled']
-  }
-
-  return (
-    <PastPaper modules={modules} years={years} annual="2nd-year" />
-  )
+  const modules = MODULE_ORDER[ANNUAL]
+  const years = Object.fromEntries(modules.map(m => [m, yearsFor(ANNUAL, m)]))
+  return <PastPaper modules={modules} years={years} annual={ANNUAL} />
 }

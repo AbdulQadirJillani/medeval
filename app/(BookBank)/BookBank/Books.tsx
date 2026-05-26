@@ -13,8 +13,8 @@ function Books({ subjects }: { subjects: subjects }) {
   return (
     <div className="my-11 max-w-[90%] mx-auto grid lg:grid-cols-2 gap-6">
       {
-        subjects.map((subject, n) => (
-          <BookCard key={n} subject={subject} />
+        subjects.map((subject) => (
+          <BookCard key={subject.fileID} subject={subject} />
         ))
       }
     </div>

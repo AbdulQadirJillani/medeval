@@ -14,10 +14,11 @@ type Props = {
   finishModal: boolean,
   setFinishModal: Dispatch<SetStateAction<boolean>>,
   score: RefObject<number>,
-  totalQuestions: number
+  totalQuestions: number,
+  Retake: () => void
 }
 
-const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions }: Props) => {
+const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake }: Props) => {
   const router = useRouter()
 
   const HomeRedirect = () => {
@@ -35,7 +36,10 @@ const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions }: Pro
           </DialogDescription>
         </DialogHeader>
         <Progress className="mx-auto mb-5" percentage={score.current/totalQuestions*100}/>
-        <Button className="bg-[#00ACE6] hover:bg-[#008fbf]" onClick={HomeRedirect}>
+        <Button variant="brand" onClick={Retake}>
+          Retake quiz
+        </Button>
+        <Button variant="brand" onClick={HomeRedirect}>
           Go back to HomePage
         </Button>
       </DialogContent>
