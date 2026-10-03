@@ -5,6 +5,14 @@
     "question": "Which of the following is the laser used for treating posterior capsular opacification in adults?",
     "answers": [
       {
+        "option": "Holmium laser",
+        "bool": false
+      },
+      {
+        "option": "Femtosecond laser",
+        "bool": false
+      },
+      {
         "option": "Argon laser",
         "bool": false
       },
@@ -13,15 +21,7 @@
         "bool": true
       },
       {
-        "option": "Femtosecond laser",
-        "bool": false
-      },
-      {
         "option": "Excimer laser",
-        "bool": false
-      },
-      {
-        "option": "Holmium laser",
         "bool": false
       }
     ]
@@ -32,7 +32,7 @@
     "question": "What is the most common type of entropion?",
     "answers": [
       {
-        "option": "Spastic",
+        "option": "Cicatricial",
         "bool": false
       },
       {
@@ -40,15 +40,15 @@
         "bool": true
       },
       {
-        "option": "Cicatricial",
+        "option": "Congenital",
+        "bool": false
+      },
+      {
+        "option": "Spastic",
         "bool": false
       },
       {
         "option": "Paralytic",
-        "bool": false
-      },
-      {
-        "option": "Congenital",
         "bool": false
       }
     ]
@@ -56,99 +56,18 @@
   {
     "id": 2,
     "info": "4th-year/ophthalmology/2017",
-    "question": "A concave lens is used in which of the following conditions?",
-    "answers": [
-      {
-        "option": "Astigmatism",
-        "bool": false
-      },
-      {
-        "option": "Isometropia",
-        "bool": false
-      },
-      {
-        "option": "Myopia",
-        "bool": true
-      },
-      {
-        "option": "Hypermetropia",
-        "bool": false
-      },
-      {
-        "option": "Anisometropia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "Carbonic anhydrase inhibitors are used in which of the following conditions?",
-    "answers": [
-      {
-        "option": "Congenital glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Acute primary angle-closure glaucoma",
-        "bool": true
-      },
-      {
-        "option": "Anterior uveitis",
-        "bool": false
-      },
-      {
-        "option": "Cataract",
-        "bool": false
-      },
-      {
-        "option": "Inflammatory glaucoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "A man has had an ulcerative lesion on the upper eyelid for over a year. It is diagnosed as a basal cell carcinoma. Which of the following is true regarding this condition?",
-    "answers": [
-      {
-        "option": "It is the most common malignancy of the eyelid",
-        "bool": true
-      },
-      {
-        "option": "It has pedunculated protrusions",
-        "bool": false
-      },
-      {
-        "option": "It is a benign tumor of the eyelid",
-        "bool": false
-      },
-      {
-        "option": "It affects young people",
-        "bool": false
-      },
-      {
-        "option": "It is rapidly growing",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "info": "4th-year/ophthalmology/2017",
     "question": "What is the drug of choice in primary open-angle glaucoma?",
     "answers": [
       {
-        "option": "Timolol",
-        "bool": false
+        "option": "Latanoprost",
+        "bool": true
       },
       {
         "option": "Brimonidine",
         "bool": false
       },
       {
-        "option": "Dipivefrin",
+        "option": "Timolol",
         "bool": false
       },
       {
@@ -156,22 +75,26 @@
         "bool": false
       },
       {
-        "option": "Latanoprost",
-        "bool": true
+        "option": "Dipivefrin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "info": "4th-year/ophthalmology/2017",
     "question": "Complicated cataracts are complications of which of the following?",
     "answers": [
+      {
+        "option": "Diabetic retinopathy",
+        "bool": false
+      },
       {
         "option": "Phacoantigenic uveitis",
         "bool": false
       },
       {
-        "option": "Diabetic retinopathy",
+        "option": "Phacomorphic glaucoma",
         "bool": false
       },
       {
@@ -181,9 +104,86 @@
       {
         "option": "Anterior uveitis",
         "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "A concave lens is used in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Anisometropia",
+        "bool": false
       },
       {
-        "option": "Phacomorphic glaucoma",
+        "option": "Hypermetropia",
+        "bool": false
+      },
+      {
+        "option": "Myopia",
+        "bool": true
+      },
+      {
+        "option": "Isometropia",
+        "bool": false
+      },
+      {
+        "option": "Astigmatism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "Carbonic anhydrase inhibitors are used in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Acute primary angle-closure glaucoma",
+        "bool": true
+      },
+      {
+        "option": "Anterior uveitis",
+        "bool": false
+      },
+      {
+        "option": "Inflammatory glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Congenital glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Cataract",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "A man has had an ulcerative lesion on the upper eyelid for over a year. It is diagnosed as a basal cell carcinoma. Which of the following is true regarding this condition?",
+    "answers": [
+      {
+        "option": "It affects young people",
+        "bool": false
+      },
+      {
+        "option": "It is the most common malignancy of the eyelid",
+        "bool": true
+      },
+      {
+        "option": "It has pedunculated protrusions",
+        "bool": false
+      },
+      {
+        "option": "It is rapidly growing",
+        "bool": false
+      },
+      {
+        "option": "It is a benign tumor of the eyelid",
         "bool": false
       }
     ]
@@ -194,7 +194,7 @@
     "question": "What is a simple, effective, and long-term treatment for trichiasis?",
     "answers": [
       {
-        "option": "Bandage contact lens",
+        "option": "Cold compress",
         "bool": false
       },
       {
@@ -202,7 +202,7 @@
         "bool": true
       },
       {
-        "option": "Cold compress",
+        "option": "Surgical resection",
         "bool": false
       },
       {
@@ -210,7 +210,7 @@
         "bool": false
       },
       {
-        "option": "Surgical resection",
+        "option": "Bandage contact lens",
         "bool": false
       }
     ]
@@ -221,7 +221,15 @@
     "question": "What treatment is 90% successful in cases of nasolacrimal duct obstruction?",
     "answers": [
       {
+        "option": "Conservative treatment",
+        "bool": true
+      },
+      {
         "option": "Incision and drainage",
+        "bool": false
+      },
+      {
+        "option": "Baloon catheter dilation",
         "bool": false
       },
       {
@@ -231,14 +239,6 @@
       {
         "option": "Probing",
         "bool": false
-      },
-      {
-        "option": "Conservative treatment",
-        "bool": true
-      },
-      {
-        "option": "Baloon catheter dilation",
-        "bool": false
       }
     ]
   },
@@ -247,14 +247,6 @@
     "info": "4th-year/ophthalmology/2017",
     "question": "What is the first-line treatment in acute angle-closure glaucoma?",
     "answers": [
-      {
-        "option": "Acetazolamide",
-        "bool": true
-      },
-      {
-        "option": "Latanoprost",
-        "bool": false
-      },
       {
         "option": "Brimonidine",
         "bool": false
@@ -266,6 +258,14 @@
       {
         "option": "Pilocarpine",
         "bool": false
+      },
+      {
+        "option": "Acetazolamide",
+        "bool": true
+      },
+      {
+        "option": "Latanoprost",
+        "bool": false
       }
     ]
   },
@@ -274,6 +274,14 @@
     "info": "4th-year/ophthalmology/2017",
     "question": "According to WHO, blindness is defined as visual acuity of or less than which of the following?",
     "answers": [
+      {
+        "option": "Counting fingers only",
+        "bool": false
+      },
+      {
+        "option": "6/60",
+        "bool": false
+      },
       {
         "option": "6/18",
         "bool": false
@@ -285,26 +293,68 @@
       {
         "option": "3/60",
         "bool": true
-      },
-      {
-        "option": "Counting fingers only",
-        "bool": false
-      },
-      {
-        "option": "6/60",
-        "bool": false
       }
     ]
   },
   {
     "id": 11,
     "info": "4th-year/ophthalmology/2017",
-    "question": "What laser does not work on the principle of photocoagulation?",
+    "question": "Which of the following walls of the orbit is most prone to injury?",
     "answers": [
       {
-        "option": "Nd YAG laser",
+        "option": "Floor",
+        "bool": true
+      },
+      {
+        "option": "Posterior wall",
         "bool": false
       },
+      {
+        "option": "Roof",
+        "bool": false
+      },
+      {
+        "option": "Lateral wall",
+        "bool": false
+      },
+      {
+        "option": "Medial wall",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "What is the mechanism of action of a topical carbonic anhydrase inhibitor on the eye?",
+    "answers": [
+      {
+        "option": "Contracts ciliary muscle",
+        "bool": false
+      },
+      {
+        "option": "Increases aqueous outflow",
+        "bool": false
+      },
+      {
+        "option": "Contracts pupillary sphincter muscle",
+        "bool": false
+      },
+      {
+        "option": "Decreases aqueous secretion",
+        "bool": true
+      },
+      {
+        "option": "Blocks the trabecular meshwork",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "What laser does not work on the principle of photocoagulation?",
+    "answers": [
       {
         "option": "UV laser",
         "bool": true
@@ -320,59 +370,9 @@
       {
         "option": "Argon laser",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "Atropine acts on what receptors?",
-    "answers": [
-      {
-        "option": "Alpha adrenergic",
-        "bool": false
       },
       {
-        "option": "Beta adrenergic",
-        "bool": false
-      },
-      {
-        "option": "Muscarinic",
-        "bool": true
-      },
-      {
-        "option": "Opioid",
-        "bool": false
-      },
-      {
-        "option": "Nicotinic",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "What is the nerve supply of the lateral rectus muscle?",
-    "answers": [
-      {
-        "option": "Trigeminal nerve",
-        "bool": false
-      },
-      {
-        "option": "Abducens nerve",
-        "bool": true
-      },
-      {
-        "option": "Facial nerve",
-        "bool": false
-      },
-      {
-        "option": "Optic nerve",
-        "bool": false
-      },
-      {
-        "option": "Oculomotor nerve",
+        "option": "Nd YAG laser",
         "bool": false
       }
     ]
@@ -380,113 +380,32 @@
   {
     "id": 14,
     "info": "4th-year/ophthalmology/2017",
-    "question": "What is a vision-threatening complication of cataract surgery?",
+    "question": "Atropine acts on what receptors?",
     "answers": [
       {
-        "option": "Retrobulbar hemorrhage",
-        "bool": false
-      },
-      {
-        "option": "Wound leakage",
-        "bool": false
-      },
-      {
-        "option": "Corneal edema",
-        "bool": false
-      },
-      {
-        "option": "Secondary glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Acute endophthalmitis",
+        "option": "Muscarinic",
         "bool": true
+      },
+      {
+        "option": "Nicotinic",
+        "bool": false
+      },
+      {
+        "option": "Alpha adrenergic",
+        "bool": false
+      },
+      {
+        "option": "Opioid",
+        "bool": false
+      },
+      {
+        "option": "Beta adrenergic",
+        "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "Which of the following is correct on the anatomy of the orbit?",
-    "answers": [
-      {
-        "option": "Optic canal is located in the greater wing of the sphenoid",
-        "bool": false
-      },
-      {
-        "option": "Inferior orbital fissure transmits the 4th cranial nerve",
-        "bool": false
-      },
-      {
-        "option": "Lateral wall lies at 90\u00b0 to the medial wall",
-        "bool": false
-      },
-      {
-        "option": "The lamina papyracea is the thinnest part",
-        "bool": true
-      },
-      {
-        "option": "The floor is formed by palatine, maxillary, and vomer bones",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "Which of the following walls of the orbit is most prone to injury?",
-    "answers": [
-      {
-        "option": "Lateral wall",
-        "bool": false
-      },
-      {
-        "option": "Roof",
-        "bool": false
-      },
-      {
-        "option": "Posterior wall",
-        "bool": false
-      },
-      {
-        "option": "Floor",
-        "bool": true
-      },
-      {
-        "option": "Medial wall",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "info": "4th-year/ophthalmology/2017",
-    "question": "What is the mechanism of action of a topical carbonic anhydrase inhibitor on the eye?",
-    "answers": [
-      {
-        "option": "Contracts pupillary sphincter muscle",
-        "bool": false
-      },
-      {
-        "option": "Decreases aqueous secretion",
-        "bool": true
-      },
-      {
-        "option": "Contracts ciliary muscle",
-        "bool": false
-      },
-      {
-        "option": "Increases aqueous outflow",
-        "bool": false
-      },
-      {
-        "option": "Blocks the trabecular meshwork",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 18,
     "info": "4th-year/ophthalmology/2017",
     "question": "Trachoma causes which of the following complications?",
     "answers": [
@@ -495,7 +414,11 @@
         "bool": true
       },
       {
-        "option": "Hemorrhaging",
+        "option": "Scarring",
+        "bool": false
+      },
+      {
+        "option": "Abscess formation",
         "bool": false
       },
       {
@@ -503,22 +426,72 @@
         "bool": false
       },
       {
-        "option": "Scarring",
-        "bool": false
-      },
-      {
-        "option": "Abscess formation",
+        "option": "Hemorrhaging",
         "bool": false
       }
     ]
   },
   {
-    "id": 19,
+    "id": 16,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "What is the nerve supply of the lateral rectus muscle?",
+    "answers": [
+      {
+        "option": "Facial nerve",
+        "bool": false
+      },
+      {
+        "option": "Abducens nerve",
+        "bool": true
+      },
+      {
+        "option": "Trigeminal nerve",
+        "bool": false
+      },
+      {
+        "option": "Oculomotor nerve",
+        "bool": false
+      },
+      {
+        "option": "Optic nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "What is a vision-threatening complication of cataract surgery?",
+    "answers": [
+      {
+        "option": "Wound leakage",
+        "bool": false
+      },
+      {
+        "option": "Secondary glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Corneal edema",
+        "bool": false
+      },
+      {
+        "option": "Acute endophthalmitis",
+        "bool": true
+      },
+      {
+        "option": "Retrobulbar hemorrhage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
     "info": "4th-year/ophthalmology/2017",
     "question": "Which of the following is not a part of the retina?",
     "answers": [
       {
-        "option": "Optic disc",
+        "option": "Fovea centralis",
         "bool": false
       },
       {
@@ -526,15 +499,42 @@
         "bool": true
       },
       {
-        "option": "Fovea centralis",
+        "option": "Rods and cones",
+        "bool": false
+      },
+      {
+        "option": "Optic disc",
         "bool": false
       },
       {
         "option": "Macula",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "4th-year/ophthalmology/2017",
+    "question": "Which of the following is correct on the anatomy of the orbit?",
+    "answers": [
+      {
+        "option": "Optic canal is located in the greater wing of the sphenoid",
+        "bool": false
       },
       {
-        "option": "Rods and cones",
+        "option": "Lateral wall lies at 90° to the medial wall",
+        "bool": false
+      },
+      {
+        "option": "The floor is formed by palatine, maxillary, and vomer bones",
+        "bool": false
+      },
+      {
+        "option": "The lamina papyracea is the thinnest part",
+        "bool": true
+      },
+      {
+        "option": "Inferior orbital fissure transmits the 4th cranial nerve",
         "bool": false
       }
     ]
@@ -545,23 +545,23 @@
     "question": "Blunt trauma to the globe would most likely result in rupture of which of the following?",
     "answers": [
       {
-        "option": "Infratemporal limbus",
-        "bool": false
+        "option": "Supranasal limbus",
+        "bool": true
       },
       {
         "option": "Equator",
         "bool": false
       },
       {
-        "option": "Supratemporal limbus",
+        "option": "Infratemporal limbus",
         "bool": false
       },
       {
-        "option": "Supranasal limbus",
-        "bool": true
+        "option": "Infranasal limbus",
+        "bool": false
       },
       {
-        "option": "Infranasal limbus",
+        "option": "Supratemporal limbus",
         "bool": false
       }
     ]
@@ -572,16 +572,12 @@
     "question": "What is an indication for hyperosmotic agent pharmacotherapy?",
     "answers": [
       {
-        "option": "Extreme pain",
-        "bool": false
-      },
-      {
         "option": "Normal-tension glaucoma",
         "bool": false
       },
       {
-        "option": "Acetazolamide is ineffective",
-        "bool": true
+        "option": "Extreme pain",
+        "bool": false
       },
       {
         "option": "Intraocular pressure below 40 mmHg",
@@ -590,6 +586,10 @@
       {
         "option": "Inflammatory glaucoma",
         "bool": false
+      },
+      {
+        "option": "Acetazolamide is ineffective",
+        "bool": true
       }
     ]
   },
@@ -599,15 +599,15 @@
     "question": "What are the epithelial cells present beneath the anterior lens capsule?",
     "answers": [
       {
-        "option": "Simple squamous",
-        "bool": false
-      },
-      {
-        "option": "Stratified columnar",
-        "bool": false
-      },
-      {
         "option": "Simple columnar",
+        "bool": false
+      },
+      {
+        "option": "Simple cuboidal",
+        "bool": true
+      },
+      {
+        "option": "Simple squamous",
         "bool": false
       },
       {
@@ -615,8 +615,8 @@
         "bool": false
       },
       {
-        "option": "Simple cuboidal",
-        "bool": true
+        "option": "Stratified columnar",
+        "bool": false
       }
     ]
   },
@@ -630,10 +630,6 @@
         "bool": true
       },
       {
-        "option": "Visual acuity less than 6/12",
-        "bool": false
-      },
-      {
         "option": "Visual acuity less than 6/60",
         "bool": false
       },
@@ -644,6 +640,10 @@
       {
         "option": "Peripheral vision loss less than 30 degrees",
         "bool": false
+      },
+      {
+        "option": "Visual acuity less than 6/12",
+        "bool": false
       }
     ]
   },
@@ -653,11 +653,15 @@
     "question": "Which of the following is inappropriate in terms of treating a branched retinal vein occlusion (BRVO)?",
     "answers": [
       {
+        "option": "Triamcinolone acetonide",
+        "bool": false
+      },
+      {
         "option": "Intravitreal anti-VEGF",
         "bool": false
       },
       {
-        "option": "Triamcinolone acetonide",
+        "option": "Methylprednisalone",
         "bool": false
       },
       {
@@ -666,10 +670,6 @@
       },
       {
         "option": "Prednisalone",
-        "bool": false
-      },
-      {
-        "option": "Methylprednisalone",
         "bool": false
       }
     ]
@@ -680,7 +680,15 @@
     "question": "Episcleritis is treated with which of the following?",
     "answers": [
       {
-        "option": "Mannitol",
+        "option": "Anti-VEGF",
+        "bool": false
+      },
+      {
+        "option": "Topical steroids",
+        "bool": true
+      },
+      {
+        "option": "Acetazolamide",
         "bool": false
       },
       {
@@ -688,16 +696,8 @@
         "bool": false
       },
       {
-        "option": "Anti-VEGF",
+        "option": "Mannitol",
         "bool": false
-      },
-      {
-        "option": "Acetazolamide",
-        "bool": false
-      },
-      {
-        "option": "Topical steroids",
-        "bool": true
       }
     ]
   },
@@ -707,15 +707,11 @@
     "question": "What is the most conspicuous sign of conjunctivitis?",
     "answers": [
       {
-        "option": "Photophobia",
-        "bool": false
-      },
-      {
-        "option": "Mucopurulent discharge",
-        "bool": false
-      },
-      {
         "option": "Increased lacrimation and positive regurgitation tests",
+        "bool": false
+      },
+      {
+        "option": "Photophobia",
         "bool": false
       },
       {
@@ -724,6 +720,10 @@
       },
       {
         "option": "Periocular tenderness upon palpation",
+        "bool": false
+      },
+      {
+        "option": "Mucopurulent discharge",
         "bool": false
       }
     ]
@@ -734,11 +734,15 @@
     "question": "Which of the following is not used as a vitreous substitute?",
     "answers": [
       {
-        "option": "Ringer's lactate",
-        "bool": false
+        "option": "Methylcellulose",
+        "bool": true
       },
       {
         "option": "Expandable gas",
+        "bool": false
+      },
+      {
+        "option": "Silicone oil",
         "bool": false
       },
       {
@@ -746,11 +750,7 @@
         "bool": false
       },
       {
-        "option": "Methylcellulose",
-        "bool": true
-      },
-      {
-        "option": "Silicone oil",
+        "option": "Ringer's lactate",
         "bool": false
       }
     ]
@@ -761,7 +761,11 @@
     "question": "Which of the following is the most dangerous side effect of atropine?",
     "answers": [
       {
-        "option": "Cataract",
+        "option": "Acute angle-closure glaucoma",
+        "bool": true
+      },
+      {
+        "option": "Primary open angle glaucoma",
         "bool": false
       },
       {
@@ -769,12 +773,8 @@
         "bool": false
       },
       {
-        "option": "Primary open angle glaucoma",
+        "option": "Cataract",
         "bool": false
-      },
-      {
-        "option": "Acute angle-closure glaucoma",
-        "bool": true
       },
       {
         "option": "Paralytic strabismus",
@@ -788,11 +788,7 @@
     "question": "Terminal bulbs with dendritic ulcers on the cornea occur due to which of the following pathogens?",
     "answers": [
       {
-        "option": "Herpes zoster virus",
-        "bool": false
-      },
-      {
-        "option": "Varicella zoster virus",
+        "option": "Adenovirus",
         "bool": false
       },
       {
@@ -800,7 +796,11 @@
         "bool": false
       },
       {
-        "option": "Adenovirus",
+        "option": "Varicella zoster virus",
+        "bool": false
+      },
+      {
+        "option": "Herpes zoster virus",
         "bool": false
       },
       {
@@ -815,14 +815,6 @@
     "question": "Arteritic anterior ischemic optic neuropathy is seen in which disease?",
     "answers": [
       {
-        "option": "Papilledema",
-        "bool": false
-      },
-      {
-        "option": "Papillitis",
-        "bool": false
-      },
-      {
         "option": "Optic disc edema",
         "bool": false
       },
@@ -832,6 +824,14 @@
       },
       {
         "option": "Multiple sclerosis",
+        "bool": false
+      },
+      {
+        "option": "Papillitis",
+        "bool": false
+      },
+      {
+        "option": "Papilledema",
         "bool": false
       }
     ]

@@ -44,22 +44,20 @@ function Format({ data }: { data: Quiz }) {
   })
 
   // Back, Next, Finish functions
+  // Navigation only clears the per-render click latch. Whether a question can
+  // still be scored is decided in Options from the recorded answers, so a
+  // skipped question stays answerable and an answered one stays locked.
   const Back = () => {
     if (index > 0) {
       setIndex(prev => prev - 1)
-      lock.current = true
+      lock.current = false
     }
   }
 
   const Next = () => {
     if (index + 1 < totalQuestions) {
       setIndex(prev => prev + 1)
-      if (resumeIndex.current > index) {
-        lock.current = true
-      }
-      else {
-        lock.current = false
-      }
+      lock.current = false
     }
   }
 

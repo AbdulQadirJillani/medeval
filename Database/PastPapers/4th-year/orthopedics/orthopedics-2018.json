@@ -5,15 +5,15 @@
     "question": "What is the most common hand deformity in rheumatoid arthritis (RA)?",
     "answers": [
       {
-        "option": "Swan-neck deformity",
-        "bool": true
-      },
-      {
         "option": "Trigger finger deformity",
         "bool": false
       },
       {
-        "option": "Boutonni\u00e8re deformity",
+        "option": "Swan-neck deformity",
+        "bool": true
+      },
+      {
+        "option": "Boutonnière deformity",
         "bool": false
       },
       {
@@ -36,19 +36,19 @@
         "bool": false
       },
       {
-        "option": "Limb muscles",
-        "bool": true
-      },
-      {
         "option": "Leptomeninges",
         "bool": false
       },
       {
-        "option": "Skull bones",
-        "bool": false
+        "option": "Limb muscles",
+        "bool": true
       },
       {
         "option": "Mammary glands",
+        "bool": false
+      },
+      {
+        "option": "Skull bones",
         "bool": false
       }
     ]
@@ -59,10 +59,6 @@
     "question": "An 8-year-old boy with limbs relatively short when compared with his head is brought into the clinic by his parents. Which of the following cells is defective in this child's condition?",
     "answers": [
       {
-        "option": "Osteocyte",
-        "bool": false
-      },
-      {
         "option": "Osteoblast",
         "bool": false
       },
@@ -72,6 +68,10 @@
       },
       {
         "option": "Chondroblast",
+        "bool": false
+      },
+      {
+        "option": "Osteocyte",
         "bool": false
       },
       {
@@ -86,19 +86,19 @@
     "question": "Which of the following immunosuppressants acts on dihydroorotate dehydrogenase (DHODH)?",
     "answers": [
       {
-        "option": "Sulfasalazine",
-        "bool": false
-      },
-      {
-        "option": "Basiliximab",
-        "bool": false
-      },
-      {
         "option": "Leflunomide",
         "bool": true
       },
       {
+        "option": "Sulfasalazine",
+        "bool": false
+      },
+      {
         "option": "Sirolimus",
+        "bool": false
+      },
+      {
+        "option": "Basiliximab",
         "bool": false
       },
       {
@@ -113,7 +113,11 @@
     "question": "Osteopetrosis is a disorder in which there is failure of normal bone resorption. A defect in which enzyme is responsible for causing this disease?",
     "answers": [
       {
-        "option": "Elastase",
+        "option": "Collagenase IV",
+        "bool": false
+      },
+      {
+        "option": "Dihydroorotate dehydrogenase",
         "bool": false
       },
       {
@@ -125,11 +129,7 @@
         "bool": false
       },
       {
-        "option": "Dihydroorotate dehydrogenase",
-        "bool": false
-      },
-      {
-        "option": "Collagenase IV",
+        "option": "Elastase",
         "bool": false
       }
     ]
@@ -144,19 +144,19 @@
         "bool": false
       },
       {
-        "option": "Osteosarcoma",
-        "bool": false
+        "option": "Giant cell tumor",
+        "bool": true
       },
       {
         "option": "Osteoid osteoma",
         "bool": false
       },
       {
-        "option": "Giant cell tumor",
-        "bool": true
+        "option": "Osteochondroma",
+        "bool": false
       },
       {
-        "option": "Osteochondroma",
+        "option": "Osteosarcoma",
         "bool": false
       }
     ]
@@ -167,12 +167,16 @@
     "question": "Which bone is most commonly involved in osteoblastoma?",
     "answers": [
       {
-        "option": "Skull",
+        "option": "Vertebrae",
+        "bool": true
+      },
+      {
+        "option": "Humerus",
         "bool": false
       },
       {
-        "option": "Vertebrae",
-        "bool": true
+        "option": "Skull",
+        "bool": false
       },
       {
         "option": "Femur",
@@ -180,10 +184,6 @@
       },
       {
         "option": "Pelvis",
-        "bool": false
-      },
-      {
-        "option": "Humerus",
         "bool": false
       }
     ]
@@ -198,7 +198,7 @@
         "bool": false
       },
       {
-        "option": "Achondroplasia",
+        "option": "Osteoporosis",
         "bool": false
       },
       {
@@ -206,11 +206,11 @@
         "bool": true
       },
       {
-        "option": "Osteopetrosis",
+        "option": "Achondroplasia",
         "bool": false
       },
       {
-        "option": "Osteoporosis",
+        "option": "Osteopetrosis",
         "bool": false
       }
     ]
@@ -221,23 +221,23 @@
     "question": "Which of the following is a treatment of acute gout?",
     "answers": [
       {
-        "option": "Heparin",
-        "bool": false
+        "option": "NSAIDs",
+        "bool": true
       },
       {
         "option": "Bisphosphonates",
         "bool": false
       },
       {
-        "option": "NSAIDs",
-        "bool": true
+        "option": "Denosumab",
+        "bool": false
       },
       {
         "option": "Calcium carbonate",
         "bool": false
       },
       {
-        "option": "Denosumab",
+        "option": "Heparin",
         "bool": false
       }
     ]
@@ -248,11 +248,7 @@
     "question": "Which joint is most commonly involved in pseudogout (calcium pyrophosphate deposition disease)?",
     "answers": [
       {
-        "option": "Knee joint",
-        "bool": true
-      },
-      {
-        "option": "Sacroiliac joint",
+        "option": "Elbow joint",
         "bool": false
       },
       {
@@ -264,7 +260,11 @@
         "bool": false
       },
       {
-        "option": "Elbow joint",
+        "option": "Knee joint",
+        "bool": true
+      },
+      {
+        "option": "Sacroiliac joint",
         "bool": false
       }
     ]
@@ -275,7 +275,15 @@
     "question": "What is the most appropriate staging of osteochondromas in the Enneking system?",
     "answers": [
       {
+        "option": "Intracompartmental",
+        "bool": false
+      },
+      {
         "option": "Extracompartmental",
+        "bool": false
+      },
+      {
+        "option": "Active",
         "bool": false
       },
       {
@@ -283,15 +291,7 @@
         "bool": true
       },
       {
-        "option": "Intracompartmental",
-        "bool": false
-      },
-      {
         "option": "Aggressive",
-        "bool": false
-      },
-      {
-        "option": "Active",
         "bool": false
       }
     ]
@@ -306,19 +306,19 @@
         "bool": true
       },
       {
-        "option": "Increased urinary reabsorption of phosphate is seen in primary hyperparathyroidism",
-        "bool": false
-      },
-      {
         "option": "Primary hyperparathyroidism is characterized by decreased PTH",
         "bool": false
       },
       {
-        "option": "Increased urinary excretion of magnesium is a hallmark",
+        "option": "Increased urinary reabsorption of phosphate is seen in primary hyperparathyroidism",
         "bool": false
       },
       {
         "option": "Liver failure is a common cause of secondary hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Increased urinary excretion of magnesium is a hallmark",
         "bool": false
       }
     ]
@@ -329,7 +329,7 @@
     "question": "What is the classical presentation of an osteosarcoma on radiography?",
     "answers": [
       {
-        "option": "Onion skin",
+        "option": "Soap bubble",
         "bool": false
       },
       {
@@ -341,11 +341,11 @@
         "bool": true
       },
       {
-        "option": "Soap bubble",
+        "option": "Normal",
         "bool": false
       },
       {
-        "option": "Normal",
+        "option": "Onion skin",
         "bool": false
       }
     ]
@@ -356,6 +356,14 @@
     "question": "Which of the following diseases may cause hypouricemia?",
     "answers": [
       {
+        "option": "ADA deficiency",
+        "bool": true
+      },
+      {
+        "option": "Tumor lysis syndrome",
+        "bool": false
+      },
+      {
         "option": "Lesch-Nyhan syndrome",
         "bool": false
       },
@@ -364,16 +372,8 @@
         "bool": false
       },
       {
-        "option": "Tumor lysis syndrome",
-        "bool": false
-      },
-      {
         "option": "HGPRT deficiency",
         "bool": false
-      },
-      {
-        "option": "ADA deficiency",
-        "bool": true
       }
     ]
   },
@@ -383,11 +383,15 @@
     "question": "What is the process by which plants increase in number but water animals such as fish decrease in number called?",
     "answers": [
       {
-        "option": "Water stress",
+        "option": "Aridity",
         "bool": false
       },
       {
-        "option": "Aridity",
+        "option": "Drought",
+        "bool": false
+      },
+      {
+        "option": "Desertification",
         "bool": false
       },
       {
@@ -395,11 +399,7 @@
         "bool": true
       },
       {
-        "option": "Desertification",
-        "bool": false
-      },
-      {
-        "option": "Drought",
+        "option": "Water stress",
         "bool": false
       }
     ]
@@ -410,12 +410,16 @@
     "question": "A 10-year-old boy is brought into the emergency department after falling from his bike. He is found to have an undisplaced fracture of the middle third of the clavicle. What is the best course of management in this situation?",
     "answers": [
       {
+        "option": "Sling and conservative management",
+        "bool": true
+      },
+      {
         "option": "Casting",
         "bool": false
       },
       {
-        "option": "Sling and conservative management",
-        "bool": true
+        "option": "Sling only",
+        "bool": false
       },
       {
         "option": "Conservative management only",
@@ -423,10 +427,6 @@
       },
       {
         "option": "Immediate surgery",
-        "bool": false
-      },
-      {
-        "option": "Sling only",
         "bool": false
       }
     ]
@@ -437,6 +437,10 @@
     "question": "What management is required for most humeral shaft fractures?",
     "answers": [
       {
+        "option": "Conservative management only",
+        "bool": false
+      },
+      {
         "option": "Plates and screws",
         "bool": false
       },
@@ -445,16 +449,12 @@
         "bool": false
       },
       {
-        "option": "U slab with collar and cuff (non-operative)",
-        "bool": true
-      },
-      {
         "option": "Immediate surgery",
         "bool": false
       },
       {
-        "option": "Conservative management only",
-        "bool": false
+        "option": "U slab with collar and cuff (non-operative)",
+        "bool": true
       }
     ]
   },
@@ -464,11 +464,11 @@
     "question": "Which of the following is not true regarding ankle-brachial pressure index (ABPI)?",
     "answers": [
       {
-        "option": "ABPI value below 0.3 is a sign of imminent necrosis",
+        "option": "The normal resting ABPI is between 0.9 and 1.3",
         "bool": false
       },
       {
-        "option": "The normal resting ABPI is between 0.9 and 1.3",
+        "option": "It is the ratio of blood pressure at the ankle to blood pressure in the upper arm",
         "bool": false
       },
       {
@@ -476,7 +476,7 @@
         "bool": false
       },
       {
-        "option": "It is the ratio of blood pressure at the ankle to blood pressure in the upper arm",
+        "option": "ABPI value below 0.3 is a sign of imminent necrosis",
         "bool": false
       },
       {
@@ -491,24 +491,24 @@
     "question": "A 35-year-old female with a known history of inflammatory bowel disease comes to the clinic with the complaint of joint pain in her hands. On examination, the abdomen is tender and oral ulcers are observed. Which of the following is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Septic arthritis",
-        "bool": false
-      },
-      {
         "option": "Rheumatoid arthritis",
         "bool": false
-      },
-      {
-        "option": "Enteropathic arthritis",
-        "bool": true
       },
       {
         "option": "Osteoarthritis",
         "bool": false
       },
       {
+        "option": "Septic arthritis",
+        "bool": false
+      },
+      {
         "option": "Irritable bowel syndrome",
         "bool": false
+      },
+      {
+        "option": "Enteropathic arthritis",
+        "bool": true
       }
     ]
   },
@@ -518,11 +518,11 @@
     "question": "Which of the following antibodies are specific for CREST syndrome?",
     "answers": [
       {
-        "option": "Antineutrophil cytoplasmic antibodies",
+        "option": "Antinuclear antibodies",
         "bool": false
       },
       {
-        "option": "Antinuclear antibodies",
+        "option": "Antineutrophil cytoplasmic antibodies",
         "bool": false
       },
       {
@@ -530,11 +530,11 @@
         "bool": true
       },
       {
-        "option": "Anti-Sm antibodies",
+        "option": "Anti-mitochondrial antibodies",
         "bool": false
       },
       {
-        "option": "Anti-mitochondrial antibodies",
+        "option": "Anti-Sm antibodies",
         "bool": false
       }
     ]
@@ -544,6 +544,10 @@
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is the most common cutaneous manifestation of systemic lupus erythematosus?",
     "answers": [
+      {
+        "option": "Alopecia",
+        "bool": false
+      },
       {
         "option": "Sclerosis",
         "bool": false
@@ -559,10 +563,6 @@
       {
         "option": "Malar rash",
         "bool": true
-      },
-      {
-        "option": "Alopecia",
-        "bool": false
       }
     ]
   },
@@ -572,11 +572,11 @@
     "question": "Which of the following antibodies is specific for polymyositis and dermatomyositis?",
     "answers": [
       {
-        "option": "Anti-mitochondiral",
-        "bool": false
+        "option": "Anti-Jo-1",
+        "bool": true
       },
       {
-        "option": "Anti-Scl-70",
+        "option": "Anti-mitochondiral",
         "bool": false
       },
       {
@@ -584,8 +584,8 @@
         "bool": false
       },
       {
-        "option": "Anti-Jo-1",
-        "bool": true
+        "option": "Anti-Scl-70",
+        "bool": false
       },
       {
         "option": "Antinuclear",
@@ -599,11 +599,7 @@
     "question": "Which deformity of the knee is most commonly seen in osteoarthritis?",
     "answers": [
       {
-        "option": "Genu varus",
-        "bool": true
-      },
-      {
-        "option": "Coxa varus",
+        "option": "Genu valgus",
         "bool": false
       },
       {
@@ -611,11 +607,15 @@
         "bool": false
       },
       {
+        "option": "Genu varus",
+        "bool": true
+      },
+      {
         "option": "Happy triad",
         "bool": false
       },
       {
-        "option": "Genu valgus",
+        "option": "Coxa varus",
         "bool": false
       }
     ]
@@ -626,11 +626,7 @@
     "question": "Which of the following is NOT a benefit of storing water?",
     "answers": [
       {
-        "option": "Decreased suspended matter",
-        "bool": false
-      },
-      {
-        "option": "Improved water quality",
+        "option": "Decreased bacterial load",
         "bool": false
       },
       {
@@ -642,7 +638,11 @@
         "bool": false
       },
       {
-        "option": "Decreased bacterial load",
+        "option": "Decreased suspended matter",
+        "bool": false
+      },
+      {
+        "option": "Improved water quality",
         "bool": false
       }
     ]
@@ -657,7 +657,7 @@
         "bool": false
       },
       {
-        "option": "Female gender",
+        "option": "Obesity",
         "bool": false
       },
       {
@@ -669,7 +669,7 @@
         "bool": true
       },
       {
-        "option": "Obesity",
+        "option": "Female gender",
         "bool": false
       }
     ]
@@ -684,11 +684,11 @@
         "bool": false
       },
       {
-        "option": "Osteoarthritis",
+        "option": "Ankylosing spondylitis",
         "bool": false
       },
       {
-        "option": "Ankylosing spondylitis",
+        "option": "Rheumatoid arthritis",
         "bool": false
       },
       {
@@ -696,7 +696,7 @@
         "bool": true
       },
       {
-        "option": "Rheumatoid arthritis",
+        "option": "Osteoarthritis",
         "bool": false
       }
     ]
@@ -707,23 +707,23 @@
     "question": "Which of the following is a malignant tumor that arises from the diaphysis?",
     "answers": [
       {
-        "option": "Osteosarcoma",
-        "bool": false
-      },
-      {
         "option": "Ewing sarcoma",
         "bool": true
-      },
-      {
-        "option": "Chondorsarcoma",
-        "bool": false
       },
       {
         "option": "Osteoid osteoma",
         "bool": false
       },
       {
+        "option": "Osteosarcoma",
+        "bool": false
+      },
+      {
         "option": "Giant cell tumor",
+        "bool": false
+      },
+      {
+        "option": "Chondorsarcoma",
         "bool": false
       }
     ]
@@ -742,16 +742,16 @@
         "bool": false
       },
       {
-        "option": "Antero-medial",
-        "bool": true
-      },
-      {
         "option": "Antero-lateral",
         "bool": false
       },
       {
         "option": "Postero-lateral",
         "bool": false
+      },
+      {
+        "option": "Antero-medial",
+        "bool": true
       }
     ]
   },
@@ -761,7 +761,7 @@
     "question": "Patients with osteoarthritis may develop bony swellings at the distal interphalangeal (DIP) and proximal interphalangeal (PIP) joints. What are the swellings at DIP joints called?",
     "answers": [
       {
-        "option": "Bouchard nodes",
+        "option": "Swan neck deformity",
         "bool": false
       },
       {
@@ -769,15 +769,15 @@
         "bool": true
       },
       {
-        "option": "Swan neck deformity",
-        "bool": false
-      },
-      {
         "option": "Boutonniere",
         "bool": false
       },
       {
         "option": "Trigger finger",
+        "bool": false
+      },
+      {
+        "option": "Bouchard nodes",
         "bool": false
       }
     ]
@@ -788,11 +788,15 @@
     "question": "In patients with osteoarthritis of the knee, the pain usually worsens during which of the following actions?",
     "answers": [
       {
-        "option": "Sitting",
+        "option": "Standing on toes",
         "bool": false
       },
       {
-        "option": "Standing on toes",
+        "option": "Climbing or going down stairs",
+        "bool": true
+      },
+      {
+        "option": "Sitting",
         "bool": false
       },
       {
@@ -802,28 +806,16 @@
       {
         "option": "Resting",
         "bool": false
-      },
-      {
-        "option": "Climbing or going down stairs",
-        "bool": true
       }
     ]
   },
   {
     "id": 30,
     "info": "4th-year/orthopedics/2018",
-    "question": "A 6-year-old girl is brought to the clinic with symmetrical swelling of hand and knee joints for the past 6 days. On examination, the girl has a temperature of 99.8\u00b0F with a faint pink rash on the chest, abdomen, and back. The joints are warm and mildly swollen with pain on movement. Which investigation is most appropriate to diagnose the disorder in this girl?",
+    "question": "A 6-year-old girl is brought to the clinic with symmetrical swelling of hand and knee joints for the past 6 days. On examination, the girl has a temperature of 99.8°F with a faint pink rash on the chest, abdomen, and back. The joints are warm and mildly swollen with pain on movement. Which investigation is most appropriate to diagnose the disorder in this girl?",
     "answers": [
       {
-        "option": "No test - clinical diagnosis of exclusion",
-        "bool": true
-      },
-      {
         "option": "Rheumatoid factor",
-        "bool": false
-      },
-      {
-        "option": "Arthrocentesis",
         "bool": false
       },
       {
@@ -832,6 +824,14 @@
       },
       {
         "option": "CBC",
+        "bool": false
+      },
+      {
+        "option": "No test - clinical diagnosis of exclusion",
+        "bool": true
+      },
+      {
+        "option": "Arthrocentesis",
         "bool": false
       }
     ]
@@ -846,15 +846,15 @@
         "bool": true
       },
       {
-        "option": "Elbow stiffness",
-        "bool": false
-      },
-      {
         "option": "Ulnar nerve injury",
         "bool": false
       },
       {
         "option": "Volkmann's contracture",
+        "bool": false
+      },
+      {
+        "option": "Elbow stiffness",
         "bool": false
       },
       {
@@ -873,20 +873,20 @@
         "bool": false
       },
       {
-        "option": "Erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP)",
-        "bool": false
-      },
-      {
         "option": "Rheumatoid factor",
-        "bool": false
-      },
-      {
-        "option": "X-ray",
         "bool": false
       },
       {
         "option": "Anti-citrullinated peptide (anti-CCP) antibodies",
         "bool": true
+      },
+      {
+        "option": "Erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP)",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
       }
     ]
   },
@@ -896,7 +896,15 @@
     "question": "A 64-year-old woman is brought into the emergency department with the complaint of severe lower back pain after she suffered a fall while walking outside her house. Physical examination reveals kyphosis and height loss. Which of the following radiological investigations is the most appropriate first choice to establish a diagnosis of the underlying disorder?",
     "answers": [
       {
-        "option": "CT scan of the abdomen",
+        "option": "X-ray of the hand",
+        "bool": false
+      },
+      {
+        "option": "MRI of the brain",
+        "bool": false
+      },
+      {
+        "option": "X-ray of the pelvis",
         "bool": false
       },
       {
@@ -904,15 +912,7 @@
         "bool": true
       },
       {
-        "option": "MRI of the brain",
-        "bool": false
-      },
-      {
-        "option": "X-ray of the hand",
-        "bool": false
-      },
-      {
-        "option": "X-ray of the pelvis",
+        "option": "CT scan of the abdomen",
         "bool": false
       }
     ]
@@ -927,7 +927,11 @@
         "bool": false
       },
       {
-        "option": "HLA-B57",
+        "option": "HLA-DR4",
+        "bool": false
+      },
+      {
+        "option": "HLA-C",
         "bool": false
       },
       {
@@ -935,11 +939,7 @@
         "bool": true
       },
       {
-        "option": "HLA-DR4",
-        "bool": false
-      },
-      {
-        "option": "HLA-C",
+        "option": "HLA-B57",
         "bool": false
       }
     ]
@@ -947,14 +947,45 @@
   {
     "id": 35,
     "info": "4th-year/orthopedics/2018",
+    "question": "Systemic lupus erythematosus (SLE) is associated with which type of arthritis?",
+    "answers": [
+      {
+        "option": "Septic arthritis",
+        "bool": false
+      },
+      {
+        "option": "Juvenile idiopathic arthritis",
+        "bool": false
+      },
+      {
+        "option": "Reactive arthritis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": true
+      },
+      {
+        "option": "Osteoarthritis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "4th-year/orthopedics/2018",
     "question": "What is the state of majority of the calcium found in plasma?",
     "answers": [
       {
-        "option": "Bound to anions",
+        "option": "Bound to immunoglobulins",
         "bool": false
       },
       {
         "option": "Bound to albumin",
+        "bool": false
+      },
+      {
+        "option": "Bound to anions",
         "bool": false
       },
       {
@@ -964,28 +995,16 @@
       {
         "option": "Ionized/free",
         "bool": true
-      },
-      {
-        "option": "Bound to immunoglobulins",
-        "bool": false
       }
     ]
   },
   {
-    "id": 36,
+    "id": 37,
     "info": "4th-year/orthopedics/2018",
     "question": "Which disease-modifying antirheumatic drug (DMARD) can be safely given to pregnant patients?",
     "answers": [
       {
-        "option": "Hydroxychloroquine",
-        "bool": true
-      },
-      {
         "option": "Sulfasalazine",
-        "bool": false
-      },
-      {
-        "option": "Adalimumab",
         "bool": false
       },
       {
@@ -993,20 +1012,24 @@
         "bool": false
       },
       {
+        "option": "Adalimumab",
+        "bool": false
+      },
+      {
         "option": "Leflunomide",
         "bool": false
+      },
+      {
+        "option": "Hydroxychloroquine",
+        "bool": true
       }
     ]
   },
   {
-    "id": 37,
+    "id": 38,
     "info": "4th-year/orthopedics/2018",
     "question": "What is the most common ocular complication of ankylosing spondylitis?",
     "answers": [
-      {
-        "option": "Conjunctivitis",
-        "bool": false
-      },
       {
         "option": "Retinal detachment",
         "bool": false
@@ -1016,20 +1039,28 @@
         "bool": true
       },
       {
+        "option": "Glaucoma",
+        "bool": false
+      },
+      {
         "option": "Episcleritis",
         "bool": false
       },
       {
-        "option": "Glaucoma",
+        "option": "Conjunctivitis",
         "bool": false
       }
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is the most appropriate management for intra-articular fractures?",
     "answers": [
+      {
+        "option": "Open reduction with internal fixation (ORIF)",
+        "bool": true
+      },
       {
         "option": "Conservative management",
         "bool": false
@@ -1037,10 +1068,6 @@
       {
         "option": "Closed reduction",
         "bool": false
-      },
-      {
-        "option": "Open reduction with internal fixation (ORIF)",
-        "bool": true
       },
       {
         "option": "External fixator",
@@ -1053,7 +1080,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 40,
     "info": "4th-year/orthopedics/2018",
     "question": "Which beta-lactam penicillin drug can not be given orally?",
     "answers": [
@@ -1062,7 +1089,7 @@
         "bool": false
       },
       {
-        "option": "Dicloxacillin",
+        "option": "Nafcillin",
         "bool": false
       },
       {
@@ -1070,30 +1097,30 @@
         "bool": false
       },
       {
-        "option": "Methicillin",
-        "bool": true
+        "option": "Dicloxacillin",
+        "bool": false
       },
       {
-        "option": "Nafcillin",
-        "bool": false
+        "option": "Methicillin",
+        "bool": true
       }
     ]
   },
   {
-    "id": 40,
+    "id": 41,
     "info": "4th-year/orthopedics/2018",
     "question": "A 27-year-old man presents to the outpatient clinic with complaint of chronic lower back pain and is diagnosed with ankylosing spondylitis after appropriate workup. Which of the following is the best initial treatment?",
     "answers": [
+      {
+        "option": "Conservative management",
+        "bool": false
+      },
       {
         "option": "NSAIDs and exercise",
         "bool": true
       },
       {
         "option": "Methotrexate",
-        "bool": false
-      },
-      {
-        "option": "Conservative management",
         "bool": false
       },
       {
@@ -1107,12 +1134,16 @@
     ]
   },
   {
-    "id": 41,
+    "id": 42,
     "info": "4th-year/orthopedics/2018",
     "question": "A 28-year-old patient previously diagnosed with ankylosing spondylitis comes to the outpatient clinic with complaints of no improvement in symptoms with the prescribed NSAIDs and recommended exercise regimen. Which of the following is the best 2nd line treatment for his condition?",
     "answers": [
       {
         "option": "Hip reduction",
+        "bool": false
+      },
+      {
+        "option": "Oral glucocorticoids",
         "bool": false
       },
       {
@@ -1126,15 +1157,11 @@
       {
         "option": "Arhtroplasty",
         "bool": false
-      },
-      {
-        "option": "Oral glucocorticoids",
-        "bool": false
       }
     ]
   },
   {
-    "id": 42,
+    "id": 43,
     "info": "4th-year/orthopedics/2018",
     "question": "Which occupational lung disease is caused by exposure to sugar cane dust?",
     "answers": [
@@ -1143,7 +1170,7 @@
         "bool": true
       },
       {
-        "option": "Silicosis",
+        "option": "Byssinosis",
         "bool": false
       },
       {
@@ -1151,22 +1178,30 @@
         "bool": false
       },
       {
-        "option": "Asbestosis",
+        "option": "Silicosis",
         "bool": false
       },
       {
-        "option": "Byssinosis",
+        "option": "Asbestosis",
         "bool": false
       }
     ]
   },
   {
-    "id": 43,
+    "id": 44,
     "info": "4th-year/orthopedics/2018",
     "question": "A coal mine worker comes into the outpatient clinic with complaints of chest pain and progressively decreasing ability to work. Which of the following best explains the symptoms in this patient?",
     "answers": [
       {
         "option": "Inhalation of CO",
+        "bool": false
+      },
+      {
+        "option": "Cyanide poisoning",
+        "bool": false
+      },
+      {
+        "option": "Inhalation of NO",
         "bool": false
       },
       {
@@ -1176,19 +1211,11 @@
       {
         "option": "Inhalation of particulate matter",
         "bool": true
-      },
-      {
-        "option": "Cyanide poisoning",
-        "bool": false
-      },
-      {
-        "option": "Inhalation of NO",
-        "bool": false
       }
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "info": "4th-year/orthopedics/2018",
     "question": "A food industry is suspected of dumping its water in the local river. Which of the following is the best way to detect the quality of water in this river in order to confirm or deny the suspicion?",
     "answers": [
@@ -1197,36 +1224,28 @@
         "bool": false
       },
       {
-        "option": "Softness of water",
+        "option": "Temperature of water",
         "bool": false
       },
       {
-        "option": "Biochemical oxygen demand",
-        "bool": true
+        "option": "Softness of water",
+        "bool": false
       },
       {
         "option": "Dirt content of water",
         "bool": false
       },
       {
-        "option": "Temperature of water",
-        "bool": false
+        "option": "Biochemical oxygen demand",
+        "bool": true
       }
     ]
   },
   {
-    "id": 45,
+    "id": 46,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following indicator is the best way to detect fecal waste in a river?",
     "answers": [
-      {
-        "option": "Absence of aquatic life",
-        "bool": false
-      },
-      {
-        "option": "Presence of fecal coliform bacteria",
-        "bool": true
-      },
       {
         "option": "Amount of dissolved carbon dioxide",
         "bool": false
@@ -1238,16 +1257,24 @@
       {
         "option": "Presence of roundworms",
         "bool": false
+      },
+      {
+        "option": "Absence of aquatic life",
+        "bool": false
+      },
+      {
+        "option": "Presence of fecal coliform bacteria",
+        "bool": true
       }
     ]
   },
   {
-    "id": 46,
+    "id": 47,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is a benefit of storing water?",
     "answers": [
       {
-        "option": "Increased viruses",
+        "option": "Decreased nitrates",
         "bool": false
       },
       {
@@ -1255,42 +1282,15 @@
         "bool": false
       },
       {
-        "option": "Increased suspended matter",
-        "bool": false
-      },
-      {
         "option": "Decreased ammonia",
         "bool": true
       },
       {
-        "option": "Decreased nitrates",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "info": "4th-year/orthopedics/2018",
-    "question": "Which of the following autoimmune diseases is associated with the highest rate of malignancy?",
-    "answers": [
-      {
-        "option": "Dermatomyositis",
-        "bool": true
-      },
-      {
-        "option": "Sjogren's syndrome",
+        "option": "Increased viruses",
         "bool": false
       },
       {
-        "option": "Rheumatoid arthritis",
-        "bool": false
-      },
-      {
-        "option": "Systemic lupus erythematosus",
-        "bool": false
-      },
-      {
-        "option": "Systemic sclerosis",
+        "option": "Increased suspended matter",
         "bool": false
       }
     ]
@@ -1298,18 +1298,45 @@
   {
     "id": 48,
     "info": "4th-year/orthopedics/2018",
-    "question": "A 9-month-old boy is brought to the outpatient clinic by his parents with complaint of bilateral knee swelling which started some time after he started to crawl. The parents also recall that he seemed to bleed for a prolonged period following his circumcision. Left knee is tender and swollen with restricted range of motion, while the right knee appears swollen and bruised. Which of the following is the most likely diagnosis in this child?",
+    "question": "Which of the following autoimmune diseases is associated with the highest rate of malignancy?",
     "answers": [
       {
-        "option": "Child abuse",
+        "option": "Systemic lupus erythematosus",
         "bool": false
       },
       {
-        "option": "Hemophilia",
-        "bool": true
+        "option": "Sjogren's syndrome",
+        "bool": false
       },
       {
+        "option": "Systemic sclerosis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": false
+      },
+      {
+        "option": "Dermatomyositis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "4th-year/orthopedics/2018",
+    "question": "A 9-month-old boy is brought to the outpatient clinic by his parents with complaint of bilateral knee swelling which started some time after he started to crawl. The parents also recall that he seemed to bleed for a prolonged period following his circumcision. Left knee is tender and swollen with restricted range of motion, while the right knee appears swollen and bruised. Which of the following is the most likely diagnosis in this child?",
+    "answers": [
+      {
         "option": "Sickle cell disease",
+        "bool": false
+      },
+      {
+        "option": "Rickets",
+        "bool": false
+      },
+      {
+        "option": "Child abuse",
         "bool": false
       },
       {
@@ -1317,26 +1344,26 @@
         "bool": false
       },
       {
-        "option": "Rickets",
-        "bool": false
+        "option": "Hemophilia",
+        "bool": true
       }
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "info": "4th-year/orthopedics/2018",
     "question": "A 4-month-old boy is brought to the pediatric clinic. On physical examination, he is found to have inversion of the forefoot relative to the hindfoot, along with plantar flexion. What is the best treatment modality for this disorder?",
     "answers": [
+      {
+        "option": "Physiotherapy",
+        "bool": false
+      },
       {
         "option": "Closed reduction",
         "bool": false
       },
       {
-        "option": "Serial casting",
-        "bool": true
-      },
-      {
-        "option": "Physiotherapy",
+        "option": "Open reduction",
         "bool": false
       },
       {
@@ -1344,26 +1371,26 @@
         "bool": false
       },
       {
-        "option": "Open reduction",
-        "bool": false
+        "option": "Serial casting",
+        "bool": true
       }
     ]
   },
   {
-    "id": 50,
+    "id": 51,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following statements about leflunomide is NOT true?",
     "answers": [
-      {
-        "option": "It can be safely used in pregnancy",
-        "bool": true
-      },
       {
         "option": "It can be taken orally",
         "bool": false
       },
       {
-        "option": "It is unsafe for use in patients with liver disease",
+        "option": "It can be safely used in pregnancy",
+        "bool": true
+      },
+      {
+        "option": "It is used to treat rheumatoid arthritis",
         "bool": false
       },
       {
@@ -1371,22 +1398,22 @@
         "bool": false
       },
       {
-        "option": "It is used to treat rheumatoid arthritis",
+        "option": "It is unsafe for use in patients with liver disease",
         "bool": false
       }
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "info": "4th-year/orthopedics/2018",
     "question": "N-acetyl-p-benzoquinone imine (NAPQI) is a hepatic metabolite of which nonsteroidal anti-inflammatory drug (NSAID)?",
     "answers": [
       {
-        "option": "Diclofenac",
+        "option": "Celecoxib",
         "bool": false
       },
       {
-        "option": "Celecoxib",
+        "option": "Diclofenac",
         "bool": false
       },
       {
@@ -1394,38 +1421,11 @@
         "bool": false
       },
       {
-        "option": "Indomethacin",
-        "bool": false
-      },
-      {
         "option": "Acetaminophen",
         "bool": true
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "info": "4th-year/orthopedics/2018",
-    "question": "Which of the following techniques is most effective at killing microorganisms in water, along with their ova or cysts?",
-    "answers": [
-      {
-        "option": "Simple deamination",
-        "bool": false
       },
       {
-        "option": "Super amination followed by deamination",
-        "bool": false
-      },
-      {
-        "option": "Superchlorination followed by dechlorination",
-        "bool": true
-      },
-      {
-        "option": "Simple chlorination",
-        "bool": false
-      },
-      {
-        "option": "Super dechlorination followed by chlorination",
+        "option": "Indomethacin",
         "bool": false
       }
     ]
@@ -1433,12 +1433,35 @@
   {
     "id": 53,
     "info": "4th-year/orthopedics/2018",
-    "question": "Which of the following is the best first step of management for osteoarthritis?",
+    "question": "Which of the following techniques is most effective at killing microorganisms in water, along with their ova or cysts?",
     "answers": [
       {
-        "option": "Anti-TNF therapy",
+        "option": "Super dechlorination followed by chlorination",
         "bool": false
       },
+      {
+        "option": "Simple chlorination",
+        "bool": false
+      },
+      {
+        "option": "Superchlorination followed by dechlorination",
+        "bool": true
+      },
+      {
+        "option": "Simple deamination",
+        "bool": false
+      },
+      {
+        "option": "Superamination followed by deamination",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "4th-year/orthopedics/2018",
+    "question": "Which of the following is the best first step of management for osteoarthritis?",
+    "answers": [
       {
         "option": "Bisphosphonates",
         "bool": false
@@ -1448,23 +1471,27 @@
         "bool": false
       },
       {
-        "option": "Joint replacement",
+        "option": "Weight loss and mild exercise",
+        "bool": true
+      },
+      {
+        "option": "Anti-TNF therapy",
         "bool": false
       },
       {
-        "option": "Weight loss and mild exercise",
-        "bool": true
+        "option": "Joint replacement",
+        "bool": false
       }
     ]
   },
   {
-    "id": 54,
+    "id": 55,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is the best investigation to determine the causative organism in a patient with osteomyelitis?",
     "answers": [
       {
-        "option": "ESR and CRP",
-        "bool": false
+        "option": "Bone biopsy or aspiration with culture",
+        "bool": true
       },
       {
         "option": "CT scan",
@@ -1475,22 +1502,22 @@
         "bool": false
       },
       {
-        "option": "MRI",
+        "option": "ESR and CRP",
         "bool": false
       },
       {
-        "option": "Bone biopsy or aspiration with culture",
-        "bool": true
+        "option": "MRI",
+        "bool": false
       }
     ]
   },
   {
-    "id": 55,
+    "id": 56,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is a uricosuric agent?",
     "answers": [
       {
-        "option": "Glucocorticoids",
+        "option": "Febuxostat",
         "bool": false
       },
       {
@@ -1498,21 +1525,21 @@
         "bool": true
       },
       {
-        "option": "Colchicine",
-        "bool": false
-      },
-      {
         "option": "Allopurinol",
         "bool": false
       },
       {
-        "option": "Febuxostat",
+        "option": "Glucocorticoids",
+        "bool": false
+      },
+      {
+        "option": "Colchicine",
         "bool": false
       }
     ]
   },
   {
-    "id": 56,
+    "id": 57,
     "info": "4th-year/orthopedics/2018",
     "question": "A 69-year-old female presents to the outpatient clinic for follow-up of a vertebral fracture suffered recently after a fall. Her dual X-ray absorptiometry (DEXA) scan reveals a T-score of -2.8. She complains about insignificant pain relief with the medications she was previously prescribed. The doctor prescribes her a drug that is known to decrease the pain associated with vertebral fractures. Which of the following is this drug most likely to be?",
     "answers": [
@@ -1521,7 +1548,7 @@
         "bool": false
       },
       {
-        "option": "Teriparatide",
+        "option": "Sevelamer",
         "bool": false
       },
       {
@@ -1529,44 +1556,44 @@
         "bool": true
       },
       {
+        "option": "Teriparatide",
+        "bool": false
+      },
+      {
         "option": "Alendronate",
-        "bool": false
-      },
-      {
-        "option": "Sevelamer",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "info": "4th-year/orthopedics/2018",
-    "question": "In osteomyelitis, what is the new bone formed around the infected bone called?",
-    "answers": [
-      {
-        "option": "Involucrum",
-        "bool": true
-      },
-      {
-        "option": "Cortical bone",
-        "bool": false
-      },
-      {
-        "option": "Sequestrum",
-        "bool": false
-      },
-      {
-        "option": "Cartilaginous bone",
-        "bool": false
-      },
-      {
-        "option": "Scar",
         "bool": false
       }
     ]
   },
   {
     "id": 58,
+    "info": "4th-year/orthopedics/2018",
+    "question": "In osteomyelitis, what is the new bone formed around the infected bone called?",
+    "answers": [
+      {
+        "option": "Cartilaginous bone",
+        "bool": false
+      },
+      {
+        "option": "Cortical bone",
+        "bool": false
+      },
+      {
+        "option": "Scar",
+        "bool": false
+      },
+      {
+        "option": "Involucrum",
+        "bool": true
+      },
+      {
+        "option": "Sequestrum",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 59,
     "info": "4th-year/orthopedics/2018",
     "question": "What is the most common cause of primary osteoarthritis?",
     "answers": [
@@ -1575,46 +1602,19 @@
         "bool": false
       },
       {
-        "option": "Diabetes",
-        "bool": false
-      },
-      {
-        "option": "Obesity",
-        "bool": false
-      },
-      {
         "option": "Gender",
+        "bool": false
+      },
+      {
+        "option": "Diabetes",
         "bool": false
       },
       {
         "option": "Idiopathic",
         "bool": true
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "info": "4th-year/orthopedics/2018",
-    "question": "A 2-year-old boy has presented with multiple fractures and blue sclera. His brother has a similar condition. What is your diagnosis?",
-    "answers": [
-      {
-        "option": "Marfan Syndrome",
-        "bool": false
       },
       {
-        "option": "Osteogenesis imperfecta",
-        "bool": true
-      },
-      {
-        "option": "Osteitis deformans",
-        "bool": false
-      },
-      {
-        "option": "Achondroplasia",
-        "bool": false
-      },
-      {
-        "option": "Hurler syndrome",
+        "option": "Obesity",
         "bool": false
       }
     ]
@@ -1622,32 +1622,59 @@
   {
     "id": 60,
     "info": "4th-year/orthopedics/2018",
-    "question": "An X-ray of a patient shows a distal radius fracture with volar displacement. What is this fracture called?",
+    "question": "A 2-year-old boy has presented with multiple fractures and blue sclera. His brother has a similar condition. What is your diagnosis?",
     "answers": [
       {
-        "option": "Montaggiea fracture",
+        "option": "Osteitis deformans",
         "bool": false
       },
       {
-        "option": "Galezzia fracture",
-        "bool": false
-      },
-      {
-        "option": "Smith's fracture",
+        "option": "Osteogenesis imperfecta",
         "bool": true
       },
       {
-        "option": "Colle's fracture",
+        "option": "Hurler syndrome",
         "bool": false
       },
       {
-        "option": "Radius fracture",
+        "option": "Marfan Syndrome",
+        "bool": false
+      },
+      {
+        "option": "Achondroplasia",
         "bool": false
       }
     ]
   },
   {
     "id": 61,
+    "info": "4th-year/orthopedics/2018",
+    "question": "An X-ray of a patient shows a distal radius fracture with volar displacement. What is this fracture called?",
+    "answers": [
+      {
+        "option": "Smith's fracture",
+        "bool": true
+      },
+      {
+        "option": "Galezzia fracture",
+        "bool": false
+      },
+      {
+        "option": "Radius fracture",
+        "bool": false
+      },
+      {
+        "option": "Montaggiea fracture",
+        "bool": false
+      },
+      {
+        "option": "Colle's fracture",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
     "info": "4th-year/orthopedics/2018",
     "question": "Spilled teacup sign is seen in which of the following conditions?",
     "answers": [
@@ -1656,11 +1683,7 @@
         "bool": false
       },
       {
-        "option": "Pisiform fracture",
-        "bool": false
-      },
-      {
-        "option": "Hamate dislocation",
+        "option": "Scaphoid fracture",
         "bool": false
       },
       {
@@ -1668,13 +1691,17 @@
         "bool": true
       },
       {
-        "option": "Scaphoid fracture",
+        "option": "Pisiform fracture",
+        "bool": false
+      },
+      {
+        "option": "Hamate dislocation",
         "bool": false
       }
     ]
   },
   {
-    "id": 62,
+    "id": 63,
     "info": "4th-year/orthopedics/2018",
     "question": "A 20-year-old female presents with pain in the wrist and hand joints and a typical malar rash for the past 2 weeks. On investigation, urine is negative for proteins. Her past medical records show that she is a diagnosed patient with systemic lupus erythematosus (SLE). What treatment should be given to this patient?",
     "answers": [
@@ -1701,25 +1728,25 @@
     ]
   },
   {
-    "id": 63,
+    "id": 64,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is the most common carpal bone to be fractured?",
     "answers": [
-      {
-        "option": "Lunate",
-        "bool": false
-      },
-      {
-        "option": "Scaphoid",
-        "bool": true
-      },
       {
         "option": "Pisiform",
         "bool": false
       },
       {
+        "option": "Lunate",
+        "bool": false
+      },
+      {
         "option": "Capitate",
         "bool": false
+      },
+      {
+        "option": "Scaphoid",
+        "bool": true
       },
       {
         "option": "Hamate",
@@ -1728,12 +1755,12 @@
     ]
   },
   {
-    "id": 64,
+    "id": 65,
     "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is the most common type of chondrosarcoma?",
     "answers": [
       {
-        "option": "Mesenchymal chondrosarcoma",
+        "option": "Dedifferentiated chondrosarcoma",
         "bool": false
       },
       {
@@ -1741,42 +1768,15 @@
         "bool": false
       },
       {
-        "option": "Clear cell chondrosarcoma",
-        "bool": false
-      },
-      {
         "option": "Conventional chondrosarcoma",
         "bool": true
       },
       {
-        "option": "Dedifferentiated chondrosarcoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "info": "4th-year/orthopedics/2018",
-    "question": "What of the following is referred to as a \"Gamekeeper\u2019s thumb\"?",
-    "answers": [
-      {
-        "option": "Injury to ulnar collateral ligament",
-        "bool": true
-      },
-      {
-        "option": "Bennett's fracture",
+        "option": "Mesenchymal chondrosarcoma",
         "bool": false
       },
       {
-        "option": "Galeazzi's fracture",
-        "bool": false
-      },
-      {
-        "option": "Monteggia's fracture",
-        "bool": false
-      },
-      {
-        "option": "Fracture of the thumb phalanges",
+        "option": "Clear cell chondrosarcoma",
         "bool": false
       }
     ]
@@ -1784,10 +1784,37 @@
   {
     "id": 66,
     "info": "4th-year/orthopedics/2018",
+    "question": "What of the following is referred to as a \"Gamekeeper’s thumb\"?",
+    "answers": [
+      {
+        "option": "Fracture of the thumb phalanges",
+        "bool": false
+      },
+      {
+        "option": "Galeazzi's fracture",
+        "bool": false
+      },
+      {
+        "option": "Injury to ulnar collateral ligament",
+        "bool": true
+      },
+      {
+        "option": "Monteggia's fracture",
+        "bool": false
+      },
+      {
+        "option": "Bennett's fracture",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "4th-year/orthopedics/2018",
     "question": "Which of the following is the most common complication of talus neck fracture?",
     "answers": [
       {
-        "option": "Nonunion",
+        "option": "Tibiotalar arthritis",
         "bool": false
       },
       {
@@ -1795,21 +1822,21 @@
         "bool": true
       },
       {
+        "option": "Subtalar arthritis",
+        "bool": false
+      },
+      {
         "option": "Varus malunion",
         "bool": false
       },
       {
-        "option": "Tibiotalar arthritis",
-        "bool": false
-      },
-      {
-        "option": "Subtalar arthritis",
+        "option": "Nonunion",
         "bool": false
       }
     ]
   },
   {
-    "id": 67,
+    "id": 68,
     "info": "4th-year/orthopedics/2018",
     "question": "Which disease is also called \"degenerative joint disease\"?",
     "answers": [
@@ -1818,34 +1845,34 @@
         "bool": false
       },
       {
-        "option": "Osteoarthritis",
-        "bool": true
+        "option": "Ankylosing spondylitis",
+        "bool": false
       },
       {
-        "option": "Pseudogout",
-        "bool": false
+        "option": "Osteoarthritis",
+        "bool": true
       },
       {
         "option": "Osteoporosis",
         "bool": false
       },
       {
-        "option": "Ankylosing spondylitis",
+        "option": "Pseudogout",
         "bool": false
       }
     ]
   },
   {
-    "id": 68,
+    "id": 69,
     "info": "4th-year/orthopedics/2018",
     "question": "Which one of the following is the most common extra-articular manifestation of rheumatoid arthritis?",
     "answers": [
       {
-        "option": "Scleromalacia",
+        "option": "Keratoconjunctivitis sicca",
         "bool": false
       },
       {
-        "option": "Felty's syndrome",
+        "option": "Glomerulonephritis",
         "bool": false
       },
       {
@@ -1853,17 +1880,17 @@
         "bool": true
       },
       {
-        "option": "Glomerulonephritis",
+        "option": "Scleromalacia",
         "bool": false
       },
       {
-        "option": "Keratoconjunctivitis sicca",
+        "option": "Felty's syndrome",
         "bool": false
       }
     ]
   },
   {
-    "id": 69,
+    "id": 70,
     "info": "4th-year/orthopedics/2018",
     "question": "Which ocular manifestation is commonly associated with ankylosing spondylitis?",
     "answers": [
@@ -1872,11 +1899,11 @@
         "bool": false
       },
       {
-        "option": "Scleritis",
+        "option": "Glaucoma",
         "bool": false
       },
       {
-        "option": "Conjunctivitis",
+        "option": "Scleritis",
         "bool": false
       },
       {
@@ -1884,34 +1911,7 @@
         "bool": true
       },
       {
-        "option": "Glaucoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "info": "4th-year/orthopedics/2018",
-    "question": "What is the most common joint involvement in ankylosing spondylitis?",
-    "answers": [
-      {
-        "option": "Sacroiliac joint",
-        "bool": true
-      },
-      {
-        "option": "Hip joint",
-        "bool": false
-      },
-      {
-        "option": "Shoulder joint",
-        "bool": false
-      },
-      {
-        "option": "Vertebral joint",
-        "bool": false
-      },
-      {
-        "option": "Knee joint",
+        "option": "Conjunctivitis",
         "bool": false
       }
     ]
@@ -1919,26 +1919,26 @@
   {
     "id": 71,
     "info": "4th-year/orthopedics/2018",
-    "question": "What type of facial rash is commonly seen with SLE?",
+    "question": "What is the most common joint involvement in ankylosing spondylitis?",
     "answers": [
       {
-        "option": "T-zone rash",
+        "option": "Knee joint",
         "bool": false
       },
       {
-        "option": "Heliotrope rash",
+        "option": "Shoulder joint",
         "bool": false
       },
       {
-        "option": "Perioral rash",
-        "bool": false
-      },
-      {
-        "option": "Malar rash",
+        "option": "Sacroiliac joint",
         "bool": true
       },
       {
-        "option": "Dermatomal rash",
+        "option": "Vertebral joint",
+        "bool": false
+      },
+      {
+        "option": "Hip joint",
         "bool": false
       }
     ]
@@ -1946,18 +1946,37 @@
   {
     "id": 72,
     "info": "4th-year/orthopedics/2018",
+    "question": "What type of facial rash is commonly seen with SLE?",
+    "answers": [
+      {
+        "option": "Heliotrope rash",
+        "bool": false
+      },
+      {
+        "option": "Malar rash",
+        "bool": true
+      },
+      {
+        "option": "Perioral rash",
+        "bool": false
+      },
+      {
+        "option": "Dermatomal rash",
+        "bool": false
+      },
+      {
+        "option": "T-zone rash",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "4th-year/orthopedics/2018",
     "question": "Which one of these is the most specific test for rheumatoid arthritis?",
     "answers": [
       {
         "option": "Anti-neutrophil cytoplasmic antibodies",
-        "bool": false
-      },
-      {
-        "option": "Cryoglobulins",
-        "bool": false
-      },
-      {
-        "option": "Anti-nuclear antibodies",
         "bool": false
       },
       {
@@ -1967,18 +1986,22 @@
       {
         "option": "Rheumatoid factor",
         "bool": false
+      },
+      {
+        "option": "Cryoglobulins",
+        "bool": false
+      },
+      {
+        "option": "Anti-nuclear antibodies",
+        "bool": false
       }
     ]
   },
   {
-    "id": 73,
+    "id": 74,
     "info": "4th-year/orthopedics/2018",
     "question": "Which investigations will be most useful in juvenile idiopathic arthritis?",
     "answers": [
-      {
-        "option": "Joint aspiration",
-        "bool": false
-      },
       {
         "option": "Serum uric acid levels",
         "bool": false
@@ -1988,38 +2011,15 @@
         "bool": false
       },
       {
+        "option": "ANA, ESR and CRP",
+        "bool": true
+      },
+      {
         "option": "Anti-CCP and rheumatoid factor",
         "bool": false
       },
       {
-        "option": "ANA, ESR and CRP",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "4th-year/orthopedics/2018",
-    "question": "Which pair of drugs is not advisable in a patient with rheumatoid arthritis?",
-    "answers": [
-      {
-        "option": "Corticosteroids and methotrexate",
-        "bool": false
-      },
-      {
-        "option": "Infliximab and etanercept",
-        "bool": true
-      },
-      {
-        "option": "Methotrexate and hydroxychloroquine",
-        "bool": false
-      },
-      {
-        "option": "Methotrexate and infliximab",
-        "bool": false
-      },
-      {
-        "option": "Methotrexate and leflunomide",
+        "option": "Joint aspiration",
         "bool": false
       }
     ]
@@ -2027,26 +2027,26 @@
   {
     "id": 75,
     "info": "4th-year/orthopedics/2018",
-    "question": "Which of the following is the most common adverse effect of methotrexate?",
+    "question": "Which pair of drugs is not advisable in a patient with rheumatoid arthritis?",
     "answers": [
       {
-        "option": "Hepatotoxicity and cardiac problems",
-        "bool": false
-      },
-      {
-        "option": "Alopecia and fever",
-        "bool": false
-      },
-      {
-        "option": "Mucosal ulcers and nausea",
+        "option": "Infliximab and etanercept",
         "bool": true
       },
       {
-        "option": "Fatigue and infections",
+        "option": "Methotrexate and infliximab",
         "bool": false
       },
       {
-        "option": "Fever and fatigue",
+        "option": "Methotrexate and hydroxychloroquine",
+        "bool": false
+      },
+      {
+        "option": "Methotrexate and leflunomide",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroids and methotrexate",
         "bool": false
       }
     ]
@@ -2054,8 +2054,39 @@
   {
     "id": 76,
     "info": "4th-year/orthopedics/2018",
+    "question": "Which of the following is the most common adverse effect of methotrexate?",
+    "answers": [
+      {
+        "option": "Fatigue and infections",
+        "bool": false
+      },
+      {
+        "option": "Fever and fatigue",
+        "bool": false
+      },
+      {
+        "option": "Mucosal ulcers and nausea",
+        "bool": true
+      },
+      {
+        "option": "Hepatotoxicity and cardiac problems",
+        "bool": false
+      },
+      {
+        "option": "Alopecia and fever",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "4th-year/orthopedics/2018",
     "question": "A 58-year-old female presents with an inter-trochanteric fracture of the femur. Which of the following is the most appropriate treatment for her?",
     "answers": [
+      {
+        "option": "Plaster cast and antibiotics",
+        "bool": false
+      },
       {
         "option": "Dynamic hip screw (DHS)",
         "bool": true
@@ -2065,42 +2096,11 @@
         "bool": false
       },
       {
-        "option": "Plaster cast and antibiotics",
+        "option": "Hemi-arthroplasty",
         "bool": false
       },
       {
         "option": "Internal fixation",
-        "bool": false
-      },
-      {
-        "option": "Hemi-arthroplasty",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "info": "4th-year/orthopedics/2018",
-    "question": "Which one of the following is not a cutaneous manifestation of systemic lupus erythematosus?",
-    "answers": [
-      {
-        "option": "Discoid rash",
-        "bool": false
-      },
-      {
-        "option": "Alopecia",
-        "bool": false
-      },
-      {
-        "option": "Raynaud's phenomenon",
-        "bool": true
-      },
-      {
-        "option": "Malar rash",
-        "bool": false
-      },
-      {
-        "option": "Oral ulcers",
         "bool": false
       }
     ]
@@ -2108,10 +2108,37 @@
   {
     "id": 78,
     "info": "4th-year/orthopedics/2018",
+    "question": "Which one of the following is not a cutaneous manifestation of systemic lupus erythematosus?",
+    "answers": [
+      {
+        "option": "Malar rash",
+        "bool": false
+      },
+      {
+        "option": "Oral ulcers",
+        "bool": false
+      },
+      {
+        "option": "Raynaud's phenomenon",
+        "bool": true
+      },
+      {
+        "option": "Alopecia",
+        "bool": false
+      },
+      {
+        "option": "Discoid rash",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "4th-year/orthopedics/2018",
     "question": "What is the drug of choice in a patient with rheumatoid arthritis?",
     "answers": [
       {
-        "option": "Anakinra",
+        "option": "Infliximab",
         "bool": false
       },
       {
@@ -2119,31 +2146,35 @@
         "bool": false
       },
       {
-        "option": "Infliximab",
-        "bool": false
-      },
-      {
-        "option": "Sulfasalazine",
+        "option": "Anakinra",
         "bool": false
       },
       {
         "option": "Methotrexate",
         "bool": true
+      },
+      {
+        "option": "Sulfasalazine",
+        "bool": false
       }
     ]
   },
   {
-    "id": 79,
+    "id": 80,
     "info": "4th-year/orthopedics/2018",
     "question": "What is the most common management of clavicular fractures?",
     "answers": [
       {
-        "option": "Conservative",
-        "bool": true
-      },
-      {
         "option": "Plating",
         "bool": false
+      },
+      {
+        "option": "Nailing",
+        "bool": false
+      },
+      {
+        "option": "Conservative",
+        "bool": true
       },
       {
         "option": "Wiring",
@@ -2152,26 +2183,14 @@
       {
         "option": "Screwing",
         "bool": false
-      },
-      {
-        "option": "Nailing",
-        "bool": false
       }
     ]
   },
   {
-    "id": 80,
+    "id": 81,
     "info": "4th-year/orthopedics/2018",
     "question": "What is the mechanism of calcium regulation exerted by parathyroid hormone?",
     "answers": [
-      {
-        "option": "Increasing osteoclast activity and bone resorption",
-        "bool": true
-      },
-      {
-        "option": "Inhibiting synthesis of calcitriol by the renal tubules",
-        "bool": false
-      },
       {
         "option": "Increasing osteoblast activity",
         "bool": false
@@ -2181,34 +2200,15 @@
         "bool": false
       },
       {
-        "option": "Decreasing osteoblast activity",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "info": "4th-year/orthopedics/2018",
-    "question": "Which of the following diseases is associated with Gottron's papules and heliotrope rash?",
-    "answers": [
-      {
-        "option": "Dermatomyositis",
+        "option": "Increasing osteoclast activity and bone resorption",
         "bool": true
       },
       {
-        "option": "Systemic lupus erythematosus",
+        "option": "Inhibiting synthesis of calcitriol by the renal tubules",
         "bool": false
       },
       {
-        "option": "Rheumatoid arthritis",
-        "bool": false
-      },
-      {
-        "option": "Polymyositis",
-        "bool": false
-      },
-      {
-        "option": "Osteoarthritis",
+        "option": "Decreasing osteoblast activity",
         "bool": false
       }
     ]
@@ -2219,7 +2219,7 @@
     "question": "Which of the following tumors arises from the diaphysis of bone?",
     "answers": [
       {
-        "option": "Chondroblastoma",
+        "option": "Osteosarcoma",
         "bool": false
       },
       {
@@ -2227,7 +2227,7 @@
         "bool": true
       },
       {
-        "option": "Osteosarcoma",
+        "option": "Chondroblastoma",
         "bool": false
       },
       {
@@ -2246,24 +2246,51 @@
     "question": "A force within normal limits is exerted repeatedly leading to a fracture. What is this type of fracture called?",
     "answers": [
       {
-        "option": "Comminuted fracture",
-        "bool": false
-      },
-      {
         "option": "Greenstick fracture",
         "bool": false
       },
       {
-        "option": "Traumatic fracture",
+        "option": "Comminuted fracture",
         "bool": false
+      },
+      {
+        "option": "Stress fracture",
+        "bool": true
       },
       {
         "option": "Pathological fracture",
         "bool": false
       },
       {
-        "option": "Stress fracture",
+        "option": "Traumatic fracture",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "4th-year/orthopedics/2018",
+    "question": "Which of the following diseases is associated with Gottron's papules and heliotrope rash?",
+    "answers": [
+      {
+        "option": "Dermatomyositis",
         "bool": true
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": false
+      },
+      {
+        "option": "Osteoarthritis",
+        "bool": false
+      },
+      {
+        "option": "Polymyositis",
+        "bool": false
+      },
+      {
+        "option": "Systemic lupus erythematosus",
+        "bool": false
       }
     ]
   }

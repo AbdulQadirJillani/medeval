@@ -1,15 +1,73 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/head-&-neck/2019",
+    "info": "2nd-year/head-and-neck/2019",
+    "question": "Chewing of tobacco leads to oral cancer mostly in:",
+    "answers": [
+      {
+        "option": "Bangladesh",
+        "bool": false
+      },
+      {
+        "option": "North America",
+        "bool": false
+      },
+      {
+        "option": "China",
+        "bool": false
+      },
+      {
+        "option": "South America",
+        "bool": false
+      },
+      {
+        "option": "India",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/head-and-neck/2019",
+    "question": "Anterior fontanelle closes at what age?",
+    "answers": [
+      {
+        "option": "4 to 5 months",
+        "bool": false
+      },
+      {
+        "option": "After 2 years",
+        "bool": false
+      },
+      {
+        "option": "6 to 7 years",
+        "bool": false
+      },
+      {
+        "option": "9 to 18 months",
+        "bool": true
+      },
+      {
+        "option": "1 to 2 months",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A clinician examines the extrinsic musculature of the eyes of a 50-year-old female patient. All extraocular muscles are functioning fine except one. Which of the following muscles is affected based on the action mentioned?",
     "answers": [
       {
-        "option": "Medial rectus- looks medially",
+        "option": "Inferior rectus-looks downwards",
         "bool": false
       },
       {
         "option": "Superior rectus-looks medially and upwards",
+        "bool": false
+      },
+      {
+        "option": "Medial rectus- looks medially",
         "bool": false
       },
       {
@@ -19,24 +77,16 @@
       {
         "option": "Superior oblique-looks medially and upwards",
         "bool": true
-      },
-      {
-        "option": "Inferior rectus-looks downwards",
-        "bool": false
       }
     ]
   },
   {
-    "id": 1,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 3,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is a feature of complete anterior cleft anomaly?",
     "answers": [
       {
-        "option": "Cleft extends through maxilla and hard palate",
-        "bool": false
-      },
-      {
-        "option": "Cleft extends through lips and alveolar part of maxilla",
+        "option": "Cleft extends through lips and alveolar part of maxilla to the incisive fossa on both sides",
         "bool": false
       },
       {
@@ -48,24 +98,20 @@
         "bool": true
       },
       {
-        "option": "Cleft extends through lips and alveolar part of maxilla to the incisive fossa on both sides",
+        "option": "Cleft extends through maxilla and hard palate",
+        "bool": false
+      },
+      {
+        "option": "Cleft extends through lips and alveolar part of maxilla",
         "bool": false
       }
     ]
   },
   {
-    "id": 2,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 4,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A surgeon, while performing surgery for removal of lymph nodes from the posterior triangle of the neck, is liable to damage which one of the following nerves?",
     "answers": [
-      {
-        "option": "Lesser occipital nerve",
-        "bool": false
-      },
-      {
-        "option": "Maxillary nerve",
-        "bool": false
-      },
       {
         "option": "Supraclavicular nerve",
         "bool": false
@@ -75,26 +121,34 @@
         "bool": true
       },
       {
+        "option": "Maxillary nerve",
+        "bool": false
+      },
+      {
         "option": "Greater auricular nerve",
+        "bool": false
+      },
+      {
+        "option": "Lesser occipital nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 3,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 5,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect regarding the features of the pigmented epithelium layer of the retina?",
     "answers": [
-      {
-        "option": "It contains stores of vitamin A",
-        "bool": false
-      },
       {
         "option": "It consists of simple columnar epithelium",
         "bool": false
       },
       {
-        "option": "It strongly adheres to Bruch's membrane of choroid",
+        "option": "It consists of stratified columnar epithelium",
+        "bool": true
+      },
+      {
+        "option": "It contains stores of vitamin A",
         "bool": false
       },
       {
@@ -102,26 +156,18 @@
         "bool": false
       },
       {
-        "option": "It consists of stratified columnar epithelium",
-        "bool": true
+        "option": "It strongly adheres to Bruch's membrane of choroid",
+        "bool": false
       }
     ]
   },
   {
-    "id": 4,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 6,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is not a feature of a typical cervical vertebra?",
     "answers": [
       {
-        "option": "Bifid spinous process",
-        "bool": false
-      },
-      {
-        "option": "Transverse foramen",
-        "bool": false
-      },
-      {
-        "option": "Triangular vertebral foramen",
+        "option": "Body",
         "bool": false
       },
       {
@@ -129,23 +175,31 @@
         "bool": true
       },
       {
-        "option": "Body",
+        "option": "Bifid spinous process",
+        "bool": false
+      },
+      {
+        "option": "Triangular vertebral foramen",
+        "bool": false
+      },
+      {
+        "option": "Transverse foramen",
         "bool": false
       }
     ]
   },
   {
-    "id": 5,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 7,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which bone has a major contribution to the formation of the nasal septum?",
     "answers": [
       {
-        "option": "Rostrum of sphenoid bone",
-        "bool": false
-      },
-      {
         "option": "Perpendicular plate of ethmoid bone",
         "bool": true
+      },
+      {
+        "option": "Rostrum of sphenoid bone",
+        "bool": false
       },
       {
         "option": "Maxillary palatine crest",
@@ -162,12 +216,20 @@
     ]
   },
   {
-    "id": 6,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 8,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is the most common location for a thyroglossal duct cyst?",
     "answers": [
       {
         "option": "Superior to hyoid bone",
+        "bool": false
+      },
+      {
+        "option": "Anterior to hyoid bone",
+        "bool": false
+      },
+      {
+        "option": "At the base of tongue",
         "bool": false
       },
       {
@@ -177,28 +239,20 @@
       {
         "option": "Superior mediastinum",
         "bool": false
-      },
-      {
-        "option": "At the base of tongue",
-        "bool": false
-      },
-      {
-        "option": "Anterior to hyoid bone",
-        "bool": false
       }
     ]
   },
   {
-    "id": 7,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 9,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A lesion of the optic chiasma causes which of the following conditions?",
     "answers": [
       {
-        "option": "Homonymous hemianopsia",
+        "option": "Homonymous contralateral hemianopsia",
         "bool": false
       },
       {
-        "option": "Loss of vision in the right eye",
+        "option": "Homonymous hemianopsia",
         "bool": false
       },
       {
@@ -206,35 +260,35 @@
         "bool": false
       },
       {
-        "option": "Heteronymous bitemporal hemianopsia",
-        "bool": true
+        "option": "Loss of vision in the right eye",
+        "bool": false
       },
       {
-        "option": "Homonymous contralateral hemianopsia",
-        "bool": false
+        "option": "Heteronymous bitemporal hemianopsia",
+        "bool": true
       }
     ]
   },
   {
-    "id": 8,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 10,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following muscles contributes to palatine aponeurosis?",
     "answers": [
       {
-        "option": "Stylopharyngeus",
+        "option": "Genioglossus",
         "bool": false
       },
       {
-        "option": "Genioglossus",
-        "bool": false
+        "option": "Tensor veli palatini",
+        "bool": true
       },
       {
         "option": "Palatoglossus",
         "bool": false
       },
       {
-        "option": "Tensor veli palatini",
-        "bool": true
+        "option": "Stylopharyngeus",
+        "bool": false
       },
       {
         "option": "Palatopharyngeus",
@@ -243,20 +297,16 @@
     ]
   },
   {
-    "id": 9,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 11,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is not a characteristic feature of circumvallate papillae?",
     "answers": [
       {
-        "option": "Mucous secretions are in the grooves around them",
-        "bool": true
-      },
-      {
-        "option": "They are surrounded by grooves",
+        "option": "They are 8-12 in number",
         "bool": false
       },
       {
-        "option": "They are 8-12 in number",
+        "option": "They are supplied by the glossopharyngeal nerve",
         "bool": false
       },
       {
@@ -264,18 +314,22 @@
         "bool": false
       },
       {
-        "option": "They are supplied by the glossopharyngeal nerve",
+        "option": "They are surrounded by grooves",
         "bool": false
+      },
+      {
+        "option": "Mucous secretions are in the grooves around them",
+        "bool": true
       }
     ]
   },
   {
-    "id": 10,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 12,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Bell palsy involves the lesion of which nerve?",
     "answers": [
       {
-        "option": "12th",
+        "option": "3rd",
         "bool": false
       },
       {
@@ -283,32 +337,24 @@
         "bool": false
       },
       {
-        "option": "3rd",
+        "option": "12th",
+        "bool": false
+      },
+      {
+        "option": "6th",
         "bool": false
       },
       {
         "option": "7th",
         "bool": true
-      },
-      {
-        "option": "6th",
-        "bool": false
       }
     ]
   },
   {
-    "id": 11,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 13,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The auditory ossicles articulate through which kind of joint?",
     "answers": [
-      {
-        "option": "Synovial joint",
-        "bool": true
-      },
-      {
-        "option": "Cartilaginous joint",
-        "bool": false
-      },
       {
         "option": "Fibrous joint",
         "bool": false
@@ -318,18 +364,26 @@
         "bool": false
       },
       {
+        "option": "Cartilaginous joint",
+        "bool": false
+      },
+      {
+        "option": "Synovial joint",
+        "bool": true
+      },
+      {
         "option": "Syndesmoses",
         "bool": false
       }
     ]
   },
   {
-    "id": 12,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 14,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following branches of the maxillary artery passes through the foramen spinosum?",
     "answers": [
       {
-        "option": "Greater palatine artery",
+        "option": "Accessory meningeal artery",
         "bool": false
       },
       {
@@ -337,11 +391,11 @@
         "bool": false
       },
       {
-        "option": "Accessory meningeal artery",
+        "option": "Sphenopalatine artery",
         "bool": false
       },
       {
-        "option": "Sphenopalatine artery",
+        "option": "Greater palatine artery",
         "bool": false
       },
       {
@@ -351,10 +405,14 @@
     ]
   },
   {
-    "id": 13,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 15,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which branch of the cervical plexus does not supply skin?",
     "answers": [
+      {
+        "option": "Lesser occipital nerve",
+        "bool": false
+      },
       {
         "option": "Transverse cervical nerve",
         "bool": false
@@ -364,22 +422,18 @@
         "bool": false
       },
       {
-        "option": "Branches from C1",
-        "bool": true
-      },
-      {
-        "option": "Lesser occipital nerve",
-        "bool": false
-      },
-      {
         "option": "Supraclavicular nerve",
         "bool": false
+      },
+      {
+        "option": "Branches from C1",
+        "bool": true
       }
     ]
   },
   {
-    "id": 14,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 16,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A student is concerned about a muscle in the neck which is related to the borders of both anterior and posterior triangles. Which muscle is this?",
     "answers": [
       {
@@ -387,11 +441,11 @@
         "bool": true
       },
       {
-        "option": "Trapezius",
+        "option": "Rectus capitis",
         "bool": false
       },
       {
-        "option": "Rectus capitis",
+        "option": "Digastric",
         "bool": false
       },
       {
@@ -399,18 +453,18 @@
         "bool": false
       },
       {
-        "option": "Digastric",
+        "option": "Trapezius",
         "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 17,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A young patient presents to the outpatient department with an ulcer on the tongue. Which of the following lymph nodes will most likely be enlarged?",
     "answers": [
       {
-        "option": "Parotid",
+        "option": "Deep cervical",
         "bool": false
       },
       {
@@ -426,26 +480,18 @@
         "bool": false
       },
       {
-        "option": "Deep cervical",
+        "option": "Parotid",
         "bool": false
       }
     ]
   },
   {
-    "id": 16,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 18,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Where is the primary auditory cortex located?",
     "answers": [
       {
-        "option": "Temporal lobe",
-        "bool": true
-      },
-      {
         "option": "Medulla",
-        "bool": false
-      },
-      {
-        "option": "Frontal lobe",
         "bool": false
       },
       {
@@ -455,24 +501,32 @@
       {
         "option": "Parietal lobe",
         "bool": false
+      },
+      {
+        "option": "Temporal lobe",
+        "bool": true
+      },
+      {
+        "option": "Frontal lobe",
+        "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 19,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Deflection of the stereocilia away from the kinocilium in the cochlea causes which of the following?",
     "answers": [
+      {
+        "option": "Opening of chloride channels",
+        "bool": false
+      },
       {
         "option": "Opening of sodium channels",
         "bool": false
       },
       {
         "option": "Closing of sodium channels",
-        "bool": false
-      },
-      {
-        "option": "Opening of chloride channels",
         "bool": false
       },
       {
@@ -486,16 +540,20 @@
     ]
   },
   {
-    "id": 18,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 20,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A patient presents with his right eye deviated down and out. On examination, there is a double vision on moving the eye to the right. Which nerve is damaged?",
     "answers": [
       {
-        "option": "Right ophthalmic nerve",
-        "bool": false
+        "option": "Right oculomotor nerve",
+        "bool": true
       },
       {
         "option": "Left oculomotor nerve",
+        "bool": false
+      },
+      {
+        "option": "Left trochlear nerve",
         "bool": false
       },
       {
@@ -503,26 +561,26 @@
         "bool": false
       },
       {
-        "option": "Right oculomotor nerve",
-        "bool": true
-      },
-      {
-        "option": "Left trochlear nerve",
+        "option": "Right ophthalmic nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 19,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 21,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The vestibular nucleus helps maintain body balance through connections with which of the following?",
     "answers": [
       {
-        "option": "Medulla",
+        "option": "Pons",
         "bool": false
       },
       {
-        "option": "Pons",
+        "option": "Cerebellum",
+        "bool": true
+      },
+      {
+        "option": "Midbrain",
         "bool": false
       },
       {
@@ -530,23 +588,23 @@
         "bool": false
       },
       {
-        "option": "Midbrain",
+        "option": "Medulla",
         "bool": false
-      },
-      {
-        "option": "Cerebellum",
-        "bool": true
       }
     ]
   },
   {
-    "id": 20,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 22,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The intrinsic muscles of the larynx are derivatives of which pharyngeal arch?",
     "answers": [
       {
         "option": "6th",
         "bool": true
+      },
+      {
+        "option": "1st",
+        "bool": false
       },
       {
         "option": "3rd",
@@ -557,27 +615,27 @@
         "bool": false
       },
       {
-        "option": "1st",
-        "bool": false
-      },
-      {
         "option": "4th",
         "bool": false
       }
     ]
   },
   {
-    "id": 21,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 23,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Boundaries of the pyriform aperture are formed by which of the following bones?",
     "answers": [
       {
-        "option": "Nasal and maxillary",
-        "bool": true
+        "option": "Maxillary and zygomatic",
+        "bool": false
       },
       {
         "option": "Maxillary and sphenoid",
         "bool": false
+      },
+      {
+        "option": "Nasal and maxillary",
+        "bool": true
       },
       {
         "option": "Nasal and frontal",
@@ -586,20 +644,16 @@
       {
         "option": "Frontal and maxillary",
         "bool": false
-      },
-      {
-        "option": "Maxillary and zygomatic",
-        "bool": false
       }
     ]
   },
   {
-    "id": 22,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 24,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is not a branch of the facial artery?",
     "answers": [
       {
-        "option": "Submental artery",
+        "option": "Lateral nasal artery",
         "bool": false
       },
       {
@@ -615,26 +669,22 @@
         "bool": false
       },
       {
-        "option": "Lateral nasal artery",
+        "option": "Submental artery",
         "bool": false
       }
     ]
   },
   {
-    "id": 23,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 25,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The transverse facial artery is a branch of which of the following?",
     "answers": [
       {
-        "option": "Maxillary artery",
+        "option": "Facial artery",
         "bool": false
       },
       {
         "option": "Posterior auricular artery",
-        "bool": false
-      },
-      {
-        "option": "Facial artery",
         "bool": false
       },
       {
@@ -644,24 +694,28 @@
       {
         "option": "Superficial temporal artery",
         "bool": true
+      },
+      {
+        "option": "Maxillary artery",
+        "bool": false
       }
     ]
   },
   {
-    "id": 24,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 26,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The lateral rectus muscle is supplied by which nerve?",
     "answers": [
-      {
-        "option": "Facial",
-        "bool": false
-      },
       {
         "option": "Oculomotor",
         "bool": false
       },
       {
-        "option": "Trochlear",
+        "option": "Abducens",
+        "bool": true
+      },
+      {
+        "option": "Facial",
         "bool": false
       },
       {
@@ -669,18 +723,22 @@
         "bool": false
       },
       {
-        "option": "Abducens",
-        "bool": true
+        "option": "Trochlear",
+        "bool": false
       }
     ]
   },
   {
-    "id": 25,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 27,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The carotid sinus is innervated by which of the following?",
     "answers": [
       {
         "option": "Trigeminal nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve",
         "bool": false
       },
       {
@@ -694,24 +752,20 @@
       {
         "option": "Maxillary nerve",
         "bool": false
-      },
-      {
-        "option": "Facial nerve",
-        "bool": false
       }
     ]
   },
   {
-    "id": 26,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 28,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which one of the following is not a tributary of the external jugular vein?",
     "answers": [
       {
-        "option": "Posterior auricular vein",
+        "option": "Suprascapular vein",
         "bool": false
       },
       {
-        "option": "Anterior jugular vein",
+        "option": "Posterior auricular vein",
         "bool": false
       },
       {
@@ -719,20 +773,28 @@
         "bool": false
       },
       {
-        "option": "Anterior branch of retromandibular vein",
-        "bool": true
+        "option": "Anterior jugular vein",
+        "bool": false
       },
       {
-        "option": "Suprascapular vein",
-        "bool": false
+        "option": "Anterior branch of retromandibular vein",
+        "bool": true
       }
     ]
   },
   {
-    "id": 27,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 29,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Extraocular muscles of the eye are chiefly supplied by which of the following?",
     "answers": [
+      {
+        "option": "Optic nerve",
+        "bool": false
+      },
+      {
+        "option": "Trigeminal nerve",
+        "bool": false
+      },
       {
         "option": "Abducens nerve",
         "bool": false
@@ -744,28 +806,16 @@
       {
         "option": "Trochlear nerve",
         "bool": false
-      },
-      {
-        "option": "Trigeminal nerve",
-        "bool": false
-      },
-      {
-        "option": "Optic nerve",
-        "bool": false
       }
     ]
   },
   {
-    "id": 28,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 30,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The rods and cones of the retina are part of which layer?",
     "answers": [
       {
         "option": "Inner nuclear layer",
-        "bool": false
-      },
-      {
-        "option": "Inner limiting membrane",
         "bool": false
       },
       {
@@ -777,14 +827,18 @@
         "bool": false
       },
       {
+        "option": "Inner limiting membrane",
+        "bool": false
+      },
+      {
         "option": "Inner plexiform layer",
         "bool": false
       }
     ]
   },
   {
-    "id": 29,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 31,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The rhombencephalic isthmus separates which parts of the brain?",
     "answers": [
       {
@@ -792,30 +846,30 @@
         "bool": false
       },
       {
-        "option": "Prosencephalon from the diencephalon",
+        "option": "Metencephalon from the myelencephalon",
         "bool": false
       },
       {
-        "option": "Metencephalon from the myelencephalon",
+        "option": "Rhombencephalon from the mesencephalon",
+        "bool": false
+      },
+      {
+        "option": "Prosencephalon from the diencephalon",
         "bool": false
       },
       {
         "option": "Mesencephalon from the metencephalon",
         "bool": true
-      },
-      {
-        "option": "Rhombencephalon from the mesencephalon",
-        "bool": false
       }
     ]
   },
   {
-    "id": 30,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 32,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "While turning the head from side to side, like when saying \"no\", the main movement occurs at which joint?",
     "answers": [
       {
-        "option": "Atlanto-occipital joint",
+        "option": "C2-C3",
         "bool": false
       },
       {
@@ -823,7 +877,7 @@
         "bool": true
       },
       {
-        "option": "C2-C3",
+        "option": "C1-C2",
         "bool": false
       },
       {
@@ -831,24 +885,16 @@
         "bool": false
       },
       {
-        "option": "C1-C2",
+        "option": "Atlanto-occipital joint",
         "bool": false
       }
     ]
   },
   {
-    "id": 31,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 33,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which facial nerve branches are present in the middle ear?",
     "answers": [
-      {
-        "option": "Chorda tympani and nerve to stapedius",
-        "bool": true
-      },
-      {
-        "option": "Chorda tympani and greater petrosal nerve",
-        "bool": false
-      },
       {
         "option": "Deep petrosal nerve",
         "bool": false
@@ -858,26 +904,30 @@
         "bool": false
       },
       {
+        "option": "Chorda tympani and nerve to stapedius",
+        "bool": true
+      },
+      {
         "option": "Greater petrosal nerve and nerve to stapedius",
+        "bool": false
+      },
+      {
+        "option": "Chorda tympani and greater petrosal nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 32,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 34,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is not a branch of the external carotid artery?",
     "answers": [
       {
-        "option": "Occipital artery",
-        "bool": false
-      },
-      {
-        "option": "Sphenopalatine artery",
-        "bool": false
-      },
-      {
         "option": "Facial artery",
+        "bool": false
+      },
+      {
+        "option": "Occipital artery",
         "bool": false
       },
       {
@@ -887,12 +937,16 @@
       {
         "option": "Maxillary artery",
         "bool": false
+      },
+      {
+        "option": "Sphenopalatine artery",
+        "bool": false
       }
     ]
   },
   {
-    "id": 33,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 35,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following nerves supplies the skin over the angle of the mandible?",
     "answers": [
       {
@@ -900,57 +954,61 @@
         "bool": false
       },
       {
-        "option": "Long thoracic nerve",
+        "option": "Lesser auricular nerve",
         "bool": false
       },
       {
-        "option": "Greater auricular nerve",
-        "bool": true
+        "option": "Long thoracic nerve",
+        "bool": false
       },
       {
         "option": "Mandibular nerve",
         "bool": false
       },
       {
-        "option": "Lesser auricular nerve",
-        "bool": false
+        "option": "Greater auricular nerve",
+        "bool": true
       }
     ]
   },
   {
-    "id": 34,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 36,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is the normal intraocular pressure (IOP) range?",
     "answers": [
+      {
+        "option": "12-20 mmHg",
+        "bool": true
+      },
       {
         "option": "5-10 mmHg",
         "bool": false
       },
       {
-        "option": "10-30 mmHg",
+        "option": "0-5 mmHg",
         "bool": false
-      },
-      {
-        "option": "12-20 mmHg",
-        "bool": true
       },
       {
         "option": "10-60 mmHg",
         "bool": false
       },
       {
-        "option": "0-5 mmHg",
+        "option": "10-30 mmHg",
         "bool": false
       }
     ]
   },
   {
-    "id": 35,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 37,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect regarding the composition of saliva?",
     "answers": [
       {
-        "option": "IgA antibodies secretion",
+        "option": "Contains proteins",
+        "bool": false
+      },
+      {
+        "option": "Mostly contains water",
         "bool": false
       },
       {
@@ -962,18 +1020,14 @@
         "bool": false
       },
       {
-        "option": "Mostly contains water",
-        "bool": false
-      },
-      {
-        "option": "Contains proteins",
+        "option": "IgA antibodies secretion",
         "bool": false
       }
     ]
   },
   {
-    "id": 36,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 38,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A young man had a car accident and came to the emergency room (ER) with a fracture of a facial bone that is unpaired. Which bone is involved?",
     "answers": [
       {
@@ -985,7 +1039,7 @@
         "bool": true
       },
       {
-        "option": "Zygomatic bone",
+        "option": "Nasal bone",
         "bool": false
       },
       {
@@ -993,26 +1047,18 @@
         "bool": false
       },
       {
-        "option": "Nasal bone",
+        "option": "Zygomatic bone",
         "bool": false
       }
     ]
   },
   {
-    "id": 37,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 39,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A patient presented with a fracture of the middle third of the clavicle. What is the appropriate boundary of the posterior triangle formed by the fractured structure?",
     "answers": [
       {
-        "option": "Base",
-        "bool": true
-      },
-      {
         "option": "Apex",
-        "bool": false
-      },
-      {
-        "option": "Anterior",
         "bool": false
       },
       {
@@ -1020,18 +1066,26 @@
         "bool": false
       },
       {
+        "option": "Base",
+        "bool": true
+      },
+      {
         "option": "Floor",
+        "bool": false
+      },
+      {
+        "option": "Anterior",
         "bool": false
       }
     ]
   },
   {
-    "id": 38,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 40,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Presence of which of the following in food results in a bitter taste?",
     "answers": [
       {
-        "option": "Ketones",
+        "option": "Aldehydes",
         "bool": false
       },
       {
@@ -1039,12 +1093,12 @@
         "bool": false
       },
       {
-        "option": "Aldehydes",
-        "bool": false
-      },
-      {
         "option": "Alkaloids",
         "bool": true
+      },
+      {
+        "option": "Ketones",
+        "bool": false
       },
       {
         "option": "H+",
@@ -1053,12 +1107,12 @@
     ]
   },
   {
-    "id": 39,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 41,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which veins connect the veins of the scalp to the dural venous sinuses?",
     "answers": [
       {
-        "option": "Auricular veins",
+        "option": "Diploic veins",
         "bool": false
       },
       {
@@ -1070,7 +1124,7 @@
         "bool": false
       },
       {
-        "option": "Diploic veins",
+        "option": "Auricular veins",
         "bool": false
       },
       {
@@ -1080,13 +1134,13 @@
     ]
   },
   {
-    "id": 40,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 42,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is not true regarding the blood supply of the face?",
     "answers": [
       {
-        "option": "Facial artery enters by crossing the neck of mandible",
-        "bool": true
+        "option": "External carotid artery supplies the face",
+        "bool": false
       },
       {
         "option": "Facial artery supplies the lacrimal sac",
@@ -1097,8 +1151,8 @@
         "bool": false
       },
       {
-        "option": "External carotid artery supplies the face",
-        "bool": false
+        "option": "Facial artery enters by crossing the neck of mandible",
+        "bool": true
       },
       {
         "option": "Supratrochlear and supraorbital arteries supply the forehead",
@@ -1107,16 +1161,16 @@
     ]
   },
   {
-    "id": 41,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 43,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The sour taste of food is due to which of the following?",
     "answers": [
       {
-        "option": "Ketones",
+        "option": "HCO3- ions",
         "bool": false
       },
       {
-        "option": "Alkaloids",
+        "option": "Ketones",
         "bool": false
       },
       {
@@ -1128,16 +1182,24 @@
         "bool": false
       },
       {
-        "option": "HCO3- ions",
+        "option": "Alkaloids",
         "bool": false
       }
     ]
   },
   {
-    "id": 42,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 44,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which nerve supplies the general sensation for the anterior 2/3rd of the tongue?",
     "answers": [
+      {
+        "option": "Hypoglossal",
+        "bool": false
+      },
+      {
+        "option": "Facial",
+        "bool": false
+      },
       {
         "option": "Glossopharyngeal",
         "bool": false
@@ -1147,30 +1209,22 @@
         "bool": true
       },
       {
-        "option": "Facial",
-        "bool": false
-      },
-      {
-        "option": "Hypoglossal",
-        "bool": false
-      },
-      {
         "option": "Maxillary",
         "bool": false
       }
     ]
   },
   {
-    "id": 43,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 45,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which muscle is enclosed by the investing layer of the deep cervical fascia of the neck?",
     "answers": [
       {
-        "option": "Digastric",
+        "option": "Mylohyoid",
         "bool": false
       },
       {
-        "option": "Mylohyoid",
+        "option": "Geniohyoid",
         "bool": false
       },
       {
@@ -1178,50 +1232,54 @@
         "bool": true
       },
       {
-        "option": "Omohyoid",
+        "option": "Digastric",
         "bool": false
       },
       {
-        "option": "Geniohyoid",
+        "option": "Omohyoid",
         "bool": false
       }
     ]
   },
   {
-    "id": 44,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 46,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following does not pass through the internal auditory meatus?",
     "answers": [
       {
-        "option": "Glossopharyngeal nerve",
-        "bool": true
+        "option": "Facial nerve",
+        "bool": false
       },
       {
         "option": "Labyrinthine artery",
         "bool": false
       },
       {
-        "option": "Vestibular part of vestibulocochlear nerve",
-        "bool": false
-      },
-      {
-        "option": "Facial nerve",
-        "bool": false
-      },
-      {
         "option": "Cochlear part of vestibulocochlear nerve",
+        "bool": false
+      },
+      {
+        "option": "Glossopharyngeal nerve",
+        "bool": true
+      },
+      {
+        "option": "Vestibular part of vestibulocochlear nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 45,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 47,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The speech and tone are produced with the assistance of which of the following?",
     "answers": [
       {
-        "option": "Tonsils",
+        "option": "Pharynx",
         "bool": false
+      },
+      {
+        "option": "Tongue",
+        "bool": true
       },
       {
         "option": "Nasal cavity",
@@ -1232,20 +1290,24 @@
         "bool": false
       },
       {
-        "option": "Pharynx",
+        "option": "Tonsils",
         "bool": false
-      },
-      {
-        "option": "Tongue",
-        "bool": true
       }
     ]
   },
   {
-    "id": 46,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 48,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following communicates with the middle cranial fossa, oral cavity, nasal cavity, and orbital cavity?",
     "answers": [
+      {
+        "option": "Temporal fossa",
+        "bool": false
+      },
+      {
+        "option": "Infratemporal fossa",
+        "bool": false
+      },
       {
         "option": "Foramen spinosum",
         "bool": false
@@ -1257,32 +1319,20 @@
       {
         "option": "Pterygopalatine fossa",
         "bool": true
-      },
-      {
-        "option": "Temporal fossa",
-        "bool": false
-      },
-      {
-        "option": "Infratemporal fossa",
-        "bool": false
       }
     ]
   },
   {
-    "id": 47,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 49,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The pterygoid venous plexus drains into which of the following structures?",
     "answers": [
       {
-        "option": "Maxillary vein",
-        "bool": true
-      },
-      {
-        "option": "External jugular vein",
+        "option": "Middle meningeal vein",
         "bool": false
       },
       {
-        "option": "Facial vein",
+        "option": "External jugular vein",
         "bool": false
       },
       {
@@ -1290,22 +1340,22 @@
         "bool": false
       },
       {
-        "option": "Middle meningeal vein",
+        "option": "Facial vein",
         "bool": false
+      },
+      {
+        "option": "Maxillary vein",
+        "bool": true
       }
     ]
   },
   {
-    "id": 48,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 50,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is true regarding the structure of taste buds?",
     "answers": [
       {
-        "option": "A taste bud consists of 10-12 cells",
-        "bool": false
-      },
-      {
-        "option": "Taste buds are embedded within epithelium covering the filiform papillae",
+        "option": "Sustentacular cells of taste buds are also known as gustatory cells",
         "bool": false
       },
       {
@@ -1313,20 +1363,28 @@
         "bool": true
       },
       {
-        "option": "Sustentacular cells of taste buds are also known as gustatory cells",
+        "option": "A taste bud consists of 10-12 cells",
         "bool": false
       },
       {
         "option": "They are mainly located on the soft palate but few on the ventral surface of tongue",
         "bool": false
+      },
+      {
+        "option": "Taste buds are embedded within epithelium covering the  filiform papillae",
+        "bool": false
       }
     ]
   },
   {
-    "id": 49,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 51,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is the first step in the resynthesis of rhodopsin?",
     "answers": [
+      {
+        "option": "All cis retinol conversion to 11-trans retinol",
+        "bool": false
+      },
       {
         "option": "All trans retinal conversion to 10-cis retinal",
         "bool": false
@@ -1342,25 +1400,25 @@
       {
         "option": "All cis retinal conversion to 11-trans retinal",
         "bool": false
-      },
-      {
-        "option": "All cis retinol conversion to 11-trans retinol",
-        "bool": false
       }
     ]
   },
   {
-    "id": 50,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 52,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What does ageusia refer to?",
     "answers": [
+      {
+        "option": "Loss of taste",
+        "bool": true
+      },
       {
         "option": "Loss of hearing",
         "bool": false
       },
       {
-        "option": "Loss of taste",
-        "bool": true
+        "option": "Partial loss of taste",
+        "bool": false
       },
       {
         "option": "Loss of smell",
@@ -1369,18 +1427,18 @@
       {
         "option": "Partial loss of smell",
         "bool": false
-      },
-      {
-        "option": "Partial loss of taste",
-        "bool": false
       }
     ]
   },
   {
-    "id": 51,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 53,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Sensory innervation of laryngopharynx is by which of the following?",
     "answers": [
+      {
+        "option": "Pharyngeal branch of maxillary nerve",
+        "bool": false
+      },
       {
         "option": "Glossopharyngeal nerve",
         "bool": false
@@ -1394,18 +1452,14 @@
         "bool": false
       },
       {
-        "option": "Pharyngeal branch of maxillary nerve",
-        "bool": false
-      },
-      {
         "option": "Internal branch of superior laryngeal nerve",
         "bool": true
       }
     ]
   },
   {
-    "id": 52,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 54,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Retinol falls under which of the following functional groups?",
     "answers": [
       {
@@ -1413,7 +1467,7 @@
         "bool": true
       },
       {
-        "option": "Ketones",
+        "option": "Esters",
         "bool": false
       },
       {
@@ -1421,49 +1475,57 @@
         "bool": false
       },
       {
-        "option": "Esters",
+        "option": "Ethers",
         "bool": false
       },
       {
-        "option": "Ethers",
+        "option": "Ketones",
         "bool": false
       }
     ]
   },
   {
-    "id": 53,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 55,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following nerve fibers form the inferior root of ansa cervicalis?",
     "answers": [
+      {
+        "option": "C1 and C2",
+        "bool": false
+      },
       {
         "option": "C3 and C5",
         "bool": false
       },
       {
-        "option": "C2 and C3",
-        "bool": true
+        "option": "C1 and C3",
+        "bool": false
       },
       {
         "option": "C3 and C4",
         "bool": false
       },
       {
-        "option": "C1 and C2",
-        "bool": false
-      },
-      {
-        "option": "C1 and C3",
-        "bool": false
+        "option": "C2 and C3",
+        "bool": true
       }
     ]
   },
   {
-    "id": 54,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 56,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A boy came to the outpatient department with a swelling below and at the back of the angle of the mandible. He was diagnosed with a jugulodigastric node blockage. What will be the site of pathology?",
     "answers": [
       {
         "option": "Parotid gland",
+        "bool": false
+      },
+      {
+        "option": "Pharynx",
+        "bool": false
+      },
+      {
+        "option": "Tongue",
         "bool": false
       },
       {
@@ -1473,28 +1535,16 @@
       {
         "option": "Palatine tonsils",
         "bool": true
-      },
-      {
-        "option": "Pharynx",
-        "bool": false
-      },
-      {
-        "option": "Tongue",
-        "bool": false
       }
     ]
   },
   {
-    "id": 55,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 57,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The cerebellum is derivative of which of the following?",
     "answers": [
       {
         "option": "Telencephalon",
-        "bool": false
-      },
-      {
-        "option": "Rhombencephalon",
         "bool": false
       },
       {
@@ -1508,29 +1558,33 @@
       {
         "option": "Metencephalon",
         "bool": true
+      },
+      {
+        "option": "Rhombencephalon",
+        "bool": false
       }
     ]
   },
   {
-    "id": 56,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 58,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Where is the structure posterior to the pupil derived from?",
     "answers": [
       {
-        "option": "Paraxial ectoderm",
+        "option": "Neuroectoderm",
         "bool": false
       },
       {
-        "option": "Neuroectoderm",
-        "bool": false
+        "option": "Surface ectoderm",
+        "bool": true
       },
       {
         "option": "Lateral ectoderm",
         "bool": false
       },
       {
-        "option": "Surface ectoderm",
-        "bool": true
+        "option": "Paraxial ectoderm",
+        "bool": false
       },
       {
         "option": "Mesoderm",
@@ -1539,13 +1593,21 @@
     ]
   },
   {
-    "id": 57,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 59,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect about salivary glands?",
     "answers": [
       {
         "option": "All minor salivary glands are serous in nature",
         "bool": true
+      },
+      {
+        "option": "All minor salivary gland are not encapsulated",
+        "bool": false
+      },
+      {
+        "option": "Intercalated ducts are wider and longer in the parotid gland",
+        "bool": false
       },
       {
         "option": "Serous cell are predominant cells of submandibular gland",
@@ -1554,36 +1616,28 @@
       {
         "option": "Demilune cells secrete lysozyme in sublingual gland",
         "bool": false
-      },
-      {
-        "option": "Intercalated ducts are wider and longer in the parotid gland",
-        "bool": false
-      },
-      {
-        "option": "All minor salivary gland are not encapsulated",
-        "bool": false
       }
     ]
   },
   {
-    "id": 58,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 60,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Von Ebner's gland is what type of gland?",
     "answers": [
       {
-        "option": "Serous",
-        "bool": true
+        "option": "Seromucous",
+        "bool": false
       },
       {
         "option": "Sweat glands",
         "bool": false
       },
       {
-        "option": "Sebaceous glands",
-        "bool": false
+        "option": "Serous",
+        "bool": true
       },
       {
-        "option": "Seromucous",
+        "option": "Sebaceous glands",
         "bool": false
       },
       {
@@ -1593,35 +1647,35 @@
     ]
   },
   {
-    "id": 59,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 61,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which nerve supplies muscles of facial expression?",
     "answers": [
       {
-        "option": "Maxillary",
-        "bool": false
-      },
-      {
-        "option": "Hypoglossal",
-        "bool": false
-      },
-      {
         "option": "Facial",
         "bool": true
+      },
+      {
+        "option": "Glossopharyngeal",
+        "bool": false
+      },
+      {
+        "option": "Maxillary",
+        "bool": false
       },
       {
         "option": "Mandibular",
         "bool": false
       },
       {
-        "option": "Glossopharyngeal",
+        "option": "Hypoglossal",
         "bool": false
       }
     ]
   },
   {
-    "id": 60,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 62,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The auditory ossicle(s) attached to the oval window is/are derived from which of the following?",
     "answers": [
       {
@@ -1629,11 +1683,7 @@
         "bool": false
       },
       {
-        "option": "Hyoid arch",
-        "bool": true
-      },
-      {
-        "option": "Mandibular arch",
+        "option": "1st pharyngeal arch",
         "bool": false
       },
       {
@@ -1641,16 +1691,28 @@
         "bool": false
       },
       {
-        "option": "1st pharyngeal arch",
+        "option": "Mandibular arch",
         "bool": false
+      },
+      {
+        "option": "Hyoid arch",
+        "bool": true
       }
     ]
   },
   {
-    "id": 61,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 63,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Where are the infrahyoid muscles present?",
     "answers": [
+      {
+        "option": "Submandibular triangle",
+        "bool": false
+      },
+      {
+        "option": "Posterior triangle",
+        "bool": false
+      },
       {
         "option": "Carotid triangle",
         "bool": false
@@ -1660,34 +1722,26 @@
         "bool": true
       },
       {
-        "option": "Posterior triangle",
-        "bool": false
-      },
-      {
         "option": "Submental triangle",
-        "bool": false
-      },
-      {
-        "option": "Submandibular triangle",
         "bool": false
       }
     ]
   },
   {
-    "id": 62,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 64,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Sensory retina develops from which part of the optic cup?",
     "answers": [
-      {
-        "option": "Pars iridica retinae",
-        "bool": false
-      },
       {
         "option": "Pars caeca retinae",
         "bool": false
       },
       {
         "option": "Outer layer of the optic cup",
+        "bool": false
+      },
+      {
+        "option": "Pars iridica retinae",
         "bool": false
       },
       {
@@ -1701,13 +1755,21 @@
     ]
   },
   {
-    "id": 63,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 65,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "11-cis-retinal is derived from which vitamin?",
     "answers": [
       {
         "option": "Vitamin B9",
         "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": false
+      },
+      {
+        "option": "Vitamin A",
+        "bool": true
       },
       {
         "option": "Vitamin B12",
@@ -1716,32 +1778,20 @@
       {
         "option": "Vitamin C",
         "bool": false
-      },
-      {
-        "option": "Vitamin A",
-        "bool": true
-      },
-      {
-        "option": "Vitamin K",
-        "bool": false
       }
     ]
   },
   {
-    "id": 64,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 66,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is the composition of rhodopsin?",
     "answers": [
-      {
-        "option": "scotopsin + 11-cis-retinal",
-        "bool": true
-      },
       {
         "option": "iodopsin + 11-cis-retinal",
         "bool": false
       },
       {
-        "option": "iodopsin + 11-trans-retinal",
+        "option": "opsin + 11-cis-retinal",
         "bool": false
       },
       {
@@ -1749,14 +1799,18 @@
         "bool": false
       },
       {
-        "option": "opsin + 11-cis-retinal",
+        "option": "iodopsin + 11-trans-retinal",
         "bool": false
+      },
+      {
+        "option": "scotopsin + 11-cis-retinal",
+        "bool": true
       }
     ]
   },
   {
-    "id": 65,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 67,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What equalizes pressure in the middle ear cavity and pharynx?",
     "answers": [
       {
@@ -1782,20 +1836,12 @@
     ]
   },
   {
-    "id": 66,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 68,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is not a branch of the ophthalmic artery?",
     "answers": [
       {
-        "option": "Infraorbital artery",
-        "bool": true
-      },
-      {
-        "option": "Supraorbital artery",
-        "bool": false
-      },
-      {
-        "option": "Zygomaticotemporal artery",
+        "option": "Supratrochlear artery",
         "bool": false
       },
       {
@@ -1803,14 +1849,22 @@
         "bool": false
       },
       {
-        "option": "Supratrochlear artery",
+        "option": "Supraorbital artery",
+        "bool": false
+      },
+      {
+        "option": "Infraorbital artery",
+        "bool": true
+      },
+      {
+        "option": "Zygomaticotemporal artery",
         "bool": false
       }
     ]
   },
   {
-    "id": 67,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 69,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What forms the lower and posterior part of the nasal septum?",
     "answers": [
       {
@@ -1822,49 +1876,49 @@
         "bool": false
       },
       {
+        "option": "Vomer",
+        "bool": true
+      },
+      {
         "option": "Body of sphenoid",
         "bool": false
       },
       {
         "option": "Vertical plate of ethmoid bone",
         "bool": false
-      },
-      {
-        "option": "Vomer",
-        "bool": true
       }
     ]
   },
   {
-    "id": 68,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 70,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The parafollicular cells (C-cells) of the thyroid are derived from which of the following?",
     "answers": [
       {
-        "option": "Ultimobranchial body",
-        "bool": true
-      },
-      {
-        "option": "Second pharyngeal pouch",
-        "bool": false
-      },
-      {
         "option": "Second pharyngeal cleft",
         "bool": false
+      },
+      {
+        "option": "Third pharyngeal arch",
+        "bool": false
+      },
+      {
+        "option": "Ultimobranchial body",
+        "bool": true
       },
       {
         "option": "First pharyngeal pouch",
         "bool": false
       },
       {
-        "option": "Third pharyngeal arch",
+        "option": "Second pharyngeal pouch",
         "bool": false
       }
     ]
   },
   {
-    "id": 69,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 71,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Sialadenitis mostly involves the parotid gland and is caused by non-specific bacterial infection. When it involves the submandibular gland, what is the infection secondary to?",
     "answers": [
       {
@@ -1872,36 +1926,28 @@
         "bool": false
       },
       {
-        "option": "Infection by mumps virus",
-        "bool": false
-      },
-      {
         "option": "Stone",
         "bool": true
+      },
+      {
+        "option": "Infection by staphylococcus aureus",
+        "bool": false
       },
       {
         "option": "Inflammation",
         "bool": false
       },
       {
-        "option": "Infection by staphylococcus aureus",
+        "option": "Infection by mumps virus",
         "bool": false
       }
     ]
   },
   {
-    "id": 70,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 72,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What forms from the pars optica retinae?",
     "answers": [
-      {
-        "option": "Inner layer of the iris",
-        "bool": false
-      },
-      {
-        "option": "Ciliary body",
-        "bool": false
-      },
       {
         "option": "Dilator pupillae muscle",
         "bool": false
@@ -1911,14 +1957,22 @@
         "bool": false
       },
       {
+        "option": "Inner layer of the iris",
+        "bool": false
+      },
+      {
         "option": "Sensory part of retina",
         "bool": true
+      },
+      {
+        "option": "Ciliary body",
+        "bool": false
       }
     ]
   },
   {
-    "id": 71,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 73,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is true regarding most minor salivary glands?",
     "answers": [
       {
@@ -1926,55 +1980,63 @@
         "bool": false
       },
       {
-        "option": "They are serous",
-        "bool": false
+        "option": "They are mucous",
+        "bool": true
       },
       {
         "option": "They are encapsulated",
         "bool": false
       },
       {
-        "option": "They have numerous excretory units",
+        "option": "They are serous",
         "bool": false
       },
       {
-        "option": "They are mucous",
-        "bool": true
+        "option": "They have numerous excretory units",
+        "bool": false
       }
     ]
   },
   {
-    "id": 72,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 74,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What synapses with rods and cones in the outer plexiform layer?",
     "answers": [
       {
-        "option": "Ganglion cells",
-        "bool": false
+        "option": "Horizontal and bipolar cells",
+        "bool": true
       },
       {
         "option": "Amacrine and bipolar cells",
         "bool": false
       },
       {
-        "option": "Amacrine cells",
+        "option": "Bipolar cells",
         "bool": false
       },
       {
-        "option": "Horizontal and bipolar cells",
-        "bool": true
+        "option": "Ganglion cells",
+        "bool": false
       },
       {
-        "option": "Bipolar cells",
+        "option": "Amacrine cells",
         "bool": false
       }
     ]
   },
   {
-    "id": 73,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 75,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which is the derivative of the second pharyngeal pouch?",
     "answers": [
+      {
+        "option": "Inferior parathyroid glands",
+        "bool": false
+      },
+      {
+        "option": "Palatine tonsils",
+        "bool": true
+      },
       {
         "option": "Pharyngeal tonsils",
         "bool": false
@@ -1984,30 +2046,18 @@
         "bool": false
       },
       {
-        "option": "Palatine tonsils",
-        "bool": true
-      },
-      {
         "option": "Superior parathyroid glands",
-        "bool": false
-      },
-      {
-        "option": "Inferior parathyroid glands",
         "bool": false
       }
     ]
   },
   {
-    "id": 74,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 76,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of these is not formed from the dorsal part of the otic vesicle?",
     "answers": [
       {
-        "option": "Saccule",
-        "bool": true
-      },
-      {
-        "option": "Utricle",
+        "option": "Endolymphatic duct",
         "bool": false
       },
       {
@@ -2015,8 +2065,12 @@
         "bool": false
       },
       {
-        "option": "Endolymphatic duct",
+        "option": "Utricle",
         "bool": false
+      },
+      {
+        "option": "Saccule",
+        "bool": true
       },
       {
         "option": "Membranous labyrinth",
@@ -2025,8 +2079,8 @@
     ]
   },
   {
-    "id": 75,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 77,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which nucleus in the brainstem receives fibers carrying taste sensations?",
     "answers": [
       {
@@ -2034,11 +2088,11 @@
         "bool": false
       },
       {
-        "option": "Nucleus of tractus solitarius",
-        "bool": true
+        "option": "Nucleus of pneumotaxic centre",
+        "bool": false
       },
       {
-        "option": "Nucleus of pneumotaxic centre",
+        "option": "Nucleus ambiguus",
         "bool": false
       },
       {
@@ -2046,14 +2100,14 @@
         "bool": false
       },
       {
-        "option": "Nucleus ambiguus",
-        "bool": false
+        "option": "Nucleus of tractus solitarius",
+        "bool": true
       }
     ]
   },
   {
-    "id": 76,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 78,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which is true regarding the venous drainage of face?",
     "answers": [
       {
@@ -2061,28 +2115,40 @@
         "bool": false
       },
       {
-        "option": "Deep facial vein drains into the pterygoid plexus",
-        "bool": true
-      },
-      {
-        "option": "Facial vein has unidirectional valves",
-        "bool": false
-      },
-      {
         "option": "Facial vein drains into external jugular vein",
         "bool": false
       },
       {
+        "option": "Deep facial vein drains into the pterygoid plexus",
+        "bool": true
+      },
+      {
         "option": "Facial vein communicates with cavernous sinus through angular vein",
+        "bool": false
+      },
+      {
+        "option": "Facial vein has unidirectional valves",
         "bool": false
       }
     ]
   },
   {
-    "id": 77,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 79,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The axons of ganglionic cells transmitting action potential synapse in the midbrain with which of the following structure?",
     "answers": [
+      {
+        "option": "Lateral geniculate body",
+        "bool": false
+      },
+      {
+        "option": "Superior colliculus",
+        "bool": true
+      },
+      {
+        "option": "Medial geniculate body",
+        "bool": false
+      },
       {
         "option": "Inferior colliculus",
         "bool": false
@@ -2090,63 +2156,43 @@
       {
         "option": "Optic radiation",
         "bool": false
-      },
-      {
-        "option": "Lateral geniculate body",
-        "bool": false
-      },
-      {
-        "option": "Medial geniculate body",
-        "bool": false
-      },
-      {
-        "option": "Superior colliculus",
-        "bool": true
       }
     ]
   },
   {
-    "id": 78,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 80,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Correction of cleft lip usually occurs during which month?",
     "answers": [
       {
-        "option": "9th month",
-        "bool": false
+        "option": "3rd month",
+        "bool": true
       },
       {
         "option": "12th month",
         "bool": false
       },
       {
-        "option": "6th month",
+        "option": "9th month",
         "bool": false
       },
       {
-        "option": "3rd month",
-        "bool": true
+        "option": "10th month",
+        "bool": false
       },
       {
-        "option": "10th month",
+        "option": "6th month",
         "bool": false
       }
     ]
   },
   {
-    "id": 79,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 81,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which is not present in the carotid sheath?",
     "answers": [
       {
-        "option": "Internal carotid artery",
-        "bool": false
-      },
-      {
-        "option": "External jugular vein",
-        "bool": true
-      },
-      {
-        "option": "Common carotid artery",
+        "option": "Vagus nerve",
         "bool": false
       },
       {
@@ -2154,28 +2200,24 @@
         "bool": false
       },
       {
-        "option": "Vagus nerve",
+        "option": "Common carotid artery",
         "bool": false
+      },
+      {
+        "option": "Internal carotid artery",
+        "bool": false
+      },
+      {
+        "option": "External jugular vein",
+        "bool": true
       }
     ]
   },
   {
-    "id": 80,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 82,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Squamous papilloma is caused by which of these?",
     "answers": [
-      {
-        "option": "Adenovirus",
-        "bool": false
-      },
-      {
-        "option": "Coronavirus",
-        "bool": false
-      },
-      {
-        "option": "HPV (human papilloma virus) 6 & 11",
-        "bool": true
-      },
       {
         "option": "HPV (human papilloma virus) 16 & 18",
         "bool": false
@@ -2183,29 +2225,41 @@
       {
         "option": "EBV (Epstein-Barr virus)",
         "bool": false
+      },
+      {
+        "option": "HPV (human papilloma virus) 6 & 11",
+        "bool": true
+      },
+      {
+        "option": "Coronavirus",
+        "bool": false
+      },
+      {
+        "option": "Adenovirus",
+        "bool": false
       }
     ]
   },
   {
-    "id": 81,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 83,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The nasolacrimal duct opens into which of the following?",
     "answers": [
       {
-        "option": "Infundibulum",
+        "option": "Superior meatus",
         "bool": false
       },
       {
-        "option": "Inferior meatus",
-        "bool": true
+        "option": "Infundibulum",
+        "bool": false
       },
       {
         "option": "Hiatus semilunaris",
         "bool": false
       },
       {
-        "option": "Superior meatus",
-        "bool": false
+        "option": "Inferior meatus",
+        "bool": true
       },
       {
         "option": "Spheno-ethmoidal recess",
@@ -2214,8 +2268,8 @@
     ]
   },
   {
-    "id": 82,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 84,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following muscles is not supplied by the mandibular nerve?",
     "answers": [
       {
@@ -2227,12 +2281,12 @@
         "bool": false
       },
       {
-        "option": "Buccinator",
-        "bool": true
-      },
-      {
         "option": "Temporalis",
         "bool": false
+      },
+      {
+        "option": "Buccinator",
+        "bool": true
       },
       {
         "option": "Medial pterygoid",
@@ -2241,18 +2295,10 @@
     ]
   },
   {
-    "id": 83,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 85,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which is the recent technique to correct myopia?",
     "answers": [
-      {
-        "option": "Laser-assisted in situ keratomileusis (LASIK)",
-        "bool": true
-      },
-      {
-        "option": "Radial keratotomy (RK)",
-        "bool": false
-      },
       {
         "option": "Laser epithelial keratomileusis (LASEK)",
         "bool": false
@@ -2264,21 +2310,33 @@
       {
         "option": "Photorefractive keratectomy (PRK)",
         "bool": false
+      },
+      {
+        "option": "Radial keratotomy (RK)",
+        "bool": false
+      },
+      {
+        "option": "Laser-assisted in situ keratomileusis (LASIK)",
+        "bool": true
       }
     ]
   },
   {
-    "id": 84,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 86,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is the relation of the facial nerve with the parotid gland?",
     "answers": [
       {
-        "option": "Superficial to gland",
+        "option": "Superficial to vein",
+        "bool": true
+      },
+      {
+        "option": "Superficial to artery",
         "bool": false
       },
       {
-        "option": "Superficial to vein",
-        "bool": true
+        "option": "Superficial to gland",
+        "bool": false
       },
       {
         "option": "Deep to gland",
@@ -2287,43 +2345,39 @@
       {
         "option": "Deep to arteries",
         "bool": false
-      },
-      {
-        "option": "Superficial to artery",
-        "bool": false
       }
     ]
   },
   {
-    "id": 85,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 87,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following forms the anterior boundary of the temporal fossa?",
     "answers": [
       {
-        "option": "Zygomatic arch and zygomatic process of frontal bone",
-        "bool": false
-      },
-      {
         "option": "Frontal process of zygomatic bone and zygomatic process of frontal bone",
         "bool": true
+      },
+      {
+        "option": "Zygomatic arch and zygomatic process of frontal bone",
+        "bool": false
       },
       {
         "option": "Temporal lines and zygomatic process of zygomatic bone",
         "bool": false
       },
       {
-        "option": "Posterior aspect of maxilla and frontal bone",
+        "option": "Lateral pterygoid plate and frontal process of frontal bone",
         "bool": false
       },
       {
-        "option": "Lateral pterygoid plate and frontal process of frontal bone",
+        "option": "Posterior aspect of maxilla and frontal bone",
         "bool": false
       }
     ]
   },
   {
-    "id": 86,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 88,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which molecules help in the depolarization of the olfactory membrane when odorant molecules combine with it?",
     "answers": [
       {
@@ -2335,12 +2389,12 @@
         "bool": false
       },
       {
-        "option": "Na+ ions",
-        "bool": true
-      },
-      {
         "option": "Mg+2 ions",
         "bool": false
+      },
+      {
+        "option": "Na+ ions",
+        "bool": true
       },
       {
         "option": "K+ ions",
@@ -2349,8 +2403,8 @@
     ]
   },
   {
-    "id": 87,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 89,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The triangular primary palate is formed by the fusion of which of the following?",
     "answers": [
       {
@@ -2358,7 +2412,11 @@
         "bool": false
       },
       {
-        "option": "Maxillary prominence with lateral nasal prominence",
+        "option": "Medial nasal prominence",
+        "bool": true
+      },
+      {
+        "option": "Two lateral nasal prominence",
         "bool": false
       },
       {
@@ -2366,30 +2424,26 @@
         "bool": false
       },
       {
-        "option": "Two lateral nasal prominence",
+        "option": "Maxillary prominence with lateral nasal prominence",
         "bool": false
-      },
-      {
-        "option": "Medial nasal prominence",
-        "bool": true
       }
     ]
   },
   {
-    "id": 88,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 90,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is found in the pterygopalatine fossa?",
     "answers": [
+      {
+        "option": "Facial artery",
+        "bool": false
+      },
       {
         "option": "Third part of maxillary artery",
         "bool": true
       },
       {
-        "option": "Mandibular nerve",
-        "bool": false
-      },
-      {
-        "option": "Facial artery",
+        "option": "Infraorbital nerve",
         "bool": false
       },
       {
@@ -2397,27 +2451,19 @@
         "bool": false
       },
       {
-        "option": "Infraorbital nerve",
+        "option": "Mandibular nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 89,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 91,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Visual fibers also pass through the pretectal nucleus in the midbrain. Pretectal nucleus is associated with which of the following function?",
     "answers": [
       {
         "option": "Accommodation reflex",
         "bool": false
-      },
-      {
-        "option": "Attenuation reflex",
-        "bool": false
-      },
-      {
-        "option": "Pupillary light reflex",
-        "bool": true
       },
       {
         "option": "Balance and equilibrium",
@@ -2426,20 +2472,28 @@
       {
         "option": "Color sensation",
         "bool": false
+      },
+      {
+        "option": "Pupillary light reflex",
+        "bool": true
+      },
+      {
+        "option": "Attenuation reflex",
+        "bool": false
       }
     ]
   },
   {
-    "id": 90,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 92,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "To maintain equilibrium, the vestibular nerve passes from the vestibular apparatus to which of these?",
     "answers": [
       {
-        "option": "Nucleus gracilis",
+        "option": "Tractus solitarius",
         "bool": false
       },
       {
-        "option": "Nucleus ambiguus",
+        "option": "Nucleus gracilis",
         "bool": false
       },
       {
@@ -2447,26 +2501,30 @@
         "bool": false
       },
       {
-        "option": "Tractus solitarius",
-        "bool": false
-      },
-      {
         "option": "Vestibular nucleus and cerebellum",
         "bool": true
+      },
+      {
+        "option": "Nucleus ambiguus",
+        "bool": false
       }
     ]
   },
   {
-    "id": 91,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 93,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The auriculotemporal nerve is a branch of which of the following?",
     "answers": [
+      {
+        "option": "Mandibular nerve",
+        "bool": true
+      },
       {
         "option": "Ophthalmic nerve",
         "bool": false
       },
       {
-        "option": "Maxillary nerve",
+        "option": "Greater occipital nerve",
         "bool": false
       },
       {
@@ -2474,45 +2532,41 @@
         "bool": false
       },
       {
-        "option": "Mandibular nerve",
-        "bool": true
-      },
-      {
-        "option": "Greater occipital nerve",
+        "option": "Maxillary nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 92,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 94,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is the term used for the dryness of the oral cavity?",
     "answers": [
       {
-        "option": "Xerostomia",
-        "bool": true
+        "option": "Sialithiosis",
+        "bool": false
       },
       {
         "option": "Steatorrhea",
         "bool": false
       },
       {
-        "option": "Sialithiosis",
+        "option": "Sialorrhea",
         "bool": false
+      },
+      {
+        "option": "Xerostomia",
+        "bool": true
       },
       {
         "option": "Keratosis",
-        "bool": false
-      },
-      {
-        "option": "Sialorrhea",
         "bool": false
       }
     ]
   },
   {
-    "id": 93,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 95,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following nerves in the oral mucosa is in danger when the molar teeth and gingivae are being operated on?",
     "answers": [
       {
@@ -2520,7 +2574,7 @@
         "bool": false
       },
       {
-        "option": "Nerve to lateral pterygoid",
+        "option": "Inferior alveolar nerve",
         "bool": false
       },
       {
@@ -2528,7 +2582,7 @@
         "bool": false
       },
       {
-        "option": "Inferior alveolar nerve",
+        "option": "Nerve to lateral pterygoid",
         "bool": false
       },
       {
@@ -2538,39 +2592,39 @@
     ]
   },
   {
-    "id": 94,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 96,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "During infection of the parotid gland (parotitis), pain occurs due to which of the following?",
     "answers": [
       {
+        "option": "Gland enlargement",
+        "bool": false
+      },
+      {
         "option": "Parotid sheath limits swelling",
         "bool": true
+      },
+      {
+        "option": "Nerve compression",
+        "bool": false
       },
       {
         "option": "Swelling of the gland",
         "bool": false
       },
       {
-        "option": "Gland enlargement",
-        "bool": false
-      },
-      {
         "option": "Chewing",
-        "bool": false
-      },
-      {
-        "option": "Nerve compression",
         "bool": false
       }
     ]
   },
   {
-    "id": 95,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 97,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which nonionizing modality can be used to visualize the thyroid at bedside?",
     "answers": [
       {
-        "option": "X-ray",
+        "option": "CT",
         "bool": false
       },
       {
@@ -2586,14 +2640,14 @@
         "bool": false
       },
       {
-        "option": "CT",
+        "option": "X-ray",
         "bool": false
       }
     ]
   },
   {
-    "id": 96,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 98,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect regarding the lacrimal apparatus?",
     "answers": [
       {
@@ -2601,11 +2655,11 @@
         "bool": false
       },
       {
-        "option": "Tears collect in the conjunctival fornix",
+        "option": "Lacrimal glands drain into superficial parotid lymph nodes",
         "bool": false
       },
       {
-        "option": "Lacrimal glands drain into superficial parotid lymph nodes",
+        "option": "Tears flow to the lacrimal puncta",
         "bool": false
       },
       {
@@ -2613,22 +2667,18 @@
         "bool": true
       },
       {
-        "option": "Tears flow to the lacrimal puncta",
+        "option": "Tears collect in the conjunctival fornix",
         "bool": false
       }
     ]
   },
   {
-    "id": 97,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 99,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is correct regarding Von Ebner glands?",
     "answers": [
       {
-        "option": "Produce serous secretions",
-        "bool": true
-      },
-      {
-        "option": "Present beneath filiform papillae",
+        "option": "Found on anterior 2/3rd of tongue",
         "bool": false
       },
       {
@@ -2636,27 +2686,35 @@
         "bool": false
       },
       {
+        "option": "Produce serous secretions",
+        "bool": true
+      },
+      {
         "option": "Simple tubular glands",
         "bool": false
       },
       {
-        "option": "Found on anterior 2/3rd of tongue",
+        "option": "Present beneath filiform papillae",
         "bool": false
       }
     ]
   },
   {
-    "id": 98,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 100,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A person injures his mandible (ramus) in an accident. Which boundary of the wall of the infratemporal fossa does it form?",
     "answers": [
+      {
+        "option": "Lateral wall",
+        "bool": true
+      },
       {
         "option": "Anterior wall",
         "bool": false
       },
       {
-        "option": "Lateral wall",
-        "bool": true
+        "option": "Medial wall",
+        "bool": false
       },
       {
         "option": "Posterior wall",
@@ -2665,26 +2723,14 @@
       {
         "option": "Inferior wall",
         "bool": false
-      },
-      {
-        "option": "Medial wall",
-        "bool": false
       }
     ]
   },
   {
-    "id": 99,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 101,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Where is the keratin layer present in the oral cavity?",
     "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Soft palate",
-        "bool": false
-      },
       {
         "option": "Hard palate",
         "bool": true
@@ -2694,30 +2740,38 @@
         "bool": false
       },
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Soft palate",
+        "bool": false
+      },
+      {
         "option": "Lips",
         "bool": false
       }
     ]
   },
   {
-    "id": 100,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 102,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect regarding eyelids?",
     "answers": [
-      {
-        "option": "Lined internally by palpebral conjunctiva",
-        "bool": false
-      },
       {
         "option": "Contain modified sweat glands called meibomian glands",
         "bool": true
       },
       {
-        "option": "Covered by layer of elastic skin",
+        "option": "Lined internally by palpebral conjunctiva",
         "bool": false
       },
       {
         "option": "Contain sweat glands of moll",
+        "bool": false
+      },
+      {
+        "option": "Covered by layer of elastic skin",
         "bool": false
       },
       {
@@ -2727,16 +2781,20 @@
     ]
   },
   {
-    "id": 101,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 103,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which muscle is involved in forcefully closing eyelids?",
     "answers": [
       {
-        "option": "Lacrimal part of orbicularis occuli",
-        "bool": false
+        "option": "Orbital part of orbicularis occuli",
+        "bool": true
       },
       {
         "option": "Palpebral part of orbicularis occuli",
+        "bool": false
+      },
+      {
+        "option": "Levator palpebrae superioris",
         "bool": false
       },
       {
@@ -2744,22 +2802,18 @@
         "bool": false
       },
       {
-        "option": "Orbital part of orbicularis occuli",
-        "bool": true
-      },
-      {
-        "option": "Levator palpebrae superioris",
+        "option": "Lacrimal part of orbicularis occuli",
         "bool": false
       }
     ]
   },
   {
-    "id": 102,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 104,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is the most common malignant carcinoma of salivary glands?",
     "answers": [
       {
-        "option": "Warthin tumor",
+        "option": "Adenoid cystic carcinoma",
         "bool": false
       },
       {
@@ -2767,7 +2821,7 @@
         "bool": false
       },
       {
-        "option": "Pleomorphic adenoma",
+        "option": "Warthin tumor",
         "bool": false
       },
       {
@@ -2775,20 +2829,16 @@
         "bool": true
       },
       {
-        "option": "Adenoid cystic carcinoma",
+        "option": "Pleomorphic adenoma",
         "bool": false
       }
     ]
   },
   {
-    "id": 103,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 105,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Nasopharyngeal carcinomas are mostly associated with which virus?",
     "answers": [
-      {
-        "option": "Hepatitis C virus (HCV)",
-        "bool": false
-      },
       {
         "option": "Cytomegalovirus (CMV)",
         "bool": false
@@ -2802,16 +2852,32 @@
         "bool": false
       },
       {
+        "option": "Hepatitis C virus (HCV)",
+        "bool": false
+      },
+      {
         "option": "Epstein Barr virus (EBV)",
         "bool": true
       }
     ]
   },
   {
-    "id": 104,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 106,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which structures are paired correctly?",
     "answers": [
+      {
+        "option": "Greater wing of frontal bone",
+        "bool": false
+      },
+      {
+        "option": "Styloid process of temporal bone",
+        "bool": true
+      },
+      {
+        "option": "Pterygoid plate of the parietal bone",
+        "bool": false
+      },
       {
         "option": "Posterior nasal spine of maxilla",
         "bool": false
@@ -2819,32 +2885,16 @@
       {
         "option": "Sphenoid process of maxilla",
         "bool": false
-      },
-      {
-        "option": "Greater wing of frontal bone",
-        "bool": false
-      },
-      {
-        "option": "Pterygoid plate of the parietal bone",
-        "bool": false
-      },
-      {
-        "option": "Styloid process of temporal bone",
-        "bool": true
       }
     ]
   },
   {
-    "id": 105,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 107,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A young girl presents to the clinic with an infection of the auricular lobule due to wearing earrings. The infection drains to which of the following?",
     "answers": [
       {
-        "option": "Mastoid nodes",
-        "bool": false
-      },
-      {
-        "option": "Parotid nodes",
+        "option": "Occipital nodes",
         "bool": false
       },
       {
@@ -2852,30 +2902,26 @@
         "bool": true
       },
       {
+        "option": "Parotid nodes",
+        "bool": false
+      },
+      {
         "option": "Deep cervical nodes",
         "bool": false
       },
       {
-        "option": "Occipital nodes",
+        "option": "Mastoid nodes",
         "bool": false
       }
     ]
   },
   {
-    "id": 106,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 108,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Aphakia is associated with which of the following?",
     "answers": [
       {
-        "option": "Hypermetropia",
-        "bool": true
-      },
-      {
-        "option": "Pseudoaphakia",
-        "bool": false
-      },
-      {
-        "option": "Hyphema",
+        "option": "Glaucoma",
         "bool": false
       },
       {
@@ -2883,24 +2929,24 @@
         "bool": false
       },
       {
-        "option": "Glaucoma",
+        "option": "Hyphema",
         "bool": false
+      },
+      {
+        "option": "Pseudoaphakia",
+        "bool": false
+      },
+      {
+        "option": "Hypermetropia",
+        "bool": true
       }
     ]
   },
   {
-    "id": 107,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 109,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following statements is correct?",
     "answers": [
-      {
-        "option": "Emmetropia is a condition with errors in refraction",
-        "bool": false
-      },
-      {
-        "option": "When the lens is at rest, the ciliaris muscle is contracted",
-        "bool": false
-      },
       {
         "option": "Hyperopia can be corrected by a diverging lens",
         "bool": false
@@ -2912,24 +2958,28 @@
       {
         "option": "Lens is the major refractive component of the eye",
         "bool": false
+      },
+      {
+        "option": "When the lens is at rest, the ciliaris muscle is contracted",
+        "bool": false
+      },
+      {
+        "option": "Emmetropia is a condition with errors in refraction",
+        "bool": false
       }
     ]
   },
   {
-    "id": 108,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 110,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A patient presents with raised intraocular pressure, redness of the eye, shallow anterior chamber, headache, nausea, and vomiting. Which of the following conditions is indicated?",
     "answers": [
       {
+        "option": "Acute close-angle glaucoma",
+        "bool": true
+      },
+      {
         "option": "Uveitis",
-        "bool": false
-      },
-      {
-        "option": "Cataracts",
-        "bool": false
-      },
-      {
-        "option": "Open-angle glaucoma",
         "bool": false
       },
       {
@@ -2937,22 +2987,26 @@
         "bool": false
       },
       {
-        "option": "Acute close-angle glaucoma",
-        "bool": true
+        "option": "Open-angle glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Cataracts",
+        "bool": false
       }
     ]
   },
   {
-    "id": 109,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 111,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Excitation of photoreceptors by light leads to which changes in rhodopsin?",
     "answers": [
       {
-        "option": "Metrhodopsin to bathorodopsin",
+        "option": "Lumirhodopsin to bathorhodopsin",
         "bool": false
       },
       {
-        "option": "Lumirhodopsin to bathorhodopsin",
+        "option": "Metrhodopsin to bathorodopsin",
         "bool": false
       },
       {
@@ -2960,24 +3014,20 @@
         "bool": false
       },
       {
-        "option": "All-trans retinol to all-trans retinal",
-        "bool": false
-      },
-      {
         "option": "Lumirhodopsin to metarhodopsin",
         "bool": true
+      },
+      {
+        "option": "All-trans retinol to all-trans retinal",
+        "bool": false
       }
     ]
   },
   {
-    "id": 110,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 112,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "In lateral view of an X-ray of the head, a physician notices the meeting point of parietooccipital, occipitomastoid, and lambdoid sutures. What is this point called?",
     "answers": [
-      {
-        "option": "Inion",
-        "bool": false
-      },
       {
         "option": "Bregma",
         "bool": false
@@ -2987,35 +3037,39 @@
         "bool": false
       },
       {
-        "option": "Asterion",
-        "bool": true
+        "option": "Inion",
+        "bool": false
       },
       {
         "option": "Pterion",
         "bool": false
+      },
+      {
+        "option": "Asterion",
+        "bool": true
       }
     ]
   },
   {
-    "id": 111,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 113,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The auditory ossicles which are attached to the oval window are derived from which of the following?",
     "answers": [
-      {
-        "option": "1st pharyngeal arch",
-        "bool": false
-      },
       {
         "option": "All of these",
         "bool": false
       },
       {
-        "option": "2nd pharyngeal arch",
-        "bool": true
-      },
-      {
         "option": "3rd pharyngeal arch",
         "bool": false
+      },
+      {
+        "option": "1st pharyngeal arch",
+        "bool": false
+      },
+      {
+        "option": "2nd pharyngeal arch",
+        "bool": true
       },
       {
         "option": "4nd pharyngeal arch",
@@ -3024,10 +3078,14 @@
     ]
   },
   {
-    "id": 112,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 114,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Lips and palate form during which time period?",
     "answers": [
+      {
+        "option": "5-6 weeks",
+        "bool": false
+      },
       {
         "option": "4-5 months",
         "bool": false
@@ -3037,22 +3095,18 @@
         "bool": false
       },
       {
-        "option": "5-6 weeks",
+        "option": "7-8 months",
         "bool": false
       },
       {
         "option": "7-8 weeks",
         "bool": true
-      },
-      {
-        "option": "7-8 months",
-        "bool": false
       }
     ]
   },
   {
-    "id": 113,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 115,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of these are included in the complete cleft anomaly?",
     "answers": [
       {
@@ -3060,11 +3114,11 @@
         "bool": false
       },
       {
-        "option": "Lip + alveolar process of maxilla + incisive fossa on both sides",
-        "bool": false
+        "option": "Lip + alveolar process of maxilla + incisive fossa",
+        "bool": true
       },
       {
-        "option": "Lip + incisive fossa",
+        "option": "Lip + alveolar process of maxilla + incisive fossa on both sides",
         "bool": false
       },
       {
@@ -3072,22 +3126,26 @@
         "bool": false
       },
       {
-        "option": "Lip + alveolar process of maxilla + incisive fossa",
-        "bool": true
+        "option": "Lip + incisive fossa",
+        "bool": false
       }
     ]
   },
   {
-    "id": 114,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 116,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect regarding temporomandibular joint (TMJ)?",
     "answers": [
+      {
+        "option": "All muscles acting at temporomandibular joint (TMJ) elevate the jaw except lateral pterygoid",
+        "bool": false
+      },
       {
         "option": "All muscles are supplied by the mandibular branch of trigeminal nerve except the medial pterygoid",
         "bool": true
       },
       {
-        "option": "All of these are correct",
+        "option": "Muscles related to it are derived from 1st pharyngeal arch",
         "bool": false
       },
       {
@@ -3095,22 +3153,18 @@
         "bool": false
       },
       {
-        "option": "All muscles acting at temporomandibular joint (TMJ) elevate the jaw except lateral pterygoid",
-        "bool": false
-      },
-      {
-        "option": "Muscles related to it are derived from 1st pharyngeal arch",
+        "option": "All of these are correct",
         "bool": false
       }
     ]
   },
   {
-    "id": 115,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 117,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following occurs as a result of the blockage of the drainage of the aqueous humor?",
     "answers": [
       {
-        "option": "Coloboma",
+        "option": "Cataract",
         "bool": false
       },
       {
@@ -3118,11 +3172,11 @@
         "bool": false
       },
       {
-        "option": "Cataract",
+        "option": "Strabismus",
         "bool": false
       },
       {
-        "option": "Strabismus",
+        "option": "Coloboma",
         "bool": false
       },
       {
@@ -3132,20 +3186,20 @@
     ]
   },
   {
-    "id": 116,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 118,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which type of cells are olfactory receptor cells?",
     "answers": [
+      {
+        "option": "Pseudounipolar neuron",
+        "bool": false
+      },
       {
         "option": "Nonneuronal",
         "bool": false
       },
       {
-        "option": "Unipolar neuron",
-        "bool": false
-      },
-      {
-        "option": "Pseudounipolar neuron",
+        "option": "Multipolar neuron",
         "bool": false
       },
       {
@@ -3153,18 +3207,26 @@
         "bool": true
       },
       {
-        "option": "Multipolar neuron",
+        "option": "Unipolar neuron",
         "bool": false
       }
     ]
   },
   {
-    "id": 117,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 119,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which is not true about the retina?",
     "answers": [
       {
+        "option": "It is highly vascular",
+        "bool": false
+      },
+      {
         "option": "It terminates at ora serrata",
+        "bool": false
+      },
+      {
+        "option": "It is the photoreceptor layer",
         "bool": false
       },
       {
@@ -3172,27 +3234,27 @@
         "bool": false
       },
       {
-        "option": "It is highly vascular",
-        "bool": false
-      },
-      {
         "option": "The innermost layer of the retina contains the rods and cones",
         "bool": true
-      },
-      {
-        "option": "It is the photoreceptor layer",
-        "bool": false
       }
     ]
   },
   {
-    "id": 118,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 120,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which technique is advised to see the extent of a mass lesion of orbit?",
     "answers": [
       {
+        "option": "MRI",
+        "bool": false
+      },
+      {
         "option": "CT scan",
         "bool": true
+      },
+      {
+        "option": "Lateral view of skull via X-ray",
+        "bool": false
       },
       {
         "option": "PET scan",
@@ -3201,28 +3263,20 @@
       {
         "option": "Ultrasound",
         "bool": false
-      },
-      {
-        "option": "MRI",
-        "bool": false
-      },
-      {
-        "option": "Lateral view of skull via X-ray",
-        "bool": false
       }
     ]
   },
   {
-    "id": 119,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 121,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Along with the hypoglossal nerve, what else forms the floor of the submandibular (digastric) triangle?",
     "answers": [
       {
-        "option": "Sternohyoid",
+        "option": "Sternothyroid",
         "bool": false
       },
       {
-        "option": "Sternothyroid",
+        "option": "Sternohyoid",
         "bool": false
       },
       {
@@ -3240,22 +3294,10 @@
     ]
   },
   {
-    "id": 120,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 122,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The external jugular vein is formed by the union of which of the following veins?",
     "answers": [
-      {
-        "option": "Sigmoid sinus and posterior division of retromandibular",
-        "bool": false
-      },
-      {
-        "option": "Posterior division of retromandibular and posterior auricular",
-        "bool": true
-      },
-      {
-        "option": "Maxillary and posterior auricular",
-        "bool": false
-      },
       {
         "option": "Pterygoid and posterior auricular",
         "bool": false
@@ -3263,18 +3305,26 @@
       {
         "option": "Transverse sinus and anterior division of retromandibular",
         "bool": false
+      },
+      {
+        "option": "Maxillary and posterior auricular",
+        "bool": false
+      },
+      {
+        "option": "Posterior division of retromandibular and posterior auricular",
+        "bool": true
+      },
+      {
+        "option": "Sigmoid sinus and posterior division of retromandibular",
+        "bool": false
       }
     ]
   },
   {
-    "id": 121,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 123,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which is true regarding the composition of endolymph?",
     "answers": [
-      {
-        "option": "Has a sodium concentration close to extracellular fluid",
-        "bool": false
-      },
       {
         "option": "Same as intracellular fluid",
         "bool": true
@@ -3290,14 +3340,26 @@
       {
         "option": "Same as interstitial fluid",
         "bool": false
+      },
+      {
+        "option": "Has a sodium concentration close to extracellular fluid",
+        "bool": false
       }
     ]
   },
   {
-    "id": 122,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 124,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which type of lens is a concave lens?",
     "answers": [
+      {
+        "option": "Diverging",
+        "bool": true
+      },
+      {
+        "option": "Converging",
+        "bool": false
+      },
       {
         "option": "Magnifying",
         "bool": false
@@ -3307,24 +3369,24 @@
         "bool": false
       },
       {
-        "option": "Diverging",
-        "bool": true
-      },
-      {
         "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Converging",
         "bool": false
       }
     ]
   },
   {
-    "id": 123,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 125,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following muscles is not derived from the 2nd pharyngeal arch?",
     "answers": [
+      {
+        "option": "Buccinator",
+        "bool": false
+      },
+      {
+        "option": "Levator veli palatini",
+        "bool": true
+      },
       {
         "option": "Posterior belly of digastric",
         "bool": false
@@ -3334,53 +3396,45 @@
         "bool": false
       },
       {
-        "option": "Buccinator",
-        "bool": false
-      },
-      {
         "option": "Stylohyoid",
         "bool": false
-      },
-      {
-        "option": "Levator veli palatini",
-        "bool": true
       }
     ]
   },
   {
-    "id": 124,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 126,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is incorrect regarding the tongue surface?",
     "answers": [
       {
-        "option": "Covered by stratified squamous epithelium",
+        "option": "Contains minor salivary glands that secrete seromucous secretions",
         "bool": false
+      },
+      {
+        "option": "Covered by stratified columnar epithelium",
+        "bool": true
       },
       {
         "option": "Lingual papillae are formed by stratified squamous epithelium only",
         "bool": false
       },
       {
-        "option": "Contains minor salivary glands that secrete seromucous secretions",
+        "option": "Covered by stratified squamous epithelium",
         "bool": false
       },
       {
         "option": "Contains elevations called papilla",
         "bool": false
-      },
-      {
-        "option": "Covered by stratified columnar epithelium",
-        "bool": true
       }
     ]
   },
   {
-    "id": 125,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 127,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "All trans-retinoic acid and 9-cis-retinoic acids are responsible for which of the following?",
     "answers": [
       {
-        "option": "Bone development",
+        "option": "Iron metabolism",
         "bool": false
       },
       {
@@ -3392,24 +3446,20 @@
         "bool": true
       },
       {
-        "option": "Growth hormones",
+        "option": "Bone development",
         "bool": false
       },
       {
-        "option": "Iron metabolism",
+        "option": "Growth hormones",
         "bool": false
       }
     ]
   },
   {
-    "id": 126,
-    "info": "2nd-year/head-&-neck/2019",
-    "question": "Which of the following is correct regarding bitot spots?",
+    "id": 128,
+    "info": "2nd-year/head-and-neck/2019",
+    "question": "Which of the following is incorrect regarding bitot spots?",
     "answers": [
-      {
-        "option": "Localized increase in thickness of cornea",
-        "bool": true
-      },
       {
         "option": "Seen in neovascularization",
         "bool": false
@@ -3423,51 +3473,47 @@
         "bool": false
       },
       {
+        "option": "Localized increase in thickness of cornea",
+        "bool": true
+      },
+      {
         "option": "Blood in cornea",
         "bool": false
       }
     ]
   },
   {
-    "id": 127,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 129,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The odorant molecule receptors are activated by which of the following?",
     "answers": [
       {
-        "option": "Tyrosine complex",
+        "option": "Beta subunit",
         "bool": false
       },
       {
-        "option": "Beta subunit",
-        "bool": false
+        "option": "G protein system",
+        "bool": true
       },
       {
         "option": "Ion channels",
         "bool": false
       },
       {
-        "option": "Alpha subunit",
+        "option": "Tyrosine complex",
         "bool": false
       },
       {
-        "option": "G protein system",
-        "bool": true
+        "option": "Alpha subunit",
+        "bool": false
       }
     ]
   },
   {
-    "id": 128,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 130,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "In which layer of the scalp does an infection spread easily?",
     "answers": [
-      {
-        "option": "Connective tissue",
-        "bool": false
-      },
-      {
-        "option": "Aponeurosis",
-        "bool": false
-      },
       {
         "option": "Skin",
         "bool": false
@@ -3479,12 +3525,20 @@
       {
         "option": "Periosteum",
         "bool": false
+      },
+      {
+        "option": "Connective tissue",
+        "bool": false
+      },
+      {
+        "option": "Aponeurosis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 129,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 131,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is correct regarding the choroid layer of the eyeball?",
     "answers": [
       {
@@ -3510,16 +3564,12 @@
     ]
   },
   {
-    "id": 130,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 132,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is correct regarding the ciliary ganglion?",
     "answers": [
       {
-        "option": "Postganglionic parasympathetic fibers reach the eye via long ciliary nerve",
-        "bool": false
-      },
-      {
-        "option": "Postganglionic sympathetic fibers only reach the eye via short ciliary nerves",
+        "option": "Preganglionic sympathetic fibers synapse here",
         "bool": false
       },
       {
@@ -3527,20 +3577,28 @@
         "bool": false
       },
       {
-        "option": "Preganglionic sympathetic fibers synapse here",
+        "option": "Postganglionic sympathetic fibers only reach the eye via short ciliary nerves",
         "bool": false
       },
       {
         "option": "Postganglionic parasympathetic fibers reach eye via the short ciliary nerves",
         "bool": true
+      },
+      {
+        "option": "Postganglionic parasympathetic fibers reach the eye via long ciliary nerve",
+        "bool": false
       }
     ]
   },
   {
-    "id": 131,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 133,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is correct regarding the parotid gland?",
     "answers": [
+      {
+        "option": "Facial nerve crosses superficial to it",
+        "bool": false
+      },
       {
         "option": "Retromandibular vein is formed superficial to the gland",
         "bool": false
@@ -3550,24 +3608,28 @@
         "bool": true
       },
       {
-        "option": "Its duct pierces the masseter muscle on the way to oral cavity",
-        "bool": false
-      },
-      {
-        "option": "Facial nerve crosses superficial to it",
-        "bool": false
-      },
-      {
         "option": "It is the second largest salivary gland",
+        "bool": false
+      },
+      {
+        "option": "Its duct pierces the masseter muscle on the way to oral cavity",
         "bool": false
       }
     ]
   },
   {
-    "id": 132,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 134,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "What is true regarding the pharyngeal and esophageal phases of swallowing?",
     "answers": [
+      {
+        "option": "The esophageal phase is faster than the pharyngeal phase",
+        "bool": false
+      },
+      {
+        "option": "Voluntary and involuntary",
+        "bool": false
+      },
       {
         "option": "Voluntary only",
         "bool": false
@@ -3579,32 +3641,16 @@
       {
         "option": "Involuntary only",
         "bool": true
-      },
-      {
-        "option": "Voluntary and involuntary",
-        "bool": false
-      },
-      {
-        "option": "The esophageal phase is faster than the pharyngeal phase",
-        "bool": false
       }
     ]
   },
   {
-    "id": 133,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 135,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A patient presents with a lesion of an optic tract. As a result, he is unable to see on the opposite side of the head from both eyes. This condition is called?",
     "answers": [
       {
-        "option": "Homonymous hemianopia",
-        "bool": true
-      },
-      {
-        "option": "Bitemporal hemianopia",
-        "bool": false
-      },
-      {
-        "option": "Trihedral hemianopia",
+        "option": "Unilateral hemianopia",
         "bool": false
       },
       {
@@ -3612,18 +3658,26 @@
         "bool": false
       },
       {
-        "option": "Unilateral hemianopia",
+        "option": "Bitemporal hemianopia",
+        "bool": false
+      },
+      {
+        "option": "Homonymous hemianopia",
+        "bool": true
+      },
+      {
+        "option": "Trihedral hemianopia",
         "bool": false
       }
     ]
   },
   {
-    "id": 134,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 136,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "In a lesion at the superior orbital fissure, which structure will not be involved?",
     "answers": [
       {
-        "option": "Abducens nerve",
+        "option": "Trochlear nerve",
         "bool": false
       },
       {
@@ -3631,11 +3685,11 @@
         "bool": false
       },
       {
-        "option": "Ophthalmic veins",
+        "option": "Abducens nerve",
         "bool": false
       },
       {
-        "option": "Trochlear nerve",
+        "option": "Ophthalmic veins",
         "bool": false
       },
       {
@@ -3645,12 +3699,12 @@
     ]
   },
   {
-    "id": 135,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 137,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "A boy presents with difficulty in breathing and pain in the throat. Which of the following would be swollen?",
     "answers": [
       {
-        "option": "Supraclavicular tonsils",
+        "option": "Lingual tonsils",
         "bool": false
       },
       {
@@ -3658,11 +3712,11 @@
         "bool": false
       },
       {
-        "option": "Cervical lymph nodes",
+        "option": "Supraclavicular tonsils",
         "bool": false
       },
       {
-        "option": "Lingual tonsils",
+        "option": "Cervical lymph nodes",
         "bool": false
       },
       {
@@ -3672,10 +3726,18 @@
     ]
   },
   {
-    "id": 136,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 138,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is affected when the left side of vision of both the eyes is affected?",
     "answers": [
+      {
+        "option": "Right cortex",
+        "bool": false
+      },
+      {
+        "option": "Right optic tract",
+        "bool": true
+      },
       {
         "option": "Optic nerve",
         "bool": false
@@ -3685,39 +3747,31 @@
         "bool": false
       },
       {
-        "option": "Right optic tract",
-        "bool": true
-      },
-      {
         "option": "Lateral geniculate body",
-        "bool": false
-      },
-      {
-        "option": "Right cortex",
         "bool": false
       }
     ]
   },
   {
-    "id": 137,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 139,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following is the common fibrous proliferative lesion of the oral cavity?",
     "answers": [
-      {
-        "option": "Pyogenic granuloma",
-        "bool": false
-      },
-      {
-        "option": "Leukoplakia",
-        "bool": false
-      },
       {
         "option": "Glaucoma",
         "bool": false
       },
       {
+        "option": "Pyogenic granuloma",
+        "bool": false
+      },
+      {
         "option": "Fibroma",
         "bool": true
+      },
+      {
+        "option": "Leukoplakia",
+        "bool": false
       },
       {
         "option": "Erythroplakia",
@@ -3726,16 +3780,12 @@
     ]
   },
   {
-    "id": 138,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 140,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Axons of which cells form the optic nerve?",
     "answers": [
       {
-        "option": "Amacrine cells",
-        "bool": false
-      },
-      {
-        "option": "Bipolar cells",
+        "option": "Rod cells",
         "bool": false
       },
       {
@@ -3743,28 +3793,24 @@
         "bool": true
       },
       {
+        "option": "Amacrine cells",
+        "bool": false
+      },
+      {
         "option": "Horizontal cells",
         "bool": false
       },
       {
-        "option": "Rod cells",
+        "option": "Bipolar cells",
         "bool": false
       }
     ]
   },
   {
-    "id": 139,
-    "info": "2nd-year/head-&-neck/2019",
+    "id": 141,
+    "info": "2nd-year/head-and-neck/2019",
     "question": "The deficiency of vitamin A causes a pathological condition called xerophthalmia. Which of the following correctly describes it?",
     "answers": [
-      {
-        "option": "Thickening of a part of cornea",
-        "bool": false
-      },
-      {
-        "option": "Poor vision at night",
-        "bool": false
-      },
       {
         "option": "Poor vision in dim light",
         "bool": false
@@ -3774,72 +3820,30 @@
         "bool": false
       },
       {
+        "option": "Thickening of a part of cornea",
+        "bool": false
+      },
+      {
+        "option": "Poor vision at night",
+        "bool": false
+      },
+      {
         "option": "Dryness of the cornea and conjuctiva",
         "bool": true
       }
     ]
   },
   {
-    "id": 140,
-    "info": "2nd-year/head-&-neck/2019",
-    "question": "Chewing of tobacco leads to oral cancer mostly in:",
-    "answers": [
-      {
-        "option": "Bangladesh",
-        "bool": false
-      },
-      {
-        "option": "South America",
-        "bool": false
-      },
-      {
-        "option": "North America",
-        "bool": false
-      },
-      {
-        "option": "China",
-        "bool": false
-      },
-      {
-        "option": "India",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 141,
-    "info": "2nd-year/head-&-neck/2019",
-    "question": "Anterior fontanelle closes at what age?",
-    "answers": [
-      {
-        "option": "9 to 18 months",
-        "bool": true
-      },
-      {
-        "option": "After 2 years",
-        "bool": false
-      },
-      {
-        "option": "4 to 5 months",
-        "bool": false
-      },
-      {
-        "option": "1 to 2 months",
-        "bool": false
-      },
-      {
-        "option": "6 to 7 years",
-        "bool": false
-      }
-    ]
-  },
-  {
     "id": 142,
-    "info": "2nd-year/head-&-neck/2019",
+    "info": "2nd-year/head-and-neck/2019",
     "question": "Which of the following are the eye muscles derived from?",
     "answers": [
       {
-        "option": "Occipital somites",
+        "option": "Preotic somites",
+        "bool": true
+      },
+      {
+        "option": "Trilaminar disc",
         "bool": false
       },
       {
@@ -3847,15 +3851,11 @@
         "bool": false
       },
       {
-        "option": "Trilaminar disc",
+        "option": "Epimere",
         "bool": false
       },
       {
-        "option": "Preotic somites",
-        "bool": true
-      },
-      {
-        "option": "Epimere",
+        "option": "Occipital somites",
         "bool": false
       }
     ]

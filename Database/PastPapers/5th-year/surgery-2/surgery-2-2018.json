@@ -1,0 +1,943 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 30-year-old woman presents with fecal incontinence after childbirth. What is the most likely cause of incontinence?",
+    "answers": [
+      {
+        "option": "Sphincter damaged from obstetric trauma",
+        "bool": true
+      },
+      {
+        "option": "Rectovaginal fistula",
+        "bool": false
+      },
+      {
+        "option": "Scleroderma affecting external sphincter",
+        "bool": false
+      },
+      {
+        "option": "Spinal cord injury from a fall",
+        "bool": false
+      },
+      {
+        "option": "Pudendal nerve injury due to instrumentation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 35-year-old male who underwent appendectomy one week back presents with foul-smelling discharge from his wound and a fever of 101°F. Which of the following complications has most likely occurred in this patient?",
+    "answers": [
+      {
+        "option": "Fungal infection",
+        "bool": false
+      },
+      {
+        "option": "Psoas abscess",
+        "bool": false
+      },
+      {
+        "option": "Wound infection",
+        "bool": true
+      },
+      {
+        "option": "Fecal fistula",
+        "bool": false
+      },
+      {
+        "option": "Venous thrombosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 40-year-old male presents to the clinic with a 3-month history of dysphagia to solids and weight loss. On examination, he is emaciated and has enlarged supraclavicular lymph nodes. An endoscopic biopsy reveals squamous cell carcinoma. Which of the following is the best treatment option for this patient?",
+    "answers": [
+      {
+        "option": "Photodynamic therapy",
+        "bool": false
+      },
+      {
+        "option": "Alcohol injection",
+        "bool": false
+      },
+      {
+        "option": "Radical esophagectomy",
+        "bool": false
+      },
+      {
+        "option": "Endoscopic stenting",
+        "bool": false
+      },
+      {
+        "option": "Chemotherapy/radiation",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 75-year-old female has a full-thickness rectal prolapse. She recently had hip surgery and is unable to stand. What is the preferred treatment option for her?",
+    "answers": [
+      {
+        "option": "Delorme operation",
+        "bool": true
+      },
+      {
+        "option": "Thiersch operation",
+        "bool": false
+      },
+      {
+        "option": "Abdominal rectopexy",
+        "bool": false
+      },
+      {
+        "option": "Altemeier procedure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 55-year-old male presents to the outpatient clinic complaining of abdominal pain, lethargy, and decreased appetite for 1 year. His past surgical history is significant for truncal vagotomy for the treatment of duodenal peptic ulcer disease 20 years ago. His medical history includes a diagnosis of bipolar disorder for which he takes medications with poor compliance. On investigations, an abdominal X-ray is performed which turns out to be inconclusive. What is the likely reason for his current visit to the clinic?",
+    "answers": [
+      {
+        "option": "Small bowel stricture",
+        "bool": false
+      },
+      {
+        "option": "Phytobezoar",
+        "bool": true
+      },
+      {
+        "option": "Adhesions",
+        "bool": false
+      },
+      {
+        "option": "Stercolith",
+        "bool": false
+      },
+      {
+        "option": "Worms",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the best time to assess for postoperative complications and mortality following a radical cystectomy?",
+    "answers": [
+      {
+        "option": "3 days after surgery",
+        "bool": false
+      },
+      {
+        "option": "30 days after surgery",
+        "bool": false
+      },
+      {
+        "option": "10 days after surgery",
+        "bool": false
+      },
+      {
+        "option": "60 days after surgery",
+        "bool": false
+      },
+      {
+        "option": "90 days after surgery",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 45-year-old patient presents to the outpatient clinic with a complaint of epigastric pain and vomiting for 5 days. On investigations, the serum sodium is 125 mmol/L, serum potassium is 3.2 mmol/L, and serum chloride is 90 mmol/L. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Acute gastroenteritis",
+        "bool": false
+      },
+      {
+        "option": "Chronic gastritis",
+        "bool": false
+      },
+      {
+        "option": "Gastric stasis",
+        "bool": false
+      },
+      {
+        "option": "Acute gastritis",
+        "bool": false
+      },
+      {
+        "option": "Gastric outlet obstruction",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the most prevalent form of lung cancer?",
+    "answers": [
+      {
+        "option": "Large cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Adenocarcinoma",
+        "bool": true
+      },
+      {
+        "option": "Mesothelioma",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Small cell carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A patient has chronic pancreatitis and cystic swelling of the pancreas. What is the best test to assess pancreatic insufficiency in this patient?",
+    "answers": [
+      {
+        "option": "Serum amylase levels",
+        "bool": false
+      },
+      {
+        "option": "Lundh test",
+        "bool": false
+      },
+      {
+        "option": "Fecal elastase test",
+        "bool": true
+      },
+      {
+        "option": "Secretin test",
+        "bool": false
+      },
+      {
+        "option": "Serum lipase levels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the preferable treatment of femoral hernia?",
+    "answers": [
+      {
+        "option": "Use of a truss",
+        "bool": false
+      },
+      {
+        "option": "Surgical closure of femoral canal",
+        "bool": false
+      },
+      {
+        "option": "Closure of saphenous opening",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopic repair",
+        "bool": true
+      },
+      {
+        "option": "Femoral herniotomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A multiparous woman has presented to the outpatient department with fecal incontinence. She has recently delivered a baby, vaginally. \nThe patient reports that her labour was obstructed. Accordingly, which of the following is the most likely cause of her developing fecal incontinence?",
+    "answers": [
+      {
+        "option": "Epidural complication",
+        "bool": false
+      },
+      {
+        "option": "Pelvic floor dysfunction",
+        "bool": false
+      },
+      {
+        "option": "Instrumental delivery",
+        "bool": false
+      },
+      {
+        "option": "Obstetric palsy",
+        "bool": true
+      },
+      {
+        "option": "Lumbosacral disk herniation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the most common type of lung carcinoma?",
+    "answers": [
+      {
+        "option": "Adenocarcinoma",
+        "bool": true
+      },
+      {
+        "option": "Small cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Carinoid tumor",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Large cell undifferentiated carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Delorme’s operation is the preferable treatment procedure for which of the following categories?",
+    "answers": [
+      {
+        "option": "Mucosal prolapse",
+        "bool": false
+      },
+      {
+        "option": "Infants",
+        "bool": false
+      },
+      {
+        "option": "Young females",
+        "bool": false
+      },
+      {
+        "option": "Recurrent prolapse",
+        "bool": false
+      },
+      {
+        "option": "Elderly patients",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Sclerotherapy is the preferred treatment option for which of the following categories?",
+    "answers": [
+      {
+        "option": "Adults",
+        "bool": true
+      },
+      {
+        "option": "Infants and children",
+        "bool": false
+      },
+      {
+        "option": "Elderly",
+        "bool": false
+      },
+      {
+        "option": "Full-thickness prolapse",
+        "bool": false
+      },
+      {
+        "option": "Young men",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A woman has presented to the outpatient department with fecal incontinence, for the first time. Accordingly, which of the following treatment options is most suitable for this patient?",
+    "answers": [
+      {
+        "option": "Overlap repair",
+        "bool": true
+      },
+      {
+        "option": "Sacral nerve stimulation",
+        "bool": false
+      },
+      {
+        "option": "Pelvic floor repair",
+        "bool": false
+      },
+      {
+        "option": "Artificial sphincter implant",
+        "bool": false
+      },
+      {
+        "option": "Gracilis repair",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is an indication to perform gracilis repair for fecal incontinence?",
+    "answers": [
+      {
+        "option": "Failure of overlap repair",
+        "bool": true
+      },
+      {
+        "option": "First presentation with fecal incontinence",
+        "bool": false
+      },
+      {
+        "option": "Fecal incontinence following childbirth",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Failure of conservative management",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is a penile pre-cancerous lesion?",
+    "answers": [
+      {
+        "option": "Extramammary Paget's disease of the penis",
+        "bool": false
+      },
+      {
+        "option": "Phimosis",
+        "bool": false
+      },
+      {
+        "option": "Chronic balanoposthitis",
+        "bool": false
+      },
+      {
+        "option": "Peyronie’s disease",
+        "bool": false
+      },
+      {
+        "option": "Leukoplakia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Upon laparoscopy, a patient was diagnosed with peritoneal metastasis. Yellowish, sticky nodules were discovered, adherent to the peritoneum. Accordingly, which of the following organs is most likely involved in this type of cancer?",
+    "answers": [
+      {
+        "option": "Appendix",
+        "bool": true
+      },
+      {
+        "option": "Gallbladder",
+        "bool": false
+      },
+      {
+        "option": "Pancreas",
+        "bool": false
+      },
+      {
+        "option": "Fallopian tube",
+        "bool": false
+      },
+      {
+        "option": "Uterus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A male patient has presented to the emergency department with the following complaint: colicky pain and tenderness over a visible mass near the umbilicus. On examination, his blood pressure is low and his pulse rate is high. Accordingly, which of the following is the most likely diagnosis for this patient?",
+    "answers": [
+      {
+        "option": "Urachus anomaly",
+        "bool": false
+      },
+      {
+        "option": "Strangulated paraumbilical hernia",
+        "bool": true
+      },
+      {
+        "option": "Paraumbilical hernia",
+        "bool": false
+      },
+      {
+        "option": "Strangulated femoral hernia",
+        "bool": false
+      },
+      {
+        "option": "Gastric carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A patient presented to the emergency department with acute pancreatitis. After 48 hours, the severity of the episode is to be reassessed for this patient via the Ranson and Glasgow scoring systems. Which of the following statements is incorrect, with respect to the parameters of these scoring systems?",
+    "answers": [
+      {
+        "option": "White blood cell count >15 × 109/L",
+        "bool": false
+      },
+      {
+        "option": "Fluid sequestration < 6L",
+        "bool": true
+      },
+      {
+        "option": "Serum calcium < 8 mg/dL (2.0 mmol/L)",
+        "bool": false
+      },
+      {
+        "option": "Haematocrit fall of 10% or greater",
+        "bool": false
+      },
+      {
+        "option": "Base deficit > 4 mmol/L",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the most common site involved in colonic diverticular disease?",
+    "answers": [
+      {
+        "option": "Descending colon",
+        "bool": false
+      },
+      {
+        "option": "Ascending colon",
+        "bool": false
+      },
+      {
+        "option": "Rectosigmoid junction",
+        "bool": false
+      },
+      {
+        "option": "Transverse colon",
+        "bool": false
+      },
+      {
+        "option": "Sigmoid colon",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following statements regarding familial adenomatous polyposis (FAP) is incorrect?",
+    "answers": [
+      {
+        "option": "Inheritance pattern is mendelian dominant",
+        "bool": false
+      },
+      {
+        "option": "Associated with desmoid tumors and osteomas",
+        "bool": false
+      },
+      {
+        "option": "New mutations are involved in predisposition",
+        "bool": false
+      },
+      {
+        "option": "Involves the colon only",
+        "bool": true
+      },
+      {
+        "option": "Males and females are affected equally",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following statements regarding atypical anal fissures is incorrect?",
+    "answers": [
+      {
+        "option": "This type of fissure can be examined adequately in a clinical setting",
+        "bool": true
+      },
+      {
+        "option": "This type of fissure requires the exclusion of a sexually transmitted infection",
+        "bool": false
+      },
+      {
+        "option": "This type of fissure should be examined by biopsy under general anesthesia, and the tissue specimen then sent for culture",
+        "bool": false
+      },
+      {
+        "option": "There is a specific etiology for this type of a fissure",
+        "bool": false
+      },
+      {
+        "option": "This type of a fissure raises suspicion for malignancy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A male patient has presented with a complaint of fresh rectal bleeding. Which of the following clinical examinations would be most diagnostic in this scenario?",
+    "answers": [
+      {
+        "option": "Digital rectal examination",
+        "bool": false
+      },
+      {
+        "option": "Rigid or flexible proctosigmoidoscopy",
+        "bool": true
+      },
+      {
+        "option": "Digital rectal examination along with proctoscopy",
+        "bool": false
+      },
+      {
+        "option": "Proctoscopy",
+        "bool": false
+      },
+      {
+        "option": "Sigmoidoscopy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A patient has presented with a history of pain in the right hypochondrium. Upon examination, the liver is palpable at about 1 cm below the subcostal margin. Ultrasonography result shows presence of a cystic swelling in the right lobe. Accordingly, which of the following is the next best investigation for this patient?",
+    "answers": [
+      {
+        "option": "Magnetic resonance cholangiopancreatography (MRCP)",
+        "bool": false
+      },
+      {
+        "option": "Contrast-enhanced computed tomography (CT) of the liver",
+        "bool": true
+      },
+      {
+        "option": "X-ray of the abdomen",
+        "bool": false
+      },
+      {
+        "option": "Endoscopic retrograde cholangiopancreatography (ERCP)",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging (MRI) of the liver",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A 16-year-old female patient is scheduled for an appendectomy procedure. The patient has expressed concern about scarring. Which of the following appendectomy incisions would be most suitable for this patient's concern?",
+    "answers": [
+      {
+        "option": "Lanz incision",
+        "bool": true
+      },
+      {
+        "option": "Rutherford Morison incision",
+        "bool": false
+      },
+      {
+        "option": "Lower midline abdominal incision",
+        "bool": false
+      },
+      {
+        "option": "Gridiron incision",
+        "bool": false
+      },
+      {
+        "option": "Right lower paramedian incision",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A female patient with a history of a laparotomy has presented with a bulging abdominal mass and a positive result on a cough impulse test. Which of the following is the investigation of choice for this patient?",
+    "answers": [
+      {
+        "option": "Laparoscopy",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound (US)",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging (MRI)",
+        "bool": false
+      },
+      {
+        "option": "Computed tomography (CT) scan",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A patient who has a known case of peptic ulcer disease (PUD) has now presented in the emergency department with perforation. Which of the following statements is most appropriate regarding the management of such a patient?",
+    "answers": [
+      {
+        "option": "Administer proton pump inhibitors (PPIs)",
+        "bool": false
+      },
+      {
+        "option": "Analgesia only",
+        "bool": false
+      },
+      {
+        "option": "Fluid resuscitation only",
+        "bool": false
+      },
+      {
+        "option": "Observe the patient",
+        "bool": false
+      },
+      {
+        "option": "Adequate resuscitation via fluids, correction of electrolyte balance, followed by surgery.",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "5th-year/surgery-2/2018",
+    "question": "In regards to gastric cancer, which of the following imaging modalities is most sensitive in performing Tumour, Node, Metastasis (TNM) staging of the carcinoma?",
+    "answers": [
+      {
+        "option": "Computed tomography (CT) scan",
+        "bool": false
+      },
+      {
+        "option": "Positron emission tomography (PET) scan",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging (MRI)",
+        "bool": false
+      },
+      {
+        "option": "Endoscopic ultrasonography (EUS)",
+        "bool": true
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following statements is most appropriate regarding the treatment of gastric lymphoma?",
+    "answers": [
+      {
+        "option": "Localized disease is to be treated via surgery and chemotherapy",
+        "bool": false
+      },
+      {
+        "option": "To be treated via surgery only",
+        "bool": true
+      },
+      {
+        "option": "Systemic disease is to be treated via surgery only",
+        "bool": false
+      },
+      {
+        "option": "To be treated by chemotherapy only",
+        "bool": false
+      },
+      {
+        "option": "To be treated by Helicobacter pylori eradication therapy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the best treatment option for bleeding oesophageal varices?",
+    "answers": [
+      {
+        "option": "Observe the patient only",
+        "bool": false
+      },
+      {
+        "option": "Trans-jugular Intrahepatic Portosystemic Shunt (TIPSS)",
+        "bool": false
+      },
+      {
+        "option": "Administer cyanoacrylate",
+        "bool": false
+      },
+      {
+        "option": "Banding",
+        "bool": true
+      },
+      {
+        "option": "Balloon tamponade",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following is the best modality to diagnose cholangiocarcinoma?",
+    "answers": [
+      {
+        "option": "Positron emission tomography (PET)",
+        "bool": false
+      },
+      {
+        "option": "Ultrasonography",
+        "bool": false
+      },
+      {
+        "option": "Computed tomography (CT)",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance cholangio-pancreatography (MRCP)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "5th-year/surgery-2/2018",
+    "question": "A female patient has presented with a complaint of pain in the right iliac fossa. Laparotomy findings are as follows: yellow, jelly-like material, deposited in the peritoneum. Accordingly, which of the following is most likely to be the primary organ involved?",
+    "answers": [
+      {
+        "option": "Appendix",
+        "bool": true
+      },
+      {
+        "option": "Ovaries",
+        "bool": false
+      },
+      {
+        "option": "Stomach",
+        "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Liver",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following statements is most appropriate regarding the management of a hematocele?",
+    "answers": [
+      {
+        "option": "Computed tomography (CT) scan is preferable for imaging",
+        "bool": false
+      },
+      {
+        "option": "Following confirmation via ultrasound, early surgical exploration along with debridement and repair of the tunica albuginea, is to be done",
+        "bool": true
+      },
+      {
+        "option": "No indication for surgical exploration, can be managed medically",
+        "bool": false
+      },
+      {
+        "option": "Carry out delayed surgical exploration, no need for an ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Just admit and observe the patient",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "5th-year/surgery-2/2018",
+    "question": "Which of the following stages correctly corresponds to prostate carcinoma that has involved the capsule?",
+    "answers": [
+      {
+        "option": "T3",
+        "bool": true
+      },
+      {
+        "option": "T2b",
+        "bool": false
+      },
+      {
+        "option": "T1a",
+        "bool": false
+      },
+      {
+        "option": "T2c",
+        "bool": false
+      },
+      {
+        "option": "T1c",
+        "bool": false
+      }
+    ]
+  }
+]

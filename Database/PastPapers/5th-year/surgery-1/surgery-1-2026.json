@@ -1,0 +1,2000 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 45-year-old patient underwent a total thyroidectomy 4 hours ago. The nurse reports sudden onset of neck swelling, respiratory distress, and stridor. The patient is rushed back to the operating room for wound exploration. Which of the following is most commonly the source of arterial bleeding in a postoperative thyroid hematoma?",
+    "answers": [
+      {
+        "option": "Inferior thyroid vein",
+        "bool": false
+      },
+      {
+        "option": "Superior thyroid vein",
+        "bool": false
+      },
+      {
+        "option": "Inferior thyroid artery",
+        "bool": false
+      },
+      {
+        "option": "Superior thyroid artery",
+        "bool": true
+      },
+      {
+        "option": "Pretracheal vessels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/surgery-1/2026",
+    "question": "During an emergency appendectomy for suspected appendicitis, a firm, yellow-tan nodule is discovered at the base of the appendix. Frozen section confirms a carcinoid tumor measuring 2.5 cm x 2.0 cm. What is the most appropriate next step in management?",
+    "answers": [
+      {
+        "option": "Simple appendectomy only",
+        "bool": false
+      },
+      {
+        "option": "Systemic chemotherapy",
+        "bool": false
+      },
+      {
+        "option": "Right hemicolectomy",
+        "bool": true
+      },
+      {
+        "option": "Postoperative radiotherapy",
+        "bool": false
+      },
+      {
+        "option": "Total colectomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient is on the second postoperative day following an elective laparotomy. He presents with abdominal distension and obstipation. Physical examination reveals absent bowel sounds. A plain abdominal X-ray shows dilated loops of both small and large bowel. What is the most appropriate next step in management?",
+    "answers": [
+      {
+        "option": "Infusion of IV prokinetics",
+        "bool": false
+      },
+      {
+        "option": "Immediate relaparotomy",
+        "bool": false
+      },
+      {
+        "option": "Emergency colectomy",
+        "bool": false
+      },
+      {
+        "option": "Nasogastric decompression and supportive care",
+        "bool": true
+      },
+      {
+        "option": "Start total parenteral nutrition",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 25-year-old man is brought to the ER after a blunt abdominal trauma. He is hemodynamically stable. A CT scan of the abdomen reveals a Grade 3 splenic injury with a subcapsular hematoma involving 50% of the surface area, but no contrast extravasation is noted. What is the best management strategy?",
+    "answers": [
+      {
+        "option": "Local wound exploration",
+        "bool": false
+      },
+      {
+        "option": "Diagnostic peritoneal lavage",
+        "bool": false
+      },
+      {
+        "option": "Serial observation and monitoring of hemoglobin levels",
+        "bool": true
+      },
+      {
+        "option": "Immediate laparotomy and splenectomy",
+        "bool": false
+      },
+      {
+        "option": "Splenic artery embolization",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents to the emergency department with a stab wound to the anterior abdomen. The patient is hemodynamically stable, and there are no signs of peritonitis or evisceration. What is the most appropriate initial step to determine if the peritoneum has been breached?",
+    "answers": [
+      {
+        "option": "Serial observation only",
+        "bool": false
+      },
+      {
+        "option": "CT scan with contrast",
+        "bool": false
+      },
+      {
+        "option": "Abdominal ultrasound (FAST)",
+        "bool": false
+      },
+      {
+        "option": "Immediate exploratory laparotomy",
+        "bool": false
+      },
+      {
+        "option": "Local wound exploration",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 38-year-old woman presents to the clinic complaining of spontaneous, persistent bloody nipple discharge from her right breast for the past three weeks. On physical examination, there are no palpable masses, skin changes, or axillary lymphadenopathy. A retroareolar ultrasound shows a small, well-defined echogenic lesion within a dilated lactiferous duct. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Intraductal papilloma",
+        "bool": true
+      },
+      {
+        "option": "Fat necrosis",
+        "bool": false
+      },
+      {
+        "option": "Fibroadenoma",
+        "bool": false
+      },
+      {
+        "option": "Mammary ductal ectasia",
+        "bool": false
+      },
+      {
+        "option": "Invasive ductal carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 52-year-old female presents with a rapidly progressing, painful, and erythematous left breast. The skin is thickened with a \"peau d’orange\" appearance, and there is no discrete underlying mass palpable. Core needle biopsy confirms invasive ductal carcinoma with dermal lymphatic invasion. What is the standard initial management for this patient?",
+    "answers": [
+      {
+        "option": "Lumpectomy with axillary lymph node dissection",
+        "bool": false
+      },
+      {
+        "option": "Primary radiotherapy to the breast and axilla",
+        "bool": false
+      },
+      {
+        "option": "Neoadjuvant systemic chemotherapy",
+        "bool": true
+      },
+      {
+        "option": "Immediate modified radical mastectomy",
+        "bool": false
+      },
+      {
+        "option": "Antibiotic therapy for 2 weeks followed by re-evaluation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 55-year-old postmenopausal woman presents with a firm, somewhat tender subareolar mass in her left breast. She also notes a thick, multicolored, \"cheesy\" nipple discharge. There is some degree of nipple retraction, but the skin appears otherwise normal. Mammography shows tubular calcifications in a \"broken needle\" pattern. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Comedocarcinoma (DCIS)",
+        "bool": false
+      },
+      {
+        "option": "Plasma cell mastitis",
+        "bool": false
+      },
+      {
+        "option": "Chronic bacterial mastitis",
+        "bool": false
+      },
+      {
+        "option": "Mammary ductal ectasia",
+        "bool": true
+      },
+      {
+        "option": "Intraductal papilloma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient who underwent an excisional hemorrhoidectomy 8 days ago presents to the emergency department with a sudden onset of significant bright red blood per rectum. The patient is hemodynamically stable. Which of the following is the most likely cause of this delayed postoperative hemorrhage?",
+    "answers": [
+      {
+        "option": "Local infection",
+        "bool": false
+      },
+      {
+        "option": "Recurrence of internal hemorrhoids",
+        "bool": false
+      },
+      {
+        "option": "Malignancy",
+        "bool": false
+      },
+      {
+        "option": "Sloughing of the vascular pedicle",
+        "bool": true
+      },
+      {
+        "option": "Slippage of a ligature",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient develops a rapidly expanding neck hematoma 2 hours after a subtotal thyroidectomy, causing airway compromise. During emergency re-exploration, an arterial bleeder is identified. Which of the following vessels is the most common source of arterial hemorrhage in this setting?",
+    "answers": [
+      {
+        "option": "Inferior thyroid vein",
+        "bool": false
+      },
+      {
+        "option": "Middle thyroid vein",
+        "bool": false
+      },
+      {
+        "option": "Superior thyroid artery",
+        "bool": true
+      },
+      {
+        "option": "Inferior thyroid artery",
+        "bool": false
+      },
+      {
+        "option": "Superior thyroid vein",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A fine-needle aspiration biopsy of a solitary thyroid nodule in a 30-year-old female reveals follicular epithelial cells with large, overlapping, \"cleared-out\" nuclei, also known as Orphan Annie-eye nuclei. Psammoma bodies are also noted. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Hürthle cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Papillary thyroid carcinoma",
+        "bool": true
+      },
+      {
+        "option": "Anaplastic thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Follicular thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Medullary thyroid carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 50-year-old man undergoes a superficial parotidectomy for a pleomorphic adenoma. During the dissection of the deep plane, which of the following structures is most at risk of injury as it passes through the substance of the parotid gland?",
+    "answers": [
+      {
+        "option": "Retromandibular vein",
+        "bool": false
+      },
+      {
+        "option": "Auriculotemporal nerve",
+        "bool": false
+      },
+      {
+        "option": "External carotid artery",
+        "bool": false
+      },
+      {
+        "option": "Glossopharyngeal nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 25-year-old patient presents with a chronic, dry, red, and itchy rash over the extensor surfaces of the elbows and knees. The rash appears as well-demarcated erythematous plaques with silvery scales and tends to worsen during the winter months. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Atopic dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Psoriasis",
+        "bool": true
+      },
+      {
+        "option": "Pityriasis rosea",
+        "bool": false
+      },
+      {
+        "option": "Contact dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Seborrheic dermatitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 45-year-old man who received a liver transplant 15 years ago and has been on long-term immunosuppressant therapy presents with a non-healing, ulcerated lesion on the nape of his neck. The ulcer has some purulent discharge at the edges. Given his history, what is the most critical next step in management?",
+    "answers": [
+      {
+        "option": "Empirical treatment with topical antifungals",
+        "bool": false
+      },
+      {
+        "option": "Biopsy of the transplanted liver to check for chronic rejection",
+        "bool": false
+      },
+      {
+        "option": "Wide local excision of the lesion without prior biopsy",
+        "bool": false
+      },
+      {
+        "option": "Culture of the pus to guide antibiotic therapy for a carbuncle",
+        "bool": false
+      },
+      {
+        "option": "Biopsy of the ulcer to rule out malignancy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient with a history of chronic diuretic use is found to have a serum potassium level of 2.2 mEq/L. On examination, which of the following findings is most characteristic of severe hypokalemia?",
+    "answers": [
+      {
+        "option": "Abdominal distension",
+        "bool": false
+      },
+      {
+        "option": "Muscle cramps",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Hyperreflexia",
+        "bool": false
+      },
+      {
+        "option": "Irregular pulse",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 40-year-old patient is evaluated for a thyroid mass. Laboratory investigations reveal significantly elevated serum calcitonin levels. This finding is highly suggestive of which of the following conditions?",
+    "answers": [
+      {
+        "option": "Papillary thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Anaplastic thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Medullary thyroid carcinoma",
+        "bool": true
+      },
+      {
+        "option": "Follicular thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Multinodular goiter",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient who recently underwent an excisional hemorrhoidectomy is found to have a hemoglobin level of 7 g/dL. The patient is symptomatic with tachycardia and shortness of breath. Which of the following is the most appropriate blood product to administer to increase the oxygen-carrying capacity?",
+    "answers": [
+      {
+        "option": "Platelet concentrate",
+        "bool": false
+      },
+      {
+        "option": "Whole blood",
+        "bool": false
+      },
+      {
+        "option": "Packed red blood cells",
+        "bool": true
+      },
+      {
+        "option": "Cryoprecipitate",
+        "bool": false
+      },
+      {
+        "option": "Fresh frozen plasma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 55-year-old patient with poorly controlled Type 2 Diabetes Mellitus is scheduled for an elective laparoscopic cholecystectomy for symptomatic gallstones. What is the most effective method to rapidly and precisely control blood glucose levels in the immediate perioperative period?",
+    "answers": [
+      {
+        "option": "Oral biguanides",
+        "bool": false
+      },
+      {
+        "option": "Sulfonylureas",
+        "bool": false
+      },
+      {
+        "option": "Strict dietary modification",
+        "bool": false
+      },
+      {
+        "option": "Increased physical activity",
+        "bool": false
+      },
+      {
+        "option": "Intravenous or subcutaneous insulin",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 7-year-old child presents with a 3-day history of severe leg pain and refusal to bear weight. On examination, there is localized tenderness and warmth over the distal femur. Laboratory results show an elevated WBC count, ESR, and CRP. However, the initial X-ray of the limb is normal. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Chronic osteomyelitis",
+        "bool": false
+      },
+      {
+        "option": "Necrotizing fasciitis",
+        "bool": false
+      },
+      {
+        "option": "Acute osteomyelitis",
+        "bool": true
+      },
+      {
+        "option": "Myositis",
+        "bool": false
+      },
+      {
+        "option": "Cellulitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "5th-year/surgery-1/2026",
+    "question": "An immunocompromised patient develops a postoperative wound infection on the 5th day after abdominal surgery. While Staphylococcus aureus is a common cause of surgical site infections, which of the following opportunistic pathogens is frequently associated with deep-seated wound infections or systemic spread in immunocompromised individuals?",
+    "answers": [
+      {
+        "option": "Candida albicans",
+        "bool": false
+      },
+      {
+        "option": "Pseudomonas aeruginosa",
+        "bool": true
+      },
+      {
+        "option": "Streptococcus pyogenes",
+        "bool": false
+      },
+      {
+        "option": "Bacteroides fragilis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 45-year-old male from South Asia presents with a 2-week history of bloody dysentery, tenesmus, and vague abdominal pain. He is suspected of having Amoebic dysentery. Which of the following is the most useful initial investigation to identify the causative organism (Entamoeba histolytica)?",
+    "answers": [
+      {
+        "option": "CBC",
+        "bool": false
+      },
+      {
+        "option": "ESR",
+        "bool": false
+      },
+      {
+        "option": "Circulating anti-amoebic antibodies",
+        "bool": false
+      },
+      {
+        "option": "CRP",
+        "bool": false
+      },
+      {
+        "option": "Stool Detailed Report (D/R) and Microscopy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 4-year-old child is brought by his mother with a complaint of a bright red, 1-inch mass protruding from the anus during defecation. The mass reduces spontaneously after the bowel movement is completed. The mother notes that the child is otherwise healthy and not constipated. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Full-thickness rectal prolapse",
+        "bool": false
+      },
+      {
+        "option": "Rectal polyp",
+        "bool": false
+      },
+      {
+        "option": "Intussusception",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhoids",
+        "bool": true
+      },
+      {
+        "option": "Anal fissure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 10-month-old infant is brought to the emergency department with intermittent episodes of inconsolable crying and \"currant jelly\" stools. On examination, a sausage-shaped mass is palpable in the right upper quadrant. While specific lead points like Meckel's diverticulum or polyps can occur, what is the most common cause of acute intussusception in the pediatric population?",
+    "answers": [
+      {
+        "option": "Idiopathic",
+        "bool": true
+      },
+      {
+        "option": "Lymphoma",
+        "bool": false
+      },
+      {
+        "option": "Juvenile polyp",
+        "bool": false
+      },
+      {
+        "option": "Meckel's diverticulum",
+        "bool": false
+      },
+      {
+        "option": "Cystic fibrosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 3-year-old child presents with a small, red, circular protrusion from the anus following a bowel movement. The mother notes that the child has been suffering from a prolonged bout of watery stools over the last week. Which of the following is the most common precipitating factor for partial (mucosal) rectal prolapse in children?",
+    "answers": [
+      {
+        "option": "Cystic fibrosis",
+        "bool": false
+      },
+      {
+        "option": "Hirschsprung disease",
+        "bool": false
+      },
+      {
+        "option": "Congenital weakness of the levator ani",
+        "bool": false
+      },
+      {
+        "option": "Rectal polyp",
+        "bool": false
+      },
+      {
+        "option": "Acute or chronic diarrhea",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 65-year-old patient presents with obstructive jaundice, weight loss, and a palpable gallbladder. Imaging studies suggest a malignancy arising from the biliary tree (cholangiocarcinoma). Which of the following tumor markers is most commonly elevated and used to support the diagnosis of cholangiocarcinoma?",
+    "answers": [
+      {
+        "option": "CA 15-3",
+        "bool": false
+      },
+      {
+        "option": "CA 125",
+        "bool": false
+      },
+      {
+        "option": "AFP",
+        "bool": false
+      },
+      {
+        "option": "CA 19-9",
+        "bool": true
+      },
+      {
+        "option": "CEA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient with a history of long-standing peptic ulcer disease presents with persistent projectile vomiting of non-bilious material. Laboratory tests reveal a hypochloremic, hypokalemic metabolic alkalosis. Which of the following is the most appropriate initial intravenous fluid for resuscitation?",
+    "answers": [
+      {
+        "option": "0.45% saline with bicarbonate",
+        "bool": false
+      },
+      {
+        "option": "3% hypertonic saline",
+        "bool": false
+      },
+      {
+        "option": "5% dextrose in water",
+        "bool": false
+      },
+      {
+        "option": "0.9% normal saline with potassium chloride",
+        "bool": true
+      },
+      {
+        "option": "Ringer's lactate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 3-year-old girl is brought to the clinic because she is refusing to bear weight on her right leg. She has a low-grade fever and appears ill. On examination, her right hip is held in a position of flexion, abduction, and external rotation. Any passive movement of the hip causes significant pain. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Legg-Calvé-Perthes disease",
+        "bool": false
+      },
+      {
+        "option": "Developmental dysplasia of the hip",
+        "bool": false
+      },
+      {
+        "option": "Septic arthritis",
+        "bool": true
+      },
+      {
+        "option": "Slipped Capital Femoral Epiphysis",
+        "bool": false
+      },
+      {
+        "option": "Transient synovitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 45-year-old patient is brought to the ER following a high-speed motor vehicle accident. Imaging shows a C5-C6 dislocation. Neurological examination reveals ipsilateral loss of motor function and proprioception, and contralateral loss of pain and temperature sensation below the level of the lesion. Which of the following describes this pattern of injury?",
+    "answers": [
+      {
+        "option": "Brown-Séquard syndrome",
+        "bool": true
+      },
+      {
+        "option": "Central cord syndrome",
+        "bool": false
+      },
+      {
+        "option": "Cauda equina syndrome",
+        "bool": false
+      },
+      {
+        "option": "Anterior cord syndrome",
+        "bool": false
+      },
+      {
+        "option": "Posterior cord syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient with a traumatic brain injury is being monitored in the ICU. The nurse notes a progressive trend in the patient's vitals: a rising systolic blood pressure with a widening pulse pressure, a decreasing heart rate (bradycardia), and irregular respirations. What is this classic triad of clinical signs indicative of increased intracranial pressure called?",
+    "answers": [
+      {
+        "option": "Virchow's triad",
+        "bool": false
+      },
+      {
+        "option": "Beck's triad",
+        "bool": false
+      },
+      {
+        "option": "Whipple's triad",
+        "bool": false
+      },
+      {
+        "option": "Cushing's triad",
+        "bool": true
+      },
+      {
+        "option": "Charcot's triad",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "5th-year/surgery-1/2026",
+    "question": "During a postoperative debrief, a patient describes being able to hear the surgical team and feeling a sensation of being unable to move during their general anesthesia. Which of the following factors most significantly increases the risk of intraoperative awareness by masking purposeful movement in response to inadequate anesthesia?",
+    "answers": [
+      {
+        "option": "Underlying hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Intravenous antibiotic administration",
+        "bool": false
+      },
+      {
+        "option": "Use of potent inhaled anesthetics",
+        "bool": false
+      },
+      {
+        "option": "Patient age (elderly)",
+        "bool": false
+      },
+      {
+        "option": "Use of neuromuscular blockade (muscle relaxants)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 60-year-old diabetic patient with symptomatic cholelithiasis is scheduled for an elective laparoscopic cholecystectomy. To ensure the most precise and adjustable control of blood glucose levels during the fasting period and the stress of surgery, which of the following is the preferred management?",
+    "answers": [
+      {
+        "option": "Rely on preoperative exercise to lower baseline glucose",
+        "bool": false
+      },
+      {
+        "option": "Maintain the patient on a clear liquid diet for 48 hours",
+        "bool": false
+      },
+      {
+        "option": "Continue oral biguanides (metformin) until the morning of surgery",
+        "bool": false
+      },
+      {
+        "option": "Increase the dose of sulfonylureas",
+        "bool": false
+      },
+      {
+        "option": "Transition to an insulin-based regimen (sliding scale or infusion)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient with known congestive heart failure is admitted to the ward. During your morning rounds, you suspect the patient has developed acute fluid overload. Which of the following clinical findings would be most consistent with an increased central venous pressure (CVP) and fluid retention?",
+    "answers": [
+      {
+        "option": "Increased heart rate",
+        "bool": true
+      },
+      {
+        "option": "Increased blood pressure",
+        "bool": false
+      },
+      {
+        "option": "Decreased CVP",
+        "bool": false
+      },
+      {
+        "option": "Collapsed neck veins and peripheral hand veins",
+        "bool": false
+      },
+      {
+        "option": "Acute weight loss",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents with a clean, sharp incisional wound sustained less than 6 hours ago. There is no evidence of gross contamination or significant tissue loss. What is the standard surgical management for this type of wound?",
+    "answers": [
+      {
+        "option": "Irrigation of wound and delayed primary closure",
+        "bool": false
+      },
+      {
+        "option": "Topical antibiotics and dressing only",
+        "bool": false
+      },
+      {
+        "option": "Immediate closure with sutures",
+        "bool": true
+      },
+      {
+        "option": "Debridement of wound edges and primary closure",
+        "bool": false
+      },
+      {
+        "option": "Healing by secondary intention",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 22-year-old female presents with a painless, mobile breast lump. An ultrasound is performed and the lesion is classified as BI-RADS 3. What is the most appropriate next step in management for this patient?",
+    "answers": [
+      {
+        "option": "Immediate simple mastectomy",
+        "bool": false
+      },
+      {
+        "option": "Core needle biopsy",
+        "bool": false
+      },
+      {
+        "option": "Fine-needle aspiration cytology",
+        "bool": false
+      },
+      {
+        "option": "Wide local excision",
+        "bool": false
+      },
+      {
+        "option": "Reassurance and short-interval follow-up (typically 6 months)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A postoperative patient is found to have a serum potassium level of 5.5 mEq/L. Which of the following clinical scenarios is most likely to cause this elevation in potassium?",
+    "answers": [
+      {
+        "option": "Chronic laxative abuse",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Ischemia and reperfusion of the lower limbs",
+        "bool": true
+      },
+      {
+        "option": "Metabolic alkalosis",
+        "bool": false
+      },
+      {
+        "option": "Severe ulcerative colitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A newborn is diagnosed with an isolated unilateral cleft lip. The parents are anxious to know when the surgical repair can be safely performed. According to the \"Rule of Tens\" and standard plastic surgery protocols, at what age is this procedure typically scheduled?",
+    "answers": [
+      {
+        "option": "1 to 2 weeks",
+        "bool": false
+      },
+      {
+        "option": "3 to 6 months",
+        "bool": true
+      },
+      {
+        "option": "2 to 3 years",
+        "bool": false
+      },
+      {
+        "option": "12 to 18 months",
+        "bool": false
+      },
+      {
+        "option": "1 to 2 months",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 40-year-old patient undergoes an FNAC of a 2 cm cold thyroid nodule. The pathology report returns as Bethesda Category V. What is the most appropriate definitive surgical management for this patient?",
+    "answers": [
+      {
+        "option": "Radioactive iodine ablation",
+        "bool": false
+      },
+      {
+        "option": "Repeat FNAC in 6 months",
+        "bool": false
+      },
+      {
+        "option": "Total thyroidectomy",
+        "bool": false
+      },
+      {
+        "option": "Hemilobectomy only",
+        "bool": true
+      },
+      {
+        "option": "Suppression therapy with levothyroxine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 12-year-old boy presents with localized pain and swelling in the shaft of the femur. A plain X-ray reveals a permeative \"moth-eaten\" lytic lesion in the diaphysis with an associated \"onion-skin\" periosteal reaction. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Osteoid osteoma",
+        "bool": false
+      },
+      {
+        "option": "Osteosarcoma",
+        "bool": false
+      },
+      {
+        "option": "Ewing sarcoma",
+        "bool": true
+      },
+      {
+        "option": "Giant cell tumor",
+        "bool": false
+      },
+      {
+        "option": "Chondrosarcoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 20-year-old male presents with persistent knee pain. An X-ray of the distal femur shows a poorly defined lytic lesion with a \"sunburst\" periosteal reaction and a Codman triangle. Laboratory tests show elevated alkaline phosphatase. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Ewing sarcoma",
+        "bool": false
+      },
+      {
+        "option": "Enchondroma",
+        "bool": false
+      },
+      {
+        "option": "Osteochondroma",
+        "bool": false
+      },
+      {
+        "option": "Osteosarcoma",
+        "bool": true
+      },
+      {
+        "option": "Giant cell tumor",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 4-month-old infant is brought to the clinic with a bright red, raised, and lobulated lesion on the side of the neck. The mother reports that the lesion was a small \"strawberry\" spot at birth but has rapidly increased in size over the last two months. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Lymphangioma",
+        "bool": false
+      },
+      {
+        "option": "Venous malformation",
+        "bool": false
+      },
+      {
+        "option": "Port-wine stain",
+        "bool": false
+      },
+      {
+        "option": "Arteriovenous malformation",
+        "bool": false
+      },
+      {
+        "option": "Infantile hemangioma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A newborn is diagnosed with Talipes Equinovarus (Clubfoot). The orthopedic surgeon explains that the goal of treatment is to achieve a functional, pain-free, plantigrade foot. Which of the following is the standard non-surgical method involving serial casting and potential Achilles tenotomy?",
+    "answers": [
+      {
+        "option": "Denis Browne splint",
+        "bool": false
+      },
+      {
+        "option": "Pavlik harness",
+        "bool": false
+      },
+      {
+        "option": "Ilizarov technique",
+        "bool": false
+      },
+      {
+        "option": "Ponseti method",
+        "bool": true
+      },
+      {
+        "option": "Salter osteotomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 35-year-old woman tests positive for the BRCA1 gene mutation. Her family history is significant for both early-onset breast cancer and ovarian cancer. Which of the following options provides the most significant reduction in the long-term risk of developing breast cancer for this patient?",
+    "answers": [
+      {
+        "option": "Reassurance and annual physical exams",
+        "bool": false
+      },
+      {
+        "option": "Annual mammography starting from the age of 40",
+        "bool": false
+      },
+      {
+        "option": "Prophylactic salpingo-oophorectomy alone",
+        "bool": false
+      },
+      {
+        "option": "Bilateral prophylactic mastectomy",
+        "bool": true
+      },
+      {
+        "option": "Chemoprevention with Tamoxifen only",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient is brought to the trauma bay after a high-velocity motor vehicle accident. He is hemodynamically unstable with a \"shattered\" liver and is bleeding profusely despite aggressive resuscitation. What is the most appropriate initial surgical maneuver to control the hemorrhage in this emergency \"damage control\" setting?",
+    "answers": [
+      {
+        "option": "Perihepatic packing of the liver",
+        "bool": true
+      },
+      {
+        "option": "Ligation of the common hepatic artery",
+        "bool": false
+      },
+      {
+        "option": "Pringle maneuver with definitive vascular repair",
+        "bool": false
+      },
+      {
+        "option": "Ligation of the main portal vein",
+        "bool": false
+      },
+      {
+        "option": "Immediate partial hepatic resection",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A hemodynamically stable patient is diagnosed with a Grade 3 splenic injury following blunt abdominal trauma. A contrast-enhanced CT scan shows the injury but confirms there is no extravasation of contrast (no active blush). What is the most appropriate management?",
+    "answers": [
+      {
+        "option": "Diagnostic peritoneal lavage",
+        "bool": false
+      },
+      {
+        "option": "Prophylactic angioembolization",
+        "bool": false
+      },
+      {
+        "option": "Immediate total splenectomy",
+        "bool": false
+      },
+      {
+        "option": "Exploratory laparotomy and splenorrhaphy",
+        "bool": false
+      },
+      {
+        "option": "Non-operative management with serial hemoglobin monitoring",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents with blunt chest trauma, decreased breath sounds, and dullness to percussion on the left side. A chest X-ray confirms a significant hemothorax. What is the most appropriate definitive management for evacuating the blood and re-expanding the lung?",
+    "answers": [
+      {
+        "option": "Needle decompression",
+        "bool": false
+      },
+      {
+        "option": "Pericardiocentesis",
+        "bool": false
+      },
+      {
+        "option": "Large-bore tube thoracostomy",
+        "bool": true
+      },
+      {
+        "option": "Immediate thoracotomy",
+        "bool": false
+      },
+      {
+        "option": "Thoracentesis with a fine needle",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 40-year-old patient presents with a slowly enlarging, painless, and firm mass in the parotid region. Clinical and cytological findings are consistent with a benign mixed tumor (Pleomorphic Adenoma) located in the superficial lobe. What is the standard surgical treatment to ensure complete excision and minimize the risk of recurrence?",
+    "answers": [
+      {
+        "option": "Enucleation of the tumor",
+        "bool": false
+      },
+      {
+        "option": "Radical parotidectomy",
+        "bool": false
+      },
+      {
+        "option": "Superficial parotidectomy with identification and preservation of the facial nerve",
+        "bool": true
+      },
+      {
+        "option": "Total parotidectomy with sacrifice of the facial nerve",
+        "bool": false
+      },
+      {
+        "option": "Total parotidectomy with preservation of the facial nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A trauma patient is brought to the ER with severe maxillofacial injuries, including massive midface fractures and oropharyngeal bleeding. The patient is in respiratory distress, and multiple attempts at endotracheal intubation have failed due to anatomical distortion and blood. What is the most appropriate immediate \"cannot intubate, cannot oxygenate\" rescue intervention?",
+    "answers": [
+      {
+        "option": "Emergency tracheostomy",
+        "bool": false
+      },
+      {
+        "option": "Formal surgical neck dissection",
+        "bool": false
+      },
+      {
+        "option": "Laryngeal mask airway insertion",
+        "bool": false
+      },
+      {
+        "option": "Surgical cricothyroidotomy (if age >12)",
+        "bool": true
+      },
+      {
+        "option": "Needle cricothyroidotomy (as a bridge to a definitive airway)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A hospital conducts an audit to monitor the administration of preoperative prophylactic antibiotics. The results show that only 60% of patients received antibiotics, whereas the established gold standard is 95%. According to the principles of the audit cycle (\"Closing the Loop\"), what is the next essential step?",
+    "answers": [
+      {
+        "option": "Abandon the current guidelines",
+        "bool": false
+      },
+      {
+        "option": "Peer-review the individual surgeons",
+        "bool": false
+      },
+      {
+        "option": "Publish the findings in a medical journal",
+        "bool": false
+      },
+      {
+        "option": "Repeat the audit immediately to verify results",
+        "bool": false
+      },
+      {
+        "option": "Implementation of change (e.g., new protocols or checklists)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 30-year-old male is brought to the emergency department following a motor vehicle accident. He is tachycardic, hypotensive (BP 80/50 mm Hg), and unresponsive to initial fluid resuscitation. A Focused Assessment with Sonography for Trauma (FAST) scan is positive for significant free fluid in the peritoneum. What is the next best step in management?",
+    "answers": [
+      {
+        "option": "Angioembolization of the spleen",
+        "bool": false
+      },
+      {
+        "option": "CT scan of the abdomen and pelvis",
+        "bool": false
+      },
+      {
+        "option": "Diagnostic peritoneal lavage",
+        "bool": false
+      },
+      {
+        "option": "Immediate exploratory laparotomy",
+        "bool": true
+      },
+      {
+        "option": "Repeat the FAST scan in 30 minutes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 35-year-old woman presents with a palpable, mobile mass in her left breast. Which of the following investigations is most effective at distinguishing whether a breast lesion is solid or cystic?",
+    "answers": [
+      {
+        "option": "Digital mammography",
+        "bool": false
+      },
+      {
+        "option": "Fine-needle aspiration cytology (FNAC)",
+        "bool": false
+      },
+      {
+        "option": "Magnetic resonance imaging (MRI)",
+        "bool": false
+      },
+      {
+        "option": "Thermography",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound of the breast",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient develops a fever of 38.5°C (101.3°F) on the first postoperative day following a major abdominal surgery. The patient is otherwise stable but has a poor cough effort. Which of the following is the most common cause of early postoperative fever?",
+    "answers": [
+      {
+        "option": "Surgical site infection",
+        "bool": false
+      },
+      {
+        "option": "Urinary tract infection",
+        "bool": false
+      },
+      {
+        "option": "Deep vein thrombosis",
+        "bool": false
+      },
+      {
+        "option": "Drug-induced fever",
+        "bool": false
+      },
+      {
+        "option": "Atelectasis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "5th-year/surgery-1/2026",
+    "question": "During a laparoscopic cholecystectomy, there is a sudden, massive hemorrhage from a suspected major venous injury. What is the most appropriate immediate sequence of actions for the surgical team?",
+    "answers": [
+      {
+        "option": "Suction the blood blindly to find the source",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopic packing and continue the procedure",
+        "bool": false
+      },
+      {
+        "option": "Apply direct pressure with a laparoscopic grasper/gauze and convert to open laparotomy",
+        "bool": true
+      },
+      {
+        "option": "Remove all laparoscopic instruments immediately",
+        "bool": false
+      },
+      {
+        "option": "Increase the insufflation pressure to tamponade the bleed",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 50-year-old woman is diagnosed with invasive ductal carcinoma of the breast. Staging investigations confirm there is no evidence of distant metastasis (M0). Which of the following is considered the most important independent determinant of long-term prognosis and survival in this patient?",
+    "answers": [
+      {
+        "option": "Histological grading of the tumor",
+        "bool": false
+      },
+      {
+        "option": "Patient age at diagnosis",
+        "bool": false
+      },
+      {
+        "option": "Estrogen receptor status",
+        "bool": false
+      },
+      {
+        "option": "Tumor size",
+        "bool": false
+      },
+      {
+        "option": "Axillary lymph node metastasis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 45-year-old patient presents with progressive hearing loss and tinnitus in the left ear. An MRI reveals a mass at the cerebellopontine angle. Which of the following tumors is specifically derived from the nerve sheath (Schwann cells)?",
+    "answers": [
+      {
+        "option": "Astrocytoma",
+        "bool": false
+      },
+      {
+        "option": "Meningioma",
+        "bool": false
+      },
+      {
+        "option": "Acoustic neuroma",
+        "bool": true
+      },
+      {
+        "option": "Ependymoma",
+        "bool": false
+      },
+      {
+        "option": "Glioma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 55-year-old man presents with chronic lower back and leg pain. MRI reveals a well-circumscribed bony mass involving the posterior elements of the thoracic spine, leading to significant spinal cord compression. Given the location and presentation in the spine, which of the following is a classic primary bone tumor for this site?",
+    "answers": [
+      {
+        "option": "Multiple myeloma",
+        "bool": false
+      },
+      {
+        "option": "Chondrosarcoma",
+        "bool": true
+      },
+      {
+        "option": "Giant cell tumor",
+        "bool": false
+      },
+      {
+        "option": "Ewing sarcoma",
+        "bool": false
+      },
+      {
+        "option": "Osteoblastoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 5-year-old child is brought to the clinic with bowing of the legs and a history of multiple fractures following minor trauma. On physical examination, the clinician notices a distinct blue discoloration of the sclera. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Osteopetrosis",
+        "bool": false
+      },
+      {
+        "option": "Achondroplasia",
+        "bool": false
+      },
+      {
+        "option": "Osteogenesis Imperfecta",
+        "bool": true
+      },
+      {
+        "option": "Scurvy",
+        "bool": false
+      },
+      {
+        "option": "Rickets",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents with a firm thyroid nodule and palpable cervical lymphadenopathy. Laboratory investigations reveal a significantly raised serum calcitonin level. Based on this tumor marker, which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Papillary thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Medullary thyroid carcinoma",
+        "bool": true
+      },
+      {
+        "option": "Anaplastic thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Thyroid lymphoma",
+        "bool": false
+      },
+      {
+        "option": "Follicular thyroid carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "5th-year/surgery-1/2026",
+    "question": "In laparoscopic surgery, the concept of triangulation involves placing the target organ at the apex of a triangle, with the two working instruments at the base. What is the primary purpose of maintaining this configuration?",
+    "answers": [
+      {
+        "option": "To reduce the total number of ports required",
+        "bool": false
+      },
+      {
+        "option": "To allow the surgery to be performed via a single port",
+        "bool": false
+      },
+      {
+        "option": "To provide better ergonomics and an optimal range of motion",
+        "bool": true
+      },
+      {
+        "option": "To prevent the development of incisional hernias",
+        "bool": false
+      },
+      {
+        "option": "To avoid the \"misting\" or fogging of the camera lens",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient sustains an anterior shoulder dislocation during an athletic event. Following reduction, the patient is unable to initiate abduction of the shoulder beyond 15 degrees. Which nerve is most likely to have been injured during the dislocation?",
+    "answers": [
+      {
+        "option": "Radial nerve",
+        "bool": false
+      },
+      {
+        "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
+        "option": "Ulnar nerve",
+        "bool": false
+      },
+      {
+        "option": "Median nerve",
+        "bool": false
+      },
+      {
+        "option": "Axillary nerve",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A child is brought to the surgical clinic with a large scrotal swelling. When performing a physical examination to differentiate between an inguinoscrotal hernia and a primary scrotal condition (like a hydrocele), which of the following maneuvers is the most important first step?",
+    "answers": [
+      {
+        "option": "Palpating for a separate testis",
+        "bool": false
+      },
+      {
+        "option": "Determining if the examiner can \"get above\" the swelling",
+        "bool": true
+      },
+      {
+        "option": "Testing for reducibility",
+        "bool": false
+      },
+      {
+        "option": "Assessing the cough impulse",
+        "bool": false
+      },
+      {
+        "option": "Checking for translucency/transillumination",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 35-year-old woman presents with a slow-growing, painless mass in her thigh. On physical examination, the mass is approximately 4 cm in diameter, soft, well-encapsulated, and freely mobile over the underlying muscle. There are no overlying skin changes. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Myxoma",
+        "bool": false
+      },
+      {
+        "option": "Hemangioma",
+        "bool": false
+      },
+      {
+        "option": "Liposarcoma",
+        "bool": false
+      },
+      {
+        "option": "Lipoma",
+        "bool": true
+      },
+      {
+        "option": "Fibrosarcoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A postoperative patient develops decreased urine output. Laboratory investigations reveal a Fractional Excretion of Sodium (FENa) of 0.8%. Based on this value, which of the following is the most likely etiology of the renal impairment?",
+    "answers": [
+      {
+        "option": "Contrast-induced nephropathy",
+        "bool": false
+      },
+      {
+        "option": "Acute interstitial nephritis",
+        "bool": false
+      },
+      {
+        "option": "Post-renal obstruction",
+        "bool": false
+      },
+      {
+        "option": "Prerenal azotemia",
+        "bool": true
+      },
+      {
+        "option": "Acute tubular necrosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient is brought to the emergency department after being found unconscious in a poorly ventilated room with a faulty space heater. Which gas, produced by the incomplete combustion of carbon-containing fuels, is the most likely cause of this patient's toxicity?",
+    "answers": [
+      {
+        "option": "Hydrogen (H2​)",
+        "bool": false
+      },
+      {
+        "option": "Oxygen (O2​)",
+        "bool": false
+      },
+      {
+        "option": "Carbon monoxide (CO)",
+        "bool": true
+      },
+      {
+        "option": "Nitrogen (N2​)",
+        "bool": false
+      },
+      {
+        "option": "Carbon dioxide (CO2​)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "5th-year/surgery-1/2026",
+    "question": "An 65-year-old male is found to have an asymptomatic abdominal aortic aneurysm measuring 4.5 cm on a screening ultrasound. He is a smoker with controlled hypertension. What is the most appropriate management strategy according to current guidelines?",
+    "answers": [
+      {
+        "option": "Immediate CT angiography and surgery",
+        "bool": false
+      },
+      {
+        "option": "Life-long bed rest and beta-blockers",
+        "bool": false
+      },
+      {
+        "option": "Immediate open surgical repair",
+        "bool": false
+      },
+      {
+        "option": "Serial ultrasound surveillance (every 6–12 months)",
+        "bool": true
+      },
+      {
+        "option": "Endovascular aneurysm repair",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 45-year-old patient presents with a firm, painless lump in the tail of the parotid gland. Fine-needle aspiration (FNA) suggests a benign pleomorphic adenoma. What is the most appropriate surgical management?",
+    "answers": [
+      {
+        "option": "Radical parotidectomy with facial nerve sacrifice",
+        "bool": false
+      },
+      {
+        "option": "Superficial parotidectomy with facial nerve preservation",
+        "bool": true
+      },
+      {
+        "option": "Enucleation of the tumor",
+        "bool": false
+      },
+      {
+        "option": "Observation only",
+        "bool": false
+      },
+      {
+        "option": "Total parotidectomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents to the emergency department with severe, agonizing abdominal pain and clinical signs of peritonitis. After ABCs and initial assessment, which of the following is the most appropriate approach to pain management?",
+    "answers": [
+      {
+        "option": "Immediate administration of broad-spectrum antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Withhold analgesia until a definitive surgical diagnosis is made",
+        "bool": false
+      },
+      {
+        "option": "Give oral NSAIDs only",
+        "bool": false
+      },
+      {
+        "option": "Perform a local nerve block",
+        "bool": false
+      },
+      {
+        "option": "Administer titrated IV opioids (e.g., morphine) while continuing the workup",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "info": "5th-year/surgery-1/2026",
+    "question": "During laparoscopic surgery, the insufflation of the peritoneal cavity with carbon dioxide (CO2​) to a pressure of 12–15 mmHg triggers several physiological changes. Which of the following is a primary hemodynamic effect caused by the increased intra-abdominal pressure?",
+    "answers": [
+      {
+        "option": "Decreased heart rate",
+        "bool": false
+      },
+      {
+        "option": "Decreased systemic vascular resistance",
+        "bool": false
+      },
+      {
+        "option": "Hypotension",
+        "bool": false
+      },
+      {
+        "option": "Decreased venous return (preload) due to compression of the inferior vena cava",
+        "bool": true
+      },
+      {
+        "option": "Increased cardiac output",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents to the ER with a single stab wound to the anterior abdomen. He is hemodynamically stable, has no signs of peritonitis, and no evisceration. What is the most appropriate management according to modern trauma protocols?",
+    "answers": [
+      {
+        "option": "Discharge with oral antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Diagnostic peritoneal lavage",
+        "bool": false
+      },
+      {
+        "option": "Immediate exploratory laparotomy",
+        "bool": false
+      },
+      {
+        "option": "Serial Clinical Examination (every 4–6 hours) or local wound exploration",
+        "bool": false
+      },
+      {
+        "option": "Immediate CT scan with contrast",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents with progressive bilateral lower limb weakness, a sensory level at the umbilicus, and recent onset of urinary incontinence. Which of the following is the most likely underlying cause?",
+    "answers": [
+      {
+        "option": "Peripheral neuropathy",
+        "bool": false
+      },
+      {
+        "option": "Guillain-Barré syndrome",
+        "bool": false
+      },
+      {
+        "option": "Lumbar disc herniation",
+        "bool": false
+      },
+      {
+        "option": "Spinal cord compression",
+        "bool": true
+      },
+      {
+        "option": "Cauda equina syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "5th-year/surgery-1/2026",
+    "question": "During a surgical procedure, the surgeon discovers that a tumor is significantly larger and more invasive than the preoperative imaging suggested, requiring a more extensive resection than previously consented for. Which ethical principle is most challenged when the surgeon must decide whether to proceed or wake the patient to discuss the new findings?",
+    "answers": [
+      {
+        "option": "Beneficence",
+        "bool": false
+      },
+      {
+        "option": "Justice",
+        "bool": false
+      },
+      {
+        "option": "Non-maleficence",
+        "bool": false
+      },
+      {
+        "option": "Confidentiality",
+        "bool": false
+      },
+      {
+        "option": "Autonomy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A trauma patient with massive hemorrhage is found to have a fibrinogen level of less than 100 mg/dL. Which of the following blood products is the most concentrated source of fibrinogen and is the treatment of choice for hypofibrinogenemia?",
+    "answers": [
+      {
+        "option": "Packed red blood cells",
+        "bool": false
+      },
+      {
+        "option": "Cryoprecipitate",
+        "bool": true
+      },
+      {
+        "option": "Platelet concentrate",
+        "bool": false
+      },
+      {
+        "option": "Fresh frozen plasma",
+        "bool": false
+      },
+      {
+        "option": "Prothrombin complex concentrate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A patient presents with mild facial lacerations and a tension pneumothorax. The tension pneumothorax was immediately relieved with needle thoracostomy and a chest tube was placed. Based on the severity of the initial life-threatening injury, how should this patient be categorized in triage?",
+    "answers": [
+      {
+        "option": "White (Ignore/Recruit)",
+        "bool": false
+      },
+      {
+        "option": "Black (Deceased/Expectant)",
+        "bool": false
+      },
+      {
+        "option": "Yellow (Urgent/Delayed)",
+        "bool": false
+      },
+      {
+        "option": "Red (Immediate/Emergency)",
+        "bool": true
+      },
+      {
+        "option": "Green (Minor/Ambulatory)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 66-year-old patient underwent a left hemicolectomy for adenocarcinoma. On postoperative day 2, his urine output is noted to be 15 cc/hr for the last two hours. What is the first logical step in the assessment of this patient?",
+    "answers": [
+      {
+        "option": "Perform a bedside renal ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Immediately order serum urea and creatinine",
+        "bool": false
+      },
+      {
+        "option": "Check the Foley catheter for kinks or obstruction",
+        "bool": true
+      },
+      {
+        "option": "Administer 20 mg of IV furosemide",
+        "bool": false
+      },
+      {
+        "option": "Give a 500 mL bolus of normal saline",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "5th-year/surgery-1/2026",
+    "question": "A 66-year-old male is hemiplegic and bed-bound following a stroke. Which of the following is the most effective nursing intervention to prevent the development of pressure sores (bed sores)?",
+    "answers": [
+      {
+        "option": "Daily application of barrier creams",
+        "bool": false
+      },
+      {
+        "option": "Use of an alternating pressure air mattress",
+        "bool": false
+      },
+      {
+        "option": "Frequent position changes (every 2 hours)",
+        "bool": true
+      },
+      {
+        "option": "Ensuring high-protein nutrition",
+        "bool": false
+      },
+      {
+        "option": "Keeping the skin dry with talcum powder",
+        "bool": false
+      }
+    ]
+  }
+]

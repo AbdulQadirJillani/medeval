@@ -2,15 +2,15 @@
   {
     "id": 0,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 55-year-old male presented to the clinic with the complaint of fever, weight loss, and back pain. On physical examination, extreme tenderness was noticed at the lumbar vertebrae. Magnetic resonance imaging (MRI) of the lumbar spine showed evidence of Pott\u2019s disease. Which of the following organisms is most commonly involved in this disease process?",
+    "question": "A 55-year-old male presented to the clinic with the complaint of fever, weight loss, and back pain. On physical examination, extreme tenderness was noticed at the lumbar vertebrae. Magnetic resonance imaging (MRI) of the lumbar spine showed evidence of Pott’s disease. Which of the following organisms is most commonly involved in this disease process?",
     "answers": [
       {
         "option": "Pseudomonas aeruginosa",
         "bool": false
       },
       {
-        "option": "Mycobacterium tuberculosis",
-        "bool": true
+        "option": "β-hemolytic streptococci",
+        "bool": false
       },
       {
         "option": "Staphylococcus aureus",
@@ -21,8 +21,8 @@
         "bool": false
       },
       {
-        "option": "\u03b2-hemolytic streptococci",
-        "bool": false
+        "option": "Mycobacterium tuberculosis",
+        "bool": true
       }
     ]
   },
@@ -32,15 +32,15 @@
     "question": "A 45-year-old lady presented with sudden-onset of difficulty in micturition, and significant bilateral lower limb weakness. Examination reveals the power of 1/5 in both lower limbs, with saddle anesthesia. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Cauda equina syndrome",
-        "bool": true
-      },
-      {
         "option": "Spondylolisthesis",
         "bool": false
       },
       {
-        "option": "Lumbar spondylosis",
+        "option": "Cauda equina syndrome",
+        "bool": true
+      },
+      {
+        "option": "Pott's disease",
         "bool": false
       },
       {
@@ -48,7 +48,7 @@
         "bool": false
       },
       {
-        "option": "Pott's disease",
+        "option": "Lumbar spondylosis",
         "bool": false
       }
     ]
@@ -59,11 +59,11 @@
     "question": "Uric acid is the metabolic end product of which of the following compounds?",
     "answers": [
       {
-        "option": "Uracil",
+        "option": "Cytosine",
         "bool": false
       },
       {
-        "option": "Cytosine",
+        "option": "Thymidine",
         "bool": false
       },
       {
@@ -71,7 +71,7 @@
         "bool": true
       },
       {
-        "option": "Thymidine",
+        "option": "Uracil",
         "bool": false
       },
       {
@@ -86,10 +86,6 @@
     "question": "Which of the following autoimmune diseases is associated with the highest rate of malignancy?",
     "answers": [
       {
-        "option": "Rheumatoid arthritis",
-        "bool": false
-      },
-      {
         "option": "Systemic lupus erythematosus",
         "bool": false
       },
@@ -98,12 +94,16 @@
         "bool": false
       },
       {
-        "option": "Dermatomyositis",
-        "bool": true
-      },
-      {
         "option": "Systemic sclerosis",
         "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": false
+      },
+      {
+        "option": "Dermatomyositis",
+        "bool": true
       }
     ]
   },
@@ -121,11 +121,11 @@
         "bool": true
       },
       {
-        "option": "Oblique fracture",
+        "option": "Greenstick fracture",
         "bool": false
       },
       {
-        "option": "Greenstick fracture",
+        "option": "Oblique fracture",
         "bool": false
       },
       {
@@ -175,7 +175,7 @@
         "bool": false
       },
       {
-        "option": "Glaucoma",
+        "option": "Keratitis",
         "bool": false
       },
       {
@@ -183,7 +183,7 @@
         "bool": false
       },
       {
-        "option": "Keratitis",
+        "option": "Glaucoma",
         "bool": false
       }
     ]
@@ -198,6 +198,10 @@
         "bool": false
       },
       {
+        "option": "Leflunomide",
+        "bool": false
+      },
+      {
         "option": "Steroids",
         "bool": false
       },
@@ -208,26 +212,14 @@
       {
         "option": "Methotrexate",
         "bool": true
-      },
-      {
-        "option": "Leflunomide",
-        "bool": false
       }
     ]
   },
   {
     "id": 8,
     "info": "4th-year/orthopedics/2023",
-    "question": "What of the following is referred to as a \"Gamekeeper\u2019s thumb\"?",
+    "question": "What of the following is referred to as a \"Gamekeeper’s thumb\"?",
     "answers": [
-      {
-        "option": "Monteggia's fracture",
-        "bool": false
-      },
-      {
-        "option": "Bennett's fracture",
-        "bool": false
-      },
       {
         "option": "Fracture of the thumb phalanges",
         "bool": false
@@ -239,6 +231,14 @@
       {
         "option": "Injury to ulnar collateral ligament",
         "bool": true
+      },
+      {
+        "option": "Monteggia's fracture",
+        "bool": false
+      },
+      {
+        "option": "Bennett's fracture",
+        "bool": false
       }
     ]
   },
@@ -248,11 +248,7 @@
     "question": "Which of the following is a non-nitrogenous bisphosphonate?",
     "answers": [
       {
-        "option": "Ibandronate",
-        "bool": false
-      },
-      {
-        "option": "Alendronate",
+        "option": "Risedronate",
         "bool": false
       },
       {
@@ -260,11 +256,15 @@
         "bool": true
       },
       {
-        "option": "Pamidronate",
+        "option": "Alendronate",
         "bool": false
       },
       {
-        "option": "Risedronate",
+        "option": "Ibandronate",
+        "bool": false
+      },
+      {
+        "option": "Pamidronate",
         "bool": false
       }
     ]
@@ -275,11 +275,7 @@
     "question": "Which antibody is associated with interstitial lung disease in patients with polymyositis and dermatomyositis?",
     "answers": [
       {
-        "option": "Anti-nuclear antibody",
-        "bool": false
-      },
-      {
-        "option": "Anti-P140",
+        "option": "Anti-Mi2",
         "bool": false
       },
       {
@@ -287,12 +283,16 @@
         "bool": false
       },
       {
-        "option": "Anti-Mi2",
+        "option": "Anti-nuclear antibody",
         "bool": false
       },
       {
         "option": "Anti-Jo1",
         "bool": true
+      },
+      {
+        "option": "Anti-P140",
+        "bool": false
       }
     ]
   },
@@ -302,20 +302,20 @@
     "question": "A 40-year-old female patient presents with back pain and extreme weight loss. She was diagnosed with breast cancer 5 years ago but she denied chemotherapy or any other form of treatment. What will be the next best investigation?",
     "answers": [
       {
-        "option": "Bone scan",
-        "bool": false
-      },
-      {
-        "option": "Mammogram",
-        "bool": false
-      },
-      {
         "option": "Chest X-ray",
+        "bool": false
+      },
+      {
+        "option": "Bone scan",
         "bool": false
       },
       {
         "option": "Spinal MRI",
         "bool": true
+      },
+      {
+        "option": "Mammogram",
+        "bool": false
       },
       {
         "option": "Ultrasound",
@@ -326,14 +326,37 @@
   {
     "id": 12,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 16-year-old child comes with his parents to the outpatient department. The parents complain to the doctor that their child has a short stature and has not developed puberty yet. The doctor examines the child and concludes that the bone age is less than the chronological age and diagnoses the child with constitutional growth delay. The parents are worried about the final height of the child. What would be the best treatment for this child?",
+    "question": "Noise is an undesirable and unwanted vibration of sound that can cause damage to humans both physically and mentally. The intensity of sound is measured in decibels (dB). Which of the following is the daily acceptable limit of noise that the human ear can tolerate without any substantial damage to hearing?",
     "answers": [
       {
-        "option": "Surgery to increase the height of femur",
+        "option": "85 dB",
+        "bool": true
+      },
+      {
+        "option": "45 dB",
         "bool": false
       },
       {
-        "option": "Growth hormone injections",
+        "option": "65 dB",
+        "bool": false
+      },
+      {
+        "option": "95 dB",
+        "bool": false
+      },
+      {
+        "option": "75 dB",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/orthopedics/2023",
+    "question": "A 16-year-old child comes with his parents to the outpatient department. The parents complain to the doctor that their child has a short stature and has not developed puberty yet. The doctor examines the child and concludes that the bone age is less than the chronological age and diagnoses the child with constitutional growth delay. The parents are worried about the final height of the child. What would be the best treatment for this child?",
+    "answers": [
+      {
+        "option": "No treatment and the final height is decreased.",
         "bool": false
       },
       {
@@ -341,38 +364,15 @@
         "bool": false
       },
       {
-        "option": "No treatment and the final height is decreased.",
-        "bool": false
-      },
-      {
         "option": "Reassurance and counselling",
         "bool": true
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "info": "4th-year/orthopedics/2023",
-    "question": "What is the best management for open fractures?",
-    "answers": [
+      },
       {
-        "option": "Debridement",
+        "option": "Growth hormone injections",
         "bool": false
       },
       {
-        "option": "Debridement + irrigation + antibiotic + stabilization",
-        "bool": true
-      },
-      {
-        "option": "Plating",
-        "bool": false
-      },
-      {
-        "option": "Debridement + stabilization",
-        "bool": false
-      },
-      {
-        "option": "Internal fixation",
+        "option": "Surgery to increase the height of femur",
         "bool": false
       }
     ]
@@ -380,26 +380,26 @@
   {
     "id": 14,
     "info": "4th-year/orthopedics/2023",
-    "question": "A young gymnast comes to the outpatient department (OPD) with the complaint of lower back pain. The clinician after taking radiographs concluded that there is a defect in the pars interarticularis. What is this condition called?",
+    "question": "What is the best management for open fractures?",
     "answers": [
       {
-        "option": "Bamboo spine",
+        "option": "Debridement + stabilization",
         "bool": false
       },
       {
-        "option": "Spondylolisthesis",
+        "option": "Plating",
         "bool": false
       },
       {
-        "option": "Psoriatic arthritis",
+        "option": "Internal fixation",
         "bool": false
       },
       {
-        "option": "Spondylolysis",
+        "option": "Debridement + irrigation + antibiotic + stabilization",
         "bool": true
       },
       {
-        "option": "Spine osteoarthritis",
+        "option": "Debridement",
         "bool": false
       }
     ]
@@ -407,10 +407,37 @@
   {
     "id": 15,
     "info": "4th-year/orthopedics/2023",
+    "question": "A young gymnast comes to the outpatient department (OPD) with the complaint of lower back pain. The clinician after taking radiographs concluded that there is a defect in the pars interarticularis. What is this condition called?",
+    "answers": [
+      {
+        "option": "Psoriatic arthritis",
+        "bool": false
+      },
+      {
+        "option": "Bamboo spine",
+        "bool": false
+      },
+      {
+        "option": "Spine osteoarthritis",
+        "bool": false
+      },
+      {
+        "option": "Spondylolysis",
+        "bool": true
+      },
+      {
+        "option": "Spondylolisthesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/orthopedics/2023",
     "question": "A consultant confirms that there is a fracture of the pars interarticularis on the X-ray and is worried about it. What is the complication that this existing condition would lead to?",
     "answers": [
       {
-        "option": "Spondylolysis",
+        "option": "Lumbar disc herniation",
         "bool": false
       },
       {
@@ -426,13 +453,13 @@
         "bool": false
       },
       {
-        "option": "Lumbar disc herniation",
+        "option": "Spondylolysis",
         "bool": false
       }
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "info": "4th-year/orthopedics/2023",
     "question": "A 30-year-old male comes to the outpatient department with a complaint of acute onset shoulder pain. On examination, the external rotation is possible and there is a sub-acromial calcification seen on a plain radiograph. What is the most probable diagnosis?",
     "answers": [
@@ -441,25 +468,25 @@
         "bool": false
       },
       {
-        "option": "Frozen shoulder",
+        "option": "Rotator cuff tear",
         "bool": false
       },
       {
-        "option": "Rotator cuff tear",
-        "bool": false
+        "option": "Calcific tendinitis",
+        "bool": true
       },
       {
         "option": "Rheumatoid arthritis",
         "bool": false
       },
       {
-        "option": "Calcific tendinitis",
-        "bool": true
+        "option": "Frozen shoulder",
+        "bool": false
       }
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following cases produces \"light bulb\" sign on X-ray anteroposterior view?",
     "answers": [
@@ -468,11 +495,11 @@
         "bool": false
       },
       {
-        "option": "Acromioclavicular fracture",
+        "option": "Anterior shoulder dislocation",
         "bool": false
       },
       {
-        "option": "Anterior shoulder dislocation",
+        "option": "Clavicular shaft fracture",
         "bool": false
       },
       {
@@ -480,24 +507,16 @@
         "bool": true
       },
       {
-        "option": "Clavicular shaft fracture",
+        "option": "Acromioclavicular fracture",
         "bool": false
       }
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following vertebrae is involved in Jefferson's fracture?",
     "answers": [
-      {
-        "option": "C1",
-        "bool": true
-      },
-      {
-        "option": "C2",
-        "bool": false
-      },
       {
         "option": "C5",
         "bool": false
@@ -509,16 +528,24 @@
       {
         "option": "C3",
         "bool": false
+      },
+      {
+        "option": "C2",
+        "bool": false
+      },
+      {
+        "option": "C1",
+        "bool": true
       }
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "info": "4th-year/orthopedics/2023",
     "question": "A patient was prescribed hydralazine in order to control her hypertension. She later developed a malar rash, photosensitivity, and arthritis. What is the most likely diagnosis in this case?",
     "answers": [
       {
-        "option": "Rheumatoid arthritis",
+        "option": "Systemic lupus erythematosus",
         "bool": false
       },
       {
@@ -526,42 +553,15 @@
         "bool": true
       },
       {
-        "option": "Sjogren",
-        "bool": false
-      },
-      {
-        "option": "Systemic lupus erythematosus",
+        "option": "Rheumatoid arthritis",
         "bool": false
       },
       {
         "option": "Systemic sclerosis",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "info": "4th-year/orthopedics/2023",
-    "question": "Which of the following conditions is referred to as housemaid knee?",
-    "answers": [
-      {
-        "option": "Tear of anterior cruciate ligament",
-        "bool": false
       },
       {
-        "option": "Subcutaneous Infrapatellar bursitis",
-        "bool": false
-      },
-      {
-        "option": "Deep Infrapatellar bursitis",
-        "bool": false
-      },
-      {
-        "option": "Prepatellar bursitis",
-        "bool": true
-      },
-      {
-        "option": "Suprapatellar bursitis",
+        "option": "Sjogren",
         "bool": false
       }
     ]
@@ -571,10 +571,6 @@
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following gases is known to seep out from under houses and leak during construction/digging of earth, and potentially cause lung cancer?",
     "answers": [
-      {
-        "option": "Nitrous oxide",
-        "bool": false
-      },
       {
         "option": "Hydrogen sulfide",
         "bool": false
@@ -590,6 +586,10 @@
       {
         "option": "Carbon monoxide",
         "bool": false
+      },
+      {
+        "option": "Nitrous oxide",
+        "bool": false
       }
     ]
   },
@@ -599,11 +599,7 @@
     "question": "A 9-year-old child is brought to the clinic with pain in the right leg associated with swelling. X-ray reveals evidence of Brodie's abscess. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Osteosarcoma",
-        "bool": false
-      },
-      {
-        "option": "Arthritis",
+        "option": "Osteopenia",
         "bool": false
       },
       {
@@ -611,11 +607,15 @@
         "bool": true
       },
       {
-        "option": "Osteopenia",
+        "option": "Osteosarcoma",
         "bool": false
       },
       {
         "option": "Rickets",
+        "bool": false
+      },
+      {
+        "option": "Arthritis",
         "bool": false
       }
     ]
@@ -626,19 +626,19 @@
     "question": "A newborn is noticed to have the right upper limb missing from the forearm onward. Which term best describes this condition?",
     "answers": [
       {
-        "option": "Meromelia",
-        "bool": true
-      },
-      {
         "option": "Micromelia",
         "bool": false
       },
       {
-        "option": "Phocomelia",
-        "bool": false
+        "option": "Meromelia",
+        "bool": true
       },
       {
         "option": "Rhizomelia",
+        "bool": false
+      },
+      {
+        "option": "Phocomelia",
         "bool": false
       },
       {
@@ -653,6 +653,14 @@
     "question": "An intravenous drug user presents with the complaint of burning micturition and fever for 3 days. He also has gritty eyes and lower back pain for the past 3 months. He also has an ulcer on the glans of the penis. What is the most likely cause of these symptoms?",
     "answers": [
       {
+        "option": "Tertiary syphilis",
+        "bool": false
+      },
+      {
+        "option": "Behcet's syndrome",
+        "bool": false
+      },
+      {
         "option": "HIV infection",
         "bool": false
       },
@@ -661,15 +669,7 @@
         "bool": true
       },
       {
-        "option": "Behcet's syndrome",
-        "bool": false
-      },
-      {
         "option": "N. Gonorrhea infection",
-        "bool": false
-      },
-      {
-        "option": "Tertiary syphilis",
         "bool": false
       }
     ]
@@ -680,7 +680,15 @@
     "question": "A child presents to the emergency department with a radius fracture. The surgeon wants to preserve the periosteum. What is the most likely reason for preserving the periosteum?",
     "answers": [
       {
+        "option": "It provides attachment to tendons",
+        "bool": false
+      },
+      {
         "option": "It provides muscle attachment",
+        "bool": false
+      },
+      {
+        "option": "It produces new cells",
         "bool": false
       },
       {
@@ -690,21 +698,13 @@
       {
         "option": "It is osteogenic",
         "bool": true
-      },
-      {
-        "option": "It produces new cells",
-        "bool": false
-      },
-      {
-        "option": "It provides attachment to tendons",
-        "bool": false
       }
     ]
   },
   {
     "id": 26,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 45-year-old male patient presents to the clinic with a complaint of dull hip pain for 3 years. On investigation, there is a mass of 10 cm \u00d7 13 cm attached to the hips which has irregular borders. Removal of the mass from ischium for biopsy reveals spotty calcifications. The transverse section of the mass reveals a blue-gray color. What is the most likely diagnosis?",
+    "question": "A 45-year-old male patient presents to the clinic with a complaint of dull hip pain for 3 years. On investigation, there is a mass of 10 cm × 13 cm attached to the hips which has irregular borders. Removal of the mass from ischium for biopsy reveals spotty calcifications. The transverse section of the mass reveals a blue-gray color. What is the most likely diagnosis?",
     "answers": [
       {
         "option": "Chondrosarcoma",
@@ -715,15 +715,15 @@
         "bool": false
       },
       {
+        "option": "Osteosarcoma",
+        "bool": false
+      },
+      {
         "option": "Giant cell tumor",
         "bool": false
       },
       {
         "option": "Ewing sarcoma",
-        "bool": false
-      },
-      {
-        "option": "Osteosarcoma",
         "bool": false
       }
     ]
@@ -734,11 +734,11 @@
     "question": "Which compound is responsible for the viscosity of synovial fluid?",
     "answers": [
       {
-        "option": "Collagenases",
+        "option": "Prostaglandins",
         "bool": false
       },
       {
-        "option": "Prostaglandins",
+        "option": "Lubricin",
         "bool": false
       },
       {
@@ -746,12 +746,12 @@
         "bool": false
       },
       {
-        "option": "Hyaluronic acid",
-        "bool": true
+        "option": "Collagenases",
+        "bool": false
       },
       {
-        "option": "Lubricin",
-        "bool": false
+        "option": "Hyaluronic acid",
+        "bool": true
       }
     ]
   },
@@ -761,24 +761,24 @@
     "question": "A 42-year-old female presents to the outpatient department with complaints of progressive pain in different joints of the body, including small joints of the hands and knee joint for 2 months. She also has morning stiffness for about one hour every day. On examination, she has swelling of small joints of the hands and mild anemia. Which of the following investigations is most helpful in establishing a diagnosis?",
     "answers": [
       {
-        "option": "Anti-smooth muscle antibodies",
-        "bool": false
-      },
-      {
-        "option": "Anti-citrullinated peptide antibodies",
-        "bool": true
-      },
-      {
-        "option": "Rheumatoid factor",
-        "bool": false
-      },
-      {
         "option": "Extractable nuclear antigen",
         "bool": false
       },
       {
         "option": "Antinuclear antibodies",
         "bool": false
+      },
+      {
+        "option": "Rheumatoid factor",
+        "bool": false
+      },
+      {
+        "option": "Anti-smooth muscle antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti-citrullinated peptide antibodies",
+        "bool": true
       }
     ]
   },
@@ -792,16 +792,16 @@
         "bool": false
       },
       {
-        "option": "Decreased albumin",
-        "bool": false
-      },
-      {
         "option": "Decreased hemoglobin",
         "bool": false
       },
       {
         "option": "Increased protein creatinine ratio",
         "bool": true
+      },
+      {
+        "option": "Decreased albumin",
+        "bool": false
       },
       {
         "option": "Increased creatine",
@@ -812,15 +812,11 @@
   {
     "id": 30,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 42-year-old male presents to the outpatient department with a complaint of low back pain for the past few years. He also has morning stiffness and pain which mostly stays for 2-3 hours. Currently, he has been experiencing pain in the back of his right ankle, however, there is no history of trauma. Which of the following is the most appropriate investigation to establish the diagnosis?",
+    "question": "A 42-year-old male presents to the outpatient department with a complaint of low back pain for the past few years. He also has morning stiffness and pain that usually lasts 2-3 hours. Currently, he has been experiencing pain in the back of his right ankle; however, there is no history of trauma. His family history is significant, as his brother died of respiratory failure a year ago. Which of the following is the most appropriate investigation to establish the diagnosis?",
     "answers": [
       {
-        "option": "Rheumatoid factor",
-        "bool": false
-      },
-      {
-        "option": "Antinuclear antibodies",
-        "bool": false
+        "option": "X-ray of lumbosacral joint",
+        "bool": true
       },
       {
         "option": "HLA B-27",
@@ -831,8 +827,12 @@
         "bool": false
       },
       {
-        "option": "X-ray of lumbosacral joint",
-        "bool": true
+        "option": "Rheumatoid factor",
+        "bool": false
+      },
+      {
+        "option": "Antinuclear antibodies",
+        "bool": false
       }
     ]
   },
@@ -846,16 +846,16 @@
         "bool": false
       },
       {
-        "option": "Erosions",
-        "bool": true
-      },
-      {
         "option": "Subchondral sclerosis",
         "bool": false
       },
       {
         "option": "Joint space narrowing",
         "bool": false
+      },
+      {
+        "option": "Erosions",
+        "bool": true
       },
       {
         "option": "Soft tissue swelling",
@@ -866,14 +866,10 @@
   {
     "id": 32,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 67-year-old male, retired from his occupation, presents to the clinic with a complaint of non-radiating backache. He has lost 3 kg weight and his height is reduced by 3.5 cm. There is no comorbid, history of smoking or alcohol. DEXA scan shows a T score of -2.3 at the femoral neck. What is the best treatment plan for this patient?",
+    "question": "A 67-year-old male, retired from his occupation, presents to the clinic with a complaint of non-radiating backache. He has lost 3 kg weight and his height is reduced by 3.5 cm. There is no comorbid, history of smoking or alcohol.  DEXA scan shows a T score of -2.3 at the femoral neck. What is the best treatment plan for this patient?",
     "answers": [
       {
-        "option": "NSAID group of drugs, calcium and vitamin D supplement",
-        "bool": false
-      },
-      {
-        "option": "Bisphosphonate, lifestyle modification and calcium supplement",
+        "option": "Lifestyle modification, calcium and vitamin D supplements",
         "bool": false
       },
       {
@@ -881,11 +877,15 @@
         "bool": true
       },
       {
-        "option": "Lifestyle modification, calcium and vitamin D supplements",
+        "option": "Bedrest physiotherapy and calcium supplement",
         "bool": false
       },
       {
-        "option": "Bedrest physiotherapy and calcium supplement",
+        "option": "NSAID group of drugs, calcium and vitamin D supplement",
+        "bool": false
+      },
+      {
+        "option": "Bisphosphonate, lifestyle modification and calcium supplement",
         "bool": false
       }
     ]
@@ -896,8 +896,8 @@
     "question": "A 5-week-old male infant is brought to the clinic with a complaint of inward rotation of feet since birth. What is the best treatment option for this patient?",
     "answers": [
       {
-        "option": "Serial casting",
-        "bool": true
+        "option": "Achilles tendon surgery",
+        "bool": false
       },
       {
         "option": "Foot braces",
@@ -908,11 +908,11 @@
         "bool": false
       },
       {
-        "option": "Physiotherapy",
-        "bool": false
+        "option": "Serial casting",
+        "bool": true
       },
       {
-        "option": "Achilles tendon surgery",
+        "option": "Physiotherapy",
         "bool": false
       }
     ]
@@ -923,15 +923,7 @@
     "question": "On which of the following organs does the parathyroid hormone act directly to increase serum calcium levels?",
     "answers": [
       {
-        "option": "Liver and pancreas",
-        "bool": false
-      },
-      {
         "option": "Bones and liver",
-        "bool": false
-      },
-      {
-        "option": "Stomach and intestines",
         "bool": false
       },
       {
@@ -939,7 +931,15 @@
         "bool": true
       },
       {
+        "option": "Stomach and intestines",
+        "bool": false
+      },
+      {
         "option": "Lungs and spleen",
+        "bool": false
+      },
+      {
+        "option": "Liver and pancreas",
         "bool": false
       }
     ]
@@ -977,20 +977,20 @@
     "question": "Which of the following is the basis to confirm the diagnosis of gout?",
     "answers": [
       {
-        "option": "Joint pain and redness",
+        "option": "Increased uric acid excretion in urine",
         "bool": false
       },
       {
-        "option": "Urate crystals in synovial fluid",
-        "bool": true
+        "option": "Joint pain and redness",
+        "bool": false
       },
       {
         "option": "Renal stones",
         "bool": false
       },
       {
-        "option": "Increased uric acid excretion in urine",
-        "bool": false
+        "option": "Urate crystals in synovial fluid",
+        "bool": true
       },
       {
         "option": "Hyperuricemia",
@@ -1008,6 +1008,10 @@
         "bool": false
       },
       {
+        "option": "Xanthine reductase",
+        "bool": false
+      },
+      {
         "option": "Xanthine oxidase",
         "bool": true
       },
@@ -1018,10 +1022,6 @@
       {
         "option": "Phosphoribosyl pyrophosphate synthetase",
         "bool": false
-      },
-      {
-        "option": "Xanthine reductase",
-        "bool": false
       }
     ]
   },
@@ -1031,11 +1031,7 @@
     "question": "A 46-year-old man on dialysis due to chronic kidney disease presented to the physician for bilateral fractures of the tibia and fibula after falling in a washroom. He was treated with open reduction and internal fixation. His orthopedic surgeon ordered a dual-energy X-ray absorptiometry (DEXA), whose findings were consistent with the diagnosis of osteoporosis. Other investigations showed higher parathyroid hormone, low calcitriol, and low plasma calcium levels. Which of the following is the trigger for the aforementioned phenomenon?",
     "answers": [
       {
-        "option": "Tumor of parathyroid gland",
-        "bool": false
-      },
-      {
-        "option": "Decreased calcium intake",
+        "option": "Excessive calcium excretion",
         "bool": false
       },
       {
@@ -1047,7 +1043,11 @@
         "bool": true
       },
       {
-        "option": "Excessive calcium excretion",
+        "option": "Tumor of parathyroid gland",
+        "bool": false
+      },
+      {
+        "option": "Decreased calcium intake",
         "bool": false
       }
     ]
@@ -1058,23 +1058,23 @@
     "question": "A 2-year-old child presents to the outpatient department with a complaint of inability to walk. The child's weight is 8 kg. He was breastfed only for 15 days then switched to formula milk with inadequate dilation. Weaning was started after 9 months and his current caloric intake is 55% of the total requirement. He achieved neck holding at 4 months, sitting at 8 months and currently, he can stand with support only. His first tooth erupted at the age of 14 months. What biochemical abnormalities are most likely in this child?",
     "answers": [
       {
-        "option": "Normal serum calcium, decreased parathyroid hormone",
-        "bool": false
-      },
-      {
         "option": "Decreased serum calcium, increased alkaline phosphatase",
         "bool": true
-      },
-      {
-        "option": "Increased serum calcium, increased alkaline phosphatase",
-        "bool": false
       },
       {
         "option": "Increased serum calcium, increased parathyroid hormone",
         "bool": false
       },
       {
+        "option": "Increased serum calcium, increased alkaline phosphatase",
+        "bool": false
+      },
+      {
         "option": "Decreased serum calcium, decreased alkaline phosphatase",
+        "bool": false
+      },
+      {
+        "option": "Normal serum calcium, decreased parathyroid hormone",
         "bool": false
       }
     ]
@@ -1085,11 +1085,15 @@
     "question": "For the evaluation of developmental dysplasia of the hip joint in a newborn, which of the following maneuvers is applied for assessment of dislocated hip joint?",
     "answers": [
       {
-        "option": "Barlow test",
+        "option": "Ortolani test",
         "bool": true
       },
       {
-        "option": "Murphy's maneuver",
+        "option": "Trendelenburg's test",
+        "bool": false
+      },
+      {
+        "option": "Barlow test",
         "bool": false
       },
       {
@@ -1097,11 +1101,7 @@
         "bool": false
       },
       {
-        "option": "Trendelenburg's test",
-        "bool": false
-      },
-      {
-        "option": "Ortolani test",
+        "option": "Murphy's maneuver",
         "bool": false
       }
     ]
@@ -1112,12 +1112,8 @@
     "question": "A 2-year-old male child presents to the clinic with a complaint of short stature. On examination, he has a large head & tongue, corneal clouding, and coarse facial features. He is developmentally delayed. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Hunter syndrome",
+        "option": "Gaucher disease",
         "bool": false
-      },
-      {
-        "option": "Hurler syndrome",
-        "bool": true
       },
       {
         "option": "Hypothyroidism",
@@ -1128,8 +1124,12 @@
         "bool": false
       },
       {
-        "option": "Gaucher disease",
+        "option": "Hunter syndrome",
         "bool": false
+      },
+      {
+        "option": "Hurler syndrome",
+        "bool": true
       }
     ]
   },
@@ -1139,7 +1139,11 @@
     "question": "An 11-year-old boy presents to the outpatient department with complaints of fever, pain, and swelling in joints. The symptoms have been present for 10 days. Four days ago, his right knee was painful and swollen but it was resolved, and later, his right ankle and left knee joint were also involved. Previous history is positive for sore throat 4 weeks back which responded to symptomatic treatment. On examination, he is febrile, respiratory rate is 32/min and heart rate is 160/min. His left knee and right ankle joint are swollen and extremely tender and warm. There is a restricted range of motion. The routine investigation is as follows: CBC normal, ESR 110, and antistreptolysin O titer (ASOT) are 1:800. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Tuberculous arthritis",
+        "option": "Rheumatic fever",
+        "bool": true
+      },
+      {
+        "option": "Rheumatoid arthritis",
         "bool": false
       },
       {
@@ -1147,15 +1151,11 @@
         "bool": false
       },
       {
-        "option": "Reactive arthritis",
+        "option": "Tuberculous arthritis",
         "bool": false
       },
       {
-        "option": "Rheumatic fever",
-        "bool": true
-      },
-      {
-        "option": "Rheumatoid arthritis",
+        "option": "Reactive arthritis",
         "bool": false
       }
     ]
@@ -1166,11 +1166,11 @@
     "question": "A 21-year-old footballer comes to the clinic with a sudden onset, severe pain in his right groin after kicking a football. On examination, there is tenderness at the medial side of his thigh. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Hamstring tendinopathy",
+        "option": "Iliopsoas tendinopathy",
         "bool": false
       },
       {
-        "option": "Iliopsoas tendinopathy",
+        "option": "Hamstring tendinopathy",
         "bool": false
       },
       {
@@ -1193,6 +1193,14 @@
     "question": "Which of the following is the serum marker for increased osteoblastic activity?",
     "answers": [
       {
+        "option": "Bony acid phosphatase level",
+        "bool": false
+      },
+      {
+        "option": "Total acid phosphatase level",
+        "bool": false
+      },
+      {
         "option": "Bony alkaline phosphatase level",
         "bool": true
       },
@@ -1203,14 +1211,6 @@
       {
         "option": "Total alkaline phosphatase level",
         "bool": false
-      },
-      {
-        "option": "Total acid phosphatase level",
-        "bool": false
-      },
-      {
-        "option": "Bony acid phosphatase level",
-        "bool": false
       }
     ]
   },
@@ -1220,6 +1220,14 @@
     "question": "Which of the following structures is commonly associated with the term \"strain,\" referring to an injury?",
     "answers": [
       {
+        "option": "Ligament",
+        "bool": false
+      },
+      {
+        "option": "Tendon",
+        "bool": false
+      },
+      {
         "option": "Soft tissue",
         "bool": false
       },
@@ -1228,16 +1236,8 @@
         "bool": false
       },
       {
-        "option": "Tendon",
-        "bool": false
-      },
-      {
         "option": "Muscle",
         "bool": true
-      },
-      {
-        "option": "Ligament",
-        "bool": false
       }
     ]
   },
@@ -1247,23 +1247,23 @@
     "question": "What is the primary cause of an avulsion fracture?",
     "answers": [
       {
-        "option": "Tendon pull",
-        "bool": true
+        "option": "Artery force",
+        "bool": false
       },
       {
         "option": "Nerve at origin tension",
         "bool": false
       },
       {
-        "option": "Artery force",
+        "option": "Muscle belly contraction",
         "bool": false
+      },
+      {
+        "option": "Tendon pull",
+        "bool": true
       },
       {
         "option": "Vein traction",
-        "bool": false
-      },
-      {
-        "option": "Muscle belly contraction",
         "bool": false
       }
     ]
@@ -1274,11 +1274,15 @@
     "question": "A 30-year-old tennis player leaves the match in between due to a sudden onset of severe pain in the medial side of the thigh. On examination, there is a contusion in the middle of the medial side of the thigh. What is the diagnosis?",
     "answers": [
       {
-        "option": "Adductor tendinopathy",
-        "bool": true
+        "option": "Iliopsoas tendinopathy",
+        "bool": false
       },
       {
         "option": "Hamstring tendinopathy",
+        "bool": false
+      },
+      {
+        "option": "Abductor tendinopathy",
         "bool": false
       },
       {
@@ -1286,12 +1290,8 @@
         "bool": false
       },
       {
-        "option": "Iliopsoas tendinopathy",
-        "bool": false
-      },
-      {
-        "option": "Abductor tendinopathy",
-        "bool": false
+        "option": "Adductor tendinopathy",
+        "bool": true
       }
     ]
   },
@@ -1301,16 +1301,12 @@
     "question": "A 25-year-old cricketer comes to the clinic with a complaint of pain in the back of the thigh. While bowling, he fell due to severe pain during the match. What is the most likely injured compartment?",
     "answers": [
       {
-        "option": "Hamstring",
-        "bool": true
-      },
-      {
         "option": "Iliopsoas",
         "bool": false
       },
       {
-        "option": "Quadriceps",
-        "bool": false
+        "option": "Hamstring",
+        "bool": true
       },
       {
         "option": "Adductor",
@@ -1318,6 +1314,10 @@
       },
       {
         "option": "Abductor",
+        "bool": false
+      },
+      {
+        "option": "Quadriceps",
         "bool": false
       }
     ]
@@ -1328,19 +1328,19 @@
     "question": "Which structure's contraction is responsible for causing snapping hip syndrome?",
     "answers": [
       {
-        "option": "Iliopsoas",
-        "bool": true
+        "option": "Quadriceps",
+        "bool": false
       },
       {
-        "option": "Sartorius",
-        "bool": false
+        "option": "Iliopsoas",
+        "bool": true
       },
       {
         "option": "Iliotibial band",
         "bool": false
       },
       {
-        "option": "Quadriceps",
+        "option": "Sartorius",
         "bool": false
       },
       {
@@ -1355,6 +1355,10 @@
     "question": "What specific type of knee injury is the Lachman test primarily used for diagnoses?",
     "answers": [
       {
+        "option": "Anterior cruciate ligament injury",
+        "bool": true
+      },
+      {
         "option": "Posterior cruciate ligament injury",
         "bool": false
       },
@@ -1363,15 +1367,11 @@
         "bool": false
       },
       {
-        "option": "Anterior cruciate ligament injury",
-        "bool": true
-      },
-      {
-        "option": "Lateral collateral ligament injury",
+        "option": "Medial collateral ligament injury",
         "bool": false
       },
       {
-        "option": "Medial collateral ligament injury",
+        "option": "Lateral collateral ligament  injury",
         "bool": false
       }
     ]
@@ -1386,7 +1386,7 @@
         "bool": false
       },
       {
-        "option": "Squamous cell carcinoma",
+        "option": "Secondary amyloidosis",
         "bool": false
       },
       {
@@ -1398,7 +1398,7 @@
         "bool": true
       },
       {
-        "option": "Secondary amyloidosis",
+        "option": "Squamous cell carcinoma",
         "bool": false
       }
     ]
@@ -1409,7 +1409,7 @@
     "question": "Which of the following joints is most frequently and severely involved in rheumatoid arthritis?",
     "answers": [
       {
-        "option": "Greater toe",
+        "option": "Knee",
         "bool": false
       },
       {
@@ -1417,15 +1417,15 @@
         "bool": false
       },
       {
+        "option": "Elbow",
+        "bool": false
+      },
+      {
         "option": "Interphalangeal joint",
         "bool": true
       },
       {
-        "option": "Knee",
-        "bool": false
-      },
-      {
-        "option": "Elbow",
+        "option": "Greater toe",
         "bool": false
       }
     ]
@@ -1436,11 +1436,11 @@
     "question": "Which of the following is not a feature of osteoarthritis?",
     "answers": [
       {
-        "option": "Osteophytes at joint margins",
+        "option": "Atrophy of synovium",
         "bool": false
       },
       {
-        "option": "Atrophy of synovium",
+        "option": "Eburnation of bone",
         "bool": false
       },
       {
@@ -1448,7 +1448,7 @@
         "bool": false
       },
       {
-        "option": "Eburnation of bone",
+        "option": "Osteophytes at joint margins",
         "bool": false
       },
       {
@@ -1463,11 +1463,11 @@
     "question": "Which bursa is affected in clergyman's knee?",
     "answers": [
       {
-        "option": "Suprapatellar bursa",
+        "option": "Retropatellar bursa",
         "bool": false
       },
       {
-        "option": "Retropatellar bursa",
+        "option": "Suprapatellar bursa",
         "bool": false
       },
       {
@@ -1490,11 +1490,7 @@
     "question": "Simmonds test is used for the diagnosis of which specific tendon rupture?",
     "answers": [
       {
-        "option": "Tibialis posterior rupture",
-        "bool": false
-      },
-      {
-        "option": "Tibialis anterior rupture",
+        "option": "Quadriceps rupture",
         "bool": false
       },
       {
@@ -1506,7 +1502,11 @@
         "bool": false
       },
       {
-        "option": "Quadriceps rupture",
+        "option": "Tibialis anterior rupture",
+        "bool": false
+      },
+      {
+        "option": "Tibialis posterior rupture",
         "bool": false
       }
     ]
@@ -1516,6 +1516,14 @@
     "info": "4th-year/orthopedics/2023",
     "question": "A 21-year-old male presents to the clinic with a complaint of pain in his right knee. X-ray indicates an avulsion fracture of the tibial tubercle. Which structure is most likely injured from the following?",
     "answers": [
+      {
+        "option": "Meniscus",
+        "bool": true
+      },
+      {
+        "option": "Medial cruciate ligament",
+        "bool": false
+      },
       {
         "option": "Lateral collateral ligament",
         "bool": false
@@ -1527,14 +1535,6 @@
       {
         "option": "Anterior cruciate ligament",
         "bool": false
-      },
-      {
-        "option": "Meniscus",
-        "bool": true
-      },
-      {
-        "option": "Medial cruciate ligament",
-        "bool": false
       }
     ]
   },
@@ -1544,14 +1544,6 @@
     "question": "Which tumor is common in the epiphysis region?",
     "answers": [
       {
-        "option": "Giant cell tumor",
-        "bool": true
-      },
-      {
-        "option": "Lymphoma",
-        "bool": false
-      },
-      {
         "option": "Chondroblastoma",
         "bool": false
       },
@@ -1560,7 +1552,15 @@
         "bool": false
       },
       {
+        "option": "Giant cell tumor",
+        "bool": true
+      },
+      {
         "option": "Osteosarcoma",
+        "bool": false
+      },
+      {
+        "option": "Lymphoma",
         "bool": false
       }
     ]
@@ -1570,10 +1570,6 @@
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following factors makes aspirin different from other non-steroidal anti-inflammatory drugs (NSAIDs)?",
     "answers": [
-      {
-        "option": "Increases the risk of colon cancer",
-        "bool": false
-      },
       {
         "option": "Decreases fever",
         "bool": false
@@ -1589,32 +1585,36 @@
       {
         "option": "Irreversibly inhibits cycloxygenase",
         "bool": true
+      },
+      {
+        "option": "Increases the risk of colon cancer",
+        "bool": false
       }
     ]
   },
   {
     "id": 59,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 28-year-old male presents to the emergency department with a history of falling on his outstretched hand in a road traffic accident. On examination, there is pain and tenderness in his right forearm, the distal nerve is intact. X-ray shows a distal radius fracture with dislocation of the ulna. What term is used to describe the fracture in this case?",
+    "question": "Which of the following is an analgesic and anti-pyretic drug that lacks an anti-inflammatory action?",
     "answers": [
       {
-        "option": "Complex distil radius fracture",
+        "option": "Celecoxib",
         "bool": false
       },
       {
-        "option": "Galeazzi fracture",
+        "option": "Indomethacin",
+        "bool": false
+      },
+      {
+        "option": "Probenecid",
+        "bool": false
+      },
+      {
+        "option": "Acetaminophen",
         "bool": true
       },
       {
-        "option": "Colles fracture",
-        "bool": false
-      },
-      {
-        "option": "Smith fracture",
-        "bool": false
-      },
-      {
-        "option": "Monteggia fracture",
+        "option": "Colchicine",
         "bool": false
       }
     ]
@@ -1622,8 +1622,39 @@
   {
     "id": 60,
     "info": "4th-year/orthopedics/2023",
+    "question": "A 28-year-old male presents to the emergency department with a history of falling on his outstretched hand in a road traffic accident. On examination, there is pain and tenderness in his right forearm, the distal nerve is intact. X-ray shows a distal radius fracture with dislocation of the ulna. What term is used to describe the fracture in this case?",
+    "answers": [
+      {
+        "option": "Galeazzi fracture",
+        "bool": true
+      },
+      {
+        "option": "Monteggia fracture",
+        "bool": false
+      },
+      {
+        "option": "Smith fracture",
+        "bool": false
+      },
+      {
+        "option": "Colles fracture",
+        "bool": false
+      },
+      {
+        "option": "Complex distil radius fracture",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "4th-year/orthopedics/2023",
     "question": "Which of the following imaging modalities is most commonly used to assess joint damage in arthritis?",
     "answers": [
+      {
+        "option": "Ultrasound",
+        "bool": false
+      },
       {
         "option": "X-ray",
         "bool": true
@@ -1633,42 +1664,11 @@
         "bool": false
       },
       {
-        "option": "Magnetic resonance imaging (MRI)",
-        "bool": false
-      },
-      {
         "option": "Computed tomography (CT)",
         "bool": false
       },
       {
-        "option": "Ultrasound",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "info": "4th-year/orthopedics/2023",
-    "question": "Which of the following is an analgesic and anti-pyretic drug that lacks an anti-inflammatory action?",
-    "answers": [
-      {
-        "option": "Indomethacin",
-        "bool": false
-      },
-      {
-        "option": "Acetaminophen",
-        "bool": true
-      },
-      {
-        "option": "Celecoxib",
-        "bool": false
-      },
-      {
-        "option": "Probenecid",
-        "bool": false
-      },
-      {
-        "option": "Colchicine",
+        "option": "Magnetic resonance imaging (MRI)",
         "bool": false
       }
     ]
@@ -1679,19 +1679,19 @@
     "question": "Which of the following is the main advantage of ketorolac over aspirin?",
     "answers": [
       {
-        "option": "It does not prolong the bleeding time",
-        "bool": false
-      },
-      {
         "option": "It is less likely to cause acute renal failure in pre-existing renal impairment",
         "bool": false
       },
       {
-        "option": "It can be obtained as an over the counter medication",
+        "option": "It does not prolong the bleeding time",
         "bool": false
       },
       {
         "option": "It can be given with opiods more safely such as codeine",
+        "bool": false
+      },
+      {
+        "option": "It can be obtained as an over the counter medication",
         "bool": false
       },
       {
@@ -1706,11 +1706,11 @@
     "question": "An 18-month-old boy dies from an accidental overdose of acetaminophen. Which of the following is the most likely cause of this patient's death?",
     "answers": [
       {
-        "option": "Pulmonary edema",
+        "option": "Hemorrhagic stroke",
         "bool": false
       },
       {
-        "option": "Severe anemia",
+        "option": "Pulmonary edema",
         "bool": false
       },
       {
@@ -1718,11 +1718,11 @@
         "bool": true
       },
       {
-        "option": "Hemorrhagic stroke",
+        "option": "Respiratory failure",
         "bool": false
       },
       {
-        "option": "Respiratory failure",
+        "option": "Severe anemia",
         "bool": false
       }
     ]
@@ -1737,10 +1737,6 @@
         "bool": false
       },
       {
-        "option": "Diabetes mellitus",
-        "bool": false
-      },
-      {
         "option": "Behavioral changes including psychosis",
         "bool": false
       },
@@ -1751,6 +1747,10 @@
       {
         "option": "Severe diarrhea",
         "bool": true
+      },
+      {
+        "option": "Diabetes mellitus",
+        "bool": false
       }
     ]
   },
@@ -1760,24 +1760,24 @@
     "question": "Which of the following is an IL-6 receptor antagonist that is also found to be effective in treating rheumatoid arthritis?",
     "answers": [
       {
-        "option": "Abatacept",
-        "bool": false
-      },
-      {
         "option": "Rituximab",
         "bool": false
-      },
-      {
-        "option": "Tocilizumab",
-        "bool": true
       },
       {
         "option": "Leflunomide",
         "bool": false
       },
       {
+        "option": "Abatacept",
+        "bool": false
+      },
+      {
         "option": "Anakinra",
         "bool": false
+      },
+      {
+        "option": "Tocilizumab",
+        "bool": true
       }
     ]
   },
@@ -1787,23 +1787,23 @@
     "question": "A 45-year-old woman presents to the rheumatology clinic with a six-month history of stiff hands and wrists. She mentions that the pain is particularly bad in the morning. On examination, the wrist, metacarpophalangeal joints, and proximal interphalangeal joints are swollen and warm. A diagnosis of rheumatoid arthritis is suspected. The physician prescribes methotrexate along with a TNF-alpha inhibitor. Which of the following drugs belongs to TNF-alpha inhibitors?",
     "answers": [
       {
-        "option": "Adalimumab",
-        "bool": true
+        "option": "Anakinra",
+        "bool": false
+      },
+      {
+        "option": "Leflunomide",
+        "bool": false
       },
       {
         "option": "Sulfasalazine",
         "bool": false
       },
       {
-        "option": "Anakinra",
-        "bool": false
+        "option": "Adalimumab",
+        "bool": true
       },
       {
         "option": "Rituximab",
-        "bool": false
-      },
-      {
-        "option": "Leflunomide",
         "bool": false
       }
     ]
@@ -1814,11 +1814,7 @@
     "question": "Which of the following is a disease modifying antirheumatic drug whose active metabolite inhibits the enzyme dihydroorotate dehydrogenase?",
     "answers": [
       {
-        "option": "Sulfasalazine",
-        "bool": false
-      },
-      {
-        "option": "Nimesulide",
+        "option": "Colchicine",
         "bool": false
       },
       {
@@ -1826,11 +1822,15 @@
         "bool": true
       },
       {
-        "option": "Colchicine",
+        "option": "Nimesulide",
         "bool": false
       },
       {
         "option": "Methotrexate",
+        "bool": false
+      },
+      {
+        "option": "Sulfasalazine",
         "bool": false
       }
     ]
@@ -1841,19 +1841,19 @@
     "question": "Which of the following drugs is used for the treatment of rheumatoid arthritis with special precautions to guard against the development of irreversible retinopathy?",
     "answers": [
       {
-        "option": "Infliximab",
-        "bool": false
-      },
-      {
         "option": "Hydroxychloroquine",
         "bool": true
       },
       {
-        "option": "Sulfasalazine",
+        "option": "Infliximab",
         "bool": false
       },
       {
         "option": "Celecoxib",
+        "bool": false
+      },
+      {
+        "option": "Sulfasalazine",
         "bool": false
       },
       {
@@ -1868,6 +1868,10 @@
     "question": "A 59-year-old female is referred to the clinic for evaluation of osteopenia. Since menopause at 52 years of age, she has been on daily vitamin D supplementation. Her bone mineral density test reveals a T score of -1.6 at the lumbar spine, -2.2 at the left femoral neck, and -1.6 at the total left hip. Vitamin D acts through a nuclear receptor to produce which of the following effects in this patient?",
     "answers": [
       {
+        "option": "Increases parathyroid hormone formation",
+        "bool": false
+      },
+      {
         "option": "Increases the renal production of erythropoietin",
         "bool": false
       },
@@ -1876,15 +1880,11 @@
         "bool": false
       },
       {
-        "option": "Lowers the serum phosphate concentration",
-        "bool": false
-      },
-      {
         "option": "Increases the absorption of calcium from the gastrointestinal tract",
         "bool": true
       },
       {
-        "option": "Increases parathyroid hormone formation",
+        "option": "Lowers the serum phosphate concentration",
         "bool": false
       }
     ]
@@ -1892,22 +1892,157 @@
   {
     "id": 70,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 3-year-old boy is brought to the outpatient department (OPD) for the assessment of difficulty in walking. According to the patient\u2019s mother, he started walking at 15 months of age but has been facing difficulty in climbing stairs for the last 6 months. On examination, muscle bulk in the legs is reduced bilaterally and calf muscles are hypertrophied. Tone, power, and reflexes are found to be normal but the boy has a waddling gait. Lab findings indicate markedly raised serum creatine kinase levels. Which of the following is the most likely diagnosis?",
+    "question": "A male patient of 60 years of age was diagnosed with a case of chronic gout. The treating physician prescribed him allopurinol for his treatment. Which of the following statements best describes the mechanism of action of allopurinol?",
     "answers": [
       {
-        "option": "Duchenne muscular dystrophy",
+        "option": "It inhibits dihydrofolate reductase",
+        "bool": false
+      },
+      {
+        "option": "It inhibits acetyl transferase",
+        "bool": false
+      },
+      {
+        "option": "It inhibits DNA gyrase",
+        "bool": false
+      },
+      {
+        "option": "It inhibits xanthine oxidase",
         "bool": true
       },
       {
-        "option": "Becker muscular dystrophy",
+        "option": "It inhibits acetylcholinesterase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "4th-year/orthopedics/2023",
+    "question": "Which of the followings drugs is not included in disease modifying anti-rheumatic drugs (DMARDs) therapy?",
+    "answers": [
+      {
+        "option": "Hydroxychloroquine",
         "bool": false
       },
+      {
+        "option": "Sulfasalazine",
+        "bool": false
+      },
+      {
+        "option": "Leflunomide",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroids",
+        "bool": true
+      },
+      {
+        "option": "Methotrexate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "4th-year/orthopedics/2023",
+    "question": "Which of the following is the most common skeletal dysplasia?",
+    "answers": [
+      {
+        "option": "Neurofibromatosis",
+        "bool": false
+      },
+      {
+        "option": "Achondroplasia",
+        "bool": true
+      },
+      {
+        "option": "Thanatophoric dysplasia",
+        "bool": false
+      },
+      {
+        "option": "Spondyloepiphyseal dysplasia",
+        "bool": false
+      },
+      {
+        "option": "Fibrous dysplasia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "4th-year/orthopedics/2023",
+    "question": "“Brittle bone disease” is a name given to which of the following skeletal dysplasias?",
+    "answers": [
+      {
+        "option": "Spondyloepiphyseal dysplasia",
+        "bool": false
+      },
+      {
+        "option": "Achondrogenesis",
+        "bool": false
+      },
+      {
+        "option": "Stippled epiphysis",
+        "bool": false
+      },
+      {
+        "option": "Osteogenesis imperfecta",
+        "bool": true
+      },
+      {
+        "option": "Multiple epiphyseal dysplasia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "info": "4th-year/orthopedics/2023",
+    "question": "An 18-month-old boy is brought to the outpatient department (OPD) with a complaint of inability to walk. He has a poor dietary history with a diet mainly comprising buffalo milk and solids. On examination, the child has a 10kg (22lb) weight, 80cm (2.6ft) height, and is found to be irritable. His anterior fontanelle is wide open and a prominent widening of the distal ends of his wrist is also seen. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Rickets",
+        "bool": true
+      },
+      {
+        "option": "Scurvy",
+        "bool": false
+      },
+      {
+        "option": "Achondroplasia",
+        "bool": false
+      },
+      {
+        "option": "Mucopolysaccharidosis",
+        "bool": false
+      },
+      {
+        "option": "Epiphyseal dysplasia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "4th-year/orthopedics/2023",
+    "question": "A 3-year-old boy is brought to the outpatient department (OPD) for the assessment of difficulty in walking. According to the patient’s mother, he started walking at 15 months of age but has been facing difficulty in climbing stairs for the last 6 months. On examination, muscle bulk in the legs is reduced bilaterally and calf muscles are hypertrophied. Tone, power, and reflexes are found to be normal but the boy has a waddling gait. Lab findings indicate markedly raised serum creatine kinase levels. Which of the following is the most likely diagnosis?",
+    "answers": [
       {
         "option": "Myotonic muscular dystrophy",
         "bool": false
       },
       {
+        "option": "Duchenne muscular dystrophy",
+        "bool": true
+      },
+      {
         "option": "Spinal muscular dystrophy",
+        "bool": false
+      },
+      {
+        "option": "Becker muscular dystrophy",
         "bool": false
       },
       {
@@ -1917,12 +2052,70 @@
     ]
   },
   {
-    "id": 71,
+    "id": 76,
+    "info": "4th-year/orthopedics/2023",
+    "question": "An 11-year-old girl presents to the clinic with right knee pain for 10 months with no history of trauma. Pain is not limiting her activities. On examination, she is found to be obese. Her right knee appears normal with no tenderness on hip joints. A pelvis radiograph of both hips shows a widening of the proximal femoral epiphyseal growth plate. What is the most likely diagnosis for this patient?",
+    "answers": [
+      {
+        "option": "Septic arthritis",
+        "bool": false
+      },
+      {
+        "option": "Legg-Calve-Perthes disease",
+        "bool": false
+      },
+      {
+        "option": "Achondroplasia",
+        "bool": false
+      },
+      {
+        "option": "Slipped capital femoral epiphysis",
+        "bool": true
+      },
+      {
+        "option": "Osteogenesis imperfecta",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "4th-year/orthopedics/2023",
+    "question": "A 7-year-old boy presents with worsening pain in his leg for about four months. His right foot has started to turn inwards while walking resulting in a noticeable limp. A plain radiograph of the hip joint shows a flattened femoral head. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Achondroplasia",
+        "bool": false
+      },
+      {
+        "option": "Septic arthritis",
+        "bool": false
+      },
+      {
+        "option": "Osteogenesis imperfecta",
+        "bool": false
+      },
+      {
+        "option": "Slipped capital femoral epiphysis",
+        "bool": false
+      },
+      {
+        "option": "Legg-Calve-Perthes disease",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 78,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is the best practical solution to remove temporary hardness of water at home?",
     "answers": [
       {
-        "option": "Addition of lime",
+        "option": "Ion exchange method",
+        "bool": false
+      },
+      {
+        "option": "Addition of caustic soda",
         "bool": false
       },
       {
@@ -1930,21 +2123,44 @@
         "bool": true
       },
       {
-        "option": "Addition of caustic soda",
+        "option": "Addition of lime",
         "bool": false
       },
       {
         "option": "Chlorination",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "4th-year/orthopedics/2023",
+    "question": "Which one of the following statements is the most appropriate regarding the biological oxygen demand?",
+    "answers": [
+      {
+        "option": "It shows the amount of oxygen available for life to survive in water",
+        "bool": false
       },
       {
-        "option": "Ion exchange method",
+        "option": "It is the sum of polyvalent cations",
+        "bool": false
+      },
+      {
+        "option": "It shows growth and oxygen demand of bacteria",
+        "bool": true
+      },
+      {
+        "option": "It is the indicator of dissolved oxygen",
+        "bool": false
+      },
+      {
+        "option": "It is the indicator of acidity",
         "bool": false
       }
     ]
   },
   {
-    "id": 72,
+    "id": 80,
     "info": "4th-year/orthopedics/2023",
     "question": "A community in a small village in Northern Sindh seeks advice from a public health officer regarding the best source of water to avoid arsenic poisoning. Which one of the following sources of water must be advised against since it is most likely to be polluted with high levels of arsenic?",
     "answers": [
@@ -1961,17 +2177,17 @@
         "bool": false
       },
       {
-        "option": "Lake water",
+        "option": "Spring water",
         "bool": false
       },
       {
-        "option": "Spring water",
+        "option": "Lake water",
         "bool": false
       }
     ]
   },
   {
-    "id": 73,
+    "id": 81,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is the most important component of a slow sand filter that is subjected to many purification processes?",
     "answers": [
@@ -1980,235 +2196,19 @@
         "bool": false
       },
       {
-        "option": "Permutit medium",
-        "bool": false
-      },
-      {
         "option": "An under drainage system",
-        "bool": false
-      },
-      {
-        "option": "Supernatant water",
         "bool": false
       },
       {
         "option": "A bed of graded sand",
         "bool": true
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "4th-year/orthopedics/2023",
-    "question": "A male patient of 60 years of age was diagnosed with a case of chronic gout. The treating physician prescribed him allopurinol for his treatment. Which of the following statements best describes the mechanism of action of allopurinol?",
-    "answers": [
+      },
       {
-        "option": "It inhibits acetyl transferase",
+        "option": "Permutit medium",
         "bool": false
       },
       {
-        "option": "It inhibits acetylcholinesterase",
-        "bool": false
-      },
-      {
-        "option": "It inhibits xanthine oxidase",
-        "bool": true
-      },
-      {
-        "option": "It inhibits dihydrofolate reductase",
-        "bool": false
-      },
-      {
-        "option": "It inhibits DNA gyrase",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "info": "4th-year/orthopedics/2023",
-    "question": "Which of the followings drugs is not included in disease modifying anti-rheumatic drugs (DMARDs) therapy?",
-    "answers": [
-      {
-        "option": "Methotrexate",
-        "bool": false
-      },
-      {
-        "option": "Sulfasalazine",
-        "bool": false
-      },
-      {
-        "option": "Leflunomide",
-        "bool": false
-      },
-      {
-        "option": "Hydroxychloroquine",
-        "bool": false
-      },
-      {
-        "option": "Corticosteroids",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "info": "4th-year/orthopedics/2023",
-    "question": "Which of the following is the most common skeletal dysplasia?",
-    "answers": [
-      {
-        "option": "Fibrous dysplasia",
-        "bool": false
-      },
-      {
-        "option": "Thanatophoric dysplasia",
-        "bool": false
-      },
-      {
-        "option": "Spondyloepiphyseal dysplasia",
-        "bool": false
-      },
-      {
-        "option": "Achondroplasia",
-        "bool": true
-      },
-      {
-        "option": "Neurofibromatosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "info": "4th-year/orthopedics/2023",
-    "question": "\u201cBrittle bone disease\u201d is a name given to which of the following skeletal dysplasias?",
-    "answers": [
-      {
-        "option": "Stippled epiphysis",
-        "bool": false
-      },
-      {
-        "option": "Achondrogenesis",
-        "bool": false
-      },
-      {
-        "option": "Osteogenesis imperfecta",
-        "bool": true
-      },
-      {
-        "option": "Multiple epiphyseal dysplasia",
-        "bool": false
-      },
-      {
-        "option": "Spondyloepiphyseal dysplasia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "info": "4th-year/orthopedics/2023",
-    "question": "An 18-month-old boy is brought to the outpatient department (OPD) with a complaint of inability to walk. He has a poor dietary history with a diet mainly comprising buffalo milk and solids. On examination, the child has a 10kg (22lb) weight, 80cm (2.6ft) height, and is found to be irritable. His anterior fontanelle is wide open and a prominent widening of the distal ends of his wrist is also seen. Which of the following is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Epiphyseal dysplasia",
-        "bool": false
-      },
-      {
-        "option": "Achondroplasia",
-        "bool": false
-      },
-      {
-        "option": "Scurvy",
-        "bool": false
-      },
-      {
-        "option": "Mucopolysaccharidosis",
-        "bool": false
-      },
-      {
-        "option": "Rickets",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "info": "4th-year/orthopedics/2023",
-    "question": "An 11-year-old girl presents to the clinic with right knee pain for 10 months with no history of trauma. Pain is not limiting her activities. On examination, she is found to be obese. Her right knee appears normal with no tenderness on hip joints. A pelvis radiograph of both hips shows a widening of the proximal femoral epiphyseal growth plate. What is the most likely diagnosis for this patient?",
-    "answers": [
-      {
-        "option": "Slipped capital femoral epiphysis",
-        "bool": true
-      },
-      {
-        "option": "Legg-Calve-Perthes disease",
-        "bool": false
-      },
-      {
-        "option": "Achondroplasia",
-        "bool": false
-      },
-      {
-        "option": "Septic arthritis",
-        "bool": false
-      },
-      {
-        "option": "Osteogenesis imperfecta",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "info": "4th-year/orthopedics/2023",
-    "question": "A 7-year-old boy presents with worsening pain in his leg for about four months. His right foot has started to turn inwards while walking resulting in a noticeable limp. A plain radiograph of the hip joint shows a flattened femoral head. Which of the following is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Slipped capital femoral epiphysis",
-        "bool": false
-      },
-      {
-        "option": "Septic arthritis",
-        "bool": false
-      },
-      {
-        "option": "Legg-Calve-Perthes disease",
-        "bool": true
-      },
-      {
-        "option": "Achondroplasia",
-        "bool": false
-      },
-      {
-        "option": "Osteogenesis imperfecta",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "info": "4th-year/orthopedics/2023",
-    "question": "Which one of the following statements is the most appropriate regarding the biological oxygen demand?",
-    "answers": [
-      {
-        "option": "It is the sum of polyvalent cations",
-        "bool": false
-      },
-      {
-        "option": "It is the indicator of acidity",
-        "bool": false
-      },
-      {
-        "option": "It is the indicator of dissolved oxygen",
-        "bool": false
-      },
-      {
-        "option": "It shows growth and oxygen demand of bacteria",
-        "bool": true
-      },
-      {
-        "option": "It shows the amount of oxygen available for life to survive in water",
+        "option": "Supernatant water",
         "bool": false
       }
     ]
@@ -2219,12 +2219,12 @@
     "question": "Which one of the following is the most cost-effective workable source of water for the Thar desert region that is least likely to be contaminated by pathogens along with being less likely to dry up during the prolonged summer season in the region?",
     "answers": [
       {
-        "option": "Building a tube well",
+        "option": "Construction of a desalination plant",
         "bool": false
       },
       {
-        "option": "Construction of a desalination plant",
-        "bool": false
+        "option": "Digging a deep well",
+        "bool": true
       },
       {
         "option": "Storage of rain water",
@@ -2235,8 +2235,8 @@
         "bool": false
       },
       {
-        "option": "Digging a deep well",
-        "bool": true
+        "option": "Building a tube well",
+        "bool": false
       }
     ]
   },
@@ -2246,7 +2246,15 @@
     "question": "A 44-year-old man visits a physician with complaints of chronic productive cough. He has also developed dyspnea on mild exertion lately. Chest X-ray shows small irregular opacities most prominent in the upper poles of the lungs. The man has a history of working in coal mines for 5 years. Which of the following is the most likely disease the physician should suspect?",
     "answers": [
       {
+        "option": "Byssinosis",
+        "bool": false
+      },
+      {
         "option": "Bagassosis",
+        "bool": false
+      },
+      {
+        "option": "Asbestosis",
         "bool": false
       },
       {
@@ -2256,14 +2264,6 @@
       {
         "option": "Anthracosis",
         "bool": true
-      },
-      {
-        "option": "Byssinosis",
-        "bool": false
-      },
-      {
-        "option": "Asbestosis",
-        "bool": false
       }
     ]
   },
@@ -2273,16 +2273,8 @@
     "question": "The use of marble and stones gives an artistic look to the buildings. However, the workers of stone cutting, sandblasting, and ceramic industry are likely to be predisposed to which one of the following diseases?",
     "answers": [
       {
-        "option": "Anthracosis",
-        "bool": false
-      },
-      {
         "option": "Silicosis",
         "bool": true
-      },
-      {
-        "option": "Asbestosis",
-        "bool": false
       },
       {
         "option": "Byssinosis",
@@ -2290,6 +2282,14 @@
       },
       {
         "option": "Bagassosis",
+        "bool": false
+      },
+      {
+        "option": "Anthracosis",
+        "bool": false
+      },
+      {
+        "option": "Asbestosis",
         "bool": false
       }
     ]
@@ -2300,15 +2300,15 @@
     "question": "People living in cities are continuously exposed to the adverse effects of noise. Which of the following is the most important source of noise pollution in urban areas?",
     "answers": [
       {
+        "option": "Construction of buildings",
+        "bool": false
+      },
+      {
         "option": "Industries",
         "bool": false
       },
       {
-        "option": "Bulldozers",
-        "bool": false
-      },
-      {
-        "option": "Construction of buildings",
+        "option": "Electrical generators",
         "bool": false
       },
       {
@@ -2316,7 +2316,7 @@
         "bool": true
       },
       {
-        "option": "Electrical generators",
+        "option": "Bulldozers",
         "bool": false
       }
     ]
@@ -2331,10 +2331,6 @@
         "bool": false
       },
       {
-        "option": "Stress and anxiety",
-        "bool": false
-      },
-      {
         "option": "Auditory fatigue",
         "bool": false
       },
@@ -2344,6 +2340,10 @@
       },
       {
         "option": "Sleep disturbance",
+        "bool": false
+      },
+      {
+        "option": "Stress and anxiety",
         "bool": false
       }
     ]
@@ -2358,7 +2358,7 @@
         "bool": true
       },
       {
-        "option": "Gallium nitrate",
+        "option": "Sevelamer",
         "bool": false
       },
       {
@@ -2366,11 +2366,11 @@
         "bool": false
       },
       {
-        "option": "Sevelamer",
+        "option": "Plicamycin",
         "bool": false
       },
       {
-        "option": "Plicamycin",
+        "option": "Gallium nitrate",
         "bool": false
       }
     ]
@@ -2381,11 +2381,7 @@
     "question": "A 40-year-old male is diagnosed with gout based on the synovial fluid analysis of his knee joint. Which of the following is an indication to start urate-lowering therapy?",
     "answers": [
       {
-        "option": "Serum uric acid of 5.6 mg/dl",
-        "bool": false
-      },
-      {
-        "option": "Increased WBC count on CBC",
+        "option": "Raised erythrocyte sedimentation rate (ESR)",
         "bool": false
       },
       {
@@ -2393,11 +2389,15 @@
         "bool": true
       },
       {
-        "option": "Raised erythrocyte sedimentation rate (ESR)",
+        "option": "Increased WBC count on CBC",
         "bool": false
       },
       {
         "option": "Raised C-reactive protein (CRP)",
+        "bool": false
+      },
+      {
+        "option": "Serum uric acid of 5.6 mg/dl",
         "bool": false
       }
     ]
@@ -2405,10 +2405,10 @@
   {
     "id": 89,
     "info": "4th-year/orthopedics/2023",
-    "question": "The arc welding affects the eyes causing intense conjunctivitis and keratitis. Welder\u2019s flash is caused by increased exposure to which of the following?",
+    "question": "The arc welding affects the eyes causing intense conjunctivitis and keratitis. Welder’s flash is caused by increased exposure to which of the following?",
     "answers": [
       {
-        "option": "X-rays",
+        "option": "Ultrasound",
         "bool": false
       },
       {
@@ -2416,11 +2416,11 @@
         "bool": true
       },
       {
-        "option": "Ultrasound",
+        "option": "Radioactive isotopes",
         "bool": false
       },
       {
-        "option": "Radioactive isotopes",
+        "option": "X-rays",
         "bool": false
       },
       {
@@ -2435,24 +2435,24 @@
     "question": "Which one of the following diseases is caused by exposure to ionizing radiations, x-rays, and radioactive isotopes?",
     "answers": [
       {
-        "option": "Anemia",
-        "bool": false
-      },
-      {
-        "option": "Polycythemia",
-        "bool": false
-      },
-      {
-        "option": "Bulimia",
-        "bool": false
-      },
-      {
         "option": "Insomnia",
         "bool": false
       },
       {
         "option": "Leukemia",
         "bool": true
+      },
+      {
+        "option": "Bulimia",
+        "bool": false
+      },
+      {
+        "option": "Anemia",
+        "bool": false
+      },
+      {
+        "option": "Polycythemia",
+        "bool": false
       }
     ]
   },
@@ -2462,15 +2462,7 @@
     "question": "A 50-year-old obese male presents to the clinic with complaints of pain and swelling in the first metatarsophalangeal joint of the left big toe for 2 days. He has a history of alcohol intake for 10 years. The given explanation best corresponds to which of the following?",
     "answers": [
       {
-        "option": "Presence of monosodium urate crystals in synovial fluid",
-        "bool": true
-      },
-      {
         "option": "Serum uric acid level 8mg/dl",
-        "bool": false
-      },
-      {
-        "option": "Involvement of big toe",
         "bool": false
       },
       {
@@ -2480,6 +2472,14 @@
       {
         "option": "History of alcohol intake",
         "bool": false
+      },
+      {
+        "option": "Involvement of big toe",
+        "bool": false
+      },
+      {
+        "option": "Presence of monosodium urate crystals in synovial fluid",
+        "bool": true
       }
     ]
   },
@@ -2489,7 +2489,7 @@
     "question": "A 10-year-old boy is brought to the clinic for assessment of short stature. He is the shortest in his class, good at studies, and also takes part in sports activities. On examination, the child is vitally stable, prepubertal having a height of 110 cm (3.6 ft), a weight of 27 kg (59.5 lb) with bone age of 10 years. His two elder siblings and father also have a short height. What is the most likely cause of his short stature?",
     "answers": [
       {
-        "option": "Constitutional short stature",
+        "option": "Hypothyroidism",
         "bool": false
       },
       {
@@ -2497,15 +2497,15 @@
         "bool": true
       },
       {
-        "option": "Achondroplasia",
-        "bool": false
-      },
-      {
-        "option": "Hypothyroidism",
-        "bool": false
-      },
-      {
         "option": "Spondyloarthropathy",
+        "bool": false
+      },
+      {
+        "option": "Constitutional short stature",
+        "bool": false
+      },
+      {
+        "option": "Achondroplasia",
         "bool": false
       }
     ]
@@ -2520,20 +2520,20 @@
         "bool": false
       },
       {
-        "option": "Sjogren syndrome",
-        "bool": false
-      },
-      {
         "option": "Rheumatoid arthritis",
-        "bool": false
-      },
-      {
-        "option": "Inflammatory myositis",
         "bool": false
       },
       {
         "option": "Antiphospholipid antibody syndrome",
         "bool": true
+      },
+      {
+        "option": "Sjogren syndrome",
+        "bool": false
+      },
+      {
+        "option": "Inflammatory myositis",
+        "bool": false
       }
     ]
   },
@@ -2543,20 +2543,20 @@
     "question": "A 3-year-old boy is brought to the outpatient department (OPD) for growth assessment. On examination, he is vitally stable with a height of 85 cm (2.7 ft) and a weight of 12 kg (26 lbs). The child also has frontal and parietal bossing, bowed legs, and prominent costochondral junctions. His serum calcium is found to be 10 mg/dl, alkaline phosphatase is 520 IU/L and serum vitamin D is 4 ng/ml. Which of the following is the most appropriate treatment choice?",
     "answers": [
       {
-        "option": "Vitamin D3 600,000 IU IM STAT",
+        "option": "Vitamin D 5 drops/day for 1 month",
         "bool": false
       },
       {
-        "option": "Vitamin D 5 drops/day for 1 month",
+        "option": "Vitamin D3 100,000 IU IM STAT",
+        "bool": false
+      },
+      {
+        "option": "Vitamin D3 600,000 IU IM STAT",
         "bool": false
       },
       {
         "option": "Vitamin D3 300,000 IU IM STAT",
         "bool": true
-      },
-      {
-        "option": "Vitamin D3 100,000 IU IM STAT",
-        "bool": false
       },
       {
         "option": "Calcium 500 mg once daily for 1 month",
@@ -2574,19 +2574,19 @@
         "bool": false
       },
       {
-        "option": "Hypercalcemia",
-        "bool": true
+        "option": "Overgrowth of calcified dense bone",
+        "bool": false
       },
       {
         "option": "Parathyroid hormone is unaffected",
         "bool": false
       },
       {
-        "option": "Fracture susceptibility",
-        "bool": false
+        "option": "Hypercalcemia",
+        "bool": true
       },
       {
-        "option": "Overgrowth of calcified dense bone",
+        "option": "Fracture susceptibility",
         "bool": false
       }
     ]
@@ -2601,7 +2601,7 @@
         "bool": false
       },
       {
-        "option": "Leflunomide",
+        "option": "Methotrexate",
         "bool": false
       },
       {
@@ -2609,12 +2609,12 @@
         "bool": false
       },
       {
-        "option": "Methotrexate",
-        "bool": true
-      },
-      {
         "option": "Sulfasalazine",
         "bool": false
+      },
+      {
+        "option": "Leflunomide",
+        "bool": true
       }
     ]
   },
@@ -2624,7 +2624,11 @@
     "question": "Which of the following is the serum marker that indicates increased osteoclastic activity?",
     "answers": [
       {
-        "option": "Serum alkaline phosphatase level",
+        "option": "C reactive protein",
+        "bool": false
+      },
+      {
+        "option": "Total acid phosphatase level",
         "bool": false
       },
       {
@@ -2632,11 +2636,7 @@
         "bool": true
       },
       {
-        "option": "Total acid phosphatase level",
-        "bool": false
-      },
-      {
-        "option": "C reactive protein",
+        "option": "Serum alkaline phosphatase level",
         "bool": false
       },
       {
@@ -2651,11 +2651,15 @@
     "question": "How many days are required for an uncalcified osteoid matrix to be mineralized?",
     "answers": [
       {
-        "option": "8-12 days",
+        "option": "27 days",
         "bool": false
       },
       {
-        "option": "5-8 days",
+        "option": "12-15 days",
+        "bool": true
+      },
+      {
+        "option": "8-12 days",
         "bool": false
       },
       {
@@ -2663,38 +2667,34 @@
         "bool": false
       },
       {
-        "option": "27 days",
+        "option": "5-8 days",
         "bool": false
-      },
-      {
-        "option": "12-15 days",
-        "bool": true
       }
     ]
   },
   {
     "id": 99,
     "info": "4th-year/orthopedics/2023",
-    "question": "Which of the following is the most common fracture in children?",
+    "question": "Which of the following conditions is referred to as housemaid knee?",
     "answers": [
       {
-        "option": "Mid-shaft humerus",
-        "bool": false
-      },
-      {
-        "option": "Proximal ulna",
-        "bool": false
-      },
-      {
-        "option": "Mid-shaft radius",
-        "bool": false
-      },
-      {
-        "option": "Distal radius",
+        "option": "Prepatellar bursitis",
         "bool": true
       },
       {
-        "option": "Proximal humerus",
+        "option": "Subcutaneous Infrapatellar bursitis",
+        "bool": false
+      },
+      {
+        "option": "Tear of anterior cruciate ligament",
+        "bool": false
+      },
+      {
+        "option": "Suprapatellar bursitis",
+        "bool": false
+      },
+      {
+        "option": "Deep Infrapatellar bursitis",
         "bool": false
       }
     ]
@@ -2702,10 +2702,41 @@
   {
     "id": 100,
     "info": "4th-year/orthopedics/2023",
-    "question": "Which of the following is a tumor necrosis factor-\u03b1 (TNF-\u03b1) inhibitor used for the treatment of rheumatoid arthritis?",
+    "question": "Which of the following is the most common fracture in children?",
+    "answers": [
+      {
+        "option": "Mid-shaft radius",
+        "bool": false
+      },
+      {
+        "option": "Proximal ulna",
+        "bool": false
+      },
+      {
+        "option": "Proximal humerus",
+        "bool": false
+      },
+      {
+        "option": "Mid-shaft humerus",
+        "bool": false
+      },
+      {
+        "option": "Distal radius",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "4th-year/orthopedics/2023",
+    "question": "Which of the following is a tumor necrosis factor-α (TNF-α) inhibitor used for the treatment of rheumatoid arthritis?",
     "answers": [
       {
         "option": "Tocilizumab",
+        "bool": false
+      },
+      {
+        "option": "Rituximab",
         "bool": false
       },
       {
@@ -2719,22 +2750,14 @@
       {
         "option": "Etanercept",
         "bool": true
-      },
-      {
-        "option": "Rituximab",
-        "bool": false
       }
     ]
   },
   {
-    "id": 101,
+    "id": 102,
     "info": "4th-year/orthopedics/2023",
     "question": "A young boy sustains a fracture that traverses along the physis and towards its edge crosses through the metaphysis, resulting in the separation of a triangular piece of the metaphysis. What is the Salter-Harris classification for this fracture?",
     "answers": [
-      {
-        "option": "Type II",
-        "bool": true
-      },
       {
         "option": "Type I",
         "bool": false
@@ -2744,34 +2767,38 @@
         "bool": false
       },
       {
-        "option": "Type V",
-        "bool": false
+        "option": "Type II",
+        "bool": true
       },
       {
         "option": "Type IV",
+        "bool": false
+      },
+      {
+        "option": "Type V",
         "bool": false
       }
     ]
   },
   {
-    "id": 102,
+    "id": 103,
     "info": "4th-year/orthopedics/2023",
     "question": "A patient with rheumatoid arthritis presents to the outpatient department with the complaint of radial deviation of the wrist and ulnar deviation of fingers with flexion and hyperextension of fingers. What is this deformity called?",
     "answers": [
+      {
+        "option": "Mallet finger",
+        "bool": false
+      },
+      {
+        "option": "Boutonnière deformity",
+        "bool": true
+      },
       {
         "option": "Klumpke's deformity",
         "bool": false
       },
       {
-        "option": "Boutonni\u00e8re deformity",
-        "bool": true
-      },
-      {
         "option": "Erb's deformity",
-        "bool": false
-      },
-      {
-        "option": "Mallet finger",
         "bool": false
       },
       {
@@ -2781,10 +2808,14 @@
     ]
   },
   {
-    "id": 103,
+    "id": 104,
     "info": "4th-year/orthopedics/2023",
     "question": "A female patient presents to the outpatient department with complaints of dysphagia and muscle weakness most severe in the quadriceps and distal upper extremity muscles. Laboratory studies show elevated creatine kinase and the presence of antibodies to cN1A. What is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Myotonic dystrophy",
+        "bool": false
+      },
       {
         "option": "Dermatomyositis",
         "bool": false
@@ -2798,30 +2829,22 @@
         "bool": false
       },
       {
-        "option": "Myotonic dystrophy",
-        "bool": false
-      },
-      {
         "option": "Inclusion body myositis",
         "bool": true
       }
     ]
   },
   {
-    "id": 104,
+    "id": 105,
     "info": "4th-year/orthopedics/2023",
     "question": "A middle-aged man presents to the clinic with cataracts, endocrinopathy, and cardiomyopathy. He also complains that he has sustained involuntary muscular contractions occasionally. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Mitochondrial myopathy",
-        "bool": false
-      },
-      {
-        "option": "Fascioscapulohumeral dystrophy",
-        "bool": false
-      },
-      {
         "option": "McArdle disease",
+        "bool": false
+      },
+      {
+        "option": "Emery-Dreifuss muscular dystrophy",
         "bool": false
       },
       {
@@ -2829,16 +2852,24 @@
         "bool": true
       },
       {
-        "option": "Emery-Dreifuss muscular dystrophy",
+        "option": "Fascioscapulohumeral dystrophy",
+        "bool": false
+      },
+      {
+        "option": "Mitochondrial myopathy",
         "bool": false
       }
     ]
   },
   {
-    "id": 105,
+    "id": 106,
     "info": "4th-year/orthopedics/2023",
     "question": "A child presents to the outpatient department with knock knees and deranged laboratory findings. His serum calcium is normal, serum phosphate is decreased, and urine phosphate and serum alkaline phosphatase are increased. What is the most probable diagnosis?",
     "answers": [
+      {
+        "option": "Vitamin D dependent rickets",
+        "bool": false
+      },
       {
         "option": "Hypophosphatemic rickets",
         "bool": true
@@ -2848,21 +2879,17 @@
         "bool": false
       },
       {
-        "option": "Renal rickets",
-        "bool": false
-      },
-      {
-        "option": "Vitamin D dependent rickets",
-        "bool": false
-      },
-      {
         "option": "Nutritional rickets",
+        "bool": false
+      },
+      {
+        "option": "Renal rickets",
         "bool": false
       }
     ]
   },
   {
-    "id": 106,
+    "id": 107,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following Boolean operators can be used between the terms 'hypertension' and 'high blood pressure' to broaden the search?",
     "answers": [
@@ -2875,30 +2902,26 @@
         "bool": false
       },
       {
-        "option": "OR",
-        "bool": true
+        "option": "AND",
+        "bool": false
       },
       {
         "option": "IF",
         "bool": false
       },
       {
-        "option": "AND",
-        "bool": false
+        "option": "OR",
+        "bool": true
       }
     ]
   },
   {
-    "id": 107,
+    "id": 108,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is a contraindication to the usage of celecoxib?",
     "answers": [
       {
-        "option": "Myocardial infarction",
-        "bool": true
-      },
-      {
-        "option": "Alcohol",
+        "option": "Gout",
         "bool": false
       },
       {
@@ -2910,13 +2933,17 @@
         "bool": false
       },
       {
-        "option": "Gout",
+        "option": "Alcohol",
         "bool": false
+      },
+      {
+        "option": "Myocardial infarction",
+        "bool": true
       }
     ]
   },
   {
-    "id": 108,
+    "id": 109,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is a feature of cleidocranial dysplasia?",
     "answers": [
@@ -2943,21 +2970,13 @@
     ]
   },
   {
-    "id": 109,
+    "id": 110,
     "info": "4th-year/orthopedics/2023",
     "question": "A 29-year-old woman gave birth to a baby who was small for gestational age (<5th percentile). Some time later he is brought to the clinic due to growth abnormalities. On examination, the child has a normal torso and head size, short extremities, and bowing of long bones. However, there is no osteopenia. There is also no disturbance of activities in his daily life after necessary changes in the house and school. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Marfan syndrome",
-        "bool": false
-      },
-      {
         "option": "Achondroplasia",
         "bool": true
-      },
-      {
-        "option": "Thanatophoric dysplasia",
-        "bool": false
       },
       {
         "option": "Osteogenesis imperfecta",
@@ -2966,14 +2985,30 @@
       {
         "option": "Rickets",
         "bool": false
+      },
+      {
+        "option": "Thanatophoric dysplasia",
+        "bool": false
+      },
+      {
+        "option": "Marfan syndrome",
+        "bool": false
       }
     ]
   },
   {
-    "id": 110,
+    "id": 111,
     "info": "4th-year/orthopedics/2023",
     "question": "A 16-year-old boy is brought to the emergency room (ER) after an overdose of aspirin. What abnormalities are associated with an aspirin overdose?",
     "answers": [
+      {
+        "option": "Interstitial nephritis",
+        "bool": false
+      },
+      {
+        "option": "Hyperthermia, metabolic acidosis, coma",
+        "bool": true
+      },
       {
         "option": "Fulminant liver failure",
         "bool": false
@@ -2983,26 +3018,22 @@
         "bool": false
       },
       {
-        "option": "Interstitial nephritis",
-        "bool": false
-      },
-      {
         "option": "Gastrointestinal ulceration",
         "bool": false
-      },
-      {
-        "option": "Hyperthermia, metabolic acidosis, coma",
-        "bool": true
       }
     ]
   },
   {
-    "id": 111,
+    "id": 112,
     "info": "4th-year/orthopedics/2023",
     "question": "A middle-aged woman presents to the outpatient department with complaints of fluctuating muscle weakness, diplopia, and drooping of upper eyelids. The muscle weakness worsens throughout the day. Electromyography shows decreased muscle activity after repeated stimulations. Which of the following conditions is associated with thymic abnormality?",
     "answers": [
       {
-        "option": "Myotonic dystrophy",
+        "option": "Becker muscular dystrophy",
+        "bool": false
+      },
+      {
+        "option": "Dermatomyositis",
         "bool": false
       },
       {
@@ -3014,28 +3045,16 @@
         "bool": true
       },
       {
-        "option": "Becker muscular dystrophy",
-        "bool": false
-      },
-      {
-        "option": "Dermatomyositis",
+        "option": "Myotonic dystrophy",
         "bool": false
       }
     ]
   },
   {
-    "id": 112,
+    "id": 113,
     "info": "4th-year/orthopedics/2023",
     "question": "A patient presents to the clinic with swelling of the 1st metatarsophalangeal joint. Which lab investigation will confirm the diagnosis?",
     "answers": [
-      {
-        "option": "Urate crystals in aspirated joint fluid",
-        "bool": true
-      },
-      {
-        "option": "Urate crystals in urine",
-        "bool": false
-      },
       {
         "option": "High total leukocyte count",
         "bool": false
@@ -3045,16 +3064,28 @@
         "bool": false
       },
       {
+        "option": "Urate crystals in urine",
+        "bool": false
+      },
+      {
         "option": "High serum uric aid",
         "bool": false
+      },
+      {
+        "option": "Urate crystals in aspirated joint fluid",
+        "bool": true
       }
     ]
   },
   {
-    "id": 113,
+    "id": 114,
     "info": "4th-year/orthopedics/2023",
-    "question": "Welder\u2019s flash predisposes the eyes to harmful diseases like cataracts due to ultraviolet radiation. What type of hazard is this?",
+    "question": "Welder’s flash predisposes the eyes to harmful diseases like cataracts due to ultraviolet radiation. What type of hazard is this?",
     "answers": [
+      {
+        "option": "Chemical hazard",
+        "bool": false
+      },
       {
         "option": "Psychosocial hazard",
         "bool": false
@@ -3068,38 +3099,7 @@
         "bool": true
       },
       {
-        "option": "Chemical hazard",
-        "bool": false
-      },
-      {
         "option": "Biological hazard",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 114,
-    "info": "4th-year/orthopedics/2023",
-    "question": "A woman presented to the clinic with complaints of anorexia, constipation, increased thirst, and urinary frequency. Her serum calcium level was 12 mg/dl and her serum parathyroid hormone level was 135 pg/ml. What condition was she suffering from?",
-    "answers": [
-      {
-        "option": "Polymyalgia rheumatica",
-        "bool": false
-      },
-      {
-        "option": "Major depressive disorder",
-        "bool": false
-      },
-      {
-        "option": "Primary hyperparathyroidism",
-        "bool": true
-      },
-      {
-        "option": "Multiple myeloma",
-        "bool": false
-      },
-      {
-        "option": "Multiple sclerosis",
         "bool": false
       }
     ]
@@ -3107,14 +3107,41 @@
   {
     "id": 115,
     "info": "4th-year/orthopedics/2023",
-    "question": "What is the name given to dead bone in osteomyelitis?",
+    "question": "A woman presented to the clinic with complaints of anorexia, constipation, increased thirst, and urinary frequency. Her serum calcium level was 12 mg/dl and her serum parathyroid hormone level was 135 pg/ml. What condition was she suffering from?",
     "answers": [
       {
-        "option": "Granuloma",
+        "option": "Major depressive disorder",
         "bool": false
       },
       {
+        "option": "Multiple sclerosis",
+        "bool": false
+      },
+      {
+        "option": "Polymyalgia rheumatica",
+        "bool": false
+      },
+      {
+        "option": "Multiple myeloma",
+        "bool": false
+      },
+      {
+        "option": "Primary hyperparathyroidism",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "info": "4th-year/orthopedics/2023",
+    "question": "What is the name given to dead bone in osteomyelitis?",
+    "answers": [
+      {
         "option": "Osteoma",
+        "bool": false
+      },
+      {
+        "option": "Necrosed bone",
         "bool": false
       },
       {
@@ -3122,38 +3149,11 @@
         "bool": true
       },
       {
-        "option": "Necrosed bone",
-        "bool": false
-      },
-      {
         "option": "Involucrum",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "info": "4th-year/orthopedics/2023",
-    "question": "A 15-year-old girl from a low socioeconomic background presents to a primary healthcare facility with complaints of low-grade fever, back pain, and significant weight loss. Her sister had tuberculosis some time back. What is the most probable diagnosis?",
-    "answers": [
-      {
-        "option": "Discitis",
-        "bool": false
       },
       {
-        "option": "Ankylosing spondylitis",
-        "bool": false
-      },
-      {
-        "option": "Scheuermann disease",
-        "bool": false
-      },
-      {
-        "option": "Tuberculosis",
-        "bool": true
-      },
-      {
-        "option": "Spondylolysis",
+        "option": "Granuloma",
         "bool": false
       }
     ]
@@ -3161,23 +3161,50 @@
   {
     "id": 117,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 65-year-old woman, known case of diabetes and hypertension, has been diagnosed with a displaced sub-capital fracture of the femur. What is the most appropriate management option for her?",
+    "question": "A 15-year-old girl from a low socioeconomic background presents to a primary healthcare facility with complaints of low-grade fever, back pain, and significant weight loss. Her sister had tuberculosis some time back. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "K-wire fixation",
+        "option": "Tuberculosis",
+        "bool": true
+      },
+      {
+        "option": "Ankylosing spondylitis",
         "bool": false
       },
+      {
+        "option": "Discitis",
+        "bool": false
+      },
+      {
+        "option": "Spondylolysis",
+        "bool": false
+      },
+      {
+        "option": "Scheuermann disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "info": "4th-year/orthopedics/2023",
+    "question": "A 65-year-old woman, known case of diabetes and hypertension, has been diagnosed with a displaced sub-capital fracture of the femur. What is the most appropriate management option for her?",
+    "answers": [
       {
         "option": "Dynamic compression screw",
         "bool": false
       },
       {
-        "option": "Hemiarthroplasty",
-        "bool": true
+        "option": "K-wire fixation",
+        "bool": false
       },
       {
         "option": "Intramedullary nailing",
         "bool": false
+      },
+      {
+        "option": "Hemiarthroplasty",
+        "bool": true
       },
       {
         "option": "Dynamic hip screw",
@@ -3186,12 +3213,20 @@
     ]
   },
   {
-    "id": 118,
+    "id": 119,
     "info": "4th-year/orthopedics/2023",
     "question": "Two people, Mr. A and Mr. B, have retired. After retirement, Mr. A continues to engage in charity work, reads up, and remains social. Mr. B, on the other hand, stays at home with limited social interaction. How will this lifestyle benefit Mr. A?",
     "answers": [
       {
         "option": "He will have more fame",
+        "bool": false
+      },
+      {
+        "option": "He will have a lesser tendency to develop neuropsychological disturbances",
+        "bool": true
+      },
+      {
+        "option": "He will live a happy life",
         "bool": false
       },
       {
@@ -3201,19 +3236,11 @@
       {
         "option": "He will have more social networking",
         "bool": false
-      },
-      {
-        "option": "He will live a happy life",
-        "bool": false
-      },
-      {
-        "option": "He will have a lesser tendency to develop neuropsychological disturbances",
-        "bool": true
       }
     ]
   },
   {
-    "id": 119,
+    "id": 120,
     "info": "4th-year/orthopedics/2023",
     "question": "A 20-year-old boy presents to the orthopedic clinic with back pain. On examination, he has fixed deformity of the cervical, dorsal, and lumbar spine. X-ray shows sclerosis of the iliosacral joint. His ESR and CRP are normal. Rheumatoid factor is found to be negative while HLA-B27 is positive. What is the most likely diagnosis?",
     "answers": [
@@ -3222,11 +3249,11 @@
         "bool": false
       },
       {
-        "option": "Ankylosing spondylitis",
-        "bool": true
+        "option": "Spondyloepiphyseal dysplasia",
+        "bool": false
       },
       {
-        "option": "Spondyloepiphyseal dysplasia",
+        "option": "Lumbar spondylosis",
         "bool": false
       },
       {
@@ -3234,31 +3261,31 @@
         "bool": false
       },
       {
-        "option": "Lumbar spondylosis",
-        "bool": false
+        "option": "Ankylosing spondylitis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 120,
+    "id": 121,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following drugs is used during an acute attack of gout but is neither an anti-inflammatory, an analgesic, nor a uricosuric drug?",
     "answers": [
-      {
-        "option": "Prednisolone",
-        "bool": false
-      },
-      {
-        "option": "Allopurinol",
-        "bool": false
-      },
       {
         "option": "Sulfinpyrazone",
         "bool": false
       },
       {
+        "option": "Prednisolone",
+        "bool": false
+      },
+      {
         "option": "Colchicine",
         "bool": true
+      },
+      {
+        "option": "Allopurinol",
+        "bool": false
       },
       {
         "option": "Naproxen",
@@ -3267,12 +3294,16 @@
     ]
   },
   {
-    "id": 121,
+    "id": 122,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is the drug of choice in acute gout?",
     "answers": [
       {
-        "option": "Allopurinol",
+        "option": "Oral colchicine",
+        "bool": true
+      },
+      {
+        "option": "Steroids",
         "bool": false
       },
       {
@@ -3280,26 +3311,26 @@
         "bool": false
       },
       {
-        "option": "Steroids",
+        "option": "Allopurinol",
         "bool": false
       },
       {
         "option": "Uricosuric agents",
         "bool": false
-      },
-      {
-        "option": "Oral colchicine",
-        "bool": true
       }
     ]
   },
   {
-    "id": 122,
+    "id": 123,
     "info": "4th-year/orthopedics/2023",
     "question": "In Northern areas of Pakistan, people die in their sleep due to inhalation of an indoor poisonous gas produced by a heater. Which gas is responsible for this?",
     "answers": [
       {
-        "option": "Radon",
+        "option": "Sulfur dioxide",
+        "bool": false
+      },
+      {
+        "option": "Ozone",
         "bool": false
       },
       {
@@ -3311,17 +3342,13 @@
         "bool": false
       },
       {
-        "option": "Ozone",
-        "bool": false
-      },
-      {
-        "option": "Sulfur dioxide",
+        "option": "Radon",
         "bool": false
       }
     ]
   },
   {
-    "id": 123,
+    "id": 124,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following structures is responsible for regulating proximal limb outgrowth by secreting fibroblast growth factors to induce the limb mesenchyme during embryogenesis?",
     "answers": [
@@ -3338,17 +3365,17 @@
         "bool": false
       },
       {
-        "option": "Proximal ectodermal ridge",
-        "bool": false
-      },
-      {
         "option": "Apical ectodermal ridge",
         "bool": true
+      },
+      {
+        "option": "Proximal ectodermal ridge",
+        "bool": false
       }
     ]
   },
   {
-    "id": 124,
+    "id": 125,
     "info": "4th-year/orthopedics/2023",
     "question": "A child had hepatosplenomegaly, anemia, and thick, sclerotic bones with flat, deformed metaphyses. He was diagnosed with osteopetrosis. The function of which of the following cells is impaired in osteopetrosis?",
     "answers": [
@@ -3361,12 +3388,12 @@
         "bool": false
       },
       {
-        "option": "Chondroblasts",
-        "bool": false
-      },
-      {
         "option": "Osteoclasts",
         "bool": true
+      },
+      {
+        "option": "Chondroblasts",
+        "bool": false
       },
       {
         "option": "Osteoblasts",
@@ -3375,14 +3402,10 @@
     ]
   },
   {
-    "id": 125,
+    "id": 126,
     "info": "4th-year/orthopedics/2023",
     "question": "A child has hepatosplenomegaly, anemia, multiple fractures, and cranial nerve deficits. Radiography reveals thick, sclerotic bones with flat, deformed metaphyses. What is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Osteomyelitis",
-        "bool": false
-      },
       {
         "option": "Osteopetrosis",
         "bool": true
@@ -3396,34 +3419,11 @@
         "bool": false
       },
       {
+        "option": "Osteomyelitis",
+        "bool": false
+      },
+      {
         "option": "Rickets",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 126,
-    "info": "4th-year/orthopedics/2023",
-    "question": "A 23-year-old boy has increasing eye pain and decreased vision, which worsens upon sunlight exposure. History reveals the presence of low back pain for the past 3 years. Which of the following systemic diseases must be looked for in this patient?",
-    "answers": [
-      {
-        "option": "Multiple sclerosis",
-        "bool": false
-      },
-      {
-        "option": "Sjogren syndrome",
-        "bool": false
-      },
-      {
-        "option": "Rheumatoid arthritis",
-        "bool": false
-      },
-      {
-        "option": "Ankylosing spondylitis",
-        "bool": true
-      },
-      {
-        "option": "Systemic lupus erythematosus",
         "bool": false
       }
     ]
@@ -3431,18 +3431,41 @@
   {
     "id": 127,
     "info": "4th-year/orthopedics/2023",
-    "question": "A 25-year-old man presents to the clinic with complaints of arthritis and morning stiffness of multiple small joints of the hands. He also reports a history of intermittent attacks of diarrhea for 6 months. What is the most likely diagnosis?",
+    "question": "A 23-year-old boy has increasing eye pain and decreased vision, which worsens upon sunlight exposure. History reveals the presence of low back pain for the past 3 years. Which of the following systemic diseases must be looked for in this patient?",
     "answers": [
       {
-        "option": "Reiter's syndrome",
+        "option": "Ankylosing spondylitis",
+        "bool": true
+      },
+      {
+        "option": "Systemic lupus erythematosus",
+        "bool": false
+      },
+      {
+        "option": "Sjogren syndrome",
+        "bool": false
+      },
+      {
+        "option": "Multiple sclerosis",
         "bool": false
       },
       {
         "option": "Rheumatoid arthritis",
         "bool": false
-      },
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "info": "4th-year/orthopedics/2023",
+    "question": "A 25-year-old man presents to the clinic with complaints of arthritis and morning stiffness of multiple small joints of the hands. He also reports a history of intermittent attacks of diarrhea for 6 months. What is the most likely diagnosis?",
+    "answers": [
       {
         "option": "Intestinal tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
         "bool": false
       },
       {
@@ -3452,11 +3475,15 @@
       {
         "option": "Osteoarthritis",
         "bool": false
+      },
+      {
+        "option": "Reiter's syndrome",
+        "bool": false
       }
     ]
   },
   {
-    "id": 128,
+    "id": 129,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is a natural cause of pollution?",
     "answers": [
@@ -3469,36 +3496,24 @@
         "bool": false
       },
       {
+        "option": "Urbanization",
+        "bool": false
+      },
+      {
         "option": "Industrial waste",
         "bool": false
       },
       {
         "option": "Biomagnification",
         "bool": true
-      },
-      {
-        "option": "Urbanization",
-        "bool": false
       }
     ]
   },
   {
-    "id": 129,
+    "id": 130,
     "info": "4th-year/orthopedics/2023",
     "question": "A middle-aged man presents to the clinic with joint pain, urethritis, and conjunctivitis. He has also developed a calcaneal spur. What is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Reiter's disease",
-        "bool": true
-      },
-      {
-        "option": "Osteoarthritis",
-        "bool": false
-      },
-      {
-        "option": "Multiple sclerosis",
-        "bool": false
-      },
       {
         "option": "Osteomyelitis",
         "bool": false
@@ -3506,22 +3521,26 @@
       {
         "option": "Septic arthritis",
         "bool": false
+      },
+      {
+        "option": "Reiter's disease",
+        "bool": true
+      },
+      {
+        "option": "Multiple sclerosis",
+        "bool": false
+      },
+      {
+        "option": "Osteoarthritis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 130,
+    "id": 131,
     "info": "4th-year/orthopedics/2023",
     "question": "What is the branch of medicine that deals with the study of the harmful effects of chemical and physical agents called?",
     "answers": [
-      {
-        "option": "Occupational hygiene",
-        "bool": false
-      },
-      {
-        "option": "Immunology",
-        "bool": false
-      },
       {
         "option": "Ergonomics",
         "bool": false
@@ -3531,19 +3550,35 @@
         "bool": true
       },
       {
+        "option": "Immunology",
+        "bool": false
+      },
+      {
         "option": "Parasitology",
+        "bool": false
+      },
+      {
+        "option": "Occupational hygiene",
         "bool": false
       }
     ]
   },
   {
-    "id": 131,
+    "id": 132,
     "info": "4th-year/orthopedics/2023",
     "question": "Parathyroid hormone has a role in the synthesis of active vitamin D3. Which of the following enzymes is activated by the parathyroid hormone?",
     "answers": [
       {
+        "option": "24-alpha hydroxylase",
+        "bool": false
+      },
+      {
         "option": "1-alpha hydroxylase",
         "bool": true
+      },
+      {
+        "option": "18-alpha hydroxylase",
+        "bool": false
       },
       {
         "option": "17-alpha hydroxylase",
@@ -3552,37 +3587,29 @@
       {
         "option": "25-alpha hydroxylase",
         "bool": false
-      },
-      {
-        "option": "24-alpha hydroxylase",
-        "bool": false
-      },
-      {
-        "option": "18-alpha hydroxylase",
-        "bool": false
       }
     ]
   },
   {
-    "id": 132,
+    "id": 133,
     "info": "4th-year/orthopedics/2023",
     "question": "What is the most appropriate management for a femoral shaft fracture in a 1-year-old child?",
     "answers": [
-      {
-        "option": "Full leg cast",
-        "bool": false
-      },
-      {
-        "option": "Axial traction",
-        "bool": false
-      },
       {
         "option": "Hip spica",
         "bool": false
       },
       {
+        "option": "Full leg cast",
+        "bool": false
+      },
+      {
         "option": "Gallows traction",
         "bool": true
+      },
+      {
+        "option": "Axial traction",
+        "bool": false
       },
       {
         "option": "Intramedullary nailing",
@@ -3591,22 +3618,10 @@
     ]
   },
   {
-    "id": 133,
+    "id": 134,
     "info": "4th-year/orthopedics/2023",
     "question": "Where is osteosarcoma most commonly found?",
     "answers": [
-      {
-        "option": "Around the vertebrae",
-        "bool": false
-      },
-      {
-        "option": "Around the knee",
-        "bool": true
-      },
-      {
-        "option": "Around the ankle",
-        "bool": false
-      },
       {
         "option": "Around the elbow",
         "bool": false
@@ -3614,11 +3629,23 @@
       {
         "option": "Around the wrist",
         "bool": false
+      },
+      {
+        "option": "Around the ankle",
+        "bool": false
+      },
+      {
+        "option": "Around the knee",
+        "bool": true
+      },
+      {
+        "option": "Around the vertebrae",
+        "bool": false
       }
     ]
   },
   {
-    "id": 134,
+    "id": 135,
     "info": "4th-year/orthopedics/2023",
     "question": "An athlete is training for the Olympics with his trainer. What must the trainer keep in mind at all times to ensure optimal health of the athlete?",
     "answers": [
@@ -3627,30 +3654,30 @@
         "bool": false
       },
       {
-        "option": "Avoid excessive fluids",
-        "bool": false
-      },
-      {
         "option": "Avoid hypotonic fluids",
         "bool": false
       },
       {
-        "option": "Avoid dietary fiber",
+        "option": "Avoid excessive fluids",
         "bool": false
       },
       {
         "option": "Avoid dehydration",
         "bool": true
+      },
+      {
+        "option": "Avoid dietary fiber",
+        "bool": false
       }
     ]
   },
   {
-    "id": 135,
+    "id": 136,
     "info": "4th-year/orthopedics/2023",
     "question": "A 45-year-old woman presents to the outpatient department with a history of 2 episodes of acute gout in the past 7 months. She currently has hyperuricemia for which chronic gout therapy needs to be started. Which of the following drugs would decrease uric acid production?",
     "answers": [
       {
-        "option": "Probenecid",
+        "option": "Hydroxychloroquine",
         "bool": false
       },
       {
@@ -3662,38 +3689,11 @@
         "bool": false
       },
       {
-        "option": "Hydroxychloroquine",
-        "bool": false
-      },
-      {
         "option": "Aspirin",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 136,
-    "info": "4th-year/orthopedics/2023",
-    "question": "What is the most appropriate management for fractures of the diaphysis of femur?",
-    "answers": [
-      {
-        "option": "K-wires",
-        "bool": false
       },
       {
-        "option": "External fixator",
-        "bool": false
-      },
-      {
-        "option": "Intramedullary nailing",
-        "bool": true
-      },
-      {
-        "option": "Dynamic hip screw",
-        "bool": false
-      },
-      {
-        "option": "Plates and screws",
+        "option": "Probenecid",
         "bool": false
       }
     ]
@@ -3701,8 +3701,43 @@
   {
     "id": 137,
     "info": "4th-year/orthopedics/2023",
+    "question": "What is the most appropriate management for fractures of the diaphysis of femur?",
+    "answers": [
+      {
+        "option": "Intramedullary nailing",
+        "bool": true
+      },
+      {
+        "option": "External fixator",
+        "bool": false
+      },
+      {
+        "option": "Plates and screws",
+        "bool": false
+      },
+      {
+        "option": "K-wires",
+        "bool": false
+      },
+      {
+        "option": "Dynamic hip screw",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "info": "4th-year/orthopedics/2023",
     "question": "What is the most appropriate surgical management for severe knee osteoarthritis in an elderly patient?",
     "answers": [
+      {
+        "option": "Cruciate reconstruction",
+        "bool": false
+      },
+      {
+        "option": "Arthrodesis",
+        "bool": false
+      },
       {
         "option": "Total joint replacement",
         "bool": true
@@ -3712,28 +3747,16 @@
         "bool": false
       },
       {
-        "option": "Arthrodesis",
-        "bool": false
-      },
-      {
-        "option": "Cruciate reconstruction",
-        "bool": false
-      },
-      {
         "option": "Osteotomy",
         "bool": false
       }
     ]
   },
   {
-    "id": 138,
+    "id": 139,
     "info": "4th-year/orthopedics/2023",
     "question": "A surgeon finds a mass in the diaphysis of a young child. Which radiological feature will favor the diagnosis of a malignant tumor over a benign one?",
     "answers": [
-      {
-        "option": "Well-defined margins",
-        "bool": false
-      },
       {
         "option": "Lytic lesion",
         "bool": false
@@ -3743,28 +3766,24 @@
         "bool": false
       },
       {
-        "option": "Onion-skin periosteal reaction",
-        "bool": true
-      },
-      {
         "option": "Slow growth",
         "bool": false
+      },
+      {
+        "option": "Well-defined margins",
+        "bool": false
+      },
+      {
+        "option": "Onion-skin periosteal reaction",
+        "bool": true
       }
     ]
   },
   {
-    "id": 139,
+    "id": 140,
     "info": "4th-year/orthopedics/2023",
     "question": "A 71-year-old man has experienced aching pain in the right knee, lower back, right distal fifth finger, and neck over the past 10 years. He notices that the joints feel slightly stiff in the morning, but this passes quickly. The pain is worse toward the end of the day. On physical examination, there is no joint swelling, warmth, or deformity. Some joint crepitus is audible on moving the knee. What is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Pseudogout",
-        "bool": false
-      },
-      {
-        "option": "Ankylosing spondylitis",
-        "bool": false
-      },
       {
         "option": "Multiple myeloma",
         "bool": false
@@ -3774,19 +3793,27 @@
         "bool": false
       },
       {
+        "option": "Ankylosing spondylitis",
+        "bool": false
+      },
+      {
         "option": "Osteoarthritis",
         "bool": true
+      },
+      {
+        "option": "Pseudogout",
+        "bool": false
       }
     ]
   },
   {
-    "id": 140,
+    "id": 141,
     "info": "4th-year/orthopedics/2023",
     "question": "A 13-year-old boy who was previously healthy has had pain in his right leg for the past month. There is no history of trauma or recent illness. A radiograph of the right leg shows a 6-cm expansile mass in the diaphyseal region of the right lower femur that extends into the soft tissue and is covered by layers of reactive bone. A biopsy of the mass is done, and microscopic examination shows sheets of closely packed, primitive cells with small, uniform nuclei and only scant cytoplasm. Karyotypic analysis of the tumor cells shows a t(11:22) translocation. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Osteosarcoma",
-        "bool": false
+        "option": "Ewing sarcoma",
+        "bool": true
       },
       {
         "option": "Chondrosarcoma",
@@ -3797,8 +3824,8 @@
         "bool": false
       },
       {
-        "option": "Ewing sarcoma",
-        "bool": true
+        "option": "Osteosarcoma",
+        "bool": false
       },
       {
         "option": "Metastatic carcinoma",
@@ -3807,16 +3834,12 @@
     ]
   },
   {
-    "id": 141,
+    "id": 142,
     "info": "4th-year/orthopedics/2023",
     "question": "A lady presents to the outpatient department with pain in multiple joints and a rash over her eyelids and periorbital area. Anti-Mi2 antibody is found to be positive. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Dermatomyositis",
-        "bool": true
-      },
-      {
-        "option": "Becker muscular dystrophy",
+        "option": "Duchenne muscular dystrophy",
         "bool": false
       },
       {
@@ -3824,17 +3847,21 @@
         "bool": false
       },
       {
-        "option": "Duchenne muscular dystrophy",
+        "option": "Polymyositis",
         "bool": false
       },
       {
-        "option": "Polymyositis",
+        "option": "Becker muscular dystrophy",
         "bool": false
+      },
+      {
+        "option": "Dermatomyositis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 142,
+    "id": 143,
     "info": "4th-year/orthopedics/2023",
     "question": "A 9-year-old boy has leg pain and difficulty in walking. There is no history of fever or trauma. What is the diagnosis?",
     "answers": [
@@ -3843,12 +3870,12 @@
         "bool": false
       },
       {
-        "option": "Legg-Calve-Perthes disease",
-        "bool": true
-      },
-      {
         "option": "Slipped capital femoral epiphysis",
         "bool": false
+      },
+      {
+        "option": "Legg-Calve-Perthes disease",
+        "bool": true
       },
       {
         "option": "Meniscal tear",
@@ -3861,16 +3888,12 @@
     ]
   },
   {
-    "id": 143,
+    "id": 144,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following is the main mechanism for the anti-inflammatory action of aspirin?",
     "answers": [
       {
-        "option": "Reversible inhibition of cyclooxygenase-2",
-        "bool": false
-      },
-      {
-        "option": "Irreversible inhibition of cyclooxygenase-1",
+        "option": "Reversible inhibition of cyclooxygenase-1",
         "bool": false
       },
       {
@@ -3878,22 +3901,34 @@
         "bool": false
       },
       {
-        "option": "Reversible inhibition of cyclooxygenase-1",
+        "option": "Irreversible inhibition of cyclooxygenase-1",
         "bool": false
       },
       {
         "option": "Irreversible inhibition of both cyclooxygenases",
         "bool": true
+      },
+      {
+        "option": "Reversible inhibition of cyclooxygenase-2",
+        "bool": false
       }
     ]
   },
   {
-    "id": 144,
+    "id": 145,
     "info": "4th-year/orthopedics/2023",
     "question": "What is the mechanism of action of aspirin in causing bronchospasm?",
     "answers": [
       {
+        "option": "Drug-mediated hypersensitivity on H2 receptors in bronchial smooth muscle",
+        "bool": false
+      },
+      {
         "option": "Drug-mediated hypersensitivity on H1 receptors in bronchial smooth muscles",
+        "bool": false
+      },
+      {
+        "option": "Drug-mediated hypersensitivity on M receptors in bronchial smooth muscle",
         "bool": false
       },
       {
@@ -3903,28 +3938,20 @@
       {
         "option": "Inhibition of endogenous leukotrienes",
         "bool": false
-      },
-      {
-        "option": "Drug-mediated hypersensitivity on M receptors in bronchial smooth muscle",
-        "bool": false
-      },
-      {
-        "option": "Drug-mediated hypersensitivity on H2 receptors in bronchial smooth muscle",
-        "bool": false
       }
     ]
   },
   {
-    "id": 145,
+    "id": 146,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following statements is true about the action of aspirin?",
     "answers": [
       {
-        "option": "Reversible inhibition of COX-1",
+        "option": "Reversible inhibition of platelet function",
         "bool": false
       },
       {
-        "option": "Irreversible inhibition of COX-3",
+        "option": "Reversible inhibition of COX-1",
         "bool": false
       },
       {
@@ -3932,7 +3959,7 @@
         "bool": true
       },
       {
-        "option": "Reversible inhibition of platelet function",
+        "option": "Irreversible inhibition of COX-3",
         "bool": false
       },
       {
@@ -3942,7 +3969,7 @@
     ]
   },
   {
-    "id": 146,
+    "id": 147,
     "info": "4th-year/orthopedics/2023",
     "question": "In the absence of parathyroid hormone receptor binding on osteoclasts, which factor produced by osteoblasts binds to osteoclast precursor cells and promotes their differentiation into mature osteoclasts?",
     "answers": [
@@ -3955,42 +3982,15 @@
         "bool": false
       },
       {
-        "option": "Osteoprotegerin",
-        "bool": false
-      },
-      {
-        "option": "NF-\u03baB",
-        "bool": false
-      },
-      {
         "option": "Cytokines",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 147,
-    "info": "4th-year/orthopedics/2023",
-    "question": "Steroids can lead to which of the following?",
-    "answers": [
+      },
       {
-        "option": "Thickened, dense bones",
+        "option": "NF-κB",
         "bool": false
       },
       {
-        "option": "Premature epiphyseal closure",
-        "bool": false
-      },
-      {
-        "option": "Brown tumors",
-        "bool": false
-      },
-      {
-        "option": "Decreased bone density",
-        "bool": true
-      },
-      {
-        "option": "Calcifications in joints",
+        "option": "Osteoprotegerin",
         "bool": false
       }
     ]
@@ -3998,26 +3998,26 @@
   {
     "id": 148,
     "info": "4th-year/orthopedics/2023",
-    "question": "A middle-aged man presents to the outpatient department with complaints of burning micturition and joint pain. Culture shows the presence of gram-negative diplococci. What is the most likely causative organism?",
+    "question": "Steroids can lead to which of the following?",
     "answers": [
       {
-        "option": "Chlamydia trachomatis",
-        "bool": false
-      },
-      {
-        "option": "Treponema pallidum",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus aureus",
-        "bool": false
-      },
-      {
-        "option": "Neisseria gonorrhoeae",
+        "option": "Decreased bone density",
         "bool": true
       },
       {
-        "option": "Streptococcus pneumoniae",
+        "option": "Brown tumors",
+        "bool": false
+      },
+      {
+        "option": "Thickened, dense bones",
+        "bool": false
+      },
+      {
+        "option": "Calcifications in joints",
+        "bool": false
+      },
+      {
+        "option": "Premature epiphyseal closure",
         "bool": false
       }
     ]
@@ -4025,10 +4025,37 @@
   {
     "id": 149,
     "info": "4th-year/orthopedics/2023",
+    "question": "A middle-aged man presents to the outpatient department with complaints of burning micturition and joint pain. Culture shows the presence of gram-negative diplococci. What is the most likely causative organism?",
+    "answers": [
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": false
+      },
+      {
+        "option": "Neisseria gonorrhoeae",
+        "bool": true
+      },
+      {
+        "option": "Treponema pallidum",
+        "bool": false
+      },
+      {
+        "option": "Chlamydia trachomatis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "info": "4th-year/orthopedics/2023",
     "question": "A woman presents to the clinic with pain and tenderness in the lower back and a rash over the extensor surfaces of the body. What is the likely diagnosis?",
     "answers": [
       {
-        "option": "Lichen planus",
+        "option": "Rheumatoid arthritis",
         "bool": false
       },
       {
@@ -4036,21 +4063,21 @@
         "bool": true
       },
       {
-        "option": "Enteropathic arthritis",
-        "bool": false
-      },
-      {
         "option": "Osteoarthritis",
         "bool": false
       },
       {
-        "option": "Rheumatoid arthritis",
+        "option": "Lichen planus",
+        "bool": false
+      },
+      {
+        "option": "Enteropathic arthritis",
         "bool": false
       }
     ]
   },
   {
-    "id": 150,
+    "id": 151,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following organisms is most commonly responsible for causing osteomyelitis?",
     "answers": [
@@ -4059,11 +4086,11 @@
         "bool": true
       },
       {
-        "option": "Streptococcus pneumoniae",
+        "option": "Pseudomonas aeruginosa",
         "bool": false
       },
       {
-        "option": "Pseudomonas aeruginosa",
+        "option": "Staphylococcus epidermidis",
         "bool": false
       },
       {
@@ -4071,24 +4098,16 @@
         "bool": false
       },
       {
-        "option": "Staphylococcus epidermidis",
+        "option": "Streptococcus pneumoniae",
         "bool": false
       }
     ]
   },
   {
-    "id": 151,
+    "id": 152,
     "info": "4th-year/orthopedics/2023",
     "question": "Which of the following statements about Colles' fracture is true?",
     "answers": [
-      {
-        "option": "It is an intra-articular fracture",
-        "bool": false
-      },
-      {
-        "option": "Management is closed manipulation and casting",
-        "bool": true
-      },
       {
         "option": "Management is open reduction",
         "bool": false
@@ -4098,7 +4117,15 @@
         "bool": false
       },
       {
+        "option": "Management is closed manipulation and casting",
+        "bool": true
+      },
+      {
         "option": "It involves the proximal radius",
+        "bool": false
+      },
+      {
+        "option": "It is an intra-articular fracture",
         "bool": false
       }
     ]

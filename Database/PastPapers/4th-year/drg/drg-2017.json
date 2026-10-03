@@ -2,26 +2,26 @@
   {
     "id": 0,
     "info": "4th-year/drg/2017",
-    "question": "Which of the following is the oral treatment of scabies?",
+    "question": "What histopathology does bullous pemphigoid have?",
     "answers": [
       {
-        "option": "Ivermectin",
+        "option": "Subepidermal acantholytic",
+        "bool": false
+      },
+      {
+        "option": "Suprabasilar acantholytic",
+        "bool": false
+      },
+      {
+        "option": "Supraepidermal acantholytic",
+        "bool": false
+      },
+      {
+        "option": "Subepidermal nonacantholytic",
         "bool": true
       },
       {
-        "option": "Augmentin",
-        "bool": false
-      },
-      {
-        "option": "Acyclovir",
-        "bool": false
-      },
-      {
-        "option": "Fluconazole",
-        "bool": false
-      },
-      {
-        "option": "5% permethrin",
+        "option": "Subbasilar acantholytic",
         "bool": false
       }
     ]
@@ -29,26 +29,26 @@
   {
     "id": 1,
     "info": "4th-year/drg/2017",
-    "question": "Which of the following is the most common type of pemphigus?",
+    "question": "A 10-year-old boy presented to the clinic with a boggy, erythematous, and pus-filled swelling on scalp along with loss of hair. What is the probable diagnosis?",
     "answers": [
       {
-        "option": "Pemphigus foliaceus",
+        "option": "Carbuncle",
         "bool": false
       },
       {
-        "option": "Pemphigus vulgaris",
+        "option": "Squamous cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Tinea capitis",
+        "bool": false
+      },
+      {
+        "option": "Kerion",
         "bool": true
       },
       {
-        "option": "Paraneoplastic pemphigus",
-        "bool": false
-      },
-      {
-        "option": "Pemphigus erythematosus",
-        "bool": false
-      },
-      {
-        "option": "Pemphigus vegetans",
+        "option": "Folliculitis",
         "bool": false
       }
     ]
@@ -56,46 +56,15 @@
   {
     "id": 2,
     "info": "4th-year/drg/2017",
-    "question": "What is the most common symptom of scabies?",
-    "answers": [
-      {
-        "option": "Burning",
-        "bool": false
-      },
-      {
-        "option": "Rhinitis",
-        "bool": false
-      },
-      {
-        "option": "Itching",
-        "bool": true
-      },
-      {
-        "option": "Crusting",
-        "bool": false
-      },
-      {
-        "option": "Blistering",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "info": "4th-year/drg/2017",
     "question": "Which of the following bullous diseases has bullae that are the most susceptible to friction?",
     "answers": [
       {
         "option": "Pemphigus vulgaris",
-        "bool": false
+        "bool": true
       },
       {
         "option": "Dermatitis herpetiformis",
         "bool": false
-      },
-      {
-        "option": "Epidermolysis bullosa",
-        "bool": true
       },
       {
         "option": "None of these",
@@ -104,119 +73,69 @@
       {
         "option": "Bullous pemphigoid",
         "bool": false
+      },
+      {
+        "option": "Epidermolysis bullosa",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "4th-year/drg/2017",
+    "question": "Which of the following is the most common complication after constructing a stump?",
+    "answers": [
+      {
+        "option": "Contracture",
+        "bool": true
+      },
+      {
+        "option": "Hematoma",
+        "bool": false
+      },
+      {
+        "option": "Cellulitis",
+        "bool": false
+      },
+      {
+        "option": "Edema",
+        "bool": false
+      },
+      {
+        "option": "Phantom pain",
+        "bool": false
       }
     ]
   },
   {
     "id": 4,
     "info": "4th-year/drg/2017",
-    "question": "What test is used to diagnose allergic dermatitis?",
+    "question": "Which of the following is the oral treatment of scabies?",
     "answers": [
       {
-        "option": "Scrape test",
+        "option": "5% permethrin",
         "bool": false
       },
       {
-        "option": "Tampon dye test",
+        "option": "Fluconazole",
         "bool": false
       },
       {
-        "option": "Prick test",
+        "option": "Augmentin",
         "bool": false
       },
       {
-        "option": "Patch test",
+        "option": "Ivermectin",
         "bool": true
       },
       {
-        "option": "Fistula test",
+        "option": "Acyclovir",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "4th-year/drg/2017",
-    "question": "What is a topical treatment of allergic dermatitis?",
-    "answers": [
-      {
-        "option": "Imiquimod cream",
-        "bool": false
-      },
-      {
-        "option": "Fatty ointment",
-        "bool": false
-      },
-      {
-        "option": "Steroid cream",
-        "bool": true
-      },
-      {
-        "option": "Anti histamine cream",
-        "bool": false
-      },
-      {
-        "option": "Miconazole",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "info": "4th-year/drg/2017",
-    "question": "What is the most common psoriasis in children?",
-    "answers": [
-      {
-        "option": "Guttate",
-        "bool": true
-      },
-      {
-        "option": "Erythrodermic",
-        "bool": false
-      },
-      {
-        "option": "Plaque",
-        "bool": false
-      },
-      {
-        "option": "Inverse",
-        "bool": false
-      },
-      {
-        "option": "Pustular",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "info": "4th-year/drg/2017",
-    "question": "What is the rehabilitation team called?",
-    "answers": [
-      {
-        "option": "Physiatry team",
-        "bool": false
-      },
-      {
-        "option": "Physiotherapy team",
-        "bool": false
-      },
-      {
-        "option": "Psychotherapy team",
-        "bool": false
-      },
-      {
-        "option": "Multidisciplinary team",
-        "bool": true
-      },
-      {
-        "option": "Vocational training team",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
     "info": "4th-year/drg/2017",
     "question": "Target lesions are seen in following type of drug reactions?",
     "answers": [
@@ -229,21 +148,345 @@
         "bool": false
       },
       {
-        "option": "Toxic epidermal necrolysis",
-        "bool": false
-      },
-      {
         "option": "Erythrema multiforme",
         "bool": true
       },
       {
         "option": "Vasculitis",
         "bool": false
+      },
+      {
+        "option": "Toxic epidermal necrolysis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "4th-year/drg/2017",
+    "question": "What is the most common symptom of scabies?",
+    "answers": [
+      {
+        "option": "Blistering",
+        "bool": false
+      },
+      {
+        "option": "Rhinitis",
+        "bool": false
+      },
+      {
+        "option": "Burning",
+        "bool": false
+      },
+      {
+        "option": "Crusting",
+        "bool": false
+      },
+      {
+        "option": "Itching",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "4th-year/drg/2017",
+    "question": "What test is used to diagnose allergic dermatitis?",
+    "answers": [
+      {
+        "option": "Prick test",
+        "bool": false
+      },
+      {
+        "option": "Scrape test",
+        "bool": false
+      },
+      {
+        "option": "Fistula test",
+        "bool": false
+      },
+      {
+        "option": "Patch test",
+        "bool": true
+      },
+      {
+        "option": "Tampon dye test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "4th-year/drg/2017",
+    "question": "What is a topical treatment of allergic dermatitis?",
+    "answers": [
+      {
+        "option": "Miconazole",
+        "bool": false
+      },
+      {
+        "option": "Anti histamine cream",
+        "bool": false
+      },
+      {
+        "option": "Steroid cream",
+        "bool": true
+      },
+      {
+        "option": "Imiquimod cream",
+        "bool": false
+      },
+      {
+        "option": "Fatty ointment",
+        "bool": false
       }
     ]
   },
   {
     "id": 9,
+    "info": "4th-year/drg/2017",
+    "question": "What is the most common psoriasis in children?",
+    "answers": [
+      {
+        "option": "Inverse",
+        "bool": false
+      },
+      {
+        "option": "Plaque",
+        "bool": false
+      },
+      {
+        "option": "Erythrodermic",
+        "bool": false
+      },
+      {
+        "option": "Pustular",
+        "bool": false
+      },
+      {
+        "option": "Guttate",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "4th-year/drg/2017",
+    "question": "What is the most invasive cancer of the skin?",
+    "answers": [
+      {
+        "option": "Adenocarcinoma",
+        "bool": false
+      },
+      {
+        "option": "Sebaceous gland carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Basal cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Melanoma",
+        "bool": true
+      },
+      {
+        "option": "Squamous cell carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "4th-year/drg/2017",
+    "question": "What is the rehabilitation team called?",
+    "answers": [
+      {
+        "option": "Psychotherapy team",
+        "bool": false
+      },
+      {
+        "option": "Multidisciplinary team",
+        "bool": true
+      },
+      {
+        "option": "Physiotherapy team",
+        "bool": false
+      },
+      {
+        "option": "Vocational training team",
+        "bool": false
+      },
+      {
+        "option": "Physiatry team",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "4th-year/drg/2017",
+    "question": "In DNA replication, what does the DnaA protein do?",
+    "answers": [
+      {
+        "option": "Polymerization of the leading strand",
+        "bool": false
+      },
+      {
+        "option": "Unwinding of the DNA double helix",
+        "bool": true
+      },
+      {
+        "option": "Forms disulfide bridges",
+        "bool": false
+      },
+      {
+        "option": "Polymerization of the Okazaki fragments",
+        "bool": false
+      },
+      {
+        "option": "Makes the phosphodiester bonds",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/drg/2017",
+    "question": "Which organ is responsible for cholesterol removal?",
+    "answers": [
+      {
+        "option": "Liver",
+        "bool": true
+      },
+      {
+        "option": "Jejunum",
+        "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Kidney",
+        "bool": false
+      },
+      {
+        "option": "Colon",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "4th-year/drg/2017",
+    "question": "What is the treatment for forehead lines?",
+    "answers": [
+      {
+        "option": "Botox",
+        "bool": true
+      },
+      {
+        "option": "Hyaluronic acid",
+        "bool": false
+      },
+      {
+        "option": "Steroid ointment",
+        "bool": false
+      },
+      {
+        "option": "Imiquimod",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "4th-year/drg/2017",
+    "question": "What is the treatment for crow's feet?",
+    "answers": [
+      {
+        "option": "Liposuction",
+        "bool": false
+      },
+      {
+        "option": "Steroids",
+        "bool": false
+      },
+      {
+        "option": "Plication of fascia",
+        "bool": false
+      },
+      {
+        "option": "Botox",
+        "bool": true
+      },
+      {
+        "option": "Hyaluronic acid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/drg/2017",
+    "question": "What is the treatment to change a double chin?",
+    "answers": [
+      {
+        "option": "Liposuction",
+        "bool": true
+      },
+      {
+        "option": "Septoplasty",
+        "bool": false
+      },
+      {
+        "option": "Face lift",
+        "bool": false
+      },
+      {
+        "option": "Rhinoplasty",
+        "bool": false
+      },
+      {
+        "option": "Plication of cervical fascia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "4th-year/drg/2017",
+    "question": "Familial hypercholesterolemia is due to mutation in what chromosome?",
+    "answers": [
+      {
+        "option": "19",
+        "bool": true
+      },
+      {
+        "option": "21",
+        "bool": false
+      },
+      {
+        "option": "13",
+        "bool": false
+      },
+      {
+        "option": "7",
+        "bool": false
+      },
+      {
+        "option": "18",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
     "info": "4th-year/drg/2017",
     "question": "Cleft lip and palate are associated with what anomaly?",
     "answers": [
@@ -270,298 +513,55 @@
     ]
   },
   {
-    "id": 10,
-    "info": "4th-year/drg/2017",
-    "question": "In DNA replication, what does the DnaA protein do?",
-    "answers": [
-      {
-        "option": "Polymerization of the leading strand",
-        "bool": false
-      },
-      {
-        "option": "Polymerization of the Okazaki fragments",
-        "bool": false
-      },
-      {
-        "option": "Forms disulfide bridges",
-        "bool": false
-      },
-      {
-        "option": "Unwinding of the DNA double helix",
-        "bool": true
-      },
-      {
-        "option": "Makes the phosphodiester bonds",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "info": "4th-year/drg/2017",
-    "question": "What is the causative agent for seborrheic dermatitis?",
-    "answers": [
-      {
-        "option": "Molluscum contagiosum",
-        "bool": false
-      },
-      {
-        "option": "Candida albicans",
-        "bool": false
-      },
-      {
-        "option": "Malassezia spp.",
-        "bool": true
-      },
-      {
-        "option": "Propionibacterium acnes",
-        "bool": false
-      },
-      {
-        "option": "Papillomavirus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "info": "4th-year/drg/2017",
-    "question": "Which organ is responsible for cholesterol removal?",
-    "answers": [
-      {
-        "option": "Spleen",
-        "bool": false
-      },
-      {
-        "option": "Colon",
-        "bool": false
-      },
-      {
-        "option": "Jejunum",
-        "bool": false
-      },
-      {
-        "option": "Kidney",
-        "bool": false
-      },
-      {
-        "option": "Liver",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "info": "4th-year/drg/2017",
-    "question": "A child is brought to clinic with presenting complaint of golden brown crusted lesions on her face. What is the likely diagnosis?",
-    "answers": [
-      {
-        "option": "Furuncle",
-        "bool": false
-      },
-      {
-        "option": "Impetigo",
-        "bool": true
-      },
-      {
-        "option": "Folliculitis",
-        "bool": false
-      },
-      {
-        "option": "Acne conglobata",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcal scalded skin syndrome",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "info": "4th-year/drg/2017",
-    "question": "Which of the following drugs can be taken orally for the treatment of psoriasis?",
-    "answers": [
-      {
-        "option": "Coal tar",
-        "bool": false
-      },
-      {
-        "option": "Methotrexate",
-        "bool": true
-      },
-      {
-        "option": "Salicylic acid",
-        "bool": false
-      },
-      {
-        "option": "Tazarotene",
-        "bool": false
-      },
-      {
-        "option": "Etanercept",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "info": "4th-year/drg/2017",
-    "question": "Which of the following is a feature of the autosomal recessive inheritance pattern?",
-    "answers": [
-      {
-        "option": "Clinically expressed only in the homozygous state",
-        "bool": true
-      },
-      {
-        "option": "Clinically expressed only in the heterozygous state",
-        "bool": false
-      },
-      {
-        "option": "Females are always affected",
-        "bool": false
-      },
-      {
-        "option": "Consanguinity decreases the risk",
-        "bool": false
-      },
-      {
-        "option": "Males are always affected",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "info": "4th-year/drg/2017",
-    "question": "A female patient presents to the outpatient department with a complaint of eczematous oozing lesions on both ears 2 days after attending a wedding. What will be the appropriate treatment of her condition?",
-    "answers": [
-      {
-        "option": "Oral glucocorticoids",
-        "bool": false
-      },
-      {
-        "option": "Phototherapy",
-        "bool": false
-      },
-      {
-        "option": "Oral calcineurin inhibitors",
-        "bool": false
-      },
-      {
-        "option": "Oral glucocorticoids and phototherapy",
-        "bool": false
-      },
-      {
-        "option": "Emollients",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "info": "4th-year/drg/2017",
-    "question": "A female patient presents to the outpatient department with a complaint of eczematous oozing lesions on both ears 2 days after attending a wedding. Which of the following investigations will be done?",
-    "answers": [
-      {
-        "option": "Patch test",
-        "bool": true
-      },
-      {
-        "option": "Total immunoglobulin E (IgE) test",
-        "bool": false
-      },
-      {
-        "option": "Skin prick tests",
-        "bool": false
-      },
-      {
-        "option": "Skin biopsy",
-        "bool": false
-      },
-      {
-        "option": "Specific immunoglobulin E (IgE) test",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "info": "4th-year/drg/2017",
-    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus-draining sinuses. Wood's light shows no fluorescence. What will be the most probable diagnosis?",
-    "answers": [
-      {
-        "option": "Discoid lupus erythematosus",
-        "bool": false
-      },
-      {
-        "option": "Alopecia areata",
-        "bool": false
-      },
-      {
-        "option": "Kerion",
-        "bool": true
-      },
-      {
-        "option": "Tinea corporis",
-        "bool": false
-      },
-      {
-        "option": "Androgenetic alopecia",
-        "bool": false
-      }
-    ]
-  },
-  {
     "id": 19,
     "info": "4th-year/drg/2017",
-    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus-draining sinuses. Wood's light shows no fluorescence. What is the most common differential diagnosis?",
+    "question": "Which of the following drugs is most useful for treating candidiasis?",
     "answers": [
       {
-        "option": "Androgenetic alopecia",
-        "bool": false
-      },
-      {
-        "option": "Alopecia totalis",
-        "bool": false
-      },
-      {
-        "option": "Hypothyroidism",
-        "bool": false
-      },
-      {
-        "option": "Alopecia universalis",
-        "bool": false
-      },
-      {
-        "option": "Alopecia areata",
+        "option": "Fluconazole",
         "bool": true
+      },
+      {
+        "option": "Amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Pyrazinamide",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid",
+        "bool": false
       }
     ]
   },
   {
     "id": 20,
     "info": "4th-year/drg/2017",
-    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus draining sinuses. Wood's light shows no fluorescence. Which of the following organisms is most likely responsible for his condition?",
+    "question": "Which of the following best describes the term rehabilitation?",
     "answers": [
       {
-        "option": "Staphylococcus aureus",
-        "bool": false
-      },
-      {
-        "option": "Herpes simplex virus",
-        "bool": false
-      },
-      {
-        "option": "Trichophyton schoenleinii",
-        "bool": false
-      },
-      {
-        "option": "Trichophyton tonsurans",
+        "option": "Combined use of all the available measures for preparing and training the person to achieve his highest level of functional ability",
         "bool": true
       },
       {
-        "option": "Microsporum canis",
+        "option": "To halt or prevent the progression of a disease process from the state of being impaired to the state of being handicapped",
+        "bool": false
+      },
+      {
+        "option": "To halt or prevent the progression of a disease process before it has occurred",
+        "bool": false
+      },
+      {
+        "option": "To halt or prevent the progression of a disease process after it has occurred",
+        "bool": false
+      },
+      {
+        "option": "To prevent the emergence of the disease or the development of risk factors",
         "bool": false
       }
     ]
@@ -569,176 +569,68 @@
   {
     "id": 21,
     "info": "4th-year/drg/2017",
-    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus-draining sinuses. Wood's light shows no fluorescence. What investigation will be useful to diagnose his condition?",
+    "question": "Which of the following is the most common type of pemphigus?",
     "answers": [
       {
-        "option": "X-ray",
-        "bool": false
-      },
-      {
-        "option": "Patch test",
-        "bool": false
-      },
-      {
-        "option": "Immunoglobulin E (IgE) test",
-        "bool": false
-      },
-      {
-        "option": "Radioallergosorbent test",
-        "bool": false
-      },
-      {
-        "option": "Microscopic study of hair",
+        "option": "Pemphigus vulgaris",
         "bool": true
+      },
+      {
+        "option": "Pemphigus foliaceus",
+        "bool": false
+      },
+      {
+        "option": "Pemphigus erythematosus",
+        "bool": false
+      },
+      {
+        "option": "Pemphigus vegetans",
+        "bool": false
+      },
+      {
+        "option": "Paraneoplastic pemphigus",
+        "bool": false
       }
     ]
   },
   {
     "id": 22,
     "info": "4th-year/drg/2017",
-    "question": "Decreased low-density lipoproteins (LDL) receptors are caused due to a mutation in which of the following chromosomes?",
+    "question": "What is a device that is designed to replace a missing part of the body or to make a part of the body work better?",
     "answers": [
       {
-        "option": "Chromosome 9",
+        "option": "Stump",
         "bool": false
       },
       {
-        "option": "Chromosome 8",
+        "option": "Orthosis",
         "bool": false
       },
       {
-        "option": "Chromosome 21",
+        "option": "Harness",
         "bool": false
       },
       {
-        "option": "Chromosome 19",
+        "option": "Sling",
+        "bool": false
+      },
+      {
+        "option": "Prosthesis",
         "bool": true
-      },
-      {
-        "option": "Chromosome 7",
-        "bool": false
       }
     ]
   },
   {
     "id": 23,
     "info": "4th-year/drg/2017",
-    "question": "A female patient presents to the clinic with the complaint of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. Which of the following is the most likely organism responsible for her condition?",
-    "answers": [
-      {
-        "option": "Trichomonas vaginalis",
-        "bool": false
-      },
-      {
-        "option": "Candida albicans",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus aureus",
-        "bool": true
-      },
-      {
-        "option": "Herpes simplex virus",
-        "bool": false
-      },
-      {
-        "option": "Escherichia coli",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "info": "4th-year/drg/2017",
-    "question": "A female patient presents to the clinic with the complaint of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. What is the most appropriate differential diagnosis?",
-    "answers": [
-      {
-        "option": "Pelvic inflammatory disease",
-        "bool": false
-      },
-      {
-        "option": "Candidiasis",
-        "bool": false
-      },
-      {
-        "option": "Urinary tract infection",
-        "bool": false
-      },
-      {
-        "option": "Septic shock",
-        "bool": true
-      },
-      {
-        "option": "Trichomoniasis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "info": "4th-year/drg/2017",
-    "question": "A female patient presents to the clinic with the complaint of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. Which of the following is not a complication of her condition?",
-    "answers": [
-      {
-        "option": "Desquamation",
-        "bool": true
-      },
-      {
-        "option": "Death",
-        "bool": false
-      },
-      {
-        "option": "Acute respiratory distress syndrome",
-        "bool": false
-      },
-      {
-        "option": "Liver failure",
-        "bool": false
-      },
-      {
-        "option": "Renal failure",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "info": "4th-year/drg/2017",
-    "question": "A female patient presents to the clinic with complaints of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. What will be the appropriate treatment for this condition?",
-    "answers": [
-      {
-        "option": "Broad spectrum antibiotics",
-        "bool": false
-      },
-      {
-        "option": "IV antipyretics",
-        "bool": false
-      },
-      {
-        "option": "Antibiotics, IV fluid, and electrolytes",
-        "bool": true
-      },
-      {
-        "option": "Narrow spectrum antibiotics",
-        "bool": false
-      },
-      {
-        "option": "IV fluid and oral antipyretics",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "info": "4th-year/drg/2017",
     "question": "Which of the following is the best surgical treatment for eye bags?",
     "answers": [
       {
-        "option": "Sclerosing agents",
-        "bool": false
+        "option": "Resection of fat",
+        "bool": true
       },
       {
-        "option": "Resection of skin",
+        "option": "Injectable fillers",
         "bool": false
       },
       {
@@ -746,20 +638,24 @@
         "bool": false
       },
       {
-        "option": "Injectable fillers",
+        "option": "Sclerosing agents",
         "bool": false
       },
       {
-        "option": "Resection of fat",
-        "bool": true
+        "option": "Resection of skin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 28,
+    "id": 24,
     "info": "4th-year/drg/2017",
     "question": "A 4-year-old girl is brought to the dermatology clinic with a complaint of a crusted lesion over her face for the past 2 days. On examination, a honey-colored crusted lesion with an erythematous base is observed over the nose and cheeks. What is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Impetigo",
+        "bool": true
+      },
       {
         "option": "Tinea faciale",
         "bool": false
@@ -775,103 +671,14 @@
       {
         "option": "Dermatitis",
         "bool": false
-      },
-      {
-        "option": "Impetigo",
-        "bool": true
       }
     ]
   },
   {
-    "id": 29,
-    "info": "4th-year/drg/2017",
-    "question": "What is the treatment to change a double chin?",
-    "answers": [
-      {
-        "option": "Liposuction",
-        "bool": true
-      },
-      {
-        "option": "Plication of cervical fascia",
-        "bool": false
-      },
-      {
-        "option": "Face lift",
-        "bool": false
-      },
-      {
-        "option": "Rhinoplasty",
-        "bool": false
-      },
-      {
-        "option": "Septoplasty",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "info": "4th-year/drg/2017",
-    "question": "What is the treatment for forehead lines?",
-    "answers": [
-      {
-        "option": "Botox",
-        "bool": true
-      },
-      {
-        "option": "Steroid ointment",
-        "bool": false
-      },
-      {
-        "option": "Imiquimod",
-        "bool": false
-      },
-      {
-        "option": "Hyaluronic acid",
-        "bool": false
-      },
-      {
-        "option": "Growth hormone",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "info": "4th-year/drg/2017",
-    "question": "What is the treatment for crow's feet?",
-    "answers": [
-      {
-        "option": "Liposuction",
-        "bool": false
-      },
-      {
-        "option": "Steroids",
-        "bool": false
-      },
-      {
-        "option": "Botox",
-        "bool": true
-      },
-      {
-        "option": "Plication of fascia",
-        "bool": false
-      },
-      {
-        "option": "Hyaluronic acid",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 32,
+    "id": 25,
     "info": "4th-year/drg/2017",
     "question": "What is the most appropriate definition of rehabilitation?",
     "answers": [
-      {
-        "option": "Field of medicine that deals with disabled and handicapped patients",
-        "bool": false
-      },
       {
         "option": "Field of medicine that aims to improve the quality of life",
         "bool": false
@@ -885,18 +692,22 @@
         "bool": true
       },
       {
+        "option": "Field of medicine that deals with disabled and handicapped patients",
+        "bool": false
+      },
+      {
         "option": "Field of medicine that aims to provide basic healthcare facilities",
         "bool": false
       }
     ]
   },
   {
-    "id": 33,
+    "id": 26,
     "info": "4th-year/drg/2017",
     "question": "A patient after a cerebrovascular accident (CVA) starts developing collateral in his recovery phase. This is associated with which type of rehabilitation?",
     "answers": [
       {
-        "option": "Burn rehabilitation",
+        "option": "Medical rehabilitation",
         "bool": false
       },
       {
@@ -904,7 +715,7 @@
         "bool": false
       },
       {
-        "option": "Medical rehabilitation",
+        "option": "Physical rehabilitation",
         "bool": false
       },
       {
@@ -912,7 +723,196 @@
         "bool": true
       },
       {
-        "option": "Physical rehabilitation",
+        "option": "Burn rehabilitation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "4th-year/drg/2017",
+    "question": "What is the causative agent for seborrheic dermatitis?",
+    "answers": [
+      {
+        "option": "Propionibacterium acnes",
+        "bool": false
+      },
+      {
+        "option": "Candida albicans",
+        "bool": false
+      },
+      {
+        "option": "Papillomavirus",
+        "bool": false
+      },
+      {
+        "option": "Molluscum contagiosum",
+        "bool": false
+      },
+      {
+        "option": "Malassezia spp.",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "4th-year/drg/2017",
+    "question": "A child is brought to clinic with presenting complaint of golden brown crusted lesions on her face. What is the likely diagnosis?",
+    "answers": [
+      {
+        "option": "Staphylococcal scalded skin syndrome",
+        "bool": false
+      },
+      {
+        "option": "Folliculitis",
+        "bool": false
+      },
+      {
+        "option": "Acne conglobata",
+        "bool": false
+      },
+      {
+        "option": "Impetigo",
+        "bool": true
+      },
+      {
+        "option": "Furuncle",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "4th-year/drg/2017",
+    "question": "Which of the following is a feature of the autosomal recessive inheritance pattern?",
+    "answers": [
+      {
+        "option": "Consanguinity decreases the risk",
+        "bool": false
+      },
+      {
+        "option": "Clinically expressed only in the heterozygous state",
+        "bool": false
+      },
+      {
+        "option": "Males are always affected",
+        "bool": false
+      },
+      {
+        "option": "Females are always affected",
+        "bool": false
+      },
+      {
+        "option": "Clinically expressed only in the homozygous state",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "4th-year/drg/2017",
+    "question": "Which of the following drugs can be taken orally for the treatment of psoriasis?",
+    "answers": [
+      {
+        "option": "Etanercept",
+        "bool": false
+      },
+      {
+        "option": "Tazarotene",
+        "bool": false
+      },
+      {
+        "option": "Coal tar",
+        "bool": false
+      },
+      {
+        "option": "Salicylic acid",
+        "bool": false
+      },
+      {
+        "option": "Methotrexate",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "4th-year/drg/2017",
+    "question": "A female patient presents to the clinic with the complaint of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. Which of the following is the most likely organism responsible for her condition?",
+    "answers": [
+      {
+        "option": "Staphylococcus aureus",
+        "bool": true
+      },
+      {
+        "option": "Candida albicans",
+        "bool": false
+      },
+      {
+        "option": "Trichomonas vaginalis",
+        "bool": false
+      },
+      {
+        "option": "Escherichia coli",
+        "bool": false
+      },
+      {
+        "option": "Herpes simplex virus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "4th-year/drg/2017",
+    "question": "A female patient presents to the clinic with the complaint of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. What is the most appropriate differential diagnosis?",
+    "answers": [
+      {
+        "option": "Septic shock",
+        "bool": true
+      },
+      {
+        "option": "Urinary tract infection",
+        "bool": false
+      },
+      {
+        "option": "Trichomoniasis",
+        "bool": false
+      },
+      {
+        "option": "Candidiasis",
+        "bool": false
+      },
+      {
+        "option": "Pelvic inflammatory disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "4th-year/drg/2017",
+    "question": "A female patient presents to the clinic with the complaint of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. Which of the following is not a complication of her condition?",
+    "answers": [
+      {
+        "option": "Desquamation",
+        "bool": true
+      },
+      {
+        "option": "Death",
+        "bool": false
+      },
+      {
+        "option": "Renal failure",
+        "bool": false
+      },
+      {
+        "option": "Acute respiratory distress syndrome",
+        "bool": false
+      },
+      {
+        "option": "Liver failure",
         "bool": false
       }
     ]
@@ -920,80 +920,80 @@
   {
     "id": 34,
     "info": "4th-year/drg/2017",
-    "question": "What is a device that is designed to replace a missing part of the body or to make a part of the body work better?",
+    "question": "A female patient presents to the clinic with complaints of high-grade fever, widespread rash, vaginal discomfort, oral ulcers, and increased heart rate. Her blood pressure is 70/50. What will be the appropriate treatment for this condition?",
     "answers": [
       {
-        "option": "Sling",
+        "option": "IV fluid and oral antipyretics",
         "bool": false
       },
       {
-        "option": "Orthosis",
+        "option": "IV antipyretics",
         "bool": false
       },
       {
-        "option": "Stump",
+        "option": "Narrow spectrum antibiotics",
         "bool": false
       },
       {
-        "option": "Prosthesis",
+        "option": "Broad spectrum antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Antibiotics, IV fluid, and electrolytes",
         "bool": true
-      },
-      {
-        "option": "Harness",
-        "bool": false
       }
     ]
   },
   {
     "id": 35,
     "info": "4th-year/drg/2017",
-    "question": "Which of the following is the most common complication after constructing a stump?",
+    "question": "A female patient presents to the outpatient department with a complaint of eczematous oozing lesions on both ears 2 days after attending a wedding. What will be the appropriate treatment of her condition?",
     "answers": [
       {
-        "option": "Edema",
+        "option": "Oral glucocorticoids",
         "bool": false
       },
       {
-        "option": "Cellulitis",
+        "option": "Oral calcineurin inhibitors",
         "bool": false
       },
       {
-        "option": "Phantom pain",
+        "option": "Oral glucocorticoids and phototherapy",
         "bool": false
       },
       {
-        "option": "Contracture",
+        "option": "Phototherapy",
+        "bool": false
+      },
+      {
+        "option": "Emollients",
         "bool": true
-      },
-      {
-        "option": "Hematoma",
-        "bool": false
       }
     ]
   },
   {
     "id": 36,
     "info": "4th-year/drg/2017",
-    "question": "Which of the following disorders causes bullae formation due to friction?",
+    "question": "A female patient presents to the outpatient department with a complaint of eczematous oozing lesions on both ears 2 days after attending a wedding. Which of the following investigations will be done?",
     "answers": [
       {
-        "option": "Lichen planus",
-        "bool": false
-      },
-      {
-        "option": "Epidermolysis bullosa",
+        "option": "Patch test",
         "bool": true
       },
       {
-        "option": "Eczema",
+        "option": "Specific immunoglobulin E (IgE) test",
         "bool": false
       },
       {
-        "option": "Bullous impetigo",
+        "option": "Skin biopsy",
         "bool": false
       },
       {
-        "option": "Psoriasis",
+        "option": "Skin prick tests",
+        "bool": false
+      },
+      {
+        "option": "Total immunoglobulin E (IgE) test",
         "bool": false
       }
     ]
@@ -1001,26 +1001,26 @@
   {
     "id": 37,
     "info": "4th-year/drg/2017",
-    "question": "For which of the following is knee-ankle-foot orthoses used?",
+    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus-draining sinuses. Wood's light shows no fluorescence. What will be the most probable diagnosis?",
     "answers": [
       {
-        "option": "Genu valgum, genu varus and genu recurvatum",
+        "option": "Alopecia areata",
+        "bool": false
+      },
+      {
+        "option": "Kerion",
         "bool": true
       },
       {
-        "option": "Hindfoot cavus",
+        "option": "Discoid lupus erythematosus",
         "bool": false
       },
       {
-        "option": "Genu varus",
+        "option": "Tinea corporis",
         "bool": false
       },
       {
-        "option": "Hindfoot cavus and adductus",
-        "bool": false
-      },
-      {
-        "option": "Genu valgum",
+        "option": "Androgenetic alopecia",
         "bool": false
       }
     ]
@@ -1028,11 +1028,181 @@
   {
     "id": 38,
     "info": "4th-year/drg/2017",
+    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus-draining sinuses. Wood's light shows no fluorescence. What is the most common differential diagnosis?",
+    "answers": [
+      {
+        "option": "Androgenetic alopecia",
+        "bool": false
+      },
+      {
+        "option": "Alopecia universalis",
+        "bool": false
+      },
+      {
+        "option": "Alopecia areata",
+        "bool": true
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Alopecia totalis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "4th-year/drg/2017",
+    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus draining sinuses. Wood's light shows no fluorescence. Which of the following organisms is most likely responsible for his condition?",
+    "answers": [
+      {
+        "option": "Microsporum canis",
+        "bool": false
+      },
+      {
+        "option": "Trichophyton schoenleinii",
+        "bool": false
+      },
+      {
+        "option": "Trichophyton tonsurans",
+        "bool": true
+      },
+      {
+        "option": "Herpes simplex virus",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "4th-year/drg/2017",
+    "question": "A 5-year-old boy is brought to the clinic with a complaint of a patch of hair loss and a scaly erythematous lesion on the scalp with pus-draining sinuses. Wood's light shows no fluorescence. What investigation will be useful to diagnose his condition?",
+    "answers": [
+      {
+        "option": "Patch test",
+        "bool": false
+      },
+      {
+        "option": "Radioallergosorbent test",
+        "bool": false
+      },
+      {
+        "option": "Microscopic study of hair",
+        "bool": true
+      },
+      {
+        "option": "Immunoglobulin E (IgE) test",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "4th-year/drg/2017",
+    "question": "Decreased low-density lipoproteins (LDL) receptors are caused due to a mutation in which of the following chromosomes?",
+    "answers": [
+      {
+        "option": "Chromosome 7",
+        "bool": false
+      },
+      {
+        "option": "Chromosome 21",
+        "bool": false
+      },
+      {
+        "option": "Chromosome 9",
+        "bool": false
+      },
+      {
+        "option": "Chromosome 19",
+        "bool": true
+      },
+      {
+        "option": "Chromosome 8",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "4th-year/drg/2017",
+    "question": "Which of the following disorders causes bullae formation due to friction?",
+    "answers": [
+      {
+        "option": "Eczema",
+        "bool": false
+      },
+      {
+        "option": "Epidermolysis bullosa",
+        "bool": true
+      },
+      {
+        "option": "Psoriasis",
+        "bool": false
+      },
+      {
+        "option": "Lichen planus",
+        "bool": false
+      },
+      {
+        "option": "Bullous impetigo",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "4th-year/drg/2017",
+    "question": "For which of the following is knee-ankle-foot orthoses used?",
+    "answers": [
+      {
+        "option": "Hindfoot cavus",
+        "bool": false
+      },
+      {
+        "option": "Genu valgum",
+        "bool": false
+      },
+      {
+        "option": "Hindfoot cavus and adductus",
+        "bool": false
+      },
+      {
+        "option": "Genu varus",
+        "bool": false
+      },
+      {
+        "option": "Genu valgum, genu varus and genu recurvatum",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "4th-year/drg/2017",
     "question": "A 25-year-old male presents to the outpatient department with a complaint of raised, well-defined, erythematous plaques in submammary areas. He has a previous history of similar lesions in the armpits and groin area. He has not taken any drugs recently. What is his probable diagnosis?",
     "answers": [
       {
+        "option": "Lichen planus",
+        "bool": false
+      },
+      {
         "option": "Psoriasis",
         "bool": true
+      },
+      {
+        "option": "Urticaria",
+        "bool": false
       },
       {
         "option": "Eczema",
@@ -1041,28 +1211,16 @@
       {
         "option": "Bullous pemphigus",
         "bool": false
-      },
-      {
-        "option": "Lichen planus",
-        "bool": false
-      },
-      {
-        "option": "Urticaria",
-        "bool": false
       }
     ]
   },
   {
-    "id": 39,
+    "id": 45,
     "info": "4th-year/drg/2017",
     "question": "A 25-year-old male presents to the outpatient department with a complaint of raised, well-defined, erythematous plaques in submammary areas. He has a previous history of similar lesions in the armpits and groin area. He has not taken any drugs recently. What is his differential diagnosis?",
     "answers": [
       {
-        "option": "Erythrodermic psoriasis",
-        "bool": false
-      },
-      {
-        "option": "Pustular psoriasis",
+        "option": "Guttate psoriasis",
         "bool": false
       },
       {
@@ -1070,17 +1228,21 @@
         "bool": true
       },
       {
-        "option": "Guttate psoriasis",
+        "option": "Urticaria",
         "bool": false
       },
       {
-        "option": "Urticaria",
+        "option": "Pustular psoriasis",
+        "bool": false
+      },
+      {
+        "option": "Erythrodermic psoriasis",
         "bool": false
       }
     ]
   },
   {
-    "id": 40,
+    "id": 46,
     "info": "4th-year/drg/2017",
     "question": "A female patient presents to the outpatient department with a complaint of eczematous oozing lesions on both ears 2 days after attending a wedding. Differential diagnosis of atopic eczema is established. In what category do her symptoms fall into?",
     "answers": [
@@ -1089,11 +1251,7 @@
         "bool": true
       },
       {
-        "option": "Relapsing phase",
-        "bool": false
-      },
-      {
-        "option": "Subacute phase",
+        "option": "Chronic phase",
         "bool": false
       },
       {
@@ -1101,169 +1259,11 @@
         "bool": false
       },
       {
-        "option": "Chronic phase",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "info": "4th-year/drg/2017",
-    "question": "What histopathology does bullous pemphigoid have?",
-    "answers": [
-      {
-        "option": "Suprabasilar acantholytic",
+        "option": "Subacute phase",
         "bool": false
       },
       {
-        "option": "Subepidermal acantholytic",
-        "bool": false
-      },
-      {
-        "option": "Supraepidermal acantholytic",
-        "bool": false
-      },
-      {
-        "option": "Subepidermal nonacantholytic",
-        "bool": true
-      },
-      {
-        "option": "Subbasilar acantholytic",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "info": "4th-year/drg/2017",
-    "question": "A 10-year-old boy presented to the clinic with a boggy, erythematous, and pus-filled swelling on scalp along with loss of hair. What is the probable diagnosis?",
-    "answers": [
-      {
-        "option": "Folliculitis",
-        "bool": false
-      },
-      {
-        "option": "Kerion",
-        "bool": true
-      },
-      {
-        "option": "Squamous cell carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Tinea capitis",
-        "bool": false
-      },
-      {
-        "option": "Carbuncle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "info": "4th-year/drg/2017",
-    "question": "What is the most invasive cancer of the skin?",
-    "answers": [
-      {
-        "option": "Sebaceous gland carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Adenocarcinoma",
-        "bool": false
-      },
-      {
-        "option": "Basal cell carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Squamous cell carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Melanoma",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "info": "4th-year/drg/2017",
-    "question": "Familial hypercholesterolemia is due to mutation in what chromosome?",
-    "answers": [
-      {
-        "option": "13",
-        "bool": false
-      },
-      {
-        "option": "21",
-        "bool": false
-      },
-      {
-        "option": "19",
-        "bool": true
-      },
-      {
-        "option": "7",
-        "bool": false
-      },
-      {
-        "option": "18",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "info": "4th-year/drg/2017",
-    "question": "Which of the following drugs is most useful for treating candidiasis?",
-    "answers": [
-      {
-        "option": "Fluconazole",
-        "bool": true
-      },
-      {
-        "option": "Ciprofloxacin",
-        "bool": false
-      },
-      {
-        "option": "Isoniazid",
-        "bool": false
-      },
-      {
-        "option": "Amphotericin B",
-        "bool": false
-      },
-      {
-        "option": "Pyrazinamide",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "info": "4th-year/drg/2017",
-    "question": "Which of the following best describes the term rehabilitation?",
-    "answers": [
-      {
-        "option": "To prevent the emergence of the disease or the development of risk factors",
-        "bool": false
-      },
-      {
-        "option": "To halt or prevent the progression of a disease process after it has occurred",
-        "bool": false
-      },
-      {
-        "option": "To halt or prevent the progression of a disease process before it has occurred",
-        "bool": false
-      },
-      {
-        "option": "Combined use of all the available measures for preparing and training the person to achieve his highest level of functional ability",
-        "bool": true
-      },
-      {
-        "option": "To halt or prevent the progression of a disease process from the state of being impaired to the state of being handicapped",
+        "option": "Relapsing phase",
         "bool": false
       }
     ]

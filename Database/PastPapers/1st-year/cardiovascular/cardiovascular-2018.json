@@ -1,20 +1,16 @@
 [
   {
     "id": 0,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "In some arteries, the tunica intima is separated from the tunica media by a fenestrated sheet of an elastic material called the internal elastic lamina. This material is most clearly seen in which of the following?",
     "answers": [
       {
-        "option": "Arterioles",
-        "bool": false
+        "option": "Muscular arteries",
+        "bool": true
       },
       {
         "option": "Medium sized vein",
         "bool": false
-      },
-      {
-        "option": "Muscular arteries",
-        "bool": true
       },
       {
         "option": "Aorta",
@@ -23,12 +19,16 @@
       {
         "option": "Inferior vena cava",
         "bool": false
+      },
+      {
+        "option": "Arterioles",
+        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following does not open into the right atrium?",
     "answers": [
       {
@@ -36,12 +36,12 @@
         "bool": false
       },
       {
-        "option": "Pulmonary veins",
-        "bool": true
-      },
-      {
         "option": "Sinus venosum",
         "bool": false
+      },
+      {
+        "option": "Pulmonary veins",
+        "bool": true
       },
       {
         "option": "Inferior vena Cava",
@@ -55,11 +55,11 @@
   },
   {
     "id": 2,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following signs in a chest X-Ray is most telling if there is congestive heart failure?",
     "answers": [
       {
-        "option": "Thickened interstitium",
+        "option": "HiIar congestion",
         "bool": false
       },
       {
@@ -67,26 +67,34 @@
         "bool": true
       },
       {
-        "option": "CardiomegaIy",
-        "bool": false
-      },
-      {
         "option": "Upper lobar congestion",
         "bool": false
       },
       {
-        "option": "HiIar congestion",
+        "option": "CardiomegaIy",
+        "bool": false
+      },
+      {
+        "option": "Thickened interstitium",
         "bool": false
       }
     ]
   },
   {
     "id": 3,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the duration of the first heart sound?",
     "answers": [
       {
+        "option": "0.24 s",
+        "bool": false
+      },
+      {
         "option": "0.28 s",
+        "bool": false
+      },
+      {
+        "option": "0.35 s",
         "bool": false
       },
       {
@@ -96,34 +104,14 @@
       {
         "option": "0.16 s",
         "bool": false
-      },
-      {
-        "option": "0.24 s",
-        "bool": false
-      },
-      {
-        "option": "0.35 s",
-        "bool": false
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Second heart sound is produced by which of the following?",
     "answers": [
-      {
-        "option": "Closure of mitral valve",
-        "bool": false
-      },
-      {
-        "option": "Opening of atrioventricular valves",
-        "bool": false
-      },
-      {
-        "option": "Closure of semilunar valves",
-        "bool": true
-      },
       {
         "option": "Closure of pulmonary valve only",
         "bool": false
@@ -131,122 +119,30 @@
       {
         "option": "Closure of atrioventricular valves",
         "bool": false
+      },
+      {
+        "option": "Closure of mitral valve",
+        "bool": false
+      },
+      {
+        "option": "Closure of semilunar valves",
+        "bool": true
+      },
+      {
+        "option": "Opening of atrioventricular valves",
+        "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Hyperpolarization is due to which of the following?",
-    "answers": [
-      {
-        "option": "Increase permeability of K+ ions for efflux",
-        "bool": true
-      },
-      {
-        "option": "Closing of calcium channels",
-        "bool": false
-      },
-      {
-        "option": "Closing of sodium channels",
-        "bool": false
-      },
-      {
-        "option": "Closing of potassium channels",
-        "bool": false
-      },
-      {
-        "option": "None of the above",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Hydrogen peroxide (H202), superoxide (O2\u2022), HOCL are all produced and contribute to oxidative stress. They are all collectively called which of the following?",
-    "answers": [
-      {
-        "option": "Reactive oxygen species",
-        "bool": true
-      },
-      {
-        "option": "Free oxygen species",
-        "bool": false
-      },
-      {
-        "option": "Oxycontin",
-        "bool": false
-      },
-      {
-        "option": "Antioxidants",
-        "bool": false
-      },
-      {
-        "option": "Oxygen halides",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Positive psychological change experienced as a result of adversity or crisis is known as which of the following?",
-    "answers": [
-      {
-        "option": "Positive transformation",
-        "bool": false
-      },
-      {
-        "option": "Cognitive phase",
-        "bool": false
-      },
-      {
-        "option": "Evolving phase",
-        "bool": false
-      },
-      {
-        "option": "Post traumatic growth",
-        "bool": true
-      },
-      {
-        "option": "Resolution phase",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following is a prodrug?",
-    "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Rosuvastatin",
-        "bool": false
-      },
-      {
-        "option": "Lovastatin",
-        "bool": true
-      },
-      {
-        "option": "Atorvastatin",
-        "bool": false
-      },
-      {
-        "option": "FIuvastatin",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following produces the first heart sound?",
     "answers": [
+      {
+        "option": "Closure of semilunar valves at beginning of systole",
+        "bool": false
+      },
       {
         "option": "Closure of semilunar valves at end of systole",
         "bool": false
@@ -262,18 +158,22 @@
       {
         "option": "Closure of AV valves at the end of systole",
         "bool": false
-      },
-      {
-        "option": "Closure of semilunar valves at beginning of systole",
-        "bool": false
       }
     ]
   },
   {
-    "id": 10,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 6,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is correct for echocardiography?",
     "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Provides same information as EKG",
+        "bool": false
+      },
       {
         "option": "Provides information about both structural and physiological deformities",
         "bool": true
@@ -283,24 +183,20 @@
         "bool": false
       },
       {
-        "option": "Provides same information as EKG",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Provides information about physiological deformities",
         "bool": false
       }
     ]
   },
   {
-    "id": 11,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 7,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Cardiogenic cells are located in which of the following?",
     "answers": [
+      {
+        "option": "lntermediate mesoderm",
+        "bool": false
+      },
       {
         "option": "Lateral somatic mesoderm",
         "bool": false
@@ -314,57 +210,53 @@
         "bool": true
       },
       {
-        "option": "lntermediate mesoderm",
-        "bool": false
-      },
-      {
         "option": "Endoderm",
         "bool": false
       }
     ]
   },
   {
-    "id": 12,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 8,
+    "info": "1st-year/cardiovascular/2018",
     "question": "A cyanotic baby is brought to the emergency department by her parents with complaints of rapid breathing and hypoxemia. The congenital defect responsible for this is one that causes the aorta to rise from the right ventricle and the pulmonary trunk to rise from the left ventricle. What is the defect called?",
     "answers": [
+      {
+        "option": "Transposition of great vessels",
+        "bool": true
+      },
       {
         "option": "Truncus arteriosus",
         "bool": false
       },
       {
-        "option": "Tetralogy of Fallot",
+        "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "Transposition of great vessels",
-        "bool": true
       },
       {
         "option": "Patent ductus arteriosus",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Tetralogy of Fallot",
         "bool": false
       }
     ]
   },
   {
-    "id": 13,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 9,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following occurs in the formation of reactive oxygen species?",
     "answers": [
       {
-        "option": "Oxidation",
-        "bool": false
-      },
-      {
-        "option": "Restriction",
-        "bool": false
-      },
-      {
         "option": "Hydration",
+        "bool": false
+      },
+      {
+        "option": "Reduction",
+        "bool": true
+      },
+      {
+        "option": "Oxidation",
         "bool": false
       },
       {
@@ -372,41 +264,68 @@
         "bool": false
       },
       {
-        "option": "Reduction",
-        "bool": true
+        "option": "Restriction",
+        "bool": false
       }
     ]
   },
   {
-    "id": 14,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 10,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Sympathetic heart stimulation is caused by which of the following receptors?",
     "answers": [
       {
-        "option": "Alpha adrenergic receptor",
-        "bool": false
-      },
-      {
         "option": "Beta 1 adrenergic receptor",
         "bool": true
+      },
+      {
+        "option": "Beta 2 adrenergic receptor",
+        "bool": false
       },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Beta 3 adrenergic receptor",
+        "option": "Alpha adrenergic receptor",
         "bool": false
       },
       {
-        "option": "Beta 2 adrenergic receptor",
+        "option": "Beta 3 adrenergic receptor",
         "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 11,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Hyperpolarization is due to which of the following?",
+    "answers": [
+      {
+        "option": "Closing of calcium channels",
+        "bool": false
+      },
+      {
+        "option": "Increase permeability of K+ ions for efflux",
+        "bool": true
+      },
+      {
+        "option": "None of the above",
+        "bool": false
+      },
+      {
+        "option": "Closing of sodium channels",
+        "bool": false
+      },
+      {
+        "option": "Closing of potassium channels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the most important diagnostic criteria of systemic hypertension?",
     "answers": [
       {
@@ -414,8 +333,8 @@
         "bool": false
       },
       {
-        "option": "Previous history of hypotension",
-        "bool": false
+        "option": "Left ventricular hypertrophy in absence of other cardiovascular pathology",
+        "bool": true
       },
       {
         "option": "Tachycardia",
@@ -426,24 +345,16 @@
         "bool": false
       },
       {
-        "option": "Left ventricular hypertrophy in absence of other cardiovascular pathology",
-        "bool": true
+        "option": "Previous history of hypotension",
+        "bool": false
       }
     ]
   },
   {
-    "id": 16,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 13,
+    "info": "1st-year/cardiovascular/2018",
     "question": "The most sensitive inflammatory marker seen in myocardial ischemia is which of the following?",
     "answers": [
-      {
-        "option": "Ck MB",
-        "bool": false
-      },
-      {
-        "option": "CK-MM",
-        "bool": false
-      },
       {
         "option": "C reactive protein",
         "bool": false
@@ -453,24 +364,24 @@
         "bool": true
       },
       {
+        "option": "Ck MB",
+        "bool": false
+      },
+      {
+        "option": "CK-MM",
+        "bool": false
+      },
+      {
         "option": "Troponin C",
         "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 14,
+    "info": "1st-year/cardiovascular/2018",
     "question": "A student is studying a histological slide showing cross-section of a vessel and he sees many elastic lamellar layers. Which of the following is shown in the slide?",
     "answers": [
-      {
-        "option": "Elastic artery",
-        "bool": true
-      },
-      {
-        "option": "Large veins",
-        "bool": false
-      },
       {
         "option": "Medium Veins",
         "bool": false
@@ -480,45 +391,53 @@
         "bool": false
       },
       {
+        "option": "Elastic artery",
+        "bool": true
+      },
+      {
+        "option": "Large veins",
+        "bool": false
+      },
+      {
         "option": "MuscuIar artery",
         "bool": false
       }
     ]
   },
   {
-    "id": 18,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 15,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Pericytes are cells with muscular content. Which of the following is incorrect regarding them?",
     "answers": [
       {
-        "option": "They surround capillaries and vessels",
-        "bool": false
-      },
-      {
         "option": "Endothelial cell and pericytes do not share a common basement membrane",
         "bool": true
+      },
+      {
+        "option": "They are contractile",
+        "bool": false
       },
       {
         "option": "They help to regulate blood flow to tissue by relaxing and contracting",
         "bool": false
       },
       {
-        "option": "Their processes extend around vessel",
+        "option": "They surround capillaries and vessels",
         "bool": false
       },
       {
-        "option": "They are contractile",
+        "option": "Their processes extend around vessel",
         "bool": false
       }
     ]
   },
   {
-    "id": 19,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 16,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is incorrect regarding elastic arteries?",
     "answers": [
       {
-        "option": "Tunica media consists of smooth muscle",
+        "option": "They are present close to the heart",
         "bool": false
       },
       {
@@ -534,18 +453,49 @@
         "bool": false
       },
       {
-        "option": "They are present close to the heart",
+        "option": "Tunica media consists of smooth muscle",
         "bool": false
       }
     ]
   },
   {
-    "id": 20,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 17,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Hydrogen peroxide (H₂O₂), superoxide (O₂•⁻), HOCl are all produced and contribute to oxidative stress. They are all collectively called which of the following?",
+    "answers": [
+      {
+        "option": "Oxygen halides",
+        "bool": false
+      },
+      {
+        "option": "Reactive oxygen species",
+        "bool": true
+      },
+      {
+        "option": "Free oxygen species",
+        "bool": false
+      },
+      {
+        "option": "Oxycontin",
+        "bool": false
+      },
+      {
+        "option": "Antioxidants",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "1st-year/cardiovascular/2018",
     "question": "A first-year resident is studying the valvular outlet of the ventricle and is positioned at the infundibulum. This is present at which valve?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Pulmonary",
+        "bool": true
+      },
+      {
+        "option": "Left atrioventricular",
         "bool": false
       },
       {
@@ -553,26 +503,26 @@
         "bool": false
       },
       {
-        "option": "Left atrioventricular",
+        "option": "Aortic",
         "bool": false
       },
       {
-        "option": "Pulmonary",
-        "bool": true
-      },
-      {
-        "option": "Aortic",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 21,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 19,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Lead I connects to which of the following anatomical regions?",
     "answers": [
       {
-        "option": "Left arm and right leg",
+        "option": "Right arm and left leg",
+        "bool": false
+      },
+      {
+        "option": "Left arm and left leg",
         "bool": false
       },
       {
@@ -580,34 +530,30 @@
         "bool": true
       },
       {
-        "option": "Left arm and left leg",
-        "bool": false
-      },
-      {
         "option": "Right arm and right leg",
         "bool": false
       },
       {
-        "option": "Right arm and left leg",
+        "option": "Left arm and right leg",
         "bool": false
       }
     ]
   },
   {
-    "id": 22,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 20,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which isoenzymes of creatine kinase are present in cardiac muscle cells?",
     "answers": [
-      {
-        "option": "MB, MM, BB",
-        "bool": false
-      },
       {
         "option": "MB and MM",
         "bool": true
       },
       {
-        "option": "MB only",
+        "option": "BB only",
+        "bool": false
+      },
+      {
+        "option": "MB, MM, BB",
         "bool": false
       },
       {
@@ -615,26 +561,26 @@
         "bool": false
       },
       {
-        "option": "BB only",
+        "option": "MB only",
         "bool": false
       }
     ]
   },
   {
-    "id": 23,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 21,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which is the most important natural antioxidant?",
     "answers": [
+      {
+        "option": "Vitamin K",
+        "bool": false
+      },
       {
         "option": "Vitamin B6",
         "bool": false
       },
       {
-        "option": "Vitamin E",
-        "bool": true
-      },
-      {
-        "option": "Vitamin K",
+        "option": "Vitamin B12",
         "bool": false
       },
       {
@@ -642,14 +588,14 @@
         "bool": false
       },
       {
-        "option": "Vitamin B12",
-        "bool": false
+        "option": "Vitamin E",
+        "bool": true
       }
     ]
   },
   {
-    "id": 24,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 22,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following are the main stages of crisis?",
     "answers": [
       {
@@ -657,32 +603,28 @@
         "bool": false
       },
       {
-        "option": "Denial, depression, acceptance",
-        "bool": false
+        "option": "Emergency, expIoration, resoIution",
+        "bool": true
       },
       {
-        "option": "Emergency, rehabilitaion, recovery",
-        "bool": true
+        "option": "Denial, depression, acceptance",
+        "bool": false
       },
       {
         "option": "Denial, bargaining, resolution",
         "bool": false
       },
       {
-        "option": "Emergency, expIoration, resoIution",
+        "option": "Emergency, rehabilitaion, recovery",
         "bool": false
       }
     ]
   },
   {
-    "id": 25,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 23,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which valve guides the blood in the right to left shunt of foramen ovale?",
     "answers": [
-      {
-        "option": "Left atrioventricular valve",
-        "bool": false
-      },
       {
         "option": "Valve of coronary sinus",
         "bool": false
@@ -690,6 +632,10 @@
       {
         "option": "Valve of inferior vena cava",
         "bool": true
+      },
+      {
+        "option": "Left atrioventricular valve",
+        "bool": false
       },
       {
         "option": "Valve of superior vena cava",
@@ -702,14 +648,64 @@
     ]
   },
   {
-    "id": 26,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which drug inhibits the formation of angiotensin?",
+    "id": 24,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Positive psychological change experienced as a result of adversity or crisis is known as which of the following?",
     "answers": [
       {
-        "option": "Metoprolol",
+        "option": "Evolving phase",
         "bool": false
       },
+      {
+        "option": "Cognitive phase",
+        "bool": false
+      },
+      {
+        "option": "Post traumatic growth",
+        "bool": true
+      },
+      {
+        "option": "Positive transformation",
+        "bool": false
+      },
+      {
+        "option": "Resolution phase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following is a prodrug?",
+    "answers": [
+      {
+        "option": "Rosuvastatin",
+        "bool": false
+      },
+      {
+        "option": "FIuvastatin",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Lovastatin",
+        "bool": true
+      },
+      {
+        "option": "Atorvastatin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which drug inhibits the formation of angiotensin?",
+    "answers": [
       {
         "option": "HydraIazine",
         "bool": false
@@ -719,18 +715,22 @@
         "bool": false
       },
       {
-        "option": "Digitoxin",
+        "option": "Captopril",
+        "bool": true
+      },
+      {
+        "option": "Metoprolol",
         "bool": false
       },
       {
-        "option": "Captopril",
-        "bool": true
+        "option": "Digitoxin",
+        "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which substance is secreted by the juxtaglomerular apparatus when the intracapillary pressure drops in afferent vessels?",
     "answers": [
       {
@@ -738,11 +738,11 @@
         "bool": true
       },
       {
-        "option": "Angiotensin",
+        "option": "Aldosterone",
         "bool": false
       },
       {
-        "option": "Troponin",
+        "option": "Angiotensin",
         "bool": false
       },
       {
@@ -750,18 +750,18 @@
         "bool": false
       },
       {
-        "option": "Aldosterone",
+        "option": "Troponin",
         "bool": false
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which part of the conduction pathway has the slowest conduction rate?",
     "answers": [
       {
-        "option": "Right bundle branch",
+        "option": "lnternodal pathway",
         "bool": false
       },
       {
@@ -769,7 +769,7 @@
         "bool": false
       },
       {
-        "option": "lnternodal pathway",
+        "option": "Right bundle branch",
         "bool": false
       },
       {
@@ -784,20 +784,70 @@
   },
   {
     "id": 29,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following is true regarding sinoatrial (SA) nodal cells?",
+    "answers": [
+      {
+        "option": "Connected to AV node via fine Purkinje fibres",
+        "bool": false
+      },
+      {
+        "option": "Can not generate impulse at all once denervated",
+        "bool": false
+      },
+      {
+        "option": "Supplied by vagus nerve",
+        "bool": true
+      },
+      {
+        "option": "Supplied by left coronary artery",
+        "bool": false
+      },
+      {
+        "option": "Present in both atria",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "What is the reason for slower conduction through the atrioventricular (AV) node?",
+    "answers": [
+      {
+        "option": "Less ions",
+        "bool": false
+      },
+      {
+        "option": "More zona occludens",
+        "bool": false
+      },
+      {
+        "option": "Less Ca+ channels",
+        "bool": false
+      },
+      {
+        "option": "Less Na+ channels",
+        "bool": false
+      },
+      {
+        "option": "Fewer gap junctions",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the most permissible or least resistant path for conduction between cardiac muscle cells?",
     "answers": [
       {
-        "option": "Parasympathetic supply",
-        "bool": false
+        "option": "Gap junctions",
+        "bool": true
       },
       {
         "option": "Microtubules",
         "bool": false
-      },
-      {
-        "option": "Gap junctions",
-        "bool": true
       },
       {
         "option": "Myelin sheath",
@@ -806,24 +856,24 @@
       {
         "option": "Sympathetic supply",
         "bool": false
+      },
+      {
+        "option": "Parasympathetic supply",
+        "bool": false
       }
     ]
   },
   {
-    "id": 30,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 32,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is removed from very-low-density lipoprotein (VLDL) to form intermediate-density lipoprotein (IDL)?",
     "answers": [
       {
-        "option": "Cholesterol",
-        "bool": false
-      },
-      {
-        "option": "Trigylcerides",
+        "option": "Triglycerides",
         "bool": true
       },
       {
-        "option": "Fatty acids",
+        "option": "Cholesterol",
         "bool": false
       },
       {
@@ -833,82 +883,32 @@
       {
         "option": "Lipoproteins",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "What is the reason for slower conduction through the atrioventricular (AV) node?",
-    "answers": [
-      {
-        "option": "Less Ca+ channels",
-        "bool": false
       },
       {
-        "option": "Fewer gap junctions",
-        "bool": true
-      },
-      {
-        "option": "Less Na+ channels",
+        "option": "Fatty acids",
         "bool": false
-      },
-      {
-        "option": "Less ions",
-        "bool": false
-      },
-      {
-        "option": "More zona occludens",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following is true regarding sinoatrial (SA) nodal cells?",
-    "answers": [
-      {
-        "option": "Supplied by left coronary artery",
-        "bool": false
-      },
-      {
-        "option": "Can not generate impulse at all once denervated",
-        "bool": false
-      },
-      {
-        "option": "Connected to AV node via fine Purkinje fibres",
-        "bool": false
-      },
-      {
-        "option": "Present in both atria",
-        "bool": false
-      },
-      {
-        "option": "Supplied by vagus nerve",
-        "bool": true
       }
     ]
   },
   {
     "id": 33,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is denser than low-density lipoprotein (LDL)?",
     "answers": [
-      {
-        "option": "Very low-density lipoprotein",
-        "bool": false
-      },
-      {
-        "option": "Intermediate density lipoprotein",
-        "bool": false
-      },
       {
         "option": "Chylomicron",
         "bool": false
       },
       {
         "option": "Low density lipoprotein remnant",
+        "bool": false
+      },
+      {
+        "option": "Very low-density lipoprotein",
+        "bool": false
+      },
+      {
+        "option": "Intermediate density lipoprotein",
         "bool": false
       },
       {
@@ -919,9 +919,13 @@
   },
   {
     "id": 34,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "The left auricle is derived from which of the following structures?",
     "answers": [
+      {
+        "option": "Sinus venosus",
+        "bool": false
+      },
       {
         "option": "Left sinus horn",
         "bool": false
@@ -937,26 +941,14 @@
       {
         "option": "Absorbed pulmonary veins",
         "bool": false
-      },
-      {
-        "option": "Sinus venosus",
-        "bool": false
       }
     ]
   },
   {
     "id": 35,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the remnant of the left horn of sinus venosus?",
     "answers": [
-      {
-        "option": "Great cardiac vein",
-        "bool": false
-      },
-      {
-        "option": "Anterior cardiac vein",
-        "bool": false
-      },
       {
         "option": "Coronary sinus",
         "bool": true
@@ -966,45 +958,57 @@
         "bool": false
       },
       {
+        "option": "Great cardiac vein",
+        "bool": false
+      },
+      {
         "option": "Sinus venarum",
+        "bool": false
+      },
+      {
+        "option": "Anterior cardiac vein",
         "bool": false
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "What does the \u2018a\u2019 wave represent in the atrial pressure curve?",
+    "info": "1st-year/cardiovascular/2018",
+    "question": "What does the ‘a’ wave represent in the atrial pressure curve?",
     "answers": [
-      {
-        "option": "Atrial relaxation",
-        "bool": false
-      },
       {
         "option": "Ventricular contraction",
         "bool": false
       },
       {
-        "option": "Atrial contraction",
-        "bool": true
+        "option": "Atrial relaxation",
+        "bool": false
+      },
+      {
+        "option": "Atrial diastole",
+        "bool": false
       },
       {
         "option": "Atrial pressure",
         "bool": false
       },
       {
-        "option": "Atrial diastole",
-        "bool": false
+        "option": "Atrial contraction",
+        "bool": true
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "What does the 'v' wave represent in the atrial pressure curve?",
     "answers": [
       {
-        "option": "End of atrial contraction",
+        "option": "Beginning of ventricular contraction",
+        "bool": false
+      },
+      {
+        "option": "Halfway point of atrial relaxation",
         "bool": false
       },
       {
@@ -1016,47 +1020,51 @@
         "bool": false
       },
       {
-        "option": "Halfway point of atrial relaxation",
-        "bool": false
-      },
-      {
-        "option": "Beginning of ventricular contraction",
+        "option": "End of atrial contraction",
         "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the main natural antioxidant of the body?",
     "answers": [
       {
-        "option": "Retinal",
-        "bool": false
+        "option": "Beta carotene",
+        "bool": true
       },
       {
         "option": "Retinol",
         "bool": false
       },
       {
-        "option": "Retinoic acid",
+        "option": "Ergocalciferol",
         "bool": false
       },
       {
-        "option": "Beta carotene",
-        "bool": true
+        "option": "Retinal",
+        "bool": false
       },
       {
-        "option": "Ergocalciferol",
+        "option": "Retinoic acid",
         "bool": false
       }
     ]
   },
   {
     "id": 39,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Why is the sinoatrial (SA) node the normal pace maker?",
     "answers": [
+      {
+        "option": "It receives impulses from the vagus nerve",
+        "bool": false
+      },
+      {
+        "option": "It discharges most quickly",
+        "bool": true
+      },
       {
         "option": "It has the highest concentration of ions",
         "bool": false
@@ -1068,22 +1076,18 @@
       {
         "option": "It has the largest number of nerve fibers",
         "bool": false
-      },
-      {
-        "option": "It discharges most quickly",
-        "bool": true
-      },
-      {
-        "option": "It receives impulses from the vagus nerve",
-        "bool": false
       }
     ]
   },
   {
     "id": 40,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "The endocardium consists of endothelium and what other tissue?",
     "answers": [
+      {
+        "option": "Thin connective tissue",
+        "bool": true
+      },
       {
         "option": "Fibrous tissue",
         "bool": false
@@ -1093,24 +1097,32 @@
         "bool": false
       },
       {
-        "option": "Muscular tissue",
-        "bool": false
-      },
-      {
         "option": "Nervous tissue",
         "bool": false
       },
       {
-        "option": "Thin connective tissue",
-        "bool": true
+        "option": "Muscular tissue",
+        "bool": false
       }
     ]
   },
   {
     "id": 41,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Adding which one of the following in the diet will substantially help prevent the risk of coronary heart disease?",
     "answers": [
+      {
+        "option": "Polyunsaturated fatty acids (PUFA)",
+        "bool": true
+      },
+      {
+        "option": "Saturated fatty acids",
+        "bool": false
+      },
+      {
+        "option": "Eicosanoids",
+        "bool": false
+      },
       {
         "option": "Monounsaturated fatty acids (MUFA)",
         "bool": false
@@ -1118,32 +1130,24 @@
       {
         "option": "Cholesterol",
         "bool": false
-      },
-      {
-        "option": "Polyunsaturated fatty acids (PUFA)",
-        "bool": true
-      },
-      {
-        "option": "Eicosanoids",
-        "bool": false
-      },
-      {
-        "option": "Saturated fatty acids",
-        "bool": false
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the change in behavior during maturation and transition of stress periods in human beings called?",
     "answers": [
       {
-        "option": "Emergency crisis",
+        "option": "Situational crisis",
         "bool": false
       },
       {
-        "option": "Situational crisis",
+        "option": "Developmental crises",
+        "bool": true
+      },
+      {
+        "option": "Emergency crisis",
         "bool": false
       },
       {
@@ -1153,20 +1157,24 @@
       {
         "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "Developmental crises",
-        "bool": true
       }
     ]
   },
   {
     "id": 43,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Dextrocardia is commonly associated with which of the following conditions?",
     "answers": [
       {
         "option": "Patent ductus arteriosus",
+        "bool": false
+      },
+      {
+        "option": "Tetralogy of Fallot",
+        "bool": false
+      },
+      {
+        "option": "Coarctation of aorta",
         "bool": false
       },
       {
@@ -1176,22 +1184,26 @@
       {
         "option": "Situs inversus",
         "bool": true
-      },
-      {
-        "option": "Coarctation of aorta",
-        "bool": false
-      },
-      {
-        "option": "Tetralogy of Fallot",
-        "bool": false
       }
     ]
   },
   {
     "id": 44,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following types of epithelium lines the inner surface of the heart?",
     "answers": [
+      {
+        "option": "Specialized epitheilium",
+        "bool": false
+      },
+      {
+        "option": "Stratified cuboidal",
+        "bool": false
+      },
+      {
+        "option": "Simple cuboidal",
+        "bool": false
+      },
       {
         "option": "Stratified squamous",
         "bool": false
@@ -1199,28 +1211,20 @@
       {
         "option": "Simple squamous",
         "bool": true
-      },
-      {
-        "option": "Stratified cuboidal",
-        "bool": false
-      },
-      {
-        "option": "Specialized epitheilium",
-        "bool": false
-      },
-      {
-        "option": "Simple cuboidal",
-        "bool": false
       }
     ]
   },
   {
     "id": 45,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following ions will increase the force of contraction of the heart quantitatively?",
     "answers": [
       {
-        "option": "Hydrogen",
+        "option": "Calcium",
+        "bool": true
+      },
+      {
+        "option": "Magnesium",
         "bool": false
       },
       {
@@ -1228,34 +1232,22 @@
         "bool": false
       },
       {
-        "option": "Calcium",
-        "bool": true
-      },
-      {
-        "option": "Potassium",
+        "option": "Hydrogen",
         "bool": false
       },
       {
-        "option": "Magnesium",
+        "option": "Potassium",
         "bool": false
       }
     ]
   },
   {
     "id": 46,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Conduction signals from the right atrium to left atrium are carried by which of the following?",
     "answers": [
       {
-        "option": "Bachmann's bundle",
-        "bool": true
-      },
-      {
         "option": "lnternodal pathways",
-        "bool": false
-      },
-      {
-        "option": "Right bundle branch",
         "bool": false
       },
       {
@@ -1263,18 +1255,34 @@
         "bool": false
       },
       {
+        "option": "Bachmann's bundle",
+        "bool": true
+      },
+      {
         "option": "Purkinje fibres",
+        "bool": false
+      },
+      {
+        "option": "Right bundle branch",
         "bool": false
       }
     ]
   },
   {
     "id": 47,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is a leading cause of death in developed countries?",
     "answers": [
       {
+        "option": "Chronic obstructive pulmonary disease (COPD)",
+        "bool": false
+      },
+      {
         "option": "Communicable diseases",
+        "bool": false
+      },
+      {
+        "option": "Diabetes",
         "bool": false
       },
       {
@@ -1284,32 +1292,20 @@
       {
         "option": "Liver disease",
         "bool": false
-      },
-      {
-        "option": "Chronic obstructive pulmonary disease (COPD)",
-        "bool": false
-      },
-      {
-        "option": "Diabetes",
-        "bool": false
       }
     ]
   },
   {
     "id": 48,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following types of cells are present in front of and around the neural plate, in dorsal view, during 3rd week of development?",
     "answers": [
       {
-        "option": "Hypoblast cells",
-        "bool": false
-      },
-      {
-        "option": "Neuroblast cells",
-        "bool": false
-      },
-      {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Endodermal cells",
         "bool": false
       },
       {
@@ -1317,24 +1313,20 @@
         "bool": true
       },
       {
-        "option": "Endodermal cells",
+        "option": "Neuroblast cells",
+        "bool": false
+      },
+      {
+        "option": "Hypoblast cells",
         "bool": false
       }
     ]
   },
   {
     "id": 49,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following contains the least amount of protein?",
     "answers": [
-      {
-        "option": "High-density lipoprotein (HDL)",
-        "bool": false
-      },
-      {
-        "option": "Very low-density lipoprotein (VLDL)",
-        "bool": false
-      },
       {
         "option": "Intermediate-density lipoprotein (lDL)",
         "bool": false
@@ -1344,14 +1336,22 @@
         "bool": true
       },
       {
+        "option": "High-density lipoprotein (HDL)",
+        "bool": false
+      },
+      {
         "option": "Low-density lipoprotein (LDL)",
+        "bool": false
+      },
+      {
+        "option": "Very low-density lipoprotein (VLDL)",
         "bool": false
       }
     ]
   },
   {
     "id": 50,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Pulmonary artery blood as compared to systemic arterial blood has which of the following attributes?",
     "answers": [
       {
@@ -1378,23 +1378,23 @@
   },
   {
     "id": 51,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following chemokines is involved in the pathophysiology of pain?",
     "answers": [
-      {
-        "option": "Tumor Necrosis Factor alpha (TNF alpha)",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "IL-5",
+        "option": "Tumor Necrosis Factor alpha (TNF alpha)",
         "bool": false
       },
       {
         "option": "IL-1",
+        "bool": false
+      },
+      {
+        "option": "IL-5",
         "bool": false
       },
       {
@@ -1405,16 +1405,12 @@
   },
   {
     "id": 52,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "What happens to the affinity of hemoglobin for oxygen and the hemoglobin-oxygen curve when blood flows through body tissues?",
     "answers": [
       {
         "option": "Hemoglobin affinity for oxygen decreases and the curve shifts to the right",
         "bool": true
-      },
-      {
-        "option": "Hemoglobin affinity for oxygen increases and the curve shifts to the left",
-        "bool": false
       },
       {
         "option": "None of these",
@@ -1425,6 +1421,10 @@
         "bool": false
       },
       {
+        "option": "Hemoglobin affinity for oxygen increases and the curve shifts to the left",
+        "bool": false
+      },
+      {
         "option": "Hemoglobin affinity for oxygen increases and the curve shifts to the right",
         "bool": false
       }
@@ -1432,11 +1432,11 @@
   },
   {
     "id": 53,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following shows lipoproteins in lowest to highest density order?",
     "answers": [
       {
-        "option": "LDL, lDL, VLDL, Chylomicron",
+        "option": "VLDL ,LDL, IDL,ChyIomicron",
         "bool": false
       },
       {
@@ -1444,18 +1444,18 @@
         "bool": false
       },
       {
-        "option": "Chylomicron, VLDL, lDL, LDL",
-        "bool": true
+        "option": "LDL, lDL, VLDL, Chylomicron",
+        "bool": false
       },
       {
-        "option": "VLDL ,LDL, IDL,ChyIomicron",
-        "bool": false
+        "option": "Chylomicron, VLDL, lDL, LDL",
+        "bool": true
       }
     ]
   },
   {
     "id": 54,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Sudden QRS collapse without prior PR lengthening is seen in which of the following?",
     "answers": [
       {
@@ -1471,26 +1471,26 @@
         "bool": false
       },
       {
-        "option": "Third degree heart block",
+        "option": "First degree heart block",
         "bool": false
       },
       {
-        "option": "First degree heart block",
+        "option": "Third degree heart block",
         "bool": false
       }
     ]
   },
   {
     "id": 55,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Calmodulin binds with which of the following ions?",
     "answers": [
       {
-        "option": "Cl-",
+        "option": "Mg+2",
         "bool": false
       },
       {
-        "option": "Mg+2",
+        "option": "Cl-",
         "bool": false
       },
       {
@@ -1498,22 +1498,49 @@
         "bool": true
       },
       {
-        "option": "K+",
+        "option": "Na+",
         "bool": false
       },
       {
-        "option": "Na+",
+        "option": "K+",
         "bool": false
       }
     ]
   },
   {
     "id": 56,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
+    "question": "ECG profile of supraventricular tachycardia shows which of the following?",
+    "answers": [
+      {
+        "option": "P wave is present",
+        "bool": false
+      },
+      {
+        "option": "ST depression",
+        "bool": false
+      },
+      {
+        "option": "ST Elevation",
+        "bool": false
+      },
+      {
+        "option": "Q wave bifid",
+        "bool": false
+      },
+      {
+        "option": "Absent or inverted P wave",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following will result in increased turbulence in blood flow?",
     "answers": [
       {
-        "option": "Decreased velocity of blood flow",
+        "option": "Decreased density of blood",
         "bool": false
       },
       {
@@ -1521,24 +1548,32 @@
         "bool": false
       },
       {
-        "option": "Decreased density of blood",
+        "option": "Increased diameter of vessel",
+        "bool": true
+      },
+      {
+        "option": "Decreased velocity of blood flow",
         "bool": false
       },
       {
         "option": "Increased hematocrit",
         "bool": false
-      },
-      {
-        "option": "Increased diameter of vessel",
-        "bool": true
       }
     ]
   },
   {
-    "id": 57,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 58,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following occurs in first degree atrioventricular block?",
     "answers": [
+      {
+        "option": "Left bundle branch is damaged",
+        "bool": false
+      },
+      {
+        "option": "Ventricles are damaged",
+        "bool": false
+      },
       {
         "option": "Right bundle branch is damaged",
         "bool": false
@@ -1550,30 +1585,14 @@
       {
         "option": "Signal transmission to ventricles is delayed",
         "bool": true
-      },
-      {
-        "option": "Ventricles are damaged",
-        "bool": false
-      },
-      {
-        "option": "Left bundle branch is damaged",
-        "bool": false
       }
     ]
   },
   {
-    "id": 58,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 59,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which one of them is a non-modifiable risk factor for coronary artery disease?",
     "answers": [
-      {
-        "option": "Obesity",
-        "bool": false
-      },
-      {
-        "option": "Genetics",
-        "bool": true
-      },
       {
         "option": "Smoking",
         "bool": false
@@ -1583,23 +1602,27 @@
         "bool": false
       },
       {
+        "option": "Genetics",
+        "bool": true
+      },
+      {
         "option": "Inactivity",
+        "bool": false
+      },
+      {
+        "option": "Obesity",
         "bool": false
       }
     ]
   },
   {
-    "id": 59,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 60,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Hypertriacylglyceremia with eruptive xanthomas is caused by a defect in which of the following?",
     "answers": [
       {
         "option": "Lipoprotein lipase",
         "bool": true
-      },
-      {
-        "option": "Apo B",
-        "bool": false
       },
       {
         "option": "Apo E",
@@ -1612,26 +1635,18 @@
       {
         "option": "Apo C",
         "bool": false
+      },
+      {
+        "option": "Apo B",
+        "bool": false
       }
     ]
   },
   {
-    "id": 60,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 61,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the major functional contributor of cardiovascular disease?",
     "answers": [
-      {
-        "option": "High caffeine intake",
-        "bool": false
-      },
-      {
-        "option": "THC",
-        "bool": false
-      },
-      {
-        "option": "Smoking",
-        "bool": false
-      },
       {
         "option": "Neurotoxins",
         "bool": false
@@ -1639,21 +1654,29 @@
       {
         "option": "Hypertension",
         "bool": true
+      },
+      {
+        "option": "High caffeine intake",
+        "bool": false
+      },
+      {
+        "option": "Smoking",
+        "bool": false
+      },
+      {
+        "option": "THC",
+        "bool": false
       }
     ]
   },
   {
-    "id": 61,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 62,
+    "info": "1st-year/cardiovascular/2018",
     "question": "The highest risk for atherosclerosis is seen in which of the following?",
     "answers": [
       {
-        "option": "Tangier disease",
+        "option": "Abetalipoprotienemia",
         "bool": false
-      },
-      {
-        "option": "Hypercholesterolemia",
-        "bool": true
       },
       {
         "option": "Agammaglobulinemia",
@@ -1664,26 +1687,30 @@
         "bool": false
       },
       {
-        "option": "Abetalipoprotienemia",
+        "option": "Hypercholesterolemia",
+        "bool": true
+      },
+      {
+        "option": "Tangier disease",
         "bool": false
       }
     ]
   },
   {
-    "id": 62,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 63,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Metabolic alkalosis with vomiting and gastric aspirations due to loss of which of the following?",
     "answers": [
-      {
-        "option": "Bicarbonate ion",
-        "bool": false
-      },
       {
         "option": "Chloride ion",
         "bool": true
       },
       {
-        "option": "Calcium ion",
+        "option": "Potassium ion",
+        "bool": false
+      },
+      {
+        "option": "Bicarbonate ion",
         "bool": false
       },
       {
@@ -1691,16 +1718,24 @@
         "bool": false
       },
       {
-        "option": "Potassium ion",
+        "option": "Calcium ion",
         "bool": false
       }
     ]
   },
   {
-    "id": 63,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 64,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the major anion of extracellular fluid?",
     "answers": [
+      {
+        "option": "Cl",
+        "bool": true
+      },
+      {
+        "option": "HCO3",
+        "bool": false
+      },
       {
         "option": "HCl",
         "bool": false
@@ -1710,22 +1745,14 @@
         "bool": false
       },
       {
-        "option": "HCO3",
-        "bool": false
-      },
-      {
-        "option": "Cl",
-        "bool": true
-      },
-      {
         "option": "Proteins",
         "bool": false
       }
     ]
   },
   {
-    "id": 64,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 65,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is important for the synthesis of gastric acid?",
     "answers": [
       {
@@ -1733,354 +1760,30 @@
         "bool": true
       },
       {
-        "option": "Na+",
-        "bool": false
-      },
-      {
         "option": "Br-",
         "bool": false
       },
       {
-        "option": "Mg2+",
+        "option": "Na+",
         "bool": false
       },
       {
         "option": "K+",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "When does the foramen ovale functionally close after birth?",
-    "answers": [
-      {
-        "option": "1-2 years",
-        "bool": false
       },
       {
-        "option": "I-2 days",
+        "option": "Mg2+",
         "bool": false
-      },
-      {
-        "option": "1-2 hr",
-        "bool": false
-      },
-      {
-        "option": "I-2 months",
-        "bool": false
-      },
-      {
-        "option": "Immediately",
-        "bool": true
       }
     ]
   },
   {
     "id": 66,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Fixed but prolonged PR interval is seen in which of the following?",
-    "answers": [
-      {
-        "option": "Second degree Mobitz I",
-        "bool": false
-      },
-      {
-        "option": "WoIff parkinson white syndrome",
-        "bool": false
-      },
-      {
-        "option": "Third degree AV nodal block",
-        "bool": false
-      },
-      {
-        "option": "First degree AV block",
-        "bool": true
-      },
-      {
-        "option": "Second degree Mobitz 2",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Cardiac hypertrophy can be characterized by which of the following?",
-    "answers": [
-      {
-        "option": "Increased heart size",
-        "bool": true
-      },
-      {
-        "option": "Decreased heart size",
-        "bool": false
-      },
-      {
-        "option": "Decreased heart mass",
-        "bool": false
-      },
-      {
-        "option": "Adequate vascularization",
-        "bool": false
-      },
-      {
-        "option": "Fetal gene expression",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following veins drain the body wall of the embryo?",
-    "answers": [
-      {
-        "option": "Brachiocephalic veins",
-        "bool": false
-      },
-      {
-        "option": "Portal veins",
-        "bool": false
-      },
-      {
-        "option": "CardinaI veins",
-        "bool": true
-      },
-      {
-        "option": "ViteIIine veins",
-        "bool": false
-      },
-      {
-        "option": "Umbilical veins",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following is incorrect about Iympathic capillaries?",
-    "answers": [
-      {
-        "option": "They have single endothelium",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "They have incomplete basal lamina",
-        "bool": false
-      },
-      {
-        "option": "They carry oxygenated blood",
-        "bool": true
-      },
-      {
-        "option": "They are close ended vessels",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following is not a cause of mitral regurgitation?",
-    "answers": [
-      {
-        "option": "Chordae tendineae rupture",
-        "bool": false
-      },
-      {
-        "option": "Infective endocarditis",
-        "bool": false
-      },
-      {
-        "option": "Senile aortic calcific stenosis",
-        "bool": true
-      },
-      {
-        "option": "Mitral valve prolapse",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "When does granulation tissue start appearing in the heart as a result of myocardial infarction?",
-    "answers": [
-      {
-        "option": "7th day",
-        "bool": true
-      },
-      {
-        "option": "5th day",
-        "bool": false
-      },
-      {
-        "option": "2nd week",
-        "bool": false
-      },
-      {
-        "option": "1st day",
-        "bool": false
-      },
-      {
-        "option": "3rd day",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "In which of the following phases, the volume of blood represents the end-diastolic volume of blood?",
-    "answers": [
-      {
-        "option": "During isovolumetric contraction",
-        "bool": true
-      },
-      {
-        "option": "During isovolumetric relaxation",
-        "bool": false
-      },
-      {
-        "option": "During period of ejection",
-        "bool": false
-      },
-      {
-        "option": "During period of filling",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following is a feature of Wolff-Parkinson-White (WPW) syndrome?",
-    "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Increased automaticity",
-        "bool": true
-      },
-      {
-        "option": "Increased conductivity",
-        "bool": false
-      },
-      {
-        "option": "Increased sympathetic stimulation of heart",
-        "bool": false
-      },
-      {
-        "option": "Increased contractility",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following arteries is accessed via needle puncture for left heart catheterization?",
-    "answers": [
-      {
-        "option": "Right femoral artery",
-        "bool": true
-      },
-      {
-        "option": "Right common iliac artery",
-        "bool": false
-      },
-      {
-        "option": "Left external iliac artery",
-        "bool": false
-      },
-      {
-        "option": "Left femoral artery",
-        "bool": false
-      },
-      {
-        "option": "Left radial artery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following is incorrect about vitamin C?",
-    "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "It is an intracellular oxidant",
-        "bool": true
-      },
-      {
-        "option": "It is involved in hydroxylation of collagen",
-        "bool": false
-      },
-      {
-        "option": "It is a water-soluble vitamin",
-        "bool": false
-      },
-      {
-        "option": "Its deficiency can lead to scurvy",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "ECG profile of supraventricular tachycardia shows which of the following?",
-    "answers": [
-      {
-        "option": "Absent or inverted P wave",
-        "bool": true
-      },
-      {
-        "option": "Q wave bifid",
-        "bool": false
-      },
-      {
-        "option": "ST depression",
-        "bool": false
-      },
-      {
-        "option": "ST Elevation",
-        "bool": false
-      },
-      {
-        "option": "P wave is present",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "TurbuIence is increased by which of the following?",
     "answers": [
       {
-        "option": "Hypotension",
+        "option": "lncreased hematocrit",
         "bool": false
       },
       {
@@ -2088,7 +1791,7 @@
         "bool": true
       },
       {
-        "option": "lncreased hematocrit",
+        "option": "Hypotension",
         "bool": false
       },
       {
@@ -2102,20 +1805,124 @@
     ]
   },
   {
-    "id": 78,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "The shunt found in interatrial septal defect due to which of the following?",
+    "id": 67,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "When does the foramen ovale functionally close after birth?",
     "answers": [
       {
-        "option": "Foramen ovale",
+        "option": "1-2 years",
+        "bool": false
+      },
+      {
+        "option": "I-2 months",
+        "bool": false
+      },
+      {
+        "option": "Immediately",
         "bool": true
       },
+      {
+        "option": "I-2 days",
+        "bool": false
+      },
+      {
+        "option": "1-2 hr",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Fixed but prolonged PR interval is seen in which of the following?",
+    "answers": [
+      {
+        "option": "WoIff parkinson white syndrome",
+        "bool": false
+      },
+      {
+        "option": "Second degree Mobitz 2",
+        "bool": false
+      },
+      {
+        "option": "First degree AV block",
+        "bool": true
+      },
+      {
+        "option": "Second degree Mobitz I",
+        "bool": false
+      },
+      {
+        "option": "Third degree AV nodal block",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Cardiac hypertrophy can be characterized by which of the following?",
+    "answers": [
+      {
+        "option": "Adequate vascularization",
+        "bool": false
+      },
+      {
+        "option": "Decreased heart mass",
+        "bool": false
+      },
+      {
+        "option": "Decreased heart size",
+        "bool": false
+      },
+      {
+        "option": "Increased heart size",
+        "bool": true
+      },
+      {
+        "option": "Fetal gene expression",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following veins drain the body wall of the embryo?",
+    "answers": [
+      {
+        "option": "Brachiocephalic veins",
+        "bool": false
+      },
+      {
+        "option": "Portal veins",
+        "bool": false
+      },
+      {
+        "option": "ViteIIine veins",
+        "bool": false
+      },
+      {
+        "option": "CardinaI veins",
+        "bool": true
+      },
+      {
+        "option": "Umbilical veins",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "The shunt found in interatrial septal defect due to which of the following?",
+    "answers": [
       {
         "option": "Left atrioventricular valve",
         "bool": false
       },
       {
-        "option": "Pulmonic valve",
+        "option": "Ductus arteriosus",
         "bool": false
       },
       {
@@ -2123,26 +1930,30 @@
         "bool": false
       },
       {
-        "option": "Ductus arteriosus",
+        "option": "Pulmonic valve",
         "bool": false
+      },
+      {
+        "option": "Foramen ovale",
+        "bool": true
       }
     ]
   },
   {
-    "id": 79,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 72,
+    "info": "1st-year/cardiovascular/2018",
     "question": "A first year resident recalling terminology for the ridges found in ventricles of the heart calls them which of the following?",
     "answers": [
+      {
+        "option": "Omentum",
+        "bool": false
+      },
       {
         "option": "Trabeculae carnae",
         "bool": true
       },
       {
-        "option": "Chordae tendinae",
-        "bool": false
-      },
-      {
-        "option": "Omentum",
+        "option": "PapiIIary muscle",
         "bool": false
       },
       {
@@ -2150,180 +1961,45 @@
         "bool": false
       },
       {
-        "option": "PapiIIary muscle",
+        "option": "Chordae tendinae",
         "bool": false
       }
     ]
   },
   {
-    "id": 80,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which organism is responsible for the pathogenesis of rheumatic fever?",
+    "id": 73,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following is incorrect about Iympathic capillaries?",
     "answers": [
-      {
-        "option": "Klebsiella species",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus",
-        "bool": false
-      },
-      {
-        "option": "Streptococcus A",
-        "bool": true
-      },
-      {
-        "option": "Coxsackie virus",
-        "bool": false
-      },
-      {
-        "option": "Rickettsia species",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Macrophages are seen in cardiac tissue after how many days of myocardial infarction?",
-    "answers": [
-      {
-        "option": "20 days",
-        "bool": false
-      },
-      {
-        "option": "15 days",
-        "bool": false
-      },
-      {
-        "option": "10 days",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "7 days",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following morphological changes is seen 4-7 days after myocardial infarction?",
-    "answers": [
-      {
-        "option": "Granulation tissue with red border",
+        "option": "They are close ended vessels",
         "bool": false
       },
       {
-        "option": "White scar",
+        "option": "They have incomplete basal lamina",
         "bool": false
       },
       {
-        "option": "Dark discoloration",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Yellow pallor",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following structures will not be observed under a light microscopic examination of an arteriole?",
-    "answers": [
-      {
-        "option": "Circularly arranged layers of smooth muscle",
-        "bool": false
-      },
-      {
-        "option": "Internal and external elastic laminae",
+        "option": "They carry oxygenated blood",
         "bool": true
       },
       {
-        "option": "Very thin tunica adventitia",
-        "bool": false
-      },
-      {
-        "option": "Tunica intima with no connective tissue or smooth muscle",
-        "bool": false
-      },
-      {
-        "option": "Endothelium",
+        "option": "They have single endothelium",
         "bool": false
       }
     ]
   },
   {
-    "id": 84,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "A boy with an aorta that overrides the pulmonary vein is also likely to have which of the following?",
+    "id": 74,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following is not a cause of mitral regurgitation?",
     "answers": [
       {
-        "option": "Left ventricular hypertrophy",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Atrial septal defect",
-        "bool": false
-      },
-      {
-        "option": "Pulmonary stenosis",
-        "bool": true
-      },
-      {
-        "option": "Aortic stenosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "The T wave in an electrocardiogram represents which of the following?",
-    "answers": [
-      {
-        "option": "Ventricular repolarization",
-        "bool": true
-      },
-      {
-        "option": "Atrial depolarization",
-        "bool": false
-      },
-      {
-        "option": "Atrial repolarization",
-        "bool": false
-      },
-      {
-        "option": "Ventricular depolarization",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 86,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Fish-mouth or buttonhole stenosis is seen in which of the following conditions?",
-    "answers": [
-      {
-        "option": "Rheumatic heart disease",
+        "option": "Senile aortic calcific stenosis",
         "bool": true
       },
       {
@@ -2331,57 +2007,192 @@
         "bool": false
       },
       {
-        "option": "Tetralogy of Fallot",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "Aortic stenosis",
+        "option": "Chordae tendineae rupture",
         "bool": false
       },
       {
-        "option": "Coarctation of aorta",
+        "option": "Infective endocarditis",
         "bool": false
       }
     ]
   },
   {
-    "id": 87,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Congenital heart diseases are not associated with which of the following?",
+    "id": 75,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "When does granulation tissue start appearing in the heart as a result of myocardial infarction?",
     "answers": [
       {
-        "option": "Malnutrition",
+        "option": "3rd day",
+        "bool": false
+      },
+      {
+        "option": "2nd week",
+        "bool": false
+      },
+      {
+        "option": "5th day",
+        "bool": false
+      },
+      {
+        "option": "7th day",
+        "bool": true
+      },
+      {
+        "option": "1st day",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "In which of the following phases, the volume of blood represents the end-diastolic volume of blood?",
+    "answers": [
+      {
+        "option": "During isovolumetric contraction",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "During isovolumetric relaxation",
+        "bool": false
+      },
+      {
+        "option": "During period of ejection",
+        "bool": false
+      },
+      {
+        "option": "During period of filling",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following is a feature of Wolff-Parkinson-White (WPW) syndrome?",
+    "answers": [
+      {
+        "option": "Increased automaticity",
+        "bool": true
+      },
+      {
+        "option": "Increased conductivity",
+        "bool": false
+      },
+      {
+        "option": "Increased sympathetic stimulation of heart",
         "bool": false
       },
       {
         "option": "None of these",
-        "bool": true
-      },
-      {
-        "option": "Maternal age",
         "bool": false
       },
       {
-        "option": "Mutation",
-        "bool": false
-      },
-      {
-        "option": "Maternal infection",
+        "option": "Increased contractility",
         "bool": false
       }
     ]
   },
   {
-    "id": 88,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "P wave on electrocardiogram represents which of the following?",
+    "id": 78,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following arteries is accessed via needle puncture for left heart catheterization?",
     "answers": [
       {
-        "option": "Atrial repolarization",
+        "option": "Left femoral artery",
         "bool": false
       },
       {
+        "option": "Left external iliac artery",
+        "bool": false
+      },
+      {
+        "option": "Left radial artery",
+        "bool": false
+      },
+      {
+        "option": "Right femoral artery",
+        "bool": true
+      },
+      {
+        "option": "Right common iliac artery",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following is incorrect about vitamin C?",
+    "answers": [
+      {
+        "option": "It is involved in hydroxylation of collagen",
+        "bool": false
+      },
+      {
+        "option": "Its deficiency can lead to scurvy",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "It is an intracellular oxidant",
+        "bool": true
+      },
+      {
+        "option": "It is a water-soluble vitamin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which organism is responsible for the pathogenesis of rheumatic fever?",
+    "answers": [
+      {
+        "option": "Staphylococcus",
+        "bool": false
+      },
+      {
+        "option": "Rickettsia species",
+        "bool": false
+      },
+      {
+        "option": "Coxsackie virus",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus A",
+        "bool": true
+      },
+      {
+        "option": "Klebsiella species",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "P wave on electrocardiogram represents which of the following?",
+    "answers": [
+      {
         "option": "Ventricular repolarization",
+        "bool": false
+      },
+      {
+        "option": "Ventricular depolarization",
         "bool": false
       },
       {
@@ -2393,18 +2204,18 @@
         "bool": false
       },
       {
-        "option": "Ventricular depolarization",
+        "option": "Atrial repolarization",
         "bool": false
       }
     ]
   },
   {
-    "id": 89,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 82,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Regarding the right coronary artery, which of the following is incorrect?",
     "answers": [
       {
-        "option": "Arises from the right aortic sinus",
+        "option": "Mostly the right coronary artery is dominant",
         "bool": false
       },
       {
@@ -2412,26 +2223,26 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Supplies the posteroinferior two-thirds of interventricular septum",
         "bool": true
       },
       {
-        "option": "Mostly the right coronary artery is dominant",
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Arises from the right aortic sinus",
         "bool": false
       }
     ]
   },
   {
-    "id": 90,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 83,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Regarding the left coronary artery, which of the following is incorrect?",
     "answers": [
       {
-        "option": "Supplies the atrioventricular node in some exceptional cases",
+        "option": "Has anastomosis with the right coronary artery",
         "bool": false
       },
       {
@@ -2439,12 +2250,12 @@
         "bool": false
       },
       {
-        "option": "Has anastomosis with the right coronary artery",
-        "bool": false
-      },
-      {
         "option": "Arises from the anterior aortic sinus",
         "bool": true
+      },
+      {
+        "option": "Supplies the atrioventricular node in some exceptional cases",
+        "bool": false
       },
       {
         "option": "Runs between the pulmonary trunk and left auricle",
@@ -2453,10 +2264,22 @@
     ]
   },
   {
-    "id": 91,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 84,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Regarding the coronary arteries, which of the following statements is correct?",
     "answers": [
+      {
+        "option": "The left coronary artery arises from the left posterior aortic sinus",
+        "bool": true
+      },
+      {
+        "option": "The left coronary artery arises from the right posterior aortic sinus",
+        "bool": false
+      },
+      {
+        "option": "The right coronary artery supplies the anterior part of interventricular septum",
+        "bool": false
+      },
       {
         "option": "The left coronary artery does not supply the interventricular septum",
         "bool": false
@@ -2464,34 +2287,14 @@
       {
         "option": "The left coronary artery supplies the posterior part of interventricular septum",
         "bool": false
-      },
-      {
-        "option": "The left coronary artery arises from the right posterior aortic sinus",
-        "bool": false
-      },
-      {
-        "option": "The left coronary artery arises from the left posterior aortic sinus",
-        "bool": true
-      },
-      {
-        "option": "The right coronary artery supplies the anterior part of interventricular septum",
-        "bool": false
       }
     ]
   },
   {
-    "id": 92,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 85,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is correct about collateral circulation in the case of ischemic heart diseases?",
     "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Alternate pathway of blood flow from other arteries but provides no protection against myocardial infarction",
-        "bool": false
-      },
       {
         "option": "Causes reperfusion injury in tissues receiving continuous blood flow",
         "bool": false
@@ -2501,23 +2304,27 @@
         "bool": true
       },
       {
+        "option": "Alternate pathway of blood flow from other arteries but provides no protection against myocardial infarction",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Is actively involved in the development of ischemic heart disease",
         "bool": false
       }
     ]
   },
   {
-    "id": 93,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 86,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following pairs is best matched for a normal electrocardiogram (ECG)?",
     "answers": [
       {
-        "option": "QT interval - measure of duration of atrial action potential",
-        "bool": false
-      },
-      {
-        "option": "PR interval - measure of duration of ventricular depolarization",
-        "bool": false
+        "option": "QRS complex - ventricular depolarization",
+        "bool": true
       },
       {
         "option": "P wave - atrial repolarization",
@@ -2528,22 +2335,22 @@
         "bool": false
       },
       {
-        "option": "QRS complex - ventricular depolarization",
-        "bool": true
+        "option": "PR interval - measure of duration of ventricular depolarization",
+        "bool": false
+      },
+      {
+        "option": "QT interval - measure of duration of atrial action potential",
+        "bool": false
       }
     ]
   },
   {
-    "id": 94,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 87,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is true regarding the tunica media of medium veins?",
     "answers": [
       {
         "option": "It is much thicker compared to that of an equivalent-sized artery",
-        "bool": false
-      },
-      {
-        "option": "It is supported by a narrow band of supporting fibrous tissue",
         "bool": false
       },
       {
@@ -2555,28 +2362,20 @@
         "bool": false
       },
       {
+        "option": "It is supported by a narrow band of supporting fibrous tissue",
+        "bool": false
+      },
+      {
         "option": "It is much thinner compared to that of an equivalent-sized artery",
         "bool": true
       }
     ]
   },
   {
-    "id": 95,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 88,
+    "info": "1st-year/cardiovascular/2018",
     "question": "The blood moves out of left ventricle by passing through which of the following?",
     "answers": [
-      {
-        "option": "Pulmonary valve",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Mitral valve",
-        "bool": false
-      },
       {
         "option": "Aortic valve",
         "bool": true
@@ -2584,39 +2383,51 @@
       {
         "option": "Tricuspid valve",
         "bool": false
+      },
+      {
+        "option": "Pulmonary valve",
+        "bool": false
+      },
+      {
+        "option": "Mitral valve",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
   {
-    "id": 96,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 89,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is incorrect about the maximum ejection phase of cardiac cycle?",
     "answers": [
+      {
+        "option": "Semilunar valves remain open",
+        "bool": false
+      },
       {
         "option": "Blood leaves the ventricles rapidly to the aorta and the pulmonary artery",
         "bool": false
       },
       {
-        "option": "AV valves remain closed",
-        "bool": false
+        "option": "Right ventricular pressure issues up to 120 mmHg",
+        "bool": true
       },
       {
         "option": "Pressure in the left ventricle is more than aorta",
         "bool": false
       },
       {
-        "option": "Semilunar valves remain open",
+        "option": "AV valves remain closed",
         "bool": false
-      },
-      {
-        "option": "Right ventricular pressure issues up to 120 mmHg",
-        "bool": true
       }
     ]
   },
   {
-    "id": 97,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 90,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What happens during the isovolumetric contraction phase of the cardiac cycle?",
     "answers": [
       {
@@ -2628,11 +2439,11 @@
         "bool": true
       },
       {
-        "option": "Both atria and ventricles contract",
+        "option": "Atria contract and pump blood into the ventricles",
         "bool": false
       },
       {
-        "option": "Atria contract and pump blood into the ventricles",
+        "option": "Both atria and ventricles contract",
         "bool": false
       },
       {
@@ -2642,13 +2453,13 @@
     ]
   },
   {
-    "id": 98,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 91,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What causes cyanosis?",
     "answers": [
       {
-        "option": "Increased amount of deoxygenated hemoglobin",
-        "bool": true
+        "option": "Increased amount of oxygen",
+        "bool": false
       },
       {
         "option": "Increased amount of carbon dioxide",
@@ -2659,26 +2470,22 @@
         "bool": false
       },
       {
-        "option": "Increased amount of oxygen",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
+        "option": "Increased amount of deoxygenated hemoglobin",
+        "bool": true
       }
     ]
   },
   {
-    "id": 99,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 92,
+    "info": "1st-year/cardiovascular/2018",
     "question": "A 67-year-old female presents to the clinic with shortness of breath and chest pain on exertion. She experiences breathlessness on climbing more than 2 floors. Her condition improves when she sits down and takes nitroglycerin. Which of the following can be this condition?",
     "answers": [
       {
-        "option": "Rheumatic fever",
-        "bool": false
-      },
-      {
-        "option": "Congestive heart failure",
+        "option": "Mitral valve prolapse",
         "bool": false
       },
       {
@@ -2690,45 +2497,57 @@
         "bool": false
       },
       {
-        "option": "Mitral valve prolapse",
+        "option": "Congestive heart failure",
+        "bool": false
+      },
+      {
+        "option": "Rheumatic fever",
         "bool": false
       }
     ]
   },
   {
-    "id": 100,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 93,
+    "info": "1st-year/cardiovascular/2018",
     "question": "A 67-year-old female presents to the clinic with shortness of breath and chest pain on exertion. She experiences breathlessness on climbing more than 2 floors. Her condition improves when she sits down and takes nitroglycerin. The doctor suspects angina. What is the cause of angina?",
     "answers": [
       {
-        "option": "Decreased perfusion",
-        "bool": true
+        "option": "Streptococcal infection",
+        "bool": false
       },
       {
-        "option": "Narrowing of aorta",
-        "bool": false
+        "option": "Decreased perfusion",
+        "bool": true
       },
       {
         "option": "Necrosis of cardiac myocytes",
         "bool": false
       },
       {
-        "option": "Fatal ventricular arrhythmia",
+        "option": "Narrowing of aorta",
         "bool": false
       },
       {
-        "option": "Streptococcal infection",
+        "option": "Fatal ventricular arrhythmia",
         "bool": false
       }
     ]
   },
   {
-    "id": 101,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 94,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the molecule containing sphingosine, fatty acids, and carbohydrate called?",
     "answers": [
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Phosphocholine",
+        "bool": false
+      },
+      {
+        "option": "Ceramide",
         "bool": false
       },
       {
@@ -2736,22 +2555,14 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Glycosphingolipid",
         "bool": true
-      },
-      {
-        "option": "Ceramide",
-        "bool": false
       }
     ]
   },
   {
-    "id": 102,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 95,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is characterized as bradycardia?",
     "answers": [
       {
@@ -2767,27 +2578,58 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "Heart rate less than 100 beats per minute",
         "bool": false
       },
       {
-        "option": "Heart rate less than 100 beats per minute",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 103,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "Which of the following correctly mentions the difference between angiogenesis and vasculogenesis?",
+    "id": 96,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Macrophages are seen in cardiac tissue after how many days of myocardial infarction?",
     "answers": [
+      {
+        "option": "7 days",
+        "bool": true
+      },
       {
         "option": "None of these",
         "bool": false
       },
       {
+        "option": "15 days",
+        "bool": false
+      },
+      {
+        "option": "20 days",
+        "bool": false
+      },
+      {
+        "option": "10 days",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following correctly mentions the difference between angiogenesis and vasculogenesis?",
+    "answers": [
+      {
         "option": "Angiogenesis is de novo formation of vessels from precursor cells and vasculogenesis is development of vessels from pre-existing vessels",
         "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Vasculogenesis is de novo formation of vessels from precursor cells and angiogenesis is development of vessels from pre-existing vessels",
+        "bool": true
       },
       {
         "option": "Vasculogenesis is de novo formation of arteries and angiogenesis is development of vessels from pre-existing vessels",
@@ -2796,33 +2638,29 @@
       {
         "option": "Vasculogenesis is de novo formation of vessels from precursor cells and angiogenesis is development of blood from yolk-sac mesenchyme",
         "bool": false
-      },
-      {
-        "option": "Vasculogenesis is de novo formation of vessels from precursor cells and angiogenesis is development of vessels from pre-existing vessels",
-        "bool": true
       }
     ]
   },
   {
-    "id": 104,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 98,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Occlusion of which of the following arteries is most likely to cause cerebral ischemia?",
     "answers": [
       {
-        "option": "Facial artery",
+        "option": "Left coronary artery",
         "bool": false
       },
       {
-        "option": "Left coronary artery",
-        "bool": false
+        "option": "Internal carotid artery",
+        "bool": true
       },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Internal carotid artery",
-        "bool": true
+        "option": "Facial artery",
+        "bool": false
       },
       {
         "option": "External carotid artery",
@@ -2831,10 +2669,68 @@
     ]
   },
   {
-    "id": 105,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 99,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following morphological changes is seen 4-7 days after myocardial infarction?",
+    "answers": [
+      {
+        "option": "Yellow pallor",
+        "bool": true
+      },
+      {
+        "option": "Granulation tissue with red border",
+        "bool": false
+      },
+      {
+        "option": "Dark discoloration",
+        "bool": false
+      },
+      {
+        "option": "White scar",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Which of the following structures will not be observed under a light microscopic examination of an arteriole?",
+    "answers": [
+      {
+        "option": "Endothelium",
+        "bool": false
+      },
+      {
+        "option": "Very thin tunica adventitia",
+        "bool": false
+      },
+      {
+        "option": "Tunica intima with no connective tissue or smooth muscle",
+        "bool": false
+      },
+      {
+        "option": "Circularly arranged layers of smooth muscle",
+        "bool": false
+      },
+      {
+        "option": "Internal and external elastic laminae",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "1st-year/cardiovascular/2018",
     "question": "QRS wave in normal electrocardiogram represents which of the following?",
     "answers": [
+      {
+        "option": "Atrial depolarization",
+        "bool": false
+      },
       {
         "option": "None of these",
         "bool": false
@@ -2844,26 +2740,26 @@
         "bool": false
       },
       {
-        "option": "Ventricular depolarization",
-        "bool": true
-      },
-      {
-        "option": "Atrial depolarization",
-        "bool": false
-      },
-      {
         "option": "Ventricular repolarization",
         "bool": false
+      },
+      {
+        "option": "Ventricular depolarization",
+        "bool": true
       }
     ]
   },
   {
-    "id": 106,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 102,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the second most common cause of sudden cardiac death after myocardial infarction?",
     "answers": [
       {
-        "option": "Pericarditis",
+        "option": "Dressler’s syndrome",
+        "bool": false
+      },
+      {
+        "option": "Interventricular septal rupture",
         "bool": false
       },
       {
@@ -2871,22 +2767,18 @@
         "bool": false
       },
       {
+        "option": "Pericarditis",
+        "bool": false
+      },
+      {
         "option": "Arrhythmias",
         "bool": true
-      },
-      {
-        "option": "Dressler\u2019s syndrome",
-        "bool": false
-      },
-      {
-        "option": "Interventricular septal rupture",
-        "bool": false
       }
     ]
   },
   {
-    "id": 107,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 103,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is involved in generating the pumping force of the heart?",
     "answers": [
       {
@@ -2898,11 +2790,11 @@
         "bool": false
       },
       {
-        "option": "Epicardium",
+        "option": "Endothelium",
         "bool": false
       },
       {
-        "option": "Endothelium",
+        "option": "Epicardium",
         "bool": false
       },
       {
@@ -2912,10 +2804,18 @@
     ]
   },
   {
-    "id": 108,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 104,
+    "info": "1st-year/cardiovascular/2018",
     "question": "If the hemoglobin of an adult is replaced by fetal hemoglobin, what will be the effect on the partial pressure of oxygen and hemoglobin saturation?",
     "answers": [
+      {
+        "option": "Normal PO2 and increased hemoglobin saturation",
+        "bool": false
+      },
+      {
+        "option": "Increased PO2 and increased hemoglobin saturation",
+        "bool": false
+      },
       {
         "option": "Decreased PO2 and increased hemoglobin saturation",
         "bool": true
@@ -2925,26 +2825,22 @@
         "bool": false
       },
       {
-        "option": "Increased PO2 and increased hemoglobin saturation",
-        "bool": false
-      },
-      {
         "option": "Normal PO2 and decreased hemoglobin saturation",
-        "bool": false
-      },
-      {
-        "option": "Normal PO2 and increased hemoglobin saturation",
         "bool": false
       }
     ]
   },
   {
-    "id": 109,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 105,
+    "info": "1st-year/cardiovascular/2018",
     "question": "High-density lipoproteins (HDL) are denser than low-density lipoproteins (LDL) because of which of the following?",
     "answers": [
       {
-        "option": "It has the highest proportion of phospholipids",
+        "option": "It has the lowest proportion of lipids",
+        "bool": false
+      },
+      {
+        "option": "It has the highest proportion of fatty acids",
         "bool": false
       },
       {
@@ -2956,53 +2852,49 @@
         "bool": true
       },
       {
-        "option": "It has the lowest proportion of lipids",
-        "bool": false
-      },
-      {
-        "option": "It has the highest proportion of fatty acids",
+        "option": "It has the highest proportion of phospholipids",
         "bool": false
       }
     ]
   },
   {
-    "id": 110,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 106,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of these statements about the mitral valve is incorrect?",
     "answers": [
       {
+        "option": "It is audible over the apical region of the heart",
+        "bool": false
+      },
+      {
         "option": "Reversal of blood flow occurs around its posterior cusp",
         "bool": true
+      },
+      {
+        "option": "It separates the left atrium from the left ventricle",
+        "bool": false
       },
       {
         "option": "Its anterior cusp is larger than the posterior cusp",
         "bool": false
       },
       {
-        "option": "It is audible over the apical region of the heart",
-        "bool": false
-      },
-      {
         "option": "It lies behind the left half of the sternum at the fourth costal cartilage",
-        "bool": false
-      },
-      {
-        "option": "It separates the left atrium from the left ventricle",
         "bool": false
       }
     ]
   },
   {
-    "id": 111,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 107,
+    "info": "1st-year/cardiovascular/2018",
     "question": "How many seconds does a normal PR interval last up to?",
     "answers": [
       {
-        "option": "0.22 sec",
+        "option": "0.32 sec",
         "bool": false
       },
       {
-        "option": "0.32 sec",
+        "option": "0.30 sec",
         "bool": false
       },
       {
@@ -3014,53 +2906,72 @@
         "bool": true
       },
       {
-        "option": "0.30 sec",
+        "option": "0.22 sec",
         "bool": false
       }
     ]
   },
   {
-    "id": 112,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 108,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "A boy with an aorta that overrides the pulmonary vein is also likely to have which of the following?",
+    "answers": [
+      {
+        "option": "Aortic stenosis",
+        "bool": false
+      },
+      {
+        "option": "Left ventricular hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Atrial septal defect",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary stenosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the normal length of the QT interval?",
     "answers": [
       {
-        "option": "0.10 seconds",
-        "bool": false
-      },
-      {
-        "option": "0.45 seconds",
-        "bool": false
-      },
-      {
         "option": "0.35 seconds",
         "bool": true
+      },
+      {
+        "option": "0.25 seconds",
+        "bool": false
+      },
+      {
+        "option": "0.10 seconds",
+        "bool": false
       },
       {
         "option": "0.5 seconds",
         "bool": false
       },
       {
-        "option": "0.25 seconds",
+        "option": "0.45 seconds",
         "bool": false
       }
     ]
   },
   {
-    "id": 113,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 110,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the most common cause of aortic calcific stenosis?",
     "answers": [
       {
-        "option": "Dilation of ascending aorta",
-        "bool": false
-      },
-      {
-        "option": "Old age",
-        "bool": true
-      },
-      {
-        "option": "Myxomatous degeneration",
+        "option": "Rheumatic heart disease",
         "bool": false
       },
       {
@@ -3068,55 +2979,132 @@
         "bool": false
       },
       {
-        "option": "Rheumatic heart disease",
+        "option": "Myxomatous degeneration",
+        "bool": false
+      },
+      {
+        "option": "Dilation of ascending aorta",
+        "bool": false
+      },
+      {
+        "option": "Old age",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "The T wave in an electrocardiogram represents which of the following?",
+    "answers": [
+      {
+        "option": "Ventricular repolarization",
+        "bool": true
+      },
+      {
+        "option": "Ventricular depolarization",
+        "bool": false
+      },
+      {
+        "option": "Atrial depolarization",
+        "bool": false
+      },
+      {
+        "option": "Atrial repolarization",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 114,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 112,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Fish-mouth or buttonhole stenosis is seen in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Coarctation of aorta",
+        "bool": false
+      },
+      {
+        "option": "Aortic stenosis",
+        "bool": false
+      },
+      {
+        "option": "Mitral valve prolapse",
+        "bool": false
+      },
+      {
+        "option": "Tetralogy of Fallot",
+        "bool": false
+      },
+      {
+        "option": "Rheumatic heart disease",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Angiotensin II and III do not have which of the following actions?",
     "answers": [
       {
-        "option": "Stimulation of thirst centre",
-        "bool": false
+        "option": "Vasodilation",
+        "bool": true
       },
       {
         "option": "ADH secretion",
         "bool": false
       },
       {
-        "option": "Vasodilation",
-        "bool": true
+        "option": "Vasoconstriction",
+        "bool": false
       },
       {
         "option": "Aldosterone secretion",
         "bool": false
       },
       {
-        "option": "Vasoconstriction",
+        "option": "Stimulation of thirst centre",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "Congenital heart diseases are not associated with which of the following?",
+    "answers": [
+      {
+        "option": "Malnutrition",
+        "bool": false
+      },
+      {
+        "option": "Maternal age",
+        "bool": false
+      },
+      {
+        "option": "Mutation",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": true
+      },
+      {
+        "option": "Maternal infection",
         "bool": false
       }
     ]
   },
   {
     "id": 115,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Trans-fat is common in which of the following?",
     "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Flax seeds",
-        "bool": false
-      },
-      {
-        "option": "Walnuts",
-        "bool": false
-      },
       {
         "option": "Margarine",
         "bool": true
@@ -3124,16 +3112,9 @@
       {
         "option": "Ghee",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "While treating patent ductus arteriosus, there is a possibility of damage to which of the following nerves?",
-    "answers": [
+      },
       {
-        "option": "Vagus nerve",
+        "option": "Flax seeds",
         "bool": false
       },
       {
@@ -3141,24 +3122,51 @@
         "bool": false
       },
       {
-        "option": "Glossopharyngeal nerve",
-        "bool": false
-      },
-      {
-        "option": "Left recurrent laryngeal nerve",
-        "bool": true
-      },
-      {
-        "option": "Right recurrent laryngeal nerve",
+        "option": "Walnuts",
         "bool": false
       }
     ]
   },
   {
+    "id": 116,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "While treating patent ductus arteriosus, there is a possibility of damage to which of the following nerves?",
+    "answers": [
+      {
+        "option": "Glossopharyngeal nerve",
+        "bool": false
+      },
+      {
+        "option": "Right recurrent laryngeal nerve",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Vagus nerve",
+        "bool": false
+      },
+      {
+        "option": "Left recurrent laryngeal nerve",
+        "bool": true
+      }
+    ]
+  },
+  {
     "id": 117,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is a myocardial perfusion test?",
     "answers": [
+      {
+        "option": "Imaging immediately after eating food",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
       {
         "option": "Imaging at rest",
         "bool": false
@@ -3168,24 +3176,20 @@
         "bool": false
       },
       {
-        "option": "Imaging immediately after eating food",
-        "bool": false
-      },
-      {
         "option": "Imaging at rest and after exercise",
         "bool": true
-      },
-      {
-        "option": "None of these",
-        "bool": false
       }
     ]
   },
   {
     "id": 118,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "An electrocardiogram (ECG) of a patient shows a QRS complex that occurs constantly after every 5 medium boxes (each medium box comprising 5 small boxes). What would be his heart rate?",
     "answers": [
+      {
+        "option": "70 beats/min",
+        "bool": false
+      },
       {
         "option": "60 beats/min",
         "bool": true
@@ -3201,105 +3205,74 @@
       {
         "option": "65 beats/min",
         "bool": false
-      },
-      {
-        "option": "70 beats/min",
-        "bool": false
       }
     ]
   },
   {
     "id": 119,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Reverse cholesterol transport is done under the influence of which of the following?",
     "answers": [
-      {
-        "option": "Reduction by LCAT (Lecithin cholesterol acyltransferase)",
-        "bool": false
-      },
       {
         "option": "Hydration by LCAT (Lecithin cholesterol acyltransferase)",
         "bool": false
       },
       {
-        "option": "Oxidation by LCAT (Lecithin cholesterol acyltransferase)",
-        "bool": false
+        "option": "Esterification by LCAT (Lecithin cholesterol acyltransferase)",
+        "bool": true
       },
       {
         "option": "Condensation by LCAT (Lecithin cholesterol acyltransferase)",
         "bool": false
       },
       {
-        "option": "Esterification by LCAT (Lecithin cholesterol acyltransferase)",
-        "bool": true
+        "option": "Reduction by LCAT (Lecithin cholesterol acyltransferase)",
+        "bool": false
+      },
+      {
+        "option": "Oxidation by LCAT (Lecithin cholesterol acyltransferase)",
+        "bool": false
       }
     ]
   },
   {
     "id": 120,
-    "info": "1st-year/cardiovascular-1/2018",
-    "question": "What is incorrect regarding anatomical end arteries?",
-    "answers": [
-      {
-        "option": "They are the same as functional end arteries",
-        "bool": true
-      },
-      {
-        "option": "They occur where no anastamosis exists",
-        "bool": false
-      },
-      {
-        "option": "They supply specific tissue of an organ",
-        "bool": false
-      },
-      {
-        "option": "They supply the kidneys, brain, and retina",
-        "bool": false
-      },
-      {
-        "option": "Their damage leads to necrosis of supplied tissue",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 121,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the most common cause of right heart failure?",
     "answers": [
       {
-        "option": "Left sided heart failure",
-        "bool": true
+        "option": "Tricuspid valve disease",
+        "bool": false
       },
       {
-        "option": "lnterstitial lung disease",
-        "bool": false
+        "option": "Left sided heart failure",
+        "bool": true
       },
       {
         "option": "Left to right shunt",
         "bool": false
       },
       {
-        "option": "PuImonary hypertension",
+        "option": "lnterstitial lung disease",
         "bool": false
       },
       {
-        "option": "Tricuspid valve disease",
+        "option": "PuImonary hypertension",
         "bool": false
       }
     ]
   },
   {
-    "id": 122,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 121,
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following does not regulate blood pressure?",
     "answers": [
       {
-        "option": "Viscosity of blood",
+        "option": "Cardiac output",
         "bool": false
       },
       {
-        "option": "Heart rate",
+        "option": "PeripheraI resistance",
         "bool": false
       },
       {
@@ -3307,30 +3280,22 @@
         "bool": true
       },
       {
-        "option": "PeripheraI resistance",
+        "option": "Viscosity of blood",
         "bool": false
       },
       {
-        "option": "Cardiac output",
+        "option": "Heart rate",
         "bool": false
       }
     ]
   },
   {
-    "id": 123,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 122,
+    "info": "1st-year/cardiovascular/2018",
     "question": "QT interval represents which of the following?",
     "answers": [
       {
-        "option": "Ventricular depolarization and repolarization",
-        "bool": true
-      },
-      {
         "option": "Ventricular repolarization",
-        "bool": false
-      },
-      {
-        "option": "Atrial relaxation",
         "bool": false
       },
       {
@@ -3340,21 +3305,33 @@
       {
         "option": "Ventricular depolarization",
         "bool": false
+      },
+      {
+        "option": "Ventricular depolarization and repolarization",
+        "bool": true
+      },
+      {
+        "option": "Atrial relaxation",
+        "bool": false
       }
     ]
   },
   {
-    "id": 124,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 123,
+    "info": "1st-year/cardiovascular/2018",
     "question": "During normal diastole, which of the following is most important in preventing overdistension of the ventricles?",
     "answers": [
+      {
+        "option": "Fibrous pericardium",
+        "bool": true
+      },
       {
         "option": "Adjacent lungs",
         "bool": false
       },
       {
-        "option": "Fibrous pericardium",
-        "bool": true
+        "option": "Aortic valves",
+        "bool": false
       },
       {
         "option": "Diaphragm",
@@ -3363,16 +3340,12 @@
       {
         "option": "MitraI valve",
         "bool": false
-      },
-      {
-        "option": "Aortic valves",
-        "bool": false
       }
     ]
   },
   {
-    "id": 125,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 124,
+    "info": "1st-year/cardiovascular/2018",
     "question": "In reversible ischemia, thallium spect pictures show which of the following?",
     "answers": [
       {
@@ -3380,7 +3353,7 @@
         "bool": true
       },
       {
-        "option": "Defect at rest",
+        "option": "No change",
         "bool": false
       },
       {
@@ -3388,22 +3361,22 @@
         "bool": false
       },
       {
-        "option": "Defect at stress",
+        "option": "Defect at rest",
         "bool": false
       },
       {
-        "option": "No change",
+        "option": "Defect at stress",
         "bool": false
       }
     ]
   },
   {
-    "id": 126,
-    "info": "1st-year/cardiovascular-1/2018",
+    "id": 125,
+    "info": "1st-year/cardiovascular/2018",
     "question": "In contrast to vasculogenesis, angiogenesis is which of the following?",
     "answers": [
       {
-        "option": "Formation of vessel from blood island",
+        "option": "Organisation of blood clusters",
         "bool": false
       },
       {
@@ -3415,22 +3388,49 @@
         "bool": false
       },
       {
-        "option": "Formation of hemangioblasts",
+        "option": "Formation of vessel from blood island",
         "bool": false
       },
       {
-        "option": "Organisation of blood clusters",
+        "option": "Formation of hemangioblasts",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "info": "1st-year/cardiovascular/2018",
+    "question": "What is incorrect regarding anatomical end arteries?",
+    "answers": [
+      {
+        "option": "They supply specific tissue of an organ",
+        "bool": false
+      },
+      {
+        "option": "They supply the kidneys, brain, and retina",
+        "bool": false
+      },
+      {
+        "option": "Their damage leads to necrosis of supplied tissue",
+        "bool": false
+      },
+      {
+        "option": "They are the same as functional end arteries",
+        "bool": true
+      },
+      {
+        "option": "They occur where no anastamosis exists",
         "bool": false
       }
     ]
   },
   {
     "id": 127,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "In which week do the cardiogenic cells move rostral to the oropharyngeal membrane?",
     "answers": [
       {
-        "option": "2nd",
+        "option": "5th",
         "bool": false
       },
       {
@@ -3438,53 +3438,53 @@
         "bool": false
       },
       {
+        "option": "4th",
+        "bool": false
+      },
+      {
         "option": "3rd",
         "bool": true
       },
       {
-        "option": "5th",
-        "bool": false
-      },
-      {
-        "option": "4th",
+        "option": "2nd",
         "bool": false
       }
     ]
   },
   {
     "id": 128,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "What is the type of arterial pulse in circulatory shock?",
     "answers": [
       {
-        "option": "Water hammer pulse",
-        "bool": false
-      },
-      {
-        "option": "Corrigan pulse",
-        "bool": false
-      },
-      {
         "option": "Rapid threads pulse",
         "bool": true
+      },
+      {
+        "option": "Pulsus paradoxus",
+        "bool": false
+      },
+      {
+        "option": "Water hammer pulse",
+        "bool": false
       },
       {
         "option": "PuIsus alternans",
         "bool": false
       },
       {
-        "option": "Pulsus paradoxus",
+        "option": "Corrigan pulse",
         "bool": false
       }
     ]
   },
   {
     "id": 129,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following occurs in isovolumetric contraction of left ventricle?",
     "answers": [
       {
-        "option": "VentricIe is ejecting blood",
+        "option": "Atrioventricular valve is open",
         "bool": false
       },
       {
@@ -3500,16 +3500,20 @@
         "bool": false
       },
       {
-        "option": "Atrioventricular valve is open",
+        "option": "VentricIe is ejecting blood",
         "bool": false
       }
     ]
   },
   {
     "id": 130,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Dietary increase in which of the following fatty acids is recommended to prevent cardiac diseases?",
     "answers": [
+      {
+        "option": "Stearic acid",
+        "bool": false
+      },
       {
         "option": "Laurie acid",
         "bool": false
@@ -3519,22 +3523,18 @@
         "bool": false
       },
       {
-        "option": "Omega-3 polyunsaturated fatty acids",
-        "bool": true
-      },
-      {
         "option": "Heptadecanoic acid",
         "bool": false
       },
       {
-        "option": "Stearic acid",
-        "bool": false
+        "option": "Omega-3 polyunsaturated fatty acids",
+        "bool": true
       }
     ]
   },
   {
     "id": 131,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the odd statement regarding the myocardium?",
     "answers": [
       {
@@ -3542,30 +3542,30 @@
         "bool": false
       },
       {
-        "option": "Certain location of cardiac cells secrete hormones",
-        "bool": false
-      },
-      {
         "option": "Cardiac muscles have high metabolic demands",
-        "bool": false
-      },
-      {
-        "option": "MuscIe fibres are joined by intercalated discs",
         "bool": false
       },
       {
         "option": "Cardiac myocytes have same contractile protein arrangement as smooth muscle",
         "bool": true
+      },
+      {
+        "option": "Certain location of cardiac cells secrete hormones",
+        "bool": false
+      },
+      {
+        "option": "MuscIe fibres are joined by intercalated discs",
+        "bool": false
       }
     ]
   },
   {
     "id": 132,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is the mechanism of action of propanolol in angina?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Vasodilation to counter coronary vasospasms",
         "bool": false
       },
       {
@@ -3573,12 +3573,12 @@
         "bool": false
       },
       {
-        "option": "Reduction of heart rate and myocardial contractility to reduce myocardial oxygen demand",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
-        "option": "Vasodilation to counter coronary vasospasms",
-        "bool": false
+        "option": "Reduction of heart rate and myocardial contractility to reduce myocardial oxygen demand",
+        "bool": true
       },
       {
         "option": "Increased sympathetic stimulation of heart for the survival of patient",
@@ -3588,17 +3588,9 @@
   },
   {
     "id": 133,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following chambers of heart has the thickest layer of myocardium?",
     "answers": [
-      {
-        "option": "Right atrium",
-        "bool": false
-      },
-      {
-        "option": "Left ventricle",
-        "bool": true
-      },
       {
         "option": "Right ventricle",
         "bool": false
@@ -3608,26 +3600,30 @@
         "bool": false
       },
       {
+        "option": "Right atrium",
+        "bool": false
+      },
+      {
         "option": "Left atrium",
         "bool": false
+      },
+      {
+        "option": "Left ventricle",
+        "bool": true
       }
     ]
   },
   {
     "id": 134,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following vessels drains the lower part of the body?",
     "answers": [
       {
-        "option": "Sinus venosus",
-        "bool": false
-      },
-      {
-        "option": "Superior vena cava",
-        "bool": false
-      },
-      {
         "option": "Sinus venarum",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -3635,14 +3631,18 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "Sinus venosus",
+        "bool": false
+      },
+      {
+        "option": "Superior vena cava",
         "bool": false
       }
     ]
   },
   {
     "id": 135,
-    "info": "1st-year/cardiovascular-1/2018",
+    "info": "1st-year/cardiovascular/2018",
     "question": "Which of the following is a major vessel emerging from an adult human heart that is responsible for supplying blood to almost all parts of the body?",
     "answers": [
       {
@@ -3650,20 +3650,20 @@
         "bool": false
       },
       {
-        "option": "Dorsal aorta",
-        "bool": false
-      },
-      {
         "option": "Carotid artery",
-        "bool": false
-      },
-      {
-        "option": "Truncus arteriosus",
         "bool": false
       },
       {
         "option": "Aorta",
         "bool": true
+      },
+      {
+        "option": "Dorsal aorta",
+        "bool": false
+      },
+      {
+        "option": "Truncus arteriosus",
+        "bool": false
       }
     ]
   }

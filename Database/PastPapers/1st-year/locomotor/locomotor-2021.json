@@ -2,15 +2,69 @@
   {
     "id": 0,
     "info": "1st-year/locomotor/2021",
-    "question": "Which of the following is the longest muscle in the human body?",
+    "question": "Which of the following can cause inhibition of action potential?",
     "answers": [
       {
-        "option": "Sartorius",
+        "option": "Influx of sodium",
+        "bool": false
+      },
+      {
+        "option": "Influx of potassium",
+        "bool": false
+      },
+      {
+        "option": "Influx of calcium",
+        "bool": false
+      },
+      {
+        "option": "Influx of chloride",
         "bool": true
       },
       {
+        "option": "Influx of bicarbonate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/locomotor/2021",
+    "question": "Which of the following is the most common cause of pyogenic osteomyelitis?",
+    "answers": [
+      {
+        "option": "Mycobacterium tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": true
+      },
+      {
+        "option": "Staphylococcus epidermidis",
+        "bool": false
+      },
+      {
+        "option": "Pseudomonas aeruginosa",
+        "bool": false
+      },
+      {
+        "option": "Salmonella typhi",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "1st-year/locomotor/2021",
+    "question": "Which of the following is the longest muscle in the human body?",
+    "answers": [
+      {
         "option": "Pectineus",
         "bool": false
+      },
+      {
+        "option": "Sartorius",
+        "bool": true
       },
       {
         "option": "Psoas major",
@@ -27,20 +81,12 @@
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following types of cells do Howship's lacunae contain?",
     "answers": [
       {
-        "option": "Osteoprogenitor cells",
-        "bool": false
-      },
-      {
         "option": "Osteoblasts",
-        "bool": false
-      },
-      {
-        "option": "Chondrocytes",
         "bool": false
       },
       {
@@ -48,26 +94,26 @@
         "bool": false
       },
       {
+        "option": "Chondrocytes",
+        "bool": false
+      },
+      {
         "option": "Osteoclasts",
         "bool": true
+      },
+      {
+        "option": "Osteoprogenitor cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 2,
+    "id": 4,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following is the keystone of the medial longitudinal arch of the foot?",
     "answers": [
       {
-        "option": "Medial cuneiform bone",
-        "bool": false
-      },
-      {
         "option": "Calcaneal tubercle",
-        "bool": false
-      },
-      {
-        "option": "Navicular bone",
         "bool": false
       },
       {
@@ -77,16 +123,24 @@
       {
         "option": "Metatarsals",
         "bool": false
+      },
+      {
+        "option": "Navicular bone",
+        "bool": false
+      },
+      {
+        "option": "Medial cuneiform bone",
+        "bool": false
       }
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "info": "1st-year/locomotor/2021",
     "question": "Injury to which of the following nerve causes winging of the scapula?",
     "answers": [
       {
-        "option": "Nerve to subclavius",
+        "option": "Lateral pectoral nerve",
         "bool": false
       },
       {
@@ -102,18 +156,26 @@
         "bool": false
       },
       {
-        "option": "Lateral pectoral nerve",
+        "option": "Nerve to subclavius",
         "bool": false
       }
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "info": "1st-year/locomotor/2021",
     "question": "A football player gets hit on the lateral aspect of his knee joint, resulting in a fracture of the neck of the fibula. Which of the following nerves is most likely to be injured in this case?",
     "answers": [
       {
         "option": "Sciatic nerve",
+        "bool": false
+      },
+      {
+        "option": "Deep fibular nerve",
+        "bool": false
+      },
+      {
+        "option": "Superficial fibular nerve",
         "bool": false
       },
       {
@@ -123,59 +185,43 @@
       {
         "option": "Common peroneal nerve",
         "bool": true
-      },
-      {
-        "option": "Deep fibular nerve",
-        "bool": false
-      },
-      {
-        "option": "Superficial fibular nerve",
-        "bool": false
       }
     ]
   },
   {
-    "id": 5,
+    "id": 7,
     "info": "1st-year/locomotor/2021",
     "question": "What is chondroitin sulfate made of?",
     "answers": [
+      {
+        "option": "N-acetylgalactosamine + iduronic acid",
+        "bool": false
+      },
       {
         "option": "N-acetylglucosamine + iduronic acid",
         "bool": false
       },
       {
-        "option": "Glucuronic acid+ iduronic acid",
-        "bool": false
-      },
-      {
-        "option": "N-acetylgalactosamine + iduronic acid",
-        "bool": false
+        "option": "N-acetylgalactosamine + glucuronic acid",
+        "bool": true
       },
       {
         "option": "N-acetylglucosamine + glucuronic acid",
         "bool": false
       },
       {
-        "option": "N-acetylgalactosamine + glucuronic acid",
-        "bool": true
+        "option": "Glucuronic acid+ iduronic acid",
+        "bool": false
       }
     ]
   },
   {
-    "id": 6,
+    "id": 8,
     "info": "1st-year/locomotor/2021",
     "question": "Nernst equation describes the relationship of diffusion potential to which of the following across a semipermeable membrane?",
     "answers": [
       {
-        "option": "Concentration of a single ion",
-        "bool": true
-      },
-      {
         "option": "Co-transport",
-        "bool": false
-      },
-      {
-        "option": "Concentration of multiple ions",
         "bool": false
       },
       {
@@ -183,20 +229,24 @@
         "bool": false
       },
       {
+        "option": "Concentration of multiple ions",
+        "bool": false
+      },
+      {
         "option": "Facilitated diffusion",
         "bool": false
+      },
+      {
+        "option": "Concentration of a single ion",
+        "bool": true
       }
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "info": "1st-year/locomotor/2021",
     "question": "Against which of the following are autoantibodies produced in Lambert-Eaton syndrome?",
     "answers": [
-      {
-        "option": "Sodium channels",
-        "bool": false
-      },
       {
         "option": "Presynaptic calcium channels",
         "bool": true
@@ -206,71 +256,75 @@
         "bool": false
       },
       {
+        "option": "Muscle proteins",
+        "bool": false
+      },
+      {
         "option": "Acetylcholine channels",
         "bool": false
       },
       {
-        "option": "Muscle proteins",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "info": "1st-year/locomotor/2021",
-    "question": "Which muscle unlocks the knee joint?",
-    "answers": [
-      {
-        "option": "Popliteus",
-        "bool": true
-      },
-      {
-        "option": "Biceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Gastrocnemius",
-        "bool": false
-      },
-      {
-        "option": "Quadriceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Plantaris",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "info": "1st-year/locomotor/2021",
-    "question": "Damage to which nerve presents as the claw hand?",
-    "answers": [
-      {
-        "option": "Ulnar nerve",
-        "bool": true
-      },
-      {
-        "option": "Radial nerve",
-        "bool": false
-      },
-      {
-        "option": "Musculocutaneous nerve",
-        "bool": false
-      },
-      {
-        "option": "Axillary nerve",
-        "bool": false
-      },
-      {
-        "option": "Median nerve",
+        "option": "Sodium channels",
         "bool": false
       }
     ]
   },
   {
     "id": 10,
+    "info": "1st-year/locomotor/2021",
+    "question": "Which muscle unlocks the knee joint?",
+    "answers": [
+      {
+        "option": "Quadriceps femoris",
+        "bool": false
+      },
+      {
+        "option": "Popliteus",
+        "bool": true
+      },
+      {
+        "option": "Gastrocnemius",
+        "bool": false
+      },
+      {
+        "option": "Plantaris",
+        "bool": false
+      },
+      {
+        "option": "Biceps femoris",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "1st-year/locomotor/2021",
+    "question": "Damage to which nerve presents as the claw hand?",
+    "answers": [
+      {
+        "option": "Axillary nerve",
+        "bool": false
+      },
+      {
+        "option": "Ulnar nerve",
+        "bool": true
+      },
+      {
+        "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
+        "option": "Median nerve",
+        "bool": false
+      },
+      {
+        "option": "Radial nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
     "info": "1st-year/locomotor/2021",
     "question": "Cyclones are classified as which type of disasters?",
     "answers": [
@@ -279,7 +333,7 @@
         "bool": false
       },
       {
-        "option": "Topological",
+        "option": "Telluric and tectonic",
         "bool": false
       },
       {
@@ -287,7 +341,7 @@
         "bool": false
       },
       {
-        "option": "Telluric and tectonic",
+        "option": "Topological",
         "bool": false
       },
       {
@@ -297,20 +351,12 @@
     ]
   },
   {
-    "id": 11,
+    "id": 13,
     "info": "1st-year/locomotor/2021",
     "question": "In a patient, the iliopsoas is found paralyzed. Which of the following muscle will undergo hypertrophy to compensate for hip flexion?",
     "answers": [
       {
-        "option": "Pectineus",
-        "bool": false
-      },
-      {
-        "option": "Rectus femoris",
-        "bool": false
-      },
-      {
-        "option": "Vastus intermedius",
+        "option": "Semimembranosus",
         "bool": false
       },
       {
@@ -318,22 +364,30 @@
         "bool": true
       },
       {
-        "option": "Semimembranosus",
+        "option": "Pectineus",
+        "bool": false
+      },
+      {
+        "option": "Vastus intermedius",
+        "bool": false
+      },
+      {
+        "option": "Rectus femoris",
         "bool": false
       }
     ]
   },
   {
-    "id": 12,
+    "id": 14,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following anatomical descriptions can help a surgeon to harvest a part of a great saphenous vein for grafting?",
     "answers": [
       {
-        "option": "It originates from the femoral vein",
+        "option": "It passes deep to the fascia lata of the thigh",
         "bool": false
       },
       {
-        "option": "It lies posterior to medial malleolus",
+        "option": "It originates from the femoral vein",
         "bool": false
       },
       {
@@ -345,18 +399,22 @@
         "bool": false
       },
       {
-        "option": "It passes deep to the fascia lata of the thigh",
+        "option": "It lies posterior to medial malleolus",
         "bool": false
       }
     ]
   },
   {
-    "id": 13,
+    "id": 15,
     "info": "1st-year/locomotor/2021",
     "question": "What is the mechanism of action of methylxanthine?",
     "answers": [
       {
-        "option": "Regulation of intracellular sodium levels",
+        "option": "Alpha-adrenergic receptor stimulation",
+        "bool": false
+      },
+      {
+        "option": "Regulation of intracellular fluoride levels",
         "bool": false
       },
       {
@@ -364,11 +422,7 @@
         "bool": true
       },
       {
-        "option": "Regulation of intracellular fluoride levels",
-        "bool": false
-      },
-      {
-        "option": "Alpha-adrenergic receptor stimulation",
+        "option": "Regulation of intracellular sodium levels",
         "bool": false
       },
       {
@@ -378,20 +432,16 @@
     ]
   },
   {
-    "id": 14,
+    "id": 16,
     "info": "1st-year/locomotor/2021",
     "question": "Cartilages are made up of which type of collagen fibers?",
     "answers": [
       {
-        "option": "Type 3",
-        "bool": false
+        "option": "Type 2",
+        "bool": true
       },
       {
         "option": "Type 1",
-        "bool": false
-      },
-      {
-        "option": "Type 4",
         "bool": false
       },
       {
@@ -399,31 +449,35 @@
         "bool": false
       },
       {
-        "option": "Type 2",
-        "bool": true
+        "option": "Type 3",
+        "bool": false
+      },
+      {
+        "option": "Type 4",
+        "bool": false
       }
     ]
   },
   {
-    "id": 15,
+    "id": 17,
     "info": "1st-year/locomotor/2021",
     "question": "During skeletal muscle contraction, when the myosin heads bind to actin, the Fenn effect occurs. Which of the following correctly describes this phenomenon?",
     "answers": [
       {
-        "option": "Work done is directly proportional to Ca2+ cleaved",
+        "option": "Work done is directly proportional to  Ca2+ cleaved",
         "bool": false
       },
       {
-        "option": "Work done is directly proportional to ATP cleaved",
-        "bool": true
+        "option": "Work done is directly proportional to ATP and Mg2+ cleaved",
+        "bool": false
       },
       {
         "option": "Work done is inversely proportional to ATP cleaved",
         "bool": false
       },
       {
-        "option": "Work done is directly proportional to ATP and Mg2+ cleaved",
-        "bool": false
+        "option": "Work done is directly proportional to ATP cleaved",
+        "bool": true
       },
       {
         "option": "Work done is inversely proportional to ATP and Mg2+ cleaved",
@@ -432,12 +486,20 @@
     ]
   },
   {
-    "id": 16,
+    "id": 18,
     "info": "1st-year/locomotor/2021",
     "question": "A woman comes in with the complaint of being unable to climb stairs. Which muscle is most likely to be weakened?",
     "answers": [
       {
-        "option": "Piriformis",
+        "option": "Biceps femoris",
+        "bool": false
+      },
+      {
+        "option": "Obturator externus",
+        "bool": false
+      },
+      {
+        "option": "Gluteus medius",
         "bool": false
       },
       {
@@ -445,30 +507,22 @@
         "bool": true
       },
       {
-        "option": "Obturator externus",
-        "bool": false
-      },
-      {
-        "option": "Biceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Gluteus medius",
+        "option": "Piriformis",
         "bool": false
       }
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "info": "1st-year/locomotor/2021",
     "question": "Collagen synthesis requires hydroxylation of lysine and proline residues. Which of the following is necessary as a cofactor for this hydroxylation?",
     "answers": [
       {
-        "option": "Vitamin E",
+        "option": "Vitamin B12",
         "bool": false
       },
       {
-        "option": "Vitamin B",
+        "option": "Vitamin A",
         "bool": false
       },
       {
@@ -476,44 +530,44 @@
         "bool": true
       },
       {
-        "option": "Vitamin A",
+        "option": "Vitamin B",
         "bool": false
       },
       {
-        "option": "Vitamin B12",
+        "option": "Vitamin E",
         "bool": false
       }
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following enzymes is deficient in the Hurler syndrome?",
     "answers": [
       {
-        "option": "Alpha-L-iduronidase",
-        "bool": true
+        "option": "Beta-glucuronidase",
+        "bool": false
       },
       {
         "option": "Heparin sulfamidase",
         "bool": false
       },
       {
-        "option": "Beta-glucuronidase",
+        "option": "Alpha-L-iduronidase",
+        "bool": true
+      },
+      {
+        "option": "Iduronate-2-sulfatase",
         "bool": false
       },
       {
         "option": "N-acetyl-glucosaminidase",
         "bool": false
-      },
-      {
-        "option": "Iduronate-2-sulfatase",
-        "bool": false
       }
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "info": "1st-year/locomotor/2021",
     "question": "What is a term used for continuous, sustained contraction with no relaxation?",
     "answers": [
@@ -522,7 +576,7 @@
         "bool": true
       },
       {
-        "option": "Incomplete tetanus",
+        "option": "Treppe",
         "bool": false
       },
       {
@@ -534,24 +588,16 @@
         "bool": false
       },
       {
-        "option": "Treppe",
+        "option": "Incomplete tetanus",
         "bool": false
       }
     ]
   },
   {
-    "id": 20,
+    "id": 22,
     "info": "1st-year/locomotor/2021",
     "question": "Which nerve supplies the teres major muscle?",
     "answers": [
-      {
-        "option": "Radial nerve",
-        "bool": false
-      },
-      {
-        "option": "Suprascapular nerve",
-        "bool": false
-      },
       {
         "option": "Axillary nerve",
         "bool": false
@@ -561,18 +607,26 @@
         "bool": false
       },
       {
+        "option": "Radial nerve",
+        "bool": false
+      },
+      {
+        "option": "Suprascapular nerve",
+        "bool": false
+      },
+      {
         "option": "Lower subscapular nerve",
         "bool": true
       }
     ]
   },
   {
-    "id": 21,
+    "id": 23,
     "info": "1st-year/locomotor/2021",
     "question": "What is the velocity of the action potential through the skeletal muscle?",
     "answers": [
       {
-        "option": "20-30 m/s",
+        "option": "2-3 m/s",
         "bool": false
       },
       {
@@ -588,22 +642,18 @@
         "bool": false
       },
       {
-        "option": "2-3 m/s",
+        "option": "20-30 m/s",
         "bool": false
       }
     ]
   },
   {
-    "id": 22,
+    "id": 24,
     "info": "1st-year/locomotor/2021",
     "question": "A 67-year-old man develops bow legs and pain over a period of 5 years, and progressive hearing loss over a period of 2 years. Bone biopsy shows a mosaic pattern. Serum electrolyte patterns are normal. What is the patient suffering from?",
     "answers": [
       {
         "option": "Giant cell tumor",
-        "bool": false
-      },
-      {
-        "option": "Neurological symptoms",
         "bool": false
       },
       {
@@ -617,51 +667,51 @@
       {
         "option": "Chalk stick fracture",
         "bool": false
+      },
+      {
+        "option": "Neurological symptoms",
+        "bool": false
       }
     ]
   },
   {
-    "id": 23,
+    "id": 25,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following is true regarding the contents of the cubital fossa?",
     "answers": [
-      {
-        "option": "The median nerve is lateral to the brachial artery",
-        "bool": false
-      },
       {
         "option": "All the superficial veins are deep into the cutaneous nerve",
         "bool": false
       },
       {
-        "option": "The ulnar nerve is on the medial side",
-        "bool": false
+        "option": "The radial nerve is on the lateral side",
+        "bool": true
       },
       {
         "option": "The brachial artery is lateral to the tendon of biceps brachii",
         "bool": false
       },
       {
-        "option": "The radial nerve is on the lateral side",
-        "bool": true
+        "option": "The median nerve is lateral to the brachial artery",
+        "bool": false
+      },
+      {
+        "option": "The ulnar nerve is on the medial side",
+        "bool": false
       }
     ]
   },
   {
-    "id": 24,
+    "id": 26,
     "info": "1st-year/locomotor/2021",
     "question": "A gunshot wound at the axilla severely injures the posterior cord of the brachial plexus. Which of the following muscles would be affected?",
     "answers": [
       {
-        "option": "Pronator teres",
-        "bool": false
-      },
-      {
-        "option": "Rhomboid major",
-        "bool": false
-      },
-      {
         "option": "Subclavius",
+        "bool": false
+      },
+      {
+        "option": "Pronator teres",
         "bool": false
       },
       {
@@ -671,59 +721,9 @@
       {
         "option": "Bicep brachii",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "info": "1st-year/locomotor/2021",
-    "question": "A 35-year-old male was referred from an orthopedic out-patient department with intermittent locking of the right knee. He was evaluated with an anteroposterior and lateral view of the knee joint which showed a normal appearance of the knee joint with no loose body. Which additional view can be used to identify the loose body?",
-    "answers": [
-      {
-        "option": "Oblique view",
-        "bool": false
       },
       {
-        "option": "Tunnel view",
-        "bool": true
-      },
-      {
-        "option": "Skyline view",
-        "bool": false
-      },
-      {
-        "option": "Anteroposterior weight bearing view",
-        "bool": false
-      },
-      {
-        "option": "Horizontal beam lateral view",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "info": "1st-year/locomotor/2021",
-    "question": "What is the diffusion potential that inhibits the net diffusion of a particular ion across the membrane called?",
-    "answers": [
-      {
-        "option": "Inhibitory postsynaptic potential",
-        "bool": false
-      },
-      {
-        "option": "Action potential",
-        "bool": false
-      },
-      {
-        "option": "Graded potential",
-        "bool": false
-      },
-      {
-        "option": "Nernst potential",
-        "bool": true
-      },
-      {
-        "option": "Postsynaptic potential",
+        "option": "Rhomboid major",
         "bool": false
       }
     ]
@@ -731,14 +731,64 @@
   {
     "id": 27,
     "info": "1st-year/locomotor/2021",
-    "question": "A man is referred to the outpatient department with no extension of proximal and middle phalanges of the 4th and 5th digits. He also has a thickening of palmar aponeurosis and digital slips. What is the proximal attachment of the thickening?",
+    "question": "A 35-year-old male was referred from an orthopedic out-patient department with intermittent locking of the right knee. He was evaluated with an anteroposterior and lateral view of the knee joint which showed a normal appearance of the knee joint with no loose body. Which additional view can be used to identify the loose body?",
     "answers": [
       {
-        "option": "Flexor digitorum profundus",
+        "option": "Tunnel view",
+        "bool": true
+      },
+      {
+        "option": "Horizontal beam lateral view",
         "bool": false
       },
       {
-        "option": "Flexor carpi ulnaris",
+        "option": "Oblique view",
+        "bool": false
+      },
+      {
+        "option": "Anteroposterior weight bearing view",
+        "bool": false
+      },
+      {
+        "option": "Skyline view",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "1st-year/locomotor/2021",
+    "question": "What is the diffusion potential that inhibits the net diffusion of a particular ion across the membrane called?",
+    "answers": [
+      {
+        "option": "Action potential",
+        "bool": false
+      },
+      {
+        "option": "Postsynaptic potential",
+        "bool": false
+      },
+      {
+        "option": "Inhibitory postsynaptic potential",
+        "bool": false
+      },
+      {
+        "option": "Nernst potential",
+        "bool": true
+      },
+      {
+        "option": "Graded potential",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "1st-year/locomotor/2021",
+    "question": "A man is referred to the outpatient department with no extension of proximal and middle phalanges of the 4th and 5th digits. He also has a thickening of palmar aponeurosis and digital slips. What is the proximal attachment of the thickening?",
+    "answers": [
+      {
+        "option": "Flexor policis longus",
         "bool": false
       },
       {
@@ -746,23 +796,27 @@
         "bool": false
       },
       {
-        "option": "Flexor policis longus",
+        "option": "Palmaris longus",
+        "bool": true
+      },
+      {
+        "option": "Flexor digitorum profundus",
         "bool": false
       },
       {
-        "option": "Palmaris longus",
-        "bool": true
+        "option": "Flexor carpi ulnaris",
+        "bool": false
       }
     ]
   },
   {
-    "id": 28,
+    "id": 30,
     "info": "1st-year/locomotor/2021",
-    "question": "A man\u2019s medial superficial inguinal lymph nodes are enlarged. Where will these lymph nodes be found?",
+    "question": "A man’s medial superficial inguinal lymph nodes are enlarged. Where will these lymph nodes be found?",
     "answers": [
       {
-        "option": "Skin of leg",
-        "bool": false
+        "option": "Groin",
+        "bool": true
       },
       {
         "option": "Penis",
@@ -773,30 +827,26 @@
         "bool": false
       },
       {
-        "option": "Groin",
-        "bool": true
+        "option": "Rectum",
+        "bool": false
       },
       {
-        "option": "Rectum",
+        "option": "Skin of leg",
         "bool": false
       }
     ]
   },
   {
-    "id": 29,
+    "id": 31,
     "info": "1st-year/locomotor/2021",
     "question": "Osteoclasts are bone cells with which of the following properties?",
     "answers": [
       {
-        "option": "They are immature cells",
+        "option": "They give rise to osteophytes",
         "bool": false
       },
       {
         "option": "They contain large amount of rough endoplasmic reticulum",
-        "bool": false
-      },
-      {
-        "option": "They give rise to osteophytes",
         "bool": false
       },
       {
@@ -806,17 +856,29 @@
       {
         "option": "They communicate through gap junctions",
         "bool": false
+      },
+      {
+        "option": "They are immature cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 30,
+    "id": 32,
     "info": "1st-year/locomotor/2021",
     "question": "Which type of junction protein is not important for cell adhesion?",
     "answers": [
       {
+        "option": "Cell adhesion molecules (CAMs)",
+        "bool": false
+      },
+      {
         "option": "Calmodulin",
         "bool": true
+      },
+      {
+        "option": "Integrins",
+        "bool": false
       },
       {
         "option": "Selectins",
@@ -825,29 +887,21 @@
       {
         "option": "Cadherin",
         "bool": false
-      },
-      {
-        "option": "Integrins",
-        "bool": false
-      },
-      {
-        "option": "Cell adhesion molecules (CAMs)",
-        "bool": false
       }
     ]
   },
   {
-    "id": 31,
+    "id": 33,
     "info": "1st-year/locomotor/2021",
     "question": "Which muscles are the flexors of the elbow joint?",
     "answers": [
       {
-        "option": "Anconeus and brachioradialis",
+        "option": "Coracobrachialis and brachialis",
         "bool": false
       },
       {
-        "option": "Coracobrachialis and brachialis",
-        "bool": false
+        "option": "Biceps brachii and brachialis",
+        "bool": true
       },
       {
         "option": "Brachialis and anconeus",
@@ -858,18 +912,22 @@
         "bool": false
       },
       {
-        "option": "Biceps brachii and brachialis",
-        "bool": true
+        "option": "Anconeus and brachioradialis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 32,
+    "id": 34,
     "info": "1st-year/locomotor/2021",
     "question": "Skeletal muscle contraction is initiated by the neuromuscular junction. What is the first step in this process of skeletal muscle contraction?",
     "answers": [
       {
-        "option": "Opening of the presynaptic calcium channel",
+        "option": "Binding of calcium with the neurotransmitter vesicles",
+        "bool": false
+      },
+      {
+        "option": "Release of neurotransmitter acetylcholine",
         "bool": false
       },
       {
@@ -881,24 +939,16 @@
         "bool": true
       },
       {
-        "option": "Binding of calcium with the neurotransmitter vesicles",
-        "bool": false
-      },
-      {
-        "option": "Release of neurotransmitter acetylcholine",
+        "option": "Opening of the presynaptic calcium channel",
         "bool": false
       }
     ]
   },
   {
-    "id": 33,
+    "id": 35,
     "info": "1st-year/locomotor/2021",
     "question": "A patient comes to the outpatient department with a fracture of the upper part of the femur. Which of the following structures will not be affected?",
     "answers": [
-      {
-        "option": "Head of the femur",
-        "bool": false
-      },
       {
         "option": "Intertrochanteric line",
         "bool": false
@@ -908,27 +958,35 @@
         "bool": false
       },
       {
+        "option": "Neck of the femur",
+        "bool": false
+      },
+      {
         "option": "Adductor tubercle",
         "bool": true
       },
       {
-        "option": "Neck of the femur",
+        "option": "Head of the femur",
         "bool": false
       }
     ]
   },
   {
-    "id": 34,
+    "id": 36,
     "info": "1st-year/locomotor/2021",
     "question": "Smooth muscle contraction begins with calcium binding to which of the following?",
     "answers": [
       {
-        "option": "Calmodulin",
-        "bool": true
-      },
-      {
         "option": "Actin",
         "bool": false
+      },
+      {
+        "option": "Tropomyosin",
+        "bool": false
+      },
+      {
+        "option": "Calmodulin",
+        "bool": true
       },
       {
         "option": "Troponin",
@@ -937,15 +995,11 @@
       {
         "option": "Myosin",
         "bool": false
-      },
-      {
-        "option": "Tropomyosin",
-        "bool": false
       }
     ]
   },
   {
-    "id": 35,
+    "id": 37,
     "info": "1st-year/locomotor/2021",
     "question": "Which nerve is damaged in a fracture of the surgical neck of the humerus?",
     "answers": [
@@ -954,28 +1008,36 @@
         "bool": true
       },
       {
-        "option": "Median nerve",
-        "bool": false
-      },
-      {
         "option": "Radial nerve",
         "bool": false
       },
       {
-        "option": "Ulnar nerve",
+        "option": "Median nerve",
         "bool": false
       },
       {
         "option": "Dorsal scapular nerve",
         "bool": false
+      },
+      {
+        "option": "Ulnar nerve",
+        "bool": false
       }
     ]
   },
   {
-    "id": 36,
+    "id": 38,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following features of compact bone is different from that of a spongy bone?",
     "answers": [
+      {
+        "option": "It is also called cancellous bone",
+        "bool": false
+      },
+      {
+        "option": "It has a Haversian system",
+        "bool": true
+      },
       {
         "option": "Cranial bones are made up from this",
         "bool": false
@@ -985,27 +1047,19 @@
         "bool": false
       },
       {
-        "option": "It has a Haversian system",
-        "bool": true
-      },
-      {
         "option": "Lines medullary cavity",
-        "bool": false
-      },
-      {
-        "option": "It is also called cancellous bone",
         "bool": false
       }
     ]
   },
   {
-    "id": 37,
+    "id": 39,
     "info": "1st-year/locomotor/2021",
     "question": "What marks the end of the action potential peak?",
     "answers": [
       {
-        "option": "Closing of Na+ channels",
-        "bool": true
+        "option": "Closing of K+ channels",
+        "bool": false
       },
       {
         "option": "Opening of Ca2+ channels",
@@ -1016,34 +1070,34 @@
         "bool": false
       },
       {
-        "option": "Closing of K+ channels",
+        "option": "Closing of Ca2+ channels",
         "bool": false
       },
       {
-        "option": "Closing of Ca2+ channels",
-        "bool": false
+        "option": "Closing of Na+ channels",
+        "bool": true
       }
     ]
   },
   {
-    "id": 38,
+    "id": 40,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following is a characteristic of renal osteodystrophy due to hyperparathyroidism?",
     "answers": [
       {
-        "option": "Normal vitamin D3 level",
-        "bool": false
+        "option": "Hypocalcemia and hyperphosphatemia",
+        "bool": true
       },
       {
         "option": "Chronic hypophosphatemia and hypocalcemia",
         "bool": false
       },
       {
-        "option": "Hypocalcemia and hyperphosphatemia",
-        "bool": true
+        "option": "Normal serum phosphatase level",
+        "bool": false
       },
       {
-        "option": "Normal serum phosphatase level",
+        "option": "Normal vitamin D3 level",
         "bool": false
       },
       {
@@ -1053,14 +1107,10 @@
     ]
   },
   {
-    "id": 39,
+    "id": 41,
     "info": "1st-year/locomotor/2021",
     "question": "Microscopically, compact bone contains an osteon or Haversian system comprising the Haversian canal and lamellae containing a matrix with collagen. Which type of collagen does compact bone have?",
     "answers": [
-      {
-        "option": "Type VII",
-        "bool": false
-      },
       {
         "option": "Type I",
         "bool": true
@@ -1070,22 +1120,34 @@
         "bool": false
       },
       {
+        "option": "Type IV",
+        "bool": false
+      },
+      {
         "option": "Type III",
         "bool": false
       },
       {
-        "option": "Type IV",
+        "option": "Type VII",
         "bool": false
       }
     ]
   },
   {
-    "id": 40,
+    "id": 42,
     "info": "1st-year/locomotor/2021",
     "question": "A young medical student went to the outpatient department to check on a 50-year-old patient. He introduced himself as a doctor and prescribed some medicines. He was super proud of his achievement and told his teacher about it, who disapproved of his behavior. What was the reason for the disapproval of the teacher?",
     "answers": [
       {
-        "option": "He did not explain the patient\u2019s disease",
+        "option": "He introduced himself as a doctor",
+        "bool": true
+      },
+      {
+        "option": "He did not explain the patient’s disease",
+        "bool": false
+      },
+      {
+        "option": "He discussed it with his teacher",
         "bool": false
       },
       {
@@ -1095,28 +1157,20 @@
       {
         "option": "He was proud on his wrong treatment",
         "bool": false
-      },
-      {
-        "option": "He introduced himself as a doctor",
-        "bool": true
-      },
-      {
-        "option": "He discussed it with his teacher",
-        "bool": false
       }
     ]
   },
   {
-    "id": 41,
+    "id": 43,
     "info": "1st-year/locomotor/2021",
     "question": "An action potential arrives at a muscle. The muscle would get depolarized when which of the following ions moves through the membrane?",
     "answers": [
       {
-        "option": "K+",
+        "option": "Cl-",
         "bool": false
       },
       {
-        "option": "Mg+2",
+        "option": "K+",
         "bool": false
       },
       {
@@ -1128,61 +1182,7 @@
         "bool": true
       },
       {
-        "option": "Cl-",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "info": "1st-year/locomotor/2021",
-    "question": "Which of the following can cause inhibition of action potential?",
-    "answers": [
-      {
-        "option": "Influx of calcium",
-        "bool": false
-      },
-      {
-        "option": "Influx of chloride",
-        "bool": true
-      },
-      {
-        "option": "Influx of bicarbonate",
-        "bool": false
-      },
-      {
-        "option": "Influx of potassium",
-        "bool": false
-      },
-      {
-        "option": "Influx of sodium",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "info": "1st-year/locomotor/2021",
-    "question": "The resting membrane potential of the membrane is -90 mv. What causes the -86 mv?",
-    "answers": [
-      {
-        "option": "All of these",
-        "bool": false
-      },
-      {
-        "option": "Na+-K+ pump",
-        "bool": false
-      },
-      {
-        "option": "Leaky Na+ and K+ channels",
-        "bool": true
-      },
-      {
-        "option": "Voltage gated Ca2+ channels",
-        "bool": false
-      },
-      {
-        "option": "Voltage gated Na+ channels",
+        "option": "Mg+2",
         "bool": false
       }
     ]
@@ -1190,122 +1190,10 @@
   {
     "id": 44,
     "info": "1st-year/locomotor/2021",
-    "question": "Which of the following is the most accurate statement?",
-    "answers": [
-      {
-        "option": "Apical ectodermal ridge (AER) has a negative effect",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Upper limb buds are evident earlier than lower limb buds",
-        "bool": true
-      },
-      {
-        "option": "Limb buds become visible in the sixth week of development",
-        "bool": false
-      },
-      {
-        "option": "Limbs of different mammals are different",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "info": "1st-year/locomotor/2021",
-    "question": "The muscles of the posterior compartment of the thigh are attached to which of the following structures?",
-    "answers": [
-      {
-        "option": "Linea aspera",
-        "bool": false
-      },
-      {
-        "option": "Ishiopubic ramus",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Medial condyle",
-        "bool": false
-      },
-      {
-        "option": "Ischial tuberosity",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "info": "1st-year/locomotor/2021",
-    "question": "After an injury to the right foot, a person cannot dorsiflex his foot. This is due to damage to which of the following nerves?",
-    "answers": [
-      {
-        "option": "Tibial nerve",
-        "bool": false
-      },
-      {
-        "option": "Saphenous nerve",
-        "bool": false
-      },
-      {
-        "option": "Deep peroneal nerve",
-        "bool": true
-      },
-      {
-        "option": "Superficial peroneal nerve",
-        "bool": false
-      },
-      {
-        "option": "Sural nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "info": "1st-year/locomotor/2021",
-    "question": "A patient has lung cancer and is told by the doctor to undergo a pulmonary biopsy and resection for treatment. The patient does not believe that he has lung cancer and does not want to undergo surgery even though the physician tells the patient about the low mortality rate of the surgery. What should the physician do?",
-    "answers": [
-      {
-        "option": "Give him weekly visits and encourage him to seek a second opinion",
-        "bool": true
-      },
-      {
-        "option": "Detain him and have a meeting with the board",
-        "bool": false
-      },
-      {
-        "option": "Inform his family and relatives",
-        "bool": false
-      },
-      {
-        "option": "Force him to undergo surgery",
-        "bool": false
-      },
-      {
-        "option": "Threaten him if he refuses to have his surgery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "info": "1st-year/locomotor/2021",
     "question": "Which of the following is a property of skeletal muscle?",
     "answers": [
       {
         "option": "Rhythmicity",
-        "bool": false
-      },
-      {
-        "option": "Syncytium",
         "bool": false
       },
       {
@@ -1317,16 +1205,28 @@
         "bool": false
       },
       {
+        "option": "Syncytium",
+        "bool": false
+      },
+      {
         "option": "Self-excitation",
         "bool": false
       }
     ]
   },
   {
-    "id": 49,
+    "id": 45,
     "info": "1st-year/locomotor/2021",
     "question": "The scapula is formed by which of the following structures?",
     "answers": [
+      {
+        "option": "Axial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Somatic lateral plate mesoderm",
+        "bool": true
+      },
       {
         "option": "Neural crest cells",
         "bool": false
@@ -1336,34 +1236,161 @@
         "bool": false
       },
       {
-        "option": "Somatic lateral plate mesoderm",
-        "bool": true
-      },
-      {
-        "option": "Axial mesoderm",
-        "bool": false
-      },
-      {
         "option": "Splanchnic lateral plate mesoderm",
         "bool": false
       }
     ]
   },
   {
+    "id": 46,
+    "info": "1st-year/locomotor/2021",
+    "question": "The resting membrane potential of the membrane is -90 mv. What causes the -86 mv?",
+    "answers": [
+      {
+        "option": "Voltage gated Na+ channels",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Voltage gated Ca2+ channels",
+        "bool": false
+      },
+      {
+        "option": "Na+-K+ pump",
+        "bool": false
+      },
+      {
+        "option": "Leaky Na+ and K+ channels",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "1st-year/locomotor/2021",
+    "question": "Which of the following is the most accurate statement?",
+    "answers": [
+      {
+        "option": "Apical ectodermal ridge (AER) has a negative effect",
+        "bool": false
+      },
+      {
+        "option": "Limbs of different mammals are different",
+        "bool": false
+      },
+      {
+        "option": "Limb buds become visible in the sixth week of development",
+        "bool": false
+      },
+      {
+        "option": "Upper limb buds are evident earlier than lower limb buds",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "1st-year/locomotor/2021",
+    "question": "The muscles of the posterior compartment of the thigh are attached to which of the following structures?",
+    "answers": [
+      {
+        "option": "Ischial tuberosity",
+        "bool": true
+      },
+      {
+        "option": "Ishiopubic ramus",
+        "bool": false
+      },
+      {
+        "option": "Linea aspera",
+        "bool": false
+      },
+      {
+        "option": "Medial condyle",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "1st-year/locomotor/2021",
+    "question": "After an injury to the right foot, a person cannot dorsiflex his foot. This is due to damage to which of the following nerves?",
+    "answers": [
+      {
+        "option": "Superficial peroneal nerve",
+        "bool": false
+      },
+      {
+        "option": "Tibial nerve",
+        "bool": false
+      },
+      {
+        "option": "Sural nerve",
+        "bool": false
+      },
+      {
+        "option": "Saphenous nerve",
+        "bool": false
+      },
+      {
+        "option": "Deep peroneal nerve",
+        "bool": true
+      }
+    ]
+  },
+  {
     "id": 50,
+    "info": "1st-year/locomotor/2021",
+    "question": "A patient has lung cancer and is told by the doctor to undergo a pulmonary biopsy and resection for treatment. The patient does not believe that he has lung cancer and does not want to undergo surgery even though the physician tells the patient about the low mortality rate of the surgery. What should the physician do?",
+    "answers": [
+      {
+        "option": "Threaten him if he refuses to have his surgery",
+        "bool": false
+      },
+      {
+        "option": "Force him to undergo surgery",
+        "bool": false
+      },
+      {
+        "option": "Give him weekly visits and encourage him to seek a second opinion",
+        "bool": true
+      },
+      {
+        "option": "Inform his family and relatives",
+        "bool": false
+      },
+      {
+        "option": "Detain him and have a meeting with the board",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 51,
     "info": "1st-year/locomotor/2021",
     "question": "What type of disaster is a bushfire?",
     "answers": [
       {
-        "option": "Topographical hazard",
+        "option": "Meteorological disaster",
         "bool": false
       },
       {
-        "option": "Natural disaster",
-        "bool": true
+        "option": "Tectonic disaster",
+        "bool": false
       },
       {
-        "option": "Tectonic disaster",
+        "option": "Topographical hazard",
         "bool": false
       },
       {
@@ -1371,13 +1398,13 @@
         "bool": false
       },
       {
-        "option": "Meteorological disaster",
-        "bool": false
+        "option": "Natural disaster",
+        "bool": true
       }
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "info": "1st-year/locomotor/2021",
     "question": "The posterior cords of the brachial plexus are named according to their position relative to which of the following?",
     "answers": [
@@ -1386,46 +1413,19 @@
         "bool": false
       },
       {
-        "option": "Brachial artery",
-        "bool": false
-      },
-      {
         "option": "Axillary artery",
         "bool": true
+      },
+      {
+        "option": "Pectoralis major muscle",
+        "bool": false
       },
       {
         "option": "Pectoralis minor muscle",
         "bool": false
       },
       {
-        "option": "Pectoralis major muscle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "info": "1st-year/locomotor/2021",
-    "question": "Which of the following does not shorten or change during muscle contraction?",
-    "answers": [
-      {
-        "option": "I-Band",
-        "bool": false
-      },
-      {
-        "option": "A-Band",
-        "bool": true
-      },
-      {
-        "option": "Z-line",
-        "bool": false
-      },
-      {
-        "option": "Sarcomere",
-        "bool": false
-      },
-      {
-        "option": "H-band",
+        "option": "Brachial artery",
         "bool": false
       }
     ]
@@ -1433,26 +1433,26 @@
   {
     "id": 53,
     "info": "1st-year/locomotor/2021",
-    "question": "The collagen superfamily consists of 25 types. Which of the following is the most abundant type of collagen?",
+    "question": "Which of the following does not shorten or change during muscle contraction?",
     "answers": [
       {
-        "option": "1",
+        "option": "Z-line",
+        "bool": false
+      },
+      {
+        "option": "H-band",
+        "bool": false
+      },
+      {
+        "option": "A-Band",
         "bool": true
       },
       {
-        "option": "2",
+        "option": "I-Band",
         "bool": false
       },
       {
-        "option": "3",
-        "bool": false
-      },
-      {
-        "option": "4",
-        "bool": false
-      },
-      {
-        "option": "5",
+        "option": "Sarcomere",
         "bool": false
       }
     ]
@@ -1460,26 +1460,26 @@
   {
     "id": 54,
     "info": "1st-year/locomotor/2021",
-    "question": "For routine blood sample collection of a patient, the nurse selects a vein present superficially, in the subcutaneous tissue overlying the cubital fossa, in front of the bicipital aponeurosis. Which of the following vein is being used for venipuncture?",
+    "question": "The collagen superfamily consists of 25 types. Which of the following is the most abundant type of collagen?",
     "answers": [
       {
-        "option": "Basilic vein",
+        "option": "5",
         "bool": false
       },
       {
-        "option": "Median cubital vein",
+        "option": "4",
+        "bool": false
+      },
+      {
+        "option": "1",
         "bool": true
       },
       {
-        "option": "Axillary vein",
+        "option": "3",
         "bool": false
       },
       {
-        "option": "Median vein",
-        "bool": false
-      },
-      {
-        "option": "Cephalic vein",
+        "option": "2",
         "bool": false
       }
     ]
@@ -1487,14 +1487,37 @@
   {
     "id": 55,
     "info": "1st-year/locomotor/2021",
-    "question": "Which of the following is true about the brachial plexus?",
+    "question": "For routine blood sample collection of a patient, the nurse selects a vein present superficially, in the subcutaneous tissue overlying the cubital fossa, in front of the bicipital aponeurosis. Which of the following vein is being used for venipuncture?",
     "answers": [
       {
-        "option": "The roots of the brachial plexus originate behind the scalene muscles",
+        "option": "Cephalic vein",
         "bool": false
       },
       {
-        "option": "The roots divide behind the second part of the axillary artery",
+        "option": "Axillary vein",
+        "bool": false
+      },
+      {
+        "option": "Median cubital vein",
+        "bool": true
+      },
+      {
+        "option": "Basilic vein",
+        "bool": false
+      },
+      {
+        "option": "Median vein",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "1st-year/locomotor/2021",
+    "question": "Which of the following is true about the brachial plexus?",
+    "answers": [
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1502,20 +1525,28 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "The medial and lateral pectoral nerves have no cutaneous branches",
+        "bool": true
+      },
+      {
+        "option": "The roots of the brachial plexus originate behind the scalene muscles",
         "bool": false
       },
       {
-        "option": "The medial and lateral pectoral nerves have no cutaneous branches",
-        "bool": true
+        "option": "The roots divide behind the second part of the axillary artery",
+        "bool": false
       }
     ]
   },
   {
-    "id": 56,
+    "id": 57,
     "info": "1st-year/locomotor/2021",
     "question": "A patient after recovery from the fracture of the fibula complains of inversion of the foot. Diagnosis of paralysis of peroneus longus muscle is made due to compression of the tendon of paralyzed muscle attached to which of the following?",
     "answers": [
+      {
+        "option": "Cuboid",
+        "bool": false
+      },
       {
         "option": "Lateral cuneiform",
         "bool": false
@@ -1525,21 +1556,17 @@
         "bool": false
       },
       {
-        "option": "Cuboid",
+        "option": "Talus",
         "bool": false
       },
       {
         "option": "Medial cuneiform",
         "bool": true
-      },
-      {
-        "option": "Talus",
-        "bool": false
       }
     ]
   },
   {
-    "id": 57,
+    "id": 58,
     "info": "1st-year/locomotor/2021",
     "question": "A female patient is brought to the emergency department. X-ray findings show a fracture of the femoral neck and avascular necrosis of the femoral head. This is most likely a consequence of interruption to the blood supply to the head of the femur. What is the source of blood supply to the femoral head?",
     "answers": [
@@ -1548,43 +1575,43 @@
         "bool": false
       },
       {
-        "option": "Femoral artery",
+        "option": "Tibial artery",
         "bool": false
       },
       {
-        "option": "Branches from the profunda femoris artery",
-        "bool": true
-      },
-      {
-        "option": "Tibial artery",
+        "option": "Femoral artery",
         "bool": false
       },
       {
         "option": "Obturator artery",
         "bool": false
+      },
+      {
+        "option": "Branches from the profunda femoris artery",
+        "bool": true
       }
     ]
   },
   {
-    "id": 58,
+    "id": 59,
     "info": "1st-year/locomotor/2021",
     "question": "Outward rotation of the leg with the knee semi-flexed is a function of which muscle?",
     "answers": [
-      {
-        "option": "Semitendinosus",
-        "bool": false
-      },
-      {
-        "option": "Biceps femoris",
-        "bool": true
-      },
       {
         "option": "Sartorius",
         "bool": false
       },
       {
+        "option": "Semitendinosus",
+        "bool": false
+      },
+      {
         "option": "Semimembranosus",
         "bool": false
+      },
+      {
+        "option": "Biceps femoris",
+        "bool": true
       },
       {
         "option": "Gracilis",
@@ -1593,39 +1620,47 @@
     ]
   },
   {
-    "id": 59,
+    "id": 60,
     "info": "1st-year/locomotor/2021",
     "question": "In Paget disease, the activity of osteoblasts is determined by which of the following?",
     "answers": [
-      {
-        "option": "Bone calcium",
-        "bool": false
-      },
       {
         "option": "Bone alkaline phosphatase",
         "bool": false
       },
       {
-        "option": "Serum calcium",
+        "option": "Bone calcium",
         "bool": false
+      },
+      {
+        "option": "Serum alkaline phosphatase",
+        "bool": true
       },
       {
         "option": "Serum phosphorus",
         "bool": false
       },
       {
-        "option": "Serum alkaline phosphatase",
-        "bool": true
+        "option": "Serum calcium",
+        "bool": false
       }
     ]
   },
   {
-    "id": 60,
+    "id": 61,
     "info": "1st-year/locomotor/2021",
     "question": "A person is having pain and tenderness in the left ankle joint. Which structure is most likely to be ruptured?",
     "answers": [
       {
+        "option": "Lateral ligament",
+        "bool": true
+      },
+      {
         "option": "Posterior cruciate ligament",
+        "bool": false
+      },
+      {
+        "option": "Medial ligament",
         "bool": false
       },
       {
@@ -1635,59 +1670,51 @@
       {
         "option": "Anterior cruciate ligament",
         "bool": false
-      },
-      {
-        "option": "Lateral ligament",
-        "bool": true
-      },
-      {
-        "option": "Medial ligament",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "info": "1st-year/locomotor/2021",
-    "question": "A patient loses flexion and lateral rotation at the hip joint. Which muscle is injured?",
-    "answers": [
-      {
-        "option": "Biceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Sartorius",
-        "bool": true
-      },
-      {
-        "option": "Hamstring",
-        "bool": false
-      },
-      {
-        "option": "Gluteus minimus",
-        "bool": false
-      },
-      {
-        "option": "Gluteus maximus",
-        "bool": false
       }
     ]
   },
   {
     "id": 62,
     "info": "1st-year/locomotor/2021",
-    "question": "Full knee flexion and full hip extension cannot be achieved simultaneously due to which of the following reasons?",
+    "question": "A patient loses flexion and lateral rotation at the hip joint. Which muscle is injured?",
     "answers": [
       {
-        "option": "Shortening of the rectus femoris",
+        "option": "Gluteus minimus",
         "bool": false
       },
+      {
+        "option": "Biceps femoris",
+        "bool": false
+      },
+      {
+        "option": "Gluteus maximus",
+        "bool": false
+      },
+      {
+        "option": "Hamstring",
+        "bool": false
+      },
+      {
+        "option": "Sartorius",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "1st-year/locomotor/2021",
+    "question": "Full knee flexion and full hip extension cannot be achieved simultaneously due to which of the following reasons?",
+    "answers": [
       {
         "option": "Shortening of the hamstrings",
         "bool": true
       },
       {
-        "option": "Rotation of tibia",
+        "option": "Shortening of the gastrocnemius",
+        "bool": false
+      },
+      {
+        "option": "Shortening of the rectus femoris",
         "bool": false
       },
       {
@@ -1695,13 +1722,13 @@
         "bool": false
       },
       {
-        "option": "Shortening of the gastrocnemius",
+        "option": "Rotation of tibia",
         "bool": false
       }
     ]
   },
   {
-    "id": 63,
+    "id": 64,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following organelles is characterized by the presence of cisternae and T-tubules?",
     "answers": [
@@ -1710,28 +1737,32 @@
         "bool": false
       },
       {
-        "option": "Smooth endoplasmic reticulum",
-        "bool": false
+        "option": "Sarcoplasmic reticulum",
+        "bool": true
       },
       {
         "option": "Rough endoplasmic reticulum",
         "bool": false
       },
       {
-        "option": "Sarcoplasmic reticulum",
-        "bool": true
+        "option": "Sarcolemma",
+        "bool": false
       },
       {
-        "option": "Sarcolemma",
+        "option": "Smooth endoplasmic reticulum",
         "bool": false
       }
     ]
   },
   {
-    "id": 64,
+    "id": 65,
     "info": "1st-year/locomotor/2021",
     "question": "The saphenous vein is grafted in which of the following conditions?",
     "answers": [
+      {
+        "option": "Thrombophlebitis",
+        "bool": false
+      },
       {
         "option": "Femoral hernia",
         "bool": false
@@ -1747,24 +1778,16 @@
       {
         "option": "Varicose vein",
         "bool": false
-      },
-      {
-        "option": "Thrombophlebitis",
-        "bool": false
       }
     ]
   },
   {
-    "id": 65,
+    "id": 66,
     "info": "1st-year/locomotor/2021",
     "question": "From where are infusions mostly given into the saphenous vein?",
     "answers": [
       {
-        "option": "Foot",
-        "bool": false
-      },
-      {
-        "option": "Thigh",
+        "option": "All of these",
         "bool": false
       },
       {
@@ -1772,26 +1795,34 @@
         "bool": true
       },
       {
-        "option": "All of these",
+        "option": "Knee",
         "bool": false
       },
       {
-        "option": "Knee",
+        "option": "Thigh",
+        "bool": false
+      },
+      {
+        "option": "Foot",
         "bool": false
       }
     ]
   },
   {
-    "id": 66,
+    "id": 67,
     "info": "1st-year/locomotor/2021",
     "question": "The ventral and lateral flexor muscles of the vertebral column are derived from which of the following myotomes?",
     "answers": [
       {
-        "option": "Sacrococcygeal",
+        "option": "Epaxial division",
         "bool": false
       },
       {
-        "option": "Epaxial division",
+        "option": "Lumbar",
+        "bool": false
+      },
+      {
+        "option": "Sacrococcygeal",
         "bool": false
       },
       {
@@ -1801,63 +1832,32 @@
       {
         "option": "Thoracic",
         "bool": true
-      },
-      {
-        "option": "Lumbar",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "info": "1st-year/locomotor/2021",
-    "question": "Median nerve compression arises between the two heads of a forearm muscle. This muscle also forms the medial border of the cubital fossa. What is the name of this muscle?",
-    "answers": [
-      {
-        "option": "Pronator teres",
-        "bool": true
-      },
-      {
-        "option": "Biceps brachii",
-        "bool": false
-      },
-      {
-        "option": "Brachialis",
-        "bool": false
-      },
-      {
-        "option": "Brachioradialis",
-        "bool": false
-      },
-      {
-        "option": "Pectoralis major",
-        "bool": false
       }
     ]
   },
   {
     "id": 68,
     "info": "1st-year/locomotor/2021",
-    "question": "Which of the following is the most common cause of pyogenic osteomyelitis?",
+    "question": "Median nerve compression arises between the two heads of a forearm muscle. This muscle also forms the medial border of the cubital fossa. What is the name of this muscle?",
     "answers": [
       {
-        "option": "Mycobacterium tuberculosis",
+        "option": "Pectoralis major",
         "bool": false
       },
       {
-        "option": "Salmonella typhi",
+        "option": "Biceps brachii",
         "bool": false
       },
       {
-        "option": "Staphylococcus aureus",
+        "option": "Pronator teres",
         "bool": true
       },
       {
-        "option": "Pseudomonas aeruginosa",
+        "option": "Brachioradialis",
         "bool": false
       },
       {
-        "option": "Staphylococcus epidermidis",
+        "option": "Brachialis",
         "bool": false
       }
     ]
@@ -1868,7 +1868,7 @@
     "question": "A pregnant woman undergoes an ultrasound and finds out that her baby's right upper limb has not developed. It is concluded that the deformity is due to an abnormality in mesenchymal cells. Where do these abnormal mesenchymal cells belong?",
     "answers": [
       {
-        "option": "Notochord",
+        "option": "Prochordal plate",
         "bool": false
       },
       {
@@ -1876,15 +1876,15 @@
         "bool": true
       },
       {
-        "option": "Intermediate mesoderm",
-        "bool": false
-      },
-      {
         "option": "Paraxial mesoderm",
         "bool": false
       },
       {
-        "option": "Prochordal plate",
+        "option": "Notochord",
+        "bool": false
+      },
+      {
+        "option": "Intermediate mesoderm",
         "bool": false
       }
     ]
@@ -1899,20 +1899,20 @@
         "bool": false
       },
       {
-        "option": "Tertiary",
-        "bool": false
-      },
-      {
-        "option": "Quaternary",
-        "bool": false
-      },
-      {
         "option": "Primary",
+        "bool": false
+      },
+      {
+        "option": "Tertiary",
         "bool": false
       },
       {
         "option": "Secondary",
         "bool": true
+      },
+      {
+        "option": "Quaternary",
+        "bool": false
       }
     ]
   },
@@ -1921,14 +1921,6 @@
     "info": "1st-year/locomotor/2021",
     "question": "Which structure is most anterior in the popliteal fossa?",
     "answers": [
-      {
-        "option": "Popliteal vein",
-        "bool": false
-      },
-      {
-        "option": "Tibial nerve",
-        "bool": false
-      },
       {
         "option": "Common peroneal nerve",
         "bool": false
@@ -1940,6 +1932,14 @@
       {
         "option": "Sciatic nerve",
         "bool": false
+      },
+      {
+        "option": "Popliteal vein",
+        "bool": false
+      },
+      {
+        "option": "Tibial nerve",
+        "bool": false
       }
     ]
   },
@@ -1949,24 +1949,24 @@
     "question": "Vitamin D is required for the mineralization of bone and its deficiency in growing individuals could lead to bowing of legs and knocking of knees. What is this defect known as?",
     "answers": [
       {
-        "option": "Osteomalacia",
-        "bool": false
-      },
-      {
-        "option": "Osteopetrosis",
-        "bool": false
-      },
-      {
-        "option": "Paget\u2019s disease of bone",
-        "bool": false
-      },
-      {
         "option": "Osteoporosis",
         "bool": false
       },
       {
         "option": "Rickets",
         "bool": true
+      },
+      {
+        "option": "Paget’s disease of bone",
+        "bool": false
+      },
+      {
+        "option": "Osteomalacia",
+        "bool": false
+      },
+      {
+        "option": "Osteopetrosis",
+        "bool": false
       }
     ]
   },
@@ -1975,10 +1975,6 @@
     "info": "1st-year/locomotor/2021",
     "question": "While observing a knee joint, a resident orthopedist noticed a groove between the lateral epicondyle of the femur and the tibial articular surface. Which muscle is attached to this groove?",
     "answers": [
-      {
-        "option": "Adductor magnus",
-        "bool": false
-      },
       {
         "option": "Plantaris",
         "bool": false
@@ -1989,6 +1985,10 @@
       },
       {
         "option": "Gastrocnemius",
+        "bool": false
+      },
+      {
+        "option": "Adductor magnus",
         "bool": false
       },
       {
@@ -2007,20 +2007,20 @@
         "bool": false
       },
       {
-        "option": "Hypothenar space",
-        "bool": false
-      },
-      {
         "option": "Thenar space",
         "bool": false
       },
       {
-        "option": "Pulp",
+        "option": "Hypothenar space",
         "bool": false
       },
       {
         "option": "Midpalmar space",
         "bool": true
+      },
+      {
+        "option": "Pulp",
+        "bool": false
       }
     ]
   },
@@ -2030,15 +2030,11 @@
     "question": "A 20-year-old man comes to the emergency department after a motorbike accident. Due to the accident, the greater trochanter of his femur is damaged. Which muscle attaches to this structure?",
     "answers": [
       {
-        "option": "Psoas minor",
-        "bool": false
-      },
-      {
-        "option": "Psoas major",
-        "bool": false
-      },
-      {
         "option": "Iliacus",
+        "bool": false
+      },
+      {
+        "option": "Psoas minor",
         "bool": false
       },
       {
@@ -2048,6 +2044,10 @@
       {
         "option": "Gluteus minimus",
         "bool": true
+      },
+      {
+        "option": "Psoas major",
+        "bool": false
       }
     ]
   },
@@ -2057,11 +2057,7 @@
     "question": "A man comes to the outpatient department with chronic liver disease. On examination, it is found that his ring and little fingers are flexed and there is a thickening of the palmar aponeurosis. Which muscle attaches to the aponeurosis?",
     "answers": [
       {
-        "option": "Flexor digitorum superficialis",
-        "bool": false
-      },
-      {
-        "option": "Flexor carpi ulnaris",
+        "option": "Flexor digitorum profundus",
         "bool": false
       },
       {
@@ -2069,11 +2065,15 @@
         "bool": true
       },
       {
-        "option": "Flexor digitorum profundus",
+        "option": "Flexor carpi radialis",
         "bool": false
       },
       {
-        "option": "Flexor carpi radialis",
+        "option": "Flexor digitorum superficialis",
+        "bool": false
+      },
+      {
+        "option": "Flexor carpi ulnaris",
         "bool": false
       }
     ]
@@ -2081,14 +2081,14 @@
   {
     "id": 77,
     "info": "1st-year/locomotor/2021",
-    "question": "When the forearm is flexed such that it is 90\u00ba to the arm and, whilst keeping it in the mid-prone position, further flexing it against resistance, a muscle is made prominently visible below the elbow. What muscle is visible below the elbow?",
+    "question": "When the forearm is flexed such that it is 90º to the arm and, whilst keeping it in the mid-prone position, further flexing it against resistance, a muscle is made prominently visible below the elbow. What muscle is visible below the elbow?",
     "answers": [
       {
         "option": "Brachioradialis",
         "bool": true
       },
       {
-        "option": "Triceps brachii",
+        "option": "Pronator quadratus",
         "bool": false
       },
       {
@@ -2096,11 +2096,11 @@
         "bool": false
       },
       {
-        "option": "Pronator quadratus",
+        "option": "Teres major",
         "bool": false
       },
       {
-        "option": "Teres major",
+        "option": "Triceps brachii",
         "bool": false
       }
     ]
@@ -2111,20 +2111,20 @@
     "question": "A 41-year-old patient loses sensation on the anterior and lateral sides of his thigh, down to his knee. A nerve that laterally passes under the inguinal ligament might be damaged. What could this nerve be?",
     "answers": [
       {
-        "option": "Lateral cutaneous nerve",
-        "bool": true
-      },
-      {
-        "option": "Anterior cutaneous nerve",
-        "bool": false
-      },
-      {
         "option": "Sciatic nerve",
         "bool": false
       },
       {
         "option": "Medial cutaneous nerve",
         "bool": false
+      },
+      {
+        "option": "Anterior cutaneous nerve",
+        "bool": false
+      },
+      {
+        "option": "Lateral cutaneous nerve",
+        "bool": true
       },
       {
         "option": "Femoral nerve",
@@ -2138,11 +2138,15 @@
     "question": "Pes anserine bursa is associated with insertion of which of the following muscles?",
     "answers": [
       {
-        "option": "Semimembranosus, semitendinosus, bicep femoris",
+        "option": "Sartorius, gracilis, semimembranosus",
         "bool": false
       },
       {
-        "option": "Sartorius, gracilis, semimembranosus",
+        "option": "Gracilis, semitendinosus, semimembranosus",
+        "bool": false
+      },
+      {
+        "option": "Semimembranosus, semitendinosus, bicep femoris",
         "bool": false
       },
       {
@@ -2151,10 +2155,6 @@
       },
       {
         "option": "Vastus medialis, vastus intermedius, vastus lateralis",
-        "bool": false
-      },
-      {
-        "option": "Gracilis, semitendinosus, semimembranosus",
         "bool": false
       }
     ]
@@ -2165,16 +2165,12 @@
     "question": "The unhappy triad of the knee is made up of the rupture of which of the following?",
     "answers": [
       {
-        "option": "Anterior cruciate ligament, medial meniscus, medial collateral ligament",
-        "bool": true
-      },
-      {
         "option": "Posterior cruciate ligament, medial meniscus, lateral collateral ligament",
         "bool": false
       },
       {
-        "option": "Posterior cruciate ligament, medial meniscus, medial collateral ligament",
-        "bool": false
+        "option": "Anterior cruciate ligament, medial meniscus, medial collateral ligament",
+        "bool": true
       },
       {
         "option": "Anterior cruciate ligament, medial meniscus, lateral collateral ligament",
@@ -2182,6 +2178,10 @@
       },
       {
         "option": "Medial collateral ligament, medial meniscus, lateral collateral ligament",
+        "bool": false
+      },
+      {
+        "option": "Posterior cruciate ligament, medial meniscus, medial collateral ligament",
         "bool": false
       }
     ]
@@ -2192,7 +2192,15 @@
     "question": "What are the strong bundles of fibers attaching the periosteum to the bone?",
     "answers": [
       {
+        "option": "Collagen fibers",
+        "bool": false
+      },
+      {
         "option": "Lamellar fibers",
+        "bool": false
+      },
+      {
+        "option": "Reticular fibers",
         "bool": false
       },
       {
@@ -2200,15 +2208,7 @@
         "bool": true
       },
       {
-        "option": "Reticular fibers",
-        "bool": false
-      },
-      {
         "option": "Elastic fibers",
-        "bool": false
-      },
-      {
-        "option": "Collagen fibers",
         "bool": false
       }
     ]
@@ -2219,20 +2219,20 @@
     "question": "What is the change in pattern of disease which affects the level and character of mortality in a population called?",
     "answers": [
       {
+        "option": "Disease transmission",
+        "bool": false
+      },
+      {
         "option": "Level transmission",
         "bool": false
       },
       {
-        "option": "Disease transmission",
+        "option": "Demographic transition",
         "bool": false
       },
       {
         "option": "Epidemiological transition",
         "bool": true
-      },
-      {
-        "option": "Demographic transition",
-        "bool": false
       },
       {
         "option": "Character transition",
@@ -2246,23 +2246,23 @@
     "question": "Which artery is the most unlikely to be damaged upon injury to the snuffbox?",
     "answers": [
       {
-        "option": "Ulnar artery",
-        "bool": true
-      },
-      {
         "option": "Origin of the cephalic vein",
         "bool": false
       },
       {
-        "option": "Dorsal carpal branch of radial artery",
+        "option": "Radial artery",
         "bool": false
+      },
+      {
+        "option": "Ulnar artery",
+        "bool": true
       },
       {
         "option": "Dorsalis pollicis arteries",
         "bool": false
       },
       {
-        "option": "Radial artery",
+        "option": "Dorsal carpal branch of radial artery",
         "bool": false
       }
     ]
@@ -2270,14 +2270,14 @@
   {
     "id": 84,
     "info": "1st-year/locomotor/2021",
-    "question": "Which of the following will not be responsible for arm abduction from 0\u00b0 to 180\u00b0?",
+    "question": "Which of the following will not be responsible for arm abduction from 0° to 180°?",
     "answers": [
       {
         "option": "Trapezius muscle",
         "bool": false
       },
       {
-        "option": "Deltoid fibres",
+        "option": "Intact axillary nerve",
         "bool": false
       },
       {
@@ -2285,11 +2285,11 @@
         "bool": true
       },
       {
-        "option": "Intact axillary nerve",
+        "option": "Initiation by supraspinatus",
         "bool": false
       },
       {
-        "option": "Initiation by supraspinatus",
+        "option": "Deltoid fibres",
         "bool": false
       }
     ]
@@ -2300,14 +2300,6 @@
     "question": "A 10-year-old boy continuously complained about having pain in his navicular bone. Upon examination, the physician found a shortening of the Achilles tendon and flattened medial longitudinal arch. What deformity could be related to this?",
     "answers": [
       {
-        "option": "Pes planus",
-        "bool": true
-      },
-      {
-        "option": "Lateral deformity",
-        "bool": false
-      },
-      {
         "option": "Club foot",
         "bool": false
       },
@@ -2316,8 +2308,16 @@
         "bool": false
       },
       {
+        "option": "Lateral deformity",
+        "bool": false
+      },
+      {
         "option": "Pes cavus",
         "bool": false
+      },
+      {
+        "option": "Pes planus",
+        "bool": true
       }
     ]
   },
@@ -2327,15 +2327,15 @@
     "question": "A patient presents to the emergency room with a fracture of the shaft of the humerus. It is a closed fracture with no observable injury to the radial nerve. What is the best method for stabilizing the bone?",
     "answers": [
       {
-        "option": "Sling",
-        "bool": false
-      },
-      {
-        "option": "Open reduction",
-        "bool": false
-      },
-      {
         "option": "Kocher's technique",
+        "bool": false
+      },
+      {
+        "option": "Functional brace",
+        "bool": true
+      },
+      {
+        "option": "Sling",
         "bool": false
       },
       {
@@ -2343,8 +2343,8 @@
         "bool": false
       },
       {
-        "option": "Functional brace",
-        "bool": true
+        "option": "Open reduction",
+        "bool": false
       }
     ]
   },
@@ -2354,15 +2354,11 @@
     "question": "A patient is on corticosteroid therapy. Which of the following bone disorders can arise due to it?",
     "answers": [
       {
-        "option": "Osteoporosis",
-        "bool": true
-      },
-      {
         "option": "Osteomyelitis",
         "bool": false
       },
       {
-        "option": "Osteocystic fibrosis",
+        "option": "Paget disease",
         "bool": false
       },
       {
@@ -2370,7 +2366,11 @@
         "bool": false
       },
       {
-        "option": "Paget disease",
+        "option": "Osteoporosis",
+        "bool": true
+      },
+      {
+        "option": "Osteocystic fibrosis",
         "bool": false
       }
     ]
@@ -2381,8 +2381,8 @@
     "question": "A 35-year-old pregnant woman has chronic renal disease. Which of the following bone disorders she is likely to develop?",
     "answers": [
       {
-        "option": "Osteomyelitis",
-        "bool": false
+        "option": "Osteomalacia",
+        "bool": true
       },
       {
         "option": "Rickets",
@@ -2397,8 +2397,8 @@
         "bool": false
       },
       {
-        "option": "Osteomalacia",
-        "bool": true
+        "option": "Osteomyelitis",
+        "bool": false
       }
     ]
   },
@@ -2408,6 +2408,10 @@
     "question": "Which of the following factors contributes least to the stability of the glenohumeral joint?",
     "answers": [
       {
+        "option": "Coracohumeral ligament",
+        "bool": false
+      },
+      {
         "option": "Coracoacromial ligament",
         "bool": false
       },
@@ -2416,16 +2420,12 @@
         "bool": false
       },
       {
-        "option": "Coracohumeral ligament",
+        "option": "Glenohumeral ligaments",
         "bool": false
       },
       {
         "option": "Ball and socket",
         "bool": true
-      },
-      {
-        "option": "Glenohumeral ligaments",
-        "bool": false
       }
     ]
   },
@@ -2439,16 +2439,16 @@
         "bool": false
       },
       {
-        "option": "Radial",
-        "bool": true
+        "option": "Subclavian",
+        "bool": false
       },
       {
         "option": "Ulnar",
         "bool": false
       },
       {
-        "option": "Subclavian",
-        "bool": false
+        "option": "Radial",
+        "bool": true
       },
       {
         "option": "Axillary",
@@ -2462,12 +2462,8 @@
     "question": "Which structure does not pass deep through the extensor retinaculum?",
     "answers": [
       {
-        "option": "Extensor digitorum longus tendon",
-        "bool": false
-      },
-      {
-        "option": "Anterior tibial artery",
-        "bool": false
+        "option": "Tibial nerve",
+        "bool": true
       },
       {
         "option": "Tibialis anterior",
@@ -2478,8 +2474,12 @@
         "bool": false
       },
       {
-        "option": "Tibial nerve",
-        "bool": true
+        "option": "Extensor digitorum longus tendon",
+        "bool": false
+      },
+      {
+        "option": "Anterior tibial artery",
+        "bool": false
       }
     ]
   },
@@ -2493,10 +2493,6 @@
         "bool": true
       },
       {
-        "option": "Both are bone mass at least 2.5 standard deviations below the mean peak bone mass",
-        "bool": false
-      },
-      {
         "option": "Most cases are secondary",
         "bool": false
       },
@@ -2507,6 +2503,10 @@
       {
         "option": "Senile high turnover variant",
         "bool": false
+      },
+      {
+        "option": "Both are bone mass at least 2.5 standard deviations below the mean peak bone mass",
+        "bool": false
       }
     ]
   },
@@ -2516,15 +2516,11 @@
     "question": "What type of junctional complexes are present between 2 osteocytic processes?",
     "answers": [
       {
-        "option": "Tight junctions",
+        "option": "Macula adherens",
         "bool": false
       },
       {
-        "option": "Gap junctions",
-        "bool": true
-      },
-      {
-        "option": "Macula adherens",
+        "option": "Zonula adherens",
         "bool": false
       },
       {
@@ -2532,8 +2528,12 @@
         "bool": false
       },
       {
-        "option": "Zonula adherens",
+        "option": "Tight junctions",
         "bool": false
+      },
+      {
+        "option": "Gap junctions",
+        "bool": true
       }
     ]
   },
@@ -2543,16 +2543,12 @@
     "question": "Damage to the brachial plexus results in an upper limb that is medially rotated and adducted, with the elbow remaining in an extended position. What type of palsy is this?",
     "answers": [
       {
-        "option": "Klumpke's palsy",
-        "bool": false
-      },
-      {
         "option": "Claw hand",
         "bool": false
       },
       {
-        "option": "Erb's palsy",
-        "bool": true
+        "option": "Klumpke's palsy",
+        "bool": false
       },
       {
         "option": "Ape hand",
@@ -2561,6 +2557,10 @@
       {
         "option": "Wrist drop",
         "bool": false
+      },
+      {
+        "option": "Erb's palsy",
+        "bool": true
       }
     ]
   },
@@ -2570,10 +2570,6 @@
     "question": "There is a loss of sensation between the first and second toes. It is due to injury to which of the following?",
     "answers": [
       {
-        "option": "Common peroneal nerve",
-        "bool": false
-      },
-      {
         "option": "Sural nerve",
         "bool": false
       },
@@ -2582,12 +2578,16 @@
         "bool": false
       },
       {
-        "option": "Deep peroneal nerve",
-        "bool": true
+        "option": "Common peroneal nerve",
+        "bool": false
       },
       {
         "option": "Superficial peroneal nerve",
         "bool": false
+      },
+      {
+        "option": "Deep peroneal nerve",
+        "bool": true
       }
     ]
   },
@@ -2597,15 +2597,11 @@
     "question": "Which of the following approaches should be used by a physician when interacting with patients?",
     "answers": [
       {
-        "option": "Empathetic approach",
-        "bool": true
-      },
-      {
         "option": "Sympathetic approach",
         "bool": false
       },
       {
-        "option": "Apathetic approach",
+        "option": "Pathetic approach",
         "bool": false
       },
       {
@@ -2613,8 +2609,12 @@
         "bool": false
       },
       {
-        "option": "Pathetic approach",
+        "option": "Apathetic approach",
         "bool": false
+      },
+      {
+        "option": "Empathetic approach",
+        "bool": true
       }
     ]
   },
@@ -2624,7 +2624,7 @@
     "question": "A 25-year-old woman comes to the clinic and is requesting to terminate her pregnancy. What would be the best approach to deal with her concerns?",
     "answers": [
       {
-        "option": "Do not respond",
+        "option": "Tell her it is against your religion",
         "bool": false
       },
       {
@@ -2632,15 +2632,15 @@
         "bool": true
       },
       {
-        "option": "Call her parents or guardians",
-        "bool": false
-      },
-      {
-        "option": "Tell her it is against your religion",
-        "bool": false
-      },
-      {
         "option": "Tell her it is against her religion",
+        "bool": false
+      },
+      {
+        "option": "Do not respond",
+        "bool": false
+      },
+      {
+        "option": "Call her parents or guardians",
         "bool": false
       }
     ]
@@ -2651,23 +2651,23 @@
     "question": "In a clinical setting, which of the following is true for a patient?",
     "answers": [
       {
-        "option": "Can withdraw from consent anytime",
-        "bool": true
+        "option": "Cannot withdraw from consent after treatment",
+        "bool": false
       },
       {
-        "option": "Consent would not matter",
-        "bool": false
+        "option": "Can withdraw from consent anytime",
+        "bool": true
       },
       {
         "option": "Has to give consent under every circumstance",
         "bool": false
       },
       {
-        "option": "Has to ask someone else for consent",
+        "option": "Consent would not matter",
         "bool": false
       },
       {
-        "option": "Cannot withdraw from consent after treatment",
+        "option": "Has to ask someone else for consent",
         "bool": false
       }
     ]
@@ -2678,14 +2678,6 @@
     "question": "Which structure is damaged in Klumpke's paralysis?",
     "answers": [
       {
-        "option": "Musculocutaneous nerve",
-        "bool": false
-      },
-      {
-        "option": "Median nerve",
-        "bool": false
-      },
-      {
         "option": "Radial nerve",
         "bool": false
       },
@@ -2694,8 +2686,16 @@
         "bool": false
       },
       {
+        "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
         "option": "Brachial plexus",
         "bool": true
+      },
+      {
+        "option": "Median nerve",
+        "bool": false
       }
     ]
   },
@@ -2709,7 +2709,7 @@
         "bool": false
       },
       {
-        "option": "Vastus lateralis",
+        "option": "Adductor brevis",
         "bool": false
       },
       {
@@ -2717,12 +2717,12 @@
         "bool": false
       },
       {
-        "option": "Adductor brevis",
-        "bool": false
-      },
-      {
         "option": "Gracillis",
         "bool": true
+      },
+      {
+        "option": "Vastus lateralis",
+        "bool": false
       }
     ]
   },
@@ -2731,6 +2731,10 @@
     "info": "1st-year/locomotor/2021",
     "question": "Which type of cartilage is the most likely to be calcified?",
     "answers": [
+      {
+        "option": "Hyaline",
+        "bool": true
+      },
       {
         "option": "Mixed",
         "bool": false
@@ -2744,10 +2748,6 @@
         "bool": false
       },
       {
-        "option": "Hyaline",
-        "bool": true
-      },
-      {
         "option": "Articular",
         "bool": false
       }
@@ -2756,6 +2756,33 @@
   {
     "id": 102,
     "info": "1st-year/locomotor/2021",
+    "question": "Which of the following is involved in controlling the to and fro movement of the knee joint?",
+    "answers": [
+      {
+        "option": "Meniscus",
+        "bool": false
+      },
+      {
+        "option": "Tibial collateral",
+        "bool": false
+      },
+      {
+        "option": "Cruciate ligament",
+        "bool": false
+      },
+      {
+        "option": "Fibular collateral",
+        "bool": false
+      },
+      {
+        "option": "Patellar ligament",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "info": "1st-year/locomotor/2021",
     "question": "Which is correct for skeletal muscle?",
     "answers": [
       {
@@ -2763,7 +2790,7 @@
         "bool": false
       },
       {
-        "option": "Ca\u207a\u00b2-calmodulin complex binds to actin filament",
+        "option": "Ca⁺²-calmodulin complex binds to actin filament",
         "bool": false
       },
       {
@@ -2775,34 +2802,7 @@
         "bool": false
       },
       {
-        "option": "Mitochondria are a store house of Ca\u207a\u00b2",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 103,
-    "info": "1st-year/locomotor/2021",
-    "question": "What is the most common treatable cause of visual impairment in old age?",
-    "answers": [
-      {
-        "option": "Glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Senile cataracts",
-        "bool": true
-      },
-      {
-        "option": "Macular degeneration",
-        "bool": false
-      },
-      {
-        "option": "Diabetic retinopathy",
-        "bool": false
-      },
-      {
-        "option": "Hypertensive retinopathy",
+        "option": "Mitochondria are a store house of Ca⁺²",
         "bool": false
       }
     ]
@@ -2810,12 +2810,35 @@
   {
     "id": 104,
     "info": "1st-year/locomotor/2021",
-    "question": "Which of the following vaccines should be given to the elderly?",
+    "question": "What is the most common treatable cause of visual impairment in old age?",
     "answers": [
       {
-        "option": "Influenza",
-        "bool": true
+        "option": "Diabetic retinopathy",
+        "bool": false
       },
+      {
+        "option": "Hypertensive retinopathy",
+        "bool": false
+      },
+      {
+        "option": "Glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Macular degeneration",
+        "bool": false
+      },
+      {
+        "option": "Senile cataracts",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "info": "1st-year/locomotor/2021",
+    "question": "Which of the following vaccines should be given to the elderly?",
+    "answers": [
       {
         "option": "MMR",
         "bool": false
@@ -2829,13 +2852,17 @@
         "bool": false
       },
       {
+        "option": "Influenza",
+        "bool": true
+      },
+      {
         "option": "Hepatitis B",
         "bool": false
       }
     ]
   },
   {
-    "id": 105,
+    "id": 106,
     "info": "1st-year/locomotor/2021",
     "question": "Which of the following best explains the vertical model in the doctor-patient relationship?",
     "answers": [
@@ -2844,12 +2871,12 @@
         "bool": false
       },
       {
-        "option": "Doctor taking entire control which is not apparent virtually",
-        "bool": true
-      },
-      {
         "option": "Doctor helps patient find their preferences",
         "bool": false
+      },
+      {
+        "option": "Doctor taking entire control which is not apparent virtually",
+        "bool": true
       },
       {
         "option": "Patient plays a mutual role in deciding the treatment plan",

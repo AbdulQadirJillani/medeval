@@ -1,16 +1,12 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/reproductive-1/2017",
+    "info": "2nd-year/reproductive/2017",
     "question": "A 31-year-old female G2P1+0 and a known case of uterine fibroids presented to the outpatient department with pain in the lower abdomen for 5 days. Upon examination, the uterus was tender. Which of the following could cause this presentation?",
     "answers": [
       {
-        "option": "Gray degeneration",
-        "bool": false
-      },
-      {
-        "option": "Ectopic pregnancy",
-        "bool": false
+        "option": "Red degeneration",
+        "bool": true
       },
       {
         "option": "Abruptio placentae",
@@ -21,19 +17,58 @@
         "bool": false
       },
       {
-        "option": "Red degeneration",
-        "bool": true
+        "option": "Gray degeneration",
+        "bool": false
+      },
+      {
+        "option": "Ectopic pregnancy",
+        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "2nd-year/reproductive-1/2017",
+    "info": "2nd-year/reproductive/2017",
+    "question": "Which of the following is the typical peak period of beta-hCG levels during pregnancy?",
+    "answers": [
+      {
+        "option": "5 to 6 weeks",
+        "bool": false
+      },
+      {
+        "option": "20 to 22 weeks",
+        "bool": false
+      },
+      {
+        "option": "17 to 19 weeks",
+        "bool": false
+      },
+      {
+        "option": "12 to 15 weeks",
+        "bool": false
+      },
+      {
+        "option": "8 to 10 weeks",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/reproductive/2017",
     "question": "An 18-year-old girl is diagnosed with Turner's syndrome. What is the most probable chromosomal makeup in this condition?",
     "answers": [
       {
+        "option": "46, XXX",
+        "bool": false
+      },
+      {
         "option": "45, XO",
         "bool": true
+      },
+      {
+        "option": "46, XY",
+        "bool": false
       },
       {
         "option": "46, XX",
@@ -42,36 +77,28 @@
       {
         "option": "46, XXY",
         "bool": false
-      },
-      {
-        "option": "46, XY",
-        "bool": false
-      },
-      {
-        "option": "46, XXX",
-        "bool": false
       }
     ]
   },
   {
-    "id": 2,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 3,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of the following is the most common method for performing tubal ligation?",
     "answers": [
-      {
-        "option": "Culdocentesis",
-        "bool": false
-      },
       {
         "option": "Laproscopic tubal ligation",
         "bool": true
       },
       {
-        "option": "Hysterosalpingography",
+        "option": "Culdocentesis",
         "bool": false
       },
       {
         "option": "Hysteroscopic sterilization",
+        "bool": false
+      },
+      {
+        "option": "Hysterosalpingography",
         "bool": false
       },
       {
@@ -81,16 +108,16 @@
     ]
   },
   {
-    "id": 3,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 4,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these genes determine the differentiation of testes?",
     "answers": [
       {
-        "option": "SHH",
+        "option": "SHOX",
         "bool": false
       },
       {
-        "option": "SHOX",
+        "option": "WNT-1",
         "bool": false
       },
       {
@@ -98,7 +125,7 @@
         "bool": false
       },
       {
-        "option": "WNT-1",
+        "option": "SHH",
         "bool": false
       },
       {
@@ -108,21 +135,40 @@
     ]
   },
   {
-    "id": 4,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 5,
+    "info": "2nd-year/reproductive/2017",
+    "question": "Which of the following androgen receptors is found on the stromal cells of the prostate gland?",
+    "answers": [
+      {
+        "option": "Estrogen",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
+        "bool": false
+      },
+      {
+        "option": "Androstenedione",
+        "bool": false
+      },
+      {
+        "option": "Cortisol",
+        "bool": false
+      },
+      {
+        "option": "DHT",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/reproductive/2017",
     "question": "If the left uterine tube is removed and the right one's isthmus is contracted, what can happen?",
     "answers": [
       {
-        "option": "Both fertilization and implantation occur",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "No fertilization or implantation occurs",
-        "bool": true
       },
       {
         "option": "Fertilization occurs but not implantation",
@@ -131,12 +177,20 @@
       {
         "option": "Implantation can occur but no fertilization",
         "bool": false
+      },
+      {
+        "option": "No fertilization or implantation occurs",
+        "bool": true
+      },
+      {
+        "option": "Both fertilization and implantation occur",
+        "bool": false
       }
     ]
   },
   {
-    "id": 5,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 7,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these enzymes converts testosterone to dihydrotestosterone?",
     "answers": [
       {
@@ -144,7 +198,7 @@
         "bool": false
       },
       {
-        "option": "Aromatase",
+        "option": "Phospholipase",
         "bool": false
       },
       {
@@ -156,18 +210,18 @@
         "bool": false
       },
       {
-        "option": "Phospholipase",
+        "option": "Aromatase",
         "bool": false
       }
     ]
   },
   {
-    "id": 6,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 8,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these muscles contributes to the levator prostate muscle?",
     "answers": [
       {
-        "option": "Obturator internus",
+        "option": "Bulbospongiosus",
         "bool": false
       },
       {
@@ -175,26 +229,26 @@
         "bool": false
       },
       {
-        "option": "Bulbospongiosus",
-        "bool": false
-      },
-      {
-        "option": "Transverse perineal muscle",
+        "option": "Obturator internus",
         "bool": false
       },
       {
         "option": "Levator ani",
         "bool": true
+      },
+      {
+        "option": "Transverse perineal muscle",
+        "bool": false
       }
     ]
   },
   {
-    "id": 7,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 9,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these statements is an odd one out for testosterone?",
     "answers": [
       {
-        "option": "It is converted to dihydrotestosterone by 5 alpha reductase",
+        "option": "It regulates male libido",
         "bool": false
       },
       {
@@ -202,11 +256,11 @@
         "bool": true
       },
       {
-        "option": "It causes epiphyseal plate closure",
+        "option": "It is converted to dihydrotestosterone by 5 alpha reductase",
         "bool": false
       },
       {
-        "option": "It regulates male libido",
+        "option": "It causes epiphyseal plate closure",
         "bool": false
       },
       {
@@ -216,20 +270,20 @@
     ]
   },
   {
-    "id": 8,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 10,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these statements regarding genital glands is incorrect?",
     "answers": [
       {
-        "option": "Prostatic hyperplasia occurs in the transitional zone",
-        "bool": false
-      },
-      {
-        "option": "Seminal vesicles secrete an alkaline fluid",
-        "bool": false
+        "option": "Ducts of cowper's glands open into membranous urethra",
+        "bool": true
       },
       {
         "option": "Seminal vesicles secrete fructose for the sperm",
+        "bool": false
+      },
+      {
+        "option": "Prostatic hyperplasia occurs in the transitional zone",
         "bool": false
       },
       {
@@ -237,18 +291,18 @@
         "bool": false
       },
       {
-        "option": "Ducts of cowper's glands open into membranous urethra",
-        "bool": true
+        "option": "Seminal vesicles secrete an alkaline fluid",
+        "bool": false
       }
     ]
   },
   {
-    "id": 9,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 11,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these is an effect of progesterone on the uterine endometrium?",
     "answers": [
       {
-        "option": "It causes regression of spiral arteries",
+        "option": "It converts glands from coiled to tubular forms",
         "bool": false
       },
       {
@@ -260,23 +314,23 @@
         "bool": false
       },
       {
-        "option": "It increases myometrial excitability",
+        "option": "It causes regression of spiral arteries",
         "bool": false
       },
       {
-        "option": "It converts glands from coiled to tubular forms",
+        "option": "It increases myometrial excitability",
         "bool": false
       }
     ]
   },
   {
-    "id": 10,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 12,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these cells secretes the Mullerian inhibitory factor?",
     "answers": [
       {
-        "option": "Sertoli cells",
-        "bool": true
+        "option": "Pituicytes",
+        "bool": false
       },
       {
         "option": "Granulosa cells",
@@ -291,22 +345,18 @@
         "bool": false
       },
       {
-        "option": "Pituicytes",
-        "bool": false
+        "option": "Sertoli cells",
+        "bool": true
       }
     ]
   },
   {
-    "id": 11,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 13,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these cardiovascular changes is observed in pregnancy?",
     "answers": [
       {
-        "option": "Increase in plasma volume more than the increase in red blood cell mass",
-        "bool": true
-      },
-      {
-        "option": "Increase in plasma volume only",
+        "option": "Decreased plasma volume and red blood cell mass",
         "bool": false
       },
       {
@@ -314,20 +364,32 @@
         "bool": false
       },
       {
-        "option": "Decreased plasma volume and red blood cell mass",
-        "bool": false
+        "option": "Increase in plasma volume more than the increase in red blood cell mass",
+        "bool": true
       },
       {
         "option": "Increase in plasma volume with decreased red blood cell mass",
+        "bool": false
+      },
+      {
+        "option": "Increase in plasma volume only",
         "bool": false
       }
     ]
   },
   {
-    "id": 12,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 14,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these is an immediate precursor to progesterone?",
     "answers": [
+      {
+        "option": "Dihydroprogesterone",
+        "bool": false
+      },
+      {
+        "option": "Pregnenolone",
+        "bool": true
+      },
       {
         "option": "Testosterone",
         "bool": false
@@ -337,28 +399,16 @@
         "bool": false
       },
       {
-        "option": "Pregnenolone",
-        "bool": true
-      },
-      {
-        "option": "Dihydroprogesterone",
-        "bool": false
-      },
-      {
         "option": "Cholestrol",
         "bool": false
       }
     ]
   },
   {
-    "id": 13,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 15,
+    "info": "2nd-year/reproductive/2017",
     "question": "What effect does high estrogen level in pregnancy has?",
     "answers": [
-      {
-        "option": "Prevention of lactation",
-        "bool": true
-      },
       {
         "option": "Increased milk secretion",
         "bool": false
@@ -372,22 +422,30 @@
         "bool": false
       },
       {
+        "option": "Prevention of lactation",
+        "bool": true
+      },
+      {
         "option": "Decreased prolactin secretion",
         "bool": false
       }
     ]
   },
   {
-    "id": 14,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 16,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these statements is incorrect regarding mifepristone?",
     "answers": [
       {
-        "option": "It is a progesterone antagonist",
+        "option": "It is effective in early pregnancy",
         "bool": false
       },
       {
-        "option": "It is effective in early pregnancy",
+        "option": "It is used orally",
+        "bool": false
+      },
+      {
+        "option": "It is typically used in combination with misoprostol",
         "bool": false
       },
       {
@@ -395,57 +453,53 @@
         "bool": true
       },
       {
-        "option": "It is typically used in combination with misoprostol",
-        "bool": false
-      },
-      {
-        "option": "It is used orally",
+        "option": "It is a progesterone antagonist",
         "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 17,
+    "info": "2nd-year/reproductive/2017",
     "question": "What is the effect of prolactin on menstruation?",
     "answers": [
-      {
-        "option": "It causes menorrhagia",
-        "bool": false
-      },
       {
         "option": "It causes heavy menstrual bleeding",
         "bool": false
       },
       {
-        "option": "It causes amenorrhea",
-        "bool": true
+        "option": "It causes menorrhagia",
+        "bool": false
+      },
+      {
+        "option": "It leads to prolonged menstrual cycle",
+        "bool": false
       },
       {
         "option": "It leads to prolonged luteal phase",
         "bool": false
       },
       {
-        "option": "It leads to prolonged menstrual cycle",
-        "bool": false
+        "option": "It causes amenorrhea",
+        "bool": true
       }
     ]
   },
   {
-    "id": 16,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 18,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these cells undergo meiosis II?",
     "answers": [
-      {
-        "option": "Primary spermatocyte",
-        "bool": false
-      },
       {
         "option": "Secondary spermatocyte",
         "bool": true
       },
       {
-        "option": "Spermatid",
+        "option": "Germ cell",
+        "bool": false
+      },
+      {
+        "option": "Primary spermatocyte",
         "bool": false
       },
       {
@@ -453,28 +507,16 @@
         "bool": false
       },
       {
-        "option": "Germ cell",
+        "option": "Spermatid",
         "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 19,
+    "info": "2nd-year/reproductive/2017",
     "question": "What is the difference between prepubertal and pubertal ovarian follicles?",
     "answers": [
-      {
-        "option": "Post puberty, secondary follicles containing stratum granulosum can be found",
-        "bool": true
-      },
-      {
-        "option": "Prepubertal follicles contain primary oocytes arrested in metaphase",
-        "bool": false
-      },
-      {
-        "option": "Prepubertal follicles contain secondary oocyte",
-        "bool": false
-      },
       {
         "option": "Prepubertal follicles contain germ cells",
         "bool": false
@@ -482,24 +524,28 @@
       {
         "option": "Post puberty, ovarian follicles increase in number",
         "bool": false
+      },
+      {
+        "option": "Post puberty, secondary follicles containing stratum granulosum can be found",
+        "bool": true
+      },
+      {
+        "option": "Prepubertal follicles contain secondary oocyte",
+        "bool": false
+      },
+      {
+        "option": "Prepubertal follicles contain primary oocytes arrested in metaphase",
+        "bool": false
       }
     ]
   },
   {
-    "id": 18,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 20,
+    "info": "2nd-year/reproductive/2017",
     "question": "What are the cornua of sacrum?",
     "answers": [
       {
         "option": "Articular processes for the iliac bone",
-        "bool": false
-      },
-      {
-        "option": "Inferior articular extension of fifth sacral vertebra",
-        "bool": true
-      },
-      {
-        "option": "Foramina through which sacral nerves exit",
         "bool": false
       },
       {
@@ -509,20 +555,32 @@
       {
         "option": "Median ridge of the sacrum",
         "bool": false
+      },
+      {
+        "option": "Inferior articular extension of fifth sacral vertebra",
+        "bool": true
+      },
+      {
+        "option": "Foramina through which sacral nerves exit",
+        "bool": false
       }
     ]
   },
   {
-    "id": 19,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 21,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these ligaments form the major support of the uterus?",
     "answers": [
       {
-        "option": "Uteroovarian ligament",
+        "option": "Broad ligament",
         "bool": false
       },
       {
-        "option": "Broad ligament",
+        "option": "Sacrospinous ligament",
+        "bool": false
+      },
+      {
+        "option": "Uteroovarian ligament",
         "bool": false
       },
       {
@@ -532,25 +590,17 @@
       {
         "option": "Cardinal ligaments",
         "bool": true
-      },
-      {
-        "option": "Sacrospinous ligament",
-        "bool": false
       }
     ]
   },
   {
-    "id": 20,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 22,
+    "info": "2nd-year/reproductive/2017",
     "question": "What is anorchism?",
     "answers": [
       {
         "option": "Small testes",
         "bool": false
-      },
-      {
-        "option": "Absence of testes",
-        "bool": true
       },
       {
         "option": "Absence of testes from scrotal sac",
@@ -563,25 +613,21 @@
       {
         "option": "Fused testes",
         "bool": false
+      },
+      {
+        "option": "Absence of testes",
+        "bool": true
       }
     ]
   },
   {
-    "id": 21,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 23,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these is not present in colostrum?",
     "answers": [
       {
         "option": "IgA immunoglobulin",
         "bool": false
-      },
-      {
-        "option": "White blood cells",
-        "bool": false
-      },
-      {
-        "option": "Amiodarone",
-        "bool": true
       },
       {
         "option": "Vitamin K",
@@ -590,16 +636,28 @@
       {
         "option": "Lactoferrin",
         "bool": false
+      },
+      {
+        "option": "Amiodarone",
+        "bool": true
+      },
+      {
+        "option": "White blood cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 22,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 24,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these is not a complication of undescended testes?",
     "answers": [
       {
-        "option": "Germ cell tumors",
+        "option": "Testicular torsion",
+        "bool": false
+      },
+      {
+        "option": "Infertility",
         "bool": false
       },
       {
@@ -607,22 +665,18 @@
         "bool": true
       },
       {
-        "option": "Infertility",
+        "option": "Germ cell tumors",
         "bool": false
       },
       {
         "option": "Sertoli cell failure",
         "bool": false
-      },
-      {
-        "option": "Testicular torsion",
-        "bool": false
       }
     ]
   },
   {
-    "id": 23,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 25,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these is the major source of human chorionic gonadotropin(HCG) in late pregnancy?",
     "answers": [
       {
@@ -630,34 +684,34 @@
         "bool": true
       },
       {
-        "option": "Amnion",
-        "bool": false
-      },
-      {
         "option": "Breasts",
         "bool": false
       },
       {
-        "option": "Corpus luteum",
+        "option": "Amnion",
         "bool": false
       },
       {
         "option": "Yolk sac",
         "bool": false
+      },
+      {
+        "option": "Corpus luteum",
+        "bool": false
       }
     ]
   },
   {
-    "id": 24,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 26,
+    "info": "2nd-year/reproductive/2017",
     "question": "High temperature in the testes can lead to which of the following?",
     "answers": [
       {
-        "option": "Infertility",
-        "bool": true
+        "option": "Normal spermatogenesis",
+        "bool": false
       },
       {
-        "option": "Normal spermatogenesis",
+        "option": "High levels of inhibin A",
         "bool": false
       },
       {
@@ -669,54 +723,46 @@
         "bool": false
       },
       {
-        "option": "High levels of inhibin A",
-        "bool": false
+        "option": "Infertility",
+        "bool": true
       }
     ]
   },
   {
-    "id": 25,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 27,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these statements accurately describe seminal vesicles?",
     "answers": [
       {
+        "option": "Site of sperm maturation",
+        "bool": false
+      },
+      {
         "option": "Accessory sex gland",
         "bool": true
+      },
+      {
+        "option": "Copulatory organ",
+        "bool": false
       },
       {
         "option": "Site of sperm production",
         "bool": false
       },
       {
-        "option": "Site of sperm maturation",
-        "bool": false
-      },
-      {
         "option": "Intramuscular glands",
-        "bool": false
-      },
-      {
-        "option": "Copulatory organ",
         "bool": false
       }
     ]
   },
   {
-    "id": 26,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 28,
+    "info": "2nd-year/reproductive/2017",
     "question": "In which of the following locations are peg cells found?",
     "answers": [
       {
         "option": "Uterine cavity",
         "bool": false
-      },
-      {
-        "option": "Ovaries",
-        "bool": false
-      },
-      {
-        "option": "Oviducts",
-        "bool": true
       },
       {
         "option": "Cervix",
@@ -725,18 +771,22 @@
       {
         "option": "Vagina",
         "bool": false
+      },
+      {
+        "option": "Oviducts",
+        "bool": true
+      },
+      {
+        "option": "Ovaries",
+        "bool": false
       }
     ]
   },
   {
-    "id": 27,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 29,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these approaches is commonly used for tubal ligation?",
     "answers": [
-      {
-        "option": "Pharmacologic",
-        "bool": false
-      },
       {
         "option": "Transrectal",
         "bool": false
@@ -746,22 +796,26 @@
         "bool": true
       },
       {
+        "option": "Intravaginal",
+        "bool": false
+      },
+      {
         "option": "Open abdominal",
         "bool": false
       },
       {
-        "option": "Intravaginal",
+        "option": "Pharmacologic",
         "bool": false
       }
     ]
   },
   {
-    "id": 28,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 30,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these is not an effect of estrogen replacement therapy in postmenopausal women?",
     "answers": [
       {
-        "option": "Increased risk of endometrial carcinoma if used alone",
+        "option": "Reduced osteoporotic fractures",
         "bool": false
       },
       {
@@ -769,80 +823,80 @@
         "bool": false
       },
       {
-        "option": "Reduced osteoporotic fractures",
+        "option": "Increased risk of endometrial carcinoma if used alone",
         "bool": false
-      },
-      {
-        "option": "Hot flashes",
-        "bool": true
       },
       {
         "option": "Breast tenderness",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "info": "2nd-year/reproductive-1/2017",
-    "question": "Which of these is a part of the broad ligament?",
-    "answers": [
-      {
-        "option": "Uterosacral ligaments",
-        "bool": false
       },
       {
-        "option": "Mesovarium",
-        "bool": true
-      },
-      {
-        "option": "Pubocervical ligaments",
-        "bool": false
-      },
-      {
-        "option": "Infundibular ligaments",
-        "bool": false
-      },
-      {
-        "option": "Cardinal ligaments",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "info": "2nd-year/reproductive-1/2017",
-    "question": "Which part of the broad ligament covers the uterine tubes?",
-    "answers": [
-      {
-        "option": "Mesometrium",
-        "bool": false
-      },
-      {
-        "option": "Cardinal ligaments",
-        "bool": false
-      },
-      {
-        "option": "Infundibular ligaments",
-        "bool": false
-      },
-      {
-        "option": "Mesovarium",
-        "bool": false
-      },
-      {
-        "option": "Mesosalpinx",
+        "option": "Hot flashes",
         "bool": true
       }
     ]
   },
   {
     "id": 31,
-    "info": "2nd-year/reproductive-1/2017",
+    "info": "2nd-year/reproductive/2017",
+    "question": "Which of these is a part of the broad ligament?",
+    "answers": [
+      {
+        "option": "Infundibular ligaments",
+        "bool": false
+      },
+      {
+        "option": "Mesovarium",
+        "bool": true
+      },
+      {
+        "option": "Cardinal ligaments",
+        "bool": false
+      },
+      {
+        "option": "Pubocervical ligaments",
+        "bool": false
+      },
+      {
+        "option": "Uterosacral ligaments",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "2nd-year/reproductive/2017",
+    "question": "Which part of the broad ligament covers the uterine tubes?",
+    "answers": [
+      {
+        "option": "Mesosalpinx",
+        "bool": true
+      },
+      {
+        "option": "Mesovarium",
+        "bool": false
+      },
+      {
+        "option": "Cardinal ligaments",
+        "bool": false
+      },
+      {
+        "option": "Infundibular ligaments",
+        "bool": false
+      },
+      {
+        "option": "Mesometrium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "2nd-year/reproductive/2017",
     "question": "In which stage of pregnancy is corpus luteum the main source of progesterone?",
     "answers": [
       {
-        "option": "3rd trimester",
+        "option": "Throughout pregnancy",
         "bool": false
       },
       {
@@ -850,12 +904,12 @@
         "bool": false
       },
       {
-        "option": "Throughout pregnancy",
-        "bool": false
-      },
-      {
         "option": "1st trimester",
         "bool": true
+      },
+      {
+        "option": "3rd trimester",
+        "bool": false
       },
       {
         "option": "None of these",
@@ -864,8 +918,8 @@
     ]
   },
   {
-    "id": 32,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 34,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these karyotypes reflect Turner's syndrome?",
     "answers": [
       {
@@ -877,24 +931,32 @@
         "bool": false
       },
       {
-        "option": "45 XO",
-        "bool": true
+        "option": "46 XY",
+        "bool": false
       },
       {
         "option": "47 XXY",
         "bool": false
       },
       {
-        "option": "46 XY",
-        "bool": false
+        "option": "45 XO",
+        "bool": true
       }
     ]
   },
   {
-    "id": 33,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 35,
+    "info": "2nd-year/reproductive/2017",
     "question": "The act of suckling by the baby and subsequent contraction of myoepithelial cells in the breasts promotes which of the lactational processes?",
     "answers": [
+      {
+        "option": "Involution",
+        "bool": false
+      },
+      {
+        "option": "Mammogenesis",
+        "bool": false
+      },
       {
         "option": "Lactogenesis",
         "bool": false
@@ -904,30 +966,26 @@
         "bool": false
       },
       {
-        "option": "Mammogenesis",
-        "bool": false
-      },
-      {
         "option": "Galactokinesis",
         "bool": true
-      },
-      {
-        "option": "Involution",
-        "bool": false
       }
     ]
   },
   {
-    "id": 34,
-    "info": "2nd-year/reproductive-1/2017",
+    "id": 36,
+    "info": "2nd-year/reproductive/2017",
     "question": "Which of these hormones is responsible for the production of milk?",
     "answers": [
       {
-        "option": "Estrogen",
+        "option": "Oxytocin",
         "bool": false
       },
       {
-        "option": "Oxytocin",
+        "option": "Progesterone",
+        "bool": false
+      },
+      {
+        "option": "Estrogen",
         "bool": false
       },
       {
@@ -936,64 +994,6 @@
       },
       {
         "option": "Beta hCG",
-        "bool": false
-      },
-      {
-        "option": "Progesterone",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "info": "2nd-year/reproductive-1/2017",
-    "question": "Which of the following androgen receptors is found on the stromal cells of the prostate gland?",
-    "answers": [
-      {
-        "option": "Testosterone",
-        "bool": false
-      },
-      {
-        "option": "Cortisol",
-        "bool": false
-      },
-      {
-        "option": "DHT",
-        "bool": true
-      },
-      {
-        "option": "Androstenedione",
-        "bool": false
-      },
-      {
-        "option": "Estrogen",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "info": "2nd-year/reproductive-1/2017",
-    "question": "Which of the following is the typical peak period of beta-hCG levels during pregnancy?",
-    "answers": [
-      {
-        "option": "12 to 15 weeks",
-        "bool": false
-      },
-      {
-        "option": "8 to 10 weeks",
-        "bool": true
-      },
-      {
-        "option": "5 to 6 weeks",
-        "bool": false
-      },
-      {
-        "option": "17 to 19 weeks",
-        "bool": false
-      },
-      {
-        "option": "20 to 22 weeks",
         "bool": false
       }
     ]

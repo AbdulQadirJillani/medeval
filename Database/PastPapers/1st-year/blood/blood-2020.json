@@ -1,19 +1,15 @@
 [
   {
     "id": 0,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A patient is on heparin, which is an anticoagulant. In case of heparin overdose, bleeding can occur. This bleeding can be controlled by administering which of the following drugs as an antidote to this patient?",
     "answers": [
-      {
-        "option": "Hydroxocobalamin",
-        "bool": false
-      },
       {
         "option": "Ascorbic acid",
         "bool": false
       },
       {
-        "option": "Methylene blue",
+        "option": "Hydroxocobalamin",
         "bool": false
       },
       {
@@ -23,18 +19,18 @@
       {
         "option": "Acetylcysteine",
         "bool": false
+      },
+      {
+        "option": "Methylene blue",
+        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the process in which antigen-antibody (Ag-Ab) complexes are phagocytosed much more efficiently in the presence of C3b known as?",
     "answers": [
-      {
-        "option": "Lysis of bacteria",
-        "bool": false
-      },
       {
         "option": "Anaphylatoxin",
         "bool": false
@@ -44,35 +40,39 @@
         "bool": false
       },
       {
-        "option": "Cytolysis",
+        "option": "Lysis of bacteria",
         "bool": false
       },
       {
         "option": "Opsonization",
         "bool": true
+      },
+      {
+        "option": "Cytolysis",
+        "bool": false
       }
     ]
   },
   {
     "id": 2,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Alpha thalassemia presents in four different clinical conditions because of the presence of how many copies of genes?",
     "answers": [
-      {
-        "option": "5",
-        "bool": false
-      },
-      {
-        "option": "4",
-        "bool": true
-      },
       {
         "option": "1",
         "bool": false
       },
       {
+        "option": "5",
+        "bool": false
+      },
+      {
         "option": "2",
         "bool": false
+      },
+      {
+        "option": "4",
+        "bool": true
       },
       {
         "option": "3",
@@ -82,21 +82,9 @@
   },
   {
     "id": 3,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "\"A thymus-derived cell that participates in a variety of cell mediated immune reactions\". Which cell does this statement define?",
     "answers": [
-      {
-        "option": "Plasma cell",
-        "bool": false
-      },
-      {
-        "option": "Polymorphonuclear cell",
-        "bool": false
-      },
-      {
-        "option": "Natural killer cell",
-        "bool": false
-      },
       {
         "option": "T-cell",
         "bool": true
@@ -104,22 +92,26 @@
       {
         "option": "Monocyte",
         "bool": false
+      },
+      {
+        "option": "Polymorphonuclear cell",
+        "bool": false
+      },
+      {
+        "option": "Plasma cell",
+        "bool": false
+      },
+      {
+        "option": "Natural killer cell",
+        "bool": false
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which system reaches the functional state first in the embryo?",
     "answers": [
-      {
-        "option": "Skeletal",
-        "bool": false
-      },
-      {
-        "option": "Respiratory",
-        "bool": false
-      },
       {
         "option": "Cardiovascular",
         "bool": true
@@ -131,12 +123,20 @@
       {
         "option": "Nervous",
         "bool": false
+      },
+      {
+        "option": "Respiratory",
+        "bool": false
+      },
+      {
+        "option": "Skeletal",
+        "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A woman has a mechanical heart valve and takes warfarin. What advice should she receive regarding her anti-thrombotic medication in pregnancy?",
     "answers": [
       {
@@ -152,20 +152,28 @@
         "bool": false
       },
       {
-        "option": "All the medications that affect the blood should be avoided",
-        "bool": false
-      },
-      {
         "option": "Warfarin should be replaced with heparin",
         "bool": true
+      },
+      {
+        "option": "All the medications that affect the blood should be avoided",
+        "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A young male brought to the emergency room was in an unconscious state following an injection dose of a medicine given by a general practitioner. On examination, the patient was diagnosed with anaphylactic shock. Which of the following is the main causative factor for the mentioned condition?",
     "answers": [
+      {
+        "option": "Mast cells",
+        "bool": true
+      },
+      {
+        "option": "Macrophages",
+        "bool": false
+      },
       {
         "option": "Plasma cells",
         "bool": false
@@ -177,32 +185,20 @@
       {
         "option": "Antigen presenting cells",
         "bool": false
-      },
-      {
-        "option": "Macrophages",
-        "bool": false
-      },
-      {
-        "option": "Mast cells",
-        "bool": true
       }
     ]
   },
   {
     "id": 7,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is inhibited by aminocaproic acid?",
     "answers": [
       {
-        "option": "Heparin",
-        "bool": false
+        "option": "Fibrinolytic drugs",
+        "bool": true
       },
       {
         "option": "Warfarin",
-        "bool": false
-      },
-      {
-        "option": "Iron",
         "bool": false
       },
       {
@@ -210,14 +206,18 @@
         "bool": false
       },
       {
-        "option": "Fibrinolytic drugs",
-        "bool": true
+        "option": "Iron",
+        "bool": false
+      },
+      {
+        "option": "Heparin",
+        "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is the most abundant plasma protein?",
     "answers": [
       {
@@ -225,38 +225,34 @@
         "bool": false
       },
       {
-        "option": "Albumin",
-        "bool": true
+        "option": "Globulin",
+        "bool": false
       },
       {
-        "option": "Fibrinogen",
-        "bool": false
+        "option": "Albumin",
+        "bool": true
       },
       {
         "option": "Peptones",
         "bool": false
       },
       {
-        "option": "Globulin",
+        "option": "Fibrinogen",
         "bool": false
       }
     ]
   },
   {
     "id": 9,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "An outbreak of septicemia by Staphylococcus aureus occurred in a children's ward. Where is the causative organism usually found as part of the normal flora?",
     "answers": [
       {
-        "option": "Lower respiratory tract",
-        "bool": false
-      },
-      {
-        "option": "Throat",
-        "bool": false
-      },
-      {
         "option": "Gastrointestinal tract",
+        "bool": false
+      },
+      {
+        "option": "Colon",
         "bool": false
       },
       {
@@ -264,16 +260,28 @@
         "bool": true
       },
       {
-        "option": "Colon",
+        "option": "Lower respiratory tract",
+        "bool": false
+      },
+      {
+        "option": "Throat",
         "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Aspirin differs from other nonsteroidal anti-inflammatory drugs (NSAIDs) in what aspect?",
     "answers": [
+      {
+        "option": "Unlike other NSAIDs, aspirin inhibits both the cyclooxygenase and lipoxygenase pathways",
+        "bool": false
+      },
+      {
+        "option": "Analgesic action of aspirin is due to the decrease in PGE₂ synthesis while other NSAIDs have no action on this prostaglandin",
+        "bool": false
+      },
       {
         "option": "Unlike other NSAIDs, aspirin can arrest the progress of arthritis",
         "bool": false
@@ -283,14 +291,6 @@
         "bool": true
       },
       {
-        "option": "Analgesic action of aspirin is due to the decrease in PGE\u2082 synthesis while other NSAIDs have no action on this prostaglandin",
-        "bool": false
-      },
-      {
-        "option": "Unlike other NSAIDs, aspirin inhibits both the cyclooxygenase and lipoxygenase pathways",
-        "bool": false
-      },
-      {
         "option": "Interstitial nephritis can only result from aspirin",
         "bool": false
       }
@@ -298,17 +298,9 @@
   },
   {
     "id": 11,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Through which process do reticulocytes enter peripheral blood circulation from bone marrow?",
     "answers": [
-      {
-        "option": "Phagocytosis",
-        "bool": false
-      },
-      {
-        "option": "Diapedesis",
-        "bool": true
-      },
       {
         "option": "Pinocytosis",
         "bool": false
@@ -320,12 +312,20 @@
       {
         "option": "Chemotaxis",
         "bool": false
+      },
+      {
+        "option": "Phagocytosis",
+        "bool": false
+      },
+      {
+        "option": "Diapedesis",
+        "bool": true
       }
     ]
   },
   {
     "id": 12,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "How does aspirin inhibit platelet aggregation?",
     "answers": [
       {
@@ -341,7 +341,7 @@
         "bool": false
       },
       {
-        "option": "Because it inhibits TXA\u2082 production in platelets for 3 - 7 days",
+        "option": "Because it inhibits TXA₂ production in platelets for 3 - 7 days",
         "bool": false
       },
       {
@@ -352,34 +352,34 @@
   },
   {
     "id": 13,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What does a bacteriostatic agent do?",
     "answers": [
+      {
+        "option": "Increases growth rate",
+        "bool": false
+      },
       {
         "option": "Maintains human cell growth rate",
         "bool": false
       },
       {
-        "option": "Slows viral growth rate",
-        "bool": false
+        "option": "Inhibits the growth of bacteria",
+        "bool": true
       },
       {
         "option": "No effect",
         "bool": false
       },
       {
-        "option": "Increases growth rate",
+        "option": "Slows viral growth rate",
         "bool": false
-      },
-      {
-        "option": "Inhibits the growth of bacteria",
-        "bool": true
       }
     ]
   },
   {
     "id": 14,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Before cell division, the final check point for DNA damage/abnormality occurs at which phase of the cell cycle?",
     "answers": [
       {
@@ -387,16 +387,16 @@
         "bool": false
       },
       {
-        "option": "M",
-        "bool": false
+        "option": "G2 / M",
+        "bool": true
       },
       {
         "option": "G1",
         "bool": false
       },
       {
-        "option": "G2 / M",
-        "bool": true
+        "option": "M",
+        "bool": false
       },
       {
         "option": "G2",
@@ -406,15 +406,11 @@
   },
   {
     "id": 15,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is Blackwater fever a complication of?",
     "answers": [
       {
-        "option": "Ovale malaria",
-        "bool": false
-      },
-      {
-        "option": "Vivax malaria",
+        "option": "Amoebic dysentery",
         "bool": false
       },
       {
@@ -422,31 +418,31 @@
         "bool": true
       },
       {
+        "option": "Ovale malaria",
+        "bool": false
+      },
+      {
         "option": "Dengue",
         "bool": false
       },
       {
-        "option": "Amoebic dysentery",
+        "option": "Vivax malaria",
         "bool": false
       }
     ]
   },
   {
     "id": 16,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Cancer cells have limitless proliferative capacities because of which of the following mechanisms?",
     "answers": [
       {
-        "option": "Upregulation of the enzyme telomerase",
-        "bool": true
-      },
-      {
-        "option": "Mitotic catastrophe",
-        "bool": false
-      },
-      {
         "option": "Cellular senescence",
         "bool": false
+      },
+      {
+        "option": "Upregulation of the enzyme telomerase",
+        "bool": true
       },
       {
         "option": "Increase in apoptosis",
@@ -455,24 +451,28 @@
       {
         "option": "Increased IGF resulting in angiogenesis",
         "bool": false
+      },
+      {
+        "option": "Mitotic catastrophe",
+        "bool": false
       }
     ]
   },
   {
     "id": 17,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the cancerous mutation of myelogenous or lymphogenous cells called?",
     "answers": [
-      {
-        "option": "Anemia",
-        "bool": false
-      },
       {
         "option": "Thrombocytosis",
         "bool": false
       },
       {
-        "option": "Leukemoid reaction",
+        "option": "Leukemia",
+        "bool": true
+      },
+      {
+        "option": "Anemia",
         "bool": false
       },
       {
@@ -480,49 +480,53 @@
         "bool": false
       },
       {
-        "option": "Leukemia",
-        "bool": true
+        "option": "Leukemoid reaction",
+        "bool": false
       }
     ]
   },
   {
     "id": 18,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following regarding ceruloplasmin is correct?",
     "answers": [
-      {
-        "option": "Involved in Zn absorption",
-        "bool": false
-      },
       {
         "option": "Present in neurons",
         "bool": false
       },
       {
-        "option": "Changes Fe\u207a\u00b2 to Fe\u207a\u00b3",
+        "option": "Changes Fe⁺² to Fe⁺³",
         "bool": true
+      },
+      {
+        "option": "Converts hemoglobin to myoglobin",
+        "bool": false
       },
       {
         "option": "Acts primarily in muscle cells",
         "bool": false
       },
       {
-        "option": "Converts hemoglobin to myoglobin",
+        "option": "Involved in Zn absorption",
         "bool": false
       }
     ]
   },
   {
     "id": 19,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of these is a clotting factor that requires activation and is dependent on vitamin K?",
     "answers": [
       {
-        "option": "Calcium",
+        "option": "Tissue factor",
         "bool": false
       },
       {
-        "option": "Labile factor",
+        "option": "Fibrinogen",
+        "bool": false
+      },
+      {
+        "option": "Calcium",
         "bool": false
       },
       {
@@ -530,22 +534,22 @@
         "bool": true
       },
       {
-        "option": "Fibrinogen",
-        "bool": false
-      },
-      {
-        "option": "Tissue factor",
+        "option": "Labile factor",
         "bool": false
       }
     ]
   },
   {
     "id": 20,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Defensins are highly positively charged cationic peptides that perform which of the following functions?",
     "answers": [
       {
-        "option": "Cause opsonization of bacteria",
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Activate complement",
         "bool": false
       },
       {
@@ -553,11 +557,7 @@
         "bool": true
       },
       {
-        "option": "Activate complement",
-        "bool": false
-      },
-      {
-        "option": "All of these",
+        "option": "Cause opsonization of bacteria",
         "bool": false
       },
       {
@@ -568,36 +568,44 @@
   },
   {
     "id": 21,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is deferoxamine a specific antidote of?",
     "answers": [
       {
-        "option": "Heparin",
+        "option": "Antiplatelet drugs",
         "bool": false
       },
       {
-        "option": "Iron",
-        "bool": true
+        "option": "Heparin",
+        "bool": false
       },
       {
         "option": "Warfarin",
         "bool": false
       },
       {
-        "option": "Antiplatelet drugs",
+        "option": "Fibrinolytic drugs",
         "bool": false
       },
       {
-        "option": "Fibrinolytic drugs",
-        "bool": false
+        "option": "Iron",
+        "bool": true
       }
     ]
   },
   {
     "id": 22,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What does a deficiency of factor VIII cause?",
     "answers": [
+      {
+        "option": "Thrombocytopenia",
+        "bool": false
+      },
+      {
+        "option": "Hemophilia A",
+        "bool": true
+      },
       {
         "option": "Von Willebrand disease",
         "bool": false
@@ -607,22 +615,14 @@
         "bool": false
       },
       {
-        "option": "Hemophilia A",
-        "bool": true
-      },
-      {
         "option": "Hemophilia B",
-        "bool": false
-      },
-      {
-        "option": "Thrombocytopenia",
         "bool": false
       }
     ]
   },
   {
     "id": 23,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Epstein-Barr virus causes which type of malignancy in African children?",
     "answers": [
       {
@@ -630,36 +630,28 @@
         "bool": false
       },
       {
-        "option": "Burkitt's lymphoma",
-        "bool": true
-      },
-      {
         "option": "Diffuse large B-cell lymphoma",
         "bool": false
       },
       {
-        "option": "Mastocytosis",
-        "bool": false
+        "option": "Burkitt's lymphoma",
+        "bool": true
       },
       {
         "option": "Peripheral T-cell lymphoma",
+        "bool": false
+      },
+      {
+        "option": "Mastocytosis",
         "bool": false
       }
     ]
   },
   {
     "id": 24,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What combination of blood groups leads to erythroblastosis fetalis?",
     "answers": [
-      {
-        "option": "When the mother is O+ and fetus is O-",
-        "bool": false
-      },
-      {
-        "option": "When the mother is Rh- and fetus is Rh+",
-        "bool": true
-      },
       {
         "option": "When the mother is A+ and fetus is B-",
         "bool": false
@@ -669,18 +661,30 @@
         "bool": false
       },
       {
+        "option": "When the mother is O+ and fetus is O-",
+        "bool": false
+      },
+      {
         "option": "When the mother is B+ and fetus is O+",
         "bool": false
+      },
+      {
+        "option": "When the mother is Rh- and fetus is Rh+",
+        "bool": true
       }
     ]
   },
   {
     "id": 25,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The fibroblast used to heal wounds is derived from which of the following?",
     "answers": [
       {
-        "option": "Endothelium",
+        "option": "Platelets",
+        "bool": false
+      },
+      {
+        "option": "Vascular fibrosis",
         "bool": false
       },
       {
@@ -688,11 +692,7 @@
         "bool": true
       },
       {
-        "option": "Platelets",
-        "bool": false
-      },
-      {
-        "option": "Vascular fibrosis",
+        "option": "Endothelium",
         "bool": false
       },
       {
@@ -703,19 +703,15 @@
   },
   {
     "id": 26,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Where does the first step of red blood cell formation normally occur in an adult?",
     "answers": [
       {
+        "option": "Liver",
+        "bool": false
+      },
+      {
         "option": "Lymphoid tissues",
-        "bool": false
-      },
-      {
-        "option": "Kidney",
-        "bool": false
-      },
-      {
-        "option": "Spleen",
         "bool": false
       },
       {
@@ -723,19 +719,31 @@
         "bool": true
       },
       {
-        "option": "Liver",
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Kidney",
         "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What does glucose-6-phosphate dehydrogenase do?",
     "answers": [
       {
+        "option": "Reduces ATP to ADP",
+        "bool": false
+      },
+      {
         "option": "Reduces NADP to NADPH",
         "bool": true
+      },
+      {
+        "option": "Oxidizes NADPH to NADP",
+        "bool": false
       },
       {
         "option": "Reduces NADPH to NADP",
@@ -744,22 +752,18 @@
       {
         "option": "Oxidizes NADP to NADPH",
         "bool": false
-      },
-      {
-        "option": "Oxidizes NADPH to NADP",
-        "bool": false
-      },
-      {
-        "option": "Reduces ATP to ADP",
-        "bool": false
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Glycine and succinyl CoA combine to form delta-aminolevulinic acid in the presence of which enzyme?",
     "answers": [
+      {
+        "option": "Esterase",
+        "bool": false
+      },
       {
         "option": "Pyruvate kinase",
         "bool": false
@@ -767,10 +771,6 @@
       {
         "option": "Delta aminolevulinic acid synthase",
         "bool": true
-      },
-      {
-        "option": "Esterase",
-        "bool": false
       },
       {
         "option": "Glucokinase",
@@ -784,17 +784,9 @@
   },
   {
     "id": 29,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What are growth factors usually made of?",
     "answers": [
-      {
-        "option": "Aminoglycosides",
-        "bool": false
-      },
-      {
-        "option": "Carbohydrates",
-        "bool": false
-      },
       {
         "option": "Glycoproteins",
         "bool": false
@@ -806,20 +798,24 @@
       {
         "option": "Polypeptides",
         "bool": true
+      },
+      {
+        "option": "Aminoglycosides",
+        "bool": false
+      },
+      {
+        "option": "Carbohydrates",
+        "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Hemolytic disease of newborn due to Rh incompatibility is caused by which type of hypersensitivity?",
     "answers": [
       {
         "option": "Complement mediated",
-        "bool": false
-      },
-      {
-        "option": "Immune complex mediated",
         "bool": false
       },
       {
@@ -831,6 +827,10 @@
         "bool": false
       },
       {
+        "option": "Immune complex mediated",
+        "bool": false
+      },
+      {
         "option": "Anaphylactic",
         "bool": false
       }
@@ -838,11 +838,11 @@
   },
   {
     "id": 31,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "How does histamine cause increased vascular leakage?",
     "answers": [
       {
-        "option": "Increased margination of leukocytes at the site of injury",
+        "option": "Increased hydrostatic pressure",
         "bool": false
       },
       {
@@ -850,24 +850,28 @@
         "bool": true
       },
       {
-        "option": "Increased trancytosis",
-        "bool": false
-      },
-      {
         "option": "Endothelial cell necrosis and detachment",
         "bool": false
       },
       {
-        "option": "Increased hydrostatic pressure",
+        "option": "Increased margination of leukocytes at the site of injury",
+        "bool": false
+      },
+      {
+        "option": "Increased trancytosis",
         "bool": false
       }
     ]
   },
   {
     "id": 32,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Human T-cell leukemia virus type-1 (HTLV-1) affects which inflammatory cells?",
     "answers": [
+      {
+        "option": "CD4+ T-cells",
+        "bool": true
+      },
       {
         "option": "Macrophages",
         "bool": false
@@ -881,10 +885,6 @@
         "bool": false
       },
       {
-        "option": "CD4+ T-cells",
-        "bool": true
-      },
-      {
         "option": "Neutrophils",
         "bool": false
       }
@@ -892,23 +892,23 @@
   },
   {
     "id": 33,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is a unique stain used in histological studies?",
     "answers": [
-      {
-        "option": "Basophilia (blue stain) for DNA in ribosomes",
-        "bool": false
-      },
       {
         "option": "Azurophilia (purple stain) for lysosome of WBCs",
         "bool": true
       },
       {
-        "option": "Neutrophilia (pink stain) for neutrophil granules",
+        "option": "Basophilia (blue stain) for DNA in ribosomes",
         "bool": false
       },
       {
         "option": "Eosinophilia (yellow stain) for hemoglobin",
+        "bool": false
+      },
+      {
+        "option": "Neutrophilia (pink stain) for neutrophil granules",
         "bool": false
       },
       {
@@ -919,21 +919,9 @@
   },
   {
     "id": 34,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "For malaria, sporozoites are injected into humans beings. The exo-erythrocytic cycle takes place in which organ of the body?",
     "answers": [
-      {
-        "option": "Lymph node",
-        "bool": false
-      },
-      {
-        "option": "Liver",
-        "bool": true
-      },
-      {
-        "option": "Spleen",
-        "bool": false
-      },
       {
         "option": "Heart",
         "bool": false
@@ -941,28 +929,40 @@
       {
         "option": "Bone marrow",
         "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Lymph node",
+        "bool": false
+      },
+      {
+        "option": "Liver",
+        "bool": true
       }
     ]
   },
   {
     "id": 35,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "In malignant tumors, what does the term \"loss of polarity\" mean?",
     "answers": [
-      {
-        "option": "Altered nuclear cytoplasmic ratio of cancer cells",
-        "bool": false
-      },
-      {
-        "option": "Formation of tumors against normal cells",
-        "bool": false
-      },
       {
         "option": "Pleomorphism",
         "bool": false
       },
       {
+        "option": "Altered nuclear cytoplasmic ratio of cancer cells",
+        "bool": false
+      },
+      {
         "option": "More than 10 mitoses/10 high power fields",
+        "bool": false
+      },
+      {
+        "option": "Formation of tumors against normal cells",
         "bool": false
       },
       {
@@ -973,15 +973,19 @@
   },
   {
     "id": 36,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "In reticuloendothelial cells, what initially degrades heme?",
     "answers": [
+      {
+        "option": "Ferrochelatase",
+        "bool": false
+      },
       {
         "option": "Biliverdin reductase",
         "bool": false
       },
       {
-        "option": "Dehydratase",
+        "option": "Synthase",
         "bool": false
       },
       {
@@ -989,26 +993,26 @@
         "bool": true
       },
       {
-        "option": "Ferrochelatase",
-        "bool": false
-      },
-      {
-        "option": "Synthase",
+        "option": "Dehydratase",
         "bool": false
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Innate immunity is considered to be the first line of defense against many microorganisms. Which of the following is a major component of this immunity?",
     "answers": [
       {
-        "option": "Antibodies",
+        "option": "B-cells",
         "bool": false
       },
       {
-        "option": "B-cells",
+        "option": "Plasma cells",
+        "bool": false
+      },
+      {
+        "option": "Antibodies",
         "bool": false
       },
       {
@@ -1018,17 +1022,13 @@
       {
         "option": "T-cells",
         "bool": false
-      },
-      {
-        "option": "Plasma cells",
-        "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "1st-year/blood-1/2020",
-    "question": "How can iron be rapidly depleted from the body?",
+    "info": "1st-year/blood/2020",
+    "question": "How can iron be  rapidly depleted from the body?",
     "answers": [
       {
         "option": "Vigorous exercise",
@@ -1039,24 +1039,32 @@
         "bool": true
       },
       {
-        "option": "Weight loss",
-        "bool": false
-      },
-      {
         "option": "High calcium absorption",
         "bool": false
       },
       {
         "option": "High altitude",
         "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": false
       }
     ]
   },
   {
     "id": 39,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Kala-azar is found in most tropical and subtropical countries and is transferred by the sand-fly. What is its causative organism?",
     "answers": [
+      {
+        "option": "L. braziliensis",
+        "bool": false
+      },
+      {
+        "option": "L. tropica",
+        "bool": false
+      },
       {
         "option": "L. donovani",
         "bool": true
@@ -1066,36 +1074,16 @@
         "bool": false
       },
       {
-        "option": "L. tropica",
-        "bool": false
-      },
-      {
         "option": "T. cruzi",
-        "bool": false
-      },
-      {
-        "option": "L. braziliensis",
         "bool": false
       }
     ]
   },
   {
     "id": 40,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What condition are macro-ovalocytes in a peripheral blood smear seen in?",
     "answers": [
-      {
-        "option": "Megaloblastic anemia",
-        "bool": true
-      },
-      {
-        "option": "Hereditary spherocytosis",
-        "bool": false
-      },
-      {
-        "option": "Glucose-6-phosphate dehydrogenase deficiency",
-        "bool": false
-      },
       {
         "option": "Iron deficiency anemia",
         "bool": false
@@ -1103,12 +1091,24 @@
       {
         "option": "Sickle cell anemia",
         "bool": false
+      },
+      {
+        "option": "Glucose-6-phosphate dehydrogenase deficiency",
+        "bool": false
+      },
+      {
+        "option": "Hereditary spherocytosis",
+        "bool": false
+      },
+      {
+        "option": "Megaloblastic anemia",
+        "bool": true
       }
     ]
   },
   {
     "id": 41,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the mechanism of action of penicillin?",
     "answers": [
       {
@@ -1124,20 +1124,24 @@
         "bool": false
       },
       {
-        "option": "Inhibition of transpeptidation in the cell wall",
-        "bool": true
-      },
-      {
         "option": "Inhibition of beta-lactamase in the cell wall",
         "bool": false
+      },
+      {
+        "option": "Inhibition of transpeptidation in the cell wall",
+        "bool": true
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is a major mediator of an anaphylactic reaction?",
     "answers": [
+      {
+        "option": "Eosinophils",
+        "bool": false
+      },
       {
         "option": "Leukotriene",
         "bool": false
@@ -1153,16 +1157,12 @@
       {
         "option": "Slow-reacting substance of anaphylaxis",
         "bool": false
-      },
-      {
-        "option": "Eosinophils",
-        "bool": false
       }
     ]
   },
   {
     "id": 43,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of these is the most appropriate technique for identifying thalassemia?",
     "answers": [
       {
@@ -1189,12 +1189,20 @@
   },
   {
     "id": 44,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the movement of leukocytes to the site of an injurious stimulus called?",
     "answers": [
       {
+        "option": "Diapedesis",
+        "bool": false
+      },
+      {
         "option": "Chemotaxis",
         "bool": true
+      },
+      {
+        "option": "Adhesion",
+        "bool": false
       },
       {
         "option": "Margination",
@@ -1203,25 +1211,21 @@
       {
         "option": "Rolling",
         "bool": false
-      },
-      {
-        "option": "Adhesion",
-        "bool": false
-      },
-      {
-        "option": "Diapedesis",
-        "bool": false
       }
     ]
   },
   {
     "id": 45,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the normal percentage of neutrophils in the adult human?",
     "answers": [
       {
-        "option": "60 - 70%",
-        "bool": true
+        "option": "0 - 10%",
+        "bool": false
+      },
+      {
+        "option": "80 - 90%",
+        "bool": false
       },
       {
         "option": "20 - 30%",
@@ -1232,22 +1236,18 @@
         "bool": false
       },
       {
-        "option": "0 - 10%",
-        "bool": false
-      },
-      {
-        "option": "80 - 90%",
-        "bool": false
+        "option": "60 - 70%",
+        "bool": true
       }
     ]
   },
   {
     "id": 46,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is 1 gram of pure hemoglobin capable of combining with?",
     "answers": [
       {
-        "option": "1.34 ml of carbon dioxide",
+        "option": "13.4 ml of oxygen",
         "bool": false
       },
       {
@@ -1259,26 +1259,26 @@
         "bool": false
       },
       {
-        "option": "13.4 ml of oxygen",
+        "option": "13.4 ml of carbon dioxide",
         "bool": false
       },
       {
-        "option": "13.4 ml of carbon dioxide",
+        "option": "1.34 ml of carbon dioxide",
         "bool": false
       }
     ]
   },
   {
     "id": 47,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following substances is found in the specific cytoplasmic granules of neutrophils?",
     "answers": [
       {
-        "option": "Myeloperoxidase",
-        "bool": false
+        "option": "Lysozyme",
+        "bool": true
       },
       {
-        "option": "Proteinase",
+        "option": "Myeloperoxidase",
         "bool": false
       },
       {
@@ -1286,20 +1286,28 @@
         "bool": false
       },
       {
-        "option": "Lysozyme",
-        "bool": true
+        "option": "Cationic proteins",
+        "bool": false
       },
       {
-        "option": "Cationic proteins",
+        "option": "Proteinase",
         "bool": false
       }
     ]
   },
   {
     "id": 48,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is most likely to lead to a patient presenting with bleeding?",
     "answers": [
+      {
+        "option": "Protein C deficiency",
+        "bool": false
+      },
+      {
+        "option": "High platelet count",
+        "bool": false
+      },
       {
         "option": "Prolonged bed rest or immobilization",
         "bool": false
@@ -1309,30 +1317,26 @@
         "bool": true
       },
       {
-        "option": "High platelet count",
-        "bool": false
-      },
-      {
         "option": "Protein S deficiency",
-        "bool": false
-      },
-      {
-        "option": "Protein C deficiency",
         "bool": false
       }
     ]
   },
   {
     "id": 49,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "How does penicillin kill bacterial cells?",
     "answers": [
       {
-        "option": "By inhibiting the 50S ribosomal RNA",
+        "option": "By inhibiting the tubulin polymerization",
         "bool": false
       },
       {
-        "option": "By inhibiting the tubulin polymerization",
+        "option": "By inhibiting the 30S ribosomal RNA",
+        "bool": false
+      },
+      {
+        "option": "By inhibiting the 50S ribosomal RNA",
         "bool": false
       },
       {
@@ -1342,57 +1346,14 @@
       {
         "option": "By inhibiting the folic acid synthesis",
         "bool": false
-      },
-      {
-        "option": "By inhibiting the 30S ribosomal RNA",
-        "bool": false
       }
     ]
   },
   {
     "id": 50,
-    "info": "1st-year/blood-1/2020",
-    "question": "What is the other name for cobalamin?",
-    "answers": [
-      {
-        "option": "Vitamin B-6",
-        "bool": false
-      },
-      {
-        "option": "Vitamin B-12",
-        "bool": true
-      },
-      {
-        "option": "Vitamin K",
-        "bool": false
-      },
-      {
-        "option": "Vitamin C",
-        "bool": false
-      },
-      {
-        "option": "Vitamin B-9",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Pernicious anemia is a type of megaloblastic anemia. What may cause it?",
     "answers": [
-      {
-        "option": "Folic acid antagonists",
-        "bool": false
-      },
-      {
-        "option": "Vegetarianism",
-        "bool": false
-      },
-      {
-        "option": "Deficiency of intrinsic factor",
-        "bool": true
-      },
       {
         "option": "Hemodialysis",
         "bool": false
@@ -1400,17 +1361,29 @@
       {
         "option": "Inadequate diet",
         "bool": false
+      },
+      {
+        "option": "Deficiency of intrinsic factor",
+        "bool": true
+      },
+      {
+        "option": "Folic acid antagonists",
+        "bool": false
+      },
+      {
+        "option": "Vegetarianism",
+        "bool": false
       }
     ]
   },
   {
-    "id": 52,
-    "info": "1st-year/blood-1/2020",
+    "id": 51,
+    "info": "1st-year/blood/2020",
     "question": "Pleomorphic adenoma is the swelling of the parotid gland and is an example of what?",
     "answers": [
       {
-        "option": "Benign mixed tumor",
-        "bool": true
+        "option": "Mixed malignant tumor",
+        "bool": false
       },
       {
         "option": "Painful, fast growing inflammation",
@@ -1421,8 +1394,8 @@
         "bool": false
       },
       {
-        "option": "Mixed malignant tumor",
-        "bool": false
+        "option": "Benign mixed tumor",
+        "bool": true
       },
       {
         "option": "Malignant tumor",
@@ -1431,12 +1404,12 @@
     ]
   },
   {
-    "id": 53,
-    "info": "1st-year/blood-1/2020",
+    "id": 52,
+    "info": "1st-year/blood/2020",
     "question": "Porphyria results in the accumulation of a unique pattern of intermediates caused by the deficiency of which of the following?",
     "answers": [
       {
-        "option": "Glycine",
+        "option": "Succinyl CoA",
         "bool": false
       },
       {
@@ -1444,22 +1417,22 @@
         "bool": false
       },
       {
-        "option": "Succinyl CoA",
-        "bool": false
+        "option": "Enzyme",
+        "bool": true
       },
       {
         "option": "Intermediate",
         "bool": false
       },
       {
-        "option": "Enzyme",
-        "bool": true
+        "option": "Glycine",
+        "bool": false
       }
     ]
   },
   {
-    "id": 54,
-    "info": "1st-year/blood-1/2020",
+    "id": 53,
+    "info": "1st-year/blood/2020",
     "question": "Regarding blood grouping, what does an Rh-positive individual possess?",
     "answers": [
       {
@@ -1467,32 +1440,28 @@
         "bool": false
       },
       {
-        "option": "Agglutinogen A",
+        "option": "Agglutinogen B",
         "bool": false
       },
       {
-        "option": "Agglutinogen D",
-        "bool": true
+        "option": "Agglutinogen A",
+        "bool": false
       },
       {
         "option": "Agglutinin D",
         "bool": false
       },
       {
-        "option": "Agglutinogen B",
-        "bool": false
+        "option": "Agglutinogen D",
+        "bool": true
       }
     ]
   },
   {
-    "id": 55,
-    "info": "1st-year/blood-1/2020",
+    "id": 54,
+    "info": "1st-year/blood/2020",
     "question": "Regarding carcinogens, which of the following statements is correct?",
     "answers": [
-      {
-        "option": "All carcinogens are manmade",
-        "bool": false
-      },
       {
         "option": "No promotor is required for direct acting chemical carcinogen",
         "bool": false
@@ -1508,24 +1477,20 @@
       {
         "option": "All carcinogens are some form of ionic radiation",
         "bool": false
+      },
+      {
+        "option": "All carcinogens are manmade",
+        "bool": false
       }
     ]
   },
   {
-    "id": 56,
-    "info": "1st-year/blood-1/2020",
+    "id": 55,
+    "info": "1st-year/blood/2020",
     "question": "Which of the following regarding HbH is correct?",
     "answers": [
       {
-        "option": "Not as severe as \u03b2-thalassemia major",
-        "bool": false
-      },
-      {
-        "option": "Caused by the deletion of three \u03b1-globin genes",
-        "bool": true
-      },
-      {
-        "option": "Iron overload is usually seen",
+        "option": "Results because of gene deletion",
         "bool": false
       },
       {
@@ -1533,26 +1498,26 @@
         "bool": false
       },
       {
-        "option": "Results because of gene deletion",
+        "option": "Caused by the deletion of three α-globin genes",
+        "bool": true
+      },
+      {
+        "option": "Not as severe as β-thalassemia major",
+        "bool": false
+      },
+      {
+        "option": "Iron overload is usually seen",
         "bool": false
       }
     ]
   },
   {
-    "id": 57,
-    "info": "1st-year/blood-1/2020",
+    "id": 56,
+    "info": "1st-year/blood/2020",
     "question": "Regarding signalling mechanisms in cell growth, what does \"autocrine signalling\" mean?",
     "answers": [
       {
-        "option": "Cell responding to signalling molecules brought by blood",
-        "bool": false
-      },
-      {
         "option": "Cell responding to signalling molecules that are secreted by adjacent cells",
-        "bool": false
-      },
-      {
-        "option": "Cell responding to signalling molecules that are secreted by far away cells",
         "bool": false
       },
       {
@@ -1562,24 +1527,24 @@
       {
         "option": "Cell responding to signalling molecules brought by lymphatics",
         "bool": false
+      },
+      {
+        "option": "Cell responding to signalling molecules brought by blood",
+        "bool": false
+      },
+      {
+        "option": "Cell responding to signalling molecules that are secreted by far away cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 58,
-    "info": "1st-year/blood-1/2020",
+    "id": 57,
+    "info": "1st-year/blood/2020",
     "question": "Why might cancer stem cells be less susceptible to chemotherapy?",
     "answers": [
       {
-        "option": "Cells are mostly in G\u2080 phase",
-        "bool": true
-      },
-      {
         "option": "Because of local tumor invasion",
-        "bool": false
-      },
-      {
-        "option": "Growth rate equals that of adjacent normal cells",
         "bool": false
       },
       {
@@ -1589,16 +1554,28 @@
       {
         "option": "Because of tumor debulking",
         "bool": false
+      },
+      {
+        "option": "Growth rate equals that of adjacent normal cells",
+        "bool": false
+      },
+      {
+        "option": "Cells are mostly in G₀ phase",
+        "bool": true
       }
     ]
   },
   {
-    "id": 59,
-    "info": "1st-year/blood-1/2020",
+    "id": 58,
+    "info": "1st-year/blood/2020",
     "question": "Reiter's syndrome is a systemic autoimmune disease triggered by infection with intestinal pathogen. Which triad characterizes this disease?",
     "answers": [
       {
-        "option": "Thydroiditis, tonsilitis, conjuctivitis",
+        "option": "Arthritis, conjuctivitis, urethritis",
+        "bool": true
+      },
+      {
+        "option": "Conjuctivitis, arthritis, cervicitis",
         "bool": false
       },
       {
@@ -1610,26 +1587,26 @@
         "bool": false
       },
       {
-        "option": "Conjuctivitis, arthritis, cervicitis",
+        "option": "Thydroiditis, tonsilitis, conjuctivitis",
         "bool": false
-      },
-      {
-        "option": "Arthritis, conjuctivitis, urethritis",
-        "bool": true
       }
     ]
   },
   {
-    "id": 60,
-    "info": "1st-year/blood-1/2020",
+    "id": 59,
+    "info": "1st-year/blood/2020",
     "question": "What causes sickle cell disease?",
     "answers": [
+      {
+        "option": "Decreased synthesis of beta chain of globin",
+        "bool": false
+      },
       {
         "option": "Increased synthesis of normal hemoglobin",
         "bool": false
       },
       {
-        "option": "Replacement of valine by a glutamic acid",
+        "option": "Decreased synthesis of abnormal hemoglobin",
         "bool": false
       },
       {
@@ -1637,26 +1614,26 @@
         "bool": true
       },
       {
-        "option": "Decreased synthesis of abnormal hemoglobin",
-        "bool": false
-      },
-      {
-        "option": "Decreased synthesis of beta chain of globin",
+        "option": "Replacement of valine by a glutamic acid",
         "bool": false
       }
     ]
   },
   {
-    "id": 61,
-    "info": "1st-year/blood-1/2020",
+    "id": 60,
+    "info": "1st-year/blood/2020",
     "question": "The special propensity to collect in tissues undergoing allergic reactions is demonstrated by which of the following types of WBCs?",
     "answers": [
       {
-        "option": "Platelets",
+        "option": "Neutrophils",
         "bool": false
       },
       {
-        "option": "Neutrophils",
+        "option": "Macrophages",
+        "bool": false
+      },
+      {
+        "option": "Platelets",
         "bool": false
       },
       {
@@ -1666,20 +1643,16 @@
       {
         "option": "Lymphocytes",
         "bool": false
-      },
-      {
-        "option": "Macrophages",
-        "bool": false
       }
     ]
   },
   {
-    "id": 62,
-    "info": "1st-year/blood-1/2020",
+    "id": 61,
+    "info": "1st-year/blood/2020",
     "question": "The sum of the squared deviations from the mean, when divided by the number of observations will give what value?",
     "answers": [
       {
-        "option": "Standard deviation",
+        "option": "Median",
         "bool": false
       },
       {
@@ -1687,7 +1660,7 @@
         "bool": false
       },
       {
-        "option": "Median",
+        "option": "Standard error",
         "bool": false
       },
       {
@@ -1695,18 +1668,26 @@
         "bool": true
       },
       {
-        "option": "Standard error",
+        "option": "Standard deviation",
         "bool": false
       }
     ]
   },
   {
-    "id": 63,
-    "info": "1st-year/blood-1/2020",
+    "id": 62,
+    "info": "1st-year/blood/2020",
     "question": "Systemic lupus erythematosus, a systemic autoimmune disease is caused by the formation of antibodies against which structure?",
     "answers": [
       {
         "option": "Lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Nuclear proteins",
+        "bool": true
+      },
+      {
+        "option": "RBCs",
         "bool": false
       },
       {
@@ -1716,24 +1697,16 @@
       {
         "option": "Nerves",
         "bool": false
-      },
-      {
-        "option": "RBCs",
-        "bool": false
-      },
-      {
-        "option": "Nuclear proteins",
-        "bool": true
       }
     ]
   },
   {
-    "id": 64,
-    "info": "1st-year/blood-1/2020",
+    "id": 63,
+    "info": "1st-year/blood/2020",
     "question": "Formation of which of the following is the rate-controlling factor in the coagulation process?",
     "answers": [
       {
-        "option": "Calcium ions (Ca++)",
+        "option": "Prothrombin",
         "bool": false
       },
       {
@@ -1741,7 +1714,7 @@
         "bool": false
       },
       {
-        "option": "Prothrombin",
+        "option": "Fibrin-stabilizing factor",
         "bool": false
       },
       {
@@ -1749,28 +1722,16 @@
         "bool": true
       },
       {
-        "option": "Fibrin-stabilizing factor",
+        "option": "Calcium ions (Ca++)",
         "bool": false
       }
     ]
   },
   {
-    "id": 65,
-    "info": "1st-year/blood-1/2020",
+    "id": 64,
+    "info": "1st-year/blood/2020",
     "question": "In hemoglobin C (HbC), which amino acid is substituted for glutamate?",
     "answers": [
-      {
-        "option": "Lysine",
-        "bool": true
-      },
-      {
-        "option": "Isoleucine",
-        "bool": false
-      },
-      {
-        "option": "Leucine",
-        "bool": false
-      },
       {
         "option": "Valine",
         "bool": false
@@ -1778,39 +1739,51 @@
       {
         "option": "Glycine",
         "bool": false
+      },
+      {
+        "option": "Leucine",
+        "bool": false
+      },
+      {
+        "option": "Isoleucine",
+        "bool": false
+      },
+      {
+        "option": "Lysine",
+        "bool": true
       }
     ]
   },
   {
-    "id": 66,
-    "info": "1st-year/blood-1/2020",
+    "id": 65,
+    "info": "1st-year/blood/2020",
     "question": "In the formation of hemoglobin, which enzyme is involved in the incorporation of Fe into protoporphyrin IX?",
     "answers": [
       {
-        "option": "Ferrochelatase",
-        "bool": true
+        "option": "Uroporphyrinogen III decarboxylase",
+        "bool": false
       },
       {
-        "option": "Uroporphyrinogen III synthase",
-        "bool": false
+        "option": "Ferrochelatase",
+        "bool": true
       },
       {
         "option": "ALA dehydratase",
         "bool": false
       },
       {
-        "option": "Uroporphyrinogen III decarboxylase",
+        "option": "Ferroxidase",
         "bool": false
       },
       {
-        "option": "Ferroxidase",
+        "option": "Uroporphyrinogen III synthase",
         "bool": false
       }
     ]
   },
   {
-    "id": 67,
-    "info": "1st-year/blood-1/2020",
+    "id": 66,
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following plays a vital role in the maturation of red blood cells?",
     "answers": [
       {
@@ -1818,42 +1791,42 @@
         "bool": false
       },
       {
-        "option": "Copper",
+        "option": "Thiamine",
         "bool": false
       },
       {
-        "option": "Cyanocobalamin",
-        "bool": true
+        "option": "Copper",
+        "bool": false
       },
       {
         "option": "Vitamin C",
         "bool": false
       },
       {
-        "option": "Thiamine",
-        "bool": false
+        "option": "Cyanocobalamin",
+        "bool": true
       }
     ]
   },
   {
-    "id": 68,
-    "info": "1st-year/blood-1/2020",
+    "id": 67,
+    "info": "1st-year/blood/2020",
     "question": "After how many days are platelets replaced?",
     "answers": [
       {
-        "option": "17 days",
-        "bool": false
+        "option": "8-10 days",
+        "bool": true
       },
       {
         "option": "30-35 days",
         "bool": false
       },
       {
-        "option": "8-10 days",
-        "bool": true
+        "option": "5-7 days",
+        "bool": false
       },
       {
-        "option": "5-7 days",
+        "option": "17 days",
         "bool": false
       },
       {
@@ -1863,14 +1836,37 @@
     ]
   },
   {
-    "id": 69,
-    "info": "1st-year/blood-1/2020",
-    "question": "On the surface of which of these are type A, type B, and Rh antigens present?",
+    "id": 68,
+    "info": "1st-year/blood/2020",
+    "question": "What is the other name for cobalamin?",
     "answers": [
       {
-        "option": "Erythrocytes",
+        "option": "Vitamin B-12",
         "bool": true
       },
+      {
+        "option": "Vitamin B-9",
+        "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": false
+      },
+      {
+        "option": "Vitamin B-6",
+        "bool": false
+      },
+      {
+        "option": "Vitamin C",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "1st-year/blood/2020",
+    "question": "On the surface of which of these are type A, type B, and Rh antigens present?",
+    "answers": [
       {
         "option": "Granulocytes",
         "bool": false
@@ -1878,6 +1874,10 @@
       {
         "option": "Lymphocytes",
         "bool": false
+      },
+      {
+        "option": "Erythrocytes",
+        "bool": true
       },
       {
         "option": "Monocytes",
@@ -1891,15 +1891,11 @@
   },
   {
     "id": 70,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "How many pyrrole rings are present in one molecule of hemoglobin?",
     "answers": [
       {
-        "option": "6 pyrrole rings",
-        "bool": false
-      },
-      {
-        "option": "7 pyrrole rings",
+        "option": "No pyrrole ring",
         "bool": false
       },
       {
@@ -1911,26 +1907,26 @@
         "bool": false
       },
       {
-        "option": "No pyrrole ring",
+        "option": "7 pyrrole rings",
+        "bool": false
+      },
+      {
+        "option": "6 pyrrole rings",
         "bool": false
       }
     ]
   },
   {
     "id": 71,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "In hemoglobin S (HbS), which amino acid residue is substituted by valine at the sixth position of the beta-globin chain?",
     "answers": [
       {
-        "option": "Glutamate",
-        "bool": true
-      },
-      {
-        "option": "Glycine",
+        "option": "Lysine",
         "bool": false
       },
       {
-        "option": "Lysine",
+        "option": "Tyrosine",
         "bool": false
       },
       {
@@ -1938,16 +1934,28 @@
         "bool": false
       },
       {
-        "option": "Tyrosine",
+        "option": "Glutamate",
+        "bool": true
+      },
+      {
+        "option": "Glycine",
         "bool": false
       }
     ]
   },
   {
     "id": 72,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Activated platelets undergo degranulation to release ADP and enzymes. Which of the following is formed by those enzymes?",
     "answers": [
+      {
+        "option": "Endothelin",
+        "bool": false
+      },
+      {
+        "option": "Fibrinogen",
+        "bool": false
+      },
       {
         "option": "Histamine",
         "bool": false
@@ -1959,28 +1967,20 @@
       {
         "option": "Thromboxane A2",
         "bool": true
-      },
-      {
-        "option": "Fibrinogen",
-        "bool": false
-      },
-      {
-        "option": "Endothelin",
-        "bool": false
       }
     ]
   },
   {
     "id": 73,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following is activated by interleukin 5 (IL-5)?",
     "answers": [
       {
-        "option": "B lymphocytes",
+        "option": "T lymphocytes",
         "bool": false
       },
       {
-        "option": "Basophils",
+        "option": "B lymphocytes",
         "bool": false
       },
       {
@@ -1992,22 +1992,22 @@
         "bool": true
       },
       {
-        "option": "T lymphocytes",
+        "option": "Basophils",
         "bool": false
       }
     ]
   },
   {
     "id": 74,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is the most appropriate measure of association for a case-control study?",
     "answers": [
       {
-        "option": "Rate ratio",
+        "option": "Prevalence ratio",
         "bool": false
       },
       {
-        "option": "Death-to-case ratio",
+        "option": "Rate ratio",
         "bool": false
       },
       {
@@ -2015,18 +2015,18 @@
         "bool": true
       },
       {
-        "option": "Prevalence ratio",
+        "option": "Risk ratio",
         "bool": false
       },
       {
-        "option": "Risk ratio",
+        "option": "Death-to-case ratio",
         "bool": false
       }
     ]
   },
   {
     "id": 75,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following is the most important factor in opsonization?",
     "answers": [
       {
@@ -2034,30 +2034,34 @@
         "bool": false
       },
       {
-        "option": "C4",
+        "option": "C5b",
         "bool": false
       },
       {
-        "option": "C3b",
-        "bool": true
-      },
-      {
-        "option": "C5b",
+        "option": "C4",
         "bool": false
       },
       {
         "option": "C5a",
         "bool": false
+      },
+      {
+        "option": "C3b",
+        "bool": true
       }
     ]
   },
   {
     "id": 76,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following models of disease causation involves a susceptible host, an external agent, and an environment that brings these two together?",
     "answers": [
       {
         "option": "Wheel of disease causation",
+        "bool": false
+      },
+      {
+        "option": "Web of causation",
         "bool": false
       },
       {
@@ -2071,28 +2075,24 @@
       {
         "option": "Germ theory of disease",
         "bool": false
-      },
-      {
-        "option": "Web of causation",
-        "bool": false
       }
     ]
   },
   {
     "id": 77,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "In the complement system, which one is the most important chemotactic agent?",
     "answers": [
       {
-        "option": "C7b",
-        "bool": false
-      },
-      {
-        "option": "C3b",
-        "bool": false
-      },
-      {
         "option": "C8a",
+        "bool": false
+      },
+      {
+        "option": "C9b",
+        "bool": false
+      },
+      {
+        "option": "C7b",
         "bool": false
       },
       {
@@ -2100,26 +2100,22 @@
         "bool": true
       },
       {
-        "option": "C9b",
+        "option": "C3b",
         "bool": false
       }
     ]
   },
   {
     "id": 78,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The activity of antithrombin III is increased by 100 to 1000 folds by binding to which of the following molecules?",
     "answers": [
       {
-        "option": "Prothrombin",
+        "option": "Warfarin",
         "bool": false
       },
       {
-        "option": "Heparin",
-        "bool": true
-      },
-      {
-        "option": "Warfarin",
+        "option": "Vitamin K",
         "bool": false
       },
       {
@@ -2127,20 +2123,20 @@
         "bool": false
       },
       {
-        "option": "Vitamin K",
+        "option": "Heparin",
+        "bool": true
+      },
+      {
+        "option": "Prothrombin",
         "bool": false
       }
     ]
   },
   {
     "id": 79,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Glycosylated hemoglobin test (HbA1C) levels can be measured to diagnose which of the following?",
     "answers": [
-      {
-        "option": "Diabetes insipidus",
-        "bool": false
-      },
       {
         "option": "Hemophilia A",
         "bool": false
@@ -2154,6 +2150,10 @@
         "bool": false
       },
       {
+        "option": "Diabetes insipidus",
+        "bool": false
+      },
+      {
         "option": "Hemophilia B",
         "bool": false
       }
@@ -2161,15 +2161,15 @@
   },
   {
     "id": 80,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Where is the value of mean located in a positively skewed curve?",
     "answers": [
       {
-        "option": "At the highest peak of distribution",
+        "option": "Between the median and the mode",
         "bool": false
       },
       {
-        "option": "At the middle of the peak",
+        "option": "At the highest peak of distribution",
         "bool": false
       },
       {
@@ -2177,22 +2177,22 @@
         "bool": true
       },
       {
-        "option": "To the extreme left of the distribution",
+        "option": "At the middle of the peak",
         "bool": false
       },
       {
-        "option": "Between the median and the mode",
+        "option": "To the extreme left of the distribution",
         "bool": false
       }
     ]
   },
   {
     "id": 81,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Deficiency of which of the following causes the hemorrhagic disease of the newborn?",
     "answers": [
       {
-        "option": "Vitamin B-12",
+        "option": "Vitamin B-9",
         "bool": false
       },
       {
@@ -2204,26 +2204,22 @@
         "bool": false
       },
       {
-        "option": "Vitamin K",
-        "bool": true
+        "option": "Vitamin B-12",
+        "bool": false
       },
       {
-        "option": "Vitamin B-9",
-        "bool": false
+        "option": "Vitamin K",
+        "bool": true
       }
     ]
   },
   {
     "id": 82,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "While observing under his microscope, a histologist noticed a few biconcave and disc-like cells under his microscope. What did he name them?",
     "answers": [
       {
-        "option": "Erythrocytes",
-        "bool": true
-      },
-      {
-        "option": "Monocytes",
+        "option": "Lymphocytes",
         "bool": false
       },
       {
@@ -2231,8 +2227,12 @@
         "bool": false
       },
       {
-        "option": "Lymphocytes",
+        "option": "Monocytes",
         "bool": false
+      },
+      {
+        "option": "Erythrocytes",
+        "bool": true
       },
       {
         "option": "Leukocytes",
@@ -2242,11 +2242,15 @@
   },
   {
     "id": 83,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The clot is failing to retract. Defect in which of the following would be the likely cause?",
     "answers": [
       {
-        "option": "Neutrophils",
+        "option": "Red blood cells",
+        "bool": false
+      },
+      {
+        "option": "Basophils",
         "bool": false
       },
       {
@@ -2258,26 +2262,26 @@
         "bool": false
       },
       {
-        "option": "Basophils",
-        "bool": false
-      },
-      {
-        "option": "Red blood cells",
+        "option": "Neutrophils",
         "bool": false
       }
     ]
   },
   {
     "id": 84,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the square root of variance called?",
     "answers": [
+      {
+        "option": "Variance coefficient",
+        "bool": false
+      },
       {
         "option": "Standard deviation",
         "bool": true
       },
       {
-        "option": "Variance coefficient",
+        "option": "Range",
         "bool": false
       },
       {
@@ -2287,18 +2291,18 @@
       {
         "option": "T-test",
         "bool": false
-      },
-      {
-        "option": "Range",
-        "bool": false
       }
     ]
   },
   {
     "id": 85,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The scar is formed by the process of pathological wound healing. What would its nature be?",
     "answers": [
+      {
+        "option": "Dead tissue",
+        "bool": false
+      },
       {
         "option": "Collagen",
         "bool": false
@@ -2314,28 +2318,16 @@
       {
         "option": "Necrotic tissue",
         "bool": false
-      },
-      {
-        "option": "Dead tissue",
-        "bool": false
       }
     ]
   },
   {
     "id": 86,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which antibody is most likely to pass from the maternal circulation to the fetus through the placenta?",
     "answers": [
       {
-        "option": "IgA",
-        "bool": false
-      },
-      {
-        "option": "IgM",
-        "bool": false
-      },
-      {
-        "option": "IgE",
+        "option": "IgD",
         "bool": false
       },
       {
@@ -2343,26 +2335,26 @@
         "bool": true
       },
       {
-        "option": "IgD",
+        "option": "IgM",
+        "bool": false
+      },
+      {
+        "option": "IgA",
+        "bool": false
+      },
+      {
+        "option": "IgE",
         "bool": false
       }
     ]
   },
   {
     "id": 87,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Where are most of the body's iron reserves found?",
     "answers": [
       {
-        "option": "Hemosiderin",
-        "bool": false
-      },
-      {
-        "option": "Haptoglobin",
-        "bool": false
-      },
-      {
-        "option": "Hemoglobin",
+        "option": "Ferritin",
         "bool": true
       },
       {
@@ -2370,14 +2362,22 @@
         "bool": false
       },
       {
-        "option": "Ferritin",
+        "option": "Hemoglobin",
+        "bool": false
+      },
+      {
+        "option": "Hemosiderin",
+        "bool": false
+      },
+      {
+        "option": "Haptoglobin",
         "bool": false
       }
     ]
   },
   {
     "id": 88,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What causes hemolysis in G6PD deficiency?",
     "answers": [
       {
@@ -2385,7 +2385,7 @@
         "bool": false
       },
       {
-        "option": "Hemosiderosis",
+        "option": "Excess of alpha globin chains",
         "bool": false
       },
       {
@@ -2393,18 +2393,18 @@
         "bool": true
       },
       {
-        "option": "Excess of alpha globin chains",
+        "option": "Spectrin deficiency",
         "bool": false
       },
       {
-        "option": "Spectrin deficiency",
+        "option": "Hemosiderosis",
         "bool": false
       }
     ]
   },
   {
     "id": 89,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following statements is true for the term \"carrier\"?",
     "answers": [
       {
@@ -2412,7 +2412,7 @@
         "bool": true
       },
       {
-        "option": "An individual with pathogens in sites that are normally colonized in others",
+        "option": "An individual who is a carrier can carry a greater load than normal",
         "bool": false
       },
       {
@@ -2424,22 +2424,18 @@
         "bool": false
       },
       {
-        "option": "An individual who is a carrier can carry a greater load than normal",
+        "option": "An individual with pathogens in sites that are normally colonized in others",
         "bool": false
       }
     ]
   },
   {
     "id": 90,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the generation time of Escherichia coli in a lab?",
     "answers": [
       {
-        "option": "20 minutes",
-        "bool": true
-      },
-      {
-        "option": "20 days",
+        "option": "20 months",
         "bool": false
       },
       {
@@ -2447,18 +2443,22 @@
         "bool": false
       },
       {
-        "option": "20 months",
-        "bool": false
+        "option": "20 minutes",
+        "bool": true
       },
       {
         "option": "20 weeks",
+        "bool": false
+      },
+      {
+        "option": "20 days",
         "bool": false
       }
     ]
   },
   {
     "id": 91,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is an important feature of acute inflammation?",
     "answers": [
       {
@@ -2485,19 +2485,15 @@
   },
   {
     "id": 92,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the major form of vitamin B12 found in human tissue and mitochondria?",
     "answers": [
       {
-        "option": "Methylcobalamin",
-        "bool": false
+        "option": "5'-Deoxyadenosyl cobalamin",
+        "bool": true
       },
       {
         "option": "Nitrocobalamin",
-        "bool": false
-      },
-      {
-        "option": "Hydroxycobalamin",
         "bool": false
       },
       {
@@ -2505,18 +2501,22 @@
         "bool": false
       },
       {
-        "option": "5'-Deoxyadenosyl cobalamin",
-        "bool": true
+        "option": "Hydroxycobalamin",
+        "bool": false
+      },
+      {
+        "option": "Methylcobalamin",
+        "bool": false
       }
     ]
   },
   {
     "id": 93,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the major source of histamine?",
     "answers": [
       {
-        "option": "Monocytes",
+        "option": "Platelets",
         "bool": false
       },
       {
@@ -2524,26 +2524,30 @@
         "bool": false
       },
       {
-        "option": "Bone marrow",
-        "bool": false
-      },
-      {
         "option": "Mast cells",
         "bool": true
       },
       {
-        "option": "Platelets",
+        "option": "Bone marrow",
+        "bool": false
+      },
+      {
+        "option": "Monocytes",
         "bool": false
       }
     ]
   },
   {
     "id": 94,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What are the mesenchymal cells that aggregate to form blood islands?",
     "answers": [
       {
-        "option": "Fibroblasts",
+        "option": "Angioblasts",
+        "bool": true
+      },
+      {
+        "option": "Chemoblasts",
         "bool": false
       },
       {
@@ -2551,8 +2555,8 @@
         "bool": false
       },
       {
-        "option": "Angioblasts",
-        "bool": true
+        "option": "Fibroblasts",
+        "bool": false
       },
       {
         "option": "Mesoblasts",
@@ -2561,28 +2565,24 @@
       {
         "option": "Definitive heart",
         "bool": false
-      },
-      {
-        "option": "Chemoblasts",
-        "bool": false
       }
     ]
   },
   {
     "id": 95,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What complication of thrombocytopenia is most likely to cause fatality?",
     "answers": [
-      {
-        "option": "Needle prick",
-        "bool": false
-      },
       {
         "option": "Intracranial bleeding",
         "bool": true
       },
       {
         "option": "Gastro-intestinal bleeding",
+        "bool": false
+      },
+      {
+        "option": "Needle prick",
         "bool": false
       },
       {
@@ -2597,17 +2597,9 @@
   },
   {
     "id": 96,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the most common cause of a defect in leukocyte function?",
     "answers": [
-      {
-        "option": "Inherited defect in microbial activity",
-        "bool": false
-      },
-      {
-        "option": "Chediak-Higashi syndrome",
-        "bool": false
-      },
       {
         "option": "Bone marrow suppression",
         "bool": false
@@ -2619,12 +2611,20 @@
       {
         "option": "Inherited defect in phagolysosome function",
         "bool": false
+      },
+      {
+        "option": "Inherited defect in microbial activity",
+        "bool": false
+      },
+      {
+        "option": "Chediak-Higashi syndrome",
+        "bool": false
       }
     ]
   },
   {
     "id": 97,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the process of formation of the formed (solid) elements of blood called?",
     "answers": [
       {
@@ -2640,50 +2640,54 @@
         "bool": false
       },
       {
-        "option": "Hemostasis",
-        "bool": false
-      },
-      {
         "option": "Hematopoiesis",
         "bool": true
+      },
+      {
+        "option": "Hemostasis",
+        "bool": false
       }
     ]
   },
   {
     "id": 98,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What is the time between exposure and occurrence of the first symptom of a disease called?",
     "answers": [
-      {
-        "option": "Generation time",
-        "bool": false
-      },
       {
         "option": "Exposure period",
         "bool": false
       },
       {
-        "option": "Incubation period",
-        "bool": true
+        "option": "Serial interview",
+        "bool": false
+      },
+      {
+        "option": "Generation time",
+        "bool": false
       },
       {
         "option": "Window period",
         "bool": false
       },
       {
-        "option": "Serial interview",
-        "bool": false
+        "option": "Incubation period",
+        "bool": true
       }
     ]
   },
   {
     "id": 99,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Warfarin antagonizes the effect of which of the following?",
     "answers": [
       {
         "option": "Tocopherol",
         "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": true
       },
       {
         "option": "Vitamin A",
@@ -2694,10 +2698,6 @@
         "bool": false
       },
       {
-        "option": "Vitamin K",
-        "bool": true
-      },
-      {
         "option": "Vitamin B6",
         "bool": false
       }
@@ -2705,9 +2705,44 @@
   },
   {
     "id": 100,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
+    "question": "Which cardinal sign of inflammation is less easily detected?",
+    "answers": [
+      {
+        "option": "Loss of function",
+        "bool": true
+      },
+      {
+        "option": "Pain",
+        "bool": false
+      },
+      {
+        "option": "Swelling",
+        "bool": false
+      },
+      {
+        "option": "Tenderness",
+        "bool": false
+      },
+      {
+        "option": "Increase in temperature",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "1st-year/blood/2020",
     "question": "What would a disease that occurs in a certain geographical area and is meant to remain there be classified as?",
     "answers": [
+      {
+        "option": "Endemic",
+        "bool": true
+      },
+      {
+        "option": "Pandemic",
+        "bool": false
+      },
       {
         "option": "Epidemic",
         "bool": false
@@ -2719,28 +2754,47 @@
       {
         "option": "Zoonotic",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "info": "1st-year/blood/2020",
+    "question": "Which of the following is the most important copper-containing protein?",
+    "answers": [
+      {
+        "option": "Cytochrome",
+        "bool": false
       },
       {
-        "option": "Endemic",
+        "option": "Haptoglobin",
+        "bool": false
+      },
+      {
+        "option": "Globulin",
+        "bool": false
+      },
+      {
+        "option": "Ceruloplasmin",
         "bool": true
       },
       {
-        "option": "Pandemic",
+        "option": "Albumin",
         "bool": false
       }
     ]
   },
   {
-    "id": 101,
-    "info": "1st-year/blood-1/2020",
+    "id": 103,
+    "info": "1st-year/blood/2020",
     "question": "What is the correlation between the probability of an outcome in an exposed group to that in an unexposed group called?",
     "answers": [
       {
-        "option": "Prevalence risk",
+        "option": "Epidemic threshold",
         "bool": false
       },
       {
-        "option": "Epidemic threshold",
+        "option": "Prevalence risk",
         "bool": false
       },
       {
@@ -2748,30 +2802,22 @@
         "bool": true
       },
       {
-        "option": "Population-at-risk",
+        "option": "Attack rate",
         "bool": false
       },
       {
-        "option": "Attack rate",
+        "option": "Population-at-risk",
         "bool": false
       }
     ]
   },
   {
-    "id": 102,
-    "info": "1st-year/blood-1/2020",
+    "id": 104,
+    "info": "1st-year/blood/2020",
     "question": "Iron absorption occurs in which part of the gut?",
     "answers": [
       {
-        "option": "Proximal duodenum",
-        "bool": true
-      },
-      {
-        "option": "Ileum",
-        "bool": false
-      },
-      {
-        "option": "Stomach",
+        "option": "Colon",
         "bool": false
       },
       {
@@ -2779,20 +2825,24 @@
         "bool": false
       },
       {
-        "option": "Colon",
+        "option": "Proximal duodenum",
+        "bool": true
+      },
+      {
+        "option": "Stomach",
+        "bool": false
+      },
+      {
+        "option": "Ileum",
         "bool": false
       }
     ]
   },
   {
-    "id": 103,
-    "info": "1st-year/blood-1/2020",
+    "id": 105,
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following is a malignant tumor?",
     "answers": [
-      {
-        "option": "Mesothelioma",
-        "bool": true
-      },
       {
         "option": "Leiomyoma",
         "bool": false
@@ -2800,6 +2850,10 @@
       {
         "option": "Chondroma",
         "bool": false
+      },
+      {
+        "option": "Mesothelioma",
+        "bool": true
       },
       {
         "option": "Osteoma",
@@ -2812,12 +2866,12 @@
     ]
   },
   {
-    "id": 104,
-    "info": "1st-year/blood-1/2020",
+    "id": 106,
+    "info": "1st-year/blood/2020",
     "question": "In which of the following modes of disease transmission does the infection spread either by skin-to-skin or mucosa-to-skin contact?",
     "answers": [
       {
-        "option": "Indirect contact",
+        "option": "Inoculation",
         "bool": false
       },
       {
@@ -2829,76 +2883,76 @@
         "bool": false
       },
       {
+        "option": "Indirect contact",
+        "bool": false
+      },
+      {
         "option": "Direct contact",
         "bool": true
-      },
-      {
-        "option": "Inoculation",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which of the following plasma proteins plays the greatest role in maintaining the oncotic pressure?",
-    "answers": [
-      {
-        "option": "Globulin",
-        "bool": false
-      },
-      {
-        "option": "Fibrinogen",
-        "bool": false
-      },
-      {
-        "option": "Apolipoprotein",
-        "bool": false
-      },
-      {
-        "option": "Albumin",
-        "bool": true
-      },
-      {
-        "option": "Haptoglobin",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 106,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which of the following plasma proteins has the most prominent role in the transportation of free fatty acids?",
-    "answers": [
-      {
-        "option": "Albumin",
-        "bool": true
-      },
-      {
-        "option": "Globulin",
-        "bool": false
-      },
-      {
-        "option": "Haptoglobin",
-        "bool": false
-      },
-      {
-        "option": "Plasma ferritin",
-        "bool": false
-      },
-      {
-        "option": "Transferrin",
-        "bool": false
       }
     ]
   },
   {
     "id": 107,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
+    "question": "Which of the following plasma proteins plays the greatest role in maintaining the oncotic pressure?",
+    "answers": [
+      {
+        "option": "Fibrinogen",
+        "bool": false
+      },
+      {
+        "option": "Albumin",
+        "bool": true
+      },
+      {
+        "option": "Haptoglobin",
+        "bool": false
+      },
+      {
+        "option": "Globulin",
+        "bool": false
+      },
+      {
+        "option": "Apolipoprotein",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "info": "1st-year/blood/2020",
+    "question": "Which of the following plasma proteins has the most prominent role in the transportation of free fatty acids?",
+    "answers": [
+      {
+        "option": "Globulin",
+        "bool": false
+      },
+      {
+        "option": "Albumin",
+        "bool": true
+      },
+      {
+        "option": "Haptoglobin",
+        "bool": false
+      },
+      {
+        "option": "Transferrin",
+        "bool": false
+      },
+      {
+        "option": "Plasma ferritin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "1st-year/blood/2020",
     "question": "Which of the following substances released by platelets plays a role in vasoconstriction?",
     "answers": [
       {
-        "option": "ATP",
+        "option": "Prostacyclin",
         "bool": false
       },
       {
@@ -2910,72 +2964,18 @@
         "bool": true
       },
       {
+        "option": "ATP",
+        "bool": false
+      },
+      {
         "option": "Prostaglandins",
-        "bool": false
-      },
-      {
-        "option": "Prostacyclin",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 108,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which cardinal sign of inflammation is less easily detected?",
-    "answers": [
-      {
-        "option": "Swelling",
-        "bool": false
-      },
-      {
-        "option": "Tenderness",
-        "bool": false
-      },
-      {
-        "option": "Increase in temperature",
-        "bool": false
-      },
-      {
-        "option": "Loss of function",
-        "bool": true
-      },
-      {
-        "option": "Pain",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 109,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which of the following is the most important copper-containing protein?",
-    "answers": [
-      {
-        "option": "Albumin",
-        "bool": false
-      },
-      {
-        "option": "Ceruloplasmin",
-        "bool": true
-      },
-      {
-        "option": "Haptoglobin",
-        "bool": false
-      },
-      {
-        "option": "Globulin",
-        "bool": false
-      },
-      {
-        "option": "Cytochrome",
         "bool": false
       }
     ]
   },
   {
     "id": 110,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Activation of which of the following factors results in the initiation of the coagulation cascade through the intrinsic pathway?",
     "answers": [
       {
@@ -2983,38 +2983,34 @@
         "bool": false
       },
       {
-        "option": "Factor XII",
-        "bool": true
+        "option": "Factor IX",
+        "bool": false
       },
       {
         "option": "Factor VIII",
         "bool": false
       },
       {
-        "option": "Factor V",
-        "bool": false
+        "option": "Factor XII",
+        "bool": true
       },
       {
-        "option": "Factor IX",
+        "option": "Factor V",
         "bool": false
       }
     ]
   },
   {
     "id": 111,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following chemical mediators is involved in chemotaxis?",
     "answers": [
-      {
-        "option": "Substance P",
-        "bool": false
-      },
       {
         "option": "Leukotriene C4, D4, E4",
         "bool": false
       },
       {
-        "option": "Histamine",
+        "option": "Substance P",
         "bool": false
       },
       {
@@ -3024,45 +3020,18 @@
       {
         "option": "Leukotriene B4 and bacterial products",
         "bool": true
+      },
+      {
+        "option": "Histamine",
+        "bool": false
       }
     ]
   },
   {
     "id": 112,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which of the following is a characteristic feature of severe iron deficiency anemia?",
-    "answers": [
-      {
-        "option": "Macrocytosis",
-        "bool": false
-      },
-      {
-        "option": "Poikilocytosis",
-        "bool": true
-      },
-      {
-        "option": "Elliptocytosis",
-        "bool": false
-      },
-      {
-        "option": "Hyperchromia",
-        "bool": false
-      },
-      {
-        "option": "Schistocytosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following is not a clinical feature of thrombocytopenia?",
     "answers": [
-      {
-        "option": "Petechial hemorrhages",
-        "bool": false
-      },
       {
         "option": "Epistaxis",
         "bool": false
@@ -3072,26 +3041,53 @@
         "bool": false
       },
       {
-        "option": "Bruises",
+        "option": "Petechial hemorrhages",
         "bool": false
       },
       {
         "option": "Bleeding in joints",
         "bool": true
+      },
+      {
+        "option": "Bruises",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "1st-year/blood/2020",
+    "question": "Which of the following is a characteristic feature of severe iron deficiency anemia?",
+    "answers": [
+      {
+        "option": "Poikilocytosis",
+        "bool": true
+      },
+      {
+        "option": "Macrocytosis",
+        "bool": false
+      },
+      {
+        "option": "Hyperchromia",
+        "bool": false
+      },
+      {
+        "option": "Schistocytosis",
+        "bool": false
+      },
+      {
+        "option": "Elliptocytosis",
+        "bool": false
       }
     ]
   },
   {
     "id": 114,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following mediates cancer cachexia?",
     "answers": [
       {
-        "option": "TNF-\u03b1",
-        "bool": true
-      },
-      {
-        "option": "CCl-5",
+        "option": "TGF-β",
         "bool": false
       },
       {
@@ -3103,16 +3099,28 @@
         "bool": false
       },
       {
-        "option": "TGF-\u03b2",
+        "option": "CCl-5",
         "bool": false
+      },
+      {
+        "option": "TNF-α",
+        "bool": true
       }
     ]
   },
   {
     "id": 115,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following microorganisms is closely associated with dental caries?",
     "answers": [
+      {
+        "option": "Staphylococcus epidermidis",
+        "bool": false
+      },
+      {
+        "option": "Prevolta melaninogenica",
+        "bool": false
+      },
       {
         "option": "Neisseria gonorrhoea",
         "bool": false
@@ -3124,24 +3132,16 @@
       {
         "option": "Streptococcus mutans",
         "bool": true
-      },
-      {
-        "option": "Prevolta melaninogenica",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus epidermidis",
-        "bool": false
       }
     ]
   },
   {
     "id": 116,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following sites of the human body does not usually have normal flora?",
     "answers": [
       {
-        "option": "Vagina",
+        "option": "Distal urethra",
         "bool": false
       },
       {
@@ -3157,19 +3157,27 @@
         "bool": false
       },
       {
-        "option": "Distal urethra",
+        "option": "Vagina",
         "bool": false
       }
     ]
   },
   {
     "id": 117,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following cells are a dominant feature of the thymic medulla?",
     "answers": [
       {
         "option": "Hassall's corpuscles (thymic corpuscles)",
         "bool": true
+      },
+      {
+        "option": "Thymocytes",
+        "bool": false
+      },
+      {
+        "option": "Macrophages",
+        "bool": false
       },
       {
         "option": "Lymphoblasts",
@@ -3178,30 +3186,14 @@
       {
         "option": "Plasma cells",
         "bool": false
-      },
-      {
-        "option": "Macrophages",
-        "bool": false
-      },
-      {
-        "option": "Thymocytes",
-        "bool": false
       }
     ]
   },
   {
     "id": 118,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following is an oral third generation cephalosporin?",
     "answers": [
-      {
-        "option": "Ceftriaxone",
-        "bool": false
-      },
-      {
-        "option": "Cefixime",
-        "bool": true
-      },
       {
         "option": "Cefazidime",
         "bool": false
@@ -3211,6 +3203,14 @@
         "bool": false
       },
       {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Cefixime",
+        "bool": true
+      },
+      {
         "option": "Ceftizoxime",
         "bool": false
       }
@@ -3218,16 +3218,20 @@
   },
   {
     "id": 119,
-    "info": "1st-year/blood-1/2020",
-    "question": "A 9-month-old girl has been having recurrent infections since she was 2 months old and her sister complains of a similar history. They were both the children of a consanguineous marriage. Which innate immune defect would most likely be diagnosed in them?",
+    "info": "1st-year/blood/2020",
+    "question": "A 9-month-old girl has been having recurrent infections since she was 2 months old and her\nsister complains of a similar history. They were both the children of a consanguineous marriage. Which innate immune defect would most likely be diagnosed in them?",
     "answers": [
+      {
+        "option": "Common variable cell immunodeficiency (CVID)",
+        "bool": false
+      },
       {
         "option": "Systemic lupus erythematosus (SLE)",
         "bool": false
       },
       {
-        "option": "Common variable cell immunodeficiency (CVID)",
-        "bool": false
+        "option": "Leukocyte adhesion deficiency (LAD)",
+        "bool": true
       },
       {
         "option": "Hemophilia",
@@ -3236,29 +3240,21 @@
       {
         "option": "Wiskott-Aldrich syndrome",
         "bool": false
-      },
-      {
-        "option": "Leukocyte adhesion deficiency (LAD)",
-        "bool": true
       }
     ]
   },
   {
     "id": 120,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following plasma proteins helps in the transport of free fatty acids in the blood stream?",
     "answers": [
       {
-        "option": "\u03b3-globulin",
-        "bool": false
+        "option": "Albumin",
+        "bool": true
       },
       {
         "option": "Hemoglobin",
         "bool": false
-      },
-      {
-        "option": "Albumin",
-        "bool": true
       },
       {
         "option": "Fibrin",
@@ -3267,20 +3263,28 @@
       {
         "option": "Transferrin",
         "bool": false
+      },
+      {
+        "option": "γ-globulin",
+        "bool": false
       }
     ]
   },
   {
     "id": 121,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which specific term is used when a biocide is able to kill bacteria?",
     "answers": [
+      {
+        "option": "Bacteriostatic",
+        "bool": false
+      },
       {
         "option": "Bactericidal",
         "bool": true
       },
       {
-        "option": "Cleaning",
+        "option": "Insecticide",
         "bool": false
       },
       {
@@ -3288,18 +3292,14 @@
         "bool": false
       },
       {
-        "option": "Insecticide",
-        "bool": false
-      },
-      {
-        "option": "Bacteriostatic",
+        "option": "Cleaning",
         "bool": false
       }
     ]
   },
   {
     "id": 122,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which stage of P. falciparum is crescent shaped?",
     "answers": [
       {
@@ -3307,26 +3307,26 @@
         "bool": false
       },
       {
-        "option": "Sporoite stage",
-        "bool": false
-      },
-      {
         "option": "Gametocyte stage",
         "bool": true
       },
       {
-        "option": "Schizont stage",
+        "option": "Sporoite stage",
         "bool": false
       },
       {
         "option": "Ring stage",
+        "bool": false
+      },
+      {
+        "option": "Schizont stage",
         "bool": false
       }
     ]
   },
   {
     "id": 123,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which type of epidemiological method investigates and evaluates preventative and therapeutic measures?",
     "answers": [
       {
@@ -3338,11 +3338,11 @@
         "bool": false
       },
       {
-        "option": "Ecologic studies",
+        "option": "Literature search",
         "bool": false
       },
       {
-        "option": "Literature search",
+        "option": "Ecologic studies",
         "bool": false
       },
       {
@@ -3353,8 +3353,8 @@
   },
   {
     "id": 124,
-    "info": "1st-year/blood-1/2020",
-    "question": "Regarding \u03b2-thalassemia major, which of the following is the most relevant?",
+    "info": "1st-year/blood/2020",
+    "question": "Regarding β-thalassemia major, which of the following is the most relevant?",
     "answers": [
       {
         "option": "Manifests itself in-utero",
@@ -3365,51 +3365,55 @@
         "bool": false
       },
       {
-        "option": "Iron overload is due to high levels of hepcidin",
-        "bool": false
-      },
-      {
         "option": "With transfusions alone, survival into the sixth or seventh decade is possible",
         "bool": false
       },
       {
         "option": "Bone marrow transplantation at an early stage is the treatment of choice",
         "bool": true
+      },
+      {
+        "option": "Iron overload is due to high levels of hepcidin",
+        "bool": false
       }
     ]
   },
   {
     "id": 125,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A 45-year-old man develops a myocardial infarction. His condition improves and he is discharged from the hospital. He is then prescribed 325 mg aspirin daily. This drug inhibits platelet aggregation by decreasing the production of which of the following?",
     "answers": [
-      {
-        "option": "Lipoxygenase",
-        "bool": false
-      },
-      {
-        "option": "Clotting factor",
-        "bool": false
-      },
       {
         "option": "Prostaglandins",
         "bool": false
       },
       {
-        "option": "Thromboxane A\u2082",
+        "option": "Thromboxane A₂",
         "bool": true
       },
       {
+        "option": "Lipoxygenase",
+        "bool": false
+      },
+      {
         "option": "Cyclooxygenase",
+        "bool": false
+      },
+      {
+        "option": "Clotting factor",
         "bool": false
       }
     ]
   },
   {
     "id": 126,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A 55-year-old man is diagnosed with pulmonary embolism. He is admitted to the hospital and started on heparin therapy. The anticoagulant effect of this drug would be the most appropriately assessed by which of the following laboratory values?",
     "answers": [
+      {
+        "option": "Complete blood count (CBC)",
+        "bool": false
+      },
       {
         "option": "Prothrombin time (PT)",
         "bool": false
@@ -3423,10 +3427,6 @@
         "bool": true
       },
       {
-        "option": "Complete blood count (CBC)",
-        "bool": false
-      },
-      {
         "option": "International normalized ratio (INR)",
         "bool": false
       }
@@ -3434,9 +3434,13 @@
   },
   {
     "id": 127,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A 60-year-old man with severe chest pain is unresponsive to sublingual nitroglycerin. A thrombolytic therapy is initiated. If streptokinase is given to this patient, it may produce thrombolysis after binding which of the following proteins?",
     "answers": [
+      {
+        "option": "Antithrombin III",
+        "bool": false
+      },
       {
         "option": "Thrombomodulin",
         "bool": false
@@ -3446,34 +3450,22 @@
         "bool": true
       },
       {
-        "option": "Fibrin",
-        "bool": false
-      },
-      {
-        "option": "Antithrombin III",
-        "bool": false
-      },
-      {
         "option": "Protein C",
+        "bool": false
+      },
+      {
+        "option": "Fibrin",
         "bool": false
       }
     ]
   },
   {
     "id": 128,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A 60-year-old woman had a mitral valve replacement and was placed on anticoagulants and prophylactics following her surgery. Five days after her surgery, she developed an erythematous rash on her thigh. Two days after the rash appeared, a large hemorrhage bulla then began to form in the area of the rash. Which of the following medications most likely caused the rash?",
     "answers": [
       {
-        "option": "Vancomycin",
-        "bool": false
-      },
-      {
         "option": "Cefazoline",
-        "bool": false
-      },
-      {
-        "option": "Warfarin",
         "bool": false
       },
       {
@@ -3481,18 +3473,30 @@
         "bool": false
       },
       {
+        "option": "Warfarin",
+        "bool": false
+      },
+      {
         "option": "Heparin",
         "bool": true
+      },
+      {
+        "option": "Vancomycin",
+        "bool": false
       }
     ]
   },
   {
     "id": 129,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A 7-year-old child has accidentally overdosed on iron supplements. Which of the following agents can be used as an antidote in this child?",
     "answers": [
       {
-        "option": "Protamine",
+        "option": "Amyl nitrite",
+        "bool": false
+      },
+      {
+        "option": "Phytonadione",
         "bool": false
       },
       {
@@ -3500,34 +3504,30 @@
         "bool": false
       },
       {
-        "option": "Amyl nitrite",
-        "bool": false
-      },
-      {
         "option": "Deferoxamine",
         "bool": true
       },
       {
-        "option": "Phytonadione",
+        "option": "Protamine",
         "bool": false
       }
     ]
   },
   {
     "id": 130,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A child is suffering from chronic granulomatous disease. He has a genetic deficiency due to which he is more prone to infections, especially staphylococcal infection. Why is this?",
     "answers": [
-      {
-        "option": "Decreased superoxide radical",
-        "bool": false
-      },
       {
         "option": "Lack of NADPH oxidase system",
         "bool": true
       },
       {
-        "option": "Lack of antibody coating",
+        "option": "Decreased phosphorylative ability",
+        "bool": false
+      },
+      {
+        "option": "Decreased superoxide radical",
         "bool": false
       },
       {
@@ -3535,26 +3535,18 @@
         "bool": false
       },
       {
-        "option": "Decreased phosphorylative ability",
+        "option": "Lack of antibody coating",
         "bool": false
       }
     ]
   },
   {
     "id": 131,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A middle-aged female with a known case of rheumatoid arthritis consulted her physician during her follow-up visit. On examination, she was found to have splenomegaly two fingers below the left costal margin. Lab results show anemia and neutropenia. She is currently on NSAIDs and low-dose steroid treatment. What is the cause of her splenomegaly?",
     "answers": [
       {
         "option": "Drug induced",
-        "bool": false
-      },
-      {
-        "option": "Felty's syndrome",
-        "bool": true
-      },
-      {
-        "option": "Viral fever",
         "bool": false
       },
       {
@@ -3564,29 +3556,37 @@
       {
         "option": "Malaria",
         "bool": false
+      },
+      {
+        "option": "Felty's syndrome",
+        "bool": true
+      },
+      {
+        "option": "Viral fever",
+        "bool": false
       }
     ]
   },
   {
     "id": 132,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which type of epidemiology interprets the therapeutic and preventive measures?",
     "answers": [
       {
-        "option": "Experimental epidemiology",
-        "bool": true
+        "option": "Analytic epidemiology",
+        "bool": false
       },
       {
         "option": "Environmental epidemiology",
         "bool": false
       },
       {
-        "option": "Analytic epidemiology",
+        "option": "Descriptive epidemiology",
         "bool": false
       },
       {
-        "option": "Descriptive epidemiology",
-        "bool": false
+        "option": "Experimental epidemiology",
+        "bool": true
       },
       {
         "option": "Observational epidemiology",
@@ -3596,15 +3596,15 @@
   },
   {
     "id": 133,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "What type of hypersensitivity reaction is involved in serum sickness?",
     "answers": [
       {
-        "option": "Type IV",
+        "option": "Type II",
         "bool": false
       },
       {
-        "option": "Type II",
+        "option": "Type III and IV",
         "bool": false
       },
       {
@@ -3612,24 +3612,47 @@
         "bool": false
       },
       {
-        "option": "Type III",
-        "bool": true
+        "option": "Type IV",
+        "bool": false
       },
       {
-        "option": "Type III and IV",
-        "bool": false
+        "option": "Type III",
+        "bool": true
       }
     ]
   },
   {
     "id": 134,
-    "info": "1st-year/blood-1/2020",
-    "question": "What type of red blood cells are seen in iron deficiency anemia?",
+    "info": "1st-year/blood/2020",
+    "question": "In which of the following diseases are anti-neuronal antibodies formed?",
     "answers": [
       {
-        "option": "Normocytic, hyperchromic",
+        "option": "Systemic lupus erythematosus (SLE)",
+        "bool": true
+      },
+      {
+        "option": "Autoimmune hepatitis",
         "bool": false
       },
+      {
+        "option": "Bannwarth's syndrome",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": false
+      },
+      {
+        "option": "Psoriasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "info": "1st-year/blood/2020",
+    "question": "What type of red blood cells are seen in iron deficiency anemia?",
+    "answers": [
       {
         "option": "Normocytic, normochromic",
         "bool": false
@@ -3639,27 +3662,27 @@
         "bool": false
       },
       {
-        "option": "Microcytic, hypochromic",
-        "bool": true
+        "option": "Normocytic, hyperchromic",
+        "bool": false
       },
       {
         "option": "Microcytic, hyperchromic",
         "bool": false
+      },
+      {
+        "option": "Microcytic, hypochromic",
+        "bool": true
       }
     ]
   },
   {
-    "id": 135,
-    "info": "1st-year/blood-1/2020",
+    "id": 136,
+    "info": "1st-year/blood/2020",
     "question": "Once an inflammatory response is mediated by the complement activation, an acute increase in the levels of which of the following can be observed?",
     "answers": [
       {
-        "option": "T-lymphocytes",
-        "bool": false
-      },
-      {
-        "option": "Basophils",
-        "bool": false
+        "option": "Neutrophils",
+        "bool": true
       },
       {
         "option": "B-lymphocytes",
@@ -3670,22 +3693,22 @@
         "bool": false
       },
       {
-        "option": "Neutrophils",
-        "bool": true
+        "option": "T-lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Basophils",
+        "bool": false
       }
     ]
   },
   {
-    "id": 136,
-    "info": "1st-year/blood-1/2020",
+    "id": 137,
+    "info": "1st-year/blood/2020",
     "question": "What type of antibodies are produced in the Arthus reaction?",
     "answers": [
       {
-        "option": "IgD",
-        "bool": false
-      },
-      {
-        "option": "IgM",
+        "option": "IgA",
         "bool": false
       },
       {
@@ -3693,7 +3716,11 @@
         "bool": false
       },
       {
-        "option": "IgA",
+        "option": "IgM",
+        "bool": false
+      },
+      {
+        "option": "IgD",
         "bool": false
       },
       {
@@ -3703,39 +3730,12 @@
     ]
   },
   {
-    "id": 137,
-    "info": "1st-year/blood-1/2020",
-    "question": "In which of the following diseases are anti-neuronal antibodies formed?",
-    "answers": [
-      {
-        "option": "Bannwarth's syndrome",
-        "bool": false
-      },
-      {
-        "option": "Psoriasis",
-        "bool": false
-      },
-      {
-        "option": "Autoimmune hepatitis",
-        "bool": false
-      },
-      {
-        "option": "Rheumatoid arthritis",
-        "bool": false
-      },
-      {
-        "option": "Systemic lupus erythematosus (SLE)",
-        "bool": true
-      }
-    ]
-  },
-  {
     "id": 138,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which one of the following is the best non-invasive diagnostic test for iron deficiency anemia?",
     "answers": [
       {
-        "option": "Total iron-binding capacity test",
+        "option": "Lipid profile",
         "bool": false
       },
       {
@@ -3743,38 +3743,38 @@
         "bool": false
       },
       {
-        "option": "Serum ferritin",
-        "bool": true
+        "option": "Total iron-binding capacity test",
+        "bool": false
       },
       {
         "option": "Complete blood culture (CBC)",
         "bool": false
       },
       {
-        "option": "Lipid profile",
-        "bool": false
+        "option": "Serum ferritin",
+        "bool": true
       }
     ]
   },
   {
     "id": 139,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of these results in the reduction of the formation of methemoglobin from hemoglobin?",
     "answers": [
-      {
-        "option": "Vitamin C",
-        "bool": true
-      },
-      {
-        "option": "Vitamin D",
-        "bool": false
-      },
       {
         "option": "Vitamin K",
         "bool": false
       },
       {
         "option": "Vitamin A",
+        "bool": false
+      },
+      {
+        "option": "Vitamin C",
+        "bool": true
+      },
+      {
+        "option": "Vitamin D",
         "bool": false
       },
       {
@@ -3785,15 +3785,11 @@
   },
   {
     "id": 140,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A person undergoes ileal resection. After some days he develops weakness, shortness of breath, and anemia. Which anemia can it possibly be?",
     "answers": [
       {
-        "option": "Aplastic anemia",
-        "bool": false
-      },
-      {
-        "option": "Iron deficiency anemia",
+        "option": "Chronic blood loss anemia",
         "bool": false
       },
       {
@@ -3801,7 +3797,11 @@
         "bool": false
       },
       {
-        "option": "Chronic blood loss anemia",
+        "option": "Aplastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Iron deficiency anemia",
         "bool": false
       },
       {
@@ -3812,67 +3812,9 @@
   },
   {
     "id": 141,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which interleukin is required for the growth and proliferation of all the stem cells?",
-    "answers": [
-      {
-        "option": "Interleukin-4",
-        "bool": false
-      },
-      {
-        "option": "Interleukin-1",
-        "bool": false
-      },
-      {
-        "option": "Interleukin-3",
-        "bool": true
-      },
-      {
-        "option": "Interleukin-2",
-        "bool": false
-      },
-      {
-        "option": "Interleukin-5",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 142,
-    "info": "1st-year/blood-1/2020",
-    "question": "What are the antigens that are expressed in the fetal state and in the tumor cells called?",
-    "answers": [
-      {
-        "option": "Neonatal antigens",
-        "bool": false
-      },
-      {
-        "option": "Fraternal antigens",
-        "bool": false
-      },
-      {
-        "option": "Oncofetal antigens",
-        "bool": true
-      },
-      {
-        "option": "Cryptic antigens",
-        "bool": false
-      },
-      {
-        "option": "Oncofetal maternal antigens",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 143,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A 5-year-old girl accidentally touches a bowl of hot soup. Her right-hand skin develops erythema and blisters form on the pads of her fingers. What kind of inflammation is this?",
     "answers": [
-      {
-        "option": "Ulceration",
-        "bool": false
-      },
       {
         "option": "Fibrinoid inflammation",
         "bool": false
@@ -3888,24 +3830,24 @@
       {
         "option": "Inflammation",
         "bool": false
+      },
+      {
+        "option": "Ulceration",
+        "bool": false
       }
     ]
   },
   {
-    "id": 144,
-    "info": "1st-year/blood-1/2020",
+    "id": 142,
+    "info": "1st-year/blood/2020",
     "question": "Myoglobin is a pigment. Which system of the body does it have a role in?",
     "answers": [
-      {
-        "option": "Electron transport chain",
-        "bool": false
-      },
       {
         "option": "Urinary system",
         "bool": false
       },
       {
-        "option": "Central nervous system",
+        "option": "Hepatic system",
         "bool": false
       },
       {
@@ -3913,18 +3855,30 @@
         "bool": true
       },
       {
-        "option": "Hepatic system",
+        "option": "Central nervous system",
+        "bool": false
+      },
+      {
+        "option": "Electron transport chain",
         "bool": false
       }
     ]
   },
   {
-    "id": 145,
-    "info": "1st-year/blood-1/2020",
+    "id": 143,
+    "info": "1st-year/blood/2020",
     "question": "A 12-year-old male is suffering from beta-thalassemia major. Which one of the following is the most important factor resulting in iron overload in his body?",
     "answers": [
       {
+        "option": "Increased hemolysis",
+        "bool": false
+      },
+      {
         "option": "Elevated hepcidin levels",
+        "bool": false
+      },
+      {
+        "option": "Low hepcidin levels",
         "bool": false
       },
       {
@@ -3934,20 +3888,12 @@
       {
         "option": "Chronic blood transfusion and low hepcidin levels",
         "bool": true
-      },
-      {
-        "option": "Increased hemolysis",
-        "bool": false
-      },
-      {
-        "option": "Low hepcidin levels",
-        "bool": false
       }
     ]
   },
   {
-    "id": 146,
-    "info": "1st-year/blood-1/2020",
+    "id": 144,
+    "info": "1st-year/blood/2020",
     "question": "A pathologist examines a hemoglobin electrophoresis slide of a patient suffering from beta-thalassemia trait. Which hemoglobin will most likely be seen?",
     "answers": [
       {
@@ -3955,8 +3901,8 @@
         "bool": false
       },
       {
-        "option": "HbA1C",
-        "bool": false
+        "option": "HbA2",
+        "bool": true
       },
       {
         "option": "HbF",
@@ -3967,31 +3913,31 @@
         "bool": false
       },
       {
-        "option": "HbA2",
-        "bool": true
+        "option": "HbA1C",
+        "bool": false
       }
     ]
   },
   {
-    "id": 147,
-    "info": "1st-year/blood-1/2020",
+    "id": 145,
+    "info": "1st-year/blood/2020",
     "question": "Hemostasis is a means of preventing blood loss. Whenever an injury occurs, which one of the following is the first step towards clotting?",
     "answers": [
-      {
-        "option": "Activation of coagulation cascade",
-        "bool": false
-      },
-      {
-        "option": "Vasoconstriction",
-        "bool": true
-      },
       {
         "option": "Retraction of the platelet plug",
         "bool": false
       },
       {
+        "option": "Activation of coagulation cascade",
+        "bool": false
+      },
+      {
         "option": "Formation of fibrin plug",
         "bool": false
+      },
+      {
+        "option": "Vasoconstriction",
+        "bool": true
       },
       {
         "option": "Formation of platelet plug",
@@ -4000,17 +3946,44 @@
     ]
   },
   {
-    "id": 148,
-    "info": "1st-year/blood-1/2020",
-    "question": "What is the function of the Fc portion of the antibody?",
+    "id": 146,
+    "info": "1st-year/blood/2020",
+    "question": "Which interleukin is required for the growth and proliferation of all the stem cells?",
     "answers": [
       {
-        "option": "Complement fixation",
+        "option": "Interleukin-2",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-5",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-3",
         "bool": true
       },
       {
+        "option": "Interleukin-1",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-4",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "info": "1st-year/blood/2020",
+    "question": "What is the function of the Fc portion of the antibody?",
+    "answers": [
+      {
         "option": "Antigen binding",
         "bool": false
+      },
+      {
+        "option": "Complement fixation",
+        "bool": true
       },
       {
         "option": "Blocking ligand-receptor interactions",
@@ -4027,8 +4000,35 @@
     ]
   },
   {
+    "id": 148,
+    "info": "1st-year/blood/2020",
+    "question": "What are the antigens that are expressed in the fetal state and in the tumor cells called?",
+    "answers": [
+      {
+        "option": "Fraternal antigens",
+        "bool": false
+      },
+      {
+        "option": "Oncofetal maternal antigens",
+        "bool": false
+      },
+      {
+        "option": "Oncofetal antigens",
+        "bool": true
+      },
+      {
+        "option": "Cryptic antigens",
+        "bool": false
+      },
+      {
+        "option": "Neonatal antigens",
+        "bool": false
+      }
+    ]
+  },
+  {
     "id": 149,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Deficiency of which enzyme is the cause of hereditary coproporphyria (HCP)?",
     "answers": [
       {
@@ -4036,12 +4036,12 @@
         "bool": false
       },
       {
-        "option": "Coproporphyrinogen oxidase",
-        "bool": true
-      },
-      {
         "option": "Uroporphobilinogen oxidase",
         "bool": false
+      },
+      {
+        "option": "Coproporphyrinogen oxidase",
+        "bool": true
       },
       {
         "option": "Porphobilinogen deaminase",
@@ -4055,11 +4055,11 @@
   },
   {
     "id": 150,
-    "info": "1st-year/blood-1/2020",
-    "question": "For the routine blood sample test in the lab upon the centrifugation of the blood, a yellow color fluid is obtained that differs from the plasma in one component. Which of these would most likely be that component?",
+    "info": "1st-year/blood/2020",
+    "question": "For the routine blood sample test in the lab upon the centrifugation of the blood, a yellow color fluid is obtained\nthat differs from the plasma in one component. Which of these would most likely be that component?",
     "answers": [
       {
-        "option": "Globulin",
+        "option": "Inorganic components/electrolytes",
         "bool": false
       },
       {
@@ -4067,7 +4067,7 @@
         "bool": false
       },
       {
-        "option": "Albumin",
+        "option": "Globulin",
         "bool": false
       },
       {
@@ -4075,14 +4075,14 @@
         "bool": true
       },
       {
-        "option": "Inorganic components/electrolytes",
+        "option": "Albumin",
         "bool": false
       }
     ]
   },
   {
     "id": 151,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is true about the lymph nodes?",
     "answers": [
       {
@@ -4090,26 +4090,26 @@
         "bool": false
       },
       {
-        "option": "There is a dense medulla present",
+        "option": "All of the options are true",
         "bool": false
       },
       {
-        "option": "All of the options are true",
+        "option": "B-cells are present in paracortex",
+        "bool": false
+      },
+      {
+        "option": "There is a dense medulla present",
         "bool": false
       },
       {
         "option": "Peripheral subcapsular sinus is present",
         "bool": true
-      },
-      {
-        "option": "B-cells are present in paracortex",
-        "bool": false
       }
     ]
   },
   {
     "id": 152,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "During the development of red blood cells, a cell is formed having 34% of hemoglobin content, a condensed nucleus, with its endoplasmic reticulum reabsorbed. Which of the following is that cell?",
     "answers": [
       {
@@ -4117,34 +4117,34 @@
         "bool": true
       },
       {
-        "option": "Erythrocyte",
-        "bool": false
-      },
-      {
-        "option": "Basophilic erythroblast",
-        "bool": false
-      },
-      {
         "option": "Polychromatophilic erythroblast",
         "bool": false
       },
       {
+        "option": "Erythrocyte",
+        "bool": false
+      },
+      {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Basophilic erythroblast",
         "bool": false
       }
     ]
   },
   {
     "id": 153,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A person is suffering from a disease but he is healthy and shows no signs and symptoms because of preventative measures he took for his health post-diagnosis. What type of prevention is this?",
     "answers": [
       {
-        "option": "Tertiary prevention",
+        "option": "Rehabilitation",
         "bool": false
       },
       {
-        "option": "Early detection",
+        "option": "Tertiary prevention",
         "bool": false
       },
       {
@@ -4152,30 +4152,26 @@
         "bool": true
       },
       {
-        "option": "Rehabilitation",
+        "option": "Primary prevention",
         "bool": false
       },
       {
-        "option": "Primary prevention",
+        "option": "Early detection",
         "bool": false
       }
     ]
   },
   {
     "id": 154,
-    "info": "1st-year/blood-1/2020",
-    "question": "Which substance is present on the plasma membrane of platelets that does not let them bind to the normal endothelium but instead adhere to the damaged vessels; especially to their exposed collagen?",
+    "info": "1st-year/blood/2020",
+    "question": "Which substance is present on the plasma membrane of platelets that does not let them bind to the normal\nendothelium but instead adhere to the damaged vessels; especially to their exposed collagen?",
     "answers": [
       {
-        "option": "Coat of glycoprotein",
-        "bool": true
-      },
-      {
-        "option": "Calcium ions",
+        "option": "Thrombosthenin",
         "bool": false
       },
       {
-        "option": "Prostaglandin",
+        "option": "Calcium ions",
         "bool": false
       },
       {
@@ -4183,27 +4179,23 @@
         "bool": false
       },
       {
-        "option": "Thrombosthenin",
+        "option": "Prostaglandin",
         "bool": false
+      },
+      {
+        "option": "Coat of glycoprotein",
+        "bool": true
       }
     ]
   },
   {
     "id": 155,
-    "info": "1st-year/blood-1/2020",
-    "question": "In a sample of blood, antisera A and B show agglutination while antiserum D doesn\u2019t. What would the blood type be?",
+    "info": "1st-year/blood/2020",
+    "question": "In a sample of blood, antisera A and B show agglutination while antiserum D doesn’t. What would the blood type be?",
     "answers": [
       {
         "option": "A positive",
         "bool": false
-      },
-      {
-        "option": "AB positive",
-        "bool": false
-      },
-      {
-        "option": "AB negative",
-        "bool": true
       },
       {
         "option": "O negative",
@@ -4212,16 +4204,28 @@
       {
         "option": "O positive",
         "bool": false
+      },
+      {
+        "option": "AB negative",
+        "bool": true
+      },
+      {
+        "option": "AB positive",
+        "bool": false
       }
     ]
   },
   {
     "id": 156,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "If the genotype of a person is OO, what would the phenotype be?",
     "answers": [
       {
-        "option": "Agglutinogen A, agglutinin A",
+        "option": "Agglutinogens A & B, agglutinins A & B",
+        "bool": false
+      },
+      {
+        "option": "No agglutinogens, agglutinin A",
         "bool": false
       },
       {
@@ -4229,11 +4233,7 @@
         "bool": true
       },
       {
-        "option": "Agglutinogens A & B, agglutinins A & B",
-        "bool": false
-      },
-      {
-        "option": "No agglutinogens, agglutinin A",
+        "option": "Agglutinogen A, agglutinin A",
         "bool": false
       },
       {
@@ -4244,11 +4244,15 @@
   },
   {
     "id": 157,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Hemoglobin is broken down into heme and globin followed by the conversion of biliverdin into bilirubin. Inside the hepatic system, what does bilirubin gets conjugated with?",
     "answers": [
       {
-        "option": "Ascorbic acid",
+        "option": "Albumin",
+        "bool": false
+      },
+      {
+        "option": "Globulin",
         "bool": false
       },
       {
@@ -4256,11 +4260,7 @@
         "bool": true
       },
       {
-        "option": "Albumin",
-        "bool": false
-      },
-      {
-        "option": "Globulin",
+        "option": "Ascorbic acid",
         "bool": false
       },
       {
@@ -4271,19 +4271,11 @@
   },
   {
     "id": 158,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A woman with damage to the mitral valve of the heart is placed on warfarin therapy. Which of the following may be used to follow the anticoagulant activity?",
     "answers": [
       {
-        "option": "The prothrombin time test/ International normalized ratio (PT/INR)",
-        "bool": true
-      },
-      {
         "option": "Bleeding time",
-        "bool": false
-      },
-      {
-        "option": "Activated partial thromboplastin clotting time (aPTT)",
         "bool": false
       },
       {
@@ -4291,28 +4283,24 @@
         "bool": false
       },
       {
+        "option": "The prothrombin time test/ International normalized ratio (PT/INR)",
+        "bool": true
+      },
+      {
         "option": "Complete blood picture",
+        "bool": false
+      },
+      {
+        "option": "Activated partial thromboplastin clotting time (aPTT)",
         "bool": false
       }
     ]
   },
   {
     "id": 159,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following mucin antigens is present in both ovarian and breast cancers?",
     "answers": [
-      {
-        "option": "Carcinoembryonic antigen (CEA)",
-        "bool": false
-      },
-      {
-        "option": "CA19-9",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
       {
         "option": "CA-125",
         "bool": false
@@ -4320,29 +4308,41 @@
       {
         "option": "MUC-1",
         "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Carcinoembryonic antigen (CEA)",
+        "bool": false
+      },
+      {
+        "option": "CA19-9",
+        "bool": false
       }
     ]
   },
   {
     "id": 160,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following lymphocyte is involved in frontline defense against tumor cells without any previous exposure?",
     "answers": [
-      {
-        "option": "Cytotoxic T-lymphocytes",
-        "bool": false
-      },
       {
         "option": "B-lymphocytes",
         "bool": false
       },
       {
-        "option": "CD4+T cells",
+        "option": "Cytotoxic T-lymphocytes",
         "bool": false
       },
       {
         "option": "Natural killer (NK) cells",
         "bool": true
+      },
+      {
+        "option": "CD4+T cells",
+        "bool": false
       },
       {
         "option": "CD8+T cells",
@@ -4352,15 +4352,15 @@
   },
   {
     "id": 161,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The main contributor to the production of erythropoietin is the kidney. Which of the following is another organ that is also involved in the production of erythropoietin?",
     "answers": [
       {
-        "option": "Membranous bone",
+        "option": "Adrenal cortex",
         "bool": false
       },
       {
-        "option": "Adrenal cortex",
+        "option": "Membranous bone",
         "bool": false
       },
       {
@@ -4379,9 +4379,13 @@
   },
   {
     "id": 162,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "During the development of the spleen, mesenchymal cells are present between which layers?",
     "answers": [
+      {
+        "option": "Dorsal mesogastrium and septum transversarium",
+        "bool": false
+      },
       {
         "option": "Ventral and dorsal mesogastrium",
         "bool": false
@@ -4391,28 +4395,20 @@
         "bool": true
       },
       {
-        "option": "The two layers of ventral mesogastrium",
-        "bool": false
-      },
-      {
         "option": "Ventral mesogastrium and septum transversarium",
         "bool": false
       },
       {
-        "option": "Dorsal mesogastrium and septum transversarium",
+        "option": "The two layers of ventral mesogastrium",
         "bool": false
       }
     ]
   },
   {
     "id": 163,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "When the total storage iron is much greater than the apoferritin storage pool, the extra iron is stored in an insoluble form. This form is known as which of the following?",
     "answers": [
-      {
-        "option": "Transferrin",
-        "bool": false
-      },
       {
         "option": "Haptoglobin",
         "bool": false
@@ -4420,6 +4416,10 @@
       {
         "option": "Hemosiderin",
         "bool": true
+      },
+      {
+        "option": "Transferrin",
+        "bool": false
       },
       {
         "option": "Ferritin",
@@ -4433,7 +4433,7 @@
   },
   {
     "id": 164,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "A woman's hemoglobin level is 15 g/100ml. How much oxygen will be present in 100ml?",
     "answers": [
       {
@@ -4449,24 +4449,20 @@
         "bool": false
       },
       {
-        "option": "20 ml",
-        "bool": true
-      },
-      {
         "option": "25 ml",
         "bool": false
+      },
+      {
+        "option": "20 ml",
+        "bool": true
       }
     ]
   },
   {
     "id": 165,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following factors is involved in the prevention of the spread of the clot to nearby tissues?",
     "answers": [
-      {
-        "option": "Thrombin and thrombomodulin",
-        "bool": true
-      },
       {
         "option": "Prothrombin",
         "bool": false
@@ -4476,32 +4472,24 @@
         "bool": false
       },
       {
-        "option": "Thrombin",
-        "bool": false
+        "option": "Thrombin and thrombomodulin",
+        "bool": true
       },
       {
         "option": "Thrombomodulin",
+        "bool": false
+      },
+      {
+        "option": "Thrombin",
         "bool": false
       }
     ]
   },
   {
     "id": 166,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is not a common pathway for the spread of metastasis?",
     "answers": [
-      {
-        "option": "Seeding of cavities",
-        "bool": false
-      },
-      {
-        "option": "Lymphatics",
-        "bool": false
-      },
-      {
-        "option": "Local invasion",
-        "bool": true
-      },
       {
         "option": "Hematogenous",
         "bool": false
@@ -4509,16 +4497,28 @@
       {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Local invasion",
+        "bool": true
+      },
+      {
+        "option": "Seeding of cavities",
+        "bool": false
+      },
+      {
+        "option": "Lymphatics",
+        "bool": false
       }
     ]
   },
   {
     "id": 167,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The membrane of red blood cells is covered with antibodies that allow which of the following to consume them after they are worn out?",
     "answers": [
       {
-        "option": "Lymphocytes",
+        "option": "Mast cells",
         "bool": false
       },
       {
@@ -4526,54 +4526,54 @@
         "bool": true
       },
       {
-        "option": "Neutrophils",
-        "bool": false
-      },
-      {
-        "option": "Mast cells",
+        "option": "Lymphocytes",
         "bool": false
       },
       {
         "option": "Basophils",
+        "bool": false
+      },
+      {
+        "option": "Neutrophils",
         "bool": false
       }
     ]
   },
   {
     "id": 168,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "At which stage do the cancer cells undergo apoptosis?",
     "answers": [
       {
-        "option": "None of these",
-        "bool": false
+        "option": "After G1",
+        "bool": true
       },
       {
         "option": "After S",
         "bool": false
       },
       {
-        "option": "After G1",
-        "bool": true
-      },
-      {
-        "option": "At restriction point",
+        "option": "Before M",
         "bool": false
       },
       {
-        "option": "Before M",
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "At restriction point",
         "bool": false
       }
     ]
   },
   {
     "id": 169,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Which of the following is the cause for graft rejection?",
     "answers": [
       {
-        "option": "B cells",
-        "bool": false
+        "option": "Cytotoxic T cells",
+        "bool": true
       },
       {
         "option": "Macrophages",
@@ -4588,26 +4588,26 @@
         "bool": false
       },
       {
-        "option": "Cytotoxic T cells",
-        "bool": true
+        "option": "B cells",
+        "bool": false
       }
     ]
   },
   {
     "id": 170,
-    "info": "1st-year/blood-1/2020",
-    "question": "A man was brought into the outpatient department (OPD) after a few hours of having a high-grade fever and cough. His white blood cells count is 13 000/\u03bcl (i.e. >7000), platelets is 310,000/mm^3, hemoglobin is 14 g/dL and RBC count is 4.5 million/mm^3. Which leukocyte would be present in abundance here?",
+    "info": "1st-year/blood/2020",
+    "question": "A man was brought into the outpatient department (OPD) after a few hours of having a high-grade fever and cough. His white blood cells count is 13 000/μl (i.e. >7000), platelets is 310,000/mm^3, hemoglobin is 14 g/dL and RBC count is 4.5 million/mm^3. Which leukocyte would be present in abundance here?",
     "answers": [
-      {
-        "option": "T-cells",
-        "bool": false
-      },
       {
         "option": "Basophils",
         "bool": false
       },
       {
-        "option": "B-cells",
+        "option": "Macrophages",
+        "bool": false
+      },
+      {
+        "option": "T-cells",
         "bool": false
       },
       {
@@ -4615,45 +4615,49 @@
         "bool": true
       },
       {
-        "option": "Macrophages",
+        "option": "B-cells",
         "bool": false
       }
     ]
   },
   {
     "id": 171,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "Within how many hours is the epithelialization of the suture wounds completed?",
     "answers": [
+      {
+        "option": "36 hours",
+        "bool": false
+      },
       {
         "option": "24 hours",
         "bool": false
       },
       {
-        "option": "48 hours",
-        "bool": false
+        "option": "72 hours",
+        "bool": true
       },
       {
         "option": "96 hours",
         "bool": false
       },
       {
-        "option": "36 hours",
+        "option": "48 hours",
         "bool": false
-      },
-      {
-        "option": "72 hours",
-        "bool": true
       }
     ]
   },
   {
     "id": 172,
-    "info": "1st-year/blood-1/2020",
+    "info": "1st-year/blood/2020",
     "question": "The red pulp of the spleen contains which one of the following?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Central arteriole",
+        "bool": false
+      },
+      {
+        "option": "Lymphocytes",
         "bool": false
       },
       {
@@ -4661,16 +4665,12 @@
         "bool": false
       },
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Cords of bilroth",
         "bool": true
-      },
-      {
-        "option": "Lymphocytes",
-        "bool": false
-      },
-      {
-        "option": "Central arteriole",
-        "bool": false
       }
     ]
   }

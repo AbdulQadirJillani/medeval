@@ -1,46 +1,15 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following structures are constituents of the limbic system?",
-    "answers": [
-      {
-        "option": "Amygdaloid nucleus, red nucleus, and vestibular nucleus",
-        "bool": false
-      },
-      {
-        "option": "Hippocampal formation",
-        "bool": false
-      },
-      {
-        "option": "Cingulate gyrus and the uncus",
-        "bool": false
-      },
-      {
-        "option": "Subcallosal, cingulate and parahippocampal gyri, hippocampal formation, amygdaloid nucleus, mammillary body and anterior thalamic nuclei",
-        "bool": true
-      },
-      {
-        "option": "Pulvinar of the thalamus and substantia nigra",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "info": "2nd-year/neuroscience-1/2018",
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following is associated with an enlargement of the posterior cranial fossa?",
     "answers": [
       {
-        "option": "Arnold-Chiari type II",
+        "option": "Holoprosencephaly",
         "bool": false
       },
       {
         "option": "Agenesis of the corpus callosum",
-        "bool": false
-      },
-      {
-        "option": "Holoprosencephaly",
         "bool": false
       },
       {
@@ -50,665 +19,25 @@
       {
         "option": "Arnold-Chiari type I",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Neurotransmitters (catecholamines) are mainly derived from which amino acid?",
-    "answers": [
-      {
-        "option": "Tryptophan",
-        "bool": false
       },
       {
-        "option": "Tyrosine",
-        "bool": true
-      },
-      {
-        "option": "Glycine",
-        "bool": false
-      },
-      {
-        "option": "Alanine",
-        "bool": false
-      },
-      {
-        "option": "Phenylalanine",
+        "option": "Arnold-Chiari type II",
         "bool": false
       }
     ]
   },
   {
-    "id": 3,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which peripheral nerve is myelinated by oligodendrocytes?",
-    "answers": [
-      {
-        "option": "Accessory nerve",
-        "bool": false
-      },
-      {
-        "option": "Hypoglossal nerve",
-        "bool": false
-      },
-      {
-        "option": "Optic nerve",
-        "bool": true
-      },
-      {
-        "option": "Abducens nerve",
-        "bool": false
-      },
-      {
-        "option": "Ophthalmic nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is an indolamine derived from tryptophan?",
-    "answers": [
-      {
-        "option": "Serotonin",
-        "bool": true
-      },
-      {
-        "option": "Prostaglandin",
-        "bool": false
-      },
-      {
-        "option": "Dopamine",
-        "bool": false
-      },
-      {
-        "option": "Chitin",
-        "bool": false
-      },
-      {
-        "option": "Leukotriene",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Where does the superior sagittal sinus drain into?",
-    "answers": [
-      {
-        "option": "Sinusoidal sinus",
-        "bool": false
-      },
-      {
-        "option": "Right transverse sinus",
-        "bool": true
-      },
-      {
-        "option": "Longitudinal sinus",
-        "bool": false
-      },
-      {
-        "option": "Straight sinus",
-        "bool": false
-      },
-      {
-        "option": "Ethmoidal sinus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Agenesis of the corpus callosum is associated with which of the following symptoms?",
-    "answers": [
-      {
-        "option": "Loss of sensory control",
-        "bool": false
-      },
-      {
-        "option": "Mental retardation",
-        "bool": true
-      },
-      {
-        "option": "Loss of motor contrtol",
-        "bool": false
-      },
-      {
-        "option": "Loss of speech",
-        "bool": false
-      },
-      {
-        "option": "Loss of coordination",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is the most common disease in extrapyramidal tracts?",
-    "answers": [
-      {
-        "option": "Fragile X syndrome",
-        "bool": false
-      },
-      {
-        "option": "Wilson's disease",
-        "bool": false
-      },
-      {
-        "option": "Alzheimer's disease",
-        "bool": false
-      },
-      {
-        "option": "Parkinson's disease",
-        "bool": true
-      },
-      {
-        "option": "Huntington's disease",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Lesion of which hypothalamic nucleus causes abnormal circadian rhythm?",
-    "answers": [
-      {
-        "option": "Supraoptic",
-        "bool": false
-      },
-      {
-        "option": "Preoptic",
-        "bool": false
-      },
-      {
-        "option": "Paraventricular",
-        "bool": false
-      },
-      {
-        "option": "Suprachiasmatic",
-        "bool": true
-      },
-      {
-        "option": "Mammillary",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which part of the brain must be blocked to produce an enlargement of the third and lateral ventricles on a child's radiograph?",
-    "answers": [
-      {
-        "option": "Pons",
-        "bool": false
-      },
-      {
-        "option": "Midbrain",
-        "bool": true
-      },
-      {
-        "option": "Medulla",
-        "bool": false
-      },
-      {
-        "option": "Cerebrum",
-        "bool": false
-      },
-      {
-        "option": "Cerebellum",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "In neonates, what causes acute pyogenic meningitis?",
-    "answers": [
-      {
-        "option": "Toxoplasma gondii",
-        "bool": false
-      },
-      {
-        "option": "Neisseria meningitidis",
-        "bool": false
-      },
-      {
-        "option": "Escherichia coli",
-        "bool": true
-      },
-      {
-        "option": "Listeria monocytogenes",
-        "bool": false
-      },
-      {
-        "option": "Necator americanus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Lacunar infarcts may occur due to the occlusion of which of the following vessels?",
-    "answers": [
-      {
-        "option": "Jugular vein",
-        "bool": false
-      },
-      {
-        "option": "Aorta",
-        "bool": false
-      },
-      {
-        "option": "Venules",
-        "bool": false
-      },
-      {
-        "option": "Basilar artery",
-        "bool": false
-      },
-      {
-        "option": "Small arteries",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What does uncal herniation cause?",
-    "answers": [
-      {
-        "option": "Crescent shaped lesion",
-        "bool": false
-      },
-      {
-        "option": "Breathing cessation",
-        "bool": false
-      },
-      {
-        "option": "Oculomotor paralysis",
-        "bool": true
-      },
-      {
-        "option": "Chewing difficulties",
-        "bool": false
-      },
-      {
-        "option": "Kidney disease",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following structures cannot be appreciated at the level of the decussation of pyramids?",
-    "answers": [
-      {
-        "option": "Lateral spinothalamic tract",
-        "bool": false
-      },
-      {
-        "option": "Posterior spinocerebellar tract",
-        "bool": false
-      },
-      {
-        "option": "Spinal tract of trigeminal nerve",
-        "bool": false
-      },
-      {
-        "option": "Medial lemniscus",
-        "bool": true
-      },
-      {
-        "option": "Accessory nucleus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these is a sign of Huntington's disease?",
-    "answers": [
-      {
-        "option": "Hallucinations",
-        "bool": false
-      },
-      {
-        "option": "Enlarged posterior fossa",
-        "bool": false
-      },
-      {
-        "option": "Cogwheel rigidity",
-        "bool": false
-      },
-      {
-        "option": "Resting tremors",
-        "bool": false
-      },
-      {
-        "option": "Chorea",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which statement is inappropriate regarding the dorsal horn of the grey matter of the spinal cord?",
-    "answers": [
-      {
-        "option": "It includes substantia gelatinosa which is homologous to spinal trigeminal nucleus",
-        "bool": false
-      },
-      {
-        "option": "It is less bulky in size than ventral horn of grey matter",
-        "bool": false
-      },
-      {
-        "option": "It receives and processes sensory inputs",
-        "bool": false
-      },
-      {
-        "option": "It is found in all levels of spinal cord",
-        "bool": false
-      },
-      {
-        "option": "It is found in cervical region only",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Serotonin or 5-hydroxytryptamine is synthesized from which of the following?",
-    "answers": [
-      {
-        "option": "Tri-acyl glycerol",
-        "bool": false
-      },
-      {
-        "option": "Tyrosine",
-        "bool": false
-      },
-      {
-        "option": "Tryptophan",
-        "bool": true
-      },
-      {
-        "option": "Tri-carboxylic acid",
-        "bool": false
-      },
-      {
-        "option": "Taurine",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Sympathetic stimulation results in which of the following?",
-    "answers": [
-      {
-        "option": "Decreased force of heart contraction",
-        "bool": false
-      },
-      {
-        "option": "Pupillary constriction",
-        "bool": false
-      },
-      {
-        "option": "Constriction of blood vessels in the skin",
-        "bool": true
-      },
-      {
-        "option": "Defecation",
-        "bool": false
-      },
-      {
-        "option": "Increased peristalsis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these is not an opioid receptor?",
-    "answers": [
-      {
-        "option": "\u03ba",
-        "bool": false
-      },
-      {
-        "option": "Alpha",
-        "bool": true
-      },
-      {
-        "option": "\u03bc",
-        "bool": false
-      },
-      {
-        "option": "Zeta",
-        "bool": false
-      },
-      {
-        "option": "\u03b4",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Morphine is used for relief from which of the following?",
-    "answers": [
-      {
-        "option": "Chest pain",
-        "bool": true
-      },
-      {
-        "option": "Referred pain",
-        "bool": false
-      },
-      {
-        "option": "Migraine",
-        "bool": false
-      },
-      {
-        "option": "Pain in kidney",
-        "bool": false
-      },
-      {
-        "option": "Pain in limbs",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What are the phagocytotic cells of the central nervous system?",
-    "answers": [
-      {
-        "option": "Oligodendrocytes",
-        "bool": false
-      },
-      {
-        "option": "Microglial cells",
-        "bool": true
-      },
-      {
-        "option": "Ependymal cells",
-        "bool": false
-      },
-      {
-        "option": "Astrocytes",
-        "bool": false
-      },
-      {
-        "option": "Satellite cells",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Damage to which of the following results in the loss of pain sensation?",
-    "answers": [
-      {
-        "option": "Cuneocerebellar tract",
-        "bool": false
-      },
-      {
-        "option": "Lateral spinothalamic tract",
-        "bool": true
-      },
-      {
-        "option": "Corticospinal tract",
-        "bool": false
-      },
-      {
-        "option": "Dorsal column medial lemniscal pathway",
-        "bool": false
-      },
-      {
-        "option": "Anterior spinothalamic tract",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Light touch sensations are lost when which of the following is damaged?",
-    "answers": [
-      {
-        "option": "Rubrospinal tract",
-        "bool": false
-      },
-      {
-        "option": "Lateral spinothalamic tract",
-        "bool": false
-      },
-      {
-        "option": "Anterior spinothalamic tract",
-        "bool": true
-      },
-      {
-        "option": "Cuneocerebellar tract",
-        "bool": false
-      },
-      {
-        "option": "Dorsal column medial lemniscus pathway",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following sensations are spared in anterior cord syndrome?",
-    "answers": [
-      {
-        "option": "Pain and temperature",
-        "bool": false
-      },
-      {
-        "option": "Proprioception, two point discrimination, and vibration",
-        "bool": true
-      },
-      {
-        "option": "Vibration, crude touch, and pressure",
-        "bool": false
-      },
-      {
-        "option": "Fine touch and pressure",
-        "bool": false
-      },
-      {
-        "option": "Crude touch and two point discrimination",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Pyramids in the medulla are formed by which of the following fibers?",
-    "answers": [
-      {
-        "option": "Rubrospinal fibers",
-        "bool": false
-      },
-      {
-        "option": "Corticopontine fibers",
-        "bool": false
-      },
-      {
-        "option": "Corticobulbar fibers",
-        "bool": false
-      },
-      {
-        "option": "Vestibulospinal fibers",
-        "bool": false
-      },
-      {
-        "option": "Corticospinal fibers",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is dopamine synthesized from?",
-    "answers": [
-      {
-        "option": "Tryptophan",
-        "bool": false
-      },
-      {
-        "option": "Phenylalanine",
-        "bool": false
-      },
-      {
-        "option": "Glycine",
-        "bool": false
-      },
-      {
-        "option": "Tyrosine",
-        "bool": true
-      },
-      {
-        "option": "Glutamate",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 1,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the rate of production of cerebrospinal fluid (CSF)?",
     "answers": [
       {
         "option": "250-300 ml/day",
         "bool": false
+      },
+      {
+        "option": "500-550 ml/day",
+        "bool": true
       },
       {
         "option": "150-200 ml/day",
@@ -719,24 +48,97 @@
         "bool": false
       },
       {
-        "option": "500-550 ml/day",
-        "bool": true
-      },
-      {
         "option": "50-150 ml/day",
         "bool": false
       }
     ]
   },
   {
-    "id": 27,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "The dorsal column in the spinal cord carries which of the following sensations?",
+    "id": 2,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Neurotransmitters (catecholamines) are mainly derived from which amino acid?",
     "answers": [
       {
-        "option": "Pain and temperature",
+        "option": "Alanine",
         "bool": false
       },
+      {
+        "option": "Tryptophan",
+        "bool": false
+      },
+      {
+        "option": "Glycine",
+        "bool": false
+      },
+      {
+        "option": "Tyrosine",
+        "bool": true
+      },
+      {
+        "option": "Phenylalanine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the function of Renshaw cells?",
+    "answers": [
+      {
+        "option": "Form a part of blood-brain barrier",
+        "bool": false
+      },
+      {
+        "option": "Formation of cerebrospinal fluid",
+        "bool": false
+      },
+      {
+        "option": "Act as excitatory interneurons",
+        "bool": false
+      },
+      {
+        "option": "Act as inhibitory interneurons",
+        "bool": true
+      },
+      {
+        "option": "Facilitate phagocytosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "A person has lost two-point discrimination in their right hand. A finding such as this is present due to a lesion in which of the following?",
+    "answers": [
+      {
+        "option": "Right medial lemniscus at medulla",
+        "bool": false
+      },
+      {
+        "option": "Left medial lemniscus at medulla",
+        "bool": true
+      },
+      {
+        "option": "Lateral lemniscus",
+        "bool": false
+      },
+      {
+        "option": "Anterior spinothalamic tract",
+        "bool": false
+      },
+      {
+        "option": "Lateral spinothalamic tract",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "The dorsal column in the spinal cord carries which of the following sensations?",
+    "answers": [
       {
         "option": "Proprioception only",
         "bool": false
@@ -752,70 +154,47 @@
       {
         "option": "Proprioception and crude touch",
         "bool": false
+      },
+      {
+        "option": "Pain and temperature",
+        "bool": false
       }
     ]
   },
   {
-    "id": 28,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "A person has lost two-point discrimination in their right hand. A finding such as this is present due to a lesion in which of the following?",
+    "id": 6,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is an indolamine derived from tryptophan?",
     "answers": [
       {
-        "option": "Lateral spinothalamic tract",
+        "option": "Prostaglandin",
         "bool": false
       },
       {
-        "option": "Lateral lemniscus",
+        "option": "Dopamine",
         "bool": false
       },
       {
-        "option": "Right medial lemniscus at medulla",
-        "bool": false
-      },
-      {
-        "option": "Left medial lemniscus at medulla",
+        "option": "Serotonin",
         "bool": true
       },
       {
-        "option": "Anterior spinothalamic tract",
+        "option": "Chitin",
+        "bool": false
+      },
+      {
+        "option": "Leukotriene",
         "bool": false
       }
     ]
   },
   {
-    "id": 29,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the function of Renshaw cells?",
-    "answers": [
-      {
-        "option": "Facilitate phagocytosis",
-        "bool": false
-      },
-      {
-        "option": "Act as inhibitory interneurons",
-        "bool": true
-      },
-      {
-        "option": "Formation of cerebrospinal fluid",
-        "bool": false
-      },
-      {
-        "option": "Act as excitatory interneurons",
-        "bool": false
-      },
-      {
-        "option": "Form a part of blood-brain barrier",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 7,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Lesions in which of the following results in sensory ataxia?",
     "answers": [
       {
-        "option": "Dorsal spinocerebellar tract",
+        "option": "Ventral spinocerebellar tract",
         "bool": false
       },
       {
@@ -827,7 +206,7 @@
         "bool": true
       },
       {
-        "option": "Ventral spinocerebellar tract",
+        "option": "Dorsal spinocerebellar tract",
         "bool": false
       },
       {
@@ -837,43 +216,39 @@
     ]
   },
   {
-    "id": 31,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Cardiac and vasomotor centers are located in which of the following structures of the central nervous system?",
+    "id": 8,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which statement is inappropriate regarding the dorsal horn of the grey matter of the spinal cord?",
     "answers": [
       {
-        "option": "Medulla",
+        "option": "It receives and processes sensory inputs",
+        "bool": false
+      },
+      {
+        "option": "It is found in all levels of spinal cord",
+        "bool": false
+      },
+      {
+        "option": "It is found in cervical region only",
         "bool": true
       },
       {
-        "option": "Pons",
+        "option": "It is less bulky in size than ventral horn of grey matter",
         "bool": false
       },
       {
-        "option": "Hypothalamus",
-        "bool": false
-      },
-      {
-        "option": "Cerebellum",
-        "bool": false
-      },
-      {
-        "option": "Thalamus",
+        "option": "It includes substantia gelatinosa which is homologous to spinal trigeminal nucleus",
         "bool": false
       }
     ]
   },
   {
-    "id": 32,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 9,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the function of the reticular activating system?",
     "answers": [
       {
         "option": "Control of the autonomic functions",
-        "bool": false
-      },
-      {
-        "option": "Sensory relay",
         "bool": false
       },
       {
@@ -887,48 +262,48 @@
       {
         "option": "Memory",
         "bool": false
+      },
+      {
+        "option": "Sensory relay",
+        "bool": false
       }
     ]
   },
   {
-    "id": 33,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following does not form the roof of the inferior horn of the lateral ventricle?",
+    "id": 10,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Where does the superior sagittal sinus drain into?",
     "answers": [
       {
-        "option": "Tail of caudate nucleus",
+        "option": "Sinusoidal sinus",
         "bool": false
       },
       {
-        "option": "Tapetum of corpus callosum",
-        "bool": false
-      },
-      {
-        "option": "Stria terminalis",
-        "bool": false
-      },
-      {
-        "option": "Pes hippocampus",
+        "option": "Right transverse sinus",
         "bool": true
       },
       {
-        "option": "Amygdala",
+        "option": "Straight sinus",
+        "bool": false
+      },
+      {
+        "option": "Ethmoidal sinus",
+        "bool": false
+      },
+      {
+        "option": "Longitudinal sinus",
         "bool": false
       }
     ]
   },
   {
-    "id": 34,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 11,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following is not true regarding the white matter?",
     "answers": [
       {
-        "option": "Contains oligodendrocytes and microglial cells",
+        "option": "Contains mainly myelinated nerve fibers",
         "bool": false
-      },
-      {
-        "option": "Contains mainly unmyelinated nerve fivers",
-        "bool": true
       },
       {
         "option": "Does not contain nerve cell bodies",
@@ -939,45 +314,57 @@
         "bool": false
       },
       {
-        "option": "Contains mainly myelinated nerve fibers",
+        "option": "Contains oligodendrocytes and microglial cells",
         "bool": false
+      },
+      {
+        "option": "Contains mainly unmyelinated nerve fivers",
+        "bool": true
       }
     ]
   },
   {
-    "id": 35,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 12,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Where does an action potential begin?",
     "answers": [
-      {
-        "option": "Neuronal body",
-        "bool": false
-      },
       {
         "option": "Dendrite",
         "bool": false
       },
       {
-        "option": "Axon hillock",
-        "bool": true
+        "option": "Synapse",
+        "bool": false
       },
       {
         "option": "Soma",
         "bool": false
       },
       {
-        "option": "Synapse",
+        "option": "Neuronal body",
         "bool": false
+      },
+      {
+        "option": "Axon hillock",
+        "bool": true
       }
     ]
   },
   {
-    "id": 36,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 13,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which glucose transporter is seen in the brain?",
     "answers": [
       {
+        "option": "GLUT-3",
+        "bool": true
+      },
+      {
         "option": "GLUT-4",
+        "bool": false
+      },
+      {
+        "option": "SGLT-1",
         "bool": false
       },
       {
@@ -987,57 +374,14 @@
       {
         "option": "GLUT-5",
         "bool": false
-      },
-      {
-        "option": "SGLT-1",
-        "bool": false
-      },
-      {
-        "option": "GLUT-3",
-        "bool": true
       }
     ]
   },
   {
-    "id": 37,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Where is the sensory nucleus of the trigeminal nerve present?",
-    "answers": [
-      {
-        "option": "Medulla",
-        "bool": false
-      },
-      {
-        "option": "C5 spinal level",
-        "bool": false
-      },
-      {
-        "option": "Midbrain",
-        "bool": false
-      },
-      {
-        "option": "Pons",
-        "bool": true
-      },
-      {
-        "option": "Thalamus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 14,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What does a positive Romberg test indicate?",
     "answers": [
-      {
-        "option": "Lesion of dorsal column\u2013medial lemniscus pathway",
-        "bool": true
-      },
-      {
-        "option": "Lesion of dorsal spinocerebellar tract",
-        "bool": false
-      },
       {
         "option": "Lesion of lateral corticospinal tract",
         "bool": false
@@ -1047,14 +391,22 @@
         "bool": false
       },
       {
+        "option": "Lesion of dorsal column–medial lemniscus pathway",
+        "bool": true
+      },
+      {
         "option": "Lesion of lateral spinothalamic tract",
+        "bool": false
+      },
+      {
+        "option": "Lesion of dorsal spinocerebellar tract",
         "bool": false
       }
     ]
   },
   {
-    "id": 39,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 15,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What does the term hyperalgesia mean?",
     "answers": [
       {
@@ -1062,227 +414,119 @@
         "bool": false
       },
       {
-        "option": "Decreased sensation in limbs",
-        "bool": false
-      },
-      {
         "option": "Increased sensitivity to pain",
         "bool": true
       },
       {
-        "option": "Loss of taste sensation",
-        "bool": false
-      },
-      {
         "option": "Decreased sensitivity to pain",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following structures is present at the level of the oculomotor nerve nucleus?",
-    "answers": [
+      },
       {
-        "option": "Lateral lemniscus",
+        "option": "Decreased sensation in limbs",
         "bool": false
       },
       {
-        "option": "Inferior colliculus",
-        "bool": false
-      },
-      {
-        "option": "Inferior olivary nucleus",
-        "bool": false
-      },
-      {
-        "option": "Superior cerebellar peduncles",
-        "bool": false
-      },
-      {
-        "option": "Superior colliculus",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Facial colliculus is formed by which of the following structures?",
-    "answers": [
-      {
-        "option": "Facial nerve as it loops over the abducens nucleus",
-        "bool": true
-      },
-      {
-        "option": "Trochlear nerve as it loops over facial nerve",
-        "bool": false
-      },
-      {
-        "option": "Facial nerve as it loops over hypoglossal nucleus",
-        "bool": false
-      },
-      {
-        "option": "Facial nerve as it loops over principal nucleus of trigeminal nerve",
-        "bool": false
-      },
-      {
-        "option": "Abducens nerve as it loops over facial nucleus",
+        "option": "Loss of taste sensation",
         "bool": false
       }
     ]
   },
   {
-    "id": 42,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which artery is not part of the circle of Willis?",
-    "answers": [
-      {
-        "option": "Anterior cerebral artery",
-        "bool": false
-      },
-      {
-        "option": "Posterior communicating artery",
-        "bool": false
-      },
-      {
-        "option": "Anterior communicating artery",
-        "bool": false
-      },
-      {
-        "option": "Middle cerebral artery",
-        "bool": false
-      },
-      {
-        "option": "Superior cerebellar artery",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which sinus does not drain at the occipital confluence?",
-    "answers": [
-      {
-        "option": "Transverse sinus",
-        "bool": false
-      },
-      {
-        "option": "Inferior petrosal sinus",
-        "bool": true
-      },
-      {
-        "option": "Superior sagittal sinus",
-        "bool": false
-      },
-      {
-        "option": "Occipital sinus",
-        "bool": false
-      },
-      {
-        "option": "Straight sinus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 16,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following indicates an upper motor neuron lesion?",
     "answers": [
       {
-        "option": "Positive Babinski sign",
-        "bool": true
+        "option": "Decreased muscle tone",
+        "bool": false
       },
       {
-        "option": "Fasciculations",
-        "bool": false
+        "option": "Positive Babinski sign",
+        "bool": true
       },
       {
         "option": "Flaccid paralysis",
         "bool": false
       },
       {
-        "option": "Decreased muscle tone",
-        "bool": false
-      },
-      {
         "option": "Muscle atrophy",
         "bool": false
+      },
+      {
+        "option": "Fasciculations",
+        "bool": false
       }
     ]
   },
   {
-    "id": 45,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following are the only climbing fibers in the cerebellum?",
+    "id": 17,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Serotonin or 5-hydroxytryptamine is synthesized from which of the following?",
     "answers": [
       {
-        "option": "Olivocerebellar fibers",
+        "option": "Tryptophan",
         "bool": true
       },
       {
-        "option": "Pontocerebellar fibers",
+        "option": "Tri-carboxylic acid",
         "bool": false
       },
       {
-        "option": "Reticulocerebellar fibers",
+        "option": "Tyrosine",
         "bool": false
       },
       {
-        "option": "Rubrocerebellar fibers",
+        "option": "Tri-acyl glycerol",
         "bool": false
       },
       {
-        "option": "Cuneocerebellar fibers",
+        "option": "Taurine",
         "bool": false
       }
     ]
   },
   {
-    "id": 46,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is a precursor of epinephrine?",
+    "id": 18,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following sensations are spared in anterior cord syndrome?",
     "answers": [
       {
-        "option": "Serotonin",
+        "option": "Fine touch and pressure",
         "bool": false
       },
       {
-        "option": "Lysine",
-        "bool": false
-      },
-      {
-        "option": "Norepinephrine",
+        "option": "Proprioception, two point discrimination, and vibration",
         "bool": true
       },
       {
-        "option": "Monoamine oxidase",
+        "option": "Pain and temperature",
         "bool": false
       },
       {
-        "option": "Histamine",
+        "option": "Vibration, crude touch, and pressure",
+        "bool": false
+      },
+      {
+        "option": "Crude touch and two point discrimination",
         "bool": false
       }
     ]
   },
   {
-    "id": 47,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 19,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following hypothalamic nucleus is responsible for increasing the heart rate and blood pressure?",
     "answers": [
       {
-        "option": "Supraoptic nucleus",
-        "bool": false
-      },
-      {
-        "option": "Tuberomamillary nucleus",
-        "bool": false
-      },
-      {
         "option": "Anterior nucleus",
+        "bool": false
+      },
+      {
+        "option": "Suprachiasmatic nucleus",
+        "bool": false
+      },
+      {
+        "option": "Supraoptic nucleus",
         "bool": false
       },
       {
@@ -1290,95 +534,68 @@
         "bool": true
       },
       {
-        "option": "Suprachiasmatic nucleus",
+        "option": "Tuberomamillary nucleus",
         "bool": false
       }
     ]
   },
   {
-    "id": 48,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "In what form does the brain mainly utilize energy?",
+    "id": 20,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Agenesis of the corpus callosum is associated with which of the following symptoms?",
     "answers": [
       {
-        "option": "Glucose",
+        "option": "Loss of coordination",
+        "bool": false
+      },
+      {
+        "option": "Loss of sensory control",
+        "bool": false
+      },
+      {
+        "option": "Loss of speech",
+        "bool": false
+      },
+      {
+        "option": "Mental retardation",
         "bool": true
       },
       {
-        "option": "Proteins",
-        "bool": false
-      },
-      {
-        "option": "Heat",
-        "bool": false
-      },
-      {
-        "option": "DNA",
-        "bool": false
-      },
-      {
-        "option": "Fats",
+        "option": "Loss of motor contrtol",
         "bool": false
       }
     ]
   },
   {
-    "id": 49,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Lesion of the supraoptic nucleus results in which of the following?",
+    "id": 21,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Sympathetic stimulation results in which of the following?",
     "answers": [
       {
-        "option": "Hypersexuality",
+        "option": "Pupillary constriction",
         "bool": false
       },
       {
-        "option": "Increased volume of urine",
+        "option": "Increased peristalsis",
+        "bool": false
+      },
+      {
+        "option": "Defecation",
+        "bool": false
+      },
+      {
+        "option": "Constriction of blood vessels in the skin",
         "bool": true
       },
       {
-        "option": "Decreased prolactin production",
-        "bool": false
-      },
-      {
-        "option": "Increased oxytocin production",
-        "bool": false
-      },
-      {
-        "option": "Decreased volume of urine",
+        "option": "Decreased force of heart contraction",
         "bool": false
       }
     ]
   },
   {
-    "id": 50,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "The brain magnetic resonance image (MRI) of an 8-year-old child shows a bat-wing deformity. Which condition is the most likely cause of this?",
-    "answers": [
-      {
-        "option": "Polymicrogyria",
-        "bool": false
-      },
-      {
-        "option": "Neuronal heterotopia",
-        "bool": false
-      },
-      {
-        "option": "Lissencephaly",
-        "bool": false
-      },
-      {
-        "option": "Agenesis of corpus callosum",
-        "bool": true
-      },
-      {
-        "option": "Holoprosencephaly",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 22,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following indicates a lesion of the lateral spinothalamic tract?",
     "answers": [
       {
@@ -1404,8 +621,62 @@
     ]
   },
   {
-    "id": 52,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 23,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "The brain magnetic resonance image (MRI) of an 8-year-old child shows a bat-wing deformity. Which condition is the most likely cause of this?",
+    "answers": [
+      {
+        "option": "Holoprosencephaly",
+        "bool": false
+      },
+      {
+        "option": "Neuronal heterotopia",
+        "bool": false
+      },
+      {
+        "option": "Lissencephaly",
+        "bool": false
+      },
+      {
+        "option": "Polymicrogyria",
+        "bool": false
+      },
+      {
+        "option": "Agenesis of corpus callosum",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is the most common disease in extrapyramidal tracts?",
+    "answers": [
+      {
+        "option": "Fragile X syndrome",
+        "bool": false
+      },
+      {
+        "option": "Huntington's disease",
+        "bool": false
+      },
+      {
+        "option": "Parkinson's disease",
+        "bool": true
+      },
+      {
+        "option": "Wilson's disease",
+        "bool": false
+      },
+      {
+        "option": "Alzheimer's disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What does a 'cobweb' appearance of the CSF indicate?",
     "answers": [
       {
@@ -1413,790 +684,34 @@
         "bool": true
       },
       {
-        "option": "Neurosyphilis",
-        "bool": false
-      },
-      {
-        "option": "Viral meningitis",
-        "bool": false
-      },
-      {
         "option": "Acute pyogenic meningitis",
+        "bool": false
+      },
+      {
+        "option": "Neurosyphilis",
         "bool": false
       },
       {
         "option": "Viral encephalitis",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which cranial nerve damage will cause respiratory issues?",
-    "answers": [
-      {
-        "option": "Vagus nerve",
-        "bool": true
       },
       {
-        "option": "Trochlear nerve",
-        "bool": false
-      },
-      {
-        "option": "Abducens nerve",
-        "bool": false
-      },
-      {
-        "option": "Occulomotor nerve",
-        "bool": false
-      },
-      {
-        "option": "Optic nerve",
+        "option": "Viral meningitis",
         "bool": false
       }
     ]
   },
   {
-    "id": 54,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "The internal cerebral vein is formed by the union of which of the following?",
-    "answers": [
-      {
-        "option": "Thalamostriate and choroidal veins",
-        "bool": true
-      },
-      {
-        "option": "Anterior cerebral vein and striate vein",
-        "bool": false
-      },
-      {
-        "option": "Superficial cerebral vein and the basal vein",
-        "bool": false
-      },
-      {
-        "option": "Superior cerebral vein and the great cerebral vein",
-        "bool": false
-      },
-      {
-        "option": "Superficial and deep middle cerebral vein",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following, in cerebrospinal fluid (CSF), is a marker for bacterial infection?",
-    "answers": [
-      {
-        "option": "Negative gram stain",
-        "bool": false
-      },
-      {
-        "option": "Markedly decreased glucose level",
-        "bool": true
-      },
-      {
-        "option": "Clear appearance of CSF",
-        "bool": false
-      },
-      {
-        "option": "Decreased protein level",
-        "bool": false
-      },
-      {
-        "option": "Presence of lymphocytes",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "A 25-year-old man develops thrombosis of the anterior spinal artery. Which of the following regions will be affected the most?",
-    "answers": [
-      {
-        "option": "Medulla",
-        "bool": false
-      },
-      {
-        "option": "Cerebellum",
-        "bool": false
-      },
-      {
-        "option": "Mid-brain",
-        "bool": false
-      },
-      {
-        "option": "Spinal cord",
-        "bool": true
-      },
-      {
-        "option": "Pons",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which cranial nerve will most likely be injured in an anterior cranial fossa fracture?",
-    "answers": [
-      {
-        "option": "Oculomotor nerve",
-        "bool": false
-      },
-      {
-        "option": "Olfactory nerve",
-        "bool": true
-      },
-      {
-        "option": "Trochlear nerve",
-        "bool": false
-      },
-      {
-        "option": "Facial nerve",
-        "bool": false
-      },
-      {
-        "option": "Abducens nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What decreases in tuberculous meningitis?",
-    "answers": [
-      {
-        "option": "Neutrophils",
-        "bool": false
-      },
-      {
-        "option": "Cerebrospinal fluid",
-        "bool": false
-      },
-      {
-        "option": "Glucose",
-        "bool": true
-      },
-      {
-        "option": "Proteins",
-        "bool": false
-      },
-      {
-        "option": "Lymphocytes",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following findings in the CSF indicates viral infection?",
-    "answers": [
-      {
-        "option": "Increased protein",
-        "bool": true
-      },
-      {
-        "option": "Increased glucose",
-        "bool": false
-      },
-      {
-        "option": "Decreased glucose",
-        "bool": false
-      },
-      {
-        "option": "Cloudy appearance",
-        "bool": false
-      },
-      {
-        "option": "Neutrophils",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 60,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the oscillation or permanent rhythmic contraction of skeletal muscles referred to?",
-    "answers": [
-      {
-        "option": "Tonic spasm",
-        "bool": false
-      },
-      {
-        "option": "Clonus",
-        "bool": true
-      },
-      {
-        "option": "Chorea",
-        "bool": false
-      },
-      {
-        "option": "Athetosis",
-        "bool": false
-      },
-      {
-        "option": "Rigidity",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Gliosis is a process in which there is hyperplasia or hypertrophy of which of the following?",
-    "answers": [
-      {
-        "option": "Astrocytes",
-        "bool": true
-      },
-      {
-        "option": "Macrophages",
-        "bool": false
-      },
-      {
-        "option": "Fibers",
-        "bool": false
-      },
-      {
-        "option": "Fibroblasts",
-        "bool": false
-      },
-      {
-        "option": "Myelin sheath",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 62,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these cerebrovascular diseases is not because of hypertension?",
-    "answers": [
-      {
-        "option": "Slit hemorrage",
-        "bool": false
-      },
-      {
-        "option": "Lacunar infarcts",
-        "bool": false
-      },
-      {
-        "option": "Acute hypertensive encephalopathy",
-        "bool": false
-      },
-      {
-        "option": "Hyaline arteriolar sclerosis",
-        "bool": false
-      },
-      {
-        "option": "Meningitis",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 63,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is spina bifida meningomyelocele?",
-    "answers": [
-      {
-        "option": "Protrusion of meninges and spinal cord",
-        "bool": true
-      },
-      {
-        "option": "Protrusion of spinal cord",
-        "bool": false
-      },
-      {
-        "option": "Depression of meninges and spinal cord",
-        "bool": false
-      },
-      {
-        "option": "Depression of meninges and vertebral arch",
-        "bool": false
-      },
-      {
-        "option": "Protrusion of meninges",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What condition involves deprivation of oxygen to brain tissue?",
-    "answers": [
-      {
-        "option": "Meningocele",
-        "bool": false
-      },
-      {
-        "option": "Hydrocephalus",
-        "bool": false
-      },
-      {
-        "option": "Hyperoxia",
-        "bool": false
-      },
-      {
-        "option": "Hypoxia",
-        "bool": true
-      },
-      {
-        "option": "Hyperalgesia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is a predisposing factor of a saccular aneurysm?",
-    "answers": [
-      {
-        "option": "Tumors",
-        "bool": false
-      },
-      {
-        "option": "Viral infections",
-        "bool": false
-      },
-      {
-        "option": "Infections",
-        "bool": false
-      },
-      {
-        "option": "Bacterial infections",
-        "bool": false
-      },
-      {
-        "option": "Cigarette smoking",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these is a risk factor for saccular aneurysms?",
-    "answers": [
-      {
-        "option": "Diabetes",
-        "bool": false
-      },
-      {
-        "option": "Ehler-Dahlos syndrome",
-        "bool": true
-      },
-      {
-        "option": "Parkinson's",
-        "bool": false
-      },
-      {
-        "option": "Alzheimer's",
-        "bool": false
-      },
-      {
-        "option": "Poliomyelitis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following organisms causes chronic bacterial meningoencephalitis?",
-    "answers": [
-      {
-        "option": "Herpes simplex",
-        "bool": false
-      },
-      {
-        "option": "Plasmodium falciparum",
-        "bool": false
-      },
-      {
-        "option": "Mycobacterium tuberculosis",
-        "bool": true
-      },
-      {
-        "option": "Neisseria meningitidis",
-        "bool": false
-      },
-      {
-        "option": "Streptococcus pneumoniae",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these most accurately describes stroke?",
-    "answers": [
-      {
-        "option": "Accumulation of excess CSF",
-        "bool": false
-      },
-      {
-        "option": "Infection of the brain",
-        "bool": false
-      },
-      {
-        "option": "Increased number of glial cells",
-        "bool": false
-      },
-      {
-        "option": "Genetic malformations of the brain",
-        "bool": false
-      },
-      {
-        "option": "Cerebrovascular diseases caused by damage to blood vessels",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Encephalocele most commonly involves which cranial fossa?",
-    "answers": [
-      {
-        "option": "Middle cranial fossa",
-        "bool": false
-      },
-      {
-        "option": "Lateral cranial fossa",
-        "bool": false
-      },
-      {
-        "option": "Anterior cranial fossa",
-        "bool": false
-      },
-      {
-        "option": "Posterior cranial fossa",
-        "bool": true
-      },
-      {
-        "option": "Medial cranial fossa",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the function of the hypothalamus?",
-    "answers": [
-      {
-        "option": "Coordination of motor functions",
-        "bool": false
-      },
-      {
-        "option": "Sense of proprioception",
-        "bool": false
-      },
-      {
-        "option": "Memory formation",
-        "bool": false
-      },
-      {
-        "option": "Speech control",
-        "bool": false
-      },
-      {
-        "option": "Sympathetic control",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is not a feature of acute bacterial meningitis?",
-    "answers": [
-      {
-        "option": "Cerebrospinal fluid with increased glucose content",
-        "bool": true
-      },
-      {
-        "option": "Photophobia",
-        "bool": false
-      },
-      {
-        "option": "Headache",
-        "bool": false
-      },
-      {
-        "option": "Clouding of consciousness",
-        "bool": false
-      },
-      {
-        "option": "Neck stiffness",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What abnormality leads to Parkinson disease?",
-    "answers": [
-      {
-        "option": "Trinucleotide repeats",
-        "bool": false
-      },
-      {
-        "option": "Lack of sleep",
-        "bool": false
-      },
-      {
-        "option": "Damage to spinal cord",
-        "bool": false
-      },
-      {
-        "option": "Deficiency in iron",
-        "bool": false
-      },
-      {
-        "option": "Damage to subtantia nigra",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following hypothalamic nucleus acts as an osmoreceptor?",
-    "answers": [
-      {
-        "option": "Preoptic nucleus",
-        "bool": false
-      },
-      {
-        "option": "Suprachiasmatic nucleus",
-        "bool": false
-      },
-      {
-        "option": "Anterior nucleus",
-        "bool": false
-      },
-      {
-        "option": "Paraventricular nucleus",
-        "bool": false
-      },
-      {
-        "option": "Supraoptic nucleus",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is the correct statement regarding the cerebral cortex?",
-    "answers": [
-      {
-        "option": "The visual cortex lies in the temporal lobe",
-        "bool": false
-      },
-      {
-        "option": "Secondary auditory cortex relates perception of sound with past experiences",
-        "bool": true
-      },
-      {
-        "option": "Somatosensory area 1 is located in the precentral gyrus",
-        "bool": false
-      },
-      {
-        "option": "Broca area is area 3, 1, and 2",
-        "bool": false
-      },
-      {
-        "option": "Widespread damage to bilateral somatosensory area 1 causes astereognosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these is not a sign of Parkinson's disease?",
-    "answers": [
-      {
-        "option": "Postural instability",
-        "bool": false
-      },
-      {
-        "option": "Bradykinesia",
-        "bool": false
-      },
-      {
-        "option": "Rigidity",
-        "bool": false
-      },
-      {
-        "option": "Tremors",
-        "bool": false
-      },
-      {
-        "option": "Chorea",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "In developing countries, which of the following age groups is most likely to have a stroke?",
-    "answers": [
-      {
-        "option": "Adolescents",
-        "bool": false
-      },
-      {
-        "option": "Young adults",
-        "bool": false
-      },
-      {
-        "option": "Teenagers",
-        "bool": false
-      },
-      {
-        "option": "Older adults",
-        "bool": true
-      },
-      {
-        "option": "Children",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "During a cesarean section, where is the anesthetic injected?",
-    "answers": [
-      {
-        "option": "Epidural space",
-        "bool": false
-      },
-      {
-        "option": "Lumbar puncture for spinal anesthesia",
-        "bool": false
-      },
-      {
-        "option": "Subdural space",
-        "bool": false
-      },
-      {
-        "option": "Pudendal nerve",
-        "bool": false
-      },
-      {
-        "option": "Subarachnoid space",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "The refractory period after an action potential is due to what?",
-    "answers": [
-      {
-        "option": "Activated sodium channels",
-        "bool": false
-      },
-      {
-        "option": "Activated potassium channels",
-        "bool": false
-      },
-      {
-        "option": "Inactivated potassium channels",
-        "bool": false
-      },
-      {
-        "option": "Activated calcium channels",
-        "bool": false
-      },
-      {
-        "option": "Inactivated sodium channels",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "A single axon terminal has how many acetylcholine vesicles?",
-    "answers": [
-      {
-        "option": "10,000",
-        "bool": false
-      },
-      {
-        "option": "500",
-        "bool": false
-      },
-      {
-        "option": "300,000",
-        "bool": true
-      },
-      {
-        "option": "2,000",
-        "bool": false
-      },
-      {
-        "option": "70",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What type of hydrocephalus is produced by stenosis of cerebral aqueduct?",
-    "answers": [
-      {
-        "option": "Non obstructive hydrocephalus",
-        "bool": false
-      },
-      {
-        "option": "Normal pressure hydrocephalus",
-        "bool": false
-      },
-      {
-        "option": "Communicating hydrocephalus",
-        "bool": false
-      },
-      {
-        "option": "Hydrocephalus ex vacuo",
-        "bool": false
-      },
-      {
-        "option": "Non communicating hydrocephalus",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 26,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following nerve cell groups do not form a part of the auditory pathway?",
     "answers": [
       {
-        "option": "Cochlear nuclei",
+        "option": "Trapezoid body",
         "bool": false
       },
       {
-        "option": "Trapezoid body",
+        "option": "Cochlear nuclei",
         "bool": false
       },
       {
@@ -2214,10 +729,446 @@
     ]
   },
   {
-    "id": 82,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 27,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "The internal cerebral vein is formed by the union of which of the following?",
+    "answers": [
+      {
+        "option": "Superficial and deep middle cerebral vein",
+        "bool": false
+      },
+      {
+        "option": "Superficial cerebral vein and the basal vein",
+        "bool": false
+      },
+      {
+        "option": "Anterior cerebral vein and striate vein",
+        "bool": false
+      },
+      {
+        "option": "Superior cerebral vein and the great cerebral vein",
+        "bool": false
+      },
+      {
+        "option": "Thalamostriate and choroidal veins",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following, in cerebrospinal fluid (CSF), is a marker for bacterial infection?",
+    "answers": [
+      {
+        "option": "Decreased protein level",
+        "bool": false
+      },
+      {
+        "option": "Negative gram stain",
+        "bool": false
+      },
+      {
+        "option": "Markedly decreased glucose level",
+        "bool": true
+      },
+      {
+        "option": "Clear appearance of CSF",
+        "bool": false
+      },
+      {
+        "option": "Presence of lymphocytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "A 25-year-old man develops thrombosis of the anterior spinal artery. Which of the following regions will be affected the most?",
+    "answers": [
+      {
+        "option": "Cerebellum",
+        "bool": false
+      },
+      {
+        "option": "Mid-brain",
+        "bool": false
+      },
+      {
+        "option": "Medulla",
+        "bool": false
+      },
+      {
+        "option": "Pons",
+        "bool": false
+      },
+      {
+        "option": "Spinal cord",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What decreases in tuberculous meningitis?",
+    "answers": [
+      {
+        "option": "Lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Proteins",
+        "bool": false
+      },
+      {
+        "option": "Cerebrospinal fluid",
+        "bool": false
+      },
+      {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Glucose",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which part of the brain must be blocked to produce an enlargement of the third and lateral ventricles on a child's radiograph?",
+    "answers": [
+      {
+        "option": "Cerebellum",
+        "bool": false
+      },
+      {
+        "option": "Pons",
+        "bool": false
+      },
+      {
+        "option": "Cerebrum",
+        "bool": false
+      },
+      {
+        "option": "Midbrain",
+        "bool": true
+      },
+      {
+        "option": "Medulla",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following findings in the CSF indicates viral infection?",
+    "answers": [
+      {
+        "option": "Decreased glucose",
+        "bool": false
+      },
+      {
+        "option": "Increased protein",
+        "bool": true
+      },
+      {
+        "option": "Cloudy appearance",
+        "bool": false
+      },
+      {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Increased glucose",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the oscillation or permanent rhythmic contraction of skeletal muscles referred to?",
+    "answers": [
+      {
+        "option": "Chorea",
+        "bool": false
+      },
+      {
+        "option": "Rigidity",
+        "bool": false
+      },
+      {
+        "option": "Athetosis",
+        "bool": false
+      },
+      {
+        "option": "Clonus",
+        "bool": true
+      },
+      {
+        "option": "Tonic spasm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following structures are constituents of the limbic system?",
+    "answers": [
+      {
+        "option": "Amygdaloid nucleus, red nucleus, and vestibular nucleus",
+        "bool": false
+      },
+      {
+        "option": "Hippocampal formation",
+        "bool": false
+      },
+      {
+        "option": "Cingulate gyrus and the uncus",
+        "bool": false
+      },
+      {
+        "option": "Subcallosal, cingulate and parahippocampal gyri, hippocampal formation, amygdaloid nucleus, mammillary body and anterior thalamic nuclei",
+        "bool": true
+      },
+      {
+        "option": "Pulvinar of the thalamus and substantia nigra",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Gliosis is a process in which there is hyperplasia or hypertrophy of which of the following?",
+    "answers": [
+      {
+        "option": "Fibroblasts",
+        "bool": false
+      },
+      {
+        "option": "Fibers",
+        "bool": false
+      },
+      {
+        "option": "Myelin sheath",
+        "bool": false
+      },
+      {
+        "option": "Astrocytes",
+        "bool": true
+      },
+      {
+        "option": "Macrophages",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these cerebrovascular diseases is not because of hypertension?",
+    "answers": [
+      {
+        "option": "Meningitis",
+        "bool": true
+      },
+      {
+        "option": "Slit hemorrage",
+        "bool": false
+      },
+      {
+        "option": "Acute hypertensive encephalopathy",
+        "bool": false
+      },
+      {
+        "option": "Lacunar infarcts",
+        "bool": false
+      },
+      {
+        "option": "Hyaline arteriolar sclerosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is spina bifida meningomyelocele?",
+    "answers": [
+      {
+        "option": "Protrusion of meninges and spinal cord",
+        "bool": true
+      },
+      {
+        "option": "Depression of meninges and vertebral arch",
+        "bool": false
+      },
+      {
+        "option": "Depression of meninges and spinal cord",
+        "bool": false
+      },
+      {
+        "option": "Protrusion of meninges",
+        "bool": false
+      },
+      {
+        "option": "Protrusion of spinal cord",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What condition involves deprivation of oxygen to brain tissue?",
+    "answers": [
+      {
+        "option": "Meningocele",
+        "bool": false
+      },
+      {
+        "option": "Hydrocephalus",
+        "bool": false
+      },
+      {
+        "option": "Hyperoxia",
+        "bool": false
+      },
+      {
+        "option": "Hyperalgesia",
+        "bool": false
+      },
+      {
+        "option": "Hypoxia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these is a risk factor for saccular aneurysms?",
+    "answers": [
+      {
+        "option": "Poliomyelitis",
+        "bool": false
+      },
+      {
+        "option": "Diabetes",
+        "bool": false
+      },
+      {
+        "option": "Parkinson's",
+        "bool": false
+      },
+      {
+        "option": "Alzheimer's",
+        "bool": false
+      },
+      {
+        "option": "Ehler-Dahlos syndrome",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "In neonates, what causes acute pyogenic meningitis?",
+    "answers": [
+      {
+        "option": "Toxoplasma gondii",
+        "bool": false
+      },
+      {
+        "option": "Neisseria meningitidis",
+        "bool": false
+      },
+      {
+        "option": "Listeria monocytogenes",
+        "bool": false
+      },
+      {
+        "option": "Necator americanus",
+        "bool": false
+      },
+      {
+        "option": "Escherichia coli",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following organisms causes chronic bacterial meningoencephalitis?",
+    "answers": [
+      {
+        "option": "Plasmodium falciparum",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": false
+      },
+      {
+        "option": "Mycobacterium tuberculosis",
+        "bool": true
+      },
+      {
+        "option": "Herpes simplex",
+        "bool": false
+      },
+      {
+        "option": "Neisseria meningitidis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these most accurately describes stroke?",
+    "answers": [
+      {
+        "option": "Genetic malformations of the brain",
+        "bool": false
+      },
+      {
+        "option": "Infection of the brain",
+        "bool": false
+      },
+      {
+        "option": "Increased number of glial cells",
+        "bool": false
+      },
+      {
+        "option": "Accumulation of excess CSF",
+        "bool": false
+      },
+      {
+        "option": "Cerebrovascular diseases caused by damage to blood vessels",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of these occurs in viral meningitis?",
     "answers": [
+      {
+        "option": "Lymphocytes increase",
+        "bool": true
+      },
       {
         "option": "Glucose increases",
         "bool": false
@@ -2227,57 +1178,269 @@
         "bool": false
       },
       {
-        "option": "Lymphocytes increase",
-        "bool": true
+        "option": "Bacteria infection",
+        "bool": false
       },
       {
         "option": "Neutrophils decrease",
         "bool": false
-      },
-      {
-        "option": "Bacteria infection",
-        "bool": false
       }
     ]
   },
   {
-    "id": 83,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following terms refers to disease constantly present in a small population?",
+    "id": 44,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Encephalocele most commonly involves which cranial fossa?",
     "answers": [
       {
-        "option": "Pandemic",
+        "option": "Lateral cranial fossa",
         "bool": false
       },
       {
-        "option": "Endemic",
+        "option": "Anterior cranial fossa",
+        "bool": false
+      },
+      {
+        "option": "Medial cranial fossa",
+        "bool": false
+      },
+      {
+        "option": "Posterior cranial fossa",
         "bool": true
       },
       {
-        "option": "Outbreak",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Epidemic",
+        "option": "Middle cranial fossa",
         "bool": false
       }
     ]
   },
   {
-    "id": 84,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the difference in ionic concentration across a membrane called?",
+    "id": 45,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Lacunar infarcts may occur due to the occlusion of which of the following vessels?",
     "answers": [
       {
-        "option": "Osmolarity",
+        "option": "Basilar artery",
         "bool": false
       },
       {
-        "option": "Action potential",
+        "option": "Small arteries",
+        "bool": true
+      },
+      {
+        "option": "Venules",
+        "bool": false
+      },
+      {
+        "option": "Aorta",
+        "bool": false
+      },
+      {
+        "option": "Jugular vein",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is not a feature of acute bacterial meningitis?",
+    "answers": [
+      {
+        "option": "Headache",
+        "bool": false
+      },
+      {
+        "option": "Neck stiffness",
+        "bool": false
+      },
+      {
+        "option": "Clouding of consciousness",
+        "bool": false
+      },
+      {
+        "option": "Photophobia",
+        "bool": false
+      },
+      {
+        "option": "Cerebrospinal fluid with increased glucose content",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What abnormality leads to Parkinson disease?",
+    "answers": [
+      {
+        "option": "Lack of sleep",
+        "bool": false
+      },
+      {
+        "option": "Deficiency in iron",
+        "bool": false
+      },
+      {
+        "option": "Trinucleotide repeats",
+        "bool": false
+      },
+      {
+        "option": "Damage to spinal cord",
+        "bool": false
+      },
+      {
+        "option": "Damage to subtantia nigra",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these is not a sign of Parkinson's disease?",
+    "answers": [
+      {
+        "option": "Bradykinesia",
+        "bool": false
+      },
+      {
+        "option": "Postural instability",
+        "bool": false
+      },
+      {
+        "option": "Chorea",
+        "bool": true
+      },
+      {
+        "option": "Tremors",
+        "bool": false
+      },
+      {
+        "option": "Rigidity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these is a sign of Huntington's disease?",
+    "answers": [
+      {
+        "option": "Enlarged posterior fossa",
+        "bool": false
+      },
+      {
+        "option": "Resting tremors",
+        "bool": false
+      },
+      {
+        "option": "Hallucinations",
+        "bool": false
+      },
+      {
+        "option": "Chorea",
+        "bool": true
+      },
+      {
+        "option": "Cogwheel rigidity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What does uncal herniation cause?",
+    "answers": [
+      {
+        "option": "Chewing difficulties",
+        "bool": false
+      },
+      {
+        "option": "Crescent shaped lesion",
+        "bool": false
+      },
+      {
+        "option": "Kidney disease",
+        "bool": false
+      },
+      {
+        "option": "Breathing cessation",
+        "bool": false
+      },
+      {
+        "option": "Oculomotor paralysis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "In developing countries, which of the following age groups is most likely to have a stroke?",
+    "answers": [
+      {
+        "option": "Adolescents",
+        "bool": false
+      },
+      {
+        "option": "Young adults",
+        "bool": false
+      },
+      {
+        "option": "Children",
+        "bool": false
+      },
+      {
+        "option": "Teenagers",
+        "bool": false
+      },
+      {
+        "option": "Older adults",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "A single axon terminal has how many acetylcholine vesicles?",
+    "answers": [
+      {
+        "option": "500",
+        "bool": false
+      },
+      {
+        "option": "300,000",
+        "bool": true
+      },
+      {
+        "option": "10,000",
+        "bool": false
+      },
+      {
+        "option": "2,000",
+        "bool": false
+      },
+      {
+        "option": "70",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the difference in ionic concentration across a membrane called?",
+    "answers": [
+      {
+        "option": "Concentration gradient",
+        "bool": true
+      },
+      {
+        "option": "Osmolarity",
         "bool": false
       },
       {
@@ -2285,20 +1448,51 @@
         "bool": false
       },
       {
-        "option": "Concentration gradient",
-        "bool": true
+        "option": "Ionizing potential",
+        "bool": false
       },
       {
-        "option": "Ionizing potential",
+        "option": "Action potential",
         "bool": false
       }
     ]
   },
   {
-    "id": 85,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 54,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "The refractory period after an action potential is due to what?",
+    "answers": [
+      {
+        "option": "Inactivated sodium channels",
+        "bool": true
+      },
+      {
+        "option": "Activated potassium channels",
+        "bool": false
+      },
+      {
+        "option": "Activated calcium channels",
+        "bool": false
+      },
+      {
+        "option": "Activated sodium channels",
+        "bool": false
+      },
+      {
+        "option": "Inactivated potassium channels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the preferred imaging modality in spinal cord lesions?",
     "answers": [
+      {
+        "option": "Myelography",
+        "bool": false
+      },
       {
         "option": "MRI",
         "bool": true
@@ -2308,162 +1502,50 @@
         "bool": false
       },
       {
-        "option": "CT scan",
-        "bool": false
-      },
-      {
-        "option": "Myelography",
-        "bool": false
-      },
-      {
         "option": "PET/CT",
         "bool": false
+      },
+      {
+        "option": "CT scan",
+        "bool": false
       }
     ]
   },
   {
-    "id": 86,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Hemisection of the spinal cord produces motor loss on the same side of the body as the lesion. Where does the loss of two-point discrimination occur?",
+    "id": 56,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What type of hydrocephalus is produced by stenosis of cerebral aqueduct?",
     "answers": [
       {
-        "option": "Ipsilateral side below the lesion",
+        "option": "Communicating hydrocephalus",
+        "bool": false
+      },
+      {
+        "option": "Non communicating hydrocephalus",
         "bool": true
       },
       {
-        "option": "Ipsilateral side of the face, contralateral side of the trunk",
+        "option": "Hydrocephalus ex vacuo",
         "bool": false
       },
       {
-        "option": "No sensory loss occurs",
+        "option": "Normal pressure hydrocephalus",
         "bool": false
       },
       {
-        "option": "Contralateral side at the level of the lesion",
-        "bool": false
-      },
-      {
-        "option": "Upper limbs only",
+        "option": "Non obstructive hydrocephalus",
         "bool": false
       }
     ]
   },
   {
-    "id": 87,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Hemisection of the spinal cord will not present with which of the following?",
-    "answers": [
-      {
-        "option": "Ipsilateral upper motor neuron (UMN) signs at the level of the lesion",
-        "bool": true
-      },
-      {
-        "option": "Ipsilateral loss of dorsal column sensations below the level of the lesion",
-        "bool": false
-      },
-      {
-        "option": "Ipsilateral upper motor neuron (UMN) signs below the level of the lesion",
-        "bool": false
-      },
-      {
-        "option": "Contralateral pain and temperature loss below the level of the lesion",
-        "bool": false
-      },
-      {
-        "option": "Ipsilateral loss of all sensations at the level of the lesion",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is an example of fibers that connect the two cerebral hemispheres?",
-    "answers": [
-      {
-        "option": "The uncinate fasciculus",
-        "bool": false
-      },
-      {
-        "option": "The geniculocalcarine tract",
-        "bool": false
-      },
-      {
-        "option": "The cingulum",
-        "bool": false
-      },
-      {
-        "option": "The stria terminalis",
-        "bool": false
-      },
-      {
-        "option": "The hippocampal commissure",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which one of the following nerves is not present at the lateral wall of the cavernous sinus?",
-    "answers": [
-      {
-        "option": "Ophthalmic nerve",
-        "bool": false
-      },
-      {
-        "option": "4th cranial nerve",
-        "bool": false
-      },
-      {
-        "option": "Maxillary nerve",
-        "bool": false
-      },
-      {
-        "option": "6th cranial nerve",
-        "bool": true
-      },
-      {
-        "option": "3rd cranial nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which one of the following is formed by cells in the alar plate?",
-    "answers": [
-      {
-        "option": "Autonomic ganglia",
-        "bool": false
-      },
-      {
-        "option": "Anterior gray horn",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Posterior gray horn",
-        "bool": true
-      },
-      {
-        "option": "Motor neurons",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 57,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Regarding Guillain-Barre syndrome, which of the following is true?",
     "answers": [
       {
-        "option": "It is an acute demyelinating polyradiculoneuropathy",
-        "bool": true
+        "option": "It is an infective polyneuropathy",
+        "bool": false
       },
       {
         "option": "It is a non inflammatory disorder",
@@ -2478,28 +1560,16 @@
         "bool": false
       },
       {
-        "option": "It is an infective polyneuropathy",
-        "bool": false
+        "option": "It is an acute demyelinating polyradiculoneuropathy",
+        "bool": true
       }
     ]
   },
   {
-    "id": 92,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 58,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What part of corpus callosum is related to visual association?",
     "answers": [
-      {
-        "option": "Splenium",
-        "bool": true
-      },
-      {
-        "option": "Genu",
-        "bool": false
-      },
-      {
-        "option": "Rostrum",
-        "bool": false
-      },
       {
         "option": "Isthmus",
         "bool": false
@@ -2507,24 +1577,55 @@
       {
         "option": "Body",
         "bool": false
+      },
+      {
+        "option": "Splenium",
+        "bool": true
+      },
+      {
+        "option": "Rostrum",
+        "bool": false
+      },
+      {
+        "option": "Genu",
+        "bool": false
       }
     ]
   },
   {
-    "id": 93,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What part of the brain is the Papez circuit associated with?",
+    "id": 59,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following structures cannot be appreciated at the level of the decussation of pyramids?",
     "answers": [
       {
-        "option": "Limbic system",
-        "bool": true
-      },
-      {
-        "option": "Reticular formation",
+        "option": "Spinal tract of trigeminal nerve",
         "bool": false
       },
       {
-        "option": "Brainstem",
+        "option": "Posterior spinocerebellar tract",
+        "bool": false
+      },
+      {
+        "option": "Medial lemniscus",
+        "bool": true
+      },
+      {
+        "option": "Lateral spinothalamic tract",
+        "bool": false
+      },
+      {
+        "option": "Accessory nucleus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What part of the brain is the Papez circuit associated with?",
+    "answers": [
+      {
+        "option": "Cerebral cortex",
         "bool": false
       },
       {
@@ -2532,14 +1633,22 @@
         "bool": false
       },
       {
-        "option": "Cerebral cortex",
+        "option": "Reticular formation",
+        "bool": false
+      },
+      {
+        "option": "Limbic system",
+        "bool": true
+      },
+      {
+        "option": "Brainstem",
         "bool": false
       }
     ]
   },
   {
-    "id": 94,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 61,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What occurs when you tap a muscle tendon with a clinical hammer?",
     "answers": [
       {
@@ -2547,7 +1656,7 @@
         "bool": true
       },
       {
-        "option": "The tendon snaps",
+        "option": "The hammer breaks",
         "bool": false
       },
       {
@@ -2559,14 +1668,14 @@
         "bool": false
       },
       {
-        "option": "The hammer breaks",
+        "option": "The tendon snaps",
         "bool": false
       }
     ]
   },
   {
-    "id": 95,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 62,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following statements regarding action potentials is incorrect?",
     "answers": [
       {
@@ -2592,39 +1701,43 @@
     ]
   },
   {
-    "id": 96,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is not included in the visual pathway?",
+    "id": 63,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Monoamine oxidase (MAO) and catechol-O-methyltransferase (COMT) are primarily responsible for which of the following?",
     "answers": [
       {
-        "option": "Pretectal nucleus",
+        "option": "Inactivation of aldosterone",
+        "bool": false
+      },
+      {
+        "option": "Inactivation of catecholamines",
         "bool": true
       },
       {
-        "option": "Lateral geniculate body",
+        "option": "Activation of catecholamines",
         "bool": false
       },
       {
-        "option": "Optic chiasm",
+        "option": "Activation of acetylcholine",
         "bool": false
       },
       {
-        "option": "Optic nerves (CN II)",
-        "bool": false
-      },
-      {
-        "option": "Optic radiation",
+        "option": "Activation of non-catecholamines",
         "bool": false
       }
     ]
   },
   {
-    "id": 97,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 64,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following is not part of the pathway of visual reflex?",
     "answers": [
       {
         "option": "Edinger-Westphal nucleus of 3rd cranial nerve",
+        "bool": false
+      },
+      {
+        "option": "Short ciliary nerve",
         "bool": false
       },
       {
@@ -2636,76 +1749,26 @@
         "bool": false
       },
       {
-        "option": "Short ciliary nerve",
-        "bool": false
-      },
-      {
         "option": "Main motor nucleus of 3rd cranial nerve",
         "bool": true
       }
     ]
   },
   {
-    "id": 98,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Monoamine oxidase (MAO) and catechol-O-methyltransferase (COMT) are primarily responsible for which of the following?",
-    "answers": [
-      {
-        "option": "Activation of acetylcholine",
-        "bool": false
-      },
-      {
-        "option": "Activation of catecholamines",
-        "bool": false
-      },
-      {
-        "option": "Activation of non-catecholamines",
-        "bool": false
-      },
-      {
-        "option": "Inactivation of catecholamines",
-        "bool": true
-      },
-      {
-        "option": "Inactivation of aldosterone",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 99,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "If a needle is placed between the third and fourth lumbar vertebra, which of the following structures will it reach?",
-    "answers": [
-      {
-        "option": "Coccygeal nerve",
-        "bool": false
-      },
-      {
-        "option": "Stria terminalis",
-        "bool": false
-      },
-      {
-        "option": "Spinal cord",
-        "bool": false
-      },
-      {
-        "option": "Cerebrospinal fluid",
-        "bool": true
-      },
-      {
-        "option": "Sacral nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 100,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 65,
+    "info": "2nd-year/neuroscience/2018",
     "question": "If you inserted a needle between the 3rd and 4th lumbar vertebra, you would probably hit which structure?",
     "answers": [
       {
-        "option": "Filum terminale",
+        "option": "Conus medularis",
+        "bool": false
+      },
+      {
+        "option": "Femoral nerve",
+        "bool": false
+      },
+      {
+        "option": "Sacral enlargement",
         "bool": false
       },
       {
@@ -2713,53 +1776,22 @@
         "bool": true
       },
       {
-        "option": "Femoral nerve",
-        "bool": false
-      },
-      {
-        "option": "Conus medularis",
-        "bool": false
-      },
-      {
-        "option": "Sacral enlargement",
+        "option": "Filum terminale",
         "bool": false
       }
     ]
   },
   {
-    "id": 101,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the other name for flexor reflex?",
-    "answers": [
-      {
-        "option": "Muscle stretch reflex",
-        "bool": false
-      },
-      {
-        "option": "Golgi tendon reflex",
-        "bool": false
-      },
-      {
-        "option": "Pupillary reflex",
-        "bool": false
-      },
-      {
-        "option": "Nociceptor/pain reflex",
-        "bool": true
-      },
-      {
-        "option": "Accomodation reflex",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 66,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of these statements is incorrect regarding sleep disorder?",
     "answers": [
       {
-        "option": "Insomnia - difficulty falling asleep",
+        "option": "Sleep apnea - interrupted breathing while sleeping",
+        "bool": false
+      },
+      {
+        "option": "Nocturia - waking up multiple times in the night to urinate",
         "bool": false
       },
       {
@@ -2767,22 +1799,45 @@
         "bool": false
       },
       {
-        "option": "Sleep apnea - interrupted breathing while sleeping",
+        "option": "Insomnia - difficulty falling asleep",
         "bool": false
       },
       {
         "option": "Nighttime enuresis - voluntary urination during sleep",
         "bool": true
-      },
-      {
-        "option": "Nocturia - waking up multiple times in the night to urinate",
-        "bool": false
       }
     ]
   },
   {
-    "id": 103,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 67,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the other name for flexor reflex?",
+    "answers": [
+      {
+        "option": "Muscle stretch reflex",
+        "bool": false
+      },
+      {
+        "option": "Pupillary reflex",
+        "bool": false
+      },
+      {
+        "option": "Golgi tendon reflex",
+        "bool": false
+      },
+      {
+        "option": "Accomodation reflex",
+        "bool": false
+      },
+      {
+        "option": "Nociceptor/pain reflex",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What does the myogram of a crossed extensor reflex show?",
     "answers": [
       {
@@ -2794,30 +1849,30 @@
         "bool": false
       },
       {
-        "option": "Slow onset and prolonged predischarge",
-        "bool": false
-      },
-      {
         "option": "Slow onset and prolonged afterdischarge",
         "bool": true
       },
       {
         "option": "Slow onset and fast predischarge",
         "bool": false
+      },
+      {
+        "option": "Slow onset and prolonged predischarge",
+        "bool": false
       }
     ]
   },
   {
-    "id": 104,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 69,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is a tract?",
     "answers": [
       {
-        "option": "A bundle of neurons that transmit nerve impulses between the superior and inferior parts of the body",
+        "option": "A bundle of neurons that transmit nerve impulses between the ventral and dorsal parts of the body",
         "bool": false
       },
       {
-        "option": "A bundle of neurons that transmit nerve impulses between the ventral and dorsal parts of the body",
+        "option": "A bundle of neurons that transmit nerve impulses between the superior and inferior parts of the body",
         "bool": false
       },
       {
@@ -2835,20 +1890,16 @@
     ]
   },
   {
-    "id": 105,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 70,
+    "info": "2nd-year/neuroscience/2018",
     "question": "A circuit receives a collateral axon from the output neuron, thus re-stimulating its own dendrites. What is this circuit called?",
     "answers": [
       {
-        "option": "Electrical circuit",
-        "bool": false
-      },
-      {
-        "option": "Relay circuit",
-        "bool": false
-      },
-      {
         "option": "Excitatory circuit",
+        "bool": false
+      },
+      {
+        "option": "Divergence circuit",
         "bool": false
       },
       {
@@ -2856,20 +1907,47 @@
         "bool": true
       },
       {
-        "option": "Divergence circuit",
+        "option": "Electrical circuit",
+        "bool": false
+      },
+      {
+        "option": "Relay circuit",
         "bool": false
       }
     ]
   },
   {
-    "id": 106,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What receptor(s) does scopolamine bind to?",
+    "id": 71,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is a predisposing factor of a saccular aneurysm?",
     "answers": [
       {
-        "option": "Binds irreversibly to nicotinic receptors",
+        "option": "Viral infections",
         "bool": false
       },
+      {
+        "option": "Tumors",
+        "bool": false
+      },
+      {
+        "option": "Infections",
+        "bool": false
+      },
+      {
+        "option": "Bacterial infections",
+        "bool": false
+      },
+      {
+        "option": "Cigarette smoking",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What receptor(s) does scopolamine bind to?",
+    "answers": [
       {
         "option": "Binds reversibly to nicotinic receptors",
         "bool": false
@@ -2883,23 +1961,27 @@
         "bool": true
       },
       {
+        "option": "Binds irreversibly to nicotinic receptors",
+        "bool": false
+      },
+      {
         "option": "Binds irreversibly to both muscarinic and nicotinic receptors",
         "bool": false
       }
     ]
   },
   {
-    "id": 107,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 73,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What drug inhibits the storage of norepinephrine into synaptic vesicles?",
     "answers": [
       {
-        "option": "Reserpine",
-        "bool": true
-      },
-      {
         "option": "Catechol-O-methyl transferase",
         "bool": false
+      },
+      {
+        "option": "Reserpine",
+        "bool": true
       },
       {
         "option": "Guanethidine",
@@ -2916,8 +1998,62 @@
     ]
   },
   {
-    "id": 108,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 74,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Hemisection of the spinal cord will not present with which of the following?",
+    "answers": [
+      {
+        "option": "Ipsilateral loss of all sensations at the level of the lesion",
+        "bool": false
+      },
+      {
+        "option": "Ipsilateral upper motor neuron (UMN) signs at the level of the lesion",
+        "bool": true
+      },
+      {
+        "option": "Contralateral pain and temperature loss below the level of the lesion",
+        "bool": false
+      },
+      {
+        "option": "Ipsilateral loss of dorsal column sensations below the level of the lesion",
+        "bool": false
+      },
+      {
+        "option": "Ipsilateral upper motor neuron (UMN) signs below the level of the lesion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Hemisection of the spinal cord produces motor loss on the same side of the body as the lesion. Where does the loss of two-point discrimination occur?",
+    "answers": [
+      {
+        "option": "Upper limbs only",
+        "bool": false
+      },
+      {
+        "option": "Ipsilateral side below the lesion",
+        "bool": true
+      },
+      {
+        "option": "No sensory loss occurs",
+        "bool": false
+      },
+      {
+        "option": "Ipsilateral side of the face, contralateral side of the trunk",
+        "bool": false
+      },
+      {
+        "option": "Contralateral side at the level of the lesion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following infections causes tabes dorsalis?",
     "answers": [
       {
@@ -2943,20 +2079,47 @@
     ]
   },
   {
-    "id": 109,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 77,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these is not an opioid receptor?",
+    "answers": [
+      {
+        "option": "Zeta",
+        "bool": false
+      },
+      {
+        "option": "μ",
+        "bool": false
+      },
+      {
+        "option": "Alpha",
+        "bool": true
+      },
+      {
+        "option": "κ",
+        "bool": false
+      },
+      {
+        "option": "δ",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Regarding myelin sheath around axons, what is correct?",
     "answers": [
       {
-        "option": "Starts developing in fetal life and continues till one year",
-        "bool": true
+        "option": "Neurons in peripheral nervous system is myelinated by oligodendrocytes",
+        "bool": false
       },
       {
         "option": "Nodes of ranvier are not present in CNS",
         "bool": false
       },
       {
-        "option": "Neurons in peripheral nervous system is myelinated by oligodendrocytes",
+        "option": "Formed by astrocytes in brain",
         "bool": false
       },
       {
@@ -2964,18 +2127,18 @@
         "bool": false
       },
       {
-        "option": "Formed by astrocytes in brain",
-        "bool": false
+        "option": "Starts developing in fetal life and continues till one year",
+        "bool": true
       }
     ]
   },
   {
-    "id": 110,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 79,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Where are the cell bodies of postganglionic neurons of parasympathetic fibers located?",
     "answers": [
       {
-        "option": "Sympathetic trunk",
+        "option": "Autonomic ganglia in abdomen",
         "bool": false
       },
       {
@@ -2987,7 +2150,7 @@
         "bool": false
       },
       {
-        "option": "Autonomic ganglia in abdomen",
+        "option": "Sympathetic trunk",
         "bool": false
       },
       {
@@ -2997,35 +2160,35 @@
     ]
   },
   {
-    "id": 111,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 80,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following structures hold the spinal cord in place?",
     "answers": [
-      {
-        "option": "Cauda equina and conus medullaris",
-        "bool": false
-      },
       {
         "option": "Denticulate ligaments and conus medullaris",
         "bool": false
       },
       {
-        "option": "Denticulate ligaments and filum terminale",
-        "bool": true
+        "option": "Cauda equina and conus medullaris",
+        "bool": false
+      },
+      {
+        "option": "Denticulate ligaments and cauda equina",
+        "bool": false
       },
       {
         "option": "Filum terminale and conus medullaris",
         "bool": false
       },
       {
-        "option": "Denticulate ligaments and cauda equina",
-        "bool": false
+        "option": "Denticulate ligaments and filum terminale",
+        "bool": true
       }
     ]
   },
   {
-    "id": 112,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 81,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the pain radiating to the shoulder due to myocardial infarction called?",
     "answers": [
       {
@@ -3037,7 +2200,7 @@
         "bool": true
       },
       {
-        "option": "Fast pain",
+        "option": "Chronic pain",
         "bool": false
       },
       {
@@ -3045,43 +2208,182 @@
         "bool": false
       },
       {
-        "option": "Chronic pain",
+        "option": "Fast pain",
         "bool": false
       }
     ]
   },
   {
-    "id": 113,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the rate limiting enzyme in serotonin synthesis?",
+    "id": 82,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Morphine is used for relief from which of the following?",
     "answers": [
       {
-        "option": "Mono amine oxidase",
+        "option": "Pain in limbs",
         "bool": false
       },
       {
-        "option": "Tryptophan hydroxylase",
+        "option": "Pain in kidney",
+        "bool": false
+      },
+      {
+        "option": "Referred pain",
+        "bool": false
+      },
+      {
+        "option": "Chest pain",
         "bool": true
       },
       {
-        "option": "5-hydroxy tryptophane decarboxylase",
-        "bool": false
-      },
-      {
-        "option": "Aldehyde dehydrogenase",
-        "bool": false
-      },
-      {
-        "option": "Dopa decarboxylase",
+        "option": "Migraine",
         "bool": false
       }
     ]
   },
   {
-    "id": 114,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 83,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which is the correct sequence of components of a reflex arc?",
+    "answers": [
+      {
+        "option": "Sensory neuron ➜ receptor ➜ association ➜ effector ➜ motor neuron",
+        "bool": false
+      },
+      {
+        "option": "Sensory neuron ➜ receptor ➜ association ➜ Sensory neuron ➜ effector",
+        "bool": false
+      },
+      {
+        "option": "Sensory neuron ➜ receptor ➜ association ➜ motor neuron ➜ effector",
+        "bool": false
+      },
+      {
+        "option": "Receptor ➜ sensory neuron ➜ motor neuron ➜ association ➜ effector",
+        "bool": false
+      },
+      {
+        "option": "Receptor ➜ sensory neuron ➜ association ➜ motor neuron ➜ effector",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What are the phagocytotic cells of the central nervous system?",
+    "answers": [
+      {
+        "option": "Astrocytes",
+        "bool": false
+      },
+      {
+        "option": "Ependymal cells",
+        "bool": false
+      },
+      {
+        "option": "Oligodendrocytes",
+        "bool": false
+      },
+      {
+        "option": "Microglial cells",
+        "bool": true
+      },
+      {
+        "option": "Satellite cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Damage to which of the following results in the loss of pain sensation?",
+    "answers": [
+      {
+        "option": "Dorsal column medial lemniscal pathway",
+        "bool": false
+      },
+      {
+        "option": "Corticospinal tract",
+        "bool": false
+      },
+      {
+        "option": "Cuneocerebellar tract",
+        "bool": false
+      },
+      {
+        "option": "Lateral spinothalamic tract",
+        "bool": true
+      },
+      {
+        "option": "Anterior spinothalamic tract",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Light touch sensations are lost when which of the following is damaged?",
+    "answers": [
+      {
+        "option": "Cuneocerebellar tract",
+        "bool": false
+      },
+      {
+        "option": "Dorsal column medial lemniscus pathway",
+        "bool": false
+      },
+      {
+        "option": "Anterior spinothalamic tract",
+        "bool": true
+      },
+      {
+        "option": "Rubrospinal tract",
+        "bool": false
+      },
+      {
+        "option": "Lateral spinothalamic tract",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Pyramids in the medulla are formed by which of the following fibers?",
+    "answers": [
+      {
+        "option": "Corticospinal fibers",
+        "bool": true
+      },
+      {
+        "option": "Corticobulbar fibers",
+        "bool": false
+      },
+      {
+        "option": "Vestibulospinal fibers",
+        "bool": false
+      },
+      {
+        "option": "Corticopontine fibers",
+        "bool": false
+      },
+      {
+        "option": "Rubrospinal fibers",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Histamine is synthesized from which of the following?",
     "answers": [
+      {
+        "option": "Valine",
+        "bool": false
+      },
       {
         "option": "Proline",
         "bool": false
@@ -3089,10 +2391,6 @@
       {
         "option": "Histidine",
         "bool": true
-      },
-      {
-        "option": "Valine",
-        "bool": false
       },
       {
         "option": "Methionine",
@@ -3105,37 +2403,14 @@
     ]
   },
   {
-    "id": 115,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which is the correct sequence of components of a reflex arc?",
-    "answers": [
-      {
-        "option": "Receptor \u279c sensory neuron \u279c motor neuron \u279c association \u279c effector",
-        "bool": false
-      },
-      {
-        "option": "Sensory neuron \u279c receptor \u279c association \u279c effector \u279c motor neuron",
-        "bool": false
-      },
-      {
-        "option": "Sensory neuron \u279c receptor \u279c association \u279c Sensory neuron \u279c effector",
-        "bool": false
-      },
-      {
-        "option": "Receptor \u279c sensory neuron \u279c association \u279c motor neuron \u279c effector",
-        "bool": true
-      },
-      {
-        "option": "Sensory neuron \u279c receptor \u279c association \u279c motor neuron \u279c effector",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 89,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following tests is most suitable for the diagnosis of spinal cord lesions?",
     "answers": [
+      {
+        "option": "Computed tomography scan",
+        "bool": false
+      },
       {
         "option": "X-ray",
         "bool": false
@@ -3145,26 +2420,26 @@
         "bool": true
       },
       {
-        "option": "Electroencephalography (EEG)",
-        "bool": false
-      },
-      {
         "option": "Complete blood count (CBC) report",
         "bool": false
       },
       {
-        "option": "Computed tomography scan",
+        "option": "Electroencephalography (EEG)",
         "bool": false
       }
     ]
   },
   {
-    "id": 117,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 90,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following arteries supply blood to the spinal cord?",
     "answers": [
       {
-        "option": "Posterior spinal artery, branch of the basilar artery",
+        "option": "Anterior and posterior spinal artery, branches of the ascending spinal artery",
+        "bool": false
+      },
+      {
+        "option": "Anterior and posterior spinal artery, branch of the basilar artery",
         "bool": false
       },
       {
@@ -3172,22 +2447,72 @@
         "bool": false
       },
       {
-        "option": "Anterior and posterior spinal artery, branches of the ascending spinal artery",
-        "bool": false
-      },
-      {
         "option": "Anterior spinal artery, branch of the vertebral artery",
         "bool": true
       },
       {
-        "option": "Anterior and posterior spinal artery, branch of the basilar artery",
+        "option": "Posterior spinal artery, branch of the basilar artery",
         "bool": false
       }
     ]
   },
   {
-    "id": 118,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 91,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is dopamine synthesized from?",
+    "answers": [
+      {
+        "option": "Tyrosine",
+        "bool": true
+      },
+      {
+        "option": "Tryptophan",
+        "bool": false
+      },
+      {
+        "option": "Glycine",
+        "bool": false
+      },
+      {
+        "option": "Glutamate",
+        "bool": false
+      },
+      {
+        "option": "Phenylalanine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the rate limiting enzyme in serotonin synthesis?",
+    "answers": [
+      {
+        "option": "Dopa decarboxylase",
+        "bool": false
+      },
+      {
+        "option": "Mono amine oxidase",
+        "bool": false
+      },
+      {
+        "option": "5-hydroxy tryptophane decarboxylase",
+        "bool": false
+      },
+      {
+        "option": "Tryptophan hydroxylase",
+        "bool": true
+      },
+      {
+        "option": "Aldehyde dehydrogenase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following arteries do not contribute to the blood supply of midbrain?",
     "answers": [
       {
@@ -3199,26 +2524,26 @@
         "bool": false
       },
       {
-        "option": "Posterior choroidal artery",
-        "bool": false
-      },
-      {
         "option": "Middle cerebral artery",
         "bool": true
       },
       {
         "option": "Posterior cerebral artery and its peduncular branch",
         "bool": false
+      },
+      {
+        "option": "Posterior choroidal artery",
+        "bool": false
       }
     ]
   },
   {
-    "id": 119,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 94,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Pontocerebellar fibers continue as which of the following?",
     "answers": [
       {
-        "option": "Inferior cerebellar peduncle",
+        "option": "Tegmentum",
         "bool": false
       },
       {
@@ -3226,7 +2551,7 @@
         "bool": true
       },
       {
-        "option": "Tegmentum",
+        "option": "Crus Cerebri",
         "bool": false
       },
       {
@@ -3234,14 +2559,122 @@
         "bool": false
       },
       {
-        "option": "Crus Cerebri",
+        "option": "Inferior cerebellar peduncle",
         "bool": false
       }
     ]
   },
   {
-    "id": 120,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 95,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is an appropriate statement regarding medulla oblongata?",
+    "answers": [
+      {
+        "option": "Olives are present medial to the pyramids",
+        "bool": false
+      },
+      {
+        "option": "Cuneate tubercle is medial to gracile tubercle",
+        "bool": false
+      },
+      {
+        "option": "Houses principal nucleus of trigeminal nerve",
+        "bool": false
+      },
+      {
+        "option": "Middle cerebellar peduncle connects medulla to the cerebellum",
+        "bool": false
+      },
+      {
+        "option": "Cuneate tubercle is lateral to gracile tubercle",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Where is the pneumotaxic center located?",
+    "answers": [
+      {
+        "option": "Midbrain",
+        "bool": false
+      },
+      {
+        "option": "Pons",
+        "bool": true
+      },
+      {
+        "option": "Lower medulla",
+        "bool": false
+      },
+      {
+        "option": "Upper medulla",
+        "bool": false
+      },
+      {
+        "option": "Cerebellum",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is the most appropriate statement regarding pons?",
+    "answers": [
+      {
+        "option": "Fibers of the facial nerve wrap around the nucleus of the trochlear nerve, forming the facial colliculus",
+        "bool": false
+      },
+      {
+        "option": "The fibers from the motor nucleus of the trigeminal nerve exit the pons posteriorly",
+        "bool": false
+      },
+      {
+        "option": "The trapezoid body is made of fibers from the cochlear nuclei and the nuclei of the trapezoid body",
+        "bool": true
+      },
+      {
+        "option": "The vestibular area lies medial to the sulcus limitans",
+        "bool": false
+      },
+      {
+        "option": "The motor nucleus of the trigeminal nerve lies lateral to the sensory nucleus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which one of the following nerves is not present at the lateral wall of the cavernous sinus?",
+    "answers": [
+      {
+        "option": "Maxillary nerve",
+        "bool": false
+      },
+      {
+        "option": "Ophthalmic nerve",
+        "bool": false
+      },
+      {
+        "option": "3rd cranial nerve",
+        "bool": false
+      },
+      {
+        "option": "4th cranial nerve",
+        "bool": false
+      },
+      {
+        "option": "6th cranial nerve",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following is incorrect regarding the functions of medulla oblongata?",
     "answers": [
       {
@@ -3253,134 +2686,80 @@
         "bool": false
       },
       {
+        "option": "Unconscious control of breathing",
+        "bool": false
+      },
+      {
         "option": "Passing information between brain and spinal cord",
         "bool": false
       },
       {
         "option": "Regulation of heartbeat",
         "bool": false
-      },
-      {
-        "option": "Unconscious control of breathing",
-        "bool": false
       }
     ]
   },
   {
-    "id": 121,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is an appropriate statement regarding medulla oblongata?",
+    "id": 100,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which one of the following is formed by cells in the alar plate?",
     "answers": [
       {
-        "option": "Houses principal nucleus of trigeminal nerve",
-        "bool": false
-      },
-      {
-        "option": "Cuneate tubercle is lateral to gracile tubercle",
+        "option": "Posterior gray horn",
         "bool": true
       },
       {
-        "option": "Cuneate tubercle is medial to gracile tubercle",
+        "option": "Anterior gray horn",
         "bool": false
       },
       {
-        "option": "Middle cerebellar peduncle connects medulla to the cerebellum",
+        "option": "Motor neurons",
         "bool": false
       },
       {
-        "option": "Olives are present medial to the pyramids",
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Autonomic ganglia",
         "bool": false
       }
     ]
   },
   {
-    "id": 122,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following nerves is present on the lateral wall of the cavernous sinus?",
+    "id": 101,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Cardiac and vasomotor centers are located in which of the following structures of the central nervous system?",
     "answers": [
       {
-        "option": "Mandibular nerve",
+        "option": "Thalamus",
         "bool": false
       },
       {
-        "option": "Occulomotor nerve",
+        "option": "Medulla",
         "bool": true
       },
-      {
-        "option": "Olfactory nerve",
-        "bool": false
-      },
-      {
-        "option": "Optic nerve",
-        "bool": false
-      },
-      {
-        "option": "Abducens nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is the most appropriate statement regarding pons?",
-    "answers": [
-      {
-        "option": "The fibers from the motor nucleus of the trigeminal nerve exit the pons posteriorly",
-        "bool": false
-      },
-      {
-        "option": "Fibers of the facial nerve wrap around the nucleus of the trochlear nerve, forming the facial colliculus",
-        "bool": false
-      },
-      {
-        "option": "The motor nucleus of the trigeminal nerve lies lateral to the sensory nucleus",
-        "bool": false
-      },
-      {
-        "option": "The trapezoid body is made of fibers from the cochlear nuclei and the nuclei of the trapezoid body",
-        "bool": true
-      },
-      {
-        "option": "The vestibular area lies medial to the sulcus limitans",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Where is the pneumotaxic center located?",
-    "answers": [
       {
         "option": "Cerebellum",
         "bool": false
       },
       {
-        "option": "Midbrain",
-        "bool": false
-      },
-      {
-        "option": "Lower medulla",
+        "option": "Hypothalamus",
         "bool": false
       },
       {
         "option": "Pons",
-        "bool": true
-      },
-      {
-        "option": "Upper medulla",
         "bool": false
       }
     ]
   },
   {
-    "id": 125,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 102,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following is involved in waking up the cerebral cortex?",
     "answers": [
       {
-        "option": "Pons",
+        "option": "Nucleus ambiguous",
         "bool": false
       },
       {
@@ -3388,27 +2767,27 @@
         "bool": false
       },
       {
-        "option": "Substantia nigra",
-        "bool": false
-      },
-      {
-        "option": "Nucleus ambiguous",
-        "bool": false
-      },
-      {
         "option": "Reticular formation",
         "bool": true
+      },
+      {
+        "option": "Pons",
+        "bool": false
+      },
+      {
+        "option": "Substantia nigra",
+        "bool": false
       }
     ]
   },
   {
-    "id": 126,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 103,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which structure does not pass through the foramen magnum of the skull?",
     "answers": [
       {
-        "option": "Medulla oblongata",
-        "bool": false
+        "option": "Vertebral veins",
+        "bool": true
       },
       {
         "option": "Spinal root of XI cranial nerve",
@@ -3423,22 +2802,49 @@
         "bool": false
       },
       {
-        "option": "Vertebral veins",
-        "bool": true
+        "option": "Medulla oblongata",
+        "bool": false
       }
     ]
   },
   {
-    "id": 127,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following separates crus cerebri from tegmentum?",
+    "id": 104,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following does not form the roof of the inferior horn of the lateral ventricle?",
     "answers": [
       {
-        "option": "Locus coeruleus",
+        "option": "Tapetum of corpus callosum",
         "bool": false
       },
       {
+        "option": "Amygdala",
+        "bool": false
+      },
+      {
+        "option": "Pes hippocampus",
+        "bool": true
+      },
+      {
+        "option": "Stria terminalis",
+        "bool": false
+      },
+      {
+        "option": "Tail of caudate nucleus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following separates crus cerebri from tegmentum?",
+    "answers": [
+      {
         "option": "Trapezoid body",
+        "bool": false
+      },
+      {
+        "option": "Pontine nuclei",
         "bool": false
       },
       {
@@ -3446,7 +2852,7 @@
         "bool": true
       },
       {
-        "option": "Pontine nuclei",
+        "option": "Locus coeruleus",
         "bool": false
       },
       {
@@ -3456,20 +2862,20 @@
     ]
   },
   {
-    "id": 128,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "A boy is trying to shoot a basketball. Which area in his brain will be assisting in bringing about this complex pattern of motor activity?",
+    "id": 106,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Where is the sensory nucleus of the trigeminal nerve present?",
     "answers": [
       {
-        "option": "Cerebellum",
+        "option": "C5 spinal level",
         "bool": false
       },
       {
-        "option": "Globus pallidus",
+        "option": "Pons",
         "bool": true
       },
       {
-        "option": "Pons",
+        "option": "Thalamus",
         "bool": false
       },
       {
@@ -3483,18 +2889,91 @@
     ]
   },
   {
-    "id": 129,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is inappropriate regarding Sydenham's chorea?",
+    "id": 107,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "A boy is trying to shoot a basketball. Which area in his brain will be assisting in bringing about this complex pattern of motor activity?",
     "answers": [
       {
-        "option": "It is a complication of rheumatic fever",
+        "option": "Globus pallidus",
+        "bool": true
+      },
+      {
+        "option": "Medulla",
         "bool": false
       },
       {
-        "option": "It is accompanied by muscular hypertonia",
+        "option": "Pons",
+        "bool": false
+      },
+      {
+        "option": "Cerebellum",
+        "bool": false
+      },
+      {
+        "option": "Midbrain",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "The human reticular system has which of the following features?",
+    "answers": [
+      {
+        "option": "Locus coeruleus secretes dopamine and epinephrine",
+        "bool": false
+      },
+      {
+        "option": "The reticular inhibitory area is located in the pons",
+        "bool": false
+      },
+      {
+        "option": "The raphe nuclei are large nuclei situated in the lateral portion of the medulla and cerebellum",
+        "bool": false
+      },
+      {
+        "option": "Has connections with the basal nuclei",
         "bool": true
       },
+      {
+        "option": "Do not have an association with the limbic system",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following structures is present at the level of the oculomotor nerve nucleus?",
+    "answers": [
+      {
+        "option": "Superior colliculus",
+        "bool": true
+      },
+      {
+        "option": "Lateral lemniscus",
+        "bool": false
+      },
+      {
+        "option": "Superior cerebellar peduncles",
+        "bool": false
+      },
+      {
+        "option": "Inferior colliculus",
+        "bool": false
+      },
+      {
+        "option": "Inferior olivary nucleus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is inappropriate regarding Sydenham's chorea?",
+    "answers": [
       {
         "option": "Patient usually recovers spontaneously in 1 to 4 months",
         "bool": false
@@ -3506,97 +2985,24 @@
       {
         "option": "It is characterized by fine, disorganized and random movements of extremities, face and tongue",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 130,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of the following is appropriate regarding the blood supply of the brain?",
-    "answers": [
-      {
-        "option": "The internal carotid artery has no branches other than cerebral arteries",
-        "bool": false
       },
       {
-        "option": "The posterior inferior cerebellar artery is a branch of the basilar artery",
-        "bool": false
-      },
-      {
-        "option": "The visual cortex is supplied by the posterior cerebral artery",
+        "option": "It is accompanied by muscular hypertonia",
         "bool": true
       },
       {
-        "option": "The internal capsule is supplied by the lenticulostriate arteries, branches of the anterior cerebral artery",
-        "bool": false
-      },
-      {
-        "option": "The anterior cerebral artery occlusion may lead to aphasia if the left hemisphere is affected",
+        "option": "It is a complication of rheumatic fever",
         "bool": false
       }
     ]
   },
   {
-    "id": 131,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "A tumor of the pituitary gland exerting pressure on the optic chiasm would result in which of the following?",
-    "answers": [
-      {
-        "option": "Left nasal hemianopia",
-        "bool": false
-      },
-      {
-        "option": "Left-sided circumferential blindness",
-        "bool": false
-      },
-      {
-        "option": "Bitemporal hemianopia",
-        "bool": true
-      },
-      {
-        "option": "Contralateral homonymous hemianopia",
-        "bool": false
-      },
-      {
-        "option": "Total blindness",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 132,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "The human reticular system has which of the following features?",
-    "answers": [
-      {
-        "option": "The raphe nuclei are large nuclei situated in the lateral portion of the medulla and cerebellum",
-        "bool": false
-      },
-      {
-        "option": "Locus coeruleus secretes dopamine and epinephrine",
-        "bool": false
-      },
-      {
-        "option": "Do not have an association with the limbic system",
-        "bool": false
-      },
-      {
-        "option": "The reticular inhibitory area is located in the pons",
-        "bool": false
-      },
-      {
-        "option": "Has connections with the basal nuclei",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 133,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 111,
+    "info": "2nd-year/neuroscience/2018",
     "question": "The superior cerebral veins drain into which of the following?",
     "answers": [
       {
-        "option": "Carotid sinus",
+        "option": "Diploic veins",
         "bool": false
       },
       {
@@ -3604,11 +3010,11 @@
         "bool": false
       },
       {
-        "option": "Inferior sagittal sinus",
+        "option": "Carotid sinus",
         "bool": false
       },
       {
-        "option": "Diploic veins",
+        "option": "Inferior sagittal sinus",
         "bool": false
       },
       {
@@ -3618,8 +3024,62 @@
     ]
   },
   {
-    "id": 134,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 112,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Facial colliculus is formed by which of the following structures?",
+    "answers": [
+      {
+        "option": "Abducens nerve as it loops over facial nucleus",
+        "bool": false
+      },
+      {
+        "option": "Trochlear nerve as it loops over facial nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve as it loops over principal nucleus of trigeminal nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve as it loops over hypoglossal nucleus",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve as it loops over the abducens nucleus",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is appropriate regarding the blood supply of the brain?",
+    "answers": [
+      {
+        "option": "The internal capsule is supplied by the lenticulostriate arteries, branches of the anterior cerebral artery",
+        "bool": false
+      },
+      {
+        "option": "The anterior cerebral artery occlusion may lead to aphasia if the left hemisphere is affected",
+        "bool": false
+      },
+      {
+        "option": "The posterior inferior cerebellar artery is a branch of the basilar artery",
+        "bool": false
+      },
+      {
+        "option": "The internal carotid artery has no branches other than cerebral arteries",
+        "bool": false
+      },
+      {
+        "option": "The visual cortex is supplied by the posterior cerebral artery",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which structure lies posterior to the olives?",
     "answers": [
       {
@@ -3635,47 +3095,51 @@
         "bool": false
       },
       {
-        "option": "Middle cerebellar peduncle",
-        "bool": false
-      },
-      {
         "option": "Inferior cerebellar peduncle",
         "bool": true
+      },
+      {
+        "option": "Middle cerebellar peduncle",
+        "bool": false
       }
     ]
   },
   {
-    "id": 135,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which dural venous sinus is located on the floor of the middle cranial fossa at the side of the sphenoid bone?",
+    "id": 115,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following nerves is present on the lateral wall of the cavernous sinus?",
     "answers": [
       {
-        "option": "Sigmoid",
+        "option": "Optic nerve",
         "bool": false
       },
       {
-        "option": "Straight",
-        "bool": false
-      },
-      {
-        "option": "Occipital",
-        "bool": false
-      },
-      {
-        "option": "Cavernous",
+        "option": "Occulomotor nerve",
         "bool": true
       },
       {
-        "option": "Superior petrosal",
+        "option": "Mandibular nerve",
+        "bool": false
+      },
+      {
+        "option": "Olfactory nerve",
+        "bool": false
+      },
+      {
+        "option": "Abducens nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 136,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 116,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Damage to which nucleus presents as loss of touch sensations on the face?",
     "answers": [
+      {
+        "option": "Motor nucleus of trigeminal nerve",
+        "bool": false
+      },
       {
         "option": "Nucleus of facial nerve",
         "bool": false
@@ -3685,34 +3149,26 @@
         "bool": false
       },
       {
-        "option": "Sensory nucleus of trigeminal nerve",
-        "bool": true
-      },
-      {
-        "option": "Motor nucleus of trigeminal nerve",
-        "bool": false
-      },
-      {
         "option": "Nucleus of hypoglossal nerve",
         "bool": false
+      },
+      {
+        "option": "Sensory nucleus of trigeminal nerve",
+        "bool": true
       }
     ]
   },
   {
-    "id": 137,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 117,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the rate limiting enzyme of dopamine synthesis?",
     "answers": [
       {
-        "option": "Dopamine beta-hydroxylase",
-        "bool": false
-      },
-      {
-        "option": "Monoamine oxidase",
-        "bool": false
-      },
-      {
         "option": "Aromatic l-amino acid decarboxylase",
+        "bool": false
+      },
+      {
+        "option": "Dopamine beta-hydroxylase",
         "bool": false
       },
       {
@@ -3722,16 +3178,78 @@
       {
         "option": "Catechol-O-methyltransferase",
         "bool": false
+      },
+      {
+        "option": "Monoamine oxidase",
+        "bool": false
       }
     ]
   },
   {
-    "id": 138,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 118,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which artery is not part of the circle of Willis?",
+    "answers": [
+      {
+        "option": "Anterior cerebral artery",
+        "bool": false
+      },
+      {
+        "option": "Posterior communicating artery",
+        "bool": false
+      },
+      {
+        "option": "Middle cerebral artery",
+        "bool": false
+      },
+      {
+        "option": "Anterior communicating artery",
+        "bool": false
+      },
+      {
+        "option": "Superior cerebellar artery",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which dural venous sinus is located on the floor of the middle cranial fossa at the side of the sphenoid bone?",
+    "answers": [
+      {
+        "option": "Sigmoid",
+        "bool": false
+      },
+      {
+        "option": "Cavernous",
+        "bool": true
+      },
+      {
+        "option": "Superior petrosal",
+        "bool": false
+      },
+      {
+        "option": "Straight",
+        "bool": false
+      },
+      {
+        "option": "Occipital",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the effect of dopamine?",
     "answers": [
       {
-        "option": "Inhibitory at D1 and D2 receptors",
+        "option": "Inhibitory at D1 receptor",
+        "bool": false
+      },
+      {
+        "option": "Excitatory at D2 receptor, inhibitory at D1 receptor",
         "bool": false
       },
       {
@@ -3739,30 +3257,22 @@
         "bool": true
       },
       {
-        "option": "Inhibitory at D1 receptor",
-        "bool": false
-      },
-      {
         "option": "Excitatory at D1 and D2 receptors",
         "bool": false
       },
       {
-        "option": "Excitatory at D2 receptor, inhibitory at D1 receptor",
+        "option": "Inhibitory at D1 and D2 receptors",
         "bool": false
       }
     ]
   },
   {
-    "id": 139,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 121,
+    "info": "2nd-year/neuroscience/2018",
     "question": "A person presents to the clinic and has difficulty in balancing and has slurred speech. The lesion is present in which of the following?",
     "answers": [
       {
-        "option": "Cerebellum",
-        "bool": true
-      },
-      {
-        "option": "Cerebrum",
+        "option": "Medulla",
         "bool": false
       },
       {
@@ -3770,72 +3280,49 @@
         "bool": false
       },
       {
+        "option": "Cerebellum",
+        "bool": true
+      },
+      {
         "option": "Pons",
         "bool": false
       },
       {
-        "option": "Medulla",
+        "option": "Cerebrum",
         "bool": false
       }
     ]
   },
   {
-    "id": 140,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What does acetylcholinesterase break acetylcholine into?",
+    "id": 122,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which sinus does not drain at the occipital confluence?",
     "answers": [
       {
-        "option": "Amino acid and chlorine",
+        "option": "Superior sagittal sinus",
         "bool": false
       },
       {
-        "option": "Amino acid and choline",
+        "option": "Occipital sinus",
         "bool": false
       },
       {
-        "option": "Acetic acid and chlorine",
+        "option": "Straight sinus",
         "bool": false
       },
       {
-        "option": "Acetaminophen and glucose",
+        "option": "Transverse sinus",
         "bool": false
       },
       {
-        "option": "Acetic acid and choline",
+        "option": "Inferior petrosal sinus",
         "bool": true
       }
     ]
   },
   {
-    "id": 141,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Regarding serotonin, which of these is the best statement?",
-    "answers": [
-      {
-        "option": "Almost all of the serotonin in the body is stored in platelets",
-        "bool": false
-      },
-      {
-        "option": "It is synthesized from tyrosine",
-        "bool": false
-      },
-      {
-        "option": "It does not play a role in pain perception",
-        "bool": false
-      },
-      {
-        "option": "Serotonin is also called 6-HT",
-        "bool": false
-      },
-      {
-        "option": "It causes a feeling of happiness and well-being",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 142,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 123,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which enzyme converts serotonin to 5-hydroxy-3-indoleacetic acid (5-HIAA)?",
     "answers": [
       {
@@ -3843,11 +3330,11 @@
         "bool": true
       },
       {
-        "option": "Catechol-O-methyl transferase",
+        "option": "Hydroxylase",
         "bool": false
       },
       {
-        "option": "Hydroxylase",
+        "option": "Catechol-O-methyl transferase",
         "bool": false
       },
       {
@@ -3861,25 +3348,160 @@
     ]
   },
   {
-    "id": 143,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these statements regarding acetylcholine is correct?",
+    "id": 124,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What does acetylcholinesterase break acetylcholine into?",
     "answers": [
       {
-        "option": "It is not recycled",
+        "option": "Amino acid and choline",
         "bool": false
       },
       {
+        "option": "Acetic acid and chlorine",
+        "bool": false
+      },
+      {
+        "option": "Amino acid and chlorine",
+        "bool": false
+      },
+      {
+        "option": "Acetaminophen and glucose",
+        "bool": false
+      },
+      {
+        "option": "Acetic acid and choline",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Regarding serotonin, which of these is the best statement?",
+    "answers": [
+      {
+        "option": "Almost all of the serotonin in the body is stored in platelets",
+        "bool": false
+      },
+      {
+        "option": "Serotonin is also called 6-HT",
+        "bool": false
+      },
+      {
+        "option": "It causes a feeling of happiness and well-being",
+        "bool": true
+      },
+      {
+        "option": "It does not play a role in pain perception",
+        "bool": false
+      },
+      {
+        "option": "It is synthesized from tyrosine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which receptors work via activation of adenyl cyclase and an increase in intracellular cAMP?",
+    "answers": [
+      {
+        "option": "Beta 1 adrenergic receptors",
+        "bool": true
+      },
+      {
+        "option": "Muscarinic receptors",
+        "bool": false
+      },
+      {
+        "option": "Alpha 2 adrenergic receptors",
+        "bool": false
+      },
+      {
+        "option": "Nicotinic receptors",
+        "bool": false
+      },
+      {
+        "option": "Alpha 1 adrenergic receptors",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which peripheral nerve is myelinated by oligodendrocytes?",
+    "answers": [
+      {
+        "option": "Hypoglossal nerve",
+        "bool": false
+      },
+      {
+        "option": "Abducens nerve",
+        "bool": false
+      },
+      {
+        "option": "Optic nerve",
+        "bool": true
+      },
+      {
+        "option": "Accessory nerve",
+        "bool": false
+      },
+      {
+        "option": "Ophthalmic nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these is the best statement regarding bio-molecules?",
+    "answers": [
+      {
+        "option": "Serotonin and dopamine are synthesized from the same precursor",
+        "bool": false
+      },
+      {
+        "option": "Serotonin causes migraines",
+        "bool": false
+      },
+      {
+        "option": "Dopamine is used to treat hypotension",
+        "bool": true
+      },
+      {
+        "option": "Serotonin is used to treat hypercoagulability",
+        "bool": false
+      },
+      {
+        "option": "Dopamine is used in psychiatric disorders",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these statements regarding acetylcholine is correct?",
+    "answers": [
+      {
         "option": "It is made by chlorine-acetyl transferase",
         "bool": false
+      },
+      {
+        "option": "It is broken down by acetylcholinesterase",
+        "bool": true
       },
       {
         "option": "It is not released by presynaptic neurons",
         "bool": false
       },
       {
-        "option": "It is broken down by acetylcholinesterase",
-        "bool": true
+        "option": "It is not recycled",
+        "bool": false
       },
       {
         "option": "It is a carbohydrate",
@@ -3888,91 +3510,95 @@
     ]
   },
   {
-    "id": 144,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these is the best statement regarding bio-molecules?",
+    "id": 130,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following are the only climbing fibers in the cerebellum?",
     "answers": [
       {
-        "option": "Serotonin is used to treat hypercoagulability",
-        "bool": false
-      },
-      {
-        "option": "Serotonin causes migraines",
-        "bool": false
-      },
-      {
-        "option": "Dopamine is used in psychiatric disorders",
-        "bool": false
-      },
-      {
-        "option": "Serotonin and dopamine are synthesized from the same precursor",
-        "bool": false
-      },
-      {
-        "option": "Dopamine is used to treat hypotension",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the best statement regarding the role of biomolecules in various diseases?",
-    "answers": [
-      {
-        "option": "Norepinephrine controls normal sleep and eating patterns",
-        "bool": false
-      },
-      {
-        "option": "The neurotransmitter involved in controlling mood and behavior is acetylcholine",
-        "bool": false
-      },
-      {
-        "option": "Selective serotonin reuptake inhibitors aggravate depression",
-        "bool": false
-      },
-      {
-        "option": "Dopamine deficiency can present as a psychiatric disorder",
+        "option": "Olivocerebellar fibers",
         "bool": true
       },
       {
-        "option": "There should be a balance between serotonin and dopamine in the basal ganglia in order to maintain control of body movements",
+        "option": "Rubrocerebellar fibers",
+        "bool": false
+      },
+      {
+        "option": "Cuneocerebellar fibers",
+        "bool": false
+      },
+      {
+        "option": "Reticulocerebellar fibers",
+        "bool": false
+      },
+      {
+        "option": "Pontocerebellar fibers",
         "bool": false
       }
     ]
   },
   {
-    "id": 146,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which receptors work via activation of adenyl cyclase and an increase in intracellular cAMP?",
+    "id": 131,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is a precursor of epinephrine?",
     "answers": [
       {
-        "option": "Nicotinic receptors",
+        "option": "Lysine",
         "bool": false
       },
       {
-        "option": "Muscarinic receptors",
+        "option": "Monoamine oxidase",
         "bool": false
       },
       {
-        "option": "Alpha 1 adrenergic receptors",
+        "option": "Serotonin",
         "bool": false
       },
       {
-        "option": "Alpha 2 adrenergic receptors",
-        "bool": false
-      },
-      {
-        "option": "Beta 1 adrenergic receptors",
+        "option": "Norepinephrine",
         "bool": true
+      },
+      {
+        "option": "Histamine",
+        "bool": false
       }
     ]
   },
   {
-    "id": 147,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 132,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "In what form does the brain mainly utilize energy?",
+    "answers": [
+      {
+        "option": "Heat",
+        "bool": false
+      },
+      {
+        "option": "DNA",
+        "bool": false
+      },
+      {
+        "option": "Fats",
+        "bool": false
+      },
+      {
+        "option": "Glucose",
+        "bool": true
+      },
+      {
+        "option": "Proteins",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the functional unit of a cerebellar hemisphere?",
     "answers": [
+      {
+        "option": "Purkinje and golgi cells",
+        "bool": false
+      },
       {
         "option": "Pyramidal and granular cells",
         "bool": false
@@ -3982,27 +3608,31 @@
         "bool": false
       },
       {
-        "option": "Purkinje and granular cells",
-        "bool": false
-      },
-      {
-        "option": "Purkinje and golgi cells",
-        "bool": false
-      },
-      {
         "option": "Purkinje cell and deep cerebellar nuclei",
         "bool": true
+      },
+      {
+        "option": "Purkinje and granular cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 148,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 134,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which is the best statement regarding vitamin A?",
     "answers": [
       {
+        "option": "Its deficiency leads to beriberi",
+        "bool": false
+      },
+      {
         "option": "It is not used by the body",
         "bool": false
+      },
+      {
+        "option": "It exists in various forms",
+        "bool": true
       },
       {
         "option": "It is a free radical",
@@ -4011,24 +3641,20 @@
       {
         "option": "It is a water soluble vitamin",
         "bool": false
-      },
-      {
-        "option": "Its deficiency leads to beriberi",
-        "bool": false
-      },
-      {
-        "option": "It exists in various forms",
-        "bool": true
       }
     ]
   },
   {
-    "id": 149,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 135,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which group do catecholamines, histamine, and serotonin belong to?",
     "answers": [
       {
-        "option": "Gasses",
+        "option": "Biogenic amines",
+        "bool": true
+      },
+      {
+        "option": "Purines",
         "bool": false
       },
       {
@@ -4036,34 +3662,22 @@
         "bool": false
       },
       {
-        "option": "Purines",
+        "option": "Gasses",
         "bool": false
       },
       {
         "option": "Amino acids",
         "bool": false
-      },
-      {
-        "option": "Biogenic amines",
-        "bool": true
       }
     ]
   },
   {
-    "id": 150,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 136,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of these is the most accurate statement regarding brain development?",
     "answers": [
       {
-        "option": "Fornix is the 2nd commissure to develop",
-        "bool": true
-      },
-      {
         "option": "The anterior commissure is the last one to appear",
-        "bool": false
-      },
-      {
-        "option": "Commissures are axon bundles that run anteriorly/posteriorly",
         "bool": false
       },
       {
@@ -4071,26 +3685,26 @@
         "bool": false
       },
       {
+        "option": "Commissures are axon bundles that run anteriorly/posteriorly",
+        "bool": false
+      },
+      {
         "option": "Fornix is the 3rd commissure to develop",
         "bool": false
+      },
+      {
+        "option": "Fornix is the 2nd commissure to develop",
+        "bool": true
       }
     ]
   },
   {
-    "id": 151,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 137,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which nerve is derived from the 1st pharyngeal arch?",
     "answers": [
       {
-        "option": "Trigeminal nerve",
-        "bool": true
-      },
-      {
         "option": "Optic nerve",
-        "bool": false
-      },
-      {
-        "option": "Facial nerve",
         "bool": false
       },
       {
@@ -4098,43 +3712,55 @@
         "bool": false
       },
       {
+        "option": "Trigeminal nerve",
+        "bool": true
+      },
+      {
         "option": "Vagus nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 152,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 138,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What does the cartilage of the 3rd pharyngeal arch develop into?",
     "answers": [
       {
-        "option": "Greater horn of hyoid bone",
-        "bool": true
+        "option": "Lesser horn of hyoid bone",
+        "bool": false
       },
       {
         "option": "Patella",
         "bool": false
       },
       {
-        "option": "Styloid process",
-        "bool": false
-      },
-      {
-        "option": "Lesser horn of hyoid bone",
-        "bool": false
-      },
-      {
         "option": "Outer ear",
+        "bool": false
+      },
+      {
+        "option": "Greater horn of hyoid bone",
+        "bool": true
+      },
+      {
+        "option": "Styloid process",
         "bool": false
       }
     ]
   },
   {
-    "id": 153,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 139,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What does the third pharyngeal pouch develop into?",
     "answers": [
+      {
+        "option": "Tonsils",
+        "bool": false
+      },
       {
         "option": "Inferior parathyroid glands",
         "bool": true
@@ -4150,16 +3776,66 @@
       {
         "option": "Superior parathyroid gland",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Lesion of which hypothalamic nucleus causes abnormal circadian rhythm?",
+    "answers": [
+      {
+        "option": "Supraoptic",
+        "bool": false
       },
       {
-        "option": "Tonsils",
+        "option": "Paraventricular",
+        "bool": false
+      },
+      {
+        "option": "Preoptic",
+        "bool": false
+      },
+      {
+        "option": "Mammillary",
+        "bool": false
+      },
+      {
+        "option": "Suprachiasmatic",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "A tumor of the pituitary gland exerting pressure on the optic chiasm would result in which of the following?",
+    "answers": [
+      {
+        "option": "Left-sided circumferential blindness",
+        "bool": false
+      },
+      {
+        "option": "Total blindness",
+        "bool": false
+      },
+      {
+        "option": "Bitemporal hemianopia",
+        "bool": true
+      },
+      {
+        "option": "Left nasal hemianopia",
+        "bool": false
+      },
+      {
+        "option": "Contralateral homonymous hemianopia",
         "bool": false
       }
     ]
   },
   {
-    "id": 154,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 142,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Occlusion of the posterior cerebral artery would result in which of the following?",
     "answers": [
       {
@@ -4167,7 +3843,7 @@
         "bool": false
       },
       {
-        "option": "Left nasal hemianopia",
+        "option": "Total blindness",
         "bool": false
       },
       {
@@ -4179,18 +3855,99 @@
         "bool": true
       },
       {
-        "option": "Total blindness",
+        "option": "Left nasal hemianopia",
         "bool": false
       }
     ]
   },
   {
-    "id": 155,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 143,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Lesion of the supraoptic nucleus results in which of the following?",
+    "answers": [
+      {
+        "option": "Increased volume of urine",
+        "bool": true
+      },
+      {
+        "option": "Decreased volume of urine",
+        "bool": false
+      },
+      {
+        "option": "Hypersexuality",
+        "bool": false
+      },
+      {
+        "option": "Increased oxytocin production",
+        "bool": false
+      },
+      {
+        "option": "Decreased prolactin production",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which cranial nerve damage will cause respiratory issues?",
+    "answers": [
+      {
+        "option": "Trochlear nerve",
+        "bool": false
+      },
+      {
+        "option": "Vagus nerve",
+        "bool": true
+      },
+      {
+        "option": "Optic nerve",
+        "bool": false
+      },
+      {
+        "option": "Abducens nerve",
+        "bool": false
+      },
+      {
+        "option": "Occulomotor nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which cranial nerve will most likely be injured in an anterior cranial fossa fracture?",
+    "answers": [
+      {
+        "option": "Oculomotor nerve",
+        "bool": false
+      },
+      {
+        "option": "Trochlear nerve",
+        "bool": false
+      },
+      {
+        "option": "Olfactory nerve",
+        "bool": true
+      },
+      {
+        "option": "Abducens nerve",
+        "bool": false
+      },
+      {
+        "option": "Facial nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following is true regarding the subarachnoid space?",
     "answers": [
       {
-        "option": "Cranial nerves lie outside it in sheaths derived from dura mater",
+        "option": "It does not contain cerebral arteries or veins",
         "bool": false
       },
       {
@@ -4198,7 +3955,7 @@
         "bool": false
       },
       {
-        "option": "It does not contain cerebral arteries or veins",
+        "option": "It extends inferiorly as far as the fourth sacral vertebra",
         "bool": false
       },
       {
@@ -4206,27 +3963,27 @@
         "bool": true
       },
       {
-        "option": "It extends inferiorly as far as the fourth sacral vertebra",
+        "option": "Cranial nerves lie outside it in sheaths derived from dura mater",
         "bool": false
       }
     ]
   },
   {
-    "id": 156,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 147,
+    "info": "2nd-year/neuroscience/2018",
     "question": "Regarding memory, which is the appropriate statement?",
     "answers": [
       {
-        "option": "Short-term memory lasts for seconds and minutes unless converted to long term memory",
-        "bool": true
+        "option": "Damage to amygdala block the ability to form new long-term memories",
+        "bool": false
       },
       {
         "option": "Short-term memory is more stable",
         "bool": false
       },
       {
-        "option": "Damage to amygdala block the ability to form new long-term memories",
-        "bool": false
+        "option": "Short-term memory lasts for seconds and minutes unless converted to long term memory",
+        "bool": true
       },
       {
         "option": "Short-term memory involve structural changes",
@@ -4239,24 +3996,78 @@
     ]
   },
   {
-    "id": 157,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 148,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the function of the hypothalamus?",
+    "answers": [
+      {
+        "option": "Coordination of motor functions",
+        "bool": false
+      },
+      {
+        "option": "Sense of proprioception",
+        "bool": false
+      },
+      {
+        "option": "Sympathetic control",
+        "bool": true
+      },
+      {
+        "option": "Memory formation",
+        "bool": false
+      },
+      {
+        "option": "Speech control",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "If a needle is placed between the third and fourth lumbar vertebra, which of the following structures will it reach?",
+    "answers": [
+      {
+        "option": "Cerebrospinal fluid",
+        "bool": true
+      },
+      {
+        "option": "Spinal cord",
+        "bool": false
+      },
+      {
+        "option": "Coccygeal nerve",
+        "bool": false
+      },
+      {
+        "option": "Stria terminalis",
+        "bool": false
+      },
+      {
+        "option": "Sacral nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What is the normal count of lymphocytes in cerebrospinal fluid?",
     "answers": [
       {
-        "option": "0-3 cells/mm3",
-        "bool": true
+        "option": "50-100 cells/mm3",
+        "bool": false
       },
       {
         "option": "5-10 cells/mm3",
         "bool": false
       },
       {
-        "option": "10-20 cells/mm3",
-        "bool": false
+        "option": "0-3 cells/mm3",
+        "bool": true
       },
       {
-        "option": "50-100 cells/mm3",
+        "option": "10-20 cells/mm3",
         "bool": false
       },
       {
@@ -4266,20 +4077,97 @@
     ]
   },
   {
-    "id": 158,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which statement is the most accurate regarding the internal capsule?",
+    "id": 151,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "During a cesarean section, where is the anesthetic injected?",
     "answers": [
       {
-        "option": "Retrolentiform part contains fibres form medial geniculate body",
+        "option": "Lumbar puncture for spinal anesthesia",
         "bool": false
       },
       {
-        "option": "Contralateral spastic hemiplegia can result from infarction of the lenticulostriate artery",
+        "option": "Subarachnoid space",
         "bool": true
       },
       {
+        "option": "Epidural space",
+        "bool": false
+      },
+      {
+        "option": "Subdural space",
+        "bool": false
+      },
+      {
+        "option": "Pudendal nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is not included in the visual pathway?",
+    "answers": [
+      {
+        "option": "Optic radiation",
+        "bool": false
+      },
+      {
+        "option": "Lateral geniculate body",
+        "bool": false
+      },
+      {
+        "option": "Optic nerves (CN II)",
+        "bool": false
+      },
+      {
+        "option": "Pretectal nucleus",
+        "bool": true
+      },
+      {
+        "option": "Optic chiasm",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is an example of fibers that connect the two cerebral hemispheres?",
+    "answers": [
+      {
+        "option": "The stria terminalis",
+        "bool": false
+      },
+      {
+        "option": "The geniculocalcarine tract",
+        "bool": false
+      },
+      {
+        "option": "The uncinate fasciculus",
+        "bool": false
+      },
+      {
+        "option": "The cingulum",
+        "bool": false
+      },
+      {
+        "option": "The hippocampal commissure",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which statement is the most accurate regarding the internal capsule?",
+    "answers": [
+      {
         "option": "Optic radiation are found in sublentiform part",
+        "bool": false
+      },
+      {
+        "option": "The posterior limb separates the caudate nucleus from the lentiform nucleus",
         "bool": false
       },
       {
@@ -4287,57 +4175,61 @@
         "bool": false
       },
       {
-        "option": "The posterior limb separates the caudate nucleus from the lentiform nucleus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 159,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "Which of these is correct regarding motor functions?",
-    "answers": [
-      {
-        "option": "Coordinated muscle activity only needs coordination of cerebral cortex and spinal cord",
-        "bool": false
-      },
-      {
-        "option": "Damage to Broca\u2019s area causes inability to speak",
+        "option": "Contralateral spastic hemiplegia can result from infarction of the lenticulostriate artery",
         "bool": true
       },
       {
-        "option": "Voluntary eye movement area in cerebral cortex lies in premotor area below the Broca's area",
-        "bool": false
-      },
-      {
-        "option": "Broca\u2019s area lies immediately posterior to the primary motor cortex above the Sylvian fissure",
-        "bool": false
-      },
-      {
-        "option": "Motor cortex is located posterior to the central sulcus of cerebrum",
+        "option": "Retrolentiform part contains fibres form medial geniculate body",
         "bool": false
       }
     ]
   },
   {
-    "id": 160,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "What is the language deficit accompanying cerebral stroke called?",
+    "id": 155,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following hypothalamic nucleus acts as an osmoreceptor?",
     "answers": [
       {
-        "option": "Dysphagia",
+        "option": "Suprachiasmatic nucleus",
         "bool": false
       },
+      {
+        "option": "Anterior nucleus",
+        "bool": false
+      },
+      {
+        "option": "Preoptic nucleus",
+        "bool": false
+      },
+      {
+        "option": "Paraventricular nucleus",
+        "bool": false
+      },
+      {
+        "option": "Supraoptic nucleus",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the language deficit accompanying cerebral stroke called?",
+    "answers": [
       {
         "option": "Agraphia",
         "bool": false
       },
       {
-        "option": "Insomnia",
+        "option": "Anosognosia",
         "bool": false
       },
       {
-        "option": "Anosognosia",
+        "option": "Dysphagia",
+        "bool": false
+      },
+      {
+        "option": "Insomnia",
         "bool": false
       },
       {
@@ -4347,39 +4239,74 @@
     ]
   },
   {
-    "id": 161,
-    "info": "2nd-year/neuroscience-1/2018",
-    "question": "The inferior cerebellar peduncles (to the medulla) do not compose of afferent fibers from which of the following?",
+    "id": 157,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of these is correct regarding motor functions?",
     "answers": [
       {
-        "option": "Cerebellovestibular tract",
+        "option": "Broca’s area lies immediately posterior to the primary motor cortex above the Sylvian fissure",
+        "bool": false
+      },
+      {
+        "option": "Coordinated muscle activity only needs coordination of cerebral cortex and spinal cord",
+        "bool": false
+      },
+      {
+        "option": "Damage to Broca’s area causes inability to speak",
         "bool": true
       },
       {
-        "option": "Olivocerebellar tract",
+        "option": "Motor cortex is located posterior to the central sulcus of cerebrum",
         "bool": false
       },
       {
-        "option": "Cuneocerebellar tract",
-        "bool": false
-      },
-      {
-        "option": "Spinocerebellar tract",
-        "bool": false
-      },
-      {
-        "option": "None of these",
+        "option": "Voluntary eye movement area in cerebral cortex lies in premotor area below the Broca's area",
         "bool": false
       }
     ]
   },
   {
-    "id": 162,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 158,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following is the correct statement regarding the cerebral cortex?",
+    "answers": [
+      {
+        "option": "Broca area is area 3, 1, and 2",
+        "bool": false
+      },
+      {
+        "option": "Secondary auditory cortex relates perception of sound with past experiences",
+        "bool": true
+      },
+      {
+        "option": "Somatosensory area 1 is located in the precentral gyrus",
+        "bool": false
+      },
+      {
+        "option": "Widespread damage to bilateral somatosensory area 1 causes astereognosis",
+        "bool": false
+      },
+      {
+        "option": "The visual cortex lies in the temporal lobe",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What happens when a lesion occurs in the non-dominant hemisphere?",
     "answers": [
       {
-        "option": "Visual disturbances",
+        "option": "Sensory loss",
+        "bool": false
+      },
+      {
+        "option": "Hemineglect",
+        "bool": true
+      },
+      {
+        "option": "Abnormal speech",
         "bool": false
       },
       {
@@ -4387,22 +4314,41 @@
         "bool": false
       },
       {
-        "option": "Sensory loss",
+        "option": "Visual disturbances",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "Which of the following terms refers to disease constantly present in a small population?",
+    "answers": [
+      {
+        "option": "Pandemic",
         "bool": false
       },
       {
-        "option": "Abnormal speech",
+        "option": "Outbreak",
         "bool": false
       },
       {
-        "option": "Hemineglect",
+        "option": "Epidemic",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Endemic",
         "bool": true
       }
     ]
   },
   {
-    "id": 163,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 161,
+    "info": "2nd-year/neuroscience/2018",
     "question": "What would damage to the ventral root of a spinal nerve result in?",
     "answers": [
       {
@@ -4410,12 +4356,12 @@
         "bool": false
       },
       {
-        "option": "Atrophy of skeletal muscle innervated by that nerve",
-        "bool": true
-      },
-      {
         "option": "A positive Babinski sign",
         "bool": false
+      },
+      {
+        "option": "Atrophy of skeletal muscle innervated by that nerve",
+        "bool": true
       },
       {
         "option": "Increased activity of the muscle stretch reflexes in the innervated muscles",
@@ -4428,24 +4374,24 @@
     ]
   },
   {
-    "id": 164,
-    "info": "2nd-year/neuroscience-1/2018",
+    "id": 162,
+    "info": "2nd-year/neuroscience/2018",
     "question": "The optic foramen transmits which of the following?",
     "answers": [
       {
-        "option": "Optic nerve and ophthalmic artery",
-        "bool": true
+        "option": "Vestibular nerve and ophthalmic artery",
+        "bool": false
       },
       {
         "option": "Optic nerve and basilar artery",
         "bool": false
       },
       {
-        "option": "Oculomotor nerve and internal carotid artery",
-        "bool": false
+        "option": "Optic nerve and ophthalmic artery",
+        "bool": true
       },
       {
-        "option": "Vestibular nerve and ophthalmic artery",
+        "option": "Oculomotor nerve and internal carotid artery",
         "bool": false
       },
       {
@@ -4455,8 +4401,62 @@
     ]
   },
   {
+    "id": 163,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "What is the best statement regarding the role of biomolecules in various diseases?",
+    "answers": [
+      {
+        "option": "Norepinephrine controls normal sleep and eating patterns",
+        "bool": false
+      },
+      {
+        "option": "Selective serotonin reuptake inhibitors aggravate depression",
+        "bool": false
+      },
+      {
+        "option": "There should be a balance between serotonin and dopamine in the basal ganglia in order to maintain control of body movements",
+        "bool": false
+      },
+      {
+        "option": "The neurotransmitter involved in controlling mood and behavior is acetylcholine",
+        "bool": false
+      },
+      {
+        "option": "Dopamine deficiency can present as a psychiatric disorder",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "info": "2nd-year/neuroscience/2018",
+    "question": "The inferior cerebellar peduncles (to the medulla) do not compose of afferent fibers from which of the following?",
+    "answers": [
+      {
+        "option": "Spinocerebellar tract",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Cerebellovestibular tract",
+        "bool": true
+      },
+      {
+        "option": "Olivocerebellar tract",
+        "bool": false
+      },
+      {
+        "option": "Cuneocerebellar tract",
+        "bool": false
+      }
+    ]
+  },
+  {
     "id": 165,
-    "info": "2nd-year/neuroscience-1/2018",
+    "info": "2nd-year/neuroscience/2018",
     "question": "Which of the following pairs of muscles is involved in shrugging of the shoulders and the movement of the neck?",
     "answers": [
       {

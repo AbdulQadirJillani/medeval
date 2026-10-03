@@ -1,0 +1,407 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 27-year-old male presents with rapidly developing dyspnea and restlessness 6 hours after a thyroidectomy procedure. Which of the following complications is most likely responsible for the symptoms of this patient?",
+    "answers": [
+      {
+        "option": "Thyroid insufficiency",
+        "bool": false
+      },
+      {
+        "option": "Thyroid crisis",
+        "bool": false
+      },
+      {
+        "option": "Recurrent laryngeal nerve paralysis",
+        "bool": false
+      },
+      {
+        "option": "Parathyroid insufficiency",
+        "bool": false
+      },
+      {
+        "option": "Neck hematoma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 40-year-old male presents to the clinic with a complaint of hoarseness of voice 7 days after a thyroidectomy procedure. Which of the following complications of thyroidectomy is the cause of this presentation?",
+    "answers": [
+      {
+        "option": "Internal branch of superior laryngeal nerve injury",
+        "bool": false
+      },
+      {
+        "option": "Stitch granuloma",
+        "bool": false
+      },
+      {
+        "option": "Laryngeal edema",
+        "bool": false
+      },
+      {
+        "option": "Recurrent laryngeal nerve injury",
+        "bool": true
+      },
+      {
+        "option": "External branch of superior laryngeal nerve injury",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 50-year-old female develops confusion, agitation, palpitations, and sweating while being transferred to the surgical ward from the operation theatre following a thyroidectomy procedure. On examination, blood pressure is 110/70 mmHg, pulse is 110 beats per minute, respiratory rate is 25 breaths per minute, and temperature is 38.5 °C (101.3°F). What is the likely diagnosis?",
+    "answers": [
+      {
+        "option": "Secondary hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Thyroid crisis",
+        "bool": true
+      },
+      {
+        "option": "Primary hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Thyroid insufficiency",
+        "bool": false
+      },
+      {
+        "option": "Reactionary hemorrhage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 55-year-old female presents with winging of her scapula following a mastectomy procedure. Which nerve injury is responsible for this presentation?",
+    "answers": [
+      {
+        "option": "Long-thoracic nerve",
+        "bool": true
+      },
+      {
+        "option": "Axillary nerve",
+        "bool": false
+      },
+      {
+        "option": "Thoraco-dorsal nerve",
+        "bool": false
+      },
+      {
+        "option": "Intercostal nerve",
+        "bool": false
+      },
+      {
+        "option": "Nerve to subscapularis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/surgery-1/2020",
+    "question": "What is meant by triple assessment in the context of a breast lump?",
+    "answers": [
+      {
+        "option": "Clinical assessment, radiological imagine, and serology",
+        "bool": false
+      },
+      {
+        "option": "History, examination, and a biopsy",
+        "bool": false
+      },
+      {
+        "option": "Estrogen, progesterone, and HER2/neu receptor test",
+        "bool": false
+      },
+      {
+        "option": "History, Ultrasound, and a mammography scan",
+        "bool": false
+      },
+      {
+        "option": "Clinical assessment, radiological imaging, and a biopsy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 35-year-old female presents with erythema, swelling, and redness of her right breast 5 days after starting breastfeeding. She recalls having a strong hit on her breast by the head of her baby. On examination, the breast is tender, warm, and red, and a fluctuant swelling is observed. What is the likely diagnosis?",
+    "answers": [
+      {
+        "option": "Fat necrosis",
+        "bool": false
+      },
+      {
+        "option": "Breast abscess",
+        "bool": true
+      },
+      {
+        "option": "Lactational mastitis",
+        "bool": false
+      },
+      {
+        "option": "Chronic inflammatory abscess",
+        "bool": false
+      },
+      {
+        "option": "Periductal mastitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/surgery-1/2020",
+    "question": "Which of the following is relevant regarding the anatomy of the superior parathyroid gland?",
+    "answers": [
+      {
+        "option": "It is present below the inferior thyroid artery",
+        "bool": false
+      },
+      {
+        "option": "It is present above the superior thyroid artery",
+        "bool": false
+      },
+      {
+        "option": "It is present above the inferior thyroid artery",
+        "bool": true
+      },
+      {
+        "option": "It arises from the third pharyngeal pouch",
+        "bool": false
+      },
+      {
+        "option": "It is relatively more variable in position",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 55-year-old female has breast cancer 6 cm in size with ipsilateral matted axillary lymph nodes and no involvement of the supraclavicular nodes. What is the TNM staging of this cancer?",
+    "answers": [
+      {
+        "option": "T3,N2,M0",
+        "bool": true
+      },
+      {
+        "option": "T2,N3,M0",
+        "bool": false
+      },
+      {
+        "option": "T1,N2,M0",
+        "bool": false
+      },
+      {
+        "option": "T3,N2,M1",
+        "bool": false
+      },
+      {
+        "option": "T2,N1,M0",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/surgery-1/2020",
+    "question": "What is a likely cause of infantile hypothyroidism in non-endemic areas of iodine deficiency?",
+    "answers": [
+      {
+        "option": "Decrease iodine intake by mother",
+        "bool": false
+      },
+      {
+        "option": "Dyshormonogenesis",
+        "bool": true
+      },
+      {
+        "option": "Thyroid agenesis",
+        "bool": false
+      },
+      {
+        "option": "Amyloidosis",
+        "bool": false
+      },
+      {
+        "option": "Goitrogens",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 25-year-old female presents to the outpatient clinic with a lump in her right breast for 4 months. On examination, it is mobile, rubbery, and firm in consistency. What should be the treatment option for this patient after confirmation of the suspected diagnosis?",
+    "answers": [
+      {
+        "option": "Reassurance and follow-up",
+        "bool": true
+      },
+      {
+        "option": "Surgical excision",
+        "bool": false
+      },
+      {
+        "option": "Lumpectomy",
+        "bool": false
+      },
+      {
+        "option": "Core cut biopsy",
+        "bool": false
+      },
+      {
+        "option": "Cryoablation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 35-year-old female presents with a complaint of breast pain and nipple discharge for 6 months. The pain is non-cyclical in nature. On examination, a subareolar mass is observed with slit-like retraction of the nipple. The nipple discharge is serous in nature. Her past medical history is significant for cigarette smoking for 15 years. What is the best treatment option for this patient?",
+    "answers": [
+      {
+        "option": "Halsted mastectomy",
+        "bool": false
+      },
+      {
+        "option": "Antibiotics and analgesics",
+        "bool": false
+      },
+      {
+        "option": "Hadfield operation",
+        "bool": true
+      },
+      {
+        "option": "Patey mastectomy",
+        "bool": false
+      },
+      {
+        "option": "Lumpectomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/surgery-1/2020",
+    "question": "Which of the following group of axillary nodes is associated with the poorest prognosis in breast cancer?",
+    "answers": [
+      {
+        "option": "Central nodes",
+        "bool": false
+      },
+      {
+        "option": "Apical nodes",
+        "bool": true
+      },
+      {
+        "option": "Internal mammary nodes",
+        "bool": false
+      },
+      {
+        "option": "Lateral nodes",
+        "bool": false
+      },
+      {
+        "option": "Posterior nodes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A 1-month-old girl is brought to the clinic with a swelling in the posterior triangle of the neck, which brilliantly transilluminates. Which of the following will be the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Thyroglossal duct cyst",
+        "bool": false
+      },
+      {
+        "option": "Brachial cleft cyst",
+        "bool": false
+      },
+      {
+        "option": "Cystic hygroma",
+        "bool": true
+      },
+      {
+        "option": "Thyroid nodule",
+        "bool": false
+      },
+      {
+        "option": "Lymphadenopathy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/surgery-1/2020",
+    "question": "Which of the following thyroid disorders is an indication for radioisotope scanning?",
+    "answers": [
+      {
+        "option": "Riedel thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Hashimoto thyroiditis",
+        "bool": false
+      },
+      {
+        "option": "Thyroglossal cyst",
+        "bool": false
+      },
+      {
+        "option": "Toxic multinodular goiter",
+        "bool": true
+      },
+      {
+        "option": "Subacute (DeQuervain) thyroiditis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "5th-year/surgery-1/2020",
+    "question": "A female patient has presented with a history of clear discharge from her nipple. On examination, there is a palpable mass underneath the areola. There is also a slit-like inversion of the nipple. Which of the following is the most likely diagnosis for this patient?",
+    "answers": [
+      {
+        "option": "Breast fibroadenoma",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic granulomatous mastitis",
+        "bool": false
+      },
+      {
+        "option": "Fat necrosis",
+        "bool": false
+      },
+      {
+        "option": "Periductal mastitis",
+        "bool": true
+      },
+      {
+        "option": "Lactational (puerperal) mastitis",
+        "bool": false
+      }
+    ]
+  }
+]

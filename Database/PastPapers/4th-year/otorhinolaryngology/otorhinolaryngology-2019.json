@@ -5,11 +5,7 @@
     "question": "Which of the following tests is used to diagnose benign paroxysmal positional vertigo (BPPV)?",
     "answers": [
       {
-        "option": "Dix-Hallpike maneuver",
-        "bool": true
-      },
-      {
-        "option": "Romberg test",
+        "option": "Epley maneuver",
         "bool": false
       },
       {
@@ -17,12 +13,16 @@
         "bool": false
       },
       {
-        "option": "Epley maneuver",
+        "option": "Rinne test",
         "bool": false
       },
       {
-        "option": "Rinne test",
+        "option": "Romberg test",
         "bool": false
+      },
+      {
+        "option": "Dix-Hallpike maneuver",
+        "bool": true
       }
     ]
   },
@@ -31,6 +31,14 @@
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following organisms most commonly causes acute suppurative otitis media (ASOM)?",
     "answers": [
+      {
+        "option": "Streptococcus viridans",
+        "bool": false
+      },
+      {
+        "option": "Pseudomonas aeruginosa",
+        "bool": false
+      },
       {
         "option": "Beta-hemolytic streptococcus",
         "bool": false
@@ -42,14 +50,6 @@
       {
         "option": "Streptococcus pneumoniae",
         "bool": true
-      },
-      {
-        "option": "Pseudomonas aeruginosa",
-        "bool": false
-      },
-      {
-        "option": "Streptococcus viridans",
-        "bool": false
       }
     ]
   },
@@ -63,19 +63,19 @@
         "bool": false
       },
       {
-        "option": "A",
-        "bool": false
-      },
-      {
-        "option": "Ac",
-        "bool": false
-      },
-      {
         "option": "B",
         "bool": true
       },
       {
         "option": "C",
+        "bool": false
+      },
+      {
+        "option": "A",
+        "bool": false
+      },
+      {
+        "option": "Ac",
         "bool": false
       }
     ]
@@ -90,11 +90,7 @@
         "bool": true
       },
       {
-        "option": "Impedance audiometry",
-        "bool": false
-      },
-      {
-        "option": "Brainstem evoked response audiometry",
+        "option": "Electrocochleography",
         "bool": false
       },
       {
@@ -102,7 +98,11 @@
         "bool": false
       },
       {
-        "option": "Electrocochleography",
+        "option": "Brainstem evoked response audiometry",
+        "bool": false
+      },
+      {
+        "option": "Impedance audiometry",
         "bool": false
       }
     ]
@@ -113,7 +113,15 @@
     "question": "A teenager is brought to the clinic after having hurt himself during a rugby match at school. Examination reveals a fluctuant swelling on his left pinna, where he was hit by the ball. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Perichondritis",
+        "option": "Hematoma",
+        "bool": true
+      },
+      {
+        "option": "Furuncle",
+        "bool": false
+      },
+      {
+        "option": "Diffuse otitis externa",
         "bool": false
       },
       {
@@ -121,21 +129,40 @@
         "bool": false
       },
       {
-        "option": "Furuncle",
-        "bool": false
-      },
-      {
-        "option": "Hematoma",
-        "bool": true
-      },
-      {
-        "option": "Diffuse otitis externa",
+        "option": "Perichondritis",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "When performing surgery for mastoiditis, what landmark will be used as the place to start drilling?",
+    "answers": [
+      {
+        "option": "Promontory",
+        "bool": false
+      },
+      {
+        "option": "Post-auricular sulcus",
+        "bool": false
+      },
+      {
+        "option": "Posterior meatal wall",
+        "bool": false
+      },
+      {
+        "option": "MacEwen's triangle",
+        "bool": true
+      },
+      {
+        "option": "Facial recess",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following is the most likely cause of perforation of the bony part of the nasal septum?",
     "answers": [
@@ -152,22 +179,30 @@
         "bool": false
       },
       {
-        "option": "Syphilis",
-        "bool": true
-      },
-      {
         "option": "Leprosy",
         "bool": false
+      },
+      {
+        "option": "Syphilis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which test involves applying pressure to the external auditory canal to induce nystagmus?",
     "answers": [
       {
         "option": "Weber test",
+        "bool": false
+      },
+      {
+        "option": "Caloric test",
+        "bool": false
+      },
+      {
+        "option": "Romberg test",
         "bool": false
       },
       {
@@ -177,19 +212,11 @@
       {
         "option": "Rinne test",
         "bool": false
-      },
-      {
-        "option": "Romberg test",
-        "bool": false
-      },
-      {
-        "option": "Caloric test",
-        "bool": false
       }
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following is the most common presentation of nasopharyngeal cancer?",
     "answers": [
@@ -198,25 +225,25 @@
         "bool": false
       },
       {
-        "option": "Epistaxis",
+        "option": "Hearing loss",
         "bool": false
       },
       {
-        "option": "Hearing loss",
+        "option": "Cranial nerve palsies",
+        "bool": false
+      },
+      {
+        "option": "Epistaxis",
         "bool": false
       },
       {
         "option": "Cervical lymphadenopathy",
         "bool": true
-      },
-      {
-        "option": "Cranial nerve palsies",
-        "bool": false
       }
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A young woman comes to the clinic with the complaint of intermittent episodes of vertigo on turning her head to the left. What is the most probable diagnosis?",
     "answers": [
@@ -243,7 +270,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 24-year-old woman comes to the clinic with complaints of severe vertigo and hearing loss for 4 days. She reports having had a similar attack 1 year ago that resolved without medications. What is the most probable diagnosis?",
     "answers": [
@@ -256,26 +283,34 @@
         "bool": false
       },
       {
-        "option": "M\u00e9ni\u00e8re\u2019s disease",
+        "option": "Ménière’s disease",
         "bool": true
       },
       {
-        "option": "Vestibular neuronitis",
+        "option": "Perilymph fistula",
         "bool": false
       },
       {
-        "option": "Perilymph fistula",
+        "option": "Vestibular neuronitis",
         "bool": false
       }
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 37-year-old man presents to the otorhinolaryngology clinic with the complaint of severe pain in his left ear. Examination reveals several vesicles on the tympanic membrane, meatal skin, and concha. What is the diagnosis?",
     "answers": [
       {
-        "option": "Diffuse otitis externa",
+        "option": "Herpes zoster oticus",
+        "bool": true
+      },
+      {
+        "option": "Seborrheic otitis externa",
+        "bool": false
+      },
+      {
+        "option": "Otomycosis",
         "bool": false
       },
       {
@@ -283,42 +318,7 @@
         "bool": false
       },
       {
-        "option": "Otomycosis",
-        "bool": false
-      },
-      {
-        "option": "Seborrheic otitis externa",
-        "bool": false
-      },
-      {
-        "option": "Herpes zoster oticus",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 9-year-old child is brought to your office with complaints of severe itching and pain in his right ear. Examination reveals a wet newspaper-like mass in the external ear. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Tubo-tympanic otitis media",
-        "bool": false
-      },
-      {
-        "option": "Otitis media with effusion",
-        "bool": false
-      },
-      {
-        "option": "Otomycosis",
-        "bool": true
-      },
-      {
-        "option": "Seborrheic otitis externa",
-        "bool": false
-      },
-      {
-        "option": "Eczematous otitis externa",
+        "option": "Diffuse otitis externa",
         "bool": false
       }
     ]
@@ -326,8 +326,43 @@
   {
     "id": 12,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A man with a history of chronic suppurative otitis media (CSOM) presents with complaints of severe retro-orbital pain, ear discharge, and diplopia on looking laterally. What is the most likely diagnosis?",
+    "question": "A 9-year-old child is brought to your office with complaints of severe itching and pain in his right ear. Examination reveals a wet newspaper-like mass in the external ear. What is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Otitis media with effusion",
+        "bool": false
+      },
+      {
+        "option": "Tubo-tympanic otitis media",
+        "bool": false
+      },
+      {
+        "option": "Eczematous otitis externa",
+        "bool": false
+      },
+      {
+        "option": "Otomycosis",
+        "bool": true
+      },
+      {
+        "option": "Seborrheic otitis externa",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A man with a history of chronic suppurative otitis media (CSOM) presents with complaints of severe retro-orbital pain, ear discharge, and diplopia on looking laterally.  What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Ramsay-Hunt disease",
+        "bool": false
+      },
+      {
+        "option": "Frey's syndrome",
+        "bool": false
+      },
       {
         "option": "Bezold's abscess",
         "bool": false
@@ -337,30 +372,22 @@
         "bool": true
       },
       {
-        "option": "Ramsay-Hunt disease",
-        "bool": false
-      },
-      {
         "option": "Bell's palsy",
-        "bool": false
-      },
-      {
-        "option": "Frey's syndrome",
         "bool": false
       }
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 9-year-old boy had gotten into a fight 4 days ago. He has now developed bilateral nasal obstruction with pain and fever. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Septal abscess",
-        "bool": true
+        "option": "Septal hematoma",
+        "bool": false
       },
       {
-        "option": "Septal hematoma",
+        "option": "Deviated nasal septum",
         "bool": false
       },
       {
@@ -372,13 +399,13 @@
         "bool": false
       },
       {
-        "option": "Deviated nasal septum",
-        "bool": false
+        "option": "Septal abscess",
+        "bool": true
       }
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 25-year-old woman presents to the office with the complaint of nasal obstruction. Examination reveals a foul smell from the nose as well as roomy nasal cavities with greenish crusts. What is the most likely diagnosis?",
     "answers": [
@@ -387,12 +414,12 @@
         "bool": false
       },
       {
-        "option": "Atrophic rhinitis",
-        "bool": true
-      },
-      {
         "option": "Rhinitis caseosa",
         "bool": false
+      },
+      {
+        "option": "Atrophic rhinitis",
+        "bool": true
       },
       {
         "option": "Fungal sinusitis",
@@ -405,55 +432,28 @@
     ]
   },
   {
-    "id": 15,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following investigations is always ordered in cases of chronic suppurative otitis media (CSOM)?",
-    "answers": [
-      {
-        "option": "Examination under microscope",
-        "bool": true
-      },
-      {
-        "option": "Tympanometry",
-        "bool": false
-      },
-      {
-        "option": "CT scan temporal bone",
-        "bool": false
-      },
-      {
-        "option": "X-ray mastoid",
-        "bool": false
-      },
-      {
-        "option": "Brainstem evoked response audiometry",
-        "bool": false
-      }
-    ]
-  },
-  {
     "id": 16,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "An 8-year-old child is brought to the physician by his parents with complaints of continuous, odorless, and sticky discharge from his left ear. Examination reveals a central perforation of the tympanic membrane. What is the most likely diagnosis?",
+    "question": "Frequency and loudness are two properties of sound. Frequency is measured in hertz (Hz). Which of the following frequency ranges most accurately represents the audible frequency for a human being?",
     "answers": [
       {
-        "option": "Acute suppurative otitis media",
+        "option": "200 to 2000 Hz",
         "bool": false
       },
       {
-        "option": "Atticoantral chronic suppurative otitis media",
+        "option": "100 to 10000 Hz",
         "bool": false
       },
       {
-        "option": "Otitic barotrauma",
-        "bool": false
-      },
-      {
-        "option": "Tubotympanic chronic suppurative otitis media",
+        "option": "20 to 20000 Hz",
         "bool": true
       },
       {
-        "option": "Otitis media with effusion",
+        "option": "1000 to 10000 Hz",
+        "bool": false
+      },
+      {
+        "option": "10 to 1000 Hz",
         "bool": false
       }
     ]
@@ -461,26 +461,26 @@
   {
     "id": 17,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A patient is found to have right ear subtotal perforation. Which of the following findings will be seen on tuning fork tests?",
+    "question": "Which of the following investigations is always ordered in cases of chronic suppurative otitis media (CSOM)?",
     "answers": [
       {
-        "option": "False negative Rinne's for left ear",
+        "option": "Tympanometry",
         "bool": false
       },
       {
-        "option": "Weber lateralizes to better ear",
+        "option": "Brainstem evoked response audiometry",
         "bool": false
       },
       {
-        "option": "Rinne's negative for right ear",
+        "option": "CT scan temporal bone",
+        "bool": false
+      },
+      {
+        "option": "Examination under microscope",
         "bool": true
       },
       {
-        "option": "Rinne's negative for both ears",
-        "bool": false
-      },
-      {
-        "option": "Rinne's negative for left ear",
+        "option": "X-ray mastoid",
         "bool": false
       }
     ]
@@ -488,26 +488,26 @@
   {
     "id": 18,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "What is the extent of the parapharyngeal space?",
+    "question": "An 8-year-old child is brought to the physician by his parents with complaints of continuous, odorless, and sticky discharge from his left ear. Examination reveals a central perforation of the tympanic membrane. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Base of skull to diaphragm",
+        "option": "Otitic barotrauma",
         "bool": false
       },
       {
-        "option": "Base of the skull to the epiglottis",
+        "option": "Otitis media with effusion",
         "bool": false
       },
       {
-        "option": "Base of skull to lower border of mandible",
+        "option": "Acute suppurative otitis media",
         "bool": false
       },
       {
-        "option": "Base of the skull to the hyoid bone",
+        "option": "Tubotympanic chronic suppurative otitis media",
         "bool": true
       },
       {
-        "option": "Base of skull to coccyx",
+        "option": "Atticoantral chronic suppurative otitis media",
         "bool": false
       }
     ]
@@ -515,14 +515,68 @@
   {
     "id": 19,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "What is the most common cause of Ludwig angina?",
+    "question": "A patient is found to have right ear subtotal perforation. Which of the following findings will be seen on tuning fork tests?",
     "answers": [
       {
-        "option": "Injuries to oral mucosa",
+        "option": "Rinne's negative for right ear",
+        "bool": true
+      },
+      {
+        "option": "Rinne's negative for left ear",
         "bool": false
       },
       {
-        "option": "Sublingual sialadenitis",
+        "option": "Rinne's negative for both ears",
+        "bool": false
+      },
+      {
+        "option": "False negative Rinne's for left ear",
+        "bool": false
+      },
+      {
+        "option": "Weber lateralizes to better ear",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "What is the extent of the parapharyngeal space?",
+    "answers": [
+      {
+        "option": "Base of the skull to the hyoid bone",
+        "bool": true
+      },
+      {
+        "option": "Base of skull to coccyx",
+        "bool": false
+      },
+      {
+        "option": "Base of skull to lower border of mandible",
+        "bool": false
+      },
+      {
+        "option": "Base of skull to diaphragm",
+        "bool": false
+      },
+      {
+        "option": "Base of the skull to the epiglottis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "What is the most common cause of Ludwig angina?",
+    "answers": [
+      {
+        "option": "Dental infection",
+        "bool": true
+      },
+      {
+        "option": "Injuries to oral mucosa",
         "bool": false
       },
       {
@@ -530,8 +584,8 @@
         "bool": false
       },
       {
-        "option": "Dental infection",
-        "bool": true
+        "option": "Sublingual sialadenitis",
+        "bool": false
       },
       {
         "option": "Submandibular sialadenitis",
@@ -540,7 +594,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 22,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "What is the most common cause of oroantral fistula formation?",
     "answers": [
@@ -549,7 +603,7 @@
         "bool": false
       },
       {
-        "option": "Fractures",
+        "option": "Carcinoma",
         "bool": false
       },
       {
@@ -557,7 +611,7 @@
         "bool": true
       },
       {
-        "option": "Carcinoma",
+        "option": "Fractures",
         "bool": false
       },
       {
@@ -567,22 +621,10 @@
     ]
   },
   {
-    "id": 21,
+    "id": 23,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 40-year-old man presents with the complaint of a swelling on the gums for the past 9 months. It is a soft, smooth, reddish mass that bleeds on touch. He uses a hard toothbrush. Which of the following is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Pyogenic granuloma",
-        "bool": true
-      },
-      {
-        "option": "Pleomorphic adenoma",
-        "bool": false
-      },
-      {
-        "option": "Hemangioma",
-        "bool": false
-      },
       {
         "option": "Torus",
         "bool": false
@@ -590,16 +632,55 @@
       {
         "option": "Solitary fibrous tumor",
         "bool": false
+      },
+      {
+        "option": "Hemangioma",
+        "bool": false
+      },
+      {
+        "option": "Pyogenic granuloma",
+        "bool": true
+      },
+      {
+        "option": "Pleomorphic adenoma",
+        "bool": false
       }
     ]
   },
   {
-    "id": 22,
+    "id": 24,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A 62-year-old male suffering from glottic squamous cell carcinoma comes to your clinic. Fiber optic direct laryngoscopy (FODL) reveals an exophytic growth on the right vocal cord. The right vocal cord is also fixed and immobile. Lymph nodes of the neck are not palpable. What is the tumor stage based on these findings?",
+    "answers": [
+      {
+        "option": "Stage IV A",
+        "bool": false
+      },
+      {
+        "option": "Stage IV B",
+        "bool": false
+      },
+      {
+        "option": "Stage I",
+        "bool": false
+      },
+      {
+        "option": "Stage II",
+        "bool": false
+      },
+      {
+        "option": "Stage III",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 25,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following is the gold standard investigation for the diagnosis of sleep apnea?",
     "answers": [
       {
-        "option": "Cephalometric radiographs",
+        "option": "Pulmonary function testing",
         "bool": false
       },
       {
@@ -607,24 +688,28 @@
         "bool": false
       },
       {
-        "option": "Pulmonary function testing",
-        "bool": false
+        "option": "Polysomnography",
+        "bool": true
       },
       {
         "option": "Indirect laryngoscopy",
         "bool": false
       },
       {
-        "option": "Polysomnography",
-        "bool": true
+        "option": "Cephalometric radiographs",
+        "bool": false
       }
     ]
   },
   {
-    "id": 23,
+    "id": 26,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 65-year-old man with a 10-pack-years of smoking history is diagnosed with glottic cancer. Fiber optic direct laryngoscopy (FODL) reveals exophytic growths on both the vocal cords. The vocal cords are mobile. There is no nodal involvement. How will this tumor be classified according to the TNM classification system?",
     "answers": [
+      {
+        "option": "T1 N2 M0 - Stage IV",
+        "bool": false
+      },
       {
         "option": "T3 N1 M0 - Stage III",
         "bool": false
@@ -638,17 +723,13 @@
         "bool": false
       },
       {
-        "option": "T1 N2 M0 - Stage IV",
-        "bool": false
-      },
-      {
         "option": "T1 N0 M0 - Stage I",
         "bool": true
       }
     ]
   },
   {
-    "id": 24,
+    "id": 27,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A newborn is brought to the clinic with the complaint of breathing difficulty. Examination reveals floppy aryepiglottic folds and prominent arytenoids. What is the most probable diagnosis?",
     "answers": [
@@ -657,100 +738,19 @@
         "bool": false
       },
       {
-        "option": "Congenital laryngeal web",
+        "option": "Congenital laryngeal paralysis",
         "bool": false
       },
       {
-        "option": "Congenital laryngeal paralysis",
-        "bool": false
+        "option": "Laryngomalacia",
+        "bool": true
       },
       {
         "option": "Laryngo-tracheo-bronchitis",
         "bool": false
       },
       {
-        "option": "Laryngomalacia",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "What is the incision on the tympanic membrane called?",
-    "answers": [
-      {
-        "option": "Tympanoplasty",
-        "bool": false
-      },
-      {
-        "option": "Tympanoplasty",
-        "bool": false
-      },
-      {
-        "option": "Myringotomy",
-        "bool": true
-      },
-      {
-        "option": "Myringoplasty",
-        "bool": false
-      },
-      {
-        "option": "Mastoidectomy",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Frequency and loudness are two properties of sound. Frequency is measured in hertz (Hz). Which of the following frequency ranges most accurately represents the audible frequency for a human being?",
-    "answers": [
-      {
-        "option": "1000 to 10000 Hz",
-        "bool": false
-      },
-      {
-        "option": "10 to 1000 Hz",
-        "bool": false
-      },
-      {
-        "option": "200 to 2000 Hz",
-        "bool": false
-      },
-      {
-        "option": "100 to 10000 Hz",
-        "bool": false
-      },
-      {
-        "option": "20 to 20000 Hz",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 62-year-old male suffering from glottic squamous cell carcinoma comes to your clinic. Fiber optic direct laryngoscopy (FODL) reveals an exophytic growth on the right vocal cord. The right vocal cord is also fixed and immobile. Lymph nodes of the neck are not palpable. What is the tumor stage based on these findings?",
-    "answers": [
-      {
-        "option": "Stage IV B",
-        "bool": false
-      },
-      {
-        "option": "Stage III",
-        "bool": true
-      },
-      {
-        "option": "Stage I",
-        "bool": false
-      },
-      {
-        "option": "Stage IV A",
-        "bool": false
-      },
-      {
-        "option": "Stage II",
+        "option": "Congenital laryngeal web",
         "bool": false
       }
     ]
@@ -758,14 +758,45 @@
   {
     "id": 28,
     "info": "4th-year/otorhinolaryngology/2019",
+    "question": "What is the incision on the tympanic membrane called?",
+    "answers": [
+      {
+        "option": "Myringotomy",
+        "bool": true
+      },
+      {
+        "option": "Tympanoplasty",
+        "bool": false
+      },
+      {
+        "option": "Mastoidectomy",
+        "bool": false
+      },
+      {
+        "option": "Tympanoplasty",
+        "bool": false
+      },
+      {
+        "option": "Myringoplasty",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 36-year-old female presents to her primary care physician with a complaint of difficulty in opening her mouth for the last 6 months. She has a history of chewing betel nuts for the last 10 years. Examination reveals generalized pale mucosa and fibrosis in the oral cavity with angular cheilitis. She does not have cervical lymphadenopathy. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Erythroplakia",
+        "option": "Carcinoma of the oral cavity",
         "bool": false
       },
       {
         "option": "Leukoplakia",
+        "bool": false
+      },
+      {
+        "option": "Erythroplakia",
         "bool": false
       },
       {
@@ -775,18 +806,22 @@
       {
         "option": "Aphthous ulcer",
         "bool": false
-      },
-      {
-        "option": "Carcinoma of the oral cavity",
-        "bool": false
       }
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 24-year-old man presents to the clinic with complaints of severe itching and pain in his right ear. He also complains of pain while opening the mouth. Examination reveals a furuncle located anteriorly on the external auditory canal. Which of the following is the most likely causative organism?",
     "answers": [
+      {
+        "option": "Streptococcus pyogenes",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": false
+      },
       {
         "option": "Staphylococcus aureus",
         "bool": true
@@ -798,19 +833,11 @@
       {
         "option": "Klebsiella pneumoniae",
         "bool": false
-      },
-      {
-        "option": "Streptococcus pyogenes",
-        "bool": false
-      },
-      {
-        "option": "Streptococcus pneumoniae",
-        "bool": false
       }
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following fractures is associated with craniofacial dissociation?",
     "answers": [
@@ -819,52 +846,52 @@
         "bool": false
       },
       {
-        "option": "Le Fort I",
-        "bool": false
+        "option": "Le Fort III",
+        "bool": true
       },
       {
         "option": "Le Fort II",
         "bool": false
-      },
-      {
-        "option": "Le Fort III",
-        "bool": true
       },
       {
         "option": "Class 3",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following facial fractures is characterized by step deformity of the infraorbital margin?",
-    "answers": [
-      {
-        "option": "Tripod",
-        "bool": true
-      },
-      {
-        "option": "Le Fort II",
-        "bool": false
       },
       {
         "option": "Le Fort I",
-        "bool": false
-      },
-      {
-        "option": "Le Fort III",
-        "bool": false
-      },
-      {
-        "option": "Naso-orbital",
         "bool": false
       }
     ]
   },
   {
     "id": 32,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following facial fractures is characterized by step deformity of the infraorbital margin?",
+    "answers": [
+      {
+        "option": "Naso-orbital",
+        "bool": false
+      },
+      {
+        "option": "Tripod",
+        "bool": true
+      },
+      {
+        "option": "Le Fort III",
+        "bool": false
+      },
+      {
+        "option": "Le Fort I",
+        "bool": false
+      },
+      {
+        "option": "Le Fort II",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "'Hot potato voice' is seen in which of the following conditions?",
     "answers": [
@@ -873,11 +900,11 @@
         "bool": false
       },
       {
-        "option": "Peritonsillar abscess",
-        "bool": true
+        "option": "Parapharyngeal abscess",
+        "bool": false
       },
       {
-        "option": "Parapharyngeal abscess",
+        "option": "Acute adenoiditis",
         "bool": false
       },
       {
@@ -885,16 +912,20 @@
         "bool": false
       },
       {
-        "option": "Acute adenoiditis",
-        "bool": false
+        "option": "Peritonsillar abscess",
+        "bool": true
       }
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 10-year-old boy is brought to the clinic because of a 1-week history of pain while swallowing and decreased mouth opening. The boy also has an ongoing dental infection. Oral examination reveals that the tongue is lifted upwards and backward. Which of the following is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Parapharyngeal abscess",
+        "bool": false
+      },
       {
         "option": "Quinsy",
         "bool": false
@@ -904,34 +935,49 @@
         "bool": false
       },
       {
-        "option": "Ludwig's angina",
-        "bool": true
-      },
-      {
-        "option": "Parapharyngeal abscess",
+        "option": "Parotid abscess",
         "bool": false
       },
       {
-        "option": "Parotid abscess",
+        "option": "Ludwig's angina",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is the most common presenting feature of glottic cancer?",
+    "answers": [
+      {
+        "option": "Weight loss",
+        "bool": false
+      },
+      {
+        "option": "Stridor",
+        "bool": false
+      },
+      {
+        "option": "Hoarseness",
+        "bool": true
+      },
+      {
+        "option": "Halitosis",
+        "bool": false
+      },
+      {
+        "option": "Laryngeal obstruction",
         "bool": false
       }
     ]
   },
   {
-    "id": 34,
+    "id": 36,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 40-year-old woman undergoes a subtotal thyroidectomy. On her fourth postoperative day, her voice appears to be weak and she is unable tor raise her pitch. Laryngeal examination reveals that the right vocal cord is shortened and the glottis is askew. Which of the following nerve injuries is the most likely cause?",
     "answers": [
       {
         "option": "Bilateral superior laryngeal nerve injury",
-        "bool": false
-      },
-      {
-        "option": "Unilateral recurrent laryngeal nerve injury",
-        "bool": false
-      },
-      {
-        "option": "Combined superior laryngeal and recurrent laryngeal nerve injury",
         "bool": false
       },
       {
@@ -941,59 +987,13 @@
       {
         "option": "Bilateral recurrent laryngeal nerve injury",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 50-year-old man presents to the clinic because of a 2-month history of hoarseness. He has a 10 pack-year history of smoking. Fiberoptic laryngoscopy reveals a horseshoe-shaped ulcerative mass on both vocal cords with normal vocal cord mobility. What is the stage of the tumor?",
-    "answers": [
+      },
       {
-        "option": "Stage T2",
+        "option": "Combined superior laryngeal and recurrent laryngeal nerve injury",
         "bool": false
       },
       {
-        "option": "Stage T1a",
-        "bool": false
-      },
-      {
-        "option": "Stage T4a",
-        "bool": false
-      },
-      {
-        "option": "Stage T3",
-        "bool": false
-      },
-      {
-        "option": "Stage T1b",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which disease is the result of obstruction of the glands on the floor of the mouth?",
-    "answers": [
-      {
-        "option": "Mucocele",
-        "bool": false
-      },
-      {
-        "option": "Ranula",
-        "bool": true
-      },
-      {
-        "option": "Sialadenitis",
-        "bool": false
-      },
-      {
-        "option": "Ludwig angina",
-        "bool": false
-      },
-      {
-        "option": "Apthous ulcer",
+        "option": "Unilateral recurrent laryngeal nerve injury",
         "bool": false
       }
     ]
@@ -1001,26 +1001,26 @@
   {
     "id": 37,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is the site of the antral lavage or proof puncture?",
+    "question": "A 50-year-old man presents to the clinic because of a 2-month history of hoarseness. He has a 10 pack-year history of smoking. Fiberoptic laryngoscopy reveals a horseshoe-shaped ulcerative mass on both vocal cords with normal vocal cord mobility. What is the stage of the tumor?",
     "answers": [
       {
-        "option": "Ethmoid sinus",
+        "option": "Stage T1a",
         "bool": false
       },
       {
-        "option": "Vestibule",
+        "option": "Stage T3",
         "bool": false
       },
       {
-        "option": "Maxillary sinus",
+        "option": "Stage T4a",
+        "bool": false
+      },
+      {
+        "option": "Stage T1b",
         "bool": true
       },
       {
-        "option": "Frontal sinus",
-        "bool": false
-      },
-      {
-        "option": "Sphenoid sinus",
+        "option": "Stage T2",
         "bool": false
       }
     ]
@@ -1028,53 +1028,53 @@
   {
     "id": 38,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Where is the sinus of Morgagni located?",
+    "question": "Which disease is the result of obstruction of the glands on the floor of the mouth?",
     "answers": [
       {
-        "option": "Between the skull base and the apex of the hyoid bone",
+        "option": "Sialadenitis",
         "bool": false
       },
       {
-        "option": "Between the hyoid bone and the floor of the mouth",
+        "option": "Apthous ulcer",
         "bool": false
       },
       {
-        "option": "Between the thyropharyngeus and the cricopharyngeus",
+        "option": "Ludwig angina",
         "bool": false
       },
       {
-        "option": "Between the skull base and the superior constrictor",
+        "option": "Mucocele",
+        "bool": false
+      },
+      {
+        "option": "Ranula",
         "bool": true
-      },
-      {
-        "option": "Between the palatoglossal arch and the palatopharyngeal arch",
-        "bool": false
       }
     ]
   },
   {
     "id": 39,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 4-year-old girl is brought into the clinic by her mother with the complaint of bilateral hearing loss for the last 6 months. She has also been snoring at night. Otoscopy reveals fluid level with air bubbles in both ears along with dull, bluish, and retracted tympanic membranes. What is the most likely diagnosis of this patient?",
+    "question": "Which of the following is the site of the antral lavage or proof puncture?",
     "answers": [
       {
-        "option": "Acute suppurative otitis media",
-        "bool": false
-      },
-      {
-        "option": "Glue ear (otitis media with effusion)",
+        "option": "Maxillary sinus",
         "bool": true
       },
       {
-        "option": "Adhesive otitis media",
+        "option": "Sphenoid sinus",
         "bool": false
       },
       {
-        "option": "Malignant otitis externa",
+        "option": "Frontal sinus",
         "bool": false
       },
       {
-        "option": "Safe type chronic suppurative otitis media",
+        "option": "Vestibule",
+        "bool": false
+      },
+      {
+        "option": "Ethmoid sinus",
         "bool": false
       }
     ]
@@ -1082,65 +1082,46 @@
   {
     "id": 40,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 17-year-old boy is brought to the clinic for the evaluation of recurrent epistaxis and nasal obstruction. Examination reveals a lobulated mass obstructing the left concha. Which of the following is the investigation of choice for this condition?",
+    "question": "Where is the sinus of Morgagni located?",
     "answers": [
       {
-        "option": "Carotid angiography",
+        "option": "Between the palatoglossal arch and the palatopharyngeal arch",
         "bool": false
       },
       {
-        "option": "Flexible endoscopy",
+        "option": "Between the hyoid bone and the floor of the mouth",
         "bool": false
       },
       {
-        "option": "Biopsy",
-        "bool": false
-      },
-      {
-        "option": "Soft tissue lateral radiograph of nasopharynx",
-        "bool": false
-      },
-      {
-        "option": "CT scan of the head with contrast",
+        "option": "Between the skull base and the superior constrictor",
         "bool": true
+      },
+      {
+        "option": "Between the thyropharyngeus and the cricopharyngeus",
+        "bool": false
+      },
+      {
+        "option": "Between the skull base and the apex of the hyoid bone",
+        "bool": false
       }
     ]
   },
   {
     "id": 41,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is the most appropriate treatment for a T3 tumor of the larynx without nodal involvement?",
-    "answers": [
-      {
-        "option": "Endoscopic resection with CO2 laser",
-        "bool": false
-      },
-      {
-        "option": "Conservation surgery",
-        "bool": false
-      },
-      {
-        "option": "Total laryngectomy without neck dissection",
-        "bool": true
-      },
-      {
-        "option": "Total laryngectomy with neck dissection",
-        "bool": false
-      },
-      {
-        "option": "Radiotherapy",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 35-year-old man comes to the clinic with the complaint of sweating over the preauricular sinus whenever he chews food. Several months ago, he had undergone a surgery. Which of the following surgical procedures is most likely to have resulted in this complication?",
     "answers": [
       {
+        "option": "Mastoidectomy",
+        "bool": false
+      },
+      {
         "option": "Parotidectomy",
         "bool": true
+      },
+      {
+        "option": "Tonsillectomy",
+        "bool": false
       },
       {
         "option": "Adenoidectomy",
@@ -1149,13 +1130,32 @@
       {
         "option": "Radical neck dissection",
         "bool": false
-      },
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A 4-year-old girl is brought into the clinic by her mother with the complaint of bilateral hearing loss for the last 6 months. She has also been snoring at night. Otoscopy reveals fluid level with air bubbles in both ears along with dull, bluish, and retracted tympanic membranes. What is the most likely diagnosis of this patient?",
+    "answers": [
       {
-        "option": "Tonsillectomy",
+        "option": "Safe type chronic suppurative otitis media",
         "bool": false
       },
       {
-        "option": "Mastoidectomy",
+        "option": "Glue ear (otitis media with effusion)",
+        "bool": true
+      },
+      {
+        "option": "Acute suppurative otitis media",
+        "bool": false
+      },
+      {
+        "option": "Malignant otitis externa",
+        "bool": false
+      },
+      {
+        "option": "Adhesive otitis media",
         "bool": false
       }
     ]
@@ -1170,7 +1170,7 @@
         "bool": true
       },
       {
-        "option": "Jaw thrust",
+        "option": "Chest compressions",
         "bool": false
       },
       {
@@ -1178,7 +1178,7 @@
         "bool": false
       },
       {
-        "option": "Chest compressions",
+        "option": "Jaw thrust",
         "bool": false
       },
       {
@@ -1190,10 +1190,91 @@
   {
     "id": 44,
     "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A 17-year-old boy is brought to the clinic for the evaluation of recurrent epistaxis and nasal obstruction. Examination reveals a lobulated mass obstructing the left concha. Which of the following is the investigation of choice for this condition?",
+    "answers": [
+      {
+        "option": "Soft tissue lateral radiograph of nasopharynx",
+        "bool": false
+      },
+      {
+        "option": "Carotid angiography",
+        "bool": false
+      },
+      {
+        "option": "Biopsy",
+        "bool": false
+      },
+      {
+        "option": "Flexible endoscopy",
+        "bool": false
+      },
+      {
+        "option": "CT scan of the head with contrast",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is the most appropriate treatment for a T3 tumor of the larynx without nodal involvement?",
+    "answers": [
+      {
+        "option": "Endoscopic resection with CO2 laser",
+        "bool": false
+      },
+      {
+        "option": "Total laryngectomy with neck dissection",
+        "bool": false
+      },
+      {
+        "option": "Total laryngectomy without neck dissection",
+        "bool": true
+      },
+      {
+        "option": "Radiotherapy",
+        "bool": false
+      },
+      {
+        "option": "Conservation surgery",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A neonate of one day of age has recurrent cyanosis and breathing difficulty. A mucoid discharge is noted inside the nasal cavity. Doctors suspect an upper respiratory tract infection, but there is no stridor or fever. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Acute epiglottitis",
+        "bool": false
+      },
+      {
+        "option": "Laryngomalacia",
+        "bool": false
+      },
+      {
+        "option": "Unilateral choanal atresia",
+        "bool": false
+      },
+      {
+        "option": "Bilateral choanal atresia",
+        "bool": true
+      },
+      {
+        "option": "Nasal synechia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "4th-year/otorhinolaryngology/2019",
     "question": "A myringotomy is to be performed in an individual with acute suppurative otitis media. Where should the incision be given in the tympanic membrane?",
     "answers": [
       {
-        "option": "On the tympanic annulus",
+        "option": "Posterosuperior quadrant",
         "bool": false
       },
       {
@@ -1205,7 +1286,7 @@
         "bool": true
       },
       {
-        "option": "Posterosuperior quadrant",
+        "option": "On the tympanic annulus",
         "bool": false
       },
       {
@@ -1215,20 +1296,43 @@
     ]
   },
   {
-    "id": 45,
+    "id": 48,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A school van driver presents to the clinic with a 4-month history of paroxysmal sneezing, runny nose, and watery eyes, precipitated by smoke and dust. A diagnosis of allergic rhinitis is made. Which antihistamine would be best for him?",
+    "answers": [
+      {
+        "option": "Promethazine",
+        "bool": false
+      },
+      {
+        "option": "Chlorpheniramine",
+        "bool": false
+      },
+      {
+        "option": "Loratadine",
+        "bool": true
+      },
+      {
+        "option": "Diphenhydramine",
+        "bool": false
+      },
+      {
+        "option": "Meclizine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following is not a component of the middle ear cleft?",
     "answers": [
       {
-        "option": "Malleus",
-        "bool": false
+        "option": "Utricle",
+        "bool": true
       },
       {
         "option": "Stapes",
-        "bool": false
-      },
-      {
-        "option": "Antrum",
         "bool": false
       },
       {
@@ -1236,13 +1340,98 @@
         "bool": false
       },
       {
-        "option": "Utricle",
-        "bool": true
+        "option": "Antrum",
+        "bool": false
+      },
+      {
+        "option": "Malleus",
+        "bool": false
       }
     ]
   },
   {
-    "id": 46,
+    "id": 50,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "In noise-induced hearing loss, a typical frequency dip occurs at which of the following frequencies?",
+    "answers": [
+      {
+        "option": "4000 Hz",
+        "bool": true
+      },
+      {
+        "option": "1500 Hz",
+        "bool": false
+      },
+      {
+        "option": "3000 Hz",
+        "bool": false
+      },
+      {
+        "option": "2000 Hz",
+        "bool": false
+      },
+      {
+        "option": "1000 Hz",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is the primary aim of the surgery in chronic suppurative otitis media?",
+    "answers": [
+      {
+        "option": "Repair the perforation",
+        "bool": false
+      },
+      {
+        "option": "Prevent the development of cholesteatoma",
+        "bool": false
+      },
+      {
+        "option": "Preserve hearing",
+        "bool": false
+      },
+      {
+        "option": "Make the ear safe",
+        "bool": true
+      },
+      {
+        "option": "Restore the hearing mechanism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following nerves pass through the internal acoustic meatus?",
+    "answers": [
+      {
+        "option": "Glossopharyngeal and trigeminal",
+        "bool": false
+      },
+      {
+        "option": "Facial and vestibulocochlear",
+        "bool": true
+      },
+      {
+        "option": "Glossopharyngeal and vagus",
+        "bool": false
+      },
+      {
+        "option": "Facial and trigeminal",
+        "bool": false
+      },
+      {
+        "option": "Vagus and trigeminal",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 53,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following structures forms part of the nasal septum?",
     "answers": [
@@ -1251,16 +1440,16 @@
         "bool": false
       },
       {
-        "option": "Perpendicular plate of ethmoid",
-        "bool": true
+        "option": "Cribriform plate of ethmoid",
+        "bool": false
       },
       {
         "option": "Horizontal part of palatine bone",
         "bool": false
       },
       {
-        "option": "Cribriform plate of ethmoid",
-        "bool": false
+        "option": "Perpendicular plate of ethmoid",
+        "bool": true
       },
       {
         "option": "Palatine process of maxilla",
@@ -1269,16 +1458,16 @@
     ]
   },
   {
-    "id": 47,
+    "id": 54,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following surgical approaches is used to reach the frontal sinus in chronic sinusitis?",
     "answers": [
       {
-        "option": "Caldwell\u2013Luc operation",
+        "option": "Young operation",
         "bool": false
       },
       {
-        "option": "Young operation",
+        "option": "Caldwell–Luc operation",
         "bool": false
       },
       {
@@ -1296,20 +1485,43 @@
     ]
   },
   {
-    "id": 48,
+    "id": 55,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which is true regarding pre-malignant lesions of the oral cavity?",
+    "answers": [
+      {
+        "option": "Erythroplakia is more common in males",
+        "bool": false
+      },
+      {
+        "option": "Erythroplakia is 17 times more malignant than leukoplakia",
+        "bool": true
+      },
+      {
+        "option": "Lateral border of tongue is the most common involved site in erythroplakia",
+        "bool": false
+      },
+      {
+        "option": "Leukoplakia is more malignant than erythroplakia",
+        "bool": false
+      },
+      {
+        "option": "Leukoplakia is a red erythematous patch",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following is true regarding mucoepidermoid carcinoma?",
     "answers": [
       {
-        "option": "Greater the epidermoid component, the more malignant the tumor",
-        "bool": true
-      },
-      {
-        "option": "It is treated by radical parotidectomy",
+        "option": "It is aggressive and highly metastatic",
         "bool": false
       },
       {
-        "option": "Greater the mucoid component, the more malignant the tumor",
+        "option": "It is treated by radical parotidectomy",
         "bool": false
       },
       {
@@ -1317,30 +1529,34 @@
         "bool": false
       },
       {
-        "option": "It is aggressive and highly metastatic",
+        "option": "Greater the epidermoid component, the more malignant the tumor",
+        "bool": true
+      },
+      {
+        "option": "Greater the mucoid component, the more malignant the tumor",
         "bool": false
       }
     ]
   },
   {
-    "id": 49,
+    "id": 57,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following are the parts of the hypopharynx?",
     "answers": [
-      {
-        "option": "Postcricoid region and pyriform fossa",
-        "bool": false
-      },
-      {
-        "option": "Precricoid region, posterior pharyngeal wall, pyriform fossa",
-        "bool": false
-      },
       {
         "option": "Postcricoid region, posterior pharyngeal wall, pyriform fossa",
         "bool": true
       },
       {
+        "option": "Postcricoid region and pyriform fossa",
+        "bool": false
+      },
+      {
         "option": "Precricoid region, posterior pharyngeal wall, pyriform fossa and posterior 1/3rd tongue",
+        "bool": false
+      },
+      {
+        "option": "Precricoid region, posterior pharyngeal wall, pyriform fossa",
         "bool": false
       },
       {
@@ -1350,182 +1566,12 @@
     ]
   },
   {
-    "id": 50,
+    "id": 58,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A neonate of one day of age has recurrent cyanosis and breathing difficulty. A mucoid discharge is noted inside the nasal cavity. Doctors suspect an upper respiratory tract infection, but there is no stridor or fever. Which of the following is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Nasal synechia",
-        "bool": false
-      },
-      {
-        "option": "Laryngomalacia",
-        "bool": false
-      },
-      {
-        "option": "Acute epiglottitis",
-        "bool": false
-      },
-      {
-        "option": "Bilateral choanal atresia",
-        "bool": true
-      },
-      {
-        "option": "Unilateral choanal atresia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A school van driver presents to the clinic with a 4-month history of paroxysmal sneezing, runny nose, and watery eyes, precipitated by smoke and dust. A diagnosis of allergic rhinitis is made. Which antihistamine would be best for him?",
-    "answers": [
-      {
-        "option": "Promethazine",
-        "bool": false
-      },
-      {
-        "option": "Loratadine",
-        "bool": true
-      },
-      {
-        "option": "Meclizine",
-        "bool": false
-      },
-      {
-        "option": "Chlorpheniramine",
-        "bool": false
-      },
-      {
-        "option": "Diphenhydramine",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "In noise-induced hearing loss, a typical frequency dip occurs at which of the following frequencies?",
-    "answers": [
-      {
-        "option": "2000 Hz",
-        "bool": false
-      },
-      {
-        "option": "1000 Hz",
-        "bool": false
-      },
-      {
-        "option": "1500 Hz",
-        "bool": false
-      },
-      {
-        "option": "4000 Hz",
-        "bool": true
-      },
-      {
-        "option": "3000 Hz",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is the primary aim of the surgery in chronic suppurative otitis media?",
-    "answers": [
-      {
-        "option": "Prevent the development of cholesteatoma",
-        "bool": false
-      },
-      {
-        "option": "Restore the hearing mechanism",
-        "bool": false
-      },
-      {
-        "option": "Repair the perforation",
-        "bool": false
-      },
-      {
-        "option": "Preserve hearing",
-        "bool": false
-      },
-      {
-        "option": "Make the ear safe",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following nerves pass through the internal acoustic meatus?",
-    "answers": [
-      {
-        "option": "Glossopharyngeal and trigeminal",
-        "bool": false
-      },
-      {
-        "option": "Glossopharyngeal and vagus",
-        "bool": false
-      },
-      {
-        "option": "Facial and vestibulocochlear",
-        "bool": true
-      },
-      {
-        "option": "Vagus and trigeminal",
-        "bool": false
-      },
-      {
-        "option": "Facial and trigeminal",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which is true regarding pre-malignant lesions of the oral cavity?",
-    "answers": [
-      {
-        "option": "Leukoplakia is a red erythematous patch",
-        "bool": false
-      },
-      {
-        "option": "Leukoplakia is more malignant than erythroplakia",
-        "bool": false
-      },
-      {
-        "option": "Lateral border of tongue is the most common involved site in erythroplakia",
-        "bool": false
-      },
-      {
-        "option": "Erythroplakia is more common in males",
-        "bool": false
-      },
-      {
-        "option": "Erythroplakia is 17 times more malignant than leukoplakia",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 12-year-old girl is brought to the clinic with complaints of sore throat, coughs, low-grade fever, and malaise for 5 days. Upon general inspection, the child looks ill and lethargic. Vital signs show a temperature of 101 \u00b0F (37 \u00b0C), a heart rate of 88 beats per minute, and a thready pulse. Oral and throat examinations revealed a thick grey membrane adherent on the faucial tonsils and soft palate. A tongue depressor is used to scrape this membrane resulting in bleeding. Lymph nodes in the jugulodigastric region are palpable. A throat swab is taken and sent for culture. What is the best step in the management of this child's condition?",
+    "question": "A 12-year-old girl is brought to the clinic with complaints of sore throat, coughs, low-grade fever, and malaise for 5 days. Upon general inspection, the child looks ill and lethargic. Vital signs show a temperature of 101 °F (37 °C), a heart rate of 88 beats per minute, and a thready pulse. Oral and throat examinations revealed a thick grey membrane adherent on the faucial tonsils and soft palate. A tongue depressor is used to scrape this membrane resulting in bleeding. Lymph nodes in the jugulodigastric region are palpable. A throat swab is taken and sent for culture. What is the best step in the management of this child's condition?",
     "answers": [
       {
         "option": "Antitoxin and anti-tetanus serum",
-        "bool": false
-      },
-      {
-        "option": "Hospitalization, IV fluids, antitoxin, and emergency tonsillectomy",
-        "bool": false
-      },
-      {
-        "option": "Antitoxin only in the clinic",
         "bool": false
       },
       {
@@ -1533,18 +1579,34 @@
         "bool": false
       },
       {
+        "option": "Hospitalization, IV fluids, antitoxin, and emergency tonsillectomy",
+        "bool": false
+      },
+      {
         "option": "Hospitalization, IV fluids, and antitoxin",
         "bool": true
+      },
+      {
+        "option": "Antitoxin only in the clinic",
+        "bool": false
       }
     ]
   },
   {
-    "id": 57,
+    "id": 59,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A trumpet player presents with hoarseness and a swelling in the neck which increases in size on coughing and on performing the Valsalva maneuver. Which of the following is the most likely diagnosis?",
     "answers": [
       {
+        "option": "Laryngocele",
+        "bool": true
+      },
+      {
         "option": "Adult-onset papilloma",
+        "bool": false
+      },
+      {
+        "option": "Reinke's edema",
         "bool": false
       },
       {
@@ -1554,28 +1616,20 @@
       {
         "option": "Vocal nodule",
         "bool": false
-      },
-      {
-        "option": "Laryngocele",
-        "bool": true
-      },
-      {
-        "option": "Reinke's edema",
-        "bool": false
       }
     ]
   },
   {
-    "id": 58,
+    "id": 60,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Killian's dehiscence is a potential weak space for the formation of the pharyngeal pouch. Where is it found?",
     "answers": [
       {
-        "option": "Between the base of the skull and the superior constrictor muscle",
+        "option": "Between the upper and lower borders of the cricoid lamina",
         "bool": false
       },
       {
-        "option": "Between the upper and lower borders of the cricoid lamina",
+        "option": "Between the base of the skull and the superior constrictor muscle",
         "bool": false
       },
       {
@@ -1593,7 +1647,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 61,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 40-year-old man has a cystic, fluctuant mass of bluish color on the inner side of his lower lip. Which of the following is the most likely diagnosis?",
     "answers": [
@@ -1602,7 +1656,7 @@
         "bool": true
       },
       {
-        "option": "Hemangioma",
+        "option": "Dermoid",
         "bool": false
       },
       {
@@ -1610,7 +1664,7 @@
         "bool": false
       },
       {
-        "option": "Dermoid",
+        "option": "Hemangioma",
         "bool": false
       },
       {
@@ -1620,10 +1674,18 @@
     ]
   },
   {
-    "id": 60,
+    "id": 62,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "An 18-year-old boy presents to the emergency room bleeding profusely from the front of his nose. Bleeding does not stop on pinching the nose for five minutes. The site of the bleed cannot be localized. Which of the following should be the next step in management?",
     "answers": [
+      {
+        "option": "Endoscopic cautery",
+        "bool": false
+      },
+      {
+        "option": "Posterior nasal packing",
+        "bool": false
+      },
       {
         "option": "Ligation of maxillary artery",
         "bool": false
@@ -1633,24 +1695,24 @@
         "bool": false
       },
       {
-        "option": "Posterior nasal packing",
-        "bool": false
-      },
-      {
-        "option": "Endoscopic cautery",
-        "bool": false
-      },
-      {
         "option": "Anterior nasal packing",
         "bool": true
       }
     ]
   },
   {
-    "id": 61,
+    "id": 63,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "The endolymph is rich in which of the following ions?",
     "answers": [
+      {
+        "option": "Ca++",
+        "bool": false
+      },
+      {
+        "option": "Na+",
+        "bool": false
+      },
       {
         "option": "HCO3-",
         "bool": false
@@ -1660,21 +1722,13 @@
         "bool": false
       },
       {
-        "option": "Na+",
-        "bool": false
-      },
-      {
-        "option": "Ca++",
-        "bool": false
-      },
-      {
         "option": "K+",
         "bool": true
       }
     ]
   },
   {
-    "id": 62,
+    "id": 64,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 45-year-old woman who was previously diagnosed with iron deficiency anemia now complains of difficulty in swallowing. What is the most probably diagnosis?",
     "answers": [
@@ -1683,7 +1737,11 @@
         "bool": true
       },
       {
-        "option": "Cardiac achalasia",
+        "option": "Scleroderma",
+        "bool": false
+      },
+      {
+        "option": "Globus pharyngeus",
         "bool": false
       },
       {
@@ -1691,17 +1749,13 @@
         "bool": false
       },
       {
-        "option": "Scleroderma",
-        "bool": false
-      },
-      {
-        "option": "Globus pharyngeus",
+        "option": "Cardiac achalasia",
         "bool": false
       }
     ]
   },
   {
-    "id": 63,
+    "id": 65,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A 65-year-old woman comes to the clinic with a 2-month history of difficulty in swallowing after taking 2-3 bites. She also complains of hearing a gurgling sound on swallowing and regurgitation of food contents at night. What is the most likely diagnosis?",
     "answers": [
@@ -1714,11 +1768,11 @@
         "bool": true
       },
       {
-        "option": "Esophageal carcinoma",
+        "option": "Eagle syndrome",
         "bool": false
       },
       {
-        "option": "Eagle syndrome",
+        "option": "Esophageal carcinoma",
         "bool": false
       },
       {
@@ -1728,12 +1782,20 @@
     ]
   },
   {
-    "id": 64,
+    "id": 66,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "A barium swallow study is used for the evaluation of which of the following conditions?",
     "answers": [
       {
         "option": "Small bowel obstruction",
+        "bool": false
+      },
+      {
+        "option": "Laryngeal pralysis",
+        "bool": false
+      },
+      {
+        "option": "Thyroid disorder",
         "bool": false
       },
       {
@@ -1743,298 +1805,16 @@
       {
         "option": "Colorectal disease",
         "bool": false
-      },
-      {
-        "option": "Thyroid disorder",
-        "bool": false
-      },
-      {
-        "option": "Laryngeal pralysis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following structures forms the promontory in the middle ear cavity?",
-    "answers": [
-      {
-        "option": "Basal coil of the cochlea",
-        "bool": true
-      },
-      {
-        "option": "Bulge of the petrous bone",
-        "bool": false
-      },
-      {
-        "option": "Lateral process of the malleus",
-        "bool": false
-      },
-      {
-        "option": "Apical coil of the cochlea",
-        "bool": false
-      },
-      {
-        "option": "Head of the incus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "What is the normal constituent of the mastoid antrum?",
-    "answers": [
-      {
-        "option": "Water",
-        "bool": false
-      },
-      {
-        "option": "Air cells",
-        "bool": true
-      },
-      {
-        "option": "Cerebrospinal fluid",
-        "bool": false
-      },
-      {
-        "option": "Endolymph",
-        "bool": false
-      },
-      {
-        "option": "Wax",
-        "bool": false
       }
     ]
   },
   {
     "id": 67,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 16-year-old boy is brought to the clinic for the evaluation of recurrent, bilateral profuse epistaxis and nasal obstruction. There is no history of recent trauma. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Nasopharyngeal carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Septal perforation",
-        "bool": false
-      },
-      {
-        "option": "Juvenile nasopharyngeal angiofibroma",
-        "bool": true
-      },
-      {
-        "option": "Adenoiditis",
-        "bool": false
-      },
-      {
-        "option": "Deviated nasal septum",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 25-year-old Caucasian woman comes to the clinic for evaluation of bilateral, conductive, complete deafness, which started as decreased hearing a year ago and got worse during her pregnancy. There is no history of ear discharge, but she complains of ringing in the ears occasionally. Her brother has also suffered from the same problem for 3 years. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Otitis media with effusion",
-        "bool": false
-      },
-      {
-        "option": "Presbyacusis",
-        "bool": false
-      },
-      {
-        "option": "Otosclerosis",
-        "bool": true
-      },
-      {
-        "option": "M\u00e9ni\u00e8re\u2019s disease",
-        "bool": false
-      },
-      {
-        "option": "Chronic suppurative otitis media",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is the most common cause of acute follicular tonsillitis?",
-    "answers": [
-      {
-        "option": "Hemophilus influenzae",
-        "bool": false
-      },
-      {
-        "option": "Streptococcus pneumoniae",
-        "bool": false
-      },
-      {
-        "option": "Escherichia coli",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus aureus",
-        "bool": false
-      },
-      {
-        "option": "Streptococcus pyogenes",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is true regarding sinonasal polyps?",
-    "answers": [
-      {
-        "option": "Allergy may cause an antrochoanal polyp",
-        "bool": false
-      },
-      {
-        "option": "Antrochoanal polyp have 2 parts",
-        "bool": false
-      },
-      {
-        "option": "Ethmoidal polyp are multiple and bilateral",
-        "bool": true
-      },
-      {
-        "option": "Caldwell-Luc's operation is used to treat them",
-        "bool": false
-      },
-      {
-        "option": "Ethmoidal polyp are common in children",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is the gold standard investigation for detecting the site of defect in cerebrospinal fluid (CSF) rhinorrhea?",
-    "answers": [
-      {
-        "option": "X-ray",
-        "bool": false
-      },
-      {
-        "option": "Nasal endoscopy",
-        "bool": false
-      },
-      {
-        "option": "Computed tomography (CT) cisternography",
-        "bool": true
-      },
-      {
-        "option": "Intrathecal fluorescein study",
-        "bool": false
-      },
-      {
-        "option": "Magnetic resonance imaging (MRI)",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is not true regarding the bony labyrinth?",
-    "answers": [
-      {
-        "option": "It contains three compartments; scala vestibuli, scala media, and scala tympani",
-        "bool": true
-      },
-      {
-        "option": "Three semicircular canals open into the vestibule by five openings",
-        "bool": false
-      },
-      {
-        "option": "The central chamber is vestibule",
-        "bool": false
-      },
-      {
-        "option": "Bony cochlea winds around pyramid of bone called modiolus",
-        "bool": false
-      },
-      {
-        "option": "It consists of the vestibule, the semicircular canals and the cochlea",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following instruments can be used for the removal of a foreign body from the nose?",
-    "answers": [
-      {
-        "option": "Wilde\u2019s dressing forceps",
-        "bool": false
-      },
-      {
-        "option": "Luc\u2019s forceps",
-        "bool": false
-      },
-      {
-        "option": "Lempert\u2019s curette",
-        "bool": false
-      },
-      {
-        "option": "Sickle knife",
-        "bool": false
-      },
-      {
-        "option": "Tilley's forceps",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "4th-year/otorhinolaryngology/2019",
-    "question": "A 60-year-old man presents with stridor secondary to laryngeal carcinoma. He has a history of chronic smoking for the past 30 years. Which of the following types of tracheostomy would be indicated in this case?",
-    "answers": [
-      {
-        "option": "Dilatational tracheostomy",
-        "bool": false
-      },
-      {
-        "option": "Mid tracheostomy",
-        "bool": false
-      },
-      {
-        "option": "High tracheostomy",
-        "bool": true
-      },
-      {
-        "option": "Low tracheostomy",
-        "bool": false
-      },
-      {
-        "option": "Mini tracheostomy",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following conditions are included in the triad of Behcet disease?",
     "answers": [
       {
         "option": "Facial paralysis, swelling of lips, and fissured tongue",
-        "bool": false
-      },
-      {
-        "option": "Dysphagia, iron-deficiency anemia, and esophageal webs",
         "bool": false
       },
       {
@@ -2046,16 +1826,132 @@
         "bool": true
       },
       {
+        "option": "Dysphagia, iron-deficiency anemia, and esophageal webs",
+        "bool": false
+      },
+      {
         "option": "Conjunctivitis, urethritis, and arthritis",
         "bool": false
       }
     ]
   },
   {
-    "id": 76,
+    "id": 68,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following structures forms the promontory in the middle ear cavity?",
+    "answers": [
+      {
+        "option": "Bulge of the petrous bone",
+        "bool": false
+      },
+      {
+        "option": "Basal coil of the cochlea",
+        "bool": true
+      },
+      {
+        "option": "Head of the incus",
+        "bool": false
+      },
+      {
+        "option": "Lateral process of the malleus",
+        "bool": false
+      },
+      {
+        "option": "Apical coil of the cochlea",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "What is the normal constituent of the mastoid antrum?",
+    "answers": [
+      {
+        "option": "Air cells",
+        "bool": true
+      },
+      {
+        "option": "Water",
+        "bool": false
+      },
+      {
+        "option": "Endolymph",
+        "bool": false
+      },
+      {
+        "option": "Cerebrospinal fluid",
+        "bool": false
+      },
+      {
+        "option": "Wax",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A 16-year-old boy is brought to the clinic for the evaluation of recurrent, bilateral profuse epistaxis and nasal obstruction. There is no history of recent trauma. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Deviated nasal septum",
+        "bool": false
+      },
+      {
+        "option": "Nasopharyngeal carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Adenoiditis",
+        "bool": false
+      },
+      {
+        "option": "Septal perforation",
+        "bool": false
+      },
+      {
+        "option": "Juvenile nasopharyngeal angiofibroma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "A 25-year-old Caucasian woman comes to the clinic for evaluation of bilateral, conductive, complete deafness, which started as decreased hearing a year ago and got worse during her pregnancy. There is no history of ear discharge, but she complains of ringing in the ears occasionally. Her brother has also suffered from the same problem for 3 years. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Ménière’s disease",
+        "bool": false
+      },
+      {
+        "option": "Chronic suppurative otitis media",
+        "bool": false
+      },
+      {
+        "option": "Presbyacusis",
+        "bool": false
+      },
+      {
+        "option": "Otosclerosis",
+        "bool": true
+      },
+      {
+        "option": "Otitis media with effusion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 72,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following vertebral levels is the most common site of lodgement of a swallowed foreign body?",
     "answers": [
+      {
+        "option": "C2",
+        "bool": false
+      },
       {
         "option": "C6",
         "bool": true
@@ -2065,30 +1961,80 @@
         "bool": false
       },
       {
-        "option": "C2",
+        "option": "C4",
         "bool": false
       },
       {
         "option": "T4",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is the most common cause of acute follicular tonsillitis?",
+    "answers": [
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
       },
       {
-        "option": "C4",
+        "option": "Escherichia coli",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pyogenes",
+        "bool": true
+      },
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": false
+      },
+      {
+        "option": "Hemophilus influenzae",
         "bool": false
       }
     ]
   },
   {
-    "id": 77,
+    "id": 74,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is true regarding sinonasal polyps?",
+    "answers": [
+      {
+        "option": "Ethmoidal polyp are common in children",
+        "bool": false
+      },
+      {
+        "option": "Antrochoanal polyp have 2 parts",
+        "bool": false
+      },
+      {
+        "option": "Caldwell-Luc's operation is used to treat them",
+        "bool": false
+      },
+      {
+        "option": "Allergy may cause an antrochoanal polyp",
+        "bool": false
+      },
+      {
+        "option": "Ethmoidal polyp are multiple and bilateral",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 75,
     "info": "4th-year/otorhinolaryngology/2019",
     "question": "Which of the following is true regarding the surface anatomy of the hypopharynx?",
     "answers": [
       {
-        "option": "It has three parts; pre-cricoid region, posterior wall and pyriform fossa",
+        "option": "It lies opposite the C3-C4 vertebrae",
         "bool": false
       },
       {
-        "option": "It is the middle part of pharynx",
+        "option": "It has three parts; pre-cricoid region, posterior wall and pyriform fossa",
         "bool": false
       },
       {
@@ -2096,11 +2042,65 @@
         "bool": false
       },
       {
+        "option": "It is the middle part of pharynx",
+        "bool": false
+      },
+      {
         "option": "It extends from the hyoid bone to the level of cricoarytenoid joint",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is the gold standard investigation for detecting the site of defect in cerebrospinal fluid (CSF) rhinorrhea?",
+    "answers": [
+      {
+        "option": "Magnetic resonance imaging (MRI)",
+        "bool": false
+      },
+      {
+        "option": "Nasal endoscopy",
+        "bool": false
+      },
+      {
+        "option": "Intrathecal fluorescein study",
+        "bool": false
+      },
+      {
+        "option": "Computed tomography (CT) cisternography",
         "bool": true
       },
       {
-        "option": "It lies opposite the C3-C4 vertebrae",
+        "option": "X-ray",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "4th-year/otorhinolaryngology/2019",
+    "question": "Which of the following is not true regarding the bony labyrinth?",
+    "answers": [
+      {
+        "option": "Three semicircular canals open into the vestibule by five openings",
+        "bool": false
+      },
+      {
+        "option": "Bony cochlea winds around pyramid of bone called modiolus",
+        "bool": false
+      },
+      {
+        "option": "It contains three compartments; scala vestibuli, scala media, and scala tympani",
+        "bool": true
+      },
+      {
+        "option": "The central chamber is vestibule",
+        "bool": false
+      },
+      {
+        "option": "It consists of the vestibule, the semicircular canals and the cochlea",
         "bool": false
       }
     ]
@@ -2108,53 +2108,53 @@
   {
     "id": 78,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "Which of the following is the most common presenting feature of glottic cancer?",
+    "question": "Which of the following instruments can be used for the removal of a foreign body from the nose?",
     "answers": [
       {
-        "option": "Laryngeal obstruction",
+        "option": "Luc’s forceps",
         "bool": false
       },
       {
-        "option": "Hoarseness",
+        "option": "Sickle knife",
+        "bool": false
+      },
+      {
+        "option": "Lempert’s curette",
+        "bool": false
+      },
+      {
+        "option": "Wilde’s dressing forceps",
+        "bool": false
+      },
+      {
+        "option": "Tilley's forceps",
         "bool": true
-      },
-      {
-        "option": "Stridor",
-        "bool": false
-      },
-      {
-        "option": "Halitosis",
-        "bool": false
-      },
-      {
-        "option": "Weight loss",
-        "bool": false
       }
     ]
   },
   {
     "id": 79,
     "info": "4th-year/otorhinolaryngology/2019",
-    "question": "When performing surgery for mastoiditis, what landmark will be used as the place to start drilling?",
+    "question": "A 60-year-old man presents with stridor secondary to laryngeal carcinoma. He has a history of chronic smoking for the past 30 years. Which of the following types of tracheostomy would be indicated in this case?",
     "answers": [
       {
-        "option": "Post-auricular sulcus",
+        "option": "Low tracheostomy",
         "bool": false
       },
       {
-        "option": "Promontory",
+        "option": "Mid tracheostomy",
         "bool": false
       },
       {
-        "option": "Posterior meatal wall",
+        "option": "Dilatational tracheostomy",
         "bool": false
       },
       {
-        "option": "Facial recess",
+        "option": "Mini tracheostomy",
         "bool": false
       },
       {
-        "option": "MacEwen's triangle",
+        "option": "High tracheostomy",
         "bool": true
       }
     ]

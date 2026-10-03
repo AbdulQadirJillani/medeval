@@ -1,0 +1,893 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 25-year-old female with Polycystic ovary syndrome (PCOS) presents to you in a clinic. She is already taking medications for PCOS and wants contraception for 12 months. What will be the appropriate method of contraception for her?",
+    "answers": [
+      {
+        "option": "Injectable progesterone",
+        "bool": false
+      },
+      {
+        "option": "levonorgestrel (LNG) intrauterine device",
+        "bool": false
+      },
+      {
+        "option": "Oral progesterone",
+        "bool": false
+      },
+      {
+        "option": "Copper intra-uterine contraceptive device (IUCD)",
+        "bool": false
+      },
+      {
+        "option": "Combined oral contraceptive pills (COCP)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/gynecology/2018",
+    "question": "A semen analysis report of a 35-year-old male is received for infertility evaluation and the results of the routine analysis are, Volume: 1.2ml, Motility: 12%, Morphology: 4%, Sperm count: 10 million/ ml. Which parameters are abnormal in this case?",
+    "answers": [
+      {
+        "option": "Volume and morphology",
+        "bool": false
+      },
+      {
+        "option": "Volume, sperm count and motility",
+        "bool": true
+      },
+      {
+        "option": "Volume and sperm count",
+        "bool": false
+      },
+      {
+        "option": "Volume only",
+        "bool": false
+      },
+      {
+        "option": "Motility, morphology and sperm count",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the diagnosis for an 18-year-old patient with primary amenorrhea who has developed secondary sexual characteristics and has a normal ovary but no uterus?",
+    "answers": [
+      {
+        "option": "Rokitansky syndrome",
+        "bool": true
+      },
+      {
+        "option": "Congenital adrenal hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "XY gonadal dysgensis",
+        "bool": false
+      },
+      {
+        "option": "Polycystic ovarian syndrome",
+        "bool": false
+      },
+      {
+        "option": "Turner syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/gynecology/2018",
+    "question": "What should be done after three attempts at ovulation induction with clomiphene?",
+    "answers": [
+      {
+        "option": "Gonadotrophins",
+        "bool": true
+      },
+      {
+        "option": "Progesterone analogues",
+        "bool": false
+      },
+      {
+        "option": "Intrauterine insemination",
+        "bool": false
+      },
+      {
+        "option": "In vitro fertilization",
+        "bool": false
+      },
+      {
+        "option": "Combined oral contraceptive pills (COCP)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/gynecology/2018",
+    "question": "Dysmenorrhea is a medical condition characterized by severe cramps, pain, and discomfort during menstruation. What is the initial medical approach for dealing with the symptoms of dysmenorrhea?",
+    "answers": [
+      {
+        "option": "LNG-IUS",
+        "bool": false
+      },
+      {
+        "option": "Uterine artery embolization",
+        "bool": false
+      },
+      {
+        "option": "NSAIDs",
+        "bool": true
+      },
+      {
+        "option": "High dose SSRIs",
+        "bool": false
+      },
+      {
+        "option": "Life style modification",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the evidence-based approach to managing threatened miscarriage?",
+    "answers": [
+      {
+        "option": "Manual vacuum aspiration",
+        "bool": false
+      },
+      {
+        "option": "Dilation and curettage",
+        "bool": false
+      },
+      {
+        "option": "Dilation and evacuation",
+        "bool": false
+      },
+      {
+        "option": "Give prostaglandin E",
+        "bool": false
+      },
+      {
+        "option": "Supportive",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the appropriate treatment for a 55-year-old female with vaginal dryness and dyspareunia with a positive family history of thrombophilia?",
+    "answers": [
+      {
+        "option": "Steroids",
+        "bool": false
+      },
+      {
+        "option": "Systemic estrogen",
+        "bool": false
+      },
+      {
+        "option": "Vaginal estrogen",
+        "bool": true
+      },
+      {
+        "option": "Gonadotrophins",
+        "bool": false
+      },
+      {
+        "option": "Progesterone only pills",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the recommended treatment for a girl with normal secondary sexual development and delayed puberty who has a blind end vagina on ultrasound?",
+    "answers": [
+      {
+        "option": "Leave it unchanged",
+        "bool": false
+      },
+      {
+        "option": "Dopamine antagonists",
+        "bool": false
+      },
+      {
+        "option": "GnRH analogues",
+        "bool": false
+      },
+      {
+        "option": "Vaginoplasty",
+        "bool": false
+      },
+      {
+        "option": "Vagina lengthening with dilators",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/gynecology/2018",
+    "question": "Ovarian reserve is a term used to describe the number and quality of eggs in a woman's ovaries. What can be used to assess ovarian reserve in cases of subfertility?",
+    "answers": [
+      {
+        "option": "Laparoscopy",
+        "bool": false
+      },
+      {
+        "option": "Anti-Müllerian hormone (AMH)",
+        "bool": true
+      },
+      {
+        "option": "Midluteal progesterone",
+        "bool": false
+      },
+      {
+        "option": "Hysterosalpingography",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the recommended course of action for a patient with ectopic pregnancy, abdominal pain, bleeding, and amenorrhea, where the b-hCG level is lower than 3000 IU/L?",
+    "answers": [
+      {
+        "option": "Salpingectomy",
+        "bool": false
+      },
+      {
+        "option": "Intramuscular methotrexate",
+        "bool": true
+      },
+      {
+        "option": "Oral methotrexate",
+        "bool": false
+      },
+      {
+        "option": "Salpingostomy",
+        "bool": false
+      },
+      {
+        "option": "Wait and observe",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/gynecology/2018",
+    "question": "Hydatidiform mole is an abnormal pregnancy characterized by varying degrees of trophoblastic proliferation. What is the karyotype for a partial mole?",
+    "answers": [
+      {
+        "option": "45,X0",
+        "bool": false
+      },
+      {
+        "option": "47, XXY",
+        "bool": false
+      },
+      {
+        "option": "46,XX",
+        "bool": false
+      },
+      {
+        "option": "69,XXY",
+        "bool": true
+      },
+      {
+        "option": "46,XY",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the best course of action for managing a female with grayish white vaginal discharge with a fishy odour?",
+    "answers": [
+      {
+        "option": "Clindamycin",
+        "bool": true
+      },
+      {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Azithromycin",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/gynecology/2018",
+    "question": "What method would you suggest to a 45-year-old paraplegic woman who has come to a gynecology clinic seeking contraception?",
+    "answers": [
+      {
+        "option": "Progesterone only pills",
+        "bool": false
+      },
+      {
+        "option": "Combined hormonal ring",
+        "bool": false
+      },
+      {
+        "option": "Combined hormonal transdermal patch",
+        "bool": false
+      },
+      {
+        "option": "Combined oral contraceptives",
+        "bool": false
+      },
+      {
+        "option": "Progestogen-releasing intrauterine system (LNG-IUS)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/gynecology/2018",
+    "question": "Which HPV vaccine would be the best choice for a 12-year-old daughter of a mother who is seeking it?",
+    "answers": [
+      {
+        "option": "HPV bivalent vaccine",
+        "bool": false
+      },
+      {
+        "option": "Live vaccine",
+        "bool": false
+      },
+      {
+        "option": "HPV pentavalent vaccine",
+        "bool": false
+      },
+      {
+        "option": "HPV quadrivalent vaccine",
+        "bool": true
+      },
+      {
+        "option": "DTaP combined vaccine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 28-year-old hep C-positive patient with beta-HCG of 1800 comes to your clinic. On ultrasound, there is an unruptured ectopic pregnancy. What is the contraindication for methotrexate in this patient?'",
+    "answers": [
+      {
+        "option": "Beta-Hcg of 1800",
+        "bool": false
+      },
+      {
+        "option": "Unruptured ectopic pregnancy",
+        "bool": false
+      },
+      {
+        "option": "Hepatitis C active infection",
+        "bool": true
+      },
+      {
+        "option": "Age greater than 20",
+        "bool": false
+      },
+      {
+        "option": "Immunodeficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "5th-year/gynecology/2018",
+    "question": "What investigation will you advise for a 35-year-old para 1 woman who has been trying to conceive for 7 years?",
+    "answers": [
+      {
+        "option": "Cone biopsy",
+        "bool": false
+      },
+      {
+        "option": "Hysterosalpingogram",
+        "bool": false
+      },
+      {
+        "option": "Colposcopy",
+        "bool": false
+      },
+      {
+        "option": "Transvaginal ultrasound (TVUSS)",
+        "bool": true
+      },
+      {
+        "option": "3D hysterocontrast synography",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "5th-year/gynecology/2018",
+    "question": "Adenomyosis is a disorder in which endometrial glands and stroma are found deep within the myometrium. What is the recommended treatment for a 48-year-old patient with adenomyosis and a boggy uterus?",
+    "answers": [
+      {
+        "option": "Myomectomy",
+        "bool": false
+      },
+      {
+        "option": "Hysterectomy",
+        "bool": true
+      },
+      {
+        "option": "Combined oral contraceptive pills",
+        "bool": false
+      },
+      {
+        "option": "Gnrh analogues",
+        "bool": false
+      },
+      {
+        "option": "LNG-IUS",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 35-year-old obese female patient comes to you with the complaint of something coming out of her vagina. On examination, it was up to the introitus. What is your diagnosis?",
+    "answers": [
+      {
+        "option": "4th degree prolapse",
+        "bool": false
+      },
+      {
+        "option": "1st degree prolapse",
+        "bool": false
+      },
+      {
+        "option": "Procidentia",
+        "bool": false
+      },
+      {
+        "option": "2nd degree prolapse",
+        "bool": true
+      },
+      {
+        "option": "3rd degree prolapse",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "5th-year/gynecology/2018",
+    "question": "What is the most common side effect of hormonal contraceptives in the early stages of usage?",
+    "answers": [
+      {
+        "option": "Breast tenderness",
+        "bool": false
+      },
+      {
+        "option": "Unexpected bleeding",
+        "bool": true
+      },
+      {
+        "option": "Acne",
+        "bool": false
+      },
+      {
+        "option": "Fluid retention",
+        "bool": false
+      },
+      {
+        "option": "Weight gain",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 28-year-old woman presents to the clinic with a history of polycystic ovarian syndrome. She has a body mass index of >30 kg/m². She has no history of hirsutism and oligomenorrhea. What is the best step in the management of this patient?",
+    "answers": [
+      {
+        "option": "Combined oral contraceptive pills",
+        "bool": false
+      },
+      {
+        "option": "Eflornithine",
+        "bool": false
+      },
+      {
+        "option": "Metformin",
+        "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": true
+      },
+      {
+        "option": "Clomiphene",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 28-year-old woman presents to the clinic with a history of polycystic ovarian syndrome. She has a body mass index of >30 kg/m². She has a significant family history of both her parents being diabetic. She has no history of hirsutism and oligomenorrhea. What is the best step in the management of this patient?",
+    "answers": [
+      {
+        "option": "Eflornithine",
+        "bool": false
+      },
+      {
+        "option": "Metformin",
+        "bool": true
+      },
+      {
+        "option": "Combined oral contraceptive pills",
+        "bool": false
+      },
+      {
+        "option": "Clomiphene",
+        "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "5th-year/gynecology/2018",
+    "question": "A semen analysis report of a 35-year-old male is received for infertility evaluation and the results of the routine analysis are, Volume: 1.2ml, Motility: 12%, Morphology: 4%, Sperm count: 10 million/ ml. With this report on semen analysis, which hormone would be investigated next?",
+    "answers": [
+      {
+        "option": "Gonadotropin-Releasing Hormone (GnRH)",
+        "bool": false
+      },
+      {
+        "option": "Testosterone only",
+        "bool": false
+      },
+      {
+        "option": "FSH, LH, testosterone",
+        "bool": true
+      },
+      {
+        "option": "Follicle-Stimulating Hormone (FSH) & Luteinizing Hormone (LH)",
+        "bool": false
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "5th-year/gynecology/2018",
+    "question": "Which of the following drugs causes oligospermia?",
+    "answers": [
+      {
+        "option": "Antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Hypoglycemic drugs",
+        "bool": false
+      },
+      {
+        "option": "Statins",
+        "bool": false
+      },
+      {
+        "option": "Anti-histamines",
+        "bool": false
+      },
+      {
+        "option": "Anti-hypertensives",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "5th-year/gynecology/2018",
+    "question": "A couple presented in the infertility clinic. On investigation, the wife had no reproductive issues but the husband had oligospermia. Which of the following would help her conceive if her husband has oligospermia?",
+    "answers": [
+      {
+        "option": "Donor sperm",
+        "bool": false
+      },
+      {
+        "option": "Intrauterine insemination (IUI)",
+        "bool": false
+      },
+      {
+        "option": "In vitro fertilization (IVF) only",
+        "bool": false
+      },
+      {
+        "option": "In vitro fertilization (IVF) with intracytoplasmic sperm injection (ICSI)",
+        "bool": true
+      },
+      {
+        "option": "Intracytoplasmic sperm injection (ICSI)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 60-year-old woman presented in the outpatient department (OPD) complaining of vaginal dryness and a patch. Which of the following would be the most important step in the management?",
+    "answers": [
+      {
+        "option": "Non-hormonal therapy",
+        "bool": false
+      },
+      {
+        "option": "Estrogen therapy",
+        "bool": false
+      },
+      {
+        "option": "Antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Steroids",
+        "bool": true
+      },
+      {
+        "option": "Biopsy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 45-year-old Para 8+0 female with all SVDs presented to the Gynaecology & Obstetrics clinic for contraception. What advice would be given to her?",
+    "answers": [
+      {
+        "option": "Sterilization",
+        "bool": false
+      },
+      {
+        "option": "Barrier contraception",
+        "bool": false
+      },
+      {
+        "option": "LNG-IUS",
+        "bool": true
+      },
+      {
+        "option": "COCPs",
+        "bool": false
+      },
+      {
+        "option": "Progestogen only implant",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 26-year-old Para 6+0 woman presented in the Gynaecology & Obstetrics clinic for contraception. Which of the following would be given to her?",
+    "answers": [
+      {
+        "option": "Sterilization",
+        "bool": false
+      },
+      {
+        "option": "COCPs",
+        "bool": false
+      },
+      {
+        "option": "Barrier contraception",
+        "bool": false
+      },
+      {
+        "option": "Progestogen only pill (POP)",
+        "bool": false
+      },
+      {
+        "option": "LNG IUS",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "5th-year/gynecology/2018",
+    "question": "A 14-year-old girl presented in the outpatient department (OPD) with her mother. Her mother was worried that she hadn’t started menstruating while her younger sister had. Which of the following describes the main problem?",
+    "answers": [
+      {
+        "option": "Imperforate hymen",
+        "bool": false
+      },
+      {
+        "option": "Mayer-Rokitansky-Kuster-Hauser syndrome (MRKH)",
+        "bool": false
+      },
+      {
+        "option": "Turner syndrome",
+        "bool": false
+      },
+      {
+        "option": "XX gonadal dysgenesis",
+        "bool": false
+      },
+      {
+        "option": "Delayed constitutional symptoms",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "5th-year/gynecology/2018",
+    "question": "A girl presented in the outpatient department with premenstrual syndrome (PMS). Which of the following would you recommend to her?",
+    "answers": [
+      {
+        "option": "GnRH analogues",
+        "bool": false
+      },
+      {
+        "option": "COCPs",
+        "bool": false
+      },
+      {
+        "option": "Lifestyle modification & exercise",
+        "bool": true
+      },
+      {
+        "option": "High dose SSRIs",
+        "bool": false
+      },
+      {
+        "option": "Transdermal estrogen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "5th-year/gynecology/2018",
+    "question": "A couple presents to the infertility clinic. On investigation, the wife has no reproductive issues but the husband has oligospermia and reduced sperm motility. Which of the following would help them conceive?",
+    "answers": [
+      {
+        "option": "Donor sperm",
+        "bool": false
+      },
+      {
+        "option": "Intrauterine insemination (IUI)",
+        "bool": false
+      },
+      {
+        "option": "In vitro fertilization (IVF) with intracytoplasmic sperm injection (ICSI)",
+        "bool": true
+      },
+      {
+        "option": "Intracytoplasmic sperm injection (ICSI)",
+        "bool": false
+      },
+      {
+        "option": "In vitro fertilization (IVF) only",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "5th-year/gynecology/2018",
+    "question": "A female presented in the outpatient department with cervical cancer stage 1B. Which of the following would be the best treatment option for her?",
+    "answers": [
+      {
+        "option": "Wide excision",
+        "bool": false
+      },
+      {
+        "option": "Radiotherapy",
+        "bool": true
+      },
+      {
+        "option": "Chemotherapy + radiotherapy",
+        "bool": false
+      },
+      {
+        "option": "Chemotherapy",
+        "bool": false
+      },
+      {
+        "option": "Loop biopsy or knife cone biopsy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "5th-year/gynecology/2018",
+    "question": "A postmenopausal woman came to the outpatient department (OPD) seeking Hormone Replacement Therapy (HRT). She has a significant family history of osteoporosis in her mother. Which of the following would be best for her?",
+    "answers": [
+      {
+        "option": "Calcium and vitamin D",
+        "bool": false
+      },
+      {
+        "option": "Estrogen with progestogen",
+        "bool": false
+      },
+      {
+        "option": "Lifestyle modification",
+        "bool": false
+      },
+      {
+        "option": "Estrogen only",
+        "bool": false
+      },
+      {
+        "option": "Raloxifene",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "5th-year/gynecology/2018",
+    "question": "A young girl presented in the outpatient department (OPD) with symptoms of increased androgens including hirsutism and acne. On ultrasound examination, polycystic ovaries were found. What would be the next step to confirm the diagnosis?",
+    "answers": [
+      {
+        "option": "TSH",
+        "bool": false
+      },
+      {
+        "option": "FSH-LH ratio",
+        "bool": false
+      },
+      {
+        "option": "Androgens",
+        "bool": true
+      },
+      {
+        "option": "Day 21 progesterone level",
+        "bool": false
+      },
+      {
+        "option": "Blood glucose levels",
+        "bool": false
+      }
+    ]
+  }
+]

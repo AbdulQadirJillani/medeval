@@ -5,11 +5,11 @@
     "question": "Infections caused by which organisms are treated with pyrantel pamoate?",
     "answers": [
       {
-        "option": "Enterobius vermicularis and Ascaris lumbricoides",
-        "bool": true
+        "option": "Taenia solium and Echinococcus granulosus",
+        "bool": false
       },
       {
-        "option": "Trichinella spiralis and Strongyloides stercoralis",
+        "option": "Clonorchis sinensis and Trichuris trichuria",
         "bool": false
       },
       {
@@ -17,12 +17,12 @@
         "bool": false
       },
       {
-        "option": "Taenia solium and Echinococcus granulosus",
+        "option": "Trichinella spiralis and Strongyloides stercoralis",
         "bool": false
       },
       {
-        "option": "Clonorchis sinensis and Trichuris trichuria",
-        "bool": false
+        "option": "Enterobius vermicularis and Ascaris lumbricoides",
+        "bool": true
       }
     ]
   },
@@ -32,20 +32,20 @@
     "question": "The Pakistan Medical and Dental Council found a medical practitioner involved in dichotomy. He is guilty of which of the following kind of offense?",
     "answers": [
       {
-        "option": "Criminal negligence",
-        "bool": false
-      },
-      {
         "option": "Contributory negligence",
         "bool": false
       },
       {
-        "option": "Perjury",
+        "option": "Criminal negligence",
         "bool": false
       },
       {
         "option": "Professional misconduct",
         "bool": true
+      },
+      {
+        "option": "Perjury",
+        "bool": false
       },
       {
         "option": "Civil malpraxix",
@@ -56,26 +56,26 @@
   {
     "id": 2,
     "info": "3rd-year/infectious/2017",
-    "question": "Which of these drugs is used to treat the exoerythrocytic stage of malarial parasite?",
+    "question": "For which of these organisms is pyrantel pamoate not effective?",
     "answers": [
       {
-        "option": "Quinine",
-        "bool": false
-      },
-      {
-        "option": "Primaquine",
+        "option": "Whipworm",
         "bool": true
       },
       {
-        "option": "Artemether",
+        "option": "Hookworm",
         "bool": false
       },
       {
-        "option": "Dapsone",
+        "option": "Pinworm",
         "bool": false
       },
       {
-        "option": "Chloroquinine",
+        "option": "All nematodes",
+        "bool": false
+      },
+      {
+        "option": "Roundworm",
         "bool": false
       }
     ]
@@ -83,68 +83,10 @@
   {
     "id": 3,
     "info": "3rd-year/infectious/2017",
-    "question": "What is the most common side effect of penicillin?",
-    "answers": [
-      {
-        "option": "Paraeshtesias",
-        "bool": false
-      },
-      {
-        "option": "Hypersensitivity reactions",
-        "bool": true
-      },
-      {
-        "option": "Ototoxicity",
-        "bool": false
-      },
-      {
-        "option": "Nephrotoxicity",
-        "bool": false
-      },
-      {
-        "option": "Rhabdomyolysis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "info": "3rd-year/infectious/2017",
-    "question": "For which of these organisms is pyrantel pamoate not effective?",
-    "answers": [
-      {
-        "option": "Pinworm",
-        "bool": false
-      },
-      {
-        "option": "Hookworm",
-        "bool": false
-      },
-      {
-        "option": "Roundworm",
-        "bool": false
-      },
-      {
-        "option": "Whipworm",
-        "bool": true
-      },
-      {
-        "option": "All nematodes",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "info": "3rd-year/infectious/2017",
     "question": "Which of these drugs is useful for the prevention of retrograde intestinal cysticercosis?",
     "answers": [
       {
-        "option": "Praziquantel",
-        "bool": true
-      },
-      {
-        "option": "Ketoconazole",
+        "option": "Niclosamide",
         "bool": false
       },
       {
@@ -152,20 +94,55 @@
         "bool": false
       },
       {
-        "option": "Niclosamide",
+        "option": "Ketoconazole",
         "bool": false
       },
       {
         "option": "Albendazole",
         "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": true
       }
     ]
   },
   {
-    "id": 6,
+    "id": 4,
+    "info": "3rd-year/infectious/2017",
+    "question": "Which of these drugs is used to treat the exoerythrocytic stage of malarial parasite?",
+    "answers": [
+      {
+        "option": "Artemether",
+        "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": true
+      },
+      {
+        "option": "Chloroquinine",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": false
+      },
+      {
+        "option": "Dapsone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
     "info": "3rd-year/infectious/2017",
     "question": "For which of the following disorders is chloroquine used as an anti-inflammatory drug?",
     "answers": [
+      {
+        "option": "Malaria",
+        "bool": false
+      },
       {
         "option": "Hepatic amebiasis",
         "bool": false
@@ -175,15 +152,38 @@
         "bool": false
       },
       {
-        "option": "Rheumatoid arthritis",
-        "bool": true
-      },
-      {
-        "option": "Malaria",
+        "option": "Intestinal amebiasis",
         "bool": false
       },
       {
-        "option": "Intestinal amebiasis",
+        "option": "Rheumatoid arthritis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "3rd-year/infectious/2017",
+    "question": "What is the most common side effect of penicillin?",
+    "answers": [
+      {
+        "option": "Hypersensitivity reactions",
+        "bool": true
+      },
+      {
+        "option": "Nephrotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Paraeshtesias",
+        "bool": false
+      },
+      {
+        "option": "Rhabdomyolysis",
+        "bool": false
+      },
+      {
+        "option": "Ototoxicity",
         "bool": false
       }
     ]
@@ -194,15 +194,15 @@
     "question": "Which of these drugs is penicillinase-resistant?",
     "answers": [
       {
-        "option": "Methicillin",
-        "bool": true
-      },
-      {
         "option": "Ampicillin",
         "bool": false
       },
       {
-        "option": "Penicillin V",
+        "option": "Methicillin",
+        "bool": true
+      },
+      {
+        "option": "Penicillin G",
         "bool": false
       },
       {
@@ -210,7 +210,7 @@
         "bool": false
       },
       {
-        "option": "Penicillin G",
+        "option": "Penicillin V",
         "bool": false
       }
     ]
@@ -221,11 +221,11 @@
     "question": "Which of these methods is not useful in the management of Clostridium difficile infections?",
     "answers": [
       {
-        "option": "Metronidazole",
+        "option": "Removal of offending agent",
         "bool": false
       },
       {
-        "option": "Isolation of the patient",
+        "option": "Immunoglobulins",
         "bool": false
       },
       {
@@ -233,11 +233,11 @@
         "bool": true
       },
       {
-        "option": "Immunoglobulins",
+        "option": "Metronidazole",
         "bool": false
       },
       {
-        "option": "Removal of offending agent",
+        "option": "Isolation of the patient",
         "bool": false
       }
     ]
@@ -248,15 +248,11 @@
     "question": "A 21-year-old male is being treated for malaria with quinine, following which he experiences a blackish discoloration of his urine. What is this complication called?",
     "answers": [
       {
-        "option": "Cerebral malaria",
+        "option": "Aplastic anemia",
         "bool": false
       },
       {
         "option": "Rhabdomyolysis",
-        "bool": false
-      },
-      {
-        "option": "Aplastic anemia",
         "bool": false
       },
       {
@@ -265,6 +261,10 @@
       },
       {
         "option": "Alkaptonuria",
+        "bool": false
+      },
+      {
+        "option": "Cerebral malaria",
         "bool": false
       }
     ]
@@ -275,11 +275,19 @@
     "question": "What is the meaning of the term 'Voire dire'?",
     "answers": [
       {
+        "option": "To claim mental illness",
+        "bool": false
+      },
+      {
         "option": "To take oath",
         "bool": true
       },
       {
-        "option": "To take judgement",
+        "option": "To confess murder",
+        "bool": false
+      },
+      {
+        "option": "To pass judgment",
         "bool": false
       },
       {
@@ -287,15 +295,7 @@
         "bool": false
       },
       {
-        "option": "To confess murder",
-        "bool": false
-      },
-      {
-        "option": "To claim mental illness",
-        "bool": false
-      },
-      {
-        "option": "To pass judgment",
+        "option": "To take judgement",
         "bool": false
       }
     ]
@@ -310,20 +310,20 @@
         "bool": false
       },
       {
-        "option": "Pancreatitis",
+        "option": "Cholera",
         "bool": false
       },
       {
-        "option": "Enteric fever",
-        "bool": true
-      },
-      {
-        "option": "Cholera",
+        "option": "Pancreatitis",
         "bool": false
       },
       {
         "option": "Drug reaction",
         "bool": false
+      },
+      {
+        "option": "Enteric fever",
+        "bool": true
       }
     ]
   },
@@ -333,24 +333,24 @@
     "question": "What is the best test for the diagnosis of enteric fever?",
     "answers": [
       {
+        "option": "Stool culture",
+        "bool": false
+      },
+      {
         "option": "PCR assay",
         "bool": false
       },
       {
-        "option": "Clinical",
-        "bool": false
-      },
-      {
-        "option": "Stool culture",
-        "bool": false
+        "option": "Blood culture",
+        "bool": true
       },
       {
         "option": "Throat swab",
         "bool": false
       },
       {
-        "option": "Blood culture",
-        "bool": true
+        "option": "Clinical",
+        "bool": false
       }
     ]
   },
@@ -360,8 +360,8 @@
     "question": "In which of the following courts does failure to respond to summons lead to punishment?",
     "answers": [
       {
-        "option": "Civil court",
-        "bool": false
+        "option": "All courts",
+        "bool": true
       },
       {
         "option": "High court",
@@ -372,8 +372,8 @@
         "bool": false
       },
       {
-        "option": "All courts",
-        "bool": true
+        "option": "Civil court",
+        "bool": false
       },
       {
         "option": "Supreme court",
@@ -391,16 +391,16 @@
         "bool": false
       },
       {
-        "option": "The last question",
-        "bool": false
+        "option": "A question which directly or indirectly suggests its own answer",
+        "bool": true
       },
       {
         "option": "A question which is relevant to the case",
         "bool": false
       },
       {
-        "option": "A question which directly or indirectly suggests its own answer",
-        "bool": true
+        "option": "The last question",
+        "bool": false
       },
       {
         "option": "An open-ended question",
@@ -414,6 +414,14 @@
     "question": "What does 'Risos sardonicus' refer to?",
     "answers": [
       {
+        "option": "Botulism",
+        "bool": false
+      },
+      {
+        "option": "Lockjaw",
+        "bool": false
+      },
+      {
         "option": "Myasthenia gravis",
         "bool": false
       },
@@ -422,16 +430,8 @@
         "bool": false
       },
       {
-        "option": "Lockjaw",
-        "bool": false
-      },
-      {
         "option": "Established tetanus",
         "bool": true
-      },
-      {
-        "option": "Botulism",
-        "bool": false
       }
     ]
   },
@@ -441,12 +441,12 @@
     "question": "Which of these diseases is characterized by the presence of 'Negri bodies'?",
     "answers": [
       {
-        "option": "Rabies",
-        "bool": true
+        "option": "Mumps",
+        "bool": false
       },
       {
-        "option": "Chickenpox",
-        "bool": false
+        "option": "Rabies",
+        "bool": true
       },
       {
         "option": "Measles",
@@ -457,7 +457,7 @@
         "bool": false
       },
       {
-        "option": "Mumps",
+        "option": "Chickenpox",
         "bool": false
       }
     ]
@@ -472,11 +472,11 @@
         "bool": false
       },
       {
-        "option": "Serum antibodies",
-        "bool": true
+        "option": "Abdominal CT scan",
+        "bool": false
       },
       {
-        "option": "Abdominal CT scan",
+        "option": "Liver function tests",
         "bool": false
       },
       {
@@ -484,8 +484,8 @@
         "bool": false
       },
       {
-        "option": "Liver function tests",
-        "bool": false
+        "option": "Serum antibodies",
+        "bool": true
       }
     ]
   },
@@ -495,10 +495,6 @@
     "question": "Which of these drugs is not a nucleotide reverse transcriptase inhibitor?",
     "answers": [
       {
-        "option": "Didanosine",
-        "bool": false
-      },
-      {
         "option": "Stavudine",
         "bool": false
       },
@@ -507,12 +503,16 @@
         "bool": false
       },
       {
-        "option": "Zidovudine",
+        "option": "Didanosine",
         "bool": false
       },
       {
         "option": "Delavirdine",
         "bool": true
+      },
+      {
+        "option": "Zidovudine",
+        "bool": false
       }
     ]
   },
@@ -522,7 +522,7 @@
     "question": "Intake of which of the following drugs causes a Mazzotti-like reaction?",
     "answers": [
       {
-        "option": "Pyrantel pamoate",
+        "option": "Albendazole",
         "bool": false
       },
       {
@@ -534,12 +534,12 @@
         "bool": false
       },
       {
-        "option": "Albendazole",
-        "bool": false
-      },
-      {
         "option": "Ivermectin",
         "bool": true
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
       }
     ]
   },
@@ -549,15 +549,11 @@
     "question": "Which of the following drugs is used in the treatment of filariasis?",
     "answers": [
       {
-        "option": "Niclosamide",
-        "bool": false
-      },
-      {
-        "option": "Praziquantel",
-        "bool": false
-      },
-      {
         "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
         "bool": false
       },
       {
@@ -565,7 +561,11 @@
         "bool": true
       },
       {
-        "option": "Albendazole",
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
         "bool": false
       }
     ]
@@ -580,15 +580,15 @@
         "bool": true
       },
       {
-        "option": "Albendazole",
-        "bool": false
-      },
-      {
         "option": "Diethylcarbamazine",
         "bool": false
       },
       {
         "option": "Mebendazole",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
         "bool": false
       },
       {
@@ -600,95 +600,14 @@
   {
     "id": 22,
     "info": "3rd-year/infectious/2017",
-    "question": "What is the route of administration for the measles vaccine?",
-    "answers": [
-      {
-        "option": "Intramuscular",
-        "bool": false
-      },
-      {
-        "option": "Oral",
-        "bool": false
-      },
-      {
-        "option": "Sublingual",
-        "bool": false
-      },
-      {
-        "option": "Subcutaneous",
-        "bool": true
-      },
-      {
-        "option": "Intravenous",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "info": "3rd-year/infectious/2017",
-    "question": "What is the mode of transmission for dengue virus?",
-    "answers": [
-      {
-        "option": "Contact",
-        "bool": false
-      },
-      {
-        "option": "Vector",
-        "bool": true
-      },
-      {
-        "option": "Airborne",
-        "bool": false
-      },
-      {
-        "option": "Droplet",
-        "bool": false
-      },
-      {
-        "option": "Feco-oral",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "info": "3rd-year/infectious/2017",
-    "question": "What is the best confirmatory test for hydatid cyst disease?",
-    "answers": [
-      {
-        "option": "Positive serology for the organism",
-        "bool": false
-      },
-      {
-        "option": "Daughter cysts on ultrasound",
-        "bool": false
-      },
-      {
-        "option": "Calcifications on X-ray",
-        "bool": false
-      },
-      {
-        "option": "Cysts on ultrasound",
-        "bool": false
-      },
-      {
-        "option": "Daughter cysts on CT scan",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "info": "3rd-year/infectious/2017",
     "question": "Which of the following drugs is given in Wuchereria bancrofti?",
     "answers": [
       {
-        "option": "Albendazole",
+        "option": "Praziquantel",
         "bool": false
       },
       {
-        "option": "Praziquantel",
+        "option": "Niclosamide",
         "bool": false
       },
       {
@@ -700,13 +619,13 @@
         "bool": true
       },
       {
-        "option": "Niclosamide",
+        "option": "Albendazole",
         "bool": false
       }
     ]
   },
   {
-    "id": 26,
+    "id": 23,
     "info": "3rd-year/infectious/2017",
     "question": "Which of the following is graze is synonymous to?",
     "answers": [
@@ -719,12 +638,12 @@
         "bool": false
       },
       {
-        "option": "Scratch",
-        "bool": false
-      },
-      {
         "option": "Friction burn",
         "bool": true
+      },
+      {
+        "option": "Scratch",
+        "bool": false
       },
       {
         "option": "Laceration",
@@ -733,43 +652,12 @@
     ]
   },
   {
-    "id": 27,
-    "info": "3rd-year/infectious/2017",
-    "question": "Which of the following is not a mode of transmission of HIV?",
-    "answers": [
-      {
-        "option": "Insect transmission",
-        "bool": true
-      },
-      {
-        "option": "Needle sharing",
-        "bool": false
-      },
-      {
-        "option": "Maternal-fetal transmission",
-        "bool": false
-      },
-      {
-        "option": "Blood transfer",
-        "bool": false
-      },
-      {
-        "option": "Sexual transmission",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 28,
+    "id": 24,
     "info": "3rd-year/infectious/2017",
     "question": "What is the timeframe between the vaccine and booster dose for an injectable typhoid vaccine?",
     "answers": [
       {
         "option": "6 years",
-        "bool": false
-      },
-      {
-        "option": "3 years",
         "bool": false
       },
       {
@@ -783,16 +671,28 @@
       {
         "option": "2 years",
         "bool": true
+      },
+      {
+        "option": "3 years",
+        "bool": false
       }
     ]
   },
   {
-    "id": 29,
+    "id": 25,
     "info": "3rd-year/infectious/2017",
     "question": "A 7-year-old child has had 6 to 8 small volume stools daily for the last 3 days. The stools do not contain any blood or mucus. On examination, no signs of dehydration are noticed. What is the most likely diagnosis?",
     "answers": [
       {
         "option": "Campylobacter infection",
+        "bool": false
+      },
+      {
+        "option": "Amebiasis",
+        "bool": false
+      },
+      {
+        "option": "Enterohemorrhagic Escherichia coli",
         "bool": false
       },
       {
@@ -802,32 +702,47 @@
       {
         "option": "Cholera",
         "bool": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "3rd-year/infectious/2017",
+    "question": "What is the most common pulmonary disorder in an AIDS patient?",
+    "answers": [
+      {
+        "option": "Pneumocystis infection",
+        "bool": true
       },
       {
-        "option": "Enterohemorrhagic Escherichia coli",
+        "option": "Lung cancer",
         "bool": false
       },
       {
-        "option": "Amebiasis",
+        "option": "Bacterial pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary abscess",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
         "bool": false
       }
     ]
   },
   {
-    "id": 30,
+    "id": 27,
     "info": "3rd-year/infectious/2017",
     "question": "What is the mode of action of dapsone?",
     "answers": [
       {
-        "option": "Inhibition of bacterial folate synthesis",
-        "bool": true
-      },
-      {
-        "option": "Inhibition of bacterial topoisomerases",
+        "option": "Inhibition of bacterial transcription",
         "bool": false
       },
       {
-        "option": "Lysis of bacterial cell walls",
+        "option": "Inhibition of bacterial topoisomerases",
         "bool": false
       },
       {
@@ -835,26 +750,26 @@
         "bool": false
       },
       {
-        "option": "Inhibition of bacterial transcription",
+        "option": "Inhibition of bacterial folate synthesis",
+        "bool": true
+      },
+      {
+        "option": "Lysis of bacterial cell walls",
         "bool": false
       }
     ]
   },
   {
-    "id": 31,
+    "id": 28,
     "info": "3rd-year/infectious/2017",
     "question": "A 31-year-old female presents with a painless skin rash behind her right ear. On examination, it is a patch-like hypopigmented area with reduced sensation and well-demarcated borders. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Skin burn",
-        "bool": false
+        "option": "Tuberculoid leprosy",
+        "bool": true
       },
       {
         "option": "Neurofibromatosis",
-        "bool": false
-      },
-      {
-        "option": "Lepromatous leprosy",
         "bool": false
       },
       {
@@ -862,24 +777,20 @@
         "bool": false
       },
       {
-        "option": "Tuberculoid leprosy",
-        "bool": true
+        "option": "Lepromatous leprosy",
+        "bool": false
+      },
+      {
+        "option": "Skin burn",
+        "bool": false
       }
     ]
   },
   {
-    "id": 32,
+    "id": 29,
     "info": "3rd-year/infectious/2017",
     "question": "Which type of immunity is observed in tuberculoid leprosy?",
     "answers": [
-      {
-        "option": "Passive immunity",
-        "bool": false
-      },
-      {
-        "option": "Natural immunity",
-        "bool": false
-      },
       {
         "option": "Cell mediated immunity",
         "bool": true
@@ -889,18 +800,53 @@
         "bool": false
       },
       {
+        "option": "Passive immunity",
+        "bool": false
+      },
+      {
         "option": "Humoral immunity",
+        "bool": false
+      },
+      {
+        "option": "Natural immunity",
         "bool": false
       }
     ]
   },
   {
-    "id": 33,
+    "id": 30,
+    "info": "3rd-year/infectious/2017",
+    "question": "What is the route of administration for the measles vaccine?",
+    "answers": [
+      {
+        "option": "Intramuscular",
+        "bool": false
+      },
+      {
+        "option": "Sublingual",
+        "bool": false
+      },
+      {
+        "option": "Oral",
+        "bool": false
+      },
+      {
+        "option": "Subcutaneous",
+        "bool": true
+      },
+      {
+        "option": "Intravenous",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
     "info": "3rd-year/infectious/2017",
     "question": "In which of the following forms of asphyxia are Tardieu spots not seen?",
     "answers": [
       {
-        "option": "Choking",
+        "option": "Hanging",
         "bool": false
       },
       {
@@ -912,7 +858,7 @@
         "bool": false
       },
       {
-        "option": "Hanging",
+        "option": "Choking",
         "bool": false
       },
       {
@@ -922,47 +868,39 @@
     ]
   },
   {
-    "id": 34,
+    "id": 32,
     "info": "3rd-year/infectious/2017",
     "question": "Which organism is responsible for leprosy?",
     "answers": [
       {
-        "option": "Mycobacterium leprae",
-        "bool": true
+        "option": "Mycobacterium bovis",
+        "bool": false
       },
       {
         "option": "Mycobacterium intracellulare",
         "bool": false
       },
       {
-        "option": "Mycobacterium bovis",
+        "option": "Mycobacterium leprae",
+        "bool": true
+      },
+      {
+        "option": "Mycobacterium avium",
         "bool": false
       },
       {
         "option": "Mycobacterium tuberculosis",
         "bool": false
-      },
-      {
-        "option": "Mycobacterium avium",
-        "bool": false
       }
     ]
   },
   {
-    "id": 35,
+    "id": 33,
     "info": "3rd-year/infectious/2017",
     "question": "How many serotypes of dengue virus exist?",
     "answers": [
       {
-        "option": "4",
-        "bool": true
-      },
-      {
-        "option": "10",
-        "bool": false
-      },
-      {
-        "option": "1",
+        "option": "2",
         "bool": false
       },
       {
@@ -970,24 +908,51 @@
         "bool": false
       },
       {
-        "option": "2",
+        "option": "1",
+        "bool": false
+      },
+      {
+        "option": "4",
+        "bool": true
+      },
+      {
+        "option": "10",
         "bool": false
       }
     ]
   },
   {
-    "id": 36,
+    "id": 34,
     "info": "3rd-year/infectious/2017",
-    "question": "A 40-year-old farmer is brought to the emergency after collapsing in his home. After regaining consciousness, he complains of right hypochondrial pain and on imaging, calcified cysts are observed in his liver. What is the most likely diagnosis?",
+    "question": "What is the mode of transmission for dengue virus?",
     "answers": [
       {
-        "option": "Pyogenic liver abscess",
+        "option": "Feco-oral",
         "bool": false
       },
       {
-        "option": "Hydatid cyst",
+        "option": "Airborne",
+        "bool": false
+      },
+      {
+        "option": "Vector",
         "bool": true
       },
+      {
+        "option": "Droplet",
+        "bool": false
+      },
+      {
+        "option": "Contact",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "3rd-year/infectious/2017",
+    "question": "A 40-year-old farmer is brought to the emergency after collapsing in his home. After regaining consciousness, he complains of right hypochondrial pain and on imaging, calcified cysts are observed in his liver. What is the most likely diagnosis?",
+    "answers": [
       {
         "option": "Hepatic amebiasis",
         "bool": false
@@ -999,6 +964,41 @@
       {
         "option": "Liver cancer",
         "bool": false
+      },
+      {
+        "option": "Pyogenic liver abscess",
+        "bool": false
+      },
+      {
+        "option": "Hydatid cyst",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "3rd-year/infectious/2017",
+    "question": "What is the best confirmatory test for hydatid cyst disease?",
+    "answers": [
+      {
+        "option": "Cysts on ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Positive serology for the organism",
+        "bool": false
+      },
+      {
+        "option": "Daughter cysts on CT scan",
+        "bool": true
+      },
+      {
+        "option": "Daughter cysts on ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Calcifications on X-ray",
+        "bool": false
       }
     ]
   },
@@ -1007,14 +1007,6 @@
     "info": "3rd-year/infectious/2017",
     "question": "Which of the following statements regarding primary HIV is incorrect?",
     "answers": [
-      {
-        "option": "Fever with rash is one of the clinical features",
-        "bool": false
-      },
-      {
-        "option": "Usually manifests 3 months after exposure",
-        "bool": true
-      },
       {
         "option": "70-80 percent of cases are symptomatic",
         "bool": false
@@ -1026,6 +1018,14 @@
       {
         "option": "High viral RNA loads are detected",
         "bool": false
+      },
+      {
+        "option": "Fever with rash is one of the clinical features",
+        "bool": false
+      },
+      {
+        "option": "Usually manifests 3 months after exposure",
+        "bool": true
       }
     ]
   },
@@ -1039,7 +1039,11 @@
         "bool": false
       },
       {
-        "option": "Dermal",
+        "option": "Intravenous",
+        "bool": false
+      },
+      {
+        "option": "Intramuscular",
         "bool": false
       },
       {
@@ -1047,11 +1051,7 @@
         "bool": true
       },
       {
-        "option": "Intramuscular",
-        "bool": false
-      },
-      {
-        "option": "Intravenous",
+        "option": "Dermal",
         "bool": false
       }
     ]
@@ -1062,7 +1062,7 @@
     "question": "Which drug acts by inhibiting ADP phosphorylation?",
     "answers": [
       {
-        "option": "Albendazole",
+        "option": "lvermectin",
         "bool": false
       },
       {
@@ -1078,7 +1078,7 @@
         "bool": true
       },
       {
-        "option": "lvermectin",
+        "option": "Albendazole",
         "bool": false
       }
     ]
@@ -1089,19 +1089,19 @@
     "question": "What is thanatology?",
     "answers": [
       {
-        "option": "Study of the phenomena of death",
-        "bool": true
-      },
-      {
         "option": "Study of plants",
         "bool": false
       },
       {
-        "option": "Study of food chemistry",
+        "option": "Study of jail architecture",
         "bool": false
       },
       {
-        "option": "Study of jail architecture",
+        "option": "Study of the phenomena of death",
+        "bool": true
+      },
+      {
+        "option": "Study of food chemistry",
         "bool": false
       },
       {
@@ -1116,19 +1116,19 @@
     "question": "Which of the following causes typhoid fever?",
     "answers": [
       {
-        "option": "Rickettsia typhi",
-        "bool": false
-      },
-      {
         "option": "Escherichia coli",
         "bool": false
       },
       {
-        "option": "Rickettsia prowazekii",
+        "option": "Shigella",
         "bool": false
       },
       {
-        "option": "Shigella",
+        "option": "Rickettsia typhi",
+        "bool": false
+      },
+      {
+        "option": "Rickettsia prowazekii",
         "bool": false
       },
       {
@@ -1147,34 +1147,61 @@
         "bool": false
       },
       {
-        "option": "1,000 Rs",
-        "bool": false
-      },
-      {
         "option": "100 Rs",
-        "bool": false
-      },
-      {
-        "option": "5,000 Rs",
         "bool": false
       },
       {
         "option": "15,000 Rs",
         "bool": true
+      },
+      {
+        "option": "1,000 Rs",
+        "bool": false
+      },
+      {
+        "option": "5,000 Rs",
+        "bool": false
       }
     ]
   },
   {
     "id": 43,
     "info": "3rd-year/infectious/2017",
-    "question": "What causes shingles?",
+    "question": "Which of the following is not a mode of transmission of HIV?",
     "answers": [
       {
-        "option": "Epstein\u2013Barr virus",
+        "option": "Insect transmission",
+        "bool": true
+      },
+      {
+        "option": "Blood transfer",
         "bool": false
       },
       {
-        "option": "Human herpesvirus 8",
+        "option": "Sexual transmission",
+        "bool": false
+      },
+      {
+        "option": "Maternal-fetal transmission",
+        "bool": false
+      },
+      {
+        "option": "Needle sharing",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "3rd-year/infectious/2017",
+    "question": "What causes shingles?",
+    "answers": [
+      {
+        "option": "Cytomegalovirus",
+        "bool": false
+      },
+      {
+        "option": "Epstein–Barr virus",
         "bool": false
       },
       {
@@ -1182,7 +1209,7 @@
         "bool": false
       },
       {
-        "option": "Cytomegalovirus",
+        "option": "Human herpesvirus 8",
         "bool": false
       },
       {
@@ -1192,55 +1219,28 @@
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "info": "3rd-year/infectious/2017",
     "question": "How many trophozoites arise during the excystation of Giardia lamblia?",
     "answers": [
       {
-        "option": "4",
-        "bool": false
-      },
-      {
-        "option": "3",
-        "bool": false
-      },
-      {
         "option": "2",
         "bool": true
+      },
+      {
+        "option": "5",
+        "bool": false
+      },
+      {
+        "option": "4",
+        "bool": false
       },
       {
         "option": "1",
         "bool": false
       },
       {
-        "option": "5",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "info": "3rd-year/infectious/2017",
-    "question": "Which of the following is a proinflammatory mediator?",
-    "answers": [
-      {
-        "option": "IL-1",
-        "bool": true
-      },
-      {
-        "option": "IL-10",
-        "bool": false
-      },
-      {
-        "option": "Corticosteroids",
-        "bool": false
-      },
-      {
-        "option": "TH2 cytokines",
-        "bool": false
-      },
-      {
-        "option": "TGF-\u03b2",
+        "option": "3",
         "bool": false
       }
     ]
@@ -1248,19 +1248,46 @@
   {
     "id": 46,
     "info": "3rd-year/infectious/2017",
+    "question": "Which of the following is a proinflammatory mediator?",
+    "answers": [
+      {
+        "option": "TH2 cytokines",
+        "bool": false
+      },
+      {
+        "option": "TGF-β",
+        "bool": false
+      },
+      {
+        "option": "IL-10",
+        "bool": false
+      },
+      {
+        "option": "IL-1",
+        "bool": true
+      },
+      {
+        "option": "Corticosteroids",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "3rd-year/infectious/2017",
     "question": "What is the duration of treatment for leprosy?",
     "answers": [
       {
-        "option": "2 months",
-        "bool": false
+        "option": "12 months",
+        "bool": true
       },
       {
         "option": "36 months",
         "bool": false
       },
       {
-        "option": "12 months",
-        "bool": true
+        "option": "2 months",
+        "bool": false
       },
       {
         "option": "2 weeks",
@@ -1273,115 +1300,34 @@
     ]
   },
   {
-    "id": 47,
-    "info": "3rd-year/infectious/2017",
-    "question": "What form of plasmodium parasite is taken in by the mosquitoes when they bite humans?",
-    "answers": [
-      {
-        "option": "Ameboid form",
-        "bool": false
-      },
-      {
-        "option": "Sporozoites",
-        "bool": false
-      },
-      {
-        "option": "Merozoites",
-        "bool": false
-      },
-      {
-        "option": "Schizont",
-        "bool": false
-      },
-      {
-        "option": "Gametocytes",
-        "bool": true
-      }
-    ]
-  },
-  {
     "id": 48,
-    "info": "3rd-year/infectious/2017",
-    "question": "Which one of these is a diagnostic feature of Echinococcal infection?",
-    "answers": [
-      {
-        "option": "Bloody diarrhea",
-        "bool": false
-      },
-      {
-        "option": "Cystic spaces in the brain",
-        "bool": false
-      },
-      {
-        "option": "Skin rash",
-        "bool": false
-      },
-      {
-        "option": "Flask-shaped colonic ulcer",
-        "bool": false
-      },
-      {
-        "option": "Brood capsules",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "info": "3rd-year/infectious/2017",
-    "question": "What is a dying deposition?",
-    "answers": [
-      {
-        "option": "A statement taken on oath before magistrate in the presence of the accused and his lawyer",
-        "bool": true
-      },
-      {
-        "option": "An observation of certain facts from which an inference can be concluded",
-        "bool": false
-      },
-      {
-        "option": "A person's statement made just before his death, relating to the cause of death",
-        "bool": false
-      },
-      {
-        "option": "A statement on oath made by a witness in a judicial proceeding",
-        "bool": false
-      },
-      {
-        "option": "A document produced for the inspection of court",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 50,
     "info": "3rd-year/infectious/2017",
     "question": "What does the respiratory burst in acute inflammation help in?",
     "answers": [
       {
-        "option": "Decrease breathing rate",
-        "bool": false
+        "option": "Produce reactive oxygen species",
+        "bool": true
       },
       {
         "option": "Protect DNA",
         "bool": false
       },
       {
-        "option": "Produce reactive oxygen species",
-        "bool": true
+        "option": "Generate H₂O",
+        "bool": false
       },
       {
         "option": "Increase breathing rate",
         "bool": false
       },
       {
-        "option": "Generate H\u2082O",
+        "option": "Decrease breathing rate",
         "bool": false
       }
     ]
   },
   {
-    "id": 51,
+    "id": 49,
     "info": "3rd-year/infectious/2017",
     "question": "Which of the following is released by dead bacteria that can cause symptoms?",
     "answers": [
@@ -1394,11 +1340,11 @@
         "bool": true
       },
       {
-        "option": "Virions",
+        "option": "Electrolytes",
         "bool": false
       },
       {
-        "option": "Electrolytes",
+        "option": "Virions",
         "bool": false
       },
       {
@@ -1408,7 +1354,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 50,
     "info": "3rd-year/infectious/2017",
     "question": "What are p17, p24, and p55 in HIV?",
     "answers": [
@@ -1417,16 +1363,16 @@
         "bool": false
       },
       {
-        "option": "Glycoproteins",
-        "bool": true
+        "option": "Phospholipids",
+        "bool": false
       },
       {
         "option": "Cyclins",
         "bool": false
       },
       {
-        "option": "Phospholipids",
-        "bool": false
+        "option": "Glycoproteins",
+        "bool": true
       },
       {
         "option": "Sulfatides",
@@ -1435,10 +1381,14 @@
     ]
   },
   {
-    "id": 53,
+    "id": 51,
     "info": "3rd-year/infectious/2017",
     "question": "Which one of these is not a feature of tetanus?",
     "answers": [
+      {
+        "option": "Opisthotonus",
+        "bool": false
+      },
       {
         "option": "Dysphagia",
         "bool": false
@@ -1454,18 +1404,53 @@
       {
         "option": "Altered mental status",
         "bool": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "3rd-year/infectious/2017",
+    "question": "What form of plasmodium parasite is taken in by the mosquitoes when they bite humans?",
+    "answers": [
+      {
+        "option": "Ameboid form",
+        "bool": false
       },
       {
-        "option": "Opisthotonus",
+        "option": "Sporozoites",
+        "bool": false
+      },
+      {
+        "option": "Gametocytes",
+        "bool": true
+      },
+      {
+        "option": "Schizont",
+        "bool": false
+      },
+      {
+        "option": "Merozoites",
         "bool": false
       }
     ]
   },
   {
-    "id": 54,
+    "id": 53,
     "info": "3rd-year/infectious/2017",
     "question": "What is the chemical makeup of the tetanus toxin?",
     "answers": [
+      {
+        "option": "Exotoxin",
+        "bool": false
+      },
+      {
+        "option": "Peptide",
+        "bool": true
+      },
+      {
+        "option": "Multigenic",
+        "bool": false
+      },
       {
         "option": "Carbohydrate",
         "bool": false
@@ -1473,28 +1458,16 @@
       {
         "option": "Endotoxin",
         "bool": false
-      },
-      {
-        "option": "Exotoxin",
-        "bool": false
-      },
-      {
-        "option": "Multigenic",
-        "bool": false
-      },
-      {
-        "option": "Peptide",
-        "bool": true
       }
     ]
   },
   {
-    "id": 55,
+    "id": 54,
     "info": "3rd-year/infectious/2017",
     "question": "What is the antibiotic of choice for established tetanus?",
     "answers": [
       {
-        "option": "Vancomycin",
+        "option": "Sulfamethoxazole",
         "bool": false
       },
       {
@@ -1506,22 +1479,22 @@
         "bool": false
       },
       {
-        "option": "Sulfamethoxazole",
-        "bool": false
-      },
-      {
         "option": "Penicillin G",
         "bool": true
+      },
+      {
+        "option": "Vancomycin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 56,
+    "id": 55,
     "info": "3rd-year/infectious/2017",
     "question": "What is the confirmatory test for HIV?",
     "answers": [
       {
-        "option": "T-lymphocyte subset assay",
+        "option": "Rapid test",
         "bool": false
       },
       {
@@ -1529,7 +1502,7 @@
         "bool": false
       },
       {
-        "option": "Rapid test",
+        "option": "ELISA",
         "bool": false
       },
       {
@@ -1537,26 +1510,18 @@
         "bool": true
       },
       {
-        "option": "ELISA",
+        "option": "T-lymphocyte subset assay",
         "bool": false
       }
     ]
   },
   {
-    "id": 57,
+    "id": 56,
     "info": "3rd-year/infectious/2017",
     "question": "What is the vector for the spread of dengue fever?",
     "answers": [
       {
-        "option": "Anopheles mosquito",
-        "bool": false
-      },
-      {
-        "option": "Deer fly",
-        "bool": false
-      },
-      {
-        "option": "Dermacentor tick",
+        "option": "Tsetse fly",
         "bool": false
       },
       {
@@ -1564,24 +1529,24 @@
         "bool": true
       },
       {
-        "option": "Tsetse fly",
+        "option": "Anopheles mosquito",
+        "bool": false
+      },
+      {
+        "option": "Dermacentor tick",
+        "bool": false
+      },
+      {
+        "option": "Deer fly",
         "bool": false
       }
     ]
   },
   {
-    "id": 58,
+    "id": 57,
     "info": "3rd-year/infectious/2017",
     "question": "What is the earliest sign of tetanus?",
     "answers": [
-      {
-        "option": "Risus sardonicus",
-        "bool": false
-      },
-      {
-        "option": "Lockjaw",
-        "bool": true
-      },
       {
         "option": "Opisthotonus",
         "bool": false
@@ -1591,18 +1556,26 @@
         "bool": false
       },
       {
+        "option": "Lockjaw",
+        "bool": true
+      },
+      {
         "option": "Board like abdominal wall",
+        "bool": false
+      },
+      {
+        "option": "Risus sardonicus",
         "bool": false
       }
     ]
   },
   {
-    "id": 59,
+    "id": 58,
     "info": "3rd-year/infectious/2017",
     "question": "What is the vector for the spread of malaria?",
     "answers": [
       {
-        "option": "Dermacentor tick",
+        "option": "Deer fly",
         "bool": false
       },
       {
@@ -1610,28 +1583,24 @@
         "bool": true
       },
       {
-        "option": "Tsetse fly",
-        "bool": false
-      },
-      {
-        "option": "Deer fly",
+        "option": "Dermacentor tick",
         "bool": false
       },
       {
         "option": "Aedes mosquito",
         "bool": false
+      },
+      {
+        "option": "Tsetse fly",
+        "bool": false
       }
     ]
   },
   {
-    "id": 60,
+    "id": 59,
     "info": "3rd-year/infectious/2017",
     "question": "What is the percentage positivity in hydatid cyst disease serology?",
     "answers": [
-      {
-        "option": "70%",
-        "bool": false
-      },
       {
         "option": "20%",
         "bool": false
@@ -1647,16 +1616,20 @@
       {
         "option": "100%",
         "bool": false
+      },
+      {
+        "option": "70%",
+        "bool": false
       }
     ]
   },
   {
-    "id": 61,
+    "id": 60,
     "info": "3rd-year/infectious/2017",
     "question": "What is the mode of transmission of trichinosis?",
     "answers": [
       {
-        "option": "Drinking contaminated water",
+        "option": "Eating food contaminated with fecal material",
         "bool": false
       },
       {
@@ -1664,21 +1637,21 @@
         "bool": false
       },
       {
-        "option": "Eating undercooked meat",
-        "bool": true
-      },
-      {
-        "option": "Eating food contaminated with fecal material",
-        "bool": false
-      },
-      {
         "option": "Walking barefoot on sand",
         "bool": false
+      },
+      {
+        "option": "Drinking contaminated water",
+        "bool": false
+      },
+      {
+        "option": "Eating undercooked meat",
+        "bool": true
       }
     ]
   },
   {
-    "id": 62,
+    "id": 61,
     "info": "3rd-year/infectious/2017",
     "question": "Which of these cephalosporins is 4th generation?",
     "answers": [
@@ -1687,7 +1660,7 @@
         "bool": false
       },
       {
-        "option": "Ceftriaxone",
+        "option": "Ceftazidime",
         "bool": false
       },
       {
@@ -1695,11 +1668,38 @@
         "bool": true
       },
       {
-        "option": "Ceftazidime",
+        "option": "Ceftriaxone",
         "bool": false
       },
       {
         "option": "Cefoxitin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "3rd-year/infectious/2017",
+    "question": "Which one of these is a diagnostic feature of Echinococcal infection?",
+    "answers": [
+      {
+        "option": "Skin rash",
+        "bool": false
+      },
+      {
+        "option": "Cystic spaces in the brain",
+        "bool": false
+      },
+      {
+        "option": "Brood capsules",
+        "bool": true
+      },
+      {
+        "option": "Flask-shaped colonic ulcer",
+        "bool": false
+      },
+      {
+        "option": "Bloody diarrhea",
         "bool": false
       }
     ]
@@ -1710,15 +1710,7 @@
     "question": "Which of these organisms contain 'endotoxin'?",
     "answers": [
       {
-        "option": "Viruses",
-        "bool": false
-      },
-      {
         "option": "Gram positive bacteria",
-        "bool": false
-      },
-      {
-        "option": "Protozoa",
         "bool": false
       },
       {
@@ -1728,6 +1720,14 @@
       {
         "option": "Gram negative bacteria",
         "bool": true
+      },
+      {
+        "option": "Protozoa",
+        "bool": false
+      },
+      {
+        "option": "Viruses",
+        "bool": false
       }
     ]
   },
@@ -1737,6 +1737,14 @@
     "question": "Which type of vaccine is used for chickenpox?",
     "answers": [
       {
+        "option": "Killed vaccine",
+        "bool": false
+      },
+      {
+        "option": "Toxoid vaccine",
+        "bool": false
+      },
+      {
         "option": "Live attenuated vaccine",
         "bool": true
       },
@@ -1745,15 +1753,7 @@
         "bool": false
       },
       {
-        "option": "Killed vaccine",
-        "bool": false
-      },
-      {
         "option": "Subunit vaccine",
-        "bool": false
-      },
-      {
-        "option": "Toxoid vaccine",
         "bool": false
       }
     ]
@@ -1764,11 +1764,15 @@
     "question": "How would a western blot test be deemed positive?",
     "answers": [
       {
+        "option": "Minimum 3 bands present",
+        "bool": true
+      },
+      {
         "option": "Minimum 2 bands present",
         "bool": false
       },
       {
-        "option": "No bands present",
+        "option": "Maximum 2 bands present",
         "bool": false
       },
       {
@@ -1776,11 +1780,7 @@
         "bool": false
       },
       {
-        "option": "Minimum 3 bands present",
-        "bool": true
-      },
-      {
-        "option": "Maximum 2 bands present",
+        "option": "No bands present",
         "bool": false
       }
     ]
@@ -1791,11 +1791,15 @@
     "question": "Which drug that is used to treat leparomatous leprosy also has an anti-inflammatory effect?",
     "answers": [
       {
-        "option": "Tetracycline",
+        "option": "Clofazimine",
+        "bool": true
+      },
+      {
+        "option": "Ofloxacin",
         "bool": false
       },
       {
-        "option": "Dapsone",
+        "option": "Tetracycline",
         "bool": false
       },
       {
@@ -1803,11 +1807,7 @@
         "bool": false
       },
       {
-        "option": "Clofazimine",
-        "bool": true
-      },
-      {
-        "option": "Ofloxacin",
+        "option": "Dapsone",
         "bool": false
       }
     ]
@@ -1818,11 +1818,11 @@
     "question": "Which arachidonic acid metabolite is mainly responsible for leukocyte adhesion?",
     "answers": [
       {
-        "option": "Leukotriene D4",
-        "bool": false
+        "option": "Leukotriene B4",
+        "bool": true
       },
       {
-        "option": "Leukotriene E4",
+        "option": "Leukotriene C4",
         "bool": false
       },
       {
@@ -1830,11 +1830,11 @@
         "bool": false
       },
       {
-        "option": "Leukotriene B4",
-        "bool": true
+        "option": "Leukotriene E4",
+        "bool": false
       },
       {
-        "option": "Leukotriene C4",
+        "option": "Leukotriene D4",
         "bool": false
       }
     ]
@@ -1844,6 +1844,10 @@
     "info": "3rd-year/infectious/2017",
     "question": "Which of the following courts can give a death sentence?",
     "answers": [
+      {
+        "option": "Sessions court",
+        "bool": true
+      },
       {
         "option": "2nd class magistrate",
         "bool": false
@@ -1859,10 +1863,6 @@
       {
         "option": "Section 30 magistrate",
         "bool": false
-      },
-      {
-        "option": "Sessions court",
-        "bool": true
       }
     ]
   },
@@ -1872,42 +1872,61 @@
     "question": "What is a dying declaration?",
     "answers": [
       {
-        "option": "An observation of certain facts from which an inference can be concluded",
+        "option": "A document produced for the inspection of court",
         "bool": false
-      },
-      {
-        "option": "A person's statement made just before his death, relating to the cause of death",
-        "bool": true
       },
       {
         "option": "A statement taken on oath before magistrate in the presence of the accused and his lawyer",
         "bool": false
       },
       {
-        "option": "A document produced for the inspection of court",
+        "option": "An observation of certain facts from which an inference can be concluded",
         "bool": false
       },
       {
         "option": "A statement on oath made by a witness in a judicial proceeding",
         "bool": false
+      },
+      {
+        "option": "A person's statement made just before his death, relating to the cause of death",
+        "bool": true
       }
     ]
   },
   {
     "id": 70,
     "info": "3rd-year/infectious/2017",
-    "question": "How is leprosy transmitted?",
+    "question": "What is a dying deposition?",
     "answers": [
       {
-        "option": "Contact with nasal secretions",
-        "bool": true
-      },
-      {
-        "option": "Vector transmission",
+        "option": "A document produced for the inspection of court",
         "bool": false
       },
       {
-        "option": "Genetically",
+        "option": "A statement taken on oath before magistrate in the presence of the accused and his lawyer",
+        "bool": true
+      },
+      {
+        "option": "A statement on oath made by a witness in a judicial proceeding",
+        "bool": false
+      },
+      {
+        "option": "A person's statement made just before his death, relating to the cause of death",
+        "bool": false
+      },
+      {
+        "option": "An observation of certain facts from which an inference can be concluded",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "3rd-year/infectious/2017",
+    "question": "How is leprosy transmitted?",
+    "answers": [
+      {
+        "option": "Vector transmission",
         "bool": false
       },
       {
@@ -1917,18 +1936,22 @@
       {
         "option": "Airborne droplets",
         "bool": false
+      },
+      {
+        "option": "Contact with nasal secretions",
+        "bool": true
+      },
+      {
+        "option": "Genetically",
+        "bool": false
       }
     ]
   },
   {
-    "id": 71,
+    "id": 72,
     "info": "3rd-year/infectious/2017",
     "question": "In which of the following conditions are nerves thickened?",
     "answers": [
-      {
-        "option": "Tuberculoid leprosy",
-        "bool": true
-      },
       {
         "option": "Tuberculosis",
         "bool": false
@@ -1944,33 +1967,10 @@
       {
         "option": "Dysentery",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "info": "3rd-year/infectious/2017",
-    "question": "What is the most common pulmonary disorder in an AIDS patient?",
-    "answers": [
+      },
       {
-        "option": "Pneumocystis infection",
+        "option": "Tuberculoid leprosy",
         "bool": true
-      },
-      {
-        "option": "Bacterial pneumonia",
-        "bool": false
-      },
-      {
-        "option": "Lung cancer",
-        "bool": false
-      },
-      {
-        "option": "Pulmonary abscess",
-        "bool": false
-      },
-      {
-        "option": "Tuberculosis",
-        "bool": false
       }
     ]
   },
@@ -1980,10 +1980,6 @@
     "question": "What is a hostile witness?",
     "answers": [
       {
-        "option": "A well qualified and trained witness that can draw conclusions from facts observed by him and others",
-        "bool": false
-      },
-      {
         "option": "A witness with a background in martial arts",
         "bool": false
       },
@@ -1992,12 +1988,16 @@
         "bool": false
       },
       {
-        "option": "A witness who could not show up to court",
+        "option": "A witness who turned hostile against the party that called him, making statements contradictory to facts",
+        "bool": true
+      },
+      {
+        "option": "A well qualified and trained witness that can draw conclusions from facts observed by him and others",
         "bool": false
       },
       {
-        "option": "A witness who turned hostile against the party that called him, making statements contradictory to facts",
-        "bool": true
+        "option": "A witness who could not show up to court",
+        "bool": false
       }
     ]
   },
@@ -2007,24 +2007,24 @@
     "question": "Which of the following is not present in granulomas?",
     "answers": [
       {
-        "option": "Lymphocytes",
-        "bool": false
-      },
-      {
         "option": "Langhans giant cells",
         "bool": false
       },
       {
-        "option": "Epithelial cells",
-        "bool": true
+        "option": "Lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Caseation",
+        "bool": false
       },
       {
         "option": "Fibroblasts",
         "bool": false
       },
       {
-        "option": "Caseation",
-        "bool": false
+        "option": "Epithelial cells",
+        "bool": true
       }
     ]
   },
@@ -2042,15 +2042,15 @@
         "bool": false
       },
       {
-        "option": "Sodium",
-        "bool": false
-      },
-      {
         "option": "Albumin",
         "bool": true
       },
       {
         "option": "Glucose",
+        "bool": false
+      },
+      {
+        "option": "Sodium",
         "bool": false
       }
     ]
@@ -2058,43 +2058,8 @@
   {
     "id": 76,
     "info": "3rd-year/infectious/2017",
-    "question": "What would the blood smear of a patient with malaria show?",
-    "answers": [
-      {
-        "option": "Bilobar bodies",
-        "bool": false
-      },
-      {
-        "option": "Granular bodies",
-        "bool": false
-      },
-      {
-        "option": "Multilobar bodies",
-        "bool": false
-      },
-      {
-        "option": "Crescent shaped bodies",
-        "bool": true
-      },
-      {
-        "option": "Square bodies",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "info": "3rd-year/infectious/2017",
     "question": "Where does the ookinete of the malarial parasite grow?",
     "answers": [
-      {
-        "option": "Erythrocytes",
-        "bool": false
-      },
-      {
-        "option": "Midgut wall",
-        "bool": true
-      },
       {
         "option": "Liver",
         "bool": false
@@ -2106,16 +2071,24 @@
       {
         "option": "Brain",
         "bool": false
+      },
+      {
+        "option": "Erythrocytes",
+        "bool": false
+      },
+      {
+        "option": "Midgut wall",
+        "bool": true
       }
     ]
   },
   {
-    "id": 78,
+    "id": 77,
     "info": "3rd-year/infectious/2017",
     "question": "Clostridium difficile is associated with which of the following?",
     "answers": [
       {
-        "option": "Brain abscesses",
+        "option": "Pneumonia",
         "bool": false
       },
       {
@@ -2123,26 +2096,26 @@
         "bool": true
       },
       {
-        "option": "Pneumonia",
-        "bool": false
-      },
-      {
-        "option": "Erythema nodosum",
+        "option": "Brain abscesses",
         "bool": false
       },
       {
         "option": "Constipation",
         "bool": false
+      },
+      {
+        "option": "Erythema nodosum",
+        "bool": false
       }
     ]
   },
   {
-    "id": 79,
+    "id": 78,
     "info": "3rd-year/infectious/2017",
     "question": "What is the external incubation period for dengue?",
     "answers": [
       {
-        "option": "5 hours",
+        "option": "2 days",
         "bool": false
       },
       {
@@ -2150,21 +2123,21 @@
         "bool": true
       },
       {
-        "option": "3 weeks",
-        "bool": false
-      },
-      {
         "option": "1 month",
         "bool": false
       },
       {
-        "option": "2 days",
+        "option": "5 hours",
+        "bool": false
+      },
+      {
+        "option": "3 weeks",
         "bool": false
       }
     ]
   },
   {
-    "id": 80,
+    "id": 79,
     "info": "3rd-year/infectious/2017",
     "question": "Systemic inflammatory response syndrome (SIRS) is associated with which of the following?",
     "answers": [
@@ -2173,15 +2146,15 @@
         "bool": false
       },
       {
+        "option": "4,000 > WBC > 12,000 cells/mm3",
+        "bool": false
+      },
+      {
         "option": ">10% band forms",
         "bool": true
       },
       {
-        "option": "Temperatue 37\u00b0C",
-        "bool": false
-      },
-      {
-        "option": "4,000 > WBC > 12,000 cells/mm3",
+        "option": "Temperatue 37°C",
         "bool": false
       },
       {
@@ -2191,7 +2164,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 80,
     "info": "3rd-year/infectious/2017",
     "question": "Which of the following is true regarding leprosy?",
     "answers": [
@@ -2200,19 +2173,46 @@
         "bool": false
       },
       {
-        "option": "Bacilli are seen in skin allergy reaction",
-        "bool": true
+        "option": "Bacilli are seen in gut",
+        "bool": false
       },
       {
-        "option": "Bacilli are seen in tuberculoid reaction",
-        "bool": false
+        "option": "Bacilli are seen in skin allergy reaction",
+        "bool": true
       },
       {
         "option": "Bacilli are seen in brain nuclei",
         "bool": false
       },
       {
-        "option": "Bacilli are seen in gut",
+        "option": "Bacilli are seen in tuberculoid reaction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "3rd-year/infectious/2017",
+    "question": "Where are organisms of cutaneous Leishmaniasis seen?",
+    "answers": [
+      {
+        "option": "Skin of palms",
+        "bool": false
+      },
+      {
+        "option": "Area close to sandfly bite",
+        "bool": false
+      },
+      {
+        "option": "Area of bite of sandfly",
+        "bool": true
+      },
+      {
+        "option": "Skin of soles",
+        "bool": false
+      },
+      {
+        "option": "Lymph nodes",
         "bool": false
       }
     ]
@@ -2220,27 +2220,27 @@
   {
     "id": 82,
     "info": "3rd-year/infectious/2017",
-    "question": "Where are organisms of cutaneous Leishmaniasis seen?",
+    "question": "What would the blood smear of a patient with malaria show?",
     "answers": [
       {
-        "option": "Area of bite of sandfly",
+        "option": "Bilobar bodies",
+        "bool": false
+      },
+      {
+        "option": "Multilobar bodies",
+        "bool": false
+      },
+      {
+        "option": "Square bodies",
+        "bool": false
+      },
+      {
+        "option": "Granular bodies",
+        "bool": false
+      },
+      {
+        "option": "Crescent shaped bodies",
         "bool": true
-      },
-      {
-        "option": "Lymph nodes",
-        "bool": false
-      },
-      {
-        "option": "Skin of palms",
-        "bool": false
-      },
-      {
-        "option": "Skin of soles",
-        "bool": false
-      },
-      {
-        "option": "Area close to sandfly bite",
-        "bool": false
       }
     ]
   },
@@ -2250,7 +2250,15 @@
     "question": "What is dysentery?",
     "answers": [
       {
+        "option": "Bleeding per-rectal only",
+        "bool": false
+      },
+      {
         "option": "Mucous lined stool",
+        "bool": false
+      },
+      {
+        "option": "Occult blood in stool",
         "bool": false
       },
       {
@@ -2260,14 +2268,6 @@
       {
         "option": "Visibly bloody stool",
         "bool": true
-      },
-      {
-        "option": "Occult blood in stool",
-        "bool": false
-      },
-      {
-        "option": "Bleeding per-rectal only",
-        "bool": false
       }
     ]
   },
@@ -2277,16 +2277,16 @@
     "question": "What is the incubation period for leprosy?",
     "answers": [
       {
-        "option": "Few months",
-        "bool": false
-      },
-      {
         "option": "Few days",
         "bool": false
       },
       {
         "option": "Few years",
         "bool": true
+      },
+      {
+        "option": "Few months",
+        "bool": false
       },
       {
         "option": "Few hours",
@@ -2308,15 +2308,15 @@
         "bool": true
       },
       {
+        "option": "Ferments lactose",
+        "bool": false
+      },
+      {
         "option": "Produce protease",
         "bool": false
       },
       {
         "option": "Gal-gal pili bind to bladder mucosa",
-        "bool": false
-      },
-      {
-        "option": "Ferments lactose",
         "bool": false
       },
       {
@@ -2331,20 +2331,20 @@
     "question": "Which of the following is praziquantel ineffective against?",
     "answers": [
       {
-        "option": "Blood flukes",
-        "bool": false
-      },
-      {
-        "option": "Trematodes",
-        "bool": false
-      },
-      {
         "option": "Paragonimus westermani",
         "bool": false
       },
       {
         "option": "Nematodes",
         "bool": true
+      },
+      {
+        "option": "Blood flukes",
+        "bool": false
+      },
+      {
+        "option": "Trematodes",
+        "bool": false
       },
       {
         "option": "Clonorchis sinensis",
@@ -2358,15 +2358,7 @@
     "question": "Which of the following is the drug of choice for onchocerciasis?",
     "answers": [
       {
-        "option": "Bithional",
-        "bool": false
-      },
-      {
-        "option": "Ivermectin",
-        "bool": true
-      },
-      {
-        "option": "Niclosamide",
+        "option": "Triclabendazole",
         "bool": false
       },
       {
@@ -2374,7 +2366,15 @@
         "bool": false
       },
       {
-        "option": "Triclabendazole",
+        "option": "Niclosamide",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": true
+      },
+      {
+        "option": "Bithional",
         "bool": false
       }
     ]
@@ -2385,6 +2385,10 @@
     "question": "Which of the following is the drug of choice for filariasis?",
     "answers": [
       {
+        "option": "Triclabendazole",
+        "bool": false
+      },
+      {
         "option": "Diethylcarbamazine",
         "bool": true
       },
@@ -2394,10 +2398,6 @@
       },
       {
         "option": "Praziquantel",
-        "bool": false
-      },
-      {
-        "option": "Triclabendazole",
         "bool": false
       },
       {
@@ -2439,10 +2439,6 @@
     "question": "Which of the following is the earliest clinical symptom of tetanus?",
     "answers": [
       {
-        "option": "Opisthotonos",
-        "bool": false
-      },
-      {
         "option": "Lockjaw",
         "bool": true
       },
@@ -2451,11 +2447,15 @@
         "bool": false
       },
       {
-        "option": "Neck stiffness",
+        "option": "Respiratory distress",
         "bool": false
       },
       {
-        "option": "Respiratory distress",
+        "option": "Opisthotonos",
+        "bool": false
+      },
+      {
+        "option": "Neck stiffness",
         "bool": false
       }
     ]
@@ -2466,11 +2466,11 @@
     "question": "Which cells secrete histamine during acute inflammation?",
     "answers": [
       {
-        "option": "Mast cells",
-        "bool": true
+        "option": "Fibroblasts",
+        "bool": false
       },
       {
-        "option": "Fibroblasts",
+        "option": "T-lymphocytes",
         "bool": false
       },
       {
@@ -2478,8 +2478,8 @@
         "bool": false
       },
       {
-        "option": "T-lymphocytes",
-        "bool": false
+        "option": "Mast cells",
+        "bool": true
       },
       {
         "option": "Macrophages",
@@ -2493,15 +2493,15 @@
     "question": "What intravenous drugs should be given as the first choice, following fluid resuscitation, in sepsis?",
     "answers": [
       {
+        "option": "Dopamine",
+        "bool": false
+      },
+      {
         "option": "Adrenaline",
         "bool": false
       },
       {
         "option": "Dobutamine",
-        "bool": false
-      },
-      {
-        "option": "Dopamine",
         "bool": false
       },
       {
@@ -2520,15 +2520,15 @@
     "question": "Which of these cells are affected by HIV in the intestinal mucosa?",
     "answers": [
       {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
         "option": "Macrophages",
         "bool": true
       },
       {
         "option": "Kupffer cells",
-        "bool": false
-      },
-      {
-        "option": "Neutrophils",
         "bool": false
       },
       {
@@ -2547,11 +2547,15 @@
     "question": "Which vaccines are given at birth according to the EPI schedule?",
     "answers": [
       {
-        "option": "Penta + OPV",
+        "option": "Pneumo + BCG",
         "bool": false
       },
       {
-        "option": "Pneumo + BCG",
+        "option": "OPV 0 + BCG",
+        "bool": false
+      },
+      {
+        "option": "BCG + OPV 1",
         "bool": false
       },
       {
@@ -2559,11 +2563,7 @@
         "bool": true
       },
       {
-        "option": "BCG + OPV 1",
-        "bool": false
-      },
-      {
-        "option": "OPV 0 + BCG",
+        "option": "Penta + OPV",
         "bool": false
       }
     ]
@@ -2574,11 +2574,7 @@
     "question": "Which antibodies are formed in syphilis?",
     "answers": [
       {
-        "option": "Anti mitochondrial antibodies",
-        "bool": false
-      },
-      {
-        "option": "Anti Smith antibodies",
+        "option": "Anti dsDNA antibodies",
         "bool": false
       },
       {
@@ -2590,7 +2586,11 @@
         "bool": false
       },
       {
-        "option": "Anti dsDNA antibodies",
+        "option": "Anti mitochondrial antibodies",
+        "bool": false
+      },
+      {
+        "option": "Anti Smith antibodies",
         "bool": false
       }
     ]
@@ -2598,72 +2598,41 @@
   {
     "id": 96,
     "info": "3rd-year/infectious/2017",
-    "question": "Which inotropic agent is given in cardiogenic shock?",
-    "answers": [
-      {
-        "option": "Dobutamine",
-        "bool": true
-      },
-      {
-        "option": "Dopamine",
-        "bool": false
-      },
-      {
-        "option": "Phenoxybenzamine",
-        "bool": false
-      },
-      {
-        "option": "Norepinephrine",
-        "bool": false
-      },
-      {
-        "option": "Epinephrine",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "info": "3rd-year/infectious/2017",
     "question": "What is the movement of leukocytes towards an infected tissue called?",
     "answers": [
       {
-        "option": "Opsonization",
+        "option": "Tumbling motility",
         "bool": false
-      },
-      {
-        "option": "Chemotaxis",
-        "bool": true
       },
       {
         "option": "Migration",
         "bool": false
       },
       {
-        "option": "Tumbling motility",
+        "option": "Opsonization",
         "bool": false
       },
       {
         "option": "Phagocytosis",
         "bool": false
+      },
+      {
+        "option": "Chemotaxis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 98,
+    "id": 97,
     "info": "3rd-year/infectious/2017",
     "question": "How long does it take for antibodies to appear after HIV infection?",
     "answers": [
       {
+        "option": "3 days",
+        "bool": false
+      },
+      {
         "option": "60-90 days",
-        "bool": false
-      },
-      {
-        "option": "6 days",
-        "bool": false
-      },
-      {
-        "option": "30 days",
         "bool": false
       },
       {
@@ -2671,18 +2640,22 @@
         "bool": true
       },
       {
-        "option": "3 days",
+        "option": "30 days",
+        "bool": false
+      },
+      {
+        "option": "6 days",
         "bool": false
       }
     ]
   },
   {
-    "id": 99,
+    "id": 98,
     "info": "3rd-year/infectious/2017",
     "question": "Which of these is not an indication for antiviral therapy for chickenpox infections?",
     "answers": [
       {
-        "option": "Uncomplicated chickenpox presenting within 24-48 hours",
+        "option": "Chickenpox in immunocompromised patients regardless of duration",
         "bool": false
       },
       {
@@ -2690,21 +2663,21 @@
         "bool": false
       },
       {
-        "option": "Chickenpox in immunocompromised patients regardless of duration",
+        "option": "Complicated chickenpox regardless of duration",
+        "bool": false
+      },
+      {
+        "option": "Uncomplicated chickenpox presenting within 24-48 hours",
         "bool": false
       },
       {
         "option": "Uncomplicated chickenpox in children",
         "bool": true
-      },
-      {
-        "option": "Complicated chickenpox regardless of duration",
-        "bool": false
       }
     ]
   },
   {
-    "id": 100,
+    "id": 99,
     "info": "3rd-year/infectious/2017",
     "question": "A diabetic woman came to the clinic with the complaint of vaginal itch. Which of the following is the most likely cause of her condition?",
     "answers": [
@@ -2721,11 +2694,11 @@
         "bool": true
       },
       {
-        "option": "Bacterial infection",
+        "option": "Human papilloma virus",
         "bool": false
       },
       {
-        "option": "Human papilloma virus",
+        "option": "Bacterial infection",
         "bool": false
       }
     ]

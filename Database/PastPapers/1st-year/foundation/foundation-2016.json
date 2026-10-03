@@ -1,23 +1,23 @@
 [
   {
     "id": 0,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "How can the therapeutic index be calculated?",
     "answers": [
       {
-        "option": "Efficacy/potency",
+        "option": "[E]/[Eₘ‎ₐₓ]",
         "bool": false
+      },
+      {
+        "option": "TD₅₀/ED₅₀",
+        "bool": true
       },
       {
         "option": "PT/INR",
         "bool": false
       },
       {
-        "option": "TD\u2085\u2080/ED\u2085\u2080",
-        "bool": true
-      },
-      {
-        "option": "[E]/[E\u2098\u2090\u2093]",
+        "option": "Efficacy/potency",
         "bool": false
       },
       {
@@ -28,11 +28,15 @@
   },
   {
     "id": 1,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What type of glands are sweat glands?",
     "answers": [
       {
-        "option": "Seromucous glands",
+        "option": "Merocrine glands",
+        "bool": true
+      },
+      {
+        "option": "Mammary glands",
         "bool": false
       },
       {
@@ -40,22 +44,18 @@
         "bool": false
       },
       {
+        "option": "Seromucous glands",
+        "bool": false
+      },
+      {
         "option": "Holocrine glands",
         "bool": false
-      },
-      {
-        "option": "Mammary glands",
-        "bool": false
-      },
-      {
-        "option": "Merocrine glands",
-        "bool": true
       }
     ]
   },
   {
     "id": 2,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What does vitamin C deficiency lead to?",
     "answers": [
       {
@@ -82,11 +82,15 @@
   },
   {
     "id": 3,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "When a cell undergoes injury, certain mechanisms cause the activation of proapoptotic bodies in the cell. Which of the following is the most likely cause of this activation?",
     "answers": [
       {
-        "option": "Ca\u207a\u00b2 entry into cell",
+        "option": "DNA damage",
+        "bool": true
+      },
+      {
+        "option": "Decreased ATP synthesis",
         "bool": false
       },
       {
@@ -98,49 +102,49 @@
         "bool": false
       },
       {
-        "option": "DNA damage",
-        "bool": true
-      },
-      {
-        "option": "Decreased ATP synthesis",
+        "option": "Ca⁺² entry into cell",
         "bool": false
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which type of gland has branched ducts?",
     "answers": [
+      {
+        "option": "Compound",
+        "bool": true
+      },
       {
         "option": "Sweat glands",
         "bool": false
       },
       {
-        "option": "Simple",
+        "option": "Endometrial glands",
         "bool": false
-      },
-      {
-        "option": "Compound",
-        "bool": true
       },
       {
         "option": "Endocrine",
         "bool": false
       },
       {
-        "option": "Endometrial glands",
+        "option": "Simple",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which cells are responsible for the production of testosterone?",
     "answers": [
       {
-        "option": "Prostate gland cells",
+        "option": "Leydig cells",
+        "bool": true
+      },
+      {
+        "option": "Anterior pituitary cells",
         "bool": false
       },
       {
@@ -148,24 +152,24 @@
         "bool": false
       },
       {
-        "option": "Leydig cells",
-        "bool": true
-      },
-      {
         "option": "Sertoli cells",
         "bool": false
       },
       {
-        "option": "Anterior pituitary cells",
+        "option": "Prostate gland cells",
         "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "A 14-year-old female presents to the clinic with a depressed nasal bridge, short stature, and prominent crease on the palm. The doctor suspects Down syndrome. What is the disease otherwise known as?",
     "answers": [
+      {
+        "option": "Trisomy 16",
+        "bool": false
+      },
       {
         "option": "Trisomy 18",
         "bool": false
@@ -175,34 +179,22 @@
         "bool": true
       },
       {
-        "option": "Trisomy 23",
-        "bool": false
-      },
-      {
         "option": "Trisomy 13",
         "bool": false
       },
       {
-        "option": "Trisomy 16",
+        "option": "Trisomy 23",
         "bool": false
       }
     ]
   },
   {
     "id": 7,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "During translation, the initiation codon of mRNA attaches to the ribosome at which site?",
     "answers": [
       {
-        "option": "E site of 30S subunit",
-        "bool": false
-      },
-      {
         "option": "A site of 50S subunit",
-        "bool": false
-      },
-      {
-        "option": "E site of 50S subunit",
         "bool": false
       },
       {
@@ -210,14 +202,22 @@
         "bool": true
       },
       {
+        "option": "E site of 50S subunit",
+        "bool": false
+      },
+      {
         "option": "A site of 30S subunit",
+        "bool": false
+      },
+      {
+        "option": "E site of 30S subunit",
         "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the coupled transport of two different molecules in opposite directions called?",
     "answers": [
       {
@@ -229,63 +229,51 @@
         "bool": false
       },
       {
-        "option": "Cotransport",
-        "bool": false
-      },
-      {
         "option": "Antiport",
         "bool": true
       },
       {
         "option": "Uniport",
         "bool": false
+      },
+      {
+        "option": "Cotransport",
+        "bool": false
       }
     ]
   },
   {
     "id": 9,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is incorrect regarding amniocentesis?",
     "answers": [
       {
-        "option": "It can be performed transabdominally and by trans-cervical methods",
-        "bool": false
+        "option": "It is performed after 22 weeks of gestation",
+        "bool": true
       },
       {
         "option": "It is guided by ultrasound",
         "bool": false
       },
       {
-        "option": "It is performed after 22 weeks of gestation",
-        "bool": true
+        "option": "20-30 ml of fluid is extracted",
+        "bool": false
       },
       {
         "option": "Fetal cells are obtained to examine their DNA",
         "bool": false
       },
       {
-        "option": "20-30 ml of fluid is extracted",
+        "option": "It can be performed transabdominally and by trans-cervical methods",
         "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "When is chorionic villus sampling performed?",
     "answers": [
-      {
-        "option": "10-12 weeks",
-        "bool": true
-      },
-      {
-        "option": "16-18 weeks",
-        "bool": false
-      },
-      {
-        "option": "13-15 weeks",
-        "bool": false
-      },
       {
         "option": "18-22 weeks",
         "bool": false
@@ -293,22 +281,26 @@
       {
         "option": "12-14 weeks",
         "bool": false
+      },
+      {
+        "option": "13-15 weeks",
+        "bool": false
+      },
+      {
+        "option": "10-12  weeks",
+        "bool": true
+      },
+      {
+        "option": "16-18 weeks",
+        "bool": false
       }
     ]
   },
   {
     "id": 11,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following conditions is not an indication for prenatal diagnosis?",
     "answers": [
-      {
-        "option": "Maternal age greater than 15 years",
-        "bool": true
-      },
-      {
-        "option": "Previous spontaneous miscarriages in 1st trimester",
-        "bool": false
-      },
       {
         "option": "Maternal age greater than 35 years",
         "bool": false
@@ -318,6 +310,14 @@
         "bool": false
       },
       {
+        "option": "Previous spontaneous miscarriages in 1st trimester",
+        "bool": false
+      },
+      {
+        "option": "Maternal age greater than 15 years",
+        "bool": true
+      },
+      {
         "option": "Previous baby born with a birth defect",
         "bool": false
       }
@@ -325,19 +325,15 @@
   },
   {
     "id": 12,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Extracellular fluid constitutes how much of the total body fluid?",
     "answers": [
-      {
-        "option": "1/3rd",
-        "bool": true
-      },
       {
         "option": "1/8th",
         "bool": false
       },
       {
-        "option": "1/4th",
+        "option": "1/6th",
         "bool": false
       },
       {
@@ -345,14 +341,18 @@
         "bool": false
       },
       {
-        "option": "1/6th",
+        "option": "1/3rd",
+        "bool": true
+      },
+      {
+        "option": "1/4th",
         "bool": false
       }
     ]
   },
   {
     "id": 13,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is defined as the outcome of the man-made part of the environment?",
     "answers": [
       {
@@ -360,7 +360,7 @@
         "bool": false
       },
       {
-        "option": "Tradition",
+        "option": "Green houses",
         "bool": false
       },
       {
@@ -368,7 +368,7 @@
         "bool": true
       },
       {
-        "option": "Green houses",
+        "option": "Tradition",
         "bool": false
       },
       {
@@ -379,7 +379,7 @@
   },
   {
     "id": 14,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What are the inclusion bodies formed in plasma cells due to excessive production of immunoglobulin called?",
     "answers": [
       {
@@ -387,38 +387,34 @@
         "bool": false
       },
       {
-        "option": "Charcot-Leyden crystals",
+        "option": "Lipofuscin",
         "bool": false
       },
       {
-        "option": "Lipofuscin",
+        "option": "Hemosiderin",
+        "bool": false
+      },
+      {
+        "option": "Charcot-Leyden crystals",
         "bool": false
       },
       {
         "option": "Russell bodies",
         "bool": true
-      },
-      {
-        "option": "Hemosiderin",
-        "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What are the phospholipid masses that replace cells that have undergone necrosis called?",
     "answers": [
       {
+        "option": "Myelin figures",
+        "bool": true
+      },
+      {
         "option": "Hemosiderin",
-        "bool": false
-      },
-      {
-        "option": "Charcot-Leyden crystals",
-        "bool": false
-      },
-      {
-        "option": "Lipofuscin",
         "bool": false
       },
       {
@@ -426,28 +422,20 @@
         "bool": false
       },
       {
-        "option": "Myelin figures",
-        "bool": true
+        "option": "Lipofuscin",
+        "bool": false
+      },
+      {
+        "option": "Charcot-Leyden crystals",
+        "bool": false
       }
     ]
   },
   {
     "id": 16,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following hormones influence the process of sperm formation?",
     "answers": [
-      {
-        "option": "LH and testosterone",
-        "bool": true
-      },
-      {
-        "option": "Testosterone",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
       {
         "option": "FSH",
         "bool": false
@@ -455,16 +443,28 @@
       {
         "option": "LH",
         "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
+        "bool": false
+      },
+      {
+        "option": "LH and testosterone",
+        "bool": true
       }
     ]
   },
   {
     "id": 17,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is used for the diagnosis of Klinefelter syndrome?",
     "answers": [
       {
-        "option": "X-ray",
+        "option": "Ultrasound",
         "bool": false
       },
       {
@@ -476,7 +476,7 @@
         "bool": false
       },
       {
-        "option": "Ultrasound",
+        "option": "X-ray",
         "bool": false
       },
       {
@@ -487,7 +487,7 @@
   },
   {
     "id": 18,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "In which of the following conditions does isosmotic volume contraction occur?",
     "answers": [
       {
@@ -514,11 +514,19 @@
   },
   {
     "id": 19,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is the base sequence for a start codon?",
     "answers": [
       {
-        "option": "AGU",
+        "option": "AUG",
+        "bool": true
+      },
+      {
+        "option": "UAA",
+        "bool": false
+      },
+      {
+        "option": "UAG",
         "bool": false
       },
       {
@@ -526,32 +534,16 @@
         "bool": false
       },
       {
-        "option": "AUG",
-        "bool": true
-      },
-      {
-        "option": "UAG",
-        "bool": false
-      },
-      {
-        "option": "UAA",
+        "option": "AGU",
         "bool": false
       }
     ]
   },
   {
     "id": 20,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is present at the 3' end of a tRNA?",
     "answers": [
-      {
-        "option": "UAA",
-        "bool": false
-      },
-      {
-        "option": "AUG",
-        "bool": false
-      },
       {
         "option": "CCA",
         "bool": true
@@ -563,20 +555,32 @@
       {
         "option": "GGT",
         "bool": false
+      },
+      {
+        "option": "AUG",
+        "bool": false
+      },
+      {
+        "option": "UAA",
+        "bool": false
       }
     ]
   },
   {
     "id": 21,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which drug prevents the synthesis of folic acid?",
     "answers": [
+      {
+        "option": "Chloramphenicol",
+        "bool": false
+      },
       {
         "option": "Chloroquine",
         "bool": false
       },
       {
-        "option": "Isoniazid",
+        "option": "Probenecid",
         "bool": false
       },
       {
@@ -584,55 +588,43 @@
         "bool": true
       },
       {
-        "option": "Chloramphenicol",
-        "bool": false
-      },
-      {
-        "option": "Probenecid",
+        "option": "Isoniazid",
         "bool": false
       }
     ]
   },
   {
     "id": 22,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "In prokaryotes, initiation of the transcription involves recognition of the initial site by which factor of RNA polymerase enzyme?",
     "answers": [
       {
-        "option": "Sigma factor",
-        "bool": true
-      },
-      {
-        "option": "Template binding factor",
-        "bool": false
-      },
-      {
         "option": "Beta factor",
         "bool": false
+      },
+      {
+        "option": "Alpha factor",
+        "bool": false
+      },
+      {
+        "option": "Sigma factor",
+        "bool": true
       },
       {
         "option": "Enzyme assembly factor",
         "bool": false
       },
       {
-        "option": "Alpha factor",
+        "option": "Template binding factor",
         "bool": false
       }
     ]
   },
   {
     "id": 23,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Ribosomes are found attached to which of the following organelles?",
     "answers": [
-      {
-        "option": "Smooth endoplasmic reticulum",
-        "bool": false
-      },
-      {
-        "option": "Mitochondria",
-        "bool": false
-      },
       {
         "option": "Vacuole",
         "bool": false
@@ -642,22 +634,30 @@
         "bool": false
       },
       {
+        "option": "Smooth endoplasmic reticulum",
+        "bool": false
+      },
+      {
         "option": "Rough endoplasmic reticulum",
         "bool": true
+      },
+      {
+        "option": "Mitochondria",
+        "bool": false
       }
     ]
   },
   {
     "id": 24,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Quinolones inhibit the activity of which of the following enzymes?",
     "answers": [
       {
-        "option": "Helicase",
+        "option": "RNA primer",
         "bool": false
       },
       {
-        "option": "RNA polymerase",
+        "option": "Helicase",
         "bool": false
       },
       {
@@ -669,53 +669,49 @@
         "bool": true
       },
       {
-        "option": "RNA primer",
+        "option": "RNA polymerase",
         "bool": false
       }
     ]
   },
   {
     "id": 25,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the average size of a bacterial cell?",
     "answers": [
       {
-        "option": "50-80 \u03bcm",
+        "option": "10-15 μm",
         "bool": false
       },
       {
-        "option": "10-15 \u03bcm",
+        "option": "0.03-0.05 μm",
         "bool": false
       },
       {
-        "option": "5-10 \u03bcm",
+        "option": "50-80 μm",
         "bool": false
       },
       {
-        "option": "0.2-5 \u03bcm",
+        "option": "0.2-5 μm",
         "bool": true
       },
       {
-        "option": "0.03-0.05 \u03bcm",
+        "option": "5-10 μm",
         "bool": false
       }
     ]
   },
   {
     "id": 26,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following distinguishes prokaryotic and eukaryotic cells?",
     "answers": [
       {
+        "option": "Presence of vacuoles",
+        "bool": false
+      },
+      {
         "option": "Shape of cell",
-        "bool": false
-      },
-      {
-        "option": "Presence of multiple nuclei",
-        "bool": false
-      },
-      {
-        "option": "Presence of ribosomes",
         "bool": false
       },
       {
@@ -723,18 +719,22 @@
         "bool": true
       },
       {
-        "option": "Presence of vacuoles",
+        "option": "Presence of ribosomes",
+        "bool": false
+      },
+      {
+        "option": "Presence of multiple nuclei",
         "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "DNA polymerase 1 is able to remove an RNA primer due to which activity?",
     "answers": [
       {
-        "option": "5'-3' polymerase",
+        "option": "3'-5' exonuclease",
         "bool": false
       },
       {
@@ -742,26 +742,30 @@
         "bool": false
       },
       {
-        "option": "3'-5' exonuclease",
+        "option": "3'-5' unwinding",
+        "bool": false
+      },
+      {
+        "option": "5'-3' polymerase",
         "bool": false
       },
       {
         "option": "5'-3' exonuclease",
         "bool": true
-      },
-      {
-        "option": "3'-5' unwinding",
-        "bool": false
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is correct regarding LDL?",
     "answers": [
       {
-        "option": "Stands for \"light density lactoproteins\"",
+        "option": "Prevents heart attack",
+        "bool": false
+      },
+      {
+        "option": "Contains low concentration of cholesterol",
         "bool": false
       },
       {
@@ -773,30 +777,26 @@
         "bool": true
       },
       {
-        "option": "Contains low concentration of cholesterol",
-        "bool": false
-      },
-      {
-        "option": "Prevents heart attack",
+        "option": "Stands for \"light density lactoproteins\"",
         "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "By which mechanism do bacteria reproduce?",
     "answers": [
       {
-        "option": "Mating",
-        "bool": false
-      },
-      {
-        "option": "Mitosis",
-        "bool": false
-      },
-      {
         "option": "Meiosis",
+        "bool": false
+      },
+      {
+        "option": "Conjugation",
+        "bool": false
+      },
+      {
+        "option": "Mating",
         "bool": false
       },
       {
@@ -804,26 +804,22 @@
         "bool": true
       },
       {
-        "option": "Conjugation",
+        "option": "Mitosis",
         "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the amount of amniotic fluid aspirated during an amniocentesis?",
     "answers": [
       {
-        "option": "7-8 mL",
+        "option": "40-50 mL",
         "bool": false
       },
       {
-        "option": "20-30 mL",
-        "bool": true
-      },
-      {
-        "option": "40-50 mL",
+        "option": "7-8 mL",
         "bool": false
       },
       {
@@ -833,16 +829,20 @@
       {
         "option": "5-10 mL",
         "bool": false
+      },
+      {
+        "option": "20-30 mL",
+        "bool": true
       }
     ]
   },
   {
     "id": 31,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following produces negative supercoils in the DNA strand?",
     "answers": [
       {
-        "option": "Topoisomerase 1",
+        "option": "Helicase",
         "bool": false
       },
       {
@@ -850,30 +850,34 @@
         "bool": true
       },
       {
-        "option": "Helicase",
-        "bool": false
-      },
-      {
-        "option": "Transcriptase",
+        "option": "Topoisomerase 1",
         "bool": false
       },
       {
         "option": "Ligase",
+        "bool": false
+      },
+      {
+        "option": "Transcriptase",
         "bool": false
       }
     ]
   },
   {
     "id": 32,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following types of bacteria is found in swimming pools?",
     "answers": [
       {
-        "option": "Candida",
+        "option": "Streptococcus",
         "bool": false
       },
       {
-        "option": "Streptococcus",
+        "option": "Staphylococcus",
+        "bool": false
+      },
+      {
+        "option": "Candida",
         "bool": false
       },
       {
@@ -883,28 +887,20 @@
       {
         "option": "Helicobacter",
         "bool": false
-      },
-      {
-        "option": "Staphylococcus",
-        "bool": false
       }
     ]
   },
   {
     "id": 33,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Rocky Mountain spotted fever is caused by which of the following?",
     "answers": [
       {
-        "option": "Rickettsia",
-        "bool": true
-      },
-      {
-        "option": "Spirochaetes",
+        "option": "Coxiella",
         "bool": false
       },
       {
-        "option": "Coxiella",
+        "option": "Spirochaetes",
         "bool": false
       },
       {
@@ -914,21 +910,29 @@
       {
         "option": "Clostridium",
         "bool": false
+      },
+      {
+        "option": "Rickettsia",
+        "bool": true
       }
     ]
   },
   {
     "id": 34,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of these is the longest phase of the cell cycle?",
     "answers": [
       {
-        "option": "G1",
-        "bool": true
-      },
-      {
         "option": "M",
         "bool": false
+      },
+      {
+        "option": "S",
+        "bool": false
+      },
+      {
+        "option": "G1",
+        "bool": true
       },
       {
         "option": "Prophase",
@@ -937,24 +941,16 @@
       {
         "option": "G2",
         "bool": false
-      },
-      {
-        "option": "S",
-        "bool": false
       }
     ]
   },
   {
     "id": 35,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which one of the following is not a gram-negative bacterium?",
     "answers": [
       {
-        "option": "Clostridium difficile",
-        "bool": true
-      },
-      {
-        "option": "Campylobacter jejuni",
+        "option": "Haemophilus influenzae",
         "bool": false
       },
       {
@@ -962,26 +958,26 @@
         "bool": false
       },
       {
+        "option": "Campylobacter jejuni",
+        "bool": false
+      },
+      {
         "option": "Klebsiella pneumoniae",
         "bool": false
       },
       {
-        "option": "Haemophilus influenzae",
-        "bool": false
+        "option": "Clostridium difficile",
+        "bool": true
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What fraction of body fluid is the plasma?",
     "answers": [
       {
-        "option": "1/12 of total body fluid",
-        "bool": true
-      },
-      {
-        "option": "1/4 of total body fluid",
+        "option": "1/2 of total body fluid",
         "bool": false
       },
       {
@@ -989,27 +985,27 @@
         "bool": false
       },
       {
-        "option": "1/2 of total body fluid",
+        "option": "2/3 of total body fluid",
         "bool": false
       },
       {
-        "option": "2/3 of total body fluid",
+        "option": "1/12 of total body fluid",
+        "bool": true
+      },
+      {
+        "option": "1/4 of total body fluid",
         "bool": false
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which type of RNA is involved in splicing?",
     "answers": [
       {
-        "option": "mRNA",
-        "bool": false
-      },
-      {
-        "option": "dsRNA",
-        "bool": false
+        "option": "snRNA",
+        "bool": true
       },
       {
         "option": "tRNA",
@@ -1020,14 +1016,18 @@
         "bool": false
       },
       {
-        "option": "snRNA",
-        "bool": true
+        "option": "mRNA",
+        "bool": false
+      },
+      {
+        "option": "dsRNA",
+        "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "In xeroderma pigmentosum, there is accumulation of which substance due to ultraviolet light exposure?",
     "answers": [
       {
@@ -1043,20 +1043,28 @@
         "bool": true
       },
       {
-        "option": "Guanine dimers",
+        "option": "Adenine dimers",
         "bool": false
       },
       {
-        "option": "Adenine dimers",
+        "option": "Guanine dimers",
         "bool": false
       }
     ]
   },
   {
     "id": 39,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following statements is false?",
     "answers": [
+      {
+        "option": "Endotoxins are present in gram-positive bacteria",
+        "bool": true
+      },
+      {
+        "option": "Exotoxins may be heat-stabile proteins",
+        "bool": false
+      },
       {
         "option": "Endotoxins are present in gram-negative bacteria",
         "bool": false
@@ -1066,34 +1074,22 @@
         "bool": false
       },
       {
-        "option": "Endotoxins are present in gram-positive bacteria",
-        "bool": true
-      },
-      {
         "option": "Exotoxins are produced by both gram-positive and gram-negative bacteria",
-        "bool": false
-      },
-      {
-        "option": "Exotoxins may be heat-stabile proteins",
         "bool": false
       }
     ]
   },
   {
     "id": 40,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is ethnocentrism?",
     "answers": [
-      {
-        "option": "Belief of superiority of one's personal ethnic group",
-        "bool": true
-      },
       {
         "option": "Belief that you are the best despite having no way to prove it",
         "bool": false
       },
       {
-        "option": "Placing a speaker system in the middle of the room",
+        "option": "Belief of superiority of one's religion",
         "bool": false
       },
       {
@@ -1101,28 +1097,20 @@
         "bool": false
       },
       {
-        "option": "Belief of superiority of one's religion",
+        "option": "Placing a speaker system in the middle of the room",
         "bool": false
+      },
+      {
+        "option": "Belief of superiority of one's personal ethnic group",
+        "bool": true
       }
     ]
   },
   {
     "id": 41,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What does vomiting lead to?",
     "answers": [
-      {
-        "option": "Hyperkalemia",
-        "bool": false
-      },
-      {
-        "option": "Hypernatremia",
-        "bool": false
-      },
-      {
-        "option": "Hypoglycemia",
-        "bool": false
-      },
       {
         "option": "Hyponatremia",
         "bool": true
@@ -1130,14 +1118,34 @@
       {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Hypoglycemia",
+        "bool": false
+      },
+      {
+        "option": "Hypernatremia",
+        "bool": false
+      },
+      {
+        "option": "Hyperkalemia",
+        "bool": false
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Where was the first Middle Eastern Regional conference held?",
     "answers": [
+      {
+        "option": "Geneva",
+        "bool": false
+      },
+      {
+        "option": "Las vegas",
+        "bool": false
+      },
       {
         "option": "London",
         "bool": false
@@ -1147,14 +1155,6 @@
         "bool": true
       },
       {
-        "option": "Las vegas",
-        "bool": false
-      },
-      {
-        "option": "Geneva",
-        "bool": false
-      },
-      {
         "option": "Karachi",
         "bool": false
       }
@@ -1162,7 +1162,7 @@
   },
   {
     "id": 43,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of these is a fat-soluble vitamin?",
     "answers": [
       {
@@ -1178,20 +1178,24 @@
         "bool": false
       },
       {
-        "option": "Biocidin",
+        "option": "Ascorbic acid",
         "bool": false
       },
       {
-        "option": "Ascorbic acid",
+        "option": "Biocidin",
         "bool": false
       }
     ]
   },
   {
     "id": 44,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What regulates homeostasis?",
     "answers": [
+      {
+        "option": "Brain (hypothalamus) and endocrine system",
+        "bool": true
+      },
       {
         "option": "Mammary glands and sweat glands",
         "bool": false
@@ -1207,32 +1211,28 @@
       {
         "option": "Exocrine and endocrine system",
         "bool": false
-      },
-      {
-        "option": "Brain (hypothalamus) and endocrine system",
-        "bool": true
       }
     ]
   },
   {
     "id": 45,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the effect of drugs on the body called?",
     "answers": [
-      {
-        "option": "Pharmacodynamics",
-        "bool": true
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
       {
         "option": "Pharmacokinetics",
         "bool": false
       },
       {
+        "option": "Pharmacodynamics",
+        "bool": true
+      },
+      {
         "option": "Pharmacogenomics",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1243,19 +1243,19 @@
   },
   {
     "id": 46,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the karyotype in Klinefelter's syndrome?",
     "answers": [
       {
-        "option": "47 XXX",
+        "option": "45 XO",
         "bool": false
       },
       {
-        "option": "47 XXY",
-        "bool": true
+        "option": "46 XY",
+        "bool": false
       },
       {
-        "option": "45 XO",
+        "option": "47 XXX",
         "bool": false
       },
       {
@@ -1263,41 +1263,41 @@
         "bool": false
       },
       {
-        "option": "46 XY",
-        "bool": false
+        "option": "47 XXY",
+        "bool": true
       }
     ]
   },
   {
     "id": 47,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the karyotype in Turner's syndrome?",
     "answers": [
       {
-        "option": "47 XXX",
-        "bool": false
-      },
-      {
-        "option": "47 XXY",
-        "bool": false
-      },
-      {
         "option": "45 XO",
         "bool": true
+      },
+      {
+        "option": "45 OO",
+        "bool": false
+      },
+      {
+        "option": "47 XXX",
+        "bool": false
       },
       {
         "option": "46 XY",
         "bool": false
       },
       {
-        "option": "45 OO",
+        "option": "47 XXY",
         "bool": false
       }
     ]
   },
   {
     "id": 48,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which type of necrosis occurs in the walls of the arteries?",
     "answers": [
       {
@@ -1305,11 +1305,7 @@
         "bool": false
       },
       {
-        "option": "Fibrinoid",
-        "bool": true
-      },
-      {
-        "option": "Liquefactive",
+        "option": "Caseous",
         "bool": false
       },
       {
@@ -1317,18 +1313,26 @@
         "bool": false
       },
       {
-        "option": "Caseous",
+        "option": "Liquefactive",
         "bool": false
+      },
+      {
+        "option": "Fibrinoid",
+        "bool": true
       }
     ]
   },
   {
     "id": 49,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What important structural feature does the Golgi type 1 neuron possess?",
     "answers": [
       {
-        "option": "Multiple axons",
+        "option": "Single long axon",
+        "bool": true
+      },
+      {
+        "option": "Single long dendron",
         "bool": false
       },
       {
@@ -1336,28 +1340,20 @@
         "bool": false
       },
       {
+        "option": "Multiple axons",
+        "bool": false
+      },
+      {
         "option": "No axon",
         "bool": false
-      },
-      {
-        "option": "Single long dendron",
-        "bool": false
-      },
-      {
-        "option": "Single long axon",
-        "bool": true
       }
     ]
   },
   {
     "id": 50,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Why does edema occur?",
     "answers": [
-      {
-        "option": "Fever",
-        "bool": false
-      },
       {
         "option": "Decreased water consumption",
         "bool": false
@@ -1367,22 +1363,26 @@
         "bool": true
       },
       {
-        "option": "Thickened endothelium",
+        "option": "Decreased capillary pressure",
         "bool": false
       },
       {
-        "option": "Decreased capillary pressure",
+        "option": "Fever",
+        "bool": false
+      },
+      {
+        "option": "Thickened endothelium",
         "bool": false
       }
     ]
   },
   {
     "id": 51,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following do the typical spinal nerves not supply?",
     "answers": [
       {
-        "option": "Skin",
+        "option": "Skeletal muscles",
         "bool": false
       },
       {
@@ -1390,30 +1390,30 @@
         "bool": false
       },
       {
-        "option": "Skeletal muscles",
+        "option": "Skin",
+        "bool": false
+      },
+      {
+        "option": "Arrector pili muscle",
         "bool": false
       },
       {
         "option": "Ciliary muscles of the eyes",
         "bool": true
-      },
-      {
-        "option": "Arrector pili muscle",
-        "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What model does a holistic doctor use?",
     "answers": [
       {
-        "option": "Online model",
-        "bool": false
+        "option": "Biopsychosocial model",
+        "bool": true
       },
       {
-        "option": "Planned model",
+        "option": "Online model",
         "bool": false
       },
       {
@@ -1425,19 +1425,19 @@
         "bool": false
       },
       {
-        "option": "Biopsychosocial model",
-        "bool": true
+        "option": "Planned model",
+        "bool": false
       }
     ]
   },
   {
     "id": 53,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the ability of the drug to elicit a response after binding to a receptor called?",
     "answers": [
       {
-        "option": "Efficacy",
-        "bool": false
+        "option": "Intrinsic activity",
+        "bool": true
       },
       {
         "option": "Potency",
@@ -1452,27 +1452,23 @@
         "bool": false
       },
       {
-        "option": "Intrinsic activity",
-        "bool": true
+        "option": "Efficacy",
+        "bool": false
       }
     ]
   },
   {
     "id": 54,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "In which phase are the primary oocytes in females arrested?",
     "answers": [
       {
-        "option": "Metaphase 1 of meiosis",
-        "bool": false
-      },
-      {
-        "option": "Prophase 2 of meiosis",
-        "bool": false
-      },
-      {
         "option": "Prophase 1 of meiosis",
         "bool": true
+      },
+      {
+        "option": "Metaphase 1 of meiosis",
+        "bool": false
       },
       {
         "option": "Prophase of mitosis",
@@ -1481,24 +1477,28 @@
       {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Prophase 2 of meiosis",
+        "bool": false
       }
     ]
   },
   {
     "id": 55,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which cell of the connective tissue secretes fibers and ground substance?",
     "answers": [
       {
-        "option": "Fibroblasts",
-        "bool": true
-      },
-      {
-        "option": "Osteocytes",
+        "option": "Mast cells",
         "bool": false
       },
       {
-        "option": "Mast cells",
+        "option": "Macrophages",
+        "bool": false
+      },
+      {
+        "option": "Osteocytes",
         "bool": false
       },
       {
@@ -1506,22 +1506,18 @@
         "bool": false
       },
       {
-        "option": "Macrophages",
-        "bool": false
+        "option": "Fibroblasts",
+        "bool": true
       }
     ]
   },
   {
     "id": 56,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is the ability to distinguish two closely related points known as?",
     "answers": [
       {
-        "option": "Focal length",
-        "bool": false
-      },
-      {
-        "option": "Navigation",
+        "option": "Magnification",
         "bool": false
       },
       {
@@ -1529,30 +1525,30 @@
         "bool": false
       },
       {
-        "option": "Magnification",
+        "option": "Navigation",
         "bool": false
       },
       {
         "option": "Resolving power",
         "bool": true
+      },
+      {
+        "option": "Focal length",
+        "bool": false
       }
     ]
   },
   {
     "id": 57,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which type of epithelium is generally present for the protection of the underlying tissue?",
     "answers": [
-      {
-        "option": "Stratified non-keratinized squamous epithelium",
-        "bool": false
-      },
       {
         "option": "Stratified keratinized squamous epithelium",
         "bool": true
       },
       {
-        "option": "Transitional epithelium",
+        "option": "Stratified cuboidal epithelium",
         "bool": false
       },
       {
@@ -1560,24 +1556,20 @@
         "bool": false
       },
       {
-        "option": "Stratified cuboidal epithelium",
+        "option": "Stratified non-keratinized squamous epithelium",
+        "bool": false
+      },
+      {
+        "option": "Transitional epithelium",
         "bool": false
       }
     ]
   },
   {
     "id": 58,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which type of protein anchors the cell to extracellular fluid?",
     "answers": [
-      {
-        "option": "Antibody",
-        "bool": false
-      },
-      {
-        "option": "Integrins",
-        "bool": true
-      },
       {
         "option": "Lipoprotein",
         "bool": false
@@ -1587,6 +1579,14 @@
         "bool": false
       },
       {
+        "option": "Antibody",
+        "bool": false
+      },
+      {
+        "option": "Integrins",
+        "bool": true
+      },
+      {
         "option": "Globular protein",
         "bool": false
       }
@@ -1594,17 +1594,9 @@
   },
   {
     "id": 59,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What is a set of DNA coming in pairs, one from each parent, called?",
     "answers": [
-      {
-        "option": "Gene",
-        "bool": false
-      },
-      {
-        "option": "Chromosome",
-        "bool": true
-      },
       {
         "option": "Chromatid",
         "bool": false
@@ -1614,24 +1606,24 @@
         "bool": false
       },
       {
+        "option": "Chromosome",
+        "bool": true
+      },
+      {
         "option": "Phenotype",
+        "bool": false
+      },
+      {
+        "option": "Gene",
         "bool": false
       }
     ]
   },
   {
     "id": 60,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Chromosomes are best studied in which phase of the cell cycle?",
     "answers": [
-      {
-        "option": "Telophase",
-        "bool": false
-      },
-      {
-        "option": "Prophase",
-        "bool": false
-      },
       {
         "option": "Metaphase",
         "bool": true
@@ -1643,16 +1635,24 @@
       {
         "option": "Anaphase",
         "bool": false
+      },
+      {
+        "option": "Telophase",
+        "bool": false
+      },
+      {
+        "option": "Prophase",
+        "bool": false
       }
     ]
   },
   {
     "id": 61,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "At room temperature, unsaturated triglycerides are found in which form?",
     "answers": [
       {
-        "option": "Gas",
+        "option": "Wax",
         "bool": false
       },
       {
@@ -1660,30 +1660,26 @@
         "bool": false
       },
       {
+        "option": "Liquid",
+        "bool": true
+      },
+      {
         "option": "Solid",
         "bool": false
       },
       {
-        "option": "Wax",
+        "option": "Gas",
         "bool": false
-      },
-      {
-        "option": "Liquid",
-        "bool": true
       }
     ]
   },
   {
     "id": 62,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Triglycerides are hydrolyzed by which of the following?",
     "answers": [
       {
         "option": "Hydrate",
-        "bool": false
-      },
-      {
-        "option": "Oxidase",
         "bool": false
       },
       {
@@ -1697,18 +1693,18 @@
       {
         "option": "Hydrolase",
         "bool": false
+      },
+      {
+        "option": "Oxidase",
+        "bool": false
       }
     ]
   },
   {
     "id": 63,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which statement is false?",
     "answers": [
-      {
-        "option": "Streptococcus mutans can be commonly found in dental plaques",
-        "bool": false
-      },
       {
         "option": "Yeast is not part of the normal flora",
         "bool": true
@@ -1718,20 +1714,36 @@
         "bool": false
       },
       {
-        "option": "Group B streptococci is present in normal flora of vagina",
+        "option": "Staphylococcus epidermidis is a non-pathogen on skin",
         "bool": false
       },
       {
-        "option": "Staphylococcus epidermidis is a non-pathogen on skin",
+        "option": "Streptococcus mutans can be commonly found in dental plaques",
+        "bool": false
+      },
+      {
+        "option": "Group B streptococci is present in normal flora of vagina",
         "bool": false
       }
     ]
   },
   {
     "id": 64,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of these is true regarding bacteria?",
     "answers": [
+      {
+        "option": "They are genetically haploid",
+        "bool": true
+      },
+      {
+        "option": "Gram-negative bacterial cell membranes are rich in teichoic acid",
+        "bool": false
+      },
+      {
+        "option": "Their DNA is surrounded by a nuclear membrane",
+        "bool": false
+      },
       {
         "option": "They have linear DNA",
         "bool": false
@@ -1739,28 +1751,16 @@
       {
         "option": "Their method of replication is budding",
         "bool": false
-      },
-      {
-        "option": "Gram-negative bacterial cell membranes are rich in teichoic acid",
-        "bool": false
-      },
-      {
-        "option": "They are genetically haploid",
-        "bool": true
-      },
-      {
-        "option": "Their DNA is surrounded by a nuclear membrane",
-        "bool": false
       }
     ]
   },
   {
     "id": 65,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Necrosis is usually termed as \"accidental cell death\" and has a number of types based on distinctive gross appearances. Which of the following is the type of necrosis that can only be detected upon histological examination?",
     "answers": [
       {
-        "option": "Liquefactive necrosis",
+        "option": "Gangrenous necrosis",
         "bool": false
       },
       {
@@ -1768,7 +1768,7 @@
         "bool": false
       },
       {
-        "option": "Gangrenous necrosis",
+        "option": "Liquefactive necrosis",
         "bool": false
       },
       {
@@ -1783,23 +1783,23 @@
   },
   {
     "id": 66,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What are the main cations and anions of the extracellular fluid?",
     "answers": [
-      {
-        "option": "Sodium and bicarbonate",
-        "bool": false
-      },
-      {
-        "option": "Potassium and chloride",
-        "bool": false
-      },
       {
         "option": "Potassium and phosphate",
         "bool": false
       },
       {
         "option": "Potassium and bicarbonate",
+        "bool": false
+      },
+      {
+        "option": "Sodium and bicarbonate",
+        "bool": false
+      },
+      {
+        "option": "Potassium and chloride",
         "bool": false
       },
       {
@@ -1810,34 +1810,34 @@
   },
   {
     "id": 67,
-    "info": "1st-year/foundation-1/2016",
-    "question": "What is the concentration of Na\u207a in the extracellular fluid?",
+    "info": "1st-year/foundation/2016",
+    "question": "What is the concentration of Na⁺ in the extracellular fluid?",
     "answers": [
       {
-        "option": "18.9 mmol/L",
-        "bool": false
-      },
-      {
-        "option": "14 mEq/L",
-        "bool": false
+        "option": "142 mEq/L",
+        "bool": true
       },
       {
         "option": "1.42 mEq/L",
         "bool": false
       },
       {
-        "option": "142 mEq/L",
-        "bool": true
+        "option": "18.9 mmol/L",
+        "bool": false
       },
       {
         "option": "14 mmol/L",
+        "bool": false
+      },
+      {
+        "option": "14 mEq/L",
         "bool": false
       }
     ]
   },
   {
     "id": 68,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "The total water content of the body is best given by which of the following?",
     "answers": [
       {
@@ -1845,26 +1845,26 @@
         "bool": true
       },
       {
-        "option": "30-40%",
-        "bool": false
-      },
-      {
         "option": "50-60%",
         "bool": false
       },
       {
-        "option": "70-80%",
+        "option": "10-20%",
         "bool": false
       },
       {
-        "option": "10-20%",
+        "option": "30-40%",
+        "bool": false
+      },
+      {
+        "option": "70-80%",
         "bool": false
       }
     ]
   },
   {
     "id": 69,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "During the metaphase stage of mitosis, how are chromosomes observed?",
     "answers": [
       {
@@ -1872,11 +1872,11 @@
         "bool": false
       },
       {
-        "option": "Condensed chromosomes randomly distributed",
+        "option": "Not seen as they are yet to condense",
         "bool": false
       },
       {
-        "option": "Not seen as they are yet to condense",
+        "option": "Condensed chromosomes randomly distributed",
         "bool": false
       },
       {
@@ -1891,19 +1891,15 @@
   },
   {
     "id": 70,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following terms describes the anatomical rotation of atlantoaxial joint?",
     "answers": [
       {
+        "option": "Triaxial",
+        "bool": false
+      },
+      {
         "option": "Biaxial",
-        "bool": false
-      },
-      {
-        "option": "Multiaxial",
-        "bool": false
-      },
-      {
-        "option": "Does not involve any axis",
         "bool": false
       },
       {
@@ -1911,26 +1907,22 @@
         "bool": true
       },
       {
-        "option": "Triaxial",
+        "option": "Does not involve any axis",
+        "bool": false
+      },
+      {
+        "option": "Multiaxial",
         "bool": false
       }
     ]
   },
   {
     "id": 71,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "The properties of surface tension, high viscosity, and vaporization in water are caused by which of the following molecular interactions?",
     "answers": [
       {
-        "option": "Dipole movements",
-        "bool": false
-      },
-      {
         "option": "Van der Waal forces",
-        "bool": false
-      },
-      {
-        "option": "Sulfahydryl bonds",
         "bool": false
       },
       {
@@ -1940,20 +1932,32 @@
       {
         "option": "Hydrogen bonds",
         "bool": true
+      },
+      {
+        "option": "Sulfahydryl bonds",
+        "bool": false
+      },
+      {
+        "option": "Dipole movements",
+        "bool": false
       }
     ]
   },
   {
     "id": 72,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Triglycerides are formed by which of the following molecules?",
     "answers": [
       {
-        "option": "Adenosine and phosphate",
-        "bool": false
+        "option": "Fatty acid and alcohol",
+        "bool": true
       },
       {
         "option": "Fatty acid and lectin",
+        "bool": false
+      },
+      {
+        "option": "Adenosine and phosphate",
         "bool": false
       },
       {
@@ -1963,24 +1967,16 @@
       {
         "option": "Amino acids",
         "bool": false
-      },
-      {
-        "option": "Fatty acid and alcohol",
-        "bool": true
       }
     ]
   },
   {
     "id": 73,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What can cause pyrimidine dimers in DNA?",
     "answers": [
       {
-        "option": "Missense mutation",
-        "bool": false
-      },
-      {
-        "option": "Inherited disorder",
+        "option": "Radio waves",
         "bool": false
       },
       {
@@ -1988,26 +1984,30 @@
         "bool": false
       },
       {
-        "option": "Radio waves",
+        "option": "Missense mutation",
         "bool": false
       },
       {
         "option": "Ultraviolet light",
         "bool": true
+      },
+      {
+        "option": "Inherited disorder",
+        "bool": false
       }
     ]
   },
   {
     "id": 74,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which fluid is sampled during an amniocentesis?",
     "answers": [
       {
-        "option": "Amniotic cells interstitial fluid",
+        "option": "Fetal blood",
         "bool": false
       },
       {
-        "option": "Fetal blood",
+        "option": "Amniotic cells interstitial fluid",
         "bool": false
       },
       {
@@ -2015,22 +2015,22 @@
         "bool": false
       },
       {
-        "option": "Chorionic villi",
-        "bool": false
-      },
-      {
         "option": "Amniotic fluid",
         "bool": true
+      },
+      {
+        "option": "Chorionic villi",
+        "bool": false
       }
     ]
   },
   {
     "id": 75,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "In which condition is amniocentesis usually performed?",
     "answers": [
       {
-        "option": "Blood spotting during pregnancy",
+        "option": "Teenage pregnancy",
         "bool": false
       },
       {
@@ -2042,22 +2042,22 @@
         "bool": true
       },
       {
-        "option": "Alcoholic mother",
+        "option": "Blood spotting during pregnancy",
         "bool": false
       },
       {
-        "option": "Teenage pregnancy",
+        "option": "Alcoholic mother",
         "bool": false
       }
     ]
   },
   {
     "id": 76,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which structure in a gram-positive bacteria is concerned with septic shock?",
     "answers": [
       {
-        "option": "Pilus",
+        "option": "Flagellum",
         "bool": false
       },
       {
@@ -2065,26 +2065,34 @@
         "bool": false
       },
       {
-        "option": "Flagellum",
-        "bool": false
-      },
-      {
-        "option": "Capsule",
+        "option": "Pilus",
         "bool": false
       },
       {
         "option": "Teichoic acid",
         "bool": true
+      },
+      {
+        "option": "Capsule",
+        "bool": false
       }
     ]
   },
   {
     "id": 77,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which structure of a bacteria is concerned with the quellung reactions?",
     "answers": [
       {
+        "option": "Pilus",
+        "bool": false
+      },
+      {
         "option": "Peptidoglycans",
+        "bool": false
+      },
+      {
+        "option": "Flagellum",
         "bool": false
       },
       {
@@ -2092,22 +2100,14 @@
         "bool": false
       },
       {
-        "option": "Flagellum",
-        "bool": false
-      },
-      {
         "option": "Capsule",
         "bool": true
-      },
-      {
-        "option": "Pilus",
-        "bool": false
       }
     ]
   },
   {
     "id": 78,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which bacterial structure helps in chemotaxis towards nutrients?",
     "answers": [
       {
@@ -2119,7 +2119,7 @@
         "bool": true
       },
       {
-        "option": "Pili",
+        "option": "Plasmid",
         "bool": false
       },
       {
@@ -2127,28 +2127,16 @@
         "bool": false
       },
       {
-        "option": "Plasmid",
+        "option": "Pili",
         "bool": false
       }
     ]
   },
   {
     "id": 79,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which structure helps in the attachment of bacteria to surfaces?",
     "answers": [
-      {
-        "option": "Capsule",
-        "bool": false
-      },
-      {
-        "option": "Flagella",
-        "bool": false
-      },
-      {
-        "option": "Pilus",
-        "bool": true
-      },
       {
         "option": "Teichoic acid",
         "bool": false
@@ -2156,14 +2144,34 @@
       {
         "option": "Cytoplasmic membrane",
         "bool": false
+      },
+      {
+        "option": "Pilus",
+        "bool": true
+      },
+      {
+        "option": "Flagella",
+        "bool": false
+      },
+      {
+        "option": "Capsule",
+        "bool": false
       }
     ]
   },
   {
     "id": 80,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "What could be a possible step in the confirmation of the diagnosis of Down's syndrome?",
     "answers": [
+      {
+        "option": "Genealogical DNA test",
+        "bool": false
+      },
+      {
+        "option": "DNA karyotyping",
+        "bool": true
+      },
       {
         "option": "Computerized tomography (CT) scan",
         "bool": false
@@ -2173,59 +2181,43 @@
         "bool": false
       },
       {
-        "option": "DNA karyotyping",
-        "bool": true
-      },
-      {
         "option": "Complete blood count",
-        "bool": false
-      },
-      {
-        "option": "Genealogical DNA test",
         "bool": false
       }
     ]
   },
   {
     "id": 81,
-    "info": "1st-year/foundation-1/2016",
-    "question": "A 5-year-old boy is brought to a clinic of a tertiary care hospital with his parents complaining that he has not yet started walking unsupported nor has he started speaking. He appears short for his age and is plump. He also has a depressed nasal bridge and small ears. He looks very different from his siblings and is a very slow learner. He is unable to feed himself and is not toilet-trained yet. He was born about 10 years later than his brother when his mother\u2019s age was 45 years. All other family members are normal. He has a small head, and his tongue appears larger because it appeared to be protruding out of the mouth all the time. His hands are small with the fifth finger bent towards the fourth and there is only a single palmar crease. What is the diagnosis?",
+    "info": "1st-year/foundation/2016",
+    "question": "A 5-year-old boy is brought to a clinic of a tertiary care hospital with his parents complaining that he has not yet started walking unsupported nor has he started speaking. He appears short for his age and is plump. He also has a depressed nasal bridge and small ears. He looks very different from his siblings and is a very slow learner. He is unable to feed himself and is not toilet-trained yet. He was born about 10 years later than his brother when his mother’s age was 45 years. All other family members are normal. He has a small head, and his tongue appears larger because it appeared to be protruding out of the mouth all the time. His hands are small with the fifth finger bent towards the fourth and there is only a single palmar crease. What is the diagnosis?",
     "answers": [
-      {
-        "option": "Patau syndrome",
-        "bool": false
-      },
       {
         "option": "Turner syndrome",
         "bool": false
       },
       {
-        "option": "Down syndrome",
-        "bool": true
+        "option": "Patau syndrome",
+        "bool": false
+      },
+      {
+        "option": "Klinefelter syndrome",
+        "bool": false
       },
       {
         "option": "Niemann-Pick disease",
         "bool": false
       },
       {
-        "option": "Klinefelter syndrome",
-        "bool": false
+        "option": "Down syndrome",
+        "bool": true
       }
     ]
   },
   {
     "id": 82,
-    "info": "1st-year/foundation-1/2016",
+    "info": "1st-year/foundation/2016",
     "question": "Which of the following is measured in the maternal serum for prenatal diagnosis?",
     "answers": [
-      {
-        "option": "Estriol and progesterone",
-        "bool": false
-      },
-      {
-        "option": "AFP",
-        "bool": false
-      },
       {
         "option": "AFP, hCG, and estriol",
         "bool": true
@@ -2235,7 +2227,15 @@
         "bool": false
       },
       {
+        "option": "Estriol and progesterone",
+        "bool": false
+      },
+      {
         "option": "Prolactin, hCG, and AFP",
+        "bool": false
+      },
+      {
+        "option": "AFP",
         "bool": false
       }
     ]

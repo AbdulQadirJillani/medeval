@@ -2,14 +2,1306 @@
   {
     "id": 0,
     "info": "4th-year/drg/2022",
+    "question": "Which of the following diseases requires genetic counseling?",
+    "answers": [
+      {
+        "option": "Angelman syndrome",
+        "bool": false
+      },
+      {
+        "option": "Hereditary porphyrias",
+        "bool": false
+      },
+      {
+        "option": "Prader-Willi syndrome",
+        "bool": false
+      },
+      {
+        "option": "Down syndrome",
+        "bool": true
+      },
+      {
+        "option": "Essential galactosemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "4th-year/drg/2022",
+    "question": "A 55-year-old male patient came to the physician's clinic with complaint of left-sided weakness for the last month. For preventing subluxation of the shoulder in a hemiplegic patient, which of the following will the doctor prescribe?",
+    "answers": [
+      {
+        "option": "Balanced forearm orthosis",
+        "bool": false
+      },
+      {
+        "option": "Taylor's brace",
+        "bool": false
+      },
+      {
+        "option": "Figure-of-eight sling",
+        "bool": true
+      },
+      {
+        "option": "Abductor splint",
+        "bool": false
+      },
+      {
+        "option": "Air-plane splint",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the Milwaukee orthosis is categorized as?",
+    "answers": [
+      {
+        "option": "Cervicothoracic orthosis",
+        "bool": false
+      },
+      {
+        "option": "Head-Cervical orthosis",
+        "bool": false
+      },
+      {
+        "option": "Lumbosacral orthosis",
+        "bool": false
+      },
+      {
+        "option": "Cervicothoracolumbosacral orthosis",
+        "bool": true
+      },
+      {
+        "option": "Cervicothoracolumbar orthosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "4th-year/drg/2022",
+    "question": "Wickham striae are a characteristic feature of which of the following conditions?",
+    "answers": [
+      {
+        "option": "Candidiasis",
+        "bool": false
+      },
+      {
+        "option": "Mycosis fungoides",
+        "bool": false
+      },
+      {
+        "option": "Lichen planus",
+        "bool": true
+      },
+      {
+        "option": "Eczema",
+        "bool": false
+      },
+      {
+        "option": "Psoriasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "4th-year/drg/2022",
+    "question": "Keeping in mind pediatric rehabilitation interventions, the positioning, neck and trunk control, gross and fine motor skill training, and teaching of activities of daily living (ADLs) are mainly carried out by which of the following types of therapists?",
+    "answers": [
+      {
+        "option": "Speech therapist",
+        "bool": false
+      },
+      {
+        "option": "Occupational therapist",
+        "bool": true
+      },
+      {
+        "option": "Psychologist",
+        "bool": false
+      },
+      {
+        "option": "Prosthetist and orthotist",
+        "bool": false
+      },
+      {
+        "option": "Physiotherapist",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/drg/2022",
+    "question": "What is the most common cumulative trauma disorder (CTD) in clinical practice?",
+    "answers": [
+      {
+        "option": "DeQuervain tinnosynovitis",
+        "bool": false
+      },
+      {
+        "option": "Tennis elbow",
+        "bool": false
+      },
+      {
+        "option": "Trigger finger",
+        "bool": false
+      },
+      {
+        "option": "Medical epicondylitis",
+        "bool": false
+      },
+      {
+        "option": "Carpal tunnel syndrome",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "4th-year/drg/2022",
+    "question": "While managing the rehabilitation of a rheumatoid arthritis patient in the acute phase, which treatment should be avoided?",
+    "answers": [
+      {
+        "option": "Postural re-education",
+        "bool": false
+      },
+      {
+        "option": "NSAIDs",
+        "bool": false
+      },
+      {
+        "option": "Superficial moist heat",
+        "bool": true
+      },
+      {
+        "option": "Passive exercise",
+        "bool": false
+      },
+      {
+        "option": "Relative rest",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "4th-year/drg/2022",
+    "question": "While managing an amputee regarding stump, which of the following is the ideal shape?",
+    "answers": [
+      {
+        "option": "Bulbous",
+        "bool": false
+      },
+      {
+        "option": "Cylindrical",
+        "bool": true
+      },
+      {
+        "option": "Short stump",
+        "bool": false
+      },
+      {
+        "option": "Conical",
+        "bool": false
+      },
+      {
+        "option": "Long stump",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "4th-year/drg/2022",
+    "question": "What is the disadvantage of an upper limb prosthesis powered by an electric motor?",
+    "answers": [
+      {
+        "option": "Less expensive",
+        "bool": false
+      },
+      {
+        "option": "Greater grip",
+        "bool": false
+      },
+      {
+        "option": "More proximal function",
+        "bool": false
+      },
+      {
+        "option": "Less cosmetic",
+        "bool": false
+      },
+      {
+        "option": "Heavier weight",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "4th-year/drg/2022",
+    "question": "Okazaki fragments are formed on the ______ strands in the ______ direction.",
+    "answers": [
+      {
+        "option": "Lagging, 5'-3'",
+        "bool": true
+      },
+      {
+        "option": "Both same",
+        "bool": false
+      },
+      {
+        "option": "Leading, 3'-5'",
+        "bool": false
+      },
+      {
+        "option": "Lagging, 3'-5'",
+        "bool": false
+      },
+      {
+        "option": "Leading, 5'-3'",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following tendons are involved in de Quervain tenosynovitis?",
+    "answers": [
+      {
+        "option": "Extensor pollicis and abductor pollicis brevis",
+        "bool": false
+      },
+      {
+        "option": "Abductor pollicis longus and extensor pollicis brevis",
+        "bool": true
+      },
+      {
+        "option": "Flexor carpi ulnaris and abductor pollicis longus",
+        "bool": false
+      },
+      {
+        "option": "Extensor carpi radialis and abductor pollicis longus",
+        "bool": false
+      },
+      {
+        "option": "Extensor pollicis longus and abductor pollicis longus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "4th-year/drg/2022",
+    "question": "What is the mode of action of fluconazole?",
+    "answers": [
+      {
+        "option": "Inhibition of mitosis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of DNA replication",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of beta glucan synthesis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of lanosterol synthesis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of ergosterol synthesis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following diseases does not require genetic counseling?",
+    "answers": [
+      {
+        "option": "Muscular dystrophy",
+        "bool": false
+      },
+      {
+        "option": "Down syndrome",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": true
+      },
+      {
+        "option": "Sickle cell disease",
+        "bool": false
+      },
+      {
+        "option": "Thalassemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/drg/2022",
+    "question": "A histopathology specimen shows basaloid cells containing ducts that fit together like pieces of a jigsaw puzzle. The sample was taken from a nodular lesion on the scalp. What is the likely diagnosis?",
+    "answers": [
+      {
+        "option": "Cylindroma",
+        "bool": true
+      },
+      {
+        "option": "Trichoepithelioma",
+        "bool": false
+      },
+      {
+        "option": "Sebaceous adenoma",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Basal cell carcinoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "4th-year/drg/2022",
+    "question": "A sudden explosion happens in a busy marketplace, after which rescue workers start assessing the injured and tagging them with different color codes. Which of the following term best describes this action?",
+    "answers": [
+      {
+        "option": "Field care",
+        "bool": false
+      },
+      {
+        "option": "Identification",
+        "bool": false
+      },
+      {
+        "option": "Triage",
+        "bool": true
+      },
+      {
+        "option": "Search",
+        "bool": false
+      },
+      {
+        "option": "Rescue",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "4th-year/drg/2022",
+    "question": "The four principal components in managing humanitarian supplies are acquisition, transportation, storage, and distribution. These happen during which phase of disaster management?",
+    "answers": [
+      {
+        "option": "Relief phase",
+        "bool": true
+      },
+      {
+        "option": "Impact",
+        "bool": false
+      },
+      {
+        "option": "Search and rescue phase",
+        "bool": false
+      },
+      {
+        "option": "Mitigation",
+        "bool": false
+      },
+      {
+        "option": "Field care",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/drg/2022",
+    "question": "What is the term used to describe any restriction or lack resulting from an impairment of the ability to perform an activity in the manner or within the range considered normal for humans?",
+    "answers": [
+      {
+        "option": "Impairment",
+        "bool": false
+      },
+      {
+        "option": "Social participation",
+        "bool": false
+      },
+      {
+        "option": "Disability",
+        "bool": true
+      },
+      {
+        "option": "Handicap",
+        "bool": false
+      },
+      {
+        "option": "Activity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "4th-year/drg/2022",
+    "question": "A 63-year-old male presents with right-sided paralysis following a stroke. What is the branch of medicine that deals with the prevention, diagnosis, and treatment of impairments and disabilities?",
+    "answers": [
+      {
+        "option": "Orthopedic medicine",
+        "bool": false
+      },
+      {
+        "option": "Prosthesis medicine",
+        "bool": false
+      },
+      {
+        "option": "Community medicine",
+        "bool": false
+      },
+      {
+        "option": "Rehabilitation medicine",
+        "bool": true
+      },
+      {
+        "option": "Occupational medicine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "4th-year/drg/2022",
+    "question": "During history taking and examination in physical medicine and rehabilitation, what is/are the main aspect/s focused on by a physiatrist?",
+    "answers": [
+      {
+        "option": "Handicap",
+        "bool": false
+      },
+      {
+        "option": "Functional aspect of history and examination",
+        "bool": true
+      },
+      {
+        "option": "Psychosocial history",
+        "bool": false
+      },
+      {
+        "option": "Range of motion and strength",
+        "bool": false
+      },
+      {
+        "option": "Medical history",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "4th-year/drg/2022",
+    "question": "Following a road traffic accident, a 35-year-old male's right leg is amputated below the knee at the middle of the leg. What is the most appropriate prosthesis for this patient?",
+    "answers": [
+      {
+        "option": "Transfemoral prosthesis",
+        "bool": false
+      },
+      {
+        "option": "Definitive prosthesis",
+        "bool": false
+      },
+      {
+        "option": "Transtibial prosthesis",
+        "bool": true
+      },
+      {
+        "option": "Temporary prosthesis",
+        "bool": false
+      },
+      {
+        "option": "Preparatory provisional prosthesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the least important consideration when choosing an upper limb prosthesis?",
+    "answers": [
+      {
+        "option": "Hobbies",
+        "bool": false
+      },
+      {
+        "option": "Expected function",
+        "bool": false
+      },
+      {
+        "option": "Mobility",
+        "bool": true
+      },
+      {
+        "option": "Amputation level",
+        "bool": false
+      },
+      {
+        "option": "Vocation of the patient",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is not a clinical feature of orthoses?",
+    "answers": [
+      {
+        "option": "Promote healing",
+        "bool": false
+      },
+      {
+        "option": "Decrease excessive range of motion",
+        "bool": false
+      },
+      {
+        "option": "Manage deformity",
+        "bool": false
+      },
+      {
+        "option": "Protect joint",
+        "bool": false
+      },
+      {
+        "option": "Increase in pain",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the most used orthosis in clinical practice?",
+    "answers": [
+      {
+        "option": "Ankle-foot orthosis",
+        "bool": true
+      },
+      {
+        "option": "Knee-ankle-foot orthosis",
+        "bool": false
+      },
+      {
+        "option": "Cervical collar",
+        "bool": false
+      },
+      {
+        "option": "Wrist-hand orthosis",
+        "bool": false
+      },
+      {
+        "option": "Knee orthosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following treatment regimens is inappropriate in the management of tennis elbow?",
+    "answers": [
+      {
+        "option": "NSAIDs",
+        "bool": false
+      },
+      {
+        "option": "Oral corticosteroids",
+        "bool": true
+      },
+      {
+        "option": "Avoidance of repetitive motion",
+        "bool": false
+      },
+      {
+        "option": "Relative rest",
+        "bool": false
+      },
+      {
+        "option": "Activity modification",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following types of cerebral palsy involves the legs more than the arms?",
+    "answers": [
+      {
+        "option": "Quadriplegic",
+        "bool": false
+      },
+      {
+        "option": "Diplegic",
+        "bool": true
+      },
+      {
+        "option": "Athetoid",
+        "bool": false
+      },
+      {
+        "option": "Hemiplegic",
+        "bool": false
+      },
+      {
+        "option": "Mixed",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "4th-year/drg/2022",
+    "question": "A 65-year-old male farmer presents to the clinic with a 1.2 cm red, slightly raised plaque on his face. A biopsy of the lesion shows cytologic atypia, dyskeratosis, and hyperkeratosis limited to the basal cell layer. Which of the following conditions results in this lesion?",
+    "answers": [
+      {
+        "option": "Squamous cell carcinoma",
+        "bool": true
+      },
+      {
+        "option": "Basal cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Erythema multiforme",
+        "bool": false
+      },
+      {
+        "option": "Lichen planus",
+        "bool": false
+      },
+      {
+        "option": "Malignant melanoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "4th-year/drg/2022",
+    "question": "A 42-year-old female presents to the clinic with a pigmented lesion on her left hand. An excisional biopsy reveals a superficial spreading type of melanoma. Which of the following histologic features has the most important prognostic value in this patient?",
+    "answers": [
+      {
+        "option": "Degree of intraepidermal invasion by melanoma cells",
+        "bool": false
+      },
+      {
+        "option": "Degree of melanocytic atypia",
+        "bool": false
+      },
+      {
+        "option": "Degree of vascularity",
+        "bool": false
+      },
+      {
+        "option": "Depth of dermal invasion",
+        "bool": true
+      },
+      {
+        "option": "Presence of variable melanin pigmentation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "4th-year/drg/2022",
+    "question": "A 35-year-old pregnant female presents to the clinic with tan or brown patches that appear on the forehead, cheeks, chin, upper lip, and nose. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Melasma",
+        "bool": true
+      },
+      {
+        "option": "Vitiligo",
+        "bool": false
+      },
+      {
+        "option": "Albinism",
+        "bool": false
+      },
+      {
+        "option": "Ephilides",
+        "bool": false
+      },
+      {
+        "option": "Inflammatory pigmentation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "4th-year/drg/2022",
+    "question": "During the process of cloning a gene into a vector, a restriction enzyme is used. Which of the following best describes the function of a restriction enzyme?",
+    "answers": [
+      {
+        "option": "It synthesizes RNA from DNA",
+        "bool": false
+      },
+      {
+        "option": "It replicates DNA",
+        "bool": false
+      },
+      {
+        "option": "It cuts DNA at specific points",
+        "bool": true
+      },
+      {
+        "option": "It proofreads DNA for mutations",
+        "bool": false
+      },
+      {
+        "option": "It unwinds DNA into two strands",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "4th-year/drg/2022",
+    "question": "Several infections such as dengue and hepatitis B are detected in the laboratory using antigen-antibody reactions. Which of the following procedures involves these types of reactions?",
+    "answers": [
+      {
+        "option": "Cloning",
+        "bool": false
+      },
+      {
+        "option": "Restriction fragment length polymorphism (RFLP)",
+        "bool": false
+      },
+      {
+        "option": "Northern blot",
+        "bool": false
+      },
+      {
+        "option": "Enzyme-linked immunosorbent assay (ELISA)",
+        "bool": true
+      },
+      {
+        "option": "Polymerase chain reaction (PCR)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "4th-year/drg/2022",
+    "question": "A dominantly inherited trait affects a child and his grandmother, but neither parent. Which of the following best describes this phenomenon?",
+    "answers": [
+      {
+        "option": "Expressivity",
+        "bool": false
+      },
+      {
+        "option": "Non-penetrance",
+        "bool": true
+      },
+      {
+        "option": "Germline mosaicism",
+        "bool": false
+      },
+      {
+        "option": "New mutation",
+        "bool": false
+      },
+      {
+        "option": "Somatic mosaicism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "4th-year/drg/2022",
+    "question": "A 14-year-old female with amenorrhea is concerned about her delayed onset of menstruation. She has a short stature, a wide webbed neck, a broad chest, and secondary sexual characteristics consistent with those of a much younger girl. What are the most likely chromosomal changes in this condition?",
+    "answers": [
+      {
+        "option": "5p-",
+        "bool": false
+      },
+      {
+        "option": "22q11",
+        "bool": false
+      },
+      {
+        "option": "46, XY",
+        "bool": false
+      },
+      {
+        "option": "47, XXY",
+        "bool": false
+      },
+      {
+        "option": "45, XO",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "4th-year/drg/2022",
+    "question": "A 50-year-old obese female, with a history of diabetes mellitus, presents to the clinic with itching over the body for two weeks. On examination, ill-defined erythematous and macerating lesions, associated with multiple satellite lesions, are observed over the inguinal region, and sub-mammary areas. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Impetigo",
+        "bool": false
+      },
+      {
+        "option": "Inverse psoriasis",
+        "bool": false
+      },
+      {
+        "option": "Contact dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Tinea cruris",
+        "bool": false
+      },
+      {
+        "option": "Candida intertrigo",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "4th-year/drg/2022",
+    "question": "A 25-year-old female presents to the dermatology clinic with a complaint of non-itchy rashes on both of her legs. On examination, she has well-defined scaly, erythematous plaques on the anterior surfaces of both legs. Removal of the scales leaves behind shiny, glistening red spots. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Lichen planus",
+        "bool": false
+      },
+      {
+        "option": "Cutaneous lymphoma",
+        "bool": false
+      },
+      {
+        "option": "Psoriasis",
+        "bool": true
+      },
+      {
+        "option": "Tinea corporis",
+        "bool": false
+      },
+      {
+        "option": "Eczema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "4th-year/drg/2022",
+    "question": "A 7-year-old boy presents to the clinic with a less than 1 cm flat smooth lesion on his forearm for the past two weeks. What is the clinical term to describe this lesion?",
+    "answers": [
+      {
+        "option": "Plaque",
+        "bool": false
+      },
+      {
+        "option": "Patch",
+        "bool": false
+      },
+      {
+        "option": "Wheal",
+        "bool": false
+      },
+      {
+        "option": "Macule",
+        "bool": true
+      },
+      {
+        "option": "Papule",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "4th-year/drg/2022",
+    "question": "A 3-month-old female baby is brought to the dermatology clinic by her mother with complaints of red and chapped skin on the face for the past two weeks since winter started. On examination, there are erythematous, scaly patches on both cheeks with a few excoriations. Her nasolabial folds and scalp are clear, along with the rest of her body. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Seborrheic eczema",
+        "bool": false
+      },
+      {
+        "option": "Atopic eczema",
+        "bool": true
+      },
+      {
+        "option": "Tinea faciae",
+        "bool": false
+      },
+      {
+        "option": "Contact eczema",
+        "bool": false
+      },
+      {
+        "option": "Pityriasis alba",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "4th-year/drg/2022",
+    "question": "A 22-year-old male presents with a single tender swelling in the right beard area for the last two days. The swelling is 2-3 cm in size, with a yellow spot, and warm on palpation. Which topical medication is most likely to be effective in this case?",
+    "answers": [
+      {
+        "option": "Acyclovir",
+        "bool": false
+      },
+      {
+        "option": "Terbinafine",
+        "bool": false
+      },
+      {
+        "option": "Clotrimazole",
+        "bool": false
+      },
+      {
+        "option": "Fusidic acid",
+        "bool": true
+      },
+      {
+        "option": "Silver sulphadiazine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "4th-year/drg/2022",
+    "question": "What is the name of a mutation characterized by additions or deletions of bases in multiples of three?",
+    "answers": [
+      {
+        "option": "Nonsense",
+        "bool": false
+      },
+      {
+        "option": "Inframe",
+        "bool": true
+      },
+      {
+        "option": "Missense",
+        "bool": false
+      },
+      {
+        "option": "Frameshift",
+        "bool": false
+      },
+      {
+        "option": "Deletion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "4th-year/drg/2022",
+    "question": "What is the term used to describe a change in the frequency of an existing gene variant in the population due to random chance?",
+    "answers": [
+      {
+        "option": "Natural selection",
+        "bool": false
+      },
+      {
+        "option": "Non-random mating",
+        "bool": false
+      },
+      {
+        "option": "Gene flow",
+        "bool": false
+      },
+      {
+        "option": "Founder effect",
+        "bool": false
+      },
+      {
+        "option": "Genetic drift",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is a criterion for X-linked recessive inheritance?",
+    "answers": [
+      {
+        "option": "Passed on by carriers",
+        "bool": false
+      },
+      {
+        "option": "Affects both sexes equally",
+        "bool": false
+      },
+      {
+        "option": "One mutated allele is enough for males to be affected",
+        "bool": true
+      },
+      {
+        "option": "Can skip generations",
+        "bool": false
+      },
+      {
+        "option": "Two inherited mutant alleles required for an individual to be affected",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is likely to result in a decrease in the recurrence risk of multifactorial diseases?",
+    "answers": [
+      {
+        "option": "Affected individual is a member of the less commonly affected sex",
+        "bool": false
+      },
+      {
+        "option": "Number of affected relatives increases",
+        "bool": false
+      },
+      {
+        "option": "Severity of disease expression increases",
+        "bool": false
+      },
+      {
+        "option": "Prevalence of disease increases in a population",
+        "bool": false
+      },
+      {
+        "option": "More remotely related relatives are affected",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "4th-year/drg/2022",
+    "question": "Some types of single-gene disorders occur in individuals with a single mutated copy of the gene, and a single non-mutated allele is not enough to prevent the disease. Which pattern of inheritance best describes this disorder?",
+    "answers": [
+      {
+        "option": "X-linked recessive",
+        "bool": false
+      },
+      {
+        "option": "Autosomal recessive",
+        "bool": false
+      },
+      {
+        "option": "Autosomal co-dominant",
+        "bool": false
+      },
+      {
+        "option": "Autosomal dominant",
+        "bool": true
+      },
+      {
+        "option": "Y-linked dominant",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "4th-year/drg/2022",
+    "question": "Which drug should be used in the treatment of tinea capitis?",
+    "answers": [
+      {
+        "option": "Topical clotrimazole",
+        "bool": false
+      },
+      {
+        "option": "IV amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Oral clotrimazole",
+        "bool": false
+      },
+      {
+        "option": "Oral flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Oral terbinafine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following drugs is an example of an allylamine?",
+    "answers": [
+      {
+        "option": "Terbinafine",
+        "bool": true
+      },
+      {
+        "option": "Amphotericin B",
+        "bool": false
+      },
+      {
+        "option": "Nystatin",
+        "bool": false
+      },
+      {
+        "option": "Flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Fluconazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "4th-year/drg/2022",
+    "question": "A 35-year-old male presents with a history of skin allergy with unknown etiology. Which of the following types of chronic dermatitis does this patient have?",
+    "answers": [
+      {
+        "option": "Contact dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Stasis dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Atopic dermatitis",
+        "bool": true
+      },
+      {
+        "option": "Actinic dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Seborrheic dermatitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "4th-year/drg/2022",
+    "question": "Which antifungals are used for the treatment of cryptococcal meningitis?",
+    "answers": [
+      {
+        "option": "5-fluorocytosine and triazoles",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin-B and triazoles",
+        "bool": false
+      },
+      {
+        "option": "Triazoles",
+        "bool": false
+      },
+      {
+        "option": "5-fluorocytosine",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin-B and 5-fluorocytosine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following structures are included in an osseocutaneous flap?",
+    "answers": [
+      {
+        "option": "Skin, fascia, muscle and bone",
+        "bool": false
+      },
+      {
+        "option": "Skin, subcutaneous tissue and fascia",
+        "bool": false
+      },
+      {
+        "option": "Skin, fascia and muscle",
+        "bool": false
+      },
+      {
+        "option": "Skin and subcutaneous tissue",
+        "bool": false
+      },
+      {
+        "option": "Skin and bone",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "4th-year/drg/2022",
+    "question": "A 40-year-old male has sustained burns over 60% of his body surface. Donor sites are not sufficient to cover the wounds. What is the best management for this patient?",
+    "answers": [
+      {
+        "option": "Secondary intention",
+        "bool": false
+      },
+      {
+        "option": "Z-plasties",
+        "bool": false
+      },
+      {
+        "option": "Integra",
+        "bool": true
+      },
+      {
+        "option": "Split thickness graft",
+        "bool": false
+      },
+      {
+        "option": "Full thickness graft",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "4th-year/drg/2022",
     "question": "Psoriasis is associated with which of the following factors?",
     "answers": [
       {
         "option": "Herpes simplex virus",
-        "bool": false
-      },
-      {
-        "option": "Atopy",
         "bool": false
       },
       {
@@ -23,28 +1315,32 @@
       {
         "option": "HLA-C",
         "bool": true
+      },
+      {
+        "option": "Atopy",
+        "bool": false
       }
     ]
   },
   {
-    "id": 1,
+    "id": 49,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the mechanism of action of amphotericin B?",
     "answers": [
-      {
-        "option": "Distortion of fungal hyphae",
-        "bool": false
-      },
-      {
-        "option": "Inhibition of squalene epioxdase",
-        "bool": false
-      },
       {
         "option": "Binding to ergosterol and pore formation",
         "bool": true
       },
       {
+        "option": "Distortion of fungal hyphae",
+        "bool": false
+      },
+      {
         "option": "Inhibition of 14-alpha demythylase",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of squalene epioxdase",
         "bool": false
       },
       {
@@ -54,178 +1350,16 @@
     ]
   },
   {
-    "id": 2,
-    "info": "4th-year/drg/2022",
-    "question": "A girl had a 3x3 cm tumour on her nose which was successfully excised during a medical procedure. What plastic surgery options should be considered to address the cosmetic and functional aspects of her nose following the tumor excision?",
-    "answers": [
-      {
-        "option": "Bipedicle flap",
-        "bool": false
-      },
-      {
-        "option": "Bilobed flap",
-        "bool": true
-      },
-      {
-        "option": "Rotational flap",
-        "bool": false
-      },
-      {
-        "option": "Z- plasty",
-        "bool": false
-      },
-      {
-        "option": "Rhomboid flap",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "info": "4th-year/drg/2022",
-    "question": "A 22-year-old male presented to the emergency department with complaints of inability to see in sunlight and fever for the past 14 days. Upon further inquiry, he also revealed that he had headaches for the past 7 days. His past medical history was significant for AIDS which was diagnosed 1 year ago. Which of the following is the most appropriate drug for treating this patient's condition?",
-    "answers": [
-      {
-        "option": "Amphotericin B",
-        "bool": true
-      },
-      {
-        "option": "Flucytosine",
-        "bool": false
-      },
-      {
-        "option": "Gentamicin",
-        "bool": false
-      },
-      {
-        "option": "Ganicyclovir",
-        "bool": false
-      },
-      {
-        "option": "Penicillin G",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the most common cause of upper limb amputations?",
-    "answers": [
-      {
-        "option": "Diabetes",
-        "bool": false
-      },
-      {
-        "option": "Osteomyelitis",
-        "bool": false
-      },
-      {
-        "option": "Burn",
-        "bool": false
-      },
-      {
-        "option": "Trauma",
-        "bool": true
-      },
-      {
-        "option": "Tumors",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following scales is used to score spasticity?",
-    "answers": [
-      {
-        "option": "Activities of Daily Living (ADLS)",
-        "bool": false
-      },
-      {
-        "option": "Modified Ashworth Scale",
-        "bool": true
-      },
-      {
-        "option": "Disability Rating Scale (DRS)",
-        "bool": false
-      },
-      {
-        "option": "Functional Independence Measure (FIM)",
-        "bool": false
-      },
-      {
-        "option": "Functional Assessment Measure (FAM)",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the start codon?",
-    "answers": [
-      {
-        "option": "UAG",
-        "bool": false
-      },
-      {
-        "option": "UAA",
-        "bool": false
-      },
-      {
-        "option": "AUG",
-        "bool": true
-      },
-      {
-        "option": "AUA",
-        "bool": false
-      },
-      {
-        "option": "UGA",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following statements is most appropriate for the term wild allele?",
-    "answers": [
-      {
-        "option": "It is the common type of allele",
-        "bool": true
-      },
-      {
-        "option": "It is a mutant allele",
-        "bool": false
-      },
-      {
-        "option": "They are at a specific locus",
-        "bool": false
-      },
-      {
-        "option": "Both of the alleles at a locus are different",
-        "bool": false
-      },
-      {
-        "option": "Both of the alleles at a locus are same",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
+    "id": 50,
     "info": "4th-year/drg/2022",
     "question": "Which of the following procedures is a cosmetic procedure for the eyelids?",
     "answers": [
       {
-        "option": "Frontalis suspension surgery",
+        "option": "Fasanella–Servat surgery",
         "bool": false
       },
       {
-        "option": "Fasanella\u2013Servat surgery",
+        "option": "Mullerectomy",
         "bool": false
       },
       {
@@ -237,18 +1371,45 @@
         "bool": true
       },
       {
-        "option": "Mullerectomy",
+        "option": "Frontalis suspension surgery",
         "bool": false
       }
     ]
   },
   {
-    "id": 9,
+    "id": 51,
+    "info": "4th-year/drg/2022",
+    "question": "A 17-year-old male presents in the emergency department after suffering a burn injury. On initial examination, the man appears to be breathing with difficulty and his heart rate is increased. Which of the following steps must be taken in the initial management of this patient?",
+    "answers": [
+      {
+        "option": "Circulation",
+        "bool": false
+      },
+      {
+        "option": "Breathing",
+        "bool": false
+      },
+      {
+        "option": "Airway",
+        "bool": true
+      },
+      {
+        "option": "C-spine stabilization",
+        "bool": false
+      },
+      {
+        "option": "Fluid resuscitation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
     "info": "4th-year/drg/2022",
     "question": "A 22-year-old female presented to the emergency department after suffering a burn injury. On examination, a 20 x 20 cm burn on the scalp area was noted along with the exposure of the skull cap. Which of the following is the most appropriate management for covering the defect in this patient?",
     "answers": [
       {
-        "option": "Regional flap",
+        "option": "Skin graft",
         "bool": false
       },
       {
@@ -256,48 +1417,210 @@
         "bool": false
       },
       {
-        "option": "Free flap",
-        "bool": true
-      },
-      {
-        "option": "Skin graft",
+        "option": "Bilobed flap",
         "bool": false
       },
       {
-        "option": "Bilobed flap",
+        "option": "Regional flap",
+        "bool": false
+      },
+      {
+        "option": "Free flap",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the mechanism of action of terbinafine?",
+    "answers": [
+      {
+        "option": "Inhibition of aminoacyl transfer RNA synthetase",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of fungal mitosis",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of squalene epoxidase",
+        "bool": true
+      },
+      {
+        "option": "Binding to ergosterol",
+        "bool": false
+      },
+      {
+        "option": "Inhibition of 14-alpha demythylase",
         "bool": false
       }
     ]
   },
   {
-    "id": 10,
+    "id": 54,
+    "info": "4th-year/drg/2022",
+    "question": "A 22-year-old male presented to the emergency department with complaints of inability to see in sunlight and fever for the past 14 days. Upon further inquiry, he also revealed that he had headaches for the past 7 days. His past medical history was significant for AIDS which was diagnosed 1 year ago. Which of the following is the most appropriate drug for treating this patient's condition?",
+    "answers": [
+      {
+        "option": "Gentamicin",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin B",
+        "bool": true
+      },
+      {
+        "option": "Penicillin G",
+        "bool": false
+      },
+      {
+        "option": "Flucytosine",
+        "bool": false
+      },
+      {
+        "option": "Ganicyclovir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following scales is used to score spasticity?",
+    "answers": [
+      {
+        "option": "Disability Rating Scale (DRS)",
+        "bool": false
+      },
+      {
+        "option": "Functional Assessment Measure (FAM)",
+        "bool": false
+      },
+      {
+        "option": "Activities of Daily Living (ADLS)",
+        "bool": false
+      },
+      {
+        "option": "Modified Ashworth Scale",
+        "bool": true
+      },
+      {
+        "option": "Functional Independence Measure (FIM)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the most common cause of upper limb amputations?",
+    "answers": [
+      {
+        "option": "Trauma",
+        "bool": true
+      },
+      {
+        "option": "Tumors",
+        "bool": false
+      },
+      {
+        "option": "Burn",
+        "bool": false
+      },
+      {
+        "option": "Osteomyelitis",
+        "bool": false
+      },
+      {
+        "option": "Diabetes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the start codon?",
+    "answers": [
+      {
+        "option": "UGA",
+        "bool": false
+      },
+      {
+        "option": "UAG",
+        "bool": false
+      },
+      {
+        "option": "AUA",
+        "bool": false
+      },
+      {
+        "option": "UAA",
+        "bool": false
+      },
+      {
+        "option": "AUG",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following statements is most appropriate for the term wild allele?",
+    "answers": [
+      {
+        "option": "They are at a specific locus",
+        "bool": false
+      },
+      {
+        "option": "It is a mutant allele",
+        "bool": false
+      },
+      {
+        "option": "Both of the alleles at a locus are different",
+        "bool": false
+      },
+      {
+        "option": "It is the common type of allele",
+        "bool": true
+      },
+      {
+        "option": "Both of the alleles at a locus are same",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 59,
     "info": "4th-year/drg/2022",
     "question": "A 42-year-old female presents to the dermatology clinic with complaints of itching on her elbows and knees for the past two days. Her past medical record is significant for celiac disease which was diagnosed 1 year ago. On examination, grouped erythematous vesicles are appreciated on elbows and knees. Direct immunofluorescence of the skin biopsy is likely to show which of the following?",
     "answers": [
+      {
+        "option": "Deposition of immunoglobulin along the plasma membrane of the keratinocyte",
+        "bool": false
+      },
       {
         "option": "Deposits of IgG at the tip of dermal pappilae",
         "bool": false
       },
       {
-        "option": "A fishnet pattern of immunoglobulin deposition along with suprabasal acantholysis",
-        "bool": false
-      },
-      {
-        "option": "Deposition of immunoglobulin along the plasma membrane of the keratinocyte",
-        "bool": false
+        "option": "Deposits of IgA at the tip of dermal papillae",
+        "bool": true
       },
       {
         "option": "Linear deposition of the complement at the dermoepidermal junction",
         "bool": false
       },
       {
-        "option": "Deposits of IgA at the tip of dermal papillae",
-        "bool": true
+        "option": "A fishnet pattern of immunoglobulin deposition along with suprabasal acantholysis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 11,
+    "id": 60,
     "info": "4th-year/drg/2022",
     "question": "Which of the following options defines polyploidy?",
     "answers": [
@@ -310,108 +1633,58 @@
         "bool": false
       },
       {
-        "option": "Complete set of extra genome",
-        "bool": false
-      },
-      {
         "option": "Multiple of 23 chromosomes",
         "bool": false
       },
       {
         "option": "A missing set of chromosomes",
         "bool": false
+      },
+      {
+        "option": "Complete set of extra genome",
+        "bool": false
       }
     ]
   },
   {
-    "id": 12,
+    "id": 61,
     "info": "4th-year/drg/2022",
     "question": "Which of the following options is the most appropriate treatment for warts?",
     "answers": [
       {
-        "option": "IV antiviral medications",
-        "bool": false
+        "option": "Topical salicyclic acid",
+        "bool": true
       },
       {
         "option": "Cryotherapy",
         "bool": false
       },
       {
-        "option": "Surgery",
-        "bool": false
-      },
-      {
-        "option": "Topical salicyclic acid",
-        "bool": true
-      },
-      {
         "option": "Oral antiviral medications",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "info": "4th-year/drg/2022",
-    "question": "A 17-year-old male presents in the emergency department after suffering a burn injury. On initial examination, the man appears to be breathing with difficulty and his heart rate is increased. Which of the following steps must be taken in the initial management of this patient?",
-    "answers": [
+      },
       {
-        "option": "Breathing",
+        "option": "IV antiviral medications",
         "bool": false
       },
       {
-        "option": "C-spine stabilization",
-        "bool": false
-      },
-      {
-        "option": "Airway",
-        "bool": true
-      },
-      {
-        "option": "Circulation",
-        "bool": false
-      },
-      {
-        "option": "Fluid resuscitation",
+        "option": "Surgery",
         "bool": false
       }
     ]
   },
   {
-    "id": 14,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the mechanism of action of terbinafine?",
-    "answers": [
-      {
-        "option": "Inhibition of aminoacyl transfer RNA synthetase",
-        "bool": false
-      },
-      {
-        "option": "Binding to ergosterol",
-        "bool": false
-      },
-      {
-        "option": "Inhibition of squalene epioxdase",
-        "bool": true
-      },
-      {
-        "option": "Inhibition of 14-alpha demythylase",
-        "bool": false
-      },
-      {
-        "option": "Inhibition of fungal mitosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 15,
+    "id": 62,
     "info": "4th-year/drg/2022",
     "question": "Which of the following statements regarding the side effects of amphotericin B is the correct one?",
     "answers": [
       {
         "option": "It has dose dependent renal toxicity",
         "bool": false
+      },
+      {
+        "option": "Intravenous form can cause shock like decrease in blood pressure",
+        "bool": true
       },
       {
         "option": "It can cause metabolic alkalosis",
@@ -424,15 +1697,11 @@
       {
         "option": "Intravenous form can cause decrease in temperature",
         "bool": false
-      },
-      {
-        "option": "Intravenous form can cause shock like decrease in blood pressure",
-        "bool": true
       }
     ]
   },
   {
-    "id": 16,
+    "id": 63,
     "info": "4th-year/drg/2022",
     "question": "A girl is baking a cake for her friend's birthday. She opens the baking oven in a hurry and ends up burning her face, neck, and right arm. Which of the following is the appropriate classification of the burn?",
     "answers": [
@@ -441,7 +1710,11 @@
         "bool": false
       },
       {
-        "option": "Mechanical",
+        "option": "Thermal",
+        "bool": true
+      },
+      {
+        "option": "Electrical",
         "bool": false
       },
       {
@@ -449,17 +1722,13 @@
         "bool": false
       },
       {
-        "option": "Electrical",
+        "option": "Mechanical",
         "bool": false
-      },
-      {
-        "option": "Thermal",
-        "bool": true
       }
     ]
   },
   {
-    "id": 17,
+    "id": 64,
     "info": "4th-year/drg/2022",
     "question": "A student is observing a skin biopsy slide in the pathology lab, he notices suprabasal acantholysis along with tomb-like deposition of the antibodies. Antibodies are directed against which of the following in this disease?",
     "answers": [
@@ -468,28 +1737,32 @@
         "bool": false
       },
       {
-        "option": "Desmosome",
-        "bool": false
-      },
-      {
         "option": "Desmoglien",
         "bool": true
       },
       {
-        "option": "Reticulin",
+        "option": "Gliadin",
         "bool": false
       },
       {
-        "option": "Gliadin",
+        "option": "Desmosome",
+        "bool": false
+      },
+      {
+        "option": "Reticulin",
         "bool": false
       }
     ]
   },
   {
-    "id": 18,
+    "id": 65,
     "info": "4th-year/drg/2022",
     "question": "A 32-year-old male presents to the clinic after observing some skin changes on his arms. On examination, a round central lesion with concentric circles is observed. Upon further inquiry, he reveals that he took some drugs which were prescribed by the local general practitioner. Which of the following could be the likely diagnosis?",
     "answers": [
+      {
+        "option": "Erythema nodosum",
+        "bool": false
+      },
       {
         "option": "Toxic epidermal necrolysis",
         "bool": false
@@ -503,22 +1776,18 @@
         "bool": false
       },
       {
-        "option": "Erythema nodosum",
-        "bool": false
-      },
-      {
         "option": "Erythema multiforme",
         "bool": true
       }
     ]
   },
   {
-    "id": 19,
+    "id": 66,
     "info": "4th-year/drg/2022",
     "question": "A 32-year-old lady has recently been diagnosed with lichen planus. Which of the following statements regarding this disease is the most appropriate one?",
     "answers": [
       {
-        "option": "It will lead to squamous cell carcinoma",
+        "option": "Immunosuppresants are the first treatment of choice",
         "bool": false
       },
       {
@@ -526,11 +1795,11 @@
         "bool": true
       },
       {
-        "option": "Immunosuppresants are the first treatment of choice",
+        "option": "It is more common on extensor surfaces",
         "bool": false
       },
       {
-        "option": "It is more common on extensor surfaces",
+        "option": "It will lead to squamous cell carcinoma",
         "bool": false
       },
       {
@@ -540,34 +1809,7 @@
     ]
   },
   {
-    "id": 20,
-    "info": "4th-year/drg/2022",
-    "question": "Which drug should be used in the treatment of tinea capitis?",
-    "answers": [
-      {
-        "option": "Oral flucytosine",
-        "bool": false
-      },
-      {
-        "option": "Oral clotrimazole",
-        "bool": false
-      },
-      {
-        "option": "Oral terbinafine",
-        "bool": true
-      },
-      {
-        "option": "IV amphotericin B",
-        "bool": false
-      },
-      {
-        "option": "Topical clotrimazole",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 21,
+    "id": 67,
     "info": "4th-year/drg/2022",
     "question": "Which of the following investigations will be the most useful one for the diagnosis of pemphigus vulgaris?",
     "answers": [
@@ -576,38 +1818,38 @@
         "bool": true
       },
       {
-        "option": "Serum immunoglobulin",
-        "bool": false
-      },
-      {
-        "option": "Photoscopy",
-        "bool": false
-      },
-      {
         "option": "Wood's lamp",
+        "bool": false
+      },
+      {
+        "option": "Serum immunoglobulin",
         "bool": false
       },
       {
         "option": "Dermatoscopy",
         "bool": false
+      },
+      {
+        "option": "Photoscopy",
+        "bool": false
       }
     ]
   },
   {
-    "id": 22,
+    "id": 68,
     "info": "4th-year/drg/2022",
     "question": "Which one of the following is a characteristic nail finding in psoriasis?",
     "answers": [
-      {
-        "option": "Oil droplet sign",
-        "bool": false
-      },
       {
         "option": "Subungual hyperkeratosis",
         "bool": false
       },
       {
         "option": "Pitting",
+        "bool": false
+      },
+      {
+        "option": "Oil droplet sign",
         "bool": true
       },
       {
@@ -621,17 +1863,13 @@
     ]
   },
   {
-    "id": 23,
+    "id": 69,
     "info": "4th-year/drg/2022",
     "question": "Which one of the following is the first step for fire safety?",
     "answers": [
       {
-        "option": "Stop, walk and roll",
-        "bool": false
-      },
-      {
-        "option": "Walk, drop and roll",
-        "bool": false
+        "option": "Stop, drop and roll",
+        "bool": true
       },
       {
         "option": "Run, stop and roll",
@@ -642,18 +1880,30 @@
         "bool": false
       },
       {
-        "option": "Stop, drop and roll",
-        "bool": true
+        "option": "Walk, drop and roll",
+        "bool": false
+      },
+      {
+        "option": "Stop, walk and roll",
+        "bool": false
       }
     ]
   },
   {
-    "id": 24,
+    "id": 70,
     "info": "4th-year/drg/2022",
     "question": "Which of the following terms is used to describe a person who serves as the starting point for the genetic study of a family?",
     "answers": [
       {
+        "option": "Paternally derived allele",
+        "bool": false
+      },
+      {
         "option": "Preband",
+        "bool": false
+      },
+      {
+        "option": "Postband",
         "bool": false
       },
       {
@@ -661,31 +1911,27 @@
         "bool": true
       },
       {
-        "option": "Postband",
-        "bool": false
-      },
-      {
         "option": "Maternally derived allele",
-        "bool": false
-      },
-      {
-        "option": "Paternally derived allele",
         "bool": false
       }
     ]
   },
   {
-    "id": 25,
+    "id": 71,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the inheritance pattern of the ABO blood group?",
     "answers": [
       {
-        "option": "Autosomal codominant",
-        "bool": true
-      },
-      {
         "option": "X-linked dominant",
         "bool": false
+      },
+      {
+        "option": "Autosomal dominant",
+        "bool": false
+      },
+      {
+        "option": "Autosomal codominant",
+        "bool": true
       },
       {
         "option": "Autosomal resecessive",
@@ -694,69 +1940,38 @@
       {
         "option": "X-linked recessive",
         "bool": false
-      },
-      {
-        "option": "Autosomal dominant",
-        "bool": false
       }
     ]
   },
   {
-    "id": 26,
+    "id": 72,
     "info": "4th-year/drg/2022",
     "question": "A 12-year-old male child presented to the dermatology clinic with the complaint of itching on his scalp for one month. On examination of the scalp, circumscribed areas with grey scales along with loss of hair could be appreciated. However, no signs of inflammation were observed. Which of the following is the likely diagnosis?",
     "answers": [
       {
-        "option": "Tinea capitis",
-        "bool": true
+        "option": "Lichen planus",
+        "bool": false
+      },
+      {
+        "option": "Seborrhic dermatitis",
+        "bool": false
       },
       {
         "option": "Aleopcia aereata",
         "bool": false
       },
       {
-        "option": "Lichen planus",
-        "bool": false
+        "option": "Tinea capitis",
+        "bool": true
       },
       {
         "option": "Psoriasis",
         "bool": false
-      },
-      {
-        "option": "Seborrhic dermatitis",
-        "bool": false
       }
     ]
   },
   {
-    "id": 27,
-    "info": "4th-year/drg/2022",
-    "question": "Which antifungals are used for the treatment of cryptococcal meningitis?",
-    "answers": [
-      {
-        "option": "Amphotericin-B and 5-fluorocytosine",
-        "bool": true
-      },
-      {
-        "option": "5-fluorocytosine and triazoles",
-        "bool": false
-      },
-      {
-        "option": "5-fluorocytosine",
-        "bool": false
-      },
-      {
-        "option": "Amphotericin-B and triazoles",
-        "bool": false
-      },
-      {
-        "option": "Triazoles",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 28,
+    "id": 73,
     "info": "4th-year/drg/2022",
     "question": "Boutonniere deformity is present in which of the following conditions and what joint is hyperflexed?",
     "answers": [
@@ -783,16 +1998,16 @@
     ]
   },
   {
-    "id": 29,
+    "id": 74,
     "info": "4th-year/drg/2022",
-    "question": "A 10-year-old male child presents to the dermatology clinic with the complaint of dry skin and itchiness. On examination, dry scaly plaques are present. The mother further tells the physician that the itch is improved by using moisturizers on the skin. What is the likely diagnosis?",
+    "question": "A 10-year-old male child presents to the dermatology clinic with the complaint of dry skin and itchiness.  On examination, dry scaly plaques are present. The mother further tells the physician that the itch is improved by using moisturizers on the skin. What is the likely diagnosis?",
     "answers": [
       {
-        "option": "Psoriasis",
+        "option": "Asteatotic eczema",
         "bool": false
       },
       {
-        "option": "Discoid eczema",
+        "option": "Psoriasis",
         "bool": false
       },
       {
@@ -800,22 +2015,30 @@
         "bool": false
       },
       {
-        "option": "Asteatotic eczema",
-        "bool": false
-      },
-      {
         "option": "Atopic dermatitis",
         "bool": true
+      },
+      {
+        "option": "Discoid eczema",
+        "bool": false
       }
     ]
   },
   {
-    "id": 30,
+    "id": 75,
     "info": "4th-year/drg/2022",
     "question": "Which of the following diseases resolves within 24 hours?",
     "answers": [
       {
+        "option": "Erythema multiforme",
+        "bool": false
+      },
+      {
         "option": "Asteatotic dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Urticaria vasculitis",
         "bool": false
       },
       {
@@ -823,34 +2046,22 @@
         "bool": true
       },
       {
-        "option": "Urticaria vasculitis",
-        "bool": false
-      },
-      {
         "option": "Angioedema",
-        "bool": false
-      },
-      {
-        "option": "Erythema multiforme",
         "bool": false
       }
     ]
   },
   {
-    "id": 31,
+    "id": 76,
     "info": "4th-year/drg/2022",
     "question": "A histopathologist is observing a skin biopsy specimen. He notices islands of basaloid cells and retraction artifacts in the slide. Which of the following tumors is the likely diagnosis?",
     "answers": [
-      {
-        "option": "Merkel cell carcinoma",
-        "bool": false
-      },
       {
         "option": "Basal cell carcinoma",
         "bool": true
       },
       {
-        "option": "Squamous cell carcinoma",
+        "option": "Melanoma",
         "bool": false
       },
       {
@@ -858,26 +2069,26 @@
         "bool": false
       },
       {
-        "option": "Melanoma",
+        "option": "Merkel cell carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell carcinoma",
         "bool": false
       }
     ]
   },
   {
-    "id": 32,
+    "id": 77,
     "info": "4th-year/drg/2022",
     "question": "What are the three important steps in polymerase chain reaction in sequence?",
     "answers": [
       {
-        "option": "Denaturation, annealing and extension",
-        "bool": true
-      },
-      {
-        "option": "Desalination, extension and processing",
+        "option": "Desalination, splicing and extension",
         "bool": false
       },
       {
-        "option": "Desalination, splicing and extension",
+        "option": "Desalination, extension and processing",
         "bool": false
       },
       {
@@ -887,16 +2098,24 @@
       {
         "option": "Denaturation, anneliation and strand displacement",
         "bool": false
+      },
+      {
+        "option": "Denaturation, annealing and extension",
+        "bool": true
       }
     ]
   },
   {
-    "id": 33,
+    "id": 78,
     "info": "4th-year/drg/2022",
     "question": "A 30-year-old male is sent for rehabilitation evaluation after he suffered burns in the axillary region. Which of the following splints must be used to keep his arm in abduction?",
     "answers": [
       {
-        "option": "Abductor splint",
+        "option": "Chest strap splint",
+        "bool": false
+      },
+      {
+        "option": "Figure of 8 splint",
         "bool": false
       },
       {
@@ -908,22 +2127,18 @@
         "bool": true
       },
       {
-        "option": "Figure of 8 splint",
-        "bool": false
-      },
-      {
-        "option": "Chest strap splint",
+        "option": "Abductor splint",
         "bool": false
       }
     ]
   },
   {
-    "id": 34,
+    "id": 79,
     "info": "4th-year/drg/2022",
     "question": "A 22-year-old male patient, who had suffered from burns, arrives at the emergency room. On examination, his skin seems leathery and white, and he has no pain perception. What is the classification of burn for this burn?",
     "answers": [
       {
-        "option": "Mild burn",
+        "option": "Moderate burn",
         "bool": false
       },
       {
@@ -931,21 +2146,21 @@
         "bool": false
       },
       {
-        "option": "Full thickness burn",
-        "bool": true
+        "option": "Mild burn",
+        "bool": false
       },
       {
         "option": "Superficial thickness burn",
         "bool": false
       },
       {
-        "option": "Moderate burn",
-        "bool": false
+        "option": "Full thickness burn",
+        "bool": true
       }
     ]
   },
   {
-    "id": 35,
+    "id": 80,
     "info": "4th-year/drg/2022",
     "question": "Which of the following options is the most appropriate one for the inheritance pattern of diabetes?",
     "answers": [
@@ -954,7 +2169,7 @@
         "bool": false
       },
       {
-        "option": "Autosomal codominant",
+        "option": "X-linked recessive",
         "bool": false
       },
       {
@@ -962,7 +2177,7 @@
         "bool": false
       },
       {
-        "option": "X-linked recessive",
+        "option": "Autosomal codominant",
         "bool": false
       },
       {
@@ -972,12 +2187,16 @@
     ]
   },
   {
-    "id": 36,
+    "id": 81,
     "info": "4th-year/drg/2022",
     "question": "Tense bullae are characteristic of which of the following diseases?",
     "answers": [
       {
-        "option": "Pemphigus vegtans",
+        "option": "Pemphigus vulgaris",
+        "bool": false
+      },
+      {
+        "option": "Pemphigus gestationis",
         "bool": false
       },
       {
@@ -989,17 +2208,13 @@
         "bool": true
       },
       {
-        "option": "Pemphigus vulgaris",
-        "bool": false
-      },
-      {
-        "option": "Pemphigus gestationis",
+        "option": "Pemphigus vegtans",
         "bool": false
       }
     ]
   },
   {
-    "id": 37,
+    "id": 82,
     "info": "4th-year/drg/2022",
     "question": "An 8-year-old girl presented to the doctor's office with a complaint of inability to see. On examination, she had white hair, eyelashes, and skin. Which of the following is the likely diagnosis?",
     "answers": [
@@ -1008,32 +2223,28 @@
         "bool": false
       },
       {
-        "option": "Maple syrup disease",
-        "bool": false
+        "option": "Oculocutaneaous albinism",
+        "bool": true
       },
       {
         "option": "Homocystinuria",
         "bool": false
       },
       {
-        "option": "Oculocutaneaous albinism",
-        "bool": true
+        "option": "Alkaptonuria",
+        "bool": false
       },
       {
-        "option": "Alkaptonuria",
+        "option": "Maple syrup disease",
         "bool": false
       }
     ]
   },
   {
-    "id": 38,
+    "id": 83,
     "info": "4th-year/drg/2022",
     "question": "Which of the following measures must not be taken in case of a fire in a building?",
     "answers": [
-      {
-        "option": "Using fire extinguisher",
-        "bool": false
-      },
       {
         "option": "Shuting all utility valves",
         "bool": false
@@ -1043,22 +2254,53 @@
         "bool": false
       },
       {
+        "option": "Using elevator",
+        "bool": true
+      },
+      {
         "option": "Calling for help",
         "bool": false
       },
       {
-        "option": "Using elevator",
-        "bool": true
+        "option": "Using fire extinguisher",
+        "bool": false
       }
     ]
   },
   {
-    "id": 39,
+    "id": 84,
+    "info": "4th-year/drg/2022",
+    "question": "Which of the following is the most important diagnostic criterion for the diagnosis of multifactorial disorders?",
+    "answers": [
+      {
+        "option": "Threshold limit",
+        "bool": false
+      },
+      {
+        "option": "Risk recurrence",
+        "bool": true
+      },
+      {
+        "option": "Disease severity",
+        "bool": false
+      },
+      {
+        "option": "Threshold liability",
+        "bool": false
+      },
+      {
+        "option": "Phenotypic distribution",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 85,
     "info": "4th-year/drg/2022",
     "question": "According to WHO, boys are four times more likely to be affected by autism compared to girls. Who is most likely to have autism from the given options?",
     "answers": [
       {
-        "option": "Boy having an affected aunt",
+        "option": "Boy having an affected second cousin",
         "bool": false
       },
       {
@@ -1066,58 +2308,54 @@
         "bool": false
       },
       {
-        "option": "Girl having an affected second cousin",
-        "bool": false
-      },
-      {
-        "option": "Boy having an affected second cousin",
+        "option": "Boy having an affected aunt",
         "bool": false
       },
       {
         "option": "Boy having an affected brother",
         "bool": true
+      },
+      {
+        "option": "Girl having an affected second cousin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 40,
+    "id": 86,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the most common side effect of methotrexate?",
     "answers": [
       {
-        "option": "Megaloblastic anemia",
-        "bool": true
+        "option": "Sideroblastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Urticaria",
+        "bool": false
       },
       {
         "option": "Super infection",
         "bool": false
       },
       {
-        "option": "Sideroblastic anemia",
-        "bool": false
+        "option": "Megaloblastic anemia",
+        "bool": true
       },
       {
         "option": "Angioedema",
-        "bool": false
-      },
-      {
-        "option": "Urticaria",
         "bool": false
       }
     ]
   },
   {
-    "id": 41,
+    "id": 87,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the most important risk factor for the infestation of scabies?",
     "answers": [
       {
-        "option": "Oily food",
+        "option": "Sebum overproduction",
         "bool": false
-      },
-      {
-        "option": "Close contact",
-        "bool": true
       },
       {
         "option": "Overcrowding",
@@ -1128,28 +2366,20 @@
         "bool": false
       },
       {
-        "option": "Sebum overproduction",
+        "option": "Oily food",
         "bool": false
+      },
+      {
+        "option": "Close contact",
+        "bool": true
       }
     ]
   },
   {
-    "id": 42,
+    "id": 88,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the most appropriate option for a dermoid cyst present on the lateral eyebrow?",
     "answers": [
-      {
-        "option": "It involves frontozygomatic suture",
-        "bool": true
-      },
-      {
-        "option": "It is familial",
-        "bool": false
-      },
-      {
-        "option": "It is hereditary",
-        "bool": false
-      },
       {
         "option": "Failure of obliteration of branchial cleft",
         "bool": false
@@ -1157,14 +2387,34 @@
       {
         "option": "It is genetic",
         "bool": false
+      },
+      {
+        "option": "It is familial",
+        "bool": false
+      },
+      {
+        "option": "It involves frontozygomatic suture",
+        "bool": true
+      },
+      {
+        "option": "It is hereditary",
+        "bool": false
       }
     ]
   },
   {
-    "id": 43,
+    "id": 89,
     "info": "4th-year/drg/2022",
     "question": "A 32-year-old male presents to the emergency department after he suffered burn injuries. On initial assessment, around 30% of the total body surface area seems to have burned. Which of the following is the first step in the management of this patient?",
     "answers": [
+      {
+        "option": "Acticoat",
+        "bool": false
+      },
+      {
+        "option": "Mafenide acetate cream",
+        "bool": false
+      },
       {
         "option": "Silver sulfadiazine dressing",
         "bool": false
@@ -1174,30 +2424,18 @@
         "bool": false
       },
       {
-        "option": "Mafenide acetate cream",
-        "bool": false
-      },
-      {
-        "option": "Acticoat",
-        "bool": false
-      },
-      {
         "option": "Intravenous fluids",
         "bool": true
       }
     ]
   },
   {
-    "id": 44,
+    "id": 90,
     "info": "4th-year/drg/2022",
     "question": "A patient with a history of ischemic stroke presented to the rehabilitation ward for evaluation. Which of the following is/are the first step(s) that should be taken?",
     "answers": [
       {
-        "option": "Identifying patient and care giver goals",
-        "bool": false
-      },
-      {
-        "option": "Mobillization should be reduced",
+        "option": "Planning of simulated activities",
         "bool": false
       },
       {
@@ -1205,678 +2443,61 @@
         "bool": false
       },
       {
-        "option": "Planning of simulated activities",
-        "bool": false
-      },
-      {
         "option": "History and physical examination",
         "bool": true
+      },
+      {
+        "option": "Identifying patient and care giver goals",
+        "bool": false
+      },
+      {
+        "option": "Mobillization should be reduced",
+        "bool": false
       }
     ]
   },
   {
-    "id": 45,
+    "id": 91,
     "info": "4th-year/drg/2022",
-    "question": "Which of the following treatment regimens is inappropriate in the management of tennis elbow?",
+    "question": "A girl had a 3x3 cm tumour on her nose which was successfully excised during a medical procedure. What plastic surgery options should be considered to address the cosmetic and functional aspects of her nose following the tumor excision?",
     "answers": [
       {
-        "option": "Activity modification",
+        "option": "Bipedicle flap",
         "bool": false
       },
       {
-        "option": "Avoidance of repetitive motion",
+        "option": "Rotational flap",
         "bool": false
       },
       {
-        "option": "Relative rest",
-        "bool": false
-      },
-      {
-        "option": "NSAIDs",
-        "bool": false
-      },
-      {
-        "option": "Oral corticosteroids",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the most used orthosis in clinical practice?",
-    "answers": [
-      {
-        "option": "Knee-ankle-foot orthosis",
-        "bool": false
-      },
-      {
-        "option": "Cervical collar",
-        "bool": false
-      },
-      {
-        "option": "Wrist-hand orthosis",
-        "bool": false
-      },
-      {
-        "option": "Ankle-foot orthosis",
+        "option": "Bilobed flap",
         "bool": true
       },
       {
-        "option": "Knee orthosis",
+        "option": "Rhomboid flap",
+        "bool": false
+      },
+      {
+        "option": "Z- plasty",
         "bool": false
       }
     ]
   },
   {
-    "id": 47,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the most important diagnostic criterion for the diagnosis of multifactorial disorders?",
-    "answers": [
-      {
-        "option": "Risk recurrence",
-        "bool": true
-      },
-      {
-        "option": "Disease severity",
-        "bool": false
-      },
-      {
-        "option": "Phenotypic distribution",
-        "bool": false
-      },
-      {
-        "option": "Threshold liability",
-        "bool": false
-      },
-      {
-        "option": "Threshold limit",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the Milwaukee orthosis is categorized as?",
-    "answers": [
-      {
-        "option": "Cervicothoracolumbosacral orthosis",
-        "bool": true
-      },
-      {
-        "option": "Cervicothoracic orthosis",
-        "bool": false
-      },
-      {
-        "option": "Lumbosacral orthosis",
-        "bool": false
-      },
-      {
-        "option": "Cervicothoracolumbar orthosis",
-        "bool": false
-      },
-      {
-        "option": "Head-Cervical orthosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "info": "4th-year/drg/2022",
-    "question": "Wickham striae are a characteristic feature of which of the following conditions?",
-    "answers": [
-      {
-        "option": "Eczema",
-        "bool": false
-      },
-      {
-        "option": "Candidiasis",
-        "bool": false
-      },
-      {
-        "option": "Psoriasis",
-        "bool": false
-      },
-      {
-        "option": "Mycosis fungoides",
-        "bool": false
-      },
-      {
-        "option": "Lichen planus",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "info": "4th-year/drg/2022",
-    "question": "Keeping in mind pediatric rehabilitation interventions, the positioning, neck and trunk control, gross and fine motor skill training, and teaching of activities of daily living (ADLs) are mainly carried out by which of the following types of therapists?",
-    "answers": [
-      {
-        "option": "Physiotherapist",
-        "bool": false
-      },
-      {
-        "option": "Psychologist",
-        "bool": false
-      },
-      {
-        "option": "Prosthetist and orthotist",
-        "bool": false
-      },
-      {
-        "option": "Speech therapist",
-        "bool": false
-      },
-      {
-        "option": "Occupational therapist",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "info": "4th-year/drg/2022",
-    "question": "What is the most common cumulative trauma disorder (CTD) in clinical practice?",
-    "answers": [
-      {
-        "option": "Trigger finger",
-        "bool": false
-      },
-      {
-        "option": "Carpal tunnel syndrome",
-        "bool": true
-      },
-      {
-        "option": "Medical epicondylitis",
-        "bool": false
-      },
-      {
-        "option": "Tennis elbow",
-        "bool": false
-      },
-      {
-        "option": "DeQuervain tinnosynovitis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "info": "4th-year/drg/2022",
-    "question": "What is the disadvantage of an upper limb prosthesis powered by an electric motor?",
-    "answers": [
-      {
-        "option": "Less expensive",
-        "bool": false
-      },
-      {
-        "option": "Heavier weight",
-        "bool": true
-      },
-      {
-        "option": "More proximal function",
-        "bool": false
-      },
-      {
-        "option": "Greater grip",
-        "bool": false
-      },
-      {
-        "option": "Less cosmetic",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "info": "4th-year/drg/2022",
-    "question": "While managing an amputee regarding stump, which of the following is the ideal shape?",
-    "answers": [
-      {
-        "option": "Short stump",
-        "bool": false
-      },
-      {
-        "option": "Bulbous",
-        "bool": false
-      },
-      {
-        "option": "Long stump",
-        "bool": false
-      },
-      {
-        "option": "Conical",
-        "bool": false
-      },
-      {
-        "option": "Cylindrical",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "info": "4th-year/drg/2022",
-    "question": "While managing the rehabilitation of a rheumatoid arthritis patient in the acute phase, which treatment should be avoided?",
-    "answers": [
-      {
-        "option": "NSAIDs",
-        "bool": false
-      },
-      {
-        "option": "Relative rest",
-        "bool": false
-      },
-      {
-        "option": "Superficial moist heat",
-        "bool": true
-      },
-      {
-        "option": "Postural re-education",
-        "bool": false
-      },
-      {
-        "option": "Passive exercise",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "info": "4th-year/drg/2022",
-    "question": "Okazaki fragments are formed on the ______ strands in the ______ direction.",
-    "answers": [
-      {
-        "option": "Lagging, 5'-3'",
-        "bool": true
-      },
-      {
-        "option": "Lagging, 3'-5'",
-        "bool": false
-      },
-      {
-        "option": "Leading, 3'-5'",
-        "bool": false
-      },
-      {
-        "option": "Leading, 5'-3'",
-        "bool": false
-      },
-      {
-        "option": "Both same",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "info": "4th-year/drg/2022",
-    "question": "What is the mode of action of fluconazole?",
-    "answers": [
-      {
-        "option": "Inhibition of DNA replication",
-        "bool": false
-      },
-      {
-        "option": "Inhibition of mitosis",
-        "bool": false
-      },
-      {
-        "option": "Inhibition of ergosterol synthesis",
-        "bool": true
-      },
-      {
-        "option": "Inhibition of beta glucan synthesis",
-        "bool": false
-      },
-      {
-        "option": "Inhibition of lanosterol synthesis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following diseases does not require genetic counseling?",
-    "answers": [
-      {
-        "option": "Muscular dystrophy",
-        "bool": false
-      },
-      {
-        "option": "Thalassemia",
-        "bool": false
-      },
-      {
-        "option": "Sickle cell disease",
-        "bool": false
-      },
-      {
-        "option": "Down syndrome",
-        "bool": false
-      },
-      {
-        "option": "Hypertension",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "info": "4th-year/drg/2022",
-    "question": "A 14-year-old female with amenorrhea is concerned about her delayed onset of menstruation. She has a short stature, a wide webbed neck, a broad chest, and secondary sexual characteristics consistent with those of a much younger girl. What are the most likely chromosomal changes in this condition?",
-    "answers": [
-      {
-        "option": "45, XO",
-        "bool": true
-      },
-      {
-        "option": "47, XXY",
-        "bool": false
-      },
-      {
-        "option": "46, XY",
-        "bool": false
-      },
-      {
-        "option": "5p-",
-        "bool": false
-      },
-      {
-        "option": "22q11",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "info": "4th-year/drg/2022",
-    "question": "A histopathology specimen shows basaloid cells containing ducts that fit together like pieces of a jigsaw puzzle. The sample was taken from a nodular lesion on the scalp. What is the likely diagnosis?",
-    "answers": [
-      {
-        "option": "Cylindroma",
-        "bool": true
-      },
-      {
-        "option": "Basal cell carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Sebaceous adenoma",
-        "bool": false
-      },
-      {
-        "option": "Trichoepithelioma",
-        "bool": false
-      },
-      {
-        "option": "Squamous cell carcinoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 60,
-    "info": "4th-year/drg/2022",
-    "question": "A 50-year-old obese female, with a history of diabetes mellitus, presents to the clinic with itching over the body for two weeks. On examination, ill-defined erythematous and macerating lesions, associated with multiple satellite lesions, are observed over the inguinal region, and sub-mammary areas. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Contact dermatitis",
-        "bool": false
-      },
-      {
-        "option": "Tinea cruris",
-        "bool": false
-      },
-      {
-        "option": "Inverse psoriasis",
-        "bool": false
-      },
-      {
-        "option": "Impetigo",
-        "bool": false
-      },
-      {
-        "option": "Candida intertrigo",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "info": "4th-year/drg/2022",
-    "question": "A 25-year-old female presents to the dermatology clinic with a complaint of non-itchy rashes on both of her legs. On examination, she has well-defined scaly, erythematous plaques on the anterior surfaces of both legs. Removal of the scales leaves behind shiny, glistening red spots. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Tinea corporis",
-        "bool": false
-      },
-      {
-        "option": "Lichen planus",
-        "bool": false
-      },
-      {
-        "option": "Psoriasis",
-        "bool": true
-      },
-      {
-        "option": "Eczema",
-        "bool": false
-      },
-      {
-        "option": "Cutaneous lymphoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 62,
-    "info": "4th-year/drg/2022",
-    "question": "A 7-year-old boy presents to the clinic with a less than 1 cm flat smooth lesion on his forearm for the past two weeks. What is the clinical term to describe this lesion?",
-    "answers": [
-      {
-        "option": "Papule",
-        "bool": false
-      },
-      {
-        "option": "Macule",
-        "bool": true
-      },
-      {
-        "option": "Patch",
-        "bool": false
-      },
-      {
-        "option": "Plaque",
-        "bool": false
-      },
-      {
-        "option": "Wheal",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 63,
-    "info": "4th-year/drg/2022",
-    "question": "A 3-month-old female baby is brought to the dermatology clinic by her mother with complaints of red and chapped skin on the face for the past two weeks since winter started. On examination, there are erythematous, scaly patches on both cheeks with a few excoriations. Her nasolabial folds and scalp are clear, along with the rest of her body. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Tinea faciae",
-        "bool": false
-      },
-      {
-        "option": "Seborrheic eczema",
-        "bool": false
-      },
-      {
-        "option": "Pityriasis alba",
-        "bool": false
-      },
-      {
-        "option": "Atopic eczema",
-        "bool": true
-      },
-      {
-        "option": "Contact eczema",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "info": "4th-year/drg/2022",
-    "question": "A 22-year-old male presents with a single tender swelling in the right beard area for the last two days. The swelling is 2-3 cm in size, with a yellow spot, and warm on palpation. Which topical medication is most likely to be effective in this case?",
-    "answers": [
-      {
-        "option": "Fusidic acid",
-        "bool": true
-      },
-      {
-        "option": "Terbinafine",
-        "bool": false
-      },
-      {
-        "option": "Acyclovir",
-        "bool": false
-      },
-      {
-        "option": "Clotrimazole",
-        "bool": false
-      },
-      {
-        "option": "Silver sulphadiazine",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "info": "4th-year/drg/2022",
-    "question": "What is the name of a mutation characterized by additions or deletions of bases in multiples of three?",
-    "answers": [
-      {
-        "option": "Deletion",
-        "bool": false
-      },
-      {
-        "option": "Inframe",
-        "bool": true
-      },
-      {
-        "option": "Nonsense",
-        "bool": false
-      },
-      {
-        "option": "Missense",
-        "bool": false
-      },
-      {
-        "option": "Frameshift",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is likely to result in a decrease in the recurrence risk of multifactorial diseases?",
-    "answers": [
-      {
-        "option": "Severity of disease expression increases",
-        "bool": false
-      },
-      {
-        "option": "Number of affected relatives increases",
-        "bool": false
-      },
-      {
-        "option": "Prevalence of disease increases in a population",
-        "bool": false
-      },
-      {
-        "option": "More remotely related relatives are affected",
-        "bool": true
-      },
-      {
-        "option": "Affected individual is a member of the less commonly affected sex",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is a criterion for X-linked recessive inheritance?",
-    "answers": [
-      {
-        "option": "Affects both sexes equally",
-        "bool": false
-      },
-      {
-        "option": "Two inherited mutant alleles required for an individual to be affected",
-        "bool": false
-      },
-      {
-        "option": "Passed on by carriers",
-        "bool": false
-      },
-      {
-        "option": "One mutated allele is enough for males to be affected",
-        "bool": true
-      },
-      {
-        "option": "Can skip generations",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "info": "4th-year/drg/2022",
-    "question": "What is the term used to describe a change in the frequency of an existing gene variant in the population due to random chance?",
-    "answers": [
-      {
-        "option": "Genetic drift",
-        "bool": true
-      },
-      {
-        "option": "Gene flow",
-        "bool": false
-      },
-      {
-        "option": "Natural selection",
-        "bool": false
-      },
-      {
-        "option": "Founder effect",
-        "bool": false
-      },
-      {
-        "option": "Non-random mating",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 69,
+    "id": 92,
     "info": "4th-year/drg/2022",
     "question": "What is the first step in the management of the burning process?",
     "answers": [
+      {
+        "option": "Drop, roll, and stop",
+        "bool": false
+      },
       {
         "option": "Roll, drop, and stop",
         "bool": false
       },
       {
         "option": "Stop and roll",
-        "bool": false
-      },
-      {
-        "option": "Drop, roll, and stop",
         "bool": false
       },
       {
@@ -1890,7 +2511,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": 93,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is an adverse effect of flucytosine?",
     "answers": [
@@ -1899,11 +2520,7 @@
         "bool": true
       },
       {
-        "option": "Cardiac failure",
-        "bool": false
-      },
-      {
-        "option": "Infertility",
+        "option": "Gynecomastia",
         "bool": false
       },
       {
@@ -1911,18 +2528,26 @@
         "bool": false
       },
       {
-        "option": "Gynecomastia",
+        "option": "Cardiac failure",
+        "bool": false
+      },
+      {
+        "option": "Infertility",
         "bool": false
       }
     ]
   },
   {
-    "id": 71,
+    "id": 94,
     "info": "4th-year/drg/2022",
-    "question": "A patient\u2019s family history is diagrammed in a pedigree. What is the first individual in a family to be identified as possibly having a genetic disorder or condition called?",
+    "question": "A patient’s family history is diagrammed in a pedigree. What is the first individual in a family to be identified as possibly having a genetic disorder or condition called?",
     "answers": [
       {
         "option": "Postband",
+        "bool": false
+      },
+      {
+        "option": "Index case",
         "bool": false
       },
       {
@@ -1930,26 +2555,30 @@
         "bool": false
       },
       {
-        "option": "Preband",
-        "bool": false
-      },
-      {
         "option": "Proband",
         "bool": true
       },
       {
-        "option": "Index case",
+        "option": "Preband",
         "bool": false
       }
     ]
   },
   {
-    "id": 72,
+    "id": 95,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the most common abnormality associated with increased maternal age?",
     "answers": [
       {
+        "option": "Euploidy",
+        "bool": false
+      },
+      {
         "option": "Philadelphia chromosome",
+        "bool": false
+      },
+      {
+        "option": "Frameshift mutations",
         "bool": false
       },
       {
@@ -1959,19 +2588,11 @@
       {
         "option": "Ebstein's anomaly",
         "bool": false
-      },
-      {
-        "option": "Frameshift mutations",
-        "bool": false
-      },
-      {
-        "option": "Euploidy",
-        "bool": false
       }
     ]
   },
   {
-    "id": 73,
+    "id": 96,
     "info": "4th-year/drg/2022",
     "question": "Which type of suspension is used for transradial amputation?",
     "answers": [
@@ -1980,11 +2601,7 @@
         "bool": true
       },
       {
-        "option": "Shoulder orthosis",
-        "bool": false
-      },
-      {
-        "option": "Airplane splint",
+        "option": "Chest strap saddle shoulder",
         "bool": false
       },
       {
@@ -1992,22 +2609,26 @@
         "bool": false
       },
       {
-        "option": "Chest strap saddle shoulder",
+        "option": "Airplane splint",
+        "bool": false
+      },
+      {
+        "option": "Shoulder orthosis",
         "bool": false
       }
     ]
   },
   {
-    "id": 74,
+    "id": 97,
     "info": "4th-year/drg/2022",
     "question": "What is/are the goals of cardiopulmonary rehabilitation?",
     "answers": [
       {
-        "option": "To increase right ventricular function",
+        "option": "To increase pulmonary collaterals",
         "bool": false
       },
       {
-        "option": "To increase pulmonary collaterals",
+        "option": "To increase the threshold of ischemia",
         "bool": false
       },
       {
@@ -2019,20 +2640,16 @@
         "bool": true
       },
       {
-        "option": "To increase the threshold of ischemia",
+        "option": "To increase right ventricular function",
         "bool": false
       }
     ]
   },
   {
-    "id": 75,
+    "id": 98,
     "info": "4th-year/drg/2022",
     "question": "Which of the following is the most suitable choice for scalp reconstruction in a person suffering from scalp abrasion after a trauma?",
     "answers": [
-      {
-        "option": "Regional flap",
-        "bool": false
-      },
       {
         "option": "Musculocutaneous flap",
         "bool": false
@@ -2042,632 +2659,15 @@
         "bool": true
       },
       {
-        "option": "Free flap",
+        "option": "Regional flap",
         "bool": false
       },
       {
         "option": "Skin graft",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following diseases requires genetic counseling?",
-    "answers": [
-      {
-        "option": "Angelman syndrome",
-        "bool": false
-      },
-      {
-        "option": "Prader-Willi syndrome",
-        "bool": false
-      },
-      {
-        "option": "Hereditary porphyrias",
-        "bool": false
-      },
-      {
-        "option": "Essential galactosemia",
-        "bool": false
-      },
-      {
-        "option": "Down syndrome",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "info": "4th-year/drg/2022",
-    "question": "A 55-year-old male patient came to the physician's clinic with complaint of left-sided weakness for the last month. For preventing subluxation of the shoulder in a hemiplegic patient, which of the following will the doctor prescribe?",
-    "answers": [
-      {
-        "option": "Figure-of-eight sling",
-        "bool": true
-      },
-      {
-        "option": "Taylor's brace",
-        "bool": false
-      },
-      {
-        "option": "Abductor splint",
-        "bool": false
-      },
-      {
-        "option": "Balanced forearm orthosis",
-        "bool": false
-      },
-      {
-        "option": "Air-plane splint",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following tendons are involved in de Quervain tenosynovitis?",
-    "answers": [
-      {
-        "option": "Extensor pollicis and abductor pollicis brevis",
-        "bool": false
-      },
-      {
-        "option": "Abductor pollicis longus and extensor pollicis brevis",
-        "bool": true
-      },
-      {
-        "option": "Extensor pollicis longus and abductor pollicis longus",
-        "bool": false
-      },
-      {
-        "option": "Flexor carpi ulnaris and abductor pollicis longus",
-        "bool": false
-      },
-      {
-        "option": "Extensor carpi radialis and abductor pollicis longus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "info": "4th-year/drg/2022",
-    "question": "What is the term used to describe any restriction or lack resulting from an impairment of the ability to perform an activity in the manner or within the range considered normal for humans?",
-    "answers": [
-      {
-        "option": "Handicap",
-        "bool": false
-      },
-      {
-        "option": "Impairment",
-        "bool": false
-      },
-      {
-        "option": "Activity",
-        "bool": false
-      },
-      {
-        "option": "Disability",
-        "bool": true
-      },
-      {
-        "option": "Social participation",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "info": "4th-year/drg/2022",
-    "question": "A 63-year-old male presents with right-sided paralysis following a stroke. What is the branch of medicine that deals with the prevention, diagnosis, and treatment of impairments and disabilities?",
-    "answers": [
-      {
-        "option": "Occupational medicine",
-        "bool": false
-      },
-      {
-        "option": "Orthopedic medicine",
-        "bool": false
-      },
-      {
-        "option": "Community medicine",
-        "bool": false
-      },
-      {
-        "option": "Rehabilitation medicine",
-        "bool": true
-      },
-      {
-        "option": "Prosthesis medicine",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "info": "4th-year/drg/2022",
-    "question": "During history taking and examination in physical medicine and rehabilitation, what is/are the main aspect/s focused on by a physiatrist?",
-    "answers": [
-      {
-        "option": "Medical history",
-        "bool": false
-      },
-      {
-        "option": "Handicap",
-        "bool": false
-      },
-      {
-        "option": "Psychosocial history",
-        "bool": false
-      },
-      {
-        "option": "Functional aspect of history and examination",
-        "bool": true
-      },
-      {
-        "option": "Range of motion and strength",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "info": "4th-year/drg/2022",
-    "question": "Following a road traffic accident, a 35-year-old male's right leg is amputated below the knee at the middle of the leg. What is the most appropriate prosthesis for this patient?",
-    "answers": [
-      {
-        "option": "Definitive prosthesis",
-        "bool": false
-      },
-      {
-        "option": "Temporary prosthesis",
-        "bool": false
-      },
-      {
-        "option": "Transfemoral prosthesis",
-        "bool": false
-      },
-      {
-        "option": "Transtibial prosthesis",
-        "bool": true
-      },
-      {
-        "option": "Preparatory provisional prosthesis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is the least important consideration when choosing an upper limb prosthesis?",
-    "answers": [
-      {
-        "option": "Mobility",
-        "bool": true
-      },
-      {
-        "option": "Hobbies",
-        "bool": false
-      },
-      {
-        "option": "Expected function",
-        "bool": false
-      },
-      {
-        "option": "Amputation level",
-        "bool": false
-      },
-      {
-        "option": "Vocation of the patient",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following is not a clinical feature of orthoses?",
-    "answers": [
-      {
-        "option": "Promote healing",
-        "bool": false
-      },
-      {
-        "option": "Manage deformity",
-        "bool": false
-      },
-      {
-        "option": "Increase in pain",
-        "bool": true
-      },
-      {
-        "option": "Decrease excessive range of motion",
-        "bool": false
-      },
-      {
-        "option": "Protect joint",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following types of cerebral palsy involves the legs more than the arms?",
-    "answers": [
-      {
-        "option": "Quadriplegic",
-        "bool": false
-      },
-      {
-        "option": "Mixed",
-        "bool": false
-      },
-      {
-        "option": "Athetoid",
-        "bool": false
-      },
-      {
-        "option": "Diplegic",
-        "bool": true
-      },
-      {
-        "option": "Hemiplegic",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 86,
-    "info": "4th-year/drg/2022",
-    "question": "A 65-year-old male farmer presents to the clinic with a 1.2 cm red, slightly raised plaque on his face. A biopsy of the lesion shows cytologic atypia, dyskeratosis, and hyperkeratosis limited to the basal cell layer. Which of the following conditions results in this lesion?",
-    "answers": [
-      {
-        "option": "Malignant melanoma",
-        "bool": false
-      },
-      {
-        "option": "Basal cell carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Erythema multiforme",
-        "bool": false
-      },
-      {
-        "option": "Lichen planus",
-        "bool": false
-      },
-      {
-        "option": "Squamous cell carcinoma",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "info": "4th-year/drg/2022",
-    "question": "A 42-year-old female presents to the clinic with a pigmented lesion on her left hand. An excisional biopsy reveals a superficial spreading type of melanoma. Which of the following histologic features has the most important prognostic value in this patient?",
-    "answers": [
-      {
-        "option": "Depth of dermal invasion",
-        "bool": true
-      },
-      {
-        "option": "Presence of variable melanin pigmentation",
-        "bool": false
-      },
-      {
-        "option": "Degree of vascularity",
-        "bool": false
-      },
-      {
-        "option": "Degree of intraepidermal invasion by melanoma cells",
-        "bool": false
-      },
-      {
-        "option": "Degree of melanocytic atypia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "info": "4th-year/drg/2022",
-    "question": "A 35-year-old pregnant female presents to the clinic with tan or brown patches that appear on the forehead, cheeks, chin, upper lip, and nose. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Vitiligo",
-        "bool": false
-      },
-      {
-        "option": "Albinism",
-        "bool": false
-      },
-      {
-        "option": "Inflammatory pigmentation",
-        "bool": false
-      },
-      {
-        "option": "Melasma",
-        "bool": true
-      },
-      {
-        "option": "Ephilides",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "info": "4th-year/drg/2022",
-    "question": "During the process of cloning a gene into a vector, a restriction enzyme is used. Which of the following best describes the function of a restriction enzyme?",
-    "answers": [
-      {
-        "option": "It synthesizes RNA from DNA",
-        "bool": false
-      },
-      {
-        "option": "It proofreads DNA for mutations",
-        "bool": false
-      },
-      {
-        "option": "It unwinds DNA into two strands",
-        "bool": false
-      },
-      {
-        "option": "It cuts DNA at specific points",
-        "bool": true
-      },
-      {
-        "option": "It replicates DNA",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "info": "4th-year/drg/2022",
-    "question": "Several infections such as dengue and hepatitis B are detected in the laboratory using antigen-antibody reactions. Which of the following procedures involves these types of reactions?",
-    "answers": [
-      {
-        "option": "Cloning",
-        "bool": false
-      },
-      {
-        "option": "Restriction fragment length polymorphism (RFLP)",
-        "bool": false
-      },
-      {
-        "option": "Enzyme-linked immunosorbent assay (ELISA)",
-        "bool": true
-      },
-      {
-        "option": "Polymerase chain reaction (PCR)",
-        "bool": false
-      },
-      {
-        "option": "Northern blot",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "info": "4th-year/drg/2022",
-    "question": "A dominantly inherited trait affects a child and his grandmother, but neither parent. Which of the following best describes this phenomenon?",
-    "answers": [
-      {
-        "option": "Expressivity",
-        "bool": false
-      },
-      {
-        "option": "Non-penetrance",
-        "bool": true
-      },
-      {
-        "option": "Somatic mosaicism",
-        "bool": false
-      },
-      {
-        "option": "New mutation",
-        "bool": false
-      },
-      {
-        "option": "Germline mosaicism",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "info": "4th-year/drg/2022",
-    "question": "Some types of single-gene disorders occur in individuals with a single mutated copy of the gene, and a single non-mutated allele is not enough to prevent the disease. Which pattern of inheritance best describes this disorder?",
-    "answers": [
-      {
-        "option": "Autosomal dominant",
-        "bool": true
-      },
-      {
-        "option": "Autosomal co-dominant",
-        "bool": false
-      },
-      {
-        "option": "Y-linked dominant",
-        "bool": false
-      },
-      {
-        "option": "Autosomal recessive",
-        "bool": false
-      },
-      {
-        "option": "X-linked recessive",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 93,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following drugs is an example of an allylamine?",
-    "answers": [
-      {
-        "option": "Terbinafine",
-        "bool": true
-      },
-      {
-        "option": "Fluconazole",
-        "bool": false
-      },
-      {
-        "option": "Flucytosine",
-        "bool": false
-      },
-      {
-        "option": "Nystatin",
-        "bool": false
-      },
-      {
-        "option": "Amphotericin B",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 94,
-    "info": "4th-year/drg/2022",
-    "question": "A 35-year-old male presents with a history of skin allergy with unknown etiology. Which of the following types of chronic dermatitis does this patient have?",
-    "answers": [
-      {
-        "option": "Stasis dermatitis",
-        "bool": false
-      },
-      {
-        "option": "Contact dermatitis",
-        "bool": false
-      },
-      {
-        "option": "Seborrheic dermatitis",
-        "bool": false
-      },
-      {
-        "option": "Atopic dermatitis",
-        "bool": true
-      },
-      {
-        "option": "Actinic dermatitis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 95,
-    "info": "4th-year/drg/2022",
-    "question": "Which of the following structures are included in an osseocutaneous flap?",
-    "answers": [
-      {
-        "option": "Skin, subcutaneous tissue and fascia",
-        "bool": false
-      },
-      {
-        "option": "Skin, fascia and muscle",
-        "bool": false
-      },
-      {
-        "option": "Skin and bone",
-        "bool": true
-      },
-      {
-        "option": "Skin and subcutaneous tissue",
-        "bool": false
-      },
-      {
-        "option": "Skin, fascia, muscle and bone",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "info": "4th-year/drg/2022",
-    "question": "A 40-year-old male has sustained burns over 60% of his body surface. Donor sites are not sufficient to cover the wounds. What is the best management for this patient?",
-    "answers": [
-      {
-        "option": "Full thickness graft",
-        "bool": false
-      },
-      {
-        "option": "Integra",
-        "bool": true
-      },
-      {
-        "option": "Z-plasties",
-        "bool": false
-      },
-      {
-        "option": "Split thickness graft",
-        "bool": false
-      },
-      {
-        "option": "Secondary intention",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "info": "4th-year/drg/2022",
-    "question": "A sudden explosion happens in a busy marketplace, after which rescue workers start assessing the injured and tagging them with different color codes. Which of the following term best describes this action?",
-    "answers": [
-      {
-        "option": "Triage",
-        "bool": true
-      },
-      {
-        "option": "Rescue",
-        "bool": false
-      },
-      {
-        "option": "Search",
-        "bool": false
-      },
-      {
-        "option": "Identification",
-        "bool": false
-      },
-      {
-        "option": "Field care",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 98,
-    "info": "4th-year/drg/2022",
-    "question": "The four principal components in managing humanitarian supplies are acquisition, transportation, storage, and distribution. These happen during which phase of disaster management?",
-    "answers": [
-      {
-        "option": "Field care",
-        "bool": false
-      },
-      {
-        "option": "Relief phase",
-        "bool": true
-      },
-      {
-        "option": "Impact",
-        "bool": false
-      },
-      {
-        "option": "Mitigation",
-        "bool": false
       },
       {
-        "option": "Search and rescue phase",
+        "option": "Free flap",
         "bool": false
       }
     ]

@@ -1,15 +1,11 @@
 [
   {
     "id": 0,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "A railway master, while traveling, saw a dead body that was cut into equal left and right halves. The body was cut in which anatomical plane?",
     "answers": [
       {
-        "option": "Coronal plane",
-        "bool": false
-      },
-      {
-        "option": "Right paramedian plane",
+        "option": "Left paramedian plane",
         "bool": false
       },
       {
@@ -21,22 +17,22 @@
         "bool": true
       },
       {
-        "option": "Left paramedian plane",
+        "option": "Coronal plane",
+        "bool": false
+      },
+      {
+        "option": "Right paramedian plane",
         "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What is the action of a drug on the body known as?",
     "answers": [
       {
-        "option": "Pharmacodynamics",
-        "bool": true
-      },
-      {
-        "option": "Drug clearance",
+        "option": "Pharmacokinetics",
         "bool": false
       },
       {
@@ -48,14 +44,18 @@
         "bool": false
       },
       {
-        "option": "Pharmacokinetics",
+        "option": "Drug clearance",
         "bool": false
+      },
+      {
+        "option": "Pharmacodynamics",
+        "bool": true
       }
     ]
   },
   {
     "id": 2,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What type of epithelium is present in the conjunctiva?",
     "answers": [
       {
@@ -71,23 +71,31 @@
         "bool": false
       },
       {
-        "option": "Simple",
-        "bool": false
-      },
-      {
         "option": "Stratified columnar",
         "bool": true
+      },
+      {
+        "option": "Simple",
+        "bool": false
       }
     ]
   },
   {
     "id": 3,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is our body unable to synthesize?",
     "answers": [
       {
+        "option": "Glycogen",
+        "bool": false
+      },
+      {
         "option": "Saturated fatty acids",
         "bool": false
+      },
+      {
+        "option": "Essential fatty acids",
+        "bool": true
       },
       {
         "option": "Non-essential fatty acids",
@@ -96,20 +104,12 @@
       {
         "option": "Unsaturated fatty acids",
         "bool": false
-      },
-      {
-        "option": "Glycogen",
-        "bool": false
-      },
-      {
-        "option": "Essential fatty acids",
-        "bool": true
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What is the prolonged cumulative sub-lethal injury in a cell known as?",
     "answers": [
       {
@@ -117,7 +117,7 @@
         "bool": false
       },
       {
-        "option": "Apoptosis",
+        "option": "Phagocytosis",
         "bool": false
       },
       {
@@ -125,28 +125,20 @@
         "bool": true
       },
       {
-        "option": "Phagocytosis",
+        "option": "Mitosis",
         "bool": false
       },
       {
-        "option": "Mitosis",
+        "option": "Apoptosis",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of the following causes protein aggregation?",
     "answers": [
-      {
-        "option": "Endoplasmic reticulum dysfunction",
-        "bool": true
-      },
-      {
-        "option": "Nucleic acid dysfunction",
-        "bool": false
-      },
       {
         "option": "Ribosomal dysfunction",
         "bool": false
@@ -156,30 +148,38 @@
         "bool": false
       },
       {
+        "option": "Nucleic acid dysfunction",
+        "bool": false
+      },
+      {
         "option": "Cell wall dysfunction",
         "bool": false
+      },
+      {
+        "option": "Endoplasmic reticulum dysfunction",
+        "bool": true
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Lipids are formed by the condensation of which substances?",
     "answers": [
-      {
-        "option": "Fatty acids and carbohydrate",
-        "bool": false
-      },
-      {
-        "option": "Fatty acids and amino acid",
-        "bool": false
-      },
       {
         "option": "Fatty acids and amines",
         "bool": false
       },
       {
+        "option": "Fatty acids and carbohydrate",
+        "bool": false
+      },
+      {
         "option": "Carbon and hydrogen",
+        "bool": false
+      },
+      {
+        "option": "Fatty acids and amino acid",
         "bool": false
       },
       {
@@ -190,9 +190,13 @@
   },
   {
     "id": 7,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which one of these is a derived lipid?",
     "answers": [
+      {
+        "option": "Oil",
+        "bool": false
+      },
       {
         "option": "Fat",
         "bool": false
@@ -206,10 +210,6 @@
         "bool": true
       },
       {
-        "option": "Oil",
-        "bool": false
-      },
-      {
         "option": "Waxes",
         "bool": false
       }
@@ -217,15 +217,19 @@
   },
   {
     "id": 8,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "How can the therapeutic index be calculated?",
     "answers": [
       {
-        "option": "TD\u2085\u2080/ED\u2085\u2080",
+        "option": "[E]/[Eₘ‎ₐₓ]",
+        "bool": false
+      },
+      {
+        "option": "TD₅₀/ED₅₀",
         "bool": true
       },
       {
-        "option": "Pharmacokinetics/pharmacodynamics",
+        "option": "PT/INR",
         "bool": false
       },
       {
@@ -233,18 +237,14 @@
         "bool": false
       },
       {
-        "option": "[E]/[E\u2098\u2090\u2093]",
-        "bool": false
-      },
-      {
-        "option": "PT/INR",
+        "option": "Pharmacokinetics/pharmacodynamics",
         "bool": false
       }
     ]
   },
   {
     "id": 9,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What initiates and controls amoeboid movement?",
     "answers": [
       {
@@ -252,11 +252,11 @@
         "bool": false
       },
       {
-        "option": "Phototropism",
-        "bool": false
+        "option": "Chemotaxis",
+        "bool": true
       },
       {
-        "option": "Bones",
+        "option": "Phototropism",
         "bool": false
       },
       {
@@ -264,14 +264,14 @@
         "bool": false
       },
       {
-        "option": "Chemotaxis",
-        "bool": true
+        "option": "Bones",
+        "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which type of joint is present between the epiphysis and diaphysis?",
     "answers": [
       {
@@ -279,12 +279,12 @@
         "bool": false
       },
       {
-        "option": "Synchondrosis",
-        "bool": true
-      },
-      {
         "option": "Suture",
         "bool": false
+      },
+      {
+        "option": "Synchondrosis",
+        "bool": true
       },
       {
         "option": "Syndesmosis",
@@ -298,11 +298,11 @@
   },
   {
     "id": 11,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which disease is caused by the failure of cranial neuropore closure?",
     "answers": [
       {
-        "option": "Neural cancer",
+        "option": "Gliosis",
         "bool": false
       },
       {
@@ -310,32 +310,24 @@
         "bool": true
       },
       {
-        "option": "Spina bifida",
-        "bool": false
-      },
-      {
-        "option": "Gliosis",
+        "option": "Neural cancer",
         "bool": false
       },
       {
         "option": "Meningitis",
+        "bool": false
+      },
+      {
+        "option": "Spina bifida",
         "bool": false
       }
     ]
   },
   {
     "id": 12,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "The number of oogonia is maximum at what time in a female's life?",
     "answers": [
-      {
-        "option": "End of 5th month of development",
-        "bool": true
-      },
-      {
-        "option": "At birth",
-        "bool": false
-      },
       {
         "option": "End of 4th month of development",
         "bool": false
@@ -347,12 +339,20 @@
       {
         "option": "Beginning of 3rd month of development",
         "bool": false
+      },
+      {
+        "option": "At birth",
+        "bool": false
+      },
+      {
+        "option": "End of 5th month of development",
+        "bool": true
       }
     ]
   },
   {
     "id": 13,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "When does the pupillary light reflex begin?",
     "answers": [
       {
@@ -360,11 +360,11 @@
         "bool": true
       },
       {
-        "option": "11th week",
+        "option": "After birth",
         "bool": false
       },
       {
-        "option": "After birth",
+        "option": "7th week",
         "bool": false
       },
       {
@@ -372,14 +372,14 @@
         "bool": false
       },
       {
-        "option": "7th week",
+        "option": "11th week",
         "bool": false
       }
     ]
   },
   {
     "id": 14,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is an elastic artery?",
     "answers": [
       {
@@ -387,57 +387,57 @@
         "bool": true
       },
       {
-        "option": "Tracheal",
+        "option": "Tracheal artery",
         "bool": false
       },
       {
-        "option": "Abdominal",
+        "option": "Ulnar artery",
         "bool": false
       },
       {
-        "option": "Ulnar",
+        "option": "Superior Mesentric artery",
         "bool": false
       },
       {
-        "option": "Axillary",
+        "option": "Axillary artery",
         "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of the following is not a phase I reaction?",
     "answers": [
       {
-        "option": "Hydrolysis",
+        "option": "Reduction",
         "bool": false
       },
       {
-        "option": "Reduction",
-        "bool": false
+        "option": "Glucuronidation",
+        "bool": true
       },
       {
         "option": "Deamination",
         "bool": false
       },
       {
-        "option": "Oxidation",
+        "option": "Hydrolysis",
         "bool": false
       },
       {
-        "option": "Glucuronidation",
-        "bool": true
+        "option": "Oxidation",
+        "bool": false
       }
     ]
   },
   {
     "id": 16,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which disease is characterized by the immobility of cilia and flagella?",
     "answers": [
       {
-        "option": "Carcinoma",
+        "option": "Herler disease",
         "bool": false
       },
       {
@@ -445,7 +445,7 @@
         "bool": false
       },
       {
-        "option": "Herler disease",
+        "option": "Carcinoma",
         "bool": false
       },
       {
@@ -453,51 +453,43 @@
         "bool": false
       },
       {
-        "option": "Immotile cilia syndrome",
+        "option": "Primary Ciliary Dyskinesia",
         "bool": true
       }
     ]
   },
   {
     "id": 17,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Where is type 1 collagen not found?",
     "answers": [
+      {
+        "option": "Basal lamina",
+        "bool": true
+      },
       {
         "option": "Blood vessels",
         "bool": false
       },
       {
-        "option": "Bone",
+        "option": "Cartilage",
         "bool": false
-      },
-      {
-        "option": "Basal lamina",
-        "bool": true
       },
       {
         "option": "Cornea",
         "bool": false
       },
       {
-        "option": "Cartilage",
+        "option": "Bone",
         "bool": false
       }
     ]
   },
   {
     "id": 18,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of these junctions is present in the most apical part, along the lateral plasma membranes, of epithelial cells?",
     "answers": [
-      {
-        "option": "Macula adherens",
-        "bool": false
-      },
-      {
-        "option": "Zonula adherens",
-        "bool": false
-      },
       {
         "option": "Gap junctions",
         "bool": false
@@ -507,6 +499,14 @@
         "bool": true
       },
       {
+        "option": "Zonula adherens",
+        "bool": false
+      },
+      {
+        "option": "Macula adherens",
+        "bool": false
+      },
+      {
         "option": "Hemidesmosome",
         "bool": false
       }
@@ -514,16 +514,12 @@
   },
   {
     "id": 19,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What are the cells which form myelin sheath on the axons of peripheral nerves derived from?",
     "answers": [
       {
-        "option": "Endoderm",
-        "bool": false
-      },
-      {
-        "option": "Hematopoietic stem cells",
-        "bool": false
+        "option": "Neural crest cells",
+        "bool": true
       },
       {
         "option": "Neurons",
@@ -534,18 +530,22 @@
         "bool": false
       },
       {
-        "option": "Neural crest cells",
-        "bool": true
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Hematopoietic stem cells",
+        "bool": false
       }
     ]
   },
   {
     "id": 20,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is not a part of a typical spinal nerve?",
     "answers": [
       {
-        "option": "Dorsal root ganglion",
+        "option": "Rootlets",
         "bool": false
       },
       {
@@ -557,7 +557,7 @@
         "bool": false
       },
       {
-        "option": "Rootlets",
+        "option": "Dorsal root ganglion",
         "bool": false
       },
       {
@@ -568,20 +568,16 @@
   },
   {
     "id": 21,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What is the function of pseudo-unipolar neurons?",
     "answers": [
       {
-        "option": "Conveys message to pons",
-        "bool": false
+        "option": "Conveys message to spinal cord",
+        "bool": true
       },
       {
         "option": "Stimulates effectors",
         "bool": false
-      },
-      {
-        "option": "Conveys message to spinal cord",
-        "bool": true
       },
       {
         "option": "Acts as a receptor for external stimulation",
@@ -590,22 +586,18 @@
       {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Conveys message to pons",
+        "bool": false
       }
     ]
   },
   {
     "id": 22,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What type of glands are sweat glands?",
     "answers": [
-      {
-        "option": "Seromucous glands",
-        "bool": false
-      },
-      {
-        "option": "Holocrine glands",
-        "bool": false
-      },
       {
         "option": "Merocrine glands",
         "bool": true
@@ -617,24 +609,32 @@
       {
         "option": "Branched acinar glands",
         "bool": false
+      },
+      {
+        "option": "Seromucous glands",
+        "bool": false
+      },
+      {
+        "option": "Holocrine glands",
+        "bool": false
       }
     ]
   },
   {
     "id": 23,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "How can the age of a fetus during the embryonic period be measured accurately?",
     "answers": [
       {
-        "option": "Biparietal diameter",
+        "option": "Number of somites",
         "bool": false
       },
       {
-        "option": "Crown-rump length (CRL)",
-        "bool": true
+        "option": "Carbon dating",
+        "bool": false
       },
       {
-        "option": "Carbon dating",
+        "option": "Biparietal diameter",
         "bool": false
       },
       {
@@ -642,45 +642,45 @@
         "bool": false
       },
       {
-        "option": "Number of somites",
-        "bool": false
+        "option": "Crown-rump length (CRL)",
+        "bool": true
       }
     ]
   },
   {
     "id": 24,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "When fertilization occurs, the corpus luteum continues to produce progesterone for how long?",
     "answers": [
       {
-        "option": "Till birth",
-        "bool": false
-      },
-      {
-        "option": "2 months",
-        "bool": false
-      },
-      {
-        "option": "4 months",
+        "option": "12-16 weeks",
         "bool": true
       },
       {
-        "option": "21 days",
+        "option": "2-4 weeks",
         "bool": false
       },
       {
-        "option": "9 days",
+        "option": "6-8 weeks",
+        "bool": false
+      },
+      {
+        "option": "10-12 weeks",
+        "bool": false
+      },
+      {
+        "option": "Till birth",
         "bool": false
       }
     ]
   },
   {
     "id": 25,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What are the blood vessels in skin supplied by?",
     "answers": [
       {
-        "option": "Somatic sensory nerves",
+        "option": "Somatic motor nerves",
         "bool": false
       },
       {
@@ -688,7 +688,7 @@
         "bool": false
       },
       {
-        "option": "Somatic motor nerves",
+        "option": "Somatic sensory nerves",
         "bool": false
       },
       {
@@ -703,15 +703,15 @@
   },
   {
     "id": 26,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which disease does not involve sex chromosomes?",
     "answers": [
       {
-        "option": "Triple X syndrome",
-        "bool": false
+        "option": "Alzheimer's disease",
+        "bool": true
       },
       {
-        "option": "Turner syndrome",
+        "option": "Triple X syndrome",
         "bool": false
       },
       {
@@ -719,23 +719,23 @@
         "bool": false
       },
       {
-        "option": "Alzheimer's disease",
-        "bool": true
+        "option": "Klinefelter Syndrome",
+        "bool": false
       },
       {
-        "option": "Klinefelter Syndrome",
+        "option": "Turner syndrome",
         "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of the following is not a characteristic of apoptosis?",
     "answers": [
       {
-        "option": "Membrane blebbing",
-        "bool": false
+        "option": "Swelling",
+        "bool": true
       },
       {
         "option": "Nuclear condensation",
@@ -746,20 +746,32 @@
         "bool": false
       },
       {
-        "option": "Cellular fragmentation",
+        "option": "Membrane blebbing",
         "bool": false
       },
       {
-        "option": "Swelling",
-        "bool": true
+        "option": "Cellular fragmentation",
+        "bool": false
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "What does a necrotic cell stained with hematoxylin and eosin (H&E) stain show?",
     "answers": [
+      {
+        "option": "Increased eosinophilia",
+        "bool": true
+      },
+      {
+        "option": "Non-glassy structure",
+        "bool": false
+      },
+      {
+        "option": "Increased basophilia",
+        "bool": false
+      },
       {
         "option": "Decreased basophilia",
         "bool": false
@@ -767,24 +779,12 @@
       {
         "option": "Decreased eosinophilia",
         "bool": false
-      },
-      {
-        "option": "Increased eosinophilia",
-        "bool": true
-      },
-      {
-        "option": "Increased basophilia",
-        "bool": false
-      },
-      {
-        "option": "Non-glassy structure",
-        "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Sertoli cells are derived from which of these?",
     "answers": [
       {
@@ -811,11 +811,19 @@
   },
   {
     "id": 30,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "The diffusion potential of the cell membrane is calculated by the movement of which of the following ions?",
     "answers": [
       {
+        "option": "HCO3-",
+        "bool": false
+      },
+      {
         "option": "Cl-",
+        "bool": false
+      },
+      {
+        "option": "K+",
         "bool": false
       },
       {
@@ -823,27 +831,23 @@
         "bool": true
       },
       {
-        "option": "K+",
-        "bool": false
-      },
-      {
         "option": "Na+",
-        "bool": false
-      },
-      {
-        "option": "HCO3-",
         "bool": false
       }
     ]
   },
   {
     "id": 31,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Growth of hyaline cartilage is controlled by which hormone of anterior pituitary gland?",
     "answers": [
       {
-        "option": "Somatotropin",
-        "bool": true
+        "option": "Oxytocin",
+        "bool": false
+      },
+      {
+        "option": "Thyrotropin",
+        "bool": false
       },
       {
         "option": "Gonadotropin",
@@ -854,23 +858,23 @@
         "bool": false
       },
       {
-        "option": "Thyrotropin",
-        "bool": false
-      },
-      {
-        "option": "Oxytocin",
-        "bool": false
+        "option": "Somatotropin",
+        "bool": true
       }
     ]
   },
   {
     "id": 32,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of the following is not a function of sertoli cells?",
     "answers": [
       {
-        "option": "Supports germ cells",
+        "option": "Assists in the release of mature spermatozoa",
         "bool": false
+      },
+      {
+        "option": "Forms germ cells",
+        "bool": true
       },
       {
         "option": "Protects germ cells",
@@ -881,31 +885,19 @@
         "bool": false
       },
       {
-        "option": "Assists in the release of mature spermatozoa",
+        "option": "Supports germ cells",
         "bool": false
-      },
-      {
-        "option": "Forms germ cells",
-        "bool": true
       }
     ]
   },
   {
     "id": 33,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is a cause of muscle hypertrophy?",
     "answers": [
       {
         "option": "Increased work load",
         "bool": true
-      },
-      {
-        "option": "Decreased work load",
-        "bool": false
-      },
-      {
-        "option": "Hypoxia",
-        "bool": false
       },
       {
         "option": "Ischemia",
@@ -914,20 +906,28 @@
       {
         "option": "Decreased water intake",
         "bool": false
+      },
+      {
+        "option": "Decreased work load",
+        "bool": false
+      },
+      {
+        "option": "Hypoxia",
+        "bool": false
       }
     ]
   },
   {
     "id": 34,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is a hallmark of reversible cell injury?",
     "answers": [
       {
-        "option": "Cell shrinkage",
+        "option": "Nuclear fragmentation",
         "bool": false
       },
       {
-        "option": "Nuclear fragmentation",
+        "option": "Apoptotic bodies",
         "bool": false
       },
       {
@@ -935,7 +935,7 @@
         "bool": true
       },
       {
-        "option": "Apoptotic bodies",
+        "option": "Cell shrinkage",
         "bool": false
       },
       {
@@ -946,9 +946,17 @@
   },
   {
     "id": 35,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "The amniotic cavity is formed within which cavity?",
     "answers": [
+      {
+        "option": "Cytotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Syncytiotrophoblast",
+        "bool": false
+      },
       {
         "option": "Amnioblast",
         "bool": false
@@ -960,20 +968,12 @@
       {
         "option": "Hypoblast",
         "bool": false
-      },
-      {
-        "option": "Syncytiotrophoblast",
-        "bool": false
-      },
-      {
-        "option": "Cytotrophoblast",
-        "bool": false
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
     "question": "Where is the non-keratinized stratified squamous epithelium not present?",
     "answers": [
       {
@@ -981,26 +981,53 @@
         "bool": false
       },
       {
-        "option": "Esophagus",
-        "bool": false
+        "option": "Cornea and conjunctiva",
+        "bool": true
       },
       {
         "option": "Mouth and tongue",
         "bool": false
       },
       {
-        "option": "Cornea and conjunctiva",
-        "bool": true
+        "option": "Nasopharynx and laryngopharynx",
+        "bool": false
       },
       {
-        "option": "Nasopharynx and laryngopharynx",
+        "option": "Esophagus",
         "bool": false
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/foundation-1/2017",
+    "info": "1st-year/foundation/2017",
+    "question": "What is the main difference between spongy and compact bone?",
+    "answers": [
+      {
+        "option": "Presence of periosteum",
+        "bool": false
+      },
+      {
+        "option": "Size of osseous lamellae",
+        "bool": false
+      },
+      {
+        "option": "Proportion of mineralized bone matrix to marrow spaces",
+        "bool": true
+      },
+      {
+        "option": "Presence of osteocytes",
+        "bool": false
+      },
+      {
+        "option": "Amount of collagen fibers",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is not derived from ectoderm?",
     "answers": [
       {
@@ -1008,11 +1035,11 @@
         "bool": false
       },
       {
-        "option": "Meninges",
+        "option": "Central nervous system",
         "bool": false
       },
       {
-        "option": "Central nervous system",
+        "option": "Meninges",
         "bool": false
       },
       {
@@ -1026,8 +1053,8 @@
     ]
   },
   {
-    "id": 38,
-    "info": "1st-year/foundation-1/2017",
+    "id": 39,
+    "info": "1st-year/foundation/2017",
     "question": "Which of these store information about the epitope of an antigen?",
     "answers": [
       {
@@ -1035,26 +1062,53 @@
         "bool": false
       },
       {
-        "option": "Helper T cells",
+        "option": "Hematopoetic stem cells",
         "bool": false
       },
       {
-        "option": "Hematopoetic stem cells",
+        "option": "Cytotoxic T cells",
+        "bool": false
+      },
+      {
+        "option": "Helper T cells",
         "bool": false
       },
       {
         "option": "Memory B cells",
         "bool": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "1st-year/foundation/2017",
+    "question": "After what time do oogonia stop forming?",
+    "answers": [
+      {
+        "option": "Birth",
+        "bool": false
       },
       {
-        "option": "Cytotoxic T cells",
+        "option": "5th month of fetal life",
+        "bool": true
+      },
+      {
+        "option": "1st week of fetal life",
+        "bool": false
+      },
+      {
+        "option": "Puberty",
+        "bool": false
+      },
+      {
+        "option": "Menopause",
         "bool": false
       }
     ]
   },
   {
-    "id": 39,
-    "info": "1st-year/foundation-1/2017",
+    "id": 41,
+    "info": "1st-year/foundation/2017",
     "question": "Which vessel(s) is/are present in the umbilical cord?",
     "answers": [
       {
@@ -1062,30 +1116,30 @@
         "bool": false
       },
       {
-        "option": "Two arteries and one vein",
-        "bool": true
-      },
-      {
         "option": "One artery and one vein",
-        "bool": false
-      },
-      {
-        "option": "One artery",
         "bool": false
       },
       {
         "option": "Two veins",
         "bool": false
+      },
+      {
+        "option": "Two arteries and one vein",
+        "bool": true
+      },
+      {
+        "option": "One artery",
+        "bool": false
       }
     ]
   },
   {
-    "id": 40,
-    "info": "1st-year/foundation-1/2017",
+    "id": 42,
+    "info": "1st-year/foundation/2017",
     "question": "Which protein is found abundantly in the bone matrix?",
     "answers": [
       {
-        "option": "Osseous protein",
+        "option": "Keratin",
         "bool": false
       },
       {
@@ -1097,7 +1151,7 @@
         "bool": true
       },
       {
-        "option": "Keratin",
+        "option": "Osseous protein",
         "bool": false
       },
       {
@@ -1107,16 +1161,16 @@
     ]
   },
   {
-    "id": 41,
-    "info": "1st-year/foundation-1/2017",
+    "id": 43,
+    "info": "1st-year/foundation/2017",
     "question": "Which of these is not directly related to pathology?",
     "answers": [
       {
-        "option": "Morphologic abnormalities",
+        "option": "Pathogenesis",
         "bool": false
       },
       {
-        "option": "Pathogenesis",
+        "option": "Trauma",
         "bool": false
       },
       {
@@ -1124,45 +1178,45 @@
         "bool": true
       },
       {
-        "option": "Etiology",
+        "option": "Morphologic abnormalities",
         "bool": false
       },
       {
-        "option": "Trauma",
+        "option": "Etiology",
         "bool": false
       }
     ]
   },
   {
-    "id": 42,
-    "info": "1st-year/foundation-1/2017",
+    "id": 44,
+    "info": "1st-year/foundation/2017",
     "question": "What occurs in the first 24 hours after cellular injury?",
     "answers": [
-      {
-        "option": "Gross changes",
-        "bool": false
-      },
-      {
-        "option": "Ultra-structural changes",
-        "bool": false
-      },
-      {
-        "option": "Ultra-structural and gross changes",
-        "bool": true
-      },
       {
         "option": "Cancer",
         "bool": false
       },
       {
+        "option": "Ultra-structural changes",
+        "bool": true
+      },
+      {
+        "option": "Gross changes",
+        "bool": false
+      },
+      {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Ultra-structural and gross changes",
         "bool": false
       }
     ]
   },
   {
-    "id": 43,
-    "info": "1st-year/foundation-1/2017",
+    "id": 45,
+    "info": "1st-year/foundation/2017",
     "question": "Which mechanism is not an example of apoptosis in a pathological condition?",
     "answers": [
       {
@@ -1188,12 +1242,20 @@
     ]
   },
   {
-    "id": 44,
-    "info": "1st-year/foundation-1/2017",
+    "id": 46,
+    "info": "1st-year/foundation/2017",
     "question": "Which of these forms the brush border?",
     "answers": [
       {
+        "option": "Pili",
+        "bool": false
+      },
+      {
         "option": "Stereocilia",
+        "bool": false
+      },
+      {
+        "option": "Cilia",
         "bool": false
       },
       {
@@ -1203,29 +1265,25 @@
       {
         "option": "Fimbriae",
         "bool": false
-      },
-      {
-        "option": "Cilia",
-        "bool": false
-      },
-      {
-        "option": "Pili",
-        "bool": false
       }
     ]
   },
   {
-    "id": 45,
-    "info": "1st-year/foundation-1/2017",
+    "id": 47,
+    "info": "1st-year/foundation/2017",
     "question": "Apoptosis results from the activation of which cysteine proteases?",
     "answers": [
+      {
+        "option": "Caspases",
+        "bool": true
+      },
       {
         "option": "Amylase",
         "bool": false
       },
       {
-        "option": "Caspases",
-        "bool": true
+        "option": "Glucose-6-phosphatase",
+        "bool": false
       },
       {
         "option": "Ligase",
@@ -1234,18 +1292,22 @@
       {
         "option": "Pepsin",
         "bool": false
-      },
-      {
-        "option": "Glucose-6-phosphatase",
-        "bool": false
       }
     ]
   },
   {
-    "id": 46,
-    "info": "1st-year/foundation-1/2017",
+    "id": 48,
+    "info": "1st-year/foundation/2017",
     "question": "Which of the following statements best describes bioavailability?",
     "answers": [
+      {
+        "option": "The speed at which the administered drug reaches the systemic circulation",
+        "bool": false
+      },
+      {
+        "option": "The frequency at which the administered drug reaches the systemic circulation",
+        "bool": false
+      },
       {
         "option": "The fraction of administered drug that reaches the systemic circulation in unchanged form",
         "bool": true
@@ -1255,30 +1317,26 @@
         "bool": false
       },
       {
-        "option": "The frequency at which the administered drug reaches the systemic circulation",
-        "bool": false
-      },
-      {
         "option": "The amount of administered drug that reaches the systemic circulation",
-        "bool": false
-      },
-      {
-        "option": "The speed at which the administered drug reaches the systemic circulation",
         "bool": false
       }
     ]
   },
   {
-    "id": 47,
-    "info": "1st-year/foundation-1/2017",
+    "id": 49,
+    "info": "1st-year/foundation/2017",
     "question": "A person with diabetes mellitus will have his renal epithelium injured by the accumulation of which substance?",
     "answers": [
       {
-        "option": "Water",
+        "option": "Melanin",
         "bool": false
       },
       {
-        "option": "Melanin",
+        "option": "Glycogen",
+        "bool": true
+      },
+      {
+        "option": "Water",
         "bool": false
       },
       {
@@ -1288,24 +1346,16 @@
       {
         "option": "Lipofuscin",
         "bool": false
-      },
-      {
-        "option": "Glycogen",
-        "bool": true
       }
     ]
   },
   {
-    "id": 48,
-    "info": "1st-year/foundation-1/2017",
+    "id": 50,
+    "info": "1st-year/foundation/2017",
     "question": "Fat is stored in the body in what form?",
     "answers": [
       {
-        "option": "Triglycerides",
-        "bool": true
-      },
-      {
-        "option": "Cholesterol",
+        "option": "Fatty acids",
         "bool": false
       },
       {
@@ -1313,27 +1363,35 @@
         "bool": false
       },
       {
-        "option": "Fatty acids",
+        "option": "Ghee",
         "bool": false
       },
       {
-        "option": "Ghee",
+        "option": "Triglycerides",
+        "bool": true
+      },
+      {
+        "option": "Cholesterol",
         "bool": false
       }
     ]
   },
   {
-    "id": 49,
-    "info": "1st-year/foundation-1/2017",
+    "id": 51,
+    "info": "1st-year/foundation/2017",
     "question": "Which of the following is an aliphatic compound with only a carboxylic acid group?",
     "answers": [
       {
-        "option": "Amino acid",
+        "option": "Phenol",
         "bool": false
       },
       {
         "option": "Fatty acid",
         "bool": true
+      },
+      {
+        "option": "Amino acid",
+        "bool": false
       },
       {
         "option": "Glucuronic acid",
@@ -1342,29 +1400,17 @@
       {
         "option": "Aspartic acid",
         "bool": false
-      },
-      {
-        "option": "Phenol",
-        "bool": false
       }
     ]
   },
   {
-    "id": 50,
-    "info": "1st-year/foundation-1/2017",
+    "id": 52,
+    "info": "1st-year/foundation/2017",
     "question": "What are the hair-like structures present in the epididymis made of?",
     "answers": [
       {
-        "option": "Cilia",
-        "bool": false
-      },
-      {
         "option": "Stereocilia",
         "bool": true
-      },
-      {
-        "option": "Microvilli",
-        "bool": false
       },
       {
         "option": "Pseudopods",
@@ -1373,16 +1419,32 @@
       {
         "option": "Hair",
         "bool": false
+      },
+      {
+        "option": "Cilia",
+        "bool": false
+      },
+      {
+        "option": "Microvilli",
+        "bool": false
       }
     ]
   },
   {
-    "id": 51,
-    "info": "1st-year/foundation-1/2017",
+    "id": 53,
+    "info": "1st-year/foundation/2017",
     "question": "What do the characteristics of amino acids mainly depend on?",
     "answers": [
       {
-        "option": "Central carbon",
+        "option": "Side chain",
+        "bool": true
+      },
+      {
+        "option": "Hydrogen group",
+        "bool": false
+      },
+      {
+        "option": "Amino group",
         "bool": false
       },
       {
@@ -1390,32 +1452,16 @@
         "bool": false
       },
       {
-        "option": "Hydrogen group",
-        "bool": false
-      },
-      {
-        "option": "Side chain",
-        "bool": true
-      },
-      {
-        "option": "Amino group",
+        "option": "Central carbon",
         "bool": false
       }
     ]
   },
   {
-    "id": 52,
-    "info": "1st-year/foundation-1/2017",
+    "id": 54,
+    "info": "1st-year/foundation/2017",
     "question": "What is the color of starch in a positive iodine test?",
     "answers": [
-      {
-        "option": "Purple",
-        "bool": false
-      },
-      {
-        "option": "Black",
-        "bool": true
-      },
       {
         "option": "Colourless",
         "bool": false
@@ -1425,23 +1471,31 @@
         "bool": false
       },
       {
+        "option": "Purple",
+        "bool": false
+      },
+      {
         "option": "Red",
         "bool": false
+      },
+      {
+        "option": "Black",
+        "bool": true
       }
     ]
   },
   {
-    "id": 53,
-    "info": "1st-year/foundation-1/2017",
+    "id": 55,
+    "info": "1st-year/foundation/2017",
     "question": "Peroxisomes contain which enzyme?",
     "answers": [
       {
-        "option": "Amylase",
+        "option": "Hydrolase",
         "bool": false
       },
       {
-        "option": "Oxidase",
-        "bool": true
+        "option": "Amylase",
+        "bool": false
       },
       {
         "option": "Reductase",
@@ -1452,18 +1506,22 @@
         "bool": false
       },
       {
-        "option": "Hydrolase",
-        "bool": false
+        "option": "Oxidase",
+        "bool": true
       }
     ]
   },
   {
-    "id": 54,
-    "info": "1st-year/foundation-1/2017",
+    "id": 56,
+    "info": "1st-year/foundation/2017",
     "question": "Which property do weak acids possess?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Very low pH",
+        "bool": false
+      },
+      {
+        "option": "Low pKa",
         "bool": false
       },
       {
@@ -1471,34 +1529,30 @@
         "bool": true
       },
       {
-        "option": "Low pKa",
-        "bool": false
-      },
-      {
-        "option": "Very low pH",
-        "bool": false
-      },
-      {
         "option": "Negative pKa",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 55,
-    "info": "1st-year/foundation-1/2017",
+    "id": 57,
+    "info": "1st-year/foundation/2017",
     "question": "What is the immune-mediated response activated in a patient in response to a certain drug called?",
     "answers": [
       {
-        "option": "Anaphylaxis",
+        "option": "Supersensitivity",
         "bool": false
       },
       {
-        "option": "Idiosyncrasy",
+        "option": "Anaphylaxis",
         "bool": true
       },
       {
-        "option": "Tolerance",
+        "option": "Idiosyncrasy",
         "bool": false
       },
       {
@@ -1506,26 +1560,18 @@
         "bool": false
       },
       {
-        "option": "Supersensitivity",
+        "option": "Tolerance",
         "bool": false
       }
     ]
   },
   {
-    "id": 56,
-    "info": "1st-year/foundation-1/2017",
+    "id": 58,
+    "info": "1st-year/foundation/2017",
     "question": "In sialidosis, which of these enzymes is absent?",
     "answers": [
       {
-        "option": "HMG-CoA synthase",
-        "bool": false
-      },
-      {
         "option": "Amylase",
-        "bool": false
-      },
-      {
-        "option": "Alpha-galactosidase",
         "bool": false
       },
       {
@@ -1533,27 +1579,27 @@
         "bool": true
       },
       {
+        "option": "HMG-CoA synthase",
+        "bool": false
+      },
+      {
         "option": "Glucose-6-phosphatase",
+        "bool": false
+      },
+      {
+        "option": "Alpha-galactosidase",
         "bool": false
       }
     ]
   },
   {
-    "id": 57,
-    "info": "1st-year/foundation-1/2017",
+    "id": 59,
+    "info": "1st-year/foundation/2017",
     "question": "The subcutaneous route is used due to which of the following advantages?",
     "answers": [
       {
         "option": "Slow absorption",
         "bool": true
-      },
-      {
-        "option": "Fast absorption",
-        "bool": false
-      },
-      {
-        "option": "Immediate action",
-        "bool": false
       },
       {
         "option": "Avoids usage of injections",
@@ -1562,24 +1608,32 @@
       {
         "option": "Prevention of shock",
         "bool": false
+      },
+      {
+        "option": "Immediate action",
+        "bool": false
+      },
+      {
+        "option": "Fast absorption",
+        "bool": false
       }
     ]
   },
   {
-    "id": 58,
-    "info": "1st-year/foundation-1/2017",
+    "id": 60,
+    "info": "1st-year/foundation/2017",
     "question": "Which amino acid can disrupt helical structure?",
     "answers": [
-      {
-        "option": "Alanine",
-        "bool": false
-      },
       {
         "option": "Valine",
         "bool": false
       },
       {
         "option": "Histamine",
+        "bool": false
+      },
+      {
+        "option": "Alanine",
         "bool": false
       },
       {
@@ -1593,17 +1647,17 @@
     ]
   },
   {
-    "id": 59,
-    "info": "1st-year/foundation-1/2017",
+    "id": 61,
+    "info": "1st-year/foundation/2017",
     "question": "To be able to see the size, shape, and structure of a chromosome clearly, during which stage should it be observed?",
     "answers": [
       {
-        "option": "Anaphase",
-        "bool": false
-      },
-      {
         "option": "Metaphase",
         "bool": true
+      },
+      {
+        "option": "Telophase",
+        "bool": false
       },
       {
         "option": "Interphase",
@@ -1614,26 +1668,18 @@
         "bool": false
       },
       {
-        "option": "Telophase",
+        "option": "Anaphase",
         "bool": false
       }
     ]
   },
   {
-    "id": 60,
-    "info": "1st-year/foundation-1/2017",
+    "id": 62,
+    "info": "1st-year/foundation/2017",
     "question": "Anything that might be taken into the nose accidentally goes into the pharynx through what structure?",
     "answers": [
       {
-        "option": "Nasopharynx",
-        "bool": true
-      },
-      {
         "option": "Nasal vestibules",
-        "bool": false
-      },
-      {
-        "option": "Eustachian tube",
         "bool": false
       },
       {
@@ -1641,34 +1687,15 @@
         "bool": false
       },
       {
-        "option": "Conchae",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "info": "1st-year/foundation-1/2017",
-    "question": "After what time do oogonia stop forming?",
-    "answers": [
-      {
-        "option": "5th month of fetal life",
+        "option": "Nasopharynx",
         "bool": true
       },
       {
-        "option": "Birth",
+        "option": "Conchae",
         "bool": false
       },
       {
-        "option": "1st week of fetal life",
-        "bool": false
-      },
-      {
-        "option": "Menopause",
-        "bool": false
-      },
-      {
-        "option": "Puberty",
+        "option": "Eustachian tube",
         "bool": false
       }
     ]

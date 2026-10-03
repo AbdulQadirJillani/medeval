@@ -1,0 +1,380 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/medicine-2/2014",
+    "question": "A female presents to the clinic complaining that the first urine she passes in the morning has a reddish-brown color. Which of the following diseases is the likely explanation for this?",
+    "answers": [
+      {
+        "option": "Kidney disease",
+        "bool": false
+      },
+      {
+        "option": "Heavy menstrual bleeding",
+        "bool": false
+      },
+      {
+        "option": "Idiopathic hematuria",
+        "bool": false
+      },
+      {
+        "option": "Sickle cell anemia",
+        "bool": false
+      },
+      {
+        "option": "Paroxysmal nocturnal hemoglobinuria (PNH)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following is associated with tumor lysis syndrome?",
+    "answers": [
+      {
+        "option": "Hyponatremia",
+        "bool": false
+      },
+      {
+        "option": "Hypokalemia",
+        "bool": false
+      },
+      {
+        "option": "Hypophosphatemia",
+        "bool": false
+      },
+      {
+        "option": "Hypercalcemia",
+        "bool": false
+      },
+      {
+        "option": "Hyperkalemia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following options increases the risk of deep vein thrombosis in those who travel by air?",
+    "answers": [
+      {
+        "option": "Diuresis",
+        "bool": false
+      },
+      {
+        "option": "Hypoxia",
+        "bool": false
+      },
+      {
+        "option": "Haemoconcentration",
+        "bool": false
+      },
+      {
+        "option": "Immobility",
+        "bool": true
+      },
+      {
+        "option": "Reduced barometric pressure",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following is the best treatment for brucellosis?",
+    "answers": [
+      {
+        "option": "Doxycycline",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid and rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Doxycycline for 6 weeks plus streptomycin IM",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/medicine-2/2014",
+    "question": "A man presented with mucosal bleeding. CBC shows that his platelet count is normal. PT and APTT are normal, but bleeding time is prolonged. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Thrombocythemia",
+        "bool": false
+      },
+      {
+        "option": "Hemophilia",
+        "bool": false
+      },
+      {
+        "option": "Thrombocytopenia",
+        "bool": false
+      },
+      {
+        "option": "Platelet dysfunction",
+        "bool": true
+      },
+      {
+        "option": "Von Willebrand disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following is a protozoan?",
+    "answers": [
+      {
+        "option": "Pnemocystis carinii",
+        "bool": false
+      },
+      {
+        "option": "Isospora belli",
+        "bool": true
+      },
+      {
+        "option": "E. coli",
+        "bool": false
+      },
+      {
+        "option": "Staph aureus",
+        "bool": false
+      },
+      {
+        "option": "Actinomyces",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following is the drug of choice for leishmaniasis?",
+    "answers": [
+      {
+        "option": "Co-trimoxazole",
+        "bool": false
+      },
+      {
+        "option": "Sodium stibogluconate",
+        "bool": true
+      },
+      {
+        "option": "Metronidazole",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following conditions is associated with the Philadelphia chromosome?",
+    "answers": [
+      {
+        "option": "Primary myelofibrosis",
+        "bool": false
+      },
+      {
+        "option": "Acute myeloid leukemia",
+        "bool": false
+      },
+      {
+        "option": "Chronic myeloid leukemia",
+        "bool": true
+      },
+      {
+        "option": "Chronic lymphocytic leukemia",
+        "bool": false
+      },
+      {
+        "option": "Acute lymphoblastic leukemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/medicine-2/2014",
+    "question": "A patient with HIV infection has been diagnosed with cytomegalovirus retinitis. Which of the following is the most appropriate treatment?",
+    "answers": [
+      {
+        "option": "Ceftriaxone",
+        "bool": false
+      },
+      {
+        "option": "Ganciclovir",
+        "bool": true
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
+      },
+      {
+        "option": "Acyclovir",
+        "bool": false
+      },
+      {
+        "option": "Ribavarin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following protozoa causes bloody diarrhea?",
+    "answers": [
+      {
+        "option": "Giardia",
+        "bool": false
+      },
+      {
+        "option": "Entamoeba histolytica",
+        "bool": true
+      },
+      {
+        "option": "Shigella",
+        "bool": false
+      },
+      {
+        "option": "Cryptosporidium",
+        "bool": false
+      },
+      {
+        "option": "Campylobacter jejuni",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following is the most severe form of malaria?",
+    "answers": [
+      {
+        "option": "Malarial relapse",
+        "bool": false
+      },
+      {
+        "option": "Black water fever",
+        "bool": false
+      },
+      {
+        "option": "Falciparum malaria",
+        "bool": false
+      },
+      {
+        "option": "Cerebral malaria",
+        "bool": true
+      },
+      {
+        "option": "Chloroquine-resistant malaria",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following statements is correct regarding malaria?",
+    "answers": [
+      {
+        "option": "Plasmodium falciparum is not associated with relapse",
+        "bool": false
+      },
+      {
+        "option": "Plasmodium malariae has a hypnozoite stage",
+        "bool": false
+      },
+      {
+        "option": "Plasmodium falciparum is associated with non-tender hepatosplenomegaly",
+        "bool": false
+      },
+      {
+        "option": "Plasmodium ovale is associated with fever every 3rd day",
+        "bool": true
+      },
+      {
+        "option": "Plasmodium vivax is similar to Plasmodium malariae",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/medicine-2/2014",
+    "question": "Which of the following is best associated with vitamin B12 deficiency?",
+    "answers": [
+      {
+        "option": "Aplastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Macrocytic anemia",
+        "bool": true
+      },
+      {
+        "option": "Microcytic anemia",
+        "bool": false
+      },
+      {
+        "option": "Mixed type anemia",
+        "bool": false
+      },
+      {
+        "option": "Polycythemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/medicine-2/2014",
+    "question": "What does a disproportionate increase in urea compared to creatinine (high bun to creatinine ratio) indicate?",
+    "answers": [
+      {
+        "option": "Congestive heart failure",
+        "bool": true
+      },
+      {
+        "option": "Glomerulonephritis",
+        "bool": false
+      },
+      {
+        "option": "Acute tubular necrosis",
+        "bool": false
+      },
+      {
+        "option": "Rhabdomyolysis",
+        "bool": false
+      },
+      {
+        "option": "Acute interstitial nephritis",
+        "bool": false
+      }
+    ]
+  }
+]

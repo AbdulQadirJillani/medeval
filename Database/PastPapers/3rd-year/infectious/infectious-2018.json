@@ -9,20 +9,20 @@
         "bool": false
       },
       {
-        "option": "Aedes mosquito",
-        "bool": true
+        "option": "Culex mosquito",
+        "bool": false
       },
       {
         "option": "Tsetse fly",
         "bool": false
       },
       {
-        "option": "Culex mosquito",
+        "option": "Anopheles mosquito",
         "bool": false
       },
       {
-        "option": "Anopheles mosquito",
-        "bool": false
+        "option": "Aedes mosquito",
+        "bool": true
       }
     ]
   },
@@ -32,11 +32,11 @@
     "question": "What is the reason for relapsing fever in cases of malaria by Plasmodium vivax and Plasmodium ovale infection?",
     "answers": [
       {
-        "option": "Schizonts",
+        "option": "Sigent-ring cells",
         "bool": false
       },
       {
-        "option": "Sigent-ring cells",
+        "option": "Schizonts",
         "bool": false
       },
       {
@@ -44,11 +44,11 @@
         "bool": true
       },
       {
-        "option": "Trophozoites",
+        "option": "Merozoites",
         "bool": false
       },
       {
-        "option": "Merozoites",
+        "option": "Trophozoites",
         "bool": false
       }
     ]
@@ -59,7 +59,7 @@
     "question": "What is the first-line medication for the treatment of enteric fever?",
     "answers": [
       {
-        "option": "Co-amoxiclav",
+        "option": "Ceftriaxone",
         "bool": false
       },
       {
@@ -67,7 +67,7 @@
         "bool": false
       },
       {
-        "option": "Ceftriaxone",
+        "option": "Co-amoxiclav",
         "bool": false
       },
       {
@@ -86,10 +86,6 @@
     "question": "What is the mechanism of action of fluoroquinolones?",
     "answers": [
       {
-        "option": "Inhibition of protein synthesis",
-        "bool": false
-      },
-      {
         "option": "DNA gyrase inhibition",
         "bool": true
       },
@@ -104,6 +100,10 @@
       {
         "option": "Disruption of folic acid metabolism",
         "bool": false
+      },
+      {
+        "option": "Inhibition of protein synthesis",
+        "bool": false
       }
     ]
   },
@@ -117,16 +117,16 @@
         "bool": false
       },
       {
+        "option": "Candida vaginitis",
+        "bool": true
+      },
+      {
         "option": "Bacterial vaginosis",
         "bool": false
       },
       {
         "option": "HIV",
         "bool": false
-      },
-      {
-        "option": "Candida vaginitis",
-        "bool": true
       },
       {
         "option": "Gonorrhea",
@@ -140,15 +140,15 @@
     "question": "A 4-year-old child is brought to the clinic with a complaint of diarrhea for the past 4 days. On examination, the child is irritable and has sunken eyes. What is the appropriate classification according to IMNCI protocol?",
     "answers": [
       {
-        "option": "Severe dehydration",
+        "option": "Moderate dehydration",
         "bool": false
       },
       {
-        "option": "Some dehydration",
-        "bool": true
+        "option": "No dehydration",
+        "bool": false
       },
       {
-        "option": "Moderate dehydration",
+        "option": "Severe dehydration",
         "bool": false
       },
       {
@@ -156,8 +156,8 @@
         "bool": false
       },
       {
-        "option": "No dehydration",
-        "bool": false
+        "option": "Some dehydration",
+        "bool": true
       }
     ]
   },
@@ -194,15 +194,11 @@
     "question": "What is the incubation period of the causative agent of typhoid fever?",
     "answers": [
       {
+        "option": "10-14 days",
+        "bool": true
+      },
+      {
         "option": "20-40 days",
-        "bool": false
-      },
-      {
-        "option": "24-48 hours",
-        "bool": false
-      },
-      {
-        "option": "14-21 days",
         "bool": false
       },
       {
@@ -210,8 +206,12 @@
         "bool": false
       },
       {
-        "option": "10-14 days",
-        "bool": true
+        "option": "14-21 days",
+        "bool": false
+      },
+      {
+        "option": "24-48 hours",
+        "bool": false
       }
     ]
   },
@@ -220,6 +220,10 @@
     "info": "3rd-year/infectious/2018",
     "question": "Which of the below-enlisted opportunistic infections is typically seen in HIV infection with a CD4 count of fewer than 100 cells/mm3?",
     "answers": [
+      {
+        "option": "Oropharyngeal candidiasis",
+        "bool": false
+      },
       {
         "option": "Cerebral toxoplasmosis",
         "bool": true
@@ -230,10 +234,6 @@
       },
       {
         "option": "Kaposi's sarcoma",
-        "bool": false
-      },
-      {
-        "option": "Oropharyngeal candidiasis",
         "bool": false
       },
       {
@@ -248,11 +248,11 @@
     "question": "HIV-infected patients with a CD4 count below 500 cells/mm3 are predisposed to which of the following opportunistic pathogens?",
     "answers": [
       {
-        "option": "Pneumocystis jirovecii",
-        "bool": false
+        "option": "Oral hairy leukoplakia",
+        "bool": true
       },
       {
-        "option": "Esophageal candidiasis",
+        "option": "Pneumocystis jirovecii",
         "bool": false
       },
       {
@@ -264,8 +264,8 @@
         "bool": false
       },
       {
-        "option": "Oral hairy leukoplakia",
-        "bool": true
+        "option": "Esophageal candidiasis",
+        "bool": false
       }
     ]
   },
@@ -275,7 +275,7 @@
     "question": "A 6-year-old child is brought by her mother with the complaint of severe agitation and disturbed sleep at night for the past week. On inquiry, the child admits she has severe perianal itching at night. What is the most likely cause?",
     "answers": [
       {
-        "option": "Ascaris lumbricoides",
+        "option": "Taenia solium",
         "bool": false
       },
       {
@@ -283,16 +283,16 @@
         "bool": false
       },
       {
-        "option": "Hymenolepis nana",
-        "bool": false
-      },
-      {
-        "option": "Taenia solium",
+        "option": "Ascaris lumbricoides",
         "bool": false
       },
       {
         "option": "Enterobius vermicularis",
         "bool": true
+      },
+      {
+        "option": "Hymenolepis nana",
+        "bool": false
       }
     ]
   },
@@ -306,20 +306,20 @@
         "bool": false
       },
       {
-        "option": "CD4 count",
-        "bool": false
-      },
-      {
         "option": "Northern Blot",
-        "bool": false
-      },
-      {
-        "option": "HIV p24 antibodies",
         "bool": false
       },
       {
         "option": "HIV PCR",
         "bool": true
+      },
+      {
+        "option": "CD4 count",
+        "bool": false
+      },
+      {
+        "option": "HIV p24 antibodies",
+        "bool": false
       }
     ]
   },
@@ -329,16 +329,12 @@
     "question": "What is the incubation period of Mycobacterium leprae?",
     "answers": [
       {
-        "option": "Several years",
-        "bool": true
-      },
-      {
-        "option": "2-4 months",
-        "bool": false
-      },
-      {
         "option": "1-2 weeks",
         "bool": false
+      },
+      {
+        "option": "Several years",
+        "bool": true
       },
       {
         "option": "14-21 days",
@@ -346,6 +342,10 @@
       },
       {
         "option": "6-9 months",
+        "bool": false
+      },
+      {
+        "option": "2-4 months",
         "bool": false
       }
     ]
@@ -356,15 +356,15 @@
     "question": "A 30-year-old man sustained a bat bite to his arm during a camping trip. He presents to a medical facility 12 hours later and is clinically asymptomatic. What postexposure prophylaxis should be given to this patient?",
     "answers": [
       {
-        "option": "No immunization required",
-        "bool": false
-      },
-      {
         "option": "Active immunity",
         "bool": false
       },
       {
-        "option": "Rabies toxoid only",
+        "option": "Passive immunity",
+        "bool": false
+      },
+      {
+        "option": "No immunization required",
         "bool": false
       },
       {
@@ -372,7 +372,7 @@
         "bool": true
       },
       {
-        "option": "Passive immunity",
+        "option": "Rabies toxoid only",
         "bool": false
       }
     ]
@@ -382,14 +382,6 @@
     "info": "3rd-year/infectious/2018",
     "question": "Which of the following drugs is given with beta-lactam antibiotics for synergistic effect?",
     "answers": [
-      {
-        "option": "Vancomycin",
-        "bool": false
-      },
-      {
-        "option": "Rifampicin",
-        "bool": false
-      },
       {
         "option": "Macrolide",
         "bool": false
@@ -401,6 +393,14 @@
       {
         "option": "Cephalosporin",
         "bool": false
+      },
+      {
+        "option": "Rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Vancomycin",
+        "bool": false
       }
     ]
   },
@@ -410,11 +410,11 @@
     "question": "A 10-year-old child is brought to the pediatric emergency room with severe watery diarrhea for the past 2 days. On inquiry, the mother exclaims her child has been passing large volumes of rice-water colored stools, 10-12 episodes per day. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Adenovirus",
+        "option": "Acute gastroenteritis",
         "bool": false
       },
       {
-        "option": "Acute gastroenteritis",
+        "option": "Rotavirus",
         "bool": false
       },
       {
@@ -422,11 +422,11 @@
         "bool": true
       },
       {
-        "option": "Rotavirus",
+        "option": "Typhoid",
         "bool": false
       },
       {
-        "option": "Typhoid",
+        "option": "Adenovirus",
         "bool": false
       }
     ]
@@ -437,15 +437,7 @@
     "question": "What is the first-line drug for the treatment of mucocutaneous leishmaniasis?",
     "answers": [
       {
-        "option": "Amphotericin B",
-        "bool": false
-      },
-      {
         "option": "Paramomycin",
-        "bool": false
-      },
-      {
-        "option": "Pentamidine",
         "bool": false
       },
       {
@@ -453,7 +445,15 @@
         "bool": true
       },
       {
+        "option": "Amphotericin B",
+        "bool": false
+      },
+      {
         "option": "Rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Pentamidine",
         "bool": false
       }
     ]
@@ -464,7 +464,11 @@
     "question": "Cerebral malaria is typically caused by which species of the protozoan?",
     "answers": [
       {
-        "option": "Malariae",
+        "option": "Ovale",
+        "bool": false
+      },
+      {
+        "option": "Knowlesi",
         "bool": false
       },
       {
@@ -476,11 +480,7 @@
         "bool": true
       },
       {
-        "option": "Ovale",
-        "bool": false
-      },
-      {
-        "option": "Knowlesi",
+        "option": "Malariae",
         "bool": false
       }
     ]
@@ -491,11 +491,15 @@
     "question": "The causative agent for enteric fever may remain latent in which organ?",
     "answers": [
       {
-        "option": "Small intestine",
+        "option": "Peyer's patches",
         "bool": false
       },
       {
         "option": "Dorsal root ganglion",
+        "bool": false
+      },
+      {
+        "option": "Small intestine",
         "bool": false
       },
       {
@@ -504,10 +508,6 @@
       },
       {
         "option": "Cecum",
-        "bool": false
-      },
-      {
-        "option": "Peyer's patches",
         "bool": false
       }
     ]
@@ -518,16 +518,12 @@
     "question": "What is the gold-standard investigation for typhoid?",
     "answers": [
       {
-        "option": "Complete blood count",
-        "bool": false
-      },
-      {
-        "option": "Splenic biopsy",
-        "bool": false
-      },
-      {
         "option": "Blood culture",
         "bool": true
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
       },
       {
         "option": "Bone marrow culture",
@@ -535,6 +531,10 @@
       },
       {
         "option": "Urinalysis",
+        "bool": false
+      },
+      {
+        "option": "Splenic biopsy",
         "bool": false
       }
     ]
@@ -549,20 +549,20 @@
         "bool": false
       },
       {
+        "option": "Campylobacter jejuni",
+        "bool": false
+      },
+      {
         "option": "Shigella",
         "bool": false
       },
       {
-        "option": "Campylobacter jejuni",
+        "option": "Clostridium difficile",
         "bool": false
       },
       {
         "option": "Bacillus cereus",
         "bool": true
-      },
-      {
-        "option": "Clostridium difficile",
-        "bool": false
       }
     ]
   },
@@ -572,11 +572,11 @@
     "question": "What is the most common cause of diarrhea in children?",
     "answers": [
       {
-        "option": "Campylobacter jejuni",
+        "option": "Vibrio cholerae",
         "bool": false
       },
       {
-        "option": "Vibrio cholerae",
+        "option": "Campylobacter jejuni",
         "bool": false
       },
       {
@@ -584,11 +584,11 @@
         "bool": true
       },
       {
-        "option": "Reovirus",
+        "option": "Escherichia coli",
         "bool": false
       },
       {
-        "option": "Escherichia coli",
+        "option": "Reovirus",
         "bool": false
       }
     ]
@@ -599,11 +599,11 @@
     "question": "A severe outbreak of bloody diarrhea is seen in a psychiatric hospital within the past 1 week. What is the most common agent implicated in such cases?",
     "answers": [
       {
-        "option": "Bacillus cereus",
+        "option": "Escherichia coli",
         "bool": false
       },
       {
-        "option": "Salmonella typhi",
+        "option": "Bacillus cereus",
         "bool": false
       },
       {
@@ -611,12 +611,12 @@
         "bool": false
       },
       {
-        "option": "Shigella species",
-        "bool": true
+        "option": "Salmonella typhi",
+        "bool": false
       },
       {
-        "option": "Escherichia coli",
-        "bool": false
+        "option": "Shigella species",
+        "bool": true
       }
     ]
   },
@@ -626,6 +626,14 @@
     "question": "Which antiretroviral drug is associated with hematological abnormalities?",
     "answers": [
       {
+        "option": "Didanosine",
+        "bool": false
+      },
+      {
+        "option": "Efavirenz",
+        "bool": false
+      },
+      {
         "option": "Indinavir",
         "bool": false
       },
@@ -634,15 +642,7 @@
         "bool": true
       },
       {
-        "option": "Didanosine",
-        "bool": false
-      },
-      {
         "option": "Raltegravir",
-        "bool": false
-      },
-      {
-        "option": "Efavirenz",
         "bool": false
       }
     ]
@@ -653,15 +653,15 @@
     "question": "What is the mechanism of action of the drug clofazimine?",
     "answers": [
       {
-        "option": "Cell membrane damage",
-        "bool": false
-      },
-      {
-        "option": "Folate synthesis inhibitor",
-        "bool": false
-      },
-      {
         "option": "Protein synthesis inhibitor",
+        "bool": false
+      },
+      {
+        "option": "DNA damage",
+        "bool": true
+      },
+      {
+        "option": "Cell membrane damage",
         "bool": false
       },
       {
@@ -669,8 +669,8 @@
         "bool": false
       },
       {
-        "option": "DNA damage",
-        "bool": true
+        "option": "Folate synthesis inhibitor",
+        "bool": false
       }
     ]
   },
@@ -680,15 +680,7 @@
     "question": "A 34-year-old male, farmer by profession presents to the outpatient clinic with vague right-sided abdominal pain, nausea, and vomiting. Laboratory and radiological workups reveal hydatid cyst disease of the liver. This is his second recurrence in 2 years. What is the treatment for this patient?",
     "answers": [
       {
-        "option": "PAIR therapy",
-        "bool": true
-      },
-      {
-        "option": "Surgery",
-        "bool": false
-      },
-      {
-        "option": "Oral albendazole for 30 days",
+        "option": "Percutaneous drainage",
         "bool": false
       },
       {
@@ -696,8 +688,16 @@
         "bool": false
       },
       {
-        "option": "Percutaneous drainage",
+        "option": "PAIR therapy",
         "bool": false
+      },
+      {
+        "option": "Oral albendazole for 30 days",
+        "bool": false
+      },
+      {
+        "option": "Surgery",
+        "bool": true
       }
     ]
   },
@@ -707,11 +707,7 @@
     "question": "Relapses are associated with which species of Plasmodium?",
     "answers": [
       {
-        "option": "Vivax and malariae",
-        "bool": false
-      },
-      {
-        "option": "Malariae",
+        "option": "Ovale",
         "bool": false
       },
       {
@@ -719,12 +715,16 @@
         "bool": false
       },
       {
-        "option": "Ovale",
+        "option": "Vivax and ovale",
+        "bool": true
+      },
+      {
+        "option": "Malariae",
         "bool": false
       },
       {
-        "option": "Vivax and ovale",
-        "bool": true
+        "option": "Vivax and malariae",
+        "bool": false
       }
     ]
   },
@@ -733,6 +733,10 @@
     "info": "3rd-year/infectious/2018",
     "question": "A 25-year-old male presents to the clinic with complaints of a painless ulcer on the shaft of the penis. He has no symptoms otherwise. Clinical examination reveals rubbery enlargement of bilateral inguinal lymph nodes. What is the most likely causative agent?",
     "answers": [
+      {
+        "option": "Herpes simplex type 2",
+        "bool": false
+      },
       {
         "option": "Treponema pallidum",
         "bool": true
@@ -743,10 +747,6 @@
       },
       {
         "option": "Human papillomavirus",
-        "bool": false
-      },
-      {
-        "option": "Herpes simplex type 2",
         "bool": false
       },
       {
@@ -769,16 +769,16 @@
         "bool": false
       },
       {
+        "option": "Cidofovir",
+        "bool": true
+      },
+      {
         "option": "Lopinavir",
         "bool": false
       },
       {
         "option": "Ritonavir",
         "bool": false
-      },
-      {
-        "option": "Cidofovir",
-        "bool": true
       }
     ]
   },
@@ -788,12 +788,12 @@
     "question": "Which of the following organs is not affected in mumps?",
     "answers": [
       {
-        "option": "Lungs",
-        "bool": false
-      },
-      {
         "option": "Bone",
         "bool": true
+      },
+      {
+        "option": "Pancreas",
+        "bool": false
       },
       {
         "option": "Testis",
@@ -804,7 +804,7 @@
         "bool": false
       },
       {
-        "option": "Pancreas",
+        "option": "Lungs",
         "bool": false
       }
     ]
@@ -815,7 +815,7 @@
     "question": "Which of the following drugs is classified as a 'fluoroquinolone'?",
     "answers": [
       {
-        "option": "Trimethoprim",
+        "option": "Azithromycin",
         "bool": false
       },
       {
@@ -823,16 +823,16 @@
         "bool": false
       },
       {
-        "option": "Erythromycin",
-        "bool": false
-      },
-      {
-        "option": "Azithromycin",
+        "option": "Trimethoprim",
         "bool": false
       },
       {
         "option": "Ciprofloxacin",
         "bool": true
+      },
+      {
+        "option": "Erythromycin",
+        "bool": false
       }
     ]
   },
@@ -842,7 +842,15 @@
     "question": "What is the diagnostic investigation of choice for hydatid cyst disease?",
     "answers": [
       {
+        "option": "X-ray abdomen",
+        "bool": false
+      },
+      {
         "option": "Ultrasonography",
+        "bool": false
+      },
+      {
+        "option": "MRCP",
         "bool": false
       },
       {
@@ -850,15 +858,7 @@
         "bool": true
       },
       {
-        "option": "X-ray abdomen",
-        "bool": false
-      },
-      {
         "option": "MRI scan",
-        "bool": false
-      },
-      {
-        "option": "MRCP",
         "bool": false
       }
     ]
@@ -869,16 +869,8 @@
     "question": "A 10-year-old boy is brought to the emergency room with a high-grade fever, irritability, and headache for the past 2 days. During inpatient evaluation, he develops a tonic-clonic fit that lasts for 1 minute. CSF examination reveals gram-negative diplococci with pleocytosis and high protein levels. What is the most likely causative agent?",
     "answers": [
       {
-        "option": "Escherichia coli",
-        "bool": false
-      },
-      {
         "option": "Neisseria meningitides",
         "bool": true
-      },
-      {
-        "option": "Herpes simplex virus",
-        "bool": false
       },
       {
         "option": "Streptococcus pneumoniae",
@@ -886,6 +878,14 @@
       },
       {
         "option": "Streptococcus agalactiae",
+        "bool": false
+      },
+      {
+        "option": "Herpes simplex virus",
+        "bool": false
+      },
+      {
+        "option": "Escherichia coli",
         "bool": false
       }
     ]
@@ -896,10 +896,6 @@
     "question": "A histopathologist is evaluating a specimen under a microscope and describes it as 'spiral-shaped, with no gram staining'. Which of the following is the most likely specimen?",
     "answers": [
       {
-        "option": "Vibrio cholerae",
-        "bool": false
-      },
-      {
         "option": "Treponema pallidum",
         "bool": true
       },
@@ -908,11 +904,15 @@
         "bool": false
       },
       {
-        "option": "Echinococcus granulosus",
+        "option": "Vibrio cholerae",
         "bool": false
       },
       {
         "option": "Mycobacterium leprae",
+        "bool": false
+      },
+      {
+        "option": "Echinococcus granulosus",
         "bool": false
       }
     ]
@@ -923,16 +923,16 @@
     "question": "A 2-year-old baby is brought to the clinic with the complaint of loose stools for the past 2 days. On examination, the baby is vitally stable with no signs of dehydration. Which of the following treatment options will be offered to this patient?",
     "answers": [
       {
-        "option": "ORS after every loose stool",
-        "bool": true
-      },
-      {
         "option": "Give antibiotic for cholera",
         "bool": false
       },
       {
         "option": "Zinc suspension 2.5 ml/kg for 10 days",
         "bool": false
+      },
+      {
+        "option": "ORS after every loose stool",
+        "bool": true
       },
       {
         "option": "Stop breastfeeding immediately",
@@ -950,7 +950,7 @@
     "question": "A 5-year-old female child is brought to the clinic with loose stools for the past 4 days. On examination, the child is irritable with skin pinch going back in 3 seconds. No other signs of dehydration are observed. What is the replacement fluid and dosage to be given as per the IMNCI protocol?",
     "answers": [
       {
-        "option": "100 ml/kg IV Ringer's lactate every 6 hours",
+        "option": "100-200 ml ORS after every loose stool",
         "bool": false
       },
       {
@@ -958,16 +958,16 @@
         "bool": false
       },
       {
-        "option": "Increasing frequency of breastfeeding with 100-200 ml ORS",
-        "bool": false
-      },
-      {
-        "option": "100-200 ml ORS after every loose stool",
-        "bool": false
-      },
-      {
         "option": "75 ml/kg ORS over 4 hour period",
         "bool": true
+      },
+      {
+        "option": "100 ml/kg IV Ringer's lactate every 6 hours",
+        "bool": false
+      },
+      {
+        "option": "Increasing frequency of breastfeeding with 100-200 ml ORS",
+        "bool": false
       }
     ]
   },
@@ -977,7 +977,7 @@
     "question": "Which of the following clinical features is typically the first sign of tetanus?",
     "answers": [
       {
-        "option": "Opisthotonus",
+        "option": "Risus sardonicus",
         "bool": false
       },
       {
@@ -985,15 +985,15 @@
         "bool": true
       },
       {
-        "option": "Reflex spasms",
-        "bool": false
-      },
-      {
         "option": "Uncontrolled urination",
         "bool": false
       },
       {
-        "option": "Risus sardonicus",
+        "option": "Reflex spasms",
+        "bool": false
+      },
+      {
+        "option": "Opisthotonus",
         "bool": false
       }
     ]
@@ -1043,11 +1043,11 @@
         "bool": true
       },
       {
-        "option": "Cholestyramine",
+        "option": "Diphenoxylate",
         "bool": false
       },
       {
-        "option": "Diphenoxylate",
+        "option": "Cholestyramine",
         "bool": false
       }
     ]
@@ -1058,23 +1058,23 @@
     "question": "What is the mechanism of action of the antiprotozoal drug albendazole?",
     "answers": [
       {
-        "option": "Inhibit glucose utilization",
-        "bool": true
+        "option": "Increases gastric motility",
+        "bool": false
       },
       {
         "option": "Interfere with larval maturation",
         "bool": false
       },
       {
-        "option": "Increases activity of cell membrane pumps",
-        "bool": false
-      },
-      {
-        "option": "Increases gastric motility",
-        "bool": false
-      },
-      {
         "option": "Inhibits protozoal metabolic pathway",
+        "bool": false
+      },
+      {
+        "option": "Inhibit glucose utilization",
+        "bool": true
+      },
+      {
+        "option": "Increases activity of cell membrane pumps",
         "bool": false
       }
     ]
@@ -1112,6 +1112,14 @@
     "question": "A 10-year-old boy is brought to the clinic with fever and pain in his right cheek for the past 1 week. On clinical examination, unilateral facial swelling is observed. What is the most likely diagnosis?",
     "answers": [
       {
+        "option": "Mastoiditis",
+        "bool": false
+      },
+      {
+        "option": "Sialolithiasis",
+        "bool": false
+      },
+      {
         "option": "Mumps",
         "bool": true
       },
@@ -1120,15 +1128,7 @@
         "bool": false
       },
       {
-        "option": "Mastoiditis",
-        "bool": false
-      },
-      {
         "option": "Cytomegalovirus",
-        "bool": false
-      },
-      {
-        "option": "Sialolithiasis",
         "bool": false
       }
     ]
@@ -1174,7 +1174,7 @@
         "bool": true
       },
       {
-        "option": "Bulbar",
+        "option": "Cephalic",
         "bool": false
       },
       {
@@ -1182,7 +1182,7 @@
         "bool": false
       },
       {
-        "option": "Cephalic",
+        "option": "Bulbar",
         "bool": false
       }
     ]
@@ -1190,45 +1190,10 @@
   {
     "id": 44,
     "info": "3rd-year/infectious/2018",
-    "question": "What is the treatment of choice for Entamoeba histolytica infection?",
-    "answers": [
-      {
-        "option": "Metronidazole",
-        "bool": true
-      },
-      {
-        "option": "Tinidazole",
-        "bool": false
-      },
-      {
-        "option": "Paramomycin",
-        "bool": false
-      },
-      {
-        "option": "Nitazoxanide",
-        "bool": false
-      },
-      {
-        "option": "Albendazole",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "info": "3rd-year/infectious/2018",
     "question": "Which of the following organisms infect lymph nodes?",
     "answers": [
       {
         "option": "Ascaris lumbricoides",
-        "bool": false
-      },
-      {
-        "option": "Hymenolepis nana",
-        "bool": false
-      },
-      {
-        "option": "Echinococcus granulosus",
         "bool": false
       },
       {
@@ -1238,6 +1203,41 @@
       {
         "option": "Wuchereria bancrofti",
         "bool": true
+      },
+      {
+        "option": "Hymenolepis nana",
+        "bool": false
+      },
+      {
+        "option": "Echinococcus granulosus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "3rd-year/infectious/2018",
+    "question": "What is the treatment of choice for Entamoeba histolytica infection?",
+    "answers": [
+      {
+        "option": "Nitazoxanide",
+        "bool": false
+      },
+      {
+        "option": "Paramomycin",
+        "bool": false
+      },
+      {
+        "option": "Tinidazole",
+        "bool": false
+      },
+      {
+        "option": "Albendazole",
+        "bool": false
+      },
+      {
+        "option": "Metronidazole",
+        "bool": true
       }
     ]
   },
@@ -1246,10 +1246,6 @@
     "info": "3rd-year/infectious/2018",
     "question": "The lawyer of the defendant calls in a ballistic expert as part of the proceedings of a suspected homicide. Which of the following is not true regarding this type of witness?",
     "answers": [
-      {
-        "option": "Can volunteer a statement",
-        "bool": false
-      },
       {
         "option": "Skilled in foreign law",
         "bool": false
@@ -1265,6 +1261,10 @@
       {
         "option": "Describes what he/she saw",
         "bool": true
+      },
+      {
+        "option": "Can volunteer a statement",
+        "bool": false
       }
     ]
   },
@@ -1273,10 +1273,6 @@
     "info": "3rd-year/infectious/2018",
     "question": "A 24-year-old male commits murder via strangulation of his brother for money. What type of Qatl is this according to the Pakistan Penal Code?",
     "answers": [
-      {
-        "option": "Qatl-i-Khata",
-        "bool": false
-      },
       {
         "option": "Qatl Shibh-i-Amd",
         "bool": false
@@ -1292,6 +1288,10 @@
       {
         "option": "Qatl-i-Amd",
         "bool": true
+      },
+      {
+        "option": "Qatl-i-Khata",
+        "bool": false
       }
     ]
   },
@@ -1301,11 +1301,15 @@
     "question": "What is the correct legal terminology for a verbal statement made by a dying individual in front of a doctor narrating the circumstances leading to his/her death?",
     "answers": [
       {
-        "option": "Documentary evidence",
+        "option": "Oral evidence",
         "bool": false
       },
       {
-        "option": "Dying deposition",
+        "option": "Compos mentis",
+        "bool": false
+      },
+      {
+        "option": "Documentary evidence",
         "bool": false
       },
       {
@@ -1313,11 +1317,7 @@
         "bool": true
       },
       {
-        "option": "Compos mentis",
-        "bool": false
-      },
-      {
-        "option": "Oral evidence",
+        "option": "Dying deposition",
         "bool": false
       }
     ]
@@ -1328,11 +1328,11 @@
     "question": "Bansdola is an example of which of the following?",
     "answers": [
       {
-        "option": "Judicial hanging",
-        "bool": false
+        "option": "Homicidal strangulation",
+        "bool": true
       },
       {
-        "option": "Lynching",
+        "option": "Judicial hanging",
         "bool": false
       },
       {
@@ -1340,8 +1340,8 @@
         "bool": false
       },
       {
-        "option": "Homicidal strangulation",
-        "bool": true
+        "option": "Lynching",
+        "bool": false
       },
       {
         "option": "Accidental strangulation",
@@ -1355,7 +1355,7 @@
     "question": "What is the time period of formation of scab in abrasion?",
     "answers": [
       {
-        "option": "2-3 days",
+        "option": "7-10 days",
         "bool": false
       },
       {
@@ -1367,11 +1367,11 @@
         "bool": true
       },
       {
-        "option": "7-10 days",
+        "option": "3-5 days",
         "bool": false
       },
       {
-        "option": "3-5 days",
+        "option": "2-3 days",
         "bool": false
       }
     ]
@@ -1386,11 +1386,11 @@
         "bool": false
       },
       {
-        "option": "Abrasion",
-        "bool": true
+        "option": "Laceration",
+        "bool": false
       },
       {
-        "option": "Laceration",
+        "option": "Graze",
         "bool": false
       },
       {
@@ -1398,8 +1398,8 @@
         "bool": false
       },
       {
-        "option": "Graze",
-        "bool": false
+        "option": "Abrasion",
+        "bool": true
       }
     ]
   },
@@ -1409,15 +1409,15 @@
     "question": "Why is a dying deposition considered better compared to a dying declaration?",
     "answers": [
       {
-        "option": "In written form",
-        "bool": false
-      },
-      {
         "option": "Presence of doctor",
         "bool": false
       },
       {
         "option": "Presence of witnesses",
+        "bool": false
+      },
+      {
+        "option": "In written form",
         "bool": false
       },
       {

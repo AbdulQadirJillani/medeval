@@ -1,0 +1,3404 @@
+[
+  {
+    "id": 0,
+    "info": "1st-year/blood/2026",
+    "question": "What substance normally prevents platelet adhesion to the intact endothelial wall in circulation?",
+    "answers": [
+      {
+        "option": "Prostacyclin (PGI2)",
+        "bool": true
+      },
+      {
+        "option": "Thrombomodulin",
+        "bool": false
+      },
+      {
+        "option": "Prostaglandin E2",
+        "bool": false
+      },
+      {
+        "option": "Thromboxane A2",
+        "bool": false
+      },
+      {
+        "option": "ADP",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/blood/2026",
+    "question": "Which platelet glycoprotein receptor is primarily responsible for platelet adhesion to subendothelial von Willebrand factor?",
+    "answers": [
+      {
+        "option": "GPIb",
+        "bool": true
+      },
+      {
+        "option": "GPVI",
+        "bool": false
+      },
+      {
+        "option": "GPIa/IIa",
+        "bool": false
+      },
+      {
+        "option": "GPIX alone",
+        "bool": false
+      },
+      {
+        "option": "GPIIb/IIIa",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "1st-year/blood/2026",
+    "question": "Which complement components combine to form the membrane attack complex (MAC)?",
+    "answers": [
+      {
+        "option": "C2 and C4",
+        "bool": false
+      },
+      {
+        "option": "C3b alone",
+        "bool": false
+      },
+      {
+        "option": "C3a and C5a",
+        "bool": false
+      },
+      {
+        "option": "C1q only",
+        "bool": false
+      },
+      {
+        "option": "C5–C9",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "1st-year/blood/2026",
+    "question": "What stimulus triggers activation of the classical pathway of the complement system?",
+    "answers": [
+      {
+        "option": "Viruses only",
+        "bool": false
+      },
+      {
+        "option": "Free antigens alone",
+        "bool": false
+      },
+      {
+        "option": "Antigen-antibody (immune) complexes",
+        "bool": true
+      },
+      {
+        "option": "Bacteria and viruses directly",
+        "bool": false
+      },
+      {
+        "option": "Bacterial cell walls only",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "1st-year/blood/2026",
+    "question": "The antigen-binding site on an antibody is called the:",
+    "answers": [
+      {
+        "option": "Epitope",
+        "bool": false
+      },
+      {
+        "option": "Paratope",
+        "bool": true
+      },
+      {
+        "option": "Fc region",
+        "bool": false
+      },
+      {
+        "option": "Hinge region",
+        "bool": false
+      },
+      {
+        "option": "Haplotype",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "1st-year/blood/2026",
+    "question": "The part of an antigen that binds to an antibody's binding site is called the:",
+    "answers": [
+      {
+        "option": "Paratope",
+        "bool": false
+      },
+      {
+        "option": "Constant region",
+        "bool": false
+      },
+      {
+        "option": "Variable region",
+        "bool": false
+      },
+      {
+        "option": "Epitope",
+        "bool": true
+      },
+      {
+        "option": "Fc region",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "1st-year/blood/2026",
+    "question": "What is the normal lifespan of a circulating red blood cell?",
+    "answers": [
+      {
+        "option": "60 days",
+        "bool": false
+      },
+      {
+        "option": "120 days",
+        "bool": true
+      },
+      {
+        "option": "30 days",
+        "bool": false
+      },
+      {
+        "option": "90 days",
+        "bool": false
+      },
+      {
+        "option": "180 days",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "1st-year/blood/2026",
+    "question": "Which complement fragments act as anaphylatoxins, triggering mast cell degranulation?",
+    "answers": [
+      {
+        "option": "C8 and C9",
+        "bool": false
+      },
+      {
+        "option": "C6 and C7",
+        "bool": false
+      },
+      {
+        "option": "C3a and C5a",
+        "bool": true
+      },
+      {
+        "option": "C2 alone",
+        "bool": false
+      },
+      {
+        "option": "C1 and C2",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "1st-year/blood/2026",
+    "question": "Which part of the antibody molecule actually binds to the antigen?",
+    "answers": [
+      {
+        "option": "Heavy chain constant region only",
+        "bool": false
+      },
+      {
+        "option": "Constant regions of heavy and light chains",
+        "bool": false
+      },
+      {
+        "option": "Fc region",
+        "bool": false
+      },
+      {
+        "option": "Light chain constant region only",
+        "bool": false
+      },
+      {
+        "option": "Variable regions of the heavy and light chains",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "1st-year/blood/2026",
+    "question": "A patient's immune cells begin attacking his own tissues after administration of a certain drug. What immune mechanism has been impaired?",
+    "answers": [
+      {
+        "option": "Cytokine signaling",
+        "bool": false
+      },
+      {
+        "option": "Self-tolerance",
+        "bool": true
+      },
+      {
+        "option": "Antigen processing",
+        "bool": false
+      },
+      {
+        "option": "Innate immune surveillance",
+        "bool": false
+      },
+      {
+        "option": "Complement regulation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "1st-year/blood/2026",
+    "question": "An experimental drug blocked the binding of CD28 to B7. Despite normal antigen presentation on MHC II and TCR binding, helper T cells failed to coordinate an immune response. Why?",
+    "answers": [
+      {
+        "option": "Absence of cytokine receptors",
+        "bool": false
+      },
+      {
+        "option": "Downregulation of the TCR",
+        "bool": false
+      },
+      {
+        "option": "Lack of MHC II expression",
+        "bool": false
+      },
+      {
+        "option": "Induction of clonal deletion",
+        "bool": false
+      },
+      {
+        "option": "Lack of the costimulatory signal",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "1st-year/blood/2026",
+    "question": "A patient's renal cells are supplied with hypoxia-inducible factor 1-alpha (HIF-1α) even though conditions are normoxic. What is the downstream effect of prolonged administration?",
+    "answers": [
+      {
+        "option": "Blood viscosity will increase",
+        "bool": true
+      },
+      {
+        "option": "Blood plasma volume will increase",
+        "bool": false
+      },
+      {
+        "option": "2,3-BPG production will be reduced",
+        "bool": false
+      },
+      {
+        "option": "Mean corpuscular volume will decrease",
+        "bool": false
+      },
+      {
+        "option": "RBC precursor proliferation will decrease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "1st-year/blood/2026",
+    "question": "An Rh-negative individual receives a first transfusion of Rh-positive blood without incident. Months later, a second Rh-positive transfusion causes fever, urticaria, dyspnea, and dark urine. What is the underlying mechanism?",
+    "answers": [
+      {
+        "option": "An immediate primary IgM-mediated hemolytic reaction",
+        "bool": false
+      },
+      {
+        "option": "ABO incompatibility",
+        "bool": false
+      },
+      {
+        "option": "Bacterial contamination of the transfused blood",
+        "bool": false
+      },
+      {
+        "option": "An IgE-mediated anaphylactic reaction",
+        "bool": false
+      },
+      {
+        "option": "An anamnestic (secondary) immune response with rapid IgG-mediated hemolysis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "1st-year/blood/2026",
+    "question": "A recipient with blood group A receives plasma from a blood group O donor and no transfusion reaction occurs. Why?",
+    "answers": [
+      {
+        "option": "Donor's agglutinins are diluted in the recipient's larger plasma volume",
+        "bool": true
+      },
+      {
+        "option": "Lack of relevant antigen for the donor antibodies to notably react",
+        "bool": false
+      },
+      {
+        "option": "Group O plasma is deficient in complement",
+        "bool": false
+      },
+      {
+        "option": "Rh compatibility prevents any reaction",
+        "bool": false
+      },
+      {
+        "option": "Group O plasma contains no antibodies",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "1st-year/blood/2026",
+    "question": "A patient with blood group A-positive accidentally receives a transfusion of B-positive packed red cells. Intravascular hemolysis occurs due to:",
+    "answers": [
+      {
+        "option": "The recipient's anti-B antibodies attacking the donor's B antigen",
+        "bool": true
+      },
+      {
+        "option": "Rh incompatibility",
+        "bool": false
+      },
+      {
+        "option": "The donor's anti-A antibodies attacking the recipient's RBCs",
+        "bool": false
+      },
+      {
+        "option": "A complement deficiency in the recipient",
+        "bool": false
+      },
+      {
+        "option": "T cell-mediated rejection of donor RBCs",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/blood/2026",
+    "question": "Cell-mediated immunity is primarily carried out by which cell type?",
+    "answers": [
+      {
+        "option": "B lymphocytes",
+        "bool": false
+      },
+      {
+        "option": "Plasma cells",
+        "bool": false
+      },
+      {
+        "option": "Antibodies circulating in plasma",
+        "bool": false
+      },
+      {
+        "option": "T lymphocytes",
+        "bool": true
+      },
+      {
+        "option": "Mast cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "1st-year/blood/2026",
+    "question": "What is the most important physiological reason hemoglobin is kept inside red blood cells rather than circulating free in plasma?",
+    "answers": [
+      {
+        "option": "There is no physiological reason; it is incidental",
+        "bool": false
+      },
+      {
+        "option": "Free hemoglobin binds oxygen less efficiently",
+        "bool": false
+      },
+      {
+        "option": "Hemoglobin binds oxygen more efficiently when free",
+        "bool": false
+      },
+      {
+        "option": "Free hemoglobin is broken down more slowly in plasma",
+        "bool": false
+      },
+      {
+        "option": "Free hemoglobin would pass through the glomerular membrane and be excreted by the kidneys, and is also toxic to tissues",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/blood/2026",
+    "question": "A woman living at sea level presents with fatigue, plethora, and dizziness. Labs show increased hematocrit and hemoglobin concentration, normal arterial oxygen saturation, and a LOW erythropoietin level. What is the diagnosis?",
+    "answers": [
+      {
+        "option": "Relative polycythemia",
+        "bool": false
+      },
+      {
+        "option": "Polycythemia vera",
+        "bool": true
+      },
+      {
+        "option": "Compensatory polycythemia",
+        "bool": false
+      },
+      {
+        "option": "Polycythemia due to chronic hypoxia",
+        "bool": false
+      },
+      {
+        "option": "Absolute secondary polycythemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "1st-year/blood/2026",
+    "question": "Erythropoietin acts most directly on which stage of erythroid development?",
+    "answers": [
+      {
+        "option": "Reticulocyte",
+        "bool": false
+      },
+      {
+        "option": "CFU-E",
+        "bool": true
+      },
+      {
+        "option": "CFU-GEMM",
+        "bool": false
+      },
+      {
+        "option": "Hematopoietic stem cell",
+        "bool": false
+      },
+      {
+        "option": "Proerythroblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "1st-year/blood/2026",
+    "question": "Which cell type is pluripotent, self-renewing, and responsible for the development of all blood cell lineages?",
+    "answers": [
+      {
+        "option": "Myeloblast",
+        "bool": false
+      },
+      {
+        "option": "Proerythroblast",
+        "bool": false
+      },
+      {
+        "option": "CFU-E",
+        "bool": false
+      },
+      {
+        "option": "Hematopoietic stem cell",
+        "bool": true
+      },
+      {
+        "option": "CFU-spleen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "1st-year/blood/2026",
+    "question": "In the RBC osmotic fragility test, increased fragility (as in hereditary spherocytosis) is best explained by which change?",
+    "answers": [
+      {
+        "option": "Increased membrane cholesterol content",
+        "bool": false
+      },
+      {
+        "option": "A decreased surface area-to-volume ratio",
+        "bool": true
+      },
+      {
+        "option": "Defective heme synthesis",
+        "bool": false
+      },
+      {
+        "option": "Oxidative stress to RBCs",
+        "bool": false
+      },
+      {
+        "option": "Defective nuclear synthesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "1st-year/blood/2026",
+    "question": "At which stage of erythropoiesis does nuclear pyknosis (condensation) primarily occur, just prior to nuclear extrusion?",
+    "answers": [
+      {
+        "option": "Proerythroblast",
+        "bool": false
+      },
+      {
+        "option": "Orthochromatic erythroblast",
+        "bool": true
+      },
+      {
+        "option": "Reticulocyte",
+        "bool": false
+      },
+      {
+        "option": "Polychromatophilic erythroblast",
+        "bool": false
+      },
+      {
+        "option": "Basophilic erythroblast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "1st-year/blood/2026",
+    "question": "In which part of the small intestine does dietary iron absorption predominantly occur?",
+    "answers": [
+      {
+        "option": "Stomach",
+        "bool": false
+      },
+      {
+        "option": "Duodenum",
+        "bool": true
+      },
+      {
+        "option": "Jejunum",
+        "bool": false
+      },
+      {
+        "option": "Colon",
+        "bool": false
+      },
+      {
+        "option": "Ileum",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "1st-year/blood/2026",
+    "question": "A patient with a parasitic infection shows increased circulating granulocytes on blood smear. Which granule contents are most likely to be elevated?",
+    "answers": [
+      {
+        "option": "Perforin and granzyme",
+        "bool": false
+      },
+      {
+        "option": "Major basic protein (from eosinophils)",
+        "bool": true
+      },
+      {
+        "option": "Lysozyme (from neutrophils)",
+        "bool": false
+      },
+      {
+        "option": "Histamine and heparin (from basophils)",
+        "bool": false
+      },
+      {
+        "option": "Myeloperoxidase (from neutrophils)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/blood/2026",
+    "question": "What is the main site of erythropoietin production in adults?",
+    "answers": [
+      {
+        "option": "Kidney (peritubular interstitial cells)",
+        "bool": true
+      },
+      {
+        "option": "Bone marrow",
+        "bool": false
+      },
+      {
+        "option": "Lung",
+        "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Liver",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "1st-year/blood/2026",
+    "question": "Antibodies (immunoglobulins) primarily bind to and neutralize which type of pathogen?",
+    "answers": [
+      {
+        "option": "Host self-antigens",
+        "bool": false
+      },
+      {
+        "option": "Fungal spores exclusively",
+        "bool": false
+      },
+      {
+        "option": "Viruses replicating inside host cells",
+        "bool": false
+      },
+      {
+        "option": "Extracellular bacteria and toxins",
+        "bool": true
+      },
+      {
+        "option": "Intracellular pathogens directly",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "1st-year/blood/2026",
+    "question": "Deposition of antigen-antibody complexes with neutrophilic infiltration occurring days after administration of a foreign serum (e.g., antitoxin) describes which condition?",
+    "answers": [
+      {
+        "option": "Serum sickness (Type III hypersensitivity)",
+        "bool": true
+      },
+      {
+        "option": "Type II hypersensitivity",
+        "bool": false
+      },
+      {
+        "option": "Type I hypersensitivity (anaphylaxis)",
+        "bool": false
+      },
+      {
+        "option": "Type V hypersensitivity",
+        "bool": false
+      },
+      {
+        "option": "Type IV hypersensitivity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "1st-year/blood/2026",
+    "question": "Vitamin K is required for the gamma-carboxylation (and hence activation) of which clotting factors?",
+    "answers": [
+      {
+        "option": "Factors VIII, IX, XI, and XII",
+        "bool": false
+      },
+      {
+        "option": "Factors II, VII, IX, and X",
+        "bool": true
+      },
+      {
+        "option": "Factors VII, VIII, IX, and X",
+        "bool": false
+      },
+      {
+        "option": "Factors I, II, V, and VIII",
+        "bool": false
+      },
+      {
+        "option": "Factors II, V, VII, and X",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "1st-year/blood/2026",
+    "question": "The overall process by which white blood cells move from the intravascular space into the interstitial tissue (margination, adhesion, and passage through the vessel wall) is called:",
+    "answers": [
+      {
+        "option": "Extravasation",
+        "bool": true
+      },
+      {
+        "option": "Chemotaxis alone",
+        "bool": false
+      },
+      {
+        "option": "Phagocytosis",
+        "bool": false
+      },
+      {
+        "option": "Degranulation",
+        "bool": false
+      },
+      {
+        "option": "Opsonization",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "1st-year/blood/2026",
+    "question": "A neutrophil successfully phagocytoses a foreign organism but fails to kill it due to a defect in one specific function. Which function is most likely impaired?",
+    "answers": [
+      {
+        "option": "Opsonization",
+        "bool": false
+      },
+      {
+        "option": "Initial phagocytosis itself",
+        "bool": false
+      },
+      {
+        "option": "Release of reactive oxygen species (respiratory burst)",
+        "bool": true
+      },
+      {
+        "option": "Adhesion to endothelium",
+        "bool": false
+      },
+      {
+        "option": "Chemotaxis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "1st-year/blood/2026",
+    "question": "A healthy 45-year-old woman, who had previously tolerated a medication without issue, develops an immediate adverse immune reaction on re-exposure. What type of hypersensitivity reaction is this?",
+    "answers": [
+      {
+        "option": "Type III (immune complex-mediated)",
+        "bool": false
+      },
+      {
+        "option": "Type II (antibody-mediated cytotoxic)",
+        "bool": false
+      },
+      {
+        "option": "Type V (receptor-stimulating)",
+        "bool": false
+      },
+      {
+        "option": "Type I (IgE-mediated)",
+        "bool": true
+      },
+      {
+        "option": "Type IV (cell-mediated)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "1st-year/blood/2026",
+    "question": "T cells that escape negative selection (central tolerance) in the thymus will most likely do what?",
+    "answers": [
+      {
+        "option": "Automatically become regulatory T cells",
+        "bool": false
+      },
+      {
+        "option": "Undergo peripheral anergy in all cases",
+        "bool": false
+      },
+      {
+        "option": "Remain permanently inactive",
+        "bool": false
+      },
+      {
+        "option": "Elicit an autoimmune response if activated in the periphery",
+        "bool": true
+      },
+      {
+        "option": "Undergo spontaneous apoptosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "1st-year/blood/2026",
+    "question": "A 52-year-old man presents with progressive fatigue and confusion. Hb is 8.9 g/dL and MCV is 119 fL. Peripheral smear shows macro-ovalocytes and hypersegmented neutrophils. What is the primary defect in erythropoiesis in this condition?",
+    "answers": [
+      {
+        "option": "Excessive synthesis of hemoglobin",
+        "bool": false
+      },
+      {
+        "option": "Lack of nuclear division (maturation) in erythroblasts due to impaired DNA synthesis",
+        "bool": true
+      },
+      {
+        "option": "Failure to extrude the nucleus in the mature erythrocyte",
+        "bool": false
+      },
+      {
+        "option": "Defective globin chain synthesis",
+        "bool": false
+      },
+      {
+        "option": "Decreased red blood cell precursor proliferation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "1st-year/blood/2026",
+    "question": "A 27-year-old woman presents with weakness, dizziness, fatigue, and blackouts for 3 months, with heavy menstrual bleeding lasting 8–9 days each cycle. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Aplastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Iron deficiency anemia",
+        "bool": true
+      },
+      {
+        "option": "Thalassemia",
+        "bool": false
+      },
+      {
+        "option": "Megaloblastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Anemia of chronic disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "1st-year/blood/2026",
+    "question": "What is a characteristic outcome of acute suppurative inflammation?",
+    "answers": [
+      {
+        "option": "Abscess formation",
+        "bool": true
+      },
+      {
+        "option": "Caseous necrosis",
+        "bool": false
+      },
+      {
+        "option": "Resolution without any residue",
+        "bool": false
+      },
+      {
+        "option": "Granuloma formation",
+        "bool": false
+      },
+      {
+        "option": "Fibrosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "1st-year/blood/2026",
+    "question": "West African sleeping sickness is transmitted by which vector?",
+    "answers": [
+      {
+        "option": "Black fly",
+        "bool": false
+      },
+      {
+        "option": "Tsetse fly",
+        "bool": true
+      },
+      {
+        "option": "Sandfly",
+        "bool": false
+      },
+      {
+        "option": "Female Anopheles mosquito",
+        "bool": false
+      },
+      {
+        "option": "Reduviid bug",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "1st-year/blood/2026",
+    "question": "Kala-azar (visceral leishmaniasis), caused by Leishmania donovani, is transmitted by which vector?",
+    "answers": [
+      {
+        "option": "Tsetse fly",
+        "bool": false
+      },
+      {
+        "option": "Reduviid (kissing) bug",
+        "bool": false
+      },
+      {
+        "option": "Tick",
+        "bool": false
+      },
+      {
+        "option": "Sandfly",
+        "bool": true
+      },
+      {
+        "option": "Female Anopheles mosquito",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "1st-year/blood/2026",
+    "question": "West African sleeping sickness is caused by which protozoan?",
+    "answers": [
+      {
+        "option": "Trypanosoma cruzi",
+        "bool": false
+      },
+      {
+        "option": "Trypanosoma brucei rhodesiense",
+        "bool": false
+      },
+      {
+        "option": "Plasmodium falciparum",
+        "bool": false
+      },
+      {
+        "option": "Leishmania donovani",
+        "bool": false
+      },
+      {
+        "option": "Trypanosoma brucei gambiense",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "1st-year/blood/2026",
+    "question": "Sterilization that destroys all microbes, including spores, is most reliably achieved by which method?",
+    "answers": [
+      {
+        "option": "Autoclaving",
+        "bool": true
+      },
+      {
+        "option": "Boiling water at 100°C",
+        "bool": false
+      },
+      {
+        "option": "Alcohol immersion",
+        "bool": false
+      },
+      {
+        "option": "Pasteurization",
+        "bool": false
+      },
+      {
+        "option": "UV radiation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "1st-year/blood/2026",
+    "question": "The complete destruction of all forms of microbial life, including bacterial spores, is termed:",
+    "answers": [
+      {
+        "option": "Sanitization",
+        "bool": false
+      },
+      {
+        "option": "Sterilization",
+        "bool": true
+      },
+      {
+        "option": "Disinfection",
+        "bool": false
+      },
+      {
+        "option": "Antisepsis",
+        "bool": false
+      },
+      {
+        "option": "Pasteurization",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "1st-year/blood/2026",
+    "question": "Unilateral swelling of the eyelid (Romaña's sign) following an insect bite is characteristic of which parasitic disease?",
+    "answers": [
+      {
+        "option": "African sleeping sickness",
+        "bool": false
+      },
+      {
+        "option": "Toxoplasmosis",
+        "bool": false
+      },
+      {
+        "option": "Malaria",
+        "bool": false
+      },
+      {
+        "option": "Chagas disease (Trypanosoma cruzi)",
+        "bool": true
+      },
+      {
+        "option": "Leishmaniasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "1st-year/blood/2026",
+    "question": "Which microscopic feature is the most specific and reliable indicator that a neoplasm is malignant rather than benign?",
+    "answers": [
+      {
+        "option": "Invasion into surrounding tissue",
+        "bool": true
+      },
+      {
+        "option": "Presence of a fibrous capsule",
+        "bool": false
+      },
+      {
+        "option": "Slow growth rate",
+        "bool": false
+      },
+      {
+        "option": "Cellular pleomorphism",
+        "bool": false
+      },
+      {
+        "option": "Increased nuclear-to-cytoplasmic ratio",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "1st-year/blood/2026",
+    "question": "A chest X-ray shows a coin-sized lesion in the mediastinum. Which feature would indicate that this lesion is a neoplasm rather than a granuloma?",
+    "answers": [
+      {
+        "option": "Presence of central caseation",
+        "bool": false
+      },
+      {
+        "option": "Growth arrested by the immune response",
+        "bool": false
+      },
+      {
+        "option": "Well-defined, calcified margins",
+        "bool": false
+      },
+      {
+        "option": "Presence of multinucleated giant cells",
+        "bool": false
+      },
+      {
+        "option": "Autonomous (uncontrolled) growth",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "1st-year/blood/2026",
+    "question": "What is the standard time–temperature combination for moist heat (autoclave) sterilization of surgical instruments?",
+    "answers": [
+      {
+        "option": "134°C for 3 minutes",
+        "bool": false
+      },
+      {
+        "option": "121°C for 15 minutes",
+        "bool": true
+      },
+      {
+        "option": "100°C for 30 minutes",
+        "bool": false
+      },
+      {
+        "option": "160°C for 60 minutes",
+        "bool": false
+      },
+      {
+        "option": "121°C for 30 minutes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "1st-year/blood/2026",
+    "question": "Which mediator is primarily responsible for the immediate, transient increase in vascular permeability during acute inflammation (via endothelial cell contraction)?",
+    "answers": [
+      {
+        "option": "Prostacyclin",
+        "bool": false
+      },
+      {
+        "option": "Bradykinin",
+        "bool": false
+      },
+      {
+        "option": "Histamine",
+        "bool": true
+      },
+      {
+        "option": "C3b",
+        "bool": false
+      },
+      {
+        "option": "Leukotrienes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "1st-year/blood/2026",
+    "question": "Which class of immunoglobulin is able to cross the placenta and provide passive immunity to the fetus?",
+    "answers": [
+      {
+        "option": "IgG",
+        "bool": true
+      },
+      {
+        "option": "IgD",
+        "bool": false
+      },
+      {
+        "option": "IgE",
+        "bool": false
+      },
+      {
+        "option": "IgA",
+        "bool": false
+      },
+      {
+        "option": "IgM",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "info": "1st-year/blood/2026",
+    "question": "Which complement fragment is primarily responsible for opsonization of pathogens, enhancing phagocytosis?",
+    "answers": [
+      {
+        "option": "C5",
+        "bool": false
+      },
+      {
+        "option": "C3a",
+        "bool": false
+      },
+      {
+        "option": "C1q",
+        "bool": false
+      },
+      {
+        "option": "C4b",
+        "bool": false
+      },
+      {
+        "option": "C3b",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "1st-year/blood/2026",
+    "question": "Marfan syndrome, caused by a mutation in the fibrillin-1 (FBN1) gene follows which pattern of inheritance?",
+    "answers": [
+      {
+        "option": "Y-linked",
+        "bool": false
+      },
+      {
+        "option": "Autosomal recessive",
+        "bool": false
+      },
+      {
+        "option": "Autosomal dominant",
+        "bool": true
+      },
+      {
+        "option": "Mitochondrial",
+        "bool": false
+      },
+      {
+        "option": "X-linked recessive",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "1st-year/blood/2026",
+    "question": "A 12-year-old boy develops joint swelling and deep tissue bleeding after a minor cut. Investigations show normal bleeding time, normal PT, and prolonged aPTT. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Disseminated intravascular coagulation",
+        "bool": false
+      },
+      {
+        "option": "Von Willebrand disease",
+        "bool": false
+      },
+      {
+        "option": "Hemophilia (Factor VIII/IX deficiency)",
+        "bool": true
+      },
+      {
+        "option": "Vitamin K deficiency",
+        "bool": false
+      },
+      {
+        "option": "Immune thrombocytopenic purpura",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "1st-year/blood/2026",
+    "question": "Delayed-type hypersensitivity reactions are primarily mediated by which mechanism?",
+    "answers": [
+      {
+        "option": "Antigen-antibody immune complexes",
+        "bool": false
+      },
+      {
+        "option": "T cell-mediated (Type IV) response",
+        "bool": true
+      },
+      {
+        "option": "NK cell-mediated cytotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Complement-mediated lysis",
+        "bool": false
+      },
+      {
+        "option": "IgE-mediated mast cell degranulation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "info": "1st-year/blood/2026",
+    "question": "Which type of granulomatous inflammation is characteristically suppurative (pus-forming)?",
+    "answers": [
+      {
+        "option": "Tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Foreign body reaction",
+        "bool": false
+      },
+      {
+        "option": "Syphilis (gumma)",
+        "bool": false
+      },
+      {
+        "option": "Deep fungal infection",
+        "bool": true
+      },
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "info": "1st-year/blood/2026",
+    "question": "Which immunoglobulin is characteristically produced first in a primary immune response?",
+    "answers": [
+      {
+        "option": "IgD",
+        "bool": false
+      },
+      {
+        "option": "IgM",
+        "bool": true
+      },
+      {
+        "option": "IgA",
+        "bool": false
+      },
+      {
+        "option": "IgE",
+        "bool": false
+      },
+      {
+        "option": "IgG",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "info": "1st-year/blood/2026",
+    "question": "Which immunoglobulin isotype is present as the primary antigen receptor (BCR) on the surface of naïve B cells?",
+    "answers": [
+      {
+        "option": "Monomeric IgG",
+        "bool": false
+      },
+      {
+        "option": "Pentameric IgM",
+        "bool": false
+      },
+      {
+        "option": "Monomeric IgA",
+        "bool": false
+      },
+      {
+        "option": "Dimeric IgA",
+        "bool": false
+      },
+      {
+        "option": "Monomeric IgM (with IgD)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "info": "1st-year/blood/2026",
+    "question": "A patient with fever, weight loss, and a malar rash is diagnosed with systemic lupus erythematosus (SLE). Which type of hypersensitivity reaction is primarily responsible for the tissue damage?",
+    "answers": [
+      {
+        "option": "Type II (antibody-mediated cytotoxicity)",
+        "bool": false
+      },
+      {
+        "option": "Type I (IgE-mediated)",
+        "bool": false
+      },
+      {
+        "option": "Type III (immune complex-mediated)",
+        "bool": true
+      },
+      {
+        "option": "Type IV (cell-mediated/delayed)",
+        "bool": false
+      },
+      {
+        "option": "Type V (receptor-stimulating)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "1st-year/blood/2026",
+    "question": "A boy who received a hepatitis B vaccine 6 months earlier is given a booster and mounts a rapid response with IgG antibodies. What best explains this rapid response?",
+    "answers": [
+      {
+        "option": "It is a purely cell-mediated response",
+        "bool": false
+      },
+      {
+        "option": "T-cell independent antigen response",
+        "bool": false
+      },
+      {
+        "option": "Rapid proliferation and differentiation of memory B cells",
+        "bool": true
+      },
+      {
+        "option": "It is a naïve B cell response",
+        "bool": false
+      },
+      {
+        "option": "Innate immune response only",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "1st-year/blood/2026",
+    "question": "Which cytokine, secreted by T cells, is primarily responsible for activating macrophages?",
+    "answers": [
+      {
+        "option": "Interleukin-1 (IL-1)",
+        "bool": false
+      },
+      {
+        "option": "Interferon-gamma (IFN-γ)",
+        "bool": true
+      },
+      {
+        "option": "Tumor necrosis factor-alpha (TNF-α)",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-4 (IL-4)",
+        "bool": false
+      },
+      {
+        "option": "Interleukin-2 (IL-2)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "1st-year/blood/2026",
+    "question": "An embolus is best defined as:",
+    "answers": [
+      {
+        "option": "A localized area of ischemic tissue necrosis",
+        "bool": false
+      },
+      {
+        "option": "A detached intravascular mass carried by the blood to a site distant from its origin",
+        "bool": true
+      },
+      {
+        "option": "A fixed blood clot within an intact vessel",
+        "bool": false
+      },
+      {
+        "option": "An abnormal accumulation of fluid in the interstitial tissue",
+        "bool": false
+      },
+      {
+        "option": "An area of chronic granulomatous inflammation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "info": "1st-year/blood/2026",
+    "question": "Thrombosis is best defined as:",
+    "answers": [
+      {
+        "option": "Detachment of a clot that then travels in the blood",
+        "bool": false
+      },
+      {
+        "option": "Formation of fibrin only in extravascular tissue",
+        "bool": false
+      },
+      {
+        "option": "Platelet aggregation without any fibrin deposition",
+        "bool": false
+      },
+      {
+        "option": "Formation of a blood clot within an intact (non-transected) vessel",
+        "bool": true
+      },
+      {
+        "option": "Complete occlusion of a vessel by air",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "1st-year/blood/2026",
+    "question": "What is considered the gold standard diagnostic test for malaria?",
+    "answers": [
+      {
+        "option": "Serology (antibody) testing",
+        "bool": false
+      },
+      {
+        "option": "Thick and thin peripheral blood smear",
+        "bool": true
+      },
+      {
+        "option": "Rapid antigen detection test",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow biopsy",
+        "bool": false
+      },
+      {
+        "option": "PCR-based testing",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "info": "1st-year/blood/2026",
+    "question": "What is the most common underlying cause of pulmonary embolism?",
+    "answers": [
+      {
+        "option": "Arterial congestion",
+        "bool": false
+      },
+      {
+        "option": "Deep vein thrombosis (DVT)",
+        "bool": true
+      },
+      {
+        "option": "Air embolism",
+        "bool": false
+      },
+      {
+        "option": "Amniotic fluid embolism",
+        "bool": false
+      },
+      {
+        "option": "Fat embolism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "1st-year/blood/2026",
+    "question": "What is the most common type of embolism overall?",
+    "answers": [
+      {
+        "option": "Fat embolism",
+        "bool": false
+      },
+      {
+        "option": "Thromboembolism",
+        "bool": true
+      },
+      {
+        "option": "Air embolism",
+        "bool": false
+      },
+      {
+        "option": "Tumor embolism",
+        "bool": false
+      },
+      {
+        "option": "Amniotic fluid embolism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "1st-year/blood/2026",
+    "question": "What is the primary pathological mechanism responsible for the clinical symptoms of malaria?",
+    "answers": [
+      {
+        "option": "Splenic rupture",
+        "bool": false
+      },
+      {
+        "option": "Primary bone marrow suppression",
+        "bool": false
+      },
+      {
+        "option": "Lysis of infected red blood cells causing hemolytic anemia and cytokine release",
+        "bool": true
+      },
+      {
+        "option": "Direct liver failure from hepatocyte infection",
+        "bool": false
+      },
+      {
+        "option": "Direct invasion of the CNS by the parasite",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "1st-year/blood/2026",
+    "question": "Low hemoglobin with a normal MCV and a low reticulocyte count is most commonly caused by:",
+    "answers": [
+      {
+        "option": "Malaria-related hemolytic anemia",
+        "bool": false
+      },
+      {
+        "option": "Aplastic anemia",
+        "bool": true
+      },
+      {
+        "option": "Thalassemia trait",
+        "bool": false
+      },
+      {
+        "option": "Iron deficiency anemia",
+        "bool": false
+      },
+      {
+        "option": "Pernicious anemia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "1st-year/blood/2026",
+    "question": "A patient develops erythema, redness, and warmth immediately after antigen exposure; after 30 minutes, these findings are still present. Which mediator is most responsible for this prolonged reaction?",
+    "answers": [
+      {
+        "option": "Histamine",
+        "bool": false
+      },
+      {
+        "option": "C3a",
+        "bool": false
+      },
+      {
+        "option": "Bradykinin",
+        "bool": true
+      },
+      {
+        "option": "Interleukin-1",
+        "bool": false
+      },
+      {
+        "option": "Prostaglandin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "1st-year/blood/2026",
+    "question": "An antigen is engulfed into a vesicle, processed, and then presented on the cell surface to CD4+ T helper cells. Which molecule presents the antigen?",
+    "answers": [
+      {
+        "option": "MHC class II",
+        "bool": true
+      },
+      {
+        "option": "MHC class I",
+        "bool": false
+      },
+      {
+        "option": "CD8",
+        "bool": false
+      },
+      {
+        "option": "TCR alone",
+        "bool": false
+      },
+      {
+        "option": "CD3",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "info": "1st-year/blood/2026",
+    "question": "Epidemiological studies show that people living in Japan have a markedly higher incidence of cancer of which organ?",
+    "answers": [
+      {
+        "option": "Colon",
+        "bool": false
+      },
+      {
+        "option": "Lung",
+        "bool": false
+      },
+      {
+        "option": "Uterus",
+        "bool": false
+      },
+      {
+        "option": "Stomach",
+        "bool": true
+      },
+      {
+        "option": "Breast",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "info": "1st-year/blood/2026",
+    "question": "A patient presents with dark urine after oxidative stress (e.g., certain drugs or fava beans), with red blood cells shown to be prone to oxidative damage. Which enzyme deficiency is most likely responsible?",
+    "answers": [
+      {
+        "option": "Hereditary spherocytosis (spectrin defect)",
+        "bool": false
+      },
+      {
+        "option": "Sickle cell disease",
+        "bool": false
+      },
+      {
+        "option": "Alpha-thalassemia",
+        "bool": false
+      },
+      {
+        "option": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency",
+        "bool": true
+      },
+      {
+        "option": "Pyruvate kinase deficiency",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "1st-year/blood/2026",
+    "question": "A child has a germline mutation in one allele of a tumor suppressor gene present since before birth. After birth, a second, sporadic point mutation inactivates the remaining allele in a retinal cell, causing uncontrolled proliferation. This 'two-hit' mechanism is classically associated with which tumor?",
+    "answers": [
+      {
+        "option": "Retinoblastoma",
+        "bool": true
+      },
+      {
+        "option": "Leukemia",
+        "bool": false
+      },
+      {
+        "option": "Neuroblastoma",
+        "bool": false
+      },
+      {
+        "option": "Wilms tumor",
+        "bool": false
+      },
+      {
+        "option": "Lymphoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "1st-year/blood/2026",
+    "question": "Extravascular hemolysis of red blood cells in the spleen occurs primarily due to which RBC abnormality?",
+    "answers": [
+      {
+        "option": "Excess hemoglobin S polymerization only",
+        "bool": false
+      },
+      {
+        "option": "Increased osmotic fragility alone",
+        "bool": false
+      },
+      {
+        "option": "Mechanical fragmentation in the microvasculature",
+        "bool": false
+      },
+      {
+        "option": "Direct complement-mediated lysis",
+        "bool": false
+      },
+      {
+        "option": "Loss of RBC flexibility",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "1st-year/blood/2026",
+    "question": "A patient develops nosebleeds and increased bleeding after starting warfarin therapy, with a prolonged PT/INR. Which agent is used to reverse this effect?",
+    "answers": [
+      {
+        "option": "Protamine sulfate",
+        "bool": false
+      },
+      {
+        "option": "Tranexamic acid",
+        "bool": false
+      },
+      {
+        "option": "Heparin",
+        "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": true
+      },
+      {
+        "option": "Platelet transfusion alone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "1st-year/blood/2026",
+    "question": "In iron deficiency, which laboratory change occurs earliest, before the onset of overt anemia?",
+    "answers": [
+      {
+        "option": "Decreased MCV and MCH",
+        "bool": false
+      },
+      {
+        "option": "Reduced ferritin and reduced transferrin saturation",
+        "bool": true
+      },
+      {
+        "option": "Increased red cell distribution width alone",
+        "bool": false
+      },
+      {
+        "option": "Decreased RBC count",
+        "bool": false
+      },
+      {
+        "option": "Reduced hemoglobin and hematocrit",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "1st-year/blood/2026",
+    "question": "A mother has no significant fetal hemolysis in her first Rh-incompatible pregnancy, but the newborn develops severe hemolytic disease in the second pregnancy. What best explains this difference?",
+    "answers": [
+      {
+        "option": "Rapid activation and clonal expansion of memory B cells producing high-affinity IgG antibodies",
+        "bool": true
+      },
+      {
+        "option": "Immediate release of pre-formed natural antibodies causing rapid fetal RBC destruction",
+        "bool": false
+      },
+      {
+        "option": "Failure of placental transfer of maternal antibodies during the second pregnancy",
+        "bool": false
+      },
+      {
+        "option": "A shift from IgM to IgA antibodies preventing effective hemolysis in the first pregnancy",
+        "bool": false
+      },
+      {
+        "option": "Suppression of the maternal immune system by fetal regulatory T cells in the first pregnancy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "info": "1st-year/blood/2026",
+    "question": "A patient with a history of similar episodes develops anemia-like symptoms (pain crisis, fatigue) after exposure to high altitude. What is the underlying mechanism responsible for the acute symptoms?",
+    "answers": [
+      {
+        "option": "Increased RBC membrane cholesterol",
+        "bool": false
+      },
+      {
+        "option": "Left shift of the oxygen dissociation curve",
+        "bool": false
+      },
+      {
+        "option": "Autoimmune hemolysis",
+        "bool": false
+      },
+      {
+        "option": "Hemoglobin (HbS) polymerization",
+        "bool": true
+      },
+      {
+        "option": "Reduced red blood cell precursor proliferation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "info": "1st-year/blood/2026",
+    "question": "In erythroblastosis fetalis (Rh incompatibility), destruction of fetal red blood cells is primarily mediated by which mechanism?",
+    "answers": [
+      {
+        "option": "Direct mechanical destruction in the placenta",
+        "bool": false
+      },
+      {
+        "option": "Complement system activation following IgG binding to fetal RBCs",
+        "bool": true
+      },
+      {
+        "option": "T cell-mediated cytotoxic killing",
+        "bool": false
+      },
+      {
+        "option": "IgE-mediated mast cell degranulation",
+        "bool": false
+      },
+      {
+        "option": "Antigen-antibody complex deposition in tissues",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "info": "1st-year/blood/2026",
+    "question": "A 45-year-old man with a history of alcoholism presents with dark urine, blistering, and skin fragility that worsens with sun exposure. What is the likely diagnosis?",
+    "answers": [
+      {
+        "option": "Hereditary coproporphyria",
+        "bool": false
+      },
+      {
+        "option": "Variegate porphyria",
+        "bool": false
+      },
+      {
+        "option": "Porphyria cutanea tarda",
+        "bool": true
+      },
+      {
+        "option": "Erythropoietic porphyria",
+        "bool": false
+      },
+      {
+        "option": "Acute intermittent porphyria",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "1st-year/blood/2026",
+    "question": "What is the main physiological function of hemoglobin?",
+    "answers": [
+      {
+        "option": "Oxygen transport",
+        "bool": true
+      },
+      {
+        "option": "Antioxidant defense only",
+        "bool": false
+      },
+      {
+        "option": "Buffering of blood pH only",
+        "bool": false
+      },
+      {
+        "option": "Carbon dioxide transport only",
+        "bool": false
+      },
+      {
+        "option": "Iron storage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "info": "1st-year/blood/2026",
+    "question": "A patient with abdominal pain and neuropsychiatric symptoms is diagnosed with acute intermittent porphyria. Which enzyme is deficient?",
+    "answers": [
+      {
+        "option": "Uroporphyrinogen III synthase",
+        "bool": false
+      },
+      {
+        "option": "Porphobilinogen deaminase",
+        "bool": true
+      },
+      {
+        "option": "Ferrochelatase",
+        "bool": false
+      },
+      {
+        "option": "ALA synthase",
+        "bool": false
+      },
+      {
+        "option": "Uroporphyrinogen decarboxylase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "info": "1st-year/blood/2026",
+    "question": "Fetal hemoglobin (HbF) has a higher affinity for oxygen than adult hemoglobin (HbA) primarily because:",
+    "answers": [
+      {
+        "option": "HbF has a higher iron content",
+        "bool": false
+      },
+      {
+        "option": "HbF contains beta chains, unlike HbA",
+        "bool": false
+      },
+      {
+        "option": "HbF binds 2,3-BPG more strongly than HbA",
+        "bool": false
+      },
+      {
+        "option": "HbF has a lower molecular weight",
+        "bool": false
+      },
+      {
+        "option": "HbF binds 2,3-BPG more weakly than HbA",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "info": "1st-year/blood/2026",
+    "question": "Since mature red blood cells lack mitochondria, they rely on which process to generate ATP?",
+    "answers": [
+      {
+        "option": "The Krebs (citric acid) cycle",
+        "bool": false
+      },
+      {
+        "option": "Ketogenesis",
+        "bool": false
+      },
+      {
+        "option": "Anaerobic glycolysis",
+        "bool": true
+      },
+      {
+        "option": "Beta-oxidation of fatty acids",
+        "bool": false
+      },
+      {
+        "option": "Oxidative phosphorylation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "info": "1st-year/blood/2026",
+    "question": "An increased HbA2 fraction on hemoglobin electrophoresis suggests a defect in the synthesis of which globin chain?",
+    "answers": [
+      {
+        "option": "Epsilon chain",
+        "bool": false
+      },
+      {
+        "option": "Beta chain",
+        "bool": true
+      },
+      {
+        "option": "Delta chain",
+        "bool": false
+      },
+      {
+        "option": "Alpha chain",
+        "bool": false
+      },
+      {
+        "option": "Gamma chain",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "1st-year/blood/2026",
+    "question": "Which enzyme is responsible for conjugating bilirubin with glucuronic acid in the liver?",
+    "answers": [
+      {
+        "option": "Heme oxygenase",
+        "bool": false
+      },
+      {
+        "option": "Biliverdin reductase",
+        "bool": false
+      },
+      {
+        "option": "ALA synthase",
+        "bool": false
+      },
+      {
+        "option": "UDP-glucuronosyltransferase",
+        "bool": true
+      },
+      {
+        "option": "Ferrochelatase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "1st-year/blood/2026",
+    "question": "A peripheral blood smear shows hypersegmented neutrophils, a high MCV, and low hemoglobin. This is most commonly caused by deficiency of:",
+    "answers": [
+      {
+        "option": "Copper",
+        "bool": false
+      },
+      {
+        "option": "Iron",
+        "bool": false
+      },
+      {
+        "option": "Vitamin C",
+        "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": false
+      },
+      {
+        "option": "Vitamin B12 or folate",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "info": "1st-year/blood/2026",
+    "question": "Which of the following correctly matches a vitamin with its function relevant to hematopoiesis/coagulation?",
+    "answers": [
+      {
+        "option": "Vitamin B12 — heme synthesis only",
+        "bool": false
+      },
+      {
+        "option": "Vitamin C — clotting factor synthesis",
+        "bool": false
+      },
+      {
+        "option": "Folate — synthesis of intrinsic factor",
+        "bool": false
+      },
+      {
+        "option": "Vitamin K — carboxylation of clotting factors",
+        "bool": true
+      },
+      {
+        "option": "Vitamin B6 — one-carbon transfer",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "info": "1st-year/blood/2026",
+    "question": "On serum protein electrophoresis, circulating antibodies are found predominantly in which fraction?",
+    "answers": [
+      {
+        "option": "Beta globulins",
+        "bool": false
+      },
+      {
+        "option": "Fibrinogen",
+        "bool": false
+      },
+      {
+        "option": "Alpha globulins",
+        "bool": false
+      },
+      {
+        "option": "Gamma globulins",
+        "bool": true
+      },
+      {
+        "option": "Albumin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "1st-year/blood/2026",
+    "question": "What type of bond primarily stabilizes the quaternary structure of immunoglobulins (linking heavy and light chains)?",
+    "answers": [
+      {
+        "option": "Disulfide bonds",
+        "bool": true
+      },
+      {
+        "option": "Hydrogen bonds alone",
+        "bool": false
+      },
+      {
+        "option": "Van der Waals forces alone",
+        "bool": false
+      },
+      {
+        "option": "Ionic bonds alone",
+        "bool": false
+      },
+      {
+        "option": "Peptide bonds between chains",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "info": "1st-year/blood/2026",
+    "question": "Which substance, when it binds to deoxyhemoglobin, shifts the oxygen dissociation curve to the right and increases oxygen delivery to tissues?",
+    "answers": [
+      {
+        "option": "G6PD",
+        "bool": false
+      },
+      {
+        "option": "Carbon monoxide",
+        "bool": false
+      },
+      {
+        "option": "Methemoglobin",
+        "bool": false
+      },
+      {
+        "option": "Carbonic anhydrase",
+        "bool": false
+      },
+      {
+        "option": "2,3-bisphosphoglycerate",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "info": "1st-year/blood/2026",
+    "question": "Which form of iron is best absorbed and most commonly used in oral iron supplements?",
+    "answers": [
+      {
+        "option": "Transferrin-bound iron",
+        "bool": false
+      },
+      {
+        "option": "Ferrous iron (Fe2+)",
+        "bool": true
+      },
+      {
+        "option": "Ferric iron (Fe3+)",
+        "bool": false
+      },
+      {
+        "option": "Ferritin-bound iron",
+        "bool": false
+      },
+      {
+        "option": "Heme-bound iron",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "info": "1st-year/blood/2026",
+    "question": "Which plasma protein is characteristically decreased in Wilson's disease?",
+    "answers": [
+      {
+        "option": "Ceruloplasmin",
+        "bool": true
+      },
+      {
+        "option": "Transferrin",
+        "bool": false
+      },
+      {
+        "option": "Fibrinogen",
+        "bool": false
+      },
+      {
+        "option": "Albumin",
+        "bool": false
+      },
+      {
+        "option": "Globulins (overall)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "info": "1st-year/blood/2026",
+    "question": "A girl presents with fatigue, exercise intolerance, and dizziness. Labs: Hb 8.7 g/dL, MCV 68 fL, low serum ferritin, and high TIBC. What is the classification of this anemia?",
+    "answers": [
+      {
+        "option": "Macrocytic hypochromic",
+        "bool": false
+      },
+      {
+        "option": "Microcytic normochromic",
+        "bool": false
+      },
+      {
+        "option": "Normocytic normochromic",
+        "bool": false
+      },
+      {
+        "option": "Microcytic hypochromic",
+        "bool": true
+      },
+      {
+        "option": "Macrocytic normochromic",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "1st-year/blood/2026",
+    "question": "A girl presents with fatigue, exercise intolerance, and dizziness. Labs: Hb 8.7 g/dL, MCV 68 fL, low serum ferritin, and high TIBC. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Beta-thalassemia",
+        "bool": false
+      },
+      {
+        "option": "Iron deficiency anemia",
+        "bool": true
+      },
+      {
+        "option": "Iron overload",
+        "bool": false
+      },
+      {
+        "option": "Sideroblastic anemia",
+        "bool": false
+      },
+      {
+        "option": "Defect in transferrin synthesis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "info": "1st-year/blood/2026",
+    "question": "A girl presents with fatigue, exercise intolerance, and dizziness. Labs: Hb 8.7 g/dL, MCV 68 fL, low serum ferritin, and high TIBC. What physiologic response would the body attempt to mount in this condition?",
+    "answers": [
+      {
+        "option": "Decrease in reticulocyte count",
+        "bool": false
+      },
+      {
+        "option": "Suppression of erythropoietin",
+        "bool": false
+      },
+      {
+        "option": "Increase in reticulocyte count",
+        "bool": true
+      },
+      {
+        "option": "Immediate increase in hemoglobin without reticulocytosis",
+        "bool": false
+      },
+      {
+        "option": "No change in reticulocyte count",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "info": "1st-year/blood/2026",
+    "question": "A girl presents with fatigue, exercise intolerance, and dizziness. Labs: Hb 8.7 g/dL, MCV 68 fL, low serum ferritin, and high TIBC. How does the cardiovascular system compensate for the reduced oxygen-carrying capacity in this chronic anemia?",
+    "answers": [
+      {
+        "option": "Increased blood viscosity",
+        "bool": false
+      },
+      {
+        "option": "Decreased stroke volume",
+        "bool": false
+      },
+      {
+        "option": "Increased cardiac output",
+        "bool": true
+      },
+      {
+        "option": "Decreased heart rate",
+        "bool": false
+      },
+      {
+        "option": "Decreased venous return",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "info": "1st-year/blood/2026",
+    "question": "A lymph node biopsy shows a region containing proliferating B cells surrounded by a mantle zone. Which part of the lymph node is being described?",
+    "answers": [
+      {
+        "option": "Subcapsular sinus",
+        "bool": false
+      },
+      {
+        "option": "Primary (unstimulated) follicle",
+        "bool": false
+      },
+      {
+        "option": "Paracortex",
+        "bool": false
+      },
+      {
+        "option": "Germinal center",
+        "bool": true
+      },
+      {
+        "option": "Medullary cords",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "info": "1st-year/blood/2026",
+    "question": "Histological examination of an organ reveals lobulation, a dark-staining cortex, a pale medulla, and concentric eosinophilic rings within the medulla. Which organ is this?",
+    "answers": [
+      {
+        "option": "Peyer's patch",
+        "bool": false
+      },
+      {
+        "option": "Tonsil",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow",
+        "bool": false
+      },
+      {
+        "option": "Thymus",
+        "bool": true
+      },
+      {
+        "option": "Lymph node",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "info": "1st-year/blood/2026",
+    "question": "The organ responsible for erythropoietin (EPO) release in fetal life differs from the organ responsible in adulthood. Which organ releases EPO during fetal life?",
+    "answers": [
+      {
+        "option": "Kidney",
+        "bool": false
+      },
+      {
+        "option": "Liver",
+        "bool": true
+      },
+      {
+        "option": "Yolk sac",
+        "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "info": "1st-year/blood/2026",
+    "question": "A vascular channel in the spleen is lined by elongated, rod-shaped endothelial cells with long, narrow intercellular gaps between spindle-like projections, densely surrounded by macrophages and reticular cells with high phagocytic activity. These channels make up the majority of the red pulp. What is being described?",
+    "answers": [
+      {
+        "option": "Splenic cord (of Billroth)",
+        "bool": false
+      },
+      {
+        "option": "Medullary sinus",
+        "bool": false
+      },
+      {
+        "option": "Afferent lymphatic sinus",
+        "bool": false
+      },
+      {
+        "option": "Subcapsular sinus",
+        "bool": false
+      },
+      {
+        "option": "Splenic venous sinus (sinusoid)",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "info": "1st-year/blood/2026",
+    "question": "In the spleen, a central arteriole is surrounded by a dense sheath of lymphocytes. What is this structure called?",
+    "answers": [
+      {
+        "option": "Splenic trabecula",
+        "bool": false
+      },
+      {
+        "option": "White pulp",
+        "bool": true
+      },
+      {
+        "option": "Red pulp",
+        "bool": false
+      },
+      {
+        "option": "Marginal zone",
+        "bool": false
+      },
+      {
+        "option": "Splenic cord",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "1st-year/blood/2026",
+    "question": "Failure of thymic development is most commonly associated with a defect in which embryonic structure?",
+    "answers": [
+      {
+        "option": "1st pharyngeal pouch",
+        "bool": false
+      },
+      {
+        "option": "4th pharyngeal pouch",
+        "bool": false
+      },
+      {
+        "option": "1st pharyngeal arch",
+        "bool": false
+      },
+      {
+        "option": "2nd pharyngeal pouch",
+        "bool": false
+      },
+      {
+        "option": "3rd pharyngeal pouch",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "info": "1st-year/blood/2026",
+    "question": "An organ has a capsule, germinal centers located peripherally (in the cortex), and medullary cords and medullary sinuses centrally. Which organ is this?",
+    "answers": [
+      {
+        "option": "Thymus",
+        "bool": false
+      },
+      {
+        "option": "Lymph node",
+        "bool": true
+      },
+      {
+        "option": "Peyer's patch",
+        "bool": false
+      },
+      {
+        "option": "Tonsil",
+        "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "info": "1st-year/blood/2026",
+    "question": "An organ shows stratified squamous non-keratinized epithelium that invaginates to form deep crypts, with underlying lymphoid follicles. Which organ is this?",
+    "answers": [
+      {
+        "option": "Peyer's patch",
+        "bool": false
+      },
+      {
+        "option": "Pharyngeal tonsil (adenoid)",
+        "bool": false
+      },
+      {
+        "option": "Palatine tonsil",
+        "bool": true
+      },
+      {
+        "option": "Lingual tonsil",
+        "bool": false
+      },
+      {
+        "option": "Thymus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "info": "1st-year/blood/2026",
+    "question": "Pseudostratified ciliated columnar epithelium is seen overlying markedly enlarged (hypertrophied) tonsillar tissue in the nasopharynx. Which tonsil is being described?",
+    "answers": [
+      {
+        "option": "Tubal tonsil",
+        "bool": false
+      },
+      {
+        "option": "Peyer's patch",
+        "bool": false
+      },
+      {
+        "option": "Lingual tonsil",
+        "bool": false
+      },
+      {
+        "option": "Palatine tonsil",
+        "bool": false
+      },
+      {
+        "option": "Pharyngeal tonsil",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "info": "1st-year/blood/2026",
+    "question": "A patient develops nosebleeds and increased bleeding after starting warfarin, with prolonged PT/INR. Which agent is used to treat this overdose?",
+    "answers": [
+      {
+        "option": "Heparin",
+        "bool": false
+      },
+      {
+        "option": "Fresh frozen plasma only",
+        "bool": false
+      },
+      {
+        "option": "Protamine sulfate",
+        "bool": false
+      },
+      {
+        "option": "Platelet transfusion",
+        "bool": false
+      },
+      {
+        "option": "Vitamin K",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "info": "1st-year/blood/2026",
+    "question": "Which of the following drugs is a direct thrombin inhibitor?",
+    "answers": [
+      {
+        "option": "Fondaparinux",
+        "bool": false
+      },
+      {
+        "option": "Warfarin",
+        "bool": false
+      },
+      {
+        "option": "Unfractionated heparin",
+        "bool": false
+      },
+      {
+        "option": "Clopidogrel",
+        "bool": false
+      },
+      {
+        "option": "Dabigatran",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "info": "1st-year/blood/2026",
+    "question": "Which of the following anticoagulants is an ORAL agent, making it unsuitable as a parenteral alternative to heparin?",
+    "answers": [
+      {
+        "option": "Fondaparinux",
+        "bool": false
+      },
+      {
+        "option": "Bivalirudin",
+        "bool": false
+      },
+      {
+        "option": "Lepirudin",
+        "bool": false
+      },
+      {
+        "option": "Warfarin",
+        "bool": true
+      },
+      {
+        "option": "Argatroban",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "info": "1st-year/blood/2026",
+    "question": "5-Fluorouracil, an anticancer drug that resembles thymine and disrupts DNA synthesis, belongs to which drug class?",
+    "answers": [
+      {
+        "option": "Mitotic inhibitors",
+        "bool": false
+      },
+      {
+        "option": "Anti-tumor antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Topoisomerase inhibitors",
+        "bool": false
+      },
+      {
+        "option": "Antimetabolites",
+        "bool": true
+      },
+      {
+        "option": "Alkylating agents",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "info": "1st-year/blood/2026",
+    "question": "Which drug increases platelet cyclic AMP (cAMP) levels via phosphodiesterase-3 inhibition, and is contraindicated in patients with heart failure?",
+    "answers": [
+      {
+        "option": "Warfarin",
+        "bool": false
+      },
+      {
+        "option": "Aspirin",
+        "bool": false
+      },
+      {
+        "option": "Unfractionated heparin",
+        "bool": false
+      },
+      {
+        "option": "Cilostazol",
+        "bool": true
+      },
+      {
+        "option": "Clopidogrel",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "info": "1st-year/blood/2026",
+    "question": "Which supplement is given during pregnancy specifically to prevent neural tube defects in the fetus?",
+    "answers": [
+      {
+        "option": "Iron",
+        "bool": false
+      },
+      {
+        "option": "Vitamin D",
+        "bool": false
+      },
+      {
+        "option": "Vitamin B12",
+        "bool": false
+      },
+      {
+        "option": "Folic acid",
+        "bool": true
+      },
+      {
+        "option": "Vitamin K",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "info": "1st-year/blood/2026",
+    "question": "Aspirin prevents platelet aggregation by blocking the synthesis of:",
+    "answers": [
+      {
+        "option": "Von Willebrand factor",
+        "bool": false
+      },
+      {
+        "option": "Leukotriene B4",
+        "bool": false
+      },
+      {
+        "option": "ADP",
+        "bool": false
+      },
+      {
+        "option": "Prostacyclin",
+        "bool": false
+      },
+      {
+        "option": "Thromboxane A2",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "info": "1st-year/blood/2026",
+    "question": "Which drug inhibits platelet aggregation by blocking ADP-mediated (P2Y12) platelet activation?",
+    "answers": [
+      {
+        "option": "Aspirin",
+        "bool": false
+      },
+      {
+        "option": "Abciximab",
+        "bool": false
+      },
+      {
+        "option": "Tirofiban",
+        "bool": false
+      },
+      {
+        "option": "Warfarin",
+        "bool": false
+      },
+      {
+        "option": "Clopidogrel",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "info": "1st-year/blood/2026",
+    "question": "Vitamin K acts as a cofactor for the carboxylation of which amino acid residues on clotting factors?",
+    "answers": [
+      {
+        "option": "Glutamate residues",
+        "bool": true
+      },
+      {
+        "option": "Arginine residues",
+        "bool": false
+      },
+      {
+        "option": "Proline residues",
+        "bool": false
+      },
+      {
+        "option": "Lysine residues",
+        "bool": false
+      },
+      {
+        "option": "Aspartate residues",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "info": "1st-year/blood/2026",
+    "question": "Which glycoprotein hormone analog is used to stimulate stem cells to divide and differentiate into red blood cells?",
+    "answers": [
+      {
+        "option": "Thrombopoietin analog",
+        "bool": false
+      },
+      {
+        "option": "Darbepoetin alfa (an erythropoietin analog)",
+        "bool": true
+      },
+      {
+        "option": "Interleukin-2",
+        "bool": false
+      },
+      {
+        "option": "Filgrastim (G-CSF)",
+        "bool": false
+      },
+      {
+        "option": "Interferon alfa",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "info": "1st-year/blood/2026",
+    "question": "A boy accidentally ingests a bottle of iron tablets, causing iron toxicity. Which antidote should be administered?",
+    "answers": [
+      {
+        "option": "N-acetylcysteine",
+        "bool": false
+      },
+      {
+        "option": "Physostigmine",
+        "bool": false
+      },
+      {
+        "option": "Atropine",
+        "bool": false
+      },
+      {
+        "option": "Deferoxamine",
+        "bool": true
+      },
+      {
+        "option": "Naloxone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "info": "1st-year/blood/2026",
+    "question": "In a patient with heparin-induced thrombocytopenia (HIT), which anticoagulant is appropriate to use instead of heparin?",
+    "answers": [
+      {
+        "option": "Unfractionated heparin at lower dose",
+        "bool": false
+      },
+      {
+        "option": "Bivalirudin",
+        "bool": true
+      },
+      {
+        "option": "Aspirin",
+        "bool": false
+      },
+      {
+        "option": "Warfarin",
+        "bool": false
+      },
+      {
+        "option": "Clopidogrel",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "info": "1st-year/blood/2026",
+    "question": "The threshold for diagnosing diabetes by fasting blood sugar was lowered from 105 mg/dL to 100 mg/dL. What effect does this have on the sensitivity and specificity of the test?",
+    "answers": [
+      {
+        "option": "The specificity decreases only",
+        "bool": false
+      },
+      {
+        "option": "The sensitivity increases only",
+        "bool": false
+      },
+      {
+        "option": "The sensitivity decreases only",
+        "bool": false
+      },
+      {
+        "option": "The sensitivity decreases and the specificity increases",
+        "bool": false
+      },
+      {
+        "option": "The specificity decreases and the sensitivity increases",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "info": "1st-year/blood/2026",
+    "question": "Which of the following is a defining characteristic of a normal (Gaussian) distribution curve?",
+    "answers": [
+      {
+        "option": "The total area under the curve is greater than 1",
+        "bool": false
+      },
+      {
+        "option": "It is asymmetrical (skewed)",
+        "bool": false
+      },
+      {
+        "option": "The mean, median, and mode are equal",
+        "bool": true
+      },
+      {
+        "option": "It will never include negative values",
+        "bool": false
+      },
+      {
+        "option": "The curve touches the x-axis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "info": "1st-year/blood/2026",
+    "question": "Mean blood pressure in a population is 120 mmHg with a standard deviation of ±10 mmHg. What is the range of blood pressure within ±1 SD of the mean?",
+    "answers": [
+      {
+        "option": "110–130 mmHg",
+        "bool": true
+      },
+      {
+        "option": "105–115 mmHg",
+        "bool": false
+      },
+      {
+        "option": "130–150 mmHg",
+        "bool": false
+      },
+      {
+        "option": "100–140 mmHg",
+        "bool": false
+      },
+      {
+        "option": "115–125 mmHg",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "info": "1st-year/blood/2026",
+    "question": "A screening test for breast cancer is said to have high specificity. What does this mean?",
+    "answers": [
+      {
+        "option": "The disease prevalence will appear higher",
+        "bool": false
+      },
+      {
+        "option": "Few false positives",
+        "bool": true
+      },
+      {
+        "option": "Few false negatives",
+        "bool": false
+      },
+      {
+        "option": "The test has high sensitivity as well",
+        "bool": false
+      },
+      {
+        "option": "The positive predictive value is always 100%",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "info": "1st-year/blood/2026",
+    "question": "A 24-year-old patient is evaluated for the belief that people around them are plotting against them. Physical examination and investigations reveal no medical illness, and the patient denies having any disease at all. Which component of the mental status examination is most clearly impaired?",
+    "answers": [
+      {
+        "option": "Memory",
+        "bool": false
+      },
+      {
+        "option": "Orientation",
+        "bool": false
+      },
+      {
+        "option": "Attention",
+        "bool": false
+      },
+      {
+        "option": "Judgment",
+        "bool": false
+      },
+      {
+        "option": "Insight",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "info": "1st-year/blood/2026",
+    "question": "Advising a pre-diabetic patient on diet and exercise to prevent progression to overt diabetes is an example of which level of prevention?",
+    "answers": [
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      },
+      {
+        "option": "Quaternary prevention",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primary prevention",
+        "bool": true
+      },
+      {
+        "option": "Tertiary prevention",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "info": "1st-year/blood/2026",
+    "question": "Approximately what percentage of values fall within ±2 standard deviations of the mean in a normal distribution?",
+    "answers": [
+      {
+        "option": "50%",
+        "bool": false
+      },
+      {
+        "option": "68%",
+        "bool": false
+      },
+      {
+        "option": "99.7%",
+        "bool": false
+      },
+      {
+        "option": "34%",
+        "bool": false
+      },
+      {
+        "option": "95%",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "info": "1st-year/blood/2026",
+    "question": "An epidemiologist enrolls 12 women with ovarian cancer and 12 healthy women and asks both groups about prior exposures. What type of study design is this?",
+    "answers": [
+      {
+        "option": "Cohort study",
+        "bool": false
+      },
+      {
+        "option": "Cross-sectional study",
+        "bool": false
+      },
+      {
+        "option": "Case-control study",
+        "bool": true
+      },
+      {
+        "option": "Ecological study",
+        "bool": false
+      },
+      {
+        "option": "Randomized controlled trial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "info": "1st-year/blood/2026",
+    "question": "Early diagnosis and prompt treatment of a disease is an example of which level of prevention?",
+    "answers": [
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      },
+      {
+        "option": "Tertiary prevention",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": true
+      },
+      {
+        "option": "Primary prevention",
+        "bool": false
+      },
+      {
+        "option": "Quaternary prevention",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "info": "1st-year/blood/2026",
+    "question": "A psychologist says to a patient, \"So you feel fatigued after just a few minutes of walking, even though you told me you used to run miles as an athlete without getting tired.\" What communication technique is being used?",
+    "answers": [
+      {
+        "option": "Confrontation",
+        "bool": false
+      },
+      {
+        "option": "Empathy",
+        "bool": false
+      },
+      {
+        "option": "Reflection",
+        "bool": true
+      },
+      {
+        "option": "Funneling",
+        "bool": false
+      },
+      {
+        "option": "Paraphrasing",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "info": "1st-year/blood/2026",
+    "question": "The spread (dispersion) of values around the mean in a normal distribution curve is best represented by:",
+    "answers": [
+      {
+        "option": "Median",
+        "bool": false
+      },
+      {
+        "option": "Mean",
+        "bool": false
+      },
+      {
+        "option": "Standard deviation",
+        "bool": true
+      },
+      {
+        "option": "Interquartile range",
+        "bool": false
+      },
+      {
+        "option": "Mode",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "info": "1st-year/blood/2026",
+    "question": "The range of values between the 75th and 25th percentile of a data set is called the:",
+    "answers": [
+      {
+        "option": "Total range",
+        "bool": false
+      },
+      {
+        "option": "Variance",
+        "bool": false
+      },
+      {
+        "option": "Interquartile range",
+        "bool": true
+      },
+      {
+        "option": "Median absolute deviation",
+        "bool": false
+      },
+      {
+        "option": "Standard deviation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "info": "1st-year/blood/2026",
+    "question": "The classic epidemiological triad of causation consists of:",
+    "answers": [
+      {
+        "option": "Cause, Effect, Confounder",
+        "bool": false
+      },
+      {
+        "option": "Time, Place, Person",
+        "bool": false
+      },
+      {
+        "option": "Sensitivity, Specificity, Prevalence",
+        "bool": false
+      },
+      {
+        "option": "Host, Agent, Environment",
+        "bool": true
+      },
+      {
+        "option": "Incidence, Prevalence, Risk",
+        "bool": false
+      }
+    ]
+  }
+]

@@ -1,17 +1,9 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "In which of the following conditions is vasopressin indicated?",
     "answers": [
-      {
-        "option": "Hypertension",
-        "bool": false
-      },
-      {
-        "option": "Diabetes mellitus",
-        "bool": false
-      },
       {
         "option": "Bronchospasm",
         "bool": false
@@ -23,16 +15,32 @@
       {
         "option": "Tachycardia",
         "bool": false
+      },
+      {
+        "option": "Diabetes mellitus",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Cytokines can act as which of the following?",
     "answers": [
       {
+        "option": "Paracrine + endocrine molecules only",
+        "bool": false
+      },
+      {
         "option": "Paracrine + autocrine molecules only",
+        "bool": false
+      },
+      {
+        "option": "Exocrine molecules",
         "bool": false
       },
       {
@@ -40,34 +48,18 @@
         "bool": true
       },
       {
-        "option": "Paracrine + endocrine molecules only",
-        "bool": false
-      },
-      {
         "option": "Paracrine molecules only",
-        "bool": false
-      },
-      {
-        "option": "Exocrine molecules",
         "bool": false
       }
     ]
   },
   {
     "id": 2,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Iodine uptake in thyroid cells takes place through which of the following?",
     "answers": [
       {
-        "option": "Sodium-iodide antiporter",
-        "bool": false
-      },
-      {
         "option": "Iodide-chloride symporter",
-        "bool": false
-      },
-      {
-        "option": "Potassium-iodide symporter",
         "bool": false
       },
       {
@@ -75,16 +67,36 @@
         "bool": true
       },
       {
+        "option": "Sodium-iodide antiporter",
+        "bool": false
+      },
+      {
         "option": "Potassium-iodide antiporter",
+        "bool": false
+      },
+      {
+        "option": "Potassium-iodide symporter",
         "bool": false
       }
     ]
   },
   {
     "id": 3,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Growth hormone-releasing hormone (GHRH) is released by which of the following structures?",
     "answers": [
+      {
+        "option": "Posterior pituitary",
+        "bool": false
+      },
+      {
+        "option": "Hypothalamus",
+        "bool": true
+      },
+      {
+        "option": "Anterior pituitary",
+        "bool": false
+      },
       {
         "option": "Pineal gland",
         "bool": false
@@ -92,32 +104,16 @@
       {
         "option": "Melanocytes",
         "bool": false
-      },
-      {
-        "option": "Posterior pituitary",
-        "bool": false
-      },
-      {
-        "option": "Anterior pituitary",
-        "bool": false
-      },
-      {
-        "option": "Hypothalamus",
-        "bool": true
       }
     ]
   },
   {
     "id": 4,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which statement is wrong regarding the thyroid gland?",
     "answers": [
       {
-        "option": "It may form a thyroglossal duct",
-        "bool": false
-      },
-      {
-        "option": "It is at the vertebral level of C5-T1",
+        "option": "It develops from a diverticulum in the tongue",
         "bool": false
       },
       {
@@ -125,30 +121,34 @@
         "bool": true
       },
       {
-        "option": "It develops from a diverticulum in the tongue",
+        "option": "It is supplied by the inferior thyroid artery",
         "bool": false
       },
       {
-        "option": "It is supplied by the inferior thyroid artery",
+        "option": "It is at the vertebral level of C5-T1",
+        "bool": false
+      },
+      {
+        "option": "It may form a thyroglossal duct",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What layer(s) is the adrenal gland derived from?",
     "answers": [
-      {
-        "option": "Ectoderm and endoderm",
-        "bool": false
-      },
       {
         "option": "Only ectoderm",
         "bool": false
       },
       {
-        "option": "Only mesoderm",
+        "option": "Ectoderm and endoderm",
+        "bool": false
+      },
+      {
+        "option": "Only endoderm",
         "bool": false
       },
       {
@@ -156,70 +156,78 @@
         "bool": true
       },
       {
-        "option": "Only endoderm",
+        "option": "Only mesoderm",
         "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the most common enzyme defect in congenital adrenal hyperplasia?",
     "answers": [
       {
-        "option": "18-Hydroxylase",
+        "option": "11β-Hydroxylase",
         "bool": false
+      },
+      {
+        "option": "17α-Hydroxylase",
+        "bool": false
+      },
+      {
+        "option": "21-Hydroxylase",
+        "bool": true
       },
       {
         "option": "17,20-lyase",
         "bool": false
       },
       {
-        "option": "21-Hydroxylase",
-        "bool": true
-      },
-      {
-        "option": "17\u03b1-Hydroxylase",
-        "bool": false
-      },
-      {
-        "option": "11\u03b2-Hydroxylase",
+        "option": "18-Hydroxylase",
         "bool": false
       }
     ]
   },
   {
     "id": 7,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the rate-limiting enzyme in steroidogenesis?",
     "answers": [
-      {
-        "option": "3\u03b2-Hydroxysteroid dehydrogenase",
-        "bool": false
-      },
-      {
-        "option": "17\u03b1-Hydroxylase",
-        "bool": false
-      },
       {
         "option": "Desmolase",
         "bool": true
       },
       {
-        "option": "21-Hydroxylase",
+        "option": "17α-Hydroxylase",
         "bool": false
       },
       {
-        "option": "11\u03b2-Hydroxylase",
+        "option": "11β-Hydroxylase",
+        "bool": false
+      },
+      {
+        "option": "3β-Hydroxysteroid dehydrogenase",
+        "bool": false
+      },
+      {
+        "option": "21-Hydroxylase",
         "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the number of amino acids in glucagon?",
     "answers": [
+      {
+        "option": "51",
+        "bool": false
+      },
+      {
+        "option": "40",
+        "bool": false
+      },
       {
         "option": "21",
         "bool": false
@@ -229,22 +237,14 @@
         "bool": true
       },
       {
-        "option": "40",
-        "bool": false
-      },
-      {
         "option": "30",
-        "bool": false
-      },
-      {
-        "option": "51",
         "bool": false
       }
     ]
   },
   {
     "id": 9,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is true about insulin?",
     "answers": [
       {
@@ -252,30 +252,30 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
+        "option": "It has an alpha chain with 21 amino acids and beta chain with 30 amino acids",
+        "bool": true
       },
       {
         "option": "It has 29 amino acids",
         "bool": false
       },
       {
-        "option": "It is released from alpha cells",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "It has an alpha chain with 21 amino acids and beta chain with 30 amino acids",
-        "bool": true
+        "option": "It is released from alpha cells",
+        "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is inappropriate about levothyroxine?",
     "answers": [
       {
-        "option": "It is slower acting than liothyronine",
+        "option": "It has longer half life than liothyronine",
         "bool": false
       },
       {
@@ -283,26 +283,26 @@
         "bool": true
       },
       {
-        "option": "It has longer half life than liothyronine",
-        "bool": false
-      },
-      {
-        "option": "Lower initial doses are administered in older patients with longstanding myxedema",
+        "option": "It is slower acting than liothyronine",
         "bool": false
       },
       {
         "option": "It is usually the first form of choice in patients with hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Lower initial doses are administered in older patients with longstanding myxedema",
         "bool": false
       }
     ]
   },
   {
     "id": 11,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is secreted by the posterior pituitary gland?",
     "answers": [
       {
-        "option": "Prolactin and oxytocin",
+        "option": "Growth hormone and adrenocorticotropic hormone",
         "bool": false
       },
       {
@@ -310,7 +310,7 @@
         "bool": false
       },
       {
-        "option": "Growth hormone and adrenocorticotropic hormone",
+        "option": "Antidiuretic hormone and prolactin",
         "bool": false
       },
       {
@@ -318,14 +318,14 @@
         "bool": true
       },
       {
-        "option": "Antidiuretic hormone and prolactin",
+        "option": "Prolactin and oxytocin",
         "bool": false
       }
     ]
   },
   {
     "id": 12,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is incorrect about insulin?",
     "answers": [
       {
@@ -333,30 +333,34 @@
         "bool": false
       },
       {
-        "option": "The beta chain has 30 amino acids",
-        "bool": false
-      },
-      {
-        "option": "The alpha chain has 21 amino acids",
-        "bool": false
-      },
-      {
         "option": "It increases the activity of hormone sensitive lipase",
         "bool": true
       },
       {
+        "option": "The beta chain has 30 amino acids",
+        "bool": false
+      },
+      {
         "option": "It is made up of 51 amino acids",
+        "bool": false
+      },
+      {
+        "option": "The alpha chain has 21 amino acids",
         "bool": false
       }
     ]
   },
   {
     "id": 13,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following hormones causes uterine contraction?",
     "answers": [
       {
-        "option": "Prolactin",
+        "option": "Gonadotropin releasing hormone",
+        "bool": false
+      },
+      {
+        "option": "Antidiuretic hormone",
         "bool": false
       },
       {
@@ -364,11 +368,7 @@
         "bool": false
       },
       {
-        "option": "Gonadotropin releasing hormone",
-        "bool": false
-      },
-      {
-        "option": "Antidiuretic hormone",
+        "option": "Prolactin",
         "bool": false
       },
       {
@@ -379,7 +379,7 @@
   },
   {
     "id": 14,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following pituitary hormone is responsible for regulation of aldosterone?",
     "answers": [
       {
@@ -391,24 +391,32 @@
         "bool": false
       },
       {
-        "option": "Growth hormone",
-        "bool": false
+        "option": "Adrenocorticotropic hormone",
+        "bool": true
       },
       {
         "option": "Follicle-stimulating hormone",
         "bool": false
       },
       {
-        "option": "Adrenocorticotropic hormone",
-        "bool": true
+        "option": "Growth hormone",
+        "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following cells secretes growth hormone (GH)?",
     "answers": [
+      {
+        "option": "Somatotropes",
+        "bool": true
+      },
+      {
+        "option": "Thyrotropes",
+        "bool": false
+      },
       {
         "option": "Gonadotropes",
         "bool": false
@@ -420,28 +428,16 @@
       {
         "option": "Corticotropes",
         "bool": false
-      },
-      {
-        "option": "Somatotropes",
-        "bool": true
-      },
-      {
-        "option": "Thyrotropes",
-        "bool": false
       }
     ]
   },
   {
     "id": 16,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the best sign seen in hyperthyroidism?",
     "answers": [
       {
-        "option": "Weight gain",
-        "bool": false
-      },
-      {
-        "option": "Bradycardia",
+        "option": "Constipation",
         "bool": false
       },
       {
@@ -449,45 +445,49 @@
         "bool": false
       },
       {
+        "option": "Weight gain",
+        "bool": false
+      },
+      {
         "option": "Heat intolerance",
         "bool": true
       },
       {
-        "option": "Constipation",
+        "option": "Bradycardia",
         "bool": false
       }
     ]
   },
   {
     "id": 17,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is inappropriate about the lymphatic drainage of thyroid gland?",
     "answers": [
       {
-        "option": "Pretracheal",
-        "bool": false
+        "option": "Superficial cervical",
+        "bool": true
       },
       {
         "option": "Paratracheal",
         "bool": false
       },
       {
-        "option": "Superficial cervical",
-        "bool": true
-      },
-      {
-        "option": "Deep cervical",
+        "option": "Prelaryngeal",
         "bool": false
       },
       {
-        "option": "Prelaryngeal",
+        "option": "Pretracheal",
+        "bool": false
+      },
+      {
+        "option": "Deep cervical",
         "bool": false
       }
     ]
   },
   {
     "id": 18,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "A girl presents to the outpatient department with enlargement of the right thyroid gland. Which of the following lymph nodes would not be involved?",
     "answers": [
       {
@@ -499,12 +499,12 @@
         "bool": false
       },
       {
-        "option": "Superficial cervical",
-        "bool": true
-      },
-      {
         "option": "Deep cervical",
         "bool": false
+      },
+      {
+        "option": "Superficial cervical",
+        "bool": true
       },
       {
         "option": "Prelaryngeal",
@@ -514,7 +514,7 @@
   },
   {
     "id": 19,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "In 2025, what will be the ranking of Pakistan amongst top ten countries having diabetes?",
     "answers": [
       {
@@ -522,38 +522,30 @@
         "bool": false
       },
       {
-        "option": "Fourth",
-        "bool": false
-      },
-      {
         "option": "Seventh",
         "bool": false
       },
       {
-        "option": "Eighth",
+        "option": "Fourth",
         "bool": false
       },
       {
         "option": "Fifth",
         "bool": true
+      },
+      {
+        "option": "Eighth",
+        "bool": false
       }
     ]
   },
   {
     "id": 20,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is an excitatory and inhibitory neurotransmitter respectively?",
     "answers": [
       {
-        "option": "Glutamate, GABA",
-        "bool": true
-      },
-      {
-        "option": "Dopamine, glutamate",
-        "bool": false
-      },
-      {
-        "option": "Glycine, glutamate",
+        "option": "GABA, glutamate",
         "bool": false
       },
       {
@@ -561,26 +553,26 @@
         "bool": false
       },
       {
-        "option": "GABA, glutamate",
+        "option": "Glycine, glutamate",
+        "bool": false
+      },
+      {
+        "option": "Glutamate, GABA",
+        "bool": true
+      },
+      {
+        "option": "Dopamine, glutamate",
         "bool": false
       }
     ]
   },
   {
     "id": 21,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following will be decreased in plasma in hyperthyroidism?",
     "answers": [
       {
-        "option": "Thyroxine binding globulin",
-        "bool": false
-      },
-      {
         "option": "Albumin",
-        "bool": false
-      },
-      {
-        "option": "Bilirubin",
         "bool": false
       },
       {
@@ -588,30 +580,38 @@
         "bool": true
       },
       {
+        "option": "Thyroxine binding globulin",
+        "bool": false
+      },
+      {
         "option": "RT3",
+        "bool": false
+      },
+      {
+        "option": "Bilirubin",
         "bool": false
       }
     ]
   },
   {
     "id": 22,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the mode of inheritance of congenital adrenal hyperplasia?",
     "answers": [
-      {
-        "option": "X-linked dominant",
-        "bool": false
-      },
       {
         "option": "X-linked recessive",
         "bool": false
       },
       {
-        "option": "Autosomal dominant",
+        "option": "Mitochondrial inheritance",
         "bool": false
       },
       {
-        "option": "Mitochondrial inheritance",
+        "option": "X-linked dominant",
+        "bool": false
+      },
+      {
+        "option": "Autosomal dominant",
         "bool": false
       },
       {
@@ -622,11 +622,19 @@
   },
   {
     "id": 23,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Regarding the development of pituitary gland, which of the following is true?",
     "answers": [
       {
         "option": "Pars nervosa develops from Rathke's pouch",
+        "bool": false
+      },
+      {
+        "option": "The hypophyseal diverticulum loses its connection from the stomodeum by twelfth week",
+        "bool": false
+      },
+      {
+        "option": "The entire gland develops from Rathke's pouch",
         "bool": false
       },
       {
@@ -636,20 +644,12 @@
       {
         "option": "It is purely ectodermal in origin",
         "bool": true
-      },
-      {
-        "option": "The hypophyseal diverticulum loses its connection from the stomodeum by twelfth week",
-        "bool": false
-      },
-      {
-        "option": "The entire gland develops from Rathke's pouch",
-        "bool": false
       }
     ]
   },
   {
     "id": 24,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the diagnostic test for acromegaly?",
     "answers": [
       {
@@ -665,53 +665,57 @@
         "bool": false
       },
       {
-        "option": "Somatostatin levels",
+        "option": "Homocysteine levels",
         "bool": false
       },
       {
-        "option": "Homocysteine levels",
+        "option": "Somatostatin levels",
         "bool": false
       }
     ]
   },
   {
     "id": 25,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the cut-off for fasting blood glucose level in diabetes?",
     "answers": [
       {
-        "option": "140 mg/dl",
-        "bool": false
+        "option": "126 mg/dl",
+        "bool": true
       },
       {
         "option": "250 mg/dl",
         "bool": false
       },
       {
-        "option": "126 mg/dl",
-        "bool": true
-      },
-      {
-        "option": "100 mg/dl",
+        "option": "80 mg/dl",
         "bool": false
       },
       {
-        "option": "80 mg/dl",
+        "option": "140 mg/dl",
+        "bool": false
+      },
+      {
+        "option": "100 mg/dl",
         "bool": false
       }
     ]
   },
   {
     "id": 26,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the most common cause of hypoparathyroidism?",
     "answers": [
+      {
+        "option": "Idiopathic",
+        "bool": false
+      },
       {
         "option": "Surgery",
         "bool": true
       },
       {
-        "option": "Congenital",
+        "option": "Autoimmune",
         "bool": false
       },
       {
@@ -719,35 +723,31 @@
         "bool": false
       },
       {
-        "option": "Autoimmune",
-        "bool": false
-      },
-      {
-        "option": "Idiopathic",
+        "option": "Congenital",
         "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the most common cause of hyperparathyroidism?",
     "answers": [
-      {
-        "option": "Carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Hyperplasia",
-        "bool": false
-      },
       {
         "option": "Infection",
         "bool": false
       },
       {
+        "option": "Carcinoma",
+        "bool": false
+      },
+      {
         "option": "Solitary adenoma",
         "bool": true
+      },
+      {
+        "option": "Hyperplasia",
+        "bool": false
       },
       {
         "option": "Autoimmune",
@@ -757,17 +757,9 @@
   },
   {
     "id": 28,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which gland is regarded as the master gland?",
     "answers": [
-      {
-        "option": "Pineal gland",
-        "bool": false
-      },
-      {
-        "option": "Thyroid gland",
-        "bool": false
-      },
       {
         "option": "Pancreatic islets",
         "bool": false
@@ -779,16 +771,28 @@
       {
         "option": "Adrenal gland",
         "bool": false
+      },
+      {
+        "option": "Pineal gland",
+        "bool": false
+      },
+      {
+        "option": "Thyroid gland",
+        "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which antihypertensive drug causes hyperkalemia?",
     "answers": [
       {
-        "option": "Metolazone",
+        "option": "Spironolactone",
+        "bool": true
+      },
+      {
+        "option": "Hydrochlorothiazide",
         "bool": false
       },
       {
@@ -796,22 +800,18 @@
         "bool": false
       },
       {
-        "option": "Hydrochlorothiazide",
-        "bool": false
-      },
-      {
         "option": "Furosemide",
         "bool": false
       },
       {
-        "option": "Spironolactone",
-        "bool": true
+        "option": "Metolazone",
+        "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Obesity occurs at which age?",
     "answers": [
       {
@@ -819,38 +819,38 @@
         "bool": false
       },
       {
-        "option": "In middle age to elderly",
-        "bool": false
-      },
-      {
-        "option": "At puberty",
-        "bool": false
-      },
-      {
         "option": "At any age",
         "bool": true
       },
       {
+        "option": "In middle age to elderly",
+        "bool": false
+      },
+      {
         "option": "In adolescence",
+        "bool": false
+      },
+      {
+        "option": "At puberty",
         "bool": false
       }
     ]
   },
   {
     "id": 31,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following causes a decrease in growth hormone release?",
     "answers": [
-      {
-        "option": "Stress",
-        "bool": false
-      },
       {
         "option": "Obesity",
         "bool": true
       },
       {
-        "option": "Exercise",
+        "option": "Stress",
+        "bool": false
+      },
+      {
+        "option": "Hypoglycemia",
         "bool": false
       },
       {
@@ -858,14 +858,14 @@
         "bool": false
       },
       {
-        "option": "Hypoglycemia",
+        "option": "Exercise",
         "bool": false
       }
     ]
   },
   {
     "id": 32,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the major lifestyle risk of developing type 2 diabetes mellitus?",
     "answers": [
       {
@@ -877,57 +877,61 @@
         "bool": false
       },
       {
+        "option": "High mental stress",
+        "bool": false
+      },
+      {
         "option": "Underweight",
         "bool": false
       },
       {
         "option": "Parenthood",
         "bool": false
-      },
-      {
-        "option": "High mental stress",
-        "bool": false
       }
     ]
   },
   {
     "id": 33,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the most common type of pituitary adenoma?",
     "answers": [
       {
-        "option": "FSH-producing adenoma",
-        "bool": false
-      },
-      {
-        "option": "Growth hormone cell adenoma",
-        "bool": false
+        "option": "Prolactinoma",
+        "bool": true
       },
       {
         "option": "ACTH cell adenoma",
         "bool": false
       },
       {
-        "option": "Prolactinoma",
-        "bool": true
+        "option": "FSH-producing adenoma",
+        "bool": false
       },
       {
         "option": "LH-producing adenoma",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone cell adenoma",
         "bool": false
       }
     ]
   },
   {
     "id": 34,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following hormones have the same alpha unit?",
     "answers": [
       {
-        "option": "TSH, GH",
+        "option": "LH, TSH",
         "bool": false
       },
       {
-        "option": "GH, prolactin, LH",
+        "option": "ACTH, TSH",
+        "bool": false
+      },
+      {
+        "option": "TSH, GH",
         "bool": false
       },
       {
@@ -935,20 +939,28 @@
         "bool": true
       },
       {
-        "option": "ACTH, TSH",
-        "bool": false
-      },
-      {
-        "option": "LH, TSH",
+        "option": "GH, prolactin, LH",
         "bool": false
       }
     ]
   },
   {
     "id": 35,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Growth hormone is inhibited by which of the following?",
     "answers": [
+      {
+        "option": "Somatomedin",
+        "bool": true
+      },
+      {
+        "option": "Hypoglycemia",
+        "bool": false
+      },
+      {
+        "option": "Deep sleep",
+        "bool": false
+      },
       {
         "option": "Exercise",
         "bool": false
@@ -956,32 +968,16 @@
       {
         "option": "Gonadotropin-releasing hormone (GnRH)",
         "bool": false
-      },
-      {
-        "option": "Hypoglycemia",
-        "bool": false
-      },
-      {
-        "option": "Somatomedin",
-        "bool": true
-      },
-      {
-        "option": "Deep sleep",
-        "bool": false
       }
     ]
   },
   {
     "id": 36,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Exogenous administration of which of the following substances will decrease the release of growth hormone?",
     "answers": [
       {
-        "option": "Beta adrenergic agonist",
-        "bool": true
-      },
-      {
-        "option": "Alpha adrenergic agonists",
+        "option": "Ganglion blockers",
         "bool": false
       },
       {
@@ -993,22 +989,30 @@
         "bool": false
       },
       {
-        "option": "Ganglion blockers",
+        "option": "Alpha adrenergic agonists",
         "bool": false
+      },
+      {
+        "option": "Beta adrenergic agonist",
+        "bool": true
       }
     ]
   },
   {
     "id": 37,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Somatomedins act as which of the following?",
     "answers": [
       {
-        "option": "Stimulators",
-        "bool": true
+        "option": "Inhibitors",
+        "bool": false
       },
       {
         "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Antagonist",
         "bool": false
       },
       {
@@ -1016,26 +1020,26 @@
         "bool": false
       },
       {
-        "option": "Inhibitors",
-        "bool": false
-      },
-      {
-        "option": "Antagonist",
-        "bool": false
+        "option": "Stimulators",
+        "bool": true
       }
     ]
   },
   {
     "id": 38,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is not an indication for vasopressin therapy?",
     "answers": [
       {
-        "option": "Diverticular bleeding",
+        "option": "Esophageal varices",
         "bool": false
       },
       {
-        "option": "Esophageal varices",
+        "option": "Von Willebrand disease",
+        "bool": false
+      },
+      {
+        "option": "Diverticular bleeding",
         "bool": false
       },
       {
@@ -1045,28 +1049,24 @@
       {
         "option": "Venous thromboembolism",
         "bool": true
-      },
-      {
-        "option": "Von Willebrand disease",
-        "bool": false
       }
     ]
   },
   {
     "id": 39,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is another name of the anterior pituitary gland?",
     "answers": [
-      {
-        "option": "All of them",
-        "bool": false
-      },
       {
         "option": "Pars intermedia",
         "bool": false
       },
       {
         "option": "Pars nervosa",
+        "bool": false
+      },
+      {
+        "option": "All of them",
         "bool": false
       },
       {
@@ -1081,13 +1081,9 @@
   },
   {
     "id": 40,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Deficiency of which hormone causes fatty liver?",
     "answers": [
-      {
-        "option": "None of them",
-        "bool": false
-      },
       {
         "option": "Growth hormone",
         "bool": true
@@ -1103,74 +1099,78 @@
       {
         "option": "Somatostatin",
         "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
       }
     ]
   },
   {
     "id": 41,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Thyroid storm is seen in which of the following diseases?",
     "answers": [
       {
-        "option": "Hashimoto\u2019s thyroiditis",
-        "bool": false
-      },
-      {
-        "option": "Grave\u2019s disease",
-        "bool": true
-      },
-      {
         "option": "Hypothyroidism",
         "bool": false
+      },
+      {
+        "option": "Wolff-Chaikoff effect",
+        "bool": false
+      },
+      {
+        "option": "Grave’s disease",
+        "bool": true
       },
       {
         "option": "Myxedema coma",
         "bool": false
       },
       {
-        "option": "Wolff-Chaikoff effect",
+        "option": "Hashimoto’s thyroiditis",
         "bool": false
       }
     ]
   },
   {
     "id": 42,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the most obvious clinical manifestation of long-standing iodine deficiency?",
     "answers": [
       {
-        "option": "Mental retardation",
-        "bool": false
-      },
-      {
         "option": "Reproductive failure",
         "bool": false
-      },
-      {
-        "option": "Goiter",
-        "bool": true
       },
       {
         "option": "Endemic cretinism",
         "bool": false
       },
       {
+        "option": "Mental retardation",
+        "bool": false
+      },
+      {
         "option": "Abortion",
         "bool": false
+      },
+      {
+        "option": "Goiter",
+        "bool": true
       }
     ]
   },
   {
     "id": 43,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following regulates mineralocorticoids?",
     "answers": [
       {
-        "option": "Epinephrine",
+        "option": "Thyrotropin-releasing hormone",
         "bool": false
       },
       {
-        "option": "Thyrotropin-releasing hormone",
+        "option": "Thyroid-stimulating hormone",
         "bool": false
       },
       {
@@ -1178,7 +1178,7 @@
         "bool": true
       },
       {
-        "option": "Thyroid-stimulating hormone",
+        "option": "Epinephrine",
         "bool": false
       },
       {
@@ -1189,19 +1189,11 @@
   },
   {
     "id": 44,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Adrenergic receptors are present in all of the following except:",
     "answers": [
       {
-        "option": "Intestines",
-        "bool": false
-      },
-      {
         "option": "Viscera",
-        "bool": false
-      },
-      {
-        "option": "Skeletal muscle",
         "bool": false
       },
       {
@@ -1211,12 +1203,20 @@
       {
         "option": "Heart",
         "bool": false
+      },
+      {
+        "option": "Skeletal muscle",
+        "bool": false
+      },
+      {
+        "option": "Intestines",
+        "bool": false
       }
     ]
   },
   {
     "id": 45,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Hypoparathyroidism most commonly occurs secondary to which of the following?",
     "answers": [
       {
@@ -1224,7 +1224,7 @@
         "bool": false
       },
       {
-        "option": "Autosomal dominant hypoparathyroidism",
+        "option": "Autoimmune hypoparathyroidism",
         "bool": false
       },
       {
@@ -1236,24 +1236,16 @@
         "bool": true
       },
       {
-        "option": "Autoimmune hypoparathyroidism",
+        "option": "Autosomal dominant hypoparathyroidism",
         "bool": false
       }
     ]
   },
   {
     "id": 46,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is true about calcium transport in plasma?",
     "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Ionized Ca+ is the biologically inactive form",
-        "bool": false
-      },
       {
         "option": "30% is bound to plasma proteins",
         "bool": false
@@ -1265,17 +1257,29 @@
       {
         "option": "50% is in ionized from",
         "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Ionized Ca+ is the biologically inactive form",
+        "bool": false
       }
     ]
   },
   {
     "id": 47,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following are neural crest cells of adrenal medulla derived from?",
     "answers": [
       {
-        "option": "All of these",
+        "option": "Dorsal ganglia",
         "bool": false
+      },
+      {
+        "option": "Sympathetic ganglia",
+        "bool": true
       },
       {
         "option": "Parasympathetic ganglia",
@@ -1286,18 +1290,14 @@
         "bool": false
       },
       {
-        "option": "Sympathetic ganglia",
-        "bool": true
-      },
-      {
-        "option": "Dorsal ganglia",
+        "option": "All of these",
         "bool": false
       }
     ]
   },
   {
     "id": 48,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is true regarding the development of the thyroid gland?",
     "answers": [
       {
@@ -1309,11 +1309,11 @@
         "bool": false
       },
       {
-        "option": "All of these",
+        "option": "It is the body's second endocrine gland to develop",
         "bool": false
       },
       {
-        "option": "It is the body's second endocrine gland to develop",
+        "option": "All of these",
         "bool": false
       },
       {
@@ -1324,15 +1324,11 @@
   },
   {
     "id": 49,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the most common parathyroid tumor?",
     "answers": [
       {
-        "option": "Multiple endocrine neoplasia type 2",
-        "bool": false
-      },
-      {
-        "option": "Multiple endocrine neoplasia type 1",
+        "option": "Parathyroid carcinoma",
         "bool": false
       },
       {
@@ -1340,7 +1336,11 @@
         "bool": true
       },
       {
-        "option": "Parathyroid carcinoma",
+        "option": "Multiple endocrine neoplasia type 2",
+        "bool": false
+      },
+      {
+        "option": "Multiple endocrine neoplasia type 1",
         "bool": false
       },
       {
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 50,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "In which of the following conditions, thyroid-stimulating hormone does not respond to thyrotropin-releasing hormone?",
     "answers": [
       {
@@ -1359,34 +1359,30 @@
         "bool": false
       },
       {
-        "option": "Pituitary adenoma",
-        "bool": true
-      },
-      {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "All of these",
-        "bool": false
+        "option": "Pituitary adenoma",
+        "bool": true
       },
       {
         "option": "Graves' disease",
+        "bool": false
+      },
+      {
+        "option": "All of these",
         "bool": false
       }
     ]
   },
   {
     "id": 51,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following causes muscle weakness in Conn's syndrome?",
     "answers": [
       {
-        "option": "Hyponatremia",
-        "bool": false
-      },
-      {
-        "option": "Hyperkalemia",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1394,22 +1390,26 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Hyperkalemia",
         "bool": false
       },
       {
         "option": "Hypokalemia",
         "bool": true
+      },
+      {
+        "option": "Hyponatremia",
+        "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following drugs are used to treat hypertension in metabolic syndrome?",
     "answers": [
       {
-        "option": "Aminoglycosides",
+        "option": "Quinolones",
         "bool": false
       },
       {
@@ -1421,7 +1421,7 @@
         "bool": false
       },
       {
-        "option": "Quinolones",
+        "option": "Aminoglycosides",
         "bool": false
       },
       {
@@ -1432,19 +1432,19 @@
   },
   {
     "id": 53,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is not a result of iodine deficiency?",
     "answers": [
-      {
-        "option": "Hypothyroidism",
-        "bool": false
-      },
       {
         "option": "Cold intolerance",
         "bool": false
       },
       {
-        "option": "Intellectual disability",
+        "option": "Hyperthyroidism",
+        "bool": true
+      },
+      {
+        "option": "Hypothyroidism",
         "bool": false
       },
       {
@@ -1452,18 +1452,18 @@
         "bool": false
       },
       {
-        "option": "Hyperthyroidism",
-        "bool": true
+        "option": "Intellectual disability",
+        "bool": false
       }
     ]
   },
   {
     "id": 54,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Thyroid hormones are synthesized from which of the following amino acids?",
     "answers": [
       {
-        "option": "Threonine",
+        "option": "Tryptophan",
         "bool": false
       },
       {
@@ -1471,7 +1471,7 @@
         "bool": false
       },
       {
-        "option": "Tryptophan",
+        "option": "Threonine",
         "bool": false
       },
       {
@@ -1486,19 +1486,19 @@
   },
   {
     "id": 55,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is used to check catecholamine degradation?",
     "answers": [
       {
-        "option": "Complete blood count",
-        "bool": false
-      },
-      {
-        "option": "Lactate threshold test",
-        "bool": false
-      },
-      {
         "option": "Glucose tolerance test",
+        "bool": false
+      },
+      {
+        "option": "Vanillylmandelic acid in urine",
+        "bool": true
+      },
+      {
+        "option": "Complete blood count",
         "bool": false
       },
       {
@@ -1506,16 +1506,20 @@
         "bool": false
       },
       {
-        "option": "Vanillylmandelic acid in urine",
-        "bool": true
+        "option": "Lactate threshold test",
+        "bool": false
       }
     ]
   },
   {
     "id": 56,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Obesity is most common in which of the following age groups?",
     "answers": [
+      {
+        "option": "Adolescence",
+        "bool": false
+      },
       {
         "option": "Childhood",
         "bool": false
@@ -1523,10 +1527,6 @@
       {
         "option": "Middle age and elderly",
         "bool": true
-      },
-      {
-        "option": "Adolescence",
-        "bool": false
       },
       {
         "option": "All ages",
@@ -1540,17 +1540,9 @@
   },
   {
     "id": 57,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is associated with growth hormone?",
     "answers": [
-      {
-        "option": "Acromegaly before adolescence",
-        "bool": false
-      },
-      {
-        "option": "Gigantism",
-        "bool": true
-      },
       {
         "option": "Hypoglycemia",
         "bool": false
@@ -1562,47 +1554,55 @@
       {
         "option": "Microglossia",
         "bool": false
+      },
+      {
+        "option": "Acromegaly before adolescence",
+        "bool": false
+      },
+      {
+        "option": "Gigantism",
+        "bool": true
       }
     ]
   },
   {
     "id": 58,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is not true about the functions of growth hormone?",
     "answers": [
       {
-        "option": "Stimulates secretion of prolactin",
-        "bool": true
+        "option": "Increased protein synthesis in muscle",
+        "bool": false
       },
       {
         "option": "Promotes gluconeogenesis",
         "bool": false
       },
       {
-        "option": "Increased protein synthesis in muscle",
+        "option": "Stimulates secretion of prolactin",
+        "bool": true
+      },
+      {
+        "option": "Increased organ size",
         "bool": false
       },
       {
         "option": "Increased protein synthesis in chondrocytes and increased linear growth",
-        "bool": false
-      },
-      {
-        "option": "Increased organ size",
         "bool": false
       }
     ]
   },
   {
     "id": 59,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is true regarding autocrine agents?",
     "answers": [
       {
-        "option": "Affect distant organs",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Affect distant organs",
         "bool": false
       },
       {
@@ -1610,22 +1610,30 @@
         "bool": false
       },
       {
-        "option": "Affect adjacent cells",
-        "bool": false
-      },
-      {
         "option": "Affect the cell in which they were synthesized",
         "bool": true
+      },
+      {
+        "option": "Affect adjacent cells",
+        "bool": false
       }
     ]
   },
   {
     "id": 60,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Juxtaglomerular cells secrete renin in response to all of the following except:",
     "answers": [
       {
+        "option": "Decreased blood volume",
+        "bool": false
+      },
+      {
         "option": "Decreased blood pressure",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhage",
         "bool": false
       },
       {
@@ -1635,24 +1643,16 @@
       {
         "option": "Increased heart rate",
         "bool": true
-      },
-      {
-        "option": "Decreased blood volume",
-        "bool": false
-      },
-      {
-        "option": "Hemorrhage",
-        "bool": false
       }
     ]
   },
   {
     "id": 61,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the best indicator for metabolic syndrome?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Waist hip ratio",
         "bool": false
       },
       {
@@ -1660,35 +1660,31 @@
         "bool": false
       },
       {
-        "option": "Waist circumference",
-        "bool": true
-      },
-      {
-        "option": "Waist hip ratio",
+        "option": "None of these",
         "bool": false
       },
       {
         "option": "Body weight",
         "bool": false
+      },
+      {
+        "option": "Waist circumference",
+        "bool": true
       }
     ]
   },
   {
     "id": 62,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "A 40-year-old man comes to the outpatient department with an enlarged face, prognathism and swollen hands and feet. What is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Acromegaly",
-        "bool": true
-      },
       {
         "option": "Hyperthyroidism",
         "bool": false
       },
       {
-        "option": "Hyperaldosteronism",
-        "bool": false
+        "option": "Acromegaly",
+        "bool": true
       },
       {
         "option": "Gigantism",
@@ -1697,14 +1693,26 @@
       {
         "option": "Hypothyroidism",
         "bool": false
+      },
+      {
+        "option": "Hyperaldosteronism",
+        "bool": false
       }
     ]
   },
   {
     "id": 63,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is inappropriate about neutral protamine hagedorn (NPH)?",
     "answers": [
+      {
+        "option": "It is an intermediate-acting form of insulin",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
       {
         "option": "It is given subcutaneously",
         "bool": false
@@ -1714,36 +1722,16 @@
         "bool": true
       },
       {
-        "option": "It is an intermediate-acting form of insulin",
-        "bool": false
-      },
-      {
         "option": "All of these",
-        "bool": false
-      },
-      {
-        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
     "id": 64,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Cretinism is due to:",
     "answers": [
-      {
-        "option": "Hypothyroidism during fetal life, infancy & childhood",
-        "bool": true
-      },
-      {
-        "option": "Increased growth hormone",
-        "bool": false
-      },
-      {
-        "option": "Hyperparathyroidism during adult life",
-        "bool": false
-      },
       {
         "option": "None of them",
         "bool": false
@@ -1751,20 +1739,28 @@
       {
         "option": "Hyperthyroidism during childhood",
         "bool": false
+      },
+      {
+        "option": "Increased growth hormone",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism during fetal life, infancy & childhood",
+        "bool": true
+      },
+      {
+        "option": "Hyperparathyroidism during adult life",
+        "bool": false
       }
     ]
   },
   {
     "id": 65,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the most common cause of iodine deficiency in Pakistan?",
     "answers": [
       {
-        "option": "Impaired iodine uptake",
-        "bool": false
-      },
-      {
-        "option": "Too much usage of iodine in the body",
+        "option": "Impaired iodine absorption",
         "bool": false
       },
       {
@@ -1772,30 +1768,57 @@
         "bool": true
       },
       {
+        "option": "Impaired iodine uptake",
+        "bool": false
+      },
+      {
         "option": "Hereditary",
         "bool": false
       },
       {
-        "option": "Impaired iodine absorption",
+        "option": "Too much usage of iodine in the body",
         "bool": false
       }
     ]
   },
   {
     "id": 66,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
+    "question": "The superior parathyroid gland develops from which pharyngeal pouch?",
+    "answers": [
+      {
+        "option": "3rd",
+        "bool": false
+      },
+      {
+        "option": "4th",
+        "bool": true
+      },
+      {
+        "option": "5th",
+        "bool": false
+      },
+      {
+        "option": "1st",
+        "bool": false
+      },
+      {
+        "option": "2nd",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "2nd-year/endocrinology/2016",
     "question": "What are the number of amino acids in growth hormone?",
     "answers": [
       {
-        "option": "10",
-        "bool": false
+        "option": "191",
+        "bool": true
       },
       {
         "option": "51",
-        "bool": false
-      },
-      {
-        "option": "230",
         "bool": false
       },
       {
@@ -1803,14 +1826,18 @@
         "bool": false
       },
       {
-        "option": "191",
-        "bool": true
+        "option": "230",
+        "bool": false
+      },
+      {
+        "option": "10",
+        "bool": false
       }
     ]
   },
   {
-    "id": 67,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 68,
+    "info": "2nd-year/endocrinology/2016",
     "question": "What are the number of amino acids in Insulin?",
     "answers": [
       {
@@ -1818,7 +1845,7 @@
         "bool": false
       },
       {
-        "option": "76",
+        "option": "191",
         "bool": false
       },
       {
@@ -1826,7 +1853,7 @@
         "bool": true
       },
       {
-        "option": "191",
+        "option": "76",
         "bool": false
       },
       {
@@ -1836,12 +1863,12 @@
     ]
   },
   {
-    "id": 68,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 69,
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the structure of the insulin receptor?",
     "answers": [
       {
-        "option": "1 alpha and 2 beta chains",
+        "option": "2 alpha and 1 beta chain",
         "bool": false
       },
       {
@@ -1849,7 +1876,7 @@
         "bool": false
       },
       {
-        "option": "1 alpha and 1 beta chain",
+        "option": "1 alpha and 2 beta chains",
         "bool": false
       },
       {
@@ -1857,26 +1884,18 @@
         "bool": true
       },
       {
-        "option": "2 alpha and 1 beta chain",
+        "option": "1 alpha and 1 beta chain",
         "bool": false
       }
     ]
   },
   {
-    "id": 69,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 70,
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the required daily iodine intake for adults?",
     "answers": [
       {
         "option": "100 micrograms",
-        "bool": false
-      },
-      {
-        "option": "270 micrograms",
-        "bool": false
-      },
-      {
-        "option": "240 micrograms",
         "bool": false
       },
       {
@@ -1886,12 +1905,20 @@
       {
         "option": "150 micrograms",
         "bool": true
+      },
+      {
+        "option": "270 micrograms",
+        "bool": false
+      },
+      {
+        "option": "240 micrograms",
+        "bool": false
       }
     ]
   },
   {
-    "id": 70,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 71,
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is added to the diet in order to overcome iodine deficiency?",
     "answers": [
       {
@@ -1899,26 +1926,26 @@
         "bool": false
       },
       {
-        "option": "Iodized water",
-        "bool": false
-      },
-      {
-        "option": "Regular salt",
-        "bool": false
-      },
-      {
         "option": "Iodized drug",
+        "bool": false
+      },
+      {
+        "option": "Iodized water",
         "bool": false
       },
       {
         "option": "Iodized salt",
         "bool": true
+      },
+      {
+        "option": "Regular salt",
+        "bool": false
       }
     ]
   },
   {
-    "id": 71,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 72,
+    "info": "2nd-year/endocrinology/2016",
     "question": "How much iodine is present in the salt?",
     "answers": [
       {
@@ -1926,16 +1953,16 @@
         "bool": false
       },
       {
-        "option": "20-40 mg of iodine per kg of salt",
-        "bool": true
+        "option": "None of them",
+        "bool": false
       },
       {
         "option": "60-70 mg of iodine per kg of salt",
         "bool": false
       },
       {
-        "option": "None of them",
-        "bool": false
+        "option": "20-40 mg of iodine per kg of salt",
+        "bool": true
       },
       {
         "option": "0-10 mg of iodine per kg of salt",
@@ -1944,12 +1971,12 @@
     ]
   },
   {
-    "id": 72,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 73,
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which one of the following represents iodine in parts per million (ppm) at the production site?",
     "answers": [
       {
-        "option": "70 ppm",
+        "option": "10 ppm",
         "bool": false
       },
       {
@@ -1961,18 +1988,18 @@
         "bool": false
       },
       {
-        "option": "30 ppm",
-        "bool": true
+        "option": "70 ppm",
+        "bool": false
       },
       {
-        "option": "10 ppm",
-        "bool": false
+        "option": "30 ppm",
+        "bool": true
       }
     ]
   },
   {
-    "id": 73,
-    "info": "2nd-year/endocrinology-1/2016",
+    "id": 74,
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following conditions causes amenorrhea, obesity, and constipation?",
     "answers": [
       {
@@ -1980,7 +2007,7 @@
         "bool": true
       },
       {
-        "option": "Hyperthyroidism",
+        "option": "None of them",
         "bool": false
       },
       {
@@ -1988,50 +2015,31 @@
         "bool": false
       },
       {
-        "option": "None of them",
-        "bool": false
-      },
-      {
         "option": "Hyperparathyroidism",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "2nd-year/endocrinology-1/2016",
-    "question": "The superior parathyroid gland develops from which pharyngeal pouch?",
-    "answers": [
-      {
-        "option": "3rd",
-        "bool": false
       },
       {
-        "option": "1st",
-        "bool": false
-      },
-      {
-        "option": "4th",
-        "bool": true
-      },
-      {
-        "option": "2nd",
-        "bool": false
-      },
-      {
-        "option": "5th",
+        "option": "Hyperthyroidism",
         "bool": false
       }
     ]
   },
   {
     "id": 75,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Deficiency of which of the following hormone causes the life-threatening conditions?",
     "answers": [
       {
+        "option": "None of them",
+        "bool": false
+      },
+      {
         "option": "Cortisol",
         "bool": true
+      },
+      {
+        "option": "Aldosterone",
+        "bool": false
       },
       {
         "option": "Adrenaline",
@@ -2040,29 +2048,25 @@
       {
         "option": "Testosterone",
         "bool": false
-      },
-      {
-        "option": "None of them",
-        "bool": false
-      },
-      {
-        "option": "Aldosterone",
-        "bool": false
       }
     ]
   },
   {
     "id": 76,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following enzymes is inhibited by glucocorticoids?",
     "answers": [
       {
-        "option": "Phospholipase A2",
-        "bool": true
+        "option": "Cyclooxygenase",
+        "bool": false
       },
       {
         "option": "Histidine decarboxylase",
         "bool": false
+      },
+      {
+        "option": "Phospholipase A2",
+        "bool": true
       },
       {
         "option": "Xanthine oxidase",
@@ -2071,28 +2075,20 @@
       {
         "option": "5-lipooxygenase",
         "bool": false
-      },
-      {
-        "option": "Cyclooxygenase",
-        "bool": false
       }
     ]
   },
   {
     "id": 77,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following statement is wrong about the location of the left adrenal gland?",
     "answers": [
       {
+        "option": "It is intraperitoneal",
+        "bool": true
+      },
+      {
         "option": "It is separated from kidney by perirenal fat",
-        "bool": false
-      },
-      {
-        "option": "It lies opposite the vertebral level of 11th intercostal space",
-        "bool": false
-      },
-      {
-        "option": "None of these",
         "bool": false
       },
       {
@@ -2100,18 +2096,26 @@
         "bool": false
       },
       {
-        "option": "It is intraperitoneal",
-        "bool": true
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "It lies opposite the vertebral level of 11th intercostal space",
+        "bool": false
       }
     ]
   },
   {
     "id": 78,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is affected by the pituitary tumors to cause an increase in cortisol?",
     "answers": [
       {
-        "option": "Lactotrophs",
+        "option": "Somatotrophs",
+        "bool": false
+      },
+      {
+        "option": "Thyrotrophs",
         "bool": false
       },
       {
@@ -2119,11 +2123,7 @@
         "bool": true
       },
       {
-        "option": "Somatotrophs",
-        "bool": false
-      },
-      {
-        "option": "Thyrotrophs",
+        "option": "Lactotrophs",
         "bool": false
       },
       {
@@ -2134,17 +2134,9 @@
   },
   {
     "id": 79,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is incorrect regarding parathyroid hormone?",
     "answers": [
-      {
-        "option": "Derived from 2nd and 3rd pharyngeal arches",
-        "bool": true
-      },
-      {
-        "option": "Increases calcium levels",
-        "bool": false
-      },
       {
         "option": "Encapsulated",
         "bool": false
@@ -2154,22 +2146,34 @@
         "bool": false
       },
       {
+        "option": "Increases calcium levels",
+        "bool": false
+      },
+      {
         "option": "Essential for survival",
         "bool": false
+      },
+      {
+        "option": "Derived from 2nd and 3rd pharyngeal arches",
+        "bool": true
       }
     ]
   },
   {
     "id": 80,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the correct statement for the histology of chief cells?",
     "answers": [
+      {
+        "option": "Polygonal in shape",
+        "bool": true
+      },
       {
         "option": "Lobed nuclei",
         "bool": false
       },
       {
-        "option": "Basophilic cytoplasm",
+        "option": "No granules",
         "bool": false
       },
       {
@@ -2177,26 +2181,26 @@
         "bool": false
       },
       {
-        "option": "Polygonal in shape",
-        "bool": true
-      },
-      {
-        "option": "No granules",
+        "option": "Basophilic cytoplasm",
         "bool": false
       }
     ]
   },
   {
     "id": 81,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following represents the metabolic function of the parathyroid gland?",
     "answers": [
+      {
+        "option": "Resorption of bone",
+        "bool": false
+      },
       {
         "option": "Activation of alpha-1-hydroxylase",
         "bool": true
       },
       {
-        "option": "Absorption of calcium",
+        "option": "Absorption of phosphate",
         "bool": false
       },
       {
@@ -2204,18 +2208,14 @@
         "bool": false
       },
       {
-        "option": "Absorption of phosphate",
-        "bool": false
-      },
-      {
-        "option": "Resorption of bone",
+        "option": "Absorption of calcium",
         "bool": false
       }
     ]
   },
   {
     "id": 82,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "An 18-year-old female presents with weight gain, thinning of hair, low pulse and blood pressure, cold intolerance, clammy skin that is cold, constipation, and difficulty to concentrate. What would be the most probable diagnosis?",
     "answers": [
       {
@@ -2223,34 +2223,30 @@
         "bool": true
       },
       {
-        "option": "Hyperparathyroidism",
-        "bool": false
-      },
-      {
         "option": "Hypoparathyroidism",
         "bool": false
       },
       {
-        "option": "Cushing syndrome",
+        "option": "Hyperthyroidism",
         "bool": false
       },
       {
-        "option": "Hyperthyroidism",
+        "option": "Hyperparathyroidism",
+        "bool": false
+      },
+      {
+        "option": "Cushing syndrome",
         "bool": false
       }
     ]
   },
   {
     "id": 83,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Hyperactive thyroid epithelium shows which of the following?",
     "answers": [
       {
-        "option": "Simple columnar cells",
-        "bool": true
-      },
-      {
-        "option": "Pseudostratified columnar cells",
+        "option": "Transitional epithelium",
         "bool": false
       },
       {
@@ -2258,18 +2254,22 @@
         "bool": false
       },
       {
+        "option": "Simple columnar cells",
+        "bool": true
+      },
+      {
         "option": "Simple cuboidal cells",
         "bool": false
       },
       {
-        "option": "Transitional epithelium",
+        "option": "Pseudostratified columnar cells",
         "bool": false
       }
     ]
   },
   {
     "id": 84,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following hormone has cortisol-like action?",
     "answers": [
       {
@@ -2277,30 +2277,30 @@
         "bool": false
       },
       {
-        "option": "Glucagon",
+        "option": "Norepinephrine",
         "bool": false
       },
       {
-        "option": "Norepinephrine",
+        "option": "Somatostatin",
+        "bool": false
+      },
+      {
+        "option": "Glucagon",
         "bool": false
       },
       {
         "option": "Epinephrine",
         "bool": true
-      },
-      {
-        "option": "Somatostatin",
-        "bool": false
       }
     ]
   },
   {
     "id": 85,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is the function of glucagon?",
     "answers": [
       {
-        "option": "Decreases gluconeogenesis",
+        "option": "Decrease blood sugar level",
         "bool": false
       },
       {
@@ -2308,24 +2308,28 @@
         "bool": false
       },
       {
+        "option": "Promotes glycogenolysis",
+        "bool": true
+      },
+      {
         "option": "None of them",
         "bool": false
       },
       {
-        "option": "Decrease blood sugar level",
+        "option": "Decreases gluconeogenesis",
         "bool": false
-      },
-      {
-        "option": "Promotes glycogenolysis",
-        "bool": true
       }
     ]
   },
   {
     "id": 86,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "What is the cause of the annular pancreas?",
     "answers": [
+      {
+        "option": "Absence of pancreas",
+        "bool": false
+      },
       {
         "option": "None of them",
         "bool": false
@@ -2339,10 +2343,6 @@
         "bool": true
       },
       {
-        "option": "Absence of pancreas",
-        "bool": false
-      },
-      {
         "option": "Presence of two pancreas",
         "bool": false
       }
@@ -2350,9 +2350,13 @@
   },
   {
     "id": 87,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is not a microvascular complication of diabetes?",
     "answers": [
+      {
+        "option": "Stroke",
+        "bool": true
+      },
       {
         "option": "Retinopathy",
         "bool": false
@@ -2362,26 +2366,26 @@
         "bool": false
       },
       {
-        "option": "Cataracts",
+        "option": "Neuropathy",
         "bool": false
       },
       {
-        "option": "Stroke",
-        "bool": true
-      },
-      {
-        "option": "Neuropathy",
+        "option": "Cataracts",
         "bool": false
       }
     ]
   },
   {
     "id": 88,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Which of the following is short-acting insulin?",
     "answers": [
       {
         "option": "Insulin detemir",
+        "bool": false
+      },
+      {
+        "option": "None of them",
         "bool": false
       },
       {
@@ -2393,10 +2397,6 @@
         "bool": false
       },
       {
-        "option": "None of them",
-        "bool": false
-      },
-      {
         "option": "Insulin glargine",
         "bool": false
       }
@@ -2404,27 +2404,27 @@
   },
   {
     "id": 89,
-    "info": "2nd-year/endocrinology-1/2016",
+    "info": "2nd-year/endocrinology/2016",
     "question": "Catecholamine-derived neurotransmitters are derived from which amino acid?",
     "answers": [
       {
-        "option": "Tyrosine",
-        "bool": true
-      },
-      {
-        "option": "Glycine",
-        "bool": false
-      },
-      {
         "option": "Tryptophan",
         "bool": false
+      },
+      {
+        "option": "Valine",
+        "bool": false
+      },
+      {
+        "option": "Tyrosine",
+        "bool": true
       },
       {
         "option": "Alanine",
         "bool": false
       },
       {
-        "option": "Valine",
+        "option": "Glycine",
         "bool": false
       }
     ]

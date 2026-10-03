@@ -1,38 +1,38 @@
 [
   {
     "id": 0,
-    "info": "1st-year/foundation-1/2019",
-    "question": "Reduction and breakdown of hydrogen peroxide (H\u2082O\u2082) results in the production of which radical?",
+    "info": "1st-year/foundation/2019",
+    "question": "Reduction and breakdown of hydrogen peroxide (H₂O₂) results in the production of which radical?",
     "answers": [
       {
-        "option": "CO\u2082 radical",
+        "option": "O²⁻ radical",
         "bool": false
       },
       {
-        "option": "O\u00b2\u207b radical",
+        "option": "ONOO⁻ radical",
         "bool": false
       },
       {
-        "option": "ONOO\u207b radical",
+        "option": "CO₂ radical",
         "bool": false
       },
       {
-        "option": "OH\u207b radical",
+        "option": "H₂O radical",
+        "bool": false
+      },
+      {
+        "option": "OH⁻ radical",
         "bool": true
-      },
-      {
-        "option": "H\u2082O radical",
-        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is the most appropriate statement regarding the nucleus?",
     "answers": [
       {
-        "option": "Nuclear membrane has no pores",
+        "option": "Nucleolus contains only DNA and proteins",
         "bool": false
       },
       {
@@ -44,7 +44,7 @@
         "bool": true
       },
       {
-        "option": "Nucleolus contains only DNA and proteins",
+        "option": "Nuclear membrane has no pores",
         "bool": false
       },
       {
@@ -55,20 +55,16 @@
   },
   {
     "id": 2,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is the basis of the classification of stratified epithelium?",
     "answers": [
       {
-        "option": "The organ in which it is found",
-        "bool": false
-      },
-      {
-        "option": "Shape of cells of basal layer",
-        "bool": false
-      },
-      {
         "option": "Shape of cells of superficial layer",
         "bool": true
+      },
+      {
+        "option": "The organ in which it is found",
+        "bool": false
       },
       {
         "option": "Shape of cells of middle layer",
@@ -77,12 +73,16 @@
       {
         "option": "Size of cells of superficial layer",
         "bool": false
+      },
+      {
+        "option": "Shape of cells of basal layer",
+        "bool": false
       }
     ]
   },
   {
     "id": 3,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is the main objective of the World Health Organization (WHO)'s healthy city initiative?",
     "answers": [
       {
@@ -90,34 +90,34 @@
         "bool": false
       },
       {
-        "option": "Better health and quality of life in cities",
-        "bool": true
+        "option": "Easy approach to health services",
+        "bool": false
       },
       {
         "option": "Provision of healthy diet to children",
         "bool": false
       },
       {
-        "option": "Easy approach to health services",
+        "option": "Free health services to geriatric population",
         "bool": false
       },
       {
-        "option": "Free health services to geriatric population",
-        "bool": false
+        "option": "Better health and quality of life in cities",
+        "bool": true
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which type of joint is present between the epiphysis and diaphysis?",
     "answers": [
       {
-        "option": "Suture",
+        "option": "Gomphosis",
         "bool": false
       },
       {
-        "option": "Gomphosis",
+        "option": "Suture",
         "bool": false
       },
       {
@@ -125,24 +125,20 @@
         "bool": true
       },
       {
-        "option": "Ball and socket",
+        "option": "Syndesmosis",
         "bool": false
       },
       {
-        "option": "Syndesmosis",
+        "option": "Ball and socket",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is part of the central nervous system?",
     "answers": [
-      {
-        "option": "Vertebrae, skull and brain",
-        "bool": false
-      },
       {
         "option": "Brain and spinal cord",
         "bool": true
@@ -152,22 +148,34 @@
         "bool": false
       },
       {
-        "option": "Spinal cord and nerves",
+        "option": "Vertebrae, skull and brain",
         "bool": false
       },
       {
         "option": "Brain and skull",
+        "bool": false
+      },
+      {
+        "option": "Spinal cord and nerves",
         "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "How is the zymogen enzyme activated?",
     "answers": [
       {
+        "option": "Cleavage of peptide bond",
+        "bool": true
+      },
+      {
         "option": "By the action of gastric juice",
+        "bool": false
+      },
+      {
+        "option": "Addition of a hydroxide (OH) to serine",
         "bool": false
       },
       {
@@ -175,51 +183,55 @@
         "bool": false
       },
       {
-        "option": "Cleavage of peptide bond",
-        "bool": true
-      },
-      {
         "option": "Phosphorylation",
-        "bool": false
-      },
-      {
-        "option": "Addition of a hydroxide (OH) to serine",
         "bool": false
       }
     ]
   },
   {
     "id": 7,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is an enzyme made up of RNA?",
     "answers": [
       {
-        "option": "Ribozyme",
-        "bool": true
+        "option": "Proenzyme",
+        "bool": false
+      },
+      {
+        "option": "Apoenzyme",
+        "bool": false
       },
       {
         "option": "Holoenzyme",
         "bool": false
       },
       {
-        "option": "Proenzyme",
-        "bool": false
+        "option": "Ribozyme",
+        "bool": true
       },
       {
         "option": "Nanozyme",
-        "bool": false
-      },
-      {
-        "option": "Apoenzyme",
         "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What are the sugars that either have a free aldehyde or ketone group?",
     "answers": [
+      {
+        "option": "Polysaccharides",
+        "bool": false
+      },
+      {
+        "option": "Monosaccharides",
+        "bool": true
+      },
+      {
+        "option": "Aldoketose",
+        "bool": false
+      },
       {
         "option": "Non-reducing sugars",
         "bool": false
@@ -227,28 +239,24 @@
       {
         "option": "Oligosaccharides",
         "bool": false
-      },
-      {
-        "option": "Polysaccharides",
-        "bool": false
-      },
-      {
-        "option": "Aldoketose",
-        "bool": false
-      },
-      {
-        "option": "Monosaccharides",
-        "bool": true
       }
     ]
   },
   {
     "id": 9,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is not present in cartilage?",
     "answers": [
       {
-        "option": "Collagen",
+        "option": "Hydroxyapatite",
+        "bool": true
+      },
+      {
+        "option": "Glycosaminoglycans (GAGs)",
+        "bool": false
+      },
+      {
+        "option": "Hyaluronic acid",
         "bool": false
       },
       {
@@ -256,26 +264,18 @@
         "bool": false
       },
       {
-        "option": "Hydroxyapatite",
-        "bool": true
-      },
-      {
-        "option": "Hyaluronic acid",
-        "bool": false
-      },
-      {
-        "option": "Glycosaminoglycans (GAGs)",
+        "option": "Collagen",
         "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Regarding skeletal muscles, which of the following is wrong?",
     "answers": [
       {
-        "option": "Myofilaments are well developed",
+        "option": "Muscle fibers are cylindrical",
         "bool": false
       },
       {
@@ -287,7 +287,7 @@
         "bool": true
       },
       {
-        "option": "Muscle fibers are cylindrical",
+        "option": "Myofilaments are well developed",
         "bool": false
       },
       {
@@ -298,11 +298,11 @@
   },
   {
     "id": 11,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "How many cells are there in a morula?",
     "answers": [
       {
-        "option": "2 cells",
+        "option": "6 cells",
         "bool": false
       },
       {
@@ -310,12 +310,12 @@
         "bool": false
       },
       {
-        "option": "16 cells",
-        "bool": true
+        "option": "2 cells",
+        "bool": false
       },
       {
-        "option": "6 cells",
-        "bool": false
+        "option": "16 cells",
+        "bool": true
       },
       {
         "option": "4 cells",
@@ -325,15 +325,19 @@
   },
   {
     "id": 12,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is a proenzyme?",
     "answers": [
+      {
+        "option": "Active enzyme",
+        "bool": false
+      },
       {
         "option": "Inactive enzyme",
         "bool": true
       },
       {
-        "option": "Highly functional enzyme",
+        "option": "An enzyme made of protein",
         "bool": false
       },
       {
@@ -341,26 +345,18 @@
         "bool": false
       },
       {
-        "option": "An enzyme made of protein",
-        "bool": false
-      },
-      {
-        "option": "Active enzyme",
+        "option": "Highly functional enzyme",
         "bool": false
       }
     ]
   },
   {
     "id": 13,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following glands only secretes serous secretions?",
     "answers": [
       {
-        "option": "Parotid gland",
-        "bool": true
-      },
-      {
-        "option": "Meibomian gland",
+        "option": "Sublingual gland",
         "bool": false
       },
       {
@@ -368,34 +364,38 @@
         "bool": false
       },
       {
-        "option": "Sublingual gland",
+        "option": "Meibomian gland",
         "bool": false
       },
       {
         "option": "Glands of Zeis",
         "bool": false
+      },
+      {
+        "option": "Parotid gland",
+        "bool": true
       }
     ]
   },
   {
     "id": 14,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is the study of interconversion and utilization of energy in a living system called?",
     "answers": [
       {
-        "option": "Bioenergetics",
-        "bool": true
+        "option": "Biochemistry",
+        "bool": false
       },
       {
         "option": "Biosciences",
         "bool": false
       },
       {
-        "option": "Biophysics",
-        "bool": false
+        "option": "Bioenergetics",
+        "bool": true
       },
       {
-        "option": "Biochemistry",
+        "option": "Biophysics",
         "bool": false
       },
       {
@@ -406,7 +406,7 @@
   },
   {
     "id": 15,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is the basic structural and functional unit of the body?",
     "answers": [
       {
@@ -418,7 +418,7 @@
         "bool": false
       },
       {
-        "option": "Nucleus",
+        "option": "Tissues",
         "bool": false
       },
       {
@@ -426,19 +426,23 @@
         "bool": false
       },
       {
-        "option": "Tissues",
+        "option": "Nucleus",
         "bool": false
       }
     ]
   },
   {
     "id": 16,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "In a synovial joint, the periosteum is blended with which of the following?",
     "answers": [
       {
         "option": "Fibrous capsule",
         "bool": true
+      },
+      {
+        "option": "Synovial membrane",
+        "bool": false
       },
       {
         "option": "Synovial fluid",
@@ -451,21 +455,21 @@
       {
         "option": "Synovial capsule",
         "bool": false
-      },
-      {
-        "option": "Synovial membrane",
-        "bool": false
       }
     ]
   },
   {
     "id": 17,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is a part of the reticuloendothelial system?",
     "answers": [
       {
-        "option": "Macrophages",
-        "bool": true
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Eosinophils",
+        "bool": false
       },
       {
         "option": "Fibroblasts",
@@ -476,26 +480,18 @@
         "bool": false
       },
       {
-        "option": "Neutrophils",
-        "bool": false
-      },
-      {
-        "option": "Eosinophils",
-        "bool": false
+        "option": "Macrophages",
+        "bool": true
       }
     ]
   },
   {
     "id": 18,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is a stop codon?",
     "answers": [
       {
-        "option": "UAA",
-        "bool": true
-      },
-      {
-        "option": "AGA",
+        "option": "AAG",
         "bool": false
       },
       {
@@ -503,28 +499,24 @@
         "bool": false
       },
       {
-        "option": "AAG",
+        "option": "UAU",
         "bool": false
       },
       {
-        "option": "UAU",
+        "option": "UAA",
+        "bool": true
+      },
+      {
+        "option": "AGA",
         "bool": false
       }
     ]
   },
   {
     "id": 19,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following cells is not a part of connective tissue?",
     "answers": [
-      {
-        "option": "Lymphocyte",
-        "bool": false
-      },
-      {
-        "option": "Fibroblast",
-        "bool": false
-      },
       {
         "option": "Plasma cell",
         "bool": false
@@ -534,6 +526,14 @@
         "bool": true
       },
       {
+        "option": "Lymphocyte",
+        "bool": false
+      },
+      {
+        "option": "Fibroblast",
+        "bool": false
+      },
+      {
         "option": "Adipose cell",
         "bool": false
       }
@@ -541,24 +541,24 @@
   },
   {
     "id": 20,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What does vitamin C deficiency lead to?",
     "answers": [
       {
-        "option": "Beri beri",
+        "option": "Rickets",
         "bool": false
       },
       {
-        "option": "Rickets",
-        "bool": false
+        "option": "Collagen disorders",
+        "bool": true
       },
       {
         "option": "Blood clotting disorders",
         "bool": false
       },
       {
-        "option": "Collagen disorders",
-        "bool": true
+        "option": "Beri beri",
+        "bool": false
       },
       {
         "option": "Night blindness",
@@ -568,21 +568,9 @@
   },
   {
     "id": 21,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Neurons are specialized cells of the nervous system that are excitable and can transmit impulses electrically and chemically. Two major types of neurons are the pseudo-unipolar and multipolar neurons. Upon the basis of which structure, these two types can be anatomically differentiated?",
     "answers": [
-      {
-        "option": "Terminal synapses",
-        "bool": false
-      },
-      {
-        "option": "Nissl bodies",
-        "bool": false
-      },
-      {
-        "option": "Axon",
-        "bool": false
-      },
       {
         "option": "Myelination",
         "bool": false
@@ -590,16 +578,28 @@
       {
         "option": "Dendrites",
         "bool": true
+      },
+      {
+        "option": "Terminal synapses",
+        "bool": false
+      },
+      {
+        "option": "Axon",
+        "bool": false
+      },
+      {
+        "option": "Nissl bodies",
+        "bool": false
       }
     ]
   },
   {
     "id": 22,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following enzymes is first raised in myocardial infarction?",
     "answers": [
       {
-        "option": "Troponin T",
+        "option": "Myoglobin",
         "bool": false
       },
       {
@@ -607,7 +607,7 @@
         "bool": true
       },
       {
-        "option": "Myoglobin",
+        "option": "Troponin T",
         "bool": false
       },
       {
@@ -622,19 +622,15 @@
   },
   {
     "id": 23,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following refers to the process that makes the drugs less effective?",
     "answers": [
-      {
-        "option": "Biotransformation",
-        "bool": true
-      },
       {
         "option": "Oxidation",
         "bool": false
       },
       {
-        "option": "Phosphorylation",
+        "option": "Hydrogenation",
         "bool": false
       },
       {
@@ -642,23 +638,31 @@
         "bool": false
       },
       {
-        "option": "Hydrogenation",
+        "option": "Phosphorylation",
         "bool": false
+      },
+      {
+        "option": "Biotransformation",
+        "bool": true
       }
     ]
   },
   {
     "id": 24,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is not an example of fibrous joints?",
     "answers": [
       {
-        "option": "Synchondrosis",
-        "bool": true
+        "option": "Suture",
+        "bool": false
       },
       {
         "option": "Gomphosis",
         "bool": false
+      },
+      {
+        "option": "Synchondrosis",
+        "bool": true
       },
       {
         "option": "Interosseous membrane",
@@ -667,28 +671,16 @@
       {
         "option": "Syndesmosis",
         "bool": false
-      },
-      {
-        "option": "Suture",
-        "bool": false
       }
     ]
   },
   {
     "id": 25,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is true regarding biotransformation?",
     "answers": [
       {
-        "option": "It decreases ionization of a drug",
-        "bool": false
-      },
-      {
         "option": "It increases ionization of a drug",
-        "bool": false
-      },
-      {
-        "option": "It increases lipid solubility of a drug",
         "bool": false
       },
       {
@@ -696,24 +688,24 @@
         "bool": true
       },
       {
+        "option": "It decreases ionization of a drug",
+        "bool": false
+      },
+      {
         "option": "It causes hydrolysis of a drug",
+        "bool": false
+      },
+      {
+        "option": "It increases lipid solubility of a drug",
         "bool": false
       }
     ]
   },
   {
     "id": 26,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is true for strong acids?",
     "answers": [
-      {
-        "option": "Their pKa is high",
-        "bool": false
-      },
-      {
-        "option": "They dissociate partially",
-        "bool": false
-      },
       {
         "option": "Their pH is high",
         "bool": false
@@ -723,22 +715,34 @@
         "bool": false
       },
       {
+        "option": "Their pKa is high",
+        "bool": false
+      },
+      {
         "option": "Their pKa is low",
         "bool": true
+      },
+      {
+        "option": "They dissociate partially",
+        "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is incorrect regarding primitive streak?",
     "answers": [
       {
-        "option": "It extends through the midline and creates the left\u2013right and cranial\u2013caudal body axes",
+        "option": "It extends through the midline and creates the left–right and cranial–caudal body axes",
         "bool": false
       },
       {
         "option": "It is present on the dorsal side",
+        "bool": false
+      },
+      {
+        "option": "At the cranial end its cells proliferate to form the primitive knot (primitive node)",
         "bool": false
       },
       {
@@ -748,16 +752,12 @@
       {
         "option": "It first appears at the caudal end of the embryo and grows cranially",
         "bool": false
-      },
-      {
-        "option": "At the cranial end its cells proliferate to form the primitive knot (primitive node)",
-        "bool": false
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Barr body is the feature of which of the following conditions?",
     "answers": [
       {
@@ -773,49 +773,57 @@
         "bool": false
       },
       {
-        "option": "Huntington's disease",
+        "option": "Parkinson's disease",
         "bool": false
       },
       {
-        "option": "Parkinson's disease",
+        "option": "Huntington's disease",
         "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is the major ion of extracellular fluid?",
     "answers": [
       {
-        "option": "Na\u207a",
+        "option": "Mg⁺²",
+        "bool": false
+      },
+      {
+        "option": "Cl⁻",
+        "bool": false
+      },
+      {
+        "option": "Na⁺",
         "bool": true
       },
       {
-        "option": "Cl\u207b",
+        "option": "K⁺",
         "bool": false
       },
       {
-        "option": "Mg\u207a\u00b2",
-        "bool": false
-      },
-      {
-        "option": "K\u207a",
-        "bool": false
-      },
-      {
-        "option": "HCO\u2083\u207b",
+        "option": "HCO₃⁻",
         "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "The diffusion potential of the cell membrane is calculated by the movement of which of the following ions?",
     "answers": [
       {
+        "option": "HCO3-",
+        "bool": false
+      },
+      {
         "option": "Cl-",
+        "bool": false
+      },
+      {
+        "option": "K+",
         "bool": false
       },
       {
@@ -823,30 +831,18 @@
         "bool": true
       },
       {
-        "option": "K+",
-        "bool": false
-      },
-      {
         "option": "Na+",
-        "bool": false
-      },
-      {
-        "option": "HCO3-",
         "bool": false
       }
     ]
   },
   {
     "id": 31,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of these are the levers of locomotion?",
     "answers": [
       {
-        "option": "Short bones",
-        "bool": false
-      },
-      {
-        "option": "Sesamoid bones",
+        "option": "Wormian bones",
         "bool": false
       },
       {
@@ -858,22 +854,22 @@
         "bool": true
       },
       {
-        "option": "Wormian bones",
+        "option": "Short bones",
+        "bool": false
+      },
+      {
+        "option": "Sesamoid bones",
         "bool": false
       }
     ]
   },
   {
     "id": 32,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following ion channels has two gates?",
     "answers": [
       {
-        "option": "No channel has two gates",
-        "bool": false
-      },
-      {
-        "option": "Cl channel",
+        "option": "K channel",
         "bool": false
       },
       {
@@ -881,28 +877,24 @@
         "bool": false
       },
       {
+        "option": "No channel has two gates",
+        "bool": false
+      },
+      {
         "option": "Na channel",
         "bool": true
       },
       {
-        "option": "K channel",
+        "option": "Cl channel",
         "bool": false
       }
     ]
   },
   {
     "id": 33,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "A 25-year-old female patient comes to the outpatient department for counseling. She informs the doctor that she has Rh-ve blood and her previous child has suffered from hemolytic disease (erythroblastosis fetalis) and thus she is concerned for her current pregnancy. Which method is suitable for the detection of this disease?",
     "answers": [
-      {
-        "option": "Chorionic villus sampling",
-        "bool": false
-      },
-      {
-        "option": "Alpha-fetoprotein protein assay",
-        "bool": false
-      },
       {
         "option": "Percutaneous umbilical cord sampling",
         "bool": true
@@ -912,22 +904,30 @@
         "bool": false
       },
       {
+        "option": "Chorionic villus sampling",
+        "bool": false
+      },
+      {
         "option": "Amniocentesis",
+        "bool": false
+      },
+      {
+        "option": "Alpha-fetoprotein protein assay",
         "bool": false
       }
     ]
   },
   {
     "id": 34,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is an example of chromoprotein?",
     "answers": [
       {
-        "option": "Globulin",
+        "option": "Keratin",
         "bool": false
       },
       {
-        "option": "Collagen",
+        "option": "Globulin",
         "bool": false
       },
       {
@@ -935,30 +935,22 @@
         "bool": false
       },
       {
-        "option": "Cytochrome c",
-        "bool": true
+        "option": "Collagen",
+        "bool": false
       },
       {
-        "option": "Keratin",
-        "bool": false
+        "option": "Cytochrome c",
+        "bool": true
       }
     ]
   },
   {
     "id": 35,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "The stigma attached to many methods of treatment needs to be addressed by whom?",
     "answers": [
       {
         "option": "Nurse",
-        "bool": false
-      },
-      {
-        "option": "Psychologist",
-        "bool": false
-      },
-      {
-        "option": "Patient",
         "bool": false
       },
       {
@@ -968,18 +960,22 @@
       {
         "option": "Doctor",
         "bool": true
+      },
+      {
+        "option": "Patient",
+        "bool": false
+      },
+      {
+        "option": "Psychologist",
+        "bool": false
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "The deficiency of which one of the following fatty acids in diet makes arachidonic acid an essential amino acid?",
     "answers": [
-      {
-        "option": "Linolenic acid",
-        "bool": false
-      },
       {
         "option": "Acetic acid",
         "bool": false
@@ -995,53 +991,45 @@
       {
         "option": "Linoleic acid",
         "bool": true
+      },
+      {
+        "option": "Linolenic acid",
+        "bool": false
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "From where do typical spinal nerves pass through to leave the vertebral canal?",
     "answers": [
       {
-        "option": "Intervertebral disc",
-        "bool": false
+        "option": "Intervertebral foramina",
+        "bool": true
       },
       {
         "option": "Vertebral foramina",
         "bool": false
       },
       {
-        "option": "Intervertebral foramina",
-        "bool": true
-      },
-      {
-        "option": "Vertebral canal",
+        "option": "Transverse foramina",
         "bool": false
       },
       {
-        "option": "Transverse foramina",
+        "option": "Intervertebral disc",
+        "bool": false
+      },
+      {
+        "option": "Vertebral canal",
         "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which DNA strand is converted into mRNA?",
     "answers": [
-      {
-        "option": "Coding strand",
-        "bool": false
-      },
-      {
-        "option": "Sense strand",
-        "bool": false
-      },
-      {
-        "option": "Negative strand",
-        "bool": false
-      },
       {
         "option": "Template",
         "bool": true
@@ -1049,14 +1037,30 @@
       {
         "option": "Antitemplate",
         "bool": false
+      },
+      {
+        "option": "Coding strand",
+        "bool": false
+      },
+      {
+        "option": "Negative strand",
+        "bool": false
+      },
+      {
+        "option": "Sense strand",
+        "bool": false
       }
     ]
   },
   {
     "id": 39,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following structures is supplied by parasympathetic nerves?",
     "answers": [
+      {
+        "option": "Sweat glands",
+        "bool": false
+      },
       {
         "option": "Arrector muscles of hair",
         "bool": false
@@ -1066,27 +1070,27 @@
         "bool": true
       },
       {
-        "option": "Peripheral blood vessels",
-        "bool": false
-      },
-      {
         "option": "Suprarenal medulla",
         "bool": false
       },
       {
-        "option": "Sweat glands",
+        "option": "Peripheral blood vessels",
         "bool": false
       }
     ]
   },
   {
     "id": 40,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "In the third week of development, blood cells are formed from which of the following?",
     "answers": [
       {
-        "option": "Spleen",
+        "option": "Umbilical vessels",
         "bool": false
+      },
+      {
+        "option": "Mesenchymal cells",
+        "bool": true
       },
       {
         "option": "Bone marrow",
@@ -1097,27 +1101,19 @@
         "bool": false
       },
       {
-        "option": "Mesenchymal cells",
-        "bool": true
-      },
-      {
-        "option": "Umbilical vessels",
+        "option": "Spleen",
         "bool": false
       }
     ]
   },
   {
     "id": 41,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "The subcutaneous route is used due to which property?",
     "answers": [
       {
-        "option": "Prevention of shock",
+        "option": "Fast absorption",
         "bool": false
-      },
-      {
-        "option": "Slow absorption and prolonged effect",
-        "bool": true
       },
       {
         "option": "Immediate effect",
@@ -1128,26 +1124,30 @@
         "bool": false
       },
       {
-        "option": "Fast absorption",
+        "option": "Prevention of shock",
         "bool": false
+      },
+      {
+        "option": "Slow absorption and prolonged effect",
+        "bool": true
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following systems produces an effect to further enhance the stimulus?",
     "answers": [
       {
-        "option": "Feedback inhibition",
+        "option": "Immediate feedback",
         "bool": false
       },
       {
-        "option": "Positive feedback",
-        "bool": true
+        "option": "Negative feedback",
+        "bool": false
       },
       {
-        "option": "Immediate feedback",
+        "option": "Feedback inhibition",
         "bool": false
       },
       {
@@ -1155,18 +1155,22 @@
         "bool": false
       },
       {
-        "option": "Negative feedback",
-        "bool": false
+        "option": "Positive feedback",
+        "bool": true
       }
     ]
   },
   {
     "id": 43,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Why should a doctor have the knowledge of the cultural background of a patient?",
     "answers": [
       {
-        "option": "It helps him decide whether he should treat the patient or not",
+        "option": "It helps in developing doctor-patient relationship",
+        "bool": true
+      },
+      {
+        "option": "It distinguishes between good and bad practice",
         "bool": false
       },
       {
@@ -1174,26 +1178,26 @@
         "bool": false
       },
       {
-        "option": "It distinguishes between good and bad practice",
-        "bool": false
-      },
-      {
         "option": "It helps the doctor to understand the patient",
         "bool": false
       },
       {
-        "option": "It helps in developing doctor-patient relationship",
-        "bool": true
+        "option": "It helps him decide whether he should treat the patient or not",
+        "bool": false
       }
     ]
   },
   {
     "id": 44,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is the rapid reduction in the response of a drug after a single administration defined as?",
     "answers": [
       {
-        "option": "Anaphylaxis",
+        "option": "Supersensitivity",
+        "bool": false
+      },
+      {
+        "option": "Tolerance",
         "bool": false
       },
       {
@@ -1201,22 +1205,18 @@
         "bool": false
       },
       {
-        "option": "Supersensitivity",
+        "option": "Anaphylaxis",
         "bool": false
       },
       {
         "option": "Tachyphylaxis",
         "bool": true
-      },
-      {
-        "option": "Tolerance",
-        "bool": false
       }
     ]
   },
   {
     "id": 45,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following best defines morphogenesis?",
     "answers": [
       {
@@ -1224,7 +1224,7 @@
         "bool": false
       },
       {
-        "option": "Development of already formed organs",
+        "option": "Deterioration of already formed structures of the body",
         "bool": false
       },
       {
@@ -1232,22 +1232,26 @@
         "bool": false
       },
       {
-        "option": "Deterioration of already formed structures of the body",
-        "bool": false
-      },
-      {
         "option": "Development of specific morphological characteristics of a particular organ or the whole body",
         "bool": true
+      },
+      {
+        "option": "Development of already formed organs",
+        "bool": false
       }
     ]
   },
   {
     "id": 46,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Cholesterol is an important constituent of which of the following structures?",
     "answers": [
       {
-        "option": "Rough endoplasmic reticulum",
+        "option": "Mitochondria",
+        "bool": false
+      },
+      {
+        "option": "Golgi bodies",
         "bool": false
       },
       {
@@ -1255,24 +1259,24 @@
         "bool": true
       },
       {
-        "option": "Golgi bodies",
-        "bool": false
-      },
-      {
-        "option": "Mitochondria",
-        "bool": false
-      },
-      {
         "option": "Ribosomes",
+        "bool": false
+      },
+      {
+        "option": "Rough endoplasmic reticulum",
         "bool": false
       }
     ]
   },
   {
     "id": 47,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "In which of the following conditions does the person have a chromosome number that is not a multiple of 23?",
     "answers": [
+      {
+        "option": "Aneuploidy",
+        "bool": true
+      },
       {
         "option": "Polyploidy",
         "bool": false
@@ -1280,10 +1284,6 @@
       {
         "option": "Triploidy",
         "bool": false
-      },
-      {
-        "option": "Aneuploidy",
-        "bool": true
       },
       {
         "option": "Monoploidy",
@@ -1297,11 +1297,15 @@
   },
   {
     "id": 48,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What will be the effect on aldosterone and antidiuretic hormone levels when a hypotonic solution is infused into the body?",
     "answers": [
       {
-        "option": "There will be decreased aldosterone and increased ADH",
+        "option": "There will be increased aldosterone and increased ADH",
+        "bool": false
+      },
+      {
+        "option": "There will be increased aldosterone and decreased ADH",
         "bool": false
       },
       {
@@ -1309,35 +1313,27 @@
         "bool": true
       },
       {
-        "option": "There will be increased aldosterone and decreased ADH",
-        "bool": false
-      },
-      {
         "option": "There will be no effect",
         "bool": false
       },
       {
-        "option": "There will be increased aldosterone and increased ADH",
+        "option": "There will be decreased aldosterone and increased ADH",
         "bool": false
       }
     ]
   },
   {
     "id": 49,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which type of prevention helps in the early detection of disease?",
     "answers": [
       {
-        "option": "Secondary prevention",
-        "bool": true
-      },
-      {
-        "option": "Quaternary prevention",
-        "bool": false
-      },
-      {
         "option": "Disease surveillance",
         "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": true
       },
       {
         "option": "Primary prevention",
@@ -1346,53 +1342,45 @@
       {
         "option": "Tertiary prevention",
         "bool": false
+      },
+      {
+        "option": "Quaternary prevention",
+        "bool": false
       }
     ]
   },
   {
     "id": 50,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is incorrect regarding carbohydrates?",
     "answers": [
       {
-        "option": "Do not play a role in cell-cell recognition",
-        "bool": true
+        "option": "Help the cell membrane to maintain its integrity",
+        "bool": false
+      },
+      {
+        "option": "Serve as mediators of cell to cell interactions",
+        "bool": false
       },
       {
         "option": "Form a coat on cell surface",
         "bool": false
       },
       {
-        "option": "Help the cell membrane to maintain its integrity",
-        "bool": false
+        "option": "Do not play a role in cell-cell recognition",
+        "bool": true
       },
       {
         "option": "They are an important component of cell membrane",
-        "bool": false
-      },
-      {
-        "option": "Serve as mediators of cell to cell interactions",
         "bool": false
       }
     ]
   },
   {
     "id": 51,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is a characteristic of apoptosis?",
     "answers": [
-      {
-        "option": "Rupture and release of cellular contents",
-        "bool": false
-      },
-      {
-        "option": "Plasma membrane remains intact",
-        "bool": true
-      },
-      {
-        "option": "Cellular swelling",
-        "bool": false
-      },
       {
         "option": "Nuclear swelling",
         "bool": false
@@ -1400,12 +1388,24 @@
       {
         "option": "Inflammation",
         "bool": false
+      },
+      {
+        "option": "Plasma membrane remains intact",
+        "bool": true
+      },
+      {
+        "option": "Rupture and release of cellular contents",
+        "bool": false
+      },
+      {
+        "option": "Cellular swelling",
+        "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Implantation occurs in which layer of the uterus?",
     "answers": [
       {
@@ -1413,11 +1413,11 @@
         "bool": true
       },
       {
-        "option": "Perimetrium",
+        "option": "Basal layer",
         "bool": false
       },
       {
-        "option": "Basal layer",
+        "option": "Perimetrium",
         "bool": false
       },
       {
@@ -1432,11 +1432,19 @@
   },
   {
     "id": 53,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Ovulation is caused by which of the following?",
     "answers": [
       {
         "option": "Rupture of secondary oocyte",
+        "bool": false
+      },
+      {
+        "option": "High estrogen levels",
+        "bool": false
+      },
+      {
+        "option": "Formation of corpus luteum",
         "bool": false
       },
       {
@@ -1446,32 +1454,16 @@
       {
         "option": "High progesterone levels",
         "bool": false
-      },
-      {
-        "option": "Formation of corpus luteum",
-        "bool": false
-      },
-      {
-        "option": "High estrogen levels",
-        "bool": false
       }
     ]
   },
   {
     "id": 54,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What is the range of sodium (Na+) in the blood?",
     "answers": [
       {
-        "option": "135-145 mEq/L",
-        "bool": true
-      },
-      {
         "option": "20-50 mEq/L",
-        "bool": false
-      },
-      {
-        "option": "12-40 mEq/L",
         "bool": false
       },
       {
@@ -1479,19 +1471,27 @@
         "bool": false
       },
       {
+        "option": "135-145 mEq/L",
+        "bool": true
+      },
+      {
         "option": "30-70 mEq/L",
+        "bool": false
+      },
+      {
+        "option": "12-40 mEq/L",
         "bool": false
       }
     ]
   },
   {
     "id": 55,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "In habitual cigarette smokers, the normal ciliated columnar epithelial cells lining the trachea and bronchi are often replaced by stratified squamous epithelial cells. What is this process called?",
     "answers": [
       {
-        "option": "Metaplasia",
-        "bool": true
+        "option": "Dysplasia",
+        "bool": false
       },
       {
         "option": "Atrophy",
@@ -1502,8 +1502,8 @@
         "bool": false
       },
       {
-        "option": "Dysplasia",
-        "bool": false
+        "option": "Metaplasia",
+        "bool": true
       },
       {
         "option": "Hypertrophy",
@@ -1513,16 +1513,20 @@
   },
   {
     "id": 56,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is the site where lymph enters into the blood vascular system?",
     "answers": [
+      {
+        "option": "Spleen",
+        "bool": false
+      },
       {
         "option": "Limbs",
         "bool": false
       },
       {
-        "option": "Spleen",
-        "bool": false
+        "option": "Root of the neck",
+        "bool": true
       },
       {
         "option": "Trunk",
@@ -1531,26 +1535,14 @@
       {
         "option": "Liver",
         "bool": false
-      },
-      {
-        "option": "Root of the neck",
-        "bool": true
       }
     ]
   },
   {
     "id": 57,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following amino acids breaks the alpha-helix winding?",
     "answers": [
-      {
-        "option": "Proline",
-        "bool": true
-      },
-      {
-        "option": "Tyrosine",
-        "bool": false
-      },
       {
         "option": "Tryptophan",
         "bool": false
@@ -1562,20 +1554,24 @@
       {
         "option": "Phenylalanine",
         "bool": false
+      },
+      {
+        "option": "Proline",
+        "bool": true
+      },
+      {
+        "option": "Tyrosine",
+        "bool": false
       }
     ]
   },
   {
     "id": 58,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which bone acts as a lever of locomotion?",
     "answers": [
       {
-        "option": "Hip bone",
-        "bool": false
-      },
-      {
-        "option": "Scaphoid",
+        "option": "Scapula",
         "bool": false
       },
       {
@@ -1583,30 +1579,30 @@
         "bool": false
       },
       {
+        "option": "Hip bone",
+        "bool": false
+      },
+      {
         "option": "Femur",
         "bool": true
       },
       {
-        "option": "Scapula",
+        "option": "Scaphoid",
         "bool": false
       }
     ]
   },
   {
     "id": 59,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is an example of a short bone?",
     "answers": [
-      {
-        "option": "Femur",
-        "bool": false
-      },
       {
         "option": "Hip bone",
         "bool": false
       },
       {
-        "option": "Vertebrae",
+        "option": "Scapula",
         "bool": false
       },
       {
@@ -1614,27 +1610,27 @@
         "bool": true
       },
       {
-        "option": "Scapula",
+        "option": "Vertebrae",
+        "bool": false
+      },
+      {
+        "option": "Femur",
         "bool": false
       }
     ]
   },
   {
     "id": 60,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of these is a part of the axial skeleton?",
     "answers": [
       {
-        "option": "Femur",
-        "bool": false
+        "option": "Vertebrae",
+        "bool": true
       },
       {
         "option": "Hip bone",
         "bool": false
-      },
-      {
-        "option": "Vertebrae",
-        "bool": true
       },
       {
         "option": "Scapula",
@@ -1642,19 +1638,19 @@
       },
       {
         "option": "Carpal",
+        "bool": false
+      },
+      {
+        "option": "Femur",
         "bool": false
       }
     ]
   },
   {
     "id": 61,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of these is part of the pelvic girdle?",
     "answers": [
-      {
-        "option": "Carpals",
-        "bool": false
-      },
       {
         "option": "Femur",
         "bool": false
@@ -1664,22 +1660,26 @@
         "bool": true
       },
       {
-        "option": "Scapula",
+        "option": "Vertebrae",
         "bool": false
       },
       {
-        "option": "Vertebrae",
+        "option": "Carpals",
+        "bool": false
+      },
+      {
+        "option": "Scapula",
         "bool": false
       }
     ]
   },
   {
     "id": 62,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of these is an example of a flat bone?",
     "answers": [
       {
-        "option": "Carpal",
+        "option": "Femur",
         "bool": false
       },
       {
@@ -1687,24 +1687,28 @@
         "bool": false
       },
       {
-        "option": "Femur",
+        "option": "Vertebrae",
+        "bool": false
+      },
+      {
+        "option": "Carpal",
         "bool": false
       },
       {
         "option": "Scapula",
         "bool": true
-      },
-      {
-        "option": "Vertebrae",
-        "bool": false
       }
     ]
   },
   {
     "id": 63,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which subunit of the Na-K pump has binding sites for Na+ and K+?",
     "answers": [
+      {
+        "option": "Alpha",
+        "bool": true
+      },
       {
         "option": "Sigma",
         "bool": false
@@ -1714,22 +1718,18 @@
         "bool": false
       },
       {
-        "option": "Delta",
+        "option": "Beta",
         "bool": false
       },
       {
-        "option": "Alpha",
-        "bool": true
-      },
-      {
-        "option": "Beta",
+        "option": "Delta",
         "bool": false
       }
     ]
   },
   {
     "id": 64,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which subunit of the Na-K pump has ATPase activity?",
     "answers": [
       {
@@ -1737,11 +1737,7 @@
         "bool": false
       },
       {
-        "option": "Alpha",
-        "bool": true
-      },
-      {
-        "option": "Gamma",
+        "option": "Sigma",
         "bool": false
       },
       {
@@ -1749,16 +1745,28 @@
         "bool": false
       },
       {
-        "option": "Sigma",
+        "option": "Gamma",
         "bool": false
+      },
+      {
+        "option": "Alpha",
+        "bool": true
       }
     ]
   },
   {
     "id": 65,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following statements describes the function of the Na-K pump?",
     "answers": [
+      {
+        "option": "Pumps 2 Na+ out and 2 K+ in",
+        "bool": false
+      },
+      {
+        "option": "Pumps 2 Na+ out and 3 K+ in",
+        "bool": false
+      },
       {
         "option": "Pumps 3 Na+ out and 2 K+ in",
         "bool": true
@@ -1768,30 +1776,22 @@
         "bool": false
       },
       {
-        "option": "Pumps 2 Na+ out and 3 K+ in",
-        "bool": false
-      },
-      {
         "option": "Pumps 2 Na+ in and 2 K+ out",
-        "bool": false
-      },
-      {
-        "option": "Pumps 2 Na+ out and 2 K+ in",
         "bool": false
       }
     ]
   },
   {
     "id": 66,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following best describes the nature of the Na-K ATP pump?",
     "answers": [
       {
-        "option": "Hydrogenic",
-        "bool": false
+        "option": "Electrogenic",
+        "bool": true
       },
       {
-        "option": "Chemogenic",
+        "option": "Hydrogenic",
         "bool": false
       },
       {
@@ -1799,18 +1799,18 @@
         "bool": false
       },
       {
-        "option": "Electrogenic",
-        "bool": true
+        "option": "Photogenic",
+        "bool": false
       },
       {
-        "option": "Photogenic",
+        "option": "Chemogenic",
         "bool": false
       }
     ]
   },
   {
     "id": 67,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What will happen to the cell if the Na-K pump dysfunctions?",
     "answers": [
       {
@@ -1818,7 +1818,7 @@
         "bool": true
       },
       {
-        "option": "DNA damage",
+        "option": "Cell necrosis",
         "bool": false
       },
       {
@@ -1826,20 +1826,24 @@
         "bool": false
       },
       {
-        "option": "Cell necrosis",
+        "option": "Membrane damage",
         "bool": false
       },
       {
-        "option": "Membrane damage",
+        "option": "DNA damage",
         "bool": false
       }
     ]
   },
   {
     "id": 68,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "In cell signaling, steroid hormones bind to which of the following receptors?",
     "answers": [
+      {
+        "option": "Nuclear receptors",
+        "bool": false
+      },
       {
         "option": "Cytosolic receptors",
         "bool": true
@@ -1849,28 +1853,20 @@
         "bool": false
       },
       {
-        "option": "Nuclear receptors",
+        "option": "Cell surface receptors",
         "bool": false
       },
       {
         "option": "Endoplasmic reticulum receptors",
-        "bool": false
-      },
-      {
-        "option": "Cell surface receptors",
         "bool": false
       }
     ]
   },
   {
     "id": 69,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following conditions does ischemia lead to?",
     "answers": [
-      {
-        "option": "Hyperplasia",
-        "bool": false
-      },
       {
         "option": "Hypertrophy",
         "bool": false
@@ -1880,35 +1876,39 @@
         "bool": false
       },
       {
+        "option": "Atrophy",
+        "bool": true
+      },
+      {
         "option": "Metaplasia",
         "bool": false
       },
       {
-        "option": "Atrophy",
-        "bool": true
+        "option": "Hyperplasia",
+        "bool": false
       }
     ]
   },
   {
     "id": 70,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following substances is formed due to the esterification of fatty acids with long-chain alcohols?",
     "answers": [
-      {
-        "option": "Triglycerides",
-        "bool": false
-      },
       {
         "option": "Fatty alcohols",
         "bool": false
       },
       {
-        "option": "Steroids",
+        "option": "Triglycerides",
         "bool": false
       },
       {
         "option": "Waxes",
         "bool": true
+      },
+      {
+        "option": "Steroids",
+        "bool": false
       },
       {
         "option": "Cholesterol",
@@ -1918,12 +1918,12 @@
   },
   {
     "id": 71,
-    "info": "1st-year/foundation-1/2019",
-    "question": "Which of the following underlying structures induces the formation of overlying ectoderm into a neural tube?",
+    "info": "1st-year/foundation/2019",
+    "question": "Which of the following  underlying structures induces the formation of overlying ectoderm into a neural tube?",
     "answers": [
       {
-        "option": "Mesoderm",
-        "bool": false
+        "option": "Notochord",
+        "bool": true
       },
       {
         "option": "Primitive streak",
@@ -1938,49 +1938,45 @@
         "bool": false
       },
       {
-        "option": "Notochord",
-        "bool": true
+        "option": "Mesoderm",
+        "bool": false
       }
     ]
   },
   {
     "id": 72,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "A histopathologist looks at an epithelium slide. He sees tall cells with elongated nuclei and finger-like projections. Which of the following structures does this epithelium belong to?",
     "answers": [
       {
-        "option": "Intestinal mucosa",
-        "bool": true
+        "option": "Olfactory mucosa",
+        "bool": false
       },
       {
         "option": "Nasopharynx",
         "bool": false
       },
       {
-        "option": "Respiratory mucosa",
-        "bool": false
-      },
-      {
-        "option": "Olfactory mucosa",
-        "bool": false
+        "option": "Intestinal mucosa",
+        "bool": true
       },
       {
         "option": "Esophagus",
+        "bool": false
+      },
+      {
+        "option": "Respiratory mucosa",
         "bool": false
       }
     ]
   },
   {
     "id": 73,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following bacteria are found in cold temperatures?",
     "answers": [
       {
-        "option": "Acidophiles",
-        "bool": false
-      },
-      {
-        "option": "Thermophiles",
+        "option": "Mesophiles",
         "bool": false
       },
       {
@@ -1988,30 +1984,26 @@
         "bool": true
       },
       {
-        "option": "Mesophiles",
+        "option": "Thermophiles",
         "bool": false
       },
       {
         "option": "Extreme thermophiles",
+        "bool": false
+      },
+      {
+        "option": "Acidophiles",
         "bool": false
       }
     ]
   },
   {
     "id": 74,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which type of epithelium is found in the duct of a salivary gland?",
     "answers": [
       {
-        "option": "Simple cuboidal epithelium",
-        "bool": true
-      },
-      {
-        "option": "Transitional epithelium",
-        "bool": false
-      },
-      {
-        "option": "Pseudostratified epithelium",
+        "option": "Stratified columnar epithelium",
         "bool": false
       },
       {
@@ -2019,14 +2011,22 @@
         "bool": false
       },
       {
-        "option": "Stratified columnar epithelium",
+        "option": "Simple cuboidal epithelium",
+        "bool": true
+      },
+      {
+        "option": "Pseudostratified epithelium",
+        "bool": false
+      },
+      {
+        "option": "Transitional epithelium",
         "bool": false
       }
     ]
   },
   {
     "id": 75,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "A 1st year medical student is given a slide of the ureter. Which type of epithelium is present in the lining of the ureter?",
     "answers": [
       {
@@ -2034,6 +2034,10 @@
         "bool": false
       },
       {
+        "option": "Transitional epithelium",
+        "bool": true
+      },
+      {
         "option": "Pseudostratified epithelium",
         "bool": false
       },
@@ -2044,16 +2048,12 @@
       {
         "option": "Simple cuboidal epithelium",
         "bool": false
-      },
-      {
-        "option": "Transitional epithelium",
-        "bool": true
       }
     ]
   },
   {
     "id": 76,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "In which of the following glands is iodine present?",
     "answers": [
       {
@@ -2069,18 +2069,18 @@
         "bool": false
       },
       {
-        "option": "Adrenal gland",
+        "option": "Hypothalamus",
         "bool": false
       },
       {
-        "option": "Hypothalamus",
+        "option": "Adrenal gland",
         "bool": false
       }
     ]
   },
   {
     "id": 77,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Nucleus pulposus is a remnant of which of the following structures?",
     "answers": [
       {
@@ -2092,26 +2092,26 @@
         "bool": false
       },
       {
+        "option": "Neurenteric canal",
+        "bool": false
+      },
+      {
         "option": "Notochord",
         "bool": true
       },
       {
         "option": "Neural tube",
         "bool": false
-      },
-      {
-        "option": "Neurenteric canal",
-        "bool": false
       }
     ]
   },
   {
     "id": 78,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following enzymes is responsible for the separation of two strands of DNA?",
     "answers": [
       {
-        "option": "RNA polymerase",
+        "option": "Topoisomerase 2",
         "bool": false
       },
       {
@@ -2119,26 +2119,30 @@
         "bool": false
       },
       {
-        "option": "Topoisomerase 2",
+        "option": "Helicase",
+        "bool": true
+      },
+      {
+        "option": "RNA polymerase",
         "bool": false
       },
       {
         "option": "Reverse transcriptase",
         "bool": false
-      },
-      {
-        "option": "Helicase",
-        "bool": true
       }
     ]
   },
   {
     "id": 79,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Starch and glycogen are polymers of which isomer of glucose?",
     "answers": [
       {
-        "option": "Mannose",
+        "option": "Alpha D glucose",
+        "bool": true
+      },
+      {
+        "option": "Fructose",
         "bool": false
       },
       {
@@ -2150,18 +2154,14 @@
         "bool": false
       },
       {
-        "option": "Fructose",
+        "option": "Mannose",
         "bool": false
-      },
-      {
-        "option": "Alpha D glucose",
-        "bool": true
       }
     ]
   },
   {
     "id": 80,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "The deficiency of which of the following minerals is seen in Menkes disease, an X-linked recessive disorder, involving the defective cross-linking of collagen and elastic fibers?",
     "answers": [
       {
@@ -2173,12 +2173,12 @@
         "bool": false
       },
       {
-        "option": "Copper",
-        "bool": true
-      },
-      {
         "option": "Manganese",
         "bool": false
+      },
+      {
+        "option": "Copper",
+        "bool": true
       },
       {
         "option": "Zinc",
@@ -2188,19 +2188,15 @@
   },
   {
     "id": 81,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "The ability to distinguish between two objects situated close together is called resolution. On which of the following does the resolving power of a microscope depend upon?",
     "answers": [
-      {
-        "option": "Wavelength of source of illumination",
-        "bool": true
-      },
       {
         "option": "Thickness of specimen",
         "bool": false
       },
       {
-        "option": "Condenser",
+        "option": "Ocular lens",
         "bool": false
       },
       {
@@ -2208,16 +2204,28 @@
         "bool": false
       },
       {
-        "option": "Ocular lens",
+        "option": "Condenser",
         "bool": false
+      },
+      {
+        "option": "Wavelength of source of illumination",
+        "bool": true
       }
     ]
   },
   {
     "id": 82,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "A doctor calls the patient by his name, talks to him to create a friendly environment before going to treatment and the doctor also observes his behavior to see if he is showing any signs of discomfort. What is the reason behind this behavior of the doctor?",
     "answers": [
+      {
+        "option": "The doctor is trying to keep him busy",
+        "bool": false
+      },
+      {
+        "option": "He is trying to find out any cultural differences so that he can see if there will be any difficulties/challenges to face due to this",
+        "bool": false
+      },
       {
         "option": "He is trying to gain the patient's trust before jumping into the task",
         "bool": true
@@ -2227,26 +2235,18 @@
         "bool": false
       },
       {
-        "option": "He is trying to find out any cultural differences so that he can see if there will be any difficulties/challenges to face due to this",
-        "bool": false
-      },
-      {
         "option": "There is no reason behind his behavior",
-        "bool": false
-      },
-      {
-        "option": "The doctor is trying to keep him busy",
         "bool": false
       }
     ]
   },
   {
     "id": 83,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following structures is not drained by the thoracic duct?",
     "answers": [
       {
-        "option": "Left lower limb",
+        "option": "Right lower limb",
         "bool": false
       },
       {
@@ -2254,34 +2254,30 @@
         "bool": false
       },
       {
-        "option": "Right half of head and neck",
-        "bool": true
-      },
-      {
-        "option": "Right lower limb",
-        "bool": false
-      },
-      {
         "option": "Left half of head and neck",
         "bool": false
+      },
+      {
+        "option": "Left lower limb",
+        "bool": false
+      },
+      {
+        "option": "Right half of head and neck",
+        "bool": true
       }
     ]
   },
   {
     "id": 84,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "At what site, within an enzyme, does the catalytic action of an enzyme generally take place?",
     "answers": [
-      {
-        "option": "Active site",
-        "bool": true
-      },
       {
         "option": "Protein part",
         "bool": false
       },
       {
-        "option": "Co-factor",
+        "option": "Prosthetic group",
         "bool": false
       },
       {
@@ -2289,14 +2285,18 @@
         "bool": false
       },
       {
-        "option": "Prosthetic group",
+        "option": "Active site",
+        "bool": true
+      },
+      {
+        "option": "Co-factor",
         "bool": false
       }
     ]
   },
   {
     "id": 85,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What does the primary structure of protein refer to?",
     "answers": [
       {
@@ -2308,30 +2308,30 @@
         "bool": false
       },
       {
-        "option": "Folded chain of amino acids",
-        "bool": false
-      },
-      {
         "option": "Multiple folded chains of amino acids linked together",
         "bool": false
       },
       {
         "option": "Helical structure of amino acids",
         "bool": false
+      },
+      {
+        "option": "Folded chain of amino acids",
+        "bool": false
       }
     ]
   },
   {
     "id": 86,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which type of connective tissue is found in the umbilical cord?",
     "answers": [
       {
-        "option": "Dense irregular connective tissue",
+        "option": "Mesenchyme",
         "bool": false
       },
       {
-        "option": "Adipose tissue",
+        "option": "Dense irregular connective tissue",
         "bool": false
       },
       {
@@ -2339,7 +2339,7 @@
         "bool": true
       },
       {
-        "option": "Mesenchyme",
+        "option": "Adipose tissue",
         "bool": false
       },
       {
@@ -2350,13 +2350,9 @@
   },
   {
     "id": 87,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following structures do not have lymphatic drainage?",
     "answers": [
-      {
-        "option": "Intestine",
-        "bool": false
-      },
       {
         "option": "Axilla",
         "bool": false
@@ -2366,20 +2362,28 @@
         "bool": true
       },
       {
+        "option": "Inguinal region",
+        "bool": false
+      },
+      {
         "option": "Breast",
         "bool": false
       },
       {
-        "option": "Inguinal region",
+        "option": "Intestine",
         "bool": false
       }
     ]
   },
   {
     "id": 88,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is responsible for hyperpolarization?",
     "answers": [
+      {
+        "option": "Decreased chloride influx",
+        "bool": false
+      },
       {
         "option": "Increased activity of sodium potassium pump",
         "bool": false
@@ -2395,16 +2399,12 @@
       {
         "option": "Decreased chloride shift",
         "bool": false
-      },
-      {
-        "option": "Decreased chloride influx",
-        "bool": false
       }
     ]
   },
   {
     "id": 89,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "From which of the following structures do the worn-out organelles of the cell reach lysosome?",
     "answers": [
       {
@@ -2412,34 +2412,34 @@
         "bool": false
       },
       {
-        "option": "Residual bodies",
+        "option": "Granular endoplasmic reticulum",
         "bool": false
       },
       {
-        "option": "Autophagosomes",
-        "bool": true
+        "option": "Residual bodies",
+        "bool": false
       },
       {
         "option": "Mitochondria",
         "bool": false
       },
       {
-        "option": "Granular endoplasmic reticulum",
-        "bool": false
+        "option": "Autophagosomes",
+        "bool": true
       }
     ]
   },
   {
     "id": 90,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "A 28-year-old man comes to the emergency room with complaints of coughing, phlegm, shortness of breath. He has been working in a mine for the last 20 years. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Pneumonia",
+        "option": "Steatosis",
         "bool": false
       },
       {
-        "option": "Steatosis",
+        "option": "Pneumonia",
         "bool": false
       },
       {
@@ -2458,11 +2458,11 @@
   },
   {
     "id": 91,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "An old lady falls down the stairs and fractures her hip bone. Which type of joint is a hip joint?",
     "answers": [
       {
-        "option": "Pivot joint",
+        "option": "Saddle joint",
         "bool": false
       },
       {
@@ -2474,7 +2474,7 @@
         "bool": false
       },
       {
-        "option": "Saddle joint",
+        "option": "Pivot joint",
         "bool": false
       },
       {
@@ -2485,7 +2485,7 @@
   },
   {
     "id": 92,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which type of epithelium is found in oral mucosa?",
     "answers": [
       {
@@ -2493,11 +2493,11 @@
         "bool": false
       },
       {
-        "option": "Simple cuboidal epithelium",
+        "option": "Pseudostratified columnar epithelium",
         "bool": false
       },
       {
-        "option": "Pseudostratified columnar epithelium",
+        "option": "Simple columnar epithelium",
         "bool": false
       },
       {
@@ -2505,16 +2505,24 @@
         "bool": true
       },
       {
-        "option": "Simple columnar epithelium",
+        "option": "Simple cuboidal epithelium",
         "bool": false
       }
     ]
   },
   {
     "id": 93,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following has a beta 1,4 glycosidic linkage?",
     "answers": [
+      {
+        "option": "Amylopectin",
+        "bool": false
+      },
+      {
+        "option": "Glycogen",
+        "bool": false
+      },
       {
         "option": "Cellulose",
         "bool": true
@@ -2524,34 +2532,18 @@
         "bool": false
       },
       {
-        "option": "Amylopectin",
-        "bool": false
-      },
-      {
         "option": "Amylose",
-        "bool": false
-      },
-      {
-        "option": "Glycogen",
         "bool": false
       }
     ]
   },
   {
     "id": 94,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "What does low pKa refer to?",
     "answers": [
       {
-        "option": "Strong acid",
-        "bool": true
-      },
-      {
-        "option": "Cation",
-        "bool": false
-      },
-      {
-        "option": "Zwitter ion",
+        "option": "Weak acid",
         "bool": false
       },
       {
@@ -2559,26 +2551,26 @@
         "bool": false
       },
       {
-        "option": "Weak acid",
+        "option": "Zwitter ion",
+        "bool": false
+      },
+      {
+        "option": "Strong acid",
+        "bool": true
+      },
+      {
+        "option": "Cation",
         "bool": false
       }
     ]
   },
   {
     "id": 95,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which type of epithelium is found in the intestinal wall?",
     "answers": [
       {
         "option": "Simple squamous epithelium",
-        "bool": false
-      },
-      {
-        "option": "Simple columnar epithelium",
-        "bool": true
-      },
-      {
-        "option": "Pseudostratified columnar epithelium",
         "bool": false
       },
       {
@@ -2588,12 +2580,20 @@
       {
         "option": "Transitional epithelium",
         "bool": false
+      },
+      {
+        "option": "Pseudostratified columnar epithelium",
+        "bool": false
+      },
+      {
+        "option": "Simple columnar epithelium",
+        "bool": true
       }
     ]
   },
   {
     "id": 96,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following structures is not found in a shoulder joint?",
     "answers": [
       {
@@ -2609,26 +2609,49 @@
         "bool": false
       },
       {
-        "option": "Synovial membrane",
+        "option": "Fibrous capsule",
         "bool": false
       },
       {
-        "option": "Fibrous capsule",
+        "option": "Synovial membrane",
         "bool": false
       }
     ]
   },
   {
     "id": 97,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
+    "question": "In which disease does accumulation due to inadequate removal of normal substances secondary to a mutation in packaging and modification of substances occur?",
+    "answers": [
+      {
+        "option": "Accumulation of silica",
+        "bool": false
+      },
+      {
+        "option": "Lysosomal storage diseases",
+        "bool": false
+      },
+      {
+        "option": "Accumulation of carbon particles",
+        "bool": false
+      },
+      {
+        "option": "Alpha-1 antitrypsin deficiency",
+        "bool": false
+      },
+      {
+        "option": "Steatosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "info": "1st-year/foundation/2019",
     "question": "A woman comes to the outpatient department with complaints of vomiting and amenorrhea for a month. The doctor prescribes a pregnancy test. Which of the following is the best indicator of pregnancy?",
     "answers": [
       {
-        "option": "Human chorionic gonadotropin (hCG)",
-        "bool": true
-      },
-      {
-        "option": "Testosterone",
+        "option": "Progesterone",
         "bool": false
       },
       {
@@ -2636,26 +2659,26 @@
         "bool": false
       },
       {
-        "option": "Progesterone",
-        "bool": false
+        "option": "Human chorionic gonadotropin (hCG)",
+        "bool": true
       },
       {
         "option": "Follicle-stimulating hormone (FSH)",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
         "bool": false
       }
     ]
   },
   {
-    "id": 98,
-    "info": "1st-year/foundation-1/2019",
+    "id": 99,
+    "info": "1st-year/foundation/2019",
     "question": "What is the study of using scientific methods and techniques to find out the distribution and determinants of a disease in a population called?",
     "answers": [
       {
         "option": "Health research",
-        "bool": false
-      },
-      {
-        "option": "Cultural study",
         "bool": false
       },
       {
@@ -2669,16 +2692,20 @@
       {
         "option": "Anthropology",
         "bool": false
+      },
+      {
+        "option": "Cultural study",
+        "bool": false
       }
     ]
   },
   {
-    "id": 99,
-    "info": "1st-year/foundation-1/2019",
+    "id": 100,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following structures has transitional epithelium?",
     "answers": [
       {
-        "option": "Intestine",
+        "option": "Skin",
         "bool": false
       },
       {
@@ -2686,26 +2713,26 @@
         "bool": false
       },
       {
-        "option": "Urinary bladder",
-        "bool": true
-      },
-      {
         "option": "Artery",
         "bool": false
       },
       {
-        "option": "Skin",
+        "option": "Intestine",
         "bool": false
+      },
+      {
+        "option": "Urinary bladder",
+        "bool": true
       }
     ]
   },
   {
-    "id": 100,
-    "info": "1st-year/foundation-1/2019",
+    "id": 101,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is a sulfur-containing amino acid?",
     "answers": [
       {
-        "option": "Proline",
+        "option": "Arginine",
         "bool": false
       },
       {
@@ -2713,24 +2740,28 @@
         "bool": false
       },
       {
-        "option": "Arginine",
-        "bool": false
+        "option": "Methionine",
+        "bool": true
       },
       {
         "option": "Serine",
         "bool": false
       },
       {
-        "option": "Methionine",
-        "bool": true
+        "option": "Proline",
+        "bool": false
       }
     ]
   },
   {
-    "id": 101,
-    "info": "1st-year/foundation-1/2019",
-    "question": "A child is admitted to the oncology ward with a chordoma at the base of the cranium extending to the nasopharynx. This appeared to be a vestigial remnant of tissue from the embryo that induces the overlying ectoderm to form a structure. Which of the following structures is formed?",
+    "id": 102,
+    "info": "1st-year/foundation/2019",
+    "question": "A child is admitted to the oncology ward with a chordoma at the base of the cranium extending to the nasopharynx. This appeared to be a vestigial remnant of tissue from the embryo that induces the overlying ectoderm to form a structure.  Which of the following structures is formed?",
     "answers": [
+      {
+        "option": "Primitive streak",
+        "bool": false
+      },
       {
         "option": "Notochord",
         "bool": false
@@ -2746,16 +2777,12 @@
       {
         "option": "Neural plate",
         "bool": true
-      },
-      {
-        "option": "Primitive streak",
-        "bool": false
       }
     ]
   },
   {
-    "id": 102,
-    "info": "1st-year/foundation-1/2019",
+    "id": 103,
+    "info": "1st-year/foundation/2019",
     "question": "Which type of collagen is found in tendons?",
     "answers": [
       {
@@ -2763,38 +2790,38 @@
         "bool": false
       },
       {
-        "option": "Collagen type 9",
-        "bool": false
-      },
-      {
         "option": "Collagen type 5",
         "bool": false
       },
       {
-        "option": "Collagen type 7",
+        "option": "Collagen type 9",
         "bool": false
       },
       {
         "option": "Collagen type 1",
         "bool": true
+      },
+      {
+        "option": "Collagen type 7",
+        "bool": false
       }
     ]
   },
   {
-    "id": 103,
-    "info": "1st-year/foundation-1/2019",
+    "id": 104,
+    "info": "1st-year/foundation/2019",
     "question": "A 45-year-old patient comes to the hospital with complaints of vomiting and diarrhea. The doctor examines him for any abdominal tenderness. What is the observing position here called?",
     "answers": [
-      {
-        "option": "Cranial",
-        "bool": false
-      },
       {
         "option": "Posterior",
         "bool": false
       },
       {
-        "option": "Lateral",
+        "option": "Anterior",
+        "bool": true
+      },
+      {
+        "option": "Cranial",
         "bool": false
       },
       {
@@ -2802,30 +2829,30 @@
         "bool": false
       },
       {
-        "option": "Anterior",
-        "bool": true
+        "option": "Lateral",
+        "bool": false
       }
     ]
   },
   {
-    "id": 104,
-    "info": "1st-year/foundation-1/2019",
+    "id": 105,
+    "info": "1st-year/foundation/2019",
     "question": "Which type of microscope is used to examine living cells?",
     "answers": [
       {
-        "option": "Polarizing microscope",
-        "bool": false
-      },
-      {
         "option": "Phase contrast microscope",
         "bool": true
+      },
+      {
+        "option": "Confocal microscope",
+        "bool": false
       },
       {
         "option": "Electron microscope",
         "bool": false
       },
       {
-        "option": "Confocal microscope",
+        "option": "Polarizing microscope",
         "bool": false
       },
       {
@@ -2835,39 +2862,39 @@
     ]
   },
   {
-    "id": 105,
-    "info": "1st-year/foundation-1/2019",
+    "id": 106,
+    "info": "1st-year/foundation/2019",
     "question": "In which form is provitamin A found in vegetables?",
     "answers": [
       {
-        "option": "Beta carotene",
-        "bool": true
+        "option": "Alpha tocopherol",
+        "bool": false
+      },
+      {
+        "option": "Retinol",
+        "bool": false
       },
       {
         "option": "1,25 dihydroxy cholecalciferol",
         "bool": false
       },
       {
-        "option": "Alpha tocopherol",
-        "bool": false
+        "option": "Beta carotene",
+        "bool": true
       },
       {
         "option": "Calciferol",
-        "bool": false
-      },
-      {
-        "option": "Retinol",
         "bool": false
       }
     ]
   },
   {
-    "id": 106,
-    "info": "1st-year/foundation-1/2019",
+    "id": 107,
+    "info": "1st-year/foundation/2019",
     "question": "Where is dense and regular connective tissue having parallel fibers found?",
     "answers": [
       {
-        "option": "Perichondrium",
+        "option": "Periosteum",
         "bool": false
       },
       {
@@ -2879,7 +2906,7 @@
         "bool": true
       },
       {
-        "option": "Periosteum",
+        "option": "Perichondrium",
         "bool": false
       },
       {
@@ -2889,10 +2916,18 @@
     ]
   },
   {
-    "id": 107,
-    "info": "1st-year/foundation-1/2019",
+    "id": 108,
+    "info": "1st-year/foundation/2019",
     "question": "A 30-week-pregnant woman comes for her prenatal checkup. Ultrasound shows a cyst in the upper part of the umbilical cord. What can this cyst be?",
     "answers": [
+      {
+        "option": "Hydatidiform mole",
+        "bool": false
+      },
+      {
+        "option": "Allantoic cyst",
+        "bool": true
+      },
       {
         "option": "A benign tumor",
         "bool": false
@@ -2904,22 +2939,22 @@
       {
         "option": "Meckel's diverticulum",
         "bool": false
-      },
-      {
-        "option": "Allantoic cyst",
-        "bool": true
-      },
-      {
-        "option": "Hydatidiform mole",
-        "bool": false
       }
     ]
   },
   {
-    "id": 108,
-    "info": "1st-year/foundation-1/2019",
+    "id": 109,
+    "info": "1st-year/foundation/2019",
     "question": "One of the unique properties of transitional epithelium is that it is impermeable to water and salts. Which of the following is responsible for this property?",
     "answers": [
+      {
+        "option": "Less number of cell layers",
+        "bool": false
+      },
+      {
+        "option": "Change of shape of cells in the basal layer",
+        "bool": false
+      },
       {
         "option": "Presence of tight junctions in epithelial layer",
         "bool": true
@@ -2929,27 +2964,19 @@
         "bool": false
       },
       {
-        "option": "Change of shape of cells in the basal layer",
-        "bool": false
-      },
-      {
         "option": "Change of shape of cells of upper layer",
-        "bool": false
-      },
-      {
-        "option": "Less number of cell layers",
         "bool": false
       }
     ]
   },
   {
-    "id": 109,
-    "info": "1st-year/foundation-1/2019",
+    "id": 110,
+    "info": "1st-year/foundation/2019",
     "question": "Which cofactor is required for the hydroxylation of proline?",
     "answers": [
       {
-        "option": "Magnesium",
-        "bool": false
+        "option": "Ascorbic acid",
+        "bool": true
       },
       {
         "option": "Copper",
@@ -2964,22 +2991,18 @@
         "bool": false
       },
       {
-        "option": "Ascorbic acid",
-        "bool": true
+        "option": "Magnesium",
+        "bool": false
       }
     ]
   },
   {
-    "id": 110,
-    "info": "1st-year/foundation-1/2019",
+    "id": 111,
+    "info": "1st-year/foundation/2019",
     "question": "A person comes to the hospital with joint pain due to the compression of the articular nerves supplying the joint. According to Hilton's law, which other structure should be supplied by the same nerve?",
     "answers": [
       {
-        "option": "Articular cartilage",
-        "bool": false
-      },
-      {
-        "option": "Connective tissue",
+        "option": "Synovial membrane",
         "bool": false
       },
       {
@@ -2987,27 +3010,35 @@
         "bool": true
       },
       {
-        "option": "Synovial membrane",
+        "option": "Fibrous capsule",
         "bool": false
       },
       {
-        "option": "Fibrous capsule",
+        "option": "Connective tissue",
+        "bool": false
+      },
+      {
+        "option": "Articular cartilage",
         "bool": false
       }
     ]
   },
   {
-    "id": 111,
-    "info": "1st-year/foundation-1/2019",
+    "id": 112,
+    "info": "1st-year/foundation/2019",
     "question": "At the time of ovulation, the females go through a pain called mid pain. Which of the following thing occurs along with the pain?",
     "answers": [
       {
-        "option": "Increased basal body temperature",
-        "bool": true
+        "option": "Increased follicle stimulating hormone (FSH)",
+        "bool": false
       },
       {
         "option": "Increased heart rate",
         "bool": false
+      },
+      {
+        "option": "Increased basal body temperature",
+        "bool": true
       },
       {
         "option": "Increased human chorionic gonadotropin (hCG)",
@@ -3016,22 +3047,14 @@
       {
         "option": "Increased blood pressure",
         "bool": false
-      },
-      {
-        "option": "Increased follicle stimulating hormone (FSH)",
-        "bool": false
       }
     ]
   },
   {
-    "id": 112,
-    "info": "1st-year/foundation-1/2019",
+    "id": 113,
+    "info": "1st-year/foundation/2019",
     "question": "What is the action of restoring someone to health or normal life through training and therapy called?",
     "answers": [
-      {
-        "option": "Secondary prevention",
-        "bool": false
-      },
       {
         "option": "Tertiary prevention",
         "bool": false
@@ -3041,35 +3064,39 @@
         "bool": false
       },
       {
-        "option": "Rehabilitation",
-        "bool": true
-      },
-      {
         "option": "Prompt treatment",
         "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Rehabilitation",
+        "bool": true
       }
     ]
   },
   {
-    "id": 113,
-    "info": "1st-year/foundation-1/2019",
+    "id": 114,
+    "info": "1st-year/foundation/2019",
     "question": "Which cruciform-shaped extracellular component helps bind integrins, collagen, glycosaminoglycans (GAGs), and other various components of connective tissue with each other?",
     "answers": [
       {
-        "option": "Fibronectin",
+        "option": "Collagenase",
         "bool": false
       },
       {
-        "option": "Laminin",
-        "bool": true
+        "option": "Fibronectin",
+        "bool": false
       },
       {
         "option": "Selectin",
         "bool": false
       },
       {
-        "option": "Collagenase",
-        "bool": false
+        "option": "Laminin",
+        "bool": true
       },
       {
         "option": "Cartilage",
@@ -3078,13 +3105,17 @@
     ]
   },
   {
-    "id": 114,
-    "info": "1st-year/foundation-1/2019",
+    "id": 115,
+    "info": "1st-year/foundation/2019",
     "question": "Deficiency of which of the following causes defects in cross-linking of collagen and elastin fibers?",
     "answers": [
       {
-        "option": "Magnesium",
+        "option": "Glycine",
         "bool": false
+      },
+      {
+        "option": "Copper",
+        "bool": true
       },
       {
         "option": "Proline",
@@ -3095,20 +3126,20 @@
         "bool": false
       },
       {
-        "option": "Copper",
-        "bool": true
-      },
-      {
-        "option": "Glycine",
+        "option": "Magnesium",
         "bool": false
       }
     ]
   },
   {
-    "id": 115,
-    "info": "1st-year/foundation-1/2019",
+    "id": 116,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following differentiates meiosis from mitosis?",
     "answers": [
+      {
+        "option": "Occurs in germ cells",
+        "bool": true
+      },
       {
         "option": "Crossing over does not take place",
         "bool": false
@@ -3124,32 +3155,28 @@
       {
         "option": "Occurs in somatic cells",
         "bool": false
-      },
-      {
-        "option": "Occurs in germ cells",
-        "bool": true
       }
     ]
   },
   {
-    "id": 116,
-    "info": "1st-year/foundation-1/2019",
+    "id": 117,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following muscles are cross-striated?",
     "answers": [
-      {
-        "option": "Smooth muscles",
-        "bool": false
-      },
-      {
-        "option": "Skeletal muscles",
-        "bool": false
-      },
       {
         "option": "Smooth and cardiac muscles",
         "bool": false
       },
       {
+        "option": "Smooth muscles",
+        "bool": false
+      },
+      {
         "option": "Cardiac muscles",
+        "bool": false
+      },
+      {
+        "option": "Skeletal muscles",
         "bool": false
       },
       {
@@ -3159,14 +3186,10 @@
     ]
   },
   {
-    "id": 117,
-    "info": "1st-year/foundation-1/2019",
+    "id": 118,
+    "info": "1st-year/foundation/2019",
     "question": "At what stage does crossing over occur in meiosis?",
     "answers": [
-      {
-        "option": "Anaphase I",
-        "bool": false
-      },
       {
         "option": "Anaphase II",
         "bool": false
@@ -3176,18 +3199,22 @@
         "bool": false
       },
       {
+        "option": "Prophase I",
+        "bool": true
+      },
+      {
         "option": "Metaphase II",
         "bool": false
       },
       {
-        "option": "Prophase I",
-        "bool": true
+        "option": "Anaphase I",
+        "bool": false
       }
     ]
   },
   {
-    "id": 118,
-    "info": "1st-year/foundation-1/2019",
+    "id": 119,
+    "info": "1st-year/foundation/2019",
     "question": "A patient comes into the emergency department and is about to collapse. He is immediately given a large dose of a drug to stabilize him. What is this dose called?",
     "answers": [
       {
@@ -3199,34 +3226,34 @@
         "bool": false
       },
       {
+        "option": "Loading dose",
+        "bool": true
+      },
+      {
         "option": "Maintenance dose",
         "bool": false
       },
       {
         "option": "Lethal dose",
         "bool": false
-      },
-      {
-        "option": "Loading dose",
-        "bool": true
       }
     ]
   },
   {
-    "id": 119,
-    "info": "1st-year/foundation-1/2019",
+    "id": 120,
+    "info": "1st-year/foundation/2019",
     "question": "A histopathologist is looking at an organ having multiple layers of cells. However, due to contraction and distention of the organ, there is variation in the layers. What organ is he examining?",
     "answers": [
+      {
+        "option": "Skin",
+        "bool": false
+      },
       {
         "option": "Urinary bladder",
         "bool": true
       },
       {
         "option": "Artery",
-        "bool": false
-      },
-      {
-        "option": "Skin",
         "bool": false
       },
       {
@@ -3240,17 +3267,13 @@
     ]
   },
   {
-    "id": 120,
-    "info": "1st-year/foundation-1/2019",
+    "id": 121,
+    "info": "1st-year/foundation/2019",
     "question": "A bacteria is found to be inside the human body but does not cause disease nor show any symptoms but can still be transferred to another host and act as a pathogen. What is this state called?",
     "answers": [
       {
         "option": "Mobile state",
         "bool": false
-      },
-      {
-        "option": "Carrier state",
-        "bool": true
       },
       {
         "option": "Intermediate state",
@@ -3261,18 +3284,30 @@
         "bool": false
       },
       {
+        "option": "Carrier state",
+        "bool": true
+      },
+      {
         "option": "Lag phase",
         "bool": false
       }
     ]
   },
   {
-    "id": 121,
-    "info": "1st-year/foundation-1/2019",
+    "id": 122,
+    "info": "1st-year/foundation/2019",
     "question": "A person has an immune-mediated type-I hypersensitivity reaction leading to the release of immunoglobulin E. What cells of the connective tissue are involved in the production of the antibodies?",
     "answers": [
       {
+        "option": "Plasma cells",
+        "bool": true
+      },
+      {
         "option": "Fibroblasts",
+        "bool": false
+      },
+      {
+        "option": "Mast cells",
         "bool": false
       },
       {
@@ -3282,22 +3317,18 @@
       {
         "option": "Histiocytes",
         "bool": false
-      },
-      {
-        "option": "Mast cells",
-        "bool": false
-      },
-      {
-        "option": "Plasma cells",
-        "bool": true
       }
     ]
   },
   {
-    "id": 122,
-    "info": "1st-year/foundation-1/2019",
+    "id": 123,
+    "info": "1st-year/foundation/2019",
     "question": "What is the term for the movement of water molecules across a semi-permeable membrane into a region of high solute concentration?",
     "answers": [
+      {
+        "option": "Facilitated diffusion",
+        "bool": false
+      },
       {
         "option": "Diffusion",
         "bool": false
@@ -3313,30 +3344,14 @@
       {
         "option": "Osmosis",
         "bool": true
-      },
-      {
-        "option": "Facilitated diffusion",
-        "bool": false
       }
     ]
   },
   {
-    "id": 123,
-    "info": "1st-year/foundation-1/2019",
+    "id": 124,
+    "info": "1st-year/foundation/2019",
     "question": "What is the term for the transport of substances across membranes with expenditure of energy?",
     "answers": [
-      {
-        "option": "Facilitated diffusion",
-        "bool": false
-      },
-      {
-        "option": "Endocytosis",
-        "bool": false
-      },
-      {
-        "option": "Active transport",
-        "bool": true
-      },
       {
         "option": "Simple diffusion",
         "bool": false
@@ -3344,24 +3359,32 @@
       {
         "option": "Osmosis",
         "bool": false
+      },
+      {
+        "option": "Facilitated diffusion",
+        "bool": false
+      },
+      {
+        "option": "Active transport",
+        "bool": true
+      },
+      {
+        "option": "Endocytosis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 124,
-    "info": "1st-year/foundation-1/2019",
+    "id": 125,
+    "info": "1st-year/foundation/2019",
     "question": "Protection is a function of epithelial cells. Which type of epithelial cells are primarily responsible for it?",
     "answers": [
       {
-        "option": "Stratified squamous epithelium (keratinized)",
-        "bool": true
-      },
-      {
-        "option": "Pseudostratified columnar epithelium",
+        "option": "Transitional epithelium",
         "bool": false
       },
       {
-        "option": "Transitional epithelium",
+        "option": "Stratified squamous epithelium (non-keratinized)",
         "bool": false
       },
       {
@@ -3369,31 +3392,35 @@
         "bool": false
       },
       {
-        "option": "Stratified squamous epithelium (non-keratinized)",
+        "option": "Stratified squamous epithelium (keratinized)",
+        "bool": true
+      },
+      {
+        "option": "Pseudostratified columnar epithelium",
         "bool": false
       }
     ]
   },
   {
-    "id": 125,
-    "info": "1st-year/foundation-1/2019",
+    "id": 126,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is responsible for rho-independent termination of DNA transcription in prokaryotes?",
     "answers": [
-      {
-        "option": "Pribnow box",
-        "bool": false
-      },
       {
         "option": "RNA primer",
         "bool": false
       },
       {
-        "option": "GC hairpin loop",
-        "bool": true
+        "option": "Pribnow box",
+        "bool": false
       },
       {
         "option": "DNA polymerase",
         "bool": false
+      },
+      {
+        "option": "GC hairpin loop",
+        "bool": true
       },
       {
         "option": "Termination codons",
@@ -3402,20 +3429,20 @@
     ]
   },
   {
-    "id": 126,
-    "info": "1st-year/foundation-1/2019",
+    "id": 127,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following statement is correct regarding charge distribution in an unstimulated neurolemma?",
     "answers": [
       {
-        "option": "Inside of the membrane is negative relative to the outside",
-        "bool": true
+        "option": "Outside of the membrane is negative relative to the inside",
+        "bool": false
       },
       {
         "option": "There is equal charge distribution on both sides of the membrane",
         "bool": false
       },
       {
-        "option": "Outside of the membrane is negative relative to the inside",
+        "option": "Net membrane potential is zero",
         "bool": false
       },
       {
@@ -3423,14 +3450,14 @@
         "bool": false
       },
       {
-        "option": "Net membrane potential is zero",
-        "bool": false
+        "option": "Inside of the membrane is negative relative to the outside",
+        "bool": true
       }
     ]
   },
   {
-    "id": 127,
-    "info": "1st-year/foundation-1/2019",
+    "id": 128,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is a function of thymus?",
     "answers": [
       {
@@ -3442,11 +3469,11 @@
         "bool": true
       },
       {
-        "option": "Formation of mature B lymphocytes",
+        "option": "Phagocytosis of cellular debris",
         "bool": false
       },
       {
-        "option": "Phagocytosis of cellular debris",
+        "option": "Formation of mature B lymphocytes",
         "bool": false
       },
       {
@@ -3456,22 +3483,10 @@
     ]
   },
   {
-    "id": 128,
-    "info": "1st-year/foundation-1/2019",
+    "id": 129,
+    "info": "1st-year/foundation/2019",
     "question": "What is it called when there is an increase in the size of cells that ultimately causes an increase in the size of the organ?",
     "answers": [
-      {
-        "option": "Hypertrophy",
-        "bool": true
-      },
-      {
-        "option": "Metaplasia",
-        "bool": false
-      },
-      {
-        "option": "Hyperplasia",
-        "bool": false
-      },
       {
         "option": "Dysplasia",
         "bool": false
@@ -3479,24 +3494,28 @@
       {
         "option": "Atrophy",
         "bool": false
+      },
+      {
+        "option": "Hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Metaplasia",
+        "bool": false
+      },
+      {
+        "option": "Hypertrophy",
+        "bool": true
       }
     ]
   },
   {
-    "id": 129,
-    "info": "1st-year/foundation-1/2019",
+    "id": 130,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is responsible for the swelling of the lymph nodes during an infection?",
     "answers": [
       {
         "option": "Rupture of a sinus",
-        "bool": false
-      },
-      {
-        "option": "Proliferation of lymphocytes in lymph nodes",
-        "bool": true
-      },
-      {
-        "option": "Rupture of lymph node's capsule",
         "bool": false
       },
       {
@@ -3506,14 +3525,30 @@
       {
         "option": "Tumor in the lymph node",
         "bool": false
+      },
+      {
+        "option": "Rupture of lymph node's capsule",
+        "bool": false
+      },
+      {
+        "option": "Proliferation of lymphocytes in lymph nodes",
+        "bool": true
       }
     ]
   },
   {
-    "id": 130,
-    "info": "1st-year/foundation-1/2019",
+    "id": 131,
+    "info": "1st-year/foundation/2019",
     "question": "Which type of epithelium is found in the skin?",
     "answers": [
+      {
+        "option": "Stratified squamous epithelium (nonkeratinized)",
+        "bool": false
+      },
+      {
+        "option": "Simple squamous epithelium",
+        "bool": false
+      },
       {
         "option": "Transitional epithelium",
         "bool": false
@@ -3525,24 +3560,16 @@
       {
         "option": "Stratified columnar epithelium",
         "bool": false
-      },
-      {
-        "option": "Simple squamous epithelium",
-        "bool": false
-      },
-      {
-        "option": "Stratified squamous epithelium (nonkeratinized)",
-        "bool": false
       }
     ]
   },
   {
-    "id": 131,
-    "info": "1st-year/foundation-1/2019",
+    "id": 132,
+    "info": "1st-year/foundation/2019",
     "question": "Which enzyme causes the transfer of functional groups from one molecule to another?",
     "answers": [
       {
-        "option": "Oxidase",
+        "option": "Isomerase",
         "bool": false
       },
       {
@@ -3554,30 +3581,22 @@
         "bool": true
       },
       {
-        "option": "Isomerase",
+        "option": "Reductase",
         "bool": false
       },
       {
-        "option": "Reductase",
+        "option": "Oxidase",
         "bool": false
       }
     ]
   },
   {
-    "id": 132,
-    "info": "1st-year/foundation-1/2019",
+    "id": 133,
+    "info": "1st-year/foundation/2019",
     "question": "Which statement correctly describes the situation of the administration of a drug to a malnourished child?",
     "answers": [
       {
         "option": "Less drug will remain free in blood due to increased level of plasma proteins",
-        "bool": false
-      },
-      {
-        "option": "There will be decreased drug excretion due to decreased renal activity",
-        "bool": false
-      },
-      {
-        "option": "There will be fast absorption of drug in gastrointestinal tract leading to increased drug effect",
         "bool": false
       },
       {
@@ -3587,24 +3606,32 @@
       {
         "option": "More drug will remain free in blood due to decreased level of plasma proteins",
         "bool": true
+      },
+      {
+        "option": "There will be decreased drug excretion due to decreased renal activity",
+        "bool": false
+      },
+      {
+        "option": "There will be fast absorption of drug in gastrointestinal tract leading to increased drug effect",
+        "bool": false
       }
     ]
   },
   {
-    "id": 133,
-    "info": "1st-year/foundation-1/2019",
+    "id": 134,
+    "info": "1st-year/foundation/2019",
     "question": "There are more than 300 amino acids in nature yet only 20 amino acids are found in humans for the purpose of protein formation. Which of the following is responsible for the involvement of only 20 amino acids for protein formation?",
     "answers": [
-      {
-        "option": "Amino acid structure",
-        "bool": false
-      },
       {
         "option": "Genetic code",
         "bool": true
       },
       {
         "option": "Sequence of amino acids in proteins",
+        "bool": false
+      },
+      {
+        "option": "Amino acid structure",
         "bool": false
       },
       {
@@ -3618,18 +3645,10 @@
     ]
   },
   {
-    "id": 134,
-    "info": "1st-year/foundation-1/2019",
+    "id": 135,
+    "info": "1st-year/foundation/2019",
     "question": "When neural tube is formed, some cells remain in between the neural plate and the overlying ectoderm. What are these cells called?",
     "answers": [
-      {
-        "option": "Ectodermal cells",
-        "bool": false
-      },
-      {
-        "option": "Primitive node cells",
-        "bool": false
-      },
       {
         "option": "Mesodermal cells",
         "bool": false
@@ -3639,26 +3658,34 @@
         "bool": false
       },
       {
+        "option": "Primitive node cells",
+        "bool": false
+      },
+      {
+        "option": "Ectodermal cells",
+        "bool": false
+      },
+      {
         "option": "Neural crest cells",
         "bool": true
       }
     ]
   },
   {
-    "id": 135,
-    "info": "1st-year/foundation-1/2019",
+    "id": 136,
+    "info": "1st-year/foundation/2019",
     "question": "Which type of epidemiology will be applied to solve queries related to who is having the disease and when and where is the disease occurring?",
     "answers": [
-      {
-        "option": "Personal epidemiology",
-        "bool": false
-      },
       {
         "option": "Analytical epidemiology",
         "bool": false
       },
       {
-        "option": "Environmental epidemiology",
+        "option": "Personal epidemiology",
+        "bool": false
+      },
+      {
+        "option": "Experimental epidemiology",
         "bool": false
       },
       {
@@ -3666,26 +3693,22 @@
         "bool": true
       },
       {
-        "option": "Experimental epidemiology",
+        "option": "Environmental epidemiology",
         "bool": false
       }
     ]
   },
   {
-    "id": 136,
-    "info": "1st-year/foundation-1/2019",
+    "id": 137,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following prevents the clotting of blood in a normal and healthy endothelium by remaining inactive unless it is activated by some factor?",
     "answers": [
       {
-        "option": "Thrombin",
-        "bool": false
-      },
-      {
-        "option": "Fibrin",
-        "bool": false
-      },
-      {
         "option": "Albumin",
+        "bool": false
+      },
+      {
+        "option": "Thrombin",
         "bool": false
       },
       {
@@ -3695,20 +3718,28 @@
       {
         "option": "Prothrombin",
         "bool": true
+      },
+      {
+        "option": "Fibrin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 137,
-    "info": "1st-year/foundation-1/2019",
+    "id": 138,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is an example of type 1 hypersensitivity?",
     "answers": [
       {
-        "option": "Systemic lupus erythematosus",
-        "bool": false
+        "option": "Anaphylaxis",
+        "bool": true
       },
       {
         "option": "Pernicious anemia",
+        "bool": false
+      },
+      {
+        "option": "Systemic lupus erythematosus",
         "bool": false
       },
       {
@@ -3718,26 +3749,14 @@
       {
         "option": "Blood transfusion reactions",
         "bool": false
-      },
-      {
-        "option": "Anaphylaxis",
-        "bool": true
       }
     ]
   },
   {
-    "id": 138,
-    "info": "1st-year/foundation-1/2019",
+    "id": 139,
+    "info": "1st-year/foundation/2019",
     "question": "In which approach does a doctor educate himself about the cultural differences between him and his patient and accept them, and adapts his care plan accordingly without compromising its scientific basis?",
     "answers": [
-      {
-        "option": "Scientific approach",
-        "bool": false
-      },
-      {
-        "option": "Spiritual approach",
-        "bool": false
-      },
       {
         "option": "Cultural approach",
         "bool": false
@@ -3747,30 +3766,38 @@
         "bool": true
       },
       {
+        "option": "Scientific approach",
+        "bool": false
+      },
+      {
+        "option": "Spiritual approach",
+        "bool": false
+      },
+      {
         "option": "Medicinal approach",
         "bool": false
       }
     ]
   },
   {
-    "id": 139,
-    "info": "1st-year/foundation-1/2019",
-    "question": "Wharton\u2019s jelly, a gelatinous substance found in the umbilical cord, is made up of which tissue?",
+    "id": 140,
+    "info": "1st-year/foundation/2019",
+    "question": "Wharton’s jelly, a gelatinous substance found in the umbilical cord, is made up of which tissue?",
     "answers": [
-      {
-        "option": "Loose connective tissue",
-        "bool": false
-      },
       {
         "option": "Mucoid tissue",
         "bool": true
       },
       {
-        "option": "Adipose tissue",
+        "option": "Mesenchyme",
         "bool": false
       },
       {
-        "option": "Mesenchyme",
+        "option": "Epithelium",
+        "bool": false
+      },
+      {
+        "option": "Loose connective tissue",
         "bool": false
       },
       {
@@ -3778,41 +3805,41 @@
         "bool": false
       },
       {
-        "option": "Epithelium",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 140,
-    "info": "1st-year/foundation-1/2019",
-    "question": "Which of the following is incorrect regarding amniocentesis?",
-    "answers": [
-      {
-        "option": "20-30 ml of fluid is extracted",
-        "bool": false
-      },
-      {
-        "option": "It is performed after 22 weeks of gestation",
-        "bool": true
-      },
-      {
-        "option": "It can be performed transabdominally and by trans-cervical methods",
-        "bool": false
-      },
-      {
-        "option": "It is guided by ultrasound",
-        "bool": false
-      },
-      {
-        "option": "Fetal cells are obtained to examine their DNA",
+        "option": "Adipose tissue",
         "bool": false
       }
     ]
   },
   {
     "id": 141,
-    "info": "1st-year/foundation-1/2019",
+    "info": "1st-year/foundation/2019",
+    "question": "Which of the following is incorrect regarding amniocentesis?",
+    "answers": [
+      {
+        "option": "It is performed after 22 weeks of gestation",
+        "bool": true
+      },
+      {
+        "option": "It is guided by ultrasound",
+        "bool": false
+      },
+      {
+        "option": "20-30 ml of fluid is extracted",
+        "bool": false
+      },
+      {
+        "option": "Fetal cells are obtained to examine their DNA",
+        "bool": false
+      },
+      {
+        "option": "It can be performed transabdominally and by trans-cervical methods",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "info": "1st-year/foundation/2019",
     "question": "When is chorionic villus sampling performed?",
     "answers": [
       {
@@ -3820,15 +3847,15 @@
         "bool": false
       },
       {
-        "option": "13-15 weeks",
-        "bool": false
-      },
-      {
         "option": "12-14 weeks",
         "bool": false
       },
       {
-        "option": "10-12 weeks",
+        "option": "13-15 weeks",
+        "bool": false
+      },
+      {
+        "option": "10-12  weeks",
         "bool": true
       },
       {
@@ -3838,20 +3865,16 @@
     ]
   },
   {
-    "id": 142,
-    "info": "1st-year/foundation-1/2019",
+    "id": 143,
+    "info": "1st-year/foundation/2019",
     "question": "Which test is not performed for prenatal diagnosis at the 16th week of gestation?",
     "answers": [
       {
-        "option": "Chorionic villus sampling",
-        "bool": true
-      },
-      {
-        "option": "Ultrasonography",
+        "option": "Maternal serum screening",
         "bool": false
       },
       {
-        "option": "Maternal serum screening",
+        "option": "Fetal blood examination",
         "bool": false
       },
       {
@@ -3859,14 +3882,18 @@
         "bool": false
       },
       {
-        "option": "Fetal blood examination",
+        "option": "Ultrasonography",
         "bool": false
+      },
+      {
+        "option": "Chorionic villus sampling",
+        "bool": true
       }
     ]
   },
   {
-    "id": 143,
-    "info": "1st-year/foundation-1/2019",
+    "id": 144,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following conditions is not an indication for prenatal diagnosis?",
     "answers": [
       {
@@ -3878,12 +3905,12 @@
         "bool": false
       },
       {
-        "option": "Maternal age greater than 15 years",
-        "bool": true
-      },
-      {
         "option": "Previous spontaneous miscarriages in 1st trimester",
         "bool": false
+      },
+      {
+        "option": "Maternal age greater than 15 years",
+        "bool": true
       },
       {
         "option": "Previous baby born with a birth defect",
@@ -3892,16 +3919,12 @@
     ]
   },
   {
-    "id": 144,
-    "info": "1st-year/foundation-1/2019",
+    "id": 145,
+    "info": "1st-year/foundation/2019",
     "question": "A child weighs less than 2.5 kgs when it is born. The delivery is vaginal and the baby is born after 35 weeks of gestation. What is this condition called?",
     "answers": [
       {
-        "option": "Low birth weight",
-        "bool": true
-      },
-      {
-        "option": "Post mature birth",
+        "option": "Small gestational age",
         "bool": false
       },
       {
@@ -3909,22 +3932,30 @@
         "bool": false
       },
       {
+        "option": "Post mature birth",
+        "bool": false
+      },
+      {
         "option": "High birth weight",
         "bool": false
       },
       {
-        "option": "Small gestational age",
-        "bool": false
+        "option": "Low birth weight",
+        "bool": true
       }
     ]
   },
   {
-    "id": 145,
-    "info": "1st-year/foundation-1/2019",
+    "id": 146,
+    "info": "1st-year/foundation/2019",
     "question": "Which part of the cell membrane plays a part in cell to cell adhesion?",
     "answers": [
       {
-        "option": "Lipoprotein",
+        "option": "Cytosol",
+        "bool": false
+      },
+      {
+        "option": "Peripheral protein",
         "bool": false
       },
       {
@@ -3932,27 +3963,31 @@
         "bool": true
       },
       {
-        "option": "Peripheral protein",
-        "bool": false
-      },
-      {
         "option": "Integral protein",
         "bool": false
       },
       {
-        "option": "Cytosol",
+        "option": "Lipoprotein",
         "bool": false
       }
     ]
   },
   {
-    "id": 146,
-    "info": "1st-year/foundation-1/2019",
+    "id": 147,
+    "info": "1st-year/foundation/2019",
     "question": "Where are cholesterol moieties located in the cell membrane?",
     "answers": [
       {
+        "option": "On the inner surface of the membrane",
+        "bool": false
+      },
+      {
         "option": "Within the lipid bilayer",
         "bool": true
+      },
+      {
+        "option": "Attached to the integral protein",
+        "bool": false
       },
       {
         "option": "On the outer surface of the membrane",
@@ -3961,36 +3996,28 @@
       {
         "option": "Attached to the glycocalyx",
         "bool": false
-      },
-      {
-        "option": "Attached to the integral protein",
-        "bool": false
-      },
-      {
-        "option": "On the inner surface of the membrane",
-        "bool": false
       }
     ]
   },
   {
-    "id": 147,
-    "info": "1st-year/foundation-1/2019",
+    "id": 148,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is a characteristic of integral proteins in the cell membrane?",
     "answers": [
-      {
-        "option": "They are proteoglycans",
-        "bool": false
-      },
-      {
-        "option": "They are lipoprotein",
-        "bool": false
-      },
       {
         "option": "They are glycoprotein",
         "bool": false
       },
       {
+        "option": "They are proteoglycans",
+        "bool": false
+      },
+      {
         "option": "They are sulphoprotein",
+        "bool": false
+      },
+      {
+        "option": "They are lipoprotein",
         "bool": false
       },
       {
@@ -4000,16 +4027,20 @@
     ]
   },
   {
-    "id": 148,
-    "info": "1st-year/foundation-1/2019",
+    "id": 149,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is the most abundant component of the cell membrane?",
     "answers": [
       {
-        "option": "Cholesterol",
+        "option": "Neutral fat",
         "bool": false
       },
       {
-        "option": "Neutral fat",
+        "option": "Carbohydrate",
+        "bool": false
+      },
+      {
+        "option": "Cholesterol",
         "bool": false
       },
       {
@@ -4019,20 +4050,20 @@
       {
         "option": "Triglyceride",
         "bool": false
-      },
-      {
-        "option": "Carbohydrate",
-        "bool": false
       }
     ]
   },
   {
-    "id": 149,
-    "info": "1st-year/foundation-1/2019",
+    "id": 150,
+    "info": "1st-year/foundation/2019",
     "question": "What is the function of peripheral proteins in the cell membrane?",
     "answers": [
       {
-        "option": "Modification of proteins",
+        "option": "Formation of lipids",
+        "bool": false
+      },
+      {
+        "option": "Synthesis of lipids",
         "bool": false
       },
       {
@@ -4040,11 +4071,7 @@
         "bool": true
       },
       {
-        "option": "Synthesis of lipids",
-        "bool": false
-      },
-      {
-        "option": "Formation of lipids",
+        "option": "Modification of proteins",
         "bool": false
       },
       {
@@ -4054,18 +4081,10 @@
     ]
   },
   {
-    "id": 150,
-    "info": "1st-year/foundation-1/2019",
+    "id": 151,
+    "info": "1st-year/foundation/2019",
     "question": "A boy falls off a swing and his father gives him first aid. The father cleans the wound and then applies antiseptic cream on it. After this, what else should he do?",
     "answers": [
-      {
-        "option": "Wrap the crepe bandage directly on the wound",
-        "bool": false
-      },
-      {
-        "option": "Apply gauze and leave it as it is",
-        "bool": false
-      },
       {
         "option": "The initial treatment is enough and there's no need to provide any further treatment",
         "bool": false
@@ -4075,18 +4094,26 @@
         "bool": false
       },
       {
+        "option": "Wrap the crepe bandage directly on the wound",
+        "bool": false
+      },
+      {
+        "option": "Apply gauze and leave it as it is",
+        "bool": false
+      },
+      {
         "option": "Apply gauze and then wrap the bandage around the wound",
         "bool": true
       }
     ]
   },
   {
-    "id": 151,
-    "info": "1st-year/foundation-1/2019",
+    "id": 152,
+    "info": "1st-year/foundation/2019",
     "question": "A person uses aspirin (pain killer) for headache relief. What is the most common method of absorption of drugs?",
     "answers": [
       {
-        "option": "Carrier mediated transport",
+        "option": "Active transport",
         "bool": false
       },
       {
@@ -4094,24 +4121,32 @@
         "bool": false
       },
       {
+        "option": "Osmosis",
+        "bool": false
+      },
+      {
         "option": "Passive diffusion",
         "bool": true
       },
       {
-        "option": "Active transport",
-        "bool": false
-      },
-      {
-        "option": "Osmosis",
+        "option": "Carrier mediated transport",
         "bool": false
       }
     ]
   },
   {
-    "id": 152,
-    "info": "1st-year/foundation-1/2019",
+    "id": 153,
+    "info": "1st-year/foundation/2019",
     "question": "Which of the following is true regarding the 5' and 3' end of DNA?",
     "answers": [
+      {
+        "option": "A free carbon is present at 5' and 3' ends of DNA",
+        "bool": false
+      },
+      {
+        "option": "A phosphate is present at 5' and 3' ends of DNA",
+        "bool": false
+      },
       {
         "option": "A hydroxyl is present at 5' and 3' ends of DNA",
         "bool": false
@@ -4123,28 +4158,24 @@
       {
         "option": "Additional bases and chemical groups cannot be added at these ends",
         "bool": false
-      },
-      {
-        "option": "A phosphate is present at 5' and 3' ends of DNA",
-        "bool": false
-      },
-      {
-        "option": "A free carbon is present at 5' and 3' ends of DNA",
-        "bool": false
       }
     ]
   },
   {
-    "id": 153,
-    "info": "1st-year/foundation-1/2019",
+    "id": 154,
+    "info": "1st-year/foundation/2019",
     "question": "Increased permeability of the membrane to which of the following ions makes the inside of the cell more negative?",
     "answers": [
+      {
+        "option": "Chloride",
+        "bool": false
+      },
       {
         "option": "Calcium",
         "bool": false
       },
       {
-        "option": "Hydrogen",
+        "option": "Sodium",
         "bool": false
       },
       {
@@ -4152,34 +4183,30 @@
         "bool": true
       },
       {
-        "option": "Sodium",
-        "bool": false
-      },
-      {
-        "option": "Chloride",
+        "option": "Hydrogen",
         "bool": false
       }
     ]
   },
   {
-    "id": 154,
-    "info": "1st-year/foundation-1/2019",
+    "id": 155,
+    "info": "1st-year/foundation/2019",
     "question": "In which part of the body are non-hemolytic streptococci found?",
     "answers": [
       {
-        "option": "Lower gastrointestinal tract",
-        "bool": true
+        "option": "Oral cavity",
+        "bool": false
       },
       {
         "option": "Lower respiratory tract",
         "bool": false
       },
       {
-        "option": "Upper gastrointestinal tract",
-        "bool": false
+        "option": "Lower gastrointestinal tract",
+        "bool": true
       },
       {
-        "option": "Oral cavity",
+        "option": "Upper gastrointestinal tract",
         "bool": false
       },
       {
@@ -4189,12 +4216,20 @@
     ]
   },
   {
-    "id": 155,
-    "info": "1st-year/foundation-1/2019",
+    "id": 156,
+    "info": "1st-year/foundation/2019",
     "question": "A low-weight baby with malformations is born if a mother suffers from which of the following infections during pregnancy?",
     "answers": [
       {
-        "option": "Clostridium botulinum",
+        "option": "Cytomegalovirus",
+        "bool": false
+      },
+      {
+        "option": "Rubella",
+        "bool": true
+      },
+      {
+        "option": "Toxoplasmosis",
         "bool": false
       },
       {
@@ -4202,16 +4237,8 @@
         "bool": false
       },
       {
-        "option": "Cytomegalovirus",
+        "option": "Clostridium botulinum",
         "bool": false
-      },
-      {
-        "option": "Toxoplasmosis",
-        "bool": false
-      },
-      {
-        "option": "Rubella",
-        "bool": true
       }
     ]
   }

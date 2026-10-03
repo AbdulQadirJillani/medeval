@@ -5,11 +5,15 @@
     "question": "Which of the following negligences refers to defective hospital care and equipment, incompetent employees, and failure to maintain the standards of care?",
     "answers": [
       {
-        "option": "Contributory negligence",
+        "option": "Third party negligence",
         "bool": false
       },
       {
-        "option": "Third party negligence",
+        "option": "Civil negligence",
+        "bool": false
+      },
+      {
+        "option": "Criminal negligence",
         "bool": false
       },
       {
@@ -17,11 +21,7 @@
         "bool": true
       },
       {
-        "option": "Criminal negligence",
-        "bool": false
-      },
-      {
-        "option": "Civil negligence",
+        "option": "Contributory negligence",
         "bool": false
       }
     ]
@@ -32,7 +32,7 @@
     "question": "A 20-year-old male presents to the emergency department with complaints of fever, fatigue, and headache for the past 10 days. He is now experiencing agitation and hallucination, with aggressive behavior. History suggests that he suffered a dog bite 4 weeks ago. On examination, he is found to have excessive salivation, hyperreflexia, and spasticity. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Herpes simplex encephalitis",
+        "option": "Tetanus",
         "bool": false
       },
       {
@@ -40,15 +40,15 @@
         "bool": true
       },
       {
-        "option": "Psychosis",
-        "bool": false
-      },
-      {
         "option": "Creutzfeldt-Jacob disease",
         "bool": false
       },
       {
-        "option": "Tetanus",
+        "option": "Psychosis",
+        "bool": false
+      },
+      {
+        "option": "Herpes simplex encephalitis",
         "bool": false
       }
     ]
@@ -59,23 +59,23 @@
     "question": "What is the treatment for acute typhoid fever?",
     "answers": [
       {
-        "option": "Cefotaxime",
-        "bool": false
-      },
-      {
         "option": "Ciprofloxacin",
         "bool": true
-      },
-      {
-        "option": "Chloramphenicol",
-        "bool": false
       },
       {
         "option": "Erythromycin",
         "bool": false
       },
       {
+        "option": "Chloramphenicol",
+        "bool": false
+      },
+      {
         "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Cefotaxime",
         "bool": false
       }
     ]
@@ -83,19 +83,19 @@
   {
     "id": 3,
     "info": "3rd-year/infectious/2022",
-    "question": "All the travelers who are exposed to the risk of yellow fever or pass through the endemic zones of yellow fever should have a valid vaccination card for yellow fever before they enter a country. If any of them fails to possess the card, which of the following should be done?",
+    "question": "All the travelers who are exposed to the risk of yellow fever or pass through the endemic zones of yellow fever should have a valid vaccination card for yellow fever before they enter a country.  If any of them fails to possess the card, which of the following should be done?",
     "answers": [
       {
-        "option": "Kept in quarantine",
-        "bool": true
+        "option": "Immunized",
+        "bool": false
       },
       {
         "option": "Treated",
         "bool": false
       },
       {
-        "option": "Immunized",
-        "bool": false
+        "option": "Kept in quarantine",
+        "bool": true
       },
       {
         "option": "Sent back",
@@ -113,14 +113,6 @@
     "question": "What is the gold-standard investigation for typhoid?",
     "answers": [
       {
-        "option": "Bone marrow culture",
-        "bool": false
-      },
-      {
-        "option": "Complete blood count",
-        "bool": false
-      },
-      {
         "option": "Splenic biopsy",
         "bool": false
       },
@@ -130,6 +122,14 @@
       },
       {
         "option": "Urinalysis",
+        "bool": false
+      },
+      {
+        "option": "Complete blood count",
+        "bool": false
+      },
+      {
+        "option": "Bone marrow culture",
         "bool": false
       }
     ]
@@ -144,20 +144,20 @@
         "bool": false
       },
       {
-        "option": "Primordial prevention",
-        "bool": false
-      },
-      {
         "option": "Quarantine",
-        "bool": false
-      },
-      {
-        "option": "Rehabilitation",
         "bool": false
       },
       {
         "option": "Isolation",
         "bool": true
+      },
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      },
+      {
+        "option": "Rehabilitation",
+        "bool": false
       }
     ]
   },
@@ -167,7 +167,7 @@
     "question": "In the case of the transfer of malaria protozoa by the mosquito, which of the following forms is transferred?",
     "answers": [
       {
-        "option": "Hypnozoites",
+        "option": "Schizonts",
         "bool": false
       },
       {
@@ -175,16 +175,16 @@
         "bool": false
       },
       {
-        "option": "Schizonts",
-        "bool": false
-      },
-      {
-        "option": "Merozoites",
+        "option": "Hypnozoites",
         "bool": false
       },
       {
         "option": "Sporozoites",
         "bool": true
+      },
+      {
+        "option": "Merozoites",
+        "bool": false
       }
     ]
   },
@@ -198,19 +198,19 @@
         "bool": false
       },
       {
-        "option": "Cerebrospinal fluid",
-        "bool": true
-      },
-      {
-        "option": "Nail clippings",
-        "bool": false
-      },
-      {
         "option": "Blood",
         "bool": false
       },
       {
         "option": "Urine",
+        "bool": false
+      },
+      {
+        "option": "Cerebrospinal fluid",
+        "bool": true
+      },
+      {
+        "option": "Nail clippings",
         "bool": false
       }
     ]
@@ -221,7 +221,15 @@
     "question": "What is an unusual, more than expected occurrence of a disease or any event related to health, in a community, called?",
     "answers": [
       {
-        "option": "Endemic",
+        "option": "Epidemic",
+        "bool": true
+      },
+      {
+        "option": "Hyperendemic",
+        "bool": false
+      },
+      {
+        "option": "Pandemic",
         "bool": false
       },
       {
@@ -229,15 +237,7 @@
         "bool": false
       },
       {
-        "option": "Hyperendemic",
-        "bool": false
-      },
-      {
-        "option": "Epidemic",
-        "bool": true
-      },
-      {
-        "option": "Pandemic",
+        "option": "Endemic",
         "bool": false
       }
     ]
@@ -252,10 +252,6 @@
         "bool": false
       },
       {
-        "option": "Chlamydia trachomatis",
-        "bool": false
-      },
-      {
         "option": "Treponema pallidum",
         "bool": true
       },
@@ -266,6 +262,10 @@
       {
         "option": "Human papillomavirus",
         "bool": false
+      },
+      {
+        "option": "Chlamydia trachomatis",
+        "bool": false
       }
     ]
   },
@@ -275,11 +275,7 @@
     "question": "A 5-year-old female child is brought to the clinic with loose stools for the past 4 days. On examination, the child is irritable with skin pinch going back in 3 seconds. No other signs of dehydration are observed. What is the replacement fluid and dosage to be given as per the IMNCI protocol?",
     "answers": [
       {
-        "option": "100 ml/kg IV Ringer's lactate every 6 hours",
-        "bool": false
-      },
-      {
-        "option": "100-200 ml ORS after every loose stool",
+        "option": "Increasing frequency of breastfeeding with 100-200 ml ORS",
         "bool": false
       },
       {
@@ -287,11 +283,15 @@
         "bool": true
       },
       {
-        "option": "Increasing frequency of breastfeeding with 100-200 ml ORS",
+        "option": "100-200 ml ORS after every loose stool",
         "bool": false
       },
       {
         "option": "100 ml/kg ORS over 3 hour period",
+        "bool": false
+      },
+      {
+        "option": "100 ml/kg IV Ringer's lactate every 6 hours",
         "bool": false
       }
     ]
@@ -302,15 +302,7 @@
     "question": "A 20-year-old unconscious male is brought to the emergency room with profuse bleeding from the incised wound on his left wrist. Which of the following types of consent will be used to treat this patient?",
     "answers": [
       {
-        "option": "Oral consent",
-        "bool": false
-      },
-      {
-        "option": "No need of consent",
-        "bool": false
-      },
-      {
-        "option": "Expressed consent",
+        "option": "Written consent",
         "bool": false
       },
       {
@@ -318,7 +310,15 @@
         "bool": true
       },
       {
-        "option": "Written consent",
+        "option": "No need of consent",
+        "bool": false
+      },
+      {
+        "option": "Oral consent",
+        "bool": false
+      },
+      {
+        "option": "Expressed consent",
         "bool": false
       }
     ]
@@ -328,14 +328,6 @@
     "info": "3rd-year/infectious/2022",
     "question": "The lawyer of the defendant calls in a ballistic expert as part of the proceedings of a suspected homicide. Which of the following is not true regarding this type of witness?",
     "answers": [
-      {
-        "option": "Can volunteer a statement",
-        "bool": false
-      },
-      {
-        "option": "Describes what he/she saw",
-        "bool": true
-      },
       {
         "option": "Skilled in foreign law",
         "bool": false
@@ -347,6 +339,14 @@
       {
         "option": "A doctor may be common or expert witness",
         "bool": false
+      },
+      {
+        "option": "Describes what he/she saw",
+        "bool": true
+      },
+      {
+        "option": "Can volunteer a statement",
+        "bool": false
       }
     ]
   },
@@ -356,14 +356,6 @@
     "question": "What is the correct legal terminology for a verbal statement made by a dying individual in front of a doctor narrating the circumstances leading to his/her death?",
     "answers": [
       {
-        "option": "Documentary evidence",
-        "bool": false
-      },
-      {
-        "option": "Dying deposition",
-        "bool": false
-      },
-      {
         "option": "Oral evidence",
         "bool": false
       },
@@ -372,8 +364,16 @@
         "bool": false
       },
       {
+        "option": "Documentary evidence",
+        "bool": false
+      },
+      {
         "option": "Dying declaration",
         "bool": true
+      },
+      {
+        "option": "Dying deposition",
+        "bool": false
       }
     ]
   },
@@ -383,12 +383,12 @@
     "question": "During a police encounter, a dacoit is shot dead. Who will carry out the investigation in this case?",
     "answers": [
       {
-        "option": "The police",
-        "bool": false
-      },
-      {
         "option": "The magistrate",
         "bool": true
+      },
+      {
+        "option": "The police",
+        "bool": false
       },
       {
         "option": "Medico-legal officer of the area",
@@ -410,11 +410,7 @@
     "question": "A doctor receives 5 cases of cholera together at his private clinic in Lahore. He should report these cases to which of the following authorities?",
     "answers": [
       {
-        "option": "Local police station",
-        "bool": false
-      },
-      {
-        "option": "District nazim",
+        "option": "District police station",
         "bool": false
       },
       {
@@ -426,7 +422,11 @@
         "bool": false
       },
       {
-        "option": "District police station",
+        "option": "District nazim",
+        "bool": false
+      },
+      {
+        "option": "Local police station",
         "bool": false
       }
     ]
@@ -437,7 +437,7 @@
     "question": "What is the drug of choice in cestode infection?",
     "answers": [
       {
-        "option": "Albendazole",
+        "option": "Ivermectin",
         "bool": false
       },
       {
@@ -445,15 +445,15 @@
         "bool": false
       },
       {
+        "option": "Diethylcarbamazine",
+        "bool": false
+      },
+      {
         "option": "Praziquantel",
         "bool": true
       },
       {
-        "option": "Ivermectin",
-        "bool": false
-      },
-      {
-        "option": "Diethylcarbamazine",
+        "option": "Albendazole",
         "bool": false
       }
     ]
@@ -464,7 +464,11 @@
     "question": "A 36-year-old woman, with a known case of HIV infection, has a very low CD4 lymphocyte count and was prescribed treatment. She is non-compliant with her medications and now presents with shortness of breath on exertion and hypoxia. Her chest X-ray reveals fine bilateral infiltrates and the computed tomography (CT) scan reports a bilateral ground-glass appearance. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Pneumococcal pneumonia",
+        "option": "Influenza",
+        "bool": false
+      },
+      {
+        "option": "Acute respiratory distress syndrome",
         "bool": false
       },
       {
@@ -472,15 +476,11 @@
         "bool": true
       },
       {
-        "option": "Influenza",
+        "option": "Pneumococcal pneumonia",
         "bool": false
       },
       {
         "option": "Congestive heart failure",
-        "bool": false
-      },
-      {
-        "option": "Acute respiratory distress syndrome",
         "bool": false
       }
     ]
@@ -491,7 +491,7 @@
     "question": "A young patient presents to the clinic with complaints of acute watery diarrhea without abdominal pain, along with vomiting. The stool is rice-watery in nature. What is the most likely cause?",
     "answers": [
       {
-        "option": "Norvovirus",
+        "option": "Salmonella",
         "bool": false
       },
       {
@@ -499,15 +499,15 @@
         "bool": true
       },
       {
+        "option": "Shigella",
+        "bool": false
+      },
+      {
         "option": "Amebiasis (E. histolytica)",
         "bool": false
       },
       {
-        "option": "Salmonella",
-        "bool": false
-      },
-      {
-        "option": "Shigella",
+        "option": "Norvovirus",
         "bool": false
       }
     ]
@@ -522,10 +522,6 @@
         "bool": false
       },
       {
-        "option": "Pyrimethamine",
-        "bool": false
-      },
-      {
         "option": "Mefloquine",
         "bool": false
       },
@@ -535,6 +531,10 @@
       },
       {
         "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Pyrimethamine",
         "bool": false
       }
     ]
@@ -553,12 +553,12 @@
         "bool": false
       },
       {
-        "option": "Ileal perforation",
-        "bool": true
-      },
-      {
         "option": "Stomach perforation",
         "bool": false
+      },
+      {
+        "option": "Ileal perforation",
+        "bool": true
       },
       {
         "option": "Ascending colon perforation",
@@ -572,7 +572,7 @@
     "question": "A patient complains of having recurrent malarial infection after recovering from it once, caused by Plasmodium ovale and Plasmodium vivax. Which form of these Plasmodium species is responsible for the relapses?",
     "answers": [
       {
-        "option": "Metacryptozoites",
+        "option": "Sporozoites",
         "bool": false
       },
       {
@@ -584,7 +584,7 @@
         "bool": false
       },
       {
-        "option": "Sporozoites",
+        "option": "Metacryptozoites",
         "bool": false
       },
       {
@@ -599,14 +599,6 @@
     "question": "A convict is called numerous times to attend a trial in court, but he fails to appear. Ultimately the court orders a summons to be put outside his house. Which of the following describes a summons?",
     "answers": [
       {
-        "option": "A fee tendered to cover court expenses",
-        "bool": false
-      },
-      {
-        "option": "Letter to a person to appear in court for evidence or any other reason",
-        "bool": true
-      },
-      {
         "option": "A warrant to arrest the person and present them in the court",
         "bool": false
       },
@@ -615,8 +607,16 @@
         "bool": false
       },
       {
+        "option": "A fee tendered to cover court expenses",
+        "bool": false
+      },
+      {
         "option": "A rectangular scripture to call upon an entity for assistance",
         "bool": false
+      },
+      {
+        "option": "Letter to a person to appear in court for evidence or any other reason",
+        "bool": true
       }
     ]
   },
@@ -626,11 +626,7 @@
     "question": "A doctor is called in sessions court as a witness. During cross-examination, he utters an indecent remark on the defense counsel, which is brought to the knowledge of the judge who gives minimum punishment to the doctor. Which of the following would it be?",
     "answers": [
       {
-        "option": "Detaining him in the court till rising of the court for the day",
-        "bool": true
-      },
-      {
-        "option": "Fee of Rs. 100 only",
+        "option": "Warning in writing with copy to the employer",
         "bool": false
       },
       {
@@ -638,12 +634,16 @@
         "bool": false
       },
       {
+        "option": "Fee of Rs. 100 only",
+        "bool": false
+      },
+      {
         "option": "Fee of Rs. 10 only",
         "bool": false
       },
       {
-        "option": "Warning in writing with copy to the employer",
-        "bool": false
+        "option": "Detaining him in the court till rising of the court for the day",
+        "bool": true
       }
     ]
   },
@@ -653,7 +653,11 @@
     "question": "A young male develops a high-grade fever intermittent in nature and occurring every 48 hours. Later on, his laboratory report reveals that he has vivax malaria. Which subtype fever does he have?",
     "answers": [
       {
-        "option": "Quotidian fever",
+        "option": "Malignant tertian fever",
+        "bool": false
+      },
+      {
+        "option": "Relapsing fever",
         "bool": false
       },
       {
@@ -661,21 +665,44 @@
         "bool": false
       },
       {
-        "option": "Malignant tertian fever",
-        "bool": false
-      },
-      {
         "option": "Tertian fever",
         "bool": true
       },
       {
-        "option": "Relapsing fever",
+        "option": "Quotidian fever",
         "bool": false
       }
     ]
   },
   {
     "id": 25,
+    "info": "3rd-year/infectious/2022",
+    "question": "A 16-year-old male presents with a complaint of high-grade fever with chills and rigors for five days along with severe body aches and pains. On peripheral examination, the patient is febrile. On systemic examination, no significant finding was found except his petechial rashes all over the extremities. What would the most likely diagnosis be?",
+    "answers": [
+      {
+        "option": "Typhoid",
+        "bool": false
+      },
+      {
+        "option": "Malaria",
+        "bool": false
+      },
+      {
+        "option": "Dengue fever",
+        "bool": true
+      },
+      {
+        "option": "Measles",
+        "bool": false
+      },
+      {
+        "option": "Mumps",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
     "info": "3rd-year/infectious/2022",
     "question": "Which of the following is an appropriate drug in the treatment of acute enteric fever?",
     "answers": [
@@ -688,12 +715,12 @@
         "bool": false
       },
       {
-        "option": "Ceftriaxone",
-        "bool": true
-      },
-      {
         "option": "Chloramphenicol",
         "bool": false
+      },
+      {
+        "option": "Ceftriaxone",
+        "bool": true
       },
       {
         "option": "Amoxicillin",
@@ -702,20 +729,16 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "info": "3rd-year/infectious/2022",
     "question": "The present-day societies have high expectations from medical professionals regarding their ideal ethical practice. The broader guidelines can be learned from the subject of medical ethics. What does this subject deal with?",
     "answers": [
       {
-        "option": "Implied contract and its details",
-        "bool": false
-      },
-      {
-        "option": "Interpersonal relationships are the basic requirement",
-        "bool": false
-      },
-      {
         "option": "Confidentiality of patient record as an ideal ethical practice",
+        "bool": false
+      },
+      {
+        "option": "Implied contract and its details",
         "bool": false
       },
       {
@@ -725,32 +748,9 @@
       {
         "option": "Research ethics should be made mandatory",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "info": "3rd-year/infectious/2022",
-    "question": "For which of the following disorders is chloroquine used as an anti-inflammatory drug?",
-    "answers": [
-      {
-        "option": "Hepatic amebiasis",
-        "bool": false
       },
       {
-        "option": "Malaria",
-        "bool": false
-      },
-      {
-        "option": "Babesiosis",
-        "bool": false
-      },
-      {
-        "option": "Rheumatoid arthritis",
-        "bool": true
-      },
-      {
-        "option": "Intestinal amebiasis",
+        "option": "Interpersonal relationships are the basic requirement",
         "bool": false
       }
     ]
@@ -758,26 +758,26 @@
   {
     "id": 28,
     "info": "3rd-year/infectious/2022",
-    "question": "Which of the following drugs acts by increasing the GABA activity?",
+    "question": "For which of the following disorders is chloroquine used as an anti-inflammatory drug?",
     "answers": [
       {
-        "option": "Pyrantel pamoate",
+        "option": "Malaria",
         "bool": false
       },
       {
-        "option": "Praziquantel",
+        "option": "Hepatic amebiasis",
         "bool": false
       },
       {
-        "option": "Niclosamide",
+        "option": "Babesiosis",
         "bool": false
       },
       {
-        "option": "Diethylcarbamazine",
+        "option": "Intestinal amebiasis",
         "bool": false
       },
       {
-        "option": "Ivermectin",
+        "option": "Rheumatoid arthritis",
         "bool": true
       }
     ]
@@ -785,22 +785,49 @@
   {
     "id": 29,
     "info": "3rd-year/infectious/2022",
-    "question": "Leaving gauze in abdominal surgery comes under which negligence?",
+    "question": "Which of the following drugs acts by increasing the GABA activity?",
     "answers": [
       {
-        "option": "Criminal negligence",
+        "option": "Diethylcarbamazine",
+        "bool": false
+      },
+      {
+        "option": "Praziquantel",
+        "bool": false
+      },
+      {
+        "option": "Pyrantel pamoate",
+        "bool": false
+      },
+      {
+        "option": "Ivermectin",
         "bool": true
       },
+      {
+        "option": "Niclosamide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "3rd-year/infectious/2022",
+    "question": "Leaving gauze in abdominal surgery comes under which negligence?",
+    "answers": [
       {
         "option": "3rd party negligence",
         "bool": false
       },
       {
-        "option": "Corporate misconduct",
+        "option": "Civil negligence",
         "bool": false
       },
       {
-        "option": "Civil negligence",
+        "option": "Criminal negligence",
+        "bool": true
+      },
+      {
+        "option": "Corporate misconduct",
         "bool": false
       },
       {
@@ -810,18 +837,10 @@
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "info": "3rd-year/infectious/2022",
     "question": "A 6-year-old child took his father's pistol to show to his friends but the pistol accidentally went off. One of his friends got injured. Under the law, the child is considered as which of the following?",
     "answers": [
-      {
-        "option": "Unfit to plead",
-        "bool": false
-      },
-      {
-        "option": "Not sane",
-        "bool": false
-      },
       {
         "option": "Guilty",
         "bool": false
@@ -831,31 +850,39 @@
         "bool": false
       },
       {
+        "option": "Unfit to plead",
+        "bool": false
+      },
+      {
+        "option": "Not sane",
+        "bool": false
+      },
+      {
         "option": "Not criminally responsible",
         "bool": true
       }
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "info": "3rd-year/infectious/2022",
     "question": "A 35-year-old diabetic patient presents to the outpatient department with complaints of fever associated with rigor and chills and increased frequency of urine. There are no other significant findings. What is the most probable cause?",
     "answers": [
-      {
-        "option": "Dengue",
-        "bool": false
-      },
       {
         "option": "Viral fever",
         "bool": false
       },
       {
-        "option": "Urinary tract infection",
-        "bool": true
-      },
-      {
         "option": "Malaria",
         "bool": false
+      },
+      {
+        "option": "Dengue",
+        "bool": false
+      },
+      {
+        "option": "Urinary tract infection",
+        "bool": true
       },
       {
         "option": "Typhoid",
@@ -864,13 +891,13 @@
     ]
   },
   {
-    "id": 32,
+    "id": 33,
     "info": "3rd-year/infectious/2022",
     "question": "A patient in the hospital was on the ventilator and got treated for an illness with clindamycin, ethambutol, and some other antibiotics. He then got extubated and was started on meropenem 10 days ago. Two days ago he presented with watery diarrhea suggesting a C. difficile infection. How will this condition be managed?",
     "answers": [
       {
-        "option": "Stop all antibiotics and send stool sample for ova and parasite",
-        "bool": false
+        "option": "Stop meropenem and give oral metronidazole",
+        "bool": true
       },
       {
         "option": "IV vancomycin",
@@ -881,38 +908,11 @@
         "bool": false
       },
       {
-        "option": "Stop meropenem and give oral metronidazole",
-        "bool": true
-      },
-      {
         "option": "IV metronidazole",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "info": "3rd-year/infectious/2022",
-    "question": "A 16-year-old male presents with a complaint of high-grade fever with chills and rigors for five days along with severe body aches and pains. On peripheral examination, the patient is febrile. On systemic examination, no significant finding was found except his petechial rashes all over the extremities. What would the most likely diagnosis be?",
-    "answers": [
-      {
-        "option": "Typhoid",
-        "bool": false
       },
       {
-        "option": "Mumps",
-        "bool": false
-      },
-      {
-        "option": "Dengue fever",
-        "bool": true
-      },
-      {
-        "option": "Measles",
-        "bool": false
-      },
-      {
-        "option": "Malaria",
+        "option": "Stop all antibiotics and send stool sample for ova and parasite",
         "bool": false
       }
     ]
@@ -927,7 +927,11 @@
         "bool": false
       },
       {
-        "option": "Plasmodium knowlesi",
+        "option": "Plasmodium vivax",
+        "bool": false
+      },
+      {
+        "option": "Plasmodium falciparum",
         "bool": false
       },
       {
@@ -935,11 +939,7 @@
         "bool": true
       },
       {
-        "option": "Plasmodium falciparum",
-        "bool": false
-      },
-      {
-        "option": "Plasmodium vivax",
+        "option": "Plasmodium knowlesi",
         "bool": false
       }
     ]
@@ -950,11 +950,7 @@
     "question": "At what CD4+ count of a patient with human immunodeficiency virus do AIDS-defining illnesses emerge?",
     "answers": [
       {
-        "option": "< 50 CD4+ cells/mm3",
-        "bool": false
-      },
-      {
-        "option": "< 100 CD4+ cells/mm3",
+        "option": "< 150 CD4+ cells/mm3",
         "bool": false
       },
       {
@@ -962,20 +958,32 @@
         "bool": false
       },
       {
-        "option": "< 150 CD4+ cells/mm3",
+        "option": "< 50 CD4+ cells/mm3",
         "bool": false
       },
       {
         "option": "< 200 CD4+ cells/mm3",
         "bool": true
+      },
+      {
+        "option": "< 100 CD4+ cells/mm3",
+        "bool": false
       }
     ]
   },
   {
     "id": 36,
     "info": "3rd-year/infectious/2022",
-    "question": "A 20-year-old female presented to the outpatient department with a complaint of fever on alternate days, documented to be 103-104 \u00b0F, along with sweating and chills. She also had malaise, vomiting, weakness, muscle pain, and headache. She was pale and had a palpable spleen on examination. What is the most likely cause?",
+    "question": "A 20-year-old female presented to the outpatient department with a complaint of fever on alternate days, documented to be 103-104 °F, along with sweating and chills. She also had malaise, vomiting, weakness, muscle pain, and headache. She was pale and had a palpable spleen on examination. What is the most likely cause?",
     "answers": [
+      {
+        "option": "Amoebiasis",
+        "bool": false
+      },
+      {
+        "option": "Malaria",
+        "bool": true
+      },
       {
         "option": "Dengue fever",
         "bool": false
@@ -987,14 +995,6 @@
       {
         "option": "Typhoid fever",
         "bool": false
-      },
-      {
-        "option": "Malaria",
-        "bool": true
-      },
-      {
-        "option": "Amoebiasis",
-        "bool": false
       }
     ]
   },
@@ -1004,10 +1004,6 @@
     "question": "A 7-year-old boy is brought to the outpatient department with a complaint of fever and vesicular rashes all over the body. The vesicles appear in bunches and some are in the healing phase. There is a history of sore throat and cough too. What is the long-term complication of the condition at a later age?",
     "answers": [
       {
-        "option": "Atypical pneumonia",
-        "bool": false
-      },
-      {
         "option": "Bacterial pneumonia",
         "bool": false
       },
@@ -1016,12 +1012,16 @@
         "bool": false
       },
       {
+        "option": "Zoster/shingles",
+        "bool": true
+      },
+      {
         "option": "Otitis media",
         "bool": false
       },
       {
-        "option": "Zoster/shingles",
-        "bool": true
+        "option": "Atypical pneumonia",
+        "bool": false
       }
     ]
   },
@@ -1031,15 +1031,11 @@
     "question": "A 14-year-old girl presents to the clinic with a complaint of a hypopigmented patch on her face. On examination, it is a well-demarcated area of skin that does not respond to pain stimuli. How is the condition diagnosed?",
     "answers": [
       {
-        "option": "India ink staining",
-        "bool": false
-      },
-      {
         "option": "Acid-fast staining",
         "bool": true
       },
       {
-        "option": "Gram staining",
+        "option": "Modified acid-fast staining",
         "bool": false
       },
       {
@@ -1047,7 +1043,11 @@
         "bool": false
       },
       {
-        "option": "Modified acid-fast staining",
+        "option": "India ink staining",
+        "bool": false
+      },
+      {
+        "option": "Gram staining",
         "bool": false
       }
     ]
@@ -1058,7 +1058,11 @@
     "question": "A 6-day-old neonate is brought to the pediatric emergency with a history of fits and refusal to take feed. The fits are more severe on exposure to light and excessive sound. The neonate was delivered at home. What is the causative organism?",
     "answers": [
       {
-        "option": "Bacillus anthracis",
+        "option": "Clostridium difficile",
+        "bool": false
+      },
+      {
+        "option": "Clostridium botulinum",
         "bool": false
       },
       {
@@ -1070,11 +1074,7 @@
         "bool": true
       },
       {
-        "option": "Clostridium botulinum",
-        "bool": false
-      },
-      {
-        "option": "Clostridium difficile",
+        "option": "Bacillus anthracis",
         "bool": false
       }
     ]
@@ -1082,18 +1082,37 @@
   {
     "id": 40,
     "info": "3rd-year/infectious/2022",
+    "question": "Salmonella typhi is transmitted by the orofecal route and is the causative agent of typhoid fever. What is the primary site of infection?",
+    "answers": [
+      {
+        "option": "Mononuclear phagocytic cells in the liver and Peyer's patches",
+        "bool": true
+      },
+      {
+        "option": "Mononuclear phagocytic cells in the liver",
+        "bool": false
+      },
+      {
+        "option": "Mononuclear phagocytic cells in the large intestine",
+        "bool": false
+      },
+      {
+        "option": "Mononuclear phagocytic cells in the liver and spleen",
+        "bool": false
+      },
+      {
+        "option": "Mononuclear phagocytic cells in the spleen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "3rd-year/infectious/2022",
     "question": "Shigella dysenteriae causes fever, abdominal pain, and bloody diarrhea in humans. The infection is due to the release of Shiga toxin, which promotes tissue invasion in the large intestine. What is another name for Shiga toxin?",
     "answers": [
       {
         "option": "Exotoxin",
-        "bool": false
-      },
-      {
-        "option": "Cytotoxin",
-        "bool": false
-      },
-      {
-        "option": "Endotoxin",
         "bool": false
       },
       {
@@ -1103,28 +1122,36 @@
       {
         "option": "Neurotoxin",
         "bool": false
+      },
+      {
+        "option": "Endotoxin",
+        "bool": false
+      },
+      {
+        "option": "Cytotoxin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 41,
+    "id": 42,
     "info": "3rd-year/infectious/2022",
     "question": "A 25-year-old fisherman presented to the outpatient department with complaints of abdominal discomfort and diarrhea. His complete blood picture showed megaloblastic anemia and his stool had numerous oval operculated brown eggs. Which parasite is the cause of his condition?",
     "answers": [
       {
-        "option": "Diphyllobothrium latum",
-        "bool": true
+        "option": "Ancylostoma duodenale",
+        "bool": false
       },
       {
         "option": "Echinococcus granulosus",
         "bool": false
       },
       {
-        "option": "Enterobius vermicularis",
-        "bool": false
+        "option": "Diphyllobothrium latum",
+        "bool": true
       },
       {
-        "option": "Ancylostoma duodenale",
+        "option": "Enterobius vermicularis",
         "bool": false
       },
       {
@@ -1134,45 +1161,10 @@
     ]
   },
   {
-    "id": 42,
-    "info": "3rd-year/infectious/2022",
-    "question": "Salmonella typhi is transmitted by the orofecal route and is the causative agent of typhoid fever. What is the primary site of infection?",
-    "answers": [
-      {
-        "option": "Mononuclear phagocytic cells in the large intestine",
-        "bool": false
-      },
-      {
-        "option": "Mononuclear phagocytic cells in the spleen",
-        "bool": false
-      },
-      {
-        "option": "Mononuclear phagocytic cells in the liver",
-        "bool": false
-      },
-      {
-        "option": "Mononuclear phagocytic cells in the liver and spleen",
-        "bool": false
-      },
-      {
-        "option": "Mononuclear phagocytic cells in the liver and Peyer's patches",
-        "bool": true
-      }
-    ]
-  },
-  {
     "id": 43,
     "info": "3rd-year/infectious/2022",
     "question": "A 15-year-old boy presented to the outpatient department with fever, rash, and conjunctivitis. The rash appeared first on the face and then spread to the extremities including the palms and soles. Which viral infection is the boy suffering from?",
     "answers": [
-      {
-        "option": "Rubella",
-        "bool": false
-      },
-      {
-        "option": "Measles",
-        "bool": true
-      },
       {
         "option": "Varicella",
         "bool": false
@@ -1182,7 +1174,15 @@
         "bool": false
       },
       {
+        "option": "Measles",
+        "bool": true
+      },
+      {
         "option": "Herpes",
+        "bool": false
+      },
+      {
+        "option": "Rubella",
         "bool": false
       }
     ]
@@ -1193,7 +1193,7 @@
     "question": "A 45-year-old man presented to the outpatient department with fever, constipation, and abdominal tenderness. Blood culture showed growth of non-lactose fermenting (colorless) gram-negative bacteria on MacConkey's agar and the production of hydrogen sulfide gas on TSI agar. What is the probable diagnosis?",
     "answers": [
       {
-        "option": "Septicemia",
+        "option": "Tuberculosis",
         "bool": false
       },
       {
@@ -1201,16 +1201,16 @@
         "bool": false
       },
       {
-        "option": "Tuberculosis",
+        "option": "Meningitis",
+        "bool": false
+      },
+      {
+        "option": "Septicemia",
         "bool": false
       },
       {
         "option": "Typhoid fever",
         "bool": true
-      },
-      {
-        "option": "Meningitis",
-        "bool": false
       }
     ]
   },
@@ -1224,10 +1224,6 @@
         "bool": false
       },
       {
-        "option": "Plasmodium falciparum",
-        "bool": true
-      },
-      {
         "option": "Plasmodium vivax",
         "bool": false
       },
@@ -1238,6 +1234,10 @@
       {
         "option": "Plasmodium knowlesi",
         "bool": false
+      },
+      {
+        "option": "Plasmodium falciparum",
+        "bool": true
       }
     ]
   },
@@ -1246,6 +1246,14 @@
     "info": "3rd-year/infectious/2022",
     "question": "Disseminated intravascular coagulation (DIC) can frequently be observed in patients with severe inflammatory response and has a poor prognosis. Coagulation pathway activation leads to small vessels occlusion leading to various organ failure symptoms. Which of the following laboratory tests is used for evidence of DIC?",
     "answers": [
+      {
+        "option": "Erythrocyte sedimentation rate (ESR)",
+        "bool": false
+      },
+      {
+        "option": "D-dimer",
+        "bool": true
+      },
       {
         "option": "C-reactive protein",
         "bool": false
@@ -1257,14 +1265,6 @@
       {
         "option": "Platelet count",
         "bool": false
-      },
-      {
-        "option": "Erythrocyte sedimentation rate (ESR)",
-        "bool": false
-      },
-      {
-        "option": "D-dimer",
-        "bool": true
       }
     ]
   },
@@ -1278,11 +1278,11 @@
         "bool": false
       },
       {
-        "option": "Gag",
-        "bool": true
+        "option": "Nef",
+        "bool": false
       },
       {
-        "option": "Nef",
+        "option": "Tat",
         "bool": false
       },
       {
@@ -1290,8 +1290,8 @@
         "bool": false
       },
       {
-        "option": "Tat",
-        "bool": false
+        "option": "Gag",
+        "bool": true
       }
     ]
   },
@@ -1301,24 +1301,24 @@
     "question": "Which of the following antiviral drugs inhibits the synthesis of viral DNA?",
     "answers": [
       {
-        "option": "Saquinavir",
-        "bool": false
-      },
-      {
         "option": "All of these",
         "bool": false
       },
       {
-        "option": "Acyclovir",
-        "bool": true
+        "option": "Interferon",
+        "bool": false
+      },
+      {
+        "option": "Saquinavir",
+        "bool": false
       },
       {
         "option": "Amantadine",
         "bool": false
       },
       {
-        "option": "Interferon",
-        "bool": false
+        "option": "Acyclovir",
+        "bool": true
       }
     ]
   },
@@ -1328,7 +1328,15 @@
     "question": "Which of the following statements is correct about the mechanism of action of mebendazole?",
     "answers": [
       {
+        "option": "Inhibits microtubule synthesis in helminths and causes irreversible impairment of glucose uptake.",
+        "bool": true
+      },
+      {
         "option": "Blocks acetylcholine transmission at the myoneural junction resulting in paralysis of helminths.",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1337,14 +1345,6 @@
       },
       {
         "option": "Increases cell membrane permeability for calcium ions, resulting in paralysis, dislodgement, and death of helminths.",
-        "bool": false
-      },
-      {
-        "option": "Inhibits microtubule synthesis in helminths and causes irreversible impairment of glucose uptake.",
-        "bool": true
-      },
-      {
-        "option": "None of these",
         "bool": false
       }
     ]
@@ -1355,11 +1355,15 @@
     "question": "Which drug is the most effective in treating systemic fungal infections in patients with acquired immunodeficiency syndrome (AIDS)?",
     "answers": [
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Itraconazole",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Flucytosine",
         "bool": false
       },
       {
@@ -1369,10 +1373,6 @@
       {
         "option": "Amphotericin B",
         "bool": true
-      },
-      {
-        "option": "Flucytosine",
-        "bool": false
       }
     ]
   },
@@ -1386,20 +1386,20 @@
         "bool": false
       },
       {
-        "option": "Mefloquine",
-        "bool": false
+        "option": "Quinine",
+        "bool": true
       },
       {
         "option": "Primaquine",
         "bool": false
       },
       {
-        "option": "Artemisinin",
+        "option": "Mefloquine",
         "bool": false
       },
       {
-        "option": "Quinine",
-        "bool": true
+        "option": "Artemisinin",
+        "bool": false
       }
     ]
   },
@@ -1409,15 +1409,15 @@
     "question": "Which antimalarial drug is used for causal prophylaxis?",
     "answers": [
       {
-        "option": "Pyrimethamine",
+        "option": "Quinidine",
         "bool": false
+      },
+      {
+        "option": "Primaquine",
+        "bool": true
       },
       {
         "option": "Amodiaquine",
-        "bool": false
-      },
-      {
-        "option": "Quinidine",
         "bool": false
       },
       {
@@ -1425,8 +1425,8 @@
         "bool": false
       },
       {
-        "option": "Primaquine",
-        "bool": true
+        "option": "Pyrimethamine",
+        "bool": false
       }
     ]
   },
@@ -1436,7 +1436,7 @@
     "question": "Which of the following is/are an unwanted effect(s) of aminoglycosides?",
     "answers": [
       {
-        "option": "Pancytopenia",
+        "option": "Irritation of gastrointestinal mucosa",
         "bool": false
       },
       {
@@ -1444,16 +1444,16 @@
         "bool": false
       },
       {
-        "option": "Ototoxicity, nephrotoxicity",
-        "bool": true
+        "option": "Pancytopenia",
+        "bool": false
       },
       {
         "option": "Dry cough",
         "bool": false
       },
       {
-        "option": "Irritation of gastrointestinal mucosa",
-        "bool": false
+        "option": "Ototoxicity, nephrotoxicity",
+        "bool": true
       }
     ]
   },
@@ -1463,14 +1463,6 @@
     "question": "Which antibiotic is safe to use for respiratory tract infections during the first trimester of pregnancy?",
     "answers": [
       {
-        "option": "Doxycycline",
-        "bool": false
-      },
-      {
-        "option": "Penicillin",
-        "bool": true
-      },
-      {
         "option": "Fluoroquinolones",
         "bool": false
       },
@@ -1479,8 +1471,16 @@
         "bool": false
       },
       {
+        "option": "Doxycycline",
+        "bool": false
+      },
+      {
         "option": "Streptomycin",
         "bool": false
+      },
+      {
+        "option": "Penicillin",
+        "bool": true
       }
     ]
   },
@@ -1490,15 +1490,11 @@
     "question": "Which antibiotic can cause grey baby syndrome?",
     "answers": [
       {
-        "option": "Penicillin",
-        "bool": false
-      },
-      {
         "option": "Chloramphenicol",
         "bool": true
       },
       {
-        "option": "Cephalosporin",
+        "option": "Penicillin",
         "bool": false
       },
       {
@@ -1507,6 +1503,10 @@
       },
       {
         "option": "Aminoglycosides",
+        "bool": false
+      },
+      {
+        "option": "Cephalosporin",
         "bool": false
       }
     ]
@@ -1517,7 +1517,15 @@
     "question": "Which drug is the first line agent in the treatment of syphilis?",
     "answers": [
       {
+        "option": "Benzathine penicillin G",
+        "bool": true
+      },
+      {
         "option": "Macrolides",
+        "bool": false
+      },
+      {
+        "option": "Amphotericin B",
         "bool": false
       },
       {
@@ -1527,14 +1535,6 @@
       {
         "option": "Tetracycline",
         "bool": false
-      },
-      {
-        "option": "Amphotericin B",
-        "bool": false
-      },
-      {
-        "option": "Benzathine penicillin G",
-        "bool": true
       }
     ]
   },
@@ -1552,7 +1552,7 @@
         "bool": true
       },
       {
-        "option": "Cryptosporidiosis",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1560,7 +1560,7 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Cryptosporidiosis",
         "bool": false
       }
     ]
@@ -1571,7 +1571,11 @@
     "question": "Which test is helpful in the diagnosis of giardiasis?",
     "answers": [
       {
-        "option": "Urine culture",
+        "option": "Blood culture",
+        "bool": false
+      },
+      {
+        "option": "Stool for occult blood",
         "bool": false
       },
       {
@@ -1579,15 +1583,11 @@
         "bool": true
       },
       {
-        "option": "Stool for occult blood",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Blood culture",
+        "option": "Urine culture",
         "bool": false
       }
     ]
@@ -1598,11 +1598,11 @@
     "question": "Human cysticercosis is acquired by the ingestion of which of the following?",
     "answers": [
       {
-        "option": "Aspergillosis",
+        "option": "Echinococcus granulosus",
         "bool": false
       },
       {
-        "option": "Cryptococcosis",
+        "option": "Aspergillosis",
         "bool": false
       },
       {
@@ -1610,11 +1610,11 @@
         "bool": true
       },
       {
-        "option": "Sporotrichosis",
+        "option": "Cryptococcosis",
         "bool": false
       },
       {
-        "option": "Echinococcus granulosus",
+        "option": "Sporotrichosis",
         "bool": false
       }
     ]
@@ -1656,11 +1656,11 @@
         "bool": false
       },
       {
-        "option": "Peripheral neuropathy",
+        "option": "Encephalitis",
         "bool": false
       },
       {
-        "option": "Encephalitis",
+        "option": "Progressive multifocal leukoencephalopathy",
         "bool": false
       },
       {
@@ -1668,7 +1668,7 @@
         "bool": true
       },
       {
-        "option": "Progressive multifocal leukoencephalopathy",
+        "option": "Peripheral neuropathy",
         "bool": false
       }
     ]
@@ -1679,11 +1679,11 @@
     "question": "A 50-year-old male HIV patient is being evaluated for AIDS-defining diseases. Which of the following is not an AIDS-defining illness?",
     "answers": [
       {
-        "option": "Kaposi sarcoma",
-        "bool": false
+        "option": "Oral candidiasis",
+        "bool": true
       },
       {
-        "option": "Esophageal candidiasis",
+        "option": "Kaposi sarcoma",
         "bool": false
       },
       {
@@ -1691,8 +1691,8 @@
         "bool": false
       },
       {
-        "option": "Oral candidiasis",
-        "bool": true
+        "option": "Esophageal candidiasis",
+        "bool": false
       },
       {
         "option": "Pneumocystis jiroveci pneumonia",
@@ -1706,8 +1706,8 @@
     "question": "A 50-year-old female sustained injury from rusty metal on her right finger while cleaning. She is cautious and seeks emergency treatment. You washed her wound with normal saline and dressed it. Which infection is she at risk of acquiring?",
     "answers": [
       {
-        "option": "Clostridium tetani",
-        "bool": true
+        "option": "Clostridium sordelli",
+        "bool": false
       },
       {
         "option": "Clostridium perfringens",
@@ -1722,8 +1722,8 @@
         "bool": false
       },
       {
-        "option": "Clostridium sordelli",
-        "bool": false
+        "option": "Clostridium tetani",
+        "bool": true
       }
     ]
   },
@@ -1733,7 +1733,7 @@
     "question": "A 25-year-old male had a sexual contact with a commercial sex worker during his business trip to UAE. He developed a painless ulcer at the penile shaft after one week. What investigation will diagnose the genital ulcer?",
     "answers": [
       {
-        "option": "Nucleic acid amplification test (NAAT)",
+        "option": "RPR with titer",
         "bool": false
       },
       {
@@ -1741,15 +1741,15 @@
         "bool": true
       },
       {
+        "option": "Nucleic acid amplification test (NAAT)",
+        "bool": false
+      },
+      {
         "option": "HSV PCR of blood",
         "bool": false
       },
       {
         "option": "Tzank smear on tissue biopsy from the ulcer",
-        "bool": false
-      },
-      {
-        "option": "RPR with titer",
         "bool": false
       }
     ]
@@ -1764,6 +1764,10 @@
         "bool": false
       },
       {
+        "option": "Daman",
+        "bool": false
+      },
+      {
         "option": "Jurh",
         "bool": false
       },
@@ -1774,10 +1778,6 @@
       {
         "option": "Shajjah",
         "bool": true
-      },
-      {
-        "option": "Daman",
-        "bool": false
       }
     ]
   },
@@ -1791,7 +1791,7 @@
         "bool": false
       },
       {
-        "option": "Ghair jaiffah",
+        "option": "Daman",
         "bool": false
       },
       {
@@ -1803,7 +1803,7 @@
         "bool": false
       },
       {
-        "option": "Daman",
+        "option": "Ghair jaiffah",
         "bool": false
       }
     ]
@@ -1814,11 +1814,11 @@
     "question": "A 20-year-old came to you with the complaint of abdominal pain and vomiting. What type of consent will you take before starting physical examination?",
     "answers": [
       {
-        "option": "Written",
-        "bool": false
+        "option": "Implied",
+        "bool": true
       },
       {
-        "option": "Expressed",
+        "option": "Informed",
         "bool": false
       },
       {
@@ -1826,12 +1826,12 @@
         "bool": false
       },
       {
-        "option": "Informed",
+        "option": "Expressed",
         "bool": false
       },
       {
-        "option": "Implied",
-        "bool": true
+        "option": "Written",
+        "bool": false
       }
     ]
   },
@@ -1841,20 +1841,20 @@
     "question": "An injured person presented to the emergency with a broken leg and internal fixation was done by a doctor in the operation theatre. The patient was advised to rest for two weeks but he started walking in a couple of days and developed misalignment of the fractured bone. The given explanation best corresponds to which of the following?",
     "answers": [
       {
-        "option": "Therapeutic misadventure",
-        "bool": false
-      },
-      {
-        "option": "Contributary negligence",
-        "bool": true
-      },
-      {
         "option": "Res ipsa loquitor",
         "bool": false
       },
       {
         "option": "Vicarious liability",
         "bool": false
+      },
+      {
+        "option": "Therapeutic misadventure",
+        "bool": false
+      },
+      {
+        "option": "Contributary negligence",
+        "bool": true
       },
       {
         "option": "Novus actus interveniens",
@@ -1868,6 +1868,14 @@
     "question": "An 8-year-old child suffered from a minor injury during a picnic off from home. The teacher gave the consent for the treatment because of the absence of parents/guardians of the child. Which doctrine is applied here?",
     "answers": [
       {
+        "option": "Doctrine of emergency",
+        "bool": false
+      },
+      {
+        "option": "Doctrine of full disclosure",
+        "bool": false
+      },
+      {
         "option": "Doctrine of informed consent",
         "bool": false
       },
@@ -1878,14 +1886,6 @@
       {
         "option": "Doctrine of loco parentis",
         "bool": true
-      },
-      {
-        "option": "Doctrine of emergency",
-        "bool": false
-      },
-      {
-        "option": "Doctrine of full disclosure",
-        "bool": false
       }
     ]
   },
@@ -1895,19 +1895,19 @@
     "question": "A 30-year-old married man is suffering from scabies. The doctor who treated his illness disclosed the information to his wife. What is this an example of?",
     "answers": [
       {
-        "option": "Privileged communication",
-        "bool": true
-      },
-      {
         "option": "Professional secrecy",
         "bool": false
       },
       {
-        "option": "Interest of state",
-        "bool": false
+        "option": "Privileged communication",
+        "bool": true
       },
       {
         "option": "Therapeutic privilege",
+        "bool": false
+      },
+      {
+        "option": "Interest of state",
         "bool": false
       },
       {
@@ -1919,18 +1919,18 @@
   {
     "id": 71,
     "info": "3rd-year/infectious/2022",
-    "question": "A 4-year-old boy came to the outpatient department with fever for fifteen days. On examination, he was lethargic and pale, temperature was 101 \u00b0F, heart rate was 110 beats/min, and respiratory rate was 30 breaths/min. Abdominal examination showed hepatosplenomegaly. Rest of the examination was unremarkable. What is the most appropriate investigation to reach the diagnosis?",
+    "question": "A 4-year-old boy came to the outpatient department with fever for fifteen days. On examination, he was lethargic and pale, temperature was 101 °F, heart rate was 110 beats/min, and respiratory rate was 30 breaths/min. Abdominal examination showed hepatosplenomegaly. Rest of the examination was unremarkable. What is the most appropriate investigation to reach the diagnosis?",
     "answers": [
       {
         "option": "Urine detailed report",
         "bool": false
       },
       {
-        "option": "Complete blood count",
+        "option": "Bone marrow culture",
         "bool": false
       },
       {
-        "option": "Bone marrow culture",
+        "option": "Complete blood count",
         "bool": false
       },
       {
@@ -1946,14 +1946,18 @@
   {
     "id": 72,
     "info": "3rd-year/infectious/2022",
-    "question": "A 15-month-old girl was brought to the outpatient department with the complaint of high-grade fever and runny nose since three days. On examination, her temperature was 102 \u00b0F, heart rate was 120 beats/min, and respiratory rate was 35 breaths/min. She had a maculopapular rash all over the body, purulent discharge from the eyes, and oral thrush. Rest of the examination was unremarkable. What is the most appropriate treatment?",
+    "question": "A 15-month-old girl was brought to the outpatient department with the complaint of high-grade fever and runny nose since three days. On examination, her temperature was 102 °F, heart rate was 120 beats/min, and respiratory rate was 35 breaths/min. She had a maculopapular rash all over the body, purulent discharge from the eyes, and oral thrush. Rest of the examination was unremarkable. What is the most appropriate treatment?",
     "answers": [
       {
-        "option": "Paracetamol syrup",
+        "option": "Chloramphenicol eye ointment",
         "bool": false
       },
       {
-        "option": "Chloramphenicol eye ointment",
+        "option": "Nystatin oral drops",
+        "bool": false
+      },
+      {
+        "option": "Oral antibiotic",
         "bool": false
       },
       {
@@ -1961,11 +1965,7 @@
         "bool": true
       },
       {
-        "option": "Oral antibiotic",
-        "bool": false
-      },
-      {
-        "option": "Nystatin oral drops",
+        "option": "Paracetamol syrup",
         "bool": false
       }
     ]
@@ -1973,62 +1973,12 @@
   {
     "id": 73,
     "info": "3rd-year/infectious/2022",
-    "question": "A 45-year-old male is suffering from high-grade fever, severe body ache, and bleeding from the nose and mouth since the last 2 days. He consulted his general physician but the prescribed medicines did not give any relief. He works as a butcher and handles alive animals. His complete blood count shows hemoglobin 14.5 g/dL, white blood cells 1200/mm\u00b3, platelet count 37000/mm\u00b3. What is the best treatment option for him?",
+    "question": "A 23-year-old medical student develops nausea, vomiting, abdominal pain, and diarrhea after eating street food. Her complete blood count shows hemoglobin 12.8 g/dL, white blood cells 4200/mm³, erythrocyte sedimentation rate (ESR) 35 mm/h, and low platelet count (98000/μL). What is the most predominant feature of this condition?",
     "answers": [
       {
-        "option": "IV antibiotics to prevent bacterial infection",
+        "option": "Patient can present with bloody diarrhea",
         "bool": true
       },
-      {
-        "option": "IV domperidone or any other prokinetic agent",
-        "bool": false
-      },
-      {
-        "option": "IV normal saline",
-        "bool": false
-      },
-      {
-        "option": "Transfusion of platelet mega units",
-        "bool": false
-      },
-      {
-        "option": "IV paracetamol as per need",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "3rd-year/infectious/2022",
-    "question": "A 45-year-old female had fever and chills. Malarial parasite was positive on MP-ICT. She was treated with artemisinin based combination therapy. She went to donate blood after one session. The blood bank refused donation because she had gametocytes on peripheral smear. She is worried and wants a retreatment. What should be the next step of management?",
-    "answers": [
-      {
-        "option": "No need for treatment",
-        "bool": false
-      },
-      {
-        "option": "Repeat peripheral smear from well reputed laboratory",
-        "bool": false
-      },
-      {
-        "option": "Needs long term prophylaxis to clear the gametocytes",
-        "bool": false
-      },
-      {
-        "option": "A different antimalarial drug should be used",
-        "bool": false
-      },
-      {
-        "option": "Repeat course of artemisinin based combination therapy (ACT)",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "info": "3rd-year/infectious/2022",
-    "question": "A 23-year-old medical student develops nausea, vomiting, abdominal pain, and diarrhea after eating street food. Her complete blood count shows hemoglobin 12.8 g/dL, white blood cells 4200/mm\u00b3, erythrocyte sedimentation rate (ESR) 35 mm/h, and low platelet count (98000/\u03bcL). What is the most predominant feature of this condition?",
-    "answers": [
       {
         "option": "Can result in a chronic carrier state",
         "bool": false
@@ -2038,15 +1988,65 @@
         "bool": false
       },
       {
-        "option": "Patient has petechia on the arms and legs",
-        "bool": false
-      },
-      {
         "option": "Disease can be transmitted by contact",
         "bool": false
       },
       {
-        "option": "Patient can present with bloody diarrhea",
+        "option": "Patient has petechia on the arms and legs",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "info": "3rd-year/infectious/2022",
+    "question": "A 45-year-old male is suffering from high-grade fever, severe body ache, and bleeding from the nose and mouth since the last 2 days. He consulted his general physician but the prescribed medicines did not give any relief. He works as a butcher and handles alive animals. His complete blood count shows hemoglobin 14.5 g/dL, white blood cells 1200/mm³, platelet count 37000/mm³. What is the best treatment option for him?",
+    "answers": [
+      {
+        "option": "Transfusion of platelet mega units",
+        "bool": false
+      },
+      {
+        "option": "IV normal saline",
+        "bool": false
+      },
+      {
+        "option": "IV paracetamol as per need",
+        "bool": false
+      },
+      {
+        "option": "IV antibiotics to prevent bacterial infection",
+        "bool": true
+      },
+      {
+        "option": "IV domperidone or any other prokinetic agent",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "info": "3rd-year/infectious/2022",
+    "question": "A 45-year-old female had fever and chills. Malarial parasite was positive on MP-ICT. She was treated with artemisinin based combination therapy. She went to donate blood after one session. The blood bank refused donation because she had gametocytes on peripheral smear. She is worried and wants a retreatment. What should be the next step of management?",
+    "answers": [
+      {
+        "option": "Needs long term prophylaxis to clear the gametocytes",
+        "bool": false
+      },
+      {
+        "option": "No need for treatment",
+        "bool": false
+      },
+      {
+        "option": "A different antimalarial drug should be used",
+        "bool": false
+      },
+      {
+        "option": "Repeat peripheral smear from well reputed laboratory",
+        "bool": false
+      },
+      {
+        "option": "Repeat course of artemisinin based combination therapy (ACT)",
         "bool": true
       }
     ]
@@ -2057,7 +2057,11 @@
     "question": "Which of the following is a complication of Entamoeba histolytica?",
     "answers": [
       {
-        "option": "Cysticercosis",
+        "option": "Amebic abscess",
+        "bool": true
+      },
+      {
+        "option": "Hepatitis",
         "bool": false
       },
       {
@@ -2065,16 +2069,12 @@
         "bool": false
       },
       {
-        "option": "Hepatitis",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Amebic abscess",
-        "bool": true
+        "option": "Cysticercosis",
+        "bool": false
       }
     ]
   },
@@ -2084,7 +2084,15 @@
     "question": "A medical worker accidentally gets pricked by a needle used on an HIV-positive patient. What is the risk percentage of him getting an HIV infection?",
     "answers": [
       {
+        "option": "0.3%",
+        "bool": true
+      },
+      {
         "option": "0.67%",
+        "bool": false
+      },
+      {
+        "option": "0.1%",
         "bool": false
       },
       {
@@ -2094,14 +2102,6 @@
       {
         "option": "0.5%",
         "bool": false
-      },
-      {
-        "option": "0.1%",
-        "bool": false
-      },
-      {
-        "option": "0.3%",
-        "bool": true
       }
     ]
   },
@@ -2111,14 +2111,6 @@
     "question": "A man falls in the washroom and later presents with a high-grade fever. The doctor suspects that he has chronic inflammation. Which of the following are the dominant cells of chronic inflammation?",
     "answers": [
       {
-        "option": "Basophils",
-        "bool": false
-      },
-      {
-        "option": "Lymphocytes",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
       },
@@ -2127,7 +2119,15 @@
         "bool": true
       },
       {
+        "option": "Basophils",
+        "bool": false
+      },
+      {
         "option": "Eosinophils",
+        "bool": false
+      },
+      {
+        "option": "Lymphocytes",
         "bool": false
       }
     ]
@@ -2138,7 +2138,11 @@
     "question": "Human immunodeficiency virus (HIV) has structural genes and functional genes. Which of the following is a structural gene in HIV?",
     "answers": [
       {
-        "option": "tat",
+        "option": "rev",
+        "bool": false
+      },
+      {
+        "option": "vif",
         "bool": false
       },
       {
@@ -2146,15 +2150,11 @@
         "bool": true
       },
       {
-        "option": "vif",
-        "bool": false
-      },
-      {
         "option": "nef",
         "bool": false
       },
       {
-        "option": "rev",
+        "option": "tat",
         "bool": false
       }
     ]
@@ -2165,7 +2165,11 @@
     "question": "Penicillin should not be administered via which of the following routes?",
     "answers": [
       {
-        "option": "Intraperitoneal route",
+        "option": "Intramuscular route",
+        "bool": false
+      },
+      {
+        "option": "Intravenous route",
         "bool": false
       },
       {
@@ -2173,15 +2177,11 @@
         "bool": false
       },
       {
-        "option": "Intramuscular route",
-        "bool": false
-      },
-      {
         "option": "Intrathecal route",
         "bool": true
       },
       {
-        "option": "Intravenous route",
+        "option": "Intraperitoneal route",
         "bool": false
       }
     ]
@@ -2192,11 +2192,11 @@
     "question": "Which of the following is a non-infectious cause of vaginal discharge?",
     "answers": [
       {
-        "option": "Chlamydia trachomatis",
+        "option": "Trichomonas vaginalis",
         "bool": false
       },
       {
-        "option": "Trichomonas vaginalis",
+        "option": "Chlamydia trachomatis",
         "bool": false
       },
       {
@@ -2219,15 +2219,15 @@
     "question": "Trimethoprim-sulfamethoxazole is used to treat which of the following infections in HIV-positive patients?",
     "answers": [
       {
+        "option": "Tuberculosis",
+        "bool": false
+      },
+      {
         "option": "Pneumocystis jirovecii pneumonia",
         "bool": true
       },
       {
         "option": "Crytoccocal meningitis",
-        "bool": false
-      },
-      {
-        "option": "Tuberculosis",
         "bool": false
       },
       {
@@ -2246,7 +2246,11 @@
     "question": "A medical officer detects an HIV (human immunodeficiency virus) positive case in the blood bank and searches for the sexual partner of the donor to prevent and treat the disease in the partner. Which process is described here?",
     "answers": [
       {
-        "option": "HIV screening",
+        "option": "HIV contact tracing",
+        "bool": true
+      },
+      {
+        "option": "HIV prophylaxis",
         "bool": false
       },
       {
@@ -2254,16 +2258,12 @@
         "bool": false
       },
       {
-        "option": "HIV prophylaxis",
-        "bool": false
-      },
-      {
         "option": "HIV primary prevention",
         "bool": false
       },
       {
-        "option": "HIV contact tracing",
-        "bool": true
+        "option": "HIV screening",
+        "bool": false
       }
     ]
   },
@@ -2273,19 +2273,19 @@
     "question": "A person, while traveling, carries a disease with him from an area where it is highly prevalent, to a place in which it does not normally occur. Which of the following terms is used for it?",
     "answers": [
       {
-        "option": "Holo endemic",
-        "bool": false
-      },
-      {
         "option": "Endemic",
         "bool": false
       },
       {
-        "option": "Pandemic",
+        "option": "Hyper epidemic",
         "bool": false
       },
       {
-        "option": "Hyper epidemic",
+        "option": "Holo endemic",
+        "bool": false
+      },
+      {
+        "option": "Pandemic",
         "bool": false
       },
       {
@@ -2300,23 +2300,23 @@
     "question": "A young female presents to the outpatient department with greenish, foul-smelling vaginal discharge. A wet mount shows pear-shaped trophozoites with a jerky motion. Which of the following is the most likely organism involved?",
     "answers": [
       {
-        "option": "Trichomonas vaginalis",
-        "bool": true
-      },
-      {
         "option": "Entamaoeba histolytica",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Chlamydia trachomatis",
         "bool": false
+      },
+      {
+        "option": "Trichomonas vaginalis",
+        "bool": true
       },
       {
         "option": "Neisseria gonorrhoeae",
         "bool": false
       },
       {
-        "option": "Chlamydia trachomatis",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -2327,19 +2327,19 @@
     "question": "In an AIDS (acquired immune deficiency syndrome) patient, purplish, non-blanching nodules appear in the lower extremities. Which of the following is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Bacillary angiomatosis",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Pyogenic granulomas",
         "bool": false
       },
       {
+        "option": "Bacillary angiomatosis",
+        "bool": false
+      },
+      {
         "option": "Molluscum contagiosum",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -2362,15 +2362,15 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Clostridium difficile",
         "bool": true
       },
       {
         "option": "Clostridium perfringens",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -2381,11 +2381,7 @@
     "question": "Which of the following organisms can cause cervical cancer and anogenital warts known as condylomata acuminata?",
     "answers": [
       {
-        "option": "Neisseria gonorrhoeae",
-        "bool": false
-      },
-      {
-        "option": "None of these",
+        "option": "Treponema pallidum",
         "bool": false
       },
       {
@@ -2393,11 +2389,15 @@
         "bool": false
       },
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Human papilloma virus",
         "bool": true
       },
       {
-        "option": "Treponema pallidum",
+        "option": "Neisseria gonorrhoeae",
         "bool": false
       }
     ]
@@ -2408,19 +2408,19 @@
     "question": "Which of the following infections in sexually active women does not cause vaginal discharge?",
     "answers": [
       {
-        "option": "Streptococcal/staphylococcal infections",
-        "bool": false
-      },
-      {
         "option": "Chlamydia",
         "bool": false
       },
       {
-        "option": "Bacterial vaginosis",
+        "option": "Trichomoniasis",
         "bool": false
       },
       {
-        "option": "Trichomoniasis",
+        "option": "Streptococcal/staphylococcal infections",
+        "bool": false
+      },
+      {
+        "option": "Bacterial vaginosis",
         "bool": false
       },
       {
@@ -2447,12 +2447,12 @@
         "bool": false
       },
       {
-        "option": "Mumps",
-        "bool": false
-      },
-      {
         "option": "Typhoid",
         "bool": true
+      },
+      {
+        "option": "Mumps",
+        "bool": false
       }
     ]
   },
@@ -2470,11 +2470,11 @@
         "bool": true
       },
       {
-        "option": "Chicken pox",
+        "option": "Typhoid",
         "bool": false
       },
       {
-        "option": "Typhoid",
+        "option": "Chicken pox",
         "bool": false
       },
       {
@@ -2489,11 +2489,7 @@
     "question": "A child is brought to the clinic for having loose stools with a frequency of 20 per day. On examination, normal skin turgor and no sunken eyes are found. When water is offered, he drinks it eagerly. What is the classification according to IMNCI?",
     "answers": [
       {
-        "option": "Diarrhea with moderate dehydration",
-        "bool": false
-      },
-      {
-        "option": "Diarrhea with mild dehydration",
+        "option": "Diarrhea with some dehydration",
         "bool": false
       },
       {
@@ -2501,12 +2497,16 @@
         "bool": false
       },
       {
-        "option": "Diarrhea with some dehydration",
+        "option": "Diarrhea with no dehydration",
+        "bool": true
+      },
+      {
+        "option": "Diarrhea with moderate dehydration",
         "bool": false
       },
       {
-        "option": "Diarrhea with no dehydration",
-        "bool": true
+        "option": "Diarrhea with mild dehydration",
+        "bool": false
       }
     ]
   },
@@ -2516,19 +2516,19 @@
     "question": "What is the term used for diarrhea (with or without blood in stool) that starts acutely and occurs for at least 14 days?",
     "answers": [
       {
-        "option": "Persistent diarrhea",
-        "bool": true
+        "option": "Acute diarrhea",
+        "bool": false
       },
       {
-        "option": "Chronic diarrhea",
-        "bool": false
+        "option": "Persistent diarrhea",
+        "bool": true
       },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Acute diarrhea",
+        "option": "Chronic diarrhea",
         "bool": false
       },
       {
@@ -2543,14 +2543,6 @@
     "question": "Which of the following stages of the malarial parasite is liberated after the rupture of erythrocytes?",
     "answers": [
       {
-        "option": "Trophozoite",
-        "bool": false
-      },
-      {
-        "option": "Gametocyte",
-        "bool": false
-      },
-      {
         "option": "Sporozoites",
         "bool": false
       },
@@ -2559,8 +2551,16 @@
         "bool": false
       },
       {
+        "option": "Gametocyte",
+        "bool": false
+      },
+      {
         "option": "Merozoites",
         "bool": true
+      },
+      {
+        "option": "Trophozoite",
+        "bool": false
       }
     ]
   },
@@ -2570,11 +2570,11 @@
     "question": "A person having mucopurulent urethral discharge is diagnosed with gonorrhea. Which of the following will be shown on culture?",
     "answers": [
       {
-        "option": "Gram positive cocci in grape like cluster",
-        "bool": false
+        "option": "Gram negative diplococci",
+        "bool": true
       },
       {
-        "option": "Gram positive cocci",
+        "option": "Gram positive rods",
         "bool": false
       },
       {
@@ -2582,12 +2582,12 @@
         "bool": false
       },
       {
-        "option": "Gram positive rods",
+        "option": "Gram positive cocci",
         "bool": false
       },
       {
-        "option": "Gram negative diplococci",
-        "bool": true
+        "option": "Gram positive cocci in grape like cluster",
+        "bool": false
       }
     ]
   },
@@ -2597,10 +2597,6 @@
     "question": "A child is brought to the pediatrics clinic for evaluation of diarrhea. His systemic findings are unremarkable except that he has less weight and height for his age. It is found that he has malabsorption syndrome. What is the causative agent in this case?",
     "answers": [
       {
-        "option": "Cryptosporidium hominis",
-        "bool": false
-      },
-      {
         "option": "Enterobius vermicularis",
         "bool": false
       },
@@ -2609,12 +2605,16 @@
         "bool": false
       },
       {
-        "option": "Giardia lamblia",
-        "bool": true
-      },
-      {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Cryptosporidium hominis",
+        "bool": false
+      },
+      {
+        "option": "Giardia lamblia",
+        "bool": true
       }
     ]
   },
@@ -2624,7 +2624,7 @@
     "question": "A patient presents to the clinic with a complaint of bloody diarrhea. A sorbitol-negative strain of Escherichia coli is found to be the causative agent. Which of the following has caused this condition?",
     "answers": [
       {
-        "option": "Enterotoxigenic E. coli",
+        "option": "Enteroinvasive E. coli",
         "bool": false
       },
       {
@@ -2632,16 +2632,16 @@
         "bool": false
       },
       {
+        "option": "Enterohemorrhagic E. coli",
+        "bool": true
+      },
+      {
         "option": "Enteroaggregative E. coli",
         "bool": false
       },
       {
-        "option": "Enteroinvasive E. coli",
+        "option": "Enterotoxigenic E. coli",
         "bool": false
-      },
-      {
-        "option": "Enterohemorrhagic E. coli",
-        "bool": true
       }
     ]
   },
@@ -2651,19 +2651,19 @@
     "question": "A person presents to the clinic with bloody diarrhea and is diagnosed with intestinal amebiasis caused by Entamoeba histolytica. Which of the following is true for this organism?",
     "answers": [
       {
-        "option": "Trophozoites contain marginated nucleolus",
-        "bool": false
+        "option": "Trophozoites contain ingested RBCs",
+        "bool": true
       },
       {
         "option": "Trophozoites have three nuclei",
         "bool": false
       },
       {
-        "option": "Trophozoites contain ingested RBCs",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Trophozoites contain marginated nucleolus",
         "bool": false
       },
       {
@@ -2682,11 +2682,11 @@
         "bool": false
       },
       {
-        "option": "Treponema pallidum",
+        "option": "Human papillomavirus",
         "bool": false
       },
       {
-        "option": "Human papillomavirus",
+        "option": "Treponema pallidum",
         "bool": false
       },
       {
@@ -2705,10 +2705,6 @@
     "question": "Which of the following is used for the treatment of methicillin-resistant Staphylococcus aureus?",
     "answers": [
       {
-        "option": "Penicillin G",
-        "bool": false
-      },
-      {
         "option": "Vancomycin",
         "bool": true
       },
@@ -2723,6 +2719,10 @@
       {
         "option": "Nafcillin",
         "bool": false
+      },
+      {
+        "option": "Penicillin G",
+        "bool": false
       }
     ]
   },
@@ -2732,15 +2732,15 @@
     "question": "Which of the following drugs is a protease inhibitor?",
     "answers": [
       {
-        "option": "Indinavir",
-        "bool": true
-      },
-      {
-        "option": "Stavudine",
+        "option": "Raltegravir",
         "bool": false
       },
       {
-        "option": "Raltegravir",
+        "option": "Tenofovir",
+        "bool": false
+      },
+      {
+        "option": "Stavudine",
         "bool": false
       },
       {
@@ -2748,8 +2748,8 @@
         "bool": false
       },
       {
-        "option": "Tenofovir",
-        "bool": false
+        "option": "Indinavir",
+        "bool": true
       }
     ]
   },
@@ -2759,15 +2759,15 @@
     "question": "A child presents with high-grade fever, runny nose, and cough. White lesions are found on the oral mucosa. What is the pathognomonic sign for measles?",
     "answers": [
       {
-        "option": "Erythema nodosum",
+        "option": "Red spots",
         "bool": false
       },
       {
-        "option": "Koplik\u2019s spots",
+        "option": "Koplik’s spots",
         "bool": true
       },
       {
-        "option": "Red spots",
+        "option": "Erythema nodosum",
         "bool": false
       },
       {
@@ -2790,11 +2790,11 @@
         "bool": false
       },
       {
-        "option": "Small pox",
+        "option": "Mumps",
         "bool": false
       },
       {
-        "option": "Roseola",
+        "option": "Small pox",
         "bool": false
       },
       {
@@ -2802,7 +2802,7 @@
         "bool": true
       },
       {
-        "option": "Mumps",
+        "option": "Roseola",
         "bool": false
       }
     ]
@@ -2812,14 +2812,6 @@
     "info": "3rd-year/infectious/2022",
     "question": "A woman is admitted for an elective/non-emergency procedure. Which type of consent should be taken before the operation?",
     "answers": [
-      {
-        "option": "Oral and expressed",
-        "bool": false
-      },
-      {
-        "option": "Expressed and written",
-        "bool": true
-      },
       {
         "option": "Written",
         "bool": false
@@ -2831,6 +2823,14 @@
       {
         "option": "Oral",
         "bool": false
+      },
+      {
+        "option": "Oral and expressed",
+        "bool": false
+      },
+      {
+        "option": "Expressed and written",
+        "bool": true
       }
     ]
   },
@@ -2840,7 +2840,11 @@
     "question": "Which of the following statements is true about chloramphenicol?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "It is bactericidal",
+        "bool": false
+      },
+      {
+        "option": "It is a narrow-spectrum antibiotic",
         "bool": false
       },
       {
@@ -2848,15 +2852,11 @@
         "bool": true
       },
       {
-        "option": "It is bactericidal",
+        "option": "None of these",
         "bool": false
       },
       {
         "option": "It is an antifungal drug",
-        "bool": false
-      },
-      {
-        "option": "It is a narrow-spectrum antibiotic",
         "bool": false
       }
     ]
@@ -2875,16 +2875,16 @@
         "bool": false
       },
       {
+        "option": "Ziehl Neelsen stain",
+        "bool": true
+      },
+      {
         "option": "Gram stain",
         "bool": false
       },
       {
         "option": "Wright stain",
         "bool": false
-      },
-      {
-        "option": "Ziehl Neelsen stain",
-        "bool": true
       }
     ]
   },
@@ -2894,7 +2894,11 @@
     "question": "A patient comes to the emergency department with a history of prolonged cough, fever, and chest infection. He is diagnosed with a case of tuberculosis after getting confirmation from the report of the biopsy. What is tuberculosis characterized by?",
     "answers": [
       {
-        "option": "Accumulation of neutrophils",
+        "option": "Monocyte infiltration",
+        "bool": false
+      },
+      {
+        "option": "Collection of serous fluid",
         "bool": false
       },
       {
@@ -2902,11 +2906,7 @@
         "bool": true
       },
       {
-        "option": "Monocyte infiltration",
-        "bool": false
-      },
-      {
-        "option": "Collection of serous fluid",
+        "option": "Accumulation of neutrophils",
         "bool": false
       },
       {
@@ -2921,11 +2921,15 @@
     "question": "A blood culture shows the growth of non-lactose fermenting (colorless), gram-negative bacteria on MacConkey's agar and the production of hydrogen sulfide gas on TSI agar. Which of the following is the most likely organism?",
     "answers": [
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Escherichia coli",
         "bool": false
       },
       {
-        "option": "Shigella",
+        "option": "Vibrio cholerae",
         "bool": false
       },
       {
@@ -2933,11 +2937,7 @@
         "bool": true
       },
       {
-        "option": "Vibrio cholerae",
-        "bool": false
-      },
-      {
-        "option": "None of these",
+        "option": "Shigella",
         "bool": false
       }
     ]
@@ -2948,19 +2948,19 @@
     "question": "A 35-year-old male presents to the clinic with hypopigmented lesions on his limbs and back. He has been treated with antifungals but did not heal. He has also developed polyarthritis with edema. He has thick cutaneous nerves, radial, ulnar, and tibial nerves. The nerves are painful and tender. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Tuberculoid leprosy",
         "bool": false
       },
       {
         "option": "Lepromatous leprosy",
-        "bool": true
+        "bool": false
       },
       {
         "option": "Borderline lepromatous leprosy",
+        "bool": true
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -2975,24 +2975,24 @@
     "question": "A patient had a hypopigmented skin lesion on one side, which progressed to multiple sites. Some of these lesions resolved on their own and then new lesions appeared. He also has anorexia, fever, and weight loss. What is the most likely diagnosis?",
     "answers": [
       {
+        "option": "Borderline lepromatous leprosy",
+        "bool": false
+      },
+      {
         "option": "Tuberculoid leprosy",
         "bool": false
       },
       {
-        "option": "Borderline tuberculoid leprosy",
-        "bool": true
+        "option": "Lepromatous leprosy",
+        "bool": false
       },
       {
         "option": "Mid-line leprosy",
         "bool": false
       },
       {
-        "option": "Borderline lepromatous leprosy",
-        "bool": false
-      },
-      {
-        "option": "Lepromatous leprosy",
-        "bool": false
+        "option": "Borderline tuberculoid leprosy",
+        "bool": true
       }
     ]
   },
@@ -3002,19 +3002,19 @@
     "question": "A female patient presents to the clinic with a complaint of purulent vaginal discharge. Gram staining of the discharge reveals gram-negative diplococci. What is the best treatment?",
     "answers": [
       {
-        "option": "Ceftriaxone",
-        "bool": true
+        "option": "Ciprofloxacin",
+        "bool": false
       },
       {
-        "option": "Azithromycin",
-        "bool": false
+        "option": "Ceftriaxone",
+        "bool": true
       },
       {
         "option": "Amoxicillin",
         "bool": false
       },
       {
-        "option": "Ciprofloxacin",
+        "option": "Azithromycin",
         "bool": false
       },
       {
@@ -3033,6 +3033,10 @@
         "bool": false
       },
       {
+        "option": "Ultrasound",
+        "bool": false
+      },
+      {
         "option": "Malarial antigen",
         "bool": false
       },
@@ -3043,10 +3047,6 @@
       {
         "option": "Complete blood count",
         "bool": false
-      },
-      {
-        "option": "Ultrasound",
-        "bool": false
       }
     ]
   },
@@ -3056,23 +3056,23 @@
     "question": "A patient presents to the clinic with complaints of cough and chest pain suggestive of pneumonia. He has had a splenectomy. Which of the following gram-positive organisms can be the causative agent?",
     "answers": [
       {
-        "option": "Pneumococcus",
-        "bool": true
+        "option": "Mycoplasma pneumoniae",
+        "bool": false
       },
       {
-        "option": "Pseudomonas",
+        "option": "Staphylococcus aureus",
         "bool": false
+      },
+      {
+        "option": "Pneumococcus",
+        "bool": true
       },
       {
         "option": "Plasmodium falciparum",
         "bool": false
       },
       {
-        "option": "Mycoplasma pneumoniae",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus aureus",
+        "option": "Pseudomonas",
         "bool": false
       }
     ]
@@ -3083,6 +3083,10 @@
     "question": "Which of the following organisms is commonly responsible for causing watery diarrhea in less than 5-year-olds and results in more than 2 million hospital admissions annually?",
     "answers": [
       {
+        "option": "Entamoeba histolytica",
+        "bool": false
+      },
+      {
         "option": "Salmonella",
         "bool": false
       },
@@ -3092,10 +3096,6 @@
       },
       {
         "option": "Shigella",
-        "bool": false
-      },
-      {
-        "option": "Entamoeba histolytica",
         "bool": false
       },
       {
@@ -3110,7 +3110,7 @@
     "question": "A man presents to the clinic with the complaint of a thick, yellow, mucoid, and purulent urethral discharge. He has had a new sexual partner for two weeks. Which infections would you consider in this patient?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Gonorrhea",
         "bool": false
       },
       {
@@ -3118,16 +3118,16 @@
         "bool": false
       },
       {
-        "option": "Gonorrhea",
+        "option": "Gonorrhea and Chlamydia",
+        "bool": true
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
         "option": "Chlamydia",
         "bool": false
-      },
-      {
-        "option": "Gonorrhea and Chlamydia",
-        "bool": true
       }
     ]
   },
@@ -3137,12 +3137,8 @@
     "question": "A patient is brought to the clinic with the complaint of fever, cough, dyspnea, and cyanosis. He also has tachycardia and his blood pressure is 80/60 mmHg. On auscultation, crackles and decreased breath sounds can be heard in the right lower lobe. What is the diagnosis?",
     "answers": [
       {
-        "option": "Systemic infammatory response syndrome (SIRS)",
+        "option": "Multiple organ dysfunction",
         "bool": false
-      },
-      {
-        "option": "Severe sepsis",
-        "bool": true
       },
       {
         "option": "None of these",
@@ -3153,7 +3149,11 @@
         "bool": false
       },
       {
-        "option": "Multiple organ dysfunction",
+        "option": "Severe sepsis",
+        "bool": true
+      },
+      {
+        "option": "Systemic infammatory response syndrome (SIRS)",
         "bool": false
       }
     ]
@@ -3164,7 +3164,11 @@
     "question": "The coagulation cascade in systemic inflammatory response syndrome (SIRS) is mediated by which of the following?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "IL1 and IL6",
+        "bool": false
+      },
+      {
+        "option": "Tumor necrosis factor",
         "bool": false
       },
       {
@@ -3172,15 +3176,11 @@
         "bool": false
       },
       {
-        "option": "IL1 and IL6",
-        "bool": false
-      },
-      {
         "option": "Tissue factor",
         "bool": true
       },
       {
-        "option": "Tumor necrosis factor",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -3191,23 +3191,23 @@
     "question": "Which of the following cells are found in the synovium of the joint in case of acute arthritis?",
     "answers": [
       {
-        "option": "Neutrophils",
-        "bool": true
-      },
-      {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Neutrophils",
+        "bool": true
       },
       {
         "option": "Eosinophils",
         "bool": false
       },
       {
-        "option": "Basophils",
+        "option": "Dendritic cells",
         "bool": false
       },
       {
-        "option": "Dendritic cells",
+        "option": "Basophils",
         "bool": false
       }
     ]
@@ -3218,7 +3218,11 @@
     "question": "Which of the following leads to the dilation of the arterioles and increased venous permeability?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Histamine",
+        "bool": true
+      },
+      {
+        "option": "Leukotriene B4",
         "bool": false
       },
       {
@@ -3226,15 +3230,11 @@
         "bool": false
       },
       {
-        "option": "Leukotriene B4",
+        "option": "Steroids",
         "bool": false
       },
       {
-        "option": "Histamine",
-        "bool": true
-      },
-      {
-        "option": "Steroids",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -3249,19 +3249,19 @@
         "bool": false
       },
       {
-        "option": "Acute respiratory distress syndrome (ARDS)",
-        "bool": true
+        "option": "Lung cancer",
+        "bool": false
       },
       {
-        "option": "Chronic obstructive pulmonary disease (COPD)",
-        "bool": false
+        "option": "Acute respiratory distress syndrome (ARDS)",
+        "bool": true
       },
       {
         "option": "Lung infection",
         "bool": false
       },
       {
-        "option": "Lung cancer",
+        "option": "Chronic obstructive pulmonary disease (COPD)",
         "bool": false
       }
     ]
@@ -3269,18 +3269,10 @@
   {
     "id": 121,
     "info": "3rd-year/infectious/2022",
-    "question": "Which of the following statements about interferon-\u03b1 is incorrect?",
+    "question": "Which of the following statements about interferon-α is incorrect?",
     "answers": [
       {
-        "option": "Lamivudine interferes with its activity against hepatitis B",
-        "bool": true
-      },
-      {
         "option": "Toxicity includes bone marrow suppression",
-        "bool": false
-      },
-      {
-        "option": "At the start of treatment, most patients experience flu like symptoms",
         "bool": false
       },
       {
@@ -3288,7 +3280,15 @@
         "bool": false
       },
       {
+        "option": "Lamivudine interferes with its activity against hepatitis B",
+        "bool": true
+      },
+      {
         "option": "It is used in the management of hepatitis C",
+        "bool": false
+      },
+      {
+        "option": "At the start of treatment, most patients experience flu like symptoms",
         "bool": false
       }
     ]
@@ -3299,15 +3299,15 @@
     "question": "Which of the following is an important dose-dependent adverse effect of dapsone?",
     "answers": [
       {
+        "option": "Hepatitis",
+        "bool": false
+      },
+      {
         "option": "Hemolysis",
         "bool": false
       },
       {
-        "option": "Methemoglobinemia",
-        "bool": true
-      },
-      {
-        "option": "Hepatitis",
+        "option": "Renal failure",
         "bool": false
       },
       {
@@ -3315,8 +3315,8 @@
         "bool": false
       },
       {
-        "option": "Renal failure",
-        "bool": false
+        "option": "Methemoglobinemia",
+        "bool": true
       }
     ]
   },
@@ -3326,11 +3326,7 @@
     "question": "Which of the following is a late complication of measles?",
     "answers": [
       {
-        "option": "Subacute sclerosing panencephalitis",
-        "bool": true
-      },
-      {
-        "option": "Otitis media",
+        "option": "Hepatitis",
         "bool": false
       },
       {
@@ -3342,8 +3338,12 @@
         "bool": false
       },
       {
-        "option": "Hepatitis",
+        "option": "Otitis media",
         "bool": false
+      },
+      {
+        "option": "Subacute sclerosing panencephalitis",
+        "bool": true
       }
     ]
   },
@@ -3353,11 +3353,11 @@
     "question": "A person, before going on a trip to a malaria-endemic area, takes prophylaxis for chloroquine-resistant falciparum malaria but nonetheless develops Plasmodium vivax malaria. Which of the following drugs did he most likely take?",
     "answers": [
       {
-        "option": "Quinine",
+        "option": "Primaquine",
         "bool": false
       },
       {
-        "option": "Proguanil",
+        "option": "Quinine",
         "bool": false
       },
       {
@@ -3365,7 +3365,7 @@
         "bool": false
       },
       {
-        "option": "Primaquine",
+        "option": "Proguanil",
         "bool": false
       },
       {
@@ -3380,11 +3380,11 @@
     "question": "Which of the following antimalarial drugs acts as a blood schizonticide and a sporontocide?",
     "answers": [
       {
-        "option": "Chloroquine",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Quinine",
         "bool": false
       },
       {
@@ -3392,11 +3392,11 @@
         "bool": false
       },
       {
-        "option": "Artimisinin",
-        "bool": false
+        "option": "Chloroquine",
+        "bool": true
       },
       {
-        "option": "Quinine",
+        "option": "Artimisinin",
         "bool": false
       }
     ]
@@ -3407,7 +3407,7 @@
     "question": "A housewife presents to the clinic with severe abdominal pain and diarrhea which started off as watery but now contains blood in it. Laboratory findings show leukocytes and red blood cells in the stool. She denies having eaten any undercooked food in the past week. Which of the following organisms is most likely involved?",
     "answers": [
       {
-        "option": "Salmonella species",
+        "option": "Entamoeba histolytica",
         "bool": false
       },
       {
@@ -3415,15 +3415,15 @@
         "bool": true
       },
       {
+        "option": "Escherichia coli",
+        "bool": false
+      },
+      {
         "option": "Helicobacter pylori",
         "bool": false
       },
       {
-        "option": "Entamoeba histolytica",
-        "bool": false
-      },
-      {
-        "option": "Escherichia coli",
+        "option": "Salmonella species",
         "bool": false
       }
     ]
@@ -3434,6 +3434,10 @@
     "question": "There is a patient with a clear indication of sepsis. He also has marked hypotension. What is the most appropriate management at this point?",
     "answers": [
       {
+        "option": "Persistent blood transfusions to keep his Hb at >10 g/dl",
+        "bool": false
+      },
+      {
         "option": "Give him a heavy dose of corticosteroids as soon as possible",
         "bool": false
       },
@@ -3442,16 +3446,12 @@
         "bool": false
       },
       {
-        "option": "Aggressive fluid resuscitation to keep central venous pressure 8-12 mm Hg",
-        "bool": true
-      },
-      {
-        "option": "Persistent blood transfusions to keep his Hb at >10 g/dl",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Aggressive fluid resuscitation to keep central venous pressure 8-12 mm Hg",
+        "bool": true
       }
     ]
   },
@@ -3460,6 +3460,14 @@
     "info": "3rd-year/infectious/2022",
     "question": "A patient who was diagnosed with AIDS (acquired immune deficiency syndrome) and tuberculosis (TB) 2 years back is admitted for surgery for appendicitis. He is compliant with HIV medications. He completed anti-TB therapy and now his chest x-ray is clear with no pulmonary infiltrates and no bacteria in his sputum. What precautions should be taken?",
     "answers": [
+      {
+        "option": "Single room with contact and airborne precautions",
+        "bool": false
+      },
+      {
+        "option": "Single ward with standard precautions",
+        "bool": false
+      },
       {
         "option": "General ward with standard precautions",
         "bool": true
@@ -3471,14 +3479,6 @@
       {
         "option": "Single ward with contact precautions",
         "bool": false
-      },
-      {
-        "option": "Single room with contact and airborne precautions",
-        "bool": false
-      },
-      {
-        "option": "Single ward with standard precautions",
-        "bool": false
       }
     ]
   },
@@ -3488,15 +3488,7 @@
     "question": "A health officer has taken up the challenge to eradicate HIV (human immunodeficiency virus). His team identified groups of high-risk individuals. Which of the following high-risk groups should be intervened first?",
     "answers": [
       {
-        "option": "Men having sex with men",
-        "bool": true
-      },
-      {
-        "option": "Pregnant women",
-        "bool": false
-      },
-      {
-        "option": "Sex workers",
+        "option": "Professional or paid blood donors",
         "bool": false
       },
       {
@@ -3504,27 +3496,35 @@
         "bool": false
       },
       {
-        "option": "Professional or paid blood donors",
+        "option": "Sex workers",
         "bool": false
+      },
+      {
+        "option": "Pregnant women",
+        "bool": false
+      },
+      {
+        "option": "Men having sex with men",
+        "bool": true
       }
     ]
   },
   {
     "id": 130,
     "info": "3rd-year/infectious/2022",
-    "question": "A man presents to the hospital with an altered level of consciousness two hours after falling in the washroom. He has pinpoint pupils with a pulse of 78 beats per minute, a blood pressure of 180/120 mmHg, and a fever of 107\u00b0F despite antipyretics. Sponging is also of no use. What is the most likely cause of fever?",
+    "question": "A man presents to the hospital with an altered level of consciousness two hours after falling in the washroom. He has pinpoint pupils with a pulse of 78 beats per minute, a blood pressure of 180/120 mmHg, and a fever of 107°F despite antipyretics. Sponging is also of no use. What is the most likely cause of fever?",
     "answers": [
       {
-        "option": "Cerebral malaria",
-        "bool": false
+        "option": "Pontine hemorrhage",
+        "bool": true
       },
       {
         "option": "Meningitis",
         "bool": false
       },
       {
-        "option": "Pontine hemorrhage",
-        "bool": true
+        "option": "Cerebral malaria",
+        "bool": false
       },
       {
         "option": "Septicemia",
@@ -3542,15 +3542,7 @@
     "question": "A 25-year-old male presented with fever and abdominal pain. His illness started with low-grade fever and decreased appetite. He has been unwell for the past 7 days and has per rectal bleeding for the last 2 days. Initially, he took per ciprofloxacin for 3 days followed by oral cefixime and azithromycin for 4 days. He was started on intravenous (IV) ceftriaxone. What is the most appropriate diagnostic test?",
     "answers": [
       {
-        "option": "Stool culture",
-        "bool": true
-      },
-      {
-        "option": "Bone marrow culture",
-        "bool": false
-      },
-      {
-        "option": "Blood culture",
+        "option": "Complete blood picture with peripheral film",
         "bool": false
       },
       {
@@ -3558,7 +3550,15 @@
         "bool": false
       },
       {
-        "option": "Complete blood picture with peripheral film",
+        "option": "Blood culture",
+        "bool": false
+      },
+      {
+        "option": "Stool culture",
+        "bool": true
+      },
+      {
+        "option": "Bone marrow culture",
         "bool": false
       }
     ]

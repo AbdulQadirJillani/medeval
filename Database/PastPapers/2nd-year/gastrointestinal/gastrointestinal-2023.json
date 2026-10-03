@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is a rate-limiting enzyme of fatty acid synthesis?",
     "answers": [
       {
@@ -17,26 +17,30 @@
         "bool": false
       },
       {
-        "option": "Acetyl-CoA carboxylase",
-        "bool": true
-      },
-      {
         "option": "Fatty acyl-CoA synthetase",
         "bool": false
+      },
+      {
+        "option": "Acetyl-CoA carboxylase",
+        "bool": true
       }
     ]
   },
   {
     "id": 1,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "What is the time during which someone is infected by a pathogen and the person carries the disease without the onset of symptoms called?",
     "answers": [
       {
-        "option": "Growth period",
+        "option": "Latency period",
         "bool": false
       },
       {
         "option": "Infectious period",
+        "bool": false
+      },
+      {
+        "option": "Growth period",
         "bool": false
       },
       {
@@ -46,32 +50,28 @@
       {
         "option": "Incubation period",
         "bool": true
-      },
-      {
-        "option": "Latency period",
-        "bool": false
       }
     ]
   },
   {
     "id": 2,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A histological section is being observed showing a serous gland of compound tubulo-acinar variety. The secretory unit consists of pyramidal serous cells and specialized pale, low cuboidal epithelial cells. Numerous spherical cell clusters are also scattered. Which of the following structures is being observed?",
     "answers": [
-      {
-        "option": "Duodenum",
-        "bool": false
-      },
       {
         "option": "Submandibular",
         "bool": false
       },
       {
-        "option": "Sublingual",
+        "option": "Duodenum",
         "bool": false
       },
       {
         "option": "Parotid",
+        "bool": false
+      },
+      {
+        "option": "Sublingual",
         "bool": false
       },
       {
@@ -82,9 +82,314 @@
   },
   {
     "id": 3,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following investigations is the gold standard for the diagnosis of Helicobacter pylori (H. pylori) infection?",
+    "answers": [
+      {
+        "option": "Endoscopy with tissue biopsy and culture",
+        "bool": true
+      },
+      {
+        "option": "Urea breath test",
+        "bool": false
+      },
+      {
+        "option": "Upper gastrointestinal (GI) endoscopy",
+        "bool": false
+      },
+      {
+        "option": "Stool culture for H. pylori antigen",
+        "bool": false
+      },
+      {
+        "option": "Serum levels of antibodies specific for H. pylori",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which one of the following is not true about the graveyard of red blood cells?",
+    "answers": [
+      {
+        "option": "Splenic capsule has muscular fibers and is supplied by parasympathetic fibers",
+        "bool": true
+      },
+      {
+        "option": "It is an intraperitoneal organ",
+        "bool": false
+      },
+      {
+        "option": "Anterior end reaches the left mid-axillary line",
+        "bool": false
+      },
+      {
+        "option": "Its superior border is notched",
+        "bool": false
+      },
+      {
+        "option": "It lies along the axis of the left 10th rib",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following would be affected by a cholecystectomy?",
+    "answers": [
+      {
+        "option": "Secretion of gastrin",
+        "bool": false
+      },
+      {
+        "option": "Storage of bile",
+        "bool": true
+      },
+      {
+        "option": "Red blood cell production",
+        "bool": false
+      },
+      {
+        "option": "Secretion of cholecystokinin",
+        "bool": false
+      },
+      {
+        "option": "Red blood cell breakdown",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "There are two anal sphincters around the anal canal. Which of the following statements is true for the superficial one of the anal sphincters?",
+    "answers": [
+      {
+        "option": "Ends at the white line of Hilton",
+        "bool": false
+      },
+      {
+        "option": "Is involuntary and composed of skeletal muscles",
+        "bool": false
+      },
+      {
+        "option": "Is involuntary in function",
+        "bool": false
+      },
+      {
+        "option": "Has three parts: deep, superficial and subcutaneous",
+        "bool": true
+      },
+      {
+        "option": "Is composed of thick smooth muscle cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A 45-year-old woman presents to the emergency room with complaints of fullness, nausea, and epigastric pain. Her pain increases after taking meals. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Duodenal ulcers",
+        "bool": false
+      },
+      {
+        "option": "Gastric ulcers",
+        "bool": true
+      },
+      {
+        "option": "Pyloric stenosis",
+        "bool": false
+      },
+      {
+        "option": "Hiatal hernia",
+        "bool": false
+      },
+      {
+        "option": "Angina pectoris",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A 42-year-old female presents to the emergency room with pain in the right hypochondrium radiating to the right scapula and shoulder. On examination, the patient also feels a sharp pain on inspiration when a finger is placed at the costal margin at the tip of the 9th costal cartilage. Which of the following organs is most likely involved?",
+    "answers": [
+      {
+        "option": "Stomach",
+        "bool": false
+      },
+      {
+        "option": "Spleen",
+        "bool": false
+      },
+      {
+        "option": "Gall bladder",
+        "bool": true
+      },
+      {
+        "option": "Duodenum",
+        "bool": false
+      },
+      {
+        "option": "Liver",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following is not considered a muscle of the posterior abdominal wall?",
+    "answers": [
+      {
+        "option": "Iliacus muscle",
+        "bool": false
+      },
+      {
+        "option": "Pectineus",
+        "bool": true
+      },
+      {
+        "option": "Quadratus lumborum",
+        "bool": false
+      },
+      {
+        "option": "Psoas minor muscle",
+        "bool": false
+      },
+      {
+        "option": "Psoas major muscle",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "While performing a surgical procedure in the inguinal region, a surgeon comes across the femoral ring. To navigate this area, the surgeon needs to be aware of the boundaries of the femoral ring. Which of the following structures form its medial boundary?",
+    "answers": [
+      {
+        "option": "Inguinal ligament",
+        "bool": false
+      },
+      {
+        "option": "Ligament of Cooper",
+        "bool": false
+      },
+      {
+        "option": "Pectineal ligament",
+        "bool": false
+      },
+      {
+        "option": "Femoral vein",
+        "bool": false
+      },
+      {
+        "option": "Lacunar ligament",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following arteries will be occluded by a thrombus in the vasa recta of a part of the small intestine?",
+    "answers": [
+      {
+        "option": "Inferior mesenteric artery",
+        "bool": false
+      },
+      {
+        "option": "Superior mesenteric artery",
+        "bool": true
+      },
+      {
+        "option": "Middle colic artery",
+        "bool": false
+      },
+      {
+        "option": "Marginal artery",
+        "bool": false
+      },
+      {
+        "option": "Left colic artery",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A patient is suffering from carcinoma of the superior body of the stomach. Metastasis of the carcinoma occurs through lymph nodes present along the short gastric artery. Which of the following lymph node groups is responsible for the metastasis?",
+    "answers": [
+      {
+        "option": "Pancreaticosplenic",
+        "bool": true
+      },
+      {
+        "option": "Superior mesenteric",
+        "bool": false
+      },
+      {
+        "option": "Pyloric",
+        "bool": false
+      },
+      {
+        "option": "Gastric",
+        "bool": false
+      },
+      {
+        "option": "Pancreaticoduodenal",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "During the removal of the appendix, the surgeon noted that the blood supply of the ascending colon was also compromised. Which artery supplies the ascending colon?",
+    "answers": [
+      {
+        "option": "Right colic artery",
+        "bool": true
+      },
+      {
+        "option": "Left colic artery",
+        "bool": false
+      },
+      {
+        "option": "Hepatic artery",
+        "bool": false
+      },
+      {
+        "option": "Splenic artery",
+        "bool": false
+      },
+      {
+        "option": "Gastric artery",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "The core of the soft palate, lips, and cheeks is made up of soft tissue. Which of the following epithelium types lines the mucosa of these structures?",
     "answers": [
+      {
+        "option": "Stratified cuboidal",
+        "bool": false
+      },
+      {
+        "option": "Stratified columnar",
+        "bool": false
+      },
       {
         "option": "Stratified squamous non-keratinized",
         "bool": true
@@ -94,26 +399,18 @@
         "bool": false
       },
       {
-        "option": "Stratified columnar",
-        "bool": false
-      },
-      {
         "option": "Simple columnar",
-        "bool": false
-      },
-      {
-        "option": "Stratified cuboidal",
         "bool": false
       }
     ]
   },
   {
-    "id": 4,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 15,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A histologist while observing an organ of the oral cavity under a light microscope observed a transition of epithelium from stratified squamous keratinized to non-keratinized epithelium. The core of the organ was made up of muscles. Which of the following is the organ described?",
     "answers": [
       {
-        "option": "Gingiva",
+        "option": "Hard palate",
         "bool": false
       },
       {
@@ -121,34 +418,30 @@
         "bool": false
       },
       {
-        "option": "Lips",
-        "bool": true
+        "option": "Gingiva",
+        "bool": false
       },
       {
         "option": "Cheeks",
         "bool": false
       },
       {
-        "option": "Hard palate",
-        "bool": false
+        "option": "Lips",
+        "bool": true
       }
     ]
   },
   {
-    "id": 5,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 16,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "The cells of the small intestine are located in the basal portion of the intestinal crypts and are responsible for innate immunity and regulating the micro-environment of the intestinal crypts. Which of the following cells are described?",
     "answers": [
-      {
-        "option": "DNES cell",
-        "bool": false
-      },
       {
         "option": "M cells",
         "bool": false
       },
       {
-        "option": "Enterocytes",
+        "option": "Goblet cells",
         "bool": false
       },
       {
@@ -156,14 +449,18 @@
         "bool": true
       },
       {
-        "option": "Goblet cells",
+        "option": "Enterocytes",
+        "bool": false
+      },
+      {
+        "option": "DNES cell",
         "bool": false
       }
     ]
   },
   {
-    "id": 6,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 17,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is the incorrect statement regarding derivatives of the caudal limb of the primary intestinal loop?",
     "answers": [
       {
@@ -171,7 +468,7 @@
         "bool": false
       },
       {
-        "option": "Cecum",
+        "option": "Ascending colon",
         "bool": false
       },
       {
@@ -179,7 +476,7 @@
         "bool": true
       },
       {
-        "option": "Ascending colon",
+        "option": "Cecum",
         "bool": false
       },
       {
@@ -189,41 +486,10 @@
     ]
   },
   {
-    "id": 7,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A 65-year-old woman is undergoing endoscopic retrograde cholangiopancreatography (ERCP) for a suspected common bile duct stone. Which two structures combine to form the common bile duct?",
-    "answers": [
-      {
-        "option": "Common hepatic and pancreatic duct",
-        "bool": false
-      },
-      {
-        "option": "Cystic duct and pancreatic duct",
-        "bool": false
-      },
-      {
-        "option": "Left hepatic duct and right hepatic duct",
-        "bool": false
-      },
-      {
-        "option": "Cystic duct and common hepatic duct",
-        "bool": true
-      },
-      {
-        "option": "Cystic duct and right hepatic duct",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 18,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is the incorrect statement regarding the liver and gall bladder?",
     "answers": [
-      {
-        "option": "Biliary apparatus develops from septum transversum",
-        "bool": true
-      },
       {
         "option": "Hepatic cells secrete bile by the 12th week",
         "bool": false
@@ -233,30 +499,61 @@
         "bool": false
       },
       {
+        "option": "Kupffer cells develop from mesoderm of septum transversum",
+        "bool": false
+      },
+      {
         "option": "Hepatic sinusoids are formed by intermingling of umbilical and vitelline veins",
         "bool": false
       },
       {
-        "option": "Kupffer cells develop from mesoderm of septum transversum",
+        "option": "Biliary apparatus develops from septum transversum",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A 65-year-old woman is undergoing endoscopic retrograde cholangiopancreatography (ERCP) for a suspected common bile duct stone. Which two structures combine to form the common bile duct?",
+    "answers": [
+      {
+        "option": "Cystic duct and common hepatic duct",
+        "bool": true
+      },
+      {
+        "option": "Left hepatic duct and right hepatic duct",
+        "bool": false
+      },
+      {
+        "option": "Common hepatic and pancreatic duct",
+        "bool": false
+      },
+      {
+        "option": "Cystic duct and right hepatic duct",
+        "bool": false
+      },
+      {
+        "option": "Cystic duct and pancreatic duct",
         "bool": false
       }
     ]
   },
   {
-    "id": 9,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 20,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following transport proteins is mainly responsible for transporting fructose across the brush border epithelium of the small intestine?",
     "answers": [
-      {
-        "option": "GLUT-2",
-        "bool": false
-      },
       {
         "option": "GLUT-5",
         "bool": true
       },
       {
-        "option": "GLUT-1",
+        "option": "GLUT-4",
+        "bool": false
+      },
+      {
+        "option": "GLUT-2",
         "bool": false
       },
       {
@@ -264,28 +561,16 @@
         "bool": false
       },
       {
-        "option": "GLUT-4",
+        "option": "GLUT-1",
         "bool": false
       }
     ]
   },
   {
-    "id": 10,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 21,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following enzymes present on the brush border epithelium of the intestine breaks down 1,6-glycosidic linkages?",
     "answers": [
-      {
-        "option": "Glucoamylase",
-        "bool": false
-      },
-      {
-        "option": "Isomaltase",
-        "bool": true
-      },
-      {
-        "option": "Sucrase",
-        "bool": false
-      },
       {
         "option": "Lactase",
         "bool": false
@@ -293,20 +578,28 @@
       {
         "option": "Maltase",
         "bool": false
+      },
+      {
+        "option": "Glucoamylase",
+        "bool": false
+      },
+      {
+        "option": "Sucrase",
+        "bool": false
+      },
+      {
+        "option": "Isomaltase",
+        "bool": true
       }
     ]
   },
   {
-    "id": 11,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 22,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "The rate of gastric emptying varies depending on the type of food consumed. Which of the following components of a meal, if present in significant amounts, can lead to the slowest gastric emptying?",
     "answers": [
       {
-        "option": "Proteins",
-        "bool": false
-      },
-      {
-        "option": "Lactose",
+        "option": "Starch",
         "bool": false
       },
       {
@@ -314,32 +607,24 @@
         "bool": true
       },
       {
-        "option": "Starch",
+        "option": "Lactose",
         "bool": false
       },
       {
         "option": "Amino acids",
         "bool": false
+      },
+      {
+        "option": "Proteins",
+        "bool": false
       }
     ]
   },
   {
-    "id": 12,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 23,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following stages of swallowing is the one during which respiration is inhibited?",
     "answers": [
-      {
-        "option": "Pharyngeal stage",
-        "bool": true
-      },
-      {
-        "option": "Postprandial stage",
-        "bool": false
-      },
-      {
-        "option": "Voluntary stage",
-        "bool": false
-      },
       {
         "option": "Oral propulsive stage",
         "bool": false
@@ -347,12 +632,51 @@
       {
         "option": "Esophageal stage",
         "bool": false
+      },
+      {
+        "option": "Postprandial stage",
+        "bool": false
+      },
+      {
+        "option": "Pharyngeal stage",
+        "bool": true
+      },
+      {
+        "option": "Voluntary stage",
+        "bool": false
       }
     ]
   },
   {
-    "id": 13,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 24,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following glands secrete the highest concentration and maximum amount of alpha-amylase, an enzyme responsible for starch digestion?",
+    "answers": [
+      {
+        "option": "Buccal glands",
+        "bool": false
+      },
+      {
+        "option": "Parotid glands",
+        "bool": true
+      },
+      {
+        "option": "Submandibular glands",
+        "bool": false
+      },
+      {
+        "option": "Labial glands",
+        "bool": false
+      },
+      {
+        "option": "Sublingual glands",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following factors inhibits the secretion of gastrin from the G cells located in the antrum of the stomach?",
     "answers": [
       {
@@ -360,11 +684,11 @@
         "bool": false
       },
       {
-        "option": "Activation of vagal efferent",
+        "option": "Epinephrine release",
         "bool": false
       },
       {
-        "option": "Epinephrine release",
+        "option": "Activation of vagal efferent",
         "bool": false
       },
       {
@@ -378,37 +702,18 @@
     ]
   },
   {
-    "id": 14,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following glands secrete the highest concentration and maximum amount of alpha-amylase, an enzyme responsible for starch digestion?",
-    "answers": [
-      {
-        "option": "Buccal glands",
-        "bool": false
-      },
-      {
-        "option": "Parotid glands",
-        "bool": true
-      },
-      {
-        "option": "Sublingual glands",
-        "bool": false
-      },
-      {
-        "option": "Submandibular glands",
-        "bool": false
-      },
-      {
-        "option": "Labial glands",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 26,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 48-year-old male with a severe deficiency of pancreatic lipase consumes a high-fat meal. Which of the physiological events is most likely to occur in this challenging situation?",
     "answers": [
+      {
+        "option": "Enhanced synthesis of bile salts",
+        "bool": false
+      },
+      {
+        "option": "Reduced formation of micelles",
+        "bool": true
+      },
       {
         "option": "Upregulation of gastric lipase activity",
         "bool": false
@@ -418,22 +723,14 @@
         "bool": false
       },
       {
-        "option": "Reduced formation of micelles",
-        "bool": true
-      },
-      {
-        "option": "Enhanced synthesis of bile salts",
-        "bool": false
-      },
-      {
         "option": "Increased absorption of dietary triglycerides",
         "bool": false
       }
     ]
   },
   {
-    "id": 16,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 27,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Recording of the electrical activity of a segment of a gastrointestinal tract revealed that the basic electric rhythm is taking place at a rate of 8 per minute. Which one of the following part of the gastrointestinal is this most relevant to?",
     "answers": [
       {
@@ -441,12 +738,12 @@
         "bool": false
       },
       {
-        "option": "Ileum",
-        "bool": true
-      },
-      {
         "option": "Stomach",
         "bool": false
+      },
+      {
+        "option": "Ileum",
+        "bool": true
       },
       {
         "option": "Jejunum",
@@ -459,8 +756,8 @@
     ]
   },
   {
-    "id": 17,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 28,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following gastrointestinal secretions is hypotonic, has high HCO3- and its secretion is inhibited by vagotomy?",
     "answers": [
       {
@@ -468,11 +765,11 @@
         "bool": false
       },
       {
-        "option": "Bile",
+        "option": "Succus entericus",
         "bool": false
       },
       {
-        "option": "Succus entericus",
+        "option": "Bile",
         "bool": false
       },
       {
@@ -486,21 +783,21 @@
     ]
   },
   {
-    "id": 18,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 29,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 55-year-old woman was diagnosed with gastric mucosal atrophy with deterioration of the epithelial lining and a decrease in substances produced by gastric mucosal cells. Deficiency of which one of the following will have the most serious long-term physiological consequences?",
     "answers": [
       {
-        "option": "HCO3-",
-        "bool": false
+        "option": "Intrinsic factor",
+        "bool": true
       },
       {
         "option": "Mucin",
         "bool": false
       },
       {
-        "option": "Intrinsic factor",
-        "bool": true
+        "option": "HCO3-",
+        "bool": false
       },
       {
         "option": "Somatostatin",
@@ -513,8 +810,8 @@
     ]
   },
   {
-    "id": 19,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 30,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following enzymes, if deficient, greatly decreases the digestion of proteins present in the food?",
     "answers": [
       {
@@ -522,34 +819,38 @@
         "bool": false
       },
       {
-        "option": "Ptyalin",
-        "bool": false
-      },
-      {
         "option": "Chymotrypsin",
-        "bool": true
-      },
-      {
-        "option": "Enterokinase",
         "bool": false
       },
       {
         "option": "Aminopeptidase",
         "bool": false
+      },
+      {
+        "option": "Enterokinase",
+        "bool": true
+      },
+      {
+        "option": "Ptyalin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 20,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 31,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following hormones that are secreted from the small intestine in the fasting state, causes a brief phase of sequential contractions in the stomach which later migrate towards the ileum and die out?",
     "answers": [
       {
-        "option": "Somatostatin",
+        "option": "VIP",
         "bool": false
       },
       {
-        "option": "VIP",
+        "option": "Secretin",
+        "bool": false
+      },
+      {
+        "option": "Somatostatin",
         "bool": false
       },
       {
@@ -559,30 +860,14 @@
       {
         "option": "Gastrin",
         "bool": false
-      },
-      {
-        "option": "Secretin",
-        "bool": false
       }
     ]
   },
   {
-    "id": 21,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 32,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following enzymes normally prevents the activation of proteolytic enzymes within the pancreas and prevents its autodigestion?",
     "answers": [
-      {
-        "option": "Secretion of trypsin inhibitor by acinar cells",
-        "bool": true
-      },
-      {
-        "option": "Decreased secretion of sodium bicarbonate in ducts",
-        "bool": false
-      },
-      {
-        "option": "Inflammatory blockage of pancreatic duct",
-        "bool": false
-      },
       {
         "option": "Absence of enterokinase in the intestinal epithelium",
         "bool": false
@@ -590,12 +875,24 @@
       {
         "option": "Storage of enzymes in zymogen granules in acinar cells",
         "bool": false
+      },
+      {
+        "option": "Decreased secretion of sodium bicarbonate in ducts",
+        "bool": false
+      },
+      {
+        "option": "Secretion of trypsin inhibitor by acinar cells",
+        "bool": true
+      },
+      {
+        "option": "Inflammatory blockage of pancreatic duct",
+        "bool": false
       }
     ]
   },
   {
-    "id": 22,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 33,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "In a laboratory, the composition of hepatic bile is compared with that of bile stored in the gall bladder. Which of the following substances is present in reduced concentration in the gall bladder bile?",
     "answers": [
       {
@@ -603,11 +900,11 @@
         "bool": false
       },
       {
-        "option": "Sodium ions",
-        "bool": true
+        "option": "Bile salts",
+        "bool": false
       },
       {
-        "option": "Bile salts",
+        "option": "Bilirubin",
         "bool": false
       },
       {
@@ -615,30 +912,30 @@
         "bool": false
       },
       {
-        "option": "Bilirubin",
-        "bool": false
+        "option": "Sodium ions",
+        "bool": true
       }
     ]
   },
   {
-    "id": 23,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 34,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 45-year-old woman presents to the clinic with a complaint of generalized weakness, glossitis, and skin changes. She reports a diet low in animal products and predominantly consists of maize-based food. Physical examination reveals a beefy, red tongue, and dermatitis with a scaly, hyperpigmented rash on her hands and neck. Laboratory tests reveal low serum levels of niacin (vitamin B3). Which of the following does the given explanation best correspond to?",
     "answers": [
       {
-        "option": "Impaired absorption of niacin due to a genetic disorder",
-        "bool": false
-      },
-      {
         "option": "Competition for niacin absorption with other vitamins",
         "bool": true
+      },
+      {
+        "option": "Increased utilization of niacin for neurotransmitter synthesis",
+        "bool": false
       },
       {
         "option": "Inhibition of niacin synthesis by the intestinal bacteria",
         "bool": false
       },
       {
-        "option": "Increased utilization of niacin for neurotransmitter synthesis",
+        "option": "Impaired absorption of niacin due to a genetic disorder",
         "bool": false
       },
       {
@@ -648,12 +945,12 @@
     ]
   },
   {
-    "id": 24,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 35,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following molecules participates in aerobic respiration as the final acceptor of electrons in the ETC (electron transport chain), resulting in the production of water as a by-product?",
     "answers": [
       {
-        "option": "FADH2",
+        "option": "Hydrogen",
         "bool": false
       },
       {
@@ -661,26 +958,30 @@
         "bool": false
       },
       {
-        "option": "Oxygen",
-        "bool": true
-      },
-      {
-        "option": "Hydrogen",
-        "bool": false
-      },
-      {
         "option": "Carbon dioxide",
         "bool": false
+      },
+      {
+        "option": "FADH2",
+        "bool": false
+      },
+      {
+        "option": "Oxygen",
+        "bool": true
       }
     ]
   },
   {
-    "id": 25,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 36,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 35-year-old woman is suffering from diabetes mellitus and massive obesity. She complains of fatiguability and dyspnea (difficulty in breathing). Which of the following metabolic changes in acid-base status will be observed in this patient?",
     "answers": [
       {
-        "option": "Decreased O2 retention",
+        "option": "Increased O2 retention",
+        "bool": false
+      },
+      {
+        "option": "Decreased CO2 retention",
         "bool": false
       },
       {
@@ -692,50 +993,23 @@
         "bool": false
       },
       {
-        "option": "Increased O2 retention",
-        "bool": false
-      },
-      {
-        "option": "Decreased CO2 retention",
+        "option": "Decreased O2 retention",
         "bool": false
       }
     ]
   },
   {
-    "id": 26,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "In the erythrocytes, the EMP pathway or glycolysis produces pyruvate. Which of the following products is pyruvate further metabolized into?",
-    "answers": [
-      {
-        "option": "Hemoglobin",
-        "bool": false
-      },
-      {
-        "option": "CO2",
-        "bool": false
-      },
-      {
-        "option": "Ethanol",
-        "bool": false
-      },
-      {
-        "option": "Lactate",
-        "bool": true
-      },
-      {
-        "option": "Bilirubin",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 37,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 14-year-old college girl is extremely conscious about her weight and has gone a full day fasting to fit into her dress. Which of the following organs majorly regulates glucose levels during prolonged fasting?",
     "answers": [
       {
-        "option": "Liver",
-        "bool": true
+        "option": "Red blood cells",
+        "bool": false
+      },
+      {
+        "option": "Brains",
+        "bool": false
       },
       {
         "option": "Bone",
@@ -746,138 +1020,26 @@
         "bool": false
       },
       {
-        "option": "Red blood cells",
-        "bool": false
-      },
-      {
-        "option": "Brains",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following substances is/are formed by oxidative phosphorylation?",
-    "answers": [
-      {
-        "option": "NADH",
-        "bool": false
-      },
-      {
-        "option": "Oxygen",
-        "bool": false
-      },
-      {
-        "option": "Pyruvate",
-        "bool": false
-      },
-      {
-        "option": "ATP + H2O",
+        "option": "Liver",
         "bool": true
-      },
-      {
-        "option": "ADP",
-        "bool": false
       }
     ]
   },
   {
-    "id": 29,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A 4-year-old boy is brought to the hospital with delayed developmental milestones, and seizures. He has light-colored hair, skin and eyes. His urine has a mousy odor. Blood phenylalanine levels are greater than 25mg/dl (Normal: 1-2mg/dl). Which of the following is the baby suffering from?",
+    "id": 38,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "In the erythrocytes, the EMP pathway or glycolysis produces pyruvate. Which of the following products is pyruvate further metabolized into?",
     "answers": [
       {
-        "option": "Phenylketonuria (PKU)",
-        "bool": true
-      },
-      {
-        "option": "Alkaptonuria (AKU)",
+        "option": "Ethanol",
         "bool": false
       },
       {
-        "option": "Albinism",
+        "option": "CO2",
         "bool": false
       },
       {
-        "option": "Hawkinsiuria",
-        "bool": false
-      },
-      {
-        "option": "Tyrosinemia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "An infant is brought to the clinic with complaints of poor feeding, irritability, pitch crying, lethargy, and frequent episodes of apnea. He was diagnosed with kernicterus. Deposition of which of the following is responsible for signs and symptoms of this disease?",
-    "answers": [
-      {
-        "option": "Indirect bilirubin in the brain",
-        "bool": true
-      },
-      {
-        "option": "Direct bilirubin in the brain",
-        "bool": false
-      },
-      {
-        "option": "Direct bilirubin in the liver",
-        "bool": false
-      },
-      {
-        "option": "Total bilirubin in brain and liver",
-        "bool": false
-      },
-      {
-        "option": "Indirect bilirubin in the liver",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Gluconeogenesis is the metabolic route to produce glucose from the different precursors. Which is the best precursor corresponding to the following?",
-    "answers": [
-      {
-        "option": "Glucose",
-        "bool": false
-      },
-      {
-        "option": "Mannol",
-        "bool": false
-      },
-      {
-        "option": "Glycerol",
-        "bool": true
-      },
-      {
-        "option": "Galactose",
-        "bool": false
-      },
-      {
-        "option": "Fructose",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following products depends on the product of the HMP pathway (NADPH +H) and has a very important role in the protection of the red blood cells?",
-    "answers": [
-      {
-        "option": "LDL",
-        "bool": false
-      },
-      {
-        "option": "Heme",
-        "bool": false
-      },
-      {
-        "option": "Glutathione",
+        "option": "Lactate",
         "bool": true
       },
       {
@@ -891,10 +1053,153 @@
     ]
   },
   {
-    "id": 33,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 39,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following substances is/are formed by oxidative phosphorylation?",
+    "answers": [
+      {
+        "option": "NADH",
+        "bool": false
+      },
+      {
+        "option": "ADP",
+        "bool": false
+      },
+      {
+        "option": "ATP + H2O",
+        "bool": true
+      },
+      {
+        "option": "Oxygen",
+        "bool": false
+      },
+      {
+        "option": "Pyruvate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A 4-year-old boy is brought to the hospital with delayed developmental milestones, and seizures. He has light-colored hair, skin and eyes. His urine has a mousy odor. Blood phenylalanine levels are greater than 25mg/dl (Normal: 1-2mg/dl). Which of the following is the baby suffering from?",
+    "answers": [
+      {
+        "option": "Phenylketonuria (PKU)",
+        "bool": true
+      },
+      {
+        "option": "Tyrosinemia",
+        "bool": false
+      },
+      {
+        "option": "Hawkinsiuria",
+        "bool": false
+      },
+      {
+        "option": "Alkaptonuria (AKU)",
+        "bool": false
+      },
+      {
+        "option": "Albinism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "An infant is brought to the clinic with complaints of poor feeding, irritability, pitch crying, lethargy, and frequent episodes of apnea. He was diagnosed with kernicterus. Deposition of which of the following is responsible for signs and symptoms of this disease?",
+    "answers": [
+      {
+        "option": "Indirect bilirubin in the liver",
+        "bool": false
+      },
+      {
+        "option": "Total bilirubin in brain and liver",
+        "bool": false
+      },
+      {
+        "option": "Direct bilirubin in the liver",
+        "bool": false
+      },
+      {
+        "option": "Direct bilirubin in the brain",
+        "bool": false
+      },
+      {
+        "option": "Indirect bilirubin in the brain",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Gluconeogenesis is the metabolic route to produce glucose from the different precursors. Which is the best precursor corresponding to the following?",
+    "answers": [
+      {
+        "option": "Galactose",
+        "bool": false
+      },
+      {
+        "option": "Glycerol",
+        "bool": true
+      },
+      {
+        "option": "Glucose",
+        "bool": false
+      },
+      {
+        "option": "Fructose",
+        "bool": false
+      },
+      {
+        "option": "Mannol",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following products depends on the product of the HMP pathway (NADPH +H) and has a very important role in the protection of the red blood cells?",
+    "answers": [
+      {
+        "option": "Glutathione",
+        "bool": true
+      },
+      {
+        "option": "Heme",
+        "bool": false
+      },
+      {
+        "option": "Bilirubin",
+        "bool": false
+      },
+      {
+        "option": "Hemoglobin",
+        "bool": false
+      },
+      {
+        "option": "LDL",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A patient was brought to the emergency room. Upon examination, it was found that the patient was exposed to cyanide. Cyanide poisoning has a lethal impact on cellular respiration. Which of the following does cyanide inhibit?",
     "answers": [
+      {
+        "option": "Complex II",
+        "bool": false
+      },
+      {
+        "option": "ATP synthase",
+        "bool": false
+      },
       {
         "option": "Cytochrome oxidase",
         "bool": true
@@ -904,32 +1209,16 @@
         "bool": false
       },
       {
-        "option": "Complex II",
-        "bool": false
-      },
-      {
         "option": "Carbonic anhydrase",
-        "bool": false
-      },
-      {
-        "option": "ATP synthase",
         "bool": false
       }
     ]
   },
   {
-    "id": 34,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 45,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following conditions is predominant unconjugated hyperbilirubinemia most likely associated with?",
     "answers": [
-      {
-        "option": "Hemolytic anemia",
-        "bool": true
-      },
-      {
-        "option": "Primary biliary cirrhosis",
-        "bool": false
-      },
       {
         "option": "Pancreatic cancer",
         "bool": false
@@ -939,16 +1228,28 @@
         "bool": false
       },
       {
+        "option": "Hemolytic anemia",
+        "bool": true
+      },
+      {
+        "option": "Primary biliary cirrhosis",
+        "bool": false
+      },
+      {
         "option": "Gallstones",
         "bool": false
       }
     ]
   },
   {
-    "id": 35,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 46,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is the mode of inheritance of Dubin-Johnson syndrome?",
     "answers": [
+      {
+        "option": "Mitochondrial",
+        "bool": false
+      },
       {
         "option": "Autosomal dominant",
         "bool": false
@@ -958,32 +1259,20 @@
         "bool": false
       },
       {
-        "option": "X-linked recessive",
-        "bool": false
-      },
-      {
         "option": "Autosomal recessive",
         "bool": true
       },
       {
-        "option": "Mitochondrial",
+        "option": "X-linked recessive",
         "bool": false
       }
     ]
   },
   {
-    "id": 36,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 47,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is the most common cause of chronic gastritis and cancer?",
     "answers": [
-      {
-        "option": "Enterococci",
-        "bool": false
-      },
-      {
-        "option": "Staph. aureus",
-        "bool": false
-      },
       {
         "option": "Rotavirus",
         "bool": false
@@ -995,290 +1284,32 @@
       {
         "option": "H. pylori",
         "bool": true
+      },
+      {
+        "option": "Staph. aureus",
+        "bool": false
+      },
+      {
+        "option": "Enterococci",
+        "bool": false
       }
     ]
   },
   {
-    "id": 37,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which one of the following is not true about the graveyard of red blood cells?",
+    "id": 48,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A 54-year-old alcoholic male presents with a sudden onset of severe, constant, epigastric pain that radiates to his midback. Further evaluation finds fever, steatorrhea, and discoloration around his flank and umbilicus, Lab investigation\nreveals elevated serum amylase and lipase levels. Which of the following is the most likely diagnosis?",
     "answers": [
       {
-        "option": "It is an intraperitoneal organ",
-        "bool": false
-      },
-      {
-        "option": "Splenic capsule has muscular fibers and is supplied by parasympathetic fibers",
+        "option": "Acute pancreatitis",
         "bool": true
-      },
-      {
-        "option": "Its superior border is notched",
-        "bool": false
-      },
-      {
-        "option": "Anterior end reaches the left mid-axillary line",
-        "bool": false
-      },
-      {
-        "option": "It lies along the axis of the left 10th rib",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "There are two anal sphincters around the anal canal. Which of the following statements is true for the superficial one of the anal sphincters?",
-    "answers": [
-      {
-        "option": "Is composed of thick smooth muscle cells",
-        "bool": false
-      },
-      {
-        "option": "Has three parts: deep, superficial and subcutaneous",
-        "bool": true
-      },
-      {
-        "option": "Ends at the white line of Hilton",
-        "bool": false
-      },
-      {
-        "option": "Is involuntary and composed of skeletal muscles",
-        "bool": false
-      },
-      {
-        "option": "Is involuntary in function",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A 45-year-old woman presents to the emergency room with complaints of fullness, nausea, and epigastric pain. Her pain increases after taking meals. Which of the following is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Duodenal ulcers",
-        "bool": false
-      },
-      {
-        "option": "Angina pectoris",
-        "bool": false
-      },
-      {
-        "option": "Pyloric stenosis",
-        "bool": false
-      },
-      {
-        "option": "Gastric ulcers",
-        "bool": true
-      },
-      {
-        "option": "Hiatal hernia",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A 42-year-old female presents to the emergency room with pain in the right hypochondrium radiating to the right scapula and shoulder. On examination, the patient also feels a sharp pain on inspiration when a finger is placed at the costal margin at the tip of the 9th costal cartilage. Which of the following organs is most likely involved?",
-    "answers": [
-      {
-        "option": "Stomach",
-        "bool": false
-      },
-      {
-        "option": "Liver",
-        "bool": false
-      },
-      {
-        "option": "Duodenum",
-        "bool": false
-      },
-      {
-        "option": "Spleen",
-        "bool": false
-      },
-      {
-        "option": "Gall bladder",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following is not considered a muscle of the posterior abdominal wall?",
-    "answers": [
-      {
-        "option": "Psoas minor muscle",
-        "bool": false
-      },
-      {
-        "option": "Pectineus",
-        "bool": true
-      },
-      {
-        "option": "Psoas major muscle",
-        "bool": false
-      },
-      {
-        "option": "Quadratus lumborum",
-        "bool": false
-      },
-      {
-        "option": "Iliacus muscle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following would be affected by a cholecystectomy?",
-    "answers": [
-      {
-        "option": "Secretion of cholecystokinin",
-        "bool": false
-      },
-      {
-        "option": "Secretion of gastrin",
-        "bool": false
-      },
-      {
-        "option": "Red blood cell breakdown",
-        "bool": false
-      },
-      {
-        "option": "Storage of bile",
-        "bool": true
-      },
-      {
-        "option": "Red blood cell production",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "While performing a surgical procedure in the inguinal region, a surgeon comes across the femoral ring. To navigate this area, the surgeon needs to be aware of the boundaries of the femoral ring. Which of the following structures form its medial boundary?",
-    "answers": [
-      {
-        "option": "Ligament of Cooper",
-        "bool": false
-      },
-      {
-        "option": "Inguinal ligament",
-        "bool": false
-      },
-      {
-        "option": "Femoral vein",
-        "bool": false
-      },
-      {
-        "option": "Pectineal ligament",
-        "bool": false
-      },
-      {
-        "option": "Lacunar ligament",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A patient is suffering from carcinoma of the superior body of the stomach. Metastasis of the carcinoma occurs through lymph nodes present along the short gastric artery. Which of the following lymph node groups is responsible for the metastasis?",
-    "answers": [
-      {
-        "option": "Pancreaticosplenic",
-        "bool": true
-      },
-      {
-        "option": "Gastric",
-        "bool": false
-      },
-      {
-        "option": "Pancreaticoduodenal",
-        "bool": false
-      },
-      {
-        "option": "Pyloric",
-        "bool": false
-      },
-      {
-        "option": "Superior mesenteric",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "During the removal of the appendix, the surgeon noted that the blood supply of the ascending colon was also compromised. Which artery supplies the ascending colon?",
-    "answers": [
-      {
-        "option": "Gastric artery",
-        "bool": false
-      },
-      {
-        "option": "Left colic artery",
-        "bool": false
-      },
-      {
-        "option": "Right colic artery",
-        "bool": true
-      },
-      {
-        "option": "Splenic artery",
-        "bool": false
-      },
-      {
-        "option": "Hepatic artery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following arteries will be occluded by a thrombus in the vasa recta of a part of the small intestine?",
-    "answers": [
-      {
-        "option": "Middle colic artery",
-        "bool": false
-      },
-      {
-        "option": "Inferior mesenteric artery",
-        "bool": false
-      },
-      {
-        "option": "Superior mesenteric artery",
-        "bool": true
-      },
-      {
-        "option": "Left colic artery",
-        "bool": false
-      },
-      {
-        "option": "Marginal artery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A 54-year-old alcoholic male presents with a sudden onset of severe, constant, epigastric pain that radiates to his midback. Further evaluation finds fever, steatorrhea, and discoloration around his flank and umbilicus, Lab investigation reveals elevated serum amylase and lipase levels. Which of the following is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Acute cholangitis",
-        "bool": false
       },
       {
         "option": "Acute cholecystitis",
+        "bool": false
+      },
+      {
+        "option": "Acute cholangitis",
         "bool": false
       },
       {
@@ -1288,18 +1319,18 @@
       {
         "option": "Acute diverticulitis",
         "bool": false
-      },
-      {
-        "option": "Acute pancreatitis",
-        "bool": true
       }
     ]
   },
   {
-    "id": 48,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 49,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 55-year-old man gives a 6-month history of recurrent epigastric pain, progressive weight loss, and foul-smelling diarrhea. He is anemic while abdominal pain is now almost constant and intractable. An X-ray film of the abdomen reveals multiple areas of calcification in the mid-abdomen. Which of the following is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Acute pancreatitis",
+        "bool": false
+      },
       {
         "option": "Celiac disease",
         "bool": false
@@ -1309,34 +1340,22 @@
         "bool": true
       },
       {
-        "option": "Acute pancreatitis",
+        "option": "Chronic cholecystitis",
         "bool": false
       },
       {
         "option": "Crohn's disease",
         "bool": false
-      },
-      {
-        "option": "Chronic cholecystitis",
-        "bool": false
       }
     ]
   },
   {
-    "id": 49,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 50,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 23-year-old primigravida gives birth at term. Ultrasound examination before delivery showed polyhydramnios. It is noted that the infant vomits all feedings, then develops a fever and difficulty with respiration within 2 days. The radiograph shows both lungs and the heart are of normal size, but there are no pulmonary infiltrates or stomach bubbles. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Esophageal atresia",
-        "bool": true
-      },
-      {
         "option": "Diaphragmatic hernia",
-        "bool": false
-      },
-      {
-        "option": "Hiatal hernia",
         "bool": false
       },
       {
@@ -1344,22 +1363,30 @@
         "bool": false
       },
       {
+        "option": "Hiatal hernia",
+        "bool": false
+      },
+      {
         "option": "Achalasia",
         "bool": false
+      },
+      {
+        "option": "Esophageal atresia",
+        "bool": true
       }
     ]
   },
   {
-    "id": 50,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 51,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which one of the following statements best describes the microscopic findings in autoimmune pancreatitis?",
     "answers": [
       {
-        "option": "Extensive fibrosis and atrophy have left only residual islets and ducts with a sprinkling of chronic exudate",
+        "option": "Extensive hemorrhage within the substance of the gland with increased neutrophils",
         "bool": false
       },
       {
-        "option": "Dilated ducts with eosinophilic ductal concretions with increased neutrophils",
+        "option": "Extensive fibrosis and atrophy have left only residual islets and ducts with a sprinkling of chronic exudate",
         "bool": false
       },
       {
@@ -1367,18 +1394,18 @@
         "bool": false
       },
       {
-        "option": "Extensive hemorrhage within the substance of the gland with increased neutrophils",
-        "bool": false
-      },
-      {
         "option": "Duct-centric mixed inflammatory cell infiltrate, venulitis, and increased plasma cells",
         "bool": true
+      },
+      {
+        "option": "Dilated ducts with eosinophilic ductal concretions with increased neutrophils",
+        "bool": false
       }
     ]
   },
   {
-    "id": 51,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 52,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Apart from history, what is the basic morphological feature that supports chronic pancreatitis instead of acute pancreatitis?",
     "answers": [
       {
@@ -1386,11 +1413,7 @@
         "bool": false
       },
       {
-        "option": "Fibrosis and acinar cell loss",
-        "bool": true
-      },
-      {
-        "option": "Interstitial edema",
+        "option": "Mild inflammation",
         "bool": false
       },
       {
@@ -1398,24 +1421,20 @@
         "bool": false
       },
       {
-        "option": "Mild inflammation",
+        "option": "Interstitial edema",
         "bool": false
+      },
+      {
+        "option": "Fibrosis and acinar cell loss",
+        "bool": true
       }
     ]
   },
   {
-    "id": 52,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 53,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is the least likely to be visualized in a microscope when examining a gastric biopsy from a patient with acute gastritis?",
     "answers": [
-      {
-        "option": "Moderate edema in lamina propria",
-        "bool": false
-      },
-      {
-        "option": "Metaplastic gastric epithelium",
-        "bool": true
-      },
       {
         "option": "Foveolar cell hyperplasia",
         "bool": false
@@ -1427,16 +1446,24 @@
       {
         "option": "Slight vascular congestion",
         "bool": false
+      },
+      {
+        "option": "Metaplastic gastric epithelium",
+        "bool": true
+      },
+      {
+        "option": "Moderate edema in lamina propria",
+        "bool": false
       }
     ]
   },
   {
-    "id": 53,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 54,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following presents with symptoms of obstruction as well as compromised blood supply?",
     "answers": [
       {
-        "option": "Intussusception",
+        "option": "Stricture",
         "bool": false
       },
       {
@@ -1444,12 +1471,12 @@
         "bool": false
       },
       {
-        "option": "Stricture",
-        "bool": false
-      },
-      {
         "option": "Volvulus",
         "bool": true
+      },
+      {
+        "option": "Intussusception",
+        "bool": false
       },
       {
         "option": "Tumor",
@@ -1458,8 +1485,8 @@
     ]
   },
   {
-    "id": 54,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 55,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "No single test for H.pylori is considered the gold standard, but which of the following tests is likely to confirm the diagnosis accurately?",
     "answers": [
       {
@@ -1467,11 +1494,11 @@
         "bool": false
       },
       {
-        "option": "Fecal bacterial detection",
-        "bool": false
+        "option": "Urea breath test (based on generation of NH3 by bacterial urease)",
+        "bool": true
       },
       {
-        "option": "Rapid urease test in gastric biopsy",
+        "option": "Fecal bacterial detection",
         "bool": false
       },
       {
@@ -1479,22 +1506,18 @@
         "bool": false
       },
       {
-        "option": "Urea breath test (based on generation of NH3 by bacterial urease)",
-        "bool": true
+        "option": "Rapid urease test in gastric biopsy",
+        "bool": false
       }
     ]
   },
   {
-    "id": 55,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 56,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A middle-aged woman without significant past medical history presents with acute onset of fatigue and jaundice. Blood tests show markedly elevated aspartate aminotransferase, alanine aminotransferase, and high titer antinuclear antibody. Serologies for smooth muscle antibody and anti-mitochondrial antibody are both positive. What is the most probable diagnosis?",
     "answers": [
       {
         "option": "Hepatocellular carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Adenoma",
         "bool": false
       },
       {
@@ -1506,14 +1529,18 @@
         "bool": true
       },
       {
+        "option": "Adenoma",
+        "bool": false
+      },
+      {
         "option": "Cholestasis",
         "bool": false
       }
     ]
   },
   {
-    "id": 56,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 57,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following levels does the bilirubin usually reach to cause jaundice?",
     "answers": [
       {
@@ -1539,18 +1566,10 @@
     ]
   },
   {
-    "id": 57,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 58,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following treatments are offered first for infants diagnosed with biliary atresia?",
     "answers": [
-      {
-        "option": "Liver transplant",
-        "bool": false
-      },
-      {
-        "option": "Kasai portoenterostomy",
-        "bool": true
-      },
       {
         "option": "Ursodeoxycholic acid",
         "bool": false
@@ -1562,16 +1581,24 @@
       {
         "option": "Steroids",
         "bool": false
+      },
+      {
+        "option": "Kasai portoenterostomy",
+        "bool": true
+      },
+      {
+        "option": "Liver transplant",
+        "bool": false
       }
     ]
   },
   {
-    "id": 58,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 59,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 70-year-old male presents with abdominal pain and severe weight loss in two months. On endoscopy, a submucosal mass in the gastric region is noted and a biopsy shows diffuse sheets of small cells with vacuolated cytoplasm and eccentrically placed nuclei. Which of the following statements is true for the condition mentioned above?",
     "answers": [
       {
-        "option": "The most powerful prognostic indicator is tumor depth of invasion only in gastric cancers",
+        "option": "The most commonly affected gene is CDKN2A",
         "bool": false
       },
       {
@@ -1579,24 +1606,32 @@
         "bool": true
       },
       {
-        "option": "There is presence of E-cadherin in these cells",
-        "bool": false
-      },
-      {
         "option": "The intestinal type carcinomas mostly penetrate the gastric wall",
         "bool": false
       },
       {
-        "option": "The most commonly affected gene is CDKN2A",
+        "option": "There is presence of E-cadherin in these cells",
+        "bool": false
+      },
+      {
+        "option": "The most powerful prognostic indicator is tumor depth of invasion only in gastric cancers",
         "bool": false
       }
     ]
   },
   {
-    "id": 59,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 60,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 42-year-old female with a history of dyspepsia for a long time and who has been on proton pump inhibitors undergoes an endoscopy which showed multiple polyps in the gastric fundus. Which of the following statements is true for the above condition?",
     "answers": [
+      {
+        "option": "The majority of hyperplastic polyps are 3 cm in size",
+        "bool": false
+      },
+      {
+        "option": "Alteration of APC beta-catenin pathway are seen in both sporadic and syndromic fundic gland polyps",
+        "bool": true
+      },
       {
         "option": "These polyps are not associated with the use of proton pump inhibitors",
         "bool": false
@@ -1606,22 +1641,14 @@
         "bool": false
       },
       {
-        "option": "Alteration of APC beta-catenin pathway are seen in both sporadic and syndromic fundic gland polyps",
-        "bool": true
-      },
-      {
         "option": "These polyps are always associated nausea, vomiting, and abdominal pain",
-        "bool": false
-      },
-      {
-        "option": "The majority of hyperplastic polyps are 3 cm in size",
         "bool": false
       }
     ]
   },
   {
-    "id": 60,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 61,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is not a contributor to circulatory disorders of the liver?",
     "answers": [
       {
@@ -1637,47 +1664,59 @@
         "bool": false
       },
       {
-        "option": "Inferior vena cava thrombosis",
-        "bool": false
-      },
-      {
         "option": "Superior vena cava thrombosis",
         "bool": true
+      },
+      {
+        "option": "Inferior vena cava thrombosis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 61,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 62,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "The portal vein is the blood vessel that brings blood to the liver from the intestines. Portal vein thrombosis is the blockage or narrowing of the portal vein by a blood clot. Which of the following symptoms do most people with portal vein thrombosis have?",
     "answers": [
       {
-        "option": "Esophageal varices",
+        "option": "Hepatomegaly",
         "bool": false
       },
       {
-        "option": "Hepatomegaly",
-        "bool": false
+        "option": "No symptoms",
+        "bool": true
       },
       {
         "option": "Splenomegaly",
         "bool": false
       },
       {
-        "option": "Ascites",
+        "option": "Esophageal varices",
         "bool": false
       },
       {
-        "option": "No symptoms",
-        "bool": true
+        "option": "Ascites",
+        "bool": false
       }
     ]
   },
   {
-    "id": 62,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 63,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is the best method for diagnosis of intestinal parasites?",
     "answers": [
+      {
+        "option": "Stool culture",
+        "bool": false
+      },
+      {
+        "option": "Buffy coat of blood",
+        "bool": false
+      },
+      {
+        "option": "Scotch tape method",
+        "bool": false
+      },
       {
         "option": "Perianal swab",
         "bool": false
@@ -1685,36 +1724,16 @@
       {
         "option": "Microscopy of stool in saline and iodine",
         "bool": true
-      },
-      {
-        "option": "Buffy coat of blood",
-        "bool": false
-      },
-      {
-        "option": "Stool culture",
-        "bool": false
-      },
-      {
-        "option": "Scotch tape method",
-        "bool": false
       }
     ]
   },
   {
-    "id": 63,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 64,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Any treatment that can lower water activity such as sun drying can reduce or eliminate the growth of microorganisms. Humectants such as sugar, salt, and alcohol can bind water to make it unavailable as a solvent. Which of the following best defines this process of food preservation?",
     "answers": [
       {
-        "option": "Fermentation",
-        "bool": false
-      },
-      {
         "option": "Asepsis",
-        "bool": false
-      },
-      {
-        "option": "Modified atmosphere",
         "bool": false
       },
       {
@@ -1722,14 +1741,22 @@
         "bool": true
       },
       {
+        "option": "Modified atmosphere",
+        "bool": false
+      },
+      {
         "option": "Preservatives",
+        "bool": false
+      },
+      {
+        "option": "Fermentation",
         "bool": false
       }
     ]
   },
   {
-    "id": 64,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 65,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Several factors contribute to nutritional problems in Pakistan including socioeconomics, feeding habits, and environmental factors. Which one of the following is the most common micronutrient deficiency-related disease in Pakistan according to the National Nutrition Survey?",
     "answers": [
       {
@@ -1737,30 +1764,30 @@
         "bool": false
       },
       {
-        "option": "Vitamin D deficiency rickets",
-        "bool": true
+        "option": "Zinc deficiency diarrhea",
+        "bool": false
       },
       {
         "option": "Iron deficiency anemia",
         "bool": false
       },
       {
-        "option": "Zinc deficiency diarrhea",
+        "option": "Vitamin B12 deficiency anemia",
         "bool": false
       },
       {
-        "option": "Vitamin B12 deficiency anemia",
-        "bool": false
+        "option": "Vitamin D deficiency rickets",
+        "bool": true
       }
     ]
   },
   {
-    "id": 65,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 66,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A girl child aged 8 months comes to the pediatric emergency room with a complaint of 6-7 episodes of watery stools with no blood. She is on breastfeeding plus a weaning diet. The child has no vomiting, no fever, and some dehydration. Besides the advice of continuing the breastfeeding and weaning, which of the following will be the mainstay of treatment in this child?",
     "answers": [
       {
-        "option": "Lactose free milk formula",
+        "option": "Low osmolar ORS",
         "bool": false
       },
       {
@@ -1768,7 +1795,7 @@
         "bool": true
       },
       {
-        "option": "Low osmolar ORS",
+        "option": "Oral antibiotics",
         "bool": false
       },
       {
@@ -1776,24 +1803,16 @@
         "bool": false
       },
       {
-        "option": "Oral antibiotics",
+        "option": "Lactose free milk formula",
         "bool": false
       }
     ]
   },
   {
-    "id": 66,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 67,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Viral hepatitis continues to be a major health problem in both developing and developed countries. Which of the following are preventable vaccines available for?",
     "answers": [
-      {
-        "option": "Hepatitis A and B",
-        "bool": true
-      },
-      {
-        "option": "Hepatitis B",
-        "bool": false
-      },
       {
         "option": "Hepatitis B and D",
         "bool": false
@@ -1803,18 +1822,26 @@
         "bool": false
       },
       {
+        "option": "Hepatitis A and B",
+        "bool": true
+      },
+      {
+        "option": "Hepatitis B",
+        "bool": false
+      },
+      {
         "option": "Hepatitis A",
         "bool": false
       }
     ]
   },
   {
-    "id": 67,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 68,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "The unusual occurrence of disease occurring in a community with an excess number of cases or spread of a disease affecting a large population within a short period of time is known as?",
     "answers": [
       {
-        "option": "Sporadic",
+        "option": "Zoonotic symptomatic",
         "bool": false
       },
       {
@@ -1822,34 +1849,30 @@
         "bool": false
       },
       {
-        "option": "Zoonotic symptomatic",
-        "bool": false
-      },
-      {
-        "option": "Pandemic",
+        "option": "Sporadic",
         "bool": false
       },
       {
         "option": "Epidemic",
         "bool": true
+      },
+      {
+        "option": "Pandemic",
+        "bool": false
       }
     ]
   },
   {
-    "id": 68,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 69,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Hepatitis A is an endemic disease in our population. Which of the following correctly describes the nature of the infectious cases of Hepatitis A in highly endemic areas?",
     "answers": [
       {
-        "option": "Symptomatic",
-        "bool": false
-      },
-      {
-        "option": "Immuno-compromised",
-        "bool": false
-      },
-      {
         "option": "Fulminant",
+        "bool": false
+      },
+      {
+        "option": "Symptomatic",
         "bool": false
       },
       {
@@ -1859,22 +1882,18 @@
       {
         "option": "Asymptomatic",
         "bool": true
+      },
+      {
+        "option": "Immuno-compromised",
+        "bool": false
       }
     ]
   },
   {
-    "id": 69,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 70,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 40-year-old male presented to the medical outpatient department with upper abdominal discomfort. On examination, the liver is palpable. He is advised ultrasound abdomen which showed a fatty liver. Which of the following tests is considered a gold standard for diagnosis and assessment of the degree of inflammation and extent of fibrosis?",
     "answers": [
-      {
-        "option": "Fibroscan liver",
-        "bool": false
-      },
-      {
-        "option": "Ultrasound abdomen",
-        "bool": false
-      },
       {
         "option": "Liver function tests",
         "bool": false
@@ -1884,20 +1903,24 @@
         "bool": true
       },
       {
+        "option": "Fibroscan liver",
+        "bool": false
+      },
+      {
         "option": "CT scan abdomen",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound abdomen",
         "bool": false
       }
     ]
   },
   {
-    "id": 70,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 71,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "An eight-month pregnant woman presented with a history of yellow discoloration of skin, and sclera, along with fever, and vomiting. Her liver function tests are as follows: total bilirubin: 11.4 mg/dl, direct bilirubin: 9.7 mg/dl, ALT: 1236 u/l, AST: 900 u/l, ALP: 432 u/l, GGT: 155 u/l. What is the most likely diagnosis in this case?",
     "answers": [
-      {
-        "option": "Sepsis",
-        "bool": false
-      },
       {
         "option": "Acute cholecystitis",
         "bool": false
@@ -1913,17 +1936,29 @@
       {
         "option": "Acute hepatitis",
         "bool": true
+      },
+      {
+        "option": "Sepsis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 71,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 72,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A college student has a close-knit group of friends and a supportive family. He has a stable living situation and enough food to eat. He is actively involved in various extracurricular activities and is always seeking personal growth opportunities. Which needs from 'Marlow's hierarchy of needs' is the student likely working to fulfill through his involvement in extracurricular activities and personal growth pursuits?",
     "answers": [
       {
+        "option": "Love and belongingness needs",
+        "bool": false
+      },
+      {
         "option": "Self-esteem needs",
         "bool": false
+      },
+      {
+        "option": "Self-actualization",
+        "bool": true
       },
       {
         "option": "Physiological needs",
@@ -1932,32 +1967,20 @@
       {
         "option": "Safety needs",
         "bool": false
-      },
-      {
-        "option": "Self-actualization",
-        "bool": true
-      },
-      {
-        "option": "Love and belongingness needs",
-        "bool": false
       }
     ]
   },
   {
-    "id": 72,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 73,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A high school student has always struggled with her self-esteem. She always feels like she's not as talented or smart as her classmates. One day, her teacher praises her for her exceptional effort on a difficult project. The student starts feeling more confident and motivated to excel in her studies. What is the likely impact of the teacher's praise on the student's self-esteem?",
     "answers": [
-      {
-        "option": "It would boost her self-esteem",
-        "bool": true
-      },
       {
         "option": "It will make her more self-conscious",
         "bool": false
       },
       {
-        "option": "It will have no effect on her self-esteem",
+        "option": "It will make her less self-conscious",
         "bool": false
       },
       {
@@ -1965,68 +1988,45 @@
         "bool": false
       },
       {
-        "option": "It will make her less self-conscious",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following investigations is the gold standard for the diagnosis of Helicobacter pylori (H. pylori) infection?",
-    "answers": [
-      {
-        "option": "Stool culture for H. pylori antigen",
-        "bool": false
-      },
-      {
-        "option": "Upper gastrointestinal (GI) endoscopy",
-        "bool": false
-      },
-      {
-        "option": "Serum levels of antibodies specific for H. pylori",
-        "bool": false
-      },
-      {
-        "option": "Urea breath test",
-        "bool": false
-      },
-      {
-        "option": "Endoscopy with tissue biopsy and culture",
+        "option": "It would boost her self-esteem",
         "bool": true
+      },
+      {
+        "option": "It will have no effect on her self-esteem",
+        "bool": false
       }
     ]
   },
   {
     "id": 74,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following may be a complication of H. pylori infection?",
     "answers": [
       {
-        "option": "Aplastic anemia",
-        "bool": false
-      },
-      {
         "option": "MALT lymphoma",
         "bool": true
+      },
+      {
+        "option": "Aplastic anemia",
+        "bool": false
       },
       {
         "option": "Giardiasis",
         "bool": false
       },
       {
-        "option": "Ulcerative colitis",
+        "option": "Acute lymphoblastic leukemia",
         "bool": false
       },
       {
-        "option": "Acute lymphoblastic leukemia",
+        "option": "Ulcerative colitis",
         "bool": false
       }
     ]
   },
   {
     "id": 75,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Where in the gastrointestinal tract does most of the fat absorption take place?",
     "answers": [
       {
@@ -2034,7 +2034,7 @@
         "bool": false
       },
       {
-        "option": "Colon",
+        "option": "Rectum",
         "bool": false
       },
       {
@@ -2042,22 +2042,26 @@
         "bool": true
       },
       {
-        "option": "Rectum",
+        "option": "Stomach",
         "bool": false
       },
       {
-        "option": "Stomach",
+        "option": "Colon",
         "bool": false
       }
     ]
   },
   {
     "id": 76,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A Persistent vitelline duct results into which of the following ?",
     "answers": [
       {
-        "option": "Umbilical Fistula",
+        "option": "Ileal Diverticulum",
+        "bool": false
+      },
+      {
+        "option": "Meckel's Diverticulum",
         "bool": false
       },
       {
@@ -2069,30 +2073,18 @@
         "bool": true
       },
       {
-        "option": "Meckel's Diverticulum",
-        "bool": false
-      },
-      {
-        "option": "Ileal Diverticulum",
+        "option": "Umbilical Fistula",
         "bool": false
       }
     ]
   },
   {
     "id": 77,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "What is the screening test for HCV?",
     "answers": [
       {
         "option": "LFT",
-        "bool": false
-      },
-      {
-        "option": "HCV antigen",
-        "bool": false
-      },
-      {
-        "option": "Biopsy",
         "bool": false
       },
       {
@@ -2102,22 +2094,22 @@
       {
         "option": "RNA testing",
         "bool": false
+      },
+      {
+        "option": "HCV antigen",
+        "bool": false
+      },
+      {
+        "option": "Biopsy",
+        "bool": false
       }
     ]
   },
   {
     "id": 78,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following structures of the small intestine can be observed macroscopically?",
     "answers": [
-      {
-        "option": "Villi",
-        "bool": false
-      },
-      {
-        "option": "Plicae circularis",
-        "bool": true
-      },
       {
         "option": "Rugae",
         "bool": false
@@ -2127,45 +2119,34 @@
         "bool": false
       },
       {
-        "option": "Crypts of Lieberk\u00fchn",
+        "option": "Plicae circularis",
+        "bool": true
+      },
+      {
+        "option": "Crypts of Lieberkühn",
+        "bool": false
+      },
+      {
+        "option": "Villi",
         "bool": false
       }
     ]
   },
   {
     "id": 79,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A child presents with crying and signs of jaundice. He was diagnosed with kernicterus. What happens in kernicterus?",
-    "answers": [
-      {
-        "option": "Excessive ammonia cells in the brain",
-        "bool": false
-      },
-      {
-        "option": "Excessive hemoglobin in the brain",
-        "bool": false
-      },
-      {
-        "option": "Elevated liver enzymes in the brain",
-        "bool": false
-      },
-      {
-        "option": "Indirect bilirubin in the brain",
-        "bool": true
-      },
-      {
-        "option": "Direct bilirubin in the brain",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A 20-year-old male, after 3 weeks of having dinner at a roadside stall, presents with diarrhea and jaundice. Which of the following is the most likely used for the diagnosis?",
     "answers": [
       {
+        "option": "Hep B surface antigen",
+        "bool": false
+      },
+      {
         "option": "Hep D IgM antigen",
+        "bool": false
+      },
+      {
+        "option": "Hep B core antigen",
         "bool": false
       },
       {
@@ -2173,28 +2154,16 @@
         "bool": true
       },
       {
-        "option": "Hep B core antigen",
-        "bool": false
-      },
-      {
         "option": ") Hep C RNA",
-        "bool": false
-      },
-      {
-        "option": "Hep B surface antigen",
         "bool": false
       }
     ]
   },
   {
-    "id": 81,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 80,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "What is the most common route of the spread of the Hepatitis C Virus (HCV)?",
     "answers": [
-      {
-        "option": "Intravenous drug use",
-        "bool": true
-      },
       {
         "option": "Mucous membrane contact",
         "bool": false
@@ -2210,28 +2179,59 @@
       {
         "option": "Contaminated food or water",
         "bool": false
+      },
+      {
+        "option": "Intravenous drug use",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A child presents with crying and signs of jaundice. He was diagnosed with kernicterus. What happens in kernicterus?",
+    "answers": [
+      {
+        "option": "Direct bilirubin in the brain",
+        "bool": false
+      },
+      {
+        "option": "Indirect bilirubin in the brain",
+        "bool": true
+      },
+      {
+        "option": "Excessive ammonia cells in the brain",
+        "bool": false
+      },
+      {
+        "option": "Elevated liver enzymes in the brain",
+        "bool": false
+      },
+      {
+        "option": "Excessive hemoglobin in the brain",
+        "bool": false
       }
     ]
   },
   {
     "id": 82,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Stratified squamous non-keratinized epithelium is found in which of the following structures?",
     "answers": [
-      {
-        "option": "Esophagus",
-        "bool": true
-      },
       {
         "option": "Stomach",
         "bool": false
       },
       {
-        "option": "Skin",
-        "bool": false
+        "option": "Esophagus",
+        "bool": true
       },
       {
         "option": "Anal canal",
+        "bool": false
+      },
+      {
+        "option": "Skin",
         "bool": false
       },
       {
@@ -2242,16 +2242,16 @@
   },
   {
     "id": 83,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which amino acid combines with NH3 (ammonia) to store it in a nontoxic form?",
     "answers": [
       {
-        "option": "Glutamine",
-        "bool": false
-      },
-      {
         "option": "Glutamate",
         "bool": true
+      },
+      {
+        "option": "Glycine",
+        "bool": false
       },
       {
         "option": "Aspartate",
@@ -2262,51 +2262,16 @@
         "bool": false
       },
       {
-        "option": "Glycine",
+        "option": "Glutamine",
         "bool": false
       }
     ]
   },
   {
     "id": 84,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "What does the presence of PAS-positive rods indicate?",
-    "answers": [
-      {
-        "option": "Legionella pneumophila",
-        "bool": false
-      },
-      {
-        "option": "Corynebacterium diphtheriae",
-        "bool": false
-      },
-      {
-        "option": "Mycobacterium bovis",
-        "bool": false
-      },
-      {
-        "option": "Tropheryma whipplei",
-        "bool": true
-      },
-      {
-        "option": "Nocardia species",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Pruritus and an onion ring appearance morphology are characteristic of which of the following conditions?",
     "answers": [
-      {
-        "option": "Cholecystitis",
-        "bool": false
-      },
-      {
-        "option": "Ulcerative colitis",
-        "bool": false
-      },
       {
         "option": "Primary sclerosing cholangitis",
         "bool": true
@@ -2316,28 +2281,24 @@
         "bool": false
       },
       {
+        "option": "Cholecystitis",
+        "bool": false
+      },
+      {
         "option": "Hepatitis B infection",
+        "bool": false
+      },
+      {
+        "option": "Ulcerative colitis",
         "bool": false
       }
     ]
   },
   {
-    "id": 86,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 85,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following is used to measure the synthetic function of the liver?",
     "answers": [
-      {
-        "option": "ALP & AST",
-        "bool": false
-      },
-      {
-        "option": "Bilirubin",
-        "bool": false
-      },
-      {
-        "option": "Gamma-glutamyl transferase (GGT)",
-        "bool": false
-      },
       {
         "option": "Prothrombin time",
         "bool": true
@@ -2345,20 +2306,28 @@
       {
         "option": "Albumin",
         "bool": false
+      },
+      {
+        "option": "Bilirubin",
+        "bool": false
+      },
+      {
+        "option": "ALP & AST",
+        "bool": false
+      },
+      {
+        "option": "Gamma-glutamyl transferase (GGT)",
+        "bool": false
       }
     ]
   },
   {
-    "id": 87,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 86,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "Which of the following enzymes breaks down collagen?",
     "answers": [
       {
         "option": "Chymotrypsin",
-        "bool": false
-      },
-      {
-        "option": "Carboxypeptidase",
         "bool": false
       },
       {
@@ -2372,41 +2341,26 @@
       {
         "option": "Aminopeptidase",
         "bool": false
+      },
+      {
+        "option": "Carboxypeptidase",
+        "bool": false
       }
     ]
   },
   {
-    "id": 88,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "Which of the following drugs inhibit peristalsis?",
-    "answers": [
-      {
-        "option": "Polyethylene glycol",
-        "bool": false
-      },
-      {
-        "option": "Lactulose",
-        "bool": false
-      },
-      {
-        "option": "Bisacodyl",
-        "bool": false
-      },
-      {
-        "option": "Senna",
-        "bool": false
-      },
-      {
-        "option": "Loperamide",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "info": "2nd-year/gastrointestinal-1/2023",
+    "id": 87,
+    "info": "2nd-year/gastrointestinal/2023",
     "question": "A person has a ground glass appearance on morphology and is unsure if the hepatitis B vaccine was administered. Which of the following would indicate that an infection is not present?",
     "answers": [
+      {
+        "option": "HBsAg",
+        "bool": false
+      },
+      {
+        "option": "Anti-HBc",
+        "bool": false
+      },
       {
         "option": "HBcAg",
         "bool": false
@@ -2416,43 +2370,89 @@
         "bool": true
       },
       {
-        "option": "HBsAg",
-        "bool": false
-      },
-      {
         "option": "HBeAg",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "Which of the following drugs inhibit peristalsis?",
+    "answers": [
+      {
+        "option": "Polyethylene glycol",
+        "bool": false
       },
       {
-        "option": "Anti-HBc",
+        "option": "Senna",
+        "bool": false
+      },
+      {
+        "option": "Loperamide",
+        "bool": true
+      },
+      {
+        "option": "Lactulose",
+        "bool": false
+      },
+      {
+        "option": "Bisacodyl",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "A person has cholera. Which of the following best describes what happens in the intestines?",
+    "answers": [
+      {
+        "option": "Movement of K⁺ into crypts",
+        "bool": false
+      },
+      {
+        "option": "Absorption of Na⁺ from the intestinal lumen",
+        "bool": false
+      },
+      {
+        "option": "Secretion of Cl⁻ into the intestinal lumen",
+        "bool": true
+      },
+      {
+        "option": "Movement of Na⁺ into crypts",
+        "bool": false
+      },
+      {
+        "option": "Absorption of K⁺ into the crypts",
         "bool": false
       }
     ]
   },
   {
     "id": 90,
-    "info": "2nd-year/gastrointestinal-1/2023",
-    "question": "A person has cholera. Which of the following best describes what happens in the intestines?",
+    "info": "2nd-year/gastrointestinal/2023",
+    "question": "What does the presence of PAS-positive rods indicate?",
     "answers": [
       {
-        "option": "Absorption of Na\u207a from the intestinal lumen",
-        "bool": false
-      },
-      {
-        "option": "Movement of K\u207a into crypts",
-        "bool": false
-      },
-      {
-        "option": "Movement of Na\u207a into crypts",
-        "bool": false
-      },
-      {
-        "option": "Absorption of K\u207a into the crypts",
-        "bool": false
-      },
-      {
-        "option": "Secretion of Cl\u207b into the intestinal lumen",
+        "option": "Tropheryma whipplei",
         "bool": true
+      },
+      {
+        "option": "Legionella pneumophila",
+        "bool": false
+      },
+      {
+        "option": "Nocardia species",
+        "bool": false
+      },
+      {
+        "option": "Corynebacterium diphtheriae",
+        "bool": false
+      },
+      {
+        "option": "Mycobacterium bovis",
+        "bool": false
       }
     ]
   }

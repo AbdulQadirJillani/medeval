@@ -1,12 +1,43 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is the end-product of purine metabolism?",
+    "answers": [
+      {
+        "option": "Urea",
+        "bool": false
+      },
+      {
+        "option": "Uracil",
+        "bool": false
+      },
+      {
+        "option": "Guanine",
+        "bool": false
+      },
+      {
+        "option": "Uric acid",
+        "bool": true
+      },
+      {
+        "option": "Ammonia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following drugs can be used to treat altitude sickness?",
     "answers": [
       {
-        "option": "Acetazolamide",
-        "bool": true
+        "option": "Mannitol",
+        "bool": false
+      },
+      {
+        "option": "Ethacrynic acid",
+        "bool": false
       },
       {
         "option": "Furosemide",
@@ -17,50 +48,46 @@
         "bool": false
       },
       {
-        "option": "Mannitol",
-        "bool": false
-      },
-      {
-        "option": "Ethacrynic acid",
-        "bool": false
+        "option": "Acetazolamide",
+        "bool": true
       }
     ]
   },
   {
-    "id": 1,
-    "info": "2nd-year/renal-1/2019",
+    "id": 2,
+    "info": "2nd-year/renal/2019",
     "question": "The antidiuretic hormone controls water permeability in the collecting ducts of the kidney by regulation of which of the following water channels?",
     "answers": [
       {
-        "option": "Aquaporin-1",
+        "option": "Aquaporin-4",
         "bool": false
-      },
-      {
-        "option": "Aquaporin-2",
-        "bool": true
       },
       {
         "option": "Aquaporin-5",
         "bool": false
       },
       {
-        "option": "Aquaporin-4",
+        "option": "Aquaporin-1",
         "bool": false
       },
       {
         "option": "Aquaporin-3",
         "bool": false
+      },
+      {
+        "option": "Aquaporin-2",
+        "bool": true
       }
     ]
   },
   {
-    "id": 2,
-    "info": "2nd-year/renal-1/2019",
+    "id": 3,
+    "info": "2nd-year/renal/2019",
     "question": "For individuals with latex allergy, which material of Foley's catheter is the next choice?",
     "answers": [
       {
-        "option": "Silicone",
-        "bool": true
+        "option": "Teflon",
+        "bool": false
       },
       {
         "option": "Polyvinyl chloride (PVC)",
@@ -71,26 +98,26 @@
         "bool": false
       },
       {
-        "option": "Plastic",
-        "bool": false
+        "option": "Silicone",
+        "bool": true
       },
       {
-        "option": "Teflon",
+        "option": "Plastic",
         "bool": false
       }
     ]
   },
   {
-    "id": 3,
-    "info": "2nd-year/renal-1/2019",
+    "id": 4,
+    "info": "2nd-year/renal/2019",
     "question": "What is the percentage of filtered urea reabsorbed in kidneys per day?",
     "answers": [
       {
-        "option": "1%",
+        "option": "99.9%",
         "bool": false
       },
       {
-        "option": "99.9%",
+        "option": "1%",
         "bool": false
       },
       {
@@ -108,10 +135,18 @@
     ]
   },
   {
-    "id": 4,
-    "info": "2nd-year/renal-1/2019",
+    "id": 5,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is a property of ascending limb of the loop of Henle?",
     "answers": [
+      {
+        "option": "Permeable to water",
+        "bool": false
+      },
+      {
+        "option": "Impermeable to potassium",
+        "bool": false
+      },
       {
         "option": "Impermeable to sodium",
         "bool": false
@@ -123,20 +158,39 @@
       {
         "option": "Permeability to water is affected by antidiuretic hormone",
         "bool": false
-      },
-      {
-        "option": "Impermeable to potassium",
-        "bool": false
-      },
-      {
-        "option": "Permeable to water",
-        "bool": false
       }
     ]
   },
   {
-    "id": 5,
-    "info": "2nd-year/renal-1/2019",
+    "id": 6,
+    "info": "2nd-year/renal/2019",
+    "question": "When do pronephroi degenerate during fetal development?",
+    "answers": [
+      {
+        "option": "At the end of 5th week",
+        "bool": false
+      },
+      {
+        "option": "At the end of 3rd week",
+        "bool": false
+      },
+      {
+        "option": "At the end of 6th week",
+        "bool": false
+      },
+      {
+        "option": "At the end of 2nd week",
+        "bool": false
+      },
+      {
+        "option": "At the end of 4th week",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following structures is not present posterior to the kidney?",
     "answers": [
       {
@@ -144,38 +198,30 @@
         "bool": false
       },
       {
-        "option": "Iliohypogastric nerve",
-        "bool": false
+        "option": "Quadratus femoris",
+        "bool": true
       },
       {
         "option": "Transversus abdominis",
         "bool": false
       },
       {
-        "option": "Quadratus femoris",
-        "bool": true
+        "option": "Ilioinguinal nerve",
+        "bool": false
       },
       {
-        "option": "Ilioinguinal nerve",
+        "option": "Iliohypogastric nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 6,
-    "info": "2nd-year/renal-1/2019",
+    "id": 8,
+    "info": "2nd-year/renal/2019",
     "question": "Nephrotic syndrome is characterized by loss of how much protein in urine?",
     "answers": [
       {
-        "option": ">9.4 g/day",
-        "bool": false
-      },
-      {
         "option": ">5.7 g/day",
-        "bool": false
-      },
-      {
-        "option": ">50 g/day",
         "bool": false
       },
       {
@@ -185,14 +231,30 @@
       {
         "option": ">3.5 g/day",
         "bool": true
+      },
+      {
+        "option": ">9.4 g/day",
+        "bool": false
+      },
+      {
+        "option": ">50 g/day",
+        "bool": false
       }
     ]
   },
   {
-    "id": 7,
-    "info": "2nd-year/renal-1/2019",
+    "id": 9,
+    "info": "2nd-year/renal/2019",
     "question": "A 45-year-old patient is brought to the emergency room in a delirious state with weakness, blurred vision, dehydration, and hypothermia. On examination, he has a rapid pulse and his breathing is deep and labored, with a sickly sweet odor. His blood glucose is 256 mg/dL and his urinary dipstick shows +2 ketonuria. What is most likely the diagnosis?",
     "answers": [
+      {
+        "option": "Type 1 diabetes mellitus",
+        "bool": true
+      },
+      {
+        "option": "Type 2 diabetes mellitus",
+        "bool": false
+      },
       {
         "option": "Lactic acidosis",
         "bool": false
@@ -204,24 +266,24 @@
       {
         "option": "Acute renal failure",
         "bool": false
-      },
-      {
-        "option": "Type 1 diabetes mellitus",
-        "bool": true
-      },
-      {
-        "option": "Type 2 diabetes mellitus",
-        "bool": false
       }
     ]
   },
   {
-    "id": 8,
-    "info": "2nd-year/renal-1/2019",
+    "id": 10,
+    "info": "2nd-year/renal/2019",
     "question": "What is the normal value of glomerular filtration rate (GFR)?",
     "answers": [
       {
+        "option": "100 ml/min",
+        "bool": false
+      },
+      {
         "option": "175 ml/min",
+        "bool": false
+      },
+      {
+        "option": "150 ml/min",
         "bool": false
       },
       {
@@ -231,32 +293,20 @@
       {
         "option": "155 ml/min",
         "bool": false
-      },
-      {
-        "option": "100 ml/min",
-        "bool": false
-      },
-      {
-        "option": "150 ml/min",
-        "bool": false
       }
     ]
   },
   {
-    "id": 9,
-    "info": "2nd-year/renal-1/2019",
+    "id": 11,
+    "info": "2nd-year/renal/2019",
     "question": "Renal blood flow (RBF) approximates how much of the total cardiac output?",
     "answers": [
       {
-        "option": "1-2%",
+        "option": "45-50%",
         "bool": false
       },
       {
-        "option": "20-25%",
-        "bool": true
-      },
-      {
-        "option": "45-50%",
+        "option": "1-2%",
         "bool": false
       },
       {
@@ -266,12 +316,16 @@
       {
         "option": "30-50%",
         "bool": false
+      },
+      {
+        "option": "20-25%",
+        "bool": true
       }
     ]
   },
   {
-    "id": 10,
-    "info": "2nd-year/renal-1/2019",
+    "id": 12,
+    "info": "2nd-year/renal/2019",
     "question": "Net filtration pressure (NFP) is the total pressure that promotes filtration in kidneys. What is its value?",
     "answers": [
       {
@@ -283,57 +337,57 @@
         "bool": false
       },
       {
-        "option": "25 mmHg",
-        "bool": false
+        "option": "10 mmHg",
+        "bool": true
       },
       {
         "option": "15 mmHg",
         "bool": false
       },
       {
-        "option": "10 mmHg",
-        "bool": true
+        "option": "25 mmHg",
+        "bool": false
       }
     ]
   },
   {
-    "id": 11,
-    "info": "2nd-year/renal-1/2019",
+    "id": 13,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following component of blood is the least filtered in the renal corpuscle?",
     "answers": [
       {
-        "option": "Lactic acid",
-        "bool": false
-      },
-      {
         "option": "Albumin",
         "bool": true
-      },
-      {
-        "option": "Glucose",
-        "bool": false
       },
       {
         "option": "Amino acid",
         "bool": false
       },
       {
+        "option": "Lactic acid",
+        "bool": false
+      },
+      {
         "option": "Water",
+        "bool": false
+      },
+      {
+        "option": "Glucose",
         "bool": false
       }
     ]
   },
   {
-    "id": 12,
-    "info": "2nd-year/renal-1/2019",
+    "id": 14,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the innermost covering of the kidney?",
     "answers": [
       {
-        "option": "Paranephric fat",
+        "option": "Renal fascia",
         "bool": false
       },
       {
-        "option": "Renal fascia",
+        "option": "Perinephric fat",
         "bool": false
       },
       {
@@ -345,18 +399,18 @@
         "bool": false
       },
       {
-        "option": "Perinephric fat",
+        "option": "Paranephric fat",
         "bool": false
       }
     ]
   },
   {
-    "id": 13,
-    "info": "2nd-year/renal-1/2019",
+    "id": 15,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is true about ureters?",
     "answers": [
       {
-        "option": "They arise from anterior side of kidney through vertical slits called hila",
+        "option": "They are constricted at two regions",
         "bool": false
       },
       {
@@ -364,34 +418,26 @@
         "bool": false
       },
       {
-        "option": "Ureters are intraperitoneal",
-        "bool": false
-      },
-      {
         "option": "Ureters are retroperitoneal",
         "bool": true
       },
       {
-        "option": "They are constricted at two regions",
+        "option": "Ureters are intraperitoneal",
+        "bool": false
+      },
+      {
+        "option": "They arise from anterior side of kidney through vertical slits called hila",
         "bool": false
       }
     ]
   },
   {
-    "id": 14,
-    "info": "2nd-year/renal-1/2019",
+    "id": 16,
+    "info": "2nd-year/renal/2019",
     "question": "Carbamoyl phosphate synthetase II (CPS-II) is allosterically inhibited by which of the following?",
     "answers": [
       {
-        "option": "Adenosine triphosphate (ATP)",
-        "bool": false
-      },
-      {
-        "option": "Phosphoribosyl pyrophosphate (PRPP)",
-        "bool": false
-      },
-      {
-        "option": "Uridine diphosphate (UDP)",
+        "option": "Uridine monophosphate (UMP)",
         "bool": false
       },
       {
@@ -399,16 +445,32 @@
         "bool": true
       },
       {
-        "option": "Uridine monophosphate (UMP)",
+        "option": "Uridine diphosphate (UDP)",
+        "bool": false
+      },
+      {
+        "option": "Adenosine triphosphate (ATP)",
+        "bool": false
+      },
+      {
+        "option": "Phosphoribosyl pyrophosphate (PRPP)",
         "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "2nd-year/renal-1/2019",
+    "id": 17,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the first step in pyrimidine synthesis?",
     "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Formation of carbamoyl phosphate",
+        "bool": true
+      },
       {
         "option": "Formation of phosphoribosyl pyrophosphate (PRPP)",
         "bool": false
@@ -418,34 +480,22 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Formation of orotate",
         "bool": false
-      },
-      {
-        "option": "Formation of carbamoyl phosphate",
-        "bool": true
       }
     ]
   },
   {
-    "id": 16,
-    "info": "2nd-year/renal-1/2019",
+    "id": 18,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is not a source of nitrogen for de novo purine synthesis?",
     "answers": [
-      {
-        "option": "Alanine",
-        "bool": true
-      },
       {
         "option": "All of these are a source of nitrogen for purine synthesis",
         "bool": false
       },
       {
-        "option": "Glutamine",
+        "option": "Glycine",
         "bool": false
       },
       {
@@ -453,22 +503,30 @@
         "bool": false
       },
       {
-        "option": "Glycine",
+        "option": "Alanine",
+        "bool": true
+      },
+      {
+        "option": "Glutamine",
         "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "2nd-year/renal-1/2019",
+    "id": 19,
+    "info": "2nd-year/renal/2019",
     "question": "What is the type of epithelium lining the ureters?",
     "answers": [
       {
-        "option": "Pseudostratified columnar epithelium",
+        "option": "Stratified squamous keratinized epithelium",
         "bool": false
       },
       {
-        "option": "Stratified squamous non-keratinized epithelium",
+        "option": "Simple squamous epithelium",
+        "bool": false
+      },
+      {
+        "option": "Pseudostratified columnar epithelium",
         "bool": false
       },
       {
@@ -476,57 +534,49 @@
         "bool": true
       },
       {
-        "option": "Simple squamous epithelium",
-        "bool": false
-      },
-      {
-        "option": "Stratified squamous keratinized epithelium",
+        "option": "Stratified squamous non-keratinized epithelium",
         "bool": false
       }
     ]
   },
   {
-    "id": 18,
-    "info": "2nd-year/renal-1/2019",
+    "id": 20,
+    "info": "2nd-year/renal/2019",
     "question": "Ureters develop from which of the following?",
     "answers": [
-      {
-        "option": "Ureteric bud from metanephric duct",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Ureteric bud from mesonephric duct",
-        "bool": true
+        "option": "Ureteric bud from allantois",
+        "bool": false
+      },
+      {
+        "option": "Ureteric bud from metanephric duct",
+        "bool": false
       },
       {
         "option": "Mesenchymal condensation posterior to cloaca",
         "bool": false
       },
       {
-        "option": "Ureteric bud from allantois",
-        "bool": false
+        "option": "Ureteric bud from mesonephric duct",
+        "bool": true
       }
     ]
   },
   {
-    "id": 19,
-    "info": "2nd-year/renal-1/2019",
+    "id": 21,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is correct about the quality of pain in the case of nephrolithiasis?",
     "answers": [
       {
-        "option": "No pain is felt",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "Pain radiates to back, flank, and groin region",
-        "bool": true
-      },
-      {
-        "option": "None of these",
+        "option": "Pain is mild and is only felt when urinating",
         "bool": false
       },
       {
@@ -534,24 +584,20 @@
         "bool": false
       },
       {
-        "option": "Pain is mild and is only felt when urinating",
+        "option": "No pain is felt",
         "bool": false
+      },
+      {
+        "option": "Pain radiates to back, flank, and groin region",
+        "bool": true
       }
     ]
   },
   {
-    "id": 20,
-    "info": "2nd-year/renal-1/2019",
+    "id": 22,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following parts of the nephron is involved in the facultative reabsorption of water?",
     "answers": [
-      {
-        "option": "Duct of Bellini",
-        "bool": true
-      },
-      {
-        "option": "Loop of Henle",
-        "bool": false
-      },
       {
         "option": "Proximal convoluted tubule",
         "bool": false
@@ -561,22 +607,26 @@
         "bool": false
       },
       {
+        "option": "Duct of Bellini",
+        "bool": true
+      },
+      {
         "option": "Bowman's capsule",
+        "bool": false
+      },
+      {
+        "option": "Loop of Henle",
         "bool": false
       }
     ]
   },
   {
-    "id": 21,
-    "info": "2nd-year/renal-1/2019",
+    "id": 23,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is an inhibitor of xanthine oxidase?",
     "answers": [
       {
-        "option": "Allopurinol",
-        "bool": true
-      },
-      {
-        "option": "5-fluorouracil",
+        "option": "Hydroxyurea",
         "bool": false
       },
       {
@@ -584,30 +634,26 @@
         "bool": false
       },
       {
-        "option": "Hydroxyurea",
+        "option": "Mycophenolic acid",
         "bool": false
       },
       {
-        "option": "Mycophenolic acid",
+        "option": "5-fluorouracil",
         "bool": false
+      },
+      {
+        "option": "Allopurinol",
+        "bool": true
       }
     ]
   },
   {
-    "id": 22,
-    "info": "2nd-year/renal-1/2019",
+    "id": 24,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is correct about the urinary bladder?",
     "answers": [
       {
-        "option": "It stores urine and has transitional epithelium",
-        "bool": true
-      },
-      {
-        "option": "It consists of four muscular layers",
-        "bool": false
-      },
-      {
-        "option": "None of these",
+        "option": "It stores urine and has pseudostratified columnar epithelium",
         "bool": false
       },
       {
@@ -615,26 +661,30 @@
         "bool": false
       },
       {
-        "option": "It stores urine and has pseudostratified columnar epithelium",
+        "option": "It consists of four muscular layers",
+        "bool": false
+      },
+      {
+        "option": "It stores urine and has transitional epithelium",
+        "bool": true
+      },
+      {
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 23,
-    "info": "2nd-year/renal-1/2019",
+    "id": 25,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following are the functional units of the kidney?",
     "answers": [
       {
-        "option": "Renal pyramids",
+        "option": "Medullary rays",
         "bool": false
       },
       {
-        "option": "Nephrons",
-        "bool": true
-      },
-      {
-        "option": "Medullary rays",
+        "option": "Renal pyramids",
         "bool": false
       },
       {
@@ -644,20 +694,20 @@
       {
         "option": "Minor calices",
         "bool": false
+      },
+      {
+        "option": "Nephrons",
+        "bool": true
       }
     ]
   },
   {
-    "id": 24,
-    "info": "2nd-year/renal-1/2019",
+    "id": 26,
+    "info": "2nd-year/renal/2019",
     "question": "Hydrogen ion reabsorption and secretion in proximal convoluted tubule is closely regulated with which of the following ions?",
     "answers": [
       {
-        "option": "K+",
-        "bool": false
-      },
-      {
-        "option": "Mg+2",
+        "option": "OH-",
         "bool": false
       },
       {
@@ -669,26 +719,22 @@
         "bool": false
       },
       {
-        "option": "OH-",
+        "option": "Mg+2",
+        "bool": false
+      },
+      {
+        "option": "K+",
         "bool": false
       }
     ]
   },
   {
-    "id": 25,
-    "info": "2nd-year/renal-1/2019",
+    "id": 27,
+    "info": "2nd-year/renal/2019",
     "question": "The kidney is connected to the bladder through which of the following?",
     "answers": [
       {
-        "option": "Perinephric fat",
-        "bool": false
-      },
-      {
         "option": "Transversalis fascia",
-        "bool": false
-      },
-      {
-        "option": "Lumber nodes",
         "bool": false
       },
       {
@@ -698,28 +744,36 @@
       {
         "option": "Ureters",
         "bool": true
+      },
+      {
+        "option": "Lumber nodes",
+        "bool": false
+      },
+      {
+        "option": "Perinephric fat",
+        "bool": false
       }
     ]
   },
   {
-    "id": 26,
-    "info": "2nd-year/renal-1/2019",
+    "id": 28,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the effect of aldosterone on kidneys?",
     "answers": [
-      {
-        "option": "Increases Na+ and K+ reabsorption",
-        "bool": false
-      },
-      {
-        "option": "Increases Na+ and Cl- excretion, and K+ reabsorption",
-        "bool": false
-      },
       {
         "option": "Increases Na+, Cl-, and K+ excretion",
         "bool": false
       },
       {
+        "option": "Increases Na+ and K+ reabsorption",
+        "bool": false
+      },
+      {
         "option": "Decreases Na+ and Cl- reabsorption, and K+ excretion",
+        "bool": false
+      },
+      {
+        "option": "Increases Na+ and Cl- excretion, and K+ reabsorption",
         "bool": false
       },
       {
@@ -729,8 +783,8 @@
     ]
   },
   {
-    "id": 27,
-    "info": "2nd-year/renal-1/2019",
+    "id": 29,
+    "info": "2nd-year/renal/2019",
     "question": "Which part of the kidney can not have stones?",
     "answers": [
       {
@@ -738,8 +792,8 @@
         "bool": false
       },
       {
-        "option": "Nephron",
-        "bool": true
+        "option": "Calyces",
+        "bool": false
       },
       {
         "option": "Ureter",
@@ -750,22 +804,18 @@
         "bool": false
       },
       {
-        "option": "Calyces",
-        "bool": false
+        "option": "Nephron",
+        "bool": true
       }
     ]
   },
   {
-    "id": 28,
-    "info": "2nd-year/renal-1/2019",
+    "id": 30,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the most reliable diagnostic test for urolithiasis?",
     "answers": [
       {
         "option": "Magnetic resonance imaging",
-        "bool": false
-      },
-      {
-        "option": "Intravenous pyelogram (IVP)",
         "bool": false
       },
       {
@@ -777,31 +827,35 @@
         "bool": true
       },
       {
+        "option": "Intravenous pyelogram (IVP)",
+        "bool": false
+      },
+      {
         "option": "Blood test",
         "bool": false
       }
     ]
   },
   {
-    "id": 29,
-    "info": "2nd-year/renal-1/2019",
+    "id": 31,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is a complication of acute pyelonephritis?",
     "answers": [
       {
-        "option": "Necrotic syndrome",
+        "option": "Chronic renal faillure",
         "bool": false
       },
       {
-        "option": "Papillary necrosis",
-        "bool": true
+        "option": "Necrotic syndrome",
+        "bool": false
       },
       {
         "option": "Cholecystitis",
         "bool": false
       },
       {
-        "option": "Chronic renal faillure",
-        "bool": false
+        "option": "Papillary necrosis",
+        "bool": true
       },
       {
         "option": "Pulmonary embolism",
@@ -810,24 +864,24 @@
     ]
   },
   {
-    "id": 30,
-    "info": "2nd-year/renal-1/2019",
+    "id": 32,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is not one of the lines of the parallelogram of Morris used to identify the kidneys from the surface of the back?",
     "answers": [
       {
-        "option": "Horizontal border at the level of L1",
-        "bool": true
+        "option": "Vertical line 2.5 cm from the middle line",
+        "bool": false
       },
       {
-        "option": "Horizontal border at the level of the tips of the spinous process of T11",
-        "bool": false
+        "option": "Horizontal border at the level of L1",
+        "bool": true
       },
       {
         "option": "Horizontal border of the spinous process of L3",
         "bool": false
       },
       {
-        "option": "Vertical line 2.5 cm from the middle line",
+        "option": "Horizontal border at the level of the tips of the spinous process of T11",
         "bool": false
       },
       {
@@ -837,18 +891,10 @@
     ]
   },
   {
-    "id": 31,
-    "info": "2nd-year/renal-1/2019",
+    "id": 33,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is seen in compensated metabolic alkalosis?",
     "answers": [
-      {
-        "option": "HCO3- level is decreased and pCO2 level is increased",
-        "bool": false
-      },
-      {
-        "option": "HCO3- and pCO2 levels are increased in blood",
-        "bool": true
-      },
       {
         "option": "HCO3- level is increased and pCO2 level is decreased",
         "bool": false
@@ -860,20 +906,24 @@
       {
         "option": "HCO3- level is increased and pCO2 level is in normal range",
         "bool": false
+      },
+      {
+        "option": "HCO3- level is decreased and pCO2 level is increased",
+        "bool": false
+      },
+      {
+        "option": "HCO3- and pCO2 levels are increased in blood",
+        "bool": true
       }
     ]
   },
   {
-    "id": 32,
-    "info": "2nd-year/renal-1/2019",
+    "id": 34,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following amino acids donates nitrogen in both purine and pyrimidine synthesis?",
     "answers": [
       {
-        "option": "Glutamine",
-        "bool": true
-      },
-      {
-        "option": "Valine",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -885,14 +935,18 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Valine",
         "bool": false
+      },
+      {
+        "option": "Glutamine",
+        "bool": true
       }
     ]
   },
   {
-    "id": 33,
-    "info": "2nd-year/renal-1/2019",
+    "id": 35,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following products of the kidney helps in the absorption of calcium in the intestines?",
     "answers": [
       {
@@ -900,11 +954,11 @@
         "bool": false
       },
       {
-        "option": "1,25-dihydroxycholecalciferol",
-        "bool": true
+        "option": "Calcidiol",
+        "bool": false
       },
       {
-        "option": "Calcidiol",
+        "option": "24,25-dihydroxycholecalciferol",
         "bool": false
       },
       {
@@ -912,18 +966,18 @@
         "bool": false
       },
       {
-        "option": "24,25-dihydroxycholecalciferol",
-        "bool": false
+        "option": "1,25-dihydroxycholecalciferol",
+        "bool": true
       }
     ]
   },
   {
-    "id": 34,
-    "info": "2nd-year/renal-1/2019",
+    "id": 36,
+    "info": "2nd-year/renal/2019",
     "question": "From which of the following organs, water loss from the body does not occur?",
     "answers": [
       {
-        "option": "Lungs",
+        "option": "Skin",
         "bool": false
       },
       {
@@ -939,18 +993,18 @@
         "bool": false
       },
       {
-        "option": "Skin",
+        "option": "Lungs",
         "bool": false
       }
     ]
   },
   {
-    "id": 35,
-    "info": "2nd-year/renal-1/2019",
+    "id": 37,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following favors glomerular filtration?",
     "answers": [
       {
-        "option": "Bowman's capsule hydrostatic pressure",
+        "option": "Glomerular capillary colloid osmotic pressure",
         "bool": false
       },
       {
@@ -958,11 +1012,11 @@
         "bool": false
       },
       {
-        "option": "Peritubular capillary hydrostatic pressure",
+        "option": "Bowman's capsule hydrostatic pressure",
         "bool": false
       },
       {
-        "option": "Glomerular capillary colloid osmotic pressure",
+        "option": "Peritubular capillary hydrostatic pressure",
         "bool": false
       },
       {
@@ -972,12 +1026,12 @@
     ]
   },
   {
-    "id": 36,
-    "info": "2nd-year/renal-1/2019",
+    "id": 38,
+    "info": "2nd-year/renal/2019",
     "question": "Decrease in the sodium and chloride levels causes macula densa to do which of the following?",
     "answers": [
       {
-        "option": "Cause systemic vasodilation",
+        "option": "Release angiotensin-converting enzyme (ACE)",
         "bool": false
       },
       {
@@ -985,12 +1039,12 @@
         "bool": false
       },
       {
-        "option": "Release angiotensin-converting enzyme (ACE)",
-        "bool": false
-      },
-      {
         "option": "Stimulate juxtaglomerular cells to produce renin",
         "bool": true
+      },
+      {
+        "option": "Cause systemic vasodilation",
+        "bool": false
       },
       {
         "option": "Stimulate juxtaglomerular cells to produce erythropoietin",
@@ -999,39 +1053,43 @@
     ]
   },
   {
-    "id": 37,
-    "info": "2nd-year/renal-1/2019",
+    "id": 39,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is correct about the wall of the urinary bladder?",
     "answers": [
       {
-        "option": "It consists of a smooth muscle layer lined by transitional epithelium",
-        "bool": true
-      },
-      {
         "option": "It consists of a smooth muscle layer lined by pseudostratified columnar epithelium",
         "bool": false
+      },
+      {
+        "option": "It consists of a smooth muscle layer lined by transitional epithelium",
+        "bool": true
       },
       {
         "option": "It consists of a skeletal muscle layer lined by transitional epithelium",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "It consists of an outer smooth muscle layer and an inner skeletal muscle layer lined by transitional epithelium",
         "bool": false
       },
       {
-        "option": "It consists of an outer smooth muscle layer and an inner skeletal muscle layer lined by transitional epithelium",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 38,
-    "info": "2nd-year/renal-1/2019",
+    "id": 40,
+    "info": "2nd-year/renal/2019",
     "question": "Which of these is not an isotonic solution?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "0.9% normal saline",
+        "bool": false
+      },
+      {
+        "option": "Lactated ringer's solution",
         "bool": false
       },
       {
@@ -1039,30 +1097,22 @@
         "bool": false
       },
       {
-        "option": "0.9% normal saline",
+        "option": "None of these",
         "bool": false
       },
       {
         "option": "3% normal saline",
         "bool": true
-      },
-      {
-        "option": "Lactated ringer's solution",
-        "bool": false
       }
     ]
   },
   {
-    "id": 39,
-    "info": "2nd-year/renal-1/2019",
+    "id": 41,
+    "info": "2nd-year/renal/2019",
     "question": "What causes urine to flow through a patent urachus to the umbilicus?",
     "answers": [
       {
-        "option": "Urachal fistula",
-        "bool": true
-      },
-      {
-        "option": "Renal agenesis",
+        "option": "Urachal sinus",
         "bool": false
       },
       {
@@ -1070,62 +1120,66 @@
         "bool": false
       },
       {
-        "option": "Urachal sinus",
+        "option": "Ectopic kidney in pelvis",
         "bool": false
       },
       {
-        "option": "Ectopic kidney in pelvis",
+        "option": "Renal agenesis",
         "bool": false
+      },
+      {
+        "option": "Urachal fistula",
+        "bool": true
       }
     ]
   },
   {
-    "id": 40,
-    "info": "2nd-year/renal-1/2019",
+    "id": 42,
+    "info": "2nd-year/renal/2019",
     "question": "What is the osmolality of most concentrated urine?",
     "answers": [
       {
-        "option": "200 mOsm/L",
-        "bool": false
-      },
-      {
-        "option": "600 mOsm/L",
-        "bool": false
-      },
-      {
         "option": "1200 mOsm/L",
         "bool": true
+      },
+      {
+        "option": "300 mOsm/L",
+        "bool": false
+      },
+      {
+        "option": "200 mOsm/L",
+        "bool": false
       },
       {
         "option": "400 mOsm/L",
         "bool": false
       },
       {
-        "option": "300 mOsm/L",
+        "option": "600 mOsm/L",
         "bool": false
       }
     ]
   },
   {
-    "id": 41,
-    "info": "2nd-year/renal-1/2019",
+    "id": 43,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following contribute towards making the urine concentrated?",
     "answers": [
-      {
-        "option": "Aldosterone and renin",
-        "bool": false
-      },
-      {
-        "option": "Antidiuretic hormone and hyperosmotic medullary interstitium",
-        "bool": true
-      },
       {
         "option": "Aldosterone and cortical nephrons",
         "bool": false
       },
       {
+        "option": "Aldosterone and renin",
+        "bool": false
+      },
+      {
         "option": "Antidiuretic hormone and hypoosmotic medullary interstitium",
         "bool": false
+      },
+      {
+        "option": "Antidiuretic hormone and hyperosmotic medullary interstitium",
+        "bool": true
       },
       {
         "option": "Aldosterone and hyperosmotic medullary interstitium",
@@ -1134,24 +1188,24 @@
     ]
   },
   {
-    "id": 42,
-    "info": "2nd-year/renal-1/2019",
+    "id": 44,
+    "info": "2nd-year/renal/2019",
     "question": "What is the osmolality of filtrate in Bowman's capsule?",
     "answers": [
-      {
-        "option": "200 mOsm/L",
-        "bool": false
-      },
       {
         "option": "300 mOsm/L",
         "bool": true
       },
       {
-        "option": "1200 mOsm/L",
+        "option": "400 mOsm/L",
         "bool": false
       },
       {
-        "option": "400 mOsm/L",
+        "option": "200 mOsm/L",
+        "bool": false
+      },
+      {
+        "option": "1200 mOsm/L",
         "bool": false
       },
       {
@@ -1161,10 +1215,18 @@
     ]
   },
   {
-    "id": 43,
-    "info": "2nd-year/renal-1/2019",
+    "id": 45,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the most powerful diuretic?",
     "answers": [
+      {
+        "option": "Acetazolamide",
+        "bool": false
+      },
+      {
+        "option": "Spironolactone",
+        "bool": false
+      },
       {
         "option": "Amiloride",
         "bool": false
@@ -1176,29 +1238,25 @@
       {
         "option": "Furosemide",
         "bool": true
-      },
-      {
-        "option": "Acetazolamide",
-        "bool": false
-      },
-      {
-        "option": "Spironolactone",
-        "bool": false
       }
     ]
   },
   {
-    "id": 44,
-    "info": "2nd-year/renal-1/2019",
+    "id": 46,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following would stimulate the release of antidiuretic hormone?",
     "answers": [
       {
-        "option": "Increased osmolality of blood",
-        "bool": true
+        "option": "Atrial natriuretic peptide",
+        "bool": false
       },
       {
         "option": "Increase in blood volume",
         "bool": false
+      },
+      {
+        "option": "Increased osmolality of blood",
+        "bool": true
       },
       {
         "option": "Increase in blood pressure",
@@ -1207,55 +1265,70 @@
       {
         "option": "Decreased osmolality of blood",
         "bool": false
-      },
-      {
-        "option": "Atrial natriuretic peptide",
-        "bool": false
       }
     ]
   },
   {
-    "id": 45,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is the end-product of purine metabolism?",
+    "id": 47,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is the most common cause of chronic renal failure?",
     "answers": [
       {
-        "option": "Ammonia",
+        "option": "Central diabetes insipidus and hypertension",
         "bool": false
       },
       {
-        "option": "Uracil",
+        "option": "Nephrogenic diabetes insipidus and hypertension",
         "bool": false
       },
       {
-        "option": "Urea",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "Guanine",
-        "bool": false
-      },
-      {
-        "option": "Uric acid",
+        "option": "Diabetes mellitus and hypertension",
         "bool": true
+      },
+      {
+        "option": "Diabetes mellitus and hypotension",
+        "bool": false
       }
     ]
   },
   {
-    "id": 46,
-    "info": "2nd-year/renal-1/2019",
+    "id": 48,
+    "info": "2nd-year/renal/2019",
+    "question": "What is the extension of the cortex in the renal medulla called?",
+    "answers": [
+      {
+        "option": "Renal columns",
+        "bool": true
+      },
+      {
+        "option": "Major calices",
+        "bool": false
+      },
+      {
+        "option": "Minor calices",
+        "bool": false
+      },
+      {
+        "option": "Renal pyramids",
+        "bool": false
+      },
+      {
+        "option": "Medullary rays",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the precursor of adenine monophosphate and guanine monophosphate ?",
     "answers": [
       {
-        "option": "Glutamine",
-        "bool": false
-      },
-      {
         "option": "Uric acid",
-        "bool": false
-      },
-      {
-        "option": "Orotate",
         "bool": false
       },
       {
@@ -1265,14 +1338,30 @@
       {
         "option": "Inosine monophosphate (IMP)",
         "bool": true
+      },
+      {
+        "option": "Orotate",
+        "bool": false
+      },
+      {
+        "option": "Glutamine",
+        "bool": false
       }
     ]
   },
   {
-    "id": 47,
-    "info": "2nd-year/renal-1/2019",
+    "id": 50,
+    "info": "2nd-year/renal/2019",
     "question": "Lesch Nyhan syndrome is due to a defect in which of the following processes?",
     "answers": [
+      {
+        "option": "Purine degradation",
+        "bool": false
+      },
+      {
+        "option": "Purine salvage",
+        "bool": true
+      },
       {
         "option": "Pyrimidine synthesis",
         "bool": false
@@ -1282,115 +1371,26 @@
         "bool": false
       },
       {
-        "option": "Purine salvage",
-        "bool": true
-      },
-      {
-        "option": "Purine degradation",
-        "bool": false
-      },
-      {
         "option": "Pyrimidine degradation",
         "bool": false
       }
     ]
   },
   {
-    "id": 48,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is the most common cause of chronic renal failure?",
-    "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Diabetes mellitus and hypotension",
-        "bool": false
-      },
-      {
-        "option": "Central diabetes insipidus and hypertension",
-        "bool": false
-      },
-      {
-        "option": "Diabetes mellitus and hypertension",
-        "bool": true
-      },
-      {
-        "option": "Nephrogenic diabetes insipidus and hypertension",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "info": "2nd-year/renal-1/2019",
-    "question": "What is the extension of the cortex in the renal medulla called?",
-    "answers": [
-      {
-        "option": "Minor calices",
-        "bool": false
-      },
-      {
-        "option": "Medullary rays",
-        "bool": false
-      },
-      {
-        "option": "Renal pyramids",
-        "bool": false
-      },
-      {
-        "option": "Renal columns",
-        "bool": true
-      },
-      {
-        "option": "Major calices",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Normal anion gap with metabolic acidosis is seen in which of the following conditions?",
-    "answers": [
-      {
-        "option": "Chronic kidney disease",
-        "bool": false
-      },
-      {
-        "option": "Lactic acidosis",
-        "bool": false
-      },
-      {
-        "option": "Renal tubular acidosis",
-        "bool": true
-      },
-      {
-        "option": "Ketoacidosis",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      }
-    ]
-  },
-  {
     "id": 51,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "During degradation of purine nucleotides to uric acid, inosine monophosphate and guanosine monophosphate are broken down by which of the following enzymes?",
     "answers": [
-      {
-        "option": "Ribonucleotide reductase",
-        "bool": false
-      },
       {
         "option": "Guanylate kinase",
         "bool": false
       },
       {
-        "option": "Adenosine deaminase",
+        "option": "Xanthine oxidase",
+        "bool": false
+      },
+      {
+        "option": "Ribonucleotide reductase",
         "bool": false
       },
       {
@@ -1398,18 +1398,18 @@
         "bool": true
       },
       {
-        "option": "Xanthine oxidase",
+        "option": "Adenosine deaminase",
         "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Aspartate enters the tricarboxylic acid cycle (TCA cycle) in the form of which of the following?",
     "answers": [
       {
-        "option": "Alpha-ketoglutarate",
+        "option": "Citrate",
         "bool": false
       },
       {
@@ -1417,12 +1417,12 @@
         "bool": false
       },
       {
-        "option": "Citrate",
-        "bool": false
-      },
-      {
         "option": "Oxaloacetate",
         "bool": true
+      },
+      {
+        "option": "Alpha-ketoglutarate",
+        "bool": false
       },
       {
         "option": "Succinic acid",
@@ -1432,15 +1432,11 @@
   },
   {
     "id": 53,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following urea transporters are affected by antidiuretic hormone?",
     "answers": [
       {
-        "option": "UT-A1 and UT-A2",
-        "bool": false
-      },
-      {
-        "option": "UT-A2 and UT-A3",
+        "option": "No urea transporter is affected by antidiuretic hormone",
         "bool": false
       },
       {
@@ -1448,26 +1444,30 @@
         "bool": false
       },
       {
-        "option": "No urea transporter is affected by antidiuretic hormone",
+        "option": "UT-A1 and UT-A2",
         "bool": false
       },
       {
         "option": "UT-A1 and UT-A3",
         "bool": true
+      },
+      {
+        "option": "UT-A2 and UT-A3",
+        "bool": false
       }
     ]
   },
   {
     "id": 54,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the most common cause of pyelonephritis?",
     "answers": [
       {
-        "option": "Klebsiella species",
+        "option": "Staphylococcus saprophyticus",
         "bool": false
       },
       {
-        "option": "Proteus mirabilis",
+        "option": "Klebsiella species",
         "bool": false
       },
       {
@@ -1475,20 +1475,24 @@
         "bool": false
       },
       {
-        "option": "E. coli",
-        "bool": true
+        "option": "Proteus mirabilis",
+        "bool": false
       },
       {
-        "option": "Staphylococcus saprophyticus",
-        "bool": false
+        "option": "E. coli",
+        "bool": true
       }
     ]
   },
   {
     "id": 55,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "A 12-year-old girl is brought to the clinic because of swelling around her eyes. On physical examination, she is afebrile and has periorbital edema. Laboratory findings show proteinuria on dipstick urinalysis, but no gross or microscopic hematuria. Microscopic examination of the urine shows numerous oval fat bodies. Serum creatinine level is 2.3 mg/dL. On electron microscopy, effacement of foot processes is seen. What is most likely the diagnosis?",
     "answers": [
+      {
+        "option": "Minimal change disease",
+        "bool": true
+      },
       {
         "option": "Poststreptococcal glomerulonephritis",
         "bool": false
@@ -1502,10 +1506,6 @@
         "bool": false
       },
       {
-        "option": "Minimal change disease",
-        "bool": true
-      },
-      {
         "option": "Acute kidney injury",
         "bool": false
       }
@@ -1513,12 +1513,16 @@
   },
   {
     "id": 56,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "What will be the effect on the size of kidneys of a person who is suffering from end-stage renal disease and has been on prolonged dialysis?",
     "answers": [
       {
-        "option": "The size of kidneys will not be affected",
+        "option": "The size of kidneys will first increase and then decrease",
         "bool": false
+      },
+      {
+        "option": "Kidneys will reduce in size",
+        "bool": true
       },
       {
         "option": "None of these",
@@ -1529,18 +1533,41 @@
         "bool": false
       },
       {
-        "option": "Kidneys will reduce in size",
-        "bool": true
-      },
-      {
-        "option": "The size of kidneys will first increase and then decrease",
+        "option": "The size of kidneys will not be affected",
         "bool": false
       }
     ]
   },
   {
     "id": 57,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
+    "question": "Normal anion gap with metabolic acidosis is seen in which of the following conditions?",
+    "answers": [
+      {
+        "option": "Lactic acidosis",
+        "bool": false
+      },
+      {
+        "option": "Renal tubular acidosis",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Chronic kidney disease",
+        "bool": false
+      },
+      {
+        "option": "Ketoacidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the most common cause of acute renal failure?",
     "answers": [
       {
@@ -1552,7 +1579,7 @@
         "bool": false
       },
       {
-        "option": "Renal papillary necrosis",
+        "option": "Polycystic kidney disease",
         "bool": false
       },
       {
@@ -1560,51 +1587,43 @@
         "bool": false
       },
       {
-        "option": "Polycystic kidney disease",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Post-streptococcal glomerulonephritis causes which of the following?",
-    "answers": [
-      {
-        "option": "Urinary tract infection",
-        "bool": false
-      },
-      {
-        "option": "Nephrotic syndrome",
-        "bool": false
-      },
-      {
-        "option": "Nephritic syndrome",
-        "bool": true
-      },
-      {
-        "option": "Nephrolithiasis",
-        "bool": false
-      },
-      {
-        "option": "Alport syndrome",
+        "option": "Renal papillary necrosis",
         "bool": false
       }
     ]
   },
   {
     "id": 59,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is an example of loop diuretics?",
+    "info": "2nd-year/renal/2019",
+    "question": "Post-streptococcal glomerulonephritis causes which of the following?",
     "answers": [
       {
-        "option": "Metolazone",
+        "option": "Nephritic syndrome",
+        "bool": true
+      },
+      {
+        "option": "Alport syndrome",
         "bool": false
       },
       {
-        "option": "Chlorthalidone",
+        "option": "Urinary tract infection",
         "bool": false
       },
+      {
+        "option": "Nephrolithiasis",
+        "bool": false
+      },
+      {
+        "option": "Nephrotic syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is an example of loop diuretics?",
+    "answers": [
       {
         "option": "Bumetanide",
         "bool": true
@@ -1614,26 +1633,30 @@
         "bool": false
       },
       {
+        "option": "Chlorthalidone",
+        "bool": false
+      },
+      {
         "option": "Indapamide",
+        "bool": false
+      },
+      {
+        "option": "Metolazone",
         "bool": false
       }
     ]
   },
   {
-    "id": 60,
-    "info": "2nd-year/renal-1/2019",
+    "id": 61,
+    "info": "2nd-year/renal/2019",
     "question": "Mammals other than primates synthesize which of the following substances from uric acid?",
     "answers": [
       {
-        "option": "Ammonia",
-        "bool": false
+        "option": "Allantoin",
+        "bool": true
       },
       {
         "option": "It is excreted directly in urine without being converted into any other substance",
-        "bool": false
-      },
-      {
-        "option": "Urea",
         "bool": false
       },
       {
@@ -1641,43 +1664,55 @@
         "bool": false
       },
       {
-        "option": "Allantoin",
-        "bool": true
+        "option": "Urea",
+        "bool": false
+      },
+      {
+        "option": "Ammonia",
+        "bool": false
       }
     ]
   },
   {
-    "id": 61,
-    "info": "2nd-year/renal-1/2019",
+    "id": 62,
+    "info": "2nd-year/renal/2019",
     "question": "In which of the following organs does purine de novo synthesis not occur?",
     "answers": [
-      {
-        "option": "Liver",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Kidney",
-        "bool": false
+        "option": "Brain",
+        "bool": true
       },
       {
         "option": "Muscle",
         "bool": false
       },
       {
-        "option": "Brain",
-        "bool": true
+        "option": "Liver",
+        "bool": false
+      },
+      {
+        "option": "Kidney",
+        "bool": false
       }
     ]
   },
   {
-    "id": 62,
-    "info": "2nd-year/renal-1/2019",
+    "id": 63,
+    "info": "2nd-year/renal/2019",
     "question": "Megaloblastic anemia is associated with which of the following defects in nucleotide metabolism?",
     "answers": [
+      {
+        "option": "Hyperuricemia and gout",
+        "bool": false
+      },
+      {
+        "option": "Lesch-Nyhan syndrome (LNS)",
+        "bool": false
+      },
       {
         "option": "None of these",
         "bool": false
@@ -1687,26 +1722,22 @@
         "bool": false
       },
       {
-        "option": "Lesch-Nyhan syndrome (LNS)",
-        "bool": false
-      },
-      {
         "option": "Orotic aciduria",
         "bool": true
-      },
-      {
-        "option": "Hyperuricemia and gout",
-        "bool": false
       }
     ]
   },
   {
-    "id": 63,
-    "info": "2nd-year/renal-1/2019",
+    "id": 64,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is diagnostic of acute gout?",
     "answers": [
       {
-        "option": "Magnetic resonance imaging",
+        "option": "Radiology of joint",
+        "bool": false
+      },
+      {
+        "option": "Acute phase reactants",
         "bool": false
       },
       {
@@ -1714,57 +1745,22 @@
         "bool": false
       },
       {
-        "option": "Radiology of joint",
-        "bool": false
-      },
-      {
         "option": "Monosodium urate crystals on joint aspiration",
         "bool": true
       },
       {
-        "option": "Acute phase reactants",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Ribosyl moiety in purine synthesis is donated by which of the following?",
-    "answers": [
-      {
-        "option": "Phosphoribosyl pyrophosphate",
-        "bool": true
-      },
-      {
-        "option": "Inosine monophosphate",
-        "bool": false
-      },
-      {
-        "option": "Aspartate",
-        "bool": false
-      },
-      {
-        "option": "Glutamine",
-        "bool": false
-      },
-      {
-        "option": "Tetrahydrofolate",
+        "option": "Magnetic resonance imaging",
         "bool": false
       }
     ]
   },
   {
     "id": 65,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following causes an increase in blood pressure?",
     "answers": [
       {
-        "option": "Erythropoietin",
-        "bool": false
-      },
-      {
-        "option": "Atrial natriuretic peptide",
+        "option": "Prostaglandin E",
         "bool": false
       },
       {
@@ -1776,20 +1772,47 @@
         "bool": false
       },
       {
-        "option": "Prostaglandin E",
+        "option": "Erythropoietin",
+        "bool": false
+      },
+      {
+        "option": "Atrial natriuretic peptide",
         "bool": false
       }
     ]
   },
   {
     "id": 66,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is a histological feature of the renal cortex?",
+    "info": "2nd-year/renal/2019",
+    "question": "Ribosyl moiety in purine synthesis is donated by which of the following?",
     "answers": [
       {
-        "option": "Simple cuboidal epithelium with brush border lining the proximal convulated tubules",
+        "option": "Phosphoribosyl pyrophosphate",
         "bool": true
       },
+      {
+        "option": "Glutamine",
+        "bool": false
+      },
+      {
+        "option": "Tetrahydrofolate",
+        "bool": false
+      },
+      {
+        "option": "Inosine monophosphate",
+        "bool": false
+      },
+      {
+        "option": "Aspartate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is a histological feature of the renal cortex?",
+    "answers": [
       {
         "option": "Cuboidal epithelium lining the bowman's capsule",
         "bool": false
@@ -1805,24 +1828,24 @@
       {
         "option": "Glomerulus containing podocytes",
         "bool": false
+      },
+      {
+        "option": "Simple cuboidal epithelium with brush border lining the proximal convulated tubules",
+        "bool": true
       }
     ]
   },
   {
-    "id": 67,
-    "info": "2nd-year/renal-1/2019",
+    "id": 68,
+    "info": "2nd-year/renal/2019",
     "question": "What is the width of the filtration slit that separates the adjacent foot processes of podocytes?",
     "answers": [
       {
-        "option": "40 nm",
-        "bool": true
-      },
-      {
-        "option": "20 nm",
+        "option": "30 nm",
         "bool": false
       },
       {
-        "option": "30 nm",
+        "option": "20 nm",
         "bool": false
       },
       {
@@ -1832,21 +1855,25 @@
       {
         "option": "25 nm",
         "bool": false
+      },
+      {
+        "option": "40 nm",
+        "bool": true
       }
     ]
   },
   {
-    "id": 68,
-    "info": "2nd-year/renal-1/2019",
+    "id": 69,
+    "info": "2nd-year/renal/2019",
     "question": "Which is true about creatinine during glomerular filtration at normal levels?",
     "answers": [
       {
-        "option": "Secreted and reabsorbed by the tubule",
-        "bool": false
-      },
-      {
         "option": "Secreted by the tubule",
         "bool": true
+      },
+      {
+        "option": "Reabsorbed by the tubule",
+        "bool": false
       },
       {
         "option": "Neither secreted nor reabsorbed by the tubule",
@@ -1857,49 +1884,49 @@
         "bool": false
       },
       {
-        "option": "Reabsorbed by the tubule",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Where does the hilum of the left kidney lie?",
-    "answers": [
-      {
-        "option": "The transpyloric plane, 5 cm from the median plane",
-        "bool": true
-      },
-      {
-        "option": "The subcostal plane",
-        "bool": false
-      },
-      {
-        "option": "The interspinous plane",
-        "bool": false
-      },
-      {
-        "option": "The transtubercular plane, 5 cm from the median plane",
-        "bool": false
-      },
-      {
-        "option": "The junction of midclavicular line and the transtubercular plane",
+        "option": "Secreted and reabsorbed by the tubule",
         "bool": false
       }
     ]
   },
   {
     "id": 70,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is a disease that includes the proliferation of cells, infiltration of leukocytes, and deposition of immune complexes in glomerular mesangium and basement membrane?",
+    "info": "2nd-year/renal/2019",
+    "question": "Where does the hilum of the left kidney lie?",
     "answers": [
       {
-        "option": "Focal segmental glomerulosclerosis",
+        "option": "The subcostal plane",
         "bool": false
       },
       {
+        "option": "The junction of midclavicular line and the transtubercular plane",
+        "bool": false
+      },
+      {
+        "option": "The transpyloric plane, 5 cm from the median plane",
+        "bool": true
+      },
+      {
+        "option": "The transtubercular plane, 5 cm from the median plane",
+        "bool": false
+      },
+      {
+        "option": "The interspinous plane",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is a disease that includes the proliferation of cells, infiltration of leukocytes, and deposition of immune complexes in glomerular mesangium and basement membrane?",
+    "answers": [
+      {
         "option": "Nephritic syndrome",
+        "bool": false
+      },
+      {
+        "option": "Focal segmental glomerulosclerosis",
         "bool": false
       },
       {
@@ -1917,18 +1944,10 @@
     ]
   },
   {
-    "id": 71,
-    "info": "2nd-year/renal-1/2019",
+    "id": 72,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following organisms is responsible for xanthogranulomatous pyelonephritis?",
     "answers": [
-      {
-        "option": "Neisseria gonorrhoeae",
-        "bool": false
-      },
-      {
-        "option": "Proteus",
-        "bool": true
-      },
       {
         "option": "Klebsiella",
         "bool": false
@@ -1938,14 +1957,22 @@
         "bool": false
       },
       {
+        "option": "Proteus",
+        "bool": true
+      },
+      {
+        "option": "Neisseria gonorrhoeae",
+        "bool": false
+      },
+      {
         "option": "E. coli",
         "bool": false
       }
     ]
   },
   {
-    "id": 72,
-    "info": "2nd-year/renal-1/2019",
+    "id": 73,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is correct about pure water?",
     "answers": [
       {
@@ -1957,34 +1984,34 @@
         "bool": false
       },
       {
-        "option": "It acts as a solvent and is a bad conductor of current",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
         "option": "It acts as a solute and is a bad conductor of current",
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
+        "option": "It acts as a solvent and is a bad conductor of current",
+        "bool": true
       }
     ]
   },
   {
-    "id": 73,
-    "info": "2nd-year/renal-1/2019",
+    "id": 74,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the most preferred fluid to be given to a hypovolemic patient?",
     "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
       {
         "option": "5% dextrose",
         "bool": false
       },
       {
-        "option": "2/3% normal saline",
-        "bool": false
-      },
-      {
-        "option": "None of these",
+        "option": "1/3% normal saline",
         "bool": false
       },
       {
@@ -1992,16 +2019,20 @@
         "bool": true
       },
       {
-        "option": "1/3% normal saline",
+        "option": "2/3% normal saline",
         "bool": false
       }
     ]
   },
   {
-    "id": 74,
-    "info": "2nd-year/renal-1/2019",
+    "id": 75,
+    "info": "2nd-year/renal/2019",
     "question": "A person has lost a lot of blood in a traumatic accident. What should be given to him immediately?",
     "answers": [
+      {
+        "option": "2% normal saline",
+        "bool": false
+      },
       {
         "option": "5% dextrose",
         "bool": false
@@ -2015,27 +2046,23 @@
         "bool": false
       },
       {
-        "option": "2% normal saline",
-        "bool": false
-      },
-      {
         "option": "3% normal saline",
         "bool": false
       }
     ]
   },
   {
-    "id": 75,
-    "info": "2nd-year/renal-1/2019",
+    "id": 76,
+    "info": "2nd-year/renal/2019",
     "question": "Proteins are reabsorbed in the renal tubule by which of the following processes?",
     "answers": [
       {
-        "option": "Passive transport",
+        "option": "Phagocytosis",
         "bool": false
       },
       {
-        "option": "Pinocytosis",
-        "bool": true
+        "option": "Passive transport",
+        "bool": false
       },
       {
         "option": "Paracellular transport",
@@ -2046,18 +2073,18 @@
         "bool": false
       },
       {
-        "option": "Phagocytosis",
-        "bool": false
+        "option": "Pinocytosis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 76,
-    "info": "2nd-year/renal-1/2019",
+    "id": 77,
+    "info": "2nd-year/renal/2019",
     "question": "An increase in extracellular fluid osmolarity causes special nerve cells called osmoreceptor cells to stimulate the release of antidiuretic hormone (ADH) from the posterior pituitary gland. Where in the brain are these osmoreceptors located?",
     "answers": [
       {
-        "option": "Brainstem",
+        "option": "Thalamus",
         "bool": false
       },
       {
@@ -2065,26 +2092,26 @@
         "bool": false
       },
       {
+        "option": "Hypothalamus",
+        "bool": true
+      },
+      {
         "option": "Cerebellum",
         "bool": false
       },
       {
-        "option": "Thalamus",
+        "option": "Brainstem",
         "bool": false
-      },
-      {
-        "option": "Hypothalamus",
-        "bool": true
       }
     ]
   },
   {
-    "id": 77,
-    "info": "2nd-year/renal-1/2019",
+    "id": 78,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following parts of the urinary tract is not a common site for stone formation?",
     "answers": [
       {
-        "option": "Pelvis",
+        "option": "Renal calyces",
         "bool": false
       },
       {
@@ -2092,138 +2119,30 @@
         "bool": true
       },
       {
+        "option": "Bladder",
+        "bool": false
+      },
+      {
         "option": "Ureters",
         "bool": false
       },
       {
-        "option": "Renal calyces",
-        "bool": false
-      },
-      {
-        "option": "Bladder",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "info": "2nd-year/renal-1/2019",
-    "question": "The least dilated part of male urethra develops from which of the following?",
-    "answers": [
-      {
-        "option": "Allantois",
-        "bool": false
-      },
-      {
-        "option": "Surface ectoderm",
-        "bool": false
-      },
-      {
-        "option": "Vesical part of urogenital sinus",
-        "bool": false
-      },
-      {
-        "option": "Pelvic part of urogenital sinus",
-        "bool": true
-      },
-      {
-        "option": "Phallic part of urogenital sinus",
+        "option": "Pelvis",
         "bool": false
       }
     ]
   },
   {
     "id": 79,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Regarding glomerular diseases, which of the following has hump-like deposits appearing as electron microscope findings?",
+    "info": "2nd-year/renal/2019",
+    "question": "Kussmaul's breathing is characterized by a deep, rapid breathing pattern that is seen with diabetic ketoacidosis. What is the role of Kussmaul's breathing?",
     "answers": [
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Chronic glomerulonephritis",
-        "bool": false
-      },
-      {
-        "option": "Membranoproliferative glomerulonephritis",
-        "bool": false
-      },
-      {
-        "option": "Rapidly progressive glomerulonephritis",
-        "bool": false
-      },
-      {
-        "option": "Post-streptococcal glomerulonephritis",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is not formed by the urogenital sinus?",
-    "answers": [
-      {
-        "option": "Seminal vesicle",
-        "bool": true
-      },
-      {
-        "option": "Prostate gland",
-        "bool": false
-      },
-      {
-        "option": "Urinary bladder",
-        "bool": false
-      },
-      {
-        "option": "Penile urethra",
-        "bool": false
-      },
-      {
-        "option": "Bulbourethral gland",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "info": "2nd-year/renal-1/2019",
-    "question": "The renal arterioles are the branch of which of the following arteries?",
-    "answers": [
-      {
-        "option": "Interlobar artery",
-        "bool": false
-      },
-      {
-        "option": "Abdominal aorta",
-        "bool": false
-      },
-      {
-        "option": "Renal artery",
-        "bool": false
-      },
-      {
-        "option": "Interlobular artery",
-        "bool": true
-      },
-      {
-        "option": "Arcuate artery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Kussmaul's breathing is characterized by a deep, rapid breathing pattern that is seen with diabetic ketoacidosis. What is the role of Kussmaul's breathing?",
-    "answers": [
-      {
         "option": "To decrease volatile ketones from blood by exhaling them out",
-        "bool": false
-      },
-      {
-        "option": "To increase blood oxygen concentration",
         "bool": false
       },
       {
@@ -2235,16 +2154,20 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "To increase blood oxygen concentration",
         "bool": false
       }
     ]
   },
   {
-    "id": 83,
-    "info": "2nd-year/renal-1/2019",
+    "id": 80,
+    "info": "2nd-year/renal/2019",
     "question": "Reabsorption of sodium in renal tubules is associated with the exchange of which of these ions?",
     "answers": [
+      {
+        "option": "Cl- ions",
+        "bool": false
+      },
       {
         "option": "H+ ions",
         "bool": false
@@ -2258,57 +2181,49 @@
         "bool": false
       },
       {
-        "option": "Cl- ions",
-        "bool": false
-      },
-      {
         "option": "HCO3- ions",
         "bool": false
       }
     ]
   },
   {
-    "id": 84,
-    "info": "2nd-year/renal-1/2019",
+    "id": 81,
+    "info": "2nd-year/renal/2019",
     "question": "What is the reason behind polyuria seen in diabetes?",
     "answers": [
       {
-        "option": "Decreased synthesis of antidiuretic hormone (ADH)",
-        "bool": false
-      },
-      {
         "option": "Excess levels of sugar in urine",
         "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
       },
       {
         "option": "Increased hydrostatic pressure in Bowman's capsule",
         "bool": false
       },
       {
-        "option": "Improper tubular reabsorption of solutes",
+        "option": "Decreased synthesis of antidiuretic hormone (ADH)",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Improper tubular reabsorption of solutes",
         "bool": false
       }
     ]
   },
   {
-    "id": 85,
-    "info": "2nd-year/renal-1/2019",
+    "id": 82,
+    "info": "2nd-year/renal/2019",
     "question": "What is the combined blood flow through both kidneys in a normal adult man?",
     "answers": [
-      {
-        "option": "750 ml/min",
-        "bool": false
-      },
       {
         "option": "150 ml/min",
         "bool": false
       },
       {
-        "option": "500 ml/min",
+        "option": "1300 ml/min",
         "bool": false
       },
       {
@@ -2316,45 +2231,76 @@
         "bool": true
       },
       {
-        "option": "1300 ml/min",
+        "option": "750 ml/min",
+        "bool": false
+      },
+      {
+        "option": "500 ml/min",
         "bool": false
       }
     ]
   },
   {
-    "id": 86,
-    "info": "2nd-year/renal-1/2019",
+    "id": 83,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following urine findings is observed in case of an infection with group A beta-hemolytic post-streptococcal infection?",
     "answers": [
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Polyuria",
-        "bool": false
+        "option": "Red blood cell casts",
+        "bool": true
       },
       {
         "option": "Waxy casts",
         "bool": false
       },
       {
-        "option": "Red blood cell casts",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
         "option": "Massive proteinuria",
+        "bool": false
+      },
+      {
+        "option": "Polyuria",
         "bool": false
       }
     ]
   },
   {
-    "id": 87,
-    "info": "2nd-year/renal-1/2019",
+    "id": 84,
+    "info": "2nd-year/renal/2019",
+    "question": "The least dilated part of male urethra develops from which of the following?",
+    "answers": [
+      {
+        "option": "Allantois",
+        "bool": false
+      },
+      {
+        "option": "Vesical part of urogenital sinus",
+        "bool": false
+      },
+      {
+        "option": "Pelvic part of urogenital sinus",
+        "bool": true
+      },
+      {
+        "option": "Surface ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Phallic part of urogenital sinus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "info": "2nd-year/renal/2019",
     "question": "Penile urethra is mainly formed from which of the following?",
     "answers": [
       {
-        "option": "Vesical part of urogenital sinus",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -2362,24 +2308,59 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "Pelvic part of urogenital sinus",
+        "bool": false
+      },
+      {
+        "option": "Vesical part of urogenital sinus",
         "bool": false
       },
       {
         "option": "Surface ectoderm",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "info": "2nd-year/renal/2019",
+    "question": "Regarding glomerular diseases, which of the following has hump-like deposits appearing as electron microscope findings?",
+    "answers": [
+      {
+        "option": "Rapidly progressive glomerulonephritis",
+        "bool": false
       },
       {
-        "option": "Pelvic part of urogenital sinus",
+        "option": "Post-streptococcal glomerulonephritis",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Membranoproliferative glomerulonephritis",
+        "bool": false
+      },
+      {
+        "option": "Chronic glomerulonephritis",
         "bool": false
       }
     ]
   },
   {
-    "id": 88,
-    "info": "2nd-year/renal-1/2019",
+    "id": 87,
+    "info": "2nd-year/renal/2019",
     "question": "Ureter in female pelvis is present in close association with which of the following?",
     "answers": [
+      {
+        "option": "Body of uterus",
+        "bool": false
+      },
+      {
+        "option": "Fallopian tube",
+        "bool": false
+      },
       {
         "option": "Uterine artery",
         "bool": true
@@ -2391,28 +2372,24 @@
       {
         "option": "Ovarian artery",
         "bool": false
-      },
-      {
-        "option": "Fallopian tube",
-        "bool": false
-      },
-      {
-        "option": "Body of uterus",
-        "bool": false
       }
     ]
   },
   {
-    "id": 89,
-    "info": "2nd-year/renal-1/2019",
+    "id": 88,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is not present anterior to the urinary bladder?",
     "answers": [
       {
-        "option": "Puboprostatic ligament",
-        "bool": false
+        "option": "Body of uterus",
+        "bool": true
       },
       {
         "option": "Pubo-vesical ligament",
+        "bool": false
+      },
+      {
+        "option": "Puboprostatic ligament",
         "bool": false
       },
       {
@@ -2422,20 +2399,20 @@
       {
         "option": "Pubic bones",
         "bool": false
-      },
-      {
-        "option": "Body of uterus",
-        "bool": true
       }
     ]
   },
   {
-    "id": 90,
-    "info": "2nd-year/renal-1/2019",
+    "id": 89,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following renal calculi are larger and have a radiolucent appearance on X-ray?",
     "answers": [
       {
-        "option": "Calcium oxalate stones",
+        "option": "Uric acid stones",
+        "bool": true
+      },
+      {
+        "option": "Calcium phosphate stones",
         "bool": false
       },
       {
@@ -2447,28 +2424,16 @@
         "bool": false
       },
       {
-        "option": "Calcium phosphate stones",
+        "option": "Calcium oxalate stones",
         "bool": false
-      },
-      {
-        "option": "Uric acid stones",
-        "bool": true
       }
     ]
   },
   {
-    "id": 91,
-    "info": "2nd-year/renal-1/2019",
+    "id": 90,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following can be a chronic complication of diabetes type 1?",
     "answers": [
-      {
-        "option": "Hyperosmolar hyperosmotic syndrome (HHS)",
-        "bool": false
-      },
-      {
-        "option": "Hypoglycemia",
-        "bool": false
-      },
       {
         "option": "Diabetic ketoacidosis (DKA)",
         "bool": true
@@ -2478,16 +2443,36 @@
         "bool": false
       },
       {
+        "option": "Hyperosmolar hyperosmotic syndrome (HHS)",
+        "bool": false
+      },
+      {
+        "option": "Hypoglycemia",
+        "bool": false
+      },
+      {
         "option": "Hyperglycemia",
         "bool": false
       }
     ]
   },
   {
-    "id": 92,
-    "info": "2nd-year/renal-1/2019",
+    "id": 91,
+    "info": "2nd-year/renal/2019",
     "question": "What is the compensatory mechanism in respiratory acidosis (increased PCO2)?",
     "answers": [
+      {
+        "option": "Increase in plasma bicarbonate (HCO3-) concentration",
+        "bool": true
+      },
+      {
+        "option": "Decrease in plasma bicarbonate (HCO3-) concentration",
+        "bool": false
+      },
+      {
+        "option": "Decreased respiratory rate",
+        "bool": false
+      },
       {
         "option": "Increased oxygen saturation",
         "bool": false
@@ -2495,28 +2480,43 @@
       {
         "option": "Decreased levels of ammonia",
         "bool": false
-      },
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is not formed by the urogenital sinus?",
+    "answers": [
       {
-        "option": "Increase in plasma bicarbonate (HCO3-) concentration",
-        "bool": true
-      },
-      {
-        "option": "Decreased respiratory rate",
+        "option": "Bulbourethral gland",
         "bool": false
       },
       {
-        "option": "Decrease in plasma bicarbonate (HCO3-) concentration",
+        "option": "Urinary bladder",
+        "bool": false
+      },
+      {
+        "option": "Prostate gland",
+        "bool": false
+      },
+      {
+        "option": "Seminal vesicle",
+        "bool": true
+      },
+      {
+        "option": "Penile urethra",
         "bool": false
       }
     ]
   },
   {
     "id": 93,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which enzyme catalyzes the rate-limiting step of pyrimidine biosynthesis in mammalian cells?",
     "answers": [
       {
-        "option": "Hypoxanthine-guanine phosphoribosyltransferase (HGPRT)",
+        "option": "Aspartate transcarbamoylase",
         "bool": false
       },
       {
@@ -2524,34 +2524,26 @@
         "bool": false
       },
       {
-        "option": "Aspartate transcarbamoylase",
+        "option": "Carbamoyl phosphate synthase II",
+        "bool": true
+      },
+      {
+        "option": "Hypoxanthine-guanine phosphoribosyltransferase (HGPRT)",
         "bool": false
       },
       {
         "option": "Thymidylate synthase",
         "bool": false
-      },
-      {
-        "option": "Carbamoyl phosphate synthase II",
-        "bool": true
       }
     ]
   },
   {
     "id": 94,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following gives rise to the trigone of the bladder?",
     "answers": [
       {
-        "option": "Mesonephric duct",
-        "bool": true
-      },
-      {
         "option": "Endoderm",
-        "bool": false
-      },
-      {
-        "option": "Mullerian duct",
         "bool": false
       },
       {
@@ -2559,22 +2551,84 @@
         "bool": false
       },
       {
+        "option": "Mesonephric duct",
+        "bool": true
+      },
+      {
         "option": "Paramesonephric duct",
+        "bool": false
+      },
+      {
+        "option": "Mullerian duct",
         "bool": false
       }
     ]
   },
   {
     "id": 95,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following supplies blood to the abdominal ureter?",
     "answers": [
+      {
+        "option": "Renal artery",
+        "bool": true
+      },
       {
         "option": "Inferior vena cava",
         "bool": false
       },
       {
+        "option": "Arcuate artery",
+        "bool": false
+      },
+      {
+        "option": "Abdominal aorta",
+        "bool": false
+      },
+      {
         "option": "Uterine vessels",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "info": "2nd-year/renal/2019",
+    "question": "What is the renal capillary pressure across the glomerular capillaries?",
+    "answers": [
+      {
+        "option": "50 mmHg",
+        "bool": false
+      },
+      {
+        "option": "30 mmHg",
+        "bool": false
+      },
+      {
+        "option": "10 mmHg",
+        "bool": false
+      },
+      {
+        "option": "20 mmHg",
+        "bool": false
+      },
+      {
+        "option": "60 mmHg",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "info": "2nd-year/renal/2019",
+    "question": "The renal arterioles are the branch of which of the following arteries?",
+    "answers": [
+      {
+        "option": "Interlobular artery",
+        "bool": true
+      },
+      {
+        "option": "Abdominal aorta",
         "bool": false
       },
       {
@@ -2583,52 +2637,21 @@
       },
       {
         "option": "Renal artery",
-        "bool": true
+        "bool": false
       },
       {
-        "option": "Abdominal aorta",
+        "option": "Interlobar artery",
         "bool": false
       }
     ]
   },
   {
-    "id": 96,
-    "info": "2nd-year/renal-1/2019",
-    "question": "What is the renal capillary pressure across the glomerular capillaries?",
-    "answers": [
-      {
-        "option": "10 mmHg",
-        "bool": false
-      },
-      {
-        "option": "60 mmHg",
-        "bool": true
-      },
-      {
-        "option": "20 mmHg",
-        "bool": false
-      },
-      {
-        "option": "30 mmHg",
-        "bool": false
-      },
-      {
-        "option": "50 mmHg",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "info": "2nd-year/renal-1/2019",
+    "id": 98,
+    "info": "2nd-year/renal/2019",
     "question": "The superior portion of the ureter drains into which of the following lymph nodes?",
     "answers": [
       {
-        "option": "Lateral aortic nodes",
-        "bool": true
-      },
-      {
-        "option": "Internal iliac nodes",
+        "option": "Vesical nodes",
         "bool": false
       },
       {
@@ -2640,18 +2663,22 @@
         "bool": false
       },
       {
-        "option": "Vesical nodes",
+        "option": "Lateral aortic nodes",
+        "bool": true
+      },
+      {
+        "option": "Internal iliac nodes",
         "bool": false
       }
     ]
   },
   {
-    "id": 98,
-    "info": "2nd-year/renal-1/2019",
+    "id": 99,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following cells release the enzyme renin?",
     "answers": [
       {
-        "option": "Brush border cells",
+        "option": "Parietal epithelial cells",
         "bool": false
       },
       {
@@ -2659,12 +2686,12 @@
         "bool": false
       },
       {
-        "option": "Juxtaglomerular cells",
-        "bool": true
+        "option": "Brush border cells",
+        "bool": false
       },
       {
-        "option": "Parietal epithelial cells",
-        "bool": false
+        "option": "Juxtaglomerular cells",
+        "bool": true
       },
       {
         "option": "Interstitial kidney cells",
@@ -2673,21 +2700,13 @@
     ]
   },
   {
-    "id": 99,
-    "info": "2nd-year/renal-1/2019",
+    "id": 100,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following radio-opaque dye is commonly used in intravenous pyelogram?",
     "answers": [
       {
-        "option": "Gadolinium",
-        "bool": false
-      },
-      {
         "option": "Urografin",
         "bool": true
-      },
-      {
-        "option": "Gastrografin",
-        "bool": false
       },
       {
         "option": "Barium Sulphate",
@@ -2696,24 +2715,28 @@
       {
         "option": "Tecnitium",
         "bool": false
+      },
+      {
+        "option": "Gadolinium",
+        "bool": false
+      },
+      {
+        "option": "Gastrografin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 100,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Na\u207a/K\u207a/2Cl\u207b co-transporter is present at which part of the nephron?",
+    "id": 101,
+    "info": "2nd-year/renal/2019",
+    "question": "Na⁺/K⁺/2Cl⁻ co-transporter is present at which part of the nephron?",
     "answers": [
       {
-        "option": "Distal convoluted tubule",
-        "bool": false
+        "option": "Ascending limb of loop of Henle",
+        "bool": true
       },
       {
         "option": "Collecting tubule",
-        "bool": false
-      },
-      {
-        "option": "Descending limb of loop of Henle",
         "bool": false
       },
       {
@@ -2721,57 +2744,61 @@
         "bool": false
       },
       {
-        "option": "Ascending limb of loop of Henle",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Antidiuretic hormone stimulates water reabsorption by stimulating which channel in the nephron?",
-    "answers": [
-      {
-        "option": "Na\u207a/K\u207a/2Cl\u207b co-transporter channel",
+        "option": "Distal convoluted tubule",
         "bool": false
       },
       {
-        "option": "Polycystin 2",
-        "bool": false
-      },
-      {
-        "option": "Aquaporin 2",
-        "bool": true
-      },
-      {
-        "option": "Transient receptor potential channel",
-        "bool": false
-      },
-      {
-        "option": "Renal potassium channel",
+        "option": "Descending limb of loop of Henle",
         "bool": false
       }
     ]
   },
   {
     "id": 102,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following is an acquired cause of vesicoureteral reflux in adults leading to urinary tract infection?",
+    "info": "2nd-year/renal/2019",
+    "question": "Antidiuretic hormone stimulates water reabsorption by stimulating which channel in the nephron?",
     "answers": [
       {
-        "option": "Spinal cord lesions",
+        "option": "Aquaporin 2",
         "bool": true
       },
+      {
+        "option": "Renal potassium channel",
+        "bool": false
+      },
+      {
+        "option": "Na⁺/K⁺/2Cl⁻ co-transporter channel",
+        "bool": false
+      },
+      {
+        "option": "Transient receptor potential channel",
+        "bool": false
+      },
+      {
+        "option": "Polycystin 2",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following is an acquired cause of vesicoureteral reflux in adults leading to urinary tract infection?",
+    "answers": [
       {
         "option": "Bacterial infection",
         "bool": false
       },
       {
-        "option": "Kidney stones",
-        "bool": false
+        "option": "Spinal cord lesions",
+        "bool": true
       },
       {
         "option": "Prostate hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Kidney stones",
         "bool": false
       },
       {
@@ -2781,20 +2808,16 @@
     ]
   },
   {
-    "id": 103,
-    "info": "2nd-year/renal-1/2019",
+    "id": 104,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is not derived from ureteric bud?",
     "answers": [
       {
-        "option": "Bladder",
-        "bool": true
-      },
-      {
-        "option": "Renal pelvis",
+        "option": "Collecting duct",
         "bool": false
       },
       {
-        "option": "Collecting duct",
+        "option": "Renal pelvis",
         "bool": false
       },
       {
@@ -2804,51 +2827,51 @@
       {
         "option": "Calyx",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 104,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Where are the podocytes found in the renal corpuscle?",
-    "answers": [
-      {
-        "option": "Bowman's space",
-        "bool": false
       },
       {
-        "option": "Mesangium",
-        "bool": false
-      },
-      {
-        "option": "Glomerulus",
-        "bool": false
-      },
-      {
-        "option": "Parietal layer of epithelium",
-        "bool": false
-      },
-      {
-        "option": "Visceral layer of epithelium",
+        "option": "Bladder",
         "bool": true
       }
     ]
   },
   {
     "id": 105,
-    "info": "2nd-year/renal-1/2019",
-    "question": "An increase in which of the following leads to a subsequent decrease in the glomerular filtration rate?",
+    "info": "2nd-year/renal/2019",
+    "question": "Where are the podocytes found in the renal corpuscle?",
     "answers": [
       {
-        "option": "Peritubular capillary hydrostatic pressure",
+        "option": "Glomerulus",
         "bool": false
       },
       {
-        "option": "Glomerular capillary plasma oncotic pressure",
+        "option": "Visceral layer of epithelium",
         "bool": true
       },
       {
-        "option": "Glomerular capillary hydrostatic pressure",
+        "option": "Mesangium",
+        "bool": false
+      },
+      {
+        "option": "Bowman's space",
+        "bool": false
+      },
+      {
+        "option": "Parietal layer of epithelium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "info": "2nd-year/renal/2019",
+    "question": "An increase in which of the following leads to a subsequent decrease in the glomerular filtration rate?",
+    "answers": [
+      {
+        "option": "Bowman's capsule plasma oncotic pressure",
+        "bool": false
+      },
+      {
+        "option": "Peritubular capillary hydrostatic pressure",
         "bool": false
       },
       {
@@ -2856,14 +2879,18 @@
         "bool": false
       },
       {
-        "option": "Bowman's capsule plasma oncotic pressure",
+        "option": "Glomerular capillary hydrostatic pressure",
         "bool": false
+      },
+      {
+        "option": "Glomerular capillary plasma oncotic pressure",
+        "bool": true
       }
     ]
   },
   {
-    "id": 106,
-    "info": "2nd-year/renal-1/2019",
+    "id": 107,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following changes will occur if there is an addition of isotonic solution to a kidney?",
     "answers": [
       {
@@ -2871,26 +2898,26 @@
         "bool": false
       },
       {
-        "option": "No change",
-        "bool": false
-      },
-      {
         "option": "Plasma to interstitial shift",
         "bool": true
+      },
+      {
+        "option": "Intracellular to interstitial shift",
+        "bool": false
       },
       {
         "option": "Interstitial to plasma shift",
         "bool": false
       },
       {
-        "option": "Intracellular to interstitial shift",
+        "option": "No change",
         "bool": false
       }
     ]
   },
   {
-    "id": 107,
-    "info": "2nd-year/renal-1/2019",
+    "id": 108,
+    "info": "2nd-year/renal/2019",
     "question": "An intravenous pyelogram identifies renal calculi present much above the bladder in a patient. What is the probable site of renal calculi?",
     "answers": [
       {
@@ -2898,28 +2925,36 @@
         "bool": false
       },
       {
-        "option": "Renal medulla",
-        "bool": false
+        "option": "Renal calyces",
+        "bool": true
       },
       {
         "option": "Ureter",
         "bool": false
       },
       {
-        "option": "Renal calyces",
-        "bool": true
+        "option": "Papilla",
+        "bool": false
       },
       {
-        "option": "Papilla",
+        "option": "Renal medulla",
         "bool": false
       }
     ]
   },
   {
-    "id": 108,
-    "info": "2nd-year/renal-1/2019",
+    "id": 109,
+    "info": "2nd-year/renal/2019",
     "question": "A 16-year-old female presents to the outpatient department with mild dehydration due to vomiting. Upon examination, her renal function is found normal. Which of the following should be given to stabilize the patient's condition?",
     "answers": [
+      {
+        "option": "0.45% saline solution",
+        "bool": false
+      },
+      {
+        "option": "10% dextrose solution",
+        "bool": false
+      },
       {
         "option": "5% dextrose solution",
         "bool": true
@@ -2931,28 +2966,20 @@
       {
         "option": "Ringer's lactate solution",
         "bool": false
-      },
-      {
-        "option": "10% dextrose solution",
-        "bool": false
-      },
-      {
-        "option": "0.45% saline solution",
-        "bool": false
       }
     ]
   },
   {
-    "id": 109,
-    "info": "2nd-year/renal-1/2019",
+    "id": 110,
+    "info": "2nd-year/renal/2019",
     "question": "A 65-year-old male presents to the outpatient department with the complaint of fatigue, weakness, loss of appetite, and decreased mental sharpness. He has a history of diabetes. The results of his blood picture shows: hemoglobin: 8.4 gm/dL, creatinine: 5 mg/dL, calcium: 6.3 mg/dL, and phosphate: 5.2 U/L. What is the possible cause of his condition?",
     "answers": [
       {
-        "option": "Polycystic kidney disease",
-        "bool": false
+        "option": "Chronic renal disease",
+        "bool": true
       },
       {
-        "option": "Glomerulonephritis",
+        "option": "Polycystic kidney disease",
         "bool": false
       },
       {
@@ -2960,30 +2987,22 @@
         "bool": false
       },
       {
-        "option": "Renal calculi",
+        "option": "Glomerulonephritis",
         "bool": false
       },
       {
-        "option": "Chronic renal disease",
-        "bool": true
+        "option": "Renal calculi",
+        "bool": false
       }
     ]
   },
   {
-    "id": 110,
-    "info": "2nd-year/renal-1/2019",
+    "id": 111,
+    "info": "2nd-year/renal/2019",
     "question": "Bicarbonate and other buffers keep the pH of extracellular fluid regulated in what range?",
     "answers": [
       {
-        "option": "9.35-9.45",
-        "bool": false
-      },
-      {
         "option": "7.45-7.46",
-        "bool": false
-      },
-      {
-        "option": "6.35-6.45",
         "bool": false
       },
       {
@@ -2993,28 +3012,36 @@
       {
         "option": "8.35-8.45",
         "bool": false
+      },
+      {
+        "option": "9.35-9.45",
+        "bool": false
+      },
+      {
+        "option": "6.35-6.45",
+        "bool": false
       }
     ]
   },
   {
-    "id": 111,
-    "info": "2nd-year/renal-1/2019",
+    "id": 112,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is involved in the counter-current multiplier mechanism of kidneys?",
     "answers": [
-      {
-        "option": "Proximal convoluted tubules",
-        "bool": false
-      },
       {
         "option": "Vasa recta",
         "bool": false
       },
       {
-        "option": "Glomerulus",
+        "option": "Proximal convoluted tubules",
         "bool": false
       },
       {
         "option": "Peritubular arteries",
+        "bool": false
+      },
+      {
+        "option": "Glomerulus",
         "bool": false
       },
       {
@@ -3024,12 +3051,12 @@
     ]
   },
   {
-    "id": 112,
-    "info": "2nd-year/renal-1/2019",
+    "id": 113,
+    "info": "2nd-year/renal/2019",
     "question": "The findings of an intravenous pyelogram reveal a renal stone lodged in a patient's ureter above the bladder. What is the possible location of the stone?",
     "answers": [
       {
-        "option": "Abdominal ureter",
+        "option": "Intramural ureter",
         "bool": false
       },
       {
@@ -3037,27 +3064,31 @@
         "bool": false
       },
       {
-        "option": "Pelvic brim",
-        "bool": true
-      },
-      {
         "option": "Uterosacral ligament",
         "bool": false
       },
       {
-        "option": "Intramural ureter",
+        "option": "Abdominal ureter",
         "bool": false
+      },
+      {
+        "option": "Pelvic brim",
+        "bool": true
       }
     ]
   },
   {
-    "id": 113,
-    "info": "2nd-year/renal-1/2019",
+    "id": 114,
+    "info": "2nd-year/renal/2019",
     "question": "As the ureter passes the anterior surface of the psoas major muscle in the abdomen, which nerve does it cross?",
     "answers": [
       {
-        "option": "Splanchnic nerve",
+        "option": "Hypogastric nerve",
         "bool": false
+      },
+      {
+        "option": "Genitofemoral nerve",
+        "bool": true
       },
       {
         "option": "Ilioinguinal nerve",
@@ -3068,24 +3099,16 @@
         "bool": false
       },
       {
-        "option": "Genitofemoral nerve",
-        "bool": true
-      },
-      {
-        "option": "Hypogastric nerve",
+        "option": "Splanchnic nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 114,
-    "info": "2nd-year/renal-1/2019",
+    "id": 115,
+    "info": "2nd-year/renal/2019",
     "question": "Which hormone stimulates the increased absorption of sodium?",
     "answers": [
-      {
-        "option": "Angiotensin",
-        "bool": false
-      },
       {
         "option": "Anti-diuretic hormone",
         "bool": false
@@ -3093,6 +3116,10 @@
       {
         "option": "Aldosterone",
         "bool": true
+      },
+      {
+        "option": "Angiotensin",
+        "bool": false
       },
       {
         "option": "Erythropoietin",
@@ -3105,20 +3132,12 @@
     ]
   },
   {
-    "id": 115,
-    "info": "2nd-year/renal-1/2019",
+    "id": 116,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following renal stones are radiopaque in appearance, large in size and increase the total leukocyte count?",
     "answers": [
       {
-        "option": "Uric acid stones",
-        "bool": false
-      },
-      {
-        "option": "Calcium oxalate stones",
-        "bool": false
-      },
-      {
-        "option": "Cystine stones",
+        "option": "Calcium phosphate stones",
         "bool": false
       },
       {
@@ -3126,18 +3145,26 @@
         "bool": true
       },
       {
-        "option": "Calcium phosphate stones",
+        "option": "Cystine stones",
+        "bool": false
+      },
+      {
+        "option": "Calcium oxalate stones",
+        "bool": false
+      },
+      {
+        "option": "Uric acid stones",
         "bool": false
       }
     ]
   },
   {
-    "id": 116,
-    "info": "2nd-year/renal-1/2019",
+    "id": 117,
+    "info": "2nd-year/renal/2019",
     "question": "What is the value of one-third of the body fluid?",
     "answers": [
       {
-        "option": "10 L",
+        "option": "13 L",
         "bool": false
       },
       {
@@ -3145,7 +3172,7 @@
         "bool": false
       },
       {
-        "option": "13 L",
+        "option": "10 L",
         "bool": false
       },
       {
@@ -3159,12 +3186,20 @@
     ]
   },
   {
-    "id": 117,
-    "info": "2nd-year/renal-1/2019",
+    "id": 118,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following symptoms differentiate acute pyelonephritis from urinary tract infection?",
     "answers": [
       {
         "option": "Hematuria",
+        "bool": false
+      },
+      {
+        "option": "Proteinuria",
+        "bool": false
+      },
+      {
+        "option": "Joint tenderness",
         "bool": false
       },
       {
@@ -3174,32 +3209,16 @@
       {
         "option": "Hypertension",
         "bool": false
-      },
-      {
-        "option": "Joint tenderness",
-        "bool": false
-      },
-      {
-        "option": "Proteinuria",
-        "bool": false
       }
     ]
   },
   {
-    "id": 118,
-    "info": "2nd-year/renal-1/2019",
+    "id": 119,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following conditions cannot be stabilized by infusion of Haemaccel?",
     "answers": [
       {
-        "option": "Volume deficiency shock",
-        "bool": false
-      },
-      {
-        "option": "Simple dehydration",
-        "bool": true
-      },
-      {
-        "option": "Plasma loss",
+        "option": "Severe dehydration",
         "bool": false
       },
       {
@@ -3207,18 +3226,26 @@
         "bool": false
       },
       {
-        "option": "Severe dehydration",
+        "option": "Volume deficiency shock",
         "bool": false
+      },
+      {
+        "option": "Plasma loss",
+        "bool": false
+      },
+      {
+        "option": "Simple dehydration",
+        "bool": true
       }
     ]
   },
   {
-    "id": 119,
-    "info": "2nd-year/renal-1/2019",
+    "id": 120,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following drugs commonly causes renal problems?",
     "answers": [
       {
-        "option": "Beta blockers",
+        "option": "Cephalosporins",
         "bool": false
       },
       {
@@ -3226,30 +3253,26 @@
         "bool": true
       },
       {
-        "option": "Paracetamol",
-        "bool": false
-      },
-      {
         "option": "Penicillins",
         "bool": false
       },
       {
-        "option": "Cephalosporins",
+        "option": "Paracetamol",
+        "bool": false
+      },
+      {
+        "option": "Beta blockers",
         "bool": false
       }
     ]
   },
   {
-    "id": 120,
-    "info": "2nd-year/renal-1/2019",
+    "id": 121,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following conditions is an example of secondary glomerulonephritis?",
     "answers": [
       {
-        "option": "Goodpasture syndrome",
-        "bool": true
-      },
-      {
-        "option": "Berger disease",
+        "option": "Membranous nephropathy",
         "bool": false
       },
       {
@@ -3257,31 +3280,35 @@
         "bool": false
       },
       {
-        "option": "Alport syndrome",
+        "option": "Berger disease",
         "bool": false
       },
       {
-        "option": "Membranous nephropathy",
+        "option": "Goodpasture syndrome",
+        "bool": true
+      },
+      {
+        "option": "Alport syndrome",
         "bool": false
       }
     ]
   },
   {
-    "id": 121,
-    "info": "2nd-year/renal-1/2019",
+    "id": 122,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is a characteristic feature of toxic acute tubular injury?",
     "answers": [
       {
-        "option": "Focal necrosis in proximal convoluted tubule",
-        "bool": true
+        "option": "Decreased levels of blood urea nitrogen",
+        "bool": false
       },
       {
         "option": "Hyperactive state of mind",
         "bool": false
       },
       {
-        "option": "Decreased levels of blood urea nitrogen",
-        "bool": false
+        "option": "Focal necrosis in proximal convoluted tubule",
+        "bool": true
       },
       {
         "option": "Neoplastic lesions in the kidney",
@@ -3294,16 +3321,12 @@
     ]
   },
   {
-    "id": 122,
-    "info": "2nd-year/renal-1/2019",
+    "id": 123,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following makes the urine more concentrated?",
     "answers": [
       {
         "option": "Decrease in the activity of Na/K pumps in basolateral membrane",
-        "bool": false
-      },
-      {
-        "option": "Hyaline casts in urine",
         "bool": false
       },
       {
@@ -3315,20 +3338,20 @@
         "bool": false
       },
       {
+        "option": "Hyaline casts in urine",
+        "bool": false
+      },
+      {
         "option": "Release of anti-diuretic hormone",
         "bool": true
       }
     ]
   },
   {
-    "id": 123,
-    "info": "2nd-year/renal-1/2019",
+    "id": 124,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is the most common complication of catheterization?",
     "answers": [
-      {
-        "option": "Infection",
-        "bool": true
-      },
       {
         "option": "Delayed hemolytic reaction",
         "bool": false
@@ -3338,23 +3361,31 @@
         "bool": false
       },
       {
+        "option": "Febrile reaction",
+        "bool": false
+      },
+      {
         "option": "Anaphylaxis",
         "bool": false
       },
       {
-        "option": "Febrile reaction",
-        "bool": false
+        "option": "Infection",
+        "bool": true
       }
     ]
   },
   {
-    "id": 124,
-    "info": "2nd-year/renal-1/2019",
+    "id": 125,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following structures is only found in the renal medulla?",
     "answers": [
       {
-        "option": "Distal convoluted tubule",
+        "option": "Collecting tubules",
         "bool": false
+      },
+      {
+        "option": "Thin limb of loop of Henle",
+        "bool": true
       },
       {
         "option": "Minor calyces",
@@ -3365,22 +3396,18 @@
         "bool": false
       },
       {
-        "option": "Collecting tubules",
+        "option": "Distal convoluted tubule",
         "bool": false
-      },
-      {
-        "option": "Thin limb of loop of Henle",
-        "bool": true
       }
     ]
   },
   {
-    "id": 125,
-    "info": "2nd-year/renal-1/2019",
+    "id": 126,
+    "info": "2nd-year/renal/2019",
     "question": "What parts of the nephron lie in the renal cortex?",
     "answers": [
       {
-        "option": "Renal pyramid, glomeruli, and bowman's capsule",
+        "option": "Collecting tubule, proximal and distal convoluted tubule",
         "bool": false
       },
       {
@@ -3388,24 +3415,32 @@
         "bool": true
       },
       {
-        "option": "Collecting tubule, proximal and distal convoluted tubule",
+        "option": "Glomeruli, bowman's capsule and loop of Henle",
+        "bool": false
+      },
+      {
+        "option": "Renal pyramid, glomeruli, and bowman's capsule",
         "bool": false
       },
       {
         "option": "Glomeruli, bowman's capsule and renal papilla",
         "bool": false
-      },
-      {
-        "option": "Glomeruli, bowman's capsule and loop of Henle",
-        "bool": false
       }
     ]
   },
   {
-    "id": 126,
-    "info": "2nd-year/renal-1/2019",
+    "id": 127,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following parts of the nephron dilutes the urine?",
     "answers": [
+      {
+        "option": "Collecting duct",
+        "bool": false
+      },
+      {
+        "option": "Descending limb of loop of Henle",
+        "bool": false
+      },
       {
         "option": "Proximal convoluted tubule",
         "bool": false
@@ -3417,24 +3452,24 @@
       {
         "option": "Distal convoluted tubule",
         "bool": false
-      },
-      {
-        "option": "Collecting duct",
-        "bool": false
-      },
-      {
-        "option": "Descending limb of loop of Henle",
-        "bool": false
       }
     ]
   },
   {
-    "id": 127,
-    "info": "2nd-year/renal-1/2019",
+    "id": 128,
+    "info": "2nd-year/renal/2019",
     "question": "The tip of the renal pyramid opens into which of the following structures?",
     "answers": [
       {
         "option": "Collecting duct",
+        "bool": false
+      },
+      {
+        "option": "Minor calyx",
+        "bool": true
+      },
+      {
+        "option": "Renal papillae",
         "bool": false
       },
       {
@@ -3444,34 +3479,14 @@
       {
         "option": "Loop of Henle",
         "bool": false
-      },
-      {
-        "option": "Renal papillae",
-        "bool": false
-      },
-      {
-        "option": "Minor calyx",
-        "bool": true
       }
     ]
   },
   {
-    "id": 128,
-    "info": "2nd-year/renal-1/2019",
+    "id": 129,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following structures can be found in the renal sinus?",
     "answers": [
-      {
-        "option": "Medulla",
-        "bool": false
-      },
-      {
-        "option": "Bowman's capsule",
-        "bool": false
-      },
-      {
-        "option": "Renal cortex",
-        "bool": false
-      },
       {
         "option": "Glomerulus",
         "bool": false
@@ -3479,24 +3494,32 @@
       {
         "option": "Major calyx",
         "bool": true
+      },
+      {
+        "option": "Renal cortex",
+        "bool": false
+      },
+      {
+        "option": "Bowman's capsule",
+        "bool": false
+      },
+      {
+        "option": "Medulla",
+        "bool": false
       }
     ]
   },
   {
-    "id": 129,
-    "info": "2nd-year/renal-1/2019",
+    "id": 130,
+    "info": "2nd-year/renal/2019",
     "question": "The blood vessels enter the kidney at which of the following structures?",
     "answers": [
-      {
-        "option": "Renal pelvis",
-        "bool": false
-      },
       {
         "option": "Major calyx",
         "bool": false
       },
       {
-        "option": "Renal pyramid",
+        "option": "Renal pelvis",
         "bool": false
       },
       {
@@ -3506,22 +3529,18 @@
       {
         "option": "Renal column",
         "bool": false
+      },
+      {
+        "option": "Renal pyramid",
+        "bool": false
       }
     ]
   },
   {
-    "id": 130,
-    "info": "2nd-year/renal-1/2019",
+    "id": 131,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following defines the bed capacity in a hospital?",
     "answers": [
-      {
-        "option": "Total number of beds during a specific period",
-        "bool": false
-      },
-      {
-        "option": "Total number of beds occupied by patients during a specific period",
-        "bool": false
-      },
       {
         "option": "Average number of beds during a specific period",
         "bool": true
@@ -3533,24 +3552,28 @@
       {
         "option": "Average number of unoccupied beds during a specific period",
         "bool": false
+      },
+      {
+        "option": "Total number of beds during a specific period",
+        "bool": false
+      },
+      {
+        "option": "Total number of beds occupied by patients during a specific period",
+        "bool": false
       }
     ]
   },
   {
-    "id": 131,
-    "info": "2nd-year/renal-1/2019",
+    "id": 132,
+    "info": "2nd-year/renal/2019",
     "question": "A 52-year-old female presents to the outpatient department with a history of diabetes for the past 20 years. Her blood picture shows HbA1C: 8.5%, and her urinalysis shows smoky urine. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Glomerulosclerosis",
+        "option": "Nephritic syndrome",
         "bool": false
       },
       {
-        "option": "Nephropathy",
-        "bool": true
-      },
-      {
-        "option": "Poor glycemic control",
+        "option": "Glomerulosclerosis",
         "bool": false
       },
       {
@@ -3558,14 +3581,18 @@
         "bool": false
       },
       {
-        "option": "Nephritic syndrome",
+        "option": "Poor glycemic control",
         "bool": false
+      },
+      {
+        "option": "Nephropathy",
+        "bool": true
       }
     ]
   },
   {
-    "id": 132,
-    "info": "2nd-year/renal-1/2019",
+    "id": 133,
+    "info": "2nd-year/renal/2019",
     "question": "What is the mechanism behind glomerular basement membrane thickening?",
     "answers": [
       {
@@ -3573,34 +3600,34 @@
         "bool": false
       },
       {
-        "option": "All of them",
-        "bool": false
-      },
-      {
         "option": "Deposition of calcium",
-        "bool": false
-      },
-      {
-        "option": "Necrotic patch formation",
         "bool": false
       },
       {
         "option": "Advanced glycosylated end products",
         "bool": true
+      },
+      {
+        "option": "All of them",
+        "bool": false
+      },
+      {
+        "option": "Necrotic patch formation",
+        "bool": false
       }
     ]
   },
   {
-    "id": 133,
-    "info": "2nd-year/renal-1/2019",
+    "id": 134,
+    "info": "2nd-year/renal/2019",
     "question": "At which stage of the disease is glomerular capillary pressure high?",
     "answers": [
       {
-        "option": "Chronic stage of disease",
+        "option": "Convalescence stage of disease",
         "bool": false
       },
       {
-        "option": "Convalescence stage of disease",
+        "option": "Acute stage of disease",
         "bool": false
       },
       {
@@ -3608,31 +3635,27 @@
         "bool": false
       },
       {
-        "option": "Early stages of disease",
-        "bool": true
+        "option": "Chronic stage of disease",
+        "bool": false
       },
       {
-        "option": "Acute stage of disease",
-        "bool": false
+        "option": "Early stages of disease",
+        "bool": true
       }
     ]
   },
   {
-    "id": 134,
-    "info": "2nd-year/renal-1/2019",
+    "id": 135,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following obstruction of structure causes bilateral hydronephrosis and an enlarged bladder?",
     "answers": [
-      {
-        "option": "Bladder neck and urethral obstruction",
-        "bool": true
-      },
       {
         "option": "Ureteropelvic junction obstruction",
         "bool": false
       },
       {
-        "option": "Bladder fundus obstruction",
-        "bool": false
+        "option": "Bladder neck and urethral obstruction",
+        "bool": true
       },
       {
         "option": "Ureterovesical junction obstruction",
@@ -3641,28 +3664,32 @@
       {
         "option": "Renal obstruction",
         "bool": false
+      },
+      {
+        "option": "Bladder fundus obstruction",
+        "bool": false
       }
     ]
   },
   {
-    "id": 135,
-    "info": "2nd-year/renal-1/2019",
+    "id": 136,
+    "info": "2nd-year/renal/2019",
     "question": "Upon examination of a patient, he is found to have a flat face and edema. His urinalysis reveals hematuria and oliguria. What is the person most likely suffering from?",
     "answers": [
       {
-        "option": "Ureteral obstruction",
-        "bool": false
-      },
-      {
         "option": "Nephritic syndrome",
         "bool": true
+      },
+      {
+        "option": "Nephrotic syndrome",
+        "bool": false
       },
       {
         "option": "Urinary tract infection",
         "bool": false
       },
       {
-        "option": "Nephrotic syndrome",
+        "option": "Ureteral obstruction",
         "bool": false
       },
       {
@@ -3672,8 +3699,8 @@
     ]
   },
   {
-    "id": 136,
-    "info": "2nd-year/renal-1/2019",
+    "id": 137,
+    "info": "2nd-year/renal/2019",
     "question": "Reactions being catalyzed by hypoxanthine-guanine phosphoribosyltransferase (HGPRT) require how much energy?",
     "answers": [
       {
@@ -3681,61 +3708,57 @@
         "bool": false
       },
       {
-        "option": "3 ATPs",
-        "bool": false
-      },
-      {
-        "option": "4 ATPs",
-        "bool": false
-      },
-      {
         "option": "1 ATP",
+        "bool": false
+      },
+      {
+        "option": "3 ATPs",
         "bool": false
       },
       {
         "option": "0 ATP",
         "bool": true
-      }
-    ]
-  },
-  {
-    "id": 137,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following statements is incorrect regarding the sodium reabsorption in the proximal convoluted tubule?",
-    "answers": [
-      {
-        "option": "There is a 80% sodium tubular load",
-        "bool": true
       },
       {
-        "option": "It shares a common carrier with glucose",
-        "bool": false
-      },
-      {
-        "option": "Gradient is maintained by Na\u207a/K\u207a pump",
-        "bool": false
-      },
-      {
-        "option": "It is transported by sodium hydrogen ATPases",
-        "bool": false
-      },
-      {
-        "option": "65% of sodium reabsorption takes place in it",
+        "option": "4 ATPs",
         "bool": false
       }
     ]
   },
   {
     "id": 138,
-    "info": "2nd-year/renal-1/2019",
-    "question": "Which of the following hormones would increase with the subsequent increase in plasma's potassium concentration?",
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following statements is incorrect regarding the sodium reabsorption in the proximal convoluted tubule?",
     "answers": [
       {
-        "option": "Aldosterone",
+        "option": "It shares a common carrier with glucose",
+        "bool": false
+      },
+      {
+        "option": "65% of sodium reabsorption takes place in it",
+        "bool": false
+      },
+      {
+        "option": "Gradient is maintained by Na⁺/K⁺ pump",
+        "bool": false
+      },
+      {
+        "option": "There is a 80% sodium tubular load",
         "bool": true
       },
       {
-        "option": "Renin",
+        "option": "It is transported by sodium hydrogen ATPases",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "info": "2nd-year/renal/2019",
+    "question": "Which of the following hormones would increase with the subsequent increase in plasma's potassium concentration?",
+    "answers": [
+      {
+        "option": "Angiotensin-II",
         "bool": false
       },
       {
@@ -3743,26 +3766,34 @@
         "bool": false
       },
       {
-        "option": "Angiotensin-II",
+        "option": "Renin",
         "bool": false
       },
       {
         "option": "Atrial natriuretic peptide",
         "bool": false
+      },
+      {
+        "option": "Aldosterone",
+        "bool": true
       }
     ]
   },
   {
-    "id": 139,
-    "info": "2nd-year/renal-1/2019",
+    "id": 140,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is a ribonucleotide reductase coenzyme?",
     "answers": [
+      {
+        "option": "Nicotinamide adenine dinucleotide + hydrogen (NADH)",
+        "bool": false
+      },
       {
         "option": "Thiamine",
         "bool": false
       },
       {
-        "option": "Riboflavin",
+        "option": "Nicotinamide adenine dinucleotide phosphate + hydrogen (NADPH)",
         "bool": false
       },
       {
@@ -3770,26 +3801,22 @@
         "bool": true
       },
       {
-        "option": "Nicotinamide adenine dinucleotide phosphate + hydrogen (NADPH)",
-        "bool": false
-      },
-      {
-        "option": "Nicotinamide adenine dinucleotide + hydrogen (NADH)",
+        "option": "Riboflavin",
         "bool": false
       }
     ]
   },
   {
-    "id": 140,
-    "info": "2nd-year/renal-1/2019",
+    "id": 141,
+    "info": "2nd-year/renal/2019",
     "question": "An 8-year-old boy presents to the outpatient department with complaints of headache, dizziness, malaise, having high blood pressure (B.P), and hematuria. He has a history of throat infection 3 weeks ago. What is the probable diagnosis of his condition?",
     "answers": [
       {
-        "option": "Minimal change disease",
+        "option": "Wegener's granulomatosis",
         "bool": false
       },
       {
-        "option": "IgA nephropathy",
+        "option": "Minimal change disease",
         "bool": false
       },
       {
@@ -3797,7 +3824,7 @@
         "bool": false
       },
       {
-        "option": "Wegener's granulomatosis",
+        "option": "IgA nephropathy",
         "bool": false
       },
       {
@@ -3807,8 +3834,8 @@
     ]
   },
   {
-    "id": 141,
-    "info": "2nd-year/renal-1/2019",
+    "id": 142,
+    "info": "2nd-year/renal/2019",
     "question": "Graft response does not depend upon which of the following factors?",
     "answers": [
       {
@@ -3834,35 +3861,35 @@
     ]
   },
   {
-    "id": 142,
-    "info": "2nd-year/renal-1/2019",
+    "id": 143,
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following is a reason for alkaline pH of urine?",
     "answers": [
       {
-        "option": "Reduced hydrogen ion secretion by tubules leading to more bicarbonate retention",
-        "bool": true
+        "option": "None of them",
+        "bool": false
       },
       {
-        "option": "Reduced hydrogen ion secretion by tubules leading to more potassium ion retention",
-        "bool": false
+        "option": "Reduced hydrogen ion secretion by tubules leading to more bicarbonate retention",
+        "bool": true
       },
       {
         "option": "Increased hydrogen ion secretion by tubules leading to more bicarbonate secretion",
         "bool": false
       },
       {
-        "option": "Increased hydrogen ion secretion by tubules leading to more potassium ion secretion",
+        "option": "Reduced hydrogen ion secretion by tubules leading to more potassium ion retention",
         "bool": false
       },
       {
-        "option": "None of them",
+        "option": "Increased hydrogen ion secretion by tubules leading to more potassium ion secretion",
         "bool": false
       }
     ]
   },
   {
-    "id": 143,
-    "info": "2nd-year/renal-1/2019",
+    "id": 144,
+    "info": "2nd-year/renal/2019",
     "question": "What does a positive test for leukocyte esterase indicate?",
     "answers": [
       {
@@ -3870,26 +3897,26 @@
         "bool": false
       },
       {
-        "option": "Presence of red blood cells",
+        "option": "Presence of T-lymphocytes",
         "bool": false
       },
       {
-        "option": "Presence of T-lymphocytes",
-        "bool": false
+        "option": "Presence of white blood cells",
+        "bool": true
       },
       {
         "option": "Presence of inflammatory cells",
         "bool": false
       },
       {
-        "option": "Presence of white blood cells",
-        "bool": true
+        "option": "Presence of red blood cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 144,
-    "info": "2nd-year/renal-1/2019",
+    "id": 145,
+    "info": "2nd-year/renal/2019",
     "question": "A positive nitrite test shows the possibility of infection by which organism?",
     "answers": [
       {
@@ -3897,38 +3924,38 @@
         "bool": false
       },
       {
-        "option": "Gram positive bacteria",
+        "option": "Virus",
         "bool": false
       },
       {
-        "option": "Virus",
-        "bool": false
+        "option": "Gram negative bacteria",
+        "bool": true
       },
       {
         "option": "Fungus",
         "bool": false
       },
       {
-        "option": "Gram negative bacteria",
-        "bool": true
+        "option": "Gram positive bacteria",
+        "bool": false
       }
     ]
   },
   {
-    "id": 145,
-    "info": "2nd-year/renal-1/2019",
+    "id": 146,
+    "info": "2nd-year/renal/2019",
     "question": "Which cells appear in the urine when the specific gravity of urine is less than normal?",
     "answers": [
-      {
-        "option": "Podocytes",
-        "bool": false
-      },
       {
         "option": "Interstitial cells",
         "bool": false
       },
       {
-        "option": "Intercalated cells",
+        "option": "Juxtaglomerular cells",
+        "bool": false
+      },
+      {
+        "option": "Podocytes",
         "bool": false
       },
       {
@@ -3936,47 +3963,16 @@
         "bool": true
       },
       {
-        "option": "Juxtaglomerular cells",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 146,
-    "info": "2nd-year/renal-1/2019",
-    "question": "When do pronephroi degenerate during fetal development?",
-    "answers": [
-      {
-        "option": "At the end of 3rd week",
-        "bool": false
-      },
-      {
-        "option": "At the end of 4th week",
-        "bool": true
-      },
-      {
-        "option": "At the end of 6th week",
-        "bool": false
-      },
-      {
-        "option": "At the end of 5th week",
-        "bool": false
-      },
-      {
-        "option": "At the end of 2nd week",
+        "option": "Intercalated cells",
         "bool": false
       }
     ]
   },
   {
     "id": 147,
-    "info": "2nd-year/renal-1/2019",
-    "question": "A 45-year-old woman comes to the outpatient department with complaints of weight loss and poor appetite. She has edema, shortness of breath, tiredness, hematuria, urinary frequency, insomnia, and itchy skin. What is the most likely diagnosis for her condition?",
+    "info": "2nd-year/renal/2019",
+    "question": "A 45-year-old woman comes to the outpatient department with complaints of weight loss and poor appetite. She has edema, shortness of breath, tiredness,  hematuria, urinary frequency, insomnia, and itchy skin. What is the most likely diagnosis for her condition?",
     "answers": [
-      {
-        "option": "Chronic renal disease",
-        "bool": true
-      },
       {
         "option": "Primary hyperparathyroidism",
         "bool": false
@@ -3992,18 +3988,18 @@
       {
         "option": "Multiple myeloma",
         "bool": false
+      },
+      {
+        "option": "Chronic renal disease",
+        "bool": true
       }
     ]
   },
   {
     "id": 148,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Which of the following hormones or autocoids can increase the glomerular filtration rate (GFR) by decreasing vascular resistance in the glomerular capillaries?",
     "answers": [
-      {
-        "option": "Angiotensin II",
-        "bool": false
-      },
       {
         "option": "Norepinephrine",
         "bool": false
@@ -4013,18 +4009,22 @@
         "bool": false
       },
       {
+        "option": "Endothelial derived nitric oxide",
+        "bool": true
+      },
+      {
         "option": "Epinephrine",
         "bool": false
       },
       {
-        "option": "Endothelial derived nitric oxide",
-        "bool": true
+        "option": "Angiotensin II",
+        "bool": false
       }
     ]
   },
   {
     "id": 149,
-    "info": "2nd-year/renal-1/2019",
+    "info": "2nd-year/renal/2019",
     "question": "Mycophenolic acid is used as an immunosuppressant drug to prevent graft rejection after transplant. Which of the following enzymes is inhibited by this drug?",
     "answers": [
       {
@@ -4032,19 +4032,19 @@
         "bool": false
       },
       {
-        "option": "Inosine monophosphate (IMP) dehydrogenase",
-        "bool": true
-      },
-      {
         "option": "Adenylosuccinate synthetase",
         "bool": false
       },
       {
-        "option": "Phosphoribosyl pyrophosphate (PRPP) synthetase",
+        "option": "Dihydrofolate reductase",
         "bool": false
       },
       {
-        "option": "Dihydrofolate reductase",
+        "option": "Inosine monophosphate (IMP) dehydrogenase",
+        "bool": true
+      },
+      {
+        "option": "Phosphoribosyl pyrophosphate (PRPP) synthetase",
         "bool": false
       }
     ]

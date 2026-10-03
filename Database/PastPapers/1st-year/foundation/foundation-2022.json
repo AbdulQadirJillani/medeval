@@ -1,11 +1,15 @@
 [
   {
     "id": 0,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Fat is stored in the body in what form?",
     "answers": [
       {
         "option": "Fatty acids",
+        "bool": false
+      },
+      {
+        "option": "Wax",
         "bool": false
       },
       {
@@ -19,16 +23,12 @@
       {
         "option": "Cholesterol",
         "bool": false
-      },
-      {
-        "option": "Wax",
-        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A 23-year-old man presents with pain in his tooth. Upon inspection it is found that pain is in the joint between the tooth and its root. Which joint is this?",
     "answers": [
       {
@@ -36,11 +36,11 @@
         "bool": false
       },
       {
-        "option": "Ball-and-socket",
+        "option": "Cartilaginous",
         "bool": false
       },
       {
-        "option": "Cartilaginous",
+        "option": "Synchondrosis",
         "bool": false
       },
       {
@@ -48,22 +48,26 @@
         "bool": true
       },
       {
-        "option": "Synchondrosis",
+        "option": "Ball-and-socket",
         "bool": false
       }
     ]
   },
   {
     "id": 2,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following descriptions of the anatomical position is correct?",
     "answers": [
+      {
+        "option": "Squatting position, both arms by side, and both feet inverted",
+        "bool": false
+      },
       {
         "option": "Standing straight, both arms by the side and feet everted",
         "bool": false
       },
       {
-        "option": "Standing straight, both arms abducted, both feet together",
+        "option": "Standing straight, face forward, arms by the side and flexed",
         "bool": false
       },
       {
@@ -71,50 +75,19 @@
         "bool": true
       },
       {
-        "option": "Squatting position, both arms by side, and both feet inverted",
-        "bool": false
-      },
-      {
-        "option": "Standing straight, face forward, arms by the side and flexed",
+        "option": "Standing straight, both arms abducted, both feet together",
         "bool": false
       }
     ]
   },
   {
     "id": 3,
-    "info": "1st-year/foundation-1/2022",
-    "question": "Which of the following takes part in the regulation of gene expression?",
-    "answers": [
-      {
-        "option": "mRNA",
-        "bool": false
-      },
-      {
-        "option": "miRNA",
-        "bool": true
-      },
-      {
-        "option": "ssRNA",
-        "bool": false
-      },
-      {
-        "option": "rRNA",
-        "bool": false
-      },
-      {
-        "option": "tRNA",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A dense connective tissue containing bundles of collagen fibers that run parallel to each other and have only fibroblast cells with flattened nuclei in between them. This tissue is present in which of the following?",
     "answers": [
       {
-        "option": "Tendon",
-        "bool": true
+        "option": "Ligament",
+        "bool": false
       },
       {
         "option": "Aponeurosis",
@@ -125,28 +98,20 @@
         "bool": false
       },
       {
-        "option": "Ligament",
+        "option": "Adipose tissue",
         "bool": false
       },
       {
-        "option": "Adipose tissue",
-        "bool": false
+        "option": "Tendon",
+        "bool": true
       }
     ]
   },
   {
-    "id": 5,
-    "info": "1st-year/foundation-1/2022",
+    "id": 4,
+    "info": "1st-year/foundation/2022",
     "question": "In which of the following conditions does isosmotic volume contraction occur?",
     "answers": [
-      {
-        "option": "Increased antidiuretic hormone (ADH) secretion",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
       {
         "option": "Diarrhea",
         "bool": true
@@ -156,16 +121,28 @@
         "bool": false
       },
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Excessive blood loss",
+        "bool": false
+      },
+      {
+        "option": "Increased antidiuretic hormone (ADH) secretion",
         "bool": false
       }
     ]
   },
   {
-    "id": 6,
-    "info": "1st-year/foundation-1/2022",
+    "id": 5,
+    "info": "1st-year/foundation/2022",
     "question": "What does vomiting lead to?",
     "answers": [
+      {
+        "option": "Hyponatremia",
+        "bool": true
+      },
       {
         "option": "None of these",
         "bool": false
@@ -179,18 +156,14 @@
         "bool": false
       },
       {
-        "option": "Hyponatremia",
-        "bool": true
-      },
-      {
         "option": "Hyperkalemia",
         "bool": false
       }
     ]
   },
   {
-    "id": 7,
-    "info": "1st-year/foundation-1/2022",
+    "id": 6,
+    "info": "1st-year/foundation/2022",
     "question": "The teacher asks the student to stand in an anatomical position. Which of the following correctly defines his position?",
     "answers": [
       {
@@ -202,22 +175,22 @@
         "bool": true
       },
       {
+        "option": "Face towards the teacher, standing erect, arms adjacent to sides, palms facing teacher's side",
+        "bool": false
+      },
+      {
         "option": "Face towards the teacher, standing erect, arms adjacent to sides, palms facing backwards",
         "bool": false
       },
       {
         "option": "Face towards the feet, standing erect, arms adjacent to sides, palms facing backwards",
         "bool": false
-      },
-      {
-        "option": "Face towards the teacher, standing erect, arms adjacent to sides, palms facing teacher's side",
-        "bool": false
       }
     ]
   },
   {
-    "id": 8,
-    "info": "1st-year/foundation-1/2022",
+    "id": 7,
+    "info": "1st-year/foundation/2022",
     "question": "Which term refers to the twisting of the foot in the inward direction?",
     "answers": [
       {
@@ -225,12 +198,12 @@
         "bool": false
       },
       {
-        "option": "Dorsiflexion",
-        "bool": false
-      },
-      {
         "option": "Inversion",
         "bool": true
+      },
+      {
+        "option": "Dorsiflexion",
+        "bool": false
       },
       {
         "option": "Eversion",
@@ -243,24 +216,51 @@
     ]
   },
   {
-    "id": 9,
-    "info": "1st-year/foundation-1/2022",
-    "question": "Which type of cell change occurs due to long-standing hypertension?",
+    "id": 8,
+    "info": "1st-year/foundation/2022",
+    "question": "Okazaki fragments are formed on the ______ strands in the ______ direction.",
     "answers": [
       {
-        "option": "Hyperplasia",
+        "option": "Lagging, 5'-3'",
+        "bool": true
+      },
+      {
+        "option": "Both same",
         "bool": false
       },
+      {
+        "option": "Leading, 3'-5'",
+        "bool": false
+      },
+      {
+        "option": "Lagging, 3'-5'",
+        "bool": false
+      },
+      {
+        "option": "Leading, 5'-3'",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "1st-year/foundation/2022",
+    "question": "Which type of cell change occurs due to long-standing hypertension?",
+    "answers": [
       {
         "option": "Hypertrophy",
         "bool": true
       },
       {
-        "option": "Dysplasia",
+        "option": "Hyperplasia",
         "bool": false
       },
       {
         "option": "Metaplasia",
+        "bool": false
+      },
+      {
+        "option": "Dysplasia",
         "bool": false
       },
       {
@@ -271,15 +271,19 @@
   },
   {
     "id": 10,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "What is the hallmark of irreversible injury?",
     "answers": [
       {
-        "option": "Cellular blebbing",
+        "option": "Cellular swelling",
         "bool": false
       },
       {
-        "option": "Cellular swelling",
+        "option": "Loss of proteins",
+        "bool": false
+      },
+      {
+        "option": "Eosinophilia",
         "bool": false
       },
       {
@@ -287,20 +291,20 @@
         "bool": true
       },
       {
-        "option": "Eosinophilia",
-        "bool": false
-      },
-      {
-        "option": "Loss of proteins",
+        "option": "Cellular blebbing",
         "bool": false
       }
     ]
   },
   {
     "id": 11,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "While performing an ultrasound, the physician cannot distinguish the embryo craniocaudally. This is most possibly due to the absence of which of the following events?",
     "answers": [
+      {
+        "option": "Formation of epiblast",
+        "bool": false
+      },
       {
         "option": "Formation of syncytiotrophoblast",
         "bool": false
@@ -308,10 +312,6 @@
       {
         "option": "Formation of primitive streak",
         "bool": true
-      },
-      {
-        "option": "Formation of epiblast",
-        "bool": false
       },
       {
         "option": "Formation of trophoblast",
@@ -325,23 +325,23 @@
   },
   {
     "id": 12,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A hypertensive patient is given an angiotensin-converting enzyme (ACE) inhibitor that works by lowering Vmax. What type of inhibition is most likely to be involved in this case?",
     "answers": [
-      {
-        "option": "Non-competitive",
-        "bool": true
-      },
-      {
-        "option": "Allosteric",
-        "bool": false
-      },
       {
         "option": "Partial agonist",
         "bool": false
       },
       {
+        "option": "Non-competitive",
+        "bool": true
+      },
+      {
         "option": "Competitive",
+        "bool": false
+      },
+      {
+        "option": "Allosteric",
         "bool": false
       },
       {
@@ -352,9 +352,13 @@
   },
   {
     "id": 13,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "The World Health Organization (WHO) has given the concept of a healthy city. What is the primary objective of this action plan?",
     "answers": [
+      {
+        "option": "Make people partners",
+        "bool": false
+      },
       {
         "option": "Improve health and quality of life of urban dwellers",
         "bool": true
@@ -364,22 +368,45 @@
         "bool": false
       },
       {
-        "option": "Social support network",
-        "bool": false
-      },
-      {
-        "option": "Make people partners",
-        "bool": false
-      },
-      {
         "option": "Start income generation activities",
+        "bool": false
+      },
+      {
+        "option": "Social support network",
         "bool": false
       }
     ]
   },
   {
     "id": 14,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
+    "question": "Which of the following parts of the bacterial cell shows the most antigenic variability?",
+    "answers": [
+      {
+        "option": "Capsule",
+        "bool": true
+      },
+      {
+        "option": "Peptidoglycan",
+        "bool": false
+      },
+      {
+        "option": "Lipid A of endotoxin",
+        "bool": false
+      },
+      {
+        "option": "Spore",
+        "bool": false
+      },
+      {
+        "option": "Slime",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/foundation/2022",
     "question": "A radiologist observes no line separating the epiphysis and diaphysis on an X-ray because of the complete fusion of bones. What is this joint at the epiphyseal plate called?",
     "answers": [
       {
@@ -387,28 +414,63 @@
         "bool": false
       },
       {
-        "option": "Symphysis",
-        "bool": false
-      },
-      {
         "option": "Primary cartilaginous joint",
         "bool": true
       },
       {
-        "option": "Synovial joint",
+        "option": "Symphysis",
         "bool": false
       },
       {
         "option": "Secondary cartilaginous joint",
         "bool": false
+      },
+      {
+        "option": "Synovial joint",
+        "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "1st-year/foundation-1/2022",
+    "id": 16,
+    "info": "1st-year/foundation/2022",
+    "question": "Cerebrosides are composed of which of the following?",
+    "answers": [
+      {
+        "option": "Sphingosine, phosphate, and fatty acid",
+        "bool": false
+      },
+      {
+        "option": "Sphingosine, galactose, fatty acid, and ceramide",
+        "bool": true
+      },
+      {
+        "option": "Ceramides only",
+        "bool": false
+      },
+      {
+        "option": "Sphingosine, ceramide, and phosphate",
+        "bool": false
+      },
+      {
+        "option": "Fatty acids and ceramide only",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following is not a component of the Graafian follicle?",
     "answers": [
+      {
+        "option": "Primary oocyte",
+        "bool": true
+      },
+      {
+        "option": "Cumulus oophorus",
+        "bool": false
+      },
       {
         "option": "Zona pellucida",
         "bool": false
@@ -420,24 +482,16 @@
       {
         "option": "Secondary oocyte",
         "bool": false
-      },
-      {
-        "option": "Primary oocyte",
-        "bool": true
-      },
-      {
-        "option": "Cumulus oophorus",
-        "bool": false
       }
     ]
   },
   {
-    "id": 16,
-    "info": "1st-year/foundation-1/2022",
+    "id": 18,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following structures contains keratin sulfate in abundance?",
     "answers": [
       {
-        "option": "Extracellular membrane",
+        "option": "Cartilage",
         "bool": false
       },
       {
@@ -449,53 +503,53 @@
         "bool": false
       },
       {
-        "option": "Cartilage",
-        "bool": false
-      },
-      {
         "option": "Cornea",
         "bool": true
+      },
+      {
+        "option": "Extracellular membrane",
+        "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "1st-year/foundation-1/2022",
+    "id": 19,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following types of cell junctions does not allow passage of extracellular fluid via the paracellular route?",
     "answers": [
       {
-        "option": "Gap junctions",
+        "option": "Macula adherens",
         "bool": false
+      },
+      {
+        "option": "Zonula occludens",
+        "bool": true
       },
       {
         "option": "Hemidesmosomes",
         "bool": false
       },
       {
-        "option": "Macula adherens",
+        "option": "Gap junctions",
         "bool": false
       },
       {
         "option": "Desmosomes",
         "bool": false
-      },
-      {
-        "option": "Zonula occludens",
-        "bool": true
       }
     ]
   },
   {
-    "id": 18,
-    "info": "1st-year/foundation-1/2022",
+    "id": 20,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following types of muscles is responsible for the dilation and constriction of blood vessels?",
     "answers": [
       {
-        "option": "Skeletal muscle",
+        "option": "Cardiac muscle",
         "bool": false
       },
       {
-        "option": "Cardiac muscle",
+        "option": "Skeletal muscle",
         "bool": false
       },
       {
@@ -513,8 +567,8 @@
     ]
   },
   {
-    "id": 19,
-    "info": "1st-year/foundation-1/2022",
+    "id": 21,
+    "info": "1st-year/foundation/2022",
     "question": "Tendons are classified as what type of connective tissue?",
     "answers": [
       {
@@ -522,34 +576,34 @@
         "bool": false
       },
       {
-        "option": "Dense irregular connective tissue",
-        "bool": false
-      },
-      {
         "option": "Dense regular connective tissue",
         "bool": true
       },
       {
-        "option": "Areolar connective tissue",
+        "option": "Adipose tissue",
         "bool": false
       },
       {
-        "option": "Adipose tissue",
+        "option": "Dense irregular connective tissue",
+        "bool": false
+      },
+      {
+        "option": "Areolar connective tissue",
         "bool": false
       }
     ]
   },
   {
-    "id": 20,
-    "info": "1st-year/foundation-1/2022",
+    "id": 22,
+    "info": "1st-year/foundation/2022",
     "question": "A woman presents with an injury to the pubic symphysis after a motorbike accident. The pubic symphysis is a secondary cartilaginous joint. Which of the following is not a characteristic of secondary cartilaginous joints?",
     "answers": [
       {
-        "option": "United by fibrocartilage",
+        "option": "Also called symphysis",
         "bool": false
       },
       {
-        "option": "Lies in the midline of the body",
+        "option": "United by fibrocartilage",
         "bool": false
       },
       {
@@ -557,7 +611,7 @@
         "bool": false
       },
       {
-        "option": "Also called symphysis",
+        "option": "Lies in the midline of the body",
         "bool": false
       },
       {
@@ -567,13 +621,17 @@
     ]
   },
   {
-    "id": 21,
-    "info": "1st-year/foundation-1/2022",
+    "id": 23,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following is the major cation present in extra-cellular fluid (ECF)?",
     "answers": [
       {
         "option": "Iron",
         "bool": false
+      },
+      {
+        "option": "Sodium",
+        "bool": true
       },
       {
         "option": "Potassium",
@@ -586,20 +644,16 @@
       {
         "option": "Calcium",
         "bool": false
-      },
-      {
-        "option": "Sodium",
-        "bool": true
       }
     ]
   },
   {
-    "id": 22,
-    "info": "1st-year/foundation-1/2022",
+    "id": 24,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following is the most abundant anion in the intra-cellular fluid?",
     "answers": [
       {
-        "option": "Chloride",
+        "option": "Magnesium",
         "bool": false
       },
       {
@@ -607,34 +661,34 @@
         "bool": false
       },
       {
-        "option": "Bicarbonate",
-        "bool": false
-      },
-      {
-        "option": "Magnesium",
+        "option": "Chloride",
         "bool": false
       },
       {
         "option": "Phosphate",
         "bool": true
+      },
+      {
+        "option": "Bicarbonate",
+        "bool": false
       }
     ]
   },
   {
-    "id": 23,
-    "info": "1st-year/foundation-1/2022",
+    "id": 25,
+    "info": "1st-year/foundation/2022",
     "question": "A tissue is stained with hematoxylin and eosin (H&E) and it is readily stained blue. What does this signify about the tissue?",
     "answers": [
       {
-        "option": "Basophilic",
-        "bool": true
+        "option": "Hydrophilic",
+        "bool": false
       },
       {
         "option": "Acidophilic",
         "bool": false
       },
       {
-        "option": "Hydrophilic",
+        "option": "Carbohydrate rich",
         "bool": false
       },
       {
@@ -642,81 +696,23 @@
         "bool": false
       },
       {
-        "option": "Carbohydrate rich",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "info": "1st-year/foundation-1/2022",
-    "question": "Which of the following parts of the bacterial cell shows the most antigenic variability?",
-    "answers": [
-      {
-        "option": "Capsule",
+        "option": "Basophilic",
         "bool": true
-      },
-      {
-        "option": "Lipid A of endotoxin",
-        "bool": false
-      },
-      {
-        "option": "Spore",
-        "bool": false
-      },
-      {
-        "option": "Peptidoglycan",
-        "bool": false
-      },
-      {
-        "option": "Slime",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "info": "1st-year/foundation-1/2022",
-    "question": "Cerebrosides are composed of which of the following?",
-    "answers": [
-      {
-        "option": "Sphingosine, phosphate, and fatty acid",
-        "bool": false
-      },
-      {
-        "option": "Fatty acids and ceramide only",
-        "bool": false
-      },
-      {
-        "option": "Ceramides only",
-        "bool": false
-      },
-      {
-        "option": "Sphingosine, galactose, fatty acid, and ceramide",
-        "bool": true
-      },
-      {
-        "option": "Sphingosine, ceramide, and phosphate",
-        "bool": false
       }
     ]
   },
   {
     "id": 26,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "During the posttranscriptional modification of mRNA which of the following is added at the 3' end?",
     "answers": [
       {
-        "option": "Primer",
+        "option": "GTP-cap",
         "bool": false
       },
       {
         "option": "Poly-A tail",
         "bool": true
-      },
-      {
-        "option": "GTP-cap",
-        "bool": false
       },
       {
         "option": "7-methylguanosine",
@@ -725,70 +721,51 @@
       {
         "option": "Poly-U tail",
         "bool": false
+      },
+      {
+        "option": "Primer",
+        "bool": false
       }
     ]
   },
   {
     "id": 27,
-    "info": "1st-year/foundation-1/2022",
-    "question": "Okazaki fragments are formed on the ______ strands in the ______ direction.",
-    "answers": [
-      {
-        "option": "Lagging, 3'-5'",
-        "bool": false
-      },
-      {
-        "option": "Leading, 5'-3'",
-        "bool": false
-      },
-      {
-        "option": "Lagging, 5'-3'",
-        "bool": true
-      },
-      {
-        "option": "Leading, 3'-5'",
-        "bool": false
-      },
-      {
-        "option": "Both same",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A chromosome has a protein conjugated with which of the following biomolecules?",
     "answers": [
       {
-        "option": "Histones",
-        "bool": false
+        "option": "Deoxyribonucleic acid (DNA)",
+        "bool": true
       },
       {
         "option": "Nucleotides",
         "bool": false
       },
       {
-        "option": "Deoxyribonucleic acid (DNA)",
-        "bool": true
-      },
-      {
-        "option": "Ribonucleic acid (RNA)",
+        "option": "Histones",
         "bool": false
       },
       {
         "option": "Nucleosides",
         "bool": false
+      },
+      {
+        "option": "Ribonucleic acid (RNA)",
+        "bool": false
       }
     ]
   },
   {
-    "id": 29,
-    "info": "1st-year/foundation-1/2022",
+    "id": 28,
+    "info": "1st-year/foundation/2022",
     "question": "A boy fell down while cycling, injured his elbow, and started bleeding. Which of the following types of epithelium is damaged in this case?",
     "answers": [
       {
-        "option": "Simple squamous",
+        "option": "Stratified squamous keratinized",
+        "bool": true
+      },
+      {
+        "option": "Pseudostratified",
         "bool": false
       },
       {
@@ -796,26 +773,26 @@
         "bool": false
       },
       {
+        "option": "Simple squamous",
+        "bool": false
+      },
+      {
         "option": "Simple cuboidal",
         "bool": false
-      },
-      {
-        "option": "Pseudostratified",
-        "bool": false
-      },
-      {
-        "option": "Stratified squamous keratinized",
-        "bool": true
       }
     ]
   },
   {
-    "id": 30,
-    "info": "1st-year/foundation-1/2022",
+    "id": 29,
+    "info": "1st-year/foundation/2022",
     "question": "While working in a warehouse a 45-year-old man is struck on the leg by a falling pallet rack. It strikes him on his left leg in the region of his thigh. The skin is not broken. Within 2 days there is a 5 x 7 cm purple color bruise at the site of injury. Which of the following substances has most likely accumulated at the site of injury to produce a yellow-brown color at the site of injury 16 days later?",
     "answers": [
       {
-        "option": "Lipofuscin",
+        "option": "Glycogen",
+        "bool": false
+      },
+      {
+        "option": "Hemosiderin",
         "bool": false
       },
       {
@@ -823,32 +800,20 @@
         "bool": true
       },
       {
-        "option": "Hemosiderin",
-        "bool": false
-      },
-      {
-        "option": "Glycogen",
-        "bool": false
-      },
-      {
         "option": "Melanin",
+        "bool": false
+      },
+      {
+        "option": "Lipofuscin",
         "bool": false
       }
     ]
   },
   {
-    "id": 31,
-    "info": "1st-year/foundation-1/2022",
+    "id": 30,
+    "info": "1st-year/foundation/2022",
     "question": "A person raises their foot towards their knee with toes pointing upwards. What is this movement of the foot termed?",
     "answers": [
-      {
-        "option": "Inversion",
-        "bool": false
-      },
-      {
-        "option": "Dorsiflexion",
-        "bool": true
-      },
       {
         "option": "Extension",
         "bool": false
@@ -860,18 +825,22 @@
       {
         "option": "Eversion",
         "bool": false
+      },
+      {
+        "option": "Inversion",
+        "bool": false
+      },
+      {
+        "option": "Dorsiflexion",
+        "bool": true
       }
     ]
   },
   {
-    "id": 32,
-    "info": "1st-year/foundation-1/2022",
+    "id": 31,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following statements best describes reposition?",
     "answers": [
-      {
-        "option": "A movement in which thumb touches the tips of fingers",
-        "bool": false
-      },
       {
         "option": "A movement involving flexion of wrist",
         "bool": false
@@ -881,80 +850,34 @@
         "bool": false
       },
       {
+        "option": "A movement involving flexion of arm",
+        "bool": false
+      },
+      {
         "option": "A movement in which the thumb and finger return to anatomical position after opposition",
         "bool": true
       },
       {
-        "option": "A movement involving flexion of arm",
+        "option": "A movement in which thumb touches the tips of fingers",
         "bool": false
       }
     ]
   },
   {
-    "id": 33,
-    "info": "1st-year/foundation-1/2022",
-    "question": "The part of decidua which lies underneath the implanted embryo is termed as?",
-    "answers": [
-      {
-        "option": "Decidua capsularis",
-        "bool": false
-      },
-      {
-        "option": "Decidua parietalis",
-        "bool": false
-      },
-      {
-        "option": "Fused parietalis and capsularis",
-        "bool": false
-      },
-      {
-        "option": "Fused parietalis and basalis",
-        "bool": false
-      },
-      {
-        "option": "Decidua basalis",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "info": "1st-year/foundation-1/2022",
-    "question": "The presence of a cluster of flagella on a single pole of a bacterial cell is termed?",
-    "answers": [
-      {
-        "option": "Petritrichous",
-        "bool": false
-      },
-      {
-        "option": "Amphitrichous",
-        "bool": false
-      },
-      {
-        "option": "Bipolar flagella",
-        "bool": false
-      },
-      {
-        "option": "Monotrichous",
-        "bool": false
-      },
-      {
-        "option": "Lophotrichous",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "info": "1st-year/foundation-1/2022",
+    "id": 32,
+    "info": "1st-year/foundation/2022",
     "question": "What is the function of flagella in bacteria?",
     "answers": [
       {
-        "option": "Acts as sex pilli",
-        "bool": false
+        "option": "Locomotion",
+        "bool": true
       },
       {
         "option": "Adherence to tissue surface",
+        "bool": false
+      },
+      {
+        "option": "Acts as sex pilli",
         "bool": false
       },
       {
@@ -964,16 +887,12 @@
       {
         "option": "Reproduction",
         "bool": false
-      },
-      {
-        "option": "Locomotion",
-        "bool": true
       }
     ]
   },
   {
-    "id": 36,
-    "info": "1st-year/foundation-1/2022",
+    "id": 33,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following types of RNA exhibits catalytic property?",
     "answers": [
       {
@@ -989,22 +908,49 @@
         "bool": true
       },
       {
-        "option": "Ribonucleotide",
+        "option": "Ribonuclease",
         "bool": false
       },
       {
-        "option": "Ribonuclease",
+        "option": "Ribonucleotide",
         "bool": false
       }
     ]
   },
   {
-    "id": 37,
-    "info": "1st-year/foundation-1/2022",
+    "id": 34,
+    "info": "1st-year/foundation/2022",
+    "question": "The part of decidua which lies underneath the implanted embryo is termed as?",
+    "answers": [
+      {
+        "option": "Fused parietalis and capsularis",
+        "bool": false
+      },
+      {
+        "option": "Decidua basalis",
+        "bool": true
+      },
+      {
+        "option": "Fused parietalis and basalis",
+        "bool": false
+      },
+      {
+        "option": "Decidua capsularis",
+        "bool": false
+      },
+      {
+        "option": "Decidua parietalis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "1st-year/foundation/2022",
     "question": "A 48-year-old man who has a history of chronic alcohol abuse is capable of doing his work just fine. He has had no major illnesses and physical examination reveals no significant findings. Laboratory studies also do not show any significant dysfunction. Which of the following findings are likely to be seen in his liver under light microscope?",
     "answers": [
       {
-        "option": "Detachment of polysomes",
+        "option": "Complete destruction of architecture of liver",
         "bool": false
       },
       {
@@ -1020,18 +966,22 @@
         "bool": false
       },
       {
-        "option": "Complete destruction of architecture of liver",
+        "option": "Detachment of polysomes",
         "bool": false
       }
     ]
   },
   {
-    "id": 38,
-    "info": "1st-year/foundation-1/2022",
+    "id": 36,
+    "info": "1st-year/foundation/2022",
     "question": "Bacteria that are permanent residents in various parts of the body are known as normal flora. Which of the following statements best describes the colonization of the bacteria?",
     "answers": [
       {
-        "option": "They are permanent residents",
+        "option": "They inhibit pathogenic organism from binding to the epithelial surfaces",
+        "bool": false
+      },
+      {
+        "option": "Certain bacteria and fungi which are always present in mouth, colon and vagina",
         "bool": false
       },
       {
@@ -1043,30 +993,26 @@
         "bool": true
       },
       {
-        "option": "They inhibit pathogenic organism from binding to the epithelial surfaces",
-        "bool": false
-      },
-      {
-        "option": "Certain bacteria and fungi which are always present in mouth, colon and vagina",
+        "option": "They are permanent residents",
         "bool": false
       }
     ]
   },
   {
-    "id": 39,
-    "info": "1st-year/foundation-1/2022",
+    "id": 37,
+    "info": "1st-year/foundation/2022",
     "question": "The normal flora inhibits pathogenic bacteria from binding to the mucosal surfaces of the body. Which of the following statements best describes the mechanism of colonization resistance?",
     "answers": [
-      {
-        "option": "The resident bacteria occupy attachment sites on the mucosa",
-        "bool": true
-      },
       {
         "option": "Intestinal bacteria provide vitamins B and K",
         "bool": false
       },
       {
-        "option": "Excessive use of antibiotics suppress normal flora",
+        "option": "The resident bacteria occupy attachment sites on the mucosa",
+        "bool": true
+      },
+      {
+        "option": "Normal flora causes disease in immunocompromised patients",
         "bool": false
       },
       {
@@ -1074,26 +1020,26 @@
         "bool": false
       },
       {
-        "option": "Normal flora causes disease in immunocompromised patients",
+        "option": "Excessive use of antibiotics suppress normal flora",
         "bool": false
       }
     ]
   },
   {
-    "id": 40,
-    "info": "1st-year/foundation-1/2022",
+    "id": 38,
+    "info": "1st-year/foundation/2022",
     "question": "The excessive use of antibiotics can have serious side effects on the body, especially the gastrointestinal tract (GIT). Which organism can lead to the formation of a pseudo-membrane in the GIT due to excessive antibiotic use?",
     "answers": [
-      {
-        "option": "Escherichia coli",
-        "bool": false
-      },
       {
         "option": "Clostridium difficile",
         "bool": true
       },
       {
         "option": "Staphylococci",
+        "bool": false
+      },
+      {
+        "option": "Escherichia coli",
         "bool": false
       },
       {
@@ -1107,35 +1053,89 @@
     ]
   },
   {
+    "id": 39,
+    "info": "1st-year/foundation/2022",
+    "question": "The presence of a cluster of flagella on a single pole of a bacterial cell is termed?",
+    "answers": [
+      {
+        "option": "Lophotrichous",
+        "bool": true
+      },
+      {
+        "option": "Petritrichous",
+        "bool": false
+      },
+      {
+        "option": "Amphitrichous",
+        "bool": false
+      },
+      {
+        "option": "Bipolar flagella",
+        "bool": false
+      },
+      {
+        "option": "Monotrichous",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "1st-year/foundation/2022",
+    "question": "Behavioral sciences deal with the study of human behavior by integrating knowledge of psychology, society, and anthropology. Psychology and social sciences play a major role, along with biological sciences, in determining states of health and disease. Which of the following is therefore not included in the revised definition of behavioral sciences?",
+    "answers": [
+      {
+        "option": "Communication skills",
+        "bool": false
+      },
+      {
+        "option": "Ethics",
+        "bool": false
+      },
+      {
+        "option": "Professionalism",
+        "bool": false
+      },
+      {
+        "option": "Infection control",
+        "bool": true
+      },
+      {
+        "option": "Patient satisfaction",
+        "bool": false
+      }
+    ]
+  },
+  {
     "id": 41,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following statements regarding somites is incorrect?",
     "answers": [
       {
+        "option": "Involved in age determination during fetal period",
+        "bool": false
+      },
+      {
         "option": "44-47 pairs of somites are formed in fetal life",
         "bool": true
+      },
+      {
+        "option": "Forms axial skeleton",
+        "bool": false
       },
       {
         "option": "Blocks of paraxial mesoderm",
         "bool": false
       },
       {
-        "option": "Involved in age determination during fetal period",
-        "bool": false
-      },
-      {
         "option": "Rate of formation is 3 per day",
-        "bool": false
-      },
-      {
-        "option": "Forms axial skeleton",
         "bool": false
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A high pKa value refers to which of the following?",
     "answers": [
       {
@@ -1147,34 +1147,30 @@
         "bool": false
       },
       {
-        "option": "Amphoteric ion",
-        "bool": false
-      },
-      {
         "option": "Weak acid",
         "bool": true
       },
       {
         "option": "Cation",
         "bool": false
+      },
+      {
+        "option": "Amphoteric ion",
+        "bool": false
       }
     ]
   },
   {
     "id": 43,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following statements is incorrect regarding the periosteum?",
     "answers": [
       {
-        "option": "It contains osteoprogenitor cells",
+        "option": "Contains osteoblasts",
         "bool": false
       },
       {
-        "option": "It is avascular",
-        "bool": true
-      },
-      {
-        "option": "Contains type 1 collagen",
+        "option": "It contains osteoprogenitor cells",
         "bool": false
       },
       {
@@ -1182,22 +1178,30 @@
         "bool": false
       },
       {
-        "option": "Contains osteoblasts",
+        "option": "Contains type 1 collagen",
         "bool": false
+      },
+      {
+        "option": "It is avascular",
+        "bool": true
       }
     ]
   },
   {
     "id": 44,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following amino acids is not produced in the body and is therefore needed in our diet?",
     "answers": [
+      {
+        "option": "Alanine",
+        "bool": false
+      },
       {
         "option": "Glutamine",
         "bool": false
       },
       {
-        "option": "Alanine",
+        "option": "Arginine",
         "bool": false
       },
       {
@@ -1207,16 +1211,12 @@
       {
         "option": "Phenylalanine",
         "bool": true
-      },
-      {
-        "option": "Arginine",
-        "bool": false
       }
     ]
   },
   {
     "id": 45,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following correctly describes the semi-conservative model of DNA replication?",
     "answers": [
       {
@@ -1228,24 +1228,32 @@
         "bool": true
       },
       {
+        "option": "Two entirely new daughter DNA are formed",
+        "bool": false
+      },
+      {
         "option": "No new strand is formed",
         "bool": false
       },
       {
         "option": "Fragments of both new and old strand are dispersed in daughter DNA",
         "bool": false
-      },
-      {
-        "option": "Two entirely new daughter DNA are formed",
-        "bool": false
       }
     ]
   },
   {
     "id": 46,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following is a function of the sodium-potassium pump in the cell membrane?",
     "answers": [
+      {
+        "option": "Indirect transport of glucose into the cell",
+        "bool": false
+      },
+      {
+        "option": "Synthesis of ATP",
+        "bool": false
+      },
       {
         "option": "Decreasing heat production",
         "bool": false
@@ -1255,32 +1263,16 @@
         "bool": false
       },
       {
-        "option": "Indirect transport of glucose into the cell",
-        "bool": false
-      },
-      {
         "option": "Controlling cell volume",
         "bool": true
-      },
-      {
-        "option": "Synthesis of ATP",
-        "bool": false
       }
     ]
   },
   {
     "id": 47,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which type of chorionic villi is involved in the exchange of nutrients and wastes between maternal and fetal blood?",
     "answers": [
-      {
-        "option": "Anchoring villi",
-        "bool": false
-      },
-      {
-        "option": "Tertiary villi",
-        "bool": false
-      },
       {
         "option": "Secondary villi",
         "bool": false
@@ -1290,24 +1282,24 @@
         "bool": true
       },
       {
+        "option": "Anchoring villi",
+        "bool": false
+      },
+      {
         "option": "Primary villi",
+        "bool": false
+      },
+      {
+        "option": "Tertiary villi",
         "bool": false
       }
     ]
   },
   {
     "id": 48,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Monosaccharides that are mirror images of each other are known as?",
     "answers": [
-      {
-        "option": "Enantiomers",
-        "bool": true
-      },
-      {
-        "option": "Epimer",
-        "bool": false
-      },
       {
         "option": "Isomers",
         "bool": false
@@ -1317,23 +1309,31 @@
         "bool": false
       },
       {
+        "option": "Epimer",
+        "bool": false
+      },
+      {
         "option": "Stereoisomers",
         "bool": false
+      },
+      {
+        "option": "Enantiomers",
+        "bool": true
       }
     ]
   },
   {
     "id": 49,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "An athlete was doing his third set of push-ups. What is his anatomical position in this situation?",
     "answers": [
       {
-        "option": "Recumbent",
-        "bool": false
-      },
-      {
         "option": "Prone",
         "bool": true
+      },
+      {
+        "option": "Recumbent",
+        "bool": false
       },
       {
         "option": "Medial",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 50,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following parts of the nucleus is composed of histone proteins and DNA?",
     "answers": [
       {
@@ -1359,7 +1359,7 @@
         "bool": false
       },
       {
-        "option": "Nuclear envelope",
+        "option": "Nucleoplasm",
         "bool": false
       },
       {
@@ -1371,16 +1371,20 @@
         "bool": true
       },
       {
-        "option": "Nucleoplasm",
+        "option": "Nuclear envelope",
         "bool": false
       }
     ]
   },
   {
     "id": 51,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "The hormones epinephrine, norepinephrine, and thyroxine are derivatives of which of the following amino acids?",
     "answers": [
+      {
+        "option": "Ornithine",
+        "bool": false
+      },
       {
         "option": "Tyrosine",
         "bool": true
@@ -1396,24 +1400,24 @@
       {
         "option": "Tryptophan",
         "bool": false
-      },
-      {
-        "option": "Ornithine",
-        "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following cells is not derived from the neural crest cells?",
     "answers": [
+      {
+        "option": "Schwann cells",
+        "bool": false
+      },
       {
         "option": "Neurons",
         "bool": true
       },
       {
-        "option": "Melanocytes",
+        "option": "Glial cells",
         "bool": false
       },
       {
@@ -1421,22 +1425,26 @@
         "bool": false
       },
       {
-        "option": "Glial cells",
-        "bool": false
-      },
-      {
-        "option": "Schwann cells",
+        "option": "Melanocytes",
         "bool": false
       }
     ]
   },
   {
     "id": 53,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following biomolecules contain a polyhydroxy aldehyde or a polyhydroxy ketone in its structure?",
     "answers": [
       {
+        "option": "Lipids",
+        "bool": false
+      },
+      {
         "option": "Proteins",
+        "bool": false
+      },
+      {
+        "option": "Nucleic acids",
         "bool": false
       },
       {
@@ -1444,30 +1452,18 @@
         "bool": false
       },
       {
-        "option": "Lipids",
-        "bool": false
-      },
-      {
         "option": "Carbohydrates",
         "bool": true
-      },
-      {
-        "option": "Nucleic acids",
-        "bool": false
       }
     ]
   },
   {
     "id": 54,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A patient suffers some burns. The skin looks red with painful blisters. Which of the following layers of the skin are most likely to be affected?",
     "answers": [
       {
         "option": "Epidermis",
-        "bool": false
-      },
-      {
-        "option": "Epidermis and deep dermis",
         "bool": false
       },
       {
@@ -1479,6 +1475,10 @@
         "bool": false
       },
       {
+        "option": "Epidermis and deep dermis",
+        "bool": false
+      },
+      {
         "option": "Only dermis",
         "bool": false
       }
@@ -1486,11 +1486,19 @@
   },
   {
     "id": 55,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "The deficiency of which of the following lipids can result in respiratory distress syndrome in pre-term infants?",
     "answers": [
       {
+        "option": "Sphingomyelin",
+        "bool": false
+      },
+      {
         "option": "Phosphatidyl inositol",
+        "bool": false
+      },
+      {
+        "option": "Phosphatidyl serine",
         "bool": false
       },
       {
@@ -1500,22 +1508,22 @@
       {
         "option": "Dipalmitoyl lecithin",
         "bool": true
-      },
-      {
-        "option": "Sphingomyelin",
-        "bool": false
-      },
-      {
-        "option": "Phosphatidyl serine",
-        "bool": false
       }
     ]
   },
   {
     "id": 56,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A 65-year-old man fainted and is brought to the emergency room. When he regains consciousness, he is unable to speak and has paralysis. The doctors diagnose him with cerebral artery occlusion resulting in ischemia of the left cerebral hemisphere. What type of necrosis has occurred in this patient?",
     "answers": [
+      {
+        "option": "Liquefactive necrosis",
+        "bool": true
+      },
+      {
+        "option": "Caseous necrosis",
+        "bool": false
+      },
       {
         "option": "Coagulative necrosis",
         "bool": false
@@ -1527,28 +1535,43 @@
       {
         "option": "Fat necrosis",
         "bool": false
-      },
-      {
-        "option": "Caseous necrosis",
-        "bool": false
-      },
-      {
-        "option": "Liquefactive necrosis",
-        "bool": true
       }
     ]
   },
   {
     "id": 57,
-    "info": "1st-year/foundation-1/2022",
-    "question": "A 16-year-old boy came to the hospital with the complaint of an inability to lift his leg. Muscle testing was performed and it revealed the weakening of his muscles. What is the weakened muscle called in this movement?",
+    "info": "1st-year/foundation/2022",
+    "question": "In which of the following regions of the body the normal flora is absent?",
     "answers": [
       {
-        "option": "Synergist",
+        "option": "Throat",
         "bool": false
       },
       {
-        "option": "Extensor",
+        "option": "Small intestine",
+        "bool": false
+      },
+      {
+        "option": "Skin",
+        "bool": false
+      },
+      {
+        "option": "Blood",
+        "bool": true
+      },
+      {
+        "option": "Large intestine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "1st-year/foundation/2022",
+    "question": "A 16-year-old boy came to the hospital with the complaint of an inability to lift his leg. Muscle testing was performed and it revealed the weakening of his muscles. What is the weakened muscle called in this movement?",
+    "answers": [
+      {
+        "option": "Flexor",
         "bool": false
       },
       {
@@ -1556,28 +1579,24 @@
         "bool": true
       },
       {
-        "option": "Flexor",
+        "option": "Antagonist",
         "bool": false
       },
       {
-        "option": "Antagonist",
+        "option": "Extensor",
+        "bool": false
+      },
+      {
+        "option": "Synergist",
         "bool": false
       }
     ]
   },
   {
-    "id": 58,
-    "info": "1st-year/foundation-1/2022",
+    "id": 59,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following carbohydrates modifies lipid absorption from the intestine?",
     "answers": [
-      {
-        "option": "Starch",
-        "bool": false
-      },
-      {
-        "option": "Beta glucan",
-        "bool": true
-      },
       {
         "option": "Cellulose",
         "bool": false
@@ -1589,14 +1608,30 @@
       {
         "option": "Alpha glucan",
         "bool": false
+      },
+      {
+        "option": "Beta glucan",
+        "bool": true
+      },
+      {
+        "option": "Starch",
+        "bool": false
       }
     ]
   },
   {
-    "id": 59,
-    "info": "1st-year/foundation-1/2022",
+    "id": 60,
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following bonds exists between the two monomers of a disaccharide?",
     "answers": [
+      {
+        "option": "Glycosidic bond",
+        "bool": true
+      },
+      {
+        "option": "Peptide bond",
+        "bool": false
+      },
       {
         "option": "Ether bond",
         "bool": false
@@ -1606,65 +1641,30 @@
         "bool": false
       },
       {
-        "option": "Peptide bond",
-        "bool": false
-      },
-      {
-        "option": "Glycosidic bond",
-        "bool": true
-      },
-      {
         "option": "Ionic bond",
         "bool": false
       }
     ]
   },
   {
-    "id": 60,
-    "info": "1st-year/foundation-1/2022",
-    "question": "In which of the following regions of the body the normal flora is absent?",
-    "answers": [
-      {
-        "option": "Throat",
-        "bool": false
-      },
-      {
-        "option": "Large intestine",
-        "bool": false
-      },
-      {
-        "option": "Small intestine",
-        "bool": false
-      },
-      {
-        "option": "Blood",
-        "bool": true
-      },
-      {
-        "option": "Skin",
-        "bool": false
-      }
-    ]
-  },
-  {
     "id": 61,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following has the highest concentration of triacylglycerol (TAG)?",
     "answers": [
-      {
-        "option": "High density lipoprotein",
-        "bool": false
-      },
-      {
-        "option": "Very low density lipoproteins",
-        "bool": false
-      },
       {
         "option": "Low density lipoprotein",
         "bool": false
       },
       {
+        "option": "High density lipoprotein",
+        "bool": false
+      },
+      {
         "option": "Apolipoproteins",
+        "bool": false
+      },
+      {
+        "option": "Very low density lipoproteins",
         "bool": false
       },
       {
@@ -1675,11 +1675,15 @@
   },
   {
     "id": 62,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following is not a phase 1 reaction in the process of drug metabolism?",
     "answers": [
       {
-        "option": "Dehydrogenation",
+        "option": "Reduction",
+        "bool": false
+      },
+      {
+        "option": "Oxidation",
         "bool": false
       },
       {
@@ -1687,11 +1691,7 @@
         "bool": true
       },
       {
-        "option": "Reduction",
-        "bool": false
-      },
-      {
-        "option": "Oxidation",
+        "option": "Dehydrogenation",
         "bool": false
       },
       {
@@ -1702,23 +1702,23 @@
   },
   {
     "id": 63,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following are essential fatty acids?",
     "answers": [
-      {
-        "option": "Arachidonic acid and linoleic acid",
-        "bool": false
-      },
       {
         "option": "Palmitic acid and palmitoleic acid",
         "bool": false
       },
       {
-        "option": "Linoleic acid, alpha linoleic acid, and arachidonic acid",
+        "option": "Arachidonic acid and linoleic acid",
+        "bool": false
+      },
+      {
+        "option": "Linoleic acid, alpha linolenic acid, and arachidonic acid",
         "bool": true
       },
       {
-        "option": "Linoleic acid, alpha linoleic acid, and oleic acid",
+        "option": "Linoleic acid, alpha linolenic acid, and oleic acid",
         "bool": false
       },
       {
@@ -1729,7 +1729,7 @@
   },
   {
     "id": 64,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "What is the class of isomers that differ in structure because of the different arrangement of functional groups around the carbon atoms called?",
     "answers": [
       {
@@ -1737,12 +1737,12 @@
         "bool": false
       },
       {
-        "option": "Epimers",
-        "bool": false
-      },
-      {
         "option": "Structural isomers",
         "bool": true
+      },
+      {
+        "option": "Epimers",
+        "bool": false
       },
       {
         "option": "Optical isomers",
@@ -1756,11 +1756,15 @@
   },
   {
     "id": 65,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "The structure of the inhibitor is similar to the structure of the substrate in which of the following types of enzyme inhibition?",
     "answers": [
       {
-        "option": "Allosteric inhibition",
+        "option": "Feedback inhibition",
+        "bool": false
+      },
+      {
+        "option": "Irreversible inhibition",
         "bool": false
       },
       {
@@ -1768,38 +1772,34 @@
         "bool": false
       },
       {
+        "option": "Allosteric inhibition",
+        "bool": false
+      },
+      {
         "option": "Competitive inhibition",
         "bool": true
-      },
-      {
-        "option": "Irreversible inhibition",
-        "bool": false
-      },
-      {
-        "option": "Feedback inhibition",
-        "bool": false
       }
     ]
   },
   {
     "id": 66,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following terms is described as the point at which the net charge on an amino acid is neutral?",
     "answers": [
-      {
-        "option": "Neutral point",
-        "bool": false
-      },
       {
         "option": "Isoelectric point",
         "bool": true
       },
       {
-        "option": "Solubility point",
+        "option": "Neutral point",
         "bool": false
       },
       {
         "option": "Ionization point",
+        "bool": false
+      },
+      {
+        "option": "Solubility point",
         "bool": false
       },
       {
@@ -1810,13 +1810,9 @@
   },
   {
     "id": 67,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Cleavage lines of the skin indicate the direction of orientation of which of the following fibers?",
     "answers": [
-      {
-        "option": "Reticular fibers",
-        "bool": false
-      },
       {
         "option": "Fibronectin fibers",
         "bool": false
@@ -1826,27 +1822,35 @@
         "bool": true
       },
       {
-        "option": "Muscle fibers",
+        "option": "Elastic fibers",
         "bool": false
       },
       {
-        "option": "Elastic fibers",
+        "option": "Reticular fibers",
+        "bool": false
+      },
+      {
+        "option": "Muscle fibers",
         "bool": false
       }
     ]
   },
   {
     "id": 68,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following statements is correct regarding apoptosis?",
     "answers": [
       {
-        "option": "Extrinsic pathway is also known as the mitochondrial pathway",
+        "option": "Apoptosis involves the inactivation of caspases",
         "bool": false
       },
       {
         "option": "BAX and BAK are pro-apoptotic proteins",
         "bool": true
+      },
+      {
+        "option": "Extrinsic pathway is also known as the mitochondrial pathway",
+        "bool": false
       },
       {
         "option": "Intrinsic pathway is also known as death receptor pathway",
@@ -1855,16 +1859,12 @@
       {
         "option": "Caspase 3 and 6 are initiator caspases",
         "bool": false
-      },
-      {
-        "option": "Apoptosis involves the inactivation of caspases",
-        "bool": false
       }
     ]
   },
   {
     "id": 69,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A 10-year-old boy presents to the emergency department after an injury to his leg. Upon examination, it is observed that he is unable to extend his leg. The affected movement occurs in which of the following planes?",
     "answers": [
       {
@@ -1872,30 +1872,30 @@
         "bool": false
       },
       {
-        "option": "Sagittal plane",
-        "bool": true
+        "option": "Transverse plane",
+        "bool": false
       },
       {
         "option": "Median plane",
         "bool": false
       },
       {
-        "option": "Frontal plane",
-        "bool": false
+        "option": "Sagittal plane",
+        "bool": true
       },
       {
-        "option": "Transverse plane",
+        "option": "Frontal plane",
         "bool": false
       }
     ]
   },
   {
     "id": 70,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following carbohydrates serves as a stored form of energy in animals?",
     "answers": [
       {
-        "option": "Sucrose",
+        "option": "Glucose",
         "bool": false
       },
       {
@@ -1911,26 +1911,18 @@
         "bool": false
       },
       {
-        "option": "Glucose",
+        "option": "Sucrose",
         "bool": false
       }
     ]
   },
   {
     "id": 71,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following is the appropriate property of skeletal muscles?",
     "answers": [
       {
-        "option": "Fusiform shape",
-        "bool": false
-      },
-      {
         "option": "Single nucleus",
-        "bool": false
-      },
-      {
-        "option": "Involuntary muscle",
         "bool": false
       },
       {
@@ -1938,24 +1930,24 @@
         "bool": true
       },
       {
+        "option": "Involuntary muscle",
+        "bool": false
+      },
+      {
         "option": "Gap junctions",
+        "bool": false
+      },
+      {
+        "option": "Fusiform shape",
         "bool": false
       }
     ]
   },
   {
     "id": 72,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A patient is diagnosed with the dislocation of a synovial joint in the upper limb. Which of the following is an inappropriate statement regarding the synovial type of joints?",
     "answers": [
-      {
-        "option": "They are immobile",
-        "bool": true
-      },
-      {
-        "option": "They have fibrous tissue",
-        "bool": false
-      },
       {
         "option": "They have a synovial cavity",
         "bool": false
@@ -1967,55 +1959,63 @@
       {
         "option": "They possess intra-capsular and extra-capsular ligaments",
         "bool": false
+      },
+      {
+        "option": "They have fibrous tissue",
+        "bool": false
+      },
+      {
+        "option": "They are immobile",
+        "bool": true
       }
     ]
   },
   {
     "id": 73,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Ammonia is converted into which of the following non-toxic amino acids?",
     "answers": [
       {
-        "option": "Glutamate",
-        "bool": false
-      },
-      {
-        "option": "Aspartate",
-        "bool": false
-      },
-      {
         "option": "Glutamine",
         "bool": true
+      },
+      {
+        "option": "Histidine",
+        "bool": false
+      },
+      {
+        "option": "Glutamate",
+        "bool": false
       },
       {
         "option": "Aspargine",
         "bool": false
       },
       {
-        "option": "Histidine",
+        "option": "Aspartate",
         "bool": false
       }
     ]
   },
   {
     "id": 74,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following solutions would cause red blood cells to shrink?",
     "answers": [
-      {
-        "option": "0.3% NaCl",
-        "bool": false
-      },
       {
         "option": "0.1% NaCl",
         "bool": false
       },
       {
-        "option": "0.5% NaCl",
+        "option": "0.9% NaCl",
         "bool": false
       },
       {
-        "option": "0.9% NaCl",
+        "option": "0.3% NaCl",
+        "bool": false
+      },
+      {
+        "option": "0.5% NaCl",
         "bool": false
       },
       {
@@ -2026,12 +2026,16 @@
   },
   {
     "id": 75,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Gangliosides are complex sphingolipids mostly found in which of the following cells of the body?",
     "answers": [
       {
         "option": "Ganglion cells of central nervous system",
         "bool": true
+      },
+      {
+        "option": "All cells of the body",
+        "bool": false
       },
       {
         "option": "Ganglion cells of peripheral nervous system",
@@ -2042,10 +2046,6 @@
         "bool": false
       },
       {
-        "option": "All cells of the body",
-        "bool": false
-      },
-      {
         "option": "Neurons",
         "bool": false
       }
@@ -2053,19 +2053,15 @@
   },
   {
     "id": 76,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following minerals is required to maintain the membrane potential?",
     "answers": [
-      {
-        "option": "Sodium",
-        "bool": true
-      },
       {
         "option": "Fluorine",
         "bool": false
       },
       {
-        "option": "Chlorine",
+        "option": "Calcium",
         "bool": false
       },
       {
@@ -2073,18 +2069,22 @@
         "bool": false
       },
       {
-        "option": "Calcium",
+        "option": "Sodium",
+        "bool": true
+      },
+      {
+        "option": "Chlorine",
         "bool": false
       }
     ]
   },
   {
     "id": 77,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following vitamins acts as a coenzyme?",
     "answers": [
       {
-        "option": "Vitamin B12 only",
+        "option": "Vitamin D",
         "bool": false
       },
       {
@@ -2096,32 +2096,20 @@
         "bool": false
       },
       {
-        "option": "Vitamin D",
+        "option": "Vitamin A",
         "bool": false
       },
       {
-        "option": "Vitamin A",
+        "option": "Vitamin B12 only",
         "bool": false
       }
     ]
   },
   {
     "id": 78,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "A group of friends visited a cold hilly area during their winter vacations. Which of the following physiological responses is most likely to occur in their body?",
     "answers": [
-      {
-        "option": "Shivering of skeletal muscles",
-        "bool": true
-      },
-      {
-        "option": "Vasodilation",
-        "bool": false
-      },
-      {
-        "option": "Increased sweating",
-        "bool": false
-      },
       {
         "option": "Relaxation of piloerector muscles",
         "bool": false
@@ -2129,47 +2117,32 @@
       {
         "option": "Relaxation of skeletal muscles",
         "bool": false
+      },
+      {
+        "option": "Shivering of skeletal muscles",
+        "bool": true
+      },
+      {
+        "option": "Increased sweating",
+        "bool": false
+      },
+      {
+        "option": "Vasodilation",
+        "bool": false
       }
     ]
   },
   {
     "id": 79,
-    "info": "1st-year/foundation-1/2022",
-    "question": "When preparing a tissue for routine light microscopic study, which procedure is carried out once the tissue proteins are fixed in a solution of fixatives and cross-linking compounds?",
-    "answers": [
-      {
-        "option": "Dehydration",
-        "bool": true
-      },
-      {
-        "option": "Staining",
-        "bool": false
-      },
-      {
-        "option": "Embedding",
-        "bool": false
-      },
-      {
-        "option": "Fixation",
-        "bool": false
-      },
-      {
-        "option": "Cleaving",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "info": "1st-year/foundation-1/2022",
+    "info": "1st-year/foundation/2022",
     "question": "Which of the following best explains why obligate anaerobes cannot grow in the presence of oxygen?",
     "answers": [
       {
-        "option": "They need ATP produced by host cells for survival",
+        "option": "They possess defences to make aerobic life possible",
         "bool": false
       },
       {
-        "option": "They possess defences to make aerobic life possible",
+        "option": "They require oxygen for ATP generation",
         "bool": false
       },
       {
@@ -2177,11 +2150,38 @@
         "bool": true
       },
       {
-        "option": "They require oxygen for ATP generation",
+        "option": "They can not use the fermentation pathway for ATP generation",
         "bool": false
       },
       {
-        "option": "They can not use the fermentation pathway for ATP generation",
+        "option": "They need ATP produced by host cells for survival",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "1st-year/foundation/2022",
+    "question": "When preparing a tissue for routine light microscopic study, which procedure is carried out once the tissue proteins are fixed in a solution of fixatives and cross-linking compounds?",
+    "answers": [
+      {
+        "option": "Embedding",
+        "bool": false
+      },
+      {
+        "option": "Dehydration",
+        "bool": true
+      },
+      {
+        "option": "Cleaving",
+        "bool": false
+      },
+      {
+        "option": "Fixation",
+        "bool": false
+      },
+      {
+        "option": "Staining",
         "bool": false
       }
     ]

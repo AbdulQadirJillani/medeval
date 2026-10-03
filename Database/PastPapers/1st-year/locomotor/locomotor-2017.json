@@ -2,22 +2,49 @@
   {
     "id": 0,
     "info": "1st-year/locomotor/2017",
-    "question": "Which of the following bacteria causes botulism?",
+    "question": "Which of the following is the most common cause of pyogenic osteomyelitis?",
     "answers": [
       {
-        "option": "Clostridium septicum",
+        "option": "Mycobacterium tuberculosis",
         "bool": false
       },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": true
+      },
+      {
+        "option": "Staphylococcus epidermidis",
+        "bool": false
+      },
+      {
+        "option": "Pseudomonas aeruginosa",
+        "bool": false
+      },
+      {
+        "option": "Salmonella typhi",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "1st-year/locomotor/2017",
+    "question": "Which of the following bacteria causes botulism?",
+    "answers": [
       {
         "option": "Clostridium botulinum",
         "bool": true
       },
       {
-        "option": "Clostridium perfringens",
+        "option": "Clostridium difficile",
         "bool": false
       },
       {
-        "option": "Clostridium difficile",
+        "option": "Clostridium septicum",
+        "bool": false
+      },
+      {
+        "option": "Clostridium perfringens",
         "bool": false
       },
       {
@@ -27,12 +54,16 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following is not a function of non-steroidal anti-inflammatory drugs (NSAIDs)?",
     "answers": [
       {
         "option": "They inhibit cyclooxygenase-2 (COX-2) enzyme activity",
+        "bool": false
+      },
+      {
+        "option": "They inhibit prostaglandin synthesis",
         "bool": false
       },
       {
@@ -44,20 +75,20 @@
         "bool": false
       },
       {
-        "option": "They inhibit prostaglandin synthesis",
-        "bool": false
-      },
-      {
         "option": "Aspirin acetylates cyclooxygenase irreversibly",
         "bool": false
       }
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following arteries gives rise to the nutrient artery of the fibula?",
     "answers": [
+      {
+        "option": "Popliteal artery",
+        "bool": false
+      },
       {
         "option": "Posterior tibial artery",
         "bool": false
@@ -73,18 +104,18 @@
       {
         "option": "Anterior tibial artery",
         "bool": false
-      },
-      {
-        "option": "Popliteal artery",
-        "bool": false
       }
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following muscles pass through the greater sciatic foramen?",
     "answers": [
+      {
+        "option": "Obturator externus",
+        "bool": false
+      },
       {
         "option": "Obturator internus",
         "bool": false
@@ -100,20 +131,20 @@
       {
         "option": "Piriformis",
         "bool": true
-      },
-      {
-        "option": "Obturator externus",
-        "bool": false
       }
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following types of collagen is most abundant in bone tissue?",
     "answers": [
       {
-        "option": "Collagen type V",
+        "option": "Collagen type I",
+        "bool": true
+      },
+      {
+        "option": "Collagen type II",
         "bool": false
       },
       {
@@ -121,39 +152,35 @@
         "bool": false
       },
       {
-        "option": "Collagen type II",
+        "option": "Collagen type V",
         "bool": false
       },
       {
         "option": "Collagen type IX",
         "bool": false
-      },
-      {
-        "option": "Collagen type I",
-        "bool": true
       }
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following muscles inserts onto the trochanteric fossa?",
     "answers": [
-      {
-        "option": "Quadratus femoris",
-        "bool": false
-      },
-      {
-        "option": "Gluteus maximus",
-        "bool": false
-      },
       {
         "option": "Adductor brevis",
         "bool": false
       },
       {
+        "option": "Quadratus femoris",
+        "bool": false
+      },
+      {
         "option": "Obturator internus",
         "bool": true
+      },
+      {
+        "option": "Gluteus maximus",
+        "bool": false
       },
       {
         "option": "Adductor longus",
@@ -162,10 +189,14 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "info": "1st-year/locomotor/2017",
     "question": "What are the contents of the femoral sheath from the lateral to the medial side?",
     "answers": [
+      {
+        "option": "Femoral nerve, femoral artery, femoral vein, and the inguinal lymph nodes",
+        "bool": false
+      },
       {
         "option": "Femoral artery, femoral vein, and the lymphatic vessels",
         "bool": true
@@ -175,31 +206,27 @@
         "bool": false
       },
       {
-        "option": "Femoral vein, femoral artery, and the femoral nerve",
-        "bool": false
-      },
-      {
-        "option": "Femoral nerve, femoral artery, femoral vein, and the inguinal lymph nodes",
-        "bool": false
-      },
-      {
         "option": "Femoral nerve, femoral artery, and the femoral vein",
+        "bool": false
+      },
+      {
+        "option": "Femoral vein, femoral artery, and the femoral nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following structures are present in the femoral canal?",
     "answers": [
       {
-        "option": "Femoral vein",
-        "bool": false
-      },
-      {
         "option": "Lymphatic vessels and sometimes deep inguinal lymph nodes",
         "bool": true
+      },
+      {
+        "option": "Femoral vein",
+        "bool": false
       },
       {
         "option": "Femoral nerve",
@@ -216,21 +243,13 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following stores calcium?",
     "answers": [
       {
-        "option": "Myosin",
-        "bool": false
-      },
-      {
         "option": "Sarcoplasm",
         "bool": false
-      },
-      {
-        "option": "Sarcoplasmic reticulum",
-        "bool": true
       },
       {
         "option": "Rough endoplasmic reticulum",
@@ -239,20 +258,28 @@
       {
         "option": "Sarcolemma",
         "bool": false
+      },
+      {
+        "option": "Myosin",
+        "bool": false
+      },
+      {
+        "option": "Sarcoplasmic reticulum",
+        "bool": true
       }
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "info": "1st-year/locomotor/2017",
     "question": "The femoral sheath is formed by which of the following layers of fascia?",
     "answers": [
       {
-        "option": "The processes vaginalis",
-        "bool": false
+        "option": "The fascia iliaca and fascia transversalis",
+        "bool": true
       },
       {
-        "option": "The psoas fascia and the fatty layer of the superficial fascia",
+        "option": "The processes vaginalis",
         "bool": false
       },
       {
@@ -264,27 +291,19 @@
         "bool": false
       },
       {
-        "option": "The fascia iliaca and fascia transversalis",
-        "bool": true
+        "option": "The psoas fascia and the fatty layer of the superficial fascia",
+        "bool": false
       }
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following muscles is a lateral rotator of the upper limb and attaches to the greater tubercle of the humerus?",
     "answers": [
       {
-        "option": "Teres major",
-        "bool": false
-      },
-      {
         "option": "Subscapularis",
         "bool": false
-      },
-      {
-        "option": "Infraspinatus",
-        "bool": true
       },
       {
         "option": "Latissimus dorsi",
@@ -293,20 +312,24 @@
       {
         "option": "Supraspinatus",
         "bool": false
+      },
+      {
+        "option": "Infraspinatus",
+        "bool": true
+      },
+      {
+        "option": "Teres major",
+        "bool": false
       }
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following muscles attach to the lesser tubercle of the humerus?",
     "answers": [
       {
-        "option": "Subscapularis",
-        "bool": true
-      },
-      {
-        "option": "Teres minor",
+        "option": "Supraspinatus",
         "bool": false
       },
       {
@@ -318,22 +341,22 @@
         "bool": false
       },
       {
-        "option": "Supraspinatus",
+        "option": "Teres minor",
         "bool": false
+      },
+      {
+        "option": "Subscapularis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following is the longest muscle in the human body?",
     "answers": [
       {
-        "option": "Iliacus",
-        "bool": false
-      },
-      {
-        "option": "Psoas major",
+        "option": "Pectineus",
         "bool": false
       },
       {
@@ -341,38 +364,15 @@
         "bool": true
       },
       {
+        "option": "Psoas major",
+        "bool": false
+      },
+      {
+        "option": "Iliacus",
+        "bool": false
+      },
+      {
         "option": "Vastus medialis",
-        "bool": false
-      },
-      {
-        "option": "Pectineus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following invaginates to form T-tubules?",
-    "answers": [
-      {
-        "option": "Mitochondrial outer membrane",
-        "bool": false
-      },
-      {
-        "option": "Sarcolemma",
-        "bool": true
-      },
-      {
-        "option": "Plasmalemma",
-        "bool": false
-      },
-      {
-        "option": "Terminal cisternae",
-        "bool": false
-      },
-      {
-        "option": "Sarcoplasmic reticulum",
         "bool": false
       }
     ]
@@ -380,14 +380,45 @@
   {
     "id": 14,
     "info": "1st-year/locomotor/2017",
+    "question": "Which of the following invaginates to form T-tubules?",
+    "answers": [
+      {
+        "option": "Terminal cisternae",
+        "bool": false
+      },
+      {
+        "option": "Sarcoplasmic reticulum",
+        "bool": false
+      },
+      {
+        "option": "Plasmalemma",
+        "bool": false
+      },
+      {
+        "option": "Sarcolemma",
+        "bool": true
+      },
+      {
+        "option": "Mitochondrial outer membrane",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "1st-year/locomotor/2017",
     "question": "Which nerve is most likely to be damaged by a humeral shaft fracture distal to the deltoid tuberosity?",
     "answers": [
       {
-        "option": "Axillary nerve",
+        "option": "Median nerve",
         "bool": false
       },
       {
         "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
+        "option": "Axillary nerve",
         "bool": false
       },
       {
@@ -397,55 +428,47 @@
       {
         "option": "Ulnar nerve",
         "bool": false
-      },
-      {
-        "option": "Median nerve",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following embryonic layers is responsible for the formation of bones and cartilages?",
-    "answers": [
-      {
-        "option": "Endoderm",
-        "bool": false
-      },
-      {
-        "option": "Ectoderm",
-        "bool": false
-      },
-      {
-        "option": "Lateral plate mesoderm",
-        "bool": true
-      },
-      {
-        "option": "Intermediate mesoderm",
-        "bool": false
-      },
-      {
-        "option": "Paraxial mesoderm",
-        "bool": false
       }
     ]
   },
   {
     "id": 16,
     "info": "1st-year/locomotor/2017",
+    "question": "Which of the following embryonic layers is responsible for the formation of bones and cartilages?",
+    "answers": [
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Intermediate mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Paraxial mesoderm",
+        "bool": false
+      },
+      {
+        "option": "Lateral plate mesoderm",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "1st-year/locomotor/2017",
     "question": "Which of the following muscle pairs is involved in the abduction of the upper limb after the first 90 degrees of movement?",
     "answers": [
       {
-        "option": "Deltoid and trapezius",
+        "option": "Deltoid and levator scapulae",
         "bool": false
       },
       {
         "option": "Deltoid and supraspinatus",
-        "bool": false
-      },
-      {
-        "option": "Deltoid and levator scapulae",
         "bool": false
       },
       {
@@ -455,14 +478,22 @@
       {
         "option": "Trapezius and serratus anterior",
         "bool": true
+      },
+      {
+        "option": "Deltoid and trapezius",
+        "bool": false
       }
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "info": "1st-year/locomotor/2017",
     "question": "Which action would fail in case of paralysis of the quadriceps femoris muscle?",
     "answers": [
+      {
+        "option": "Medial rotation of the knee",
+        "bool": false
+      },
       {
         "option": "Extension at the knee",
         "bool": true
@@ -478,20 +509,16 @@
       {
         "option": "Flexion at the knee",
         "bool": false
-      },
-      {
-        "option": "Medial rotation of the knee",
-        "bool": false
       }
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following statements is correct regarding the route of the great saphenous vein?",
     "answers": [
       {
-        "option": "Posterior to the medial malleolus",
+        "option": "Passes up the lateral side of the leg",
         "bool": false
       },
       {
@@ -499,11 +526,11 @@
         "bool": false
       },
       {
-        "option": "Passes up the lateral side of the leg",
+        "option": "Anterior to the medial condyle of the tibia and femur",
         "bool": false
       },
       {
-        "option": "Anterior to the medial condyle of the tibia and femur",
+        "option": "Posterior to the medial malleolus",
         "bool": false
       },
       {
@@ -513,20 +540,12 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "info": "1st-year/locomotor/2017",
     "question": "What is the most common site for the fracture of a clavicle?",
     "answers": [
       {
-        "option": "Junction of medial three fourth of a clavicle with lateral one fourth",
-        "bool": false
-      },
-      {
         "option": "The mid point of the clavicle",
-        "bool": false
-      },
-      {
-        "option": "Junction of lateral two third of a clavicle with medial one third",
         "bool": false
       },
       {
@@ -536,16 +555,32 @@
       {
         "option": "Junction of lateral three fourth of a clavicle with medial one fourth",
         "bool": false
+      },
+      {
+        "option": "Junction of lateral two third of a clavicle with medial one third",
+        "bool": false
+      },
+      {
+        "option": "Junction of medial three fourth of a clavicle with lateral one fourth",
+        "bool": false
       }
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following types of cells do Howship's lacunae contain?",
     "answers": [
       {
+        "option": "Osteoblasts",
+        "bool": false
+      },
+      {
         "option": "Osteocytes",
+        "bool": false
+      },
+      {
+        "option": "Chondrocytes",
         "bool": false
       },
       {
@@ -555,22 +590,18 @@
       {
         "option": "Osteoprogenitor cells",
         "bool": false
-      },
-      {
-        "option": "Osteoblasts",
-        "bool": false
-      },
-      {
-        "option": "Chondrocytes",
-        "bool": false
       }
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "info": "1st-year/locomotor/2017",
     "question": "Where are the cubital lymph nodes present?",
     "answers": [
+      {
+        "option": "At the medial border of the brachioradialis.",
+        "bool": false
+      },
       {
         "option": "Just above the medial epicondyle",
         "bool": true
@@ -580,42 +611,11 @@
         "bool": false
       },
       {
-        "option": "At the medial border of the brachioradialis.",
+        "option": "Just above the lateral epicondyle",
         "bool": false
       },
       {
         "option": "Just lateral to the brachial artery",
-        "bool": false
-      },
-      {
-        "option": "Just above the lateral epicondyle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "info": "1st-year/locomotor/2017",
-    "question": "What is true about Lambert-Eaton syndrome?",
-    "answers": [
-      {
-        "option": "Autoantibodies against postsynaptic acetylcholine receptors",
-        "bool": false
-      },
-      {
-        "option": "Classically involves the eyes",
-        "bool": false
-      },
-      {
-        "option": "Anticholinesterase agents improve symptoms",
-        "bool": false
-      },
-      {
-        "option": "Autoantibodies against presynaptic calcium channels",
-        "bool": true
-      },
-      {
-        "option": "Muscle weakness that worsens with use",
         "bool": false
       }
     ]
@@ -623,11 +623,38 @@
   {
     "id": 23,
     "info": "1st-year/locomotor/2017",
+    "question": "What is true about Lambert-Eaton syndrome?",
+    "answers": [
+      {
+        "option": "Autoantibodies against presynaptic calcium channels",
+        "bool": true
+      },
+      {
+        "option": "Muscle weakness that worsens with use",
+        "bool": false
+      },
+      {
+        "option": "Autoantibodies against postsynaptic acetylcholine receptors",
+        "bool": false
+      },
+      {
+        "option": "Anticholinesterase agents improve symptoms",
+        "bool": false
+      },
+      {
+        "option": "Classically involves the eyes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/locomotor/2017",
     "question": "What effect does myasthenia gravis have on deep tendon reflexes?",
     "answers": [
       {
-        "option": "Hyporeflexia is observed",
-        "bool": false
+        "option": "Deep tendon reflexes are normal",
+        "bool": true
       },
       {
         "option": "Deep tendon reflexes are diminished",
@@ -638,38 +665,11 @@
         "bool": false
       },
       {
-        "option": "Deep tendon reflexes are normal",
-        "bool": true
-      },
-      {
         "option": "Hyperreflexia is observed",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "info": "1st-year/locomotor/2017",
-    "question": "To which of the following structures does the flexor retinaculum attach medially?",
-    "answers": [
-      {
-        "option": "Pisiform and trapezoid",
-        "bool": false
       },
       {
-        "option": "Tubercle of scaphoid and ridge of trapezium",
-        "bool": false
-      },
-      {
-        "option": "Hook of hamate and pisiform",
-        "bool": true
-      },
-      {
-        "option": "Ridge of trapezium and hook of hamate",
-        "bool": false
-      },
-      {
-        "option": "Tubercle of scaphoid and hook of hamate",
+        "option": "Hyporeflexia is observed",
         "bool": false
       }
     ]
@@ -677,26 +677,26 @@
   {
     "id": 25,
     "info": "1st-year/locomotor/2017",
-    "question": "Which of the following veins combine to form the axillary vein?",
+    "question": "Which of the following veins pass through the deltopectoral triangle?",
     "answers": [
       {
-        "option": "Brachial vein and cephalic vein",
+        "option": "Brachial vein",
         "bool": false
       },
       {
-        "option": "Basilic vein and subclavian vein",
+        "option": "Axillary vein",
         "bool": false
       },
       {
-        "option": "Basilic vein and radial vein",
+        "option": "Basilic vein",
         "bool": false
       },
       {
-        "option": "Basilic vein and brachial vein",
+        "option": "Cephalic vein",
         "bool": true
       },
       {
-        "option": "Basilic vein and cephalic vein",
+        "option": "Subclavian vein",
         "bool": false
       }
     ]
@@ -704,16 +704,62 @@
   {
     "id": 26,
     "info": "1st-year/locomotor/2017",
-    "question": "Which of the following is incorrect regarding the lamellae of bone?",
+    "question": "To which of the following structures does the flexor retinaculum attach medially?",
     "answers": [
       {
-        "option": "Osteoblasts lie in between the lamellae",
+        "option": "Ridge of trapezium and hook of hamate",
         "bool": false
       },
       {
-        "option": "Lamellae of woven bone are irregular",
+        "option": "Pisiform and trapezoid",
         "bool": false
       },
+      {
+        "option": "Hook of hamate and pisiform",
+        "bool": true
+      },
+      {
+        "option": "Tubercle of scaphoid and hook of hamate",
+        "bool": false
+      },
+      {
+        "option": "Tubercle of scaphoid and ridge of trapezium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "1st-year/locomotor/2017",
+    "question": "Which of the following veins combine to form the axillary vein?",
+    "answers": [
+      {
+        "option": "Basilic vein and subclavian vein",
+        "bool": false
+      },
+      {
+        "option": "Brachial vein and cephalic vein",
+        "bool": false
+      },
+      {
+        "option": "Basilic vein and cephalic vein",
+        "bool": false
+      },
+      {
+        "option": "Basilic vein and brachial vein",
+        "bool": true
+      },
+      {
+        "option": "Basilic vein and radial vein",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "1st-year/locomotor/2017",
+    "question": "Which of the following is incorrect regarding the lamellae of bone?",
+    "answers": [
       {
         "option": "Lamellae are parallel to each other",
         "bool": false
@@ -725,14 +771,30 @@
       {
         "option": "Osteoblasts lie within the lamellae",
         "bool": true
+      },
+      {
+        "option": "Osteoblasts lie in between the lamellae",
+        "bool": false
+      },
+      {
+        "option": "Lamellae of woven bone are irregular",
+        "bool": false
       }
     ]
   },
   {
-    "id": 27,
+    "id": 29,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following ligaments would be damaged if the tibia is dislocated posteriorly?",
     "answers": [
+      {
+        "option": "Medial meniscus",
+        "bool": false
+      },
+      {
+        "option": "Posterior cruciate ligament",
+        "bool": true
+      },
       {
         "option": "Tibial collateral ligament",
         "bool": false
@@ -742,30 +804,26 @@
         "bool": false
       },
       {
-        "option": "Posterior cruciate ligament",
-        "bool": true
-      },
-      {
         "option": "Lateral meniscus",
-        "bool": false
-      },
-      {
-        "option": "Medial meniscus",
         "bool": false
       }
     ]
   },
   {
-    "id": 28,
+    "id": 30,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following pair of joints is involved in the inversion and eversion of the foot?",
     "answers": [
+      {
+        "option": "Subtalar and transverse tarsal joint",
+        "bool": true
+      },
       {
         "option": "Talocrural and talocalcanial joint",
         "bool": false
       },
       {
-        "option": "Transverse tarsal and tibiotalar joint",
+        "option": "Talotibial and talocalcanial",
         "bool": false
       },
       {
@@ -773,35 +831,31 @@
         "bool": false
       },
       {
-        "option": "Subtalar and transverse tarsal joint",
-        "bool": true
-      },
-      {
-        "option": "Talotibial and talocalcanial",
+        "option": "Transverse tarsal and tibiotalar joint",
         "bool": false
       }
     ]
   },
   {
-    "id": 29,
+    "id": 31,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following is the keystone of the medial longitudinal arch of the foot?",
     "answers": [
       {
-        "option": "Navicular bone",
+        "option": "Calcaneal tubercle",
         "bool": false
       },
       {
-        "option": "Calcaneal tubercle",
-        "bool": false
+        "option": "Talus head",
+        "bool": true
       },
       {
         "option": "Metatarsals",
         "bool": false
       },
       {
-        "option": "Talus head",
-        "bool": true
+        "option": "Navicular bone",
+        "bool": false
       },
       {
         "option": "Medial cuneiform bone",
@@ -810,22 +864,10 @@
     ]
   },
   {
-    "id": 30,
+    "id": 32,
     "info": "1st-year/locomotor/2017",
     "question": "Which muscle divides the axillary artery into three parts?",
     "answers": [
-      {
-        "option": "Teres minor",
-        "bool": false
-      },
-      {
-        "option": "Teres major",
-        "bool": false
-      },
-      {
-        "option": "Pectoralis minor",
-        "bool": true
-      },
       {
         "option": "Pectoralis major",
         "bool": false
@@ -833,20 +875,28 @@
       {
         "option": "Coracobrachialis",
         "bool": false
+      },
+      {
+        "option": "Pectoralis minor",
+        "bool": true
+      },
+      {
+        "option": "Teres major",
+        "bool": false
+      },
+      {
+        "option": "Teres minor",
+        "bool": false
       }
     ]
   },
   {
-    "id": 31,
+    "id": 33,
     "info": "1st-year/locomotor/2017",
     "question": "What are the indentations of the sarcolemma called?",
     "answers": [
       {
         "option": "Lamellae",
-        "bool": false
-      },
-      {
-        "option": "Terminal cisternae",
         "bool": false
       },
       {
@@ -860,21 +910,21 @@
       {
         "option": "Sarcoplasmic reticulum",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following wraps individual skeletal muscle fiber?",
-    "answers": [
-      {
-        "option": "Perimysium",
-        "bool": false
       },
       {
         "option": "Terminal cisternae",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "1st-year/locomotor/2017",
+    "question": "Which of the following wraps individual skeletal muscle fiber?",
+    "answers": [
+      {
+        "option": "Endomysium",
+        "bool": true
       },
       {
         "option": "Sarcoplasmic reticulum",
@@ -885,28 +935,20 @@
         "bool": false
       },
       {
-        "option": "Endomysium",
-        "bool": true
+        "option": "Perimysium",
+        "bool": false
+      },
+      {
+        "option": "Terminal cisternae",
+        "bool": false
       }
     ]
   },
   {
-    "id": 33,
+    "id": 35,
     "info": "1st-year/locomotor/2017",
     "question": "Damage to which of the following nerves is the most common cause of a foot drop?",
     "answers": [
-      {
-        "option": "Femoral nerve",
-        "bool": false
-      },
-      {
-        "option": "Common peroneal nerve",
-        "bool": true
-      },
-      {
-        "option": "Superficial fibular nerve",
-        "bool": false
-      },
       {
         "option": "Sciatic nerve",
         "bool": false
@@ -914,24 +956,32 @@
       {
         "option": "Saphenous nerve",
         "bool": false
+      },
+      {
+        "option": "Superficial fibular nerve",
+        "bool": false
+      },
+      {
+        "option": "Common peroneal nerve",
+        "bool": true
+      },
+      {
+        "option": "Femoral nerve",
+        "bool": false
       }
     ]
   },
   {
-    "id": 34,
+    "id": 36,
     "info": "1st-year/locomotor/2017",
     "question": "What is true regarding Dupuytren's contracture?",
     "answers": [
-      {
-        "option": "Caused by fibrous degeneration on radial side of the palmar aponeurosis",
-        "bool": false
-      },
       {
         "option": "Caused by fibrous degeneration on ulnar side of the palmar aponeurosis",
         "bool": true
       },
       {
-        "option": "It causes extension of 4th and 5th digits at metacarpophalangeal joint",
+        "option": "Caused by fibrous degeneration on radial side of the palmar aponeurosis",
         "bool": false
       },
       {
@@ -941,18 +991,18 @@
       {
         "option": "It causes flexion of 1st digit at metacarpophalangeal joint",
         "bool": false
+      },
+      {
+        "option": "It causes extension of 4th and 5th digits at metacarpophalangeal joint",
+        "bool": false
       }
     ]
   },
   {
-    "id": 35,
+    "id": 37,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following is not a part of the anterior compartment of the arm?",
     "answers": [
-      {
-        "option": "Musculocutaneous nerve",
-        "bool": false
-      },
       {
         "option": "Brachial artery",
         "bool": false
@@ -966,22 +1016,30 @@
         "bool": false
       },
       {
+        "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
         "option": "Radial nerve",
         "bool": true
       }
     ]
   },
   {
-    "id": 36,
+    "id": 38,
     "info": "1st-year/locomotor/2017",
     "question": "Damage to which pair of nerves is responsible for loss of inversion of the foot?",
     "answers": [
       {
-        "option": "Tibial and common peroneal nerve",
+        "option": "Deep peroneal and tibial nerve",
+        "bool": true
+      },
+      {
+        "option": "Superficial peroneal and sural nerve",
         "bool": false
       },
       {
-        "option": "Superficial and deep peroneal nerve",
+        "option": "Tibial and common peroneal nerve",
         "bool": false
       },
       {
@@ -989,24 +1047,16 @@
         "bool": false
       },
       {
-        "option": "Superficial peroneal and sural nerve",
+        "option": "Superficial and deep peroneal nerve",
         "bool": false
-      },
-      {
-        "option": "Deep peroneal and tibial nerve",
-        "bool": true
       }
     ]
   },
   {
-    "id": 37,
+    "id": 39,
     "info": "1st-year/locomotor/2017",
     "question": "A football player gets hit on the lateral aspect of his knee joint, resulting in a fracture of the neck of the fibula. Which of the following nerves is most likely to be injured in this case?",
     "answers": [
-      {
-        "option": "Common peroneal nerve",
-        "bool": true
-      },
       {
         "option": "Sciatic nerve",
         "bool": false
@@ -1022,51 +1072,47 @@
       {
         "option": "Tibial nerve",
         "bool": false
+      },
+      {
+        "option": "Common peroneal nerve",
+        "bool": true
       }
     ]
   },
   {
-    "id": 38,
+    "id": 40,
     "info": "1st-year/locomotor/2017",
     "question": "What is the root value of the common fibular nerve?",
     "answers": [
       {
+        "option": "L5 to S4",
+        "bool": false
+      },
+      {
         "option": "L5 to S2",
         "bool": false
+      },
+      {
+        "option": "L4 to S2",
+        "bool": true
       },
       {
         "option": "L2 to L4",
         "bool": false
       },
       {
-        "option": "L5 to S4",
-        "bool": false
-      },
-      {
         "option": "L2 to S4",
         "bool": false
-      },
-      {
-        "option": "L4 to S2",
-        "bool": true
       }
     ]
   },
   {
-    "id": 39,
+    "id": 41,
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following neurotransmitters is deficient in myasthenia gravis?",
     "answers": [
       {
         "option": "Dopamine",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": true
-      },
-      {
-        "option": "Acetylcholine",
         "bool": false
       },
       {
@@ -1076,59 +1122,13 @@
       {
         "option": "Epinephrine",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following arteries does not supply the knee joint?",
-    "answers": [
+      },
       {
-        "option": "Popliteal artery",
+        "option": "Acetylcholine",
         "bool": false
       },
       {
-        "option": "Lateral femoral circumflex artery",
-        "bool": false
-      },
-      {
-        "option": "Anterior tibial artery",
-        "bool": false
-      },
-      {
-        "option": "Inferior gluteal artery",
-        "bool": true
-      },
-      {
-        "option": "Femoral artery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which test is used to diagnose myasthenia gravis?",
-    "answers": [
-      {
-        "option": "Pinprick test",
-        "bool": false
-      },
-      {
-        "option": "Nerve conduction test",
-        "bool": false
-      },
-      {
-        "option": "Computed tomography scan",
-        "bool": false
-      },
-      {
-        "option": "Romberg test",
-        "bool": false
-      },
-      {
-        "option": "Electromyography",
+        "option": "None of these",
         "bool": true
       }
     ]
@@ -1136,26 +1136,26 @@
   {
     "id": 42,
     "info": "1st-year/locomotor/2017",
-    "question": "Which of the following nerves will be damaged by the fracture of a neck of the humerus?",
+    "question": "Which test is used to diagnose myasthenia gravis?",
     "answers": [
       {
-        "option": "Radial nerve",
+        "option": "Romberg test",
         "bool": false
       },
       {
-        "option": "Axillary nerve",
+        "option": "Pinprick test",
+        "bool": false
+      },
+      {
+        "option": "Computed tomography scan",
+        "bool": false
+      },
+      {
+        "option": "Electromyography",
         "bool": true
       },
       {
-        "option": "Musculocutaneous nerve",
-        "bool": false
-      },
-      {
-        "option": "Ulnar nerve",
-        "bool": false
-      },
-      {
-        "option": "Median nerve",
+        "option": "Nerve conduction test",
         "bool": false
       }
     ]
@@ -1163,22 +1163,22 @@
   {
     "id": 43,
     "info": "1st-year/locomotor/2017",
-    "question": "Which nerve brings about the flexion of the forearm?",
+    "question": "Which of the following nerves will be damaged by the fracture of a neck of the humerus?",
     "answers": [
       {
-        "option": "Lateral cutaneous nerve of the forearm",
-        "bool": false
-      },
-      {
-        "option": "Median nerve",
-        "bool": false
-      },
-      {
         "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
+        "option": "Axillary nerve",
         "bool": true
       },
       {
         "option": "Ulnar nerve",
+        "bool": false
+      },
+      {
+        "option": "Median nerve",
         "bool": false
       },
       {
@@ -1190,26 +1190,26 @@
   {
     "id": 44,
     "info": "1st-year/locomotor/2017",
-    "question": "Which of the following is the most important stabilizer of the shoulder joint?",
+    "question": "Which nerve brings about the flexion of the forearm?",
     "answers": [
       {
-        "option": "Rotator cuff muscles",
+        "option": "Ulnar nerve",
+        "bool": false
+      },
+      {
+        "option": "Radial nerve",
+        "bool": false
+      },
+      {
+        "option": "Musculocutaneous nerve",
         "bool": true
       },
       {
-        "option": "Teres major muscle",
+        "option": "Lateral cutaneous nerve of the forearm",
         "bool": false
       },
       {
-        "option": "Deltoid muscle",
-        "bool": false
-      },
-      {
-        "option": "Pectoralis major muscle",
-        "bool": false
-      },
-      {
-        "option": "Trapezius muscle",
+        "option": "Median nerve",
         "bool": false
       }
     ]
@@ -1224,16 +1224,16 @@
         "bool": false
       },
       {
+        "option": "Deltoid",
+        "bool": false
+      },
+      {
         "option": "Sternocleidomastoid",
         "bool": false
       },
       {
         "option": "Subclavius",
         "bool": true
-      },
-      {
-        "option": "Deltoid",
-        "bool": false
       },
       {
         "option": "Pectoralis major",
@@ -1251,8 +1251,8 @@
         "bool": false
       },
       {
-        "option": "Ulnar and musculocutaneous nerve",
-        "bool": false
+        "option": "Median and ulnar nerve",
+        "bool": true
       },
       {
         "option": "Median and radial nerve",
@@ -1263,8 +1263,8 @@
         "bool": false
       },
       {
-        "option": "Median and ulnar nerve",
-        "bool": true
+        "option": "Ulnar and musculocutaneous nerve",
+        "bool": false
       }
     ]
   },
@@ -1274,15 +1274,7 @@
     "question": "Which hormone is released when plasma calcium concentration increases?",
     "answers": [
       {
-        "option": "Parathyroid hormone",
-        "bool": false
-      },
-      {
         "option": "Calcitriol",
-        "bool": false
-      },
-      {
-        "option": "Vasopressin",
         "bool": false
       },
       {
@@ -1290,8 +1282,16 @@
         "bool": false
       },
       {
+        "option": "Parathyroid hormone",
+        "bool": false
+      },
+      {
         "option": "Calcitonin",
         "bool": true
+      },
+      {
+        "option": "Vasopressin",
+        "bool": false
       }
     ]
   },
@@ -1301,7 +1301,7 @@
     "question": "What is the action of the serratus anterior on the scapula?",
     "answers": [
       {
-        "option": "Retraction",
+        "option": "Elevation",
         "bool": false
       },
       {
@@ -1309,15 +1309,15 @@
         "bool": true
       },
       {
-        "option": "Depression",
-        "bool": false
-      },
-      {
-        "option": "Elevation",
-        "bool": false
-      },
-      {
         "option": "Downward rotation",
+        "bool": false
+      },
+      {
+        "option": "Retraction",
+        "bool": false
+      },
+      {
+        "option": "Depression",
         "bool": false
       }
     ]
@@ -1328,6 +1328,10 @@
     "question": "What is true regarding Erb's palsy?",
     "answers": [
       {
+        "option": "Flexed elbow",
+        "bool": false
+      },
+      {
         "option": "Abducted shoulder",
         "bool": false
       },
@@ -1336,15 +1340,11 @@
         "bool": true
       },
       {
-        "option": "C3-C5 nerve roots are involved",
-        "bool": false
-      },
-      {
         "option": "Laterally rotated arm",
         "bool": false
       },
       {
-        "option": "Flexed elbow",
+        "option": "C3-C5 nerve roots are involved",
         "bool": false
       }
     ]
@@ -1355,11 +1355,15 @@
     "question": "Which muscle is responsible for the inversion of the foot?",
     "answers": [
       {
-        "option": "Tibialis anterior",
-        "bool": true
+        "option": "Fibularis tertius",
+        "bool": false
       },
       {
         "option": "Fibularis brevis",
+        "bool": false
+      },
+      {
+        "option": "Fibularis longus",
         "bool": false
       },
       {
@@ -1367,12 +1371,8 @@
         "bool": false
       },
       {
-        "option": "Fibularis tertius",
-        "bool": false
-      },
-      {
-        "option": "Fibularis longus",
-        "bool": false
+        "option": "Tibialis anterior",
+        "bool": true
       }
     ]
   },
@@ -1382,11 +1382,7 @@
     "question": "Which of the following muscles is responsible for the lateral rotation and flexion of the thigh at the hip joint?",
     "answers": [
       {
-        "option": "Sartorius",
-        "bool": true
-      },
-      {
-        "option": "Adductor longus",
+        "option": "Vastus lateralis",
         "bool": false
       },
       {
@@ -1394,11 +1390,15 @@
         "bool": false
       },
       {
+        "option": "Sartorius",
+        "bool": true
+      },
+      {
         "option": "Pectineus",
         "bool": false
       },
       {
-        "option": "Vastus lateralis",
+        "option": "Adductor longus",
         "bool": false
       }
     ]
@@ -1409,8 +1409,16 @@
     "question": "Which of the following is associated with Klumpke's palsy?",
     "answers": [
       {
+        "option": "Hand of benediction",
+        "bool": false
+      },
+      {
         "option": "Waitor's tip hand",
         "bool": false
+      },
+      {
+        "option": "Claw hand",
+        "bool": true
       },
       {
         "option": "Shoulder drop",
@@ -1419,37 +1427,56 @@
       {
         "option": "Wrist drop",
         "bool": false
-      },
-      {
-        "option": "Claw hand",
-        "bool": true
-      },
-      {
-        "option": "Hand of benediction",
-        "bool": false
       }
     ]
   },
   {
     "id": 53,
     "info": "1st-year/locomotor/2017",
-    "question": "Which muscle unlocks the knee joint?",
+    "question": "Which pair of muscles form the superomedial boundary of the popliteal fossa?",
     "answers": [
       {
-        "option": "Plantaris",
+        "option": "Semimembranosus and the lateral head of gastrocnemius",
         "bool": false
       },
       {
+        "option": "Quadratus femoris and semitendinosus",
+        "bool": false
+      },
+      {
+        "option": "Semimembranosus and semitendinosus",
+        "bool": true
+      },
+      {
+        "option": "Semimembranosus and biceps femoris",
+        "bool": false
+      },
+      {
+        "option": "Semitendinosus and biceps femoris",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "1st-year/locomotor/2017",
+    "question": "Which muscle unlocks the knee joint?",
+    "answers": [
+      {
         "option": "Quadriceps femoris",
         "bool": false
+      },
+      {
+        "option": "Popliteus",
+        "bool": true
       },
       {
         "option": "Gastrocnemius",
         "bool": false
       },
       {
-        "option": "Popliteus",
-        "bool": true
+        "option": "Plantaris",
+        "bool": false
       },
       {
         "option": "Biceps femoris",
@@ -1458,7 +1485,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": 55,
     "info": "1st-year/locomotor/2017",
     "question": "Damage to which nerve presents as the claw hand?",
     "answers": [
@@ -1467,34 +1494,34 @@
         "bool": false
       },
       {
-        "option": "Median nerve",
-        "bool": false
-      },
-      {
         "option": "Ulnar nerve",
         "bool": true
       },
       {
-        "option": "Radial nerve",
+        "option": "Musculocutaneous nerve",
         "bool": false
       },
       {
-        "option": "Musculocutaneous nerve",
+        "option": "Median nerve",
+        "bool": false
+      },
+      {
+        "option": "Radial nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 55,
+    "id": 56,
     "info": "1st-year/locomotor/2017",
     "question": "Marble bone is a characteristic feature of which of the following diseases?",
     "answers": [
       {
-        "option": "Osteoporosis",
-        "bool": false
+        "option": "Osteopetrosis",
+        "bool": true
       },
       {
-        "option": "Osteomalacia",
+        "option": "Osteoporosis",
         "bool": false
       },
       {
@@ -1506,34 +1533,7 @@
         "bool": false
       },
       {
-        "option": "Osteopetrosis",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following muscles attaches to the nuchal ligament?",
-    "answers": [
-      {
-        "option": "Levator scapulae",
-        "bool": false
-      },
-      {
-        "option": "Teres major",
-        "bool": false
-      },
-      {
-        "option": "Rhomboid minor",
-        "bool": true
-      },
-      {
-        "option": "Latissimus dorsi",
-        "bool": false
-      },
-      {
-        "option": "Rhomboid major",
+        "option": "Osteomalacia",
         "bool": false
       }
     ]
@@ -1541,12 +1541,35 @@
   {
     "id": 57,
     "info": "1st-year/locomotor/2017",
-    "question": "Which of the following indicates chronic arthritis?",
+    "question": "Which of the following muscles attaches to the nuchal ligament?",
     "answers": [
       {
-        "option": "Proteolytic breakdown of cartilage",
+        "option": "Teres major",
         "bool": false
       },
+      {
+        "option": "Rhomboid major",
+        "bool": false
+      },
+      {
+        "option": "Latissimus dorsi",
+        "bool": false
+      },
+      {
+        "option": "Rhomboid minor",
+        "bool": true
+      },
+      {
+        "option": "Levator scapulae",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "1st-year/locomotor/2017",
+    "question": "Which of the following indicates chronic arthritis?",
+    "answers": [
       {
         "option": "Decrease in proteoglycans of the matrix",
         "bool": false
@@ -1556,38 +1579,15 @@
         "bool": true
       },
       {
-        "option": "Proliferation of chondrocytes",
-        "bool": false
-      },
-      {
         "option": "Appearance of joint mice in an X-ray",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which pair of muscles form the superomedial boundary of the popliteal fossa?",
-    "answers": [
+      },
       {
-        "option": "Semimembranosus and biceps femoris",
+        "option": "Proteolytic breakdown of cartilage",
         "bool": false
       },
       {
-        "option": "Semitendinosus and biceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Semimembranosus and semitendinosus",
-        "bool": true
-      },
-      {
-        "option": "Semimembranosus and the lateral head of gastrocnemius",
-        "bool": false
-      },
-      {
-        "option": "Quadratus femoris and semitendinosus",
+        "option": "Proliferation of chondrocytes",
         "bool": false
       }
     ]
@@ -1606,16 +1606,16 @@
         "bool": false
       },
       {
+        "option": "Radial nerve",
+        "bool": false
+      },
+      {
         "option": "Recurrent branch of the median nerve",
         "bool": false
       },
       {
         "option": "Superficial branch of the ulnar nerve",
         "bool": true
-      },
-      {
-        "option": "Radial nerve",
-        "bool": false
       }
     ]
   },
@@ -1625,7 +1625,15 @@
     "question": "Which of the following nerves passes through pronator teres?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Median nerve",
+        "bool": true
+      },
+      {
+        "option": "Musculocutaneous nerve",
+        "bool": false
+      },
+      {
+        "option": "Ulnar nerve",
         "bool": false
       },
       {
@@ -1633,15 +1641,7 @@
         "bool": false
       },
       {
-        "option": "Musculocutaneous nerve",
-        "bool": false
-      },
-      {
-        "option": "Median nerve",
-        "bool": true
-      },
-      {
-        "option": "Ulnar nerve",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -1660,12 +1660,12 @@
         "bool": false
       },
       {
-        "option": "Antipyrine",
-        "bool": false
-      },
-      {
         "option": "Aspirin",
         "bool": true
+      },
+      {
+        "option": "Antipyrine",
+        "bool": false
       },
       {
         "option": "Paracetamol",
@@ -1679,23 +1679,23 @@
     "question": "Which of the following muscles is likely to be paralyzed if the suprascapular notch gets calcified?",
     "answers": [
       {
-        "option": "Infraspinatus",
-        "bool": true
+        "option": "Pectolaris major",
+        "bool": false
       },
       {
-        "option": "Teres major",
-        "bool": false
+        "option": "Infraspinatus",
+        "bool": true
       },
       {
         "option": "Deltoid",
         "bool": false
       },
       {
-        "option": "Subscapularis",
+        "option": "Teres major",
         "bool": false
       },
       {
-        "option": "Pectolaris major",
+        "option": "Subscapularis",
         "bool": false
       }
     ]
@@ -1705,14 +1705,6 @@
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following disrupts the absorption of calcium?",
     "answers": [
-      {
-        "option": "Calcium carbonate",
-        "bool": false
-      },
-      {
-        "option": "Calcitriol",
-        "bool": false
-      },
       {
         "option": "Phytic acid",
         "bool": true
@@ -1724,6 +1716,14 @@
       {
         "option": "Dihydrate",
         "bool": false
+      },
+      {
+        "option": "Calcitriol",
+        "bool": false
+      },
+      {
+        "option": "Calcium carbonate",
+        "bool": false
       }
     ]
   },
@@ -1733,11 +1733,7 @@
     "question": "Which of the following has the highest percentage of element calcium?",
     "answers": [
       {
-        "option": "Calcium carbonate",
-        "bool": true
-      },
-      {
-        "option": "Phytic acid",
+        "option": "Calcitriol",
         "bool": false
       },
       {
@@ -1745,12 +1741,16 @@
         "bool": false
       },
       {
-        "option": "Calcitriol",
+        "option": "Calcium citrate",
         "bool": false
       },
       {
-        "option": "Calcium citrate",
+        "option": "Phytic acid",
         "bool": false
+      },
+      {
+        "option": "Calcium carbonate",
+        "bool": true
       }
     ]
   },
@@ -1759,14 +1759,6 @@
     "info": "1st-year/locomotor/2017",
     "question": "Which of the following represents another name for Colles' fracture?",
     "answers": [
-      {
-        "option": "Barton fracture",
-        "bool": false
-      },
-      {
-        "option": "Monteggia fracture",
-        "bool": false
-      },
       {
         "option": "Ape hand",
         "bool": false
@@ -1777,6 +1769,14 @@
       },
       {
         "option": "Smith's fracture",
+        "bool": false
+      },
+      {
+        "option": "Monteggia fracture",
+        "bool": false
+      },
+      {
+        "option": "Barton fracture",
         "bool": false
       }
     ]
@@ -1791,11 +1791,11 @@
         "bool": false
       },
       {
-        "option": "Osteoporosis",
-        "bool": true
+        "option": "Osteogenesis imperfecta",
+        "bool": false
       },
       {
-        "option": "Osteogenesis imperfecta",
+        "option": "Parkinson",
         "bool": false
       },
       {
@@ -1803,8 +1803,8 @@
         "bool": false
       },
       {
-        "option": "Parkinson",
-        "bool": false
+        "option": "Osteoporosis",
+        "bool": true
       }
     ]
   },
@@ -1814,6 +1814,14 @@
     "question": "Which of the following is the most common radial fracture?",
     "answers": [
       {
+        "option": "Monteggia fracture",
+        "bool": false
+      },
+      {
+        "option": "Barton fracture",
+        "bool": false
+      },
+      {
         "option": "Smith's fracture",
         "bool": false
       },
@@ -1822,16 +1830,8 @@
         "bool": false
       },
       {
-        "option": "Monteggia fracture",
-        "bool": false
-      },
-      {
         "option": "Colle's fracture",
         "bool": true
-      },
-      {
-        "option": "Barton fracture",
-        "bool": false
       }
     ]
   },
@@ -1845,6 +1845,10 @@
         "bool": false
       },
       {
+        "option": "Brachydactyly",
+        "bool": false
+      },
+      {
         "option": "Syndactyly",
         "bool": true
       },
@@ -1855,10 +1859,6 @@
       {
         "option": "Polydactyly",
         "bool": false
-      },
-      {
-        "option": "Brachydactyly",
-        "bool": false
       }
     ]
   },
@@ -1868,24 +1868,24 @@
     "question": "Which of the following is an example of a natural narcotic analgesic?",
     "answers": [
       {
-        "option": "Meperidine",
-        "bool": false
-      },
-      {
         "option": "Pethidine",
         "bool": false
       },
       {
-        "option": "Codeine",
-        "bool": true
+        "option": "Methadone",
+        "bool": false
       },
       {
         "option": "Tramadol",
         "bool": false
       },
       {
-        "option": "Methadone",
+        "option": "Meperidine",
         "bool": false
+      },
+      {
+        "option": "Codeine",
+        "bool": true
       }
     ]
   },
@@ -1895,24 +1895,24 @@
     "question": "Which of the following is inappropriate for leflunomide?",
     "answers": [
       {
-        "option": "Alopecia",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Hepatotoxic",
-        "bool": false
-      },
-      {
         "option": "Prodrug",
         "bool": false
       },
       {
         "option": "Short lifetime",
         "bool": true
+      },
+      {
+        "option": "Hepatotoxic",
+        "bool": false
+      },
+      {
+        "option": "Alopecia",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
@@ -1922,7 +1922,11 @@
     "question": "Which of the following muscles is not involved in the plantarflexion?",
     "answers": [
       {
-        "option": "Soleus",
+        "option": "Plantaris",
+        "bool": false
+      },
+      {
+        "option": "Gastrocnemius",
         "bool": false
       },
       {
@@ -1930,15 +1934,11 @@
         "bool": true
       },
       {
-        "option": "Plantaris",
+        "option": "Soleus",
         "bool": false
       },
       {
         "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Gastrocnemius",
         "bool": false
       }
     ]
@@ -1949,11 +1949,11 @@
     "question": "Which of the following can be calculated by the standard deviation of the mean?",
     "answers": [
       {
-        "option": "Constant",
+        "option": "Mean",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Constant",
         "bool": false
       },
       {
@@ -1961,7 +1961,7 @@
         "bool": false
       },
       {
-        "option": "Mean",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1976,6 +1976,14 @@
     "question": "Reiter's syndrome is not associated with which of the following?",
     "answers": [
       {
+        "option": "Cervicitis",
+        "bool": true
+      },
+      {
+        "option": "Enteritis",
+        "bool": false
+      },
+      {
         "option": "Urethritis",
         "bool": false
       },
@@ -1984,16 +1992,8 @@
         "bool": false
       },
       {
-        "option": "Enteritis",
-        "bool": false
-      },
-      {
         "option": "Arthritis",
         "bool": false
-      },
-      {
-        "option": "Cervicitis",
-        "bool": true
       }
     ]
   },
@@ -2003,24 +2003,24 @@
     "question": "What effect is physical damage to the body most likely to produce?",
     "answers": [
       {
-        "option": "Tumor",
-        "bool": false
-      },
-      {
         "option": "Chronic disease",
         "bool": false
       },
       {
-        "option": "Injury",
-        "bool": true
+        "option": "Disability",
+        "bool": false
+      },
+      {
+        "option": "Tumor",
+        "bool": false
       },
       {
         "option": "Mental disorder",
         "bool": false
       },
       {
-        "option": "Disability",
-        "bool": false
+        "option": "Injury",
+        "bool": true
       }
     ]
   },
@@ -2034,10 +2034,6 @@
         "bool": false
       },
       {
-        "option": "Hydroxychloroquine",
-        "bool": false
-      },
-      {
         "option": "Acetaminophen",
         "bool": true
       },
@@ -2048,6 +2044,10 @@
       {
         "option": "Leflunomide",
         "bool": false
+      },
+      {
+        "option": "Hydroxychloroquine",
+        "bool": false
       }
     ]
   },
@@ -2057,6 +2057,10 @@
     "question": "Which of the following refers to the actions taken to prevent the injury before it occurs?",
     "answers": [
       {
+        "option": "Primary prevention",
+        "bool": true
+      },
+      {
         "option": "Tertiary prevention",
         "bool": false
       },
@@ -2065,15 +2069,11 @@
         "bool": false
       },
       {
-        "option": "Primary prevention",
-        "bool": true
-      },
-      {
-        "option": "None of these",
+        "option": "Secondary prevention",
         "bool": false
       },
       {
-        "option": "Secondary prevention",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -2084,7 +2084,7 @@
     "question": "In an anteroposterior view of X-ray, a sesamoid bone is found in which digit?",
     "answers": [
       {
-        "option": "Lunate bone of wrist",
+        "option": "Distal portion of second metatarsal",
         "bool": false
       },
       {
@@ -2092,15 +2092,15 @@
         "bool": true
       },
       {
-        "option": "Distal portion of second metatarsal",
-        "bool": false
-      },
-      {
-        "option": "Coronoid process of ulna",
+        "option": "Lunate bone of wrist",
         "bool": false
       },
       {
         "option": "Proximal portion of first metacarpal",
+        "bool": false
+      },
+      {
+        "option": "Coronoid process of ulna",
         "bool": false
       }
     ]
@@ -2111,15 +2111,11 @@
     "question": "Which of the following is called a non-proliferative lesion of the epithelium of the breast?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Lobular hyperplasia",
         "bool": false
       },
       {
         "option": "Ductal epithelial hyperplasia",
-        "bool": false
-      },
-      {
-        "option": "Lobular hyperplasia",
         "bool": false
       },
       {
@@ -2129,6 +2125,10 @@
       {
         "option": "Fibrocystic changes",
         "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
@@ -2142,11 +2142,11 @@
         "bool": false
       },
       {
-        "option": "Mastitis",
+        "option": "All of them",
         "bool": false
       },
       {
-        "option": "All of them",
+        "option": "Gynecomastia",
         "bool": false
       },
       {
@@ -2154,7 +2154,7 @@
         "bool": true
       },
       {
-        "option": "Gynecomastia",
+        "option": "Mastitis",
         "bool": false
       }
     ]
@@ -2165,11 +2165,15 @@
     "question": "Which of the following fibers is slowest?",
     "answers": [
       {
-        "option": "A delta fiber",
+        "option": "A beta fiber",
         "bool": false
       },
       {
-        "option": "A beta fiber",
+        "option": "C fiber",
+        "bool": true
+      },
+      {
+        "option": "B fiber",
         "bool": false
       },
       {
@@ -2177,12 +2181,8 @@
         "bool": false
       },
       {
-        "option": "B fiber",
+        "option": "A delta fiber",
         "bool": false
-      },
-      {
-        "option": "C fiber",
-        "bool": true
       }
     ]
   },
@@ -2196,11 +2196,7 @@
         "bool": true
       },
       {
-        "option": "Dopamine",
-        "bool": false
-      },
-      {
-        "option": "Serotonin",
+        "option": "Epinephrine",
         "bool": false
       },
       {
@@ -2208,7 +2204,11 @@
         "bool": false
       },
       {
-        "option": "Epinephrine",
+        "option": "Serotonin",
+        "bool": false
+      },
+      {
+        "option": "Dopamine",
         "bool": false
       }
     ]
@@ -2219,11 +2219,15 @@
     "question": "Which of the following neurotransmitters is released at cholinergic receptors?",
     "answers": [
       {
-        "option": "Glutamate",
+        "option": "Norepinephrine",
         "bool": false
       },
       {
         "option": "Epinephrine",
+        "bool": false
+      },
+      {
+        "option": "Glutamate",
         "bool": false
       },
       {
@@ -2233,10 +2237,6 @@
       {
         "option": "Acetylcholine",
         "bool": true
-      },
-      {
-        "option": "Norepinephrine",
-        "bool": false
       }
     ]
   },
@@ -2246,16 +2246,16 @@
     "question": "Which of the following is the most common bone disease?",
     "answers": [
       {
-        "option": "Osteoporosis",
-        "bool": true
+        "option": "Achondroplasia",
+        "bool": false
       },
       {
         "option": "Melorheostosis",
         "bool": false
       },
       {
-        "option": "Achondroplasia",
-        "bool": false
+        "option": "Osteoporosis",
+        "bool": true
       },
       {
         "option": "All of these",
@@ -2273,7 +2273,7 @@
     "question": "Which of the following signifies the action of Botulinum toxin?",
     "answers": [
       {
-        "option": "Decreases the formation of acetylcholine",
+        "option": "Breaks down the acetylcholine",
         "bool": false
       },
       {
@@ -2281,15 +2281,15 @@
         "bool": false
       },
       {
-        "option": "Blocks the release of acetylcholine",
-        "bool": true
-      },
-      {
         "option": "Increases the release of acetylcholine",
         "bool": false
       },
       {
-        "option": "Breaks down the acetylcholine",
+        "option": "Blocks the release of acetylcholine",
+        "bool": true
+      },
+      {
+        "option": "Decreases the formation of acetylcholine",
         "bool": false
       }
     ]
@@ -2300,20 +2300,20 @@
     "question": "Posterior medial dislocation of the head of the femur damages which of the following nerves?",
     "answers": [
       {
-        "option": "Obturator nerve",
+        "option": "Median nerve",
         "bool": false
       },
       {
-        "option": "Sciatic nerve",
-        "bool": true
-      },
-      {
-        "option": "Median nerve",
+        "option": "Obturator nerve",
         "bool": false
       },
       {
         "option": "All of them",
         "bool": false
+      },
+      {
+        "option": "Sciatic nerve",
+        "bool": true
       },
       {
         "option": "Femoral nerve",
@@ -2327,23 +2327,23 @@
     "question": "Which of the following is correct for the double-blind method in randomized control trials?",
     "answers": [
       {
-        "option": "Doctor knows about the drug given but the patient doesn't",
-        "bool": false
-      },
-      {
         "option": "Both the doctor and the patient don't know about the drug",
         "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
       },
       {
         "option": "Doctor, patient and the administer do not know about the drug",
         "bool": false
       },
       {
-        "option": "Doctor and the patient don't know about the drug but the administer does",
+        "option": "Doctor knows about the drug given but the patient doesn't",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Doctor and the patient don't know about the drug but the administer does",
         "bool": false
       }
     ]
@@ -2354,15 +2354,7 @@
     "question": "Which of the following hormones is responsible for breast development in the last trimester?",
     "answers": [
       {
-        "option": "Progesterone",
-        "bool": true
-      },
-      {
-        "option": "Oxytocin",
-        "bool": false
-      },
-      {
-        "option": "Prolactin",
+        "option": "Estrogen",
         "bool": false
       },
       {
@@ -2370,7 +2362,15 @@
         "bool": false
       },
       {
-        "option": "Estrogen",
+        "option": "Progesterone",
+        "bool": true
+      },
+      {
+        "option": "Prolactin",
+        "bool": false
+      },
+      {
+        "option": "Oxytocin",
         "bool": false
       }
     ]
@@ -2385,7 +2385,11 @@
         "bool": false
       },
       {
-        "option": "T4 to T11",
+        "option": "C6 to T2",
+        "bool": true
+      },
+      {
+        "option": "C5 to T1",
         "bool": false
       },
       {
@@ -2393,11 +2397,7 @@
         "bool": false
       },
       {
-        "option": "C6 to T2",
-        "bool": true
-      },
-      {
-        "option": "C5 to T1",
+        "option": "T4 to T11",
         "bool": false
       }
     ]
@@ -2408,15 +2408,7 @@
     "question": "Which of the following hormones is released by the suckling of the nipple by the baby?",
     "answers": [
       {
-        "option": "Oxytocin",
-        "bool": true
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Prolactin",
+        "option": "Progesterone",
         "bool": false
       },
       {
@@ -2424,8 +2416,16 @@
         "bool": false
       },
       {
-        "option": "Progesterone",
+        "option": "Prolactin",
         "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Oxytocin",
+        "bool": true
       }
     ]
   },
@@ -2435,7 +2435,7 @@
     "question": "Which of the following is the function of the trapezius muscle?",
     "answers": [
       {
-        "option": "Flexion of the neck",
+        "option": "Rotation of the arm",
         "bool": false
       },
       {
@@ -2443,11 +2443,11 @@
         "bool": false
       },
       {
-        "option": "Rotation of the arm",
+        "option": "Depression of the shoulders",
         "bool": false
       },
       {
-        "option": "Depression of the shoulders",
+        "option": "Flexion of the neck",
         "bool": false
       },
       {
@@ -2462,11 +2462,7 @@
     "question": "Which of the following is correct for the mutation in the parathyroid hormone receptors?",
     "answers": [
       {
-        "option": "Decrease in plasma concentration of calcium",
-        "bool": false
-      },
-      {
-        "option": "None of these",
+        "option": "Short term changes in plasma concentration of calcium",
         "bool": false
       },
       {
@@ -2474,12 +2470,16 @@
         "bool": false
       },
       {
-        "option": "Short term changes in plasma concentration of calcium",
+        "option": "Long term changes in plasma concentration of calcium",
+        "bool": true
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "Long term changes in plasma concentration of calcium",
-        "bool": true
+        "option": "Decrease in plasma concentration of calcium",
+        "bool": false
       }
     ]
   },
@@ -2493,7 +2493,7 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Estrogen",
         "bool": false
       },
       {
@@ -2501,7 +2501,7 @@
         "bool": true
       },
       {
-        "option": "Estrogen",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -2520,7 +2520,7 @@
         "bool": true
       },
       {
-        "option": "Increases calcium deposition in bone",
+        "option": "Decreases phosphate excretion",
         "bool": false
       },
       {
@@ -2528,11 +2528,11 @@
         "bool": false
       },
       {
-        "option": "Decreases phosphate excretion",
+        "option": "Increases calcium excretion",
         "bool": false
       },
       {
-        "option": "Increases calcium excretion",
+        "option": "Increases calcium deposition in bone",
         "bool": false
       }
     ]
@@ -2543,11 +2543,7 @@
     "question": "Which of the following is the width of the synaptic cleft?",
     "answers": [
       {
-        "option": "20-30 nm",
-        "bool": true
-      },
-      {
-        "option": "80-90 nm",
+        "option": "60-70 nm",
         "bool": false
       },
       {
@@ -2555,12 +2551,16 @@
         "bool": false
       },
       {
-        "option": "60-70 nm",
+        "option": "80-90 nm",
         "bool": false
       },
       {
         "option": "40-60 nm",
         "bool": false
+      },
+      {
+        "option": "20-30 nm",
+        "bool": true
       }
     ]
   },
@@ -2570,15 +2570,11 @@
     "question": "Which of the following is not a feature of cardiac muscle?",
     "answers": [
       {
-        "option": "Loose myofibril arrangement",
-        "bool": true
-      },
-      {
-        "option": "Well-developed mitochondria",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "High glycogen granules",
+        "option": "Well-developed mitochondria",
         "bool": false
       },
       {
@@ -2586,7 +2582,11 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Loose myofibril arrangement",
+        "bool": true
+      },
+      {
+        "option": "High glycogen granules",
         "bool": false
       }
     ]
@@ -2597,10 +2597,6 @@
     "question": "Which of the following is not a part of the quadriceps femoris?",
     "answers": [
       {
-        "option": "Vastus medialis",
-        "bool": false
-      },
-      {
         "option": "Vastus lateralis",
         "bool": false
       },
@@ -2610,6 +2606,10 @@
       },
       {
         "option": "Rectus femoris",
+        "bool": false
+      },
+      {
+        "option": "Vastus medialis",
         "bool": false
       },
       {
@@ -2624,10 +2624,6 @@
     "question": "Which nerve is subject to injury in a fracture of the midshaft of the humerus?",
     "answers": [
       {
-        "option": "Radial nerve",
-        "bool": true
-      },
-      {
         "option": "Ulnar nerve",
         "bool": false
       },
@@ -2636,11 +2632,15 @@
         "bool": false
       },
       {
-        "option": "Musculocutaneous nerve",
+        "option": "None of these",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Radial nerve",
+        "bool": true
+      },
+      {
+        "option": "Musculocutaneous nerve",
         "bool": false
       }
     ]
@@ -2651,11 +2651,15 @@
     "question": "A 12-year-old boy presents to the emergency department after a road traffic accident. On examination, the child does not seem to suffer any severe injuries on the outside but is unable to extend his knee. Which of the following nerves supplies the extensors of the knee?",
     "answers": [
       {
+        "option": "Obturator nerve",
+        "bool": false
+      },
+      {
         "option": "Sciatic nerve",
         "bool": false
       },
       {
-        "option": "Tibial nerve",
+        "option": "Fibular nerve",
         "bool": false
       },
       {
@@ -2663,11 +2667,7 @@
         "bool": true
       },
       {
-        "option": "Obturator nerve",
-        "bool": false
-      },
-      {
-        "option": "Fibular nerve",
+        "option": "Tibial nerve",
         "bool": false
       }
     ]
@@ -2678,24 +2678,24 @@
     "question": "Which of the following is not a stage for health promotion and education?",
     "answers": [
       {
+        "option": "Community transformation",
+        "bool": false
+      },
+      {
         "option": "Education",
         "bool": false
       },
       {
-        "option": "Legislation",
-        "bool": true
+        "option": "Publicity",
+        "bool": false
       },
       {
         "option": "Sensitization",
         "bool": false
       },
       {
-        "option": "Community transformation",
-        "bool": false
-      },
-      {
-        "option": "Publicity",
-        "bool": false
+        "option": "Legislation",
+        "bool": true
       }
     ]
   },
@@ -2713,16 +2713,16 @@
         "bool": false
       },
       {
-        "option": "Meteorological",
-        "bool": true
+        "option": "Atomic explosion",
+        "bool": false
       },
       {
         "option": "Topological",
         "bool": false
       },
       {
-        "option": "Atomic explosion",
-        "bool": false
+        "option": "Meteorological",
+        "bool": true
       }
     ]
   },
@@ -2732,11 +2732,11 @@
     "question": "Which of the following is the side effect of methotrexate?",
     "answers": [
       {
-        "option": "Ototoxicity",
+        "option": "Anaphylactic reaction",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Ototoxicity",
         "bool": false
       },
       {
@@ -2744,7 +2744,7 @@
         "bool": true
       },
       {
-        "option": "Anaphylactic reaction",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -2759,7 +2759,11 @@
     "question": "Which of the following is the side effect of leflunomide?",
     "answers": [
       {
-        "option": "Ototoxicity",
+        "option": "Nephrotoxicity",
+        "bool": false
+      },
+      {
+        "option": "Cytotoxicity",
         "bool": false
       },
       {
@@ -2767,11 +2771,7 @@
         "bool": false
       },
       {
-        "option": "Nephrotoxicity",
-        "bool": false
-      },
-      {
-        "option": "Cytotoxicity",
+        "option": "Ototoxicity",
         "bool": false
       },
       {
@@ -2786,11 +2786,7 @@
     "question": "Which of the following is a side effect of glucocorticoid therapy?",
     "answers": [
       {
-        "option": "Ototoxicity",
-        "bool": false
-      },
-      {
-        "option": "Exaggeration of inflammatory reaction",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -2802,7 +2798,11 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Exaggeration of inflammatory reaction",
+        "bool": false
+      },
+      {
+        "option": "Ototoxicity",
         "bool": false
       }
     ]
@@ -2813,11 +2813,11 @@
     "question": "Hairline fractures occur in which of the following?",
     "answers": [
       {
-        "option": "Mouth",
+        "option": "Skull",
         "bool": false
       },
       {
-        "option": "Skull",
+        "option": "Vertebrae",
         "bool": false
       },
       {
@@ -2829,7 +2829,7 @@
         "bool": false
       },
       {
-        "option": "Vertebrae",
+        "option": "Mouth",
         "bool": false
       }
     ]
@@ -2844,11 +2844,11 @@
         "bool": true
       },
       {
-        "option": "Glutamate",
+        "option": "Vasopressin",
         "bool": false
       },
       {
-        "option": "Epinephrine",
+        "option": "Glutamate",
         "bool": false
       },
       {
@@ -2856,7 +2856,7 @@
         "bool": false
       },
       {
-        "option": "Vasopressin",
+        "option": "Epinephrine",
         "bool": false
       }
     ]
@@ -2871,10 +2871,6 @@
         "bool": false
       },
       {
-        "option": "Slows conduction of nerve impulses",
-        "bool": false
-      },
-      {
         "option": "Inhibits motor nerve end-plates",
         "bool": true
       },
@@ -2885,6 +2881,10 @@
       {
         "option": "Prevents saltatory conduction of nerve impulses",
         "bool": false
+      },
+      {
+        "option": "Slows conduction of nerve impulses",
+        "bool": false
       }
     ]
   },
@@ -2894,15 +2894,11 @@
     "question": "Which of the following is the histological feature of ductal carcinoma in situ?",
     "answers": [
       {
-        "option": "Necrosis",
-        "bool": true
-      },
-      {
         "option": "Hyperplasia",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Fibrosis",
         "bool": false
       },
       {
@@ -2910,7 +2906,11 @@
         "bool": false
       },
       {
-        "option": "Fibrosis",
+        "option": "Necrosis",
+        "bool": true
+      },
+      {
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -2925,7 +2925,7 @@
         "bool": false
       },
       {
-        "option": "Ca++",
+        "option": "K+",
         "bool": false
       },
       {
@@ -2933,11 +2933,11 @@
         "bool": true
       },
       {
-        "option": "K+",
+        "option": "P3-",
         "bool": false
       },
       {
-        "option": "P3-",
+        "option": "Ca++",
         "bool": false
       }
     ]
@@ -2948,6 +2948,10 @@
     "question": "Which of the following is true after treatment is initiated for a patient?",
     "answers": [
       {
+        "option": "Patient can not withdraw consent",
+        "bool": false
+      },
+      {
         "option": "Patient is not allowed to take decisions",
         "bool": false
       },
@@ -2956,15 +2960,11 @@
         "bool": true
       },
       {
-        "option": "Patient can not leave the treatment",
-        "bool": false
-      },
-      {
-        "option": "Patient can not withdraw consent",
-        "bool": false
-      },
-      {
         "option": "Patient's consent is not taken",
+        "bool": false
+      },
+      {
+        "option": "Patient can not leave the treatment",
         "bool": false
       }
     ]
@@ -2975,15 +2975,7 @@
     "question": "Which of the following is the largest protein in sarcomere?",
     "answers": [
       {
-        "option": "Actin",
-        "bool": false
-      },
-      {
-        "option": "Tropomodulin",
-        "bool": false
-      },
-      {
-        "option": "Myosin",
+        "option": "All of these",
         "bool": false
       },
       {
@@ -2991,7 +2983,15 @@
         "bool": true
       },
       {
-        "option": "All of these",
+        "option": "Myosin",
+        "bool": false
+      },
+      {
+        "option": "Actin",
+        "bool": false
+      },
+      {
+        "option": "Tropomodulin",
         "bool": false
       }
     ]
@@ -3002,11 +3002,15 @@
     "question": "Which of the following is not included in seronegative spondyloarthropathies?",
     "answers": [
       {
-        "option": "Ankylosing spondylitis",
+        "option": "Axial spondyloarthritis",
         "bool": false
       },
       {
-        "option": "Psoriatic arthritis",
+        "option": "Reactive arthritis",
+        "bool": false
+      },
+      {
+        "option": "Ankylosing spondylitis",
         "bool": false
       },
       {
@@ -3014,11 +3018,7 @@
         "bool": true
       },
       {
-        "option": "Axial spondyloarthritis",
-        "bool": false
-      },
-      {
-        "option": "Reactive arthritis",
+        "option": "Psoriatic arthritis",
         "bool": false
       }
     ]
@@ -3029,8 +3029,8 @@
     "question": "The Boltzmann equation is used to calculate membrane potential using which of the following?",
     "answers": [
       {
-        "option": "Difference in ion concentration",
-        "bool": false
+        "option": "Several different ions",
+        "bool": true
       },
       {
         "option": "One particular ion",
@@ -3045,62 +3045,8 @@
         "bool": false
       },
       {
-        "option": "Several different ions",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following is the most common cause of pyogenic osteomyelitis?",
-    "answers": [
-      {
-        "option": "Pseudomonas aeruginosa",
+        "option": "Difference in ion concentration",
         "bool": false
-      },
-      {
-        "option": "Salmonella typhi",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus epidermidis",
-        "bool": false
-      },
-      {
-        "option": "Mycobacterium tuberculosis",
-        "bool": false
-      },
-      {
-        "option": "Staphylococcus aureus",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 114,
-    "info": "1st-year/locomotor/2017",
-    "question": "Which of the following veins pass through the deltopectoral triangle?",
-    "answers": [
-      {
-        "option": "Subclavian vein",
-        "bool": false
-      },
-      {
-        "option": "Axillary vein",
-        "bool": false
-      },
-      {
-        "option": "Brachial vein",
-        "bool": false
-      },
-      {
-        "option": "Basilic vein",
-        "bool": false
-      },
-      {
-        "option": "Cephalic vein",
-        "bool": true
       }
     ]
   }

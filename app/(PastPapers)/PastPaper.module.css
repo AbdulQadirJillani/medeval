@@ -36,11 +36,13 @@
     background-image: linear-gradient(to bottom right, var(--accent), var(--background), var(--accent));
 }
 
-.foundation {
+.foundation,
+.foundation-2 {
     background-image: url('../_assets/images-transparent/foundation-transparent.png');
 }
 
-.blood {
+.blood,
+.hematology {
     background-image: url('../_assets/images-transparent/blood-transparent.png');
 }
 
@@ -48,15 +50,18 @@
     background-image: url('../_assets/images-transparent/locomotor-transparent.png');
 }
 
-.respiratory {
+.respiratory,
+.respiratory-2 {
     background-image: url('../_assets/images-transparent/respiratory-transparent.png');
 }
 
-.cardiovascular {
+.cardiovascular,
+.cardiovascular-2 {
     background-image: url('../_assets/images-transparent/cardiovascular-transparent.png');
 }
 
-.neuroscience {
+.neuroscience,
+.neuroscience-2 {
     background-image: url('../_assets/images-transparent/neuroscience-transparent.png');
 }
 
@@ -64,19 +69,25 @@
     background-image: url('../_assets/images-transparent/head-and-neck-transparent.png');
 }
 
-.endocrinology {
+.endocrinology,
+.endocrinology-2 {
     background-image: url('../_assets/images-transparent/endo-transparent.png');
 }
 
-.gastrointestinal {
+.gastrointestinal,
+.gastrointestinal-2 {
     background-image: url('../_assets/images-transparent/gastrointestinal-transparent.png');
 }
 
-.renal {
+.renal,
+.renal-2 {
     background-image: url('../_assets/images-transparent/renal-transparent.png');
 }
 
-.reproductive {
+.reproductive,
+.reproductive-2,
+.obstetrics,
+.gynecology {
     background-image: url('../_assets/images-transparent/reproductive-transparent.png');
 }
 
@@ -96,3 +107,7 @@
 .ophthalmology {
     background-image: url('../_assets/images-transparent/eye-transparent.png');
 }
+
+/* 5th-year medicine-1/-2, surgery-1/-2 and pediatrics have no matching asset
+   in _assets/images-transparent yet — they render with the gradient frame and
+   no background image until artwork is added. */

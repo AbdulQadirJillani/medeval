@@ -1,9 +1,13 @@
 [
   {
     "id": 0,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is used to measure pH?",
     "answers": [
+      {
+        "option": "pH detector",
+        "bool": false
+      },
       {
         "option": "pH scale",
         "bool": false
@@ -19,60 +23,56 @@
       {
         "option": "pH color",
         "bool": false
-      },
-      {
-        "option": "pH detector",
-        "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following correctly describes the first seven ribs?",
     "answers": [
-      {
-        "option": "Typical ribs",
-        "bool": false
-      },
       {
         "option": "Floating ribs",
         "bool": false
       },
       {
-        "option": "True ribs",
-        "bool": true
+        "option": "Atypical ribs",
+        "bool": false
+      },
+      {
+        "option": "Typical ribs",
+        "bool": false
       },
       {
         "option": "False ribs",
         "bool": false
       },
       {
-        "option": "Atypical ribs",
-        "bool": false
+        "option": "True ribs",
+        "bool": true
       }
     ]
   },
   {
     "id": 2,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "During a tooth extraction procedure, a broken tooth accidentally fell into the respiratory passage. What is the most common site for the foreign body to dislodge?",
     "answers": [
       {
-        "option": "Terminal bronchus",
+        "option": "Trachea",
         "bool": false
       },
       {
-        "option": "Trachea",
-        "bool": false
+        "option": "Right bronchus",
+        "bool": true
       },
       {
         "option": "Bronchioles",
         "bool": false
       },
       {
-        "option": "Right bronchus",
-        "bool": true
+        "option": "Terminal bronchus",
+        "bool": false
       },
       {
         "option": "Left bronchus",
@@ -82,13 +82,9 @@
   },
   {
     "id": 3,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is the major component of surfactant?",
     "answers": [
-      {
-        "option": "None of these",
-        "bool": false
-      },
       {
         "option": "Dipalmitoyl phosphatidylcholine",
         "bool": true
@@ -98,22 +94,26 @@
         "bool": false
       },
       {
-        "option": "Cerebrosides",
+        "option": "Gangliosides",
         "bool": false
       },
       {
-        "option": "Gangliosides",
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Cerebrosides",
         "bool": false
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "What is the most common route carbon dioxide takes to be transported to the cells?",
     "answers": [
       {
-        "option": "By binding to plasma proteins",
+        "option": "By dissolving in plasma",
         "bool": false
       },
       {
@@ -121,7 +121,7 @@
         "bool": true
       },
       {
-        "option": "In the form of carbaminohemoglobin",
+        "option": "By binding to plasma proteins",
         "bool": false
       },
       {
@@ -129,22 +129,18 @@
         "bool": false
       },
       {
-        "option": "By dissolving in plasma",
+        "option": "In the form of carbaminohemoglobin",
         "bool": false
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "The phrenic nerve is accompanied by which of the following arteries?",
     "answers": [
       {
-        "option": "Pericardiophrenic artery",
-        "bool": true
-      },
-      {
-        "option": "Internal thoracic artery",
+        "option": "Inferior epigastric artery",
         "bool": false
       },
       {
@@ -156,72 +152,76 @@
         "bool": false
       },
       {
-        "option": "Inferior epigastric artery",
+        "option": "Pericardiophrenic artery",
+        "bool": true
+      },
+      {
+        "option": "Internal thoracic artery",
         "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A doctor performs a surgery at the superior border of the intercostal space, causing pain. Which structure is damaged?",
     "answers": [
       {
-        "option": "Epigastric vein",
+        "option": "Azygous vein",
         "bool": false
       },
       {
-        "option": "Azygous vein",
-        "bool": false
+        "option": "Intercostal vessels",
+        "bool": true
       },
       {
         "option": "Intercostal muscles",
         "bool": false
       },
       {
-        "option": "Hemiazygous vein",
+        "option": "Epigastric vein",
         "bool": false
       },
       {
-        "option": "Intercostal vessels",
-        "bool": true
+        "option": "Hemiazygous vein",
+        "bool": false
       }
     ]
   },
   {
     "id": 7,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "The central chemoreceptors are stimulated maximally by which of the following chemical substance?",
     "answers": [
-      {
-        "option": "High concentration of bicarbonate ions",
-        "bool": false
-      },
       {
         "option": "High pH in blood",
         "bool": false
       },
       {
-        "option": "High concentration of hydrogen ions",
+        "option": "High concentration of CO₂",
         "bool": true
       },
       {
-        "option": "High concentration of CO\u2082",
+        "option": "Low partial pressure of oxygen",
         "bool": false
       },
       {
-        "option": "Low partial pressure of oxygen",
+        "option": "High concentration of hydrogen ions",
+        "bool": false
+      },
+      {
+        "option": "High concentration of bicarbonate ions",
         "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "The students of first year MBBS are given a slide of the respiratory system. It shows all the usual layers: mucosa, submucosa, cartilage/muscular layer, and adventitia. Which of the following components of the respiratory airway has the greatest relative amount of smooth muscle?",
     "answers": [
       {
-        "option": "Trachea",
+        "option": "Bronchi",
         "bool": false
       },
       {
@@ -229,11 +229,11 @@
         "bool": true
       },
       {
-        "option": "Larynx",
+        "option": "Trachea",
         "bool": false
       },
       {
-        "option": "Bronchi",
+        "option": "Larynx",
         "bool": false
       },
       {
@@ -244,7 +244,7 @@
   },
   {
     "id": 9,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Pleural effusion is checked on X-ray at which of the following levels?",
     "answers": [
       {
@@ -252,16 +252,16 @@
         "bool": false
       },
       {
-        "option": "Costophrenic angle",
-        "bool": true
+        "option": "Cardiophrenic angle",
+        "bool": false
       },
       {
         "option": "Infrasternal angle",
         "bool": false
       },
       {
-        "option": "Cardiophrenic angle",
-        "bool": false
+        "option": "Costophrenic angle",
+        "bool": true
       },
       {
         "option": "Sternal angle",
@@ -271,19 +271,11 @@
   },
   {
     "id": 10,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which metabolic imbalance is seen in respiratory alkalosis?",
     "answers": [
       {
-        "option": "Na only",
-        "bool": false
-      },
-      {
-        "option": "Ca and K",
-        "bool": true
-      },
-      {
-        "option": "Ca only",
+        "option": "Ca and Na",
         "bool": false
       },
       {
@@ -291,16 +283,28 @@
         "bool": false
       },
       {
-        "option": "Ca and Na",
+        "option": "Ca and K",
+        "bool": true
+      },
+      {
+        "option": "Na only",
+        "bool": false
+      },
+      {
+        "option": "Ca only",
         "bool": false
       }
     ]
   },
   {
     "id": 11,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is a characteristic feature of the twelfth rib?",
     "answers": [
+      {
+        "option": "Neck of the rib",
+        "bool": false
+      },
       {
         "option": "Costal groove",
         "bool": false
@@ -310,34 +314,30 @@
         "bool": true
       },
       {
-        "option": "Costal cartilage",
-        "bool": false
-      },
-      {
-        "option": "Neck of the rib",
-        "bool": false
-      },
-      {
         "option": "Angle of the rib",
+        "bool": false
+      },
+      {
+        "option": "Costal cartilage",
         "bool": false
       }
     ]
   },
   {
     "id": 12,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Caseating granulomas are found in tuberculosis. This is an example of which type of hypersensitivity?",
     "answers": [
-      {
-        "option": "Type 4",
-        "bool": true
-      },
       {
         "option": "Type 2",
         "bool": false
       },
       {
-        "option": "Type 1 (delayed)",
+        "option": "Type 4",
+        "bool": true
+      },
+      {
+        "option": "Type 3",
         "bool": false
       },
       {
@@ -345,22 +345,18 @@
         "bool": false
       },
       {
-        "option": "Type 3",
+        "option": "Type 1 (delayed)",
         "bool": false
       }
     ]
   },
   {
     "id": 13,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following sets of ribs exhibits the bucket handle movement during inspiration?",
     "answers": [
       {
-        "option": "Ribs 1 to 9",
-        "bool": false
-      },
-      {
-        "option": "Floating ribs",
+        "option": "Ribs 1-2",
         "bool": false
       },
       {
@@ -368,20 +364,32 @@
         "bool": true
       },
       {
-        "option": "Ribs 1-2",
+        "option": "Attached ribs",
         "bool": false
       },
       {
-        "option": "Attached ribs",
+        "option": "Ribs 1 to 9",
+        "bool": false
+      },
+      {
+        "option": "Floating ribs",
         "bool": false
       }
     ]
   },
   {
     "id": 14,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A surgeon, while performing surgery, ligated the thoracic duct. Which of the following lymph drainage is not affected by this ligation?",
     "answers": [
+      {
+        "option": "Left parasternal nodes",
+        "bool": false
+      },
+      {
+        "option": "Left brachiomediastinal trunk",
+        "bool": false
+      },
       {
         "option": "Left jugular trunk",
         "bool": false
@@ -391,49 +399,41 @@
         "bool": true
       },
       {
-        "option": "Left parasternal nodes",
-        "bool": false
-      },
-      {
         "option": "Diaphragmatic nodes",
-        "bool": false
-      },
-      {
-        "option": "Left brachiomediastinal trunk",
         "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Lungs are supplied by pulmonary and bronchial vessels. Which of the following blood vessels carries poorly oxygenated blood from the heart to the lungs?",
     "answers": [
       {
-        "option": "Bronchial arteries",
-        "bool": false
-      },
-      {
-        "option": "Pulmonary capillaries",
-        "bool": false
-      },
-      {
         "option": "Pulmonary arteries",
         "bool": true
+      },
+      {
+        "option": "Bronchial veins",
+        "bool": false
+      },
+      {
+        "option": "Bronchial arteries",
+        "bool": false
       },
       {
         "option": "Pulmonary veins",
         "bool": false
       },
       {
-        "option": "Bronchial veins",
+        "option": "Pulmonary capillaries",
         "bool": false
       }
     ]
   },
   {
     "id": 16,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "The pump handle movement of the rib cage involves which of the following ribs?",
     "answers": [
       {
@@ -441,26 +441,26 @@
         "bool": false
       },
       {
-        "option": "7 to 12",
+        "option": "1 to 7",
         "bool": false
       },
       {
-        "option": "1 to 7",
+        "option": "7 to 10",
+        "bool": false
+      },
+      {
+        "option": "7 to 12",
         "bool": false
       },
       {
         "option": "2 to 6",
         "bool": true
-      },
-      {
-        "option": "7 to 10",
-        "bool": false
       }
     ]
   },
   {
     "id": 17,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "What is the term for the 8th to the 16th week of the respiratory system development stage?",
     "answers": [
       {
@@ -468,31 +468,89 @@
         "bool": false
       },
       {
-        "option": "Alveolar stage",
+        "option": "Embryonic stage",
         "bool": false
       },
       {
-        "option": "Embryonic stage",
+        "option": "Canalicular stage",
+        "bool": false
+      },
+      {
+        "option": "Alveolar stage",
         "bool": false
       },
       {
         "option": "Pseudoglandular stage",
         "bool": true
-      },
-      {
-        "option": "Canalicular stage",
-        "bool": false
       }
     ]
   },
   {
     "id": 18,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
+    "question": "During respiratory movements, ribs act as a lever. Which of the following is the fulcrum of this lever?",
+    "answers": [
+      {
+        "option": "At the angle of the rib",
+        "bool": false
+      },
+      {
+        "option": "Lateral to the tubercle of rib",
+        "bool": true
+      },
+      {
+        "option": "Medial to the tubercle of rib",
+        "bool": false
+      },
+      {
+        "option": "The tubercle of rib",
+        "bool": false
+      },
+      {
+        "option": "At the head of the rib",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "1st-year/respiratory/2022",
+    "question": "Which of the following muscles is not involved in forced inspiration?",
+    "answers": [
+      {
+        "option": "Serratus anterior",
+        "bool": false
+      },
+      {
+        "option": "Erector spinae",
+        "bool": true
+      },
+      {
+        "option": "Latissimus dorsi",
+        "bool": false
+      },
+      {
+        "option": "Scalenus medius",
+        "bool": false
+      },
+      {
+        "option": "Scalenus anterior",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following structures is involved in the formation of the central tendon of the diaphragm?",
     "answers": [
       {
         "option": "Pleuroperitoneal membranes",
         "bool": false
+      },
+      {
+        "option": "Septum transversum",
+        "bool": true
       },
       {
         "option": "Thoracic somites",
@@ -503,84 +561,22 @@
         "bool": false
       },
       {
-        "option": "Septum transversum",
-        "bool": true
-      },
-      {
         "option": "Mesentery of the esophagus",
         "bool": false
       }
     ]
   },
   {
-    "id": 19,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "During respiratory movements, ribs act as a lever. Which of the following is the fulcrum of this lever?",
-    "answers": [
-      {
-        "option": "The tubercle of rib",
-        "bool": false
-      },
-      {
-        "option": "Medial to the tubercle of rib",
-        "bool": false
-      },
-      {
-        "option": "At the head of the rib",
-        "bool": false
-      },
-      {
-        "option": "At the angle of the rib",
-        "bool": false
-      },
-      {
-        "option": "Lateral to the tubercle of rib",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "Which of the following muscles is not involved in forced inspiration?",
-    "answers": [
-      {
-        "option": "Scalenus anterior",
-        "bool": false
-      },
-      {
-        "option": "Scalenus medius",
-        "bool": false
-      },
-      {
-        "option": "Serratus anterior",
-        "bool": false
-      },
-      {
-        "option": "Latissimus dorsi",
-        "bool": false
-      },
-      {
-        "option": "Erector spinae",
-        "bool": true
-      }
-    ]
-  },
-  {
     "id": 21,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following statements regarding the pleura is correct?",
     "answers": [
       {
-        "option": "It forms the pulmonary ligament",
-        "bool": true
-      },
-      {
-        "option": "It has two layers tightly adherent to each other",
+        "option": "It is lined by respiratory epithelium",
         "bool": false
       },
       {
-        "option": "It is lined by respiratory epithelium",
+        "option": "It has two layers tightly adherent to each other",
         "bool": false
       },
       {
@@ -590,26 +586,18 @@
       {
         "option": "It is insensitive",
         "bool": false
+      },
+      {
+        "option": "It forms the pulmonary ligament",
+        "bool": true
       }
     ]
   },
   {
     "id": 22,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "The inferior vena cava passes through the diaphragm at which of the following spinal levels?",
     "answers": [
-      {
-        "option": "C7",
-        "bool": false
-      },
-      {
-        "option": "T8",
-        "bool": true
-      },
-      {
-        "option": "T10",
-        "bool": false
-      },
       {
         "option": "T12",
         "bool": false
@@ -617,20 +605,28 @@
       {
         "option": "L1",
         "bool": false
+      },
+      {
+        "option": "T8",
+        "bool": true
+      },
+      {
+        "option": "C7",
+        "bool": false
+      },
+      {
+        "option": "T10",
+        "bool": false
       }
     ]
   },
   {
     "id": 23,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following structures passes through the diaphragm with the esophagus?",
     "answers": [
       {
-        "option": "Thoracic duct",
-        "bool": false
-      },
-      {
-        "option": "Sympathetic trunk",
+        "option": "Azygos vein",
         "bool": false
       },
       {
@@ -638,26 +634,111 @@
         "bool": false
       },
       {
-        "option": "Azygos vein",
+        "option": "Right vagus nerve",
+        "bool": true
+      },
+      {
+        "option": "Sympathetic trunk",
         "bool": false
       },
       {
-        "option": "Right vagus nerve",
-        "bool": true
+        "option": "Thoracic duct",
+        "bool": false
       }
     ]
   },
   {
     "id": 24,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "Which of the following maintains the patency of the trachea?",
+    "info": "1st-year/respiratory/2022",
+    "question": "Intercostal vessels and nerve run between which of the following thoracic intercostal muscles?",
     "answers": [
       {
-        "option": "Air pressure",
+        "option": "Subcostal and transversus thoracic muscles",
         "bool": false
       },
       {
-        "option": "Pseudostratified ciliated epithelium",
+        "option": "External and internal intercostal muscles",
+        "bool": false
+      },
+      {
+        "option": "Innermost intercostal and transversus thoracic muscles",
+        "bool": false
+      },
+      {
+        "option": "Innermost intercostal and subcostal muscles",
+        "bool": false
+      },
+      {
+        "option": "Internal and innermost intercostal muscles",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "1st-year/respiratory/2022",
+    "question": "A 42-year-old woman presents to the outpatient department with complaints of pain in the medial side of the forearm and wasting of hand muscles. The consultant diagnoses a compression of the lower trunk of the brachial plexus. Which of the following causes compression of the lower trunk of the brachial plexus?",
+    "answers": [
+      {
+        "option": "Cervical rib",
+        "bool": true
+      },
+      {
+        "option": "First rib fracture",
+        "bool": false
+      },
+      {
+        "option": "Abdominal rib",
+        "bool": false
+      },
+      {
+        "option": "Extra vertebrae",
+        "bool": false
+      },
+      {
+        "option": "Second rib fracture",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "1st-year/respiratory/2022",
+    "question": "A 35-year-old man presents to the outpatient department with a complaint of chest pain that was felt in the ribs. After examination and investigation, a diagnosis of pressure on the intercostal nerves was made which resulted in a spasm of intercostal muscles. Which of the following muscles is unaffected?",
+    "answers": [
+      {
+        "option": "Internal intercostal",
+        "bool": false
+      },
+      {
+        "option": "Subcostal",
+        "bool": false
+      },
+      {
+        "option": "Innermost intercostal",
+        "bool": false
+      },
+      {
+        "option": "External intercostal",
+        "bool": false
+      },
+      {
+        "option": "Pectoralis major",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "1st-year/respiratory/2022",
+    "question": "Which of the following maintains the patency of the trachea?",
+    "answers": [
+      {
+        "option": "Surfactant",
+        "bool": false
+      },
+      {
+        "option": "Air pressure",
         "bool": false
       },
       {
@@ -665,18 +746,18 @@
         "bool": true
       },
       {
-        "option": "Surfactant",
+        "option": "Surface tension of water",
         "bool": false
       },
       {
-        "option": "Surface tension of water",
+        "option": "Pseudostratified ciliated epithelium",
         "bool": false
       }
     ]
   },
   {
-    "id": 25,
-    "info": "1st-year/respiratory-1/2022",
+    "id": 28,
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following thoracic joints is incorrectly paired with its classification?",
     "answers": [
       {
@@ -692,101 +773,28 @@
         "bool": false
       },
       {
-        "option": "Manubriosternal joint ---> Secondary cartilaginous joint",
-        "bool": false
-      },
-      {
         "option": "Xiphisternal joint ---> Primary cartilaginous joint",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "Intercostal vessels and nerve run between which of the following thoracic intercostal muscles?",
-    "answers": [
-      {
-        "option": "External and internal intercostal muscles",
-        "bool": false
       },
       {
-        "option": "Innermost intercostal and transversus thoracic muscles",
-        "bool": false
-      },
-      {
-        "option": "Internal and innermost intercostal muscles",
-        "bool": true
-      },
-      {
-        "option": "Innermost intercostal and subcostal muscles",
-        "bool": false
-      },
-      {
-        "option": "Subcostal and transversus thoracic muscles",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "A 42-year-old woman presents to the outpatient department with complaints of pain in the medial side of the forearm and wasting of hand muscles. The consultant diagnoses a compression of the lower trunk of the brachial plexus. Which of the following causes compression of the lower trunk of the brachial plexus?",
-    "answers": [
-      {
-        "option": "First rib fracture",
-        "bool": false
-      },
-      {
-        "option": "Second rib fracture",
-        "bool": false
-      },
-      {
-        "option": "Cervical rib",
-        "bool": true
-      },
-      {
-        "option": "Abdominal rib",
-        "bool": false
-      },
-      {
-        "option": "Extra vertebrae",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "A 35-year-old man presents to the outpatient department with a complaint of chest pain that was felt in the ribs. After examination and investigation, a diagnosis of pressure on the intercostal nerves was made which resulted in a spasm of intercostal muscles. Which of the following muscles is unaffected?",
-    "answers": [
-      {
-        "option": "Innermost intercostal",
-        "bool": false
-      },
-      {
-        "option": "External intercostal",
-        "bool": false
-      },
-      {
-        "option": "Pectoralis major",
-        "bool": true
-      },
-      {
-        "option": "Internal intercostal",
-        "bool": false
-      },
-      {
-        "option": "Subcostal",
+        "option": "Manubriosternal joint ---> Secondary cartilaginous joint",
         "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following parts of the parietal pleura is supplied by the phrenic nerve?",
     "answers": [
+      {
+        "option": "Diaphragmatic pleura (peripheral part)",
+        "bool": false
+      },
+      {
+        "option": "Visceral pleura",
+        "bool": false
+      },
       {
         "option": "Costal part",
         "bool": false
@@ -798,24 +806,24 @@
       {
         "option": "Cervical part",
         "bool": false
-      },
-      {
-        "option": "Visceral pleura",
-        "bool": false
-      },
-      {
-        "option": "Diaphragmatic pleura (peripheral part)",
-        "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A newborn baby was observed to have continuous coughing and choking. There was an excessive amount of mucous and saliva secretion in the infant's mouth. The infant showed considerable difficulty breathing. The physician was not able to pass a catheter through the esophagus into the stomach. Which of the following is the most likely diagnosis?",
     "answers": [
       {
+        "option": "Esophageal atresia and tracheoesophageal fistula",
+        "bool": true
+      },
+      {
         "option": "Tracheal atresia",
+        "bool": false
+      },
+      {
+        "option": "Duodenal atresia",
         "bool": false
       },
       {
@@ -825,24 +833,16 @@
       {
         "option": "Hyaline membrane disease",
         "bool": false
-      },
-      {
-        "option": "Esophageal atresia and tracheoesophageal fistula",
-        "bool": true
-      },
-      {
-        "option": "Duodenal atresia",
-        "bool": false
       }
     ]
   },
   {
     "id": 31,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following limits the duration of inspiration and subsequently increases the inspiratory rate?",
     "answers": [
       {
-        "option": "Chemotaxic center",
+        "option": "Dorsal respiratory group of neurons",
         "bool": false
       },
       {
@@ -854,27 +854,27 @@
         "bool": false
       },
       {
-        "option": "Pneumotaxic center",
-        "bool": true
+        "option": "Chemotaxic center",
+        "bool": false
       },
       {
-        "option": "Dorsal respiratory group of neurons",
-        "bool": false
+        "option": "Pneumotaxic center",
+        "bool": true
       }
     ]
   },
   {
     "id": 32,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following has a significant direct stimulatory effect on central chemoreceptors?",
     "answers": [
       {
-        "option": "Increased carbon dioxide in blood",
-        "bool": false
-      },
-      {
         "option": "Increased hydrogen ions in cerebrospinal fluid",
         "bool": true
+      },
+      {
+        "option": "Increased carbon dioxide in cerebrospinal fluid",
+        "bool": false
       },
       {
         "option": "Increased pH of blood",
@@ -885,18 +885,26 @@
         "bool": false
       },
       {
-        "option": "Increased carbon dioxide in cerebrospinal fluid",
+        "option": "Increased carbon dioxide in blood",
         "bool": false
       }
     ]
   },
   {
     "id": 33,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Mountain climbers have found that when they ascend a mountain slowly, over a longer period of days rather than a period of hours, they breathe much more deeply and therefore can withstand far lower atmospheric oxygen concentrations than when they ascend rapidly. What is this phenomenon called?",
     "answers": [
       {
         "option": "Alteration",
+        "bool": false
+      },
+      {
+        "option": "Acclimatization",
+        "bool": true
+      },
+      {
+        "option": "Familiarization",
         "bool": false
       },
       {
@@ -906,25 +914,21 @@
       {
         "option": "Modification",
         "bool": false
-      },
-      {
-        "option": "Familiarization",
-        "bool": false
-      },
-      {
-        "option": "Acclimatization",
-        "bool": true
       }
     ]
   },
   {
     "id": 34,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is the most powerful respiratory stimulus for breathing in healthy individuals?",
     "answers": [
       {
-        "option": "Loss of oxygen in tissue",
+        "option": "Decrease in pH of blood",
         "bool": false
+      },
+      {
+        "option": "Increased carbon dioxide in blood",
+        "bool": true
       },
       {
         "option": "High pH and high carbon dioxide",
@@ -935,22 +939,18 @@
         "bool": false
       },
       {
-        "option": "Decrease in pH of blood",
+        "option": "Loss of oxygen in tissue",
         "bool": false
-      },
-      {
-        "option": "Increased carbon dioxide in blood",
-        "bool": true
       }
     ]
   },
   {
     "id": 35,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A patient presents to the emergency room with rib fractures. His breathing is painful so he is taking rapid, and shallow breaths. His respiratory rate is 40 breaths per minute and his tidal volume is 200 ml. What would be his minute respiratory volume?",
     "answers": [
       {
-        "option": "2000 ml/minute",
+        "option": "200 ml/minute",
         "bool": false
       },
       {
@@ -958,7 +958,7 @@
         "bool": true
       },
       {
-        "option": "200 ml/minute",
+        "option": "400 ml/minute",
         "bool": false
       },
       {
@@ -966,16 +966,24 @@
         "bool": false
       },
       {
-        "option": "400 ml/minute",
+        "option": "2000 ml/minute",
         "bool": false
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 32-year-old man presents to the emergency room with a complaint of having trouble breathing after he met a road traffic accident. His lung function test shows his functional residual capacity to be reduced. What does this capacity indicate?",
     "answers": [
+      {
+        "option": "The amount of air expelled out after each normal expiration",
+        "bool": false
+      },
+      {
+        "option": "The amount of air remaining in the lungs after normal expiration",
+        "bool": true
+      },
       {
         "option": "The amount of air remaining in the lungs after maximum expiration",
         "bool": false
@@ -987,20 +995,12 @@
       {
         "option": "The amount of air inspired and expired during each normal breath",
         "bool": false
-      },
-      {
-        "option": "The amount of air remaining in the lungs after normal expiration",
-        "bool": true
-      },
-      {
-        "option": "The amount of air expelled out after each normal expiration",
-        "bool": false
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following pressure differences is responsible for distention of the lungs?",
     "answers": [
       {
@@ -1008,34 +1008,30 @@
         "bool": false
       },
       {
-        "option": "Transpulmonary pressure",
-        "bool": true
-      },
-      {
         "option": "Airway opening pressure",
         "bool": false
       },
       {
-        "option": "Transthoracic pressure",
-        "bool": false
+        "option": "Transpulmonary pressure",
+        "bool": true
       },
       {
         "option": "Airway closing pressure",
+        "bool": false
+      },
+      {
+        "option": "Transthoracic pressure",
         "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Gases such as oxygen and carbon dioxide cross the respiratory membrane by which of the following methods?",
     "answers": [
       {
-        "option": "Passive diffusion through the lipid bilayer",
-        "bool": true
-      },
-      {
-        "option": "Facilitated diffusion",
+        "option": "Specific gas transport proteins",
         "bool": false
       },
       {
@@ -1043,8 +1039,12 @@
         "bool": false
       },
       {
-        "option": "Specific gas transport proteins",
+        "option": "Facilitated diffusion",
         "bool": false
+      },
+      {
+        "option": "Passive diffusion through the lipid bilayer",
+        "bool": true
       },
       {
         "option": "Primary active transport",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": 39,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following events occurs in the lungs, when the partial pressure of oxygen falls below 73 mmHg in the alveolar air?",
     "answers": [
       {
@@ -1066,22 +1066,22 @@
         "bool": false
       },
       {
-        "option": "Increase in nitrogen content",
-        "bool": false
-      },
-      {
         "option": "Expansion of alveoli",
         "bool": false
       },
       {
         "option": "Constriction of blood vessel adjacent to alveoli",
         "bool": true
+      },
+      {
+        "option": "Increase in nitrogen content",
+        "bool": false
       }
     ]
   },
   {
     "id": 40,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 24-year-old man presents to the outpatient department with complaints of a runny nose; red, itchy, and watery eyes; sneezing, and cough related to post-nasal drip. A diagnosis of allergic rhinitis is made. Which of the following chemical mediators is involved?",
     "answers": [
       {
@@ -1089,11 +1089,11 @@
         "bool": false
       },
       {
-        "option": "Histamine",
-        "bool": true
+        "option": "Ranitidine",
+        "bool": false
       },
       {
-        "option": "Ranitidine",
+        "option": "Glycine",
         "bool": false
       },
       {
@@ -1101,22 +1101,26 @@
         "bool": false
       },
       {
-        "option": "Glycine",
-        "bool": false
+        "option": "Histamine",
+        "bool": true
       }
     ]
   },
   {
     "id": 41,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "A person admitted to the hospital is in a coma. Analysis of arterial blood gave the following values: pCO\u2082 56 mmHg, HCO\u2083 25 mmol/l, and pH 7.1. What is the underlying acid-base disorder?",
+    "info": "1st-year/respiratory/2022",
+    "question": "A person admitted to the hospital is in a coma. Analysis of arterial blood gave the following values: pCO₂ 56 mmHg, HCO₃ 25 mmol/l, and pH 7.1. What is the underlying acid-base disorder?",
     "answers": [
+      {
+        "option": "Metabolic acidosis",
+        "bool": false
+      },
       {
         "option": "Respiratory alkalosis",
         "bool": false
       },
       {
-        "option": "Pulmonary edema",
+        "option": "Metabolic alkalosis",
         "bool": false
       },
       {
@@ -1124,57 +1128,45 @@
         "bool": true
       },
       {
-        "option": "Metabolic alkalosis",
-        "bool": false
-      },
-      {
-        "option": "Metabolic acidosis",
+        "option": "Pulmonary edema",
         "bool": false
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "A 4-year-old boy presents to the emergency room with complaints of malaise, lethargy, tachypnea, sore throat, abdominal pain, vomiting, and dehydration for the past week. He was known to have type I diabetes mellitus. His vitals showed a heart rate of 156 beats per minute, blood pressure of 90/55 mmHg, plasma glucose of 428.4 mg/dL, pH 6.7, pO\u2082 5.2kPa, pCO\u2082 4.4 kPa. The patient is diagnosed with Acute respiratory distress syndrome (ARDS). Dipalmityl phosphatidylcholine is the main constituent of pulmonary surfactants, 45% of which comes from de novo biosynthesis. Which of the following molecules give rise to the de novo synthesis of phosphatidylcholine in the lungs?",
+    "info": "1st-year/respiratory/2022",
+    "question": "A 4-year-old boy presents to the emergency room with complaints of malaise, lethargy, tachypnea, sore throat, abdominal pain, vomiting, and dehydration for the past week. He was known to have type I diabetes mellitus. His vitals showed a heart rate of 156 beats per minute, blood pressure of 90/55 mmHg, plasma glucose of 428.4 mg/dL, pH 6.7, pO₂ 5.2kPa, pCO₂ 4.4 kPa. The patient is diagnosed with Acute respiratory distress syndrome (ARDS). Dipalmityl phosphatidylcholine is the main constituent of pulmonary surfactants, 45% of which comes from de novo biosynthesis. Which of the following molecules give rise to the de novo synthesis of phosphatidylcholine in the lungs?",
     "answers": [
-      {
-        "option": "Cytidine diacylglycerol",
-        "bool": false
-      },
-      {
-        "option": "Lysophosphatidylcholine",
-        "bool": false
-      },
       {
         "option": "Cytidine diphosphate choline",
         "bool": true
+      },
+      {
+        "option": "Cytidine triphosphate choline",
+        "bool": false
+      },
+      {
+        "option": "Cytidine diacylglycerol",
+        "bool": false
       },
       {
         "option": "Cytidine phosphate choline",
         "bool": false
       },
       {
-        "option": "Cytidine triphosphate choline",
+        "option": "Lysophosphatidylcholine",
         "bool": false
       }
     ]
   },
   {
     "id": 43,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "A person admitted to the hospital is in a coma. Analysis of arterial blood gave the following values: pCO\u2082 16.1 mmHg, HCO\u2083 5 mmol/l, and pH 7.1. What is the underlying acid-base disorder?",
+    "info": "1st-year/respiratory/2022",
+    "question": "A person admitted to the hospital is in a coma. Analysis of arterial blood gave the following values: pCO₂ 16.1 mmHg, HCO₃ 5 mmol/l, and pH 7.1. What is the underlying acid-base disorder?",
     "answers": [
       {
-        "option": "Metabolic acidosis",
-        "bool": true
-      },
-      {
-        "option": "Respiratory acidosis with partial compensation",
-        "bool": false
-      },
-      {
-        "option": "Respiratory acidosis",
+        "option": "Metabolic alkalosis",
         "bool": false
       },
       {
@@ -1182,14 +1174,22 @@
         "bool": false
       },
       {
-        "option": "Metabolic alkalosis",
+        "option": "Metabolic acidosis",
+        "bool": true
+      },
+      {
+        "option": "Respiratory acidosis",
+        "bool": false
+      },
+      {
+        "option": "Respiratory acidosis with partial compensation",
         "bool": false
       }
     ]
   },
   {
     "id": 44,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is the least likely characteristic of asthma?",
     "answers": [
       {
@@ -1216,16 +1216,16 @@
   },
   {
     "id": 45,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Why do patients with emphysema often exhibit pursed-lip breathing?",
     "answers": [
       {
-        "option": "To prevent cyanosis and hypoperfusion",
+        "option": "To avoid chest discomfort during inspiration",
         "bool": false
       },
       {
-        "option": "To avoid chest discomfort during inspiration",
-        "bool": false
+        "option": "To increase airway pressure during expiration to reduce air trapping",
+        "bool": true
       },
       {
         "option": "Reflex response to severe breathlessness",
@@ -1236,30 +1236,30 @@
         "bool": false
       },
       {
-        "option": "To increase airway pressure during expiration to reduce air trapping",
-        "bool": true
+        "option": "To prevent cyanosis and hypoperfusion",
+        "bool": false
       }
     ]
   },
   {
     "id": 46,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is the most common congenital disease affecting the lungs?",
     "answers": [
-      {
-        "option": "Tracheoesophageal fistula",
-        "bool": false
-      },
       {
         "option": "Marfan syndrome",
         "bool": false
       },
       {
-        "option": "Congenital diaphragmatic hernia",
+        "option": "Lack of pulmonary surfactant protein B",
+        "bool": false
+      },
+      {
+        "option": "Tracheoesophageal fistula",
         "bool": true
       },
       {
-        "option": "Lack of pulmonary surfactant protein B",
+        "option": "Congenital diaphragmatic hernia",
         "bool": false
       },
       {
@@ -1270,11 +1270,15 @@
   },
   {
     "id": 47,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following statements is most appropriate about lung diseases?",
     "answers": [
       {
-        "option": "Restrictive lung diseases have partial obstruction at the level of bronchi",
+        "option": "Restrictive lung diseases are characterized by reduced expiratory flow rate",
+        "bool": false
+      },
+      {
+        "option": "Obstructive lung diseases are characterized by reduced expansion of lungs",
         "bool": false
       },
       {
@@ -1282,11 +1286,7 @@
         "bool": true
       },
       {
-        "option": "Restrictive lung diseases are characterized by reduced expiratory flow rate",
-        "bool": false
-      },
-      {
-        "option": "Obstructive lung diseases are characterized by reduced expansion of lungs",
+        "option": "Restrictive lung diseases have partial obstruction at the level of bronchi",
         "bool": false
       },
       {
@@ -1297,11 +1297,11 @@
   },
   {
     "id": 48,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Concerning community-acquired pneumonia which of the following statements is the most appropriate?",
     "answers": [
       {
-        "option": "The incidence is 5-11 cases per 10,000 population",
+        "option": "The most frequently identified organisms are gram negative bacteria",
         "bool": false
       },
       {
@@ -1309,28 +1309,24 @@
         "bool": false
       },
       {
-        "option": "The most frequently identified organisms are gram negative bacteria",
-        "bool": false
-      },
-      {
-        "option": "Symptoms always include hemoptysis",
+        "option": "The incidence is 5-11 cases per 10,000 population",
         "bool": false
       },
       {
         "option": "Risk factors include age (<5, >65 years)",
         "bool": true
+      },
+      {
+        "option": "Symptoms always include hemoptysis",
+        "bool": false
       }
     ]
   },
   {
     "id": 49,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 75-year-old man, hospitalized for the past week with COVID-19 pneumonia, develops a sudden onset of tachypnea and dyspnea. His lips appear blue and his oxygen saturation drops drastically. Chest X-Ray shows diffuse bilateral infiltrates (\"white lungs\"). What is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Miliary tuberculosis",
-        "bool": false
-      },
       {
         "option": "Acute respiratory distress syndrome",
         "bool": true
@@ -1346,13 +1342,17 @@
       {
         "option": "Fat embolism",
         "bool": false
+      },
+      {
+        "option": "Miliary tuberculosis",
+        "bool": false
       }
     ]
   },
   {
     "id": 50,
-    "info": "1st-year/respiratory-1/2022",
-    "question": "A 59-year-old man presents to the outpatient department with a complaint of frequent episodes of shortness of breath along with occasional cough with minimum sputum production for the last four years. He has been a known smoker for ten years. On chest auscultation, respiratory wheezes are heard. Chest X-Ray shows hyperinflation of both lungs. Pulmonary function tests show a decreased FEV\u2081/FVC ratio. Which of the following conditions is most likely to be a cause of these findings?",
+    "info": "1st-year/respiratory/2022",
+    "question": "A 59-year-old man presents to the outpatient department with a complaint of frequent episodes of shortness of breath along with occasional cough with minimum sputum production for the last four years. He has been a known smoker for ten years. On chest auscultation, respiratory wheezes are heard. Chest X-Ray shows hyperinflation of both lungs. Pulmonary function tests show a decreased FEV₁/FVC ratio. Which of the following conditions is most likely to be a cause of these findings?",
     "answers": [
       {
         "option": "Diffuse alveolar damage",
@@ -1367,18 +1367,18 @@
         "bool": false
       },
       {
-        "option": "Emphysema",
-        "bool": true
-      },
-      {
         "option": "Sarcoidosis",
         "bool": false
+      },
+      {
+        "option": "Emphysema",
+        "bool": true
       }
     ]
   },
   {
     "id": 51,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is the most helpful and preferred method of establishing the diagnosis of asthma?",
     "answers": [
       {
@@ -1390,7 +1390,7 @@
         "bool": false
       },
       {
-        "option": "Arterial blood gases",
+        "option": "Chest X-Ray",
         "bool": false
       },
       {
@@ -1398,26 +1398,22 @@
         "bool": true
       },
       {
-        "option": "Chest X-Ray",
+        "option": "Arterial blood gases",
         "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following is the single most effective test used in the DOTS strategy for the diagnosis of infective tuberculosis?",
     "answers": [
       {
-        "option": "Sputum AFB smear microscopy",
-        "bool": true
-      },
-      {
-        "option": "Sputum for alpha fetoprotein (AFP) culture",
+        "option": "Gene Xpert test",
         "bool": false
       },
       {
-        "option": "Gene Xpert test",
+        "option": "Chest X-Ray",
         "bool": false
       },
       {
@@ -1425,108 +1421,104 @@
         "bool": false
       },
       {
-        "option": "Chest X-Ray",
+        "option": "Sputum AFB smear microscopy",
+        "bool": true
+      },
+      {
+        "option": "Sputum for alpha fetoprotein (AFP) culture",
         "bool": false
       }
     ]
   },
   {
     "id": 53,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 30-year-old woman is admitted to the medical ward with a complaint of acute exacerbation of bronchial asthma- a disease that she has been suffering from for six years. She has been advised of certain pulmonary function tests. Which of the following results are expected?",
     "answers": [
+      {
+        "option": "FEV₁/FVC ratio is reduced",
+        "bool": true
+      },
+      {
+        "option": "FEV₁ will be increased",
+        "bool": false
+      },
       {
         "option": "Pulmonary function tests are not indicated",
         "bool": false
       },
       {
-        "option": "FEV\u2081/FVC ratio is reduced",
-        "bool": true
-      },
-      {
-        "option": "FEV\u2081/FVC ratio is normal",
+        "option": "FEV₁/FVC ratio is normal",
         "bool": false
       },
       {
-        "option": "FEV\u2081 will be increased",
-        "bool": false
-      },
-      {
-        "option": "FEV\u2081/FVC ratio is increased",
+        "option": "FEV₁/FVC ratio is increased",
         "bool": false
       }
     ]
   },
   {
     "id": 54,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 4-year-old boy was brought to the outpatient department with complaints of nasal blockage and purulent discharge from the nose for four days. He is suspected to have inhaled a foreign body in the right main bronchus. Which anatomic feature of the right main bronchus favors the entry of a foreign body into it rather than the left main bronchus?",
     "answers": [
       {
-        "option": "Right main bronchus is horizontal",
-        "bool": false
-      },
-      {
-        "option": "Right main bronchus is longer",
-        "bool": false
+        "option": "Right main bronchus is more aligned with the trachea",
+        "bool": true
       },
       {
         "option": "Right main bronchus is narrower",
         "bool": false
       },
       {
-        "option": "Right main bronchus is more aligned with the trachea",
-        "bool": true
+        "option": "Right main bronchus is horizontal",
+        "bool": false
       },
       {
         "option": "Right main bronchus passes anterior to esophagus",
+        "bool": false
+      },
+      {
+        "option": "Right main bronchus is longer",
         "bool": false
       }
     ]
   },
   {
     "id": 55,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 40-year-old woman presents to the outpatient department with complaints of chronic cough, shortness of breath, and cyanosis. She is diagnosed with restrictive lung disease on a pulmonary function test. Which of the following findings of the pulmonary function test suggest the diagnosis of restrictive lung disease?",
     "answers": [
       {
-        "option": "Increased FVC",
+        "option": "No change in FEV₁/FVC ratio",
         "bool": false
       },
       {
-        "option": "Decreased FEV\u2081",
-        "bool": false
-      },
-      {
-        "option": "No change in FEV\u2081/FVC ratio",
-        "bool": false
-      },
-      {
-        "option": "FEV\u2081/FVC ratio is increased",
+        "option": "FEV₁/FVC ratio is increased",
         "bool": true
       },
       {
-        "option": "FEV\u2081/FVC ratio is reduced",
+        "option": "FEV₁/FVC ratio is reduced",
+        "bool": false
+      },
+      {
+        "option": "Decreased FEV₁",
+        "bool": false
+      },
+      {
+        "option": "Increased FVC",
         "bool": false
       }
     ]
   },
   {
     "id": 56,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "During a session of pleural effusion drainage, the physician asked the trainee to keep the needle just above the upper border of the lower rib. This was done to avoid injury to which of the following?",
     "answers": [
       {
-        "option": "Intercostal vein",
-        "bool": false
-      },
-      {
-        "option": "Intercostal artery",
-        "bool": false
-      },
-      {
         "option": "Intercostal nerve",
-        "bool": true
+        "bool": false
       },
       {
         "option": "Long thoracic nerve",
@@ -1534,17 +1526,29 @@
       },
       {
         "option": "Neurovascular bundle",
+        "bool": true
+      },
+      {
+        "option": "Intercostal artery",
+        "bool": false
+      },
+      {
+        "option": "Intercostal vein",
         "bool": false
       }
     ]
   },
   {
     "id": 57,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which ions move outside of the red blood cells in the chloride shift?",
     "answers": [
       {
-        "option": "Chloride ions",
+        "option": "Sodium ions",
+        "bool": false
+      },
+      {
+        "option": "Calcium ions",
         "bool": false
       },
       {
@@ -1552,34 +1556,26 @@
         "bool": true
       },
       {
-        "option": "Calcium ions",
-        "bool": false
-      },
-      {
         "option": "Potassium ions",
         "bool": false
       },
       {
-        "option": "Sodium ions",
+        "option": "Chloride ions",
         "bool": false
       }
     ]
   },
   {
     "id": 58,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following parts of the respiratory tract has the maximum number of smooth muscles?",
     "answers": [
       {
-        "option": "Bronchiole",
-        "bool": true
-      },
-      {
-        "option": "Trachea",
+        "option": "Bronchi",
         "bool": false
       },
       {
-        "option": "Bronchi",
+        "option": "Alveoli",
         "bool": false
       },
       {
@@ -1587,23 +1583,23 @@
         "bool": false
       },
       {
-        "option": "Alveoli",
+        "option": "Bronchiole",
+        "bool": true
+      },
+      {
+        "option": "Trachea",
         "bool": false
       }
     ]
   },
   {
     "id": 59,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "The lungs receive arterial blood supply from two sources: the pulmonary arteries and the bronchial arteries. From which of the following does the right bronchial artery originate?",
     "answers": [
       {
         "option": "Third posterior intercostal artery",
         "bool": true
-      },
-      {
-        "option": "Upper left bronchial artery",
-        "bool": false
       },
       {
         "option": "Second intercostal artery",
@@ -1614,6 +1610,10 @@
         "bool": false
       },
       {
+        "option": "Upper left bronchial artery",
+        "bool": false
+      },
+      {
         "option": "Posterior surface of the thoracic aorta",
         "bool": false
       }
@@ -1621,15 +1621,11 @@
   },
   {
     "id": 60,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A patient comes to the emergency department with a low-pitched, hoarse voice, and noisy breathing. On examination, left vocal cords are found to be affected. Damage to which nerve can result in these findings?",
     "answers": [
       {
-        "option": "Left recurrent laryngeal",
-        "bool": true
-      },
-      {
-        "option": "Vagus nerve",
+        "option": "Intercostal",
         "bool": false
       },
       {
@@ -1637,22 +1633,34 @@
         "bool": false
       },
       {
-        "option": "External laryngeal",
+        "option": "Vagus nerve",
         "bool": false
       },
       {
-        "option": "Intercostal",
+        "option": "Left recurrent laryngeal",
+        "bool": true
+      },
+      {
+        "option": "External laryngeal",
         "bool": false
       }
     ]
   },
   {
     "id": 61,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A 12-year-old girl presents to the emergency department with chest pain and labored breathing after falling off her bicycle. A chest x-ray reveals a fracture of the first rib. Which one of the following arteries is associated with the affected rib?",
     "answers": [
       {
-        "option": "Perforating arteries",
+        "option": "Intercostal arteries",
+        "bool": false
+      },
+      {
+        "option": "Carotid artery",
+        "bool": false
+      },
+      {
+        "option": "Internal thoracic artery",
         "bool": false
       },
       {
@@ -1660,22 +1668,14 @@
         "bool": true
       },
       {
-        "option": "Carotid artery",
-        "bool": false
-      },
-      {
-        "option": "Intercostal arteries",
-        "bool": false
-      },
-      {
-        "option": "Internal thoracic artery",
+        "option": "Perforating arteries",
         "bool": false
       }
     ]
   },
   {
     "id": 62,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following pressures corresponds to the elastic forces which tend to collapse the lung?",
     "answers": [
       {
@@ -1683,36 +1683,28 @@
         "bool": false
       },
       {
-        "option": "Transpulmonary",
-        "bool": true
-      },
-      {
         "option": "Pleural",
         "bool": false
       },
       {
-        "option": "Transthoracic",
+        "option": "Alveolar",
         "bool": false
       },
       {
-        "option": "Alveolar",
+        "option": "Transpulmonary",
+        "bool": true
+      },
+      {
+        "option": "Transthoracic",
         "bool": false
       }
     ]
   },
   {
     "id": 63,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "An organ that is present in children and regresses by puberty is a constituent of which of the following mediastinum?",
     "answers": [
-      {
-        "option": "Middle",
-        "bool": false
-      },
-      {
-        "option": "Posterior",
-        "bool": false
-      },
       {
         "option": "Inferior",
         "bool": false
@@ -1724,29 +1716,37 @@
       {
         "option": "Superior",
         "bool": true
+      },
+      {
+        "option": "Middle",
+        "bool": false
+      },
+      {
+        "option": "Posterior",
+        "bool": false
       }
     ]
   },
   {
     "id": 64,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Trachealis is a band of muscle that exists between the open ends of the tracheal cartilages. What is its type?",
     "answers": [
       {
-        "option": "Cardiac",
+        "option": "Hyaline",
         "bool": false
       },
       {
-        "option": "Hyaline",
-        "bool": false
+        "option": "Smooth",
+        "bool": true
       },
       {
         "option": "Skeletal and smooth",
         "bool": false
       },
       {
-        "option": "Smooth",
-        "bool": true
+        "option": "Cardiac",
+        "bool": false
       },
       {
         "option": "Skeletal",
@@ -1756,7 +1756,7 @@
   },
   {
     "id": 65,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which respiratory organ has both skeletal muscles and cartilage?",
     "answers": [
       {
@@ -1764,11 +1764,11 @@
         "bool": false
       },
       {
-        "option": "Alveoli",
+        "option": "Respiratory bronchiole",
         "bool": false
       },
       {
-        "option": "Respiratory bronchiole",
+        "option": "Alveoli",
         "bool": false
       },
       {
@@ -1783,11 +1783,15 @@
   },
   {
     "id": 66,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "In which of the following conditions is a barrel-shaped chest observed on examination?",
     "answers": [
       {
         "option": "Lung cancer",
+        "bool": false
+      },
+      {
+        "option": "Asthma",
         "bool": false
       },
       {
@@ -1799,10 +1803,6 @@
         "bool": true
       },
       {
-        "option": "Asthma",
-        "bool": false
-      },
-      {
         "option": "Chronic bronchitis",
         "bool": false
       }
@@ -1810,43 +1810,43 @@
   },
   {
     "id": 67,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "Which of the following corresponds to the total lung compliance of both lungs?",
     "answers": [
       {
-        "option": "200 ml of air/cm H\u2082O",
+        "option": "200 ml of air/cm H₂O",
         "bool": true
       },
       {
-        "option": "250 ml of air/cm H\u2082O",
+        "option": "400 ml of air/cm H₂O",
         "bool": false
       },
       {
-        "option": "100 ml of air/cm H\u2082O",
+        "option": "100 ml of air/cm H₂O",
         "bool": false
       },
       {
-        "option": "400 ml of air/cm H\u2082O",
+        "option": "250 ml of air/cm H₂O",
         "bool": false
       },
       {
-        "option": "300 ml of air/cm H\u2082O",
+        "option": "300 ml of air/cm H₂O",
         "bool": false
       }
     ]
   },
   {
     "id": 68,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "A child has difficulty breathing upon inhalation of pet dander dust and smoke. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Atopic asthma",
-        "bool": true
-      },
-      {
         "option": "Chronic bronchitis",
         "bool": false
+      },
+      {
+        "option": "Atopic asthma",
+        "bool": true
       },
       {
         "option": "Emphysema",
@@ -1864,12 +1864,12 @@
   },
   {
     "id": 69,
-    "info": "1st-year/respiratory-1/2022",
+    "info": "1st-year/respiratory/2022",
     "question": "An 81-year-old patient is repetitively hospitalized due to respiratory tract infections. What of the following is the best advice that a doctor can give him to avoid future respiratory tract infections?",
     "answers": [
       {
-        "option": "Pneumococcal and influenza vaccine",
-        "bool": true
+        "option": "Washing hands and maintain hygiene",
+        "bool": false
       },
       {
         "option": "Adenovirus vaccine",
@@ -1880,8 +1880,8 @@
         "bool": false
       },
       {
-        "option": "Washing hands and maintain hygiene",
-        "bool": false
+        "option": "Pneumococcal and influenza vaccine",
+        "bool": true
       },
       {
         "option": "Proper diet",

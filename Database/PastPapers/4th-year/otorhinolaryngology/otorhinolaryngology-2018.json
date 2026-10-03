@@ -5,15 +5,11 @@
     "question": "Which of the following tests is used to diagnose benign paroxysmal positional vertigo (BPPV)?",
     "answers": [
       {
-        "option": "Dix-Hallpike maneuver",
-        "bool": true
-      },
-      {
-        "option": "Fistula test",
+        "option": "Epley maneuver",
         "bool": false
       },
       {
-        "option": "Epley maneuver",
+        "option": "Fistula test",
         "bool": false
       },
       {
@@ -23,6 +19,10 @@
       {
         "option": "Romberg test",
         "bool": false
+      },
+      {
+        "option": "Dix-Hallpike maneuver",
+        "bool": true
       }
     ]
   },
@@ -32,10 +32,6 @@
     "question": "A 24-year-old woman comes to the clinic with complaints of severe vertigo and hearing loss for 4 days. She reports having had a similar attack 1 year ago that resolved without medications. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Perilymph fistula",
-        "bool": false
-      },
-      {
         "option": "Benign paroxysmal positional vertigo",
         "bool": false
       },
@@ -44,12 +40,16 @@
         "bool": false
       },
       {
-        "option": "Vestibular neuronitis",
+        "option": "Ménière’s disease",
+        "bool": true
+      },
+      {
+        "option": "Perilymph fistula",
         "bool": false
       },
       {
-        "option": "M\u00e9ni\u00e8re\u2019s disease",
-        "bool": true
+        "option": "Vestibular neuronitis",
+        "bool": false
       }
     ]
   },
@@ -59,12 +59,12 @@
     "question": "A 37-year-old man presents to the otorhinolaryngology clinic with the complaint of severe pain in his left ear. Examination reveals several vesicles on the tympanic membrane, meatal skin, and concha. What is the diagnosis?",
     "answers": [
       {
-        "option": "Diffuse otitis externa",
-        "bool": false
-      },
-      {
         "option": "Herpes zoster oticus",
         "bool": true
+      },
+      {
+        "option": "Seborrheic otitis externa",
+        "bool": false
       },
       {
         "option": "Otomycosis",
@@ -75,7 +75,7 @@
         "bool": false
       },
       {
-        "option": "Seborrheic otitis externa",
+        "option": "Diffuse otitis externa",
         "bool": false
       }
     ]
@@ -90,7 +90,7 @@
         "bool": true
       },
       {
-        "option": "Chronic secretory otitis media",
+        "option": "Serous otitis media",
         "bool": false
       },
       {
@@ -102,7 +102,7 @@
         "bool": false
       },
       {
-        "option": "Serous otitis media",
+        "option": "Chronic secretory otitis media",
         "bool": false
       }
     ]
@@ -110,8 +110,39 @@
   {
     "id": 4,
     "info": "4th-year/otorhinolaryngology/2018",
+    "question": "Frequency and loudness are two properties of sound. Frequency is measured in hertz (Hz). Which of the following frequency ranges most accurately represents the audible frequency for a human being?",
+    "answers": [
+      {
+        "option": "200 to 2000 Hz",
+        "bool": false
+      },
+      {
+        "option": "100 to 10000 Hz",
+        "bool": false
+      },
+      {
+        "option": "20 to 20000 Hz",
+        "bool": true
+      },
+      {
+        "option": "1000 to 10000 Hz",
+        "bool": false
+      },
+      {
+        "option": "10 to 1000 Hz",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 28-year-old woman presents to the clinic with complaints of bilateral hearing loss for the past four years and tinnitus. Pure tone audiometry shows a dip in the bone conduction curve at 2000 Hz. What is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Adhesive otitis media",
+        "bool": false
+      },
       {
         "option": "Meniere disease",
         "bool": false
@@ -121,32 +152,20 @@
         "bool": false
       },
       {
-        "option": "Otosclerosis",
-        "bool": true
-      },
-      {
         "option": "Tympanosclerosis",
         "bool": false
       },
       {
-        "option": "Adhesive otitis media",
-        "bool": false
+        "option": "Otosclerosis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "What is the most common cause of Ludwig angina?",
     "answers": [
-      {
-        "option": "Submandibular sialadenitis",
-        "bool": false
-      },
-      {
-        "option": "Sublingual sialadenitis",
-        "bool": false
-      },
       {
         "option": "Dental infection",
         "bool": true
@@ -158,21 +177,33 @@
       {
         "option": "Fracture of mandible",
         "bool": false
+      },
+      {
+        "option": "Sublingual sialadenitis",
+        "bool": false
+      },
+      {
+        "option": "Submandibular sialadenitis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 55-year-old woman comes to your office with the complaint of vertigo on turning her head to the right and while combing. Past history is relevant for a fall from the stairs around 5 years ago. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Labyrinthitis",
+        "option": "Benign paroxysmal positional vertigo",
+        "bool": true
+      },
+      {
+        "option": "Meniere's disease",
         "bool": false
       },
       {
-        "option": "Benign paroxysmal positional vertigo",
-        "bool": true
+        "option": "Labyrinthitis",
+        "bool": false
       },
       {
         "option": "Acoustic neuroma",
@@ -181,37 +212,6 @@
       {
         "option": "Vertebrobasilar syndrome",
         "bool": false
-      },
-      {
-        "option": "Meniere's disease",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Frequency and loudness are two properties of sound. Frequency is measured in hertz (Hz). Which of the following frequency ranges most accurately represents the audible frequency for a human being?",
-    "answers": [
-      {
-        "option": "10 to 1000 Hz",
-        "bool": false
-      },
-      {
-        "option": "1000 to 10000 Hz",
-        "bool": false
-      },
-      {
-        "option": "100 to 10000 Hz",
-        "bool": false
-      },
-      {
-        "option": "200 to 2000 Hz",
-        "bool": false
-      },
-      {
-        "option": "20 to 20000 Hz",
-        "bool": true
       }
     ]
   },
@@ -221,11 +221,11 @@
     "question": "Which of the following fractures is associated with craniofacial dissociation?",
     "answers": [
       {
-        "option": "Le Fort I",
+        "option": "Class 3",
         "bool": false
       },
       {
-        "option": "Le Fort II",
+        "option": "Le Fort I",
         "bool": false
       },
       {
@@ -233,11 +233,11 @@
         "bool": true
       },
       {
-        "option": "Tripod fracture",
+        "option": "Le Fort II",
         "bool": false
       },
       {
-        "option": "Class 3",
+        "option": "Tripod fracture",
         "bool": false
       }
     ]
@@ -248,7 +248,15 @@
     "question": "A 17-year-old male presents to the emergency department with the complaint of bleeding from the nose after suffering a trauma. Which of the following is the most common site of epistaxis?",
     "answers": [
       {
+        "option": "Anteroinferior part of nasal septum",
+        "bool": true
+      },
+      {
         "option": "Roof of nasal cavity",
+        "bool": false
+      },
+      {
+        "option": "Posterior part of nasal septum",
         "bool": false
       },
       {
@@ -256,15 +264,7 @@
         "bool": false
       },
       {
-        "option": "Anteroinferior part of nasal septum",
-        "bool": true
-      },
-      {
         "option": "Caudal end of nasal septum",
-        "bool": false
-      },
-      {
-        "option": "Posterior part of nasal septum",
         "bool": false
       }
     ]
@@ -275,15 +275,11 @@
     "question": "A 17-year-old boy presents to the doctor's clinic with complaints of severe pain in the right side of his throat, severe odynophagia, high-grade fever, trismus, and dribbling of saliva for the last two days. Which of the following is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Peritonsillar abscess",
-        "bool": true
-      },
-      {
-        "option": "Acute tonsillitis",
+        "option": "Acute epiglottitis",
         "bool": false
       },
       {
-        "option": "Acute retropharyngeal abscess",
+        "option": "Acute tonsillitis",
         "bool": false
       },
       {
@@ -291,8 +287,12 @@
         "bool": false
       },
       {
-        "option": "Acute epiglottitis",
+        "option": "Acute retropharyngeal abscess",
         "bool": false
+      },
+      {
+        "option": "Peritonsillar abscess",
+        "bool": true
       }
     ]
   },
@@ -306,11 +306,11 @@
         "bool": false
       },
       {
-        "option": "Peritonsillar abscess",
-        "bool": true
+        "option": "Parapharyngeal abscess",
+        "bool": false
       },
       {
-        "option": "Parapharyngeal abscess",
+        "option": "Acute adenoiditis",
         "bool": false
       },
       {
@@ -318,20 +318,43 @@
         "bool": false
       },
       {
-        "option": "Acute adenoiditis",
-        "bool": false
+        "option": "Peritonsillar abscess",
+        "bool": true
       }
     ]
   },
   {
     "id": 12,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which disease is the result of obstruction of the glands on the floor of the mouth?",
+    "question": "Which of the following is the most common presenting feature of glottic cancer?",
     "answers": [
       {
-        "option": "Mucocele",
+        "option": "Weight loss",
         "bool": false
       },
+      {
+        "option": "Stridor",
+        "bool": false
+      },
+      {
+        "option": "Hoarseness",
+        "bool": true
+      },
+      {
+        "option": "Halitosis",
+        "bool": false
+      },
+      {
+        "option": "Laryngeal obstruction",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "Which disease is the result of obstruction of the glands on the floor of the mouth?",
+    "answers": [
       {
         "option": "Sialadenitis",
         "bool": false
@@ -345,18 +368,22 @@
         "bool": false
       },
       {
+        "option": "Mucocele",
+        "bool": false
+      },
+      {
         "option": "Ranula",
         "bool": true
       }
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 4-year-old girl is brought into the clinic by her mother with the complaint of bilateral hearing loss for the last 6 months. She has also been snoring at night. Otoscopy reveals fluid level with air bubbles in both ears along with dull, bluish, and retracted tympanic membranes. What is the most likely diagnosis of this patient?",
     "answers": [
       {
-        "option": "Adhesive otitis media",
+        "option": "Safe type chronic suppurative otitis media",
         "bool": false
       },
       {
@@ -368,38 +395,11 @@
         "bool": false
       },
       {
-        "option": "Safe type chronic suppurative otitis media",
-        "bool": false
-      },
-      {
         "option": "Malignant otitis externa",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "\"The tympanic membrane shows the prominence of the lateral process of the malleus with loss of light reflex\" represents which of the following stages of otitis media?",
-    "answers": [
-      {
-        "option": "Stage of resolution",
-        "bool": false
       },
       {
-        "option": "Stage of pre-suppuration",
-        "bool": false
-      },
-      {
-        "option": "Stage of tubal occlusion",
-        "bool": true
-      },
-      {
-        "option": "Stage of complication",
-        "bool": false
-      },
-      {
-        "option": "Stage of suppuration",
+        "option": "Adhesive otitis media",
         "bool": false
       }
     ]
@@ -407,97 +407,8 @@
   {
     "id": 15,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "An 80-year-old man presents to the clinic with a complaint of not being able to understand the words properly, although he could hear fine. He has a thirty-year-long history of type 2 diabetes. Otoscopy is normal. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Noise-induced hearing loss",
-        "bool": false
-      },
-      {
-        "option": "Presbycusis",
-        "bool": true
-      },
-      {
-        "option": "Ototoxicity",
-        "bool": false
-      },
-      {
-        "option": "Acoustic neuroma",
-        "bool": false
-      },
-      {
-        "option": "Otosclerosis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following is not a part of the vestibular system?",
-    "answers": [
-      {
-        "option": "Scala vestibuli",
-        "bool": true
-      },
-      {
-        "option": "Saccule",
-        "bool": false
-      },
-      {
-        "option": "Hair cells",
-        "bool": false
-      },
-      {
-        "option": "Semicircular canals",
-        "bool": false
-      },
-      {
-        "option": "Utricle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "What is the ideal frequency in Hertz for routine clinical tuning fork tests?",
-    "answers": [
-      {
-        "option": "256 Hz",
-        "bool": false
-      },
-      {
-        "option": "512 Hz",
-        "bool": true
-      },
-      {
-        "option": "5192 Hz",
-        "bool": false
-      },
-      {
-        "option": "128 Hz",
-        "bool": false
-      },
-      {
-        "option": "2028 Hz",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following nerves pass through the internal acoustic meatus?",
     "answers": [
-      {
-        "option": "Facial and trigeminal",
-        "bool": false
-      },
-      {
-        "option": "Vagus and trigeminal",
-        "bool": false
-      },
       {
         "option": "Glossopharyngeal and trigeminal",
         "bool": false
@@ -509,16 +420,32 @@
       {
         "option": "Glossopharyngeal and vagus",
         "bool": false
+      },
+      {
+        "option": "Facial and trigeminal",
+        "bool": false
+      },
+      {
+        "option": "Vagus and trigeminal",
+        "bool": false
       }
     ]
   },
   {
-    "id": 19,
+    "id": 16,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "What is the function of earwax?",
     "answers": [
       {
+        "option": "All of the options listed",
+        "bool": true
+      },
+      {
         "option": "Smell distracts insects",
+        "bool": false
+      },
+      {
+        "option": "Anti-bacterial",
         "bool": false
       },
       {
@@ -528,19 +455,11 @@
       {
         "option": "Protect tympanic membrane from trauma",
         "bool": false
-      },
-      {
-        "option": "Anti-bacterial",
-        "bool": false
-      },
-      {
-        "option": "All of the options listed",
-        "bool": true
       }
     ]
   },
   {
-    "id": 20,
+    "id": 17,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 60-year-old female with uncontrolled diabetes mellitus presents to the clinic with severe pain in her left ear. Examination of the ear revealed granulation tissue in the external auditory meatus. What is the most likely diagnosis?",
     "answers": [
@@ -553,26 +472,26 @@
         "bool": false
       },
       {
+        "option": "Otiits externa hemorrhagica",
+        "bool": false
+      },
+      {
         "option": "Diffuse otitis externa",
         "bool": false
       },
       {
         "option": "Neurodermatitis",
         "bool": false
-      },
-      {
-        "option": "Otiits externa hemorrhagica",
-        "bool": false
       }
     ]
   },
   {
-    "id": 21,
+    "id": 18,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following syndromes presents as a triad of otalgia, facial paralysis and, vesicles around the ear and auditory canal?",
+    "question": "Which of the following syndromes presents as a triad of otalgia, facial paralysis and vesicles around the ear and auditory canal?",
     "answers": [
       {
-        "option": "Ehler-Danlos syndrome",
+        "option": "Gradenigo syndrome",
         "bool": false
       },
       {
@@ -588,28 +507,16 @@
         "bool": false
       },
       {
-        "option": "Gradenigo syndrome",
+        "option": "Ehler-Danlos syndrome",
         "bool": false
       }
     ]
   },
   {
-    "id": 22,
+    "id": 19,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 65-year-old diabetic male presented to the clinic with complaints of foul-smelling ear discharge, greenish-yellow in color. On examination, granulation tissue is seen which bleeds on touch. Which of the following is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Diffuse otitis externa",
-        "bool": false
-      },
-      {
-        "option": "Fungal otitis externa",
-        "bool": false
-      },
-      {
-        "option": "Otomycosis",
-        "bool": false
-      },
       {
         "option": "Malignant otitis externa",
         "bool": true
@@ -617,20 +524,55 @@
       {
         "option": "Attico-antral otitis media",
         "bool": false
+      },
+      {
+        "option": "Otomycosis",
+        "bool": false
+      },
+      {
+        "option": "Fungal otitis externa",
+        "bool": false
+      },
+      {
+        "option": "Diffuse otitis externa",
+        "bool": false
       }
     ]
   },
   {
-    "id": 23,
+    "id": 20,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "\"The tympanic membrane shows the prominence of the lateral process of the malleus with loss of light reflex\" represents which of the following stages of otitis media?",
+    "answers": [
+      {
+        "option": "Stage of suppuration",
+        "bool": false
+      },
+      {
+        "option": "Stage of pre-suppuration",
+        "bool": false
+      },
+      {
+        "option": "Stage of resolution",
+        "bool": false
+      },
+      {
+        "option": "Stage of complication",
+        "bool": false
+      },
+      {
+        "option": "Stage of tubal occlusion",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 28-year-old woman, 26 weeks pregnant, presents to the outpatient department with complaints of ear pain for 2 weeks and discharge for 2 days. She did not have any convulsions or vomiting and the fever resolved yesterday. Which of the following antibiotics should not be given to this patient?",
     "answers": [
       {
-        "option": "Cefixime",
-        "bool": false
-      },
-      {
-        "option": "Co-trimoxazole",
+        "option": "Co-amoxiclav",
         "bool": false
       },
       {
@@ -638,35 +580,66 @@
         "bool": true
       },
       {
-        "option": "Co-amoxiclav",
+        "option": "Cefixime",
         "bool": false
       },
       {
         "option": "Amoxicillin",
         "bool": false
+      },
+      {
+        "option": "Co-trimoxazole",
+        "bool": false
       }
     ]
   },
   {
-    "id": 24,
+    "id": 22,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "An 80-year-old man presents to the clinic with a complaint of not being able to understand the words properly, although he could hear fine. He has a thirty-year-long history of type 2 diabetes. Otoscopy is normal. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Ototoxicity",
+        "bool": false
+      },
+      {
+        "option": "Presbycusis",
+        "bool": true
+      },
+      {
+        "option": "Otosclerosis",
+        "bool": false
+      },
+      {
+        "option": "Noise-induced hearing loss",
+        "bool": false
+      },
+      {
+        "option": "Acoustic neuroma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following cells are found in the mastoid process?",
     "answers": [
-      {
-        "option": "Endothelial cells",
-        "bool": false
-      },
       {
         "option": "Cochlear hair cells",
         "bool": false
       },
       {
-        "option": "Air cells",
-        "bool": true
+        "option": "Endothelial cells",
+        "bool": false
       },
       {
         "option": "Nerve cells",
         "bool": false
+      },
+      {
+        "option": "Air cells",
+        "bool": true
       },
       {
         "option": "Vestibular cells",
@@ -675,20 +648,20 @@
     ]
   },
   {
-    "id": 25,
+    "id": 24,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following germinal layers forms the tympanic membrane?",
     "answers": [
       {
-        "option": "Endoderm and mesoderm",
-        "bool": false
-      },
-      {
-        "option": "Endoderm and ectoderm",
-        "bool": false
-      },
-      {
         "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Endoderm and mesoderm",
         "bool": false
       },
       {
@@ -696,8 +669,35 @@
         "bool": true
       },
       {
-        "option": "Ectoderm",
+        "option": "Endoderm and ectoderm",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "Which of the following is not a part of the vestibular system?",
+    "answers": [
+      {
+        "option": "Semicircular canals",
+        "bool": false
+      },
+      {
+        "option": "Saccule",
+        "bool": false
+      },
+      {
+        "option": "Hair cells",
+        "bool": false
+      },
+      {
+        "option": "Utricle",
+        "bool": false
+      },
+      {
+        "option": "Scala vestibuli",
+        "bool": true
       }
     ]
   },
@@ -707,15 +707,11 @@
     "question": "Which of the following statements is incorrect regarding the auditory ossicles?",
     "answers": [
       {
-        "option": "The ossicles conduct sound energy from the tympanic membrane to the round window",
-        "bool": true
-      },
-      {
-        "option": "The footplate is held in the oval window by annular ligament",
+        "option": "Malleus, incus, and the stapes are the three ossicles",
         "bool": false
       },
       {
-        "option": "Malleus, incus, and the stapes are the three ossicles",
+        "option": "The footplate is held in the oval window by annular ligament",
         "bool": false
       },
       {
@@ -725,24 +721,51 @@
       {
         "option": "The incus hangs vertically and attaches to the head of the stapes",
         "bool": false
+      },
+      {
+        "option": "The ossicles conduct sound energy from the tympanic membrane to the round window",
+        "bool": true
       }
     ]
   },
   {
     "id": 27,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 10-year-old boy presents to the outpatient department for his hearing assessment. Weber test is not lateralized, Rinne test is positive, and the absolute bone conduction (ABC) test is the same as the examiner. What is the most likely diagnosis?",
+    "question": "What is the ideal frequency in Hertz for routine clinical tuning fork tests?",
     "answers": [
       {
-        "option": "Sensorineural hearing loss",
+        "option": "256 Hz",
         "bool": false
       },
+      {
+        "option": "2028 Hz",
+        "bool": false
+      },
+      {
+        "option": "5192 Hz",
+        "bool": false
+      },
+      {
+        "option": "128 Hz",
+        "bool": false
+      },
+      {
+        "option": "512 Hz",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "A 10-year-old boy presents to the outpatient department for his hearing assessment. Weber test is not lateralized, Rinne test is positive, and the absolute bone conduction (ABC) test is the same as the examiner. What is the most likely diagnosis?",
+    "answers": [
       {
         "option": "Normal hearing",
         "bool": true
       },
       {
-        "option": "Mixed hearing loss",
+        "option": "Deaf child",
         "bool": false
       },
       {
@@ -750,28 +773,20 @@
         "bool": false
       },
       {
-        "option": "Deaf child",
+        "option": "Sensorineural hearing loss",
+        "bool": false
+      },
+      {
+        "option": "Mixed hearing loss",
         "bool": false
       }
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Bone conduction of the patient is compared with that of the examiner in which of the following tests?",
     "answers": [
-      {
-        "option": "Weber test",
-        "bool": false
-      },
-      {
-        "option": "Rinne test",
-        "bool": false
-      },
-      {
-        "option": "Bing test",
-        "bool": false
-      },
       {
         "option": "Absolute bone conduction test",
         "bool": true
@@ -779,11 +794,23 @@
       {
         "option": "Dix-Hallpike Test",
         "bool": false
+      },
+      {
+        "option": "Weber test",
+        "bool": false
+      },
+      {
+        "option": "Bing test",
+        "bool": false
+      },
+      {
+        "option": "Rinne test",
+        "bool": false
       }
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "What is the most common causative agent of otomycosis?",
     "answers": [
@@ -792,7 +819,11 @@
         "bool": false
       },
       {
-        "option": "Staphylococcus aureus",
+        "option": "Aspergillus niger",
+        "bool": true
+      },
+      {
+        "option": "Aspergillus fumigatus",
         "bool": false
       },
       {
@@ -800,30 +831,18 @@
         "bool": false
       },
       {
-        "option": "Aspergillus fumigatus",
+        "option": "Staphylococcus aureus",
         "bool": false
-      },
-      {
-        "option": "Aspergillus niger",
-        "bool": true
       }
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following tests helps to distinguish cochlear from retrocochlear hearing loss?",
     "answers": [
       {
         "option": "Brainstem Evoked Response Audiometry (BERA)",
-        "bool": false
-      },
-      {
-        "option": "Otoacoustic Emission",
-        "bool": true
-      },
-      {
-        "option": "Tympanometry",
         "bool": false
       },
       {
@@ -833,28 +852,36 @@
       {
         "option": "Threshold Tone Decay Test",
         "bool": false
+      },
+      {
+        "option": "Otoacoustic Emission",
+        "bool": true
+      },
+      {
+        "option": "Tympanometry",
+        "bool": false
       }
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 7-year-old child presents to the outpatient department with complaints of ear pain and purulent discharge. On examination, the ear lobe is red, hot and movements of the pinna are painful. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Malignant otitis externa",
-        "bool": false
+        "option": "Diffuse otitis externa",
+        "bool": true
       },
       {
         "option": "Otomycosis",
         "bool": false
       },
       {
-        "option": "Diffuse otitis externa",
-        "bool": true
+        "option": "Chronic otitis media",
+        "bool": false
       },
       {
-        "option": "Chronic otitis media",
+        "option": "Malignant otitis externa",
         "bool": false
       },
       {
@@ -864,16 +891,12 @@
     ]
   },
   {
-    "id": 32,
+    "id": 33,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following cranial nerves are affected in Gradenigo syndrome?",
     "answers": [
       {
-        "option": "2nd and 4th",
-        "bool": false
-      },
-      {
-        "option": "6th and 7th",
+        "option": "3rd and 4th",
         "bool": false
       },
       {
@@ -881,53 +904,53 @@
         "bool": false
       },
       {
+        "option": "6th and 7th",
+        "bool": false
+      },
+      {
+        "option": "2nd and 4th",
+        "bool": false
+      },
+      {
         "option": "5th and 6th",
         "bool": true
-      },
-      {
-        "option": "3rd and 4th",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 16-year-old presents to the outpatient department with the complaint of left-sided hearing loss and a hard black mass in the tympanic membrane after taking a shower. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Impacted wax",
-        "bool": true
-      },
-      {
-        "option": "Myringitis",
-        "bool": false
-      },
-      {
-        "option": "Malignant otitis externa",
-        "bool": false
-      },
-      {
-        "option": "Diffuse otitis externa",
-        "bool": false
-      },
-      {
-        "option": "Otomycosis",
-        "bool": false
       }
     ]
   },
   {
     "id": 34,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following findings are seen in the stage of suppuration of otitis media?",
+    "question": "A 16-year-old presents to the outpatient department with the complaint of left-sided hearing loss and a hard black mass in the tympanic membrane after taking a shower. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Edema and congestion of pars tensa",
+        "option": "Malignant otitis externa",
         "bool": false
       },
       {
-        "option": "Conductive deafness, otalgia, and edema",
+        "option": "Otomycosis",
+        "bool": false
+      },
+      {
+        "option": "Myringitis",
+        "bool": false
+      },
+      {
+        "option": "Impacted wax",
+        "bool": true
+      },
+      {
+        "option": "Diffuse otitis externa",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "Which of the following findings are seen in the stage of suppuration of otitis media?",
+    "answers": [
+      {
+        "option": "Mucopurulent blood stained discharge with small perforation in pars tensa",
         "bool": false
       },
       {
@@ -935,7 +958,11 @@
         "bool": true
       },
       {
-        "option": "Mucopurulent blood stained discharge with small perforation in pars tensa",
+        "option": "Conductive deafness, otalgia, and edema",
+        "bool": false
+      },
+      {
+        "option": "Edema and congestion of pars tensa",
         "bool": false
       },
       {
@@ -945,7 +972,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following diseases is associated with cholesteatoma?",
     "answers": [
@@ -962,38 +989,11 @@
         "bool": true
       },
       {
-        "option": "Tubotympanic type chronic suppurative otitis media",
-        "bool": false
-      },
-      {
         "option": "Syphilitic otitis media",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following is characteristic of acute mastoiditis?",
-    "answers": [
-      {
-        "option": "Sagging of anterosuperior meatal wall",
-        "bool": false
       },
       {
-        "option": "Scanty, foul smelling ear discharge",
-        "bool": false
-      },
-      {
-        "option": "Sensorineural hearing loss",
-        "bool": false
-      },
-      {
-        "option": "Tenderness on applying deep pressure over the mastoid tip",
-        "bool": true
-      },
-      {
-        "option": "Swelling over pre-auricular area",
+        "option": "Tubotympanic type chronic suppurative otitis media",
         "bool": false
       }
     ]
@@ -1001,8 +1001,39 @@
   {
     "id": 37,
     "info": "4th-year/otorhinolaryngology/2018",
+    "question": "Which of the following is characteristic of acute mastoiditis?",
+    "answers": [
+      {
+        "option": "Tenderness on applying deep pressure over the mastoid tip",
+        "bool": true
+      },
+      {
+        "option": "Sensorineural hearing loss",
+        "bool": false
+      },
+      {
+        "option": "Swelling over pre-auricular area",
+        "bool": false
+      },
+      {
+        "option": "Scanty, foul smelling ear discharge",
+        "bool": false
+      },
+      {
+        "option": "Sagging of anterosuperior meatal wall",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 34-year-old patient presents to the outpatient clinic with complaints of sudden onset vertigo, tinnitus, and fluctuating hearing loss. This attack was preceded by a sensation of fullness in the affected ear. What is the most likely diagnosis?",
     "answers": [
+      {
+        "option": "Meniere disease",
+        "bool": true
+      },
       {
         "option": "Vestibular neuronitis",
         "bool": false
@@ -1012,28 +1043,20 @@
         "bool": false
       },
       {
-        "option": "Labyrinthitis",
-        "bool": false
-      },
-      {
         "option": "Benign paroxymal positional vertigo",
         "bool": false
       },
       {
-        "option": "Meniere disease",
-        "bool": true
+        "option": "Labyrinthitis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "A 45-year-old female presents to the emergency department with severely painful nose swelling, malaise, and fever. Which of the following is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Septal hematoma",
-        "bool": false
-      },
       {
         "option": "Deviated nasal septum",
         "bool": false
@@ -1043,38 +1066,15 @@
         "bool": false
       },
       {
+        "option": "Septal perforation",
+        "bool": false
+      },
+      {
         "option": "Septal abscess",
         "bool": true
       },
       {
-        "option": "Septal perforation",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "An elderly man presents to the clinic with complaints of difficulty in swallowing and regurgitation of food contents at night. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Eagle syndrome",
-        "bool": false
-      },
-      {
-        "option": "Plummer-Vinson syndrome",
-        "bool": false
-      },
-      {
-        "option": "Reinke edema",
-        "bool": false
-      },
-      {
-        "option": "Zenker diverticulum",
-        "bool": true
-      },
-      {
-        "option": "Esophageal carcinoma",
+        "option": "Septal hematoma",
         "bool": false
       }
     ]
@@ -1082,8 +1082,66 @@
   {
     "id": 40,
     "info": "4th-year/otorhinolaryngology/2018",
+    "question": "An elderly man presents to the clinic with complaints of difficulty in swallowing and regurgitation of food contents at night. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Esophageal carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Plummer-Vinson syndrome",
+        "bool": false
+      },
+      {
+        "option": "Zenker diverticulum",
+        "bool": true
+      },
+      {
+        "option": "Eagle syndrome",
+        "bool": false
+      },
+      {
+        "option": "Reinke edema",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "At what age can the frontal sinuses be identified on a radiograph?",
+    "answers": [
+      {
+        "option": "6 years",
+        "bool": true
+      },
+      {
+        "option": "4 months",
+        "bool": false
+      },
+      {
+        "option": "6 months",
+        "bool": false
+      },
+      {
+        "option": "1 year",
+        "bool": false
+      },
+      {
+        "option": "4 year",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "4th-year/otorhinolaryngology/2018",
     "question": "How much is the fluid capacity of a frontal sinus?",
     "answers": [
+      {
+        "option": "15-20 ml",
+        "bool": false
+      },
       {
         "option": "7-10 ml",
         "bool": true
@@ -1099,94 +1157,32 @@
       {
         "option": "4-7 ml",
         "bool": false
-      },
-      {
-        "option": "15-20 ml",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following is correct regarding antrochoanal polypi?",
-    "answers": [
-      {
-        "option": "Grow backward to the choana",
-        "bool": true
-      },
-      {
-        "option": "They are common in adults",
-        "bool": false
-      },
-      {
-        "option": "Usually bilateral",
-        "bool": false
-      },
-      {
-        "option": "The etiology is usually allergy",
-        "bool": false
-      },
-      {
-        "option": "Usually small and grape-like masses",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "What is the most common malignant tumor of the nose and paranasal sinuses?",
-    "answers": [
-      {
-        "option": "Small cell carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Lymphoma",
-        "bool": false
-      },
-      {
-        "option": "Squamous cell carcinoma",
-        "bool": true
-      },
-      {
-        "option": "Adenocarcinoma",
-        "bool": false
-      },
-      {
-        "option": "Mucoepidermoid carcinoma",
-        "bool": false
-      },
-      {
-        "option": "null",
-        "bool": false
       }
     ]
   },
   {
     "id": 43,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "How will you manage a child with acute epiglottitis?",
+    "question": "Which of the following artery is known as the artery of epistaxis?",
     "answers": [
       {
-        "option": "Take him directly to the ICU",
+        "option": "Infraorbital artery",
         "bool": false
       },
       {
-        "option": "Hospitalize the child and start intravenous analgesics",
-        "bool": false
-      },
-      {
-        "option": "Prescribe oral antibiotics and send the patient home",
-        "bool": false
-      },
-      {
-        "option": "Hospitalize the child and start intravenous antibiotics",
+        "option": "Sphenopalatine artery",
         "bool": true
       },
       {
-        "option": "Laryngectomy",
+        "option": "Greater palatine artery",
+        "bool": false
+      },
+      {
+        "option": "Pharyngeal artery",
+        "bool": false
+      },
+      {
+        "option": "Anterior ethmoidal artery",
         "bool": false
       }
     ]
@@ -1194,26 +1190,26 @@
   {
     "id": 44,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 62-year-old male presented to the outpatient clinic and is diagnosed case of glottic squamous cell carcinoma. The results of flexible laryngoscopy (FODL) show an exophytic growth only on the right vocal cord and no lymph nodes are palpable. The mobility of the vocal cord is normal. What is the stage of the tumor based on these findings?",
+    "question": "Which of the following is correct regarding antrochoanal polypi?",
     "answers": [
       {
-        "option": "Stage 1",
+        "option": "They are common in adults",
+        "bool": false
+      },
+      {
+        "option": "Usually small and grape-like masses",
+        "bool": false
+      },
+      {
+        "option": "The etiology is usually allergy",
+        "bool": false
+      },
+      {
+        "option": "Grow backward to the choana",
         "bool": true
       },
       {
-        "option": "Stage 4c",
-        "bool": false
-      },
-      {
-        "option": "Stage 4a",
-        "bool": false
-      },
-      {
-        "option": "Stage 4b",
-        "bool": false
-      },
-      {
-        "option": "Stage 2",
+        "option": "Usually bilateral",
         "bool": false
       }
     ]
@@ -1221,26 +1217,30 @@
   {
     "id": 45,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 60-year-old chain smoker has developed hoarseness, and cough with hemoptysis. Indirect laryngoscopy (IDL) shows left vocal cord paralysis. What is the diagnosis unless proven otherwise?",
+    "question": "What is the most common malignant tumor of the nose and paranasal sinuses?",
     "answers": [
       {
-        "option": "Subglottic carcinoma",
+        "option": "Adenocarcinoma",
         "bool": false
       },
       {
-        "option": "Thyroid carcinoma",
+        "option": "Small cell carcinoma",
         "bool": false
       },
       {
-        "option": "Bronchogenic carcinoma",
+        "option": "Squamous cell carcinoma",
         "bool": true
       },
       {
-        "option": "Tuberculosis",
+        "option": "Lymphoma",
         "bool": false
       },
       {
-        "option": "Glottic carcinoma",
+        "option": "",
+        "bool": false
+      },
+      {
+        "option": "Mucoepidermoid carcinoma",
         "bool": false
       }
     ]
@@ -1248,10 +1248,103 @@
   {
     "id": 46,
     "info": "4th-year/otorhinolaryngology/2018",
+    "question": "How will you manage a child with acute epiglottitis?",
+    "answers": [
+      {
+        "option": "Prescribe oral antibiotics and send the patient home",
+        "bool": false
+      },
+      {
+        "option": "Laryngectomy",
+        "bool": false
+      },
+      {
+        "option": "Take him directly to the ICU",
+        "bool": false
+      },
+      {
+        "option": "Hospitalize the child and start intravenous antibiotics",
+        "bool": true
+      },
+      {
+        "option": "Hospitalize the child and start intravenous analgesics",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "A 62-year-old male presented to the outpatient clinic and is diagnosed case of glottic squamous cell carcinoma. The results of flexible laryngoscopy (FODL) show an exophytic growth only on the right vocal cord and no lymph nodes are palpable. The mobility of the vocal cord is normal. What is the stage of the tumor based on these findings?",
+    "answers": [
+      {
+        "option": "Stage 2",
+        "bool": false
+      },
+      {
+        "option": "Stage 4b",
+        "bool": false
+      },
+      {
+        "option": "Stage 3",
+        "bool": false
+      },
+      {
+        "option": "Stage 1",
+        "bool": true
+      },
+      {
+        "option": "Stage 4a",
+        "bool": false
+      },
+      {
+        "option": "Stage 4c",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "A 60-year-old chain smoker has developed hoarseness, and cough with hemoptysis. Indirect laryngoscopy (IDL) shows left vocal cord paralysis. What is the diagnosis unless proven otherwise?",
+    "answers": [
+      {
+        "option": "Glottic carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Thyroid carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Subglottic carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Bronchogenic carcinoma",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "info": "4th-year/otorhinolaryngology/2018",
     "question": "What is the treatment of choice for glottic carcinoma in situ?",
     "answers": [
       {
+        "option": "Total laryngectomy",
+        "bool": false
+      },
+      {
         "option": "Radiotherapy",
+        "bool": false
+      },
+      {
+        "option": "Chemotherapy",
         "bool": false
       },
       {
@@ -1261,190 +1354,16 @@
       {
         "option": "Transoral endoscopic CO2 laser",
         "bool": true
-      },
-      {
-        "option": "Total laryngectomy",
-        "bool": false
-      },
-      {
-        "option": "Chemotherapy",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 34-year-old woman presents to the outpatient clinic with complaints of dysphagia, koilonychia, iron deficiency anemia, and esophageal webs. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Anemia of chronic disease",
-        "bool": false
-      },
-      {
-        "option": "Patterson-Brown-Kelly syndrome",
-        "bool": true
-      },
-      {
-        "option": "Scleroderma",
-        "bool": false
-      },
-      {
-        "option": "Mallory Weiss tear",
-        "bool": false
-      },
-      {
-        "option": "Zenker diverticulum",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "What is the most common malignant mesenchymal salivary gland tumor?",
-    "answers": [
-      {
-        "option": "Oncocytoma",
-        "bool": false
-      },
-      {
-        "option": "Adenoid cystic carcinoma",
-        "bool": true
-      },
-      {
-        "option": "Acinin cell tumour",
-        "bool": false
-      },
-      {
-        "option": "Mucoepidermoid carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Pleomorphic adenoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 4-year-old child ingested a 5 rupees coin. What is the most likely consequence?",
-    "answers": [
-      {
-        "option": "Child will vomit it out",
-        "bool": false
-      },
-      {
-        "option": "It will get impacted at the esophagogastric junction",
-        "bool": false
-      },
-      {
-        "option": "It will pass into the stool later on",
-        "bool": false
-      },
-      {
-        "option": "It will get impacted at 25 cm",
-        "bool": false
-      },
-      {
-        "option": "It will get impacted at cricopharynx",
-        "bool": true
       }
     ]
   },
   {
     "id": 50,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Carotid artery, jugular vein, upper deep cervical nodes, 9th, 10th, 11th, and 12th cranial nerves pass through which of the following spaces?",
-    "answers": [
-      {
-        "option": "Peritonsillar space",
-        "bool": false
-      },
-      {
-        "option": "Submandibular space",
-        "bool": false
-      },
-      {
-        "option": "Parotid space",
-        "bool": false
-      },
-      {
-        "option": "Parapharyngeal space",
-        "bool": true
-      },
-      {
-        "option": "Retropharyngeal space",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "At what age can the frontal sinuses be identified on a radiograph?",
-    "answers": [
-      {
-        "option": "1 year",
-        "bool": false
-      },
-      {
-        "option": "4 year",
-        "bool": false
-      },
-      {
-        "option": "6 months",
-        "bool": false
-      },
-      {
-        "option": "4 months",
-        "bool": false
-      },
-      {
-        "option": "6 years",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following artery is known as the artery of epistaxis?",
-    "answers": [
-      {
-        "option": "Pharyngeal artery",
-        "bool": false
-      },
-      {
-        "option": "Sphenopalatine artery",
-        "bool": true
-      },
-      {
-        "option": "Anterior ethmoidal artery",
-        "bool": false
-      },
-      {
-        "option": "Greater palatine artery",
-        "bool": false
-      },
-      {
-        "option": "Infraorbital artery",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following is the most common presenting feature of supraglottic cancer?",
     "answers": [
       {
-        "option": "Dyspnea",
-        "bool": false
-      },
-      {
-        "option": "Throat pain",
+        "option": "Stridor",
         "bool": false
       },
       {
@@ -1452,7 +1371,11 @@
         "bool": false
       },
       {
-        "option": "Stridor",
+        "option": "Throat pain",
+        "bool": false
+      },
+      {
+        "option": "Dyspnea",
         "bool": false
       },
       {
@@ -1462,10 +1385,41 @@
     ]
   },
   {
-    "id": 54,
+    "id": 51,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "A 34-year-old woman presents to the outpatient clinic with complaints of dysphagia, koilonychia, iron deficiency anemia, and esophageal webs. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Scleroderma",
+        "bool": false
+      },
+      {
+        "option": "Patterson-Brown-Kelly syndrome",
+        "bool": true
+      },
+      {
+        "option": "Mallory Weiss tear",
+        "bool": false
+      },
+      {
+        "option": "Zenker diverticulum",
+        "bool": false
+      },
+      {
+        "option": "Anemia of chronic disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 52,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following types of carcinoma is found in Plummer Vinson syndrome?",
     "answers": [
+      {
+        "option": "Pyriform carcinoma",
+        "bool": false
+      },
       {
         "option": "Posterior pharyngeal carcinoma",
         "bool": false
@@ -1475,21 +1429,17 @@
         "bool": false
       },
       {
-        "option": "Pyriform carcinoma",
+        "option": "Glottic cancer",
         "bool": false
       },
       {
         "option": "Postcricoid carcinoma",
         "bool": true
-      },
-      {
-        "option": "Glottic cancer",
-        "bool": false
       }
     ]
   },
   {
-    "id": 55,
+    "id": 53,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following causes Frey syndrome?",
     "answers": [
@@ -1502,15 +1452,69 @@
         "bool": true
       },
       {
+        "option": "Post-operative complication of marsupialization",
+        "bool": false
+      },
+      {
         "option": "Submandibular gland surgery",
         "bool": false
       },
       {
         "option": "Minor salivary gland surgery",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "What is the most common malignant salivary gland tumor",
+    "answers": [
+      {
+        "option": "Acinin cell tumour",
+        "bool": false
       },
       {
-        "option": "Post-operative complication of marsupialization",
+        "option": "Pleomorphic adenoma",
+        "bool": false
+      },
+      {
+        "option": "Mucoepidermoid carcinoma",
+        "bool": true
+      },
+      {
+        "option": "Adenoid cystic carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Oncocytoma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "A 4-year-old child ingested a 5 rupees coin. What is the most likely consequence?",
+    "answers": [
+      {
+        "option": "It will get impacted at cricopharynx",
+        "bool": true
+      },
+      {
+        "option": "It will get impacted at the esophagogastric junction",
+        "bool": false
+      },
+      {
+        "option": "It will get impacted at 25 cm",
+        "bool": false
+      },
+      {
+        "option": "It will pass into the stool later on",
+        "bool": false
+      },
+      {
+        "option": "Child will vomit it out",
         "bool": false
       }
     ]
@@ -1518,26 +1522,26 @@
   {
     "id": 56,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following parts of mandible bone is displaced in a temporal mandibular joint (TMJ) dislocation?",
+    "question": "Carotid artery, jugular vein, upper deep cervical nodes, 9th, 10th, 11th, and 12th cranial nerves pass through which of the following spaces?",
     "answers": [
       {
-        "option": "Condyle",
+        "option": "Retropharyngeal space",
+        "bool": false
+      },
+      {
+        "option": "Parapharyngeal space",
         "bool": true
       },
       {
-        "option": "Ramus",
+        "option": "Parotid space",
         "bool": false
       },
       {
-        "option": "Body",
+        "option": "Peritonsillar space",
         "bool": false
       },
       {
-        "option": "Angle of the mandible",
-        "bool": false
-      },
-      {
-        "option": "Symphysis",
+        "option": "Submandibular space",
         "bool": false
       }
     ]
@@ -1545,35 +1549,16 @@
   {
     "id": 57,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 54-year-old man presents to the outpatient department with a red patch on the mucosal surface and he has a history of smoking. What is your most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Geographic tongue",
-        "bool": false
-      },
-      {
-        "option": "Oral thrush",
-        "bool": false
-      },
-      {
-        "option": "Erythroplakia",
-        "bool": true
-      },
-      {
-        "option": "Leukoplakia",
-        "bool": false
-      },
-      {
-        "option": "Mucosal hypergimentation",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which nerve is related to the palatine tonsil at the tonsillar bed?",
     "answers": [
+      {
+        "option": "Trigeminal nerve",
+        "bool": false
+      },
+      {
+        "option": "Glossopharyngeal nerve",
+        "bool": true
+      },
       {
         "option": "Hypoglossal nerve",
         "bool": false
@@ -1585,13 +1570,32 @@
       {
         "option": "Vagus nerve",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "info": "4th-year/otorhinolaryngology/2018",
+    "question": "Which of the following parts of mandible bone is displaced in a temporal mandibular joint (TMJ) dislocation?",
+    "answers": [
+      {
+        "option": "Symphysis",
+        "bool": false
       },
       {
-        "option": "Glossopharyngeal nerve",
+        "option": "Ramus",
+        "bool": false
+      },
+      {
+        "option": "Condyle",
         "bool": true
       },
       {
-        "option": "Trigeminal nerve",
+        "option": "Body",
+        "bool": false
+      },
+      {
+        "option": "Angle of the mandible",
         "bool": false
       }
     ]
@@ -1602,15 +1606,11 @@
     "question": "A 23-year-old patient with abrupt onset of signs and symptoms of middle ear inflammation and effusion has a history of beta-lactam allergy. Which of the following is the most appropriate choice to treat the infection?",
     "answers": [
       {
-        "option": "Clarithromycin",
-        "bool": true
-      },
-      {
         "option": "Amoxicillin/clavulanate",
         "bool": false
       },
       {
-        "option": "Cefpodoxime",
+        "option": "High-dosage amoxicillin",
         "bool": false
       },
       {
@@ -1618,8 +1618,12 @@
         "bool": false
       },
       {
-        "option": "High-dosage amoxicillin",
+        "option": "Cefpodoxime",
         "bool": false
+      },
+      {
+        "option": "Clarithromycin",
+        "bool": true
       }
     ]
   },
@@ -1629,6 +1633,10 @@
     "question": "Which of the following statements is true regarding the parapharyngeal space?",
     "answers": [
       {
+        "option": "Base lies at the nasopharynx",
+        "bool": false
+      },
+      {
         "option": "It is shaped like a cylinder",
         "bool": false
       },
@@ -1637,15 +1645,11 @@
         "bool": true
       },
       {
-        "option": "It is a closed space and does not communicate with other spaces",
-        "bool": false
-      },
-      {
         "option": "The space is divided into two lateral compartments by a fibrous raphe",
         "bool": false
       },
       {
-        "option": "Base lies at the nasopharynx",
+        "option": "It is a closed space and does not communicate with other spaces",
         "bool": false
       }
     ]
@@ -1653,12 +1657,8 @@
   {
     "id": 61,
     "info": "4th-year/otorhinolaryngology/2018",
-    "question": "A 56-year-old patient presents to the outpatient clinic with the complaint of facial weakness, dryness of the eye, alteration of taste on the affected side one week after mastoidectomy. What is the most likely diagnosis?",
+    "question": "A 56-year-old patient presents to the outpatient clinic with the complaint of facial weakness, dryness of the eye, alteration of taste on the affected side one week after mastoidectomy.  What is the most likely diagnosis?",
     "answers": [
-      {
-        "option": "Labyrinthitis",
-        "bool": false
-      },
       {
         "option": "Perichondritis",
         "bool": false
@@ -1668,11 +1668,15 @@
         "bool": true
       },
       {
-        "option": "Mastoid abscess",
+        "option": "Labyrinthitis",
         "bool": false
       },
       {
         "option": "Subdural abscess",
+        "bool": false
+      },
+      {
+        "option": "Mastoid abscess",
         "bool": false
       }
     ]
@@ -1683,23 +1687,23 @@
     "question": "Which of the following is a complication of mumps infection?",
     "answers": [
       {
-        "option": "Injury of the facial nerve",
-        "bool": false
-      },
-      {
-        "option": "Dislocation of incus",
-        "bool": false
+        "option": "Unilateral sensorineural hearing loss",
+        "bool": true
       },
       {
         "option": "Sjogren's syndrome",
         "bool": false
       },
       {
-        "option": "Unilateral sensorineural hearing loss",
-        "bool": true
+        "option": "Pleomorphic adenoma",
+        "bool": false
       },
       {
-        "option": "Pleomorphic adenoma",
+        "option": "Injury of the facial nerve",
+        "bool": false
+      },
+      {
+        "option": "Dislocation of incus",
         "bool": false
       }
     ]
@@ -1710,12 +1714,16 @@
     "question": "Which of the following lymph nodes drains the middle part of the lower lip?",
     "answers": [
       {
+        "option": "Buccal nodes",
+        "bool": false
+      },
+      {
         "option": "Superior deep cervical nodes",
         "bool": false
       },
       {
-        "option": "Buccal nodes",
-        "bool": false
+        "option": "Submental nodes",
+        "bool": true
       },
       {
         "option": "Inferior deep cervical nodes",
@@ -1724,10 +1732,6 @@
       {
         "option": "Submandibular nodes",
         "bool": false
-      },
-      {
-        "option": "Submental nodes",
-        "bool": true
       }
     ]
   },
@@ -1737,8 +1741,16 @@
     "question": "Which of the following surgical approaches is used to reach the maxillary sinus in chronic sinusitis?",
     "answers": [
       {
-        "option": "Caldwell\u2013Luc operation",
+        "option": "Howarth’s or Lynch operation",
+        "bool": false
+      },
+      {
+        "option": "Caldwell–Luc operation",
         "bool": true
+      },
+      {
+        "option": "Inferior meatal antrostomy",
+        "bool": false
       },
       {
         "option": "Intranasal ethmoidectomy",
@@ -1746,14 +1758,6 @@
       },
       {
         "option": "Young's operation",
-        "bool": false
-      },
-      {
-        "option": "Inferior meatal antrostomy",
-        "bool": false
-      },
-      {
-        "option": "Howarth\u2019s or Lynch operation",
         "bool": false
       }
     ]
@@ -1764,7 +1768,7 @@
     "question": "Recruitment phenomenon is seen in which of the following diseases?",
     "answers": [
       {
-        "option": "Otosclerosis",
+        "option": "Perforated tympanic membrane",
         "bool": false
       },
       {
@@ -1772,15 +1776,15 @@
         "bool": true
       },
       {
-        "option": "Conductive deafness",
-        "bool": false
-      },
-      {
         "option": "Vestibular nerve damage",
         "bool": false
       },
       {
-        "option": "Perforated tympanic membrane",
+        "option": "Conductive deafness",
+        "bool": false
+      },
+      {
+        "option": "Otosclerosis",
         "bool": false
       }
     ]
@@ -1788,18 +1792,37 @@
   {
     "id": 66,
     "info": "4th-year/otorhinolaryngology/2018",
+    "question": "A 54-year-old man presents to the outpatient department with a red patch on the mucosal surface and he has a history of smoking. What is your most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Erythroplakia",
+        "bool": true
+      },
+      {
+        "option": "Oral thrush",
+        "bool": false
+      },
+      {
+        "option": "Mucosal hypergimentation",
+        "bool": false
+      },
+      {
+        "option": "Leukoplakia",
+        "bool": false
+      },
+      {
+        "option": "Geographic tongue",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following is the correct statement regarding the premalignant conditions of oral mucosa?",
     "answers": [
       {
         "option": "Lesion of erythroplakia are mildly dysplastic",
-        "bool": false
-      },
-      {
-        "option": "Leukoplakia is more common in females",
-        "bool": false
-      },
-      {
-        "option": "The chances of leukoplakia becoming malignant are 50-60%",
         "bool": false
       },
       {
@@ -1809,16 +1832,24 @@
       {
         "option": "Malignant potential is 17 times higher in erythroplakia than in leukoplakia",
         "bool": true
+      },
+      {
+        "option": "The chances of leukoplakia becoming malignant are 50-60%",
+        "bool": false
+      },
+      {
+        "option": "Leukoplakia is more common in females",
+        "bool": false
       }
     ]
   },
   {
-    "id": 67,
+    "id": 68,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "What is the treatment of choice for nasopharyngeal angiofibroma?",
     "answers": [
       {
-        "option": "Pharmacological intervention",
+        "option": "Cryotherapy",
         "bool": false
       },
       {
@@ -1826,11 +1857,11 @@
         "bool": true
       },
       {
-        "option": "Radiotherapy",
+        "option": "Pharmacological intervention",
         "bool": false
       },
       {
-        "option": "Cryotherapy",
+        "option": "Radiotherapy",
         "bool": false
       },
       {
@@ -1840,20 +1871,20 @@
     ]
   },
   {
-    "id": 68,
+    "id": 69,
     "info": "4th-year/otorhinolaryngology/2018",
     "question": "Which of the following landmarks will be used to start drilling when performing surgery for mastoiditis?",
     "answers": [
-      {
-        "option": "MacEwen's triangle",
-        "bool": true
-      },
       {
         "option": "Preauricular space",
         "bool": false
       },
       {
-        "option": "Medial wall of petrous bone",
+        "option": "MacEwen's triangle",
+        "bool": true
+      },
+      {
+        "option": "Inframeatal triangle",
         "bool": false
       },
       {
@@ -1861,34 +1892,7 @@
         "bool": false
       },
       {
-        "option": "Inframeatal triangle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "info": "4th-year/otorhinolaryngology/2018",
-    "question": "Which of the following is the most common presenting feature of glottic cancer?",
-    "answers": [
-      {
-        "option": "Hoarseness",
-        "bool": true
-      },
-      {
-        "option": "Halitosis",
-        "bool": false
-      },
-      {
-        "option": "Laryngeal obstruction",
-        "bool": false
-      },
-      {
-        "option": "Weight loss",
-        "bool": false
-      },
-      {
-        "option": "Stridor",
+        "option": "Medial wall of petrous bone",
         "bool": false
       }
     ]
@@ -1899,7 +1903,7 @@
     "question": "A 30-year-old male patient who had a history of left ear discharge for the past 5 years, now reported to the ENT clinic with the complaint of severe persistent headache, fever, and vomiting. What is the most probable diagnosis?",
     "answers": [
       {
-        "option": "Labyrinthitis",
+        "option": "Facial nerve paralysis",
         "bool": false
       },
       {
@@ -1911,12 +1915,12 @@
         "bool": false
       },
       {
-        "option": "Meningitis",
-        "bool": true
+        "option": "Labyrinthitis",
+        "bool": false
       },
       {
-        "option": "Facial nerve paralysis",
-        "bool": false
+        "option": "Meningitis",
+        "bool": true
       }
     ]
   }

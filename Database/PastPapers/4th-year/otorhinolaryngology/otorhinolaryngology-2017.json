@@ -5,23 +5,23 @@
     "question": "A 21-year-old female presents to the emergency department with complaints of pain in the throat, high-grade fever, ipsilateral earache, and restricted mouth opening. On examination, the patient has bulging of the soft palate and anterior tonsillar pillar of the affected side with congested and swollen tonsil. The trismus accompanying peritonsillar abscess (quinsy) is due to the spasm of which muscle?",
     "answers": [
       {
-        "option": "Temporalis",
-        "bool": false
-      },
-      {
-        "option": "Pharyngeal constrictors",
-        "bool": false
+        "option": "Medial pterygoid",
+        "bool": true
       },
       {
         "option": "Lateral pterygoid",
         "bool": false
       },
       {
-        "option": "Medial pterygoid",
-        "bool": true
+        "option": "Masseter",
+        "bool": false
       },
       {
-        "option": "Masseter",
+        "option": "Temporalis",
+        "bool": false
+      },
+      {
+        "option": "Pharyngeal constrictors",
         "bool": false
       }
     ]
@@ -32,11 +32,11 @@
     "question": "'Hot potato voice' is seen in which of the following conditions?",
     "answers": [
       {
-        "option": "Parapharyngeal abscess",
+        "option": "Retropharyngeal abscess",
         "bool": false
       },
       {
-        "option": "Acute tonsillitis",
+        "option": "Parapharyngeal abscess",
         "bool": false
       },
       {
@@ -44,12 +44,12 @@
         "bool": false
       },
       {
-        "option": "Peritonsillar abscess",
-        "bool": true
+        "option": "Acute tonsillitis",
+        "bool": false
       },
       {
-        "option": "Retropharyngeal abscess",
-        "bool": false
+        "option": "Peritonsillar abscess",
+        "bool": true
       }
     ]
   },
@@ -59,7 +59,7 @@
     "question": "In quinsy (peritonsillar abscess), where does the pus collect?",
     "answers": [
       {
-        "option": "Submandibular space",
+        "option": "Between the vertebral bodies posteriorly and prevertebral fascia anteriorly",
         "bool": false
       },
       {
@@ -67,15 +67,15 @@
         "bool": true
       },
       {
-        "option": "Behind the pharynx",
-        "bool": false
-      },
-      {
         "option": "Floor of mouth",
         "bool": false
       },
       {
-        "option": "Between the vertebral bodies posteriorly and prevertebral fascia anteriorly",
+        "option": "Submandibular space",
+        "bool": false
+      },
+      {
+        "option": "Behind the pharynx",
         "bool": false
       }
     ]
@@ -86,11 +86,11 @@
     "question": "An 18-year-old male presents to the emergency department with complaints of high-grade fever, thick and muffled voice, odynophagia, saliva dribbling from the angle of the mouth, and ipsilateral earache. On examination, the patient has restricted mouth opening, swelling, and congestion of the soft palate on the right side, uvula pushed to the opposite side, and a red and congested anterior pillar. What will the management plan include?",
     "answers": [
       {
-        "option": "Oral antibiotics now and tonsillectomy later",
+        "option": "Oral intubation",
         "bool": false
       },
       {
-        "option": "Oral intubation",
+        "option": "Oral antibiotics now and tonsillectomy later",
         "bool": false
       },
       {
@@ -113,11 +113,7 @@
     "question": "A school van driver presents to the clinic with a 4-month history of paroxysmal sneezing, runny nose, and watery eyes, precipitated by smoke and dust. A diagnosis of allergic rhinitis is made. Which antihistamine would be best for him?",
     "answers": [
       {
-        "option": "Meclizine",
-        "bool": false
-      },
-      {
-        "option": "Diphenhydramine",
+        "option": "Promethazine",
         "bool": false
       },
       {
@@ -129,7 +125,11 @@
         "bool": true
       },
       {
-        "option": "Promethazine",
+        "option": "Diphenhydramine",
+        "bool": false
+      },
+      {
+        "option": "Meclizine",
         "bool": false
       }
     ]
@@ -140,7 +140,15 @@
     "question": "In noise-induced hearing loss, a typical frequency dip occurs at which of the following frequencies?",
     "answers": [
       {
+        "option": "4000 Hz",
+        "bool": true
+      },
+      {
         "option": "1500 Hz",
+        "bool": false
+      },
+      {
+        "option": "3000 Hz",
         "bool": false
       },
       {
@@ -149,14 +157,6 @@
       },
       {
         "option": "1000 Hz",
-        "bool": false
-      },
-      {
-        "option": "4000 Hz",
-        "bool": true
-      },
-      {
-        "option": "3000 Hz",
         "bool": false
       }
     ]
@@ -171,7 +171,7 @@
         "bool": false
       },
       {
-        "option": "FNAC",
+        "option": "Excisional biopsy",
         "bool": false
       },
       {
@@ -179,11 +179,11 @@
         "bool": true
       },
       {
-        "option": "MRI of oral cavity and neck",
+        "option": "FNAC",
         "bool": false
       },
       {
-        "option": "Excisional biopsy",
+        "option": "MRI of oral cavity and neck",
         "bool": false
       }
     ]
@@ -194,14 +194,6 @@
     "question": "A 30-year-old male is rushed to the emergency department. He is unconscious and profusely bleeding from the nose. The people who brought him in tell that the man has been in a road traffic accident and suffered trauma to the face. Which of the following should be secured on high priority in such a patient?",
     "answers": [
       {
-        "option": "Haemorrhage",
-        "bool": false
-      },
-      {
-        "option": "Limb injury",
-        "bool": false
-      },
-      {
         "option": "Facial bones",
         "bool": false
       },
@@ -210,8 +202,16 @@
         "bool": false
       },
       {
+        "option": "Limb injury",
+        "bool": false
+      },
+      {
         "option": "Airway",
         "bool": true
+      },
+      {
+        "option": "Haemorrhage",
+        "bool": false
       }
     ]
   },
@@ -221,12 +221,8 @@
     "question": "Which of the following is the most common carcinoma of the thyroid gland?",
     "answers": [
       {
-        "option": "Anaplastic carcinoma",
-        "bool": false
-      },
-      {
-        "option": "Medullary carcinoma",
-        "bool": false
+        "option": "Papillary carcinoma",
+        "bool": true
       },
       {
         "option": "Hurthle cell carcinoma",
@@ -237,8 +233,12 @@
         "bool": false
       },
       {
-        "option": "Papillary carcinoma",
-        "bool": true
+        "option": "Medullary carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Anaplastic carcinoma",
+        "bool": false
       }
     ]
   },
@@ -247,14 +247,6 @@
     "info": "4th-year/otorhinolaryngology/2017",
     "question": "Killian's dehiscence is a potential weak space for the formation of the pharyngeal pouch. Where is it found?",
     "answers": [
-      {
-        "option": "Between the glottic and epiglottic folds",
-        "bool": false
-      },
-      {
-        "option": "Between the thyropharyngeus and cricopharyngeus muscles",
-        "bool": true
-      },
       {
         "option": "Between the upper and lower borders of the cricoid lamina",
         "bool": false
@@ -266,6 +258,14 @@
       {
         "option": "Between the palatoglossal and palatopharyngeal arches",
         "bool": false
+      },
+      {
+        "option": "Between the glottic and epiglottic folds",
+        "bool": false
+      },
+      {
+        "option": "Between the thyropharyngeus and cricopharyngeus muscles",
+        "bool": true
       }
     ]
   },
@@ -275,6 +275,14 @@
     "question": "What is the difference between the thyroid gland and a thyroglossal cyst?",
     "answers": [
       {
+        "option": "Thyroglossal cyst moves with tongue protrusion while the thyroid gland does not",
+        "bool": true
+      },
+      {
+        "option": "Both the thyroid gland and the thyroglossal cyst move on tongue protrusion",
+        "bool": false
+      },
+      {
         "option": "The thyroid gland moves with tongue protrusion while a thyroglossal cyst does not",
         "bool": false
       },
@@ -283,15 +291,7 @@
         "bool": false
       },
       {
-        "option": "Thyroglossal cyst moves with tongue protrusion while the thyroid gland does not",
-        "bool": true
-      },
-      {
         "option": "Thyroglossal cyst moves on swallowing while the thyroid gland does not",
-        "bool": false
-      },
-      {
-        "option": "Both the thyroid gland and the thyroglossal cyst move on tongue protrusion",
         "bool": false
       }
     ]
@@ -310,11 +310,11 @@
         "bool": false
       },
       {
-        "option": "Hurthle cell carcinoma",
+        "option": "Follicular carcinoma",
         "bool": false
       },
       {
-        "option": "Follicular carcinoma",
+        "option": "Hurthle cell carcinoma",
         "bool": false
       },
       {
@@ -329,11 +329,11 @@
     "question": "Which of the following is the best investigation to confirm thyroid carcinoma?",
     "answers": [
       {
-        "option": "Physical examination",
+        "option": "Radionuclide scanning",
         "bool": false
       },
       {
-        "option": "Radionuclide scanning",
+        "option": "Physical examination",
         "bool": false
       },
       {
@@ -341,11 +341,11 @@
         "bool": true
       },
       {
-        "option": "Computed tomography scan",
+        "option": "Blood tests",
         "bool": false
       },
       {
-        "option": "Blood tests",
+        "option": "Computed tomography scan",
         "bool": false
       }
     ]
@@ -356,15 +356,11 @@
     "question": "Which of the following is the mainstay of treatment of cholesteatoma?",
     "answers": [
       {
-        "option": "Conservative treatment",
-        "bool": false
-      },
-      {
         "option": "Systemic antitubercular therapy",
         "bool": false
       },
       {
-        "option": "Reconstructive surgery",
+        "option": "Aural toilet and control of infection",
         "bool": false
       },
       {
@@ -372,7 +368,11 @@
         "bool": true
       },
       {
-        "option": "Aural toilet and control of infection",
+        "option": "Conservative treatment",
+        "bool": false
+      },
+      {
+        "option": "Reconstructive surgery",
         "bool": false
       }
     ]
@@ -383,8 +383,16 @@
     "question": "Cholesteatoma has the property to destroy the bone. What method of bone destruction is seen in a patient suffering from cholesteatoma?",
     "answers": [
       {
+        "option": "Pressure necrosis",
+        "bool": false
+      },
+      {
         "option": "Enzymatic destruction",
         "bool": true
+      },
+      {
+        "option": "Infiltration of marrow space",
+        "bool": false
       },
       {
         "option": "Cortical destruction",
@@ -392,14 +400,6 @@
       },
       {
         "option": "Saucerization",
-        "bool": false
-      },
-      {
-        "option": "Infiltration of marrow space",
-        "bool": false
-      },
-      {
-        "option": "Pressure necrosis",
         "bool": false
       }
     ]
@@ -410,7 +410,15 @@
     "question": "Anticoantral type of chronic suppurative otitis media is associated with cholesteatoma. Which of the following type of discharge is present in this type of disease?",
     "answers": [
       {
-        "option": "Profuse, non-offensive",
+        "option": "Profuse, foul-smelling",
+        "bool": false
+      },
+      {
+        "option": "Intermittent, mucopurulent",
+        "bool": false
+      },
+      {
+        "option": "Constant, mucoid",
         "bool": false
       },
       {
@@ -418,15 +426,7 @@
         "bool": true
       },
       {
-        "option": "Intermittent, mucopurulent",
-        "bool": false
-      },
-      {
-        "option": "Profuse, foul-smelling",
-        "bool": false
-      },
-      {
-        "option": "Constant, mucoid",
+        "option": "Profuse, non-offensive",
         "bool": false
       }
     ]
@@ -437,23 +437,27 @@
     "question": "A 62-year-old male presented to the outpatient clinic and is diagnosed case of glottic squamous cell carcinoma. The results of flexible laryngoscopy (FODL) show an exophytic growth only on the right vocal cord and no lymph nodes are palpable. The mobility of the vocal cord is normal. What is the stage of the tumor based on these findings?",
     "answers": [
       {
-        "option": "Stage 1",
-        "bool": true
+        "option": "Stage 2",
+        "bool": false
       },
       {
         "option": "Stage 4b",
         "bool": false
       },
       {
-        "option": "Stage 4c",
+        "option": "Stage 3",
         "bool": false
+      },
+      {
+        "option": "Stage 1",
+        "bool": true
       },
       {
         "option": "Stage 4a",
         "bool": false
       },
       {
-        "option": "Stage 2",
+        "option": "Stage 4c",
         "bool": false
       }
     ]
@@ -464,10 +468,6 @@
     "question": "What is the treatment of choice for glottic carcinoma in situ?",
     "answers": [
       {
-        "option": "Chemotherapy",
-        "bool": false
-      },
-      {
         "option": "Total laryngectomy",
         "bool": false
       },
@@ -476,12 +476,16 @@
         "bool": false
       },
       {
-        "option": "Transoral endoscopic CO2 laser",
-        "bool": true
+        "option": "Chemotherapy",
+        "bool": false
       },
       {
         "option": "Conservation laryngeal surgery",
         "bool": false
+      },
+      {
+        "option": "Transoral endoscopic CO2 laser",
+        "bool": true
       }
     ]
   },
@@ -491,7 +495,7 @@
     "question": "Which of the following instruments can be used for the removal of a foreign body from the nose?",
     "answers": [
       {
-        "option": "Luc\u2019s forceps",
+        "option": "Luc’s forceps",
         "bool": false
       },
       {
@@ -499,16 +503,16 @@
         "bool": false
       },
       {
+        "option": "Lempert’s curette",
+        "bool": false
+      },
+      {
+        "option": "Wilde’s dressing forceps",
+        "bool": false
+      },
+      {
         "option": "Tilley's forceps",
         "bool": true
-      },
-      {
-        "option": "Lempert\u2019s curette",
-        "bool": false
-      },
-      {
-        "option": "Wilde\u2019s dressing forceps",
-        "bool": false
       }
     ]
   },
@@ -522,20 +526,20 @@
         "bool": false
       },
       {
-        "option": "Mini tracheostomy",
+        "option": "Mid tracheostomy",
         "bool": false
-      },
-      {
-        "option": "High tracheostomy",
-        "bool": true
       },
       {
         "option": "Dilatational tracheostomy",
         "bool": false
       },
       {
-        "option": "Mid tracheostomy",
+        "option": "Mini tracheostomy",
         "bool": false
+      },
+      {
+        "option": "High tracheostomy",
+        "bool": true
       }
     ]
   },
@@ -545,23 +549,23 @@
     "question": "A 34-year-old female comes to the otorhinolaryngology clinic. She has been diagnosed with otosclerosis. In patients with otosclerosis, what is the dip in the curve of bone conduction called?",
     "answers": [
       {
-        "option": "Sinodural angle",
-        "bool": false
-      },
-      {
-        "option": "Carhart\u2019s notch",
-        "bool": true
-      },
-      {
-        "option": "Donaldson's line",
-        "bool": false
-      },
-      {
         "option": "Chvostek's sign",
         "bool": false
       },
       {
+        "option": "Sinodural angle",
+        "bool": false
+      },
+      {
+        "option": "Carhart’s notch",
+        "bool": true
+      },
+      {
         "option": "Dalrymple's sign",
+        "bool": false
+      },
+      {
+        "option": "Donaldson's line",
         "bool": false
       }
     ]
@@ -572,15 +576,11 @@
     "question": "Which of the following is the treatment of choice in a patient with otosclerosis?",
     "answers": [
       {
+        "option": "Stapedectomy",
+        "bool": true
+      },
+      {
         "option": "Aural toilet",
-        "bool": false
-      },
-      {
-        "option": "Lempert\u2019s fenestration operation",
-        "bool": false
-      },
-      {
-        "option": "Sodium fluoride therapy",
         "bool": false
       },
       {
@@ -588,8 +588,12 @@
         "bool": false
       },
       {
-        "option": "Stapedectomy",
-        "bool": true
+        "option": "Sodium fluoride therapy",
+        "bool": false
+      },
+      {
+        "option": "Lempert’s fenestration operation",
+        "bool": false
       }
     ]
   },
@@ -599,7 +603,15 @@
     "question": "Which of the following instruments is used to elevate the periosteum in a submucosal resection or septoplasty surgery?",
     "answers": [
       {
-        "option": "Killian\u2019s nasal gouge",
+        "option": "Killian’s nasal gouge",
+        "bool": false
+      },
+      {
+        "option": "Lichtwitz trocar",
+        "bool": false
+      },
+      {
+        "option": "Nasal snare",
         "bool": false
       },
       {
@@ -608,14 +620,6 @@
       },
       {
         "option": "Ballenger swivel knife",
-        "bool": false
-      },
-      {
-        "option": "Nasal snare",
-        "bool": false
-      },
-      {
-        "option": "Lichtwitz trocar",
         "bool": false
       }
     ]
@@ -626,7 +630,15 @@
     "question": "Which of the following is a severe complication of submucous resection of the nasal septum?",
     "answers": [
       {
+        "option": "Adhesions",
+        "bool": false
+      },
+      {
         "option": "Anosmia",
+        "bool": false
+      },
+      {
+        "option": "Orbital hemorrhage",
         "bool": false
       },
       {
@@ -635,14 +647,6 @@
       },
       {
         "option": "Injury to nasolacrimal duct",
-        "bool": false
-      },
-      {
-        "option": "Adhesions",
-        "bool": false
-      },
-      {
-        "option": "Orbital hemorrhage",
         "bool": false
       }
     ]
@@ -653,15 +657,7 @@
     "question": "Which of the following is a cosmetic complication of submucous resection surgery?",
     "answers": [
       {
-        "option": "Crooked nose",
-        "bool": false
-      },
-      {
-        "option": "Aging nose",
-        "bool": false
-      },
-      {
-        "option": "Hump nose",
+        "option": "Convex nose",
         "bool": false
       },
       {
@@ -669,7 +665,15 @@
         "bool": true
       },
       {
-        "option": "Convex nose",
+        "option": "Hump nose",
+        "bool": false
+      },
+      {
+        "option": "Aging nose",
+        "bool": false
+      },
+      {
+        "option": "Crooked nose",
         "bool": false
       }
     ]
@@ -688,12 +692,12 @@
         "bool": false
       },
       {
-        "option": "Otoacoustic emissions (OAEs)",
-        "bool": false
-      },
-      {
         "option": "Tympanometry",
         "bool": true
+      },
+      {
+        "option": "Otoacoustic emissions (OAEs)",
+        "bool": false
       },
       {
         "option": "Brainstem evoked response audiometry",
@@ -707,15 +711,11 @@
     "question": "Which of the following is the most common malignant neoplasm of the external nose?",
     "answers": [
       {
-        "option": "Squamous cell carcinoma",
+        "option": "Melanoma",
         "bool": false
       },
       {
         "option": "Mesothelioma",
-        "bool": false
-      },
-      {
-        "option": "Melanoma",
         "bool": false
       },
       {
@@ -724,6 +724,10 @@
       },
       {
         "option": "Histiocytoma",
+        "bool": false
+      },
+      {
+        "option": "Squamous cell carcinoma",
         "bool": false
       }
     ]
@@ -734,11 +738,11 @@
     "question": "Which of the following disorders of the oral cavity appears as a white, grey covering of the tongue that can be easily wiped off?",
     "answers": [
       {
-        "option": "Mucocele",
+        "option": "Hairy leukoplakia",
         "bool": false
       },
       {
-        "option": "Hairy leukoplakia",
+        "option": "Erythroplakia",
         "bool": false
       },
       {
@@ -750,7 +754,7 @@
         "bool": true
       },
       {
-        "option": "Erythroplakia",
+        "option": "Mucocele",
         "bool": false
       }
     ]
@@ -765,19 +769,19 @@
         "bool": false
       },
       {
-        "option": "Radical mastoidectomy and reconstructive surgery",
-        "bool": false
+        "option": "Modified radical and radical mastoidectomy",
+        "bool": true
       },
       {
         "option": "Labyrinthectomy and otologic laser",
         "bool": false
       },
       {
-        "option": "Modified radical and radical mastoidectomy",
-        "bool": true
+        "option": "Tympanoplasty and stapedectomy",
+        "bool": false
       },
       {
-        "option": "Tympanoplasty and stapedectomy",
+        "option": "Radical mastoidectomy and reconstructive surgery",
         "bool": false
       }
     ]
@@ -792,16 +796,16 @@
         "bool": false
       },
       {
-        "option": "Aphthous ulcer",
-        "bool": true
+        "option": "Herpangina",
+        "bool": false
       },
       {
         "option": "Erythroplakia",
         "bool": false
       },
       {
-        "option": "Herpangina",
-        "bool": false
+        "option": "Aphthous ulcer",
+        "bool": true
       },
       {
         "option": "Leukoplakia",
@@ -815,15 +819,15 @@
     "question": "Which of the following is the recommended treatment for aphthous ulcers?",
     "answers": [
       {
-        "option": "Excisional surgery",
-        "bool": false
-      },
-      {
-        "option": "Antiviral therapy",
-        "bool": false
-      },
-      {
         "option": "Topical application of nystatin",
+        "bool": false
+      },
+      {
+        "option": "Topical application of steroids",
+        "bool": true
+      },
+      {
+        "option": "Excisional surgery",
         "bool": false
       },
       {
@@ -831,8 +835,8 @@
         "bool": false
       },
       {
-        "option": "Topical application of steroids",
-        "bool": true
+        "option": "Antiviral therapy",
+        "bool": false
       }
     ]
   },
@@ -842,19 +846,19 @@
     "question": "Which of the following is not caused by noise-induced hearing loss?",
     "answers": [
       {
-        "option": "Hypertension",
-        "bool": false
-      },
-      {
-        "option": "Peptic ulcer",
-        "bool": false
-      },
-      {
         "option": "Hemorrhage",
         "bool": true
       },
       {
         "option": "Annoyance",
+        "bool": false
+      },
+      {
+        "option": "Hypertension",
+        "bool": false
+      },
+      {
+        "option": "Peptic ulcer",
         "bool": false
       },
       {
@@ -869,11 +873,7 @@
     "question": "Which of the following lesion is a pre-malignant condition, characterized by a red patch, usually found on the lower alveolar mucosa, that cannot be easily scraped off?",
     "answers": [
       {
-        "option": "Leukoplakia",
-        "bool": false
-      },
-      {
-        "option": "Dermoid cyst",
+        "option": "Aphthous ulcer",
         "bool": false
       },
       {
@@ -881,11 +881,15 @@
         "bool": true
       },
       {
-        "option": "Aphthous ulcer",
+        "option": "Melanosis",
         "bool": false
       },
       {
-        "option": "Melanosis",
+        "option": "Dermoid cyst",
+        "bool": false
+      },
+      {
+        "option": "Leukoplakia",
         "bool": false
       }
     ]
@@ -896,15 +900,7 @@
     "question": "Schwartz sign is an indication of which of the following conditions?",
     "answers": [
       {
-        "option": "Active otosclerosis during pregnancy",
-        "bool": true
-      },
-      {
-        "option": "Aspirin senstivity",
-        "bool": false
-      },
-      {
-        "option": "Nasopharyngeal carcinoma",
+        "option": "Infiltration of the epiglottis",
         "bool": false
       },
       {
@@ -912,7 +908,15 @@
         "bool": false
       },
       {
-        "option": "Infiltration of the epiglottis",
+        "option": "Aspirin senstivity",
+        "bool": false
+      },
+      {
+        "option": "Active otosclerosis during pregnancy",
+        "bool": true
+      },
+      {
+        "option": "Nasopharyngeal carcinoma",
         "bool": false
       }
     ]
@@ -923,11 +927,11 @@
     "question": "Which of the following are the first steps of the management of peritonsillar abscess?",
     "answers": [
       {
-        "option": "Incision and drainage of abscess",
+        "option": "Hospitalization and abscess tonsillectomy",
         "bool": false
       },
       {
-        "option": "Hospitalization and interval tonsillectomy",
+        "option": "Incision and drainage of abscess",
         "bool": false
       },
       {
@@ -935,12 +939,12 @@
         "bool": false
       },
       {
-        "option": "Hospitalization and broad-spectrum antibiotics",
-        "bool": true
+        "option": "Hospitalization and interval tonsillectomy",
+        "bool": false
       },
       {
-        "option": "Hospitalization and abscess tonsillectomy",
-        "bool": false
+        "option": "Hospitalization and broad-spectrum antibiotics",
+        "bool": true
       }
     ]
   },
@@ -954,12 +958,12 @@
         "bool": false
       },
       {
-        "option": "Closing of potassium channels",
-        "bool": true
-      },
-      {
         "option": "Closing of sodium-chloride channels",
         "bool": false
+      },
+      {
+        "option": "Closing of potassium channels",
+        "bool": true
       },
       {
         "option": "Opening of chloride channels",
@@ -974,18 +978,10 @@
   {
     "id": 36,
     "info": "4th-year/otorhinolaryngology/2017",
-    "question": "Which of the following parts of the ear is the most affected by M\u00e9ni\u00e8re\u2019s disease?",
+    "question": "Which of the following parts of the ear is the most affected by Ménière’s disease?",
     "answers": [
       {
-        "option": "Tympanic membrane",
-        "bool": false
-      },
-      {
-        "option": "Membranous labyrinth",
-        "bool": true
-      },
-      {
-        "option": "Eustachian tube",
+        "option": "Middle ear",
         "bool": false
       },
       {
@@ -993,8 +989,16 @@
         "bool": false
       },
       {
-        "option": "Middle ear",
+        "option": "Eustachian tube",
         "bool": false
+      },
+      {
+        "option": "Tympanic membrane",
+        "bool": false
+      },
+      {
+        "option": "Membranous labyrinth",
+        "bool": true
       }
     ]
   },
@@ -1004,10 +1008,6 @@
     "question": "Which of the following is an intermediate complication of tracheostomy?",
     "answers": [
       {
-        "option": "Tracheomalacia",
-        "bool": false
-      },
-      {
         "option": "Tube dislocation",
         "bool": true
       },
@@ -1016,11 +1016,15 @@
         "bool": false
       },
       {
-        "option": "Tracheal stenosis",
+        "option": "Pneumothorax",
         "bool": false
       },
       {
-        "option": "Pneumothorax",
+        "option": "Tracheomalacia",
+        "bool": false
+      },
+      {
+        "option": "Tracheal stenosis",
         "bool": false
       }
     ]
@@ -1031,15 +1035,7 @@
     "question": "Which of the following is a late complication of tracheostomy?",
     "answers": [
       {
-        "option": "Tube dislocation",
-        "bool": false
-      },
-      {
-        "option": "Blood aspiration",
-        "bool": false
-      },
-      {
-        "option": "Bleeding",
+        "option": "Pneumothorax",
         "bool": false
       },
       {
@@ -1047,7 +1043,15 @@
         "bool": true
       },
       {
-        "option": "Pneumothorax",
+        "option": "Bleeding",
+        "bool": false
+      },
+      {
+        "option": "Blood aspiration",
+        "bool": false
+      },
+      {
+        "option": "Tube dislocation",
         "bool": false
       }
     ]
@@ -1058,6 +1062,10 @@
     "question": "Which of the following conditions is characterized by dry mouth due to decreased saliva production?",
     "answers": [
       {
+        "option": "Ranula",
+        "bool": false
+      },
+      {
         "option": "Mucocele",
         "bool": false
       },
@@ -1066,16 +1074,12 @@
         "bool": false
       },
       {
-        "option": "Leukoplakia",
-        "bool": false
-      },
-      {
-        "option": "Ranula",
-        "bool": false
-      },
-      {
         "option": "Xerostomia",
         "bool": true
+      },
+      {
+        "option": "Leukoplakia",
+        "bool": false
       }
     ]
   },
@@ -1089,16 +1093,16 @@
         "bool": false
       },
       {
+        "option": "Trochlear nerve",
+        "bool": false
+      },
+      {
         "option": "Oculomotor nerve",
         "bool": false
       },
       {
         "option": "Facial nerve",
         "bool": true
-      },
-      {
-        "option": "Trochlear nerve",
-        "bool": false
       },
       {
         "option": "Trigeminal nerve",
@@ -1112,15 +1116,7 @@
     "question": "Which of the following is the mechanism of action of co-trimoxazole?",
     "answers": [
       {
-        "option": "Sequential blockade of folic acid enzymes",
-        "bool": true
-      },
-      {
         "option": "Inhibition of protein synthesis",
-        "bool": false
-      },
-      {
-        "option": "Alteration of cell membrane",
         "bool": false
       },
       {
@@ -1128,7 +1124,15 @@
         "bool": false
       },
       {
+        "option": "Sequential blockade of folic acid enzymes",
+        "bool": true
+      },
+      {
         "option": "Modification of drug target",
+        "bool": false
+      },
+      {
+        "option": "Alteration of cell membrane",
         "bool": false
       }
     ]
@@ -1139,11 +1143,11 @@
     "question": "Which of the following is the most appropriate step in the management of allergic rhinitis?",
     "answers": [
       {
-        "option": "Ethmoidectomy",
-        "bool": false
+        "option": "Avoidance of allergens",
+        "bool": true
       },
       {
-        "option": "Laser treatment",
+        "option": "Ethmoidectomy",
         "bool": false
       },
       {
@@ -1151,11 +1155,11 @@
         "bool": false
       },
       {
-        "option": "Avoidance of allergens",
-        "bool": true
+        "option": "Polypectomy",
+        "bool": false
       },
       {
-        "option": "Polypectomy",
+        "option": "Laser treatment",
         "bool": false
       }
     ]
@@ -1166,6 +1170,14 @@
     "question": "Which of the following tests is done to confirm allergic rhinitis?",
     "answers": [
       {
+        "option": "Enzyme-linked immunosorbent assay",
+        "bool": false
+      },
+      {
+        "option": "Fluoroimmunoassay",
+        "bool": false
+      },
+      {
         "option": "Antigen-antibody reaction",
         "bool": false
       },
@@ -1174,15 +1186,7 @@
         "bool": true
       },
       {
-        "option": "Fluoroimmunoassay",
-        "bool": false
-      },
-      {
         "option": "Competitive ELISA",
-        "bool": false
-      },
-      {
-        "option": "Enzyme-linked immunosorbent assay",
         "bool": false
       }
     ]
@@ -1197,19 +1201,19 @@
         "bool": false
       },
       {
-        "option": "Treacher-Collins syndrome",
-        "bool": false
-      },
-      {
         "option": "Frey's syndrome",
         "bool": true
+      },
+      {
+        "option": "Crouzon syndrome",
+        "bool": false
       },
       {
         "option": "Ramsay Hunt syndrome",
         "bool": false
       },
       {
-        "option": "Crouzon syndrome",
+        "option": "Treacher-Collins syndrome",
         "bool": false
       }
     ]

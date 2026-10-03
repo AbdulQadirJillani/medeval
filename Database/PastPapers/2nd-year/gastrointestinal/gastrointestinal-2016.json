@@ -1,12 +1,12 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "The hexose monophosphate (HMP) shunt occurs in which of the following?",
     "answers": [
       {
-        "option": "Mitochondrial matrix",
-        "bool": false
+        "option": "Cytosol",
+        "bool": true
       },
       {
         "option": "Ribosome",
@@ -17,8 +17,8 @@
         "bool": false
       },
       {
-        "option": "Cytosol",
-        "bool": true
+        "option": "Mitochondrial matrix",
+        "bool": false
       },
       {
         "option": "Mitochondrion",
@@ -28,15 +28,15 @@
   },
   {
     "id": 1,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following represents Peyer's patches?",
     "answers": [
       {
-        "option": "None of them",
+        "option": "Lymph nodes aggregates in duodenum",
         "bool": false
       },
       {
-        "option": "Lymph nodes aggregates in duodenum",
+        "option": "None of them",
         "bool": false
       },
       {
@@ -55,13 +55,9 @@
   },
   {
     "id": 2,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is the autonomous zone of the liver?",
     "answers": [
-      {
-        "option": "Right lobe",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
@@ -71,34 +67,65 @@
         "bool": true
       },
       {
-        "option": "Quadrate lobe",
+        "option": "Left lobe",
         "bool": false
       },
       {
-        "option": "Left lobe",
+        "option": "Right lobe",
+        "bool": false
+      },
+      {
+        "option": "Quadrate lobe",
         "bool": false
       }
     ]
   },
   {
     "id": 3,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
+    "question": "Which enzyme is deficient in von Gierke disease?",
+    "answers": [
+      {
+        "option": "Phosphofructokinase (PFK)",
+        "bool": false
+      },
+      {
+        "option": "Glucose-6-phosphate dehydrogenase (G6PD)",
+        "bool": false
+      },
+      {
+        "option": "6-phosphogluconolactonase (PGLS)",
+        "bool": false
+      },
+      {
+        "option": "Glucose-6-phosphatase (G6P)",
+        "bool": true
+      },
+      {
+        "option": "6-Phosphogluconate dehydrogenase (6PGD)",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is the normal serum bilirubin concentration?",
     "answers": [
       {
-        "option": "3.0-4.0 mg/dl",
-        "bool": false
+        "option": "0.1-1.2 mg/dl",
+        "bool": true
       },
       {
         "option": "1.2-2.5 mg/dl",
         "bool": false
       },
       {
-        "option": "0.1-1.2 mg/dl",
-        "bool": true
+        "option": "1.0-2.0 mg/dl",
+        "bool": false
       },
       {
-        "option": "1.0-2.0 mg/dl",
+        "option": "3.0-4.0 mg/dl",
         "bool": false
       },
       {
@@ -108,16 +135,12 @@
     ]
   },
   {
-    "id": 4,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 5,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is a major cause of celiac disease?",
     "answers": [
       {
-        "option": "Intussusception",
-        "bool": false
-      },
-      {
-        "option": "Aldolase B deficiency",
+        "option": "Tumor",
         "bool": false
       },
       {
@@ -125,7 +148,11 @@
         "bool": true
       },
       {
-        "option": "Tumor",
+        "option": "Aldolase B deficiency",
+        "bool": false
+      },
+      {
+        "option": "Intussusception",
         "bool": false
       },
       {
@@ -135,12 +162,16 @@
     ]
   },
   {
-    "id": 5,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 6,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "The body of the patient is found to produce endomysial antibodies with the intestinal biopsy showing the presence of flattened villi. Which of the following diseases is this hinting towards?",
     "answers": [
       {
-        "option": "M\u00e9n\u00e9trier disease",
+        "option": "Lactose intolerance",
+        "bool": false
+      },
+      {
+        "option": "Grave's disease",
         "bool": false
       },
       {
@@ -148,62 +179,50 @@
         "bool": true
       },
       {
-        "option": "Grave's disease",
-        "bool": false
-      },
-      {
-        "option": "Lactose intolerance",
-        "bool": false
-      },
-      {
         "option": "Whipple's disease",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "info": "2nd-year/gastrointestinal-1/2016",
-    "question": "Which enzyme is deficient in von Gierke disease?",
-    "answers": [
-      {
-        "option": "Glucose-6-phosphatase (G6P)",
-        "bool": true
       },
       {
-        "option": "Phosphofructokinase (PFK)",
-        "bool": false
-      },
-      {
-        "option": "6-phosphogluconolactonase (PGLS)",
-        "bool": false
-      },
-      {
-        "option": "6-Phosphogluconate dehydrogenase (6PGD)",
-        "bool": false
-      },
-      {
-        "option": "Glucose-6-phosphate dehydrogenase (G6PD)",
+        "option": "Ménétrier disease",
         "bool": false
       }
     ]
   },
   {
     "id": 7,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
+    "question": "Which of the following is the rate-limiting enzyme in cholesterol synthesis?",
+    "answers": [
+      {
+        "option": "Prenyl transferase",
+        "bool": false
+      },
+      {
+        "option": "HMG-CoA synthase",
+        "bool": false
+      },
+      {
+        "option": "Squalene synthase",
+        "bool": false
+      },
+      {
+        "option": "HMG-CoA reductase",
+        "bool": true
+      },
+      {
+        "option": "Mevalonate carboxylase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is the active coenzyme form of vitamin B6?",
     "answers": [
       {
-        "option": "Pyridoxamine",
-        "bool": false
-      },
-      {
         "option": "NAD",
         "bool": false
-      },
-      {
-        "option": "Pyridoxal 5-phosphate",
-        "bool": true
       },
       {
         "option": "FMN",
@@ -212,17 +231,25 @@
       {
         "option": "Pyridoxine",
         "bool": false
+      },
+      {
+        "option": "Pyridoxamine",
+        "bool": false
+      },
+      {
+        "option": "Pyridoxal 5-phosphate",
+        "bool": true
       }
     ]
   },
   {
-    "id": 8,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 9,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Liver biopsy is performed at which of the following spaces?",
     "answers": [
       {
-        "option": "Right 10th intercostal space",
-        "bool": true
+        "option": "Subcostal space",
+        "bool": false
       },
       {
         "option": "5th intercostal space",
@@ -233,26 +260,30 @@
         "bool": false
       },
       {
-        "option": "Subcostal space",
+        "option": "Right 8th intercostal space",
         "bool": false
       },
       {
-        "option": "Right 8th intercostal space",
-        "bool": false
+        "option": "Right 10th intercostal space",
+        "bool": true
       }
     ]
   },
   {
-    "id": 9,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 10,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is niacin derived from?",
     "answers": [
       {
-        "option": "Tryptophan",
-        "bool": true
+        "option": "Tyrosine",
+        "bool": false
       },
       {
         "option": "Adenine",
+        "bool": false
+      },
+      {
+        "option": "Phenylalanine",
         "bool": false
       },
       {
@@ -260,18 +291,14 @@
         "bool": false
       },
       {
-        "option": "Tyrosine",
-        "bool": false
-      },
-      {
-        "option": "Phenylalanine",
-        "bool": false
+        "option": "Tryptophan",
+        "bool": true
       }
     ]
   },
   {
-    "id": 10,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 11,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "What is the regulatory step in endogenous cholesterol synthesis?",
     "answers": [
       {
@@ -279,11 +306,11 @@
         "bool": false
       },
       {
-        "option": "HMG CoA reductase",
-        "bool": true
+        "option": "HMG CoA synthase",
+        "bool": false
       },
       {
-        "option": "HMG CoA synthase",
+        "option": "Glucose-6-phosphatase",
         "bool": false
       },
       {
@@ -291,26 +318,26 @@
         "bool": false
       },
       {
-        "option": "Glucose-6-phosphatase",
-        "bool": false
+        "option": "HMG CoA reductase",
+        "bool": true
       }
     ]
   },
   {
-    "id": 11,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 12,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which enzyme deficiency occurs in Cori's disease?",
     "answers": [
-      {
-        "option": "Debranching enzyme",
-        "bool": true
-      },
       {
         "option": "Branching enzyme",
         "bool": false
       },
       {
-        "option": "Glycogen synthase",
+        "option": "Debranching enzyme",
+        "bool": true
+      },
+      {
+        "option": "Glycogen lyase",
         "bool": false
       },
       {
@@ -318,14 +345,14 @@
         "bool": false
       },
       {
-        "option": "Glycogen lyase",
+        "option": "Glycogen synthase",
         "bool": false
       }
     ]
   },
   {
-    "id": 12,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 13,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Acetyl-CoA is used in the synthesis of cholesterol. Which of the following is the rate-limiting step of this pathway?",
     "answers": [
       {
@@ -337,34 +364,30 @@
         "bool": false
       },
       {
+        "option": "Synthesis of mevalonate",
+        "bool": true
+      },
+      {
         "option": "Synthesis of isopentenyl pyrophosphate (IPP)",
         "bool": false
       },
       {
         "option": "Synthesis of squalene",
         "bool": false
-      },
-      {
-        "option": "Synthesis of mevalonate",
-        "bool": true
       }
     ]
   },
   {
-    "id": 13,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 14,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "In which part of the gastrointestinal tract is most of the vitamin b12 is absorbed?",
     "answers": [
       {
-        "option": "Stomach",
-        "bool": false
-      },
-      {
-        "option": "Duodenum",
-        "bool": false
-      },
-      {
         "option": "Jejunum",
+        "bool": false
+      },
+      {
+        "option": "Stomach",
         "bool": false
       },
       {
@@ -374,24 +397,20 @@
       {
         "option": "Colon",
         "bool": false
+      },
+      {
+        "option": "Duodenum",
+        "bool": false
       }
     ]
   },
   {
-    "id": 14,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 15,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is a glycogen disease that is related to lysosomes?",
     "answers": [
       {
-        "option": "Pompe's disease",
-        "bool": true
-      },
-      {
         "option": "Her's disease",
-        "bool": false
-      },
-      {
-        "option": "Cori's disease",
         "bool": false
       },
       {
@@ -401,12 +420,20 @@
       {
         "option": "McArdle's disease",
         "bool": false
+      },
+      {
+        "option": "Pompe's disease",
+        "bool": true
+      },
+      {
+        "option": "Cori's disease",
+        "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 16,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following enzymes acts on alpha-ketoglutarate molecule involved in Kreb's cycle?",
     "answers": [
       {
@@ -414,11 +441,11 @@
         "bool": true
       },
       {
-        "option": "Citrate synthase",
+        "option": "Succinate dehyrogenase",
         "bool": false
       },
       {
-        "option": "Aconitase",
+        "option": "Citrate synthase",
         "bool": false
       },
       {
@@ -426,14 +453,14 @@
         "bool": false
       },
       {
-        "option": "Succinate dehyrogenase",
+        "option": "Aconitase",
         "bool": false
       }
     ]
   },
   {
-    "id": 16,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 17,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "What is the total ATP yield of Kreb's cycle?",
     "answers": [
       {
@@ -445,7 +472,7 @@
         "bool": false
       },
       {
-        "option": "38",
+        "option": "17",
         "bool": false
       },
       {
@@ -453,19 +480,19 @@
         "bool": false
       },
       {
-        "option": "17",
+        "option": "38",
         "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "id": 18,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following organs is not involved in the HMP shunt?",
     "answers": [
       {
-        "option": "Kidneys",
-        "bool": true
+        "option": "Adipose tissue",
+        "bool": false
       },
       {
         "option": "Liver",
@@ -476,49 +503,49 @@
         "bool": false
       },
       {
-        "option": "Adipose tissue",
-        "bool": false
-      },
-      {
         "option": "Placenta",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "info": "2nd-year/gastrointestinal-1/2016",
-    "question": "What is the significance of 2,3 bisphosphate in RBCs?",
-    "answers": [
-      {
-        "option": "Used to increase hemoglobin binding to CO",
-        "bool": false
       },
       {
-        "option": "Used to produce energy in RBCs",
-        "bool": false
-      },
-      {
-        "option": "Serves to increase CO\u2082 delivery to tissues",
-        "bool": false
-      },
-      {
-        "option": "Used to increase hemoglobin binding to O\u2082",
-        "bool": false
-      },
-      {
-        "option": "Serves to increase O\u2082 delivery",
+        "option": "Kidneys",
         "bool": true
       }
     ]
   },
   {
     "id": 19,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
+    "question": "What is the significance of 2,3 bisphosphate in RBCs?",
+    "answers": [
+      {
+        "option": "Used to produce energy in RBCs",
+        "bool": false
+      },
+      {
+        "option": "Serves to increase O₂ delivery",
+        "bool": true
+      },
+      {
+        "option": "Used to increase hemoglobin binding to O₂",
+        "bool": false
+      },
+      {
+        "option": "Used to increase hemoglobin binding to CO",
+        "bool": false
+      },
+      {
+        "option": "Serves to increase CO₂ delivery to tissues",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "What is the most common cause of pancreatitis?",
     "answers": [
       {
-        "option": "Autoimmune Disease",
+        "option": "Drugs",
         "bool": false
       },
       {
@@ -526,51 +553,28 @@
         "bool": false
       },
       {
-        "option": "Alcohol",
-        "bool": true
+        "option": "Autoimmune Disease",
+        "bool": false
       },
       {
         "option": "Scorpion sting",
         "bool": false
       },
       {
-        "option": "Drugs",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "info": "2nd-year/gastrointestinal-1/2016",
-    "question": "Which of the following is the rate-limiting enzyme in cholesterol synthesis?",
-    "answers": [
-      {
-        "option": "HMG-CoA reductase",
+        "option": "Alcohol",
         "bool": true
-      },
-      {
-        "option": "Squalene synthase",
-        "bool": false
-      },
-      {
-        "option": "HMG-CoA synthase",
-        "bool": false
-      },
-      {
-        "option": "Prenyl transferase",
-        "bool": false
-      },
-      {
-        "option": "Mevalonate carboxylase",
-        "bool": false
       }
     ]
   },
   {
     "id": 21,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "From which of the following arteries does the left colic artery arise?",
     "answers": [
+      {
+        "option": "Celiac artery",
+        "bool": false
+      },
       {
         "option": "Superior mesenteric artery",
         "bool": false
@@ -580,35 +584,23 @@
         "bool": false
       },
       {
-        "option": "Inferior mesenteric artery",
-        "bool": true
-      },
-      {
         "option": "ileocolic artery",
         "bool": false
       },
       {
-        "option": "Celiac artery",
-        "bool": false
+        "option": "Inferior mesenteric artery",
+        "bool": true
       }
     ]
   },
   {
     "id": 22,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following organs is in contact with the bare area of the liver?",
     "answers": [
       {
         "option": "Stomach",
         "bool": false
-      },
-      {
-        "option": "Duodenum",
-        "bool": false
-      },
-      {
-        "option": "Diaphragm",
-        "bool": true
       },
       {
         "option": "Spleen",
@@ -617,17 +609,33 @@
       {
         "option": "Kidney",
         "bool": false
+      },
+      {
+        "option": "Diaphragm",
+        "bool": true
+      },
+      {
+        "option": "Duodenum",
+        "bool": false
       }
     ]
   },
   {
     "id": 23,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Damage to the posterior side of the canal would affect which of the following?",
     "answers": [
       {
+        "option": "Venous plexus",
+        "bool": false
+      },
+      {
         "option": "Anococcygeal ligament",
         "bool": true
+      },
+      {
+        "option": "External urethral sphincter",
+        "bool": false
       },
       {
         "option": "Internal urethral sphincter",
@@ -636,34 +644,14 @@
       {
         "option": "Ischioanal fossa",
         "bool": false
-      },
-      {
-        "option": "External urethral sphincter",
-        "bool": false
-      },
-      {
-        "option": "Venous plexus",
-        "bool": false
       }
     ]
   },
   {
     "id": 24,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "The anal canal above the pectinate line is supplied by which of the following nerves?",
     "answers": [
-      {
-        "option": "Superior hypogastric plexus",
-        "bool": false
-      },
-      {
-        "option": "Inferior rectal nerve",
-        "bool": false
-      },
-      {
-        "option": "Inferior hypogastric plexus",
-        "bool": true
-      },
       {
         "option": "Perineal nerve",
         "bool": false
@@ -671,20 +659,28 @@
       {
         "option": "Superior rectal nerve",
         "bool": false
+      },
+      {
+        "option": "Inferior rectal nerve",
+        "bool": false
+      },
+      {
+        "option": "Superior hypogastric plexus",
+        "bool": false
+      },
+      {
+        "option": "Inferior hypogastric plexus",
+        "bool": true
       }
     ]
   },
   {
     "id": 25,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "On ultrasonography and radiological examination, which of the following structures divides the liver into functional right and left lobes?",
     "answers": [
       {
-        "option": "Paraesophageal vein",
-        "bool": false
-      },
-      {
-        "option": "Superior vena cava",
+        "option": "Portal vein",
         "bool": false
       },
       {
@@ -692,20 +688,28 @@
         "bool": true
       },
       {
-        "option": "Portal vein",
+        "option": "Inferior vena cava",
         "bool": false
       },
       {
-        "option": "Inferior vena cava",
+        "option": "Superior vena cava",
+        "bool": false
+      },
+      {
+        "option": "Paraesophageal vein",
         "bool": false
       }
     ]
   },
   {
     "id": 26,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "What structure lies medial to ischo-anal fossa?",
     "answers": [
+      {
+        "option": "Levator ani",
+        "bool": true
+      },
       {
         "option": "Obturator muscle",
         "bool": false
@@ -713,10 +717,6 @@
       {
         "option": "Ischial tuberosity",
         "bool": false
-      },
-      {
-        "option": "Levator ani",
-        "bool": true
       },
       {
         "option": "Obturator fascia",
@@ -730,24 +730,24 @@
   },
   {
     "id": 27,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following regarding celiac trunk is not true?",
     "answers": [
-      {
-        "option": "Arises at the level of aortic hiatus",
-        "bool": false
-      },
       {
         "option": "It is responsible for blood supply to pancreas",
         "bool": false
       },
       {
-        "option": "It is responsible for blood supply to jejunum",
-        "bool": true
-      },
-      {
         "option": "It arises at the level of T12-L1",
         "bool": false
+      },
+      {
+        "option": "Arises at the level of aortic hiatus",
+        "bool": false
+      },
+      {
+        "option": "It is responsible for blood supply to jejunum",
+        "bool": true
       },
       {
         "option": "It has three main arterial branches",
@@ -757,15 +757,11 @@
   },
   {
     "id": 28,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "Which of the following is a ventral mesogastrium derivative?",
     "answers": [
       {
-        "option": "Falciform ligament",
-        "bool": true
-      },
-      {
-        "option": "Liver",
+        "option": "Greater omentum",
         "bool": false
       },
       {
@@ -773,7 +769,11 @@
         "bool": false
       },
       {
-        "option": "Greater omentum",
+        "option": "Falciform ligament",
+        "bool": true
+      },
+      {
+        "option": "Liver",
         "bool": false
       },
       {
@@ -784,19 +784,19 @@
   },
   {
     "id": 29,
-    "info": "2nd-year/gastrointestinal-1/2016",
+    "info": "2nd-year/gastrointestinal/2016",
     "question": "There is a part of the gastrointestinal tract that is covered by the peritoneum for the first few centimeters and then gets retroperitoneal. This is correct about which part of the gastrointestinal tract?",
     "answers": [
+      {
+        "option": "Ileum",
+        "bool": false
+      },
       {
         "option": "Duodenum",
         "bool": true
       },
       {
         "option": "Stomach",
-        "bool": false
-      },
-      {
-        "option": "Ileum",
         "bool": false
       },
       {

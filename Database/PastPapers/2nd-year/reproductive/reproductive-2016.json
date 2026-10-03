@@ -1,38 +1,69 @@
 [
   {
     "id": 0,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "What is the pH of semen?",
+    "info": "2nd-year/reproductive/2016",
+    "question": "During translation, the initiation codon of mRNA attaches to the ribosome at which site?",
     "answers": [
       {
-        "option": "7.5",
+        "option": "A site of 50S subunit",
+        "bool": false
+      },
+      {
+        "option": "P site of 30S subunit",
         "bool": true
       },
       {
-        "option": "5.5",
+        "option": "E site of 50S subunit",
         "bool": false
       },
       {
-        "option": "7.0",
+        "option": "A site of 30S subunit",
         "bool": false
       },
       {
-        "option": "4.4",
-        "bool": false
-      },
-      {
-        "option": "6.9",
+        "option": "E site of 30S subunit",
         "bool": false
       }
     ]
   },
   {
     "id": 1,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
+    "question": "What is the pH of semen?",
+    "answers": [
+      {
+        "option": "4.4",
+        "bool": false
+      },
+      {
+        "option": "7.5",
+        "bool": true
+      },
+      {
+        "option": "7.0",
+        "bool": false
+      },
+      {
+        "option": "6.9",
+        "bool": false
+      },
+      {
+        "option": "5.5",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "2nd-year/reproductive/2016",
     "question": "A 62-year-old patient comes with a complaint of urgency, frequency, nocturia, and post-void dribbling. He is most probably suffering from prostatic enlargement. Which route of examination should be used to examine the prostate gland?",
     "answers": [
       {
-        "option": "Perineum examination",
+        "option": "Digital rectal examination",
+        "bool": true
+      },
+      {
+        "option": "Supra pubic palpation",
         "bool": false
       },
       {
@@ -44,18 +75,14 @@
         "bool": false
       },
       {
-        "option": "Digital rectal examination",
-        "bool": true
-      },
-      {
-        "option": "Supra pubic palpation",
+        "option": "Perineum examination",
         "bool": false
       }
     ]
   },
   {
-    "id": 2,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 3,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a surgical method performed for tubal ligation?",
     "answers": [
       {
@@ -63,11 +90,11 @@
         "bool": false
       },
       {
-        "option": "Culdocentesis",
+        "option": "Hysterosalpingography",
         "bool": false
       },
       {
-        "option": "Hysterosalpingography",
+        "option": "Culdocentesis",
         "bool": false
       },
       {
@@ -81,10 +108,14 @@
     ]
   },
   {
-    "id": 3,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 4,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is not a remnant of mesonephric ducts in females?",
     "answers": [
+      {
+        "option": "Epoophoron",
+        "bool": false
+      },
       {
         "option": "Hydatid of Morgagni",
         "bool": true
@@ -98,23 +129,19 @@
         "bool": false
       },
       {
-        "option": "Epoophoron",
-        "bool": false
-      },
-      {
         "option": "Paroophoron",
         "bool": false
       }
     ]
   },
   {
-    "id": 4,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 5,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a remnant of paramesonephric duct in males?",
     "answers": [
       {
-        "option": "Prostatic utricle",
-        "bool": false
+        "option": "Appendix of testis",
+        "bool": true
       },
       {
         "option": "Duct of epididymis",
@@ -125,31 +152,27 @@
         "bool": false
       },
       {
-        "option": "Appendix of testis",
-        "bool": true
+        "option": "Ejaculatory duct",
+        "bool": false
       },
       {
-        "option": "Ejaculatory duct",
+        "option": "Prostatic utricle",
         "bool": false
       }
     ]
   },
   {
-    "id": 5,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 6,
+    "info": "2nd-year/reproductive/2016",
     "question": "Gonads are identical in males and females up to which week?",
     "answers": [
       {
-        "option": "4th week",
+        "option": "5th week",
         "bool": false
       },
       {
         "option": "7th week",
         "bool": true
-      },
-      {
-        "option": "5th week",
-        "bool": false
       },
       {
         "option": "6th week",
@@ -158,12 +181,16 @@
       {
         "option": "10th week",
         "bool": false
+      },
+      {
+        "option": "4th week",
+        "bool": false
       }
     ]
   },
   {
-    "id": 6,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 7,
+    "info": "2nd-year/reproductive/2016",
     "question": "Exstrophy of the bladder is commonly associated with which of the following defects?",
     "answers": [
       {
@@ -171,35 +198,35 @@
         "bool": false
       },
       {
+        "option": "Epispadias",
+        "bool": true
+      },
+      {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Hypospadias",
         "bool": false
       },
       {
         "option": "Testicular atrophy",
         "bool": false
-      },
-      {
-        "option": "Epispadias",
-        "bool": true
-      },
-      {
-        "option": "Hypospadias",
-        "bool": false
       }
     ]
   },
   {
-    "id": 7,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 8,
+    "info": "2nd-year/reproductive/2016",
     "question": "Histologically, ovaries can be identified by which of the following weeks?",
     "answers": [
       {
-        "option": "10th week",
-        "bool": true
-      },
-      {
         "option": "11th week",
         "bool": false
+      },
+      {
+        "option": "10th week",
+        "bool": true
       },
       {
         "option": "7th week",
@@ -216,24 +243,24 @@
     ]
   },
   {
-    "id": 8,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 9,
+    "info": "2nd-year/reproductive/2016",
     "question": "The lower part of the vagina develops from which of the following?",
     "answers": [
       {
-        "option": "Mesonephric duct",
-        "bool": false
+        "option": "Vaginal plate",
+        "bool": true
       },
       {
         "option": "Urogenital ridge",
         "bool": false
       },
       {
-        "option": "Vaginal plate",
-        "bool": true
+        "option": "Urogenital sinus",
+        "bool": false
       },
       {
-        "option": "Urogenital sinus",
+        "option": "Mesonephric duct",
         "bool": false
       },
       {
@@ -243,18 +270,10 @@
     ]
   },
   {
-    "id": 9,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 10,
+    "info": "2nd-year/reproductive/2016",
     "question": "By which month of development, primary oocytes begin to form in the fetus?",
     "answers": [
-      {
-        "option": "3rd month",
-        "bool": true
-      },
-      {
-        "option": "4th month",
-        "bool": false
-      },
       {
         "option": "6th month",
         "bool": false
@@ -264,18 +283,30 @@
         "bool": false
       },
       {
+        "option": "4th month",
+        "bool": false
+      },
+      {
+        "option": "3rd month",
+        "bool": true
+      },
+      {
         "option": "10th month",
         "bool": false
       }
     ]
   },
   {
-    "id": 10,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 11,
+    "info": "2nd-year/reproductive/2016",
     "question": "A man brings his boy to the hospital as his external urethral orifice is on the ventral aspect of the penis. What is most likely the condition?",
     "answers": [
       {
-        "option": "Micropenis",
+        "option": "Hypospadias",
+        "bool": true
+      },
+      {
+        "option": "Epispadias",
         "bool": false
       },
       {
@@ -283,53 +314,49 @@
         "bool": false
       },
       {
-        "option": "Hypospadias",
-        "bool": true
+        "option": "Micropenis",
+        "bool": false
       },
       {
         "option": "Diphallia",
-        "bool": false
-      },
-      {
-        "option": "Epispadias",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which of the following is correct about secondary oocytes?",
-    "answers": [
-      {
-        "option": "Two polar bodies are formed along with the formation of a secondary oocyte",
-        "bool": false
-      },
-      {
-        "option": "They are formed after the completion of meiosis-2",
-        "bool": false
-      },
-      {
-        "option": "Oogonia divide to form secondary oocytes",
-        "bool": false
-      },
-      {
-        "option": "They have haploid number of chromosomes",
-        "bool": true
-      },
-      {
-        "option": "They are arrested in prophase-2 approximately 3 hours before ovulation",
         "bool": false
       }
     ]
   },
   {
     "id": 12,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which of the following is correct about secondary oocytes?",
+    "answers": [
+      {
+        "option": "They have haploid number of chromosomes",
+        "bool": true
+      },
+      {
+        "option": "They are formed after the completion of meiosis-2",
+        "bool": false
+      },
+      {
+        "option": "They are arrested in prophase-2 approximately 3 hours before ovulation",
+        "bool": false
+      },
+      {
+        "option": "Two polar bodies are formed along with the formation of a secondary oocyte",
+        "bool": false
+      },
+      {
+        "option": "Oogonia divide to form secondary oocytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a derivative of the Mullerian ducts?",
     "answers": [
       {
-        "option": "Ovarian ligament",
+        "option": "Glans clitoris",
         "bool": false
       },
       {
@@ -341,23 +368,27 @@
         "bool": false
       },
       {
-        "option": "Glans clitoris",
-        "bool": false
-      },
-      {
         "option": "Broad ligament of uterus",
         "bool": true
+      },
+      {
+        "option": "Ovarian ligament",
+        "bool": false
       }
     ]
   },
   {
-    "id": 13,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 14,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a derivative of the urogenital folds in females?",
     "answers": [
       {
-        "option": "Labia minora",
-        "bool": true
+        "option": "Hymen",
+        "bool": false
+      },
+      {
+        "option": "Labia majora",
+        "bool": false
       },
       {
         "option": "Uterine tube",
@@ -368,18 +399,14 @@
         "bool": false
       },
       {
-        "option": "Hymen",
-        "bool": false
-      },
-      {
-        "option": "Labia majora",
-        "bool": false
+        "option": "Labia minora",
+        "bool": true
       }
     ]
   },
   {
-    "id": 14,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 15,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following genes is involved in testicular differentiation?",
     "answers": [
       {
@@ -391,7 +418,7 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "GPX1",
         "bool": false
       },
       {
@@ -399,18 +426,22 @@
         "bool": true
       },
       {
-        "option": "GPX1",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 15,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 16,
+    "info": "2nd-year/reproductive/2016",
     "question": "Primordial germ cells first appear in which of the following?",
     "answers": [
       {
         "option": "Yolk sac",
+        "bool": false
+      },
+      {
+        "option": "Gonads",
         "bool": false
       },
       {
@@ -424,28 +455,16 @@
       {
         "option": "Hypoblast",
         "bool": false
-      },
-      {
-        "option": "Gonads",
-        "bool": false
       }
     ]
   },
   {
-    "id": 16,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 17,
+    "info": "2nd-year/reproductive/2016",
     "question": "What is the source of human chorionic gonadotropin hormone in a woman in whom fertilization has occurred two weeks before?",
     "answers": [
       {
-        "option": "Ovaries",
-        "bool": false
-      },
-      {
         "option": "Adrenal medulla",
-        "bool": false
-      },
-      {
-        "option": "Pituitary gland",
         "bool": false
       },
       {
@@ -455,25 +474,29 @@
       {
         "option": "Adrenal cortex",
         "bool": false
+      },
+      {
+        "option": "Pituitary gland",
+        "bool": false
+      },
+      {
+        "option": "Ovaries",
+        "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 18,
+    "info": "2nd-year/reproductive/2016",
     "question": "Human chorionic gonadotropin hormone uses which of the following second messengers?",
     "answers": [
       {
-        "option": "Inositol triphosphate",
-        "bool": false
+        "option": "Cyclic 3′5′-adenosine monophosphate (AMP)",
+        "bool": true
       },
       {
         "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "Cyclic 3\u20325\u2032-adenosine monophosphate (AMP)",
-        "bool": true
       },
       {
         "option": "Calcium",
@@ -482,24 +505,20 @@
       {
         "option": "Diacylglycerol",
         "bool": false
+      },
+      {
+        "option": "Inositol triphosphate",
+        "bool": false
       }
     ]
   },
   {
-    "id": 18,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 19,
+    "info": "2nd-year/reproductive/2016",
     "question": "A bodybuilder wants to quickly increase his body mass. Which of the following hormones should he use?",
     "answers": [
       {
-        "option": "Insulin",
-        "bool": false
-      },
-      {
-        "option": "Testosterone",
-        "bool": true
-      },
-      {
-        "option": "Cortisol",
+        "option": "Norepinephrine",
         "bool": false
       },
       {
@@ -507,22 +526,30 @@
         "bool": false
       },
       {
-        "option": "Norepinephrine",
+        "option": "Cortisol",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
+        "bool": true
+      },
+      {
+        "option": "Insulin",
         "bool": false
       }
     ]
   },
   {
-    "id": 19,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 20,
+    "info": "2nd-year/reproductive/2016",
     "question": "Females are relatively protected from cardiovascular diseases because of which of the following hormones?",
     "answers": [
       {
-        "option": "Luteinizing hormone (LH)",
+        "option": "Follicle-stimulating hormone (FSH)",
         "bool": false
       },
       {
-        "option": "Progesterone",
+        "option": "Luteinizing hormone (LH)",
         "bool": false
       },
       {
@@ -530,7 +557,7 @@
         "bool": true
       },
       {
-        "option": "Follicle-stimulating hormone (FSH)",
+        "option": "Progesterone",
         "bool": false
       },
       {
@@ -540,16 +567,12 @@
     ]
   },
   {
-    "id": 20,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 21,
+    "info": "2nd-year/reproductive/2016",
     "question": "At the height of lactation, approximately how much energy is drained by the human mother?",
     "answers": [
       {
-        "option": "900-950 kilocalories per litre",
-        "bool": false
-      },
-      {
-        "option": "800-950 kilocalories per litre",
+        "option": "150-250 kilocalories per litre",
         "bool": false
       },
       {
@@ -557,31 +580,31 @@
         "bool": false
       },
       {
-        "option": "150-250 kilocalories per litre",
+        "option": "800-950 kilocalories per litre",
         "bool": false
       },
       {
         "option": "650-750 kilocalories per litre",
         "bool": true
+      },
+      {
+        "option": "900-950 kilocalories per litre",
+        "bool": false
       }
     ]
   },
   {
-    "id": 21,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 22,
+    "info": "2nd-year/reproductive/2016",
     "question": "According to World Health Organization, exclusive breastfeeding should be done up to which month after birth?",
     "answers": [
       {
-        "option": "12 months",
+        "option": "9 months",
         "bool": false
       },
       {
         "option": "6 months",
         "bool": true
-      },
-      {
-        "option": "9 months",
-        "bool": false
       },
       {
         "option": "3 months",
@@ -590,14 +613,26 @@
       {
         "option": "4 months",
         "bool": false
+      },
+      {
+        "option": "12 months",
+        "bool": false
       }
     ]
   },
   {
-    "id": 22,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 23,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following secretes Mullerian-inhibiting substance (MIS)?",
     "answers": [
+      {
+        "option": "Sertoli cells",
+        "bool": true
+      },
+      {
+        "option": "Granulosa cells",
+        "bool": false
+      },
       {
         "option": "Seminiferous tubules",
         "bool": false
@@ -609,24 +644,24 @@
       {
         "option": "Follicular cells",
         "bool": false
-      },
-      {
-        "option": "Granulosa cells",
-        "bool": false
-      },
-      {
-        "option": "Sertoli cells",
-        "bool": true
       }
     ]
   },
   {
-    "id": 23,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 24,
+    "info": "2nd-year/reproductive/2016",
     "question": "High concentration of which of the following substances is found in seminiferous tubules?",
     "answers": [
       {
+        "option": "Calcium",
+        "bool": false
+      },
+      {
         "option": "Chloride",
+        "bool": false
+      },
+      {
+        "option": "Hydrogen",
         "bool": false
       },
       {
@@ -634,26 +669,18 @@
         "bool": true
       },
       {
-        "option": "Calcium",
-        "bool": false
-      },
-      {
         "option": "Sodium",
-        "bool": false
-      },
-      {
-        "option": "Hydrogen",
         "bool": false
       }
     ]
   },
   {
-    "id": 24,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 25,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is the most common contraceptive method used in Pakistan?",
     "answers": [
       {
-        "option": "Intrauterine device (IUD)",
+        "option": "Contraceptive ring",
         "bool": false
       },
       {
@@ -665,7 +692,7 @@
         "bool": true
       },
       {
-        "option": "Contraceptive ring",
+        "option": "Intrauterine device (IUD)",
         "bool": false
       },
       {
@@ -675,16 +702,16 @@
     ]
   },
   {
-    "id": 25,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 26,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following does not produce progesterone?",
     "answers": [
       {
-        "option": "Testes",
+        "option": "Adrenal cortex",
         "bool": false
       },
       {
-        "option": "Adrenal cortex",
+        "option": "Testes",
         "bool": false
       },
       {
@@ -702,17 +729,21 @@
     ]
   },
   {
-    "id": 26,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 27,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following hormones is used to detect pregnancy?",
     "answers": [
+      {
+        "option": "Human chorionic gonadotropin (hCG)",
+        "bool": true
+      },
       {
         "option": "Insulin",
         "bool": false
       },
       {
-        "option": "Human chorionic gonadotropin (hCG)",
-        "bool": true
+        "option": "Luteinizing hormone (LH)",
+        "bool": false
       },
       {
         "option": "Estrogen",
@@ -721,24 +752,24 @@
       {
         "option": "Progesterone",
         "bool": false
-      },
-      {
-        "option": "Luteinizing hormone (LH)",
-        "bool": false
       }
     ]
   },
   {
-    "id": 27,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 28,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following cells are the most immature cells formed during spermatogenesis?",
     "answers": [
       {
-        "option": "Sperms",
+        "option": "Spermatids",
         "bool": false
       },
       {
-        "option": "Spermatids",
+        "option": "Spermatogonia",
+        "bool": true
+      },
+      {
+        "option": "Secondary spermatocytes",
         "bool": false
       },
       {
@@ -746,47 +777,47 @@
         "bool": false
       },
       {
-        "option": "Secondary spermatocytes",
-        "bool": false
-      },
-      {
-        "option": "Spermatogonia",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which of the following types of epithelium is present in epididymis?",
-    "answers": [
-      {
-        "option": "Simple cuboidal epithelium",
-        "bool": false
-      },
-      {
-        "option": "Pseudostratified columnar epithelium",
-        "bool": true
-      },
-      {
-        "option": "Simple columnar epithelium",
-        "bool": false
-      },
-      {
-        "option": "Transitional epithelium",
-        "bool": false
-      },
-      {
-        "option": "Stratified squamous epithelium",
+        "option": "Sperms",
         "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which of the following types of epithelium is present in epididymis?",
+    "answers": [
+      {
+        "option": "Pseudostratified columnar epithelium",
+        "bool": true
+      },
+      {
+        "option": "Stratified squamous epithelium",
+        "bool": false
+      },
+      {
+        "option": "Simple columnar epithelium",
+        "bool": false
+      },
+      {
+        "option": "Simple cuboidal epithelium",
+        "bool": false
+      },
+      {
+        "option": "Transitional epithelium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "2nd-year/reproductive/2016",
     "question": "What marks the start and end of the luteal phase?",
     "answers": [
+      {
+        "option": "The first day of ovulation till the last day of the next menstrual phase",
+        "bool": false
+      },
       {
         "option": "The day after the end of ovulation till the last day before the next menstrual period",
         "bool": true
@@ -796,30 +827,22 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "The first day of the menstrual phase till the first day of follicular phase",
         "bool": false
       },
       {
-        "option": "The first day of ovulation till the last day of the next menstrual phase",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 30,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 31,
+    "info": "2nd-year/reproductive/2016",
     "question": "Vaginal epithelium undergoes proliferation under the influence of which of the following?",
     "answers": [
       {
-        "option": "Estrogen",
-        "bool": true
-      },
-      {
-        "option": "None of these",
+        "option": "Follicle-stimulating hormone (FSH)",
         "bool": false
       },
       {
@@ -827,20 +850,55 @@
         "bool": false
       },
       {
-        "option": "Follicle-stimulating hormone (FSH)",
+        "option": "Luteinizing hormone (LH)",
         "bool": false
       },
       {
-        "option": "Luteinizing hormone (LH)",
+        "option": "Estrogen",
+        "bool": true
+      },
+      {
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 31,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 32,
+    "info": "2nd-year/reproductive/2016",
+    "question": "What is the effect on the levels of luteinizing hormone (LH) and follicle-stimulating hormone (FSH) 16 hours before ovulation?",
+    "answers": [
+      {
+        "option": "None of these show peak",
+        "bool": false
+      },
+      {
+        "option": "Follicle-stimulating hormone (FSH) levels do not change and luteinizing hormone (LH) shows peak",
+        "bool": false
+      },
+      {
+        "option": "Follicle-stimulating hormone (FSH) levels show peak only and luteinizing hormone (LH) shows trough",
+        "bool": false
+      },
+      {
+        "option": "Levels of both peak",
+        "bool": true
+      },
+      {
+        "option": "Follicle-stimulating hormone (FSH) levels decrease and luteinizing hormone (LH) shows peak",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "2nd-year/reproductive/2016",
     "question": "Gubernaculum gives rise to which of the following structures in females?",
     "answers": [
+      {
+        "option": "Labia minora",
+        "bool": false
+      },
       {
         "option": "Uterine tubes",
         "bool": false
@@ -850,38 +908,34 @@
         "bool": false
       },
       {
-        "option": "Round ligament of the uterus",
-        "bool": true
-      },
-      {
-        "option": "Labia minora",
-        "bool": false
-      },
-      {
         "option": "Uterus",
         "bool": false
+      },
+      {
+        "option": "Round ligament of the uterus",
+        "bool": true
       }
     ]
   },
   {
-    "id": 32,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 34,
+    "info": "2nd-year/reproductive/2016",
     "question": "Ovulation occurs in response to which of the following hormones?",
     "answers": [
-      {
-        "option": "Follicle-stimulating hormone (FSH)",
-        "bool": false
-      },
       {
         "option": "Luteinizing hormone (LH)",
         "bool": true
       },
       {
-        "option": "Estrogen",
+        "option": "Follicle-stimulating hormone (FSH)",
         "bool": false
       },
       {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Estrogen",
         "bool": false
       },
       {
@@ -891,47 +945,20 @@
     ]
   },
   {
-    "id": 33,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "What is the effect on the levels of luteinizing hormone (LH) and follicle-stimulating hormone (FSH) 16 hours before ovulation?",
-    "answers": [
-      {
-        "option": "Levels of both peak",
-        "bool": true
-      },
-      {
-        "option": "Follicle-stimulating hormone (FSH) levels do not change and luteinizing hormone (LH) shows peak",
-        "bool": false
-      },
-      {
-        "option": "Follicle-stimulating hormone (FSH) levels decrease and luteinizing hormone (LH) shows peak",
-        "bool": false
-      },
-      {
-        "option": "Follicle-stimulating hormone (FSH) levels show peak only and luteinizing hormone (LH) shows trough",
-        "bool": false
-      },
-      {
-        "option": "None of these show peak",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 35,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following hormones are required for spermatogenesis?",
     "answers": [
       {
-        "option": "Luteinizing hormone (LH)",
-        "bool": false
-      },
-      {
-        "option": "Progesterone and testosterone",
-        "bool": false
-      },
-      {
         "option": "Testosterone",
+        "bool": false
+      },
+      {
+        "option": "Follicle-stimulating hormone (FSH)",
+        "bool": false
+      },
+      {
+        "option": "Luteinizing hormone (LH)",
         "bool": false
       },
       {
@@ -939,14 +966,14 @@
         "bool": true
       },
       {
-        "option": "Follicle-stimulating hormone (FSH)",
+        "option": "Progesterone and testosterone",
         "bool": false
       }
     ]
   },
   {
-    "id": 35,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 36,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following parts of the ductal system of the male reproductive system has a pseudostratified epithelial lining with some cells having sparse stereocilia?",
     "answers": [
       {
@@ -954,11 +981,11 @@
         "bool": false
       },
       {
-        "option": "Ducts opening in prostate gland",
-        "bool": false
+        "option": "Ductus deferens",
+        "bool": true
       },
       {
-        "option": "Epididymis",
+        "option": "Ducts opening in prostate gland",
         "bool": false
       },
       {
@@ -966,14 +993,14 @@
         "bool": false
       },
       {
-        "option": "Ductus deferens",
-        "bool": true
+        "option": "Epididymis",
+        "bool": false
       }
     ]
   },
   {
-    "id": 36,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 37,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of these cells are responsible for the production of testosterone?",
     "answers": [
       {
@@ -981,11 +1008,11 @@
         "bool": true
       },
       {
-        "option": "Anterior pituitary cells",
+        "option": "Hypothalamic cells",
         "bool": false
       },
       {
-        "option": "Hypothalamic cells",
+        "option": "Prostate gland cells",
         "bool": false
       },
       {
@@ -993,43 +1020,28 @@
         "bool": false
       },
       {
-        "option": "Prostate gland cells",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which is the most common site of implantation of the fetus in an ectopic pregnancy?",
-    "answers": [
-      {
-        "option": "Uterus",
-        "bool": false
-      },
-      {
-        "option": "Isthmus",
-        "bool": false
-      },
-      {
-        "option": "Infundibulum",
-        "bool": false
-      },
-      {
-        "option": "Ampulla",
-        "bool": true
-      },
-      {
-        "option": "Cervix",
+        "option": "Anterior pituitary cells",
         "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Pelvic inflammatory disease (PID) is commonly caused by which bacteria?",
     "answers": [
+      {
+        "option": "Chlamydia trachomatis",
+        "bool": true
+      },
+      {
+        "option": "Gardnerella vaginalis",
+        "bool": false
+      },
+      {
+        "option": "Haemophilus ducreyi",
+        "bool": false
+      },
       {
         "option": "Treponema pallidum",
         "bool": false
@@ -1037,26 +1049,45 @@
       {
         "option": "Yersinia pestis",
         "bool": false
-      },
-      {
-        "option": "Gardnerella vaginalis",
-        "bool": false
-      },
-      {
-        "option": "Chlamydia trachomatis",
-        "bool": true
-      },
-      {
-        "option": "Haemophilus ducreyi",
-        "bool": false
       }
     ]
   },
   {
     "id": 39,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which is the most common site of implantation of the fetus in an ectopic pregnancy?",
+    "answers": [
+      {
+        "option": "Infundibulum",
+        "bool": false
+      },
+      {
+        "option": "Cervix",
+        "bool": false
+      },
+      {
+        "option": "Isthmus",
+        "bool": false
+      },
+      {
+        "option": "Uterus",
+        "bool": false
+      },
+      {
+        "option": "Ampulla",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "2nd-year/reproductive/2016",
     "question": "Hemoglobin and hematocrit levels are at their lowest levels at which stage of pregnancy?",
     "answers": [
+      {
+        "option": "Ninth month",
+        "bool": false
+      },
       {
         "option": "Fifth month",
         "bool": false
@@ -1066,34 +1097,30 @@
         "bool": true
       },
       {
-        "option": "Second month",
-        "bool": false
-      },
-      {
         "option": "First trimester",
         "bool": false
       },
       {
-        "option": "Ninth month",
+        "option": "Second month",
         "bool": false
       }
     ]
   },
   {
-    "id": 40,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 41,
+    "info": "2nd-year/reproductive/2016",
     "question": "Androstenedione contains how many carbons?",
     "answers": [
+      {
+        "option": "16",
+        "bool": false
+      },
       {
         "option": "14",
         "bool": false
       },
       {
-        "option": "19",
-        "bool": true
-      },
-      {
-        "option": "16",
+        "option": "20",
         "bool": false
       },
       {
@@ -1101,28 +1128,16 @@
         "bool": false
       },
       {
-        "option": "20",
-        "bool": false
+        "option": "19",
+        "bool": true
       }
     ]
   },
   {
-    "id": 41,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 42,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following structures is present in superficial perineal pouch of the males?",
     "answers": [
-      {
-        "option": "Prostate",
-        "bool": false
-      },
-      {
-        "option": "Ischiocavernous muscle",
-        "bool": true
-      },
-      {
-        "option": "Membranous urethra",
-        "bool": false
-      },
       {
         "option": "Seminal vesicles",
         "bool": false
@@ -1130,97 +1145,28 @@
       {
         "option": "Neck of bladder",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which of the following is/are involved in the secondary support of the uterus?",
-    "answers": [
+      },
       {
-        "option": "Broad ligament and round ligament of uterus",
+        "option": "Ischiocavernous muscle",
         "bool": true
       },
       {
-        "option": "Urogenital diaphragm",
+        "option": "Prostate",
         "bool": false
       },
       {
-        "option": "Pelvic diaphragm",
-        "bool": false
-      },
-      {
-        "option": "Perineal body",
-        "bool": false
-      },
-      {
-        "option": "Broad ligament of uterus and perineal body",
+        "option": "Membranous urethra",
         "bool": false
       }
     ]
   },
   {
     "id": 43,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which of the following is the most common type of female pelvis?",
-    "answers": [
-      {
-        "option": "Gynecoid",
-        "bool": true
-      },
-      {
-        "option": "Android",
-        "bool": false
-      },
-      {
-        "option": "Platypelloid",
-        "bool": false
-      },
-      {
-        "option": "All are equally common",
-        "bool": false
-      },
-      {
-        "option": "Anthropoid",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Cystic ovaries are observed on examination. What type of epithelium surrounds the follicles?",
-    "answers": [
-      {
-        "option": "Basal cells",
-        "bool": false
-      },
-      {
-        "option": "Follicular cells",
-        "bool": false
-      },
-      {
-        "option": "Theca cells",
-        "bool": true
-      },
-      {
-        "option": "Glomerulosa cells",
-        "bool": false
-      },
-      {
-        "option": "Granulosa cells",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "What is the major form of estrogen produced from menarche till menopause?",
     "answers": [
       {
-        "option": "Androstenedione",
+        "option": "Esterol",
         "bool": false
       },
       {
@@ -1228,28 +1174,24 @@
         "bool": false
       },
       {
-        "option": "Esterol",
+        "option": "Beta-estradiol",
+        "bool": true
+      },
+      {
+        "option": "Androstenedione",
         "bool": false
       },
       {
         "option": "Estrone",
         "bool": false
-      },
-      {
-        "option": "Beta-estradiol",
-        "bool": true
       }
     ]
   },
   {
-    "id": 46,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 44,
+    "info": "2nd-year/reproductive/2016",
     "question": "The prostate gland falls into which of the following types of glands?",
     "answers": [
-      {
-        "option": "Simple tubular",
-        "bool": false
-      },
       {
         "option": "Simple alveolar",
         "bool": false
@@ -1259,30 +1201,26 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "Simple tubular",
         "bool": false
       },
       {
         "option": "Compound tubular",
         "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
   {
-    "id": 47,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 45,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is involved in the conversion of androstenedione to testosterone?",
     "answers": [
       {
-        "option": "17\u03b2-hydroxysteroid dehydrogenase",
-        "bool": true
-      },
-      {
         "option": "17-hydroxylase",
-        "bool": false
-      },
-      {
-        "option": "21-hydroxylase",
         "bool": false
       },
       {
@@ -1290,50 +1228,116 @@
         "bool": false
       },
       {
-        "option": "11\u03b2-hydroxylase",
+        "option": "17β-hydroxysteroid dehydrogenase",
+        "bool": true
+      },
+      {
+        "option": "11β-hydroxylase",
+        "bool": false
+      },
+      {
+        "option": "21-hydroxylase",
         "bool": false
       }
     ]
   },
   {
-    "id": 48,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 46,
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which of the following is/are involved in the secondary support of the uterus?",
+    "answers": [
+      {
+        "option": "Urogenital diaphragm",
+        "bool": false
+      },
+      {
+        "option": "Perineal body",
+        "bool": false
+      },
+      {
+        "option": "Broad ligament and round ligament of uterus",
+        "bool": true
+      },
+      {
+        "option": "Pelvic diaphragm",
+        "bool": false
+      },
+      {
+        "option": "Broad ligament of uterus and perineal body",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is one of the common causes of pelvic inflammatory disease (PID)?",
     "answers": [
       {
-        "option": "Treponema pallidum",
+        "option": "Gardnerella vaginalis",
         "bool": false
+      },
+      {
+        "option": "Neisseria gonorrhoeae",
+        "bool": true
       },
       {
         "option": "Haemophilus ducreyi",
         "bool": false
       },
       {
-        "option": "Gardnerella vaginalis",
+        "option": "Treponema pallidum",
         "bool": false
       },
       {
         "option": "Chlamydia psittaci",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which of the following is the most common type of female pelvis?",
+    "answers": [
+      {
+        "option": "Platypelloid",
+        "bool": false
       },
       {
-        "option": "Neisseria gonorrhoeae",
+        "option": "Anthropoid",
+        "bool": false
+      },
+      {
+        "option": "Gynecoid",
         "bool": true
+      },
+      {
+        "option": "All are equally common",
+        "bool": false
+      },
+      {
+        "option": "Android",
+        "bool": false
       }
     ]
   },
   {
     "id": 49,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following mentions the types of female pelvis correctly?",
     "answers": [
       {
-        "option": "Gynecoid, android, anthropoid, and platypelloid",
-        "bool": true
-      },
-      {
         "option": "Gynecoid, anthropoid, and platypelloid",
         "bool": false
+      },
+      {
+        "option": "Gynecoid and android",
+        "bool": false
+      },
+      {
+        "option": "Gynecoid, android, anthropoid, and platypelloid",
+        "bool": true
       },
       {
         "option": "Anthropoid and platypelloid",
@@ -1342,29 +1346,25 @@
       {
         "option": "Android, anthropoid, and platypelloid",
         "bool": false
-      },
-      {
-        "option": "Gynecoid and android",
-        "bool": false
       }
     ]
   },
   {
     "id": 50,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following structures help in keeping the ovary suspended?",
     "answers": [
       {
-        "option": "Mesovarium",
-        "bool": true
+        "option": "Cardinal ligament",
+        "bool": false
       },
       {
         "option": "Uterosacral ligaments",
         "bool": false
       },
       {
-        "option": "Cardinal ligament",
-        "bool": false
+        "option": "Mesovarium",
+        "bool": true
       },
       {
         "option": "None of these",
@@ -1378,11 +1378,11 @@
   },
   {
     "id": 51,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "The prostate is separated posteriorly from the rectum by which of the following?",
     "answers": [
       {
-        "option": "Parietal pelvic fascia",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1390,34 +1390,34 @@
         "bool": true
       },
       {
+        "option": "Rectovaginal fascia",
+        "bool": false
+      },
+      {
         "option": "Superficial fascia of urogenital diaphragm",
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Rectovaginal fascia",
+        "option": "Parietal pelvic fascia",
         "bool": false
       }
     ]
   },
   {
     "id": 52,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Progesterone levels lower than normal may indicate which of the following?",
     "answers": [
-      {
-        "option": "Pregnancy",
-        "bool": false
-      },
       {
         "option": "Congenital adrenal hyperplasia",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Pregnancy",
+        "bool": false
+      },
+      {
+        "option": "Menarche",
         "bool": false
       },
       {
@@ -1425,22 +1425,22 @@
         "bool": true
       },
       {
-        "option": "Menarche",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
     "id": 53,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following forms the lateral wall of the ischioanal fossa?",
     "answers": [
       {
-        "option": "Skin",
+        "option": "Colle's fascia",
         "bool": false
       },
       {
-        "option": "Sphincter ani externus",
+        "option": "Skin",
         "bool": false
       },
       {
@@ -1448,7 +1448,7 @@
         "bool": true
       },
       {
-        "option": "Colle's fascia",
+        "option": "Sphincter ani externus",
         "bool": false
       },
       {
@@ -1459,13 +1459,9 @@
   },
   {
     "id": 54,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is one of the muscles of the pelvic diaphragm and is involved in the formation of the anorectal triangle?",
     "answers": [
-      {
-        "option": "Puborectalis",
-        "bool": true
-      },
       {
         "option": "Piriformis",
         "bool": false
@@ -1473,6 +1469,10 @@
       {
         "option": "Iliococcygeus",
         "bool": false
+      },
+      {
+        "option": "Puborectalis",
+        "bool": true
       },
       {
         "option": "Obturator externus",
@@ -1486,19 +1486,15 @@
   },
   {
     "id": 55,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is seen with benign prostatic hyperplasia (BPH)?",
     "answers": [
-      {
-        "option": "Urethral obstruction",
-        "bool": true
-      },
       {
         "option": "Sexual dysfunction",
         "bool": false
       },
       {
-        "option": "Reine crystals on histology",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1506,30 +1502,34 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Reine crystals on histology",
         "bool": false
+      },
+      {
+        "option": "Urethral obstruction",
+        "bool": true
       }
     ]
   },
   {
     "id": 56,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is involved in the development of benign prostatic hyperplasia (BPH)?",
     "answers": [
-      {
-        "option": "Dihydrotestosterone (DHT)",
-        "bool": true
-      },
-      {
-        "option": "Testosterone",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
       },
       {
+        "option": "Dihydrotestosterone (DHT)",
+        "bool": true
+      },
+      {
         "option": "Progesterone",
+        "bool": false
+      },
+      {
+        "option": "Testosterone",
         "bool": false
       },
       {
@@ -1540,7 +1540,7 @@
   },
   {
     "id": 57,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is used for the treatment of benign prostatic hyperplasia?",
     "answers": [
       {
@@ -1552,11 +1552,11 @@
         "bool": false
       },
       {
-        "option": "Alpha agonists",
+        "option": "Beta blockers",
         "bool": false
       },
       {
-        "option": "Beta blockers",
+        "option": "Alpha agonists",
         "bool": false
       },
       {
@@ -1567,11 +1567,19 @@
   },
   {
     "id": 58,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Benign prostatic hyperplasia usually occurs in which zone of the prostate gland?",
     "answers": [
       {
+        "option": "Central zone",
+        "bool": false
+      },
+      {
         "option": "It can occur in all zones of prostate",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1579,55 +1587,43 @@
         "bool": false
       },
       {
-        "option": "Central zone",
-        "bool": false
-      },
-      {
         "option": "Transitional zone",
         "bool": true
-      },
-      {
-        "option": "None of these",
-        "bool": false
       }
     ]
   },
   {
     "id": 59,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following statements about the uterus is correct?",
     "answers": [
-      {
-        "option": "Myometrium is the thickest layer",
-        "bool": true
-      },
       {
         "option": "Decidua basalis also sloughs off during menstruation",
         "bool": false
       },
       {
-        "option": "Perimetrium is the innermost layer",
+        "option": "Uterine body and cervix both undergo cyclic changes",
         "bool": false
+      },
+      {
+        "option": "Myometrium is the thickest layer",
+        "bool": true
       },
       {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Uterine body and cervix both undergo cyclic changes",
+        "option": "Perimetrium is the innermost layer",
         "bool": false
       }
     ]
   },
   {
     "id": 60,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "The levels of which of the following should be regularly monitored in benign prostatic hyperplasia?",
     "answers": [
-      {
-        "option": "Testosterone",
-        "bool": false
-      },
       {
         "option": "PSA (prostate-specific antigen)",
         "bool": true
@@ -1637,18 +1633,22 @@
         "bool": false
       },
       {
+        "option": "Progesterone",
+        "bool": false
+      },
+      {
         "option": "Pregnenolone",
         "bool": false
       },
       {
-        "option": "Progesterone",
+        "option": "Testosterone",
         "bool": false
       }
     ]
   },
   {
     "id": 61,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Aromatase is present in which of the following?",
     "answers": [
       {
@@ -1656,34 +1656,38 @@
         "bool": true
       },
       {
-        "option": "Prostate gland",
-        "bool": false
-      },
-      {
         "option": "Seminiferous tubules",
         "bool": false
       },
       {
-        "option": "Cells of Leydig",
+        "option": "Prostate gland",
         "bool": false
       },
       {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Cells of Leydig",
         "bool": false
       }
     ]
   },
   {
     "id": 62,
-    "info": "2nd-year/reproductive-1/2016",
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following can be an adverse effect of oral contraceptives?",
     "answers": [
       {
-        "option": "Venous thromboembolism",
-        "bool": true
+        "option": "Ovarian atrophy",
+        "bool": false
       },
       {
         "option": "Endothelial dysfunction",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1691,24 +1695,43 @@
         "bool": false
       },
       {
-        "option": "Ovarian atrophy",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
+        "option": "Venous thromboembolism",
+        "bool": true
       }
     ]
   },
   {
     "id": 63,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "During ligation of the uterine artery, which of the following structures have the chance of being ligated along with it?",
+    "info": "2nd-year/reproductive/2016",
+    "question": "Cystic ovaries are observed on examination. What type of epithelium surrounds the follicles?",
     "answers": [
       {
-        "option": "Inferior vesical artery",
+        "option": "Follicular cells",
         "bool": false
       },
+      {
+        "option": "Theca cells",
+        "bool": true
+      },
+      {
+        "option": "Granulosa cells",
+        "bool": false
+      },
+      {
+        "option": "Glomerulosa cells",
+        "bool": false
+      },
+      {
+        "option": "Basal cells",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "2nd-year/reproductive/2016",
+    "question": "During ligation of the uterine artery, which of the following structures have the chance of being ligated along with it?",
+    "answers": [
       {
         "option": "Ureter",
         "bool": true
@@ -1718,26 +1741,30 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Inferior vesical artery",
         "bool": false
       },
       {
         "option": "Ilioinguinal nerve",
         "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
   {
-    "id": 64,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 65,
+    "info": "2nd-year/reproductive/2016",
     "question": "Menarche occurs at which age?",
     "answers": [
       {
-        "option": "11-16 years",
-        "bool": true
+        "option": "18-19 years",
+        "bool": false
       },
       {
-        "option": "18-19 years",
+        "option": "8-9 years",
         "bool": false
       },
       {
@@ -1745,32 +1772,20 @@
         "bool": false
       },
       {
-        "option": "16-17 years",
-        "bool": false
+        "option": "11-16 years",
+        "bool": true
       },
       {
-        "option": "8-9 years",
+        "option": "16-17 years",
         "bool": false
       }
     ]
   },
   {
-    "id": 65,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 66,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a major constituent of breast milk?",
     "answers": [
-      {
-        "option": "Casein",
-        "bool": false
-      },
-      {
-        "option": "Lactose",
-        "bool": true
-      },
-      {
-        "option": "Lactalbumin",
-        "bool": false
-      },
       {
         "option": "Ash",
         "bool": false
@@ -1778,20 +1793,32 @@
       {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Casein",
+        "bool": false
+      },
+      {
+        "option": "Lactalbumin",
+        "bool": false
+      },
+      {
+        "option": "Lactose",
+        "bool": true
       }
     ]
   },
   {
-    "id": 66,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 67,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is the length of the epididymis?",
     "answers": [
       {
-        "option": "5.5 cm",
-        "bool": false
+        "option": "6 m",
+        "bool": true
       },
       {
-        "option": "5 m",
+        "option": "5.5 cm",
         "bool": false
       },
       {
@@ -1799,8 +1826,8 @@
         "bool": false
       },
       {
-        "option": "6 m",
-        "bool": true
+        "option": "5 m",
+        "bool": false
       },
       {
         "option": "6 mm",
@@ -1809,17 +1836,17 @@
     ]
   },
   {
-    "id": 67,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 68,
+    "info": "2nd-year/reproductive/2016",
     "question": "Finasteride is an inhibitor of which of the following?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "11-hydroxylase",
         "bool": false
       },
       {
-        "option": "11-hydroxylase",
-        "bool": false
+        "option": "5 alpha-reductase",
+        "bool": true
       },
       {
         "option": "17-Hydroxylase",
@@ -1830,18 +1857,22 @@
         "bool": false
       },
       {
-        "option": "5 alpha-reductase",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
   {
-    "id": 68,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 69,
+    "info": "2nd-year/reproductive/2016",
     "question": "What is the most abundant protein in cow's milk?",
     "answers": [
       {
         "option": "Whey",
+        "bool": false
+      },
+      {
+        "option": "Fibrinogens",
         "bool": false
       },
       {
@@ -1853,32 +1884,16 @@
         "bool": true
       },
       {
-        "option": "Fibrinogens",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 69,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 70,
+    "info": "2nd-year/reproductive/2016",
     "question": "Prolactin inhibiting hormone is secreted by which of the following?",
     "answers": [
-      {
-        "option": "Posterior pituitary gland",
-        "bool": false
-      },
-      {
-        "option": "Mammary gland",
-        "bool": false
-      },
-      {
-        "option": "Anterior pituitary gland",
-        "bool": false
-      },
       {
         "option": "Hypothalamus",
         "bool": true
@@ -1886,12 +1901,24 @@
       {
         "option": "Pineal gland",
         "bool": false
+      },
+      {
+        "option": "Mammary gland",
+        "bool": false
+      },
+      {
+        "option": "Posterior pituitary gland",
+        "bool": false
+      },
+      {
+        "option": "Anterior pituitary gland",
+        "bool": false
       }
     ]
   },
   {
-    "id": 70,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 71,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is the most abundant protein in breast milk?",
     "answers": [
       {
@@ -1917,18 +1944,10 @@
     ]
   },
   {
-    "id": 71,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 72,
+    "info": "2nd-year/reproductive/2016",
     "question": "What is the percentage of whey in breast milk?",
     "answers": [
-      {
-        "option": "<80%",
-        "bool": true
-      },
-      {
-        "option": "<70%",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
@@ -1938,14 +1957,22 @@
         "bool": false
       },
       {
+        "option": "<80%",
+        "bool": true
+      },
+      {
         "option": ">80%",
+        "bool": false
+      },
+      {
+        "option": "<70%",
         "bool": false
       }
     ]
   },
   {
-    "id": 72,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 73,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following substances is usually not present in colostrum?",
     "answers": [
       {
@@ -1971,18 +1998,10 @@
     ]
   },
   {
-    "id": 73,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 74,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following correctly mentions the prolactin levels in non-pregnant and pregnant females respectively?",
     "answers": [
-      {
-        "option": "About 30 ng/ml in non-pregnant females and 60-210 ng/ml in pregnant females",
-        "bool": false
-      },
-      {
-        "option": "About 13 ng/ml in non-pregnant females and 6-210 ng/ml in pregnant females",
-        "bool": true
-      },
       {
         "option": "About 25 ng/ml in non-pregnant females and 200-400 ng/ml in pregnant females",
         "bool": false
@@ -1994,24 +2013,28 @@
       {
         "option": "About 50 ng/ml in non-pregnant females and 6-110 ng/ml in pregnant females",
         "bool": false
+      },
+      {
+        "option": "About 13 ng/ml in non-pregnant females and 6-210 ng/ml in pregnant females",
+        "bool": true
+      },
+      {
+        "option": "About 30 ng/ml in non-pregnant females and 60-210 ng/ml in pregnant females",
+        "bool": false
       }
     ]
   },
   {
-    "id": 74,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 75,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a protein and is present in low concentrations in breast milk?",
     "answers": [
       {
-        "option": "Casein",
-        "bool": true
-      },
-      {
-        "option": "None of these",
+        "option": "Whey",
         "bool": false
       },
       {
-        "option": "Whey",
+        "option": "Lactose",
         "bool": false
       },
       {
@@ -2019,16 +2042,24 @@
         "bool": false
       },
       {
-        "option": "Lactose",
+        "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Casein",
+        "bool": true
       }
     ]
   },
   {
-    "id": 75,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 76,
+    "info": "2nd-year/reproductive/2016",
     "question": "Alveolar cells of the breast begin to form colostrum during which week of pregnancy?",
     "answers": [
+      {
+        "option": "35th-36th week",
+        "bool": false
+      },
       {
         "option": "None of these",
         "bool": false
@@ -2038,36 +2069,20 @@
         "bool": true
       },
       {
-        "option": "25th-30th week",
-        "bool": false
-      },
-      {
         "option": "19th-20th week",
         "bool": false
       },
       {
-        "option": "35th-36th week",
+        "option": "25th-30th week",
         "bool": false
       }
     ]
   },
   {
-    "id": 76,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 77,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following hormones are involved in the luteal phase?",
     "answers": [
-      {
-        "option": "Pregnenolone and luteinizing hormone",
-        "bool": false
-      },
-      {
-        "option": "Luteinizing hormone only",
-        "bool": false
-      },
-      {
-        "option": "Progesterone and estrogen",
-        "bool": true
-      },
       {
         "option": "Only estrogen",
         "bool": false
@@ -2075,12 +2090,24 @@
       {
         "option": "Only progesterone",
         "bool": false
+      },
+      {
+        "option": "Luteinizing hormone only",
+        "bool": false
+      },
+      {
+        "option": "Pregnenolone and luteinizing hormone",
+        "bool": false
+      },
+      {
+        "option": "Progesterone and estrogen",
+        "bool": true
       }
     ]
   },
   {
-    "id": 77,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 78,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is not a content of ischioanal fossa?",
     "answers": [
       {
@@ -2088,35 +2115,31 @@
         "bool": false
       },
       {
-        "option": "Inferior rectal artery",
+        "option": "Inferior anal nerve",
         "bool": false
       },
       {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Inferior rectal artery",
         "bool": false
       },
       {
         "option": "Superior rectal nerve",
         "bool": true
-      },
-      {
-        "option": "Inferior anal nerve",
-        "bool": false
       }
     ]
   },
   {
-    "id": 78,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 79,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is a part of the urogenital diaphragm?",
     "answers": [
       {
         "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "Deep transverse perineal muscle",
-        "bool": true
       },
       {
         "option": "Superficial perineal fascia",
@@ -2129,20 +2152,28 @@
       {
         "option": "Superficial transverse perineal muscle",
         "bool": false
+      },
+      {
+        "option": "Deep transverse perineal muscle",
+        "bool": true
       }
     ]
   },
   {
-    "id": 79,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 80,
+    "info": "2nd-year/reproductive/2016",
     "question": "What should be the treatment for amenorrhea caused by estrogen deficiency?",
     "answers": [
       {
-        "option": "Metformin",
+        "option": "Hormone therapy",
+        "bool": true
+      },
+      {
+        "option": "Dopamine agonist drugs",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Metformin",
         "bool": false
       },
       {
@@ -2150,22 +2181,18 @@
         "bool": false
       },
       {
-        "option": "Dopamine agonist drugs",
+        "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "Hormone therapy",
-        "bool": true
       }
     ]
   },
   {
-    "id": 80,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 81,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following muscles inserts on the perineal body?",
     "answers": [
       {
-        "option": "Obturator internus",
+        "option": "Ischiocavernosus muscles",
         "bool": false
       },
       {
@@ -2173,30 +2200,30 @@
         "bool": true
       },
       {
-        "option": "Coccygeus",
-        "bool": false
-      },
-      {
         "option": "None of these",
         "bool": false
       },
       {
-        "option": "Ischiocavernosus muscles",
+        "option": "Coccygeus",
+        "bool": false
+      },
+      {
+        "option": "Obturator internus",
         "bool": false
       }
     ]
   },
   {
-    "id": 81,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 82,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following statements is wrong about the Sertoli cells?",
     "answers": [
       {
-        "option": "They form tight junctions and connective adhesion molecules with neighboring Sertoli cells",
+        "option": "They provide nourishment to primary spermatogonia",
         "bool": false
       },
       {
-        "option": "They provide nourishment to primary spermatogonia",
+        "option": "They are not present in the interstitial space",
         "bool": false
       },
       {
@@ -2208,14 +2235,14 @@
         "bool": true
       },
       {
-        "option": "They are not present in the interstitial space",
+        "option": "They form tight junctions and connective adhesion molecules with neighboring Sertoli cells",
         "bool": false
       }
     ]
   },
   {
-    "id": 82,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 83,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following innervates the levator ani muscle?",
     "answers": [
       {
@@ -2223,36 +2250,28 @@
         "bool": true
       },
       {
-        "option": "Hypogastric nerve",
-        "bool": false
-      },
-      {
         "option": "Perineal branch of pudendal nerve and anterior rami of S3 and S4",
         "bool": false
       },
       {
-        "option": "Superior gluteal nerve",
+        "option": "Hypogastric nerve",
         "bool": false
       },
       {
         "option": "None of these",
         "bool": false
+      },
+      {
+        "option": "Superior gluteal nerve",
+        "bool": false
       }
     ]
   },
   {
-    "id": 83,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 84,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is seen in endometrial hyperplasia?",
     "answers": [
-      {
-        "option": "The glandular to stromal ratio is increased to more than 50%",
-        "bool": true
-      },
-      {
-        "option": "The glandular to stromal ratio is decreased to more than 50%",
-        "bool": false
-      },
       {
         "option": "The stromal to glandular ratio is decreased to more than 20%",
         "bool": false
@@ -2262,18 +2281,26 @@
         "bool": false
       },
       {
+        "option": "The glandular to stromal ratio is increased to more than 50%",
+        "bool": true
+      },
+      {
+        "option": "The glandular to stromal ratio is decreased to more than 50%",
+        "bool": false
+      },
+      {
         "option": "The stromal to glandular ratio is increased to more than 50%",
         "bool": false
       }
     ]
   },
   {
-    "id": 84,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 85,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following can be used as a diagnostic criteria for polycystic ovary syndrome (PCOS)?",
     "answers": [
       {
-        "option": "Oligomenorrhea",
+        "option": "Level of estrogen in blood",
         "bool": false
       },
       {
@@ -2281,22 +2308,49 @@
         "bool": false
       },
       {
+        "option": "LH/FSH ratio>2",
+        "bool": true
+      },
+      {
         "option": "Lipid levels in blood",
         "bool": false
       },
       {
-        "option": "Level of estrogen in blood",
+        "option": "Oligomenorrhea",
         "bool": false
-      },
-      {
-        "option": "LH/FSH ratio>2",
-        "bool": true
       }
     ]
   },
   {
-    "id": 85,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 86,
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which of the following is not given for the treatment of polycystic ovary syndrome (PCOS)?",
+    "answers": [
+      {
+        "option": "Metformin",
+        "bool": false
+      },
+      {
+        "option": "Vitamin D",
+        "bool": false
+      },
+      {
+        "option": "Weight loss",
+        "bool": false
+      },
+      {
+        "option": "Chlorpromazine",
+        "bool": true
+      },
+      {
+        "option": "Combined oral contraceptive",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "info": "2nd-year/reproductive/2016",
     "question": "What is the incidence rate of ectopic pregnancies?",
     "answers": [
       {
@@ -2308,31 +2362,85 @@
         "bool": false
       },
       {
-        "option": "1-2% of all confirmed pregnancies",
-        "bool": true
-      },
-      {
         "option": "20% of all confirmed pregnancies",
         "bool": false
       },
       {
         "option": "10-20% of all confirmed pregnancies",
         "bool": false
+      },
+      {
+        "option": "1-2% of all confirmed pregnancies",
+        "bool": true
       }
     ]
   },
   {
-    "id": 86,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which of the following forms the anterior boundary of pelvic cavity?",
+    "id": 88,
+    "info": "2nd-year/reproductive/2016",
+    "question": "Pain in the lower right quadrant in a young female can be due to which of the following?",
     "answers": [
       {
-        "option": "Sacrotuberous ligament",
+        "option": "Gall stones",
         "bool": false
       },
       {
+        "option": "Ectopic pregnancy in right fallopian tube",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Ectopic pregnancy in left fallopian tube",
+        "bool": false
+      },
+      {
+        "option": "Ectopic pregnancy in cervix",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "2nd-year/reproductive/2016",
+    "question": "Scarring of fallopian tube leads to which of the following?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Adenocarcinoma",
+        "bool": false
+      },
+      {
+        "option": "Anovulation",
+        "bool": false
+      },
+      {
+        "option": "Polycystic ovary syndrome",
+        "bool": false
+      },
+      {
+        "option": "Ectopic pregnancy",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "info": "2nd-year/reproductive/2016",
+    "question": "Which of the following forms the anterior boundary of pelvic cavity?",
+    "answers": [
+      {
         "option": "Pubic symphysis",
         "bool": true
+      },
+      {
+        "option": "Urogenital diaphragm",
+        "bool": false
       },
       {
         "option": "Apex of coccyx",
@@ -2343,16 +2451,24 @@
         "bool": false
       },
       {
-        "option": "Urogenital diaphragm",
+        "option": "Sacrotuberous ligament",
         "bool": false
       }
     ]
   },
   {
-    "id": 87,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 91,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is not found in pre-pubertal ovary?",
     "answers": [
+      {
+        "option": "Collagen fibres",
+        "bool": false
+      },
+      {
+        "option": "Primordial follicles",
+        "bool": false
+      },
       {
         "option": "Germinal epithelium",
         "bool": false
@@ -2364,32 +2480,16 @@
       {
         "option": "Growing follicles",
         "bool": true
-      },
-      {
-        "option": "Primordial follicles",
-        "bool": false
-      },
-      {
-        "option": "Collagen fibres",
-        "bool": false
       }
     ]
   },
   {
-    "id": 88,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 92,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is not found in a normal ovary?",
     "answers": [
       {
         "option": "Primordial follicles",
-        "bool": false
-      },
-      {
-        "option": "Cystic follicles",
-        "bool": true
-      },
-      {
-        "option": "Stromal cells",
         "bool": false
       },
       {
@@ -2399,26 +2499,22 @@
       {
         "option": "Collagen fibres",
         "bool": false
+      },
+      {
+        "option": "Cystic follicles",
+        "bool": true
+      },
+      {
+        "option": "Stromal cells",
+        "bool": false
       }
     ]
   },
   {
-    "id": 89,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 93,
+    "info": "2nd-year/reproductive/2016",
     "question": "Primordial follicles are covered by which type of epithelium?",
     "answers": [
-      {
-        "option": "Stratified squamous",
-        "bool": false
-      },
-      {
-        "option": "Stratified cuboidal",
-        "bool": false
-      },
-      {
-        "option": "Simple cuboidal",
-        "bool": false
-      },
       {
         "option": "Simple squamous",
         "bool": true
@@ -2426,18 +2522,26 @@
       {
         "option": "Pseudo-stratified columnar",
         "bool": false
+      },
+      {
+        "option": "Simple cuboidal",
+        "bool": false
+      },
+      {
+        "option": "Stratified squamous",
+        "bool": false
+      },
+      {
+        "option": "Stratified cuboidal",
+        "bool": false
       }
     ]
   },
   {
-    "id": 90,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 94,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is not found in the stroma of the ovaries?",
     "answers": [
-      {
-        "option": "Macrophages",
-        "bool": false
-      },
       {
         "option": "Stromal cells",
         "bool": false
@@ -2451,112 +2555,35 @@
         "bool": false
       },
       {
+        "option": "Macrophages",
+        "bool": false
+      },
+      {
         "option": "Smooth muscle cells",
         "bool": false
       }
     ]
   },
   {
-    "id": 91,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Which of the following is not given for the treatment of polycystic ovary syndrome (PCOS)?",
-    "answers": [
-      {
-        "option": "Vitamin D",
-        "bool": false
-      },
-      {
-        "option": "Metformin",
-        "bool": false
-      },
-      {
-        "option": "Chlorpromazine",
-        "bool": true
-      },
-      {
-        "option": "Weight loss",
-        "bool": false
-      },
-      {
-        "option": "Combined oral contraceptive",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Pain in the lower right quadrant in a young female can be due to which of the following?",
-    "answers": [
-      {
-        "option": "Ectopic pregnancy in cervix",
-        "bool": false
-      },
-      {
-        "option": "Ectopic pregnancy in left fallopian tube",
-        "bool": false
-      },
-      {
-        "option": "Gall stones",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Ectopic pregnancy in right fallopian tube",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 93,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "Scarring of fallopian tube leads to which of the following?",
-    "answers": [
-      {
-        "option": "Polycystic ovary syndrome",
-        "bool": false
-      },
-      {
-        "option": "Adenocarcinoma",
-        "bool": false
-      },
-      {
-        "option": "Ectopic pregnancy",
-        "bool": true
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Anovulation",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 94,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 95,
+    "info": "2nd-year/reproductive/2016",
     "question": "A primigravida has a 12-week gestation, has complaints of amenorrhea, presented for her antenatal checkup. The doctor is unable to detect a fetal heartbeat. What is the diagnosis?",
     "answers": [
       {
-        "option": "Missed abortion",
-        "bool": true
+        "option": "Threatened abortion",
+        "bool": false
       },
       {
         "option": "Molar pregnancy",
         "bool": false
       },
       {
-        "option": "Threatened abortion",
+        "option": "Intrauterine growth restriction",
         "bool": false
       },
       {
-        "option": "Intrauterine growth restriction",
-        "bool": false
+        "option": "Missed abortion",
+        "bool": true
       },
       {
         "option": "Spontaneous abortion",
@@ -2565,10 +2592,18 @@
     ]
   },
   {
-    "id": 95,
-    "info": "2nd-year/reproductive-1/2016",
+    "id": 96,
+    "info": "2nd-year/reproductive/2016",
     "question": "Which of the following is the rate-limiting enzyme in cholesterol synthesis?",
     "answers": [
+      {
+        "option": "Prenyl transferase",
+        "bool": false
+      },
+      {
+        "option": "HMG-CoA synthase",
+        "bool": false
+      },
       {
         "option": "Squalene synthase",
         "bool": false
@@ -2580,41 +2615,6 @@
       {
         "option": "Mevalonate carboxylase",
         "bool": false
-      },
-      {
-        "option": "Prenyl transferase",
-        "bool": false
-      },
-      {
-        "option": "HMG-CoA synthase",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "info": "2nd-year/reproductive-1/2016",
-    "question": "During translation, the initiation codon of mRNA attaches to the ribosome at which site?",
-    "answers": [
-      {
-        "option": "A site of 30S subunit",
-        "bool": false
-      },
-      {
-        "option": "E site of 30S subunit",
-        "bool": false
-      },
-      {
-        "option": "E site of 50S subunit",
-        "bool": false
-      },
-      {
-        "option": "A site of 50S subunit",
-        "bool": false
-      },
-      {
-        "option": "P site of 30S subunit",
-        "bool": true
       }
     ]
   }

@@ -1,24 +1,24 @@
 [
   {
     "id": 0,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "The superior vena cava is derived from which of the following?",
     "answers": [
-      {
-        "option": "Left anterior cardinal vein only",
-        "bool": false
-      },
       {
         "option": "Right anterior cardinal vein only",
         "bool": false
       },
       {
-        "option": "Left anterior cardinal vein and left common cardinal vein",
+        "option": "Right anterior cardinal vein and right common cardinal vein",
+        "bool": true
+      },
+      {
+        "option": "Left anterior cardinal vein only",
         "bool": false
       },
       {
-        "option": "Right anterior cardinal vein and right common cardinal vein",
-        "bool": true
+        "option": "Left anterior cardinal vein and left common cardinal vein",
+        "bool": false
       },
       {
         "option": "Right posterior cardinal vein and right common cardinal vein",
@@ -28,21 +28,9 @@
   },
   {
     "id": 1,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "The T wave in an electrocardiogram represents which of the following?",
     "answers": [
-      {
-        "option": "Atrial depolarization",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Atrial repolarization",
-        "bool": false
-      },
       {
         "option": "Ventricular repolarization",
         "bool": true
@@ -50,17 +38,29 @@
       {
         "option": "Ventricular depolarization",
         "bool": false
+      },
+      {
+        "option": "Atrial depolarization",
+        "bool": false
+      },
+      {
+        "option": "Atrial repolarization",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
       }
     ]
   },
   {
     "id": 2,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Fish-mouth or buttonhole stenosis is seen in which of the following conditions?",
     "answers": [
       {
-        "option": "Rheumatic heart disease",
-        "bool": true
+        "option": "Coarctation of aorta",
+        "bool": false
       },
       {
         "option": "Aortic stenosis",
@@ -75,20 +75,16 @@
         "bool": false
       },
       {
-        "option": "Coarctation of aorta",
-        "bool": false
+        "option": "Rheumatic heart disease",
+        "bool": true
       }
     ]
   },
   {
     "id": 3,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following statements is true about Prinzmetal variant angina?",
     "answers": [
-      {
-        "option": "It is one of the common forms of episodic myocardial ischemia",
-        "bool": false
-      },
       {
         "option": "It is usually relieved by rest",
         "bool": false
@@ -98,30 +94,26 @@
         "bool": false
       },
       {
-        "option": "Its anginal attacks are related to physical activity",
+        "option": "It is caused by coronary artery spasm",
+        "bool": true
+      },
+      {
+        "option": "It is one of the common forms of episodic myocardial ischemia",
         "bool": false
       },
       {
-        "option": "It is caused by coronary artery spasm",
-        "bool": true
+        "option": "Its anginal attacks are related to physical activity",
+        "bool": false
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "During a class discussion, the teacher asked about the tributaries opening in the right atrium. Which of the following does not open in the right atrium?",
     "answers": [
       {
-        "option": "Pulmonary vein",
-        "bool": true
-      },
-      {
         "option": "Inferior vena cava",
-        "bool": false
-      },
-      {
-        "option": "Superior vena cava",
         "bool": false
       },
       {
@@ -131,24 +123,32 @@
       {
         "option": "Coronary sinus",
         "bool": false
+      },
+      {
+        "option": "Superior vena cava",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary vein",
+        "bool": true
       }
     ]
   },
   {
     "id": 5,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is not included in the primary prevention of hypertension?",
     "answers": [
-      {
-        "option": "Weight reduction",
-        "bool": false
-      },
       {
         "option": "Dietary sodium reduction",
         "bool": false
       },
       {
-        "option": "Increased physical activity",
+        "option": "Medication",
+        "bool": true
+      },
+      {
+        "option": "Weight reduction",
         "bool": false
       },
       {
@@ -156,16 +156,20 @@
         "bool": false
       },
       {
-        "option": "Medication",
-        "bool": true
+        "option": "Increased physical activity",
+        "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which free radical generated in red blood cells by autooxidation converts hemoglobin to methemoglobin?",
     "answers": [
+      {
+        "option": "Nitric oxide",
+        "bool": false
+      },
       {
         "option": "Hydroxyl radical",
         "bool": false
@@ -173,10 +177,6 @@
       {
         "option": "Superoxide",
         "bool": true
-      },
-      {
-        "option": "Nitric oxide",
-        "bool": false
       },
       {
         "option": "Singlet oxygen",
@@ -190,7 +190,7 @@
   },
   {
     "id": 7,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following antioxidants is a metalloenzyme that has three forms and is considered to be the first line of defense for protection from the injurious effects of superoxide?",
     "answers": [
       {
@@ -202,22 +202,22 @@
         "bool": true
       },
       {
+        "option": "Glutathione peroxidase",
+        "bool": false
+      },
+      {
         "option": "Alpha tocopherol",
         "bool": false
       },
       {
         "option": "Catalase",
         "bool": false
-      },
-      {
-        "option": "Glutathione peroxidase",
-        "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Insulin enhances the uptake of triacylglycerols in adipose tissues. Which of the following enzymes is activated by insulin to facilitate this uptake?",
     "answers": [
       {
@@ -225,11 +225,11 @@
         "bool": true
       },
       {
-        "option": "Hormone sensitive lipase",
+        "option": "Lecithin cholesterol acetyl transferase",
         "bool": false
       },
       {
-        "option": "Hepatic lipase",
+        "option": "Hormone sensitive lipase",
         "bool": false
       },
       {
@@ -237,18 +237,18 @@
         "bool": false
       },
       {
-        "option": "Lecithin cholesterol acetyl transferase",
+        "option": "Hepatic lipase",
         "bool": false
       }
     ]
   },
   {
     "id": 9,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Familial hypercholesterolemia is a genetic disorder of lipid metabolism. The defect is due to which of the following?",
     "answers": [
       {
-        "option": "Defective cholesterol degradation pathway",
+        "option": "Impaired HDL metabolism due to the deficiency of Apo-A",
         "bool": false
       },
       {
@@ -264,22 +264,26 @@
         "bool": false
       },
       {
-        "option": "Impaired HDL metabolism due to the deficiency of Apo-A",
+        "option": "Defective cholesterol degradation pathway",
         "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following is the principal apoprotein associated with low density lipoproteins?",
     "answers": [
       {
-        "option": "Apolipoprotein E",
+        "option": "Apolipoprotein B-48",
         "bool": false
       },
       {
-        "option": "Apolipoprotein B-48",
+        "option": "Apolipoprotein B-100",
+        "bool": true
+      },
+      {
+        "option": "Apolipoprotein E",
         "bool": false
       },
       {
@@ -289,24 +293,16 @@
       {
         "option": "Apolipoprotein A",
         "bool": false
-      },
-      {
-        "option": "Apolipoprotein B-100",
-        "bool": true
       }
     ]
   },
   {
     "id": 11,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "The antiarrhythmic drug milrinone is preferred due to which of the following reasons?",
     "answers": [
       {
         "option": "It gives long-term ionotropic support in the case of heart failure",
-        "bool": false
-      },
-      {
-        "option": "It has a long life",
         "bool": false
       },
       {
@@ -320,12 +316,16 @@
       {
         "option": "It prevents thrombocytopenia",
         "bool": false
+      },
+      {
+        "option": "It has a long life",
+        "bool": false
       }
     ]
   },
   {
     "id": 12,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "In human heart tissue, nearly 30-40% of glycerophospholipids are plasmalogens. Plasmalogens can protect mammalian tissue against damaging effects of which of the following?",
     "answers": [
       {
@@ -333,7 +333,7 @@
         "bool": true
       },
       {
-        "option": "Biproducts of intracellular metabolism",
+        "option": "Medical therapy",
         "bool": false
       },
       {
@@ -341,32 +341,20 @@
         "bool": false
       },
       {
-        "option": "Medical therapy",
+        "option": "Ultraviolet rays",
         "bool": false
       },
       {
-        "option": "Ultraviolet rays",
+        "option": "Biproducts of intracellular metabolism",
         "bool": false
       }
     ]
   },
   {
     "id": 13,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following drugs belongs to the class 1C antiarrhythmic?",
     "answers": [
-      {
-        "option": "Mexilitine",
-        "bool": false
-      },
-      {
-        "option": "Tocainide",
-        "bool": false
-      },
-      {
-        "option": "Flecainide",
-        "bool": true
-      },
       {
         "option": "Phenytoin",
         "bool": false
@@ -374,20 +362,32 @@
       {
         "option": "Lidocaine",
         "bool": false
+      },
+      {
+        "option": "Tocainide",
+        "bool": false
+      },
+      {
+        "option": "Mexilitine",
+        "bool": false
+      },
+      {
+        "option": "Flecainide",
+        "bool": true
       }
     ]
   },
   {
     "id": 14,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is true regarding nitrates?",
     "answers": [
       {
-        "option": "They constrict meningeal blood vessels causing headache",
-        "bool": false
+        "option": "They usually decrease venous return",
+        "bool": true
       },
       {
-        "option": "They are more effective as prophylactic measures taken daily than to relieve an anginal attack",
+        "option": "Nitroglycerine is placed under tongue because if swallowed it would be destroyed by the gastric juice",
         "bool": false
       },
       {
@@ -395,57 +395,26 @@
         "bool": false
       },
       {
-        "option": "Nitroglycerine is placed under tongue because if swallowed it would be destroyed by the gastric juice",
+        "option": "They constrict meningeal blood vessels causing headache",
         "bool": false
       },
       {
-        "option": "They usually decrease venous return",
-        "bool": true
+        "option": "They are more effective as prophylactic measures taken daily than to relieve an anginal attack",
+        "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "1st-year/cardiovascular-1/2016",
-    "question": "Which of the following is true about the position of a nucleus in a cardiac muscle cell?",
-    "answers": [
-      {
-        "option": "Multiple peripherally located nuclei",
-        "bool": false
-      },
-      {
-        "option": "Multiple nuclei aggregated in the center",
-        "bool": false
-      },
-      {
-        "option": "Single peripherally located nucleus",
-        "bool": false
-      },
-      {
-        "option": "Single centrally located nucleus",
-        "bool": true
-      },
-      {
-        "option": "It is anuclear",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of these represents the adverse effect of angiotensin-converting enzyme inhibitors due to increased levels of bradykinin in a pulmonary tree?",
     "answers": [
-      {
-        "option": "Excessive sputum production",
-        "bool": false
-      },
       {
         "option": "Skin rash and bronchodilation",
         "bool": false
       },
       {
-        "option": "Bronchoconstriction",
+        "option": "Dry cough",
         "bool": true
       },
       {
@@ -453,22 +422,30 @@
         "bool": false
       },
       {
-        "option": "Dry cough",
+        "option": "Bronchoconstriction",
+        "bool": false
+      },
+      {
+        "option": "Excessive sputum production",
         "bool": false
       }
     ]
   },
   {
-    "id": 17,
-    "info": "1st-year/cardiovascular-1/2016",
+    "id": 16,
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is true regarding the location of a sinoatrial node?",
     "answers": [
       {
-        "option": "Superficial to the epicardium at the junction of superior and inferior vena cava",
+        "option": "Near the coronary sinus",
         "bool": false
       },
       {
-        "option": "Near the coronary sinus",
+        "option": "Superior end of the sulcus terminalis",
+        "bool": true
+      },
+      {
+        "option": "Superficial to the epicardium at the junction of superior and inferior vena cava",
         "bool": false
       },
       {
@@ -478,56 +455,44 @@
       {
         "option": "Postero-inferior region of the inter atrial septum",
         "bool": false
-      },
-      {
-        "option": "Superior end of the sulcus terminalis",
-        "bool": true
       }
     ]
   },
   {
-    "id": 18,
-    "info": "1st-year/cardiovascular-1/2016",
+    "id": 17,
+    "info": "1st-year/cardiovascular/2016",
     "question": "Proper maturation of pre-T cells involves interaction with which of the following?",
     "answers": [
-      {
-        "option": "Circulating antigen",
-        "bool": true
-      },
-      {
-        "option": "Reticular cells and fibers",
-        "bool": false
-      },
       {
         "option": "Plasma cells",
         "bool": false
       },
       {
-        "option": "Epithelial reticular cells",
+        "option": "Circulating antigen",
         "bool": false
       },
       {
+        "option": "Epithelial reticular cells",
+        "bool": true
+      },
+      {
         "option": "Hassall's corpuscles",
+        "bool": false
+      },
+      {
+        "option": "Reticular cells and fibers",
         "bool": false
       }
     ]
   },
   {
-    "id": 19,
-    "info": "1st-year/cardiovascular-1/2016",
+    "id": 18,
+    "info": "1st-year/cardiovascular/2016",
     "question": "The right coronary artery arises from which of the following sinuses?",
     "answers": [
       {
         "option": "Anterior aortic sinus",
         "bool": true
-      },
-      {
-        "option": "From left pulmonary vein",
-        "bool": false
-      },
-      {
-        "option": "Right posterior aortic sinus",
-        "bool": false
       },
       {
         "option": "From anterior and posterior aortic sinuses",
@@ -536,20 +501,28 @@
       {
         "option": "Left posterior aortic sinus",
         "bool": false
+      },
+      {
+        "option": "From left pulmonary vein",
+        "bool": false
+      },
+      {
+        "option": "Right posterior aortic sinus",
+        "bool": false
       }
     ]
   },
   {
-    "id": 20,
-    "info": "1st-year/cardiovascular-1/2016",
+    "id": 19,
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following separates the atria from the ventricles?",
     "answers": [
       {
-        "option": "Anterior interventricular groove",
-        "bool": false
+        "option": "Coronary sulcus",
+        "bool": true
       },
       {
-        "option": "Interventricular sulcus",
+        "option": "Anterior interventricular groove",
         "bool": false
       },
       {
@@ -557,8 +530,8 @@
         "bool": false
       },
       {
-        "option": "Coronary sulcus",
-        "bool": true
+        "option": "Interventricular sulcus",
+        "bool": false
       },
       {
         "option": "Interatrial groove",
@@ -567,20 +540,12 @@
     ]
   },
   {
-    "id": 21,
-    "info": "1st-year/cardiovascular-1/2016",
+    "id": 20,
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following structures present in the superior mediastinum is not enclosed by the pericardium?",
     "answers": [
       {
-        "option": "Initial part of inferior vena cava",
-        "bool": false
-      },
-      {
-        "option": "Arch of aorta",
-        "bool": true
-      },
-      {
-        "option": "Ascending aorta",
+        "option": "Descending aorta",
         "bool": false
       },
       {
@@ -588,26 +553,26 @@
         "bool": false
       },
       {
-        "option": "Descending aorta",
+        "option": "Arch of aorta",
+        "bool": true
+      },
+      {
+        "option": "Initial part of inferior vena cava",
+        "bool": false
+      },
+      {
+        "option": "Ascending aorta",
         "bool": false
       }
     ]
   },
   {
-    "id": 22,
-    "info": "1st-year/cardiovascular-1/2016",
+    "id": 21,
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following is not present at intercalated discs?",
     "answers": [
       {
-        "option": "Communicating junctions",
-        "bool": false
-      },
-      {
         "option": "Desmosomes",
-        "bool": false
-      },
-      {
-        "option": "Fascia adherentes",
         "bool": false
       },
       {
@@ -617,17 +582,52 @@
       {
         "option": "Dense bodies",
         "bool": true
+      },
+      {
+        "option": "Fascia adherentes",
+        "bool": false
+      },
+      {
+        "option": "Communicating junctions",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "1st-year/cardiovascular/2016",
+    "question": "Which of the following is true about the position of a nucleus in a cardiac muscle cell?",
+    "answers": [
+      {
+        "option": "Multiple nuclei aggregated in the center",
+        "bool": false
+      },
+      {
+        "option": "Single centrally located nucleus",
+        "bool": true
+      },
+      {
+        "option": "Multiple peripherally located nuclei",
+        "bool": false
+      },
+      {
+        "option": "It is anuclear",
+        "bool": false
+      },
+      {
+        "option": "Single peripherally located nucleus",
+        "bool": false
       }
     ]
   },
   {
     "id": 23,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is true regarding the blood supply of the atrioventricular node?",
     "answers": [
       {
-        "option": "From right coronary artery in 50% of the population",
-        "bool": false
+        "option": "From right coronary artery in 80% of the population",
+        "bool": true
       },
       {
         "option": "From right coronary artery in 20% of the population",
@@ -642,27 +642,19 @@
         "bool": false
       },
       {
-        "option": "From right coronary artery in 80% of the population",
-        "bool": true
+        "option": "From right coronary artery in 50% of the population",
+        "bool": false
       }
     ]
   },
   {
     "id": 24,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "For maintaining fetal circulation, which of the following vessels are connected via ductus venosus?",
     "answers": [
       {
         "option": "Umbilical vein and hepatic vein",
         "bool": false
-      },
-      {
-        "option": "Umbilical vein and cardinal vein",
-        "bool": false
-      },
-      {
-        "option": "Umbilical vein and inferior vena cava",
-        "bool": true
       },
       {
         "option": "Umbilical vein and epigastric vein",
@@ -671,20 +663,24 @@
       {
         "option": "Umbilical vein and vitelline vein",
         "bool": false
+      },
+      {
+        "option": "Umbilical vein and inferior vena cava",
+        "bool": true
+      },
+      {
+        "option": "Umbilical vein and cardinal vein",
+        "bool": false
       }
     ]
   },
   {
     "id": 25,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "The umbilical vein develops into which of the following structures in adults?",
     "answers": [
       {
-        "option": "Medial umbilical ligament",
-        "bool": false
-      },
-      {
-        "option": "Ductus arteriosus",
+        "option": "Ligamentum arteriosum",
         "bool": false
       },
       {
@@ -696,31 +692,35 @@
         "bool": true
       },
       {
-        "option": "Ligamentum arteriosum",
+        "option": "Medial umbilical ligament",
+        "bool": false
+      },
+      {
+        "option": "Ductus arteriosus",
         "bool": false
       }
     ]
   },
   {
     "id": 26,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of these features is not a part of the tetralogy of Fallot?",
     "answers": [
       {
-        "option": "Atrial septal defect",
-        "bool": true
+        "option": "Aorta arising from both ventricular cavities",
+        "bool": false
       },
       {
         "option": "Hypertrophy of the right ventricular wall",
         "bool": false
       },
       {
-        "option": "Aorta arising from both ventricular cavities",
+        "option": "Pulmonary infundibular stenosis",
         "bool": false
       },
       {
-        "option": "Pulmonary infundibular stenosis",
-        "bool": false
+        "option": "Atrial septal defect",
+        "bool": true
       },
       {
         "option": "Interventricular septal defect",
@@ -730,19 +730,15 @@
   },
   {
     "id": 27,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Transposition of the great vessels was observed in a male infant with obvious cyanosis and mild tachycardia. Which of these can give rise to this condition?",
     "answers": [
-      {
-        "option": "Abnormal resorption of septum primum",
-        "bool": false
-      },
       {
         "option": "Failure of the endocardial cushions to fuse",
         "bool": false
       },
       {
-        "option": "Involution of ductus arteriosus",
+        "option": "Abnormal resorption of septum primum",
         "bool": false
       },
       {
@@ -752,12 +748,16 @@
       {
         "option": "Faulty spiraling of conus cordis and truncus arteriosus",
         "bool": true
+      },
+      {
+        "option": "Involution of ductus arteriosus",
+        "bool": false
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Tom was stabbed with a sword. The sword pierced the right side of his chest and went straight through his heart. Which of the following was the first structure pierced by the sword?",
     "answers": [
       {
@@ -765,7 +765,7 @@
         "bool": false
       },
       {
-        "option": "Myocardium",
+        "option": "Visceral serous pericardium",
         "bool": false
       },
       {
@@ -777,27 +777,19 @@
         "bool": true
       },
       {
-        "option": "Visceral serous pericardium",
+        "option": "Myocardium",
         "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following decreases in case of increased ejection fraction?",
     "answers": [
       {
         "option": "End systolic volume",
         "bool": true
-      },
-      {
-        "option": "Heart rate",
-        "bool": false
-      },
-      {
-        "option": "Stroke volume",
-        "bool": false
       },
       {
         "option": "Cardiac output",
@@ -806,43 +798,55 @@
       {
         "option": "End diastolic volume",
         "bool": false
+      },
+      {
+        "option": "Heart rate",
+        "bool": false
+      },
+      {
+        "option": "Stroke volume",
+        "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following is responsible for phase-III of the cardiac muscle action potential?",
     "answers": [
       {
-        "option": "Potassium efflux",
-        "bool": true
+        "option": "Calcium influx",
+        "bool": false
       },
       {
-        "option": "Sodium influx",
-        "bool": false
+        "option": "Potassium efflux",
+        "bool": true
       },
       {
         "option": "Sodium efflux",
         "bool": false
       },
       {
-        "option": "Potassium influx",
+        "option": "Sodium influx",
         "bool": false
       },
       {
-        "option": "Calcium influx",
+        "option": "Potassium influx",
         "bool": false
       }
     ]
   },
   {
     "id": 31,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "In which of the following conditions does the total peripheral resistance increase?",
     "answers": [
       {
-        "option": "Hyperthyroidism",
+        "option": "Beriberi disease",
+        "bool": false
+      },
+      {
+        "option": "Arteriovenous fistula",
         "bool": false
       },
       {
@@ -850,28 +854,20 @@
         "bool": false
       },
       {
-        "option": "Beriberi disease",
-        "bool": false
-      },
-      {
         "option": "Sympathetic stimulation",
         "bool": true
       },
       {
-        "option": "Arteriovenous fistula",
+        "option": "Hyperthyroidism",
         "bool": false
       }
     ]
   },
   {
     "id": 32,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following represents a property possessed by cardiac muscles?",
     "answers": [
-      {
-        "option": "Fatigue",
-        "bool": false
-      },
       {
         "option": "Short refractory period",
         "bool": false
@@ -885,6 +881,10 @@
         "bool": true
       },
       {
+        "option": "Fatigue",
+        "bool": false
+      },
+      {
         "option": "Somatic innervation",
         "bool": false
       }
@@ -892,11 +892,19 @@
   },
   {
     "id": 33,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following is responsible for phase-II of the cardiac muscle action potential?",
     "answers": [
       {
         "option": "Calcium efflux",
+        "bool": false
+      },
+      {
+        "option": "Sodium efflux",
+        "bool": false
+      },
+      {
+        "option": "Sodium influx",
         "bool": false
       },
       {
@@ -906,28 +914,16 @@
       {
         "option": "Potassium efflux",
         "bool": false
-      },
-      {
-        "option": "Sodium influx",
-        "bool": false
-      },
-      {
-        "option": "Sodium efflux",
-        "bool": false
       }
     ]
   },
   {
     "id": 34,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is correct regarding the cardiac cycle?",
     "answers": [
       {
-        "option": "Isovolumic contraction is a phase of fall in ventricular pressure",
-        "bool": false
-      },
-      {
-        "option": "Duration is decreased as heart rate is decreased",
+        "option": "Diastasis is during atrial filling",
         "bool": false
       },
       {
@@ -939,22 +935,26 @@
         "bool": false
       },
       {
-        "option": "Diastasis is during atrial filling",
+        "option": "Isovolumic contraction is a phase of fall in ventricular pressure",
+        "bool": false
+      },
+      {
+        "option": "Duration is decreased as heart rate is decreased",
         "bool": false
       }
     ]
   },
   {
     "id": 35,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following is a cause of hypoeffective heart?",
     "answers": [
       {
-        "option": "Parasympathetic inhibition",
+        "option": "Sympathetic stimulation",
         "bool": false
       },
       {
-        "option": "Sympathetic stimulation",
+        "option": "Parasympathetic inhibition",
         "bool": false
       },
       {
@@ -962,22 +962,26 @@
         "bool": false
       },
       {
-        "option": "Myocardial infarction",
-        "bool": true
-      },
-      {
         "option": "Vagal inhibition",
         "bool": false
+      },
+      {
+        "option": "Myocardial infarction",
+        "bool": true
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following statements is correct about a normal electrocardiogram (ECG)?",
     "answers": [
       {
         "option": "P-R interval is 0.4 seconds",
+        "bool": false
+      },
+      {
+        "option": "T wave is a ventricular depolarization",
         "bool": false
       },
       {
@@ -989,10 +993,6 @@
         "bool": false
       },
       {
-        "option": "T wave is a ventricular depolarization",
-        "bool": false
-      },
-      {
         "option": "P wave is atrial depolarization",
         "bool": true
       }
@@ -1000,15 +1000,11 @@
   },
   {
     "id": 37,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following substances is a vasoconstrictor?",
     "answers": [
       {
-        "option": "Bradykinins",
-        "bool": false
-      },
-      {
-        "option": "Potassium ion",
+        "option": "Histamine",
         "bool": false
       },
       {
@@ -1016,7 +1012,11 @@
         "bool": false
       },
       {
-        "option": "Histamine",
+        "option": "Potassium ion",
+        "bool": false
+      },
+      {
+        "option": "Bradykinins",
         "bool": false
       },
       {
@@ -1027,15 +1027,11 @@
   },
   {
     "id": 38,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following conditions will not increase the heart rate?",
     "answers": [
       {
         "option": "Fever",
-        "bool": false
-      },
-      {
-        "option": "Sympathetic stimulation",
         "bool": false
       },
       {
@@ -1047,6 +1043,10 @@
         "bool": true
       },
       {
+        "option": "Sympathetic stimulation",
+        "bool": false
+      },
+      {
         "option": "Exercise",
         "bool": false
       }
@@ -1054,19 +1054,11 @@
   },
   {
     "id": 39,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following events is related to the production of the first heart sound?",
     "answers": [
       {
-        "option": "End of the systolic phase of the cardiac cycle",
-        "bool": false
-      },
-      {
-        "option": "Beginning of the systolic phase of the cardiac cycle",
-        "bool": true
-      },
-      {
-        "option": "Middle 1/3rd of the diastolic phase of the cardiac cycle",
+        "option": "End of the diastolic phase of the cardiac cycle",
         "bool": false
       },
       {
@@ -1074,23 +1066,27 @@
         "bool": false
       },
       {
-        "option": "End of the diastolic phase of the cardiac cycle",
+        "option": "Middle 1/3rd of the diastolic phase of the cardiac cycle",
         "bool": false
+      },
+      {
+        "option": "End of the systolic phase of the cardiac cycle",
+        "bool": false
+      },
+      {
+        "option": "Beginning of the systolic phase of the cardiac cycle",
+        "bool": true
       }
     ]
   },
   {
     "id": 40,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following represents the value of the end-diastolic volume?",
     "answers": [
       {
-        "option": "30-50 ml",
+        "option": "50-70 ml",
         "bool": false
-      },
-      {
-        "option": "120-150 ml",
-        "bool": true
       },
       {
         "option": "10-30 ml",
@@ -1101,18 +1097,22 @@
         "bool": false
       },
       {
-        "option": "50-70 ml",
+        "option": "120-150 ml",
+        "bool": true
+      },
+      {
+        "option": "30-50 ml",
         "bool": false
       }
     ]
   },
   {
     "id": 41,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which one of the following is a cause of sudden cardiac death?",
     "answers": [
       {
-        "option": "Bundle branch block",
+        "option": "Sinoatrial rhythm",
         "bool": false
       },
       {
@@ -1120,27 +1120,27 @@
         "bool": true
       },
       {
+        "option": "Atrial tachycardia",
+        "bool": false
+      },
+      {
         "option": "Atrial fibrillation",
         "bool": false
       },
       {
-        "option": "Sinoatrial rhythm",
-        "bool": false
-      },
-      {
-        "option": "Atrial tachycardia",
+        "option": "Bundle branch block",
         "bool": false
       }
     ]
   },
   {
     "id": 42,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is not a tributary of the right atrium?",
     "answers": [
       {
-        "option": "Brachiocephalic vein",
-        "bool": true
+        "option": "Superior vena cava",
+        "bool": false
       },
       {
         "option": "Coronary sinus",
@@ -1151,18 +1151,18 @@
         "bool": false
       },
       {
-        "option": "Superior vena cava",
+        "option": "Inferior vena cava",
         "bool": false
       },
       {
-        "option": "Inferior vena cava",
-        "bool": false
+        "option": "Brachiocephalic vein",
+        "bool": true
       }
     ]
   },
   {
     "id": 43,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following statements is correct regarding cor pulmonale?",
     "answers": [
       {
@@ -1170,57 +1170,57 @@
         "bool": false
       },
       {
-        "option": "It can occur following a massive pulmonary embolism",
-        "bool": true
+        "option": "It is characterized by left ventricular hypertrophy",
+        "bool": false
       },
       {
         "option": "It may be caused by disorders inducing pulmonary arterial vasoconstriction",
-        "bool": false
+        "bool": true
       },
       {
         "option": "Most commonly caused by disorders affecting chest movements",
         "bool": false
       },
       {
-        "option": "It is characterized by left ventricular hypertrophy",
+        "option": "It can occur following a massive pulmonary embolism",
         "bool": false
       }
     ]
   },
   {
     "id": 44,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following conditions is associated with onion skin lesions in the vessels?",
     "answers": [
       {
-        "option": "Hyperplastic arteriosclerosis",
-        "bool": true
-      },
-      {
-        "option": "Kawasaki disease",
-        "bool": false
-      },
-      {
         "option": "Hyaline arteriosclerosis",
         "bool": false
+      },
+      {
+        "option": "Atherosclerosis",
+        "bool": false
+      },
+      {
+        "option": "Hyperplastic arteriosclerosis",
+        "bool": true
       },
       {
         "option": "Monckeberg medial sclerosis",
         "bool": false
       },
       {
-        "option": "Atherosclerosis",
+        "option": "Kawasaki disease",
         "bool": false
       }
     ]
   },
   {
     "id": 45,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is the most common valvular abnormaility?",
     "answers": [
       {
-        "option": "Myxomatous degeneration",
+        "option": "Calcific aortic stenosis",
         "bool": false
       },
       {
@@ -1228,22 +1228,22 @@
         "bool": false
       },
       {
-        "option": "Rheumatic heart disease",
-        "bool": false
+        "option": "Myxomatous degeneration",
+        "bool": true
       },
       {
         "option": "Dilation of ascending aorta",
         "bool": false
       },
       {
-        "option": "Calcific aortic stenosis",
-        "bool": true
+        "option": "Rheumatic heart disease",
+        "bool": false
       }
     ]
   },
   {
     "id": 46,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Shunt between the right and left anterior cardinal vein forms which of the following?",
     "answers": [
       {
@@ -1259,24 +1259,20 @@
         "bool": false
       },
       {
-        "option": "Inferior vena cava",
+        "option": "Gonadal vein",
         "bool": false
       },
       {
-        "option": "Gonadal vein",
+        "option": "Inferior vena cava",
         "bool": false
       }
     ]
   },
   {
     "id": 47,
-    "info": "1st-year/cardiovascular-1/2016",
+    "info": "1st-year/cardiovascular/2016",
     "question": "Which of the following is the rate-limiting enzyme in cholesterol synthesis?",
     "answers": [
-      {
-        "option": "Mevalonate carboxylase",
-        "bool": false
-      },
       {
         "option": "Prenyl transferase",
         "bool": false
@@ -1286,11 +1282,15 @@
         "bool": false
       },
       {
+        "option": "Squalene synthase",
+        "bool": false
+      },
+      {
         "option": "HMG-CoA reductase",
         "bool": true
       },
       {
-        "option": "Squalene synthase",
+        "option": "Mevalonate carboxylase",
         "bool": false
       }
     ]

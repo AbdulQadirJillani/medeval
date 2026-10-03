@@ -1,0 +1,1248 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 17-year-old boy presents to the clinic with complaints of acne on the trunk and arms. Examination shows multiple sinuses, nodules, and cysts. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Acne fulminans",
+        "bool": false
+      },
+      {
+        "option": "Acne rosacea",
+        "bool": false
+      },
+      {
+        "option": "Acne vulgaris",
+        "bool": false
+      },
+      {
+        "option": "Acne excoriee",
+        "bool": false
+      },
+      {
+        "option": "Acne conglobata",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following can reduce the risk of sudden cardiac death in a patient with hypertrophic cardiomyopathy?",
+    "answers": [
+      {
+        "option": "Alcohol septal ablation",
+        "bool": false
+      },
+      {
+        "option": "β-Adrenergic blocking agents",
+        "bool": false
+      },
+      {
+        "option": "Radiofrequency ablation",
+        "bool": false
+      },
+      {
+        "option": "Ventricular pacing",
+        "bool": false
+      },
+      {
+        "option": "Implantable cardioverter-defibrillator",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 40-year-old patient with history of chronic liver disease secondary to hepatitis C, presents to the office with worsening abdominal distention and a new-onset fever. Physical examination reveals massive ascites and deeply jaundiced skin. Paracentesis reveals an absolute neutrophil count of 300/mm3. What is the best treatment option for this patient's condition?",
+    "answers": [
+      {
+        "option": "Spironolactone",
+        "bool": false
+      },
+      {
+        "option": "Cefotaxime",
+        "bool": true
+      },
+      {
+        "option": "Rifaximin",
+        "bool": false
+      },
+      {
+        "option": "Metaprolol",
+        "bool": false
+      },
+      {
+        "option": "Hydrochlorothiazide",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which one of these is an autosomal recessive condition?",
+    "answers": [
+      {
+        "option": "Von Hippel-Lindau syndrome",
+        "bool": false
+      },
+      {
+        "option": "MEN-1 syndrome",
+        "bool": false
+      },
+      {
+        "option": "MEN-2 syndrome",
+        "bool": false
+      },
+      {
+        "option": "Neurofibromatosis type 1",
+        "bool": false
+      },
+      {
+        "option": "Autoimmune polyglandular syndrome type I",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 45-year-old male patient presents with fatigue, abdominal pain, and jaundice. He is diagnosed with hepatitis and a subsequent hepatoma. He does not have thrombosis or portal hypertension. His MELD score is 12. Which of the following treatment options would be most appropriate?",
+    "answers": [
+      {
+        "option": "Supportive",
+        "bool": false
+      },
+      {
+        "option": "Chemoembolization",
+        "bool": false
+      },
+      {
+        "option": "Liver resection",
+        "bool": true
+      },
+      {
+        "option": "Radiofrequency ablation",
+        "bool": false
+      },
+      {
+        "option": "Liver transplantation",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A patient presents to the emergency department with a sudden onset of severe abdominal pain, nausea, and vomiting. The pain is located in the upper right quadrant and is worsened by deep inspiration or movement. The patient has a history of gallstones. What is the initial diagnostic step that should be taken in the evaluation of this patient?",
+    "answers": [
+      {
+        "option": "Abdominal X-ray",
+        "bool": false
+      },
+      {
+        "option": "Barium walkthrough",
+        "bool": false
+      },
+      {
+        "option": "Serum lipase and amylase",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound abdomen",
+        "bool": true
+      },
+      {
+        "option": "CT scan of abdomen",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A patient presents to the emergency department with severe abdominal pain and vomiting. Upon examination, the patient is found to have multiple gallstones and a dilated common bile duct. Laboratory tests reveal a raised serum amylase of 304. What is the most appropriate management for this patient?",
+    "answers": [
+      {
+        "option": "Therapeutic ERCP",
+        "bool": true
+      },
+      {
+        "option": "Laparoscopic cholecystectomy",
+        "bool": false
+      },
+      {
+        "option": "NPO with IV fluids",
+        "bool": false
+      },
+      {
+        "option": "CT scan of the abdomen",
+        "bool": false
+      },
+      {
+        "option": "Oral antibiotics",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 55-year-old woman presents to the emergency department with sudden onset of chest pain. An ECG shows ST-segment elevations in leads II, III, avF, V4, V5, and V6. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Inferior wall MI",
+        "bool": false
+      },
+      {
+        "option": "Inferolateral MI",
+        "bool": true
+      },
+      {
+        "option": "Anteroseptal MI",
+        "bool": false
+      },
+      {
+        "option": "Anterolateral MI",
+        "bool": false
+      },
+      {
+        "option": "Posterior wall MI",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following drugs is NOT known to cause asthma?",
+    "answers": [
+      {
+        "option": "NSAIDs",
+        "bool": false
+      },
+      {
+        "option": "Penicillins",
+        "bool": false
+      },
+      {
+        "option": "Adenosine",
+        "bool": false
+      },
+      {
+        "option": "Steroids",
+        "bool": true
+      },
+      {
+        "option": "Beta blockers",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/medicine-1/2021",
+    "question": "What medication should be avoided in a patient with both asthma and angina?",
+    "answers": [
+      {
+        "option": "Calcium channel blockers",
+        "bool": false
+      },
+      {
+        "option": "Beta blockers",
+        "bool": true
+      },
+      {
+        "option": "Antihistamines",
+        "bool": false
+      },
+      {
+        "option": "Nitrates",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroids",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of these drugs can cause hypokalemia?",
+    "answers": [
+      {
+        "option": "Succinylcholine",
+        "bool": false
+      },
+      {
+        "option": "Ramipril",
+        "bool": false
+      },
+      {
+        "option": "Salmeterol",
+        "bool": true
+      },
+      {
+        "option": "TMP-SMX",
+        "bool": false
+      },
+      {
+        "option": "Spironolactone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 21-year-old male presents with large, painful, deep-seated pimples that are interconnected in multiple areas and often leave scars. They are most predominant on the chest, back, buttocks, and thighs and have grown gradually over the last couple of years. What is the correct diagnosis?",
+    "answers": [
+      {
+        "option": "Acne mechanica",
+        "bool": false
+      },
+      {
+        "option": "Acne conglobata",
+        "bool": true
+      },
+      {
+        "option": "Acne vulgaris",
+        "bool": false
+      },
+      {
+        "option": "Acne rosacea",
+        "bool": false
+      },
+      {
+        "option": "Acne fulminans",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A patient presents with a sudden onset of red, raised, round or oval patches with blisters on her skin after taking a new medication for a respiratory infection. The patches are symmetrical and are accompanied by fever, malaise, and mouth sores. What is the correct diagnosis?",
+    "answers": [
+      {
+        "option": "Erythema multiforme",
+        "bool": true
+      },
+      {
+        "option": "Scleroderma",
+        "bool": false
+      },
+      {
+        "option": "Atopic dermatitis",
+        "bool": false
+      },
+      {
+        "option": "Erythema nodosum",
+        "bool": false
+      },
+      {
+        "option": "Psoriasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 30-year-old male presents with thick, red, scaly patches on their scalp, elbows, and knees. They have had these patches for several years and they have not responded to over-the-counter creams. The patches are itchy and sometimes bleed when scratched. What is the appropriate initial treatment option?",
+    "answers": [
+      {
+        "option": "Methotrexate",
+        "bool": false
+      },
+      {
+        "option": "Low potency topical steroids",
+        "bool": false
+      },
+      {
+        "option": "Coal tar",
+        "bool": false
+      },
+      {
+        "option": "High potency topical steroids",
+        "bool": true
+      },
+      {
+        "option": "Phototherapy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 29-year-old female presents with a sudden onset of a red, painful rash on their chest, arms, and legs. The rash has evolved into blisters and ulcers, and the affected body surface area is less than 10%. The patient is also experiencing fever, sore throat, and conjunctivitis. What is the correct diagnosis?",
+    "answers": [
+      {
+        "option": "Dermatitis herpetiformis",
+        "bool": false
+      },
+      {
+        "option": "Stevens-Johnson syndrome",
+        "bool": true
+      },
+      {
+        "option": "Toxic epidermal necrolysis",
+        "bool": false
+      },
+      {
+        "option": "Bullous pemphigoid",
+        "bool": false
+      },
+      {
+        "option": "Erythema multiforme",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A patient with a history of chronic hepatitis B presents with severe abdominal pain, nausea, and vomiting. They are found to have ascites but no jaundice. Further testing reveals elevated liver enzymes and bilirubin. What is the correct diagnosis?",
+    "answers": [
+      {
+        "option": "Acute hepatitis B",
+        "bool": false
+      },
+      {
+        "option": "Acute liver failure",
+        "bool": false
+      },
+      {
+        "option": "Acute on chronic hepatitis B",
+        "bool": true
+      },
+      {
+        "option": "Alcoholic hepatitis",
+        "bool": false
+      },
+      {
+        "option": "Chronic hepatitis B",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 65-year-old man presents to the emergency department with sudden onset of chest pain radiating to his left arm. He is diaphoretic and short of breath. An ECG shows ST-segment elevation in the lateral leads. The patient is diagnosed with acute myocardial infarction involving the lateral wall. What is the most appropriate 'initial' management for this patient?",
+    "answers": [
+      {
+        "option": "Beta blockers",
+        "bool": false
+      },
+      {
+        "option": "Aspirin",
+        "bool": true
+      },
+      {
+        "option": "Ticaglor",
+        "bool": false
+      },
+      {
+        "option": "Percutaneous coronary intervention",
+        "bool": false
+      },
+      {
+        "option": "Fibrinolytic therapy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 50-year-old male with liver cirrhosis develops fever with chills, diffuse abdominal pain, constipation, and confusion. His laboratory reports from 3 days ago showed increased prothrombin time, AST and ALT, and bilirubin. An ultrasound-guided paracentesis is carried out, and peritoneal fluid analysis showed a neutrophil count of 300 x 10^6/L. Bacterial cultures from the peritoneal fluid are awaited. \n\nWhich of the following the best option for the treatment of this patient?",
+    "answers": [
+      {
+        "option": "Norfloxacin",
+        "bool": false
+      },
+      {
+        "option": "Intravenous albumin",
+        "bool": false
+      },
+      {
+        "option": "Spironolactone",
+        "bool": false
+      },
+      {
+        "option": "Ciprofloxacin",
+        "bool": false
+      },
+      {
+        "option": "Cefotaxime",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 34-year-old female presents to the clinic with the complaint of a rash on her skin. The rash was initially only an erythematous macule, which then progressed to become papular and vesicular lesions. Currently, the lesions appear concentric with an inner erythematosus zone, surrounded by a pale zone and an outer erythematous ring. The rash started on the dorsal aspect of both her hands and has progressively spread to involve her arms and trunk. The patient has a past medical history of a UTI 3 weeks back which was treated with trimethoprim/sulfamethoxazole. \n\nWhich of the following is most likely the diagnosis?",
+    "answers": [
+      {
+        "option": "Bullous eruptions",
+        "bool": false
+      },
+      {
+        "option": "Steven-Johnson Syndrome",
+        "bool": false
+      },
+      {
+        "option": "Erythema nodosum",
+        "bool": false
+      },
+      {
+        "option": "Erythema multiforme",
+        "bool": true
+      },
+      {
+        "option": "Erythrodermic psoriasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 34-year-old patient is brought to the emergency room with complaints of jaundice and aggressiveness for 4 days.  Her husband found an empty container of paracetamol 8 days ago. \nWhat is the most likely diagnosis of this patient?",
+    "answers": [
+      {
+        "option": "Subacute liver failure",
+        "bool": false
+      },
+      {
+        "option": "Acute liver failure",
+        "bool": false
+      },
+      {
+        "option": "Cirrhosis",
+        "bool": false
+      },
+      {
+        "option": "Hyperacute liver failure",
+        "bool": true
+      },
+      {
+        "option": "Acute decompensation of chronic liver disease",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 58-year-old woman presents to the outpatient department for a general health checkup. Her blood pressure is 140/100 mm Hg, and her pulse rate is 89 per minute. The rest of her vitals are normal. She is 163 cm tall (5'4\") and weighs 102 kg (225 lbs). Her BMI is 38.4 kg/m². She mentions that she frequently wakes up from her sleep and her husband constantly complains about her snoring. \nThe physician advises her to lose weight for better health, but the patient complains that she has tried multiple times and follows the advice of her nutritionist religiously. She mentions she has heard of bariatric surgery and has been considering it for some time. \nThe physician advises trying medical therapy before moving on to surgical intervention. \n\nWhich of the following medications is usually prescribed to help weight loss only?",
+    "answers": [
+      {
+        "option": "Metformin",
+        "bool": false
+      },
+      {
+        "option": "Sitagliptin",
+        "bool": false
+      },
+      {
+        "option": "Levothyroxine",
+        "bool": false
+      },
+      {
+        "option": "Growth hormone",
+        "bool": false
+      },
+      {
+        "option": "Orlistat",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 63-year-old patient with chronic hepatitis B was brought to the emergency room in a state of confusion and drowsiness. Four days ago he developed constipation, which has not been relieved. On inspection, he is jaundiced and has abdominal distension. \n\nWhich of the following is the most appropriate treatment option for this patient?",
+    "answers": [
+      {
+        "option": "Intravenous fluids",
+        "bool": false
+      },
+      {
+        "option": "Lactulose",
+        "bool": true
+      },
+      {
+        "option": "Low dose prednisone and azathioprine",
+        "bool": false
+      },
+      {
+        "option": "Empiric antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Terlipressin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 30-year-old woman is being treated for inflammatory bowel disease. The physician is considering adding infliximab to her treatment plan. Coexistence of which of the following diseases is a contraindication to the prescription of infliximab?",
+    "answers": [
+      {
+        "option": "Sarcoidosis",
+        "bool": false
+      },
+      {
+        "option": "Asthma",
+        "bool": false
+      },
+      {
+        "option": "Multiple sclerosis",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
+        "bool": true
+      },
+      {
+        "option": "Psoriasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 55-year-old patient who is being treated for pneumonia experiences worsening shortness of breath. Arterial blood gas analysis shows pH = 7.37, PaO2= 55 mmHg, PaCO2 = 30 mmHg, and HCO3= 25 mEq/L. \nWhich of the following is the most likely diagnosis of this patient?",
+    "answers": [
+      {
+        "option": "Acute on chronic type II respiratory failure",
+        "bool": false
+      },
+      {
+        "option": "Acute type II respiratory failure",
+        "bool": false
+      },
+      {
+        "option": "Type I respiratory failure",
+        "bool": true
+      },
+      {
+        "option": "Acute respiratory distress syndrome",
+        "bool": false
+      },
+      {
+        "option": "Compensated respiratory acidosis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A patient with COPD experiences worsening dyspnea and increased frequency and severity of his cough. He is given inhaled ipratropium and albuterol to provide relief. The physician is suspecting acute exacerbation of COPD (AECOPD). Which of the following is the next best step to establish a diagnosis?",
+    "answers": [
+      {
+        "option": "Peak expiratory flow",
+        "bool": false
+      },
+      {
+        "option": "Pulmonary function testing (PFT) before and after bronchodilator",
+        "bool": false
+      },
+      {
+        "option": "SARS-CoV-2 PCR",
+        "bool": false
+      },
+      {
+        "option": "Arterial blood gases",
+        "bool": true
+      },
+      {
+        "option": "Methacholine test",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "5th-year/medicine-1/2021",
+    "question": "The modified Duke's criteria are used to classify the probability of infective endocarditis  (IE) as definitive or possible.  \nThe diagnosis of definitive IE according to Duke's criteria is made when which of the following options is fulfilled?",
+    "answers": [
+      {
+        "option": "≥ 3 minor criteria",
+        "bool": false
+      },
+      {
+        "option": "≥ 1 major criterion PLUS ≥ 1 minor criterion",
+        "bool": false
+      },
+      {
+        "option": "≥ 1 major criterion PLUS ≥ 2 minor criteria",
+        "bool": false
+      },
+      {
+        "option": "≥ 4 minor criteria",
+        "bool": false
+      },
+      {
+        "option": "≥ 2 major criteria",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following is the most common cause of dizziness in patients younger than 65 years?",
+    "answers": [
+      {
+        "option": "Cardiac syncope",
+        "bool": false
+      },
+      {
+        "option": "Anxiety",
+        "bool": true
+      },
+      {
+        "option": "Vasovagal syncope",
+        "bool": false
+      },
+      {
+        "option": "Carotid sinus sensitivity",
+        "bool": false
+      },
+      {
+        "option": "Orthostatic hypotension",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following is the most common cause of syncope in the general population?",
+    "answers": [
+      {
+        "option": "Cardiac syncope",
+        "bool": false
+      },
+      {
+        "option": "Anxiety",
+        "bool": false
+      },
+      {
+        "option": "Micturition syncope",
+        "bool": false
+      },
+      {
+        "option": "Vasovagal (Neurally mediated; reflex) syncope",
+        "bool": true
+      },
+      {
+        "option": "Orthostatic hypotension",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 53-year-old female presents to the clinic with progressive abdominal distention and dyspnea.  On examination, there was shifting dullness. An abdominal ultrasound is carried out to confirm the accumulation of free fluid within the peritoneal cavity. Diagnostic paracentesis is then carried out and analysis of ascitic fluid shows serum-ascites albumin gradient (SAAG) =  1.4 g/dL. \n\nWhich of the following is the most likely diagnosis of this patient?",
+    "answers": [
+      {
+        "option": "Malignancy",
+        "bool": false
+      },
+      {
+        "option": "Nephrotic syndrome",
+        "bool": false
+      },
+      {
+        "option": "Portal hypertension",
+        "bool": true
+      },
+      {
+        "option": "Peritoneal tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Spontaneous bacterial peritonitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 40-year-old female presents to the clinic with complaints of fatigue, muscle weakness, Raynaud's phenomenon, and polyarthritis. Further workup reveals raised anti-SSA and anti-SSB antibodies. Which of the following is the most likely diagnosis in this patient?",
+    "answers": [
+      {
+        "option": "Sjogren syndrome",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": false
+      },
+      {
+        "option": "Systemic sclerosis",
+        "bool": false
+      },
+      {
+        "option": "Systemic lupus erythematosus (SLE)",
+        "bool": true
+      },
+      {
+        "option": "Mixed connective tissue disease (MCTD)",
+        "bool": false
+      },
+      {
+        "option": "Polymyositis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following is the most common cause of bronchiectasis worldwide?",
+    "answers": [
+      {
+        "option": "Whooping cough in childhood",
+        "bool": false
+      },
+      {
+        "option": "Cystic fibrosis",
+        "bool": false
+      },
+      {
+        "option": "Suppurative pneumonia",
+        "bool": false
+      },
+      {
+        "option": "Allergic bronchopulmonary aspergillosis (ABPA)",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 36-year-old male, who is a refugee presents to the clinic with complaints of chronic cough and weight loss. Chest X-ray shows patchy opacification of the middle lobes.  Sputum culture shows the presence of acid-fast bacilli. He has no comorbidites. He is started on anti-tuberculous therapy. Which of the following is the most appropriate combination and duration of treatment?",
+    "answers": [
+      {
+        "option": "12 months of rifampin, isoniazid, pyrazinamide and ethambutol",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid for 6 months",
+        "bool": false
+      },
+      {
+        "option": "Rifampin and isoniazid for 3 months",
+        "bool": false
+      },
+      {
+        "option": "2 months of rifampin, isoniazid, pyrazinamide and ethambutol, and 4 months of rifampin and isoniazid.",
+        "bool": true
+      },
+      {
+        "option": "4 months of rifampin, isoniazid, pyrazinamide and ethambutol, and 2 months of rifampin and isoniazid.",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 35 year-old-female presents to the ER with complaints of blurry vision, loss of central vision, and retrobulbar pain triggered by eye movements. \nWhich of the following is the most likely cause of this patient's signs and symptoms?",
+    "answers": [
+      {
+        "option": "Amiodarone",
+        "bool": false
+      },
+      {
+        "option": "Ethambutol",
+        "bool": true
+      },
+      {
+        "option": "Pyrazinamide",
+        "bool": false
+      },
+      {
+        "option": "Digoxin",
+        "bool": false
+      },
+      {
+        "option": "Glatiramer acetate",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 23-year-old female, with a past medical history of bulimia nervosa, presents to the clinic with complaints of recurrent abdominal pain, bloating, and altered bowel habits, interchanging between diarrhea and constipation. After a thorough history, examinations, and exclusion of other diseases, the physician eventually diagnoses this patient with irritable bowel syndrome. \nWhich of the following is the most appropriate treatment plan for this patient's pain and bloating?",
+    "answers": [
+      {
+        "option": "Spasmolytic drugs",
+        "bool": false
+      },
+      {
+        "option": "Duloxetine",
+        "bool": false
+      },
+      {
+        "option": "Tricyclic antidepressants",
+        "bool": false
+      },
+      {
+        "option": "Reassurance, dietary changes and spasmolytic drugs",
+        "bool": true
+      },
+      {
+        "option": "Psychotherapy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 30-year-old male presents to the clinic with complaints of a fever of 103°F (39.4 °C)  with rigors and chills, dyspnea, and a productive cough. \nOn examination, the patient has a respiratory rate of 21 breaths per minute and thoracic retractions. On auscultation, crackles and decreased breath sounds can be heard in the right upper lobe. \nThe physician makes a provisional clinical diagnosis of lobar pneumonia. Which of the following is the next best investigation?",
+    "answers": [
+      {
+        "option": "CBC",
+        "bool": false
+      },
+      {
+        "option": "Chest X-ray",
+        "bool": true
+      },
+      {
+        "option": "Sputum gram staining, culture and antimicrobial sensitivity testing",
+        "bool": false
+      },
+      {
+        "option": "Diagnostic thoracocentesis",
+        "bool": false
+      },
+      {
+        "option": "Urea and electrolytes",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 64-year-old male with hypertrophic obstructive cardiomyopathy and a previous history of MI presents to the clinic with a complaint of recurrent syncope. Echocardiogram shows an increase in left ventricular wall thickness from last year. \nWhich of the following is the most suitable option to prevent sudden cardiac death in this patient?",
+    "answers": [
+      {
+        "option": "Septal ablation",
+        "bool": false
+      },
+      {
+        "option": "β-blockers",
+        "bool": false
+      },
+      {
+        "option": "Digoxin",
+        "bool": false
+      },
+      {
+        "option": "Implantable cardioverter-defibrillator (ICD)",
+        "bool": true
+      },
+      {
+        "option": "Diltiazem",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following is the most common cause of sudden cardiac death?",
+    "answers": [
+      {
+        "option": "Long QT syndrome",
+        "bool": false
+      },
+      {
+        "option": "Ventricular tachycardia",
+        "bool": false
+      },
+      {
+        "option": "Ventricular fibrillation",
+        "bool": true
+      },
+      {
+        "option": "Hypertrophic cardiomyopathy",
+        "bool": false
+      },
+      {
+        "option": "Severe electrolyte abnormalities",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following is most appropriate for the treatment of bradycardia?",
+    "answers": [
+      {
+        "option": "Verapamil",
+        "bool": false
+      },
+      {
+        "option": "Pralidoxime",
+        "bool": false
+      },
+      {
+        "option": "Intravenous adenosine",
+        "bool": false
+      },
+      {
+        "option": "Intravenous atropine",
+        "bool": true
+      },
+      {
+        "option": "Intravenous magnesium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 9-year-old boy is being evaluated for his gait abnormality and abdominal pain. Upon further assessment, he has hepatosplenomegaly and portal hypertension. His physicians are suspecting Wilson's disease and order blood and urine tests, accordingly. Which of the following combinations are his physicians expecting to see on his laboratory reports?",
+    "answers": [
+      {
+        "option": "High urinary copper, low serum ceruloplasmin, high hepatic copper.",
+        "bool": true
+      },
+      {
+        "option": "Low urinary copper, high serum ceruloplasmin, high hepatic copper.",
+        "bool": false
+      },
+      {
+        "option": "High urinary copper, high serum ceruloplasmin, high hepatic copper.",
+        "bool": false
+      },
+      {
+        "option": "High urinary copper, high serum ceruloplasmin, high hepatic copper, low free copper",
+        "bool": false
+      },
+      {
+        "option": "High urinary copper, low serum ceruloplasmin, high hepatic copper, low free copper",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A patient presents to the ER with a fever, associated with chills and rigors. X-ray shows an elevated right hemidiaphragm and effusions. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Hepatic hydrothorax",
+        "bool": false
+      },
+      {
+        "option": "Spontaneous bacterial peritonitis",
+        "bool": false
+      },
+      {
+        "option": "Hepatopulmonary syndrome",
+        "bool": false
+      },
+      {
+        "option": "Hepatic abscess",
+        "bool": true
+      },
+      {
+        "option": "Acute hepatitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 60-year-old male presents to the clinic with severe epigastric pain radiating to the back, associated with high-grade fever, nausea, and vomiting. A provisional diagnosis of acute pancreatitis is made and physicians are fearing complications. Which of the following is NOT a complication of acute pancreatitis?",
+    "answers": [
+      {
+        "option": "Upper gastrointestinal bleeding",
+        "bool": false
+      },
+      {
+        "option": "Renal failure",
+        "bool": false
+      },
+      {
+        "option": "Systemic hypertension",
+        "bool": true
+      },
+      {
+        "option": "Hemorrhagic pancreatitis",
+        "bool": false
+      },
+      {
+        "option": "Acute respiratory distress syndrome",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Klinefelter syndrome is due to which of the following chromosomal abnormalities?",
+    "answers": [
+      {
+        "option": "48 XXYY",
+        "bool": false
+      },
+      {
+        "option": "47 XXY",
+        "bool": true
+      },
+      {
+        "option": "47 XYY",
+        "bool": false
+      },
+      {
+        "option": "48 XYYY",
+        "bool": false
+      },
+      {
+        "option": "45 XO",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 17-year-old male presents to the clinic with concerns about gynecomastia. He is a tall, slim boy with long extremities. On examination, he has reduced facial and body hair, and small external genitalia. \n\nWhich of the following is most likely the underlying cause of this condition?",
+    "answers": [
+      {
+        "option": "47 XYY",
+        "bool": false
+      },
+      {
+        "option": "47 XX gonadal dysgenesis",
+        "bool": false
+      },
+      {
+        "option": "48 XXYY",
+        "bool": false
+      },
+      {
+        "option": "45 XO",
+        "bool": false
+      },
+      {
+        "option": "47 XXY",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 17-year-old boy presents to the emergency department with several painful nodular and ulcerating lesions on his trunk along with fever and arthralgias for the past 2 days. He has a history of cystic acne for the past 2 years. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Acne conglobata",
+        "bool": false
+      },
+      {
+        "option": "Pomade acne",
+        "bool": false
+      },
+      {
+        "option": "Chloracne",
+        "bool": false
+      },
+      {
+        "option": "Acne excoriée",
+        "bool": false
+      },
+      {
+        "option": "Acne fulminans",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "info": "5th-year/medicine-1/2021",
+    "question": "A 45-year-old woman comes to the emergency department with a widespread rash involving her hands and feet that she noticed one day ago. She also has had low-grade fever and malaise for the past 5 days. Two weeks ago, she was diagnosed with a urinary tract infection and prescribed nitrofurantoin. On examination, several tender, erythematous and blistering lesions are noted on her limbs and face, involving less than 10% of the total body surface along with oral ulcers. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Acute generalized exanthematous pustulosis (AGEP)",
+        "bool": false
+      },
+      {
+        "option": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+        "bool": false
+      },
+      {
+        "option": "Stevens–Johnson syndrome (SJS)",
+        "bool": true
+      },
+      {
+        "option": "Toxic epidermal necrolysis (TEN)",
+        "bool": false
+      },
+      {
+        "option": "Erythroderma",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "info": "5th-year/medicine-1/2021",
+    "question": "Which of the following antituberculous drugs may cause optic neuritis?",
+    "answers": [
+      {
+        "option": "Isoniazid",
+        "bool": false
+      },
+      {
+        "option": "Ethambutol",
+        "bool": true
+      },
+      {
+        "option": "Pyrazinamide",
+        "bool": false
+      },
+      {
+        "option": "Rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Streptomycin",
+        "bool": false
+      }
+    ]
+  }
+]

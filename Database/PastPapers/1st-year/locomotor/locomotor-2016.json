@@ -5,6 +5,14 @@
     "question": "Which of the following bacteria causes botulism?",
     "answers": [
       {
+        "option": "Clostridium botulinum",
+        "bool": true
+      },
+      {
+        "option": "Clostridium difficile",
+        "bool": false
+      },
+      {
         "option": "Clostridium septicum",
         "bool": false
       },
@@ -15,14 +23,6 @@
       {
         "option": "Clostridium tetani",
         "bool": false
-      },
-      {
-        "option": "Clostridium botulinum",
-        "bool": true
-      },
-      {
-        "option": "Clostridium difficile",
-        "bool": false
       }
     ]
   },
@@ -32,7 +32,7 @@
     "question": "Which of the following structures pass through the saphenous opening?",
     "answers": [
       {
-        "option": "Small saphenous vein and its tributaries",
+        "option": "Superficial inguinal lymph node",
         "bool": false
       },
       {
@@ -44,11 +44,11 @@
         "bool": true
       },
       {
-        "option": "Superficial inguinal lymph node",
+        "option": "Femoral vein",
         "bool": false
       },
       {
-        "option": "Femoral vein",
+        "option": "Small saphenous vein and its tributaries",
         "bool": false
       }
     ]
@@ -67,7 +67,7 @@
         "bool": false
       },
       {
-        "option": "Anterior tibial artery",
+        "option": "Inferior medial genicular artery",
         "bool": false
       },
       {
@@ -75,7 +75,7 @@
         "bool": true
       },
       {
-        "option": "Inferior medial genicular artery",
+        "option": "Anterior tibial artery",
         "bool": false
       }
     ]
@@ -85,6 +85,14 @@
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following muscles pass through the greater sciatic foramen?",
     "answers": [
+      {
+        "option": "Obturator externus",
+        "bool": false
+      },
+      {
+        "option": "Obturator internus",
+        "bool": false
+      },
       {
         "option": "Quadratus femoris",
         "bool": false
@@ -96,14 +104,6 @@
       {
         "option": "Piriformis",
         "bool": true
-      },
-      {
-        "option": "Obturator internus",
-        "bool": false
-      },
-      {
-        "option": "Obturator externus",
-        "bool": false
       }
     ]
   },
@@ -113,24 +113,24 @@
     "question": "What are the contents of the femoral sheath from the lateral to the medial side?",
     "answers": [
       {
-        "option": "Femoral nerve, femoral artery, and the femoral vein",
-        "bool": false
-      },
-      {
-        "option": "Femoral vein, femoral artery, and the femoral nerve",
-        "bool": false
-      },
-      {
-        "option": "Femoral vein, femoral artery, and the lymphatic vessels",
-        "bool": false
-      },
-      {
         "option": "Femoral nerve, femoral artery, femoral vein, and the inguinal lymph nodes",
         "bool": false
       },
       {
         "option": "Femoral artery, femoral vein, and the lymphatic vessels",
         "bool": true
+      },
+      {
+        "option": "Femoral vein, femoral artery, and the lymphatic vessels",
+        "bool": false
+      },
+      {
+        "option": "Femoral nerve, femoral artery, and the femoral vein",
+        "bool": false
+      },
+      {
+        "option": "Femoral vein, femoral artery, and the femoral nerve",
+        "bool": false
       }
     ]
   },
@@ -140,19 +140,19 @@
     "question": "Which of the following structures are present in the femoral canal?",
     "answers": [
       {
-        "option": "Femoral nerve",
-        "bool": false
-      },
-      {
-        "option": "Femoral artery",
-        "bool": false
-      },
-      {
         "option": "Lymphatic vessels and sometimes deep inguinal lymph nodes",
         "bool": true
       },
       {
         "option": "Femoral vein",
+        "bool": false
+      },
+      {
+        "option": "Femoral nerve",
+        "bool": false
+      },
+      {
+        "option": "Femoral artery",
         "bool": false
       },
       {
@@ -167,23 +167,23 @@
     "question": "The femoral sheath is formed by which of the following layers of fascia?",
     "answers": [
       {
-        "option": "the pectineus fascia",
-        "bool": false
-      },
-      {
         "option": "The fascia iliaca and fascia transversalis",
         "bool": true
+      },
+      {
+        "option": "The processes vaginalis",
+        "bool": false
       },
       {
         "option": "The fascia lata and the membranous layer of the superficial fascia",
         "bool": false
       },
       {
-        "option": "The psoas fascia and the fatty layer of the superficial fascia",
+        "option": "the pectineus fascia",
         "bool": false
       },
       {
-        "option": "The processes vaginalis",
+        "option": "The psoas fascia and the fatty layer of the superficial fascia",
         "bool": false
       }
     ]
@@ -194,7 +194,7 @@
     "question": "Which of the following is the longest muscle in the human body?",
     "answers": [
       {
-        "option": "Psoas major",
+        "option": "Pectineus",
         "bool": false
       },
       {
@@ -202,15 +202,15 @@
         "bool": true
       },
       {
+        "option": "Psoas major",
+        "bool": false
+      },
+      {
         "option": "Iliacus",
         "bool": false
       },
       {
         "option": "Vastus medialis",
-        "bool": false
-      },
-      {
-        "option": "Pectineus",
         "bool": false
       }
     ]
@@ -220,6 +220,14 @@
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following muscles is not a part of the hamstring group?",
     "answers": [
+      {
+        "option": "Hamstring portion of adductor magnus",
+        "bool": false
+      },
+      {
+        "option": "Long head of biceps femoris",
+        "bool": false
+      },
       {
         "option": "Semimembranosus",
         "bool": false
@@ -231,14 +239,6 @@
       {
         "option": "Semitendinosus",
         "bool": false
-      },
-      {
-        "option": "Long head of biceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Hamstring portion of adductor magnus",
-        "bool": false
       }
     ]
   },
@@ -248,23 +248,23 @@
     "question": "At the postsynaptic membrane in the neuromuscular junction, action potentials are transmitted from axons to muscle fibers by the binding of acetylcholine to its receptor. Which of the following channels open as a result of this binding?",
     "answers": [
       {
-        "option": "Na\u207a channels",
-        "bool": true
-      },
-      {
         "option": "Ryanodine channels",
         "bool": false
       },
       {
+        "option": "Na⁺ channels",
+        "bool": true
+      },
+      {
+        "option": "K⁺ channels",
+        "bool": false
+      },
+      {
+        "option": "Mg⁺² channels",
+        "bool": false
+      },
+      {
         "option": "Dihydropyridine channels",
-        "bool": false
-      },
-      {
-        "option": "K\u207a channels",
-        "bool": false
-      },
-      {
-        "option": "Mg\u207a\u00b2 channels",
         "bool": false
       }
     ]
@@ -279,7 +279,11 @@
         "bool": false
       },
       {
-        "option": "Osteoprogenitor cells",
+        "option": "Osteocytes",
+        "bool": false
+      },
+      {
+        "option": "Chondrocytes",
         "bool": false
       },
       {
@@ -287,11 +291,7 @@
         "bool": true
       },
       {
-        "option": "Osteocytes",
-        "bool": false
-      },
-      {
-        "option": "Chondrocytes",
+        "option": "Osteoprogenitor cells",
         "bool": false
       }
     ]
@@ -302,11 +302,11 @@
     "question": "Which of the following is incorrect regarding the lamellae of bone?",
     "answers": [
       {
-        "option": "Osteoclasts lie within lacunae",
+        "option": "Lamellae are parallel to each other",
         "bool": false
       },
       {
-        "option": "Lamellae of woven bone are irregular",
+        "option": "Osteoclasts lie within lacunae",
         "bool": false
       },
       {
@@ -318,7 +318,7 @@
         "bool": false
       },
       {
-        "option": "Lamellae are parallel to each other",
+        "option": "Lamellae of woven bone are irregular",
         "bool": false
       }
     ]
@@ -333,7 +333,7 @@
         "bool": true
       },
       {
-        "option": "Transverse tarsal and tibiotalar joint",
+        "option": "Talocrural and talocalcanial joint",
         "bool": false
       },
       {
@@ -345,7 +345,7 @@
         "bool": false
       },
       {
-        "option": "Talocrural and talocalcanial joint",
+        "option": "Transverse tarsal and tibiotalar joint",
         "bool": false
       }
     ]
@@ -356,7 +356,7 @@
     "question": "Which of the following is the keystone of the medial longitudinal arch of the foot?",
     "answers": [
       {
-        "option": "Navicular bone",
+        "option": "Calcaneal tubercle",
         "bool": false
       },
       {
@@ -364,15 +364,15 @@
         "bool": true
       },
       {
-        "option": "Medial cuneiform bone",
-        "bool": false
-      },
-      {
-        "option": "Calcaneal tubercle",
-        "bool": false
-      },
-      {
         "option": "Metatarsals",
+        "bool": false
+      },
+      {
+        "option": "Navicular bone",
+        "bool": false
+      },
+      {
+        "option": "Medial cuneiform bone",
         "bool": false
       }
     ]
@@ -383,19 +383,19 @@
     "question": "Injury to which of the following nerve causes winging of the scapula?",
     "answers": [
       {
-        "option": "Long thoracic nerve",
-        "bool": true
-      },
-      {
-        "option": "Medial pectoral nerve",
-        "bool": false
-      },
-      {
         "option": "Lateral pectoral nerve",
         "bool": false
       },
       {
+        "option": "Long thoracic nerve",
+        "bool": true
+      },
+      {
         "option": "Dorsal scapular nerve",
+        "bool": false
+      },
+      {
+        "option": "Medial pectoral nerve",
         "bool": false
       },
       {
@@ -410,7 +410,15 @@
     "question": "Which of the following is not a part of the anterior compartment of the arm?",
     "answers": [
       {
+        "option": "Brachial artery",
+        "bool": false
+      },
+      {
         "option": "Coracobrachialis",
+        "bool": false
+      },
+      {
+        "option": "Biceps brachii",
         "bool": false
       },
       {
@@ -418,16 +426,8 @@
         "bool": false
       },
       {
-        "option": "Brachial artery",
-        "bool": false
-      },
-      {
         "option": "Radial nerve",
         "bool": true
-      },
-      {
-        "option": "Biceps brachii",
-        "bool": false
       }
     ]
   },
@@ -437,23 +437,23 @@
     "question": "Damage to which pair of nerves is responsible for loss of inversion of the foot?",
     "answers": [
       {
-        "option": "Tibial and common peroneal nerve",
-        "bool": false
-      },
-      {
-        "option": "Superficial and deep peroneal nerve",
-        "bool": false
-      },
-      {
         "option": "Deep peroneal and tibial nerve",
         "bool": true
+      },
+      {
+        "option": "Superficial peroneal and sural nerve",
+        "bool": false
+      },
+      {
+        "option": "Tibial and common peroneal nerve",
+        "bool": false
       },
       {
         "option": "Superficial peroneal and tibial nerve",
         "bool": false
       },
       {
-        "option": "Superficial peroneal and sural nerve",
+        "option": "Superficial and deep peroneal nerve",
         "bool": false
       }
     ]
@@ -464,24 +464,24 @@
     "question": "Which of the following muscles is present in the bicipital groove?",
     "answers": [
       {
-        "option": "Long head of triceps brachii",
-        "bool": false
-      },
-      {
-        "option": "Deltoid",
-        "bool": false
-      },
-      {
         "option": "Short head of triceps brachii",
         "bool": false
+      },
+      {
+        "option": "Long head of biceps brachii",
+        "bool": true
       },
       {
         "option": "Short head of biceps brachii",
         "bool": false
       },
       {
-        "option": "Long head of biceps brachii",
-        "bool": true
+        "option": "Long head of triceps brachii",
+        "bool": false
+      },
+      {
+        "option": "Deltoid",
+        "bool": false
       }
     ]
   },
@@ -490,6 +490,14 @@
     "info": "1st-year/locomotor/2016",
     "question": "Which cofactor is necessary for hydroxylation during collagen synthesis?",
     "answers": [
+      {
+        "option": "Calcitriol",
+        "bool": false
+      },
+      {
+        "option": "Retinol",
+        "bool": false
+      },
       {
         "option": "Cholecalciferol",
         "bool": false
@@ -501,14 +509,6 @@
       {
         "option": "Folate",
         "bool": false
-      },
-      {
-        "option": "Calcitriol",
-        "bool": false
-      },
-      {
-        "option": "Retinol",
-        "bool": false
       }
     ]
   },
@@ -518,7 +518,7 @@
     "question": "Which muscle is most likely to be impaired when a person is unable to flex, abduct, and laterally rotate his thigh?",
     "answers": [
       {
-        "option": "Gluteus medius",
+        "option": "Gracilis",
         "bool": false
       },
       {
@@ -526,15 +526,15 @@
         "bool": true
       },
       {
-        "option": "Gracilis",
-        "bool": false
-      },
-      {
         "option": "Obturator externus",
         "bool": false
       },
       {
         "option": "Adductor longus",
+        "bool": false
+      },
+      {
+        "option": "Gluteus medius",
         "bool": false
       }
     ]
@@ -544,14 +544,6 @@
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following arteries does not supply the knee joint?",
     "answers": [
-      {
-        "option": "Inferior gluteal artery",
-        "bool": true
-      },
-      {
-        "option": "Femoral artery",
-        "bool": false
-      },
       {
         "option": "Anterior tibial artery",
         "bool": false
@@ -563,6 +555,14 @@
       {
         "option": "Lateral femoral circumflex artery",
         "bool": false
+      },
+      {
+        "option": "Femoral artery",
+        "bool": false
+      },
+      {
+        "option": "Inferior gluteal artery",
+        "bool": true
       }
     ]
   },
@@ -572,15 +572,15 @@
     "question": "Which of the following is the most important stabilizer of the shoulder joint?",
     "answers": [
       {
-        "option": "Trapezius muscle",
-        "bool": false
-      },
-      {
         "option": "Rotator cuff muscles",
         "bool": true
       },
       {
         "option": "Deltoid muscle",
+        "bool": false
+      },
+      {
+        "option": "Trapezius muscle",
         "bool": false
       },
       {
@@ -599,11 +599,11 @@
     "question": "Which of the following amino acids is present at every third position in collagen?",
     "answers": [
       {
-        "option": "Hydroxyproline",
+        "option": "Proline",
         "bool": false
       },
       {
-        "option": "Proline",
+        "option": "Hydroxyproline",
         "bool": false
       },
       {
@@ -626,15 +626,7 @@
     "question": "Extraembryonic mesoderm is present in between which of the following?",
     "answers": [
       {
-        "option": "Exocoelomic membrane and cytotrophoblast",
-        "bool": true
-      },
-      {
         "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Syncytiotrophoblast and cytotrophoblast",
         "bool": false
       },
       {
@@ -644,6 +636,14 @@
       {
         "option": "Extraembryonic membrane and cytotrophoblast",
         "bool": false
+      },
+      {
+        "option": "Syncytiotrophoblast and cytotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Exocoelomic membrane and cytotrophoblast",
+        "bool": true
       }
     ]
   },
@@ -653,23 +653,23 @@
     "question": "The femoral artery is the continuation of which of the following?",
     "answers": [
       {
-        "option": "External iliac artery at the level of the inguinal ligament",
-        "bool": false
-      },
-      {
         "option": "External iliac artery above the inguinal ligament",
         "bool": false
       },
       {
-        "option": "Internal iliac artery at the level of the inguinal ligament",
+        "option": "Internal iliac artery above the inguinal ligament",
         "bool": false
       },
       {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "External iliac artery at the level of the inguinal ligament",
         "bool": true
       },
       {
-        "option": "Internal iliac artery above the inguinal ligament",
+        "option": "Internal iliac artery at the level of the inguinal ligament",
         "bool": false
       }
     ]
@@ -680,11 +680,7 @@
     "question": "There are two types of pain, fast and slow pain. The fast type of pain is carried by which of the following fibers?",
     "answers": [
       {
-        "option": "A-delta",
-        "bool": true
-      },
-      {
-        "option": "A-alpha",
+        "option": "A-beta",
         "bool": false
       },
       {
@@ -692,11 +688,15 @@
         "bool": false
       },
       {
-        "option": "A-beta",
-        "bool": false
+        "option": "A-delta",
+        "bool": true
       },
       {
         "option": "C",
+        "bool": false
+      },
+      {
+        "option": "A-alpha",
         "bool": false
       }
     ]
@@ -707,6 +707,10 @@
     "question": "Which of the following is inappropriate for leflunomide?",
     "answers": [
       {
+        "option": "Prodrug",
+        "bool": false
+      },
+      {
         "option": "Short lifetime",
         "bool": true
       },
@@ -715,15 +719,11 @@
         "bool": false
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Alopecia",
         "bool": false
       },
       {
-        "option": "Prodrug",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -734,11 +734,11 @@
     "question": "Which of the following signifies the action of Botulinum toxin?",
     "answers": [
       {
-        "option": "Blocks the release of acetylcholine",
-        "bool": true
+        "option": "Breaks down the acetylcholine",
+        "bool": false
       },
       {
-        "option": "Breaks down the acetylcholine",
+        "option": "Blocks the uptake of acetylcholine",
         "bool": false
       },
       {
@@ -746,11 +746,11 @@
         "bool": false
       },
       {
-        "option": "Decreases the formation of acetylcholine",
-        "bool": false
+        "option": "Blocks the release of acetylcholine",
+        "bool": true
       },
       {
-        "option": "Blocks the uptake of acetylcholine",
+        "option": "Decreases the formation of acetylcholine",
         "bool": false
       }
     ]
@@ -761,15 +761,15 @@
     "question": "Which of the following is not a stage for health promotion and education?",
     "answers": [
       {
-        "option": "Legislation",
-        "bool": true
+        "option": "Community transformation",
+        "bool": false
       },
       {
         "option": "Education",
         "bool": false
       },
       {
-        "option": "Community transformation",
+        "option": "Publicity",
         "bool": false
       },
       {
@@ -777,8 +777,8 @@
         "bool": false
       },
       {
-        "option": "Publicity",
-        "bool": false
+        "option": "Legislation",
+        "bool": true
       }
     ]
   },
@@ -788,15 +788,7 @@
     "question": "Which of the following is the largest protein in sarcomere?",
     "answers": [
       {
-        "option": "Tropomodulin",
-        "bool": false
-      },
-      {
-        "option": "Actin",
-        "bool": false
-      },
-      {
-        "option": "Myosin",
+        "option": "All of these",
         "bool": false
       },
       {
@@ -804,7 +796,15 @@
         "bool": true
       },
       {
-        "option": "All of these",
+        "option": "Myosin",
+        "bool": false
+      },
+      {
+        "option": "Actin",
+        "bool": false
+      },
+      {
+        "option": "Tropomodulin",
         "bool": false
       }
     ]
@@ -815,7 +815,11 @@
     "question": "A malignant melanoma (cancer) of the skin covering the buttocks may spread via the lymphatics through which of the following nodes?",
     "answers": [
       {
-        "option": "Internal iliac node",
+        "option": "Horizontal group of superficial inguinal node",
+        "bool": true
+      },
+      {
+        "option": "Vertical group of superficial inguinal node",
         "bool": false
       },
       {
@@ -827,12 +831,8 @@
         "bool": false
       },
       {
-        "option": "Vertical group of superficial inguinal node",
+        "option": "Internal iliac node",
         "bool": false
-      },
-      {
-        "option": "Horizontal group of superficial inguinal node",
-        "bool": true
       }
     ]
   },
@@ -846,7 +846,7 @@
         "bool": false
       },
       {
-        "option": "Supraspinatus",
+        "option": "Deltoid",
         "bool": false
       },
       {
@@ -858,7 +858,7 @@
         "bool": false
       },
       {
-        "option": "Deltoid",
+        "option": "Supraspinatus",
         "bool": false
       }
     ]
@@ -869,19 +869,19 @@
     "question": "Which of the following muscles is/are found in the trochanteric fossa?",
     "answers": [
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
-        "option": "Obturator externus, superior gemellus, and inferior gemellus",
-        "bool": false
-      },
-      {
         "option": "Obturator internus",
         "bool": false
       },
       {
         "option": "Obturator externus",
+        "bool": false
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Obturator externus, superior gemellus, and inferior gemellus",
         "bool": false
       },
       {
@@ -893,8 +893,39 @@
   {
     "id": 33,
     "info": "1st-year/locomotor/2016",
+    "question": "Which of the following structures is related to the biceps brachii muscle?",
+    "answers": [
+      {
+        "option": "Axillary nerve",
+        "bool": false
+      },
+      {
+        "option": "Radial groove",
+        "bool": false
+      },
+      {
+        "option": "Bicipital aponeurosis",
+        "bool": false
+      },
+      {
+        "option": "Bicipital groove",
+        "bool": false
+      },
+      {
+        "option": "Musculocutaneous nerve",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "info": "1st-year/locomotor/2016",
     "question": "What is the root value of the common peroneal nerve?",
     "answers": [
+      {
+        "option": "S2 to S4",
+        "bool": false
+      },
       {
         "option": "L4 to S2",
         "bool": true
@@ -904,24 +935,24 @@
         "bool": false
       },
       {
-        "option": "S2 to S4",
+        "option": "S3 to S4",
         "bool": false
       },
       {
         "option": "T2 to T6",
         "bool": false
-      },
-      {
-        "option": "S3 to S4",
-        "bool": false
       }
     ]
   },
   {
-    "id": 34,
+    "id": 35,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following muscles holds fractured clavicle in order to prevent damage to the subclavian vein?",
     "answers": [
+      {
+        "option": "Deltoid",
+        "bool": false
+      },
       {
         "option": "Subclavius",
         "bool": true
@@ -935,38 +966,7 @@
         "bool": false
       },
       {
-        "option": "Deltoid",
-        "bool": false
-      },
-      {
         "option": "Sternocleidomastoid",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following pertains to the word 'autonomy'?",
-    "answers": [
-      {
-        "option": "Work in patient's best interest",
-        "bool": false
-      },
-      {
-        "option": "Equal distribution of medical services",
-        "bool": false
-      },
-      {
-        "option": "Do no harm",
-        "bool": false
-      },
-      {
-        "option": "Self rule",
-        "bool": true
-      },
-      {
-        "option": "Working with respect to hospital's management",
         "bool": false
       }
     ]
@@ -974,16 +974,35 @@
   {
     "id": 36,
     "info": "1st-year/locomotor/2016",
-    "question": "A patient has suffered a fracture of the surgical neck of the humerus. Which muscle is most likely to be weakened?",
+    "question": "Which of the following pertains to the word 'autonomy'?",
     "answers": [
       {
-        "option": "Biceps brachii",
+        "option": "Working with respect to hospital's management",
         "bool": false
       },
       {
-        "option": "Pectoralis major",
+        "option": "Self rule",
+        "bool": true
+      },
+      {
+        "option": "Do no harm",
         "bool": false
       },
+      {
+        "option": "Equal distribution of medical services",
+        "bool": false
+      },
+      {
+        "option": "Work in patient's best interest",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "info": "1st-year/locomotor/2016",
+    "question": "A patient has suffered a fracture of the surgical neck of the humerus. Which muscle is most likely to be weakened?",
+    "answers": [
       {
         "option": "Deltoid",
         "bool": true
@@ -995,24 +1014,24 @@
       {
         "option": "Supraspinatus",
         "bool": false
+      },
+      {
+        "option": "Biceps brachii",
+        "bool": false
+      },
+      {
+        "option": "Pectoralis major",
+        "bool": false
       }
     ]
   },
   {
-    "id": 37,
+    "id": 38,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following proteins is involved in the formation of the cross bridge in the muscle?",
     "answers": [
       {
-        "option": "Tropomodulin",
-        "bool": false
-      },
-      {
-        "option": "Myosin",
-        "bool": true
-      },
-      {
-        "option": "Titin",
+        "option": "Actin",
         "bool": false
       },
       {
@@ -1020,13 +1039,21 @@
         "bool": false
       },
       {
-        "option": "Actin",
+        "option": "Titin",
+        "bool": false
+      },
+      {
+        "option": "Myosin",
+        "bool": true
+      },
+      {
+        "option": "Tropomodulin",
         "bool": false
       }
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "info": "1st-year/locomotor/2016",
     "question": "Which vitamin deficiency can cause problems with healing?",
     "answers": [
@@ -1053,13 +1080,13 @@
     ]
   },
   {
-    "id": 39,
+    "id": 40,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following substances acts as a vasoconstrictor?",
     "answers": [
       {
-        "option": "Dopamine",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
         "option": "Aspartate",
@@ -1070,28 +1097,20 @@
         "bool": false
       },
       {
-        "option": "Glutamate",
-        "bool": false
+        "option": "Dopamine",
+        "bool": true
       },
       {
-        "option": "None of these",
+        "option": "Glutamate",
         "bool": false
       }
     ]
   },
   {
-    "id": 40,
+    "id": 41,
     "info": "1st-year/locomotor/2016",
     "question": "According to the sensory classification of nerve fibers, which of the following arise from the annulospiral endings of muscle spindles?",
     "answers": [
-      {
-        "option": "A delta",
-        "bool": false
-      },
-      {
-        "option": "A beta",
-        "bool": false
-      },
       {
         "option": "All of these",
         "bool": false
@@ -1101,13 +1120,21 @@
         "bool": false
       },
       {
+        "option": "A delta",
+        "bool": false
+      },
+      {
         "option": "A alpha",
         "bool": true
+      },
+      {
+        "option": "A beta",
+        "bool": false
       }
     ]
   },
   {
-    "id": 41,
+    "id": 42,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following occurs in acetaminophen overdose?",
     "answers": [
@@ -1116,7 +1143,7 @@
         "bool": true
       },
       {
-        "option": "Status asthmaticus",
+        "option": "Status epilepticus",
         "bool": false
       },
       {
@@ -1124,28 +1151,20 @@
         "bool": false
       },
       {
-        "option": "AV conduction disturbance",
+        "option": "Status asthmaticus",
         "bool": false
       },
       {
-        "option": "Status epilepticus",
+        "option": "AV conduction disturbance",
         "bool": false
       }
     ]
   },
   {
-    "id": 42,
+    "id": 43,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following muscles is supplied by the common peroneal nerve?",
     "answers": [
-      {
-        "option": "Long head of biceps femoris",
-        "bool": false
-      },
-      {
-        "option": "Semitendinous",
-        "bool": false
-      },
       {
         "option": "Short head of biceps femoris",
         "bool": true
@@ -1155,22 +1174,26 @@
         "bool": false
       },
       {
+        "option": "Semitendinous",
+        "bool": false
+      },
+      {
         "option": "Semimembranosus",
+        "bool": false
+      },
+      {
+        "option": "Long head of biceps femoris",
         "bool": false
       }
     ]
   },
   {
-    "id": 43,
+    "id": 44,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following is true regarding rigor mortis?",
     "answers": [
       {
-        "option": "It occurs before the death",
-        "bool": false
-      },
-      {
-        "option": "It is also called instantaneous rigor",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -1178,7 +1201,11 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "It is also called instantaneous rigor",
+        "bool": false
+      },
+      {
+        "option": "It occurs before the death",
         "bool": false
       },
       {
@@ -1188,18 +1215,37 @@
     ]
   },
   {
-    "id": 44,
+    "id": 45,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following muscles is the largest muscle of the body?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Gluteus minimus",
+        "bool": false
+      },
+      {
+        "option": "Gastrocnemius",
+        "bool": false
+      },
+      {
+        "option": "Gluteus maximus",
+        "bool": true
+      },
+      {
+        "option": "Sartorius",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 46,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following protein is found in bone?",
     "answers": [
-      {
-        "option": "Fibronectin",
-        "bool": false
-      },
-      {
-        "option": "Type III collagen",
-        "bool": false
-      },
       {
         "option": "Type I collagen",
         "bool": true
@@ -1209,22 +1255,30 @@
         "bool": false
       },
       {
+        "option": "Type III collagen",
+        "bool": false
+      },
+      {
         "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Fibronectin",
         "bool": false
       }
     ]
   },
   {
-    "id": 45,
+    "id": 47,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following metacarpals is missing in lobster claw deformity?",
     "answers": [
       {
-        "option": "5th",
+        "option": "1st",
         "bool": false
       },
       {
-        "option": "1st",
+        "option": "5th",
         "bool": false
       },
       {
@@ -1242,39 +1296,16 @@
     ]
   },
   {
-    "id": 46,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following muscles is the largest muscle of the body?",
-    "answers": [
-      {
-        "option": "Sartorius",
-        "bool": false
-      },
-      {
-        "option": "Gluteus minimus",
-        "bool": false
-      },
-      {
-        "option": "Gluteus maximus",
-        "bool": true
-      },
-      {
-        "option": "Gastrocnemius",
-        "bool": false
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 47,
+    "id": 48,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following investigations is non-ionizing?",
     "answers": [
       {
-        "option": "Mammography",
+        "option": "X-ray",
+        "bool": false
+      },
+      {
+        "option": "Computed tomography scan",
         "bool": false
       },
       {
@@ -1282,30 +1313,30 @@
         "bool": true
       },
       {
-        "option": "Computed tomography scan",
-        "bool": false
-      },
-      {
         "option": "Fluroscopy",
         "bool": false
       },
       {
-        "option": "X-ray",
+        "option": "Mammography",
         "bool": false
       }
     ]
   },
   {
-    "id": 48,
+    "id": 49,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following is true for smooth muscles?",
     "answers": [
+      {
+        "option": "One type of smooth muscle",
+        "bool": false
+      },
       {
         "option": "Is in voluntary control",
         "bool": false
       },
       {
-        "option": "One type of smooth muscle",
+        "option": "Joined by intercalated discs",
         "bool": false
       },
       {
@@ -1315,33 +1346,29 @@
       {
         "option": "Works as a syncytium",
         "bool": false
-      },
-      {
-        "option": "Joined by intercalated discs",
-        "bool": false
       }
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "info": "1st-year/locomotor/2016",
     "question": "What happens to the A band of a sarcomere during the contraction of skeletal muscles?",
     "answers": [
-      {
-        "option": "Move away from one another",
-        "bool": false
-      },
       {
         "option": "Z discs move away from each other",
         "bool": false
       },
       {
-        "option": "Remains the same length",
-        "bool": true
-      },
-      {
         "option": "Length decreases",
         "bool": false
+      },
+      {
+        "option": "Move away from one another",
+        "bool": false
+      },
+      {
+        "option": "Remains the same length",
+        "bool": true
       },
       {
         "option": "Length increases",
@@ -1350,12 +1377,16 @@
     ]
   },
   {
-    "id": 50,
+    "id": 51,
     "info": "1st-year/locomotor/2016",
     "question": "The adductor canal is located in which region of the thigh?",
     "answers": [
       {
-        "option": "Lower third of thigh",
+        "option": "Upper third of thigh",
+        "bool": false
+      },
+      {
+        "option": "Posterior thigh",
         "bool": false
       },
       {
@@ -1363,26 +1394,22 @@
         "bool": false
       },
       {
+        "option": "Lower third of thigh",
+        "bool": false
+      },
+      {
         "option": "Middle third of thigh",
         "bool": true
-      },
-      {
-        "option": "Posterior thigh",
-        "bool": false
-      },
-      {
-        "option": "Upper third of thigh",
-        "bool": false
       }
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following options about action potentials in skeletal muscles is correct?",
     "answers": [
       {
-        "option": "Spread slower than in cardiac muscle",
+        "option": "Occurs when potential is below threshold for activation",
         "bool": false
       },
       {
@@ -1390,11 +1417,11 @@
         "bool": false
       },
       {
-        "option": "Has an extended plateau phase due to calcium entry",
+        "option": "Spread slower than in cardiac muscle",
         "bool": false
       },
       {
-        "option": "Occurs when potential is below threshold for activation",
+        "option": "Has an extended plateau phase due to calcium entry",
         "bool": false
       },
       {
@@ -1404,12 +1431,12 @@
     ]
   },
   {
-    "id": 52,
+    "id": 53,
     "info": "1st-year/locomotor/2016",
     "question": "During which period of development does the primary ossification center of the scapula develop?",
     "answers": [
       {
-        "option": "At birth",
+        "option": "5 weeks in utero",
         "bool": false
       },
       {
@@ -1417,30 +1444,26 @@
         "bool": false
       },
       {
-        "option": "8 weeks in utero",
-        "bool": true
+        "option": "At birth",
+        "bool": false
       },
       {
         "option": "At puberty",
         "bool": false
       },
       {
-        "option": "5 weeks in utero",
-        "bool": false
+        "option": "8 weeks in utero",
+        "bool": true
       }
     ]
   },
   {
-    "id": 53,
+    "id": 54,
     "info": "1st-year/locomotor/2016",
     "question": "A 60-year-old male presents to the emergency department with a penetrating knife wound to his left gluteal region. After safe removal of the penetrating knife, a physical examination is carried out that reveals a 'waddling gait' characterized by a pelvic drop towards the right side at each step. Which of the following nerves has most likely been damaged as a result of this injury?",
     "answers": [
       {
-        "option": "Obturator nerve",
-        "bool": false
-      },
-      {
-        "option": "Inferior gluteal nerve",
+        "option": "Nerve to obturator internus",
         "bool": false
       },
       {
@@ -1452,13 +1475,17 @@
         "bool": false
       },
       {
-        "option": "Nerve to obturator internus",
+        "option": "Inferior gluteal nerve",
+        "bool": false
+      },
+      {
+        "option": "Obturator nerve",
         "bool": false
       }
     ]
   },
   {
-    "id": 54,
+    "id": 55,
     "info": "1st-year/locomotor/2016",
     "question": "A boy was unable to raise his arm above the shoulder level due to damage to a nerve. This nerve supplies which of the following muscles?",
     "answers": [
@@ -1467,11 +1494,11 @@
         "bool": false
       },
       {
-        "option": "Deltoid",
-        "bool": false
+        "option": "Serratus anterior",
+        "bool": true
       },
       {
-        "option": "Supraspinatus",
+        "option": "Deltoid",
         "bool": false
       },
       {
@@ -1479,31 +1506,31 @@
         "bool": false
       },
       {
-        "option": "Serratus anterior",
-        "bool": true
+        "option": "Supraspinatus",
+        "bool": false
       }
     ]
   },
   {
-    "id": 55,
+    "id": 56,
     "info": "1st-year/locomotor/2016",
     "question": "What type of joint is the wrist joint?",
     "answers": [
       {
-        "option": "Ellipsoidal synovial joint",
-        "bool": true
+        "option": "Saddle joint",
+        "bool": false
       },
       {
         "option": "Pivot joint",
         "bool": false
       },
       {
-        "option": "Saddle joint",
+        "option": "Hinge joint",
         "bool": false
       },
       {
-        "option": "Hinge joint",
-        "bool": false
+        "option": "Ellipsoidal synovial joint",
+        "bool": true
       },
       {
         "option": "Secondary cartilaginous joint",
@@ -1512,12 +1539,20 @@
     ]
   },
   {
-    "id": 56,
+    "id": 57,
     "info": "1st-year/locomotor/2016",
     "question": "Where does cartilage originate from?",
     "answers": [
       {
-        "option": "Proctoderm",
+        "option": "Mesoderm",
+        "bool": true
+      },
+      {
+        "option": "Endoderm",
+        "bool": false
+      },
+      {
+        "option": "Ectoderm",
         "bool": false
       },
       {
@@ -1525,34 +1560,26 @@
         "bool": false
       },
       {
-        "option": "Mesoderm",
-        "bool": true
-      },
-      {
-        "option": "Ectoderm",
-        "bool": false
-      },
-      {
-        "option": "Endoderm",
+        "option": "Proctoderm",
         "bool": false
       }
     ]
   },
   {
-    "id": 57,
+    "id": 58,
     "info": "1st-year/locomotor/2016",
-    "question": "In whom is breast cancer more common?",
+    "question": "In which population is breast cancer more common?",
     "answers": [
+      {
+        "option": "Diabetics",
+        "bool": false
+      },
       {
         "option": "Multiparous women",
         "bool": false
       },
       {
         "option": "Primiparity",
-        "bool": false
-      },
-      {
-        "option": "Diabetics",
         "bool": false
       },
       {
@@ -1566,12 +1593,12 @@
     ]
   },
   {
-    "id": 58,
+    "id": 59,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following muscles is the primary flexor of the hip joint?",
     "answers": [
       {
-        "option": "Pectineus",
+        "option": "Rectus femoris",
         "bool": false
       },
       {
@@ -1579,42 +1606,15 @@
         "bool": true
       },
       {
-        "option": "Rectus femoris",
-        "bool": false
-      },
-      {
-        "option": "Sartorius",
+        "option": "Pectineus",
         "bool": false
       },
       {
         "option": "Obturator",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following helps in the implantation of the blastocyst?",
-    "answers": [
-      {
-        "option": "Endometrium",
-        "bool": false
       },
       {
-        "option": "Uterine fluid",
-        "bool": false
-      },
-      {
-        "option": "Cytotrophoblast",
-        "bool": false
-      },
-      {
-        "option": "Syncytiotrophoblast",
-        "bool": true
-      },
-      {
-        "option": "Ectoderm",
+        "option": "Sartorius",
         "bool": false
       }
     ]
@@ -1622,10 +1622,41 @@
   {
     "id": 60,
     "info": "1st-year/locomotor/2016",
+    "question": "Which of the following helps in the implantation of the blastocyst?",
+    "answers": [
+      {
+        "option": "Syncytiotrophoblast",
+        "bool": true
+      },
+      {
+        "option": "Ectoderm",
+        "bool": false
+      },
+      {
+        "option": "Cytotrophoblast",
+        "bool": false
+      },
+      {
+        "option": "Endometrium",
+        "bool": false
+      },
+      {
+        "option": "Uterine fluid",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "info": "1st-year/locomotor/2016",
     "question": "Which of the following is the active metabolite of vitamin D?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "1-hydroxyvitamin D3",
+        "bool": false
+      },
+      {
+        "option": "25-hydroxyvitamin D3",
         "bool": false
       },
       {
@@ -1637,24 +1668,43 @@
         "bool": true
       },
       {
-        "option": "25-hydroxyvitamin D3",
-        "bool": false
-      },
-      {
-        "option": "1-hydroxyvitamin D3",
+        "option": "None of these",
         "bool": false
       }
     ]
   },
   {
-    "id": 61,
+    "id": 62,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following muscles form the superior boundary of the popliteal fossa?",
+    "answers": [
+      {
+        "option": "Tricep brachii and semitendinosus",
+        "bool": false
+      },
+      {
+        "option": "Biceps femoris, semimembranosus and semitendinosus",
+        "bool": true
+      },
+      {
+        "option": "Tendon of bicep femoris and semitendinosus",
+        "bool": false
+      },
+      {
+        "option": "Semimembranosus and semitendinosus",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
     "info": "1st-year/locomotor/2016",
     "question": "An improperly placed intramuscular injection at the shoulder region can damage which of the following nerves?",
     "answers": [
-      {
-        "option": "Ulnar",
-        "bool": false
-      },
       {
         "option": "Subscapular",
         "bool": false
@@ -1664,17 +1714,48 @@
         "bool": true
       },
       {
-        "option": "Thoracodorsal",
+        "option": "Radial",
         "bool": false
       },
       {
-        "option": "Radial",
+        "option": "Ulnar",
+        "bool": false
+      },
+      {
+        "option": "Thoracodorsal",
         "bool": false
       }
     ]
   },
   {
-    "id": 62,
+    "id": 64,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following muscles is not supplied by the musculocutaneous nerve?",
+    "answers": [
+      {
+        "option": "Biceps brachii",
+        "bool": false
+      },
+      {
+        "option": "Brachialis",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Triceps",
+        "bool": true
+      },
+      {
+        "option": "Coracobrachialis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
     "info": "1st-year/locomotor/2016",
     "question": "Which artery pierces the adductor magnus and becomes part of cruciate anastomosis?",
     "answers": [
@@ -1683,38 +1764,30 @@
         "bool": true
       },
       {
-        "option": "Profunda femoris artery",
-        "bool": false
-      },
-      {
         "option": "Femoral artery",
         "bool": false
       },
       {
-        "option": "3rd perforating artery",
+        "option": "Profunda femoris artery",
         "bool": false
       },
       {
         "option": "2nd perforating artery",
         "bool": false
+      },
+      {
+        "option": "3rd perforating artery",
+        "bool": false
       }
     ]
   },
   {
-    "id": 63,
+    "id": 66,
     "info": "1st-year/locomotor/2016",
     "question": "A barium swallow is typically used to examine which of the following organs?",
     "answers": [
       {
-        "option": "Large bowel",
-        "bool": false
-      },
-      {
-        "option": "Esophagus",
-        "bool": true
-      },
-      {
-        "option": "Stomach",
+        "option": "Small bowel",
         "bool": false
       },
       {
@@ -1722,16 +1795,136 @@
         "bool": false
       },
       {
-        "option": "Small bowel",
+        "option": "Esophagus",
+        "bool": true
+      },
+      {
+        "option": "Large bowel",
+        "bool": false
+      },
+      {
+        "option": "Stomach",
         "bool": false
       }
     ]
   },
   {
-    "id": 64,
+    "id": 67,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following is the fourth rule of medical ethics?",
+    "answers": [
+      {
+        "option": "Justice",
+        "bool": true
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Beneficence",
+        "bool": false
+      },
+      {
+        "option": "Non-maleficence",
+        "bool": false
+      },
+      {
+        "option": "Autonomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following is responsible for the exocytosis of acetylcholine vesicles?",
+    "answers": [
+      {
+        "option": "Calcium",
+        "bool": true
+      },
+      {
+        "option": "Chloride",
+        "bool": false
+      },
+      {
+        "option": "Magnesium",
+        "bool": false
+      },
+      {
+        "option": "Sodium",
+        "bool": false
+      },
+      {
+        "option": "Potassium",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which muscle is not innervated by the femoral nerve?",
+    "answers": [
+      {
+        "option": "Gracilis",
+        "bool": true
+      },
+      {
+        "option": "Iliacus",
+        "bool": false
+      },
+      {
+        "option": "Sartorius",
+        "bool": false
+      },
+      {
+        "option": "Pectineus",
+        "bool": false
+      },
+      {
+        "option": "Vastus lateralis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following fractures is more common in sportsmen?",
+    "answers": [
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Closed",
+        "bool": false
+      },
+      {
+        "option": "Open",
+        "bool": false
+      },
+      {
+        "option": "Stress",
+        "bool": true
+      },
+      {
+        "option": "Hairline",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 71,
     "info": "1st-year/locomotor/2016",
     "question": "Lunate does not articulate with which of the following bones?",
     "answers": [
+      {
+        "option": "Radius",
+        "bool": false
+      },
       {
         "option": "None of these",
         "bool": false
@@ -1741,21 +1934,17 @@
         "bool": false
       },
       {
-        "option": "Radius",
-        "bool": false
+        "option": "Pisiform",
+        "bool": true
       },
       {
         "option": "Capitate",
         "bool": false
-      },
-      {
-        "option": "Pisiform",
-        "bool": true
       }
     ]
   },
   {
-    "id": 65,
+    "id": 72,
     "info": "1st-year/locomotor/2016",
     "question": "What is the shape of the lunate bone?",
     "answers": [
@@ -1764,7 +1953,7 @@
         "bool": true
       },
       {
-        "option": "Crooked",
+        "option": "Boat shape",
         "bool": false
       },
       {
@@ -1772,17 +1961,17 @@
         "bool": false
       },
       {
-        "option": "Circle",
+        "option": "Crooked",
         "bool": false
       },
       {
-        "option": "Boat shape",
+        "option": "Circle",
         "bool": false
       }
     ]
   },
   {
-    "id": 66,
+    "id": 73,
     "info": "1st-year/locomotor/2016",
     "question": "A 20-year-old man suffers from a medial nerve injury. Which of the following methods can confirm this diagnosis?",
     "answers": [
@@ -1795,38 +1984,38 @@
         "bool": false
       },
       {
-        "option": "Muscle biopsy",
-        "bool": false
-      },
-      {
         "option": "Electrocardiogram",
         "bool": false
       },
       {
         "option": "Nerve conduction velocity test",
         "bool": true
+      },
+      {
+        "option": "Muscle biopsy",
+        "bool": false
       }
     ]
   },
   {
-    "id": 67,
+    "id": 74,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following arteries is not injured during the dislocation of the hip joint?",
     "answers": [
-      {
-        "option": "Lateral circumflex femoral artery",
-        "bool": false
-      },
-      {
-        "option": "Inferior and superior gluteal artery",
-        "bool": false
-      },
       {
         "option": "First perforating artery",
         "bool": true
       },
       {
+        "option": "Lateral circumflex femoral artery",
+        "bool": false
+      },
+      {
         "option": "Medial circumflex femoral artery",
+        "bool": false
+      },
+      {
+        "option": "Inferior and superior gluteal artery",
         "bool": false
       },
       {
@@ -1836,10 +2025,14 @@
     ]
   },
   {
-    "id": 68,
+    "id": 75,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following terms refers to decreased bone mass?",
     "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
       {
         "option": "Osteomalacia",
         "bool": false
@@ -1853,24 +2046,16 @@
         "bool": true
       },
       {
-        "option": "None of these",
-        "bool": false
-      },
-      {
         "option": "Paget's disease",
         "bool": false
       }
     ]
   },
   {
-    "id": 69,
+    "id": 76,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following results in a decrease in vitamin D levels?",
     "answers": [
-      {
-        "option": "Reduction of 12 hydroxylase in kidney",
-        "bool": false
-      },
       {
         "option": "Induction of 25 hydroxylase in kidney",
         "bool": false
@@ -1880,200 +2065,15 @@
         "bool": false
       },
       {
+        "option": "Induction of 24 hydroxylase in kidney",
+        "bool": false
+      },
+      {
         "option": "Reduction of 1 hydroxylase and induction of 24 hydroxylase in kidney",
         "bool": true
       },
       {
-        "option": "Induction of 24 hydroxylase in kidney",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following comprises the major organic component of the bone matrix?",
-    "answers": [
-      {
-        "option": "Osteoblasts",
-        "bool": false
-      },
-      {
-        "option": "Collagen",
-        "bool": true
-      },
-      {
-        "option": "Calcium phosphate",
-        "bool": false
-      },
-      {
-        "option": "Hydroxyapatite crystals",
-        "bool": false
-      },
-      {
-        "option": "Proteoglycans",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following muscles form the superior boundary of the popliteal fossa?",
-    "answers": [
-      {
-        "option": "Biceps femoris, semimembranosus and semitendinosus",
-        "bool": true
-      },
-      {
-        "option": "Tricep brachii and semitendinosus",
-        "bool": false
-      },
-      {
-        "option": "Tendon of bicep femoris and semitendinosus",
-        "bool": false
-      },
-      {
-        "option": "All of these",
-        "bool": false
-      },
-      {
-        "option": "Semimembranosus and semitendinosus",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following muscles is not supplied by the musculocutaneous nerve?",
-    "answers": [
-      {
-        "option": "Triceps",
-        "bool": true
-      },
-      {
-        "option": "None of them",
-        "bool": false
-      },
-      {
-        "option": "Biceps brachii",
-        "bool": false
-      },
-      {
-        "option": "Brachialis",
-        "bool": false
-      },
-      {
-        "option": "Coracobrachialis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following is the fourth rule of medical ethics?",
-    "answers": [
-      {
-        "option": "Non-maleficence",
-        "bool": false
-      },
-      {
-        "option": "Autonomy",
-        "bool": false
-      },
-      {
-        "option": "Justice",
-        "bool": true
-      },
-      {
-        "option": "None of them",
-        "bool": false
-      },
-      {
-        "option": "Beneficence",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following is responsible for the exocytosis of acetylcholine vesicles?",
-    "answers": [
-      {
-        "option": "Chloride",
-        "bool": false
-      },
-      {
-        "option": "Sodium",
-        "bool": false
-      },
-      {
-        "option": "Magnesium",
-        "bool": false
-      },
-      {
-        "option": "Calcium",
-        "bool": true
-      },
-      {
-        "option": "Potassium",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which muscle is not innervated by the femoral nerve?",
-    "answers": [
-      {
-        "option": "Gracilis",
-        "bool": true
-      },
-      {
-        "option": "Iliacus",
-        "bool": false
-      },
-      {
-        "option": "Pectineus",
-        "bool": false
-      },
-      {
-        "option": "Vastus lateralis",
-        "bool": false
-      },
-      {
-        "option": "Sartorius",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which of the following fractures is more common in sportsmen?",
-    "answers": [
-      {
-        "option": "Closed",
-        "bool": false
-      },
-      {
-        "option": "Open",
-        "bool": false
-      },
-      {
-        "option": "Hairline",
-        "bool": false
-      },
-      {
-        "option": "Stress",
-        "bool": true
-      },
-      {
-        "option": "None of them",
+        "option": "Reduction of 12 hydroxylase in kidney",
         "bool": false
       }
     ]
@@ -2088,20 +2088,20 @@
         "bool": false
       },
       {
-        "option": "All of these",
-        "bool": false
-      },
-      {
-        "option": "Ischium",
-        "bool": false
-      },
-      {
         "option": "Pubis",
         "bool": false
       },
       {
         "option": "Ilium",
         "bool": true
+      },
+      {
+        "option": "All of these",
+        "bool": false
+      },
+      {
+        "option": "Ischium",
+        "bool": false
       }
     ]
   },
@@ -2111,23 +2111,23 @@
     "question": "Which of the following is an unmyelinated nerve fiber?",
     "answers": [
       {
-        "option": "A delta",
+        "option": "A alpha fiber",
         "bool": false
       },
       {
-        "option": "A beta",
+        "option": "A beta fiber",
         "bool": false
       },
       {
-        "option": "A gamma",
-        "bool": false
-      },
-      {
-        "option": "C",
+        "option": "C fiber",
         "bool": true
       },
       {
-        "option": "A alpha",
+        "option": "A delta fiber",
+        "bool": false
+      },
+      {
+        "option": "A gamma fiber",
         "bool": false
       }
     ]
@@ -2135,27 +2135,27 @@
   {
     "id": 79,
     "info": "1st-year/locomotor/2016",
-    "question": "Which of the following cancers can lead to breast cancer?",
+    "question": "Which of the following comprises the major organic component of the bone matrix?",
     "answers": [
       {
-        "option": "Lung cancer",
+        "option": "Proteoglycans",
         "bool": false
       },
       {
-        "option": "Leukemia",
+        "option": "Hydroxyapatite crystals",
         "bool": false
       },
       {
-        "option": "Ovarian cancer",
+        "option": "Osteoblasts",
+        "bool": false
+      },
+      {
+        "option": "Calcium phosphate",
+        "bool": false
+      },
+      {
+        "option": "Collagen",
         "bool": true
-      },
-      {
-        "option": "Brain cancer",
-        "bool": false
-      },
-      {
-        "option": "Cervical cancer",
-        "bool": false
       }
     ]
   },
@@ -2169,19 +2169,19 @@
         "bool": false
       },
       {
-        "option": "Anteroposterior and lateral",
-        "bool": true
+        "option": "Posteroanterior and lateral",
+        "bool": false
       },
       {
         "option": "Anteroposterior and oblique",
         "bool": false
       },
       {
-        "option": "Posteroanterior and oblique",
-        "bool": false
+        "option": "Anteroposterior and lateral",
+        "bool": true
       },
       {
-        "option": "Posteroanterior and lateral",
+        "option": "Posteroanterior and oblique",
         "bool": false
       }
     ]
@@ -2189,12 +2189,35 @@
   {
     "id": 81,
     "info": "1st-year/locomotor/2016",
-    "question": "Which of the following options best corresponds to the following definition: the potential of an event to result in negative consequences?",
+    "question": "Which of the following cancers can lead to breast cancer?",
     "answers": [
       {
-        "option": "Hazard",
+        "option": "Ovarian cancer",
         "bool": true
       },
+      {
+        "option": "Leukemia",
+        "bool": false
+      },
+      {
+        "option": "Cervical cancer",
+        "bool": false
+      },
+      {
+        "option": "Brain cancer",
+        "bool": false
+      },
+      {
+        "option": "Lung cancer",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "info": "1st-year/locomotor/2016",
+    "question": "Which of the following options best corresponds to the following definition: the potential of an event to result in negative consequences?",
+    "answers": [
       {
         "option": "Harm",
         "bool": false
@@ -2204,38 +2227,15 @@
         "bool": false
       },
       {
-        "option": "Vulnerability",
-        "bool": false
-      },
-      {
         "option": "Risk",
         "bool": false
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "info": "1st-year/locomotor/2016",
-    "question": "A woman was using her sewing machine when her hand slipped and the machine ran over the first web of the hand near the index finger. Which of the following structures will be damaged in this scenario?",
-    "answers": [
-      {
-        "option": "Axillary nerve",
-        "bool": false
       },
       {
-        "option": "Deep palmar arch",
-        "bool": false
-      },
-      {
-        "option": "Ulnar artery",
-        "bool": false
-      },
-      {
-        "option": "Radialis indicis artery",
+        "option": "Hazard",
         "bool": true
       },
       {
-        "option": "Superficial palmar arch",
+        "option": "Vulnerability",
         "bool": false
       }
     ]
@@ -2243,18 +2243,37 @@
   {
     "id": 83,
     "info": "1st-year/locomotor/2016",
+    "question": "A woman was using her sewing machine when her hand slipped and the machine ran over the first web of the hand near the index finger. Which of the following structures will be damaged in this scenario?",
+    "answers": [
+      {
+        "option": "Ulnar artery",
+        "bool": false
+      },
+      {
+        "option": "Deep palmar arch",
+        "bool": false
+      },
+      {
+        "option": "Superficial palmar arch",
+        "bool": false
+      },
+      {
+        "option": "Radialis indicis artery",
+        "bool": true
+      },
+      {
+        "option": "Axillary nerve",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "info": "1st-year/locomotor/2016",
     "question": "Which of the following structures is damaged during a cut to the wrist?",
     "answers": [
       {
         "option": "Radial indicis artery",
-        "bool": false
-      },
-      {
-        "option": "Recurrent branch of median nerve",
-        "bool": false
-      },
-      {
-        "option": "Axillary nerve",
         "bool": false
       },
       {
@@ -2264,14 +2283,30 @@
       {
         "option": "Ulnar nerve",
         "bool": true
+      },
+      {
+        "option": "Axillary nerve",
+        "bool": false
+      },
+      {
+        "option": "Recurrent branch of median nerve",
+        "bool": false
       }
     ]
   },
   {
-    "id": 84,
+    "id": 85,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following is a consequence of excessive calcium intake?",
     "answers": [
+      {
+        "option": "Diarrhea",
+        "bool": false
+      },
+      {
+        "option": "Osteoporosis",
+        "bool": false
+      },
       {
         "option": "Hypotension",
         "bool": false
@@ -2281,30 +2316,18 @@
         "bool": false
       },
       {
-        "option": "Diarrhea",
-        "bool": false
-      },
-      {
         "option": "Constipation",
         "bool": true
-      },
-      {
-        "option": "Osteoporosis",
-        "bool": false
       }
     ]
   },
   {
-    "id": 85,
+    "id": 86,
     "info": "1st-year/locomotor/2016",
     "question": "A fall onto an outstretched arm leads to difficulty in raising the shoulder and neck pain. Which of the following structures when damaged produces such symptoms?",
     "answers": [
       {
-        "option": "Radius",
-        "bool": false
-      },
-      {
-        "option": "Acromion",
+        "option": "Scapula",
         "bool": false
       },
       {
@@ -2316,18 +2339,22 @@
         "bool": true
       },
       {
-        "option": "Scapula",
+        "option": "Acromion",
+        "bool": false
+      },
+      {
+        "option": "Radius",
         "bool": false
       }
     ]
   },
   {
-    "id": 86,
+    "id": 87,
     "info": "1st-year/locomotor/2016",
     "question": "An ulnar artery pulse is felt lateral to which of the following structures?",
     "answers": [
       {
-        "option": "Flexor carpi radialis",
+        "option": "Abductor policis brevis",
         "bool": false
       },
       {
@@ -2339,38 +2366,11 @@
         "bool": false
       },
       {
-        "option": "Abductor policis brevis",
-        "bool": false
-      },
-      {
         "option": "Flexor carpi ulnaris",
         "bool": true
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "info": "1st-year/locomotor/2016",
-    "question": "Which area is used to assess for a pulse in order to take a blood pressure reading?",
-    "answers": [
-      {
-        "option": "2.5 cm above cubital fossa",
-        "bool": true
       },
       {
-        "option": "Below the clavicle",
-        "bool": false
-      },
-      {
-        "option": "Between the 1st and 2nd intercostal spaces",
-        "bool": false
-      },
-      {
-        "option": "In the jugular notch",
-        "bool": false
-      },
-      {
-        "option": "Middle cranial fossa",
+        "option": "Flexor carpi radialis",
         "bool": false
       }
     ]
@@ -2378,18 +2378,45 @@
   {
     "id": 88,
     "info": "1st-year/locomotor/2016",
+    "question": "Which area is used to assess for a pulse in order to take a blood pressure reading?",
+    "answers": [
+      {
+        "option": "In the jugular notch",
+        "bool": false
+      },
+      {
+        "option": "Middle cranial fossa",
+        "bool": false
+      },
+      {
+        "option": "Between the 1st and 2nd intercostal spaces",
+        "bool": false
+      },
+      {
+        "option": "Below the clavicle",
+        "bool": false
+      },
+      {
+        "option": "2.5 cm above cubital fossa",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "info": "1st-year/locomotor/2016",
     "question": "Where are acetylcholine receptors found?",
     "answers": [
+      {
+        "option": "Synaptic gutter",
+        "bool": false
+      },
       {
         "option": "Presynaptic membrane",
         "bool": false
       },
       {
-        "option": "Postsynaptic membrane",
-        "bool": true
-      },
-      {
-        "option": "Synaptic gutter",
+        "option": "Synaptic trough",
         "bool": false
       },
       {
@@ -2397,13 +2424,13 @@
         "bool": false
       },
       {
-        "option": "Synaptic trough",
-        "bool": false
+        "option": "Postsynaptic membrane",
+        "bool": true
       }
     ]
   },
   {
-    "id": 89,
+    "id": 90,
     "info": "1st-year/locomotor/2016",
     "question": "Which of the following options refers to the action of acetylcholine nicotinic receptors?",
     "answers": [

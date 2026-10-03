@@ -1,19 +1,11 @@
 [
   {
     "id": 0,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is the serous membrane covering the lungs?",
     "answers": [
       {
-        "option": "Pleura",
-        "bool": true
-      },
-      {
         "option": "Epithelium",
-        "bool": false
-      },
-      {
-        "option": "None of these",
         "bool": false
       },
       {
@@ -21,30 +13,38 @@
         "bool": false
       },
       {
+        "option": "None of these",
+        "bool": false
+      },
+      {
         "option": "Pericardium",
         "bool": false
+      },
+      {
+        "option": "Pleura",
+        "bool": true
       }
     ]
   },
   {
     "id": 1,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is not a part of the superior mediastinum?",
     "answers": [
-      {
-        "option": "Arch of the aorta",
-        "bool": false
-      },
       {
         "option": "Subclavian artery",
         "bool": false
       },
       {
-        "option": "Superior vena cava",
+        "option": "Arch of the aorta",
         "bool": false
       },
       {
         "option": "Brachiocephalic vein",
+        "bool": false
+      },
+      {
+        "option": "Superior vena cava",
         "bool": false
       },
       {
@@ -55,23 +55,23 @@
   },
   {
     "id": 2,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is not responsible for increasing sympathetic activity?",
     "answers": [
-      {
-        "option": "Pilocarpine",
-        "bool": true
-      },
-      {
-        "option": "None of these",
-        "bool": false
-      },
       {
         "option": "Phenylephrine",
         "bool": false
       },
       {
+        "option": "Pilocarpine",
+        "bool": true
+      },
+      {
         "option": "Epinephrine",
+        "bool": false
+      },
+      {
+        "option": "None of these",
         "bool": false
       },
       {
@@ -82,11 +82,11 @@
   },
   {
     "id": 3,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which type of joint is found between the bodies of adjacent vertebrae?",
     "answers": [
       {
-        "option": "Synovial",
+        "option": "Pivot",
         "bool": false
       },
       {
@@ -102,30 +102,30 @@
         "bool": true
       },
       {
-        "option": "Pivot",
+        "option": "Synovial",
         "bool": false
       }
     ]
   },
   {
     "id": 4,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is the major component of surfactant?",
     "answers": [
       {
-        "option": "None of these",
-        "bool": false
+        "option": "Dipalmitoyl phosphatidylcholine",
+        "bool": true
       },
       {
         "option": "Phosphatidyl lecithin",
         "bool": false
       },
       {
-        "option": "Dipalmitoyl phosphatidylcholine",
-        "bool": true
+        "option": "Gangliosides",
+        "bool": false
       },
       {
-        "option": "Gangliosides",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -136,20 +136,12 @@
   },
   {
     "id": 5,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is not an intrinsic muscle of the respiratory system?",
     "answers": [
       {
         "option": "Serratus anterior",
         "bool": true
-      },
-      {
-        "option": "Internal intercostal",
-        "bool": false
-      },
-      {
-        "option": "Diaphragm",
-        "bool": false
       },
       {
         "option": "None of these",
@@ -158,16 +150,24 @@
       {
         "option": "External intercostal",
         "bool": false
+      },
+      {
+        "option": "Diaphragm",
+        "bool": false
+      },
+      {
+        "option": "Internal intercostal",
+        "bool": false
       }
     ]
   },
   {
     "id": 6,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "What is the normal value of pulmonary capillary pressure?",
     "answers": [
       {
-        "option": "75 mmHg",
+        "option": "2 mmHg",
         "bool": false
       },
       {
@@ -175,26 +175,30 @@
         "bool": true
       },
       {
-        "option": "2 mmHg",
-        "bool": false
-      },
-      {
-        "option": "5 mmHg",
+        "option": "75 mmHg",
         "bool": false
       },
       {
         "option": "100 mmHg",
+        "bool": false
+      },
+      {
+        "option": "5 mmHg",
         "bool": false
       }
     ]
   },
   {
     "id": 7,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Pigeon-shaped chest is associated with which disease?",
     "answers": [
       {
-        "option": "Chronic bronchitis",
+        "option": "Emphysema",
+        "bool": false
+      },
+      {
+        "option": "Tuberculosis",
         "bool": false
       },
       {
@@ -202,34 +206,26 @@
         "bool": false
       },
       {
+        "option": "Chronic bronchitis",
+        "bool": false
+      },
+      {
         "option": "Asthma",
         "bool": true
-      },
-      {
-        "option": "Tuberculosis",
-        "bool": false
-      },
-      {
-        "option": "Emphysema",
-        "bool": false
       }
     ]
   },
   {
     "id": 8,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is true about the histology of brush cells?",
     "answers": [
       {
-        "option": "They are columnar cells with microvilli at the apical surface",
-        "bool": true
-      },
-      {
-        "option": "They are columnar cells with microvilli at the lateral surface",
+        "option": "They are squamous cells with microvilli at the apical surface",
         "bool": false
       },
       {
-        "option": "They are cuboidal cells with microvilli at the apical surface",
+        "option": "They are columnar cells with microvilli at the lateral surface",
         "bool": false
       },
       {
@@ -237,14 +233,18 @@
         "bool": false
       },
       {
-        "option": "They are squamous cells with microvilli at the apical surface",
+        "option": "They are cuboidal cells with microvilli at the apical surface",
         "bool": false
+      },
+      {
+        "option": "They are columnar cells with microvilli at the apical surface",
+        "bool": true
       }
     ]
   },
   {
     "id": 9,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following cells of the lungs secrete surfactant?",
     "answers": [
       {
@@ -260,18 +260,18 @@
         "bool": false
       },
       {
-        "option": "Endothelial cells",
-        "bool": false
-      },
-      {
         "option": "Type 2 alveolar epithelial cells",
         "bool": true
+      },
+      {
+        "option": "Endothelial cells",
+        "bool": false
       }
     ]
   },
   {
     "id": 10,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of these represents the vital capacity?",
     "answers": [
       {
@@ -287,34 +287,34 @@
         "bool": true
       },
       {
-        "option": "Residual volume + tidal volume + expiratory reserve volume",
+        "option": "Tidal volume + expiratory reserve volume",
         "bool": false
       },
       {
-        "option": "Tidal volume + expiratory reserve volume",
+        "option": "Residual volume + tidal volume + expiratory reserve volume",
         "bool": false
       }
     ]
   },
   {
     "id": 11,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of these can not be measured by spirometry?",
     "answers": [
-      {
-        "option": "Residual volume",
-        "bool": true
-      },
       {
         "option": "Tidal volume",
         "bool": false
       },
       {
-        "option": "Inspiratory capacity",
-        "bool": false
+        "option": "Residual volume",
+        "bool": true
       },
       {
         "option": "Expiratory reserve volume",
+        "bool": false
+      },
+      {
+        "option": "Inspiratory capacity",
         "bool": false
       },
       {
@@ -325,13 +325,9 @@
   },
   {
     "id": 12,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is not a part of the respiratory zone of the respiratory system?",
     "answers": [
-      {
-        "option": "Respiratory bronchioles",
-        "bool": false
-      },
       {
         "option": "Alveoli",
         "bool": false
@@ -347,28 +343,32 @@
       {
         "option": "Alveolar sac",
         "bool": false
+      },
+      {
+        "option": "Respiratory bronchioles",
+        "bool": false
       }
     ]
   },
   {
     "id": 13,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "From which of the following structures does the diaphragm originate?",
     "answers": [
       {
-        "option": "Lumbar vertebrae, costal cartilages, and the sternum",
-        "bool": true
+        "option": "Lumbar vertebrae, pleural membranes, and the sacrum",
+        "bool": false
       },
       {
         "option": "Pleural membranes, costal cartilages, and the sternum",
         "bool": false
       },
       {
-        "option": "Pleural membranes, costal cartilages, and the lumbar vertebrae",
-        "bool": false
+        "option": "Lumbar vertebrae, costal cartilages, and the sternum",
+        "bool": true
       },
       {
-        "option": "Lumbar vertebrae, pleural membranes, and the sacrum",
+        "option": "Pleural membranes, costal cartilages, and the lumbar vertebrae",
         "bool": false
       },
       {
@@ -379,9 +379,13 @@
   },
   {
     "id": 14,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following structures is derived from the frontonasal prominence?",
     "answers": [
+      {
+        "option": "The nasal septum",
+        "bool": false
+      },
       {
         "option": "Sides of the nose",
         "bool": false
@@ -391,61 +395,53 @@
         "bool": true
       },
       {
-        "option": "The intermaxillary segment",
-        "bool": false
-      },
-      {
-        "option": "The nasal septum",
-        "bool": false
-      },
-      {
         "option": "Tip of the nose",
+        "bool": false
+      },
+      {
+        "option": "The intermaxillary segment",
         "bool": false
       }
     ]
   },
   {
     "id": 15,
-    "info": "1st-year/respiratory-1/2017",
-    "question": "At what age should Bacillus Calmette\u2013Gu\u00e9rin (BCG) be given?",
+    "info": "1st-year/respiratory/2017",
+    "question": "At what age should Bacillus Calmette–Guérin (BCG) be given?",
     "answers": [
-      {
-        "option": "14 weeks",
-        "bool": false
-      },
       {
         "option": "6 weeks",
         "bool": false
       },
       {
-        "option": "At birth",
-        "bool": true
+        "option": "4 weeks",
+        "bool": false
+      },
+      {
+        "option": "14 weeks",
+        "bool": false
       },
       {
         "option": "2 years",
         "bool": false
       },
       {
-        "option": "4 weeks",
-        "bool": false
+        "option": "At birth",
+        "bool": true
       }
     ]
   },
   {
     "id": 16,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is involved in the increase in anteroposterior diameter?",
     "answers": [
-      {
-        "option": "Lower costal lines",
-        "bool": false
-      },
       {
         "option": "Sternum",
         "bool": true
       },
       {
-        "option": "Diaphragm",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -453,14 +449,18 @@
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Diaphragm",
+        "bool": false
+      },
+      {
+        "option": "Lower costal lines",
         "bool": false
       }
     ]
   },
   {
     "id": 17,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is incorrect for thyroid cartilage?",
     "answers": [
       {
@@ -468,26 +468,26 @@
         "bool": false
       },
       {
-        "option": "Vocal cord attaches to posterior surface",
-        "bool": false
-      },
-      {
         "option": "Largest cartilage",
         "bool": false
       },
       {
-        "option": "Hyaline cartilage",
+        "option": "Vocal cord attaches to posterior surface",
         "bool": false
       },
       {
         "option": "Has oblique line on the posterior surface",
         "bool": true
+      },
+      {
+        "option": "Hyaline cartilage",
+        "bool": false
       }
     ]
   },
   {
     "id": 18,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is attached to the tip of the xiphoid process?",
     "answers": [
       {
@@ -499,7 +499,7 @@
         "bool": false
       },
       {
-        "option": "Diaphragm",
+        "option": "None of these",
         "bool": false
       },
       {
@@ -507,51 +507,43 @@
         "bool": true
       },
       {
-        "option": "None of these",
+        "option": "Diaphragm",
         "bool": false
       }
     ]
   },
   {
     "id": 19,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "What is correct regarding the right pulmonary artery?",
     "answers": [
       {
+        "option": "Goes to opposite lung",
+        "bool": false
+      },
+      {
         "option": "Descend into lung anterolateral to main bronchus",
         "bool": false
+      },
+      {
+        "option": "Gives off branch to superior lobe before entering the root of lung",
+        "bool": true
       },
       {
         "option": "Carry oxygenated blood",
         "bool": false
       },
       {
-        "option": "Goes to opposite lung",
-        "bool": false
-      },
-      {
         "option": "Bifurcate from pulmonary trunk at xiphoid level",
         "bool": false
-      },
-      {
-        "option": "Gives off branch to superior lobe before entering the root of lung",
-        "bool": true
       }
     ]
   },
   {
     "id": 20,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "A procedure is performed on a man to remove the fluid in the pleural cavity. The patient feels pain when the needle inserts into the pleural membranes. Which of the following nerve is involved?",
     "answers": [
-      {
-        "option": "Phrenic nerve",
-        "bool": false
-      },
-      {
-        "option": "Recurrent laryngeal nerve",
-        "bool": false
-      },
       {
         "option": "None of these",
         "bool": false
@@ -561,6 +553,14 @@
         "bool": true
       },
       {
+        "option": "Phrenic nerve",
+        "bool": false
+      },
+      {
+        "option": "Recurrent laryngeal nerve",
+        "bool": false
+      },
+      {
         "option": "Vagus nerve",
         "bool": false
       }
@@ -568,9 +568,21 @@
   },
   {
     "id": 21,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is a direct-acting cholinergic agonist?",
     "answers": [
+      {
+        "option": "Pilocarpine",
+        "bool": true
+      },
+      {
+        "option": "Neostigmine",
+        "bool": false
+      },
+      {
+        "option": "Organophosphorous",
+        "bool": false
+      },
       {
         "option": "Physostigmine",
         "bool": false
@@ -578,63 +590,20 @@
       {
         "option": "None of these",
         "bool": false
-      },
-      {
-        "option": "Pilocarpine",
-        "bool": true
-      },
-      {
-        "option": "Organophosphorous",
-        "bool": false
-      },
-      {
-        "option": "Neostigmine",
-        "bool": false
       }
     ]
   },
   {
     "id": 22,
-    "info": "1st-year/respiratory-1/2017",
-    "question": "Which of the following is the main action of epinephrine at low doses?",
-    "answers": [
-      {
-        "option": "Pupil dilation",
-        "bool": false
-      },
-      {
-        "option": "Increase heart contraction",
-        "bool": true
-      },
-      {
-        "option": "Increased gut motility",
-        "bool": false
-      },
-      {
-        "option": "Pupil constriction",
-        "bool": false
-      },
-      {
-        "option": "Salivary secretion",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following drugs is used for asthma?",
     "answers": [
       {
-        "option": "Oral corticosteriod",
-        "bool": false
-      },
-      {
-        "option": "Pilocarpine",
-        "bool": false
-      },
-      {
         "option": "Sildenafil",
+        "bool": false
+      },
+      {
+        "option": "Oral corticosteriod",
         "bool": false
       },
       {
@@ -644,20 +613,20 @@
       {
         "option": "Inhaled corticosteriod",
         "bool": true
+      },
+      {
+        "option": "Pilocarpine",
+        "bool": false
       }
     ]
   },
   {
-    "id": 24,
-    "info": "1st-year/respiratory-1/2017",
+    "id": 23,
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is present in azurophilic granules?",
     "answers": [
       {
         "option": "Alkaline phosphatase",
-        "bool": false
-      },
-      {
-        "option": "Collagenase",
         "bool": false
       },
       {
@@ -671,16 +640,47 @@
       {
         "option": "Myeloperoxidase",
         "bool": true
+      },
+      {
+        "option": "Collagenase",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "1st-year/respiratory/2017",
+    "question": "Which of the following is the main action of epinephrine at low doses?",
+    "answers": [
+      {
+        "option": "Increase heart contraction",
+        "bool": true
+      },
+      {
+        "option": "Increased gut motility",
+        "bool": false
+      },
+      {
+        "option": "Salivary secretion",
+        "bool": false
+      },
+      {
+        "option": "Pupil constriction",
+        "bool": false
+      },
+      {
+        "option": "Pupil dilation",
+        "bool": false
       }
     ]
   },
   {
     "id": 25,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "A patient presents to the emergency department with an acid smell or acetone breath. Which of the following is the person suffering from?",
     "answers": [
       {
-        "option": "None of these",
+        "option": "Diabetic insipidus",
         "bool": false
       },
       {
@@ -688,26 +688,30 @@
         "bool": false
       },
       {
-        "option": "Diabetic ketoacidosis",
-        "bool": true
+        "option": "None of these",
+        "bool": false
       },
       {
         "option": "Central diabetes",
         "bool": false
       },
       {
-        "option": "Diabetic insipidus",
-        "bool": false
+        "option": "Diabetic ketoacidosis",
+        "bool": true
       }
     ]
   },
   {
     "id": 26,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following occurs as a result of hyperventilation?",
     "answers": [
       {
         "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Oxygen stress",
         "bool": false
       },
       {
@@ -719,10 +723,6 @@
         "bool": false
       },
       {
-        "option": "Oxygen stress",
-        "bool": false
-      },
-      {
         "option": "Carbon dioxide excretion",
         "bool": true
       }
@@ -730,11 +730,19 @@
   },
   {
     "id": 27,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "In which of the following structures, circular cartilage rings are found?",
     "answers": [
       {
-        "option": "Alveolar sac",
+        "option": "Alveoli",
+        "bool": false
+      },
+      {
+        "option": "Trachea",
+        "bool": true
+      },
+      {
+        "option": "Respiratory bronchiole",
         "bool": false
       },
       {
@@ -742,57 +750,45 @@
         "bool": false
       },
       {
-        "option": "Alveoli",
+        "option": "Alveolar sac",
         "bool": false
-      },
-      {
-        "option": "Respiratory bronchiole",
-        "bool": false
-      },
-      {
-        "option": "Trachea",
-        "bool": true
       }
     ]
   },
   {
     "id": 28,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "What is the duration of the canalicular stage in the development of the lungs?",
     "answers": [
       {
+        "option": "Week 26 - week 36",
+        "bool": false
+      },
+      {
         "option": "Week 16 - week 26",
         "bool": true
+      },
+      {
+        "option": "Week 6 - week 16",
+        "bool": false
       },
       {
         "option": "Week 36 - week 40",
         "bool": false
       },
       {
-        "option": "Week 26 - week 36",
-        "bool": false
-      },
-      {
         "option": "Week 4 - week 8",
-        "bool": false
-      },
-      {
-        "option": "Week 6 - week 16",
         "bool": false
       }
     ]
   },
   {
     "id": 29,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "In which developmental week, mesoderm starts segmentation?",
     "answers": [
       {
-        "option": "3rd",
-        "bool": true
-      },
-      {
-        "option": "7th",
+        "option": "5th",
         "bool": false
       },
       {
@@ -804,22 +800,26 @@
         "bool": false
       },
       {
-        "option": "5th",
+        "option": "3rd",
+        "bool": true
+      },
+      {
+        "option": "7th",
         "bool": false
       }
     ]
   },
   {
     "id": 30,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is not a part of the posterior mediastinum?",
     "answers": [
       {
-        "option": "Thoracic duct",
+        "option": "Azygous vein",
         "bool": false
       },
       {
-        "option": "Azygous vein",
+        "option": "Splanchnic nerves",
         "bool": false
       },
       {
@@ -827,18 +827,18 @@
         "bool": false
       },
       {
-        "option": "Trachea",
-        "bool": true
+        "option": "Thoracic duct",
+        "bool": false
       },
       {
-        "option": "Splanchnic nerves",
-        "bool": false
+        "option": "Trachea",
+        "bool": true
       }
     ]
   },
   {
     "id": 31,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following is the most common cause of the chronic obstructive pulmonary disease (COPD)?",
     "answers": [
       {
@@ -846,7 +846,7 @@
         "bool": true
       },
       {
-        "option": "Aging",
+        "option": "Fibrosis",
         "bool": false
       },
       {
@@ -854,7 +854,7 @@
         "bool": false
       },
       {
-        "option": "Fibrosis",
+        "option": "Aging",
         "bool": false
       },
       {
@@ -865,7 +865,7 @@
   },
   {
     "id": 32,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Where do the sternal glands lie?",
     "answers": [
       {
@@ -877,7 +877,7 @@
         "bool": false
       },
       {
-        "option": "Right to internal jugular vein",
+        "option": "Anterior to thoracic duct",
         "bool": false
       },
       {
@@ -885,14 +885,14 @@
         "bool": true
       },
       {
-        "option": "Anterior to thoracic duct",
+        "option": "Right to internal jugular vein",
         "bool": false
       }
     ]
   },
   {
     "id": 33,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following structures is compressed by the Hiatal hernia?",
     "answers": [
       {
@@ -904,22 +904,22 @@
         "bool": false
       },
       {
+        "option": "Inferior left ventricular wall",
+        "bool": true
+      },
+      {
         "option": "Pulmonary artery",
         "bool": false
       },
       {
         "option": "Aorta",
         "bool": false
-      },
-      {
-        "option": "Inferior left ventricular wall",
-        "bool": true
       }
     ]
   },
   {
     "id": 34,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which structure lies at the midline of the thoracic inlet?",
     "answers": [
       {
@@ -927,11 +927,11 @@
         "bool": false
       },
       {
-        "option": "Thoracic duct",
+        "option": "Vagus nerve",
         "bool": false
       },
       {
-        "option": "Vagus nerve",
+        "option": "Thoracic duct",
         "bool": false
       },
       {
@@ -946,21 +946,9 @@
   },
   {
     "id": 35,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following statements regarding the anatomical identification of the scalene tubercle is correct?",
     "answers": [
-      {
-        "option": "Inferior surface of the twelfth rib",
-        "bool": false
-      },
-      {
-        "option": "Posterior surface of the first rib",
-        "bool": false
-      },
-      {
-        "option": "Superior surface of the twelfth rib",
-        "bool": false
-      },
       {
         "option": "Superior surface of the first rib",
         "bool": true
@@ -968,12 +956,24 @@
       {
         "option": "Anterior surface of the tenth rib",
         "bool": false
+      },
+      {
+        "option": "Posterior surface of the first rib",
+        "bool": false
+      },
+      {
+        "option": "Inferior surface of the twelfth rib",
+        "bool": false
+      },
+      {
+        "option": "Superior surface of the twelfth rib",
+        "bool": false
       }
     ]
   },
   {
     "id": 36,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which of the following stages of lobar pneumonia is characterized by the disintegration of erythrocytes and the presence of a grayish-brown exudate?",
     "answers": [
       {
@@ -981,7 +981,7 @@
         "bool": false
       },
       {
-        "option": "Abscess formation",
+        "option": "Resolution",
         "bool": false
       },
       {
@@ -993,53 +993,49 @@
         "bool": true
       },
       {
-        "option": "Resolution",
+        "option": "Abscess formation",
         "bool": false
       }
     ]
   },
   {
     "id": 37,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Which part of the lungs is primarily affected by bronchiectasis?",
     "answers": [
       {
-        "option": "Middle lobe of the right lung",
-        "bool": false
+        "option": "Lower lobes of both lungs",
+        "bool": true
       },
       {
         "option": "Lower lobe of the right lung",
         "bool": false
       },
       {
-        "option": "Lower lobes of both lungs",
-        "bool": true
-      },
-      {
-        "option": "Upper lobes of both lungs",
+        "option": "Upper lobe of the left lung",
         "bool": false
       },
       {
-        "option": "Upper lobe of the left lung",
+        "option": "Middle lobe of the right lung",
+        "bool": false
+      },
+      {
+        "option": "Upper lobes of both lungs",
         "bool": false
       }
     ]
   },
   {
     "id": 38,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "Diffuse alveolar damage is the histological hallmark of which of the following respiratory conditions?",
     "answers": [
       {
-        "option": "Distal acinar emphysema",
+        "option": "Transfusion-associated lung injury",
         "bool": false
       },
       {
-        "option": "Acute respiratory distress syndrome",
-        "bool": true
-      },
-      {
-        "option": "Coal workers\u2019 pneumoconiosis",
+        "option": "Distal acinar emphysema",
         "bool": false
       },
       {
@@ -1047,34 +1043,38 @@
         "bool": false
       },
       {
-        "option": "Transfusion-associated lung injury",
+        "option": "Coal workers’ pneumoconiosis",
         "bool": false
+      },
+      {
+        "option": "Acute respiratory distress syndrome",
+        "bool": true
       }
     ]
   },
   {
     "id": 39,
-    "info": "1st-year/respiratory-1/2017",
+    "info": "1st-year/respiratory/2017",
     "question": "What is the partial pressure of oxygen in alveoli at sea level?",
     "answers": [
       {
-        "option": "104 mm Hg",
-        "bool": true
+        "option": "760 mm Hg",
+        "bool": false
       },
       {
         "option": "47 mm Hg",
         "bool": false
       },
       {
-        "option": "40 mm Hg",
-        "bool": false
-      },
-      {
-        "option": "760 mm Hg",
-        "bool": false
+        "option": "104 mm Hg",
+        "bool": true
       },
       {
         "option": "569 mm Hg",
+        "bool": false
+      },
+      {
+        "option": "40 mm Hg",
         "bool": false
       }
     ]

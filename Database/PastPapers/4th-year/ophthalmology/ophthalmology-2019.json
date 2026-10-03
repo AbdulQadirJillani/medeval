@@ -5,6 +5,14 @@
     "question": "Which of the following is the laser used for treating posterior capsular opacification in adults?",
     "answers": [
       {
+        "option": "Holmium laser",
+        "bool": false
+      },
+      {
+        "option": "Femtosecond laser",
+        "bool": false
+      },
+      {
         "option": "Argon laser",
         "bool": false
       },
@@ -15,14 +23,6 @@
       {
         "option": "Excimer laser",
         "bool": false
-      },
-      {
-        "option": "Holmium laser",
-        "bool": false
-      },
-      {
-        "option": "Femtosecond laser",
-        "bool": false
       }
     ]
   },
@@ -32,15 +32,7 @@
     "question": "What is the most common type of entropion?",
     "answers": [
       {
-        "option": "Spastic",
-        "bool": false
-      },
-      {
         "option": "Cicatricial",
-        "bool": false
-      },
-      {
-        "option": "Paralytic",
         "bool": false
       },
       {
@@ -50,101 +42,28 @@
       {
         "option": "Congenital",
         "bool": false
+      },
+      {
+        "option": "Spastic",
+        "bool": false
+      },
+      {
+        "option": "Paralytic",
+        "bool": false
       }
     ]
   },
   {
     "id": 2,
     "info": "4th-year/ophthalmology/2019",
-    "question": "What is the function of the inferior oblique muscle?",
-    "answers": [
-      {
-        "option": "To move the eyeball upward and outward",
-        "bool": true
-      },
-      {
-        "option": "To move the eyeball medially",
-        "bool": false
-      },
-      {
-        "option": "To move the eyeball downward and outward",
-        "bool": false
-      },
-      {
-        "option": "To move the eyeball laterally",
-        "bool": false
-      },
-      {
-        "option": "To move the eyeball upwards",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following is incorrect regarding orbit?",
-    "answers": [
-      {
-        "option": "The floor is formed by the maxilla, palatine and zygomatic bones.",
-        "bool": false
-      },
-      {
-        "option": "It is directed posterolaterally",
-        "bool": false
-      },
-      {
-        "option": "It contains branches of trigeminal nerve",
-        "bool": false
-      },
-      {
-        "option": "It is a pyramid shaped cavity",
-        "bool": false
-      },
-      {
-        "option": "The optic canal forms the base of the cavity",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following is a common side effect of long-term systemic steroid use?",
-    "answers": [
-      {
-        "option": "Keratitis",
-        "bool": false
-      },
-      {
-        "option": "Cataract",
-        "bool": true
-      },
-      {
-        "option": "Glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Fundus dystrophy",
-        "bool": false
-      },
-      {
-        "option": "Uveitis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "info": "4th-year/ophthalmology/2019",
     "question": "Complicated cataracts are complications of which of the following?",
     "answers": [
       {
-        "option": "Anterior uveitis",
-        "bool": true
+        "option": "Diabetic retinopathy",
+        "bool": false
       },
       {
-        "option": "Diabetic retinopathy",
+        "option": "Phacoantigenic uveitis",
         "bool": false
       },
       {
@@ -156,7 +75,88 @@
         "bool": false
       },
       {
-        "option": "Phacoantigenic uveitis",
+        "option": "Anterior uveitis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "The medial rectus is supplied by which nerve?",
+    "answers": [
+      {
+        "option": "Cranial nerve VI",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve V",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve III",
+        "bool": true
+      },
+      {
+        "option": "Cranial nerve X",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve IV",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "The superior oblique muscle is supplied by which nerve?",
+    "answers": [
+      {
+        "option": "Cranial nerve VI",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve III",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve V",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve X",
+        "bool": false
+      },
+      {
+        "option": "Cranial nerve IV",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the function of the inferior oblique muscle?",
+    "answers": [
+      {
+        "option": "To move the eyeball laterally",
+        "bool": false
+      },
+      {
+        "option": "To move the eyeball downward and outward",
+        "bool": false
+      },
+      {
+        "option": "To move the eyeball upward and outward",
+        "bool": true
+      },
+      {
+        "option": "To move the eyeball medially",
+        "bool": false
+      },
+      {
+        "option": "To move the eyeball upwards",
         "bool": false
       }
     ]
@@ -164,68 +164,14 @@
   {
     "id": 6,
     "info": "4th-year/ophthalmology/2019",
-    "question": "The medial rectus is supplied by which nerve?",
-    "answers": [
-      {
-        "option": "Cranial nerve X",
-        "bool": false
-      },
-      {
-        "option": "Cranial nerve V",
-        "bool": false
-      },
-      {
-        "option": "Cranial nerve III",
-        "bool": true
-      },
-      {
-        "option": "Cranial nerve VI",
-        "bool": false
-      },
-      {
-        "option": "Cranial nerve IV",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "The superior oblique muscle is supplied by which nerve?",
-    "answers": [
-      {
-        "option": "Cranial nerve III",
-        "bool": false
-      },
-      {
-        "option": "Cranial nerve VI",
-        "bool": false
-      },
-      {
-        "option": "Cranial nerve IV",
-        "bool": true
-      },
-      {
-        "option": "Cranial nerve X",
-        "bool": false
-      },
-      {
-        "option": "Cranial nerve V",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following extraocular muscles has the longest tendon?",
     "answers": [
       {
-        "option": "Lateral rectus",
-        "bool": false
+        "option": "Superior oblique",
+        "bool": true
       },
       {
-        "option": "Inferior oblique",
+        "option": "Lateral rectus",
         "bool": false
       },
       {
@@ -233,17 +179,17 @@
         "bool": false
       },
       {
-        "option": "Superior oblique",
-        "bool": true
+        "option": "Superior rectus",
+        "bool": false
       },
       {
-        "option": "Superior rectus",
+        "option": "Inferior oblique",
         "bool": false
       }
     ]
   },
   {
-    "id": 9,
+    "id": 7,
     "info": "4th-year/ophthalmology/2019",
     "question": "In which nucleus of the thalamus does the optic tract end?",
     "answers": [
@@ -256,26 +202,26 @@
         "bool": true
       },
       {
-        "option": "Nucleus tractus solitarius",
-        "bool": false
-      },
-      {
-        "option": "Edinger\u2013Westphal nucleus",
+        "option": "Edinger–Westphal nucleus",
         "bool": false
       },
       {
         "option": "Medial geniculate body",
         "bool": false
+      },
+      {
+        "option": "Nucleus tractus solitarius",
+        "bool": false
       }
     ]
   },
   {
-    "id": 10,
+    "id": 8,
     "info": "4th-year/ophthalmology/2019",
     "question": "Probing is the recommended treatment for congenital nasolacrimal duct obstruction. What is the age of the infant after which probing should be performed?",
     "answers": [
       {
-        "option": "18 months",
+        "option": "2 years",
         "bool": false
       },
       {
@@ -287,20 +233,55 @@
         "bool": true
       },
       {
-        "option": "6 years",
+        "option": "18 months",
         "bool": false
       },
       {
-        "option": "2 years",
+        "option": "6 years",
         "bool": false
       }
     ]
   },
   {
-    "id": 11,
+    "id": 9,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which of the following is incorrect regarding orbit?",
+    "answers": [
+      {
+        "option": "The floor is formed by the maxilla, palatine and zygomatic bones.",
+        "bool": false
+      },
+      {
+        "option": "It is directed posterolaterally",
+        "bool": false
+      },
+      {
+        "option": "The optic canal forms the base of the cavity",
+        "bool": true
+      },
+      {
+        "option": "It contains branches of trigeminal nerve",
+        "bool": false
+      },
+      {
+        "option": "It is a pyramid shaped cavity",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the treatment of stye?",
     "answers": [
+      {
+        "option": "Evacuation of pus",
+        "bool": false
+      },
+      {
+        "option": "All of these",
+        "bool": true
+      },
       {
         "option": "Analgesics for relief of pain",
         "bool": false
@@ -312,32 +293,20 @@
       {
         "option": "Topical antibiotics",
         "bool": false
-      },
-      {
-        "option": "Evacuation of pus",
-        "bool": false
-      },
-      {
-        "option": "All of these",
-        "bool": true
       }
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the treatment for resistant trichiasis?",
     "answers": [
-      {
-        "option": "Cryotherapy",
-        "bool": false
-      },
       {
         "option": "Electrolysis",
         "bool": false
       },
       {
-        "option": "Epilation",
+        "option": "Cryotherapy",
         "bool": false
       },
       {
@@ -347,20 +316,28 @@
       {
         "option": "Anterior lamellar and wedge resection",
         "bool": true
+      },
+      {
+        "option": "Epilation",
+        "bool": false
       }
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "info": "4th-year/ophthalmology/2019",
     "question": "The lateral rectus muscle is supplied by which of the following cranial nerves?",
     "answers": [
       {
-        "option": "Trochlear nerve",
+        "option": "Facial nerve",
         "bool": false
       },
       {
-        "option": "Facial nerve",
+        "option": "Oculomotor nerve",
+        "bool": false
+      },
+      {
+        "option": "Trochlear nerve",
         "bool": false
       },
       {
@@ -370,9 +347,32 @@
       {
         "option": "Maxillary nerve",
         "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the most common cause of preventable blindness?",
+    "answers": [
+      {
+        "option": "Glaucoma",
+        "bool": false
       },
       {
-        "option": "Oculomotor nerve",
+        "option": "Diabetic retinopathy",
+        "bool": false
+      },
+      {
+        "option": "Cataract",
+        "bool": false
+      },
+      {
+        "option": "Trachoma",
+        "bool": true
+      },
+      {
+        "option": "Bacterial corneal ulcer",
         "bool": false
       }
     ]
@@ -380,10 +380,14 @@
   {
     "id": 14,
     "info": "4th-year/ophthalmology/2019",
-    "question": "What is the most common cause of preventable blindness?",
+    "question": "Which of the following diseases is caused by unhygienic conditions?",
     "answers": [
       {
-        "option": "Bacterial corneal ulcer",
+        "option": "Glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Diabetic retinopathy",
         "bool": false
       },
       {
@@ -391,15 +395,11 @@
         "bool": true
       },
       {
-        "option": "Diabetic retinopathy",
-        "bool": false
-      },
-      {
         "option": "Cataract",
         "bool": false
       },
       {
-        "option": "Glaucoma",
+        "option": "Fungal keratitis",
         "bool": false
       }
     ]
@@ -407,45 +407,14 @@
   {
     "id": 15,
     "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following diseases is caused by unhygienic conditions?",
-    "answers": [
-      {
-        "option": "Diabetic retinopathy",
-        "bool": false
-      },
-      {
-        "option": "Glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Fungal keratitis",
-        "bool": false
-      },
-      {
-        "option": "Trachoma",
-        "bool": true
-      },
-      {
-        "option": "Cataract",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following antiviral drugs is least toxic?",
     "answers": [
       {
-        "option": "Acyclovir",
-        "bool": true
-      },
-      {
-        "option": "Foscarnet",
+        "option": "Cidofovir",
         "bool": false
       },
       {
-        "option": "Ganciclovir",
+        "option": "Foscarnet",
         "bool": false
       },
       {
@@ -453,7 +422,38 @@
         "bool": false
       },
       {
-        "option": "Cidofovir",
+        "option": "Acyclovir",
+        "bool": true
+      },
+      {
+        "option": "Ganciclovir",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which of the following is a characteristic feature usually only present in herpes simplex virus (HSV) keratitis?",
+    "answers": [
+      {
+        "option": "Redness",
+        "bool": false
+      },
+      {
+        "option": "Decreased corneal sensitivity",
+        "bool": true
+      },
+      {
+        "option": "Pain",
+        "bool": false
+      },
+      {
+        "option": "Photophobia",
+        "bool": false
+      },
+      {
+        "option": "Lacrimation",
         "bool": false
       }
     ]
@@ -461,26 +461,26 @@
   {
     "id": 17,
     "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following is a characteristic feature usually only present in herpes simplex virus (HSV) keratitis?",
+    "question": "Which of the following is a common side effect of long-term systemic steroid use?",
     "answers": [
       {
-        "option": "Decreased corneal sensitivity",
+        "option": "Cataract",
         "bool": true
       },
       {
-        "option": "Photophobia",
+        "option": "Keratitis",
         "bool": false
       },
       {
-        "option": "Pain",
+        "option": "Uveitis",
         "bool": false
       },
       {
-        "option": "Lacrimation",
+        "option": "Fundus dystrophy",
         "bool": false
       },
       {
-        "option": "Redness",
+        "option": "Glaucoma",
         "bool": false
       }
     ]
@@ -491,23 +491,23 @@
     "question": "A 2-month-old male child is brought to the clinic by his parents. He is found to have problems with lacrimation and photophobia. The cornea of both eyes is also large and hazy. Which of the following is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Congenital glaucoma",
-        "bool": true
+        "option": "Ocular birth trauma",
+        "bool": false
+      },
+      {
+        "option": "Megalocornea",
+        "bool": false
       },
       {
         "option": "High myopia",
         "bool": false
       },
       {
-        "option": "Ocular birth trauma",
-        "bool": false
+        "option": "Congenital glaucoma",
+        "bool": true
       },
       {
         "option": "Nasolacrimal duct obstruction",
-        "bool": false
-      },
-      {
-        "option": "Megalocornea",
         "bool": false
       }
     ]
@@ -522,19 +522,19 @@
         "bool": true
       },
       {
-        "option": "Decreases aqueous production",
-        "bool": false
-      },
-      {
         "option": "Increases aqueous outflow",
         "bool": false
       },
       {
-        "option": "Decreases trabecular outflow",
+        "option": "Constriction of pupil",
         "bool": false
       },
       {
-        "option": "Constriction of pupil",
+        "option": "Decreases aqueous production",
+        "bool": false
+      },
+      {
+        "option": "Decreases trabecular outflow",
         "bool": false
       }
     ]
@@ -545,24 +545,24 @@
     "question": "According to WHO, blindness is defined as visual acuity of or less than which of the following?",
     "answers": [
       {
-        "option": "6/18",
-        "bool": false
-      },
-      {
-        "option": "3/60",
-        "bool": true
-      },
-      {
-        "option": "No perception of light",
-        "bool": false
-      },
-      {
         "option": "Counting fingers only",
         "bool": false
       },
       {
         "option": "6/60",
         "bool": false
+      },
+      {
+        "option": "6/18",
+        "bool": false
+      },
+      {
+        "option": "No perception of light",
+        "bool": false
+      },
+      {
+        "option": "3/60",
+        "bool": true
       }
     ]
   },
@@ -580,7 +580,7 @@
         "bool": true
       },
       {
-        "option": "LASEK",
+        "option": "Phakic posterior chamber implant",
         "bool": false
       },
       {
@@ -588,7 +588,7 @@
         "bool": false
       },
       {
-        "option": "Phakic posterior chamber implant",
+        "option": "LASEK",
         "bool": false
       }
     ]
@@ -599,14 +599,6 @@
     "question": "An 11-year-old boy presented with a chronic history of itching and watering eyes, photophobia, and marked redness in both eyes. On examination, visual acuity was 20/20 for both eyes. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Purulent conjunctivitis",
-        "bool": false
-      },
-      {
-        "option": "Pharyngoconjunctival fever",
-        "bool": false
-      },
-      {
         "option": "Mucopurulent conjunctivitis",
         "bool": false
       },
@@ -615,7 +607,15 @@
         "bool": true
       },
       {
+        "option": "Pharyngoconjunctival fever",
+        "bool": false
+      },
+      {
         "option": "Membranous conjunctivitis",
+        "bool": false
+      },
+      {
+        "option": "Purulent conjunctivitis",
         "bool": false
       }
     ]
@@ -623,26 +623,26 @@
   {
     "id": 23,
     "info": "4th-year/ophthalmology/2019",
-    "question": "Which type of scleritis usually presents with visual impairment and proptosis?",
+    "question": "Which statement is correct regarding vernal keratoconjunctivitis?",
     "answers": [
       {
-        "option": "Anterior necrotizing scleritis with inflammation",
+        "option": "Usually there is no genetic history involved",
         "bool": false
       },
       {
-        "option": "Nodular scleritis",
+        "option": "It is a type II hypersensitivity reaction",
         "bool": false
       },
       {
-        "option": "Posterior scleritis",
+        "option": "It is more common in females",
+        "bool": false
+      },
+      {
+        "option": "It usually occurs in children",
         "bool": true
       },
       {
-        "option": "Diffuse scleritis",
-        "bool": false
-      },
-      {
-        "option": "Anterior necrotizing scleritis without inflammation",
+        "option": "It usually occurs in adults",
         "bool": false
       }
     ]
@@ -650,14 +650,37 @@
   {
     "id": 24,
     "info": "4th-year/ophthalmology/2019",
-    "question": "Which one of them is not a distinguishing feature between episcleritis and scleritis?",
+    "question": "Which type of scleritis usually presents with visual impairment and proptosis?",
     "answers": [
       {
-        "option": "Redness of eye",
+        "option": "Anterior necrotizing  scleritis with inflammation",
+        "bool": false
+      },
+      {
+        "option": "Nodular  scleritis",
+        "bool": false
+      },
+      {
+        "option": "Anterior necrotizing  scleritis without inflammation",
+        "bool": false
+      },
+      {
+        "option": "Posterior scleritis",
         "bool": true
       },
       {
-        "option": "Phenylephrine test",
+        "option": "Diffuse  scleritis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which one of them is not a distinguishing feature between episcleritis and scleritis?",
+    "answers": [
+      {
+        "option": "Mobility of lesion",
         "bool": false
       },
       {
@@ -665,17 +688,102 @@
         "bool": false
       },
       {
-        "option": "Mobility of lesion",
+        "option": "Visual impairment",
         "bool": false
       },
       {
-        "option": "Visual impairment",
+        "option": "Phenylephrine test",
+        "bool": false
+      },
+      {
+        "option": "Redness of eye",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "A 40-year-old man presented to the outpatient department with decreased vision in both eyes for the past 6 months. He has had diabetes for 10 years. What is the most common type of cataract in diabetes?",
+    "answers": [
+      {
+        "option": "Polar",
+        "bool": false
+      },
+      {
+        "option": "Cortical",
+        "bool": false
+      },
+      {
+        "option": "Nuclear",
+        "bool": false
+      },
+      {
+        "option": "Snowflake capsular",
+        "bool": true
+      },
+      {
+        "option": "Posterior subcapsular",
         "bool": false
       }
     ]
   },
   {
-    "id": 25,
+    "id": 27,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the mechanism of action of a topical carbonic anhydrase inhibitor on the eye?",
+    "answers": [
+      {
+        "option": "Contracts ciliary muscle",
+        "bool": false
+      },
+      {
+        "option": "Increases aqueous outflow",
+        "bool": false
+      },
+      {
+        "option": "Contracts pupillary sphincter muscle",
+        "bool": false
+      },
+      {
+        "option": "Decreases aqueous secretion",
+        "bool": true
+      },
+      {
+        "option": "Blocks the trabecular meshwork",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the treatment of choice in primary open angle glaucoma if intraocular pressure (IOP) is uncontrolled despite maximally tolerated medical therapy?",
+    "answers": [
+      {
+        "option": "Deep  sclerotomy",
+        "bool": false
+      },
+      {
+        "option": "Trabeculectomy",
+        "bool": false
+      },
+      {
+        "option": "Laser",
+        "bool": true
+      },
+      {
+        "option": "Increase the dosage of drugs or give them in combination",
+        "bool": false
+      },
+      {
+        "option": "Viscocanalostomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which class of drugs are most commonly associated with the development of secondary cataracts?",
     "answers": [
@@ -684,11 +792,11 @@
         "bool": true
       },
       {
-        "option": "Beta blockers",
+        "option": "Topical antibiotics",
         "bool": false
       },
       {
-        "option": "Carbonic anhydrase inhibitors",
+        "option": "Beta blockers",
         "bool": false
       },
       {
@@ -696,22 +804,45 @@
         "bool": false
       },
       {
-        "option": "Topical antibiotics",
+        "option": "Carbonic anhydrase inhibitors",
         "bool": false
       }
     ]
   },
   {
-    "id": 26,
+    "id": 30,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the most probable cause of congenital glaucoma?",
+    "answers": [
+      {
+        "option": "Developmental defect of angle",
+        "bool": true
+      },
+      {
+        "option": "Iridocyclitis",
+        "bool": false
+      },
+      {
+        "option": "Corneal ulcer",
+        "bool": false
+      },
+      {
+        "option": "Deposition of pigments",
+        "bool": false
+      },
+      {
+        "option": "Increased production of aqueous humour",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 31,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the duration of action of tropicamide as a cycloplegic?",
     "answers": [
       {
-        "option": "1-2 hours",
-        "bool": false
-      },
-      {
-        "option": "7 days",
+        "option": "12 hours",
         "bool": false
       },
       {
@@ -719,30 +850,61 @@
         "bool": true
       },
       {
-        "option": "48 hours",
+        "option": "7 days",
         "bool": false
       },
       {
-        "option": "12 hours",
+        "option": "1-2 hours",
+        "bool": false
+      },
+      {
+        "option": "48 hours",
         "bool": false
       }
     ]
   },
   {
-    "id": 27,
+    "id": 32,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which feature will be observed in the proliferative stage of diabetic retinopathy?",
+    "answers": [
+      {
+        "option": "Cotton wool spots",
+        "bool": false
+      },
+      {
+        "option": "Microaneurysms",
+        "bool": false
+      },
+      {
+        "option": "Flame shaped hemorrhages",
+        "bool": false
+      },
+      {
+        "option": "Hard exudates",
+        "bool": false
+      },
+      {
+        "option": "Retinal neovascularization",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 33,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is a feature of background diabetic retinopathy?",
     "answers": [
+      {
+        "option": "Tractional retinal detachment",
+        "bool": false
+      },
       {
         "option": "Retinal neovascularization",
         "bool": false
       },
       {
         "option": "Vitreous hemorrhage",
-        "bool": false
-      },
-      {
-        "option": "Tractional retinal detachment",
         "bool": false
       },
       {
@@ -756,16 +918,16 @@
     ]
   },
   {
-    "id": 28,
+    "id": 34,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is a common ophthalmologic side effect of systemic steroid therapy?",
     "answers": [
       {
-        "option": "Hemangioma",
+        "option": "Scleritis",
         "bool": false
       },
       {
-        "option": "Posterior uveitis",
+        "option": "Anterior uveitis",
         "bool": false
       },
       {
@@ -773,30 +935,22 @@
         "bool": true
       },
       {
-        "option": "Anterior uveitis",
+        "option": "Posterior uveitis",
         "bool": false
       },
       {
-        "option": "Scleritis",
+        "option": "Hemangioma",
         "bool": false
       }
     ]
   },
   {
-    "id": 29,
+    "id": 35,
     "info": "4th-year/ophthalmology/2019",
     "question": "Bacterial keratitis is treated with which of the following?",
     "answers": [
       {
-        "option": "Visible light laser",
-        "bool": false
-      },
-      {
         "option": "Topical steroids",
-        "bool": false
-      },
-      {
-        "option": "UV laser",
         "bool": false
       },
       {
@@ -806,25 +960,33 @@
       {
         "option": "Topical NSAIDs",
         "bool": false
+      },
+      {
+        "option": "UV laser",
+        "bool": false
+      },
+      {
+        "option": "Visible light laser",
+        "bool": false
       }
     ]
   },
   {
-    "id": 30,
+    "id": 36,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is the most prevalent cause of blindness?",
     "answers": [
       {
-        "option": "Aphakia",
-        "bool": false
+        "option": "Cataract",
+        "bool": true
       },
       {
         "option": "Corneal opacities",
         "bool": false
       },
       {
-        "option": "Cataract",
-        "bool": true
+        "option": "Aphakia",
+        "bool": false
       },
       {
         "option": "Glaucoma",
@@ -837,292 +999,10 @@
     ]
   },
   {
-    "id": 31,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which statement is correct regarding vernal keratoconjunctivitis?",
-    "answers": [
-      {
-        "option": "It usually occurs in adults",
-        "bool": false
-      },
-      {
-        "option": "It is more common in females",
-        "bool": false
-      },
-      {
-        "option": "It is a type II hypersensitivity reaction",
-        "bool": false
-      },
-      {
-        "option": "It usually occurs in children",
-        "bool": true
-      },
-      {
-        "option": "Usually there is no genetic history involved",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "A 40-year-old man presented to the outpatient department with decreased vision in both eyes for the past 6 months. He has had diabetes for 10 years. What is the most common type of cataract in diabetes?",
-    "answers": [
-      {
-        "option": "Snowflake capsular",
-        "bool": true
-      },
-      {
-        "option": "Posterior subcapsular",
-        "bool": false
-      },
-      {
-        "option": "Nuclear",
-        "bool": false
-      },
-      {
-        "option": "Cortical",
-        "bool": false
-      },
-      {
-        "option": "Polar",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the mechanism of action of a topical carbonic anhydrase inhibitor on the eye?",
-    "answers": [
-      {
-        "option": "Increases aqueous outflow",
-        "bool": false
-      },
-      {
-        "option": "Decreases aqueous secretion",
-        "bool": true
-      },
-      {
-        "option": "Contracts ciliary muscle",
-        "bool": false
-      },
-      {
-        "option": "Blocks the trabecular meshwork",
-        "bool": false
-      },
-      {
-        "option": "Contracts pupillary sphincter muscle",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the treatment of choice in primary open angle glaucoma if intraocular pressure (IOP) is uncontrolled despite maximally tolerated medical therapy?",
-    "answers": [
-      {
-        "option": "Deep sclerotomy",
-        "bool": false
-      },
-      {
-        "option": "Trabeculectomy",
-        "bool": false
-      },
-      {
-        "option": "Viscocanalostomy",
-        "bool": false
-      },
-      {
-        "option": "Laser",
-        "bool": true
-      },
-      {
-        "option": "Increase the dosage of drugs or give them in combination",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the most probable cause of congenital glaucoma?",
-    "answers": [
-      {
-        "option": "Iridocyclitis",
-        "bool": false
-      },
-      {
-        "option": "Deposition of pigments",
-        "bool": false
-      },
-      {
-        "option": "Developmental defect of angle",
-        "bool": true
-      },
-      {
-        "option": "Increased production of aqueous humour",
-        "bool": false
-      },
-      {
-        "option": "Corneal ulcer",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which feature will be observed in the proliferative stage of diabetic retinopathy?",
-    "answers": [
-      {
-        "option": "Microaneurysms",
-        "bool": false
-      },
-      {
-        "option": "Flame shaped hemorrhages",
-        "bool": false
-      },
-      {
-        "option": "Cotton wool spots",
-        "bool": false
-      },
-      {
-        "option": "Hard exudates",
-        "bool": false
-      },
-      {
-        "option": "Retinal neovascularization",
-        "bool": true
-      }
-    ]
-  },
-  {
     "id": 37,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "The horizontal movement of the eyeball is a function of which of the following muscles?",
-    "answers": [
-      {
-        "option": "Lateral rectus",
-        "bool": false
-      },
-      {
-        "option": "Medial rectus",
-        "bool": false
-      },
-      {
-        "option": "Superior oblique",
-        "bool": false
-      },
-      {
-        "option": "Inferior oblique",
-        "bool": false
-      },
-      {
-        "option": "Lateral and medial recti",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the usual age range of a patient who develops vision loss because of diabetic retinopathy?",
-    "answers": [
-      {
-        "option": "70 years and above",
-        "bool": false
-      },
-      {
-        "option": "50-75 years",
-        "bool": false
-      },
-      {
-        "option": "25-74 years",
-        "bool": true
-      },
-      {
-        "option": "10-25 years",
-        "bool": false
-      },
-      {
-        "option": "20-40 years",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following disease presents with the characteristic T-sign on ultrasonography?",
-    "answers": [
-      {
-        "option": "Anterior scleritis",
-        "bool": false
-      },
-      {
-        "option": "Congenital glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Cataract due to diabetes",
-        "bool": false
-      },
-      {
-        "option": "Posterior scleritis",
-        "bool": true
-      },
-      {
-        "option": "Episcleritis",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the age at which pathological myopia begins?",
-    "answers": [
-      {
-        "option": "5-10 years",
-        "bool": true
-      },
-      {
-        "option": "15-20 years",
-        "bool": false
-      },
-      {
-        "option": "30-40 years",
-        "bool": false
-      },
-      {
-        "option": "50- 70 years",
-        "bool": false
-      },
-      {
-        "option": "25-50 years",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 41,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following systemic diseases is closely associated with episcleritis?",
     "answers": [
-      {
-        "option": "Crohns disease",
-        "bool": false
-      },
-      {
-        "option": "Rheumatoid arthritis",
-        "bool": true
-      },
-      {
-        "option": "Ankylosing spondylitis",
-        "bool": false
-      },
       {
         "option": "Behcet disease",
         "bool": false
@@ -1130,22 +1010,26 @@
       {
         "option": "Sarcoidosis",
         "bool": false
+      },
+      {
+        "option": "Crohns disease",
+        "bool": false
+      },
+      {
+        "option": "Ankylosing spondylitis",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": true
       }
     ]
   },
   {
-    "id": 42,
+    "id": 38,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which wall of the orbit is the strongest?",
     "answers": [
-      {
-        "option": "Floor",
-        "bool": false
-      },
-      {
-        "option": "Base",
-        "bool": false
-      },
       {
         "option": "Medial",
         "bool": false
@@ -1155,22 +1039,26 @@
         "bool": true
       },
       {
+        "option": "Floor",
+        "bool": false
+      },
+      {
+        "option": "Base",
+        "bool": false
+      },
+      {
         "option": "Roof",
         "bool": false
       }
     ]
   },
   {
-    "id": 43,
+    "id": 39,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following bones make the roof of the orbit?",
     "answers": [
       {
         "option": "The ethmoid and maxilla",
-        "bool": false
-      },
-      {
-        "option": "The maxilla, palatine and zygomatic bones",
         "bool": false
       },
       {
@@ -1182,13 +1070,17 @@
         "bool": false
       },
       {
+        "option": "The maxilla, palatine and zygomatic bones",
+        "bool": false
+      },
+      {
         "option": "The greater wing of sphenoid only",
         "bool": false
       }
     ]
   },
   {
-    "id": 44,
+    "id": 40,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which complication among the following occurs in multiple sclerosis?",
     "answers": [
@@ -1197,38 +1089,30 @@
         "bool": false
       },
       {
+        "option": "Hordeolum externum",
+        "bool": false
+      },
+      {
         "option": "Optic neuritis",
         "bool": true
       },
       {
-        "option": "Hordeolum externum",
+        "option": "Blepharitis",
         "bool": false
       },
       {
         "option": "Papilloedema",
         "bool": false
-      },
-      {
-        "option": "Blepharitis",
-        "bool": false
       }
     ]
   },
   {
-    "id": 45,
+    "id": 41,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the most common presentation of retinoblastoma?",
     "answers": [
       {
-        "option": "Squint",
-        "bool": false
-      },
-      {
         "option": "Redness of eye",
-        "bool": false
-      },
-      {
-        "option": "Decreased vision",
         "bool": false
       },
       {
@@ -1236,26 +1120,26 @@
         "bool": false
       },
       {
+        "option": "Decreased vision",
+        "bool": false
+      },
+      {
         "option": "Leukocoria",
         "bool": true
+      },
+      {
+        "option": "Squint",
+        "bool": false
       }
     ]
   },
   {
-    "id": 46,
+    "id": 42,
     "info": "4th-year/ophthalmology/2019",
     "question": "A 40-year-old adult presented to the clinic with bilateral proptosis. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Orbital cellulitis",
-        "bool": false
-      },
-      {
-        "option": "Thyroid ophthalmopathy due to Graves disease",
-        "bool": true
-      },
-      {
-        "option": "Lacrimal gland tumour",
+        "option": "Mucormycosis",
         "bool": false
       },
       {
@@ -1263,22 +1147,30 @@
         "bool": false
       },
       {
-        "option": "Mucormycosis",
+        "option": "Thyroid ophthalmopathy due to Graves disease",
+        "bool": true
+      },
+      {
+        "option": "Orbital cellulitis",
+        "bool": false
+      },
+      {
+        "option": "Lacrimal gland tumour",
         "bool": false
       }
     ]
   },
   {
-    "id": 47,
+    "id": 43,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the most common refractive disorder?",
     "answers": [
       {
-        "option": "Congenital myopia",
+        "option": "Astigmatism",
         "bool": false
       },
       {
-        "option": "Pathological myopia",
+        "option": "Congenital myopia",
         "bool": false
       },
       {
@@ -1290,18 +1182,18 @@
         "bool": false
       },
       {
-        "option": "Astigmatism",
+        "option": "Pathological myopia",
         "bool": false
       }
     ]
   },
   {
-    "id": 48,
+    "id": 44,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the central change characterized as a dark pigmented lesion in the macula due to hemorrhage in pathological myopia called?",
     "answers": [
       {
-        "option": "Hydrops",
+        "option": "Lacquer cracks",
         "bool": false
       },
       {
@@ -1309,30 +1201,30 @@
         "bool": false
       },
       {
-        "option": "Foster-Fuchs spot",
-        "bool": true
-      },
-      {
-        "option": "Lacquer cracks",
+        "option": "Hydrops",
         "bool": false
       },
       {
         "option": "Staphyloma",
         "bool": false
+      },
+      {
+        "option": "Foster-Fuchs spot",
+        "bool": true
       }
     ]
   },
   {
-    "id": 49,
+    "id": 45,
     "info": "4th-year/ophthalmology/2019",
     "question": "What are the breaks in Bruch's membrane in pathological myopia called?",
     "answers": [
       {
-        "option": "Hard exudates",
-        "bool": false
+        "option": "Lacquer cracks",
+        "bool": true
       },
       {
-        "option": "Staphylomas",
+        "option": "Cotton wool spots",
         "bool": false
       },
       {
@@ -1340,30 +1232,30 @@
         "bool": false
       },
       {
-        "option": "Cotton wool spots",
+        "option": "Staphylomas",
         "bool": false
       },
       {
-        "option": "Lacquer cracks",
-        "bool": true
+        "option": "Hard exudates",
+        "bool": false
       }
     ]
   },
   {
-    "id": 50,
+    "id": 46,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the usual age for the development of presbyopia in emmetropes?",
     "answers": [
+      {
+        "option": "50 years",
+        "bool": false
+      },
       {
         "option": "55 years",
         "bool": false
       },
       {
         "option": "60 years",
-        "bool": false
-      },
-      {
-        "option": "50 years",
         "bool": false
       },
       {
@@ -1377,20 +1269,47 @@
     ]
   },
   {
-    "id": 51,
+    "id": 47,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "The horizontal movement of the eyeball is a function of which of the following muscles?",
+    "answers": [
+      {
+        "option": "Inferior oblique",
+        "bool": false
+      },
+      {
+        "option": "Superior oblique",
+        "bool": false
+      },
+      {
+        "option": "Lateral rectus",
+        "bool": false
+      },
+      {
+        "option": "Medial rectus",
+        "bool": false
+      },
+      {
+        "option": "Lateral and medial recti",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 48,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is the most common cause of blindness in Pakistan?",
     "answers": [
+      {
+        "option": "Malignancy",
+        "bool": false
+      },
       {
         "option": "Cataract",
         "bool": true
       },
       {
         "option": "Glaucoma",
-        "bool": false
-      },
-      {
-        "option": "Malignancy",
         "bool": false
       },
       {
@@ -1404,12 +1323,12 @@
     ]
   },
   {
-    "id": 52,
+    "id": 49,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following statements is true about basal cell carcinoma?",
     "answers": [
       {
-        "option": "It is a benign tumor",
+        "option": "It arises from nerve sheath",
         "bool": false
       },
       {
@@ -1417,7 +1336,7 @@
         "bool": false
       },
       {
-        "option": "It arises from nerve sheath",
+        "option": "It is a benign tumor",
         "bool": false
       },
       {
@@ -1431,16 +1350,20 @@
     ]
   },
   {
-    "id": 53,
+    "id": 50,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is the weakest wall of the orbit?",
     "answers": [
+      {
+        "option": "Roof",
+        "bool": false
+      },
       {
         "option": "Lateral wall",
         "bool": false
       },
       {
-        "option": "Medial wall",
+        "option": "Posterior wall",
         "bool": false
       },
       {
@@ -1448,22 +1371,22 @@
         "bool": true
       },
       {
-        "option": "Roof",
-        "bool": false
-      },
-      {
-        "option": "Posterior wall",
+        "option": "Medial wall",
         "bool": false
       }
     ]
   },
   {
-    "id": 54,
+    "id": 51,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following conditions is associated with Eales disease?",
     "answers": [
       {
-        "option": "Diabetes",
+        "option": "Tuberculosis",
+        "bool": true
+      },
+      {
+        "option": "Hypertension",
         "bool": false
       },
       {
@@ -1471,24 +1394,24 @@
         "bool": false
       },
       {
-        "option": "Hypertension",
-        "bool": false
-      },
-      {
         "option": "Hepatitis",
         "bool": false
       },
       {
-        "option": "Tuberculosis",
-        "bool": true
+        "option": "Diabetes",
+        "bool": false
       }
     ]
   },
   {
-    "id": 55,
+    "id": 52,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is the most dangerous foreign body for the eye?",
     "answers": [
+      {
+        "option": "Glass",
+        "bool": false
+      },
       {
         "option": "Plastic",
         "bool": false
@@ -1498,138 +1421,22 @@
         "bool": true
       },
       {
-        "option": "Glass",
+        "option": "Copper",
         "bool": false
       },
       {
         "option": "Coal",
         "bool": false
-      },
-      {
-        "option": "Copper",
-        "bool": false
       }
     ]
   },
   {
-    "id": 56,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the most common cause of cataracts in young adults?",
-    "answers": [
-      {
-        "option": "Radiation",
-        "bool": false
-      },
-      {
-        "option": "Diabetes mellitus",
-        "bool": false
-      },
-      {
-        "option": "Senility",
-        "bool": false
-      },
-      {
-        "option": "Hypothyroidism",
-        "bool": false
-      },
-      {
-        "option": "Trauma",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which one of the following is the most dreadful complication of a corneal ulcer?",
-    "answers": [
-      {
-        "option": "Descemetocele",
-        "bool": false
-      },
-      {
-        "option": "Toxic iridocyclitis",
-        "bool": false
-      },
-      {
-        "option": "Posterior uveitis",
-        "bool": false
-      },
-      {
-        "option": "Perforation",
-        "bool": true
-      },
-      {
-        "option": "Secondary glaucoma",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "What is the approximate refractive power of the cornea?",
-    "answers": [
-      {
-        "option": "+60 diopters",
-        "bool": false
-      },
-      {
-        "option": "+2 diopters",
-        "bool": false
-      },
-      {
-        "option": "+ 57 diopters",
-        "bool": false
-      },
-      {
-        "option": "+49 diopters",
-        "bool": false
-      },
-      {
-        "option": "+43 diopters",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following statements correctly describe 'Posterior vitreous detachment'?",
-    "answers": [
-      {
-        "option": "Separation of sensory retina from pigment epithelium",
-        "bool": false
-      },
-      {
-        "option": "Detachment of vitreous membrane due to posterior segment trauma",
-        "bool": false
-      },
-      {
-        "option": "Contraction of vitreoretinal membrane",
-        "bool": false
-      },
-      {
-        "option": "Vitreous detachment due to hemorrhage",
-        "bool": false
-      },
-      {
-        "option": "Separation of the cortical vitreous from the retina posterior to ora serrata",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 60,
+    "id": 53,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the test for the estimation of the angle of esophoria?",
     "answers": [
       {
-        "option": "Maddox rod test",
-        "bool": false
-      },
-      {
-        "option": "Cover-uncover test",
+        "option": "Optical Coherence Tomography (OCT)",
         "bool": false
       },
       {
@@ -1637,24 +1444,24 @@
         "bool": false
       },
       {
-        "option": "Optical Coherence Tomography (OCT)",
+        "option": "Hirschberg test",
         "bool": false
       },
       {
-        "option": "Hirschberg test",
+        "option": "Cover-uncover test",
+        "bool": false
+      },
+      {
+        "option": "Maddox rod test",
         "bool": true
       }
     ]
   },
   {
-    "id": 61,
+    "id": 54,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the most probable cause of a pseudosquint?",
     "answers": [
-      {
-        "option": "Change in curvature of cornea",
-        "bool": false
-      },
       {
         "option": "Conjunctivitis",
         "bool": false
@@ -1664,24 +1471,24 @@
         "bool": true
       },
       {
+        "option": "Narrowing of the anterior chamber angle",
+        "bool": false
+      },
+      {
         "option": "Increase in the collagen fibres of stroma",
         "bool": false
       },
       {
-        "option": "Narrowing of the anterior chamber angle",
+        "option": "Change in curvature of cornea",
         "bool": false
       }
     ]
   },
   {
-    "id": 62,
+    "id": 55,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the presentation of primary open-angle glaucoma?",
     "answers": [
-      {
-        "option": "Painless loss of vision",
-        "bool": true
-      },
       {
         "option": "Painful loss of vision",
         "bool": false
@@ -1691,47 +1498,82 @@
         "bool": false
       },
       {
+        "option": "Periodic episodes of blurred vision and halos",
+        "bool": false
+      },
+      {
         "option": "Patient is usually symptom free",
         "bool": false
       },
       {
-        "option": "Periodic episodes of blurred vision and halos",
+        "option": "Painless loss of vision",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the most common cause of cataracts in young adults?",
+    "answers": [
+      {
+        "option": "Senility",
+        "bool": false
+      },
+      {
+        "option": "Trauma",
+        "bool": true
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      },
+      {
+        "option": "Radiation",
+        "bool": false
+      },
+      {
+        "option": "Diabetes mellitus",
         "bool": false
       }
     ]
   },
   {
-    "id": 63,
+    "id": 57,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is not used as a vitreous substitute?",
     "answers": [
       {
-        "option": "Silicone oil",
-        "bool": false
-      },
-      {
-        "option": "Ringer's lactate",
-        "bool": false
+        "option": "Methylcellulose",
+        "bool": true
       },
       {
         "option": "Expandable gas",
         "bool": false
       },
       {
-        "option": "Methylcellulose",
-        "bool": true
+        "option": "Silicone oil",
+        "bool": false
       },
       {
         "option": "Sterile air",
+        "bool": false
+      },
+      {
+        "option": "Ringer's lactate",
         "bool": false
       }
     ]
   },
   {
-    "id": 64,
+    "id": 58,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which class of drugs does tropicamide belong to?",
     "answers": [
+      {
+        "option": "Cholinergic agonists",
+        "bool": false
+      },
       {
         "option": "Topical antibiotics",
         "bool": false
@@ -1747,30 +1589,14 @@
       {
         "option": "Steroids",
         "bool": false
-      },
-      {
-        "option": "Cholinergic agonists",
-        "bool": false
       }
     ]
   },
   {
-    "id": 65,
+    "id": 59,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the treatment for hyphema?",
     "answers": [
-      {
-        "option": "Topical antibiotics + atropine",
-        "bool": false
-      },
-      {
-        "option": "NSAIDs",
-        "bool": false
-      },
-      {
-        "option": "Warfarin",
-        "bool": false
-      },
       {
         "option": "Aspirin",
         "bool": false
@@ -1778,24 +1604,28 @@
       {
         "option": "Antiglaucoma drugs + atropine + topical steroids",
         "bool": true
+      },
+      {
+        "option": "NSAIDs",
+        "bool": false
+      },
+      {
+        "option": "Topical antibiotics + atropine",
+        "bool": false
+      },
+      {
+        "option": "Warfarin",
+        "bool": false
       }
     ]
   },
   {
-    "id": 66,
+    "id": 60,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which one of the following is a clinical feature of viral keratitis?",
     "answers": [
       {
-        "option": "Feathery edge ulcer",
-        "bool": false
-      },
-      {
         "option": "Sunflower cataract",
-        "bool": false
-      },
-      {
-        "option": "Snowflake cataract",
         "bool": false
       },
       {
@@ -1803,18 +1633,134 @@
         "bool": false
       },
       {
+        "option": "Snowflake cataract",
+        "bool": false
+      },
+      {
         "option": "Geographical ulcer",
         "bool": true
+      },
+      {
+        "option": "Feathery edge ulcer",
+        "bool": false
       }
     ]
   },
   {
-    "id": 67,
+    "id": 61,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which one of the following is the most dreadful complication of a corneal ulcer?",
+    "answers": [
+      {
+        "option": "Perforation",
+        "bool": true
+      },
+      {
+        "option": "Descemetocele",
+        "bool": false
+      },
+      {
+        "option": "Posterior uveitis",
+        "bool": false
+      },
+      {
+        "option": "Secondary glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Toxic iridocyclitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the usual age range of a patient who develops vision loss because of diabetic retinopathy?",
+    "answers": [
+      {
+        "option": "10-25  years",
+        "bool": false
+      },
+      {
+        "option": "25-74 years",
+        "bool": true
+      },
+      {
+        "option": "20-40  years",
+        "bool": false
+      },
+      {
+        "option": "50-75  years",
+        "bool": false
+      },
+      {
+        "option": "70 years and above",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which of the following disease presents with the characteristic T-sign on ultrasonography?",
+    "answers": [
+      {
+        "option": "Congenital glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Episcleritis",
+        "bool": false
+      },
+      {
+        "option": "Posterior scleritis",
+        "bool": true
+      },
+      {
+        "option": "Cataract due to diabetes",
+        "bool": false
+      },
+      {
+        "option": "Anterior scleritis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the age at which pathological myopia begins?",
+    "answers": [
+      {
+        "option": "50- 70 years",
+        "bool": false
+      },
+      {
+        "option": "15-20 years",
+        "bool": false
+      },
+      {
+        "option": "25-50 years",
+        "bool": false
+      },
+      {
+        "option": "5-10 years",
+        "bool": true
+      },
+      {
+        "option": "30-40 years",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 65,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the length of the medial rectus muscle?",
     "answers": [
       {
-        "option": "7.5 mm",
+        "option": "6.5 mm",
         "bool": false
       },
       {
@@ -1822,34 +1768,61 @@
         "bool": true
       },
       {
-        "option": "10 mm",
-        "bool": false
-      },
-      {
-        "option": "6.5 mm",
+        "option": "7.5 mm",
         "bool": false
       },
       {
         "option": "12.5 mm",
         "bool": false
+      },
+      {
+        "option": "10 mm",
+        "bool": false
       }
     ]
   },
   {
-    "id": 68,
+    "id": 66,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "What is the approximate refractive power of the cornea?",
+    "answers": [
+      {
+        "option": "+49 diopters",
+        "bool": false
+      },
+      {
+        "option": "+2 diopters",
+        "bool": false
+      },
+      {
+        "option": "+43 diopters",
+        "bool": true
+      },
+      {
+        "option": "+60 diopters",
+        "bool": false
+      },
+      {
+        "option": "+ 57 diopters",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 67,
     "info": "4th-year/ophthalmology/2019",
     "question": "Terminal bulbs with dendritic ulcers on the cornea occur due to which of the following pathogens?",
     "answers": [
+      {
+        "option": "Adenovirus",
+        "bool": false
+      },
       {
         "option": "Acanthamoeba",
         "bool": false
       },
       {
-        "option": "Herpes simplex virus",
-        "bool": true
-      },
-      {
-        "option": "Adenovirus",
+        "option": "Varicella zoster virus",
         "bool": false
       },
       {
@@ -1857,18 +1830,22 @@
         "bool": false
       },
       {
-        "option": "Varicella zoster virus",
-        "bool": false
+        "option": "Herpes simplex virus",
+        "bool": true
       }
     ]
   },
   {
-    "id": 69,
+    "id": 68,
     "info": "4th-year/ophthalmology/2019",
     "question": "What does pachymetry measure?",
     "answers": [
       {
-        "option": "Depth of anterior chamber",
+        "option": "Corneal thickness",
+        "bool": true
+      },
+      {
+        "option": "Angle of deviation",
         "bool": false
       },
       {
@@ -1876,24 +1853,32 @@
         "bool": false
       },
       {
-        "option": "Corneal thickness",
-        "bool": true
-      },
-      {
         "option": "Intraocular pressure",
         "bool": false
       },
       {
-        "option": "Angle of deviation",
+        "option": "Depth of anterior chamber",
         "bool": false
       }
     ]
   },
   {
-    "id": 70,
+    "id": 69,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the treatment of subretinal neovascularization?",
     "answers": [
+      {
+        "option": "Pars plana vitrectomy",
+        "bool": false
+      },
+      {
+        "option": "Anti-VEGF",
+        "bool": true
+      },
+      {
+        "option": "Occlusion therapy",
+        "bool": false
+      },
       {
         "option": "Keratoplasty",
         "bool": false
@@ -1901,26 +1886,22 @@
       {
         "option": "Phacoemulsification",
         "bool": false
-      },
-      {
-        "option": "Pars plana vitrectomy",
-        "bool": false
-      },
-      {
-        "option": "Occlusion therapy",
-        "bool": false
-      },
-      {
-        "option": "Anti-VEGF",
-        "bool": true
       }
     ]
   },
   {
-    "id": 71,
+    "id": 70,
     "info": "4th-year/ophthalmology/2019",
     "question": "What is the principal cause of vision loss worldwide between the ages of 25-74 years?",
     "answers": [
+      {
+        "option": "Refractive errors",
+        "bool": false
+      },
+      {
+        "option": "Trauma",
+        "bool": false
+      },
       {
         "option": "Diabetic retinopathy",
         "bool": true
@@ -1932,24 +1913,20 @@
       {
         "option": "Cataract",
         "bool": false
-      },
-      {
-        "option": "Refractive errors",
-        "bool": false
-      },
-      {
-        "option": "Trauma",
-        "bool": false
       }
     ]
   },
   {
-    "id": 72,
+    "id": 71,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is incorrect regarding papilloedema?",
     "answers": [
       {
-        "option": "Pupils are round and reactive",
+        "option": "Clear margins observed on the optic disc",
+        "bool": true
+      },
+      {
+        "option": "Incomplete macular star",
         "bool": false
       },
       {
@@ -1957,24 +1934,32 @@
         "bool": false
       },
       {
+        "option": "Pupils are round and reactive",
+        "bool": false
+      },
+      {
         "option": "Normal visual acuity",
         "bool": false
-      },
-      {
-        "option": "Incomplete macular star",
-        "bool": false
-      },
-      {
-        "option": "Clear margins observed on the optic disc",
-        "bool": true
       }
     ]
   },
   {
-    "id": 73,
+    "id": 72,
     "info": "4th-year/ophthalmology/2019",
     "question": "A yellow-white bulbar mass on the conjunctiva is what condition?",
     "answers": [
+      {
+        "option": "Pinguecula",
+        "bool": true
+      },
+      {
+        "option": "Pseudopterygium",
+        "bool": false
+      },
+      {
+        "option": "Pterygium",
+        "bool": false
+      },
       {
         "option": "Xerophthalmia",
         "bool": false
@@ -1982,30 +1967,14 @@
       {
         "option": "Phlyctenulosis",
         "bool": false
-      },
-      {
-        "option": "Pseudopterygium",
-        "bool": false
-      },
-      {
-        "option": "Pinguecula",
-        "bool": true
-      },
-      {
-        "option": "Pterygium",
-        "bool": false
       }
     ]
   },
   {
-    "id": 74,
+    "id": 73,
     "info": "4th-year/ophthalmology/2019",
     "question": "Biometry is a method for power calculation of intraocular lenses. What two parameters are used in it?",
     "answers": [
-      {
-        "option": "Keratometry and axial length",
-        "bool": true
-      },
       {
         "option": "Pachymetry and tonometry",
         "bool": false
@@ -2015,17 +1984,21 @@
         "bool": false
       },
       {
-        "option": "Retinoscopy and keratometry",
+        "option": "Angle deviation and ophthalmoscopy",
         "bool": false
       },
       {
-        "option": "Angle deviation and ophthalmoscopy",
+        "option": "Keratometry and axial length",
+        "bool": true
+      },
+      {
+        "option": "Retinoscopy and keratometry",
         "bool": false
       }
     ]
   },
   {
-    "id": 75,
+    "id": 74,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is not used to treat branched retinal vein occlusion (BRVO)?",
     "answers": [
@@ -2034,38 +2007,34 @@
         "bool": false
       },
       {
-        "option": "Prednisolone",
+        "option": "Intravitreal triamcinalone",
         "bool": false
       },
       {
-        "option": "Intravitreal triamcinalone",
+        "option": "Anti-VEGF",
+        "bool": false
+      },
+      {
+        "option": "Prednisolone",
         "bool": false
       },
       {
         "option": "Panretinal photocoagulation",
         "bool": true
-      },
-      {
-        "option": "Anti-VEGF",
-        "bool": false
       }
     ]
   },
   {
-    "id": 76,
+    "id": 75,
     "info": "4th-year/ophthalmology/2019",
     "question": "Power by which objects are distinguished is known as what?",
     "answers": [
       {
-        "option": "Visual acuity",
-        "bool": true
-      },
-      {
-        "option": "Angle deviation",
+        "option": "Keratometry",
         "bool": false
       },
       {
-        "option": "Tonometry",
+        "option": "Angle deviation",
         "bool": false
       },
       {
@@ -2073,13 +2042,17 @@
         "bool": false
       },
       {
-        "option": "Keratometry",
+        "option": "Tonometry",
         "bool": false
+      },
+      {
+        "option": "Visual acuity",
+        "bool": true
       }
     ]
   },
   {
-    "id": 77,
+    "id": 76,
     "info": "4th-year/ophthalmology/2019",
     "question": "Arteritic anterior ischemic optic neuropathy is seen in which disease?",
     "answers": [
@@ -2088,12 +2061,12 @@
         "bool": false
       },
       {
-        "option": "Multiple sclerosis",
-        "bool": false
-      },
-      {
         "option": "Giant cell arteritis",
         "bool": true
+      },
+      {
+        "option": "Multiple sclerosis",
+        "bool": false
       },
       {
         "option": "Papillitis",
@@ -2106,18 +2079,10 @@
     ]
   },
   {
-    "id": 78,
+    "id": 77,
     "info": "4th-year/ophthalmology/2019",
     "question": "During probing of the nasoclacrimal duct what structure causes resistance to the probe?",
     "answers": [
-      {
-        "option": "Lower membrane",
-        "bool": true
-      },
-      {
-        "option": "Punctum",
-        "bool": false
-      },
       {
         "option": "Canaliculus",
         "bool": false
@@ -2127,53 +2092,57 @@
         "bool": false
       },
       {
+        "option": "Lower membrane",
+        "bool": true
+      },
+      {
         "option": "Upper membrane",
+        "bool": false
+      },
+      {
+        "option": "Punctum",
         "bool": false
       }
     ]
   },
   {
-    "id": 79,
+    "id": 78,
     "info": "4th-year/ophthalmology/2019",
     "question": "The cherry-red macula is a classic sign of which of the following?",
     "answers": [
-      {
-        "option": "Branched retinal vein occlusion (BRVO)",
-        "bool": false
-      },
       {
         "option": "Retinopathy of prematurity",
         "bool": false
       },
       {
-        "option": "Central retinal artery occlusion (CRAO)",
-        "bool": true
+        "option": "Central retinal vein occlusion (CRVO)",
+        "bool": false
       },
       {
         "option": "Ischemic central vein occlusion",
         "bool": false
       },
       {
-        "option": "Central retinal vein occlusion (CRVO)",
+        "option": "Branched retinal vein occlusion (BRVO)",
         "bool": false
+      },
+      {
+        "option": "Central retinal artery occlusion (CRAO)",
+        "bool": true
       }
     ]
   },
   {
-    "id": 80,
+    "id": 79,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following features distinguishes neurological diseases from glaucoma?",
     "answers": [
       {
+        "option": "Systemic signs",
+        "bool": false
+      },
+      {
         "option": "Respect horizontal meridian",
-        "bool": false
-      },
-      {
-        "option": "Pupil involvement",
-        "bool": false
-      },
-      {
-        "option": "Photophobia",
         "bool": false
       },
       {
@@ -2181,31 +2150,116 @@
         "bool": true
       },
       {
-        "option": "Systemic signs",
+        "option": "Photophobia",
         "bool": false
+      },
+      {
+        "option": "Pupil involvement",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which of the following statements correctly describe 'Posterior vitreous detachment'?",
+    "answers": [
+      {
+        "option": "Separation of sensory retina from pigment epithelium",
+        "bool": false
+      },
+      {
+        "option": "Vitreous detachment due to hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Contraction of vitreoretinal membrane",
+        "bool": false
+      },
+      {
+        "option": "Detachment of vitreous membrane due to posterior segment trauma",
+        "bool": false
+      },
+      {
+        "option": "Separation of the cortical vitreous from the retina posterior to ora serrata",
+        "bool": true
       }
     ]
   },
   {
     "id": 81,
     "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following is not true regarding the levator palpebrae superioris muscle?",
+    "question": "Which of the following is not true regarding retrobulbar optic neuritis?",
     "answers": [
       {
-        "option": "Arises from the lesser wing of sphenoid",
+        "option": "It is a painful condition",
         "bool": false
       },
       {
-        "option": "The medial horn inserts into the orbital tubercle",
+        "option": "Vision loss is subacute developing over 2-7 days",
+        "bool": false
+      },
+      {
+        "option": "Papillitis is present",
         "bool": true
       },
+      {
+        "option": "Color vision is affected",
+        "bool": false
+      },
+      {
+        "option": "Vision begins to improve spontaneously",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which of the following does not happen in a nuclear cataract?",
+    "answers": [
+      {
+        "option": "Lens is sclerosed",
+        "bool": false
+      },
+      {
+        "option": "Fibers undergo dehydration",
+        "bool": false
+      },
+      {
+        "option": "Lens loses elasticity",
+        "bool": false
+      },
+      {
+        "option": "Usually occurs in increased age",
+        "bool": false
+      },
+      {
+        "option": "Hypermetropic shift",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "info": "4th-year/ophthalmology/2019",
+    "question": "Which of the following is not true regarding the levator palpebrae superioris muscle?",
+    "answers": [
       {
         "option": "Blood supply is by the ophthalmic artery",
         "bool": false
       },
       {
+        "option": "Arises from the lesser wing of sphenoid",
+        "bool": false
+      },
+      {
         "option": "Its tendon blends with the superior rectus muscle",
         "bool": false
+      },
+      {
+        "option": "The medial horn inserts into the orbital tubercle",
+        "bool": true
       },
       {
         "option": "Supplied by the oculomotor nerve",
@@ -2214,82 +2268,28 @@
     ]
   },
   {
-    "id": 82,
+    "id": 84,
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is defined as blindness according to the World Health Organization (WHO)?",
     "answers": [
       {
-        "option": "Visual field of 30\u00b0",
+        "option": "Visual field of 30°",
         "bool": false
       },
       {
-        "option": "Visual field less than 90\u00b0",
-        "bool": false
-      },
-      {
-        "option": "Visual field of 45\u00b0",
-        "bool": false
-      },
-      {
-        "option": "Visual field of 10\u00b0",
-        "bool": false
-      },
-      {
-        "option": "Visual field less than 10\u00b0",
-        "bool": true
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following is not true regarding retrobulbar optic neuritis?",
-    "answers": [
-      {
-        "option": "Papillitis is present",
+        "option": "Visual field less than 10°",
         "bool": true
       },
       {
-        "option": "Vision begins to improve spontaneously",
+        "option": "Visual field of 10°",
         "bool": false
       },
       {
-        "option": "It is a painful condition",
+        "option": "Visual field of 45°",
         "bool": false
       },
       {
-        "option": "Color vision is affected",
-        "bool": false
-      },
-      {
-        "option": "Vision loss is subacute developing over 2-7 days",
-        "bool": false
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "info": "4th-year/ophthalmology/2019",
-    "question": "Which of the following does not happen in a nuclear cataract?",
-    "answers": [
-      {
-        "option": "Hypermetropic shift",
-        "bool": true
-      },
-      {
-        "option": "Lens is sclerosed",
-        "bool": false
-      },
-      {
-        "option": "Usually occurs in increased age",
-        "bool": false
-      },
-      {
-        "option": "Lens loses elasticity",
-        "bool": false
-      },
-      {
-        "option": "Fibers undergo dehydration",
+        "option": "Visual field less than 90°",
         "bool": false
       }
     ]
@@ -2300,16 +2300,12 @@
     "question": "A 30-year-old female presents to the clinic with complaints of tearing and itching in the eyes. Ophthalmologic examination reveals a lesion in the conjunctiva that is hard, red, elevated, and surrounded by hyperemia. She has a history of chronic blepharitis. What is the most likely diagnosis?",
     "answers": [
       {
-        "option": "Pinguecula",
-        "bool": false
-      },
-      {
         "option": "Keratitis",
         "bool": false
       },
       {
-        "option": "Phlyctenulosis",
-        "bool": true
+        "option": "Pinguecula",
+        "bool": false
       },
       {
         "option": "Squamous cell carcinoma",
@@ -2318,6 +2314,10 @@
       {
         "option": "Pterygium",
         "bool": false
+      },
+      {
+        "option": "Phlyctenulosis",
+        "bool": true
       }
     ]
   },
@@ -2331,19 +2331,19 @@
         "bool": false
       },
       {
-        "option": "Accommodation",
-        "bool": false
+        "option": "Fixation",
+        "bool": true
       },
       {
         "option": "Congestion",
         "bool": false
       },
       {
-        "option": "Fixation",
-        "bool": true
+        "option": "Convergence",
+        "bool": false
       },
       {
-        "option": "Convergence",
+        "option": "Accommodation",
         "bool": false
       }
     ]
@@ -2354,7 +2354,11 @@
     "question": "Which of the following is true regarding phacoemulsification?",
     "answers": [
       {
-        "option": "Does not preserve the posterior capsule",
+        "option": "It uses a handheld ultrasonic probe to disintegrate the nucleus",
+        "bool": true
+      },
+      {
+        "option": "Incision is always on the cornea",
         "bool": false
       },
       {
@@ -2366,11 +2370,7 @@
         "bool": false
       },
       {
-        "option": "It uses a handheld ultrasonic probe to disintegrate the nucleus",
-        "bool": true
-      },
-      {
-        "option": "Incision is always on the cornea",
+        "option": "Does not preserve the posterior capsule",
         "bool": false
       }
     ]
@@ -2380,14 +2380,6 @@
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following is associated with scleritis?",
     "answers": [
-      {
-        "option": "Rheumatoid arthritis",
-        "bool": true
-      },
-      {
-        "option": "Cataract surgery",
-        "bool": false
-      },
       {
         "option": "Trauma",
         "bool": false
@@ -2399,6 +2391,14 @@
       {
         "option": "Allergy",
         "bool": false
+      },
+      {
+        "option": "Cataract surgery",
+        "bool": false
+      },
+      {
+        "option": "Rheumatoid arthritis",
+        "bool": true
       }
     ]
   },
@@ -2412,10 +2412,6 @@
         "bool": false
       },
       {
-        "option": "Tumors",
-        "bool": false
-      },
-      {
         "option": "Infection",
         "bool": false
       },
@@ -2426,6 +2422,10 @@
       {
         "option": "Trauma",
         "bool": false
+      },
+      {
+        "option": "Tumors",
+        "bool": false
       }
     ]
   },
@@ -2434,14 +2434,6 @@
     "info": "4th-year/ophthalmology/2019",
     "question": "Which of the following visual field defects will be seen in end-stage glaucoma?",
     "answers": [
-      {
-        "option": "Tunnel vision",
-        "bool": true
-      },
-      {
-        "option": "Nasal scotoma",
-        "bool": false
-      },
       {
         "option": "Nasal step",
         "bool": false
@@ -2453,6 +2445,14 @@
       {
         "option": "Arcuate scotoma",
         "bool": false
+      },
+      {
+        "option": "Nasal scotoma",
+        "bool": false
+      },
+      {
+        "option": "Tunnel vision",
+        "bool": true
       }
     ]
   },
@@ -2462,11 +2462,15 @@
     "question": "Which of the following features is not characteristic of background (non-proliferative) diabetic retinopathy?",
     "answers": [
       {
-        "option": "Microaneurysms",
+        "option": "Retinal edema",
         "bool": false
       },
       {
         "option": "Hard exudates",
+        "bool": false
+      },
+      {
+        "option": "Microaneurysms",
         "bool": false
       },
       {
@@ -2475,10 +2479,6 @@
       },
       {
         "option": "Cotton wool spots",
-        "bool": false
-      },
-      {
-        "option": "Retinal edema",
         "bool": false
       }
     ]
@@ -2489,11 +2489,11 @@
     "question": "Where does the light focus in cases of hypermetropia?",
     "answers": [
       {
-        "option": "Image is not formed",
+        "option": "Multiple points on the retina",
         "bool": false
       },
       {
-        "option": "In front of the retina",
+        "option": "Image is not formed",
         "bool": false
       },
       {
@@ -2505,7 +2505,7 @@
         "bool": false
       },
       {
-        "option": "Multiple points on the retina",
+        "option": "In front of the retina",
         "bool": false
       }
     ]

@@ -1,0 +1,866 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 26-year-old woman presents to the clinic with a 3-day history of foul-smelling, greenish vaginal discharge and mild vulvar pruritus. Physical examination reveals a diffuse, thin, malodorous discharge and punctate hemorrhages on the cervix. Which of the following organisms is most likely responsible for these findings?",
+    "answers": [
+      {
+        "option": "Trichomonas vaginalis",
+        "bool": true
+      },
+      {
+        "option": "Neisseria gonorrhoeae",
+        "bool": false
+      },
+      {
+        "option": "Gardnerella vaginalis",
+        "bool": false
+      },
+      {
+        "option": "Candida albicans",
+        "bool": false
+      },
+      {
+        "option": "Chlamydia trachomatis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 24-year-old woman presents to the clinic complaining of an increased vaginal discharge and spotting after sexual intercourse. A speculum examination reveals a mucopurulent cervical discharge and a friable cervix. A nucleic acid amplification test is positive. Which of the following organisms is most likely responsible for this presentation?",
+    "answers": [
+      {
+        "option": "Trichomonas vaginalis",
+        "bool": false
+      },
+      {
+        "option": "Neisseria gonorrhoeae",
+        "bool": false
+      },
+      {
+        "option": "Gardnerella vaginalis",
+        "bool": false
+      },
+      {
+        "option": "Herpes simplex virus",
+        "bool": false
+      },
+      {
+        "option": "Chlamydia trachomatis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 51-year-old postmenopausal woman presents to the clinic after experiencing two episodes of light vaginal bleeding over the past month. Physical examination reveals a thin, friable vaginal mucosa and multiple punctate hemorrhages on the cervix. Pelvic ultrasound demonstrates an endometrial thickness of 0.2 cm. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Endometrial carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Atrophic vaginitis",
+        "bool": true
+      },
+      {
+        "option": "Cervical neoplasia",
+        "bool": false
+      },
+      {
+        "option": "Endometrial hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Endometrial polyp",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 28-year-old woman presents to the clinic for an evaluation of an ectopic pregnancy. She is currently hemodynamically stable. Laboratory results reveal a human chorionic gonadotropin level of 5000 IU/L. Transvaginal ultrasonography shows a gestational sac measuring 5 cm in diameter without evidence of rupture. Which of the following is the most appropriate management for this patient?",
+    "answers": [
+      {
+        "option": "Expectant management",
+        "bool": false
+      },
+      {
+        "option": "Observation with serial human chorionic gonadotropin monitoring",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopic salpingostomy",
+        "bool": true
+      },
+      {
+        "option": "Intramuscular methotrexate",
+        "bool": false
+      },
+      {
+        "option": "Laparotomy with salpingectomy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 29-year-old woman is diagnosed with an unruptured ectopic pregnancy. Laboratory investigations reveal a serum bilirubin of 1 mg/dL, aspartate aminotransferase of 25 U/L, and alanine aminotransferase of 45 U/L, all within the normal reference range. Which of the following is the most appropriate medical management for this patient?",
+    "answers": [
+      {
+        "option": "Actinomycin D",
+        "bool": false
+      },
+      {
+        "option": "Letrozole",
+        "bool": false
+      },
+      {
+        "option": "Prostaglandin",
+        "bool": false
+      },
+      {
+        "option": "Mifepristone",
+        "bool": false
+      },
+      {
+        "option": "Methotrexate",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 23-year-old woman presents to the clinic with concerns regarding an irregular menstrual cycle, occurring every 45 to 60 days. Physical examination reveals a body mass index of 32 kg/m², moderate hirsutism on the chin and upper lip, and several inflammatory acne lesions. Laboratory investigations show an elevated luteinizing hormone-to-follicle-stimulating hormone ratio. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Cushing syndrome",
+        "bool": false
+      },
+      {
+        "option": "Sertoli-Leydig cell tumor",
+        "bool": false
+      },
+      {
+        "option": "Polycystic ovary syndrome",
+        "bool": true
+      },
+      {
+        "option": "Congenital adrenal hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Hypothyroidism",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 58-year-old postmenopausal woman presents to the clinic with abdominal bloating and a palpable adnexal mass. Transvaginal ultrasonography reveals a solid ovarian mass and an endometrial thickness of 12 mm. Which of the following is the most likely diagnosis for this ovarian mass?",
+    "answers": [
+      {
+        "option": "Sertoli-Leydig cell tumor",
+        "bool": false
+      },
+      {
+        "option": "Ovarian fibroma",
+        "bool": false
+      },
+      {
+        "option": "Theca cell tumor",
+        "bool": false
+      },
+      {
+        "option": "Mature cystic teratoma",
+        "bool": false
+      },
+      {
+        "option": "Granulosa cell tumor",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 22-year-old woman presents to the clinic with recurrent episodes of severe vomiting and nausea over the past week. Her last menstrual period was 8 weeks ago. Physical examination reveals a uterus that is soft and doughy, with a fundal height measuring 14 weeks. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Hydatidiform mole",
+        "bool": true
+      },
+      {
+        "option": "Hyperemesis gravidarum",
+        "bool": false
+      },
+      {
+        "option": "Normal intrauterine pregnancy",
+        "bool": false
+      },
+      {
+        "option": "Multiple gestation",
+        "bool": false
+      },
+      {
+        "option": "Ectopic pregnancy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 65-year-old woman presents to the clinic with a third-degree uterine prolapse. The patient has multiple severe comorbidities and is currently deemed medically unfit for surgical intervention. Which of the following is the most appropriate management for this patient?",
+    "answers": [
+      {
+        "option": "Expectant management",
+        "bool": false
+      },
+      {
+        "option": "Pelvic floor muscle exercises",
+        "bool": false
+      },
+      {
+        "option": "Vaginal packing",
+        "bool": false
+      },
+      {
+        "option": "Observation with no active management",
+        "bool": false
+      },
+      {
+        "option": "Ring pessary",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 55-year-old postmenopausal woman with a history of five vaginal deliveries presents to the clinic with a sensation of a bulge in the vagina and pelvic pressure. Physical examination reveals a third-degree cystocele and a third-degree uterine prolapse. The patient is otherwise healthy and seeks definitive surgical management. Which of the following is the most appropriate treatment for this patient?",
+    "answers": [
+      {
+        "option": "Manchester procedure",
+        "bool": false
+      },
+      {
+        "option": "Vaginal hysterectomy and anterior colporrhaphy",
+        "bool": true
+      },
+      {
+        "option": "Ring pessary placement",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopic uterine suspension",
+        "bool": false
+      },
+      {
+        "option": "Colpocleisis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 28-year-old woman presents to the clinic with a sensation of a vaginal bulge. Physical examination reveals a third-degree uterine prolapse, but the anterior and posterior vaginal walls appear well-supported with no evidence of a cystocele or rectocele. The patient is otherwise healthy and desires a uterine-sparing surgical approach to maintain her reproductive potential. Which of the following is the most appropriate management for this patient?",
+    "answers": [
+      {
+        "option": "Sacrohysteropexy",
+        "bool": true
+      },
+      {
+        "option": "Manchester procedure",
+        "bool": false
+      },
+      {
+        "option": "Vaginal hysterectomy",
+        "bool": false
+      },
+      {
+        "option": "Abdominal hysterectomy",
+        "bool": false
+      },
+      {
+        "option": "Ring pessary",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 51-year-old menopausal woman presents to the clinic with frequent hot flushes and night sweats that significantly disrupt her sleep. Her medical history is notable for symptomatic cholelithiasis. Which of the following is the most appropriate treatment for her vasomotor symptoms?",
+    "answers": [
+      {
+        "option": "Oral estrogen",
+        "bool": false
+      },
+      {
+        "option": "Oral medroxyprogesterone",
+        "bool": false
+      },
+      {
+        "option": "Subdermal estrogen",
+        "bool": false
+      },
+      {
+        "option": "Combined oral contraceptive pill",
+        "bool": false
+      },
+      {
+        "option": "Venlafaxine",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 28-year-old woman presents to the clinic with a 3-month history of a painless swelling on the right lower vulva. She underwent a normal vaginal delivery with a right mediolateral episiotomy 4 months ago. Physical examination reveals a 4-cm, non-tender, cystic mass located at the site of the previous episiotomy scar. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Mucous inclusion cyst",
+        "bool": true
+      },
+      {
+        "option": "Vulvar hematoma",
+        "bool": false
+      },
+      {
+        "option": "Bartholin gland cyst",
+        "bool": false
+      },
+      {
+        "option": "Sebaceous cyst",
+        "bool": false
+      },
+      {
+        "option": "Gartner duct cyst",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 26-year-old woman who is para 1+0 presents to the clinic for a follow-up appointment. She has recently been diagnosed with epilepsy and started on carbamazepine. During the consultation, she expresses a desire for an effective method of contraception. Which of the following is the most appropriate contraceptive method for this patient?",
+    "answers": [
+      {
+        "option": "Progesterone-only injectable",
+        "bool": false
+      },
+      {
+        "option": "Subdermal contraceptive implant",
+        "bool": false
+      },
+      {
+        "option": "Progesterone-only pill",
+        "bool": false
+      },
+      {
+        "option": "Intrauterine copper device",
+        "bool": true
+      },
+      {
+        "option": "Combined oral contraceptive pill",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 32-year-old woman presents to the clinic with secondary amenorrhea and cyclical pelvic pain. Her medical history is notable for a spontaneous abortion 6 months ago, which was managed with a dilation and curettage procedure. Hysterosalpingography demonstrates several intrauterine filling defects. Which of the following is the most likely cause of these uterine synechiae?",
+    "answers": [
+      {
+        "option": "Uterine leiomyoma",
+        "bool": false
+      },
+      {
+        "option": "Overzealous curettage",
+        "bool": true
+      },
+      {
+        "option": "Endometrial hyperplasia",
+        "bool": false
+      },
+      {
+        "option": "Endometrial polyp",
+        "bool": false
+      },
+      {
+        "option": "Chronic cervicitis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 32-year-old man and his partner present to the fertility clinic due to inability to conceive for the past 18 months. Semen analysis reveals a sperm concentration of 20 million/mL and a morphology of 5% normal forms, but significantly reduced sperm motility. Which of the following is the most appropriate assisted reproductive technique to address this patient's asthenozoospermia?",
+    "answers": [
+      {
+        "option": "Expectant management",
+        "bool": false
+      },
+      {
+        "option": "In vitro fertilization",
+        "bool": false
+      },
+      {
+        "option": "Intrauterine insemination",
+        "bool": false
+      },
+      {
+        "option": "Gamate intrafallopian transfer",
+        "bool": false
+      },
+      {
+        "option": "Intracytoplasmic sperm injection",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 32-year-old man and his partner present for a fertility evaluation after 2 years of inability to conceive. Semen analysis reveals a sperm concentration of 25 million/mL and a motility of 45%, but only 2% of the sperm show normal morphology, confirming a diagnosis of teratozoospermia. Which of the following assisted reproductive techniques is the most appropriate next step to achieve conception?",
+    "answers": [
+      {
+        "option": "In vitro fertilization",
+        "bool": false
+      },
+      {
+        "option": "Donor insemination",
+        "bool": false
+      },
+      {
+        "option": "Intracytoplasmic sperm injection",
+        "bool": true
+      },
+      {
+        "option": "Intrauterine insemination",
+        "bool": false
+      },
+      {
+        "option": "Gamete intrafallopian transfer",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 62-year-old woman presents to the clinic with a 2-month history of increasing abdominal bloating and vague pelvic pain. Physical examination reveals a fixed, irregular adnexal mass and evidence of ascites. Her serum cancer antigen 125 (CA-125) level is 150 U/mL. Which of the following is the next best imaging step to evaluate the extent of the disease and guide subsequent treatment?",
+    "answers": [
+      {
+        "option": "Non-contrast CT of the abdomen and pelvis",
+        "bool": false
+      },
+      {
+        "option": "CT of the abdomen and pelvis with contrast",
+        "bool": true
+      },
+      {
+        "option": "MRI of the abdomen and pelvis without contrast",
+        "bool": false
+      },
+      {
+        "option": "MRI of the abdomen and pelvis with contrast",
+        "bool": false
+      },
+      {
+        "option": "Transvaginal ultrasonography",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 50-year-old woman presents to the clinic complaining of a sudden, strong desire to urinate that is difficult to delay, often resulting in the involuntary leakage of urine. She reports that these symptoms occur both during the day and at night. Physical examination and urinalysis are unremarkable. Which of the following is the most appropriate initial treatment for this patient?",
+    "answers": [
+      {
+        "option": "Incontinence pads",
+        "bool": false
+      },
+      {
+        "option": "Bladder retraining",
+        "bool": true
+      },
+      {
+        "option": "Tension-free vaginal tape",
+        "bool": false
+      },
+      {
+        "option": "Anticholinergic therapy",
+        "bool": false
+      },
+      {
+        "option": "Duloxetine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 50-year-old woman returns to the clinic for a follow-up regarding her urge urinary incontinence. She has been diligent with lifestyle modifications and bladder retraining for the past three months, but she reports only minimal improvement in her symptoms. She remains distressed by the frequency and urgency of her voids. Which of the following is the next best step in the management of this patient?",
+    "answers": [
+      {
+        "option": "Sacral neuromodulation",
+        "bool": false
+      },
+      {
+        "option": "Percutaneous tibial nerve stimulation",
+        "bool": false
+      },
+      {
+        "option": "Botulinum toxin A injection",
+        "bool": false
+      },
+      {
+        "option": "Anticholinergics for 3 months",
+        "bool": true
+      },
+      {
+        "option": "Pelvic floor muscle exercises",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 31-year-old woman presents to the clinic with secondary amenorrhea of six months' duration. Her medical history is significant for a dilation and evacuation (D&E) procedure performed for a missed abortion, which was complicated by postpartum hemorrhage (PPH). She remained hemodynamically stable during the event, and no blood transfusion was required. She reports no other systemic symptoms, such as fatigue, cold intolerance, or failure of lactation. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Polycystic ovary syndrome",
+        "bool": false
+      },
+      {
+        "option": "Premature ovarian failure",
+        "bool": false
+      },
+      {
+        "option": "Pituitary adenoma",
+        "bool": false
+      },
+      {
+        "option": "Sheehan syndrome",
+        "bool": false
+      },
+      {
+        "option": "Asherman syndrome",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 26-year-old woman presents to a sexual health clinic with a two-year history of persistent, malodorous vaginal discharge. She expresses concern regarding her risk of contracting human immunodeficiency virus (HIV) due to her clinical history and lifestyle. Which of the following conditions is most strongly associated with an increased risk of HIV acquisition by facilitating viral entry through the disruption of the vaginal mucosal barrier?",
+    "answers": [
+      {
+        "option": "Bacterial vaginosis",
+        "bool": true
+      },
+      {
+        "option": "Gonococcal cervicitis",
+        "bool": false
+      },
+      {
+        "option": "Trichomoniasis",
+        "bool": false
+      },
+      {
+        "option": "Gardnerella vaginalis colonization",
+        "bool": false
+      },
+      {
+        "option": "Vulvovaginal candidiasis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 27-year-old woman with a body mass index of 34 kg/m² presents with progressive facial hair growth and darkening of the skin around her neck. On physical examination, she exhibits significant hirsutism (Ferriman-Gallwey score of 12) and moderate cystic acne. Notably, she reports that her menstrual periods have always been regular, occurring every 28 days. Which of the following is the most appropriate next step to evaluate the underlying cause of her androgen excess?",
+    "answers": [
+      {
+        "option": "Pelvic ultrasound",
+        "bool": false
+      },
+      {
+        "option": "CT scan of the adrenal glands",
+        "bool": false
+      },
+      {
+        "option": "24-hour urinary free cortisol",
+        "bool": false
+      },
+      {
+        "option": "Serum testosterone level",
+        "bool": true
+      },
+      {
+        "option": "LH/FSH ratio",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 29-year-old woman, para 1+0, presents to the fertility clinic with a 9-month history of worsening secondary dysmenorrhea and deep dyspareunia. She and her partner have been attempting to conceive for the past year without success. Physical examination reveals a fixed, retroverted uterus and tenderness in the posterior vaginal fornix. Which of the following is the gold-standard investigation to both diagnose the likely underlying condition and assess for tubal patency?",
+    "answers": [
+      {
+        "option": "Hysterosalpingography (HSG)",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopy",
+        "bool": true
+      },
+      {
+        "option": "Serum CA-125",
+        "bool": false
+      },
+      {
+        "option": "Transvaginal ultrasound",
+        "bool": false
+      },
+      {
+        "option": "MRI of the pelvis",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 29-year-old woman (Para 1+0) presents with secondary infertility, having been unable to conceive for the past two years. She has a 5-year-old child delivered via normal vaginal delivery. Her menstrual cycles are regular, and she has no history of pelvic pain or prior pelvic surgery. Her partner's semen analysis is normal. Which of the following is the most appropriate initial investigation to assess tubal patency in this patient?",
+    "answers": [
+      {
+        "option": "Transvaginal ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Hysterosalpingography (HSG)",
+        "bool": true
+      },
+      {
+        "option": "Hysterosalpingo-contrast-sonography (HyCoSy)",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopy and dye test",
+        "bool": false
+      },
+      {
+        "option": "Saline infusion sonography",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 28-year-old woman presents to the emergency department with a 6-week history of amenorrhea and heavy vaginal bleeding accompanied by lower abdominal cramping. On physical examination, the cervical os is found to be open. A bedside transvaginal ultrasound reveals a gestational sac located within the cervical canal, separate from the uterine fundus. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Complete abortion",
+        "bool": false
+      },
+      {
+        "option": "Missed abortion",
+        "bool": false
+      },
+      {
+        "option": "Threatened abortion",
+        "bool": false
+      },
+      {
+        "option": "Inevitable abortion",
+        "bool": true
+      },
+      {
+        "option": "Incomplete abortion",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 30-year-old woman presents to the fertility clinic for a comprehensive evaluation after failing to conceive for 14 months. She has a history of treated pelvic inflammatory disease (PID) three years ago. Her partner’s semen analysis is within normal limits, and her ovulation is confirmed by Day 21 progesterone levels. Which of the following is considered the gold-standard investigation to confirm tubal patency in this patient?",
+    "answers": [
+      {
+        "option": "Saline infusion sonography",
+        "bool": false
+      },
+      {
+        "option": "Laparoscopy and dye test",
+        "bool": true
+      },
+      {
+        "option": "Hysterosalpingography (HSG)",
+        "bool": false
+      },
+      {
+        "option": "Hysterosalpingo-contrast-sonography (HyCoSy)",
+        "bool": false
+      },
+      {
+        "option": "Transvaginal ultrasound",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 32-year-old nulliparous woman, married for 10 years, presents to the clinic with concerns about the long-term health implications of her Polycystic Ovary Syndrome (PCOS). She has a body mass index (BMI) of 34 kg/m² and a history of hypothyroidism currently managed with levothyroxine. Her family history is significant for type 2 diabetes in her father. She reports persistent amenorrhea and difficulty conceiving. Given her profile, which of the following is the most appropriate next step to manage her long-term metabolic risks?",
+    "answers": [
+      {
+        "option": "Initiation of fertility treatment with clomiphene",
+        "bool": false
+      },
+      {
+        "option": "Lifestyle modifications (diet and exercise)",
+        "bool": true
+      },
+      {
+        "option": "Increase in levothyroxine dosage",
+        "bool": false
+      },
+      {
+        "option": "Screening for Type 2 Diabetes (Oral Glucose Tolerance Test)",
+        "bool": false
+      },
+      {
+        "option": "Referral to an endocrinologist",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 52-year-old woman presents to her primary care physician with frequent hot flushes and night sweats that are significantly impacting her quality of life. She reached menopause 12 months ago. During the consultation, she mentions that her mother was diagnosed with breast cancer at the age of 65. The patient has an intact uterus. Which of the following is the most appropriate management for her vasomotor symptoms?",
+    "answers": [
+      {
+        "option": "Selective Serotonin Reuptake Inhibitors (SSRIs) only",
+        "bool": false
+      },
+      {
+        "option": "Avoid HRT as family history is a contraindication",
+        "bool": false
+      },
+      {
+        "option": "Oral estrogen alone",
+        "bool": false
+      },
+      {
+        "option": "Estrogen and progesterone (Combined HRT)",
+        "bool": true
+      },
+      {
+        "option": "Transdermal estrogen alone",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 54-year-old woman presents to the gynecology clinic with a 4-month history of heavy vaginal bleeding and persistent foul-smelling discharge. On pelvic examination, a large, friable mass is seen involving the entire cervix and extending to the left pelvic wall. A rectal examination confirms the involvement of the left parametrium up to the pelvic sidewall. An ultrasound of the abdomen and pelvis reveals moderate left-sided hydronephrosis. Biopsy of the cervical mass confirms squamous cell carcinoma. According to the FIGO staging system, what is the most likely stage of this patient’s disease?",
+    "answers": [
+      {
+        "option": "Stage IVA",
+        "bool": false
+      },
+      {
+        "option": "Stage IIB",
+        "bool": false
+      },
+      {
+        "option": "Stage IVB",
+        "bool": false
+      },
+      {
+        "option": "Stage IIIB",
+        "bool": true
+      },
+      {
+        "option": "Stage IIIA",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 28-year-old woman presents to the fertility clinic for evaluation after 12 months of regular, unprotected intercourse without conceiving. Her menstrual cycles occur every 28 to 30 days. To confirm that ovulation is occurring, which of the following is the most reliable biochemical test to perform?",
+    "answers": [
+      {
+        "option": "Serum Estradiol level on Day 3",
+        "bool": false
+      },
+      {
+        "option": "Basal body temperature (BBT) charting",
+        "bool": false
+      },
+      {
+        "option": "Urinary Luteinizing Hormone (LH) surge monitoring",
+        "bool": false
+      },
+      {
+        "option": "Serum Follicle-Stimulating Hormone (FSH) on Day 2",
+        "bool": false
+      },
+      {
+        "option": "Mid-luteal (Day 21) serum progesterone",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "info": "5th-year/gynecology/2026",
+    "question": "A 24-year-old woman presents to the emergency department with severe abdominal pain and vomiting. Three hours ago, she underwent a dilation and evacuation (D&E) for a voluntary termination of pregnancy at 9 weeks' gestation. On examination, she is distressed and pale. Her blood pressure is 80/60 mmHg, and her heart rate is 120 bpm. The abdomen is guarded, rigid, and exquisitely tender to light palpation. Vaginal examination reveals heavy bleeding. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Acute peritonitis",
+        "bool": false
+      },
+      {
+        "option": "Incomplete evacuation of products of conception",
+        "bool": false
+      },
+      {
+        "option": "Uterine perforation with intraperitoneal bleeding",
+        "bool": true
+      },
+      {
+        "option": "Retained placental tissue",
+        "bool": false
+      },
+      {
+        "option": "Cervical laceration",
+        "bool": false
+      }
+    ]
+  }
+]
