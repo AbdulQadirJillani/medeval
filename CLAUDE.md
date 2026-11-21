@@ -115,9 +115,11 @@ until Retake; "Review missed" steps through wrong + unanswered questions with th
 
 **localStorage keys** (all keyed by `pathname`):
 - `${pathname}-module` — in-progress session (score, resumeIndex, totalQuestions, startDateTime,
-  answers). Debounced 300ms on answer changes; never written once finished; removed on finish.
-  `resumeIndex` is the question *after the most recently answered one* (`resumeIndexFor`), not the
-  furthest viewed, so peeking ahead via the map doesn't move Resume.
+  answers, updatedAt). Debounced 300ms on answer changes; never written once finished; removed on
+  finish. Merely opening a paper writes one with `answers: []`. `updatedAt` was added later, so
+  readers must fall back to `startDateTime`. `resumeIndex` is the question *after the most recently
+  answered one* (`resumeIndexFor`), not the furthest viewed, so peeking ahead via the map doesn't
+  move Resume.
 - `${pathname}-performance` — **an array** of completed attempts, appended once per finish (guarded
   by a `recorded` ref). Reads tolerate the legacy single-object value.
 - `${pathname}-reset` — legacy. Nothing sets it any more (it made the *next* load skip restore and
@@ -141,12 +143,26 @@ runs effects twice (React Strict Mode), which masked the `-reset` wipe bug entir
 
 `(Performance)/Performance/page.tsx` is a client component that scans all `*-performance` keys from
 localStorage on mount (flattening arrays) and sorts newest-first. `Performance.tsx` renders
-`StatCard`s (average accuracy, total attempts), a `Graph`, an `Attempts` list, Overall / Last 30
-days / Last 7 days filters (`date-fns`), and a "Clear all attempts" confirm dialog that deletes
-every `*-performance` key.
+`StatCard`s (average accuracy, total attempts, weakest module), a `Graph`, a `ModuleList` ("By
+module", weakest first), an `Attempts` list, Overall / Last 30 days / Last 7 days filters
+(`date-fns`), and a "Clear all attempts" confirm dialog that deletes every `*-performance` key.
+
+Per-module numbers come from `moduleStats.ts`: only each paper's **latest** attempt counts (within
+the active filter), papers are pooled by question count per module (`/PastPapers/<year>/<module>`;
+each System Review system is its own module), compiled papers included. "Weakest" skips modules
+with fewer than 20 questions in the pool; the list shows them all.
 
 `Graph.tsx` is a **recharts `AreaChart`** ("Accuracy Trend") grouping attempts by calendar day.
 `Progress.tsx` is a hand-rolled SVG donut, reused by `FinishModal`.
+
+### Homepage
+
+`app/page.tsx` renders `_Homepage/ContinueStrip` above the `Hero`. The strip is client-only (renders
+nothing until mounted, so it's absent from prerendered HTML) and lists `/PastPapers/*-module`
+sessions with at least one answer, newest first (`sessions.ts`); its × deletes only that `-module`
+key. `Hero` is a server component: 1st–5th Year buttons (`id="years"`) and feature cards that link
+to `#years`, `/BookBank`, `/Maps`. Human-readable labels for quiz paths ("2nd Year · Renal 2 ·
+2024") come from `lib/papers.ts`, shared with the Performance module list.
 
 ### Theme
 
