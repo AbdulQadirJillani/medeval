@@ -1,13 +1,14 @@
 import { cn } from "@/lib/utils"
 import { Dispatch, RefObject, SetStateAction, useMemo } from "react"
+import type { Clicked } from "./types"
+import { sortOptions } from "./quizLogic"
 
-type clicked = { questionIndex: number, optionIndex: number[] }[]
 type option = { option: string, explanation?: string, bool: boolean }
 
 type Props = {
   options: option[],
-  clickedOption: clicked,
-  setClickedOption: Dispatch<SetStateAction<clicked>>,
+  clickedOption: Clicked,
+  setClickedOption: Dispatch<SetStateAction<Clicked>>,
   questionIndex: number,
   score: RefObject<number>,
   lock: RefObject<boolean>
@@ -16,10 +17,7 @@ type Props = {
 const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock }: Props) => {
   // Sorted longest-first. The order must stay deterministic: persisted answers
   // in localStorage reference optionIndex within THIS sorted array.
-  const sortedOptions = useMemo(
-    () => [...options].sort((a, b) => b.option.length - a.option.length),
-    [options]
-  )
+  const sortedOptions = useMemo(() => sortOptions(options), [options])
 
   // Whether this question has been answered before. Derived from the answer
   // data rather than navigation direction, so returning to a question that was

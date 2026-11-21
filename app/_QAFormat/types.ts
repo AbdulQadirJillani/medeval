@@ -14,3 +14,7 @@ export type Question = {
 }
 
 export type Quiz = Question[]
+
+export type Clicked = { questionIndex: number, optionIndex: number[] }[]
+
+export type QuizLink = { href: string, label: string }
