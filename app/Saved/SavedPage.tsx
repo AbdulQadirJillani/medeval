@@ -52,14 +52,14 @@ function SavedList({ modules, systems }: Props) {
             <ul className="rounded-xl ring ring-accent divide-y divide-accent">
               {
                 g.items.map(b => (
-                  <li key={`${b.path}#${b.id}`} className="flex items-center gap-3 px-4 sm:px-6 py-3">
+                  <li key={`${b.path}#${b.key}`} className="flex items-center gap-3 px-4 sm:px-6 py-3">
                     <div className="min-w-0 flex-1">
                       <p className="line-clamp-2 text-sm sm:text-base">{b.question.question}</p>
                       <p className="text-xs sm:text-sm text-muted-foreground">{where(b)}</p>
                     </div>
                     {
                       valid(b.path) &&
-                      <Link href={`${b.path}#q=${b.index + 1}`} className="shrink-0 text-sm text-brand hover:underline">Open in paper</Link>
+                      <Link href={`${b.path}#k=${b.key}`} className="shrink-0 text-sm text-brand hover:underline">Open in paper</Link>
                     }
                     <button
                       type="button"
@@ -106,7 +106,7 @@ function SavedQuiz({ scope }: { scope: string }) {
     <Format
       key={seed}
       data={run.map(b => b.question)}
-      practice={{ refs: run.map(({ path, id, index }) => ({ path, id, index })), onAgain, onExit: () => router.push("/Saved") }}
+      practice={{ refs: run.map(({ path, key, index }) => ({ path, key, index })), onAgain, onExit: () => router.push("/Saved") }}
     />
   )
 }

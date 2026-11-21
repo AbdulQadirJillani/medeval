@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react"
 import type { Question, QuestionRef } from "./types"
 import { BOOKMARKS_EVENT, BOOKMARKS_KEY, type Bookmark, parseBookmarks, removeBookmarks, toggleBookmark } from "./bookmarks"
 
-type Ref = { path: string, id: number }
+type Ref = { path: string, key: string }
 
 const read = () => parseBookmarks(localStorage.getItem(BOOKMARKS_KEY))
 

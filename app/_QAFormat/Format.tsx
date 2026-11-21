@@ -15,7 +15,7 @@ import { useSwipeable } from "react-swipeable"
 import type { Clicked, Practice, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
 import useBookmarks from "./useBookmarks"
-import { isSaved } from "./bookmarks"
+import { isSaved, questionKey } from "./bookmarks"
 import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionStatuses } from "./quizLogic"
 
 
@@ -37,11 +37,12 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
   const missed = useMemo(() => missedIndices(statuses), [statuses])
   const { bookmarks, toggle, remove } = useBookmarks()
-  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, id: data[i].id, index: i }
+  const keys = useMemo(() => data.map(questionKey), [data])
+  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, key: keys[i], index: i }
   const saved = isSaved(bookmarks, refAt(index))
   const savedFlags = useMemo(
     () => data.map((_, i) => isSaved(bookmarks, refAt(i))),
-    [data, bookmarks, pathname, practice]
+    [data, keys, bookmarks, pathname, practice]
   )
   // Saved quiz: questions answered right first time that are still bookmarked
   const removableRefs = practice ? practice.refs.filter((r, i) => statuses[i] === "right" && isSaved(bookmarks, r)) : []
@@ -58,6 +59,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   useQuizPersistence({
     enabled: !practice,
     pathname,
+    keys,
     totalQuestions,
     clickedOption,
     score,

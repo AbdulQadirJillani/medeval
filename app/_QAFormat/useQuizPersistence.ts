@@ -6,6 +6,7 @@ type Clicked = { questionIndex: number, optionIndex: number[] }[]
 type Options = {
   enabled: boolean
   pathname: string
+  keys: string[]
   totalQuestions: number
   clickedOption: Clicked
   score: RefObject<number>
@@ -20,6 +21,7 @@ type Options = {
 function useQuizPersistence({
   enabled,
   pathname,
+  keys,
   totalQuestions,
   clickedOption,
   score,
@@ -30,7 +32,7 @@ function useQuizPersistence({
   setResumeModal,
   setIndex,
 }: Options) {
-  // Set once a #q=N link has been consumed, so a re-run of the restore effect
+  // Set once a #q / #k link has been consumed, so a re-run of the restore effect
   // (dev Strict Mode; the hash is gone by then) doesn't pop the Resume modal
   const landed = useRef<boolean>(false)
 
@@ -71,8 +73,8 @@ function useQuizPersistence({
     // Legacy flag: it made the NEXT load skip restore and wipe progress made
     // after Retake. Nothing sets it now; clear stale copies and restore anyway.
     localStorage.removeItem(`${pathname}-reset`)
-    // "Open at question N" links (#q=N) land on N and restore silently
-    const jump = parseQuestionHash(window.location.hash, totalQuestions)
+    // "Open at question" links (#q=N or #k=<questionKey>) land there and restore silently
+    const jump = parseQuestionHash(window.location.hash, keys)
     if (jump !== null) {
       landed.current = true
       // Keep history.state: the Next router stores its own state there
@@ -91,7 +93,7 @@ function useQuizPersistence({
       setClickedOption(obj.answers)
       if (!landed.current) setResumeModal(true)
     }
-  }, [enabled, pathname, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
+  }, [enabled, pathname, keys, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
 
   // Append the completed attempt to performance history once per finish
   useEffect(() => {

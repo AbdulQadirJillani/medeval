@@ -19,9 +19,9 @@ export type Clicked = { questionIndex: number, optionIndex: number[] }[]
 
 export type QuizLink = { href: string, label: string }
 
-// Where a question lives: its quiz pathname, its id in that file, and its
-// 0-based position in the paper (for "Q12" and #q=N links)
-export type QuestionRef = { path: string, id: number, index: number }
+// Where a question lives: its quiz pathname, its content key (questionKey),
+// and its 0-based position in the paper when it was saved (display only)
+export type QuestionRef = { path: string, key: string, index: number }
 
 // Saved quiz: per-question sources, plus the finish-screen actions that
 // replace Retake / Next paper / Back. Persistence is off while practising.
