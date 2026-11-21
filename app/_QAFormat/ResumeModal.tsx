@@ -12,6 +12,7 @@ type clicked = { questionIndex: number, optionIndex: number[] }[]
 
 type Props = {
   pathname: string,
+  answered: number,
   resumeModal: boolean,
   setResumeModal: Dispatch<SetStateAction<boolean>>,
   resumeIndex: RefObject<number>,
@@ -20,7 +21,7 @@ type Props = {
   setIndex: Dispatch<SetStateAction<number>>
 }
 
-const ResumeModal = ({ pathname, resumeModal, setResumeModal, resumeIndex, score, setClickedOption, setIndex }: Props) => {
+const ResumeModal = ({ pathname, answered, resumeModal, setResumeModal, resumeIndex, score, setClickedOption, setIndex }: Props) => {
   const Resume = () => {
     setResumeModal(false)
     setIndex(resumeIndex.current)
@@ -50,7 +51,7 @@ const ResumeModal = ({ pathname, resumeModal, setResumeModal, resumeIndex, score
           <DialogDescription>
             You left off at question number: {resumeIndex.current + 1}
             <br />
-            Score so far: {score.current}/{resumeIndex.current + 1}
+            Score so far: {score.current}/{answered}
           </DialogDescription>
         </DialogHeader>
         <Button variant="brand" onClick={Resume}>

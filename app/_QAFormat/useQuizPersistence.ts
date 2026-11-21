@@ -1,11 +1,11 @@
 import { Dispatch, RefObject, SetStateAction, useEffect } from "react"
+import { resumeIndexFor } from "./quizLogic"
 
 type Clicked = { questionIndex: number, optionIndex: number[] }[]
 
 type Options = {
   pathname: string
   totalQuestions: number
-  index: number
   clickedOption: Clicked
   score: RefObject<number>
   resumeIndex: RefObject<number>
@@ -18,7 +18,6 @@ type Options = {
 function useQuizPersistence({
   pathname,
   totalQuestions,
-  index,
   clickedOption,
   score,
   resumeIndex,
@@ -38,17 +37,14 @@ function useQuizPersistence({
       if (stored) {
         const obj = JSON.parse(stored)
         obj.score = score.current
-        if (index > obj.resumeIndex) {
-          obj.resumeIndex = index
-          resumeIndex.current = index
-        }
+        obj.resumeIndex = resumeIndex.current = resumeIndexFor(clickedOption, totalQuestions)
         obj.answers = clickedOption
         localStorage.setItem(moduleKey, JSON.stringify(obj))
       } else {
         localStorage.setItem(moduleKey, JSON.stringify({
           pathname,
           score: score.current,
-          resumeIndex: resumeIndex.current,
+          resumeIndex: resumeIndex.current = resumeIndexFor(clickedOption, totalQuestions),
           totalQuestions,
           startDateTime: new Date(),
           answers: clickedOption,
@@ -56,7 +52,7 @@ function useQuizPersistence({
       }
     }, 300)
     return () => clearTimeout(handler)
-  }, [pathname, index, totalQuestions, clickedOption, score, resumeIndex, recorded])
+  }, [pathname, totalQuestions, clickedOption, score, resumeIndex, recorded])
 
   // Restore module state on mount (and open resume modal if mid-attempt)
   useEffect(() => {
@@ -69,13 +65,16 @@ function useQuizPersistence({
     const stored = localStorage.getItem(`${pathname}-module`)
     if (!stored) return
     const obj = JSON.parse(stored)
-    if (obj.resumeIndex > 0) {
-      resumeIndex.current = obj.resumeIndex
+    // Recomputed from the answers so sessions saved under the old
+    // furthest-question-viewed rule land in the same place as new ones.
+    const at = resumeIndexFor(obj.answers ?? [], totalQuestions)
+    if (at > 0) {
+      resumeIndex.current = at
       score.current = obj.score
       setClickedOption(obj.answers)
       setResumeModal(true)
     }
-  }, [pathname, score, resumeIndex, setClickedOption, setResumeModal])
+  }, [pathname, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal])
 
   // Append the completed attempt to performance history once per finish
   useEffect(() => {

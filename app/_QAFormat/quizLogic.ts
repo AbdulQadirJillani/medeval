@@ -32,6 +32,15 @@ export function prevMissed(review: number[], index: number): number | undefined 
   return review.findLast(i => i < index)
 }
 
+// Where Resume should land: the question after the one most recently answered.
+// Entries are appended the first time a question is answered, so the last one
+// is the latest. Using the furthest question *viewed* would send a student who
+// peeked ahead via the map to that far question.
+export function resumeIndexFor(clicked: Clicked, total: number): number {
+  const last = clicked[clicked.length - 1]
+  return last ? Math.min(last.questionIndex + 1, total - 1) : 0
+}
+
 const LETTERS = "abcdefghij"
 
 export function optionIndexForKey(key: string, count: number): number | null {

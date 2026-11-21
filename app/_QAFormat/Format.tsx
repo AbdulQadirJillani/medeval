@@ -36,7 +36,6 @@ function Format({ data }: { data: Quiz }) {
   useQuizPersistence({
     pathname,
     totalQuestions,
-    index,
     clickedOption,
     score,
     resumeIndex,
@@ -125,7 +124,7 @@ function Format({ data }: { data: Quiz }) {
 
       </div>
 
-      <ResumeModal pathname={pathname} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
+      <ResumeModal pathname={pathname} answered={clickedOption.length} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
 
       <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} />
     </div>
