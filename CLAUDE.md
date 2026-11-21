@@ -41,10 +41,11 @@ organizational — they don't affect URLs. Folders prefixed with `_` (`_NavBar`,
 | `/BookBank/[subject]` | `(BookBank)/[subject]` | Book cards for a subject |
 | `/Maps` | `Maps/` | Interactive hospital map |
 | `/Performance` | `(Performance)` | Quiz history dashboard |
+| `/Saved` | `Saved/` | Bookmarked questions; `?practise=all\|<module key>` runs them as a quiz |
 
 Every `loading.tsx` is a one-liner: `export { default } from '@/app/_components/RouteLoader'`.
 Also present: `app/robots.ts`, `app/sitemap.ts` (enumerates all quiz/book/system routes from the
-same source lists), `app/not-found.tsx`.
+same source lists; `/Saved` is deliberately left out — it's per-browser), `app/not-found.tsx`.
 
 ### Past Papers routing (`app/(PastPapers)/pastPapers.ts`)
 
@@ -101,8 +102,10 @@ records which years the question recurred in: `"1st-year/blood/compiled (2023, 2
 ### QA Format Engine (`app/_QAFormat/`)
 
 The shared quiz UI used by both Past Papers and SystemReview. `Format.tsx` is the `"use client"`
-container that receives `data`, `next?` and `back` (finish-screen links, computed in the server
-page and keyed per paper so "Next paper" remounts a fresh quiz). It composes `Header`,
+container that receives `data`, `next?` and `back?` (finish-screen links, computed in the server
+page and keyed per paper so "Next paper" remounts a fresh quiz), and `practice?` for the Saved quiz
+(per-question sources + finish actions; turns all persistence off — no `-module`, no Resume, no
+`-performance`). It composes `Header`,
 `ProgressMap` (colour-coded bar + jump-to-question sheet), `Question`, `HintDifficulty`, `Options`,
 `Footer`, `ResumeModal` and `FinishModal`. All persistence lives in the `useQuizPersistence.ts` hook,
 not in `Format.tsx`. Pure logic (option sort, per-question status, review stepping, key mapping,
@@ -124,10 +127,23 @@ until Retake; "Review missed" steps through wrong + unanswered questions with th
   by a `recorded` ref). Reads tolerate the legacy single-object value.
 - `${pathname}-reset` — legacy. Nothing sets it any more (it made the *next* load skip restore and
   wipe progress); restore just deletes stale copies.
+- `bookmarks` (not per-pathname) — newest-first array of `{ path, key, index, savedAt, question }`
+  with a **full copy** of each question, so `/Saved` needs no data loading (a later `Database/` fix
+  doesn't reach old saves). Changes broadcast a `bookmarks-change` window event; `useBookmarks`
+  also listens to `storage` for other tabs.
+
+**Bookmarks are matched by content, not id or position.** `questionKey()` (`bookmarks.ts`) hashes
+the normalised stem + sorted option texts (ignoring `bool`), because ids and question order are not
+stable across re-scrapes. `index` is only the position when saved and must not be used to find the
+question. "Open in paper" links are `<path>#k=<key>`; `#q=N` (1-based position) also works, for
+links built from current data. Both are read in the restore effect, land on the question, restore
+progress *without* the Resume popup, then strip the hash. A key with no match opens the paper
+normally. Hash, not query string: `useSearchParams` would force a Suspense boundary onto every
+prerendered quiz page.
 
 Quiz state uses refs for things that must not trigger rerenders (`score`, `lock`, `resumeIndex`,
-`recorded`). Navigation: ArrowLeft/ArrowRight, A–J / 1–9 to answer, swipe via `react-swipeable`,
-Back/Next/Finish, and the map. Keys are ignored while any `[role="dialog"]` is open
+`recorded`). Navigation: ArrowLeft/ArrowRight, A–J / 1–9 to answer, S to bookmark (B is an answer
+key), swipe via `react-swipeable`, Back/Next/Finish, and the map. Keys are ignored while any `[role="dialog"]` is open
 (`isQuizKeyBlocked`).
 
 `HintDifficulty` renders only when both `hint` and `difficulty` are present — i.e. System Review
