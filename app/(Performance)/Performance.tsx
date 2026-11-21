@@ -1,10 +1,13 @@
 "use client"
 
 import { subDays, isWithinInterval, endOfDay, startOfDay } from "date-fns";
-import { BarChart3, Trash2, TrendingUp } from "lucide-react";
+import { BarChart3, Trash2, TrendingDown, TrendingUp } from "lucide-react";
 import StatCard from "./StatCard";
 import Attempts from "./Attempts";
 import Graph from "./Graph";
+import ModuleList from "./ModuleList";
+import { moduleStats, weakestModule } from "./moduleStats";
+import { labelParts } from "@/lib/papers";
 import { useState } from "react";
 import { type PerformanceData } from "./types";
 import { Button } from "@/components/ui/button";
@@ -55,6 +58,9 @@ function Performance({ data }: { data: PerformanceData }) {
   const [allData, setAllData] = useState<PerformanceData>(data)
   const [perfList, setPerfList] = useState<PerformanceData>(data)
   const summaryData = summarize(perfList)
+  const stats = moduleStats(perfList)
+  const weakest = weakestModule(stats)
+  const weakestParts = weakest ? labelParts(weakest.key) : []
   const [activeTab, setActiveTab] = useState(0)
 
   const clearAll = () => {
@@ -114,13 +120,23 @@ function Performance({ data }: { data: PerformanceData }) {
         </Dialog>
       </div>
 
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
         <StatCard title="Average Accuracy" value={String(summaryData.avgPercent) + '%'} icon={<TrendingUp className="h-4 w-4" />} />
 
         <StatCard title="Total Attempts" value={String(summaryData.modulesAttempted)} icon={<BarChart3 className="h-4 w-4" />} />
+
+        <StatCard
+          title="Weakest module"
+          value={weakest ? `${weakestParts.at(-1)} ${Math.round(weakest.percent)}%` : "—"}
+          subtitle={weakest ? weakestParts.slice(0, -1).join(" · ") : undefined}
+          icon={<TrendingDown className="h-4 w-4" />}
+          className="col-span-2 sm:col-span-1"
+        />
       </div>
 
       <Graph data={perfList} />
+
+      <ModuleList stats={stats} />
 
       <Attempts data={perfList} />
     </div>
