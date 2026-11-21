@@ -13,11 +13,16 @@ function Toggle({ toggle, setToggle }: props) {
 
   useEffect(() => {
     setToggle(localStorage.getItem('theme') === 'true')
-    hydrated.current = true
   }, [setToggle])
 
   useEffect(() => {
-    if (!hydrated.current) return
+    if (!hydrated.current) {
+      // Until the read above lands, `toggle` is still the initial false; writing
+      // it would clobber a stored "true" and strip .dark for a frame. Start
+      // writing only once state matches storage (also safe under Strict Mode).
+      if (toggle === (localStorage.getItem('theme') === 'true')) hydrated.current = true
+      return
+    }
     localStorage.setItem('theme', String(toggle))
     document.documentElement.classList.toggle('dark', toggle)
   }, [toggle])

@@ -152,8 +152,9 @@ prerendered quiz page.
 
 Quiz state uses refs for things that must not trigger rerenders (`score`, `lock`, `resumeIndex`,
 `recorded`). Navigation: ArrowLeft/ArrowRight, A–J / 1–9 to answer, S to bookmark (B is an answer
-key), swipe via `react-swipeable`, Back/Next/Finish, and the map. Keys are ignored while any `[role="dialog"]` is open
-(`isQuizKeyBlocked`).
+key), swipe via `react-swipeable`, Back/Next/Finish, and the map. Keys are ignored while any `[role="dialog"]` has `data-state="open"`
+(`isQuizKeyBlocked`) — a closing one stays mounted ~300ms, and matching it dropped keys pressed
+right after closing.
 
 `HintDifficulty` renders only when both `hint` and `difficulty` are present — i.e. System Review
 only; Past Papers questions never have these fields.
@@ -195,8 +196,9 @@ to `#years`, `/BookBank`, `/Maps`. Human-readable labels for quiz paths ("2nd Ye
 
 Dark mode is client-only. `layout.tsx` injects a blocking inline script that reads `localStorage`
 key `theme` (`"true"`/`"false"`) and adds the `dark` class before paint, preventing a flash; `<html>`
-carries `suppressHydrationWarning`. `_NavBar/Toggle.tsx` then syncs it, guarding its first write
-with a `hydrated` ref so it can't clobber the stored value on mount. The dark variant in Tailwind is
+carries `suppressHydrationWarning`. `_NavBar/Toggle.tsx` then syncs it; its `hydrated` ref holds off
+writing until state matches the stored value, so the mount render's initial `false` can't clobber a
+stored `true`. (Setting the ref in the read effect doesn't work: both effects run in the same flush.) The dark variant in Tailwind is
 `&:is(.dark *)` (defined in `globals.css`).
 
 ### Maps

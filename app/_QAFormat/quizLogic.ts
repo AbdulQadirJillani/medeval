@@ -58,8 +58,9 @@ export function isQuizKeyBlocked(e: KeyboardEvent): boolean {
   if (e.ctrlKey || e.metaKey || e.altKey) return true
   const t = e.target
   if (t instanceof HTMLElement && (t.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(t.tagName))) return true
-  // Radix unmounts closed dialogs/sheets, so any [role=dialog] in the DOM is open
-  return document.querySelector('[role="dialog"]') !== null
+  // A closing dialog/sheet stays mounted (data-state="closed") for its ~300ms exit
+  // animation; matching it too would swallow keys pressed right after closing
+  return document.querySelector('[role="dialog"][data-state="open"]') !== null
 }
 
 // Which question a link opens: "#q=12" by position (0-based 11, when in

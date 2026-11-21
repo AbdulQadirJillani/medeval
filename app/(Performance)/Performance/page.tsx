@@ -1,7 +1,17 @@
 "use client"
 import { useEffect, useState } from "react"
 import Performance from "../Performance"
-import { type PerformanceData } from "../types"
+import { type PerformanceData, type PerformanceEntry } from "../types"
+
+// Hand-edited or extension-written values would otherwise crash the page on every visit
+function isEntry(e: unknown): e is PerformanceEntry {
+  const o = e as Record<string, unknown> | null
+  return !!o && typeof o === "object"
+    && typeof o.pathname === "string"
+    && Number.isFinite(o.score)
+    && Number.isFinite(o.totalQuestions)
+    && !Number.isNaN(new Date(o.finishDateTime as string).getTime())
+}
 
 function Page() {
   const [performance, setPerformance] = useState<PerformanceData>([])
@@ -11,21 +21,29 @@ function Page() {
     setIsLoading(true)
 
     // Check localStorage first
-    const perfItemsLS = []
+    const perfItemsLS: PerformanceData = []
+    const unreadable: string[] = []
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i)
       if (key?.endsWith("-performance")) {
         const valueString = localStorage.getItem(key)
         if (valueString) {
-          const value = JSON.parse(valueString)
-          if (Array.isArray(value)) {
-            perfItemsLS.push(...value)
-          } else {
-            perfItemsLS.push(value)
+          let value: unknown
+          try {
+            value = JSON.parse(valueString)
+          } catch {
+            unreadable.push(key)
+            continue
           }
+          // Legacy values are a single object rather than an array
+          const entries = (Array.isArray(value) ? value : [value]).filter(isEntry)
+          if (entries.length === 0) unreadable.push(key)
+          perfItemsLS.push(...entries)
         }
       }
     }
+    // Removed after the loop: removing mid-loop would shift localStorage.key(i)
+    unreadable.forEach(k => localStorage.removeItem(k))
 
     perfItemsLS.sort(
       (a, b) => new Date(b.finishDateTime).getTime() - new Date(a.finishDateTime).getTime()

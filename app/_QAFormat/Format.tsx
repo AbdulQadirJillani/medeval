@@ -186,8 +186,10 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
         <Question question={data[index].question} />
 
         {
-          data[index].hint && data[index].difficulty &&
-          <HintDifficulty hint={data[index].hint} difficulty={data[index].difficulty} />
+          // Ternary, not &&: a difficulty of 0 would otherwise render a stray "0"
+          data[index].hint && data[index].difficulty
+            ? <HintDifficulty hint={data[index].hint} difficulty={data[index].difficulty} />
+            : null
         }
 
         <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} reveal={review !== null} onFinishedClick={review ? undefined : Finish} />

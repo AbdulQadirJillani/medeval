@@ -19,6 +19,19 @@ type Options = {
   setIndex: Dispatch<SetStateAction<number>>
 }
 
+// A saved session that isn't a JSON object (hand-edited, or written by an
+// extension) would throw on every visit, so it's deleted and treated as absent
+function readSession(key: string): Record<string, any> | null {
+  const raw = localStorage.getItem(key)
+  if (raw === null) return null
+  try {
+    const obj = JSON.parse(raw)
+    if (obj && typeof obj === "object" && !Array.isArray(obj)) return obj
+  } catch {}
+  localStorage.removeItem(key)
+  return null
+}
+
 function useQuizPersistence({
   enabled,
   pathname,
@@ -47,9 +60,8 @@ function useQuizPersistence({
       // queued just before Finish can't re-create the key after it's cleared.
       if (recorded.current) return
       const moduleKey = `${pathname}-module`
-      const stored = localStorage.getItem(moduleKey)
-      if (stored) {
-        const obj = JSON.parse(stored)
+      const obj = readSession(moduleKey)
+      if (obj) {
         obj.score = score.current
         obj.resumeIndex = resumeIndex.current = resumeIndexFor(clickedOption, totalQuestions)
         obj.answers = clickedOption
@@ -91,9 +103,8 @@ function useQuizPersistence({
       landed.current = true
       setIndex(jump)
     }
-    const stored = localStorage.getItem(`${pathname}-module`)
-    if (!stored) return
-    const obj = JSON.parse(stored)
+    const obj = readSession(`${pathname}-module`)
+    if (!obj) return
     // Positions in `answers` go stale if the paper is re-scraped or reordered,
     // so answers are placed by content (answerKeys) and the score recounted
     let answers: Clicked = Array.isArray(obj.answers) ? obj.answers : []
@@ -130,9 +141,13 @@ function useQuizPersistence({
       finishDateTime: new Date(),
     }
     const key = `${pathname}-performance`
-    const existing = localStorage.getItem(key)
-    const prev = existing ? JSON.parse(existing) : []
-    const arr = Array.isArray(prev) ? prev : [prev]
+    let prev: unknown = []
+    try {
+      prev = JSON.parse(localStorage.getItem(key) ?? "[]")
+    } catch {
+      // Unreadable history: overwritten below rather than crashing the finish
+    }
+    const arr = Array.isArray(prev) ? prev : prev && typeof prev === "object" ? [prev] : []
     localStorage.setItem(key, JSON.stringify([...arr, entry]))
   }, [enabled, finishModal, pathname, totalQuestions, score, recorded])
 
