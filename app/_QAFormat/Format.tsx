@@ -12,12 +12,12 @@ import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
-import type { Clicked, Quiz } from "./types"
+import type { Clicked, Quiz, QuizLink } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
 import { isQuizKeyBlocked, questionStatuses } from "./quizLogic"
 
 
-function Format({ data }: { data: Quiz }) {
+function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizLink }) {
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
   const [clickedOption, setClickedOption] = useState<Clicked>([])
@@ -126,7 +126,7 @@ function Format({ data }: { data: Quiz }) {
 
       <ResumeModal pathname={pathname} answered={clickedOption.length} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
 
-      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} />
+      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} next={next} back={back} />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import Format from "@/app/_QAFormat/Format"
-import type { Quiz } from "@/app/_QAFormat/types"
+import type { Quiz, QuizLink } from "@/app/_QAFormat/types"
 import { redirect } from "next/navigation"
 import { systems } from "../systems"
 
@@ -17,7 +17,15 @@ async function page({ params }: { params: Promise<Props> }) {
     const { QA } = await params
     const promisedData = await import(`../../../../Database/SystemReview/${QA}.jsx`)
     data = await promisedData.default
-    return <Format data={data} />
+
+    const nextSystem = systems[systems.indexOf(QA) + 1]
+    const next: QuizLink | undefined = nextSystem === undefined ? undefined : {
+      href: `/SystemReview/${nextSystem}`,
+      label: `Next system: ${nextSystem.replace(/-/g, " ").replace(/^./, c => c.toUpperCase())}`,
+    }
+    const back: QuizLink = { href: "/SystemReview", label: "Back to systems" }
+
+    return <Format key={QA} data={data} next={next} back={back} />
   }
   catch {
     redirect("/")

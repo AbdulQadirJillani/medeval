@@ -1,5 +1,6 @@
-import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { Dispatch, RefObject, SetStateAction } from "react"
+import { ArrowRight } from "lucide-react"
 import {
   Dialog,
   DialogContent,
@@ -9,22 +10,20 @@ import {
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import Progress from "../(Performance)/Progress"
+import type { QuizLink } from "./types"
 
 type Props = {
   finishModal: boolean,
   setFinishModal: Dispatch<SetStateAction<boolean>>,
   score: RefObject<number>,
   totalQuestions: number,
-  Retake: () => void
+  Retake: () => void,
+  next?: QuizLink,
+  back: QuizLink
 }
 
-const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake }: Props) => {
-  const router = useRouter()
-
-  const HomeRedirect = () => {
-    setFinishModal(false)
-    router.push("/")
-  }
+const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake, next, back }: Props) => {
+  const percentage = score.current / totalQuestions * 100
 
   return (
     <Dialog open={finishModal} onOpenChange={setFinishModal}>
@@ -32,15 +31,26 @@ const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retak
         <DialogHeader>
           <DialogTitle>Done</DialogTitle>
           <DialogDescription>
-            Score: {score.current} out of {totalQuestions}
+            Score: {score.current} / {totalQuestions} ({Math.round(percentage)}%)
           </DialogDescription>
         </DialogHeader>
-        <Progress className="mx-auto mb-5" percentage={score.current/totalQuestions*100}/>
+        <Progress className="mx-auto mb-5" percentage={percentage}/>
+        {
+          next &&
+          <Button asChild variant="brand">
+            <Link href={next.href} onClick={() => setFinishModal(false)}>
+              {next.label}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
+        }
         <Button variant="brand" onClick={Retake}>
           Retake quiz
         </Button>
-        <Button variant="brand" onClick={HomeRedirect}>
-          Go back to HomePage
+        <Button asChild variant="outline">
+          <Link href={back.href} onClick={() => setFinishModal(false)}>
+            {back.label}
+          </Link>
         </Button>
       </DialogContent>
     </Dialog>
