@@ -38,7 +38,6 @@ const ResumeModal = ({ pathname, resumeModal, setResumeModal, resumeIndex, score
       console.error(err, 'Deleting module data from DB failed!')
     }
     finally {
-      localStorage.setItem(`${pathname}-reset`, "true")
       setResumeModal(false)
     }
   }

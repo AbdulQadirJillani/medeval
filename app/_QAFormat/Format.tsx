@@ -75,7 +75,6 @@ function Format({ data }: { data: Quiz }) {
   }
 
   const Retake = () => {
-    localStorage.setItem(`${pathname}-reset`, "true")
     score.current = 0
     resumeIndex.current = 0
     lock.current = false
@@ -120,7 +119,7 @@ function Format({ data }: { data: Quiz }) {
           <HintDifficulty hint={data[index].hint} difficulty={data[index].difficulty} />
         }
 
-        <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} />
+        <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} />
 
         <Footer index={index} totalQuestions={totalQuestions} Back={Back} Next={Next} Finish={Finish} />
 

@@ -11,10 +11,11 @@ type Props = {
   setClickedOption: Dispatch<SetStateAction<Clicked>>,
   questionIndex: number,
   score: RefObject<number>,
-  lock: RefObject<boolean>
+  lock: RefObject<boolean>,
+  finished: RefObject<boolean>
 }
 
-const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock }: Props) => {
+const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock, finished }: Props) => {
   // Sorted longest-first. The order must stay deterministic: persisted answers
   // in localStorage reference optionIndex within THIS sorted array.
   const sortedOptions = useMemo(() => sortOptions(options), [options])
@@ -26,6 +27,8 @@ const Options = ({ options, clickedOption, setClickedOption, questionIndex, scor
   const alreadyAnswered = clickedOption.some(p => p.questionIndex === questionIndex)
 
   const optionClick = (questionIndex: number, optionIndex: number, val: option) => {
+    // Read-only after Finish so the score can't drift from the recorded attempt
+    if (finished.current) return
     if (!alreadyAnswered && !lock.current && val.bool) score.current += 1
     lock.current = true
 

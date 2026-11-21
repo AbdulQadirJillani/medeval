@@ -30,6 +30,9 @@ function useQuizPersistence({
   // Debounced save of in-progress module state
   useEffect(() => {
     const handler = setTimeout(() => {
+      // A finished paper is not in progress. Checked at fire time so a save
+      // queued just before Finish can't re-create the key after it's cleared.
+      if (recorded.current) return
       const moduleKey = `${pathname}-module`
       const stored = localStorage.getItem(moduleKey)
       if (stored) {
@@ -53,10 +56,12 @@ function useQuizPersistence({
       }
     }, 300)
     return () => clearTimeout(handler)
-  }, [pathname, index, totalQuestions, clickedOption, score, resumeIndex])
+  }, [pathname, index, totalQuestions, clickedOption, score, resumeIndex, recorded])
 
   // Restore module state on mount (and open resume modal if mid-attempt)
   useEffect(() => {
+    // Nothing sets this flag any more (it made the NEXT load skip restore and
+    // wipe progress made after Retake); still consumed so stale flags clear.
     if (localStorage.getItem(`${pathname}-reset`)) {
       localStorage.removeItem(`${pathname}-reset`)
       return
