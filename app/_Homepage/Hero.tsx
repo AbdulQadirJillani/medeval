@@ -1,23 +1,30 @@
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Book, FileText, Map } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
+  const years = ['1st-year', '2nd-year', '3rd-year', '4th-year', '5th-year']
   const features = [
     {
       heading: "Past Papers",
       description: "Practice with a comprehensive collection of past papers.",
-      icon: FileText
+      icon: FileText,
+      // No /PastPapers index page exists, so this scrolls to the year buttons
+      href: "#years"
     },
     {
       heading: "Book Bank",
       description: "Free access to medical textbooks in PDF.",
-      icon: Book
+      icon: Book,
+      href: "/BookBank"
     },
     {
       heading: "Campus & Hospital Maps",
       description: "Navigate Dow University and Civil Hospital easily.",
-      icon: Map
+      icon: Map,
+      href: "/Maps"
     }
   ]
 
@@ -33,6 +40,15 @@ export default function Hero() {
           <p className="mt-6 text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed">
             Your one-stop resource hub for past papers, medical books, and hospital maps.
           </p>
+          <div id="years" className="mt-6 flex flex-wrap gap-2 justify-center md:justify-start scroll-mt-24">
+            {years.map(y => (
+              <Button key={y} asChild variant="brand">
+                <Link href={`/PastPapers/${y}`}>
+                  {y.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                </Link>
+              </Button>
+            ))}
+          </div>
         </div>
         {/* Right Illustration */}
         <div className="flex justify-center md:justify-end">
@@ -54,17 +70,19 @@ export default function Hero() {
           features.map(i => {
             const Icons = i.icon
             return (
-              <Card key={i.heading} className="rounded-2xl shadow-accent shadow-md hover:shadow-lg transition">
-                <CardContent className="p-6 flex flex-col items-center text-center">
-                  <Icons className="h-12 w-12 text-purple-500 mb-4" />
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">
-                    {i.heading}
-                  </h3>
-                  <p className="text-sm sm:text-base text-muted-foreground">
-                    {i.description}
-                  </p>
-                </CardContent>
-              </Card>)
+              <Link key={i.heading} href={i.href} className="block rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand">
+                <Card className="h-full rounded-2xl shadow-accent shadow-md hover:shadow-lg hover:-translate-y-1 transition">
+                  <CardContent className="p-6 flex flex-col items-center text-center">
+                    <Icons className="h-12 w-12 text-purple-500 mb-4" />
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                      {i.heading}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {i.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>)
           })
         }
       </section>
