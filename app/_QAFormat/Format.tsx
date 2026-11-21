@@ -1,9 +1,10 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 
 import Header from "./Header"
+import ProgressMap from "./ProgressMap"
 import Question from "./Question"
 import HintDifficulty from "./HintDifficulty"
 import Options from "./Options"
@@ -11,16 +12,16 @@ import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
-import type { Quiz } from "./types"
+import type { Clicked, Quiz } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
-
-type clicked = { questionIndex: number, optionIndex: number[] }[]
+import { questionStatuses } from "./quizLogic"
 
 
 function Format({ data }: { data: Quiz }) {
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
-  const [clickedOption, setClickedOption] = useState<clicked>([])
+  const [clickedOption, setClickedOption] = useState<Clicked>([])
+  const [mapOpen, setMapOpen] = useState<boolean>(false)
   const resumeIndex = useRef<number>(0)
   const [resumeModal, setResumeModal] = useState<boolean>(false)
   const [finishModal, setFinishModal] = useState<boolean>(false)
@@ -29,6 +30,8 @@ function Format({ data }: { data: Quiz }) {
   const recorded = useRef<boolean>(false)
   const totalQuestions = data.length
   const questionOrigin = data[index].info.replace(/-/g, ' ')
+  const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
+  const counterLabel = `${index + 1} / ${totalQuestions}`
 
   useQuizPersistence({
     pathname,
@@ -59,6 +62,12 @@ function Format({ data }: { data: Quiz }) {
       setIndex(prev => prev + 1)
       lock.current = false
     }
+  }
+
+  const jump = (i: number) => {
+    setIndex(i)
+    lock.current = false
+    setMapOpen(false)
   }
 
   const Finish = () => {
@@ -99,7 +108,9 @@ function Format({ data }: { data: Quiz }) {
     <div {...handlers}>
       <div className="w-[80%] my-6 mx-auto">
 
-        <Header questionOrigin={questionOrigin} questionID={index + 1} totalQuestions={totalQuestions} />
+        <Header questionOrigin={questionOrigin} counterLabel={counterLabel} onOpenMap={() => setMapOpen(true)} />
+
+        <ProgressMap statuses={statuses} index={index} open={mapOpen} onOpenChange={setMapOpen} onJump={jump} />
 
         <Question question={data[index].question} />
 
