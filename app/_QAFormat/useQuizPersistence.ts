@@ -51,11 +51,14 @@ function useQuizPersistence({
   // Set once a #q / #k link has been consumed, so a re-run of the restore effect
   // (dev Strict Mode; the hash is gone by then) doesn't pop the Resume modal
   const landed = useRef<boolean>(false)
+  // The save still waiting out the debounce, flushed if the student leaves first
+  const pending = useRef<(() => void) | null>(null)
 
   // Debounced save of in-progress module state
   useEffect(() => {
     if (!enabled) return
-    const handler = setTimeout(() => {
+    const save = () => {
+      pending.current = null
       // A finished paper is not in progress. Checked at fire time so a save
       // queued just before Finish can't re-create the key after it's cleared.
       if (recorded.current) return
@@ -80,9 +83,28 @@ function useQuizPersistence({
           updatedAt: new Date(),
         }))
       }
-    }, 300)
+    }
+    // Only worth flushing with answers to lose. It also keeps the mount render's
+    // still-empty answers (restore hasn't landed yet) from wiping a stored
+    // session if the quiz unmounts at once, as dev Strict Mode does.
+    pending.current = clickedOption.length > 0 ? save : null
+    const handler = setTimeout(save, 300)
     return () => clearTimeout(handler)
   }, [enabled, pathname, data, keyAt, totalQuestions, clickedOption, score, resumeIndex, recorded])
+
+  // Leaving inside the debounce window (a link, reload, closing the tab, or a
+  // phone switching apps) would otherwise drop the latest answers
+  useEffect(() => {
+    const flush = () => pending.current?.()
+    const onHide = () => { if (document.visibilityState === "hidden") flush() }
+    window.addEventListener("pagehide", flush)
+    document.addEventListener("visibilitychange", onHide)
+    return () => {
+      window.removeEventListener("pagehide", flush)
+      document.removeEventListener("visibilitychange", onHide)
+      flush()
+    }
+  }, [])
 
   // Restore module state on mount (and open resume modal if mid-attempt)
   useEffect(() => {

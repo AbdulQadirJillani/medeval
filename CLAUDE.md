@@ -120,8 +120,12 @@ until Retake; "Review missed" steps through wrong + unanswered questions with th
 
 **localStorage keys** (all keyed by `pathname`):
 - `${pathname}-module` — in-progress session (score, resumeIndex, totalQuestions, startDateTime,
-  answers, updatedAt). Debounced 300ms on answer changes; never written once finished; removed on
-  finish. Merely opening a paper writes one with `answers: []`. `updatedAt` was added later, so
+  answers, updatedAt). Debounced 300ms on answer changes; a save still pending when the student
+  leaves (unmount, `pagehide`, tab hidden) is flushed, but only with answers to lose — flushing the
+  mount render's empty state would wipe the stored session under Strict Mode. Never written once
+  finished; removed on finish. A value that isn't a JSON object is deleted and treated as absent
+  (same for unreadable `-performance` keys on `/Performance`). Merely opening a paper writes one with
+  `answers: []`. `updatedAt` was added later, so
   readers must fall back to `startDateTime`. `resumeIndex` is the question *after the most recently
   answered one* (`resumeIndexFor`), not the furthest viewed, so peeking ahead via the map doesn't
   move Resume. `answers` holds *positions*, which go stale if a paper is re-scraped or reordered,
@@ -259,9 +263,12 @@ and option text unique within a question.
   carry the same option text twice, 4 have an empty-string option,
   `5th-year/gynecology` 2013 id=60 has zero correct answers so it can never be scored, and
   `1st-year/respiratory` 2025 id=6 has 10 near-duplicate options ("…of T6…" / "…of the T6…") with
-  two marked correct. Each also
-  appears in that module's `-compiled.json`. Option text must stay unique per question and exactly
-  one answer needs `bool: true`.
+  two marked correct. `5th-year/medicine-2` 2017 id=65 has "Delusion of reference" and "Delusion of
+  Reference" (unique as written, but restore matches options case-insensitively, so it maps both to
+  the first). Each also appears in that module's `-compiled.json` (medicine-2's is id=604). Option
+  text must stay unique per question (ignoring case and spacing) and exactly one answer needs
+  `bool: true`. System Review: 19 questions have 11–13 options, but answer keys stop at A–J, so the
+  K/L/M badges are mouse-only.
 - **System Review is built but hidden** — its nav link is commented out in `_NavBar/Menu.tsx`, yet
   the routes prerender and `sitemap.ts` still publishes all 17 systems.
 - `globals.css` carries ~180 lines of `#legacy` styles that nothing uses — no `id="legacy"` exists
