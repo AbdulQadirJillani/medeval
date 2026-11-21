@@ -39,6 +39,7 @@ function useQuizPersistence({
         obj.score = score.current
         obj.resumeIndex = resumeIndex.current = resumeIndexFor(clickedOption, totalQuestions)
         obj.answers = clickedOption
+        obj.updatedAt = new Date()
         localStorage.setItem(moduleKey, JSON.stringify(obj))
       } else {
         localStorage.setItem(moduleKey, JSON.stringify({
@@ -48,6 +49,7 @@ function useQuizPersistence({
           totalQuestions,
           startDateTime: new Date(),
           answers: clickedOption,
+          updatedAt: new Date(),
         }))
       }
     }, 300)

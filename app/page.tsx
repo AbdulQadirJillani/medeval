@@ -1,3 +1,4 @@
+import ContinueStrip from "./_Homepage/ContinueStrip";
 import Footer from "./_Homepage/Footer";
 import Hero from "./_Homepage/Hero";
 import Section from "./_Homepage/Section";
@@ -35,6 +36,7 @@ export default function Home() {
 
   return (
     <>
+      <ContinueStrip />
       <Hero />
       <Section heading={headingP} list={listP} pics={picsP} index={indexP} />
       <Section heading={headingB} list={listB} pics={picsB} index={indexB} />
