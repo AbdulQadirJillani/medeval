@@ -23,7 +23,9 @@ function ContinueStrip({ modules }: { modules: string[] }) {
   // and the prerendered HTML never see it.
   const [sessions, setSessions] = useState<Session[] | null>(null)
   const [showAll, setShowAll] = useState(false)
+  // Kept after closing so the dialog's text doesn't blank during its close animation
   const [pending, setPending] = useState<Session | null>(null)
+  const [confirmOpen, setConfirmOpen] = useState(false)
 
   useEffect(() => {
     const entries: [string, string | null][] = []
@@ -40,7 +42,7 @@ function ContinueStrip({ modules }: { modules: string[] }) {
     if (!pending) return
     localStorage.removeItem(`${pending.pathname}-module`)
     setSessions(sessions.filter(s => s.pathname !== pending.pathname))
-    setPending(null)
+    setConfirmOpen(false)
   }
 
   const shown = showAll ? sessions : sessions.slice(0, VISIBLE)
@@ -67,7 +69,7 @@ function ContinueStrip({ modules }: { modules: string[] }) {
               </Link>
               <button
                 type="button"
-                onClick={() => setPending(s)}
+                onClick={() => { setPending(s); setConfirmOpen(true) }}
                 aria-label={`Discard progress for ${label}`}
                 className="p-3 mr-1 shrink-0 rounded-md text-muted-foreground hover:text-destructive focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
               >
@@ -85,7 +87,7 @@ function ContinueStrip({ modules }: { modules: string[] }) {
         </div>
       )}
 
-      <Dialog open={pending !== null} onOpenChange={open => { if (!open) setPending(null) }}>
+      <Dialog open={confirmOpen} onOpenChange={setConfirmOpen}>
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Discard progress?</DialogTitle>

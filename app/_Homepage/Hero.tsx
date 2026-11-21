@@ -3,9 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Book, FileText, Map } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { YEARS } from "@/app/(PastPapers)/modules";
 
 export default function Hero() {
-  const years = ['1st-year', '2nd-year', '3rd-year', '4th-year', '5th-year']
   const features = [
     {
       heading: "Past Papers",
@@ -41,7 +41,7 @@ export default function Hero() {
             Your one-stop resource hub for past papers, medical books, and hospital maps.
           </p>
           <div id="years" className="mt-6 flex flex-wrap gap-2 justify-center md:justify-start scroll-mt-24">
-            {years.map(y => (
+            {YEARS.map(y => (
               <Button key={y} asChild variant="brand">
                 <Link href={`/PastPapers/${y}`}>
                   {y.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}

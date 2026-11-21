@@ -127,7 +127,7 @@ function Performance({ data }: { data: PerformanceData }) {
 
         <StatCard
           title="Weakest module"
-          value={weakest ? `${weakestParts.at(-1)} ${Math.round(weakest.percent)}%` : "—"}
+          value={weakest ? `${weakestParts.at(-1)} · ${Math.round(weakest.percent)}%` : "—"}
           subtitle={weakest ? weakestParts.slice(0, -1).join(" · ") : undefined}
           icon={<TrendingDown className="h-4 w-4" />}
           // Module names run to "Otorhinolaryngology", which can't fit a third-width

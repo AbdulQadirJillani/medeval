@@ -5,6 +5,7 @@ import { Dispatch, SetStateAction } from "react"
 
 import { LucideDiamond } from "lucide-react"
 import useBookmarks from "@/app/_QAFormat/useBookmarks"
+import { YEARS } from "@/app/(PastPapers)/modules"
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu"
 
 type Props = {
@@ -13,7 +14,6 @@ type Props = {
 }
 
 const Menu = ({ className, setOpen }: Props) => {
-  const years = ['1st-year', '2nd-year', '3rd-year', '4th-year', '5th-year']
   const { bookmarks } = useBookmarks()
   const close = () => {
     setOpen(false)
@@ -58,7 +58,7 @@ const Menu = ({ className, setOpen }: Props) => {
             <NavigationMenuContent>
               <ul className="w-[143px] p-4 space-y-3">
                 {
-                  years.map((y) => (
+                  YEARS.map((y) => (
                     <li key={y}>
                       <Link className="flex gap-1 items-center px-2 py-1 rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href={`/PastPapers/${y}`} onClick={close}>
                         <LucideDiamond size={10} />

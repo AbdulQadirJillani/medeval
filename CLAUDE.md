@@ -51,7 +51,9 @@ same source lists; `/Saved` is deliberately left out — it's per-browser), `app
 
 Module/tag discovery is **filesystem-driven** via `readdirSync` at build time:
 
-- `MODULE_ORDER` — per-year module lists in curriculum order. **Names must match the
+- `MODULE_ORDER` — per-year module lists in curriculum order. It lives in `modules.ts` (no `fs`
+  import, so the client navbar can use it; `pastPapers.ts` re-exports it), which also exports
+  `YEARS` — the one years list the navbar menu and hero buttons render from. **Names must match the
   `Database/PastPapers/<year>/` folder names exactly.** A mismatch is the single most likely way to
   break the build. Note the irregular names: 3rd/4th-year module repeats carry a `-2` suffix
   (`cardiovascular-2`, `reproductive-2`, …), and 3rd-year blood is foldered as `hematology`.
@@ -62,8 +64,8 @@ Module/tag discovery is **filesystem-driven** via `readdirSync` at build time:
   `sitemap.ts`.
 
 Adding a year means: a `Database/PastPapers/<year>/` folder, a `MODULE_ORDER` entry, a
-`PastPapers/<year>/page.tsx` + `loading.tsx` (copy an existing year, change `ANNUAL`), an entry in
-the `years` array in `app/_NavBar/Menu.tsx`, and artwork classes in `PastPaper.module.css`.
+`PastPapers/<year>/page.tsx` + `loading.tsx` (copy an existing year, change `ANNUAL`), and artwork
+classes in `PastPaper.module.css`. The navbar and hero pick the year up from `MODULE_ORDER`.
 
 ### Data Loading
 
