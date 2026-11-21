@@ -12,8 +12,10 @@ import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
-import type { Clicked, Quiz, QuizLink } from "./types"
+import type { Clicked, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
+import useBookmarks from "./useBookmarks"
+import { isSaved } from "./bookmarks"
 import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionStatuses } from "./quizLogic"
 
 
@@ -34,6 +36,14 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
   const questionOrigin = data[index].info.replace(/-/g, ' ')
   const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
   const missed = useMemo(() => missedIndices(statuses), [statuses])
+  const { bookmarks, toggle } = useBookmarks()
+  const refAt = (i: number): QuestionRef => ({ path: pathname, id: data[i].id, index: i })
+  const saved = isSaved(bookmarks, refAt(index))
+  const savedFlags = useMemo(
+    () => data.map((_, i) => isSaved(bookmarks, refAt(i))),
+    [data, bookmarks, pathname]
+  )
+  const toggleSave = () => toggle(refAt(index), data[index])
   // Relative to the current index, so jumping via the map mid-review still works
   const prevStop = review ? prevMissed(review, index) : undefined
   const nextStop = review ? nextMissed(review, index) : undefined
@@ -122,10 +132,11 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
       if (isQuizKeyBlocked(e)) return
       if (e.key === 'ArrowRight') Next()
       else if (e.key === 'ArrowLeft') Back()
+      else if (e.key === 's' || e.key === 'S') toggleSave()
     }
     document.addEventListener('keydown', navigate)
     return () => document.removeEventListener('keydown', navigate)
-  }, [index, totalQuestions, pathname, review])
+  }, [index, totalQuestions, pathname, review, bookmarks])
 
 
   // Swipe support
@@ -140,9 +151,9 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
     <div {...handlers}>
       <div className="w-[80%] my-6 mx-auto">
 
-        <Header questionOrigin={questionOrigin} counterLabel={counterLabel} onOpenMap={() => setMapOpen(true)} />
+        <Header questionOrigin={questionOrigin} counterLabel={counterLabel} onOpenMap={() => setMapOpen(true)} saved={saved} onToggleSave={toggleSave} />
 
-        <ProgressMap statuses={statuses} index={index} open={mapOpen} onOpenChange={setMapOpen} onJump={jump} />
+        <ProgressMap statuses={statuses} saved={savedFlags} index={index} open={mapOpen} onOpenChange={setMapOpen} onJump={jump} />
 
         <Question question={data[index].question} />
 

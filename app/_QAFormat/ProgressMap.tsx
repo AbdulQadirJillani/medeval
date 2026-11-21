@@ -7,6 +7,7 @@ import type { QuestionStatus } from "./quizLogic"
 
 type Props = {
   statuses: QuestionStatus[],
+  saved: boolean[],
   index: number,
   open: boolean,
   onOpenChange: (open: boolean) => void,
@@ -25,7 +26,7 @@ const CHIP: Record<QuestionStatus, string> = {
   unanswered: "bg-accent",
 }
 
-const ProgressMap = ({ statuses, index, open, onOpenChange, onJump }: Props) => {
+const ProgressMap = ({ statuses, saved, index, open, onOpenChange, onJump }: Props) => {
   const currentRef = useRef<HTMLButtonElement>(null)
   const right = statuses.filter(s => s === "right").length
   const wrong = statuses.filter(s => s === "wrong").length
@@ -65,12 +66,13 @@ const ProgressMap = ({ statuses, index, open, onOpenChange, onJump }: Props) => 
                 key={i}
                 type="button"
                 ref={i === index ? currentRef : undefined}
-                aria-label={`Question ${i + 1}, ${s}`}
+                aria-label={`Question ${i + 1}, ${s}${saved[i] ? ", saved" : ""}`}
                 aria-current={i === index ? "true" : undefined}
                 onClick={() => onJump(i)}
-                className={cn("h-9 rounded-md text-sm tabular-nums cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-ring", CHIP[s], i === index && "ring-2 ring-brand ring-offset-2 ring-offset-background")}
+                className={cn("relative h-9 rounded-md text-sm tabular-nums cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-ring", CHIP[s], i === index && "ring-2 ring-brand ring-offset-2 ring-offset-background")}
               >
                 {i + 1}
+                {saved[i] && <span aria-hidden="true" className="absolute top-1 right-1 size-1.5 rounded-full bg-brand ring-1 ring-background" />}
               </button>
             ))}
           </div>

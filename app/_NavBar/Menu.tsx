@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Dispatch, SetStateAction } from "react"
 
 import { LucideDiamond } from "lucide-react"
+import useBookmarks from "@/app/_QAFormat/useBookmarks"
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu"
 
 type Props = {
@@ -13,6 +14,7 @@ type Props = {
 
 const Menu = ({ className, setOpen }: Props) => {
   const years = ['1st-year', '2nd-year', '3rd-year', '4th-year', '5th-year']
+  const { bookmarks } = useBookmarks()
   const close = () => {
     setOpen(false)
   }
@@ -34,6 +36,17 @@ const Menu = ({ className, setOpen }: Props) => {
 
       <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Performance" onClick={close}>
         Performance
+      </Link>
+
+      <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Saved" onClick={close}>
+        Saved
+        {
+          bookmarks.length > 0 &&
+          <span className="ml-1.5 rounded-full bg-brand px-1.5 text-xs text-white tabular-nums align-middle">
+            {bookmarks.length}
+            <span className="sr-only"> saved</span>
+          </span>
+        }
       </Link>
 
       <NavigationMenu>
