@@ -160,7 +160,7 @@ the paper normally. Hash, not query string: `useSearchParams` would force a Susp
 prerendered quiz page.
 
 Quiz state uses refs for things that must not trigger rerenders (`score`, `lock`, `resumeIndex`,
-`recorded`). Navigation: ArrowLeft/ArrowRight, A–J / 1–9 to answer, S to bookmark (B is an answer
+`recorded`). Navigation: ArrowLeft/ArrowRight, A–R / 1–9 to answer (letters stop before S; System Review has up to 13 options), S to bookmark (B is an answer
 key), swipe via `react-swipeable`, Back/Next/Finish, and the map. Keys are ignored while any `[role="dialog"]` has `data-state="open"`
 (`isQuizKeyBlocked`) — a closing one stays mounted ~300ms, and matching it dropped keys pressed
 right after closing.
@@ -272,8 +272,7 @@ and option text unique within a question.
   Reference" (unique as written, but restore matches options case-insensitively, so it maps both to
   the first). Each also appears in that module's `-compiled.json` (medicine-2's is id=604). Option
   text must stay unique per question (ignoring case and spacing) and exactly one answer needs
-  `bool: true`. System Review: 19 questions have 11–13 options, but answer keys stop at A–J, so the
-  K/L/M badges are mouse-only.
+  `bool: true`.
 - **System Review is built but hidden** — its nav link is commented out in `_NavBar/Menu.tsx`, yet
   the routes prerender and `sitemap.ts` still publishes all 17 systems.
 - `globals.css` carries ~180 lines of `#legacy` styles that nothing uses — no `id="legacy"` exists

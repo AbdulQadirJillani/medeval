@@ -41,7 +41,8 @@ export function resumeIndexFor(clicked: Clicked, total: number): number {
   return last ? Math.min(last.questionIndex + 1, total - 1) : 0
 }
 
-const LETTERS = "abcdefghij"
+// Stops before "s", the bookmark key. System Review has questions with up to 13 options.
+const LETTERS = "abcdefghijklmnopqr"
 
 export function optionIndexForKey(key: string, count: number): number | null {
   if (key.length !== 1) return null
