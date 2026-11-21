@@ -1,4 +1,4 @@
-import type { Clicked, Quiz } from "./types"
+import type { Clicked, Question, Quiz } from "./types"
 
 export type QuestionStatus = "right" | "wrong" | "unanswered"
 
@@ -53,6 +53,13 @@ export function optionIndexForKey(key: string, count: number): number | null {
 
 export function optionLetter(i: number): string {
   return String.fromCharCode(65 + i)
+}
+
+// Text for the copy button, to paste into any AI chat. Letters follow the
+// on-screen (sorted) order so they match what the student sees.
+export function questionPrompt(q: Question): string {
+  const options = sortOptions(q.answers).map((a, i) => `${optionLetter(i)}. ${a.option}`)
+  return `${q.question}\n\n${options.join("\n")}`
 }
 
 export function isQuizKeyBlocked(e: KeyboardEvent): boolean {

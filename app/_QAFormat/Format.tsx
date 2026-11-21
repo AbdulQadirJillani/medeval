@@ -17,7 +17,7 @@ import type { Clicked, Practice, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
 import useBookmarks from "./useBookmarks"
 import { isSaved, occurrenceKeys, questionKey } from "./bookmarks"
-import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionStatuses } from "./quizLogic"
+import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionPrompt, questionStatuses } from "./quizLogic"
 
 
 function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, back?: QuizLink, practice?: Practice }) {
@@ -193,7 +193,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
     <div {...handlers}>
       <div className="w-[80%] my-6 mx-auto">
 
-        <Header questionOrigin={questionOrigin} counterLabel={counterLabel} onOpenMap={() => setMapOpen(true)} saved={saved} onToggleSave={toggleSave} />
+        <Header questionOrigin={questionOrigin} counterLabel={counterLabel} onOpenMap={() => setMapOpen(true)} saved={saved} onToggleSave={toggleSave} copyText={questionPrompt(data[index])} />
 
         <ProgressMap statuses={statuses} saved={savedFlags} index={index} open={mapOpen} onOpenChange={setMapOpen} onJump={jump} />
 
