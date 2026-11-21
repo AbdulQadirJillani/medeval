@@ -76,7 +76,10 @@ calls, no API. The import paths resolve into `Database/`:
 - System Review: `Database/SystemReview/[system].jsx`
 - Book Bank: `Database/BookBank/[subject].json`
 
-Any failed import redirects to `/` (the `catch` block calls `redirect("/")`).
+All three dynamic routes set `dynamicParams = false`, so a URL that wasn't prerendered (a missing
+paper or subject, an extra segment like `/PastPapers/1st-year/blood/2016/x`) is a real 404 with
+`not-found.tsx`. Before that it returned 200 and streamed a redirect home after `loading.tsx`'s shell.
+The `catch` → `redirect("/")` remains only for an import failing during the build.
 
 ### Data Shapes
 

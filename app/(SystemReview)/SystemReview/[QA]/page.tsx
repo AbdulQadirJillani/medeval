@@ -7,6 +7,9 @@ export function generateStaticParams() {
   return systems.map(QA => ({ QA }))
 }
 
+// Unknown systems get a real 404 rather than a 200 that redirects home
+export const dynamicParams = false
+
 type Props = {
   QA: string
 }

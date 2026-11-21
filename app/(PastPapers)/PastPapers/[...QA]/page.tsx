@@ -7,6 +7,10 @@ export function generateStaticParams() {
   return allRoutes()
 }
 
+// Anything not prerendered (a missing paper, an extra segment) is a real 404,
+// not a 200 that streams a redirect home after loading.tsx's shell
+export const dynamicParams = false
+
 type Props = {
   QA: string[]
 }

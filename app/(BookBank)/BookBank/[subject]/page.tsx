@@ -6,6 +6,9 @@ export function generateStaticParams() {
   return subjects.map(subject => ({ subject }))
 }
 
+// Unknown subjects get a real 404 rather than a 200 that redirects home
+export const dynamicParams = false
+
 type Props = {
   subject: string
 }
