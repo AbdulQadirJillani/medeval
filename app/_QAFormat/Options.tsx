@@ -12,10 +12,11 @@ type Props = {
   questionIndex: number,
   score: RefObject<number>,
   lock: RefObject<boolean>,
-  finished: RefObject<boolean>
+  finished: RefObject<boolean>,
+  reveal: boolean
 }
 
-const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock, finished }: Props) => {
+const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock, finished, reveal }: Props) => {
   // Sorted longest-first. The order must stay deterministic: persisted answers
   // in localStorage reference optionIndex within THIS sorted array.
   const sortedOptions = useMemo(() => sortOptions(options), [options])
@@ -70,13 +71,13 @@ const Options = ({ options, clickedOption, setClickedOption, questionIndex, scor
     <div className="flex flex-col gap-[0.6rem]">
       {
         sortedOptions.map((val, optionIndex) => (
-          <button className={cn("focus:outline-none focus-visible:ring flex items-start gap-3 text-left py-3 px-5 text-base sm:text-lg bg-accent rounded-lg cursor-pointer", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? (val.bool ? "bg-[#66BB6A]" : "bg-[#E74C3C]") : "")))} onClick={() => optionClick(questionIndex, optionIndex, val)} key={`${optionIndex}-${val.option}`}>
+          <button className={cn("focus:outline-none focus-visible:ring flex items-start gap-3 text-left py-3 px-5 text-base sm:text-lg bg-accent rounded-lg cursor-pointer", reveal && val.bool && "bg-[#66BB6A]", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? (val.bool ? "bg-[#66BB6A]" : "bg-[#E74C3C]") : "")))} onClick={() => optionClick(questionIndex, optionIndex, val)} key={`${optionIndex}-${val.option}`}>
             <span aria-hidden="true" className="shrink-0 mt-0.5 grid place-items-center size-6 rounded-md bg-background/80 text-xs font-semibold text-muted-foreground">
               {optionLetter(optionIndex)}
             </span>
             <span>
               {val.option}
-              <span className={cn("hidden px-5 text-sm", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? "block" : "")))}>
+              <span className={cn("hidden px-5 text-sm", reveal && val.bool && "block", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? "block" : "")))}>
                 {val.explanation}
               </span>
             </span>

@@ -19,10 +19,12 @@ type Props = {
   totalQuestions: number,
   Retake: () => void,
   next?: QuizLink,
-  back: QuizLink
+  back: QuizLink,
+  missedCount: number,
+  onReview: () => void
 }
 
-const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake, next, back }: Props) => {
+const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake, next, back, missedCount, onReview }: Props) => {
   const percentage = score.current / totalQuestions * 100
 
   return (
@@ -35,6 +37,12 @@ const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retak
           </DialogDescription>
         </DialogHeader>
         <Progress className="mx-auto mb-5" percentage={percentage}/>
+        {
+          missedCount > 0 &&
+          <Button variant="brand" onClick={onReview}>
+            Review missed ({missedCount})
+          </Button>
+        }
         {
           next &&
           <Button asChild variant="brand">

@@ -14,7 +14,7 @@ import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
 import type { Clicked, Quiz, QuizLink } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
-import { isQuizKeyBlocked, questionStatuses } from "./quizLogic"
+import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionStatuses } from "./quizLogic"
 
 
 function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizLink }) {
@@ -22,6 +22,8 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
   const [index, setIndex] = useState<number>(0)
   const [clickedOption, setClickedOption] = useState<Clicked>([])
   const [mapOpen, setMapOpen] = useState<boolean>(false)
+  // Missed question indices while reviewing after Finish; null otherwise
+  const [review, setReview] = useState<number[] | null>(null)
   const resumeIndex = useRef<number>(0)
   const [resumeModal, setResumeModal] = useState<boolean>(false)
   const [finishModal, setFinishModal] = useState<boolean>(false)
@@ -31,7 +33,15 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
   const totalQuestions = data.length
   const questionOrigin = data[index].info.replace(/-/g, ' ')
   const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
-  const counterLabel = `${index + 1} / ${totalQuestions}`
+  const missed = useMemo(() => missedIndices(statuses), [statuses])
+  // Relative to the current index, so jumping via the map mid-review still works
+  const prevStop = review ? prevMissed(review, index) : undefined
+  const nextStop = review ? nextMissed(review, index) : undefined
+  const counterLabel = !review
+    ? `${index + 1} / ${totalQuestions}`
+    : review.includes(index)
+      ? `Reviewing ${review.indexOf(index) + 1} / ${review.length}`
+      : `Reviewing ${review.length} missed`
 
   useQuizPersistence({
     pathname,
@@ -50,6 +60,13 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
   // still be scored is decided in Options from the recorded answers, so a
   // skipped question stays answerable and an answered one stays locked.
   const Back = () => {
+    if (review) {
+      if (prevStop !== undefined) {
+        setIndex(prevStop)
+        lock.current = false
+      }
+      return
+    }
     if (index > 0) {
       setIndex(prev => prev - 1)
       lock.current = false
@@ -57,6 +74,13 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
   }
 
   const Next = () => {
+    if (review) {
+      if (nextStop !== undefined) {
+        setIndex(nextStop)
+        lock.current = false
+      }
+      return
+    }
     if (index + 1 < totalQuestions) {
       setIndex(prev => prev + 1)
       lock.current = false
@@ -73,7 +97,16 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
     setFinishModal(true)
   }
 
+  const startReview = () => {
+    if (missed.length === 0) return
+    setReview(missed)
+    setIndex(missed[0])
+    lock.current = false
+    setFinishModal(false)
+  }
+
   const Retake = () => {
+    setReview(null)
     score.current = 0
     resumeIndex.current = 0
     lock.current = false
@@ -92,7 +125,7 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
     }
     document.addEventListener('keydown', navigate)
     return () => document.removeEventListener('keydown', navigate)
-  }, [index, totalQuestions, pathname])
+  }, [index, totalQuestions, pathname, review])
 
 
   // Swipe support
@@ -118,15 +151,20 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
           <HintDifficulty hint={data[index].hint} difficulty={data[index].difficulty} />
         }
 
-        <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} />
+        <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} reveal={review !== null} />
 
-        <Footer index={index} totalQuestions={totalQuestions} Back={Back} Next={Next} Finish={Finish} />
+        <Footer
+          canBack={review ? prevStop !== undefined : index > 0}
+          isLast={review ? nextStop === undefined : index + 1 >= totalQuestions}
+          finishLabel={review ? "Finish review" : "Finish"}
+          Back={Back} Next={Next} Finish={Finish}
+        />
 
       </div>
 
       <ResumeModal pathname={pathname} answered={clickedOption.length} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
 
-      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} next={next} back={back} />
+      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} next={next} back={back} missedCount={missed.length} onReview={startReview} />
     </div>
   )
 }
