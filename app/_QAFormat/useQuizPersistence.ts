@@ -56,12 +56,9 @@ function useQuizPersistence({
 
   // Restore module state on mount (and open resume modal if mid-attempt)
   useEffect(() => {
-    // Nothing sets this flag any more (it made the NEXT load skip restore and
-    // wipe progress made after Retake); still consumed so stale flags clear.
-    if (localStorage.getItem(`${pathname}-reset`)) {
-      localStorage.removeItem(`${pathname}-reset`)
-      return
-    }
+    // Legacy flag: it made the NEXT load skip restore and wipe progress made
+    // after Retake. Nothing sets it now; clear stale copies and restore anyway.
+    localStorage.removeItem(`${pathname}-reset`)
     const stored = localStorage.getItem(`${pathname}-module`)
     if (!stored) return
     const obj = JSON.parse(stored)

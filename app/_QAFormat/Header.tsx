@@ -9,8 +9,9 @@ type Props = {
 const Header = ({ questionOrigin, counterLabel, onOpenMap }: Props) => {
   return (
     <div className="mt-3 flex justify-between items-center gap-3">
-      <span className="min-w-0 font-semibold capitalize text-base sm:text-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
-        {questionOrigin}
+      {/* overflow-wrap: text past the box would be invisible (bg-clip-text) */}
+      <span className="min-w-0 [overflow-wrap:anywhere] font-semibold capitalize text-base sm:text-lg text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
+        {questionOrigin.replace(/\//g, "/\u200B")}
       </span>
 
       <button

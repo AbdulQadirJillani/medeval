@@ -13,10 +13,11 @@ type Props = {
   score: RefObject<number>,
   lock: RefObject<boolean>,
   finished: RefObject<boolean>,
-  reveal: boolean
+  reveal: boolean,
+  onFinishedClick?: () => void
 }
 
-const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock, finished, reveal }: Props) => {
+const Options = ({ options, clickedOption, setClickedOption, questionIndex, score, lock, finished, reveal, onFinishedClick }: Props) => {
   // Sorted longest-first. The order must stay deterministic: persisted answers
   // in localStorage reference optionIndex within THIS sorted array.
   const sortedOptions = useMemo(() => sortOptions(options), [options])
@@ -28,8 +29,12 @@ const Options = ({ options, clickedOption, setClickedOption, questionIndex, scor
   const alreadyAnswered = clickedOption.some(p => p.questionIndex === questionIndex)
 
   const optionClick = (questionIndex: number, optionIndex: number, val: option) => {
-    // Read-only after Finish so the score can't drift from the recorded attempt
-    if (finished.current) return
+    // Read-only after Finish so the score can't drift from the recorded attempt;
+    // a tap brings the results back instead of silently doing nothing
+    if (finished.current) {
+      onFinishedClick?.()
+      return
+    }
     if (!alreadyAnswered && !lock.current && val.bool) score.current += 1
     lock.current = true
 

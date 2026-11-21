@@ -45,7 +45,8 @@ const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retak
         }
         {
           next &&
-          <Button asChild variant="brand">
+          // Long system names would otherwise widen the whole dialog on phones
+          <Button asChild variant="brand" className="whitespace-normal h-auto min-h-9 py-2 text-center">
             <Link href={next.href} onClick={() => setFinishModal(false)}>
               {next.label}
               <ArrowRight className="h-4 w-4" />

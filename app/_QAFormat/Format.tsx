@@ -151,7 +151,7 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
           <HintDifficulty hint={data[index].hint} difficulty={data[index].difficulty} />
         }
 
-        <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} reveal={review !== null} />
+        <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} reveal={review !== null} onFinishedClick={review ? undefined : Finish} />
 
         <Footer
           canBack={review ? prevStop !== undefined : index > 0}
