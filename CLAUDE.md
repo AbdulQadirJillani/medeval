@@ -122,7 +122,11 @@ until Retake; "Review missed" steps through wrong + unanswered questions with th
   finish. Merely opening a paper writes one with `answers: []`. `updatedAt` was added later, so
   readers must fall back to `startDateTime`. `resumeIndex` is the question *after the most recently
   answered one* (`resumeIndexFor`), not the furthest viewed, so peeking ahead via the map doesn't
-  move Resume.
+  move Resume. `answers` holds *positions*, which go stale if a paper is re-scraped or reordered,
+  so each save also writes `answerKeys` (`{ key: questionKey, options: clicked option texts }[]`).
+  Restore places answers by content (`remapAnswers`), drops any it can't place, and recounts the
+  score. A legacy session without `answerKeys` is trusted only if `totalQuestions` still matches;
+  otherwise it's discarded.
 - `${pathname}-performance` — **an array** of completed attempts, appended once per finish (guarded
   by a `recorded` ref). Reads tolerate the legacy single-object value.
 - `${pathname}-reset` — legacy. Nothing sets it any more (it made the *next* load skip restore and

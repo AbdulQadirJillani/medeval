@@ -37,19 +37,25 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
   const missed = useMemo(() => missedIndices(statuses), [statuses])
   const { bookmarks, toggle, remove } = useBookmarks()
-  // Hashing a 1,200-question paper costs real time on phones, so a paper is
-  // only hashed when it has bookmarks; otherwise just the toggled question is
+  // Content keys (questionKey) are hashed lazily and cached: hashing a
+  // 1,200-question paper up front costs real time on phones
+  const keyCache = useRef<Map<number, string>>(new Map())
+  const keyAt = useCallback((i: number) => {
+    let k = keyCache.current.get(i)
+    if (k === undefined) {
+      k = questionKey(data[i])
+      keyCache.current.set(i, k)
+    }
+    return k
+  }, [data])
   const hasHere = !practice && bookmarks.some(b => b.path === pathname)
-  const keys = useMemo(() => hasHere ? data.map(questionKey) : null, [data, hasHere])
-  const refAt = (i: number): QuestionRef => practice
-    ? practice.refs[i]
-    : { path: pathname, key: keys ? keys[i] : questionKey(data[i]), index: i }
+  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, key: keyAt(i), index: i }
   const saved = (!!practice || hasHere) && isSaved(bookmarks, refAt(index))
   const savedFlags = useMemo(
-    () => data.map((_, i) => (!!practice || keys !== null) && isSaved(bookmarks, refAt(i))),
-    [data, keys, bookmarks, pathname, practice]
+    () => data.map((_, i) => (!!practice || hasHere) && isSaved(bookmarks, refAt(i))),
+    [data, hasHere, bookmarks, pathname, practice, keyAt]
   )
-  const indexOfKey = useCallback((k: string) => data.findIndex(q => questionKey(q) === k), [data])
+  const indexOfKey = useCallback((k: string) => data.findIndex((_, i) => keyAt(i) === k), [data, keyAt])
   // Saved quiz: questions answered right first time that are still bookmarked
   const removableRefs = practice ? practice.refs.filter((r, i) => statuses[i] === "right" && isSaved(bookmarks, r)) : []
   const toggleSave = () => toggle(refAt(index), data[index])
@@ -65,6 +71,8 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   useQuizPersistence({
     enabled: !practice,
     pathname,
+    data,
+    keyAt,
     indexOfKey,
     totalQuestions,
     clickedOption,

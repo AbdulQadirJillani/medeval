@@ -1,11 +1,12 @@
 import { Dispatch, RefObject, SetStateAction, useEffect, useRef } from "react"
-import { parseQuestionHash, resumeIndexFor } from "./quizLogic"
-
-type Clicked = { questionIndex: number, optionIndex: number[] }[]
+import { answerRecords, parseQuestionHash, questionStatuses, remapAnswers, resumeIndexFor } from "./quizLogic"
+import type { Clicked, Quiz } from "./types"
 
 type Options = {
   enabled: boolean
   pathname: string
+  data: Quiz
+  keyAt: (i: number) => string
   indexOfKey: (key: string) => number
   totalQuestions: number
   clickedOption: Clicked
@@ -21,6 +22,8 @@ type Options = {
 function useQuizPersistence({
   enabled,
   pathname,
+  data,
+  keyAt,
   indexOfKey,
   totalQuestions,
   clickedOption,
@@ -50,6 +53,7 @@ function useQuizPersistence({
         obj.score = score.current
         obj.resumeIndex = resumeIndex.current = resumeIndexFor(clickedOption, totalQuestions)
         obj.answers = clickedOption
+        obj.answerKeys = answerRecords(data, clickedOption, keyAt)
         obj.updatedAt = new Date()
         localStorage.setItem(moduleKey, JSON.stringify(obj))
       } else {
@@ -60,12 +64,13 @@ function useQuizPersistence({
           totalQuestions,
           startDateTime: new Date(),
           answers: clickedOption,
+          answerKeys: answerRecords(data, clickedOption, keyAt),
           updatedAt: new Date(),
         }))
       }
     }, 300)
     return () => clearTimeout(handler)
-  }, [enabled, pathname, totalQuestions, clickedOption, score, resumeIndex, recorded])
+  }, [enabled, pathname, data, keyAt, totalQuestions, clickedOption, score, resumeIndex, recorded])
 
   // Restore module state on mount (and open resume modal if mid-attempt)
   useEffect(() => {
@@ -84,16 +89,29 @@ function useQuizPersistence({
     const stored = localStorage.getItem(`${pathname}-module`)
     if (!stored) return
     const obj = JSON.parse(stored)
+    // Positions in `answers` go stale if the paper is re-scraped or reordered,
+    // so answers are placed by content (answerKeys) and the score recounted
+    let answers: Clicked = Array.isArray(obj.answers) ? obj.answers : []
+    let restoredScore: number = obj.score ?? 0
+    if (Array.isArray(obj.answerKeys)) {
+      answers = remapAnswers(obj.answerKeys, data, keyAt)
+      restoredScore = questionStatuses(data, answers).filter(s => s === "right").length
+    } else if (obj.totalQuestions !== totalQuestions) {
+      // Saved before answerKeys existed and the paper has changed since:
+      // its positions can't be trusted, so start fresh rather than misplace them
+      localStorage.removeItem(`${pathname}-module`)
+      return
+    }
     // Recomputed from the answers so sessions saved under the old
     // furthest-question-viewed rule land in the same place as new ones.
-    const at = resumeIndexFor(obj.answers ?? [], totalQuestions)
+    const at = resumeIndexFor(answers, totalQuestions)
     if (at > 0) {
       resumeIndex.current = at
-      score.current = obj.score
-      setClickedOption(obj.answers)
+      score.current = restoredScore
+      setClickedOption(answers)
       if (!landed.current) setResumeModal(true)
     }
-  }, [enabled, pathname, indexOfKey, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
+  }, [enabled, pathname, data, keyAt, indexOfKey, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
 
   // Append the completed attempt to performance history once per finish
   useEffect(() => {

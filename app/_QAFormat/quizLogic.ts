@@ -77,3 +77,42 @@ export function parseQuestionHash(hash: string, total: number, indexOfKey: (key:
   const i = indexOfKey(k[1])
   return i === -1 ? null : i
 }
+
+// In-progress answers saved by content as well as position, so a paper that's
+// re-scraped or reordered mid-attempt doesn't put answers on the wrong
+// questions. key = questionKey of the question; options = the clicked option
+// texts in click order (the first one decides right/wrong).
+export type AnswerRecord = { key: string, options: string[] }
+
+const norm = (s: string) => s.replace(/\s+/g, " ").trim().toLowerCase()
+
+export function answerRecords(data: Quiz, clicked: Clicked, keyAt: (i: number) => string): AnswerRecord[] {
+  return clicked.flatMap(c => {
+    const q = data[c.questionIndex]
+    if (!q) return []
+    const sorted = sortOptions(q.answers)
+    return [{ key: keyAt(c.questionIndex), options: c.optionIndex.map(i => sorted[i]?.option).filter((o): o is string => o !== undefined) }]
+  })
+}
+
+// Records whose question no longer exists, or whose first pick can't be
+// found, are dropped rather than guessed at.
+export function remapAnswers(records: AnswerRecord[], data: Quiz, keyAt: (i: number) => string): Clicked {
+  const free = new Map<string, number[]>()
+  data.forEach((_, i) => {
+    const k = keyAt(i)
+    free.set(k, [...(free.get(k) ?? []), i])
+  })
+  const out: Clicked = []
+  for (const r of records) {
+    if (!r || typeof r.key !== "string" || !Array.isArray(r.options)) continue
+    // Identical questions share a key: give each record the next unused one
+    const questionIndex = free.get(r.key)?.shift()
+    if (questionIndex === undefined) continue
+    const sorted = sortOptions(data[questionIndex].answers).map(a => norm(a.option))
+    const picks = r.options.map(o => typeof o === "string" ? sorted.indexOf(norm(o)) : -1)
+    if (picks.length === 0 || picks[0] === -1) continue
+    out.push({ questionIndex, optionIndex: picks.filter((i, n) => i !== -1 && picks.indexOf(i) === n) })
+  }
+  return out
+}
