@@ -4,6 +4,7 @@ import { parseQuestionHash, resumeIndexFor } from "./quizLogic"
 type Clicked = { questionIndex: number, optionIndex: number[] }[]
 
 type Options = {
+  enabled: boolean
   pathname: string
   totalQuestions: number
   clickedOption: Clicked
@@ -17,6 +18,7 @@ type Options = {
 }
 
 function useQuizPersistence({
+  enabled,
   pathname,
   totalQuestions,
   clickedOption,
@@ -34,6 +36,7 @@ function useQuizPersistence({
 
   // Debounced save of in-progress module state
   useEffect(() => {
+    if (!enabled) return
     const handler = setTimeout(() => {
       // A finished paper is not in progress. Checked at fire time so a save
       // queued just before Finish can't re-create the key after it's cleared.
@@ -60,10 +63,11 @@ function useQuizPersistence({
       }
     }, 300)
     return () => clearTimeout(handler)
-  }, [pathname, totalQuestions, clickedOption, score, resumeIndex, recorded])
+  }, [enabled, pathname, totalQuestions, clickedOption, score, resumeIndex, recorded])
 
   // Restore module state on mount (and open resume modal if mid-attempt)
   useEffect(() => {
+    if (!enabled) return
     // Legacy flag: it made the NEXT load skip restore and wipe progress made
     // after Retake. Nothing sets it now; clear stale copies and restore anyway.
     localStorage.removeItem(`${pathname}-reset`)
@@ -87,12 +91,13 @@ function useQuizPersistence({
       setClickedOption(obj.answers)
       if (!landed.current) setResumeModal(true)
     }
-  }, [pathname, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
+  }, [enabled, pathname, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
 
   // Append the completed attempt to performance history once per finish
   useEffect(() => {
     if (!finishModal || recorded.current) return
     recorded.current = true
+    if (!enabled) return
     const entry = {
       pathname,
       score: score.current,
@@ -104,12 +109,12 @@ function useQuizPersistence({
     const prev = existing ? JSON.parse(existing) : []
     const arr = Array.isArray(prev) ? prev : [prev]
     localStorage.setItem(key, JSON.stringify([...arr, entry]))
-  }, [finishModal, pathname, totalQuestions, score, recorded])
+  }, [enabled, finishModal, pathname, totalQuestions, score, recorded])
 
   // Clear in-progress module state once finished
   useEffect(() => {
-    if (finishModal) localStorage.removeItem(`${pathname}-module`)
-  }, [pathname, finishModal])
+    if (enabled && finishModal) localStorage.removeItem(`${pathname}-module`)
+  }, [enabled, pathname, finishModal])
 }
 
 export default useQuizPersistence

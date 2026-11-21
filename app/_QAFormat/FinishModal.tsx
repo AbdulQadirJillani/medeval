@@ -19,12 +19,18 @@ type Props = {
   totalQuestions: number,
   Retake: () => void,
   next?: QuizLink,
-  back: QuizLink,
+  back?: QuizLink,
   missedCount: number,
-  onReview: () => void
+  onReview: () => void,
+  practice?: {
+    removable: number,
+    onRemoveRight: () => void,
+    onAgain: () => void,
+    onExit: () => void
+  }
 }
 
-const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake, next, back, missedCount, onReview }: Props) => {
+const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retake, next, back, missedCount, onReview, practice }: Props) => {
   const percentage = score.current / totalQuestions * 100
 
   return (
@@ -44,23 +50,47 @@ const FinishModal = ({ finishModal, setFinishModal, score, totalQuestions, Retak
           </Button>
         }
         {
-          next &&
-          // Long system names would otherwise widen the whole dialog on phones
-          <Button asChild variant="brand" className="whitespace-normal h-auto min-h-9 py-2 text-center">
-            <Link href={next.href} onClick={() => setFinishModal(false)}>
-              {next.label}
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </Button>
+          practice ? (
+            <>
+              {
+                practice.removable > 0 &&
+                <Button variant="brand" onClick={practice.onRemoveRight}>
+                  Remove the {practice.removable} I got right
+                </Button>
+              }
+              <Button variant="brand" onClick={practice.onAgain}>
+                Practise again
+              </Button>
+              <Button variant="outline" onClick={practice.onExit}>
+                Back to Saved
+              </Button>
+            </>
+          ) : (
+            <>
+              {
+                next &&
+                // Long system names would otherwise widen the whole dialog on phones
+                <Button asChild variant="brand" className="whitespace-normal h-auto min-h-9 py-2 text-center">
+                  <Link href={next.href} onClick={() => setFinishModal(false)}>
+                    {next.label}
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </Button>
+              }
+              <Button variant="brand" onClick={Retake}>
+                Retake quiz
+              </Button>
+              {
+                back &&
+                <Button asChild variant="outline">
+                  <Link href={back.href} onClick={() => setFinishModal(false)}>
+                    {back.label}
+                  </Link>
+                </Button>
+              }
+            </>
+          )
         }
-        <Button variant="brand" onClick={Retake}>
-          Retake quiz
-        </Button>
-        <Button asChild variant="outline">
-          <Link href={back.href} onClick={() => setFinishModal(false)}>
-            {back.label}
-          </Link>
-        </Button>
       </DialogContent>
     </Dialog>
   )

@@ -12,14 +12,14 @@ import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
-import type { Clicked, Quiz, QuizLink, QuestionRef } from "./types"
+import type { Clicked, Practice, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
 import useBookmarks from "./useBookmarks"
 import { isSaved } from "./bookmarks"
 import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionStatuses } from "./quizLogic"
 
 
-function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizLink }) {
+function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, back?: QuizLink, practice?: Practice }) {
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
   const [clickedOption, setClickedOption] = useState<Clicked>([])
@@ -36,13 +36,15 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
   const questionOrigin = data[index].info.replace(/-/g, ' ')
   const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
   const missed = useMemo(() => missedIndices(statuses), [statuses])
-  const { bookmarks, toggle } = useBookmarks()
-  const refAt = (i: number): QuestionRef => ({ path: pathname, id: data[i].id, index: i })
+  const { bookmarks, toggle, remove } = useBookmarks()
+  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, id: data[i].id, index: i }
   const saved = isSaved(bookmarks, refAt(index))
   const savedFlags = useMemo(
     () => data.map((_, i) => isSaved(bookmarks, refAt(i))),
-    [data, bookmarks, pathname]
+    [data, bookmarks, pathname, practice]
   )
+  // Saved quiz: questions answered right first time that are still bookmarked
+  const removableRefs = practice ? practice.refs.filter((r, i) => statuses[i] === "right" && isSaved(bookmarks, r)) : []
   const toggleSave = () => toggle(refAt(index), data[index])
   // Relative to the current index, so jumping via the map mid-review still works
   const prevStop = review ? prevMissed(review, index) : undefined
@@ -54,6 +56,7 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
       : `Reviewing ${review.length} missed`
 
   useQuizPersistence({
+    enabled: !practice,
     pathname,
     totalQuestions,
     clickedOption,
@@ -176,7 +179,16 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
 
       <ResumeModal pathname={pathname} answered={clickedOption.length} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
 
-      <FinishModal finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake} next={next} back={back} missedCount={missed.length} onReview={startReview} />
+      <FinishModal
+        finishModal={finishModal} setFinishModal={setFinishModal} score={score} totalQuestions={totalQuestions} Retake={Retake}
+        next={next} back={back} missedCount={missed.length} onReview={startReview}
+        practice={practice && {
+          removable: removableRefs.length,
+          onRemoveRight: () => remove(removableRefs),
+          onAgain: practice.onAgain,
+          onExit: practice.onExit,
+        }}
+      />
     </div>
   )
 }
