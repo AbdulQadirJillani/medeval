@@ -18,3 +18,7 @@ export type Quiz = Question[]
 export type Clicked = { questionIndex: number, optionIndex: number[] }[]
 
 export type QuizLink = { href: string, label: string }
+
+// Where a question lives: its quiz pathname, its id in that file, and its
+// 0-based position in the paper (for "Q12" and #q=N links)
+export type QuestionRef = { path: string, id: number, index: number }

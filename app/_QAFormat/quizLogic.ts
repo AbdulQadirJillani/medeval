@@ -61,3 +61,11 @@ export function isQuizKeyBlocked(e: KeyboardEvent): boolean {
   // Radix unmounts closed dialogs/sheets, so any [role=dialog] in the DOM is open
   return document.querySelector('[role="dialog"]') !== null
 }
+
+// "#q=12" → 11 (0-based) when 1 ≤ N ≤ total; anything else → null
+export function parseQuestionHash(hash: string, total: number): number | null {
+  const m = /^#q=(\d+)$/.exec(hash)
+  if (!m) return null
+  const n = Number(m[1])
+  return n >= 1 && n <= total ? n - 1 : null
+}
