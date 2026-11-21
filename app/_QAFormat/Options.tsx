@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils"
-import { Dispatch, RefObject, SetStateAction, useMemo } from "react"
+import { Dispatch, RefObject, SetStateAction, useEffect, useMemo } from "react"
 import type { Clicked } from "./types"
-import { sortOptions } from "./quizLogic"
+import { isQuizKeyBlocked, optionIndexForKey, optionLetter, sortOptions } from "./quizLogic"
 
 type option = { option: string, explanation?: string, bool: boolean }
 
@@ -49,14 +49,33 @@ const Options = ({ options, clickedOption, setClickedOption, questionIndex, scor
     })
   }
 
+  // Re-registered every render so the handler never scores against stale
+  // alreadyAnswered / clickedOption values.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (isQuizKeyBlocked(e)) return
+      const i = optionIndexForKey(e.key, sortedOptions.length)
+      if (i === null) return
+      e.preventDefault()
+      optionClick(questionIndex, i, sortedOptions[i])
+    }
+    document.addEventListener("keydown", onKey)
+    return () => document.removeEventListener("keydown", onKey)
+  })
+
   return (
     <div className="flex flex-col gap-[0.6rem]">
       {
         sortedOptions.map((val, optionIndex) => (
-          <button className={cn("focus:outline-none focus-visible:ring text-left py-3 px-5 text-base sm:text-lg bg-accent rounded-lg cursor-pointer", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? (val.bool ? "bg-[#66BB6A]" : "bg-[#E74C3C]") : "")))} onClick={() => optionClick(questionIndex, optionIndex, val)} key={`${optionIndex}-${val.option}`}>
-            {val.option}
-            <span className={cn("hidden px-5 text-sm", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? "block" : "")))}>
-              {val.explanation}
+          <button className={cn("focus:outline-none focus-visible:ring flex items-start gap-3 text-left py-3 px-5 text-base sm:text-lg bg-accent rounded-lg cursor-pointer", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? (val.bool ? "bg-[#66BB6A]" : "bg-[#E74C3C]") : "")))} onClick={() => optionClick(questionIndex, optionIndex, val)} key={`${optionIndex}-${val.option}`}>
+            <span aria-hidden="true" className="shrink-0 mt-0.5 grid place-items-center size-6 rounded-md bg-background/80 text-xs font-semibold text-muted-foreground">
+              {optionLetter(optionIndex)}
+            </span>
+            <span>
+              {val.option}
+              <span className={cn("hidden px-5 text-sm", clickedOption.map(obj => ((obj.questionIndex == questionIndex && obj.optionIndex.includes(optionIndex)) ? "block" : "")))}>
+                {val.explanation}
+              </span>
             </span>
           </button>
         ))

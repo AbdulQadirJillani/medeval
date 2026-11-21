@@ -14,7 +14,7 @@ import FinishModal from "./FinishModal"
 import { useSwipeable } from "react-swipeable"
 import type { Clicked, Quiz } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
-import { questionStatuses } from "./quizLogic"
+import { isQuizKeyBlocked, questionStatuses } from "./quizLogic"
 
 
 function Format({ data }: { data: Quiz }) {
@@ -88,6 +88,7 @@ function Format({ data }: { data: Quiz }) {
   // useEffect for keyboard navigation
   useEffect(() => {
     function navigate(e: KeyboardEvent) {
+      if (isQuizKeyBlocked(e)) return
       if (e.key === 'ArrowRight') Next()
       else if (e.key === 'ArrowLeft') Back()
     }
