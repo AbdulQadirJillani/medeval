@@ -101,25 +101,41 @@ records which years the question recurred in: `"1st-year/blood/compiled (2023, 2
 ### QA Format Engine (`app/_QAFormat/`)
 
 The shared quiz UI used by both Past Papers and SystemReview. `Format.tsx` is the `"use client"`
-container that receives `data` from a server component page; it composes `Header`, `Question`,
-`HintDifficulty`, `Options`, `Footer`, `ResumeModal` and `FinishModal`. All persistence lives in the
-`useQuizPersistence.ts` hook (four effects), not in `Format.tsx`.
+container that receives `data`, `next?` and `back` (finish-screen links, computed in the server
+page and keyed per paper so "Next paper" remounts a fresh quiz). It composes `Header`,
+`ProgressMap` (colour-coded bar + jump-to-question sheet), `Question`, `HintDifficulty`, `Options`,
+`Footer`, `ResumeModal` and `FinishModal`. All persistence lives in the `useQuizPersistence.ts` hook,
+not in `Format.tsx`. Pure logic (option sort, per-question status, review stepping, key mapping,
+resume point) lives in `quizLogic.ts`.
+
+**One definition of right/wrong:** a question's status comes from the *first* option clicked
+(`questionStatuses`), matching scoring. During a quiz a wrong pick only turns red and the correct
+answer is never revealed (deliberate: students keep guessing). After Finish the paper is read-only
+until Retake; "Review missed" steps through wrong + unanswered questions with the answer shown.
 
 **localStorage keys** (all keyed by `pathname`):
 - `${pathname}-module` — in-progress session (score, resumeIndex, totalQuestions, startDateTime,
-  answers). Debounced 300ms on every state change; removed on finish.
+  answers). Debounced 300ms on answer changes; never written once finished; removed on finish.
+  `resumeIndex` is the question *after the most recently answered one* (`resumeIndexFor`), not the
+  furthest viewed, so peeking ahead via the map doesn't move Resume.
 - `${pathname}-performance` — **an array** of completed attempts, appended once per finish (guarded
   by a `recorded` ref). Reads tolerate the legacy single-object value.
-- `${pathname}-reset` — presence flag that skips session restore (consumed and deleted on load).
+- `${pathname}-reset` — legacy. Nothing sets it any more (it made the *next* load skip restore and
+  wipe progress); restore just deletes stale copies.
 
 Quiz state uses refs for things that must not trigger rerenders (`score`, `lock`, `resumeIndex`,
-`recorded`). Navigation: ArrowLeft/ArrowRight, swipe via `react-swipeable`, and Back/Next/Finish.
+`recorded`). Navigation: ArrowLeft/ArrowRight, A–J / 1–9 to answer, swipe via `react-swipeable`,
+Back/Next/Finish, and the map. Keys are ignored while any `[role="dialog"]` is open
+(`isQuizKeyBlocked`).
 
 `HintDifficulty` renders only when both `hint` and `difficulty` are present — i.e. System Review
 only; Past Papers questions never have these fields.
 
-`Options.tsx` sorts options by **descending string length**, so the longest option always renders
-first. It's deterministic, which is what keeps persisted answer indices valid across a resume.
+Options are sorted by **descending string length** (`sortOptions`), so the longest option always
+renders first. It's deterministic, which is what keeps persisted answer indices valid across a resume.
+
+**Test persistence changes against a production build** (`npm run build && npx next start`): dev
+runs effects twice (React Strict Mode), which masked the `-reset` wipe bug entirely.
 
 ### Performance Dashboard
 
