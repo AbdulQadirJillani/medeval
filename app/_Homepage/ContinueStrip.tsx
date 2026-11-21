@@ -14,7 +14,6 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { paperLabel } from "@/lib/papers"
-import { resumeIndexFor } from "../_QAFormat/quizLogic"
 import { type Session, unfinishedSessions } from "./sessions"
 
 const VISIBLE = 3
@@ -52,7 +51,6 @@ function ContinueStrip({ modules }: { modules: string[] }) {
       <ul className="rounded-xl ring ring-accent divide-y divide-accent">
         {shown.map(s => {
           const label = paperLabel(s.pathname)
-          const at = Math.min(resumeIndexFor(s.answers, s.totalQuestions) + 1, s.totalQuestions)
           return (
             <li key={s.pathname} className="flex items-center">
               <Link href={s.pathname} className="flex flex-1 min-w-0 items-center justify-between gap-3 px-4 sm:px-6 py-3 rounded-xl hover:bg-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand">
@@ -61,7 +59,8 @@ function ContinueStrip({ modules }: { modules: string[] }) {
                     {label}
                   </p>
                   <p className="text-xs sm:text-sm text-muted-foreground">
-                    Q {at} / {s.totalQuestions} · {s.score} of {s.answers.length} right
+                    {/* Counts only: a question number would go stale if the paper is reordered */}
+                    {s.answers.length} of {s.totalQuestions} answered · {s.score} right
                   </p>
                 </div>
                 <ChevronRight className="h-5 w-5 shrink-0 text-muted-foreground" />

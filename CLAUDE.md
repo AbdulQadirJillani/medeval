@@ -139,10 +139,13 @@ until Retake; "Review missed" steps through wrong + unanswered questions with th
 **Bookmarks are matched by content, not id or position.** `questionKey()` (`bookmarks.ts`) hashes
 the normalised stem + sorted option texts (ignoring `bool`), because ids and question order are not
 stable across re-scrapes. `index` is only the position when saved and must not be used to find the
-question. "Open in paper" links are `<path>#k=<key>`; `#q=N` (1-based position) also works, for
-links built from current data. Both are read in the restore effect, land on the question, restore
-progress *without* the Resume popup, then strip the hash. A key with no match opens the paper
-normally. Hash, not query string: `useSearchParams` would force a Suspense boundary onto every
+question. Identical questions (same stem and options; 7 papers have a pair) would share a key, so
+bookmark keys number repeats in paper order: `a`, `a-1` (`occurrenceKeys`). "Open in paper" links
+are `<path>#k=<key>`; `#q=N` (1-based position) also works, for links built from current data. Both
+are read in the restore effect, land on the question, and restore progress *without* the Resume
+popup. Any `#q=`/`#k=` hash is then stripped, matched or not, via `replaceState(null, …)` — a null
+state lets Next sync its stored URL; passing `history.state` skips that. A key with no match opens
+the paper normally. Hash, not query string: `useSearchParams` would force a Suspense boundary onto every
 prerendered quiz page.
 
 Quiz state uses refs for things that must not trigger rerenders (`score`, `lock`, `resumeIndex`,
@@ -180,7 +183,8 @@ with fewer than 20 questions in the pool; the list shows them all.
 `app/page.tsx` renders `_Homepage/ContinueStrip` above the `Hero`. The strip is client-only (renders
 nothing until mounted, so it's absent from prerendered HTML) and lists `/PastPapers/*-module`
 sessions with at least one answer, newest first (`sessions.ts`); its × deletes only that `-module`
-key. `page.tsx` passes the current `MODULE_ORDER` year/module pairs so sessions saved under renamed
+key. Rows show counts ("33 of 81 answered · 22 right"), not a question number: the homepage has no
+paper data, so a stored position would go stale if the paper were reordered. `page.tsx` passes the current `MODULE_ORDER` year/module pairs so sessions saved under renamed
 folders (pre-`-2` 3rd/4th-year names) are hidden; their routes would redirect home. `Hero` is a server component: 1st–5th Year buttons (`id="years"`) and feature cards that link
 to `#years`, `/BookBank`, `/Maps`. Human-readable labels for quiz paths ("2nd Year · Renal 2 ·
 2024") come from `lib/papers.ts`, shared with the Performance module list.

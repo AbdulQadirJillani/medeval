@@ -72,10 +72,15 @@ export function parseQuestionHash(hash: string, total: number, indexOfKey: (key:
     const n = Number(q[1])
     return n >= 1 && n <= total ? n - 1 : null
   }
-  const k = /^#k=([0-9a-z]+)$/.exec(hash)
+  const k = /^#k=([0-9a-z]+(?:-\d+)?)$/.exec(hash)
   if (!k) return null
   const i = indexOfKey(k[1])
   return i === -1 ? null : i
+}
+
+// Any "open at question" link, valid or not, so it can be stripped from the URL
+export function isQuestionHash(hash: string): boolean {
+  return /^#[qk]=/.test(hash)
 }
 
 // In-progress answers saved by content as well as position, so a paper that's

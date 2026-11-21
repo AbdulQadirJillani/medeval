@@ -15,7 +15,7 @@ import { useSwipeable } from "react-swipeable"
 import type { Clicked, Practice, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
 import useBookmarks from "./useBookmarks"
-import { isSaved, questionKey } from "./bookmarks"
+import { isSaved, occurrenceKeys, questionKey } from "./bookmarks"
 import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionStatuses } from "./quizLogic"
 
 
@@ -48,14 +48,21 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
     }
     return k
   }, [data])
+  // Bookmark keys number identical twins ("a", "a-1"), which needs the whole
+  // paper: computed once, on first need (a bookmark here, a toggle, a #k link)
+  const bookmarkKeys = useRef<string[] | null>(null)
+  const bookmarkKeyAt = useCallback((i: number) => {
+    bookmarkKeys.current ??= occurrenceKeys(data.map((_, j) => keyAt(j)))
+    return bookmarkKeys.current[i]
+  }, [data, keyAt])
   const hasHere = !practice && bookmarks.some(b => b.path === pathname)
-  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, key: keyAt(i), index: i }
+  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, key: bookmarkKeyAt(i), index: i }
   const saved = (!!practice || hasHere) && isSaved(bookmarks, refAt(index))
   const savedFlags = useMemo(
     () => data.map((_, i) => (!!practice || hasHere) && isSaved(bookmarks, refAt(i))),
-    [data, hasHere, bookmarks, pathname, practice, keyAt]
+    [data, hasHere, bookmarks, pathname, practice, bookmarkKeyAt]
   )
-  const indexOfKey = useCallback((k: string) => data.findIndex((_, i) => keyAt(i) === k), [data, keyAt])
+  const indexOfKey = useCallback((k: string) => data.findIndex((_, i) => bookmarkKeyAt(i) === k), [data, bookmarkKeyAt])
   // Saved quiz: questions answered right first time that are still bookmarked
   const removableRefs = practice ? practice.refs.filter((r, i) => statuses[i] === "right" && isSaved(bookmarks, r)) : []
   const toggleSave = () => toggle(refAt(index), data[index])
@@ -152,7 +159,8 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
       if (isQuizKeyBlocked(e)) return
       if (e.key === 'ArrowRight') Next()
       else if (e.key === 'ArrowLeft') Back()
-      else if (e.key === 's' || e.key === 'S') toggleSave()
+      // Ignore auto-repeat so holding S doesn't flicker the bookmark on and off
+      else if ((e.key === 's' || e.key === 'S') && !e.repeat) toggleSave()
     }
     document.addEventListener('keydown', navigate)
     return () => document.removeEventListener('keydown', navigate)

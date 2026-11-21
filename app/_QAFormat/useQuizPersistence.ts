@@ -1,5 +1,5 @@
 import { Dispatch, RefObject, SetStateAction, useEffect, useRef } from "react"
-import { answerRecords, parseQuestionHash, questionStatuses, remapAnswers, resumeIndexFor } from "./quizLogic"
+import { answerRecords, isQuestionHash, parseQuestionHash, questionStatuses, remapAnswers, resumeIndexFor } from "./quizLogic"
 import type { Clicked, Quiz } from "./types"
 
 type Options = {
@@ -79,11 +79,16 @@ function useQuizPersistence({
     // after Retake. Nothing sets it now; clear stale copies and restore anyway.
     localStorage.removeItem(`${pathname}-reset`)
     // "Open at question" links (#q=N or #k=<questionKey>) land there and restore silently
-    const jump = parseQuestionHash(window.location.hash, totalQuestions, indexOfKey)
+    const hash = window.location.hash
+    if (isQuestionHash(hash)) {
+      // Stripped even when it doesn't match. A null state makes Next copy its
+      // own state AND update its stored URL; passing history.state would skip
+      // that sync, and a later router update would write the hash back.
+      window.history.replaceState(null, "", window.location.pathname + window.location.search)
+    }
+    const jump = parseQuestionHash(hash, totalQuestions, indexOfKey)
     if (jump !== null) {
       landed.current = true
-      // Keep history.state: the Next router stores its own state there
-      window.history.replaceState(window.history.state, "", window.location.pathname + window.location.search)
       setIndex(jump)
     }
     const stored = localStorage.getItem(`${pathname}-module`)

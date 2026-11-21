@@ -34,6 +34,18 @@ export function questionKey(q: Pick<Question, "question" | "answers">): string {
   return hash53([norm(q.question), ...options].join("\u0000"))
 }
 
+// Identical questions (same stem and options) share a questionKey. Numbering
+// repeats ("a", "a-1", "a-2") keeps twins separate bookmarks; it's stable
+// under reordering because twins are indistinguishable anyway.
+export function occurrenceKeys(baseKeys: string[]): string[] {
+  const seen = new Map<string, number>()
+  return baseKeys.map(k => {
+    const n = seen.get(k) ?? 0
+    seen.set(k, n + 1)
+    return n === 0 ? k : `${k}-${n}`
+  })
+}
+
 function isBookmark(b: unknown): b is Bookmark {
   if (!b || typeof b !== "object") return false
   const o = b as Record<string, unknown>
