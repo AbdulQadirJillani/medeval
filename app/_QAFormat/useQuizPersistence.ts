@@ -1,5 +1,5 @@
-import { Dispatch, RefObject, SetStateAction, useEffect } from "react"
-import { resumeIndexFor } from "./quizLogic"
+import { Dispatch, RefObject, SetStateAction, useEffect, useRef } from "react"
+import { parseQuestionHash, resumeIndexFor } from "./quizLogic"
 
 type Clicked = { questionIndex: number, optionIndex: number[] }[]
 
@@ -13,6 +13,7 @@ type Options = {
   finishModal: boolean
   setClickedOption: Dispatch<SetStateAction<Clicked>>
   setResumeModal: Dispatch<SetStateAction<boolean>>
+  setIndex: Dispatch<SetStateAction<number>>
 }
 
 function useQuizPersistence({
@@ -25,7 +26,12 @@ function useQuizPersistence({
   finishModal,
   setClickedOption,
   setResumeModal,
+  setIndex,
 }: Options) {
+  // Set once a #q=N link has been consumed, so a re-run of the restore effect
+  // (dev Strict Mode; the hash is gone by then) doesn't pop the Resume modal
+  const landed = useRef<boolean>(false)
+
   // Debounced save of in-progress module state
   useEffect(() => {
     const handler = setTimeout(() => {
@@ -61,6 +67,14 @@ function useQuizPersistence({
     // Legacy flag: it made the NEXT load skip restore and wipe progress made
     // after Retake. Nothing sets it now; clear stale copies and restore anyway.
     localStorage.removeItem(`${pathname}-reset`)
+    // "Open at question N" links (#q=N) land on N and restore silently
+    const jump = parseQuestionHash(window.location.hash, totalQuestions)
+    if (jump !== null) {
+      landed.current = true
+      // Keep history.state: the Next router stores its own state there
+      window.history.replaceState(window.history.state, "", window.location.pathname + window.location.search)
+      setIndex(jump)
+    }
     const stored = localStorage.getItem(`${pathname}-module`)
     if (!stored) return
     const obj = JSON.parse(stored)
@@ -71,9 +85,9 @@ function useQuizPersistence({
       resumeIndex.current = at
       score.current = obj.score
       setClickedOption(obj.answers)
-      setResumeModal(true)
+      if (!landed.current) setResumeModal(true)
     }
-  }, [pathname, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal])
+  }, [pathname, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
 
   // Append the completed attempt to performance history once per finish
   useEffect(() => {

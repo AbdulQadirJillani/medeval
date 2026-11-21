@@ -63,6 +63,7 @@ function Format({ data, next, back }: { data: Quiz, next?: QuizLink, back: QuizL
     finishModal,
     setClickedOption,
     setResumeModal,
+    setIndex,
   })
 
   // Back, Next, Finish functions
