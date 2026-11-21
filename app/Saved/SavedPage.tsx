@@ -28,7 +28,8 @@ function SavedList({ modules, systems }: Props) {
     const segs = path.split("/")
     return segs[1] === "PastPapers" ? modules.includes(`${segs[2]}/${segs[3]}`) : systems.includes(segs[2])
   }
-  const where = (b: Bookmark) => b.path.startsWith("/PastPapers/") ? `${labelParts(b.path).at(-1)} · Q${b.index + 1}` : `Q${b.index + 1}`
+  // Only the paper tag: a stored question number goes stale if the paper is reordered
+  const tag = (b: Bookmark) => b.path.startsWith("/PastPapers/") ? labelParts(b.path).at(-1) : undefined
 
   if (bookmarks.length === 0) {
     return <p className="my-11 w-[85%] mx-auto text-muted-foreground">Nothing saved yet. Tap 🔖 on any question, or press S.</p>
@@ -55,7 +56,7 @@ function SavedList({ modules, systems }: Props) {
                   <li key={`${b.path}#${b.key}`} className="flex items-center gap-3 px-4 sm:px-6 py-3">
                     <div className="min-w-0 flex-1">
                       <p className="line-clamp-2 text-sm sm:text-base">{b.question.question}</p>
-                      <p className="text-xs sm:text-sm text-muted-foreground">{where(b)}</p>
+                      {tag(b) && <p className="text-xs sm:text-sm text-muted-foreground">{tag(b)}</p>}
                     </div>
                     {
                       valid(b.path) &&
@@ -64,7 +65,7 @@ function SavedList({ modules, systems }: Props) {
                     <button
                       type="button"
                       onClick={() => remove([b])}
-                      aria-label={`Remove ${where(b)} from saved`}
+                      aria-label={`Remove "${b.question.question.slice(0, 60)}" from saved`}
                       className="p-2 shrink-0 rounded-md text-muted-foreground hover:text-destructive cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
                     >
                       <X className="h-4 w-4" />
