@@ -43,7 +43,10 @@ function isBookmark(b: unknown): b is Bookmark {
     && typeof o.savedAt === "string"
     && !!q && typeof q === "object"
     && typeof q.question === "string"
+    && typeof q.info === "string"
+    // Every option must render and hash: a bad one would throw in the navbar on every page
     && Array.isArray(q.answers)
+    && q.answers.every(a => !!a && typeof a.option === "string" && typeof a.bool === "boolean")
 }
 
 export function parseBookmarks(raw: string | null): Bookmark[] {

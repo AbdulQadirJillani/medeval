@@ -6,7 +6,7 @@ type Clicked = { questionIndex: number, optionIndex: number[] }[]
 type Options = {
   enabled: boolean
   pathname: string
-  keys: string[]
+  indexOfKey: (key: string) => number
   totalQuestions: number
   clickedOption: Clicked
   score: RefObject<number>
@@ -21,7 +21,7 @@ type Options = {
 function useQuizPersistence({
   enabled,
   pathname,
-  keys,
+  indexOfKey,
   totalQuestions,
   clickedOption,
   score,
@@ -74,7 +74,7 @@ function useQuizPersistence({
     // after Retake. Nothing sets it now; clear stale copies and restore anyway.
     localStorage.removeItem(`${pathname}-reset`)
     // "Open at question" links (#q=N or #k=<questionKey>) land there and restore silently
-    const jump = parseQuestionHash(window.location.hash, keys)
+    const jump = parseQuestionHash(window.location.hash, totalQuestions, indexOfKey)
     if (jump !== null) {
       landed.current = true
       // Keep history.state: the Next router stores its own state there
@@ -93,7 +93,7 @@ function useQuizPersistence({
       setClickedOption(obj.answers)
       if (!landed.current) setResumeModal(true)
     }
-  }, [enabled, pathname, keys, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
+  }, [enabled, pathname, indexOfKey, totalQuestions, score, resumeIndex, setClickedOption, setResumeModal, setIndex])
 
   // Append the completed attempt to performance history once per finish
   useEffect(() => {

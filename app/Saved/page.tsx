@@ -1,14 +1,16 @@
 import { Suspense } from "react"
-import { MODULE_ORDER } from "../(PastPapers)/pastPapers"
+import { allRoutes } from "../(PastPapers)/pastPapers"
 import { systems } from "../(SystemReview)/SystemReview/systems"
 import SavedPage from "./SavedPage"
+import { quizPaths } from "@/lib/papers"
 
 export default function Page() {
-  const modules = Object.entries(MODULE_ORDER).flatMap(([year, mods]) => mods.map(m => `${year}/${m}`))
+  // Exact routes, so a paper dropped or renamed in a re-scrape hides its "Open in paper" link
+  const paths = quizPaths(allRoutes(), systems)
   // SavedPage reads ?practise= with useSearchParams, which needs a Suspense boundary
   return (
     <Suspense>
-      <SavedPage modules={modules} systems={systems} />
+      <SavedPage paths={paths} />
     </Suspense>
   )
 }

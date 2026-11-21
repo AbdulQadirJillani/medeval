@@ -11,23 +11,20 @@ import { type Bookmark, buildRun, groupBookmarks } from "../_QAFormat/bookmarks"
 import { moduleKey } from "../(Performance)/moduleStats"
 import { labelParts, paperLabel } from "@/lib/papers"
 
-type Props = { modules: string[], systems: string[] }
+type Props = { paths: string[] }
 
-function SavedPage({ modules, systems }: Props) {
+function SavedPage({ paths }: Props) {
   const scope = useSearchParams().get("practise")
-  return scope ? <SavedQuiz scope={scope} /> : <SavedList modules={modules} systems={systems} />
+  return scope ? <SavedQuiz scope={scope} /> : <SavedList paths={paths} />
 }
 
-function SavedList({ modules, systems }: Props) {
+function SavedList({ paths }: Props) {
   const router = useRouter()
   const { bookmarks, ready, remove } = useBookmarks()
   if (!ready) return null
 
-  // Bookmarks saved under a since-renamed folder still practise, but their paper route would redirect home
-  const valid = (path: string) => {
-    const segs = path.split("/")
-    return segs[1] === "PastPapers" ? modules.includes(`${segs[2]}/${segs[3]}`) : systems.includes(segs[2])
-  }
+  // Bookmarks whose paper no longer exists still practise, but their route would redirect home
+  const valid = new Set(paths)
   // Only the paper tag: a stored question number goes stale if the paper is reordered
   const tag = (b: Bookmark) => b.path.startsWith("/PastPapers/") ? labelParts(b.path).at(-1) : undefined
 
@@ -59,7 +56,7 @@ function SavedList({ modules, systems }: Props) {
                       {tag(b) && <p className="text-xs sm:text-sm text-muted-foreground">{tag(b)}</p>}
                     </div>
                     {
-                      valid(b.path) &&
+                      valid.has(b.path) &&
                       <Link href={`${b.path}#k=${b.key}`} className="shrink-0 text-sm text-brand hover:underline">Open in paper</Link>
                     }
                     <button

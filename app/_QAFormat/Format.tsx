@@ -1,7 +1,7 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 
 import Header from "./Header"
 import ProgressMap from "./ProgressMap"
@@ -37,13 +37,19 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   const statuses = useMemo(() => questionStatuses(data, clickedOption), [data, clickedOption])
   const missed = useMemo(() => missedIndices(statuses), [statuses])
   const { bookmarks, toggle, remove } = useBookmarks()
-  const keys = useMemo(() => data.map(questionKey), [data])
-  const refAt = (i: number): QuestionRef => practice ? practice.refs[i] : { path: pathname, key: keys[i], index: i }
-  const saved = isSaved(bookmarks, refAt(index))
+  // Hashing a 1,200-question paper costs real time on phones, so a paper is
+  // only hashed when it has bookmarks; otherwise just the toggled question is
+  const hasHere = !practice && bookmarks.some(b => b.path === pathname)
+  const keys = useMemo(() => hasHere ? data.map(questionKey) : null, [data, hasHere])
+  const refAt = (i: number): QuestionRef => practice
+    ? practice.refs[i]
+    : { path: pathname, key: keys ? keys[i] : questionKey(data[i]), index: i }
+  const saved = (!!practice || hasHere) && isSaved(bookmarks, refAt(index))
   const savedFlags = useMemo(
-    () => data.map((_, i) => isSaved(bookmarks, refAt(i))),
+    () => data.map((_, i) => (!!practice || keys !== null) && isSaved(bookmarks, refAt(i))),
     [data, keys, bookmarks, pathname, practice]
   )
+  const indexOfKey = useCallback((k: string) => data.findIndex(q => questionKey(q) === k), [data])
   // Saved quiz: questions answered right first time that are still bookmarked
   const removableRefs = practice ? practice.refs.filter((r, i) => statuses[i] === "right" && isSaved(bookmarks, r)) : []
   const toggleSave = () => toggle(refAt(index), data[index])
@@ -59,7 +65,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   useQuizPersistence({
     enabled: !practice,
     pathname,
-    keys,
+    indexOfKey,
     totalQuestions,
     clickedOption,
     score,

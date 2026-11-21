@@ -65,14 +65,15 @@ export function isQuizKeyBlocked(e: KeyboardEvent): boolean {
 // Which question a link opens: "#q=12" by position (0-based 11, when in
 // range) or "#k=<questionKey>" by content, so a bookmark still finds its
 // question after the paper is reordered. No match → null (open normally).
-export function parseQuestionHash(hash: string, keys: string[]): number | null {
+// indexOfKey is only called for #k, so ordinary visits hash nothing.
+export function parseQuestionHash(hash: string, total: number, indexOfKey: (key: string) => number): number | null {
   const q = /^#q=(\d+)$/.exec(hash)
   if (q) {
     const n = Number(q[1])
-    return n >= 1 && n <= keys.length ? n - 1 : null
+    return n >= 1 && n <= total ? n - 1 : null
   }
   const k = /^#k=([0-9a-z]+)$/.exec(hash)
   if (!k) return null
-  const i = keys.indexOf(k[1])
+  const i = indexOfKey(k[1])
   return i === -1 ? null : i
 }

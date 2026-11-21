@@ -13,3 +13,8 @@ export function labelParts(path: string): string[] {
 export function paperLabel(path: string): string {
   return labelParts(path).join(" · ")
 }
+
+// Every quiz pathname that currently exists, from allRoutes() and the systems list
+export function quizPaths(routes: { QA: string[] }[], systems: string[]): string[] {
+  return [...routes.map(r => `/PastPapers/${r.QA.join("/")}`), ...systems.map(s => `/SystemReview/${s}`)]
+}
