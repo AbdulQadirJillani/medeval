@@ -19,7 +19,7 @@ import { type Session, unfinishedSessions } from "./sessions"
 
 const VISIBLE = 3
 
-function ContinueStrip() {
+function ContinueStrip({ modules }: { modules: string[] }) {
   // null until mounted: the server never renders the strip, so new visitors
   // and the prerendered HTML never see it.
   const [sessions, setSessions] = useState<Session[] | null>(null)
@@ -32,8 +32,8 @@ function ContinueStrip() {
       const key = localStorage.key(i)
       if (key) entries.push([key, localStorage.getItem(key)])
     }
-    setSessions(unfinishedSessions(entries))
-  }, [])
+    setSessions(unfinishedSessions(entries, modules))
+  }, [modules])
 
   if (!sessions || sessions.length === 0) return null
 

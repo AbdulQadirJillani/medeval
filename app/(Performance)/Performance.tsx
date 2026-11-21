@@ -120,7 +120,7 @@ function Performance({ data }: { data: PerformanceData }) {
         </Dialog>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
         <StatCard title="Average Accuracy" value={String(summaryData.avgPercent) + '%'} icon={<TrendingUp className="h-4 w-4" />} />
 
         <StatCard title="Total Attempts" value={String(summaryData.modulesAttempted)} icon={<BarChart3 className="h-4 w-4" />} />
@@ -130,7 +130,10 @@ function Performance({ data }: { data: PerformanceData }) {
           value={weakest ? `${weakestParts.at(-1)} ${Math.round(weakest.percent)}%` : "—"}
           subtitle={weakest ? weakestParts.slice(0, -1).join(" · ") : undefined}
           icon={<TrendingDown className="h-4 w-4" />}
-          className="col-span-2 sm:col-span-1"
+          // Module names run to "Otorhinolaryngology", which can't fit a third-width
+          // card at the default value size without breaking mid-word.
+          className="col-span-2 lg:col-span-1"
+          valueClassName="lg:text-xl xl:text-2xl"
         />
       </div>
 

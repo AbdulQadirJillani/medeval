@@ -10,10 +10,15 @@ export type Session = {
 
 // In-progress Past Papers sessions, newest first. Opening a paper writes a
 // "-module" key even before any answer, so only sessions with answers count.
-export function unfinishedSessions(entries: [string, string | null][]): Session[] {
+// `modules` lists current "<year>/<module>" folders: sessions saved under a
+// since-renamed folder (e.g. 3rd-year "renal" → "renal-2") would link to a
+// route that redirects home, so they're hidden (not deleted).
+export function unfinishedSessions(entries: [string, string | null][], modules: string[]): Session[] {
+  const valid = new Set(modules)
   const out: Session[] = []
   for (const [key, value] of entries) {
     if (!key.startsWith("/PastPapers/") || !key.endsWith("-module") || !value) continue
+    if (!valid.has(key.split("/").slice(2, 4).join("/"))) continue
     let obj
     try {
       obj = JSON.parse(value)

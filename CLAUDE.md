@@ -160,7 +160,8 @@ with fewer than 20 questions in the pool; the list shows them all.
 `app/page.tsx` renders `_Homepage/ContinueStrip` above the `Hero`. The strip is client-only (renders
 nothing until mounted, so it's absent from prerendered HTML) and lists `/PastPapers/*-module`
 sessions with at least one answer, newest first (`sessions.ts`); its × deletes only that `-module`
-key. `Hero` is a server component: 1st–5th Year buttons (`id="years"`) and feature cards that link
+key. `page.tsx` passes the current `MODULE_ORDER` year/module pairs so sessions saved under renamed
+folders (pre-`-2` 3rd/4th-year names) are hidden; their routes would redirect home. `Hero` is a server component: 1st–5th Year buttons (`id="years"`) and feature cards that link
 to `#years`, `/BookBank`, `/Maps`. Human-readable labels for quiz paths ("2nd Year · Renal 2 ·
 2024") come from `lib/papers.ts`, shared with the Performance module list.
 

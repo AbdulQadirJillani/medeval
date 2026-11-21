@@ -1,9 +1,11 @@
+import { MODULE_ORDER } from "./(PastPapers)/pastPapers";
 import ContinueStrip from "./_Homepage/ContinueStrip";
 import Footer from "./_Homepage/Footer";
 import Hero from "./_Homepage/Hero";
 import Section from "./_Homepage/Section";
 
 export default function Home() {
+  const modules = Object.entries(MODULE_ORDER).flatMap(([year, mods]) => mods.map(m => `${year}/${m}`))
   const headingP = 'Past Papers'
   const listP = [
     "Access exams from all years and all modules",
@@ -36,7 +38,7 @@ export default function Home() {
 
   return (
     <>
-      <ContinueStrip />
+      <ContinueStrip modules={modules} />
       <Hero />
       <Section heading={headingP} list={listP} pics={picsP} index={indexP} />
       <Section heading={headingB} list={listB} pics={picsB} index={indexB} />
