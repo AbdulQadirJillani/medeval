@@ -11,6 +11,7 @@ import Options from "./Options"
 import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
+import FinishConfirm from "./FinishConfirm"
 import { useSwipeable } from "react-swipeable"
 import type { Clicked, Practice, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
@@ -29,6 +30,9 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   const resumeIndex = useRef<number>(0)
   const [resumeModal, setResumeModal] = useState<boolean>(false)
   const [finishModal, setFinishModal] = useState<boolean>(false)
+  const [confirmFinish, setConfirmFinish] = useState<boolean>(false)
+  // Frozen when the confirm opens, so its text can't change while it animates closed
+  const [unansweredAt, setUnansweredAt] = useState({ count: 0, first: 0 })
   const score = useRef<number>(0)
   const lock = useRef<boolean>(false)
   const recorded = useRef<boolean>(false)
@@ -134,6 +138,16 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
     setFinishModal(true)
   }
 
+  // Finishing records the attempt and locks the paper, so ask first if anything
+  // is unanswered. Only before the first finish: Finish review and the
+  // read-only tap afterwards go straight to the results.
+  const requestFinish = () => {
+    const first = statuses.indexOf("unanswered")
+    if (recorded.current || first === -1) return Finish()
+    setUnansweredAt({ count: statuses.filter(s => s === "unanswered").length, first })
+    setConfirmFinish(true)
+  }
+
   const startReview = () => {
     if (missed.length === 0) return
     setReview(missed)
@@ -198,10 +212,17 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
           canBack={review ? prevStop !== undefined : index > 0}
           isLast={review ? nextStop === undefined : index + 1 >= totalQuestions}
           finishLabel={review ? "Finish review" : "Finish"}
-          Back={Back} Next={Next} Finish={Finish}
+          Back={Back} Next={Next} Finish={requestFinish}
         />
 
       </div>
+
+      <FinishConfirm
+        open={confirmFinish} onOpenChange={setConfirmFinish}
+        unanswered={unansweredAt.count} firstUnanswered={unansweredAt.first}
+        onGoTo={() => { setConfirmFinish(false); jump(unansweredAt.first) }}
+        onFinish={() => { setConfirmFinish(false); Finish() }}
+      />
 
       <ResumeModal pathname={pathname} answered={clickedOption.length} resumeModal={resumeModal} setResumeModal={setResumeModal} resumeIndex={resumeIndex} score={score} setClickedOption={setClickedOption} setIndex={setIndex} />
 

@@ -112,14 +112,16 @@ page and keyed per paper so "Next paper" remounts a fresh quiz), and `practice?`
 (per-question sources + finish actions; turns all persistence off — no `-module`, no Resume, no
 `-performance`). It composes `Header`,
 `ProgressMap` (colour-coded bar + jump-to-question sheet), `Question`, `HintDifficulty`, `Options`,
-`Footer`, `ResumeModal` and `FinishModal`. All persistence lives in the `useQuizPersistence.ts` hook,
+`Footer`, `ResumeModal`, `FinishConfirm` and `FinishModal`. All persistence lives in the `useQuizPersistence.ts` hook,
 not in `Format.tsx`. Pure logic (option sort, per-question status, review stepping, key mapping,
 resume point) lives in `quizLogic.ts`.
 
 **One definition of right/wrong:** a question's status comes from the *first* option clicked
 (`questionStatuses`), matching scoring. During a quiz a wrong pick only turns red and the correct
-answer is never revealed (deliberate: students keep guessing). After Finish the paper is read-only
-until Retake; "Review missed" steps through wrong + unanswered questions with the answer shown.
+answer is never revealed (deliberate: students keep guessing). Finish with any question unanswered
+first asks (`FinishConfirm`: "Go to question N" / "Finish anyway"), only before the first finish.
+After Finish the paper is read-only until Retake; "Review missed" steps through wrong + unanswered
+questions with the answer shown.
 
 **localStorage keys** (all keyed by `pathname`):
 - `${pathname}-module` — in-progress session (score, resumeIndex, totalQuestions, startDateTime,
