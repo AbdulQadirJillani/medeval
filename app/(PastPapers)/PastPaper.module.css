@@ -108,6 +108,16 @@
     background-image: url('../_assets/images-transparent/eye-transparent.png');
 }
 
-/* 5th-year medicine-1/-2, surgery-1/-2 and pediatrics have no matching asset
-   in _assets/images-transparent yet — they render with the gradient frame and
-   no background image until artwork is added. */
+.medicine-1,
+.medicine-2 {
+    background-image: url('../_assets/images-transparent/medicine-transparent.png');
+}
+
+.surgery-1,
+.surgery-2 {
+    background-image: url('../_assets/images-transparent/surgery-transparent.png');
+}
+
+.pediatrics {
+    background-image: url('../_assets/images-transparent/pediatrics-transparent.png');
+}

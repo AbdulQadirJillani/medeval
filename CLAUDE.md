@@ -183,8 +183,8 @@ and option text unique within a question.
 - **Tile artwork is keyed by module name.** `PastPaper.tsx` does `styles[m]` against
   `PastPaper.module.css`, so each module folder needs a matching class there or it renders with the
   gradient frame and no background image. Hyphenated and digit-suffixed keys (`foundation-2`) work
-  fine as CSS-module class names. Currently missing artwork: 5th-year `medicine-1/-2`,
-  `surgery-1/-2`, `pediatrics` — `_assets/images-transparent/` has no suitable asset for them.
+  fine as CSS-module class names. The PNGs are cropped tight to the drawing and faded to ~50% alpha;
+  `contain` scales them to the tile, so padding in the canvas makes the art render smaller.
 - **`PastPaper.tsx` splits module names on `_`**, but the data uses `-`, so `head-and-neck` renders
   literally as "head-and-neck" rather than "Head & Neck".
 - **`public/` shadows app route handlers.** A static `public/robots.txt` silently overrode
