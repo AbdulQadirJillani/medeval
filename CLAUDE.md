@@ -22,8 +22,8 @@ questions, hospital maps, and a performance tracker. It has **no backend, no aut
 All data lives in `Database/` and all user state lives in `localStorage`. Deployed to Vercel at
 `med-eval.vercel.app`.
 
-Scale: ~47.7k past-paper questions across 300 JSON files (5 years), ~4.9k System Review questions
-across 17 JSX files (~20 MB), 90 books. A full build prerenders ~349 pages.
+Scale: ~59.3k past-paper questions across 364 JSON files (5 years), ~4.9k System Review questions
+across 17 JSX files (~20 MB), 90 books. A full build prerenders ~413 pages.
 
 ### Route Structure
 
@@ -169,7 +169,7 @@ once in the markup and once in the inlined RSC flight payload — so count `clas
 raw substrings.
 
 For a full runtime sweep, `npx next start` and curl every route from `allRoutes()` plus the subject
-and system lists (347 routes, all expected 200). Data-side invariants worth re-checking after any
+and system lists (411 routes, all expected 200). Data-side invariants worth re-checking after any
 `Database/` edit: every file parses and is a non-empty array, exactly one `bool: true` per question,
 and option text unique within a question.
 
@@ -177,7 +177,9 @@ and option text unique within a question.
 
 - **`MODULE_ORDER` vs. folder names** — see above. `Database/` has been restructured independently
   of the code before (folders renamed to `-2`/`hematology`, a whole 5th year added), silently
-  breaking the build at `generateStaticParams`.
+  breaking the build at `generateStaticParams`. The data must stay at `Database/PastPapers/`: a
+  replacement folder once landed at the repo root instead, and because `yearsFor` swallows ENOENT the
+  build still *passed* — with every year page empty and zero quiz routes. Check the route count.
 - **Tile artwork is keyed by module name.** `PastPaper.tsx` does `styles[m]` against
   `PastPaper.module.css`, so each module folder needs a matching class there or it renders with the
   gradient frame and no background image. Hyphenated and digit-suffixed keys (`foundation-2`) work
@@ -192,9 +194,11 @@ and option text unique within a question.
   `alreadyAnswered` from `clickedOption`; `lock` is only a synchronous latch against two clicks in
   one render, and `Back`/`Next` just clear it. Don't go back to direction-based locking — setting
   `lock = true` in `Back` made questions the student *skipped* unscoreable on return.
-- **Known data defects** (content fixes need domain knowledge, so they're unresolved): 18 questions
-  carry the same option text twice, 4 have an empty-string option, and
-  `5th-year/gynecology` 2013 id=60 has zero correct answers so it can never be scored. Each also
+- **Known data defects** (content fixes need domain knowledge, so they're unresolved): 24 questions
+  carry the same option text twice, 4 have an empty-string option,
+  `5th-year/gynecology` 2013 id=60 has zero correct answers so it can never be scored, and
+  `1st-year/respiratory` 2025 id=6 has 10 near-duplicate options ("…of T6…" / "…of the T6…") with
+  two marked correct. Each also
   appears in that module's `-compiled.json`. Option text must stay unique per question and exactly
   one answer needs `bool: true`.
 - **System Review is built but hidden** — its nav link is commented out in `_NavBar/Menu.tsx`, yet
