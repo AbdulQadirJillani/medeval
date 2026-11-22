@@ -16,7 +16,8 @@ const NavBar = () => {
           <SideBar open={open} setOpen={setOpen} toggle={toggle} setToggle={setToggle} />
           <Logo />
         </div>
-        <Menu className="hidden lg:flex md:gap-5 md:items-center" setOpen={setOpen} />
+        {/* Six links only fit at lg (1024px) with tighter spacing; full spacing from xl */}
+        <Menu className="hidden lg:flex lg:gap-1 xl:gap-5 md:items-center" setOpen={setOpen} />
         <div className="hidden md:flex gap-3 text-lg items-center">
           <Toggle toggle={toggle} setToggle={setToggle} />
         </div>

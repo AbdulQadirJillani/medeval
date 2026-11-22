@@ -43,11 +43,12 @@ organizational — they don't affect URLs. Folders prefixed with `_` (`_NavBar`,
 | `/Maps` | `Maps/` | Interactive hospital map |
 | `/Performance` | `(Performance)` | Quiz history dashboard |
 | `/Saved` | `Saved/` | Bookmarked questions; `?practise=all\|<module key>` runs them as a quiz |
+| `/Sync` | `Sync/` | Back up all stored progress to a file and restore it on another device |
 
 Every `loading.tsx` is a one-liner: `export { default } from '@/app/_components/RouteLoader'`.
 Also present: `app/robots.ts`, `app/sitemap.ts` (enumerates all quiz and book routes from the
-same source lists; `/Saved` is deliberately left out — it's per-browser — and so is System Review
-while it's hidden), `app/not-found.tsx`.
+same source lists; `/Saved` and `/Sync` are deliberately left out — they're per-browser — and so
+is System Review while it's hidden), `app/not-found.tsx`.
 
 Every route except the homepage sets its own title and description through `pageMetadata()`
 (`lib/metadata.ts`). The layout's title template adds " | MedEval". Quiz and book pages count their
@@ -155,6 +156,14 @@ questions with the answer shown.
   with a **full copy** of each question, so `/Saved` needs no data loading (a later `Database/` fix
   doesn't reach old saves). Changes broadcast a `bookmarks-change` window event; `useBookmarks`
   also listens to `storage` for other tabs.
+- `removals` (not per-pathname) — what the student deliberately removed, so restoring another
+  device's backup doesn't bring it back (`lib/removals.ts`). Recorded at four sites:
+  - `useBookmarks` `write`: a bookmark that's gone from the new list.
+  - The Continue strip ×: a discarded session.
+  - The `useQuizPersistence` finish effect: a finished session.
+  - "Clear all attempts": one entry per attempt.
+
+  Never pruned, because pruning would let an old backup restore removed items.
 
 **Bookmarks are matched by content, not id or position.** `questionKey()` (`bookmarks.ts`) hashes
 the normalised stem + sorted option texts (ignoring `bool`), because ids and question order are not
@@ -191,6 +200,25 @@ renders first. It's deterministic, which is what keeps persisted answer indices 
 
 **Test persistence changes against a production build** (`npm run build && npx next start`): dev
 runs effects twice (React Strict Mode), which masked the `-reset` wipe bug entirely.
+
+### Sync (`app/Sync/`)
+
+`/Sync` downloads (or, on phones, shares) `medeval-backup-YYYY-MM-DD.json`. It holds
+`{ app: "medeval", version: 1, exportedAt, sessions, attempts, bookmarks, removals }`: every
+`-module` and `-performance` key under `/PastPapers/` or `/SystemReview/`, plus `bookmarks` and
+`removals`. `theme` and `-reset` aren't included.
+
+Restore merges the file into this device and never replaces it. All of the logic is pure functions
+in `sync.ts`:
+- **Sessions:** an empty session never wins (opening a paper writes one), and otherwise the newer
+  session wins whole.
+- **Bookmarks and attempts:** combined.
+- **Removals.** Sessions (identified by path + `startDateTime`, which every copy of a session
+  keeps) and attempts are removed by **exact identity, never by a cutoff time**. A cutoff would
+  delete the other device's own older items. Only bookmarks compare times: a removal beats an
+  older `savedAt`, but re-saving later wins.
+
+Files are validated with the same guards the readers use, and only quiz-path keys can be written.
 
 ### Performance Dashboard
 
@@ -263,6 +291,8 @@ and option text unique within a question.
 
 ## Gotchas
 
+- **Deleting stored data must call `recordRemovals`** (`lib/removals.ts`). Otherwise the next
+  restore from another device quietly brings the deleted item back.
 - **`MODULE_ORDER` vs. folder names** — see above. `Database/` has been restructured independently
   of the code before (folders renamed to `-2`/`hematology`, a whole 5th year added), silently
   breaking the build at `generateStaticParams`. The data must stay at `Database/PastPapers/`: a

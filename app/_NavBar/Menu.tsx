@@ -22,23 +22,23 @@ const Menu = ({ className, setOpen }: Props) => {
   return (
     <div className={className}>
 
-      <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/BookBank" onClick={close}>
+      <Link className="px-4 lg:px-2 xl:px-4 py-1 text-lg whitespace-nowrap rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/BookBank" onClick={close}>
         Book Bank
       </Link>
 
-      <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Maps" onClick={close}>
+      <Link className="px-4 lg:px-2 xl:px-4 py-1 text-lg whitespace-nowrap rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Maps" onClick={close}>
         Maps
       </Link>
 
-      {/* <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/SystemReview" onClick={close}>
+      {/* <Link className="px-4 lg:px-2 xl:px-4 py-1 text-lg whitespace-nowrap rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/SystemReview" onClick={close}>
         System Review
       </Link> */}
 
-      <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Performance" onClick={close}>
+      <Link className="px-4 lg:px-2 xl:px-4 py-1 text-lg whitespace-nowrap rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Performance" onClick={close}>
         Performance
       </Link>
 
-      <Link className="px-4 py-1 text-lg rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Saved" onClick={close}>
+      <Link className="px-4 lg:px-2 xl:px-4 py-1 text-lg whitespace-nowrap rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Saved" onClick={close}>
         Saved
         {
           bookmarks.length > 0 &&
@@ -47,6 +47,10 @@ const Menu = ({ className, setOpen }: Props) => {
             <span className="sr-only"> saved</span>
           </span>
         }
+      </Link>
+
+      <Link className="px-4 lg:px-2 xl:px-4 py-1 text-lg whitespace-nowrap rounded-md hover:bg-input lg:focus:bg-input lg:focus:outline-none" href="/Sync" onClick={close}>
+        Sync
       </Link>
 
       <NavigationMenu>
