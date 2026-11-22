@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import NavBar from "./_NavBar/NavBar";
+import ExplainKeyCapture from "./_components/ExplainKeyCapture";
 import { baseOpenGraph } from "@/lib/metadata";
 import "./globals.css";
 
@@ -84,6 +85,7 @@ function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
           }}
         />
         <NavBar />
+        <ExplainKeyCapture />
         {children}
       </body>
     </html>
