@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next"
 import { allRoutes, MODULE_ORDER } from "@/app/(PastPapers)/pastPapers"
 import { subjects } from "@/app/(BookBank)/BookBank/subjects"
-import { systems } from "@/app/(SystemReview)/SystemReview/systems"
 
 const SITE = "https://med-eval.vercel.app"
 
@@ -13,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/BookBank`, lastModified },
     { url: `${SITE}/Maps`, lastModified },
     { url: `${SITE}/Performance`, lastModified },
-    { url: `${SITE}/SystemReview`, lastModified },
   ]
 
   const yearOverviewRoutes: MetadataRoute.Sitemap = Object.keys(MODULE_ORDER).map(year => ({
@@ -31,10 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified,
   }))
 
-  const systemRoutes: MetadataRoute.Sitemap = systems.map(s => ({
-    url: `${SITE}/SystemReview/${s}`,
-    lastModified,
-  }))
-
-  return [...staticRoutes, ...yearOverviewRoutes, ...quizRoutes, ...bookRoutes, ...systemRoutes]
+  // System Review is left out while its nav link is hidden; add /SystemReview
+  // and its systems back here when it launches.
+  return [...staticRoutes, ...yearOverviewRoutes, ...quizRoutes, ...bookRoutes]
 }
