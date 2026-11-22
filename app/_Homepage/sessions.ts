@@ -6,6 +6,7 @@ export type Session = {
   totalQuestions: number
   answers: Clicked
   updated: number
+  started: string
 }
 
 // In-progress Past Papers sessions, newest first. Opening a paper writes a
@@ -34,6 +35,8 @@ export function unfinishedSessions(entries: [string, string | null][], modules: 
       totalQuestions: obj.totalQuestions,
       answers: obj.answers,
       updated: Number.isNaN(updated) ? 0 : updated,
+      // Identifies the session on every device it's synced to (see lib/removals.ts)
+      started: String(obj.startDateTime ?? ""),
     })
   }
   return out.sort((a, b) => b.updated - a.updated)

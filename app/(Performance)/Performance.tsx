@@ -8,6 +8,7 @@ import Graph from "./Graph";
 import ModuleList from "./ModuleList";
 import { moduleStats, weakestModule } from "./moduleStats";
 import { labelParts } from "@/lib/papers";
+import { attemptId, recordRemovals } from "@/lib/removals";
 import { useState } from "react";
 import { type PerformanceData } from "./types";
 import { Button } from "@/components/ui/button";
@@ -68,6 +69,10 @@ function Performance({ data }: { data: PerformanceData }) {
       const k = localStorage.key(i)
       if (k?.endsWith("-performance")) localStorage.removeItem(k)
     }
+    // Each attempt by identity, so a restore removes these copies but keeps
+    // attempts that only another device has
+    const at = new Date().toISOString()
+    recordRemovals(allData.map(e => ({ kind: "attempt", id: attemptId(e), at })))
     setAllData([])
     setPerfList([])
     setActiveTab(0)
@@ -105,7 +110,7 @@ function Performance({ data }: { data: PerformanceData }) {
             <DialogHeader>
               <DialogTitle>Clear all attempts?</DialogTitle>
               <DialogDescription>
-                This will permanently delete every recorded attempt from your browser. This action cannot be undone.
+                This permanently deletes every attempt recorded in this browser. If you sync with another device, these attempts are removed there too, but attempts made only on that device are kept. This can&apos;t be undone.
               </DialogDescription>
             </DialogHeader>
             <DialogFooter className="gap-2">

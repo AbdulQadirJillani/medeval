@@ -1,6 +1,7 @@
 import { Dispatch, RefObject, SetStateAction, useEffect, useRef } from "react"
 import { answerRecords, isQuestionHash, parseQuestionHash, questionStatuses, remapAnswers, resumeIndexFor } from "./quizLogic"
 import type { Clicked, Quiz } from "./types"
+import { recordRemovals } from "@/lib/removals"
 
 type Options = {
   enabled: boolean
@@ -173,9 +174,13 @@ function useQuizPersistence({
     localStorage.setItem(key, JSON.stringify([...arr, entry]))
   }, [enabled, finishModal, pathname, totalQuestions, score, recorded])
 
-  // Clear in-progress module state once finished
+  // Clear in-progress module state once finished, remembering which session it
+  // was so a backup from another device doesn't restore it as unfinished
   useEffect(() => {
-    if (enabled && finishModal) localStorage.removeItem(`${pathname}-module`)
+    if (!enabled || !finishModal) return
+    const obj = readSession(`${pathname}-module`)
+    localStorage.removeItem(`${pathname}-module`)
+    if (obj) recordRemovals([{ kind: "session", path: pathname, started: String(obj.startDateTime ?? ""), at: new Date().toISOString() }])
   }, [enabled, pathname, finishModal])
 }
 

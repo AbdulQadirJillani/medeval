@@ -14,6 +14,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { paperLabel } from "@/lib/papers"
+import { recordRemovals } from "@/lib/removals"
 import { type Session, unfinishedSessions } from "./sessions"
 
 const VISIBLE = 3
@@ -41,6 +42,7 @@ function ContinueStrip({ modules }: { modules: string[] }) {
   const discard = () => {
     if (!pending) return
     localStorage.removeItem(`${pending.pathname}-module`)
+    recordRemovals([{ kind: "session", path: pending.pathname, started: pending.started, at: new Date().toISOString() }])
     setSessions(sessions.filter(s => s.pathname !== pending.pathname))
     setConfirmOpen(false)
   }
