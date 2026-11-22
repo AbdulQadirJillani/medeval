@@ -7,9 +7,19 @@ const Question = ({ question }: { question: string }) => {
   const [marked, setMarked] = useState<ReadonlySet<number>>(new Set())
   const words = useMemo(() => stemWords(question), [question])
 
-  const toggle = (e: MouseEvent, i: number) => {
-    // The second click of a double-click is native word selection, not an undo
-    if (e.detail > 1) return
+  // One handler on the <p>, not one per word: a click handler on every word
+  // makes screen readers treat each word as a separate clickable item
+  const toggle = (e: MouseEvent<HTMLParagraphElement>) => {
+    // A double-click or drag is selecting text, not highlighting
+    if (window.getSelection()?.isCollapsed === false) return
+    const wordOf = (n: Node | null | undefined) =>
+      (n instanceof Element ? n : n?.parentElement)?.closest<HTMLElement>("[data-i]")
+    // A tap that lands between lines misses every word: take the nearest character
+    const w = wordOf(e.target as Node)
+      ?? wordOf(document.caretPositionFromPoint?.(e.clientX, e.clientY)?.offsetNode
+        ?? document.caretRangeFromPoint?.(e.clientX, e.clientY)?.startContainer)
+    if (!w || !e.currentTarget.contains(w)) return
+    const i = Number(w.dataset.i)
     setMarked(prev => {
       const next = new Set(prev)
       if (!next.delete(i)) next.add(i)
@@ -18,11 +28,12 @@ const Question = ({ question }: { question: string }) => {
   }
 
   const word = (i: number) => (
-    <span key={i} className="cursor-pointer" onClick={e => toggle(e, i)}>{words[i]}</span>
+    <span key={i} data-i={i} className="cursor-pointer">{words[i]}</span>
   )
 
   return (
-    <p className="text-lg sm:text-xl leading-relaxed my-6 text-pretty">
+    // No tap flash: on a single handler it would cover the whole paragraph
+    <p className="text-lg sm:text-xl leading-relaxed my-6 text-pretty [-webkit-tap-highlight-color:transparent]" onClick={toggle}>
       {markRuns(words.length, marked).map((run, r) => {
         // Spaces inside a run, so a highlighted phrase is one unbroken band
         const content: ReactNode[] = []

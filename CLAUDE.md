@@ -172,7 +172,10 @@ Stem words are tappable highlights (tap again clears that word; adjacent ones jo
 `<mark>` band via `stemWords`/`markRuns` in `quizLogic.ts`). They live only in `Question`'s local
 state, are never persisted, and clear on every move: `Format` keys `<Question>` by
 `` `${index}-${visit}` ``, and `visit` bumps in Retake and Review, which can land on the index
-already shown. A click with `detail > 1` is ignored so a double-click doesn't undo itself.
+already shown. One click handler on the `<p>` finds the word by `data-i` (a handler per word made
+each word a separate clickable node for screen readers), falling back to the nearest character for
+taps between lines. Clicks are ignored while text is selected, so a double-click or drag-select
+doesn't toggle; don't go back to `detail > 1`, which also dropped quick taps on phones.
 
 Options are sorted by **descending string length** (`sortOptions`), so the longest option always
 renders first. It's deterministic, which is what keeps persisted answer indices valid across a resume.
