@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MedEval
 
-## Getting Started
+A free study hub for MBBS students: past papers as interactive quizzes, a book bank, a hospital
+map and a performance tracker. Live at [med-eval.vercel.app](https://med-eval.vercel.app).
 
-First, run the development server:
+Built with Next.js 16, React 19 and Tailwind CSS 4. There is no backend, database server or login:
+all content is static files in `Database/`, prerendered at build time, and each student's progress,
+bookmarks and attempt history stay in their own browser's `localStorage`.
+
+## Running it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # production build; also the type check
+npm run start   # serve the production build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+There is no test suite. `npm run build` prerenders every page (~410), so a passing build means
+every paper and book list loaded.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Folder | Holds |
+|---|---|
+| `Database/PastPapers/<year>/<module>/` | One JSON file per paper, named `<module>-<YYYY>.json` or `<module>-compiled.json` |
+| `Database/BookBank/<subject>.json` | Book entries; downloads are Google Drive file IDs, covers live in `public/covers/` |
+| `Database/SystemReview/<system>.jsx` | System Review questions (built, but hidden from the menu) |
 
-## Learn More
+Module folders must match the names in `MODULE_ORDER` (`app/(PastPapers)/modules.ts`) exactly.
+Adding a module or year needs a code change there too; see `CLAUDE.md` for the steps and the data
+shapes.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploying
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hosted on Vercel. `public/robots.txt` and `public/sitemap.xml` must not exist: they would shadow
+`app/robots.ts` and `app/sitemap.ts`.

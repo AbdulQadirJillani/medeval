@@ -8,12 +8,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm run dev      # Start development server at localhost:3000
 npm run build    # Production build — also the only type-check gate ("Running TypeScript ...")
 npm run start    # Serve production build
+npm run lint     # eslint . (native flat config from eslint-config-next; Database/ is ignored)
 ```
 
-There are no tests in this project. **`npm run lint` is broken** — `next lint` was removed in
-Next.js 16, so the script resolves to `next <dir>` and errors. `npx eslint .` also fails
-(FlatCompat circular-structure bug with ESLint 9.33 + `eslint.config.mjs`). Verify changes with
-`npm run build`, then inspect prerendered HTML under `.next/server/app/` (see Verifying, below).
+There are no tests in this project. Lint is not clean: it reports 16 errors and 2 warnings that
+predate the lint fix (`react-hooks` v7 rules flagging refs passed as hook arguments and setState
+in mount effects), so compare counts rather than expecting a zero exit. Verify changes with `npm run build`, then inspect prerendered HTML under
+`.next/server/app/` (see Verifying, below).
 
 ## Architecture Overview
 
@@ -44,8 +45,9 @@ organizational — they don't affect URLs. Folders prefixed with `_` (`_NavBar`,
 | `/Saved` | `Saved/` | Bookmarked questions; `?practise=all\|<module key>` runs them as a quiz |
 
 Every `loading.tsx` is a one-liner: `export { default } from '@/app/_components/RouteLoader'`.
-Also present: `app/robots.ts`, `app/sitemap.ts` (enumerates all quiz/book/system routes from the
-same source lists; `/Saved` is deliberately left out — it's per-browser), `app/not-found.tsx`.
+Also present: `app/robots.ts`, `app/sitemap.ts` (enumerates all quiz and book routes from the
+same source lists; `/Saved` is deliberately left out — it's per-browser — and so is System Review
+while it's hidden), `app/not-found.tsx`.
 
 ### Past Papers routing (`app/(PastPapers)/pastPapers.ts`)
 
@@ -228,9 +230,9 @@ animated red `<path>` and fits it to the viewBox.
 
 ### UI Components
 
-shadcn/ui components are in `components/ui/` (button, card, carousel, chart, dialog,
-navigation-menu, select, separator, sheet, switch); `chart.tsx` and `carousel.tsx` are unused
-scaffolding — the app uses recharts and embla directly. `switch.tsx` is customized to render the
+shadcn/ui components are in `components/ui/` (button, card, dialog, navigation-menu, select,
+separator, sheet, switch). There's no shadcn chart or carousel: the app uses recharts and embla
+directly. `switch.tsx` is customized to render the
 local `_NavBar/Sun`/`Moon` icons. `button.tsx` adds a `brand` variant used throughout.
 `lib/utils.ts` exports the `cn` helper. Tailwind CSS v4 with `tw-animate-css`.
 
@@ -282,8 +284,5 @@ and option text unique within a question.
   the first). Each also appears in that module's `-compiled.json` (medicine-2's is id=604). Option
   text must stay unique per question (ignoring case and spacing) and exactly one answer needs
   `bool: true`.
-- **System Review is built but hidden** — its nav link is commented out in `_NavBar/Menu.tsx`, yet
-  the routes prerender and `sitemap.ts` still publishes all 17 systems.
-- `globals.css` carries ~180 lines of `#legacy` styles that nothing uses — no `id="legacy"` exists
-  in `app/` or `Database/`.
-- `README.md` is still the untouched create-next-app default.
+- **System Review is built but hidden** — its nav link is commented out in `_NavBar/Menu.tsx` and
+  it's left out of `sitemap.ts`, yet the routes still prerender. Launching it means restoring both.
