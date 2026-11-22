@@ -190,11 +190,11 @@
     "question": "A 70-year-old woman presents to the clinic with the complaint of postmenopausal vaginal bleeding. What is the most likely cause of her condition?",
     "answers": [
       {
-        "option": "Endometrial hyperplasia",
-        "bool": false
+        "option": "Atrophic vaginitis",
+        "bool": true
       },
       {
-        "option": "Cervicitis",
+        "option": "Endometrial hyperplasia",
         "bool": false
       },
       {
@@ -206,8 +206,8 @@
         "bool": false
       },
       {
-        "option": "Atrophic vaginitis",
-        "bool": true
+        "option": "Cervicitis",
+        "bool": false
       }
     ]
   },
@@ -541,11 +541,15 @@
     "question": "Which of the following is a common manifestation of vasomotor symptoms in menopausal women?",
     "answers": [
       {
+        "option": "Abdominal pain",
+        "bool": false
+      },
+      {
         "option": "Headache",
         "bool": false
       },
       {
-        "option": "None of these",
+        "option": "Vaginal discharge",
         "bool": false
       },
       {
@@ -553,11 +557,7 @@
         "bool": true
       },
       {
-        "option": "Abdominal pain",
-        "bool": false
-      },
-      {
-        "option": "Vaginal discharge",
+        "option": "None of these",
         "bool": false
       }
     ]
@@ -676,11 +676,7 @@
     "question": "A 25-year-old woman presented to the clinic with complaints of amenorrhea and mild vaginal bleeding for two months. A transvaginal ultrasonography revealed a molar pregnancy, which was surgically removed by dilatation and curettage. What would be the most appropriate next step in the management of this patient?",
     "answers": [
       {
-        "option": "Transvaginal ultrasound (TVS) examination",
-        "bool": false
-      },
-      {
-        "option": "Clinical examination every 6 months",
+        "option": "X-ray pelvis",
         "bool": false
       },
       {
@@ -688,11 +684,15 @@
         "bool": true
       },
       {
+        "option": "Clinical examination every 6 months",
+        "bool": false
+      },
+      {
         "option": "CA125 levels",
         "bool": false
       },
       {
-        "option": "X-ray pelvis",
+        "option": "Transvaginal ultrasound (TVS) examination",
         "bool": false
       }
     ]
@@ -919,11 +919,11 @@
     "question": "Which of the following statements about dermoid cysts is true?",
     "answers": [
       {
-        "option": "Dermoid cysts are usually asymptomatic",
+        "option": "They are malignant in about 10% of cases",
         "bool": false
       },
       {
-        "option": "They are malignant in about 10% of cases",
+        "option": "Dermoid cysts are usually asymptomatic",
         "bool": false
       },
       {
@@ -1216,15 +1216,7 @@
     "question": "What is the reason that approximately 5–10% of patients undergoing endometrial ablation require hysterectomy?",
     "answers": [
       {
-        "option": "Uterine perforation",
-        "bool": false
-      },
-      {
         "option": "Post-operative pain",
-        "bool": false
-      },
-      {
-        "option": "Recurrent disease",
         "bool": false
       },
       {
@@ -1232,8 +1224,16 @@
         "bool": false
       },
       {
+        "option": "Uterine perforation",
+        "bool": false
+      },
+      {
         "option": "Failure of therapy",
         "bool": true
+      },
+      {
+        "option": "Recurrent disease",
+        "bool": false
       }
     ]
   },
@@ -1563,12 +1563,8 @@
     "question": "A 28-year-old woman presents to the gynecology clinic with complaints of pain and swelling in the vaginal area. On examination, a painful swelling is noted at the posterior fourchette. What would be the preferred course of treatment for this patient?",
     "answers": [
       {
-        "option": "Aspiration",
-        "bool": false
-      },
-      {
-        "option": "Broad spectrum antibiotics",
-        "bool": false
+        "option": "Marsupialization",
+        "bool": true
       },
       {
         "option": "Excision",
@@ -1579,8 +1575,12 @@
         "bool": false
       },
       {
-        "option": "Marsupialization",
-        "bool": true
+        "option": "Aspiration",
+        "bool": false
+      },
+      {
+        "option": "Broad spectrum antibiotics",
+        "bool": false
       }
     ]
   },
@@ -1641,6 +1641,33 @@
   {
     "id": 61,
     "info": "5th-year/gynecology/2014",
+    "question": "Which of the following is a side effect of estrogen?",
+    "answers": [
+      {
+        "option": "Endometrial hyperplasia",
+        "bool": true
+      },
+      {
+        "option": "Melasma",
+        "bool": false
+      },
+      {
+        "option": "Depression",
+        "bool": false
+      },
+      {
+        "option": "Weight gain",
+        "bool": false
+      },
+      {
+        "option": "Breast tenderness",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "info": "5th-year/gynecology/2014",
     "question": "A 55-year-old woman presented to the gynecology clinic with the complaint of postmenopausal bleeding. She described it as being just like her regular menstrual period used to be. On her pelvic ultrasound, a 6x7cm mass was seen on the left fornix. What is the most likely diagnosis?",
     "answers": [
       {
@@ -1666,7 +1693,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": 63,
     "info": "5th-year/gynecology/2014",
     "question": "Which of the following statements is true regarding Trichomonas vaginalis?",
     "answers": [
@@ -1693,7 +1720,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": 64,
     "info": "5th-year/gynecology/2014",
     "question": "Which of the following is a possible cause of early pregnancy loss in endometriosis?",
     "answers": [
@@ -1720,7 +1747,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 65,
     "info": "5th-year/gynecology/2014",
     "question": "Which of the following does not help prevent vaginal infections?",
     "answers": [

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/hematology/2013",
+    "question": "A person exposed to asbestos is more likely to develop which type of cancer?",
+    "answers": [
+      {
+        "option": "Oropharyngeal carcinoma",
+        "bool": false
+      },
+      {
+        "option": "Breast cancer",
+        "bool": false
+      },
+      {
+        "option": "Malignant mesothelioma",
+        "bool": false
+      },
+      {
+        "option": "Lung cancer",
+        "bool": true
+      },
+      {
+        "option": "Pleural solitary fibrous tumor",
+        "bool": false
+      }
+    ]
+  }
+]

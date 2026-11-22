@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/infectious/2014",
+    "question": "Which vaccines are given at birth according to the EPI schedule?",
+    "answers": [
+      {
+        "option": "OPV + BCG + hep B",
+        "bool": true
+      },
+      {
+        "option": "BCG + OPV 1",
+        "bool": false
+      },
+      {
+        "option": "Pneumo + BCG",
+        "bool": false
+      },
+      {
+        "option": "Penta + OPV",
+        "bool": false
+      },
+      {
+        "option": "OPV 0 + BCG",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/infectious/2014",
+    "question": "Which of the following is the best treatment for brucellosis?",
+    "answers": [
+      {
+        "option": "Doxycycline",
+        "bool": false
+      },
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Isoniazid and rifampicin",
+        "bool": false
+      },
+      {
+        "option": "Doxycycline for 6 weeks plus streptomycin IM",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/infectious/2014",
+    "question": "Which of the following is a protozoan?",
+    "answers": [
+      {
+        "option": "Pnemocystis carinii",
+        "bool": false
+      },
+      {
+        "option": "Isospora belli",
+        "bool": true
+      },
+      {
+        "option": "E. coli",
+        "bool": false
+      },
+      {
+        "option": "Staph aureus",
+        "bool": false
+      },
+      {
+        "option": "Actinomyces",
+        "bool": false
+      }
+    ]
+  }
+]

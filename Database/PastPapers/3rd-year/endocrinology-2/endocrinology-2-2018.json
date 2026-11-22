@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/endocrinology-2/2018",
+    "question": "Which of the following is the effect of propylthiouracil on thyroid hormone?",
+    "answers": [
+      {
+        "option": "Inhibit T3 release from thyroglobulin",
+        "bool": false
+      },
+      {
+        "option": "Hyper activates Na-I symporter",
+        "bool": false
+      },
+      {
+        "option": "Inactivates thyroglobulin",
+        "bool": false
+      },
+      {
+        "option": "Inhibits oxidation of iodide and coupling of iodine",
+        "bool": true
+      },
+      {
+        "option": "Hypertrophy of thyroid follicles",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/endocrinology-2/2018",
+    "question": "Which layer of the adrenal cortex is responsible for secreting aldosterone?",
+    "answers": [
+      {
+        "option": "Zona reticularis",
+        "bool": false
+      },
+      {
+        "option": "All of them",
+        "bool": false
+      },
+      {
+        "option": "None of them",
+        "bool": false
+      },
+      {
+        "option": "Zona fasciculata",
+        "bool": false
+      },
+      {
+        "option": "Zona glomerulosa",
+        "bool": true
+      }
+    ]
+  }
+]

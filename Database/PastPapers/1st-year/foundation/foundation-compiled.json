@@ -895,7 +895,15 @@
     "question": "Dorsum of the tongue is lined by which epithelium?",
     "answers": [
       {
+        "option": "Pseudostratified columnar",
+        "bool": false
+      },
+      {
         "option": "Stratified columnar",
+        "bool": false
+      },
+      {
+        "option": "Stratified squamous keratinized",
         "bool": false
       },
       {
@@ -903,16 +911,8 @@
         "bool": false
       },
       {
-        "option": "Pseudostratified columnar",
-        "bool": false
-      },
-      {
         "option": "Stratified squamous partially keratinized",
         "bool": true
-      },
-      {
-        "option": "Stratified squamous keratinized",
-        "bool": false
       }
     ],
     "id": 33
@@ -28333,6 +28333,33 @@
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
+    "question": "Missense mutations occur when an amino acid in a polypeptide is exchanged for another amino acid. This involves which of the following?",
+    "answers": [
+      {
+        "option": "Base deletion",
+        "bool": false
+      },
+      {
+        "option": "Stop codon",
+        "bool": false
+      },
+      {
+        "option": "Start codon",
+        "bool": false
+      },
+      {
+        "option": "Base substitution",
+        "bool": true
+      },
+      {
+        "option": "Base additions",
+        "bool": false
+      }
+    ],
+    "id": 1052
+  },
+  {
+    "info": "1st-year/foundation/compiled (2018)",
     "question": "Genetic code is responsible for coding for an amino acid in proteins. The genetic code consists of how many bases?",
     "answers": [
       {
@@ -28356,7 +28383,7 @@
         "bool": false
       }
     ],
-    "id": 1052
+    "id": 1053
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28383,7 +28410,7 @@
         "bool": true
       }
     ],
-    "id": 1053
+    "id": 1054
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28410,7 +28437,7 @@
         "bool": true
       }
     ],
-    "id": 1054
+    "id": 1055
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28437,7 +28464,7 @@
         "bool": true
       }
     ],
-    "id": 1055
+    "id": 1056
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28464,7 +28491,7 @@
         "bool": false
       }
     ],
-    "id": 1056
+    "id": 1057
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28491,7 +28518,7 @@
         "bool": false
       }
     ],
-    "id": 1057
+    "id": 1058
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28518,7 +28545,7 @@
         "bool": false
       }
     ],
-    "id": 1058
+    "id": 1059
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28545,7 +28572,7 @@
         "bool": false
       }
     ],
-    "id": 1059
+    "id": 1060
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28572,7 +28599,7 @@
         "bool": false
       }
     ],
-    "id": 1060
+    "id": 1061
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28599,7 +28626,7 @@
         "bool": false
       }
     ],
-    "id": 1061
+    "id": 1062
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28626,7 +28653,7 @@
         "bool": false
       }
     ],
-    "id": 1062
+    "id": 1063
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28653,7 +28680,7 @@
         "bool": false
       }
     ],
-    "id": 1063
+    "id": 1064
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28680,7 +28707,7 @@
         "bool": false
       }
     ],
-    "id": 1064
+    "id": 1065
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28707,7 +28734,7 @@
         "bool": true
       }
     ],
-    "id": 1065
+    "id": 1066
   },
   {
     "info": "1st-year/foundation/compiled (2018)",
@@ -28734,7 +28761,7 @@
         "bool": false
       }
     ],
-    "id": 1066
+    "id": 1067
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28761,7 +28788,7 @@
         "bool": false
       }
     ],
-    "id": 1067
+    "id": 1068
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28788,7 +28815,7 @@
         "bool": false
       }
     ],
-    "id": 1068
+    "id": 1069
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28815,7 +28842,7 @@
         "bool": true
       }
     ],
-    "id": 1069
+    "id": 1070
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28842,7 +28869,7 @@
         "bool": false
       }
     ],
-    "id": 1070
+    "id": 1071
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28869,7 +28896,7 @@
         "bool": false
       }
     ],
-    "id": 1071
+    "id": 1072
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28896,7 +28923,7 @@
         "bool": true
       }
     ],
-    "id": 1072
+    "id": 1073
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28923,7 +28950,7 @@
         "bool": false
       }
     ],
-    "id": 1073
+    "id": 1074
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28950,7 +28977,7 @@
         "bool": false
       }
     ],
-    "id": 1074
+    "id": 1075
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -28977,7 +29004,7 @@
         "bool": false
       }
     ],
-    "id": 1075
+    "id": 1076
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29004,7 +29031,7 @@
         "bool": true
       }
     ],
-    "id": 1076
+    "id": 1077
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29031,7 +29058,7 @@
         "bool": false
       }
     ],
-    "id": 1077
+    "id": 1078
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29058,7 +29085,7 @@
         "bool": false
       }
     ],
-    "id": 1078
+    "id": 1079
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29085,7 +29112,7 @@
         "bool": false
       }
     ],
-    "id": 1079
+    "id": 1080
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29112,7 +29139,7 @@
         "bool": false
       }
     ],
-    "id": 1080
+    "id": 1081
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29139,7 +29166,7 @@
         "bool": true
       }
     ],
-    "id": 1081
+    "id": 1082
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29166,7 +29193,7 @@
         "bool": false
       }
     ],
-    "id": 1082
+    "id": 1083
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29193,7 +29220,7 @@
         "bool": true
       }
     ],
-    "id": 1083
+    "id": 1084
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29220,7 +29247,7 @@
         "bool": false
       }
     ],
-    "id": 1084
+    "id": 1085
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29247,7 +29274,7 @@
         "bool": false
       }
     ],
-    "id": 1085
+    "id": 1086
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29274,7 +29301,7 @@
         "bool": false
       }
     ],
-    "id": 1086
+    "id": 1087
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29301,7 +29328,7 @@
         "bool": false
       }
     ],
-    "id": 1087
+    "id": 1088
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29328,7 +29355,7 @@
         "bool": true
       }
     ],
-    "id": 1088
+    "id": 1089
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29355,7 +29382,7 @@
         "bool": false
       }
     ],
-    "id": 1089
+    "id": 1090
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29382,7 +29409,7 @@
         "bool": false
       }
     ],
-    "id": 1090
+    "id": 1091
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29409,7 +29436,7 @@
         "bool": false
       }
     ],
-    "id": 1091
+    "id": 1092
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29436,7 +29463,7 @@
         "bool": false
       }
     ],
-    "id": 1092
+    "id": 1093
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29463,7 +29490,7 @@
         "bool": true
       }
     ],
-    "id": 1093
+    "id": 1094
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29490,7 +29517,7 @@
         "bool": true
       }
     ],
-    "id": 1094
+    "id": 1095
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29517,7 +29544,7 @@
         "bool": false
       }
     ],
-    "id": 1095
+    "id": 1096
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29544,7 +29571,7 @@
         "bool": false
       }
     ],
-    "id": 1096
+    "id": 1097
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29571,7 +29598,7 @@
         "bool": false
       }
     ],
-    "id": 1097
+    "id": 1098
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29598,7 +29625,7 @@
         "bool": false
       }
     ],
-    "id": 1098
+    "id": 1099
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29625,7 +29652,7 @@
         "bool": false
       }
     ],
-    "id": 1099
+    "id": 1100
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29652,7 +29679,7 @@
         "bool": false
       }
     ],
-    "id": 1100
+    "id": 1101
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29679,7 +29706,7 @@
         "bool": false
       }
     ],
-    "id": 1101
+    "id": 1102
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29706,7 +29733,7 @@
         "bool": false
       }
     ],
-    "id": 1102
+    "id": 1103
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29733,7 +29760,7 @@
         "bool": false
       }
     ],
-    "id": 1103
+    "id": 1104
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29760,7 +29787,7 @@
         "bool": false
       }
     ],
-    "id": 1104
+    "id": 1105
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29787,7 +29814,7 @@
         "bool": false
       }
     ],
-    "id": 1105
+    "id": 1106
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29814,7 +29841,7 @@
         "bool": true
       }
     ],
-    "id": 1106
+    "id": 1107
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29841,7 +29868,7 @@
         "bool": true
       }
     ],
-    "id": 1107
+    "id": 1108
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29868,7 +29895,7 @@
         "bool": false
       }
     ],
-    "id": 1108
+    "id": 1109
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29895,7 +29922,7 @@
         "bool": false
       }
     ],
-    "id": 1109
+    "id": 1110
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29922,7 +29949,7 @@
         "bool": false
       }
     ],
-    "id": 1110
+    "id": 1111
   },
   {
     "info": "1st-year/foundation/compiled (2017)",
@@ -29949,7 +29976,7 @@
         "bool": false
       }
     ],
-    "id": 1111
+    "id": 1112
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -29976,7 +30003,7 @@
         "bool": false
       }
     ],
-    "id": 1112
+    "id": 1113
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30003,7 +30030,7 @@
         "bool": false
       }
     ],
-    "id": 1113
+    "id": 1114
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30030,7 +30057,7 @@
         "bool": true
       }
     ],
-    "id": 1114
+    "id": 1115
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30057,7 +30084,7 @@
         "bool": false
       }
     ],
-    "id": 1115
+    "id": 1116
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30084,7 +30111,7 @@
         "bool": true
       }
     ],
-    "id": 1116
+    "id": 1117
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30111,7 +30138,7 @@
         "bool": false
       }
     ],
-    "id": 1117
+    "id": 1118
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30138,7 +30165,7 @@
         "bool": false
       }
     ],
-    "id": 1118
+    "id": 1119
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30165,7 +30192,7 @@
         "bool": false
       }
     ],
-    "id": 1119
+    "id": 1120
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30192,7 +30219,7 @@
         "bool": false
       }
     ],
-    "id": 1120
+    "id": 1121
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30219,7 +30246,7 @@
         "bool": false
       }
     ],
-    "id": 1121
+    "id": 1122
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30246,7 +30273,7 @@
         "bool": false
       }
     ],
-    "id": 1122
+    "id": 1123
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30273,7 +30300,7 @@
         "bool": false
       }
     ],
-    "id": 1123
+    "id": 1124
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30300,7 +30327,7 @@
         "bool": false
       }
     ],
-    "id": 1124
+    "id": 1125
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30327,7 +30354,7 @@
         "bool": false
       }
     ],
-    "id": 1125
+    "id": 1126
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30354,7 +30381,7 @@
         "bool": true
       }
     ],
-    "id": 1126
+    "id": 1127
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30381,7 +30408,7 @@
         "bool": false
       }
     ],
-    "id": 1127
+    "id": 1128
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30408,7 +30435,7 @@
         "bool": false
       }
     ],
-    "id": 1128
+    "id": 1129
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30435,7 +30462,7 @@
         "bool": true
       }
     ],
-    "id": 1129
+    "id": 1130
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30462,7 +30489,7 @@
         "bool": true
       }
     ],
-    "id": 1130
+    "id": 1131
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30489,7 +30516,7 @@
         "bool": false
       }
     ],
-    "id": 1131
+    "id": 1132
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30516,7 +30543,7 @@
         "bool": false
       }
     ],
-    "id": 1132
+    "id": 1133
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30543,7 +30570,7 @@
         "bool": false
       }
     ],
-    "id": 1133
+    "id": 1134
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30570,7 +30597,7 @@
         "bool": false
       }
     ],
-    "id": 1134
+    "id": 1135
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30597,7 +30624,7 @@
         "bool": true
       }
     ],
-    "id": 1135
+    "id": 1136
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30624,7 +30651,7 @@
         "bool": false
       }
     ],
-    "id": 1136
+    "id": 1137
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30651,7 +30678,7 @@
         "bool": false
       }
     ],
-    "id": 1137
+    "id": 1138
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30678,7 +30705,7 @@
         "bool": false
       }
     ],
-    "id": 1138
+    "id": 1139
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30705,7 +30732,7 @@
         "bool": false
       }
     ],
-    "id": 1139
+    "id": 1140
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30732,7 +30759,7 @@
         "bool": true
       }
     ],
-    "id": 1140
+    "id": 1141
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30759,7 +30786,7 @@
         "bool": false
       }
     ],
-    "id": 1141
+    "id": 1142
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30786,7 +30813,7 @@
         "bool": true
       }
     ],
-    "id": 1142
+    "id": 1143
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30813,7 +30840,7 @@
         "bool": false
       }
     ],
-    "id": 1143
+    "id": 1144
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30840,7 +30867,7 @@
         "bool": false
       }
     ],
-    "id": 1144
+    "id": 1145
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30867,7 +30894,7 @@
         "bool": true
       }
     ],
-    "id": 1145
+    "id": 1146
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30894,7 +30921,7 @@
         "bool": false
       }
     ],
-    "id": 1146
+    "id": 1147
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30921,7 +30948,7 @@
         "bool": false
       }
     ],
-    "id": 1147
+    "id": 1148
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30948,7 +30975,7 @@
         "bool": true
       }
     ],
-    "id": 1148
+    "id": 1149
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -30975,7 +31002,7 @@
         "bool": false
       }
     ],
-    "id": 1149
+    "id": 1150
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31002,7 +31029,7 @@
         "bool": false
       }
     ],
-    "id": 1150
+    "id": 1151
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31029,7 +31056,7 @@
         "bool": false
       }
     ],
-    "id": 1151
+    "id": 1152
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31056,7 +31083,7 @@
         "bool": false
       }
     ],
-    "id": 1152
+    "id": 1153
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31083,7 +31110,7 @@
         "bool": false
       }
     ],
-    "id": 1153
+    "id": 1154
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31110,7 +31137,7 @@
         "bool": false
       }
     ],
-    "id": 1154
+    "id": 1155
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31137,7 +31164,7 @@
         "bool": false
       }
     ],
-    "id": 1155
+    "id": 1156
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31164,7 +31191,7 @@
         "bool": false
       }
     ],
-    "id": 1156
+    "id": 1157
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31191,7 +31218,7 @@
         "bool": false
       }
     ],
-    "id": 1157
+    "id": 1158
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31218,7 +31245,7 @@
         "bool": false
       }
     ],
-    "id": 1158
+    "id": 1159
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31245,7 +31272,7 @@
         "bool": true
       }
     ],
-    "id": 1159
+    "id": 1160
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31272,7 +31299,7 @@
         "bool": false
       }
     ],
-    "id": 1160
+    "id": 1161
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31299,7 +31326,7 @@
         "bool": false
       }
     ],
-    "id": 1161
+    "id": 1162
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31326,7 +31353,7 @@
         "bool": true
       }
     ],
-    "id": 1162
+    "id": 1163
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31353,7 +31380,7 @@
         "bool": false
       }
     ],
-    "id": 1163
+    "id": 1164
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31380,7 +31407,7 @@
         "bool": false
       }
     ],
-    "id": 1164
+    "id": 1165
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31407,7 +31434,7 @@
         "bool": false
       }
     ],
-    "id": 1165
+    "id": 1166
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31434,7 +31461,7 @@
         "bool": false
       }
     ],
-    "id": 1166
+    "id": 1167
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31461,7 +31488,7 @@
         "bool": false
       }
     ],
-    "id": 1167
+    "id": 1168
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31488,7 +31515,7 @@
         "bool": false
       }
     ],
-    "id": 1168
+    "id": 1169
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31515,7 +31542,7 @@
         "bool": false
       }
     ],
-    "id": 1169
+    "id": 1170
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31542,7 +31569,7 @@
         "bool": true
       }
     ],
-    "id": 1170
+    "id": 1171
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31569,7 +31596,7 @@
         "bool": false
       }
     ],
-    "id": 1171
+    "id": 1172
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31596,7 +31623,7 @@
         "bool": false
       }
     ],
-    "id": 1172
+    "id": 1173
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31623,7 +31650,7 @@
         "bool": false
       }
     ],
-    "id": 1173
+    "id": 1174
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31650,7 +31677,7 @@
         "bool": true
       }
     ],
-    "id": 1174
+    "id": 1175
   },
   {
     "info": "1st-year/foundation/compiled (2016)",
@@ -31677,6 +31704,141 @@
         "bool": false
       }
     ],
-    "id": 1175
+    "id": 1176
+  },
+  {
+    "info": "1st-year/foundation/compiled (undated)",
+    "question": "What is the transport of glucose along with Na+ into the cell against a large concentration gradient called?",
+    "answers": [
+      {
+        "option": "Cotransport",
+        "bool": true
+      },
+      {
+        "option": "Simple diffusion",
+        "bool": false
+      },
+      {
+        "option": "Counter transport",
+        "bool": false
+      },
+      {
+        "option": "Facilitated diffusion",
+        "bool": false
+      },
+      {
+        "option": "Primary active transport",
+        "bool": false
+      }
+    ],
+    "id": 1177
+  },
+  {
+    "info": "1st-year/foundation/compiled (undated)",
+    "question": "Epithelium of the bladder is seen by a histopathologist under stressed and unstressed conditions. In both cases, the cells appear different. Why is that?",
+    "answers": [
+      {
+        "option": "There is a pathology",
+        "bool": false
+      },
+      {
+        "option": "To withstand the stretch",
+        "bool": true
+      },
+      {
+        "option": "These cells undergo modification",
+        "bool": false
+      },
+      {
+        "option": "To allow absorption",
+        "bool": false
+      },
+      {
+        "option": "The bladder burst",
+        "bool": false
+      }
+    ],
+    "id": 1178
+  },
+  {
+    "info": "1st-year/foundation/compiled (undated)",
+    "question": "A 45-year-old woman went to the OPD complaining about the pain, discomfort, and deformity\nin her hip joint. Reports showed degeneration of the hip joint. What is the classification of this synovial joint?",
+    "answers": [
+      {
+        "option": "Pivot",
+        "bool": false
+      },
+      {
+        "option": "Saddle",
+        "bool": false
+      },
+      {
+        "option": "Ball and socket",
+        "bool": true
+      },
+      {
+        "option": "Condyloid",
+        "bool": false
+      },
+      {
+        "option": "Hinge",
+        "bool": false
+      }
+    ],
+    "id": 1179
+  },
+  {
+    "info": "1st-year/foundation/compiled (undated)",
+    "question": "What is an active group that is made to determine the distribution of disease called?",
+    "answers": [
+      {
+        "option": "Health research",
+        "bool": false
+      },
+      {
+        "option": "Epidemiology",
+        "bool": true
+      },
+      {
+        "option": "Biostatistics",
+        "bool": false
+      },
+      {
+        "option": "Intervention",
+        "bool": false
+      },
+      {
+        "option": "Experimental study",
+        "bool": false
+      }
+    ],
+    "id": 1180
+  },
+  {
+    "info": "1st-year/foundation/compiled (undated)",
+    "question": "In which part of research is it assessed whether the research outcomes are achieved?",
+    "answers": [
+      {
+        "option": "Outcomes",
+        "bool": false
+      },
+      {
+        "option": "Evaluation",
+        "bool": true
+      },
+      {
+        "option": "Limitations",
+        "bool": false
+      },
+      {
+        "option": "Data collection",
+        "bool": false
+      },
+      {
+        "option": "Discussion",
+        "bool": false
+      }
+    ],
+    "id": 1181
   }
 ]

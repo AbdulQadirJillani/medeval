@@ -1,0 +1,164 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/infectious/2015",
+    "question": "Which of these drugs is penicillinase-resistant?",
+    "answers": [
+      {
+        "option": "Ampicillin",
+        "bool": false
+      },
+      {
+        "option": "Methicillin",
+        "bool": true
+      },
+      {
+        "option": "Penicillin G",
+        "bool": false
+      },
+      {
+        "option": "Amoxicillin",
+        "bool": false
+      },
+      {
+        "option": "Penicillin V",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "3rd-year/infectious/2015",
+    "question": "Which of the following options is the most accurate regarding the etiology of slapped cheek syndrome?",
+    "answers": [
+      {
+        "option": "It is due to erythrovirus B19",
+        "bool": true
+      },
+      {
+        "option": "IgG to parvovirus B19 suggests recent infection",
+        "bool": false
+      },
+      {
+        "option": "Clinical manifestations occur after an incubation period of 40 days",
+        "bool": false
+      },
+      {
+        "option": "Especially seen in children with abuse history",
+        "bool": false
+      },
+      {
+        "option": "It has a bacterial origin",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "3rd-year/infectious/2015",
+    "question": "Regarding bacillus cereus, which of the following is the most accurate statement?",
+    "answers": [
+      {
+        "option": "Occurs in humans",
+        "bool": true
+      },
+      {
+        "option": "Resolves within 1-6 hours",
+        "bool": false
+      },
+      {
+        "option": "Toxin in food requires > 48 hrs incubation",
+        "bool": false
+      },
+      {
+        "option": "‘Point source’ outbreaks are seen",
+        "bool": false
+      },
+      {
+        "option": "Cause mucosal ulceration",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "3rd-year/infectious/2015",
+    "question": "Silver methamine stain is used for the diagnosis of which of the following infections?",
+    "answers": [
+      {
+        "option": "Acute disseminated candidiasis",
+        "bool": false
+      },
+      {
+        "option": "Human immunodeficiency virus",
+        "bool": false
+      },
+      {
+        "option": "Pneumocystis jirovecii",
+        "bool": true
+      },
+      {
+        "option": "Pulmonary tuberculosis",
+        "bool": false
+      },
+      {
+        "option": "Echinococcus granulosus",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "3rd-year/infectious/2015",
+    "question": "A 30-year-old male came to the outpatient department with complaints of ulcers on his glans. On examination, the ulcers are painless, and inguinal lymph nodes are moderately enlarged. Extragenital ulcers are not present. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Latent syphilis",
+        "bool": false
+      },
+      {
+        "option": "Candidiasis",
+        "bool": false
+      },
+      {
+        "option": "Genital herpes",
+        "bool": false
+      },
+      {
+        "option": "Secondary syphilis",
+        "bool": false
+      },
+      {
+        "option": "Primary syphilis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "3rd-year/infectious/2015",
+    "question": "A young female develops fever, rash, and desquamation of hands after she delivers a baby. On examination, her blood pressure is 80/50 and she is febrile. Which of the following is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Staphylococcal scalded skin syndrome",
+        "bool": false
+      },
+      {
+        "option": "Scarlet fever",
+        "bool": false
+      },
+      {
+        "option": "Toxic shock syndrome",
+        "bool": true
+      },
+      {
+        "option": "Pyogenic exotoxin A released by Streptococci",
+        "bool": false
+      },
+      {
+        "option": "Streptococcal toxic shock syndrome",
+        "bool": false
+      }
+    ]
+  }
+]

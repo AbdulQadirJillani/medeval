@@ -17417,5 +17417,113 @@
       }
     ],
     "id": 644
+  },
+  {
+    "info": "4th-year/ophthalmology/compiled (undated)",
+    "question": "A 60-year-old woman with a history of uncontrolled hypertension and diabetes mellitus presents to the clinic with sudden and painless loss of vision for the past 2 days. Which of the following is the most likely diagnosis in this patient?",
+    "answers": [
+      {
+        "option": "Glaucoma",
+        "bool": false
+      },
+      {
+        "option": "Optic neuritis",
+        "bool": false
+      },
+      {
+        "option": "Vitreous hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Retinal detachment",
+        "bool": true
+      },
+      {
+        "option": "Cataract",
+        "bool": false
+      }
+    ],
+    "id": 645
+  },
+  {
+    "info": "4th-year/ophthalmology/compiled (undated)",
+    "question": "Which structure does not pierce the sclera?",
+    "answers": [
+      {
+        "option": "Short posterior ciliary arteries",
+        "bool": false
+      },
+      {
+        "option": "Anterior ciliary arteries",
+        "bool": false
+      },
+      {
+        "option": "Optic nerve",
+        "bool": false
+      },
+      {
+        "option": "Long posterior ciliary arteries",
+        "bool": false
+      },
+      {
+        "option": "Ophthalmic nerve",
+        "bool": true
+      }
+    ],
+    "id": 646
+  },
+  {
+    "info": "4th-year/ophthalmology/compiled (undated)",
+    "question": "Which of the following statements is incorrect regarding the cone cells?",
+    "answers": [
+      {
+        "option": "None of these",
+        "bool": false
+      },
+      {
+        "option": "Yellow light stimulates short cones type",
+        "bool": true
+      },
+      {
+        "option": "Blue-green light stimulates middle cones type more than long",
+        "bool": false
+      },
+      {
+        "option": "Blue light stimulate short cones type",
+        "bool": false
+      },
+      {
+        "option": "Red light mainly stimulates long cones type",
+        "bool": false
+      }
+    ],
+    "id": 647
+  },
+  {
+    "info": "4th-year/ophthalmology/compiled (undated)",
+    "question": "Which age group do 85% of blind people belong to?",
+    "answers": [
+      {
+        "option": ">75 years",
+        "bool": false
+      },
+      {
+        "option": ">50 years",
+        "bool": true
+      },
+      {
+        "option": ">40 years",
+        "bool": false
+      },
+      {
+        "option": ">20 years",
+        "bool": false
+      },
+      {
+        "option": ">80 years",
+        "bool": false
+      }
+    ],
+    "id": 648
   }
 ]

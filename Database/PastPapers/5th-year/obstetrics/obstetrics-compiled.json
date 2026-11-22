@@ -513,6 +513,60 @@
     "id": 18
   },
   {
+    "info": "5th-year/obstetrics/compiled (2023, 2019)",
+    "question": "A 23-year-old primigravida woman came to the labor room during her 39th gestational week with complaints of labor pain. She delivered a healthy baby girl after a few hours. The woman is known to be Hepatitis B positive. Which of the following is an appropriate management option for the new-born fetus?",
+    "answers": [
+      {
+        "option": "Give neonate Hep B vaccine",
+        "bool": false
+      },
+      {
+        "option": "Screen neonate for virus",
+        "bool": false
+      },
+      {
+        "option": "Give active and passive immunisation",
+        "bool": true
+      },
+      {
+        "option": "Observe neonate for a few months for symptoms before giving vaccine",
+        "bool": false
+      },
+      {
+        "option": "Exclusive breastfeeding",
+        "bool": false
+      }
+    ],
+    "id": 19
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2023, 2019)",
+    "question": "A 24-year-old gravida 3 para 1+1 lady comes to the antenatal clinic in her 11th gestational week. She and her husband are both diagnosed with thalassemia minor. Their previous child was diagnosed with thalassemia major and receives regular blood transfusions. Which of the following is an appropriate screening method for their current fetus?",
+    "answers": [
+      {
+        "option": "Uterine artery doppler",
+        "bool": false
+      },
+      {
+        "option": "Fetal cell DNA",
+        "bool": false
+      },
+      {
+        "option": "Cordocentesis",
+        "bool": false
+      },
+      {
+        "option": "Chorionic villus sampling",
+        "bool": true
+      },
+      {
+        "option": "Amniocentesis",
+        "bool": false
+      }
+    ],
+    "id": 20
+  },
+  {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
     "question": "A 25-year-old primigravida came to the emergency department in her second trimester with complaints of severe chest pain and dyspnea. She has previously been diagnosed with sickle cell disease. Her hemoglobin was 7.5 g/dl. Which of the following will be done as immediate management?",
     "answers": [
@@ -537,7 +591,7 @@
         "bool": false
       }
     ],
-    "id": 19
+    "id": 21
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
@@ -564,7 +618,7 @@
         "bool": false
       }
     ],
-    "id": 20
+    "id": 22
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
@@ -591,7 +645,7 @@
         "bool": false
       }
     ],
-    "id": 21
+    "id": 23
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
@@ -618,7 +672,7 @@
         "bool": false
       }
     ],
-    "id": 22
+    "id": 24
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
@@ -645,7 +699,7 @@
         "bool": false
       }
     ],
-    "id": 23
+    "id": 25
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
@@ -672,7 +726,7 @@
         "bool": false
       }
     ],
-    "id": 24
+    "id": 26
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2020)",
@@ -699,7 +753,7 @@
         "bool": false
       }
     ],
-    "id": 25
+    "id": 27
   },
   {
     "info": "5th-year/obstetrics/compiled (2023, 2022)",
@@ -726,7 +780,7 @@
         "bool": false
       }
     ],
-    "id": 26
+    "id": 28
   },
   {
     "info": "5th-year/obstetrics/compiled (2022, 2020)",
@@ -753,7 +807,7 @@
         "bool": false
       }
     ],
-    "id": 27
+    "id": 29
   },
   {
     "info": "5th-year/obstetrics/compiled (2022, 2020)",
@@ -780,7 +834,7 @@
         "bool": false
       }
     ],
-    "id": 28
+    "id": 30
   },
   {
     "info": "5th-year/obstetrics/compiled (2022, 2020)",
@@ -807,7 +861,7 @@
         "bool": false
       }
     ],
-    "id": 29
+    "id": 31
   },
   {
     "info": "5th-year/obstetrics/compiled (2022, 2020)",
@@ -834,7 +888,7 @@
         "bool": true
       }
     ],
-    "id": 30
+    "id": 32
   },
   {
     "info": "5th-year/obstetrics/compiled (2020, 2016)",
@@ -861,7 +915,7 @@
         "bool": false
       }
     ],
-    "id": 31
+    "id": 33
   },
   {
     "info": "5th-year/obstetrics/compiled (2020, 2016)",
@@ -888,7 +942,7 @@
         "bool": false
       }
     ],
-    "id": 32
+    "id": 34
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2008)",
@@ -915,7 +969,7 @@
         "bool": false
       }
     ],
-    "id": 33
+    "id": 35
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2009)",
@@ -942,7 +996,7 @@
         "bool": false
       }
     ],
-    "id": 34
+    "id": 36
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2009)",
@@ -969,7 +1023,7 @@
         "bool": false
       }
     ],
-    "id": 35
+    "id": 37
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -996,7 +1050,7 @@
         "bool": false
       }
     ],
-    "id": 36
+    "id": 38
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1023,7 +1077,7 @@
         "bool": false
       }
     ],
-    "id": 37
+    "id": 39
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1050,7 +1104,7 @@
         "bool": false
       }
     ],
-    "id": 38
+    "id": 40
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1077,7 +1131,7 @@
         "bool": true
       }
     ],
-    "id": 39
+    "id": 41
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1104,7 +1158,7 @@
         "bool": false
       }
     ],
-    "id": 40
+    "id": 42
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1131,7 +1185,7 @@
         "bool": false
       }
     ],
-    "id": 41
+    "id": 43
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1158,7 +1212,7 @@
         "bool": false
       }
     ],
-    "id": 42
+    "id": 44
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2012)",
@@ -1185,7 +1239,7 @@
         "bool": false
       }
     ],
-    "id": 43
+    "id": 45
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2014)",
@@ -1212,7 +1266,7 @@
         "bool": false
       }
     ],
-    "id": 44
+    "id": 46
   },
   {
     "info": "5th-year/obstetrics/compiled (2016, 2014)",
@@ -1239,7 +1293,7 @@
         "bool": false
       }
     ],
-    "id": 45
+    "id": 47
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2009)",
@@ -1266,7 +1320,7 @@
         "bool": true
       }
     ],
-    "id": 46
+    "id": 48
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2009)",
@@ -1293,7 +1347,7 @@
         "bool": false
       }
     ],
-    "id": 47
+    "id": 49
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2009)",
@@ -1320,7 +1374,7 @@
         "bool": false
       }
     ],
-    "id": 48
+    "id": 50
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2009)",
@@ -1347,7 +1401,7 @@
         "bool": false
       }
     ],
-    "id": 49
+    "id": 51
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2009)",
@@ -1374,7 +1428,7 @@
         "bool": true
       }
     ],
-    "id": 50
+    "id": 52
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2012)",
@@ -1401,7 +1455,7 @@
         "bool": false
       }
     ],
-    "id": 51
+    "id": 53
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2012)",
@@ -1428,7 +1482,7 @@
         "bool": false
       }
     ],
-    "id": 52
+    "id": 54
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2012)",
@@ -1455,7 +1509,7 @@
         "bool": false
       }
     ],
-    "id": 53
+    "id": 55
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2013)",
@@ -1482,7 +1536,7 @@
         "bool": true
       }
     ],
-    "id": 54
+    "id": 56
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2013)",
@@ -1509,7 +1563,7 @@
         "bool": false
       }
     ],
-    "id": 55
+    "id": 57
   },
   {
     "info": "5th-year/obstetrics/compiled (2014, 2013)",
@@ -1536,7 +1590,7 @@
         "bool": true
       }
     ],
-    "id": 56
+    "id": 58
   },
   {
     "info": "5th-year/obstetrics/compiled (2013, 2009)",
@@ -1563,7 +1617,7 @@
         "bool": false
       }
     ],
-    "id": 57
+    "id": 59
   },
   {
     "info": "5th-year/obstetrics/compiled (2013, 2012)",
@@ -1590,7 +1644,7 @@
         "bool": false
       }
     ],
-    "id": 58
+    "id": 60
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1617,7 +1671,7 @@
         "bool": false
       }
     ],
-    "id": 59
+    "id": 61
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1644,7 +1698,7 @@
         "bool": false
       }
     ],
-    "id": 60
+    "id": 62
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1671,7 +1725,7 @@
         "bool": true
       }
     ],
-    "id": 61
+    "id": 63
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1698,7 +1752,7 @@
         "bool": true
       }
     ],
-    "id": 62
+    "id": 64
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1725,7 +1779,7 @@
         "bool": false
       }
     ],
-    "id": 63
+    "id": 65
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1752,7 +1806,7 @@
         "bool": false
       }
     ],
-    "id": 64
+    "id": 66
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1779,7 +1833,7 @@
         "bool": false
       }
     ],
-    "id": 65
+    "id": 67
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1806,7 +1860,7 @@
         "bool": false
       }
     ],
-    "id": 66
+    "id": 68
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1833,7 +1887,7 @@
         "bool": false
       }
     ],
-    "id": 67
+    "id": 69
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1860,7 +1914,7 @@
         "bool": false
       }
     ],
-    "id": 68
+    "id": 70
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1887,7 +1941,7 @@
         "bool": false
       }
     ],
-    "id": 69
+    "id": 71
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1914,7 +1968,7 @@
         "bool": false
       }
     ],
-    "id": 70
+    "id": 72
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1941,7 +1995,7 @@
         "bool": false
       }
     ],
-    "id": 71
+    "id": 73
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1968,7 +2022,7 @@
         "bool": false
       }
     ],
-    "id": 72
+    "id": 74
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -1995,7 +2049,7 @@
         "bool": false
       }
     ],
-    "id": 73
+    "id": 75
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2022,7 +2076,7 @@
         "bool": true
       }
     ],
-    "id": 74
+    "id": 76
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2049,7 +2103,7 @@
         "bool": false
       }
     ],
-    "id": 75
+    "id": 77
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2076,7 +2130,7 @@
         "bool": true
       }
     ],
-    "id": 76
+    "id": 78
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2103,7 +2157,7 @@
         "bool": false
       }
     ],
-    "id": 77
+    "id": 79
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2130,7 +2184,7 @@
         "bool": true
       }
     ],
-    "id": 78
+    "id": 80
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2157,7 +2211,7 @@
         "bool": false
       }
     ],
-    "id": 79
+    "id": 81
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2184,7 +2238,7 @@
         "bool": true
       }
     ],
-    "id": 80
+    "id": 82
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2008)",
@@ -2211,7 +2265,7 @@
         "bool": false
       }
     ],
-    "id": 81
+    "id": 83
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2238,7 +2292,7 @@
         "bool": false
       }
     ],
-    "id": 82
+    "id": 84
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2265,7 +2319,7 @@
         "bool": false
       }
     ],
-    "id": 83
+    "id": 85
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2292,7 +2346,7 @@
         "bool": false
       }
     ],
-    "id": 84
+    "id": 86
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2319,7 +2373,7 @@
         "bool": false
       }
     ],
-    "id": 85
+    "id": 87
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2346,7 +2400,7 @@
         "bool": false
       }
     ],
-    "id": 86
+    "id": 88
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2373,7 +2427,7 @@
         "bool": false
       }
     ],
-    "id": 87
+    "id": 89
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2400,7 +2454,7 @@
         "bool": false
       }
     ],
-    "id": 88
+    "id": 90
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2427,7 +2481,7 @@
         "bool": false
       }
     ],
-    "id": 89
+    "id": 91
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2454,7 +2508,7 @@
         "bool": false
       }
     ],
-    "id": 90
+    "id": 92
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2481,7 +2535,7 @@
         "bool": false
       }
     ],
-    "id": 91
+    "id": 93
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2508,7 +2562,7 @@
         "bool": false
       }
     ],
-    "id": 92
+    "id": 94
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2535,7 +2589,7 @@
         "bool": false
       }
     ],
-    "id": 93
+    "id": 95
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2562,7 +2616,7 @@
         "bool": true
       }
     ],
-    "id": 94
+    "id": 96
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2589,7 +2643,7 @@
         "bool": false
       }
     ],
-    "id": 95
+    "id": 97
   },
   {
     "info": "5th-year/obstetrics/compiled (2012, 2009)",
@@ -2616,7 +2670,7 @@
         "bool": false
       }
     ],
-    "id": 96
+    "id": 98
   },
   {
     "info": "5th-year/obstetrics/compiled (2009, 2008)",
@@ -2643,7 +2697,7 @@
         "bool": true
       }
     ],
-    "id": 97
+    "id": 99
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2670,7 +2724,7 @@
         "bool": true
       }
     ],
-    "id": 98
+    "id": 100
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2697,7 +2751,7 @@
         "bool": false
       }
     ],
-    "id": 99
+    "id": 101
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2724,7 +2778,7 @@
         "bool": false
       }
     ],
-    "id": 100
+    "id": 102
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2751,7 +2805,7 @@
         "bool": true
       }
     ],
-    "id": 101
+    "id": 103
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2778,7 +2832,7 @@
         "bool": false
       }
     ],
-    "id": 102
+    "id": 104
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2805,7 +2859,7 @@
         "bool": false
       }
     ],
-    "id": 103
+    "id": 105
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2832,7 +2886,7 @@
         "bool": false
       }
     ],
-    "id": 104
+    "id": 106
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2859,7 +2913,7 @@
         "bool": false
       }
     ],
-    "id": 105
+    "id": 107
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2886,7 +2940,7 @@
         "bool": false
       }
     ],
-    "id": 106
+    "id": 108
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2913,7 +2967,7 @@
         "bool": false
       }
     ],
-    "id": 107
+    "id": 109
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2940,7 +2994,7 @@
         "bool": false
       }
     ],
-    "id": 108
+    "id": 110
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2967,7 +3021,7 @@
         "bool": false
       }
     ],
-    "id": 109
+    "id": 111
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -2994,7 +3048,7 @@
         "bool": false
       }
     ],
-    "id": 110
+    "id": 112
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3021,7 +3075,7 @@
         "bool": false
       }
     ],
-    "id": 111
+    "id": 113
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3048,7 +3102,7 @@
         "bool": true
       }
     ],
-    "id": 112
+    "id": 114
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3075,7 +3129,7 @@
         "bool": false
       }
     ],
-    "id": 113
+    "id": 115
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3102,7 +3156,7 @@
         "bool": false
       }
     ],
-    "id": 114
+    "id": 116
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3129,7 +3183,7 @@
         "bool": true
       }
     ],
-    "id": 115
+    "id": 117
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3156,7 +3210,7 @@
         "bool": false
       }
     ],
-    "id": 116
+    "id": 118
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3183,7 +3237,7 @@
         "bool": true
       }
     ],
-    "id": 117
+    "id": 119
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3210,7 +3264,7 @@
         "bool": false
       }
     ],
-    "id": 118
+    "id": 120
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3237,7 +3291,7 @@
         "bool": true
       }
     ],
-    "id": 119
+    "id": 121
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3264,7 +3318,7 @@
         "bool": false
       }
     ],
-    "id": 120
+    "id": 122
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3291,7 +3345,7 @@
         "bool": false
       }
     ],
-    "id": 121
+    "id": 123
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3318,7 +3372,7 @@
         "bool": false
       }
     ],
-    "id": 122
+    "id": 124
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3345,7 +3399,7 @@
         "bool": true
       }
     ],
-    "id": 123
+    "id": 125
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3372,7 +3426,7 @@
         "bool": false
       }
     ],
-    "id": 124
+    "id": 126
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3399,7 +3453,7 @@
         "bool": false
       }
     ],
-    "id": 125
+    "id": 127
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3426,7 +3480,7 @@
         "bool": false
       }
     ],
-    "id": 126
+    "id": 128
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3453,7 +3507,7 @@
         "bool": false
       }
     ],
-    "id": 127
+    "id": 129
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3480,7 +3534,7 @@
         "bool": false
       }
     ],
-    "id": 128
+    "id": 130
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3507,7 +3561,7 @@
         "bool": false
       }
     ],
-    "id": 129
+    "id": 131
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3534,7 +3588,7 @@
         "bool": false
       }
     ],
-    "id": 130
+    "id": 132
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3561,7 +3615,7 @@
         "bool": false
       }
     ],
-    "id": 131
+    "id": 133
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3588,7 +3642,7 @@
         "bool": false
       }
     ],
-    "id": 132
+    "id": 134
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3615,7 +3669,7 @@
         "bool": false
       }
     ],
-    "id": 133
+    "id": 135
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3642,7 +3696,7 @@
         "bool": false
       }
     ],
-    "id": 134
+    "id": 136
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3669,7 +3723,7 @@
         "bool": false
       }
     ],
-    "id": 135
+    "id": 137
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3696,7 +3750,7 @@
         "bool": false
       }
     ],
-    "id": 136
+    "id": 138
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3723,7 +3777,7 @@
         "bool": false
       }
     ],
-    "id": 137
+    "id": 139
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3750,7 +3804,7 @@
         "bool": false
       }
     ],
-    "id": 138
+    "id": 140
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3777,7 +3831,7 @@
         "bool": false
       }
     ],
-    "id": 139
+    "id": 141
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3804,7 +3858,7 @@
         "bool": false
       }
     ],
-    "id": 140
+    "id": 142
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3831,7 +3885,7 @@
         "bool": false
       }
     ],
-    "id": 141
+    "id": 143
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3858,7 +3912,7 @@
         "bool": false
       }
     ],
-    "id": 142
+    "id": 144
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3885,7 +3939,7 @@
         "bool": true
       }
     ],
-    "id": 143
+    "id": 145
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3912,7 +3966,7 @@
         "bool": false
       }
     ],
-    "id": 144
+    "id": 146
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3939,7 +3993,7 @@
         "bool": false
       }
     ],
-    "id": 145
+    "id": 147
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3966,7 +4020,7 @@
         "bool": false
       }
     ],
-    "id": 146
+    "id": 148
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -3993,7 +4047,7 @@
         "bool": false
       }
     ],
-    "id": 147
+    "id": 149
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4020,7 +4074,7 @@
         "bool": false
       }
     ],
-    "id": 148
+    "id": 150
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4047,7 +4101,7 @@
         "bool": false
       }
     ],
-    "id": 149
+    "id": 151
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4074,7 +4128,7 @@
         "bool": false
       }
     ],
-    "id": 150
+    "id": 152
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4101,7 +4155,7 @@
         "bool": true
       }
     ],
-    "id": 151
+    "id": 153
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4128,7 +4182,7 @@
         "bool": false
       }
     ],
-    "id": 152
+    "id": 154
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4155,7 +4209,7 @@
         "bool": true
       }
     ],
-    "id": 153
+    "id": 155
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4182,7 +4236,7 @@
         "bool": false
       }
     ],
-    "id": 154
+    "id": 156
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4209,7 +4263,7 @@
         "bool": true
       }
     ],
-    "id": 155
+    "id": 157
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4236,7 +4290,7 @@
         "bool": false
       }
     ],
-    "id": 156
+    "id": 158
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4263,7 +4317,7 @@
         "bool": false
       }
     ],
-    "id": 157
+    "id": 159
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4290,7 +4344,7 @@
         "bool": false
       }
     ],
-    "id": 158
+    "id": 160
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4317,7 +4371,7 @@
         "bool": true
       }
     ],
-    "id": 159
+    "id": 161
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4344,7 +4398,7 @@
         "bool": false
       }
     ],
-    "id": 160
+    "id": 162
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4371,7 +4425,7 @@
         "bool": false
       }
     ],
-    "id": 161
+    "id": 163
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4398,7 +4452,7 @@
         "bool": true
       }
     ],
-    "id": 162
+    "id": 164
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4425,7 +4479,7 @@
         "bool": false
       }
     ],
-    "id": 163
+    "id": 165
   },
   {
     "info": "5th-year/obstetrics/compiled (2026)",
@@ -4452,7 +4506,7 @@
         "bool": false
       }
     ],
-    "id": 164
+    "id": 166
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4479,7 +4533,7 @@
         "bool": false
       }
     ],
-    "id": 165
+    "id": 167
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4506,7 +4560,7 @@
         "bool": false
       }
     ],
-    "id": 166
+    "id": 168
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4533,7 +4587,7 @@
         "bool": true
       }
     ],
-    "id": 167
+    "id": 169
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4556,7 +4610,7 @@
         "bool": false
       }
     ],
-    "id": 168
+    "id": 170
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4579,7 +4633,7 @@
         "bool": false
       }
     ],
-    "id": 169
+    "id": 171
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4606,7 +4660,7 @@
         "bool": false
       }
     ],
-    "id": 170
+    "id": 172
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4633,7 +4687,7 @@
         "bool": false
       }
     ],
-    "id": 171
+    "id": 173
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4660,7 +4714,7 @@
         "bool": false
       }
     ],
-    "id": 172
+    "id": 174
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4687,7 +4741,7 @@
         "bool": true
       }
     ],
-    "id": 173
+    "id": 175
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4714,7 +4768,7 @@
         "bool": false
       }
     ],
-    "id": 174
+    "id": 176
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4741,7 +4795,7 @@
         "bool": false
       }
     ],
-    "id": 175
+    "id": 177
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4768,7 +4822,7 @@
         "bool": false
       }
     ],
-    "id": 176
+    "id": 178
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4795,7 +4849,7 @@
         "bool": false
       }
     ],
-    "id": 177
+    "id": 179
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4822,7 +4876,7 @@
         "bool": false
       }
     ],
-    "id": 178
+    "id": 180
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4849,7 +4903,7 @@
         "bool": false
       }
     ],
-    "id": 179
+    "id": 181
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4876,7 +4930,7 @@
         "bool": true
       }
     ],
-    "id": 180
+    "id": 182
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4903,7 +4957,7 @@
         "bool": false
       }
     ],
-    "id": 181
+    "id": 183
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4930,7 +4984,7 @@
         "bool": false
       }
     ],
-    "id": 182
+    "id": 184
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4957,7 +5011,7 @@
         "bool": false
       }
     ],
-    "id": 183
+    "id": 185
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -4984,7 +5038,7 @@
         "bool": false
       }
     ],
-    "id": 184
+    "id": 186
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5011,7 +5065,7 @@
         "bool": false
       }
     ],
-    "id": 185
+    "id": 187
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5038,7 +5092,7 @@
         "bool": false
       }
     ],
-    "id": 186
+    "id": 188
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5065,7 +5119,7 @@
         "bool": false
       }
     ],
-    "id": 187
+    "id": 189
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5092,7 +5146,7 @@
         "bool": false
       }
     ],
-    "id": 188
+    "id": 190
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5119,7 +5173,7 @@
         "bool": true
       }
     ],
-    "id": 189
+    "id": 191
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5146,7 +5200,7 @@
         "bool": true
       }
     ],
-    "id": 190
+    "id": 192
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5173,7 +5227,7 @@
         "bool": false
       }
     ],
-    "id": 191
+    "id": 193
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5204,7 +5258,7 @@
         "bool": false
       }
     ],
-    "id": 192
+    "id": 194
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5231,7 +5285,7 @@
         "bool": false
       }
     ],
-    "id": 193
+    "id": 195
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5258,7 +5312,7 @@
         "bool": false
       }
     ],
-    "id": 194
+    "id": 196
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5285,7 +5339,7 @@
         "bool": true
       }
     ],
-    "id": 195
+    "id": 197
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5312,7 +5366,7 @@
         "bool": false
       }
     ],
-    "id": 196
+    "id": 198
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5339,7 +5393,7 @@
         "bool": true
       }
     ],
-    "id": 197
+    "id": 199
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5366,7 +5420,7 @@
         "bool": false
       }
     ],
-    "id": 198
+    "id": 200
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5393,7 +5447,7 @@
         "bool": false
       }
     ],
-    "id": 199
+    "id": 201
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5420,7 +5474,7 @@
         "bool": false
       }
     ],
-    "id": 200
+    "id": 202
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5447,7 +5501,7 @@
         "bool": false
       }
     ],
-    "id": 201
+    "id": 203
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5478,7 +5532,7 @@
         "bool": false
       }
     ],
-    "id": 202
+    "id": 204
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5505,7 +5559,7 @@
         "bool": false
       }
     ],
-    "id": 203
+    "id": 205
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5532,7 +5586,7 @@
         "bool": false
       }
     ],
-    "id": 204
+    "id": 206
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5559,7 +5613,7 @@
         "bool": false
       }
     ],
-    "id": 205
+    "id": 207
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5586,7 +5640,7 @@
         "bool": true
       }
     ],
-    "id": 206
+    "id": 208
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5613,7 +5667,7 @@
         "bool": false
       }
     ],
-    "id": 207
+    "id": 209
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5640,7 +5694,7 @@
         "bool": false
       }
     ],
-    "id": 208
+    "id": 210
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5667,7 +5721,7 @@
         "bool": false
       }
     ],
-    "id": 209
+    "id": 211
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5694,7 +5748,7 @@
         "bool": false
       }
     ],
-    "id": 210
+    "id": 212
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5721,7 +5775,7 @@
         "bool": false
       }
     ],
-    "id": 211
+    "id": 213
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5744,7 +5798,7 @@
         "bool": false
       }
     ],
-    "id": 212
+    "id": 214
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5771,7 +5825,7 @@
         "bool": false
       }
     ],
-    "id": 213
+    "id": 215
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5798,7 +5852,7 @@
         "bool": false
       }
     ],
-    "id": 214
+    "id": 216
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5825,7 +5879,7 @@
         "bool": false
       }
     ],
-    "id": 215
+    "id": 217
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5852,7 +5906,7 @@
         "bool": false
       }
     ],
-    "id": 216
+    "id": 218
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5879,7 +5933,7 @@
         "bool": false
       }
     ],
-    "id": 217
+    "id": 219
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5906,7 +5960,7 @@
         "bool": false
       }
     ],
-    "id": 218
+    "id": 220
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5933,7 +5987,7 @@
         "bool": false
       }
     ],
-    "id": 219
+    "id": 221
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5960,7 +6014,7 @@
         "bool": true
       }
     ],
-    "id": 220
+    "id": 222
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -5987,7 +6041,7 @@
         "bool": false
       }
     ],
-    "id": 221
+    "id": 223
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6014,7 +6068,7 @@
         "bool": true
       }
     ],
-    "id": 222
+    "id": 224
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6041,7 +6095,7 @@
         "bool": false
       }
     ],
-    "id": 223
+    "id": 225
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6068,7 +6122,7 @@
         "bool": false
       }
     ],
-    "id": 224
+    "id": 226
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6095,7 +6149,7 @@
         "bool": false
       }
     ],
-    "id": 225
+    "id": 227
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6122,7 +6176,7 @@
         "bool": false
       }
     ],
-    "id": 226
+    "id": 228
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6149,7 +6203,7 @@
         "bool": false
       }
     ],
-    "id": 227
+    "id": 229
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6176,7 +6230,7 @@
         "bool": false
       }
     ],
-    "id": 228
+    "id": 230
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6203,7 +6257,7 @@
         "bool": true
       }
     ],
-    "id": 229
+    "id": 231
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6230,7 +6284,7 @@
         "bool": false
       }
     ],
-    "id": 230
+    "id": 232
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6257,7 +6311,7 @@
         "bool": false
       }
     ],
-    "id": 231
+    "id": 233
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6284,7 +6338,7 @@
         "bool": false
       }
     ],
-    "id": 232
+    "id": 234
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6311,7 +6365,7 @@
         "bool": false
       }
     ],
-    "id": 233
+    "id": 235
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6338,7 +6392,7 @@
         "bool": false
       }
     ],
-    "id": 234
+    "id": 236
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6365,7 +6419,7 @@
         "bool": false
       }
     ],
-    "id": 235
+    "id": 237
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6392,7 +6446,7 @@
         "bool": true
       }
     ],
-    "id": 236
+    "id": 238
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6419,7 +6473,7 @@
         "bool": false
       }
     ],
-    "id": 237
+    "id": 239
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6446,7 +6500,7 @@
         "bool": false
       }
     ],
-    "id": 238
+    "id": 240
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6473,7 +6527,7 @@
         "bool": false
       }
     ],
-    "id": 239
+    "id": 241
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6500,7 +6554,7 @@
         "bool": false
       }
     ],
-    "id": 240
+    "id": 242
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6527,7 +6581,7 @@
         "bool": true
       }
     ],
-    "id": 241
+    "id": 243
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6558,7 +6612,7 @@
         "bool": false
       }
     ],
-    "id": 242
+    "id": 244
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6585,7 +6639,7 @@
         "bool": false
       }
     ],
-    "id": 243
+    "id": 245
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6612,7 +6666,7 @@
         "bool": false
       }
     ],
-    "id": 244
+    "id": 246
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6639,7 +6693,7 @@
         "bool": false
       }
     ],
-    "id": 245
+    "id": 247
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6666,7 +6720,7 @@
         "bool": true
       }
     ],
-    "id": 246
+    "id": 248
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6693,7 +6747,7 @@
         "bool": false
       }
     ],
-    "id": 247
+    "id": 249
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6720,7 +6774,7 @@
         "bool": false
       }
     ],
-    "id": 248
+    "id": 250
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6747,7 +6801,7 @@
         "bool": false
       }
     ],
-    "id": 249
+    "id": 251
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6774,7 +6828,7 @@
         "bool": true
       }
     ],
-    "id": 250
+    "id": 252
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6801,7 +6855,7 @@
         "bool": false
       }
     ],
-    "id": 251
+    "id": 253
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6828,7 +6882,7 @@
         "bool": false
       }
     ],
-    "id": 252
+    "id": 254
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6855,7 +6909,7 @@
         "bool": false
       }
     ],
-    "id": 253
+    "id": 255
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6882,7 +6936,7 @@
         "bool": false
       }
     ],
-    "id": 254
+    "id": 256
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6909,7 +6963,7 @@
         "bool": false
       }
     ],
-    "id": 255
+    "id": 257
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6936,7 +6990,7 @@
         "bool": false
       }
     ],
-    "id": 256
+    "id": 258
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6963,7 +7017,7 @@
         "bool": false
       }
     ],
-    "id": 257
+    "id": 259
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -6990,7 +7044,7 @@
         "bool": false
       }
     ],
-    "id": 258
+    "id": 260
   },
   {
     "info": "5th-year/obstetrics/compiled (2025)",
@@ -7017,7 +7071,7 @@
         "bool": true
       }
     ],
-    "id": 259
+    "id": 261
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7044,7 +7098,7 @@
         "bool": false
       }
     ],
-    "id": 260
+    "id": 262
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7071,7 +7125,7 @@
         "bool": false
       }
     ],
-    "id": 261
+    "id": 263
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7098,7 +7152,7 @@
         "bool": false
       }
     ],
-    "id": 262
+    "id": 264
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7125,7 +7179,7 @@
         "bool": false
       }
     ],
-    "id": 263
+    "id": 265
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7152,7 +7206,7 @@
         "bool": false
       }
     ],
-    "id": 264
+    "id": 266
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7179,7 +7233,7 @@
         "bool": false
       }
     ],
-    "id": 265
+    "id": 267
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7206,7 +7260,7 @@
         "bool": true
       }
     ],
-    "id": 266
+    "id": 268
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7233,7 +7287,7 @@
         "bool": false
       }
     ],
-    "id": 267
+    "id": 269
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7260,7 +7314,7 @@
         "bool": false
       }
     ],
-    "id": 268
+    "id": 270
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7287,7 +7341,7 @@
         "bool": false
       }
     ],
-    "id": 269
+    "id": 271
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7314,7 +7368,7 @@
         "bool": false
       }
     ],
-    "id": 270
+    "id": 272
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7341,7 +7395,7 @@
         "bool": false
       }
     ],
-    "id": 271
+    "id": 273
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7368,7 +7422,7 @@
         "bool": false
       }
     ],
-    "id": 272
+    "id": 274
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7395,7 +7449,7 @@
         "bool": false
       }
     ],
-    "id": 273
+    "id": 275
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7422,7 +7476,7 @@
         "bool": false
       }
     ],
-    "id": 274
+    "id": 276
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7449,7 +7503,7 @@
         "bool": false
       }
     ],
-    "id": 275
+    "id": 277
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7476,7 +7530,7 @@
         "bool": true
       }
     ],
-    "id": 276
+    "id": 278
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7503,7 +7557,7 @@
         "bool": true
       }
     ],
-    "id": 277
+    "id": 279
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7530,7 +7584,7 @@
         "bool": false
       }
     ],
-    "id": 278
+    "id": 280
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7557,7 +7611,7 @@
         "bool": false
       }
     ],
-    "id": 279
+    "id": 281
   },
   {
     "info": "5th-year/obstetrics/compiled (2024)",
@@ -7581,60 +7635,6 @@
       },
       {
         "option": "Emergency lower-section C-section",
-        "bool": false
-      }
-    ],
-    "id": 280
-  },
-  {
-    "info": "5th-year/obstetrics/compiled (2023)",
-    "question": "A 23-year-old primigravida woman came to the labor room during her 39th gestational week with complaints of labor pain. She delivered a healthy baby girl after a few hours. The woman is known to be Hepatitis B positive. Which of the following is an appropriate management option for the new-born fetus?",
-    "answers": [
-      {
-        "option": "Give neonate Hep B vaccine",
-        "bool": false
-      },
-      {
-        "option": "Screen neonate for virus",
-        "bool": false
-      },
-      {
-        "option": "Give active and passive immunisation",
-        "bool": true
-      },
-      {
-        "option": "Observe neonate for a few months for symptoms before giving vaccine",
-        "bool": false
-      },
-      {
-        "option": "Exclusive breastfeeding",
-        "bool": false
-      }
-    ],
-    "id": 281
-  },
-  {
-    "info": "5th-year/obstetrics/compiled (2023)",
-    "question": "A 24-year-old gravida 3 para 1+1 lady comes to the antenatal clinic in her 11th gestational week. She and her husband are both diagnosed with thalassemia minor. Their previous child was diagnosed with thalassemia major and receives regular blood transfusions. Which of the following is an appropriate screening method for their current fetus?",
-    "answers": [
-      {
-        "option": "Uterine artery doppler",
-        "bool": false
-      },
-      {
-        "option": "Fetal cell DNA",
-        "bool": false
-      },
-      {
-        "option": "Cordocentesis",
-        "bool": false
-      },
-      {
-        "option": "Chorionic villus sampling",
-        "bool": true
-      },
-      {
-        "option": "Amniocentesis",
         "bool": false
       }
     ],
@@ -11610,6 +11610,276 @@
     "id": 429
   },
   {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 24-year-old primigravida lady comes to the antenatal clinic during her 10th gestational week with complaints of fever and a rash which she first noticed 4 days ago. The rash was initially on her face but has now spread to involve her neck and upper arms. She is diagnosed as having rubella. Which of the following is the best possible management option for this patient?",
+    "answers": [
+      {
+        "option": "Terminate pregnancy",
+        "bool": true
+      },
+      {
+        "option": "Admit and advise bed rest",
+        "bool": false
+      },
+      {
+        "option": "Continue pregnancy and offer vaccination afterwards to both baby and mother",
+        "bool": false
+      },
+      {
+        "option": "Offer MMR vaccination",
+        "bool": false
+      },
+      {
+        "option": "Give reassurance",
+        "bool": false
+      }
+    ],
+    "id": 430
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 32-year-old primigravida woman comes to the antenatal clinic. She has a previous history of a renal transplant due to chronic kidney disease and now wants to conceive. Which of the following advice should be given to her?",
+    "answers": [
+      {
+        "option": "Risk of acute rejection in pregnancy is estimated to be 20%",
+        "bool": false
+      },
+      {
+        "option": "Pregnancy is not possible at all due to hypothalamic-gonadal dysfunction",
+        "bool": false
+      },
+      {
+        "option": "No significant complications are associated with the pregnancy",
+        "bool": false
+      },
+      {
+        "option": "90% of female recipients conceive after 2 years",
+        "bool": false
+      },
+      {
+        "option": "Conception is considered to be safe after 2 years",
+        "bool": true
+      }
+    ],
+    "id": 431
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 25-year-old primigravida woman comes to the clinic during her 13th gestational week. She says that her entire family at home is suffering from chickenpox and she is now very anxious about the outcome of her pregnancy. Which of the following is an appropriate management option for her?",
+    "answers": [
+      {
+        "option": "Give varicella-zoster immunoglobulin",
+        "bool": false
+      },
+      {
+        "option": "Prescribe oral acyclovir 800mg 5 times per day",
+        "bool": false
+      },
+      {
+        "option": "Check for Varicella-zoster virus titres",
+        "bool": true
+      },
+      {
+        "option": "Give chickenpox vaccine",
+        "bool": false
+      },
+      {
+        "option": "Wait for rash to appear",
+        "bool": false
+      }
+    ],
+    "id": 432
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 24-year-old primigravida went for a routine antenatal visit during her first trimester. On her ultrasound, it was seen that she was pregnant with twins. Which of the following is the most common complication of a dichorionic, diamniotic pregnancy?",
+    "answers": [
+      {
+        "option": "Miscarriage",
+        "bool": false
+      },
+      {
+        "option": "Pre-term delivery",
+        "bool": true
+      },
+      {
+        "option": "Stillbirth",
+        "bool": false
+      },
+      {
+        "option": "Fetal growth restriction",
+        "bool": false
+      },
+      {
+        "option": "Twin-to-twin transfusion syndrome",
+        "bool": false
+      }
+    ],
+    "id": 433
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 23-year-old primigravida presents to the antenatal clinic after 6 weeks of amenorrhea with complaints of excessive vomiting and vaginal bleeding. A lab test shows serum beta hCG levels as 110,000 IU/L. On examination, the patient has a blood pressure of 110/90 and a distended abdomen. The obstetrician diagnoses it as a case of molar pregnancy with hyperemesis gravidarum. Which of the following hormones is responsible for this symptom?",
+    "answers": [
+      {
+        "option": "Beta hCG",
+        "bool": true
+      },
+      {
+        "option": "TSH",
+        "bool": false
+      },
+      {
+        "option": "Estrogen",
+        "bool": false
+      },
+      {
+        "option": "Progesterone",
+        "bool": false
+      },
+      {
+        "option": "LH",
+        "bool": false
+      }
+    ],
+    "id": 434
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 23-year-old primigravida presents to the antenatal clinic after 6 weeks of amenorrhea with complaints of excessive vomiting and vaginal bleeding. A lab test shows serum beta hCG levels as 110,000 IU/L. On examination, the patient has a blood pressure of 110/90 and a distended abdomen. The obstetrician diagnoses it as a case of molar pregnancy with hyperemesis gravidarum. Which of the following is an appropriate first-line drug used to treat hyperemesis gravidarum?",
+    "answers": [
+      {
+        "option": "Ondansetron",
+        "bool": false
+      },
+      {
+        "option": "Phenothiazine",
+        "bool": true
+      },
+      {
+        "option": "Metoclopramide",
+        "bool": false
+      },
+      {
+        "option": "Corticosteroids",
+        "bool": false
+      },
+      {
+        "option": "Meclizine",
+        "bool": false
+      }
+    ],
+    "id": 435
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 24-year-old primigravida comes to the antenatal clinic during her 28th gestational week complaining of epigastric pain, passing blood-tinged urine, and vomiting for the past 2 days. On examination, her blood pressure is 130/90 and she has tenderness in the right upper quadrant. Which of the following lab values accurately corresponds with her condition?",
+    "answers": [
+      {
+        "option": "Decreased PTT",
+        "bool": false
+      },
+      {
+        "option": "Increased platelets",
+        "bool": false
+      },
+      {
+        "option": "Increased haptoglobin",
+        "bool": false
+      },
+      {
+        "option": "Decreased aspartate aminotransferase",
+        "bool": false
+      },
+      {
+        "option": "Increased LDH",
+        "bool": true
+      }
+    ],
+    "id": 436
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 32-year-old gravida 3 para 2+0 woman comes to the antenatal clinic at 42 weeks of gestation. She is worried about her pregnancy being this prolonged. On further questioning, she admits that she is not entirely sure about her gestational age. Which of the following is the correct method to evaluate gestational age in this case?",
+    "answers": [
+      {
+        "option": "Fetal biometry",
+        "bool": false
+      },
+      {
+        "option": "Second trimester scan",
+        "bool": false
+      },
+      {
+        "option": "First trimester scan",
+        "bool": true
+      },
+      {
+        "option": "Amniotic fluid assessment",
+        "bool": false
+      },
+      {
+        "option": "Symphysis-fundal height (SFH)",
+        "bool": false
+      }
+    ],
+    "id": 437
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 35-year-old female, gravida 4 para 0+3, presents to the outpatient department at 14 weeks of pregnancy. She gives a history of three 2nd-trimester miscarriages and is now concerned about her 4th pregnancy. She was diagnosed with a case of recurrent miscarriages secondary to cervical incompetence. What is the treatment for cervical incompetence?",
+    "answers": [
+      {
+        "option": "NSAIDs",
+        "bool": false
+      },
+      {
+        "option": "Progesterone",
+        "bool": false
+      },
+      {
+        "option": "Antibiotics",
+        "bool": false
+      },
+      {
+        "option": "Cervical cerclage",
+        "bool": true
+      },
+      {
+        "option": "Pessary",
+        "bool": false
+      }
+    ],
+    "id": 438
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2019)",
+    "question": "A 25-year-old primigravida in her 32nd week of gestation is admitted to the labor room of Civil Hospital Karachi and is in the second stage of labor for 2.5 hours. Her midwife informs the obstetrician of the arrest of descent of the fetal head. On examination, the head is 0/5 palpable, the cervix is fully dilated and the membranes are ruptured, caput and molding are moderate. What is the appropriate course of action?",
+    "answers": [
+      {
+        "option": "Ventouse delivery",
+        "bool": false
+      },
+      {
+        "option": "Cesarean section",
+        "bool": false
+      },
+      {
+        "option": "Episiotomy",
+        "bool": false
+      },
+      {
+        "option": "Forceps delivery",
+        "bool": true
+      },
+      {
+        "option": "None of these",
+        "bool": false
+      }
+    ],
+    "id": 439
+  },
+  {
     "info": "5th-year/obstetrics/compiled (2016)",
     "question": "What is the first step in massive obstetric hemorrhage?",
     "answers": [
@@ -11634,7 +11904,7 @@
         "bool": false
       }
     ],
-    "id": 430
+    "id": 440
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11661,7 +11931,7 @@
         "bool": false
       }
     ],
-    "id": 431
+    "id": 441
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11688,7 +11958,7 @@
         "bool": true
       }
     ],
-    "id": 432
+    "id": 442
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11715,7 +11985,7 @@
         "bool": false
       }
     ],
-    "id": 433
+    "id": 443
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11742,7 +12012,7 @@
         "bool": true
       }
     ],
-    "id": 434
+    "id": 444
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11769,7 +12039,7 @@
         "bool": false
       }
     ],
-    "id": 435
+    "id": 445
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11796,7 +12066,7 @@
         "bool": false
       }
     ],
-    "id": 436
+    "id": 446
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11823,7 +12093,7 @@
         "bool": false
       }
     ],
-    "id": 437
+    "id": 447
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11850,7 +12120,7 @@
         "bool": false
       }
     ],
-    "id": 438
+    "id": 448
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11877,7 +12147,7 @@
         "bool": false
       }
     ],
-    "id": 439
+    "id": 449
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11904,7 +12174,7 @@
         "bool": false
       }
     ],
-    "id": 440
+    "id": 450
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11931,7 +12201,7 @@
         "bool": false
       }
     ],
-    "id": 441
+    "id": 451
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11958,7 +12228,7 @@
         "bool": true
       }
     ],
-    "id": 442
+    "id": 452
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -11985,7 +12255,7 @@
         "bool": false
       }
     ],
-    "id": 443
+    "id": 453
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12012,7 +12282,7 @@
         "bool": false
       }
     ],
-    "id": 444
+    "id": 454
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12039,7 +12309,7 @@
         "bool": false
       }
     ],
-    "id": 445
+    "id": 455
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12066,7 +12336,7 @@
         "bool": true
       }
     ],
-    "id": 446
+    "id": 456
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12093,7 +12363,7 @@
         "bool": false
       }
     ],
-    "id": 447
+    "id": 457
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12120,7 +12390,7 @@
         "bool": false
       }
     ],
-    "id": 448
+    "id": 458
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12147,7 +12417,7 @@
         "bool": true
       }
     ],
-    "id": 449
+    "id": 459
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12174,7 +12444,7 @@
         "bool": false
       }
     ],
-    "id": 450
+    "id": 460
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12201,7 +12471,7 @@
         "bool": true
       }
     ],
-    "id": 451
+    "id": 461
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12228,7 +12498,7 @@
         "bool": false
       }
     ],
-    "id": 452
+    "id": 462
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12255,7 +12525,7 @@
         "bool": false
       }
     ],
-    "id": 453
+    "id": 463
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12282,7 +12552,7 @@
         "bool": false
       }
     ],
-    "id": 454
+    "id": 464
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12309,7 +12579,7 @@
         "bool": false
       }
     ],
-    "id": 455
+    "id": 465
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12336,7 +12606,7 @@
         "bool": false
       }
     ],
-    "id": 456
+    "id": 466
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12363,7 +12633,7 @@
         "bool": false
       }
     ],
-    "id": 457
+    "id": 467
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12390,7 +12660,7 @@
         "bool": false
       }
     ],
-    "id": 458
+    "id": 468
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12417,7 +12687,7 @@
         "bool": false
       }
     ],
-    "id": 459
+    "id": 469
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12444,7 +12714,7 @@
         "bool": true
       }
     ],
-    "id": 460
+    "id": 470
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12471,7 +12741,7 @@
         "bool": false
       }
     ],
-    "id": 461
+    "id": 471
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12498,7 +12768,7 @@
         "bool": true
       }
     ],
-    "id": 462
+    "id": 472
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12525,7 +12795,7 @@
         "bool": false
       }
     ],
-    "id": 463
+    "id": 473
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12552,7 +12822,7 @@
         "bool": false
       }
     ],
-    "id": 464
+    "id": 474
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12579,7 +12849,7 @@
         "bool": false
       }
     ],
-    "id": 465
+    "id": 475
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12606,7 +12876,7 @@
         "bool": true
       }
     ],
-    "id": 466
+    "id": 476
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12633,7 +12903,7 @@
         "bool": false
       }
     ],
-    "id": 467
+    "id": 477
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12660,7 +12930,7 @@
         "bool": false
       }
     ],
-    "id": 468
+    "id": 478
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12687,7 +12957,7 @@
         "bool": true
       }
     ],
-    "id": 469
+    "id": 479
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12714,7 +12984,7 @@
         "bool": true
       }
     ],
-    "id": 470
+    "id": 480
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12741,7 +13011,7 @@
         "bool": false
       }
     ],
-    "id": 471
+    "id": 481
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12768,7 +13038,7 @@
         "bool": false
       }
     ],
-    "id": 472
+    "id": 482
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12795,7 +13065,7 @@
         "bool": false
       }
     ],
-    "id": 473
+    "id": 483
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12822,7 +13092,7 @@
         "bool": false
       }
     ],
-    "id": 474
+    "id": 484
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12849,7 +13119,7 @@
         "bool": false
       }
     ],
-    "id": 475
+    "id": 485
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12876,7 +13146,7 @@
         "bool": false
       }
     ],
-    "id": 476
+    "id": 486
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12903,7 +13173,7 @@
         "bool": false
       }
     ],
-    "id": 477
+    "id": 487
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12930,7 +13200,7 @@
         "bool": false
       }
     ],
-    "id": 478
+    "id": 488
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12957,7 +13227,7 @@
         "bool": true
       }
     ],
-    "id": 479
+    "id": 489
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -12980,7 +13250,7 @@
         "bool": false
       }
     ],
-    "id": 480
+    "id": 490
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13007,7 +13277,7 @@
         "bool": false
       }
     ],
-    "id": 481
+    "id": 491
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13034,7 +13304,7 @@
         "bool": false
       }
     ],
-    "id": 482
+    "id": 492
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13061,7 +13331,7 @@
         "bool": false
       }
     ],
-    "id": 483
+    "id": 493
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13088,7 +13358,7 @@
         "bool": false
       }
     ],
-    "id": 484
+    "id": 494
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13115,7 +13385,7 @@
         "bool": false
       }
     ],
-    "id": 485
+    "id": 495
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13142,7 +13412,7 @@
         "bool": false
       }
     ],
-    "id": 486
+    "id": 496
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13169,7 +13439,7 @@
         "bool": false
       }
     ],
-    "id": 487
+    "id": 497
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13196,7 +13466,7 @@
         "bool": false
       }
     ],
-    "id": 488
+    "id": 498
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13223,7 +13493,7 @@
         "bool": false
       }
     ],
-    "id": 489
+    "id": 499
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13250,7 +13520,7 @@
         "bool": false
       }
     ],
-    "id": 490
+    "id": 500
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13277,7 +13547,7 @@
         "bool": false
       }
     ],
-    "id": 491
+    "id": 501
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13304,7 +13574,7 @@
         "bool": false
       }
     ],
-    "id": 492
+    "id": 502
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13331,7 +13601,7 @@
         "bool": false
       }
     ],
-    "id": 493
+    "id": 503
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13358,7 +13628,7 @@
         "bool": false
       }
     ],
-    "id": 494
+    "id": 504
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13385,7 +13655,7 @@
         "bool": false
       }
     ],
-    "id": 495
+    "id": 505
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13412,7 +13682,7 @@
         "bool": false
       }
     ],
-    "id": 496
+    "id": 506
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13439,7 +13709,7 @@
         "bool": false
       }
     ],
-    "id": 497
+    "id": 507
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13466,7 +13736,7 @@
         "bool": false
       }
     ],
-    "id": 498
+    "id": 508
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13493,7 +13763,7 @@
         "bool": true
       }
     ],
-    "id": 499
+    "id": 509
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13520,7 +13790,7 @@
         "bool": true
       }
     ],
-    "id": 500
+    "id": 510
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13547,7 +13817,7 @@
         "bool": false
       }
     ],
-    "id": 501
+    "id": 511
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13574,7 +13844,7 @@
         "bool": true
       }
     ],
-    "id": 502
+    "id": 512
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13601,7 +13871,7 @@
         "bool": false
       }
     ],
-    "id": 503
+    "id": 513
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13628,7 +13898,7 @@
         "bool": true
       }
     ],
-    "id": 504
+    "id": 514
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13655,7 +13925,7 @@
         "bool": false
       }
     ],
-    "id": 505
+    "id": 515
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13682,7 +13952,7 @@
         "bool": false
       }
     ],
-    "id": 506
+    "id": 516
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13709,7 +13979,7 @@
         "bool": false
       }
     ],
-    "id": 507
+    "id": 517
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13736,7 +14006,7 @@
         "bool": true
       }
     ],
-    "id": 508
+    "id": 518
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13763,7 +14033,7 @@
         "bool": false
       }
     ],
-    "id": 509
+    "id": 519
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13790,7 +14060,7 @@
         "bool": false
       }
     ],
-    "id": 510
+    "id": 520
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13817,7 +14087,7 @@
         "bool": false
       }
     ],
-    "id": 511
+    "id": 521
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13844,7 +14114,7 @@
         "bool": false
       }
     ],
-    "id": 512
+    "id": 522
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13871,7 +14141,7 @@
         "bool": true
       }
     ],
-    "id": 513
+    "id": 523
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13898,7 +14168,7 @@
         "bool": false
       }
     ],
-    "id": 514
+    "id": 524
   },
   {
     "info": "5th-year/obstetrics/compiled (2016)",
@@ -13925,7 +14195,34 @@
         "bool": false
       }
     ],
-    "id": 515
+    "id": 525
+  },
+  {
+    "info": "5th-year/obstetrics/compiled (2015)",
+    "question": "Which of the following statements regarding pelvic brim is the inappropriate one?",
+    "answers": [
+      {
+        "option": "The transverse diameter at the pelvic inlet is 13 cm",
+        "bool": false
+      },
+      {
+        "option": "The plane of the pelvic inlet is 55°",
+        "bool": false
+      },
+      {
+        "option": "It is the first structure through which the fetus has to pass through",
+        "bool": false
+      },
+      {
+        "option": "Transverse diameter is measured between the right and left sacroiliac joints",
+        "bool": true
+      },
+      {
+        "option": "The oblique diameter is about 12 cm",
+        "bool": false
+      }
+    ],
+    "id": 526
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -13952,7 +14249,7 @@
         "bool": false
       }
     ],
-    "id": 516
+    "id": 527
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -13979,7 +14276,7 @@
         "bool": false
       }
     ],
-    "id": 517
+    "id": 528
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14006,7 +14303,7 @@
         "bool": false
       }
     ],
-    "id": 518
+    "id": 529
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14033,7 +14330,7 @@
         "bool": false
       }
     ],
-    "id": 519
+    "id": 530
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14060,7 +14357,7 @@
         "bool": false
       }
     ],
-    "id": 520
+    "id": 531
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14087,7 +14384,7 @@
         "bool": true
       }
     ],
-    "id": 521
+    "id": 532
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14114,7 +14411,7 @@
         "bool": false
       }
     ],
-    "id": 522
+    "id": 533
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14141,7 +14438,7 @@
         "bool": false
       }
     ],
-    "id": 523
+    "id": 534
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14168,7 +14465,7 @@
         "bool": false
       }
     ],
-    "id": 524
+    "id": 535
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14195,7 +14492,7 @@
         "bool": false
       }
     ],
-    "id": 525
+    "id": 536
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14222,7 +14519,7 @@
         "bool": false
       }
     ],
-    "id": 526
+    "id": 537
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14249,7 +14546,7 @@
         "bool": false
       }
     ],
-    "id": 527
+    "id": 538
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14276,7 +14573,7 @@
         "bool": false
       }
     ],
-    "id": 528
+    "id": 539
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14303,7 +14600,7 @@
         "bool": true
       }
     ],
-    "id": 529
+    "id": 540
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14330,7 +14627,7 @@
         "bool": false
       }
     ],
-    "id": 530
+    "id": 541
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14357,7 +14654,7 @@
         "bool": false
       }
     ],
-    "id": 531
+    "id": 542
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14384,7 +14681,7 @@
         "bool": false
       }
     ],
-    "id": 532
+    "id": 543
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14411,7 +14708,7 @@
         "bool": false
       }
     ],
-    "id": 533
+    "id": 544
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14438,7 +14735,7 @@
         "bool": false
       }
     ],
-    "id": 534
+    "id": 545
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14465,7 +14762,7 @@
         "bool": false
       }
     ],
-    "id": 535
+    "id": 546
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14492,7 +14789,7 @@
         "bool": false
       }
     ],
-    "id": 536
+    "id": 547
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14519,7 +14816,7 @@
         "bool": false
       }
     ],
-    "id": 537
+    "id": 548
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14546,7 +14843,7 @@
         "bool": false
       }
     ],
-    "id": 538
+    "id": 549
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14573,7 +14870,7 @@
         "bool": false
       }
     ],
-    "id": 539
+    "id": 550
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14600,7 +14897,7 @@
         "bool": false
       }
     ],
-    "id": 540
+    "id": 551
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14627,7 +14924,7 @@
         "bool": false
       }
     ],
-    "id": 541
+    "id": 552
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14654,7 +14951,7 @@
         "bool": false
       }
     ],
-    "id": 542
+    "id": 553
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14681,7 +14978,7 @@
         "bool": false
       }
     ],
-    "id": 543
+    "id": 554
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14708,7 +15005,7 @@
         "bool": false
       }
     ],
-    "id": 544
+    "id": 555
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14735,7 +15032,7 @@
         "bool": false
       }
     ],
-    "id": 545
+    "id": 556
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14762,7 +15059,7 @@
         "bool": false
       }
     ],
-    "id": 546
+    "id": 557
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14789,7 +15086,7 @@
         "bool": false
       }
     ],
-    "id": 547
+    "id": 558
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14816,7 +15113,7 @@
         "bool": false
       }
     ],
-    "id": 548
+    "id": 559
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14843,7 +15140,7 @@
         "bool": false
       }
     ],
-    "id": 549
+    "id": 560
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14870,7 +15167,7 @@
         "bool": false
       }
     ],
-    "id": 550
+    "id": 561
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14897,7 +15194,7 @@
         "bool": true
       }
     ],
-    "id": 551
+    "id": 562
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14924,7 +15221,7 @@
         "bool": false
       }
     ],
-    "id": 552
+    "id": 563
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14951,7 +15248,7 @@
         "bool": false
       }
     ],
-    "id": 553
+    "id": 564
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -14978,7 +15275,7 @@
         "bool": false
       }
     ],
-    "id": 554
+    "id": 565
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15005,7 +15302,7 @@
         "bool": false
       }
     ],
-    "id": 555
+    "id": 566
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15032,7 +15329,7 @@
         "bool": false
       }
     ],
-    "id": 556
+    "id": 567
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15059,7 +15356,7 @@
         "bool": false
       }
     ],
-    "id": 557
+    "id": 568
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15086,7 +15383,7 @@
         "bool": true
       }
     ],
-    "id": 558
+    "id": 569
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15113,7 +15410,7 @@
         "bool": false
       }
     ],
-    "id": 559
+    "id": 570
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15140,7 +15437,7 @@
         "bool": false
       }
     ],
-    "id": 560
+    "id": 571
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15167,7 +15464,7 @@
         "bool": false
       }
     ],
-    "id": 561
+    "id": 572
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15194,7 +15491,7 @@
         "bool": false
       }
     ],
-    "id": 562
+    "id": 573
   },
   {
     "info": "5th-year/obstetrics/compiled (2014)",
@@ -15221,7 +15518,7 @@
         "bool": false
       }
     ],
-    "id": 563
+    "id": 574
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15248,7 +15545,7 @@
         "bool": false
       }
     ],
-    "id": 564
+    "id": 575
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15275,7 +15572,7 @@
         "bool": false
       }
     ],
-    "id": 565
+    "id": 576
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15302,7 +15599,7 @@
         "bool": true
       }
     ],
-    "id": 566
+    "id": 577
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15329,7 +15626,7 @@
         "bool": true
       }
     ],
-    "id": 567
+    "id": 578
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15356,7 +15653,7 @@
         "bool": false
       }
     ],
-    "id": 568
+    "id": 579
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15383,7 +15680,7 @@
         "bool": false
       }
     ],
-    "id": 569
+    "id": 580
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15410,7 +15707,7 @@
         "bool": false
       }
     ],
-    "id": 570
+    "id": 581
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15437,7 +15734,7 @@
         "bool": false
       }
     ],
-    "id": 571
+    "id": 582
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15464,7 +15761,7 @@
         "bool": true
       }
     ],
-    "id": 572
+    "id": 583
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15491,7 +15788,7 @@
         "bool": false
       }
     ],
-    "id": 573
+    "id": 584
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15518,7 +15815,7 @@
         "bool": true
       }
     ],
-    "id": 574
+    "id": 585
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15545,7 +15842,7 @@
         "bool": false
       }
     ],
-    "id": 575
+    "id": 586
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15572,7 +15869,7 @@
         "bool": true
       }
     ],
-    "id": 576
+    "id": 587
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15599,7 +15896,7 @@
         "bool": false
       }
     ],
-    "id": 577
+    "id": 588
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15626,7 +15923,7 @@
         "bool": true
       }
     ],
-    "id": 578
+    "id": 589
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15653,7 +15950,7 @@
         "bool": false
       }
     ],
-    "id": 579
+    "id": 590
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15680,7 +15977,7 @@
         "bool": false
       }
     ],
-    "id": 580
+    "id": 591
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15707,7 +16004,7 @@
         "bool": false
       }
     ],
-    "id": 581
+    "id": 592
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15734,7 +16031,7 @@
         "bool": true
       }
     ],
-    "id": 582
+    "id": 593
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15761,7 +16058,7 @@
         "bool": false
       }
     ],
-    "id": 583
+    "id": 594
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15788,7 +16085,7 @@
         "bool": false
       }
     ],
-    "id": 584
+    "id": 595
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15815,7 +16112,7 @@
         "bool": false
       }
     ],
-    "id": 585
+    "id": 596
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15842,7 +16139,7 @@
         "bool": false
       }
     ],
-    "id": 586
+    "id": 597
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15869,7 +16166,7 @@
         "bool": false
       }
     ],
-    "id": 587
+    "id": 598
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15896,7 +16193,7 @@
         "bool": false
       }
     ],
-    "id": 588
+    "id": 599
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15923,7 +16220,7 @@
         "bool": false
       }
     ],
-    "id": 589
+    "id": 600
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15950,7 +16247,7 @@
         "bool": true
       }
     ],
-    "id": 590
+    "id": 601
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -15977,7 +16274,7 @@
         "bool": false
       }
     ],
-    "id": 591
+    "id": 602
   },
   {
     "info": "5th-year/obstetrics/compiled (2013)",
@@ -16004,7 +16301,7 @@
         "bool": true
       }
     ],
-    "id": 592
+    "id": 603
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16031,7 +16328,7 @@
         "bool": true
       }
     ],
-    "id": 593
+    "id": 604
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16058,7 +16355,7 @@
         "bool": true
       }
     ],
-    "id": 594
+    "id": 605
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16085,7 +16382,7 @@
         "bool": false
       }
     ],
-    "id": 595
+    "id": 606
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16112,7 +16409,7 @@
         "bool": true
       }
     ],
-    "id": 596
+    "id": 607
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16139,7 +16436,7 @@
         "bool": false
       }
     ],
-    "id": 597
+    "id": 608
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16166,7 +16463,7 @@
         "bool": false
       }
     ],
-    "id": 598
+    "id": 609
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16193,7 +16490,7 @@
         "bool": false
       }
     ],
-    "id": 599
+    "id": 610
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16220,7 +16517,7 @@
         "bool": false
       }
     ],
-    "id": 600
+    "id": 611
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16247,7 +16544,7 @@
         "bool": false
       }
     ],
-    "id": 601
+    "id": 612
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16274,7 +16571,7 @@
         "bool": false
       }
     ],
-    "id": 602
+    "id": 613
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16301,7 +16598,7 @@
         "bool": false
       }
     ],
-    "id": 603
+    "id": 614
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16328,7 +16625,7 @@
         "bool": false
       }
     ],
-    "id": 604
+    "id": 615
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16355,7 +16652,7 @@
         "bool": false
       }
     ],
-    "id": 605
+    "id": 616
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16382,7 +16679,7 @@
         "bool": false
       }
     ],
-    "id": 606
+    "id": 617
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16409,7 +16706,7 @@
         "bool": false
       }
     ],
-    "id": 607
+    "id": 618
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16436,7 +16733,7 @@
         "bool": true
       }
     ],
-    "id": 608
+    "id": 619
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16463,7 +16760,7 @@
         "bool": false
       }
     ],
-    "id": 609
+    "id": 620
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16490,7 +16787,7 @@
         "bool": false
       }
     ],
-    "id": 610
+    "id": 621
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16517,7 +16814,7 @@
         "bool": false
       }
     ],
-    "id": 611
+    "id": 622
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16544,7 +16841,7 @@
         "bool": false
       }
     ],
-    "id": 612
+    "id": 623
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16571,7 +16868,7 @@
         "bool": false
       }
     ],
-    "id": 613
+    "id": 624
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16598,7 +16895,7 @@
         "bool": false
       }
     ],
-    "id": 614
+    "id": 625
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16625,7 +16922,7 @@
         "bool": false
       }
     ],
-    "id": 615
+    "id": 626
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16652,7 +16949,7 @@
         "bool": false
       }
     ],
-    "id": 616
+    "id": 627
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16679,7 +16976,7 @@
         "bool": false
       }
     ],
-    "id": 617
+    "id": 628
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16706,7 +17003,7 @@
         "bool": false
       }
     ],
-    "id": 618
+    "id": 629
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16733,7 +17030,7 @@
         "bool": false
       }
     ],
-    "id": 619
+    "id": 630
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16760,7 +17057,7 @@
         "bool": false
       }
     ],
-    "id": 620
+    "id": 631
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16787,7 +17084,7 @@
         "bool": false
       }
     ],
-    "id": 621
+    "id": 632
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16814,7 +17111,7 @@
         "bool": true
       }
     ],
-    "id": 622
+    "id": 633
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16841,7 +17138,7 @@
         "bool": false
       }
     ],
-    "id": 623
+    "id": 634
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16868,7 +17165,7 @@
         "bool": true
       }
     ],
-    "id": 624
+    "id": 635
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16895,7 +17192,7 @@
         "bool": false
       }
     ],
-    "id": 625
+    "id": 636
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16922,7 +17219,7 @@
         "bool": false
       }
     ],
-    "id": 626
+    "id": 637
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16949,7 +17246,7 @@
         "bool": false
       }
     ],
-    "id": 627
+    "id": 638
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -16976,7 +17273,7 @@
         "bool": false
       }
     ],
-    "id": 628
+    "id": 639
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17003,7 +17300,7 @@
         "bool": false
       }
     ],
-    "id": 629
+    "id": 640
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17030,7 +17327,7 @@
         "bool": false
       }
     ],
-    "id": 630
+    "id": 641
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17057,7 +17354,7 @@
         "bool": false
       }
     ],
-    "id": 631
+    "id": 642
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17084,7 +17381,7 @@
         "bool": true
       }
     ],
-    "id": 632
+    "id": 643
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17111,7 +17408,7 @@
         "bool": false
       }
     ],
-    "id": 633
+    "id": 644
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17138,7 +17435,7 @@
         "bool": false
       }
     ],
-    "id": 634
+    "id": 645
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17165,7 +17462,7 @@
         "bool": true
       }
     ],
-    "id": 635
+    "id": 646
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17192,7 +17489,7 @@
         "bool": false
       }
     ],
-    "id": 636
+    "id": 647
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17219,7 +17516,7 @@
         "bool": false
       }
     ],
-    "id": 637
+    "id": 648
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17246,7 +17543,7 @@
         "bool": false
       }
     ],
-    "id": 638
+    "id": 649
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17273,7 +17570,7 @@
         "bool": false
       }
     ],
-    "id": 639
+    "id": 650
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17300,7 +17597,7 @@
         "bool": false
       }
     ],
-    "id": 640
+    "id": 651
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17327,7 +17624,7 @@
         "bool": false
       }
     ],
-    "id": 641
+    "id": 652
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17354,7 +17651,7 @@
         "bool": false
       }
     ],
-    "id": 642
+    "id": 653
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17381,7 +17678,7 @@
         "bool": false
       }
     ],
-    "id": 643
+    "id": 654
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17408,7 +17705,7 @@
         "bool": false
       }
     ],
-    "id": 644
+    "id": 655
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17435,7 +17732,7 @@
         "bool": true
       }
     ],
-    "id": 645
+    "id": 656
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17462,7 +17759,7 @@
         "bool": false
       }
     ],
-    "id": 646
+    "id": 657
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17489,7 +17786,7 @@
         "bool": false
       }
     ],
-    "id": 647
+    "id": 658
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17516,7 +17813,7 @@
         "bool": false
       }
     ],
-    "id": 648
+    "id": 659
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17543,7 +17840,7 @@
         "bool": false
       }
     ],
-    "id": 649
+    "id": 660
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17570,7 +17867,7 @@
         "bool": false
       }
     ],
-    "id": 650
+    "id": 661
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17597,7 +17894,7 @@
         "bool": true
       }
     ],
-    "id": 651
+    "id": 662
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17624,7 +17921,7 @@
         "bool": true
       }
     ],
-    "id": 652
+    "id": 663
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17651,7 +17948,7 @@
         "bool": false
       }
     ],
-    "id": 653
+    "id": 664
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17674,7 +17971,7 @@
         "bool": false
       }
     ],
-    "id": 654
+    "id": 665
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17701,7 +17998,7 @@
         "bool": false
       }
     ],
-    "id": 655
+    "id": 666
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17728,7 +18025,7 @@
         "bool": false
       }
     ],
-    "id": 656
+    "id": 667
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17755,7 +18052,7 @@
         "bool": false
       }
     ],
-    "id": 657
+    "id": 668
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17782,7 +18079,7 @@
         "bool": true
       }
     ],
-    "id": 658
+    "id": 669
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17809,7 +18106,7 @@
         "bool": false
       }
     ],
-    "id": 659
+    "id": 670
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17836,7 +18133,7 @@
         "bool": false
       }
     ],
-    "id": 660
+    "id": 671
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17863,7 +18160,7 @@
         "bool": false
       }
     ],
-    "id": 661
+    "id": 672
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17890,7 +18187,7 @@
         "bool": false
       }
     ],
-    "id": 662
+    "id": 673
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17917,7 +18214,7 @@
         "bool": false
       }
     ],
-    "id": 663
+    "id": 674
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17944,7 +18241,7 @@
         "bool": false
       }
     ],
-    "id": 664
+    "id": 675
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17971,7 +18268,7 @@
         "bool": false
       }
     ],
-    "id": 665
+    "id": 676
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -17998,7 +18295,7 @@
         "bool": false
       }
     ],
-    "id": 666
+    "id": 677
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18025,7 +18322,7 @@
         "bool": false
       }
     ],
-    "id": 667
+    "id": 678
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18052,7 +18349,7 @@
         "bool": false
       }
     ],
-    "id": 668
+    "id": 679
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18079,7 +18376,7 @@
         "bool": false
       }
     ],
-    "id": 669
+    "id": 680
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18106,7 +18403,7 @@
         "bool": false
       }
     ],
-    "id": 670
+    "id": 681
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18133,7 +18430,7 @@
         "bool": false
       }
     ],
-    "id": 671
+    "id": 682
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18160,7 +18457,7 @@
         "bool": false
       }
     ],
-    "id": 672
+    "id": 683
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18187,7 +18484,7 @@
         "bool": false
       }
     ],
-    "id": 673
+    "id": 684
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18214,7 +18511,7 @@
         "bool": false
       }
     ],
-    "id": 674
+    "id": 685
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18241,7 +18538,7 @@
         "bool": false
       }
     ],
-    "id": 675
+    "id": 686
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18268,7 +18565,7 @@
         "bool": true
       }
     ],
-    "id": 676
+    "id": 687
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18295,7 +18592,7 @@
         "bool": false
       }
     ],
-    "id": 677
+    "id": 688
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18322,7 +18619,7 @@
         "bool": true
       }
     ],
-    "id": 678
+    "id": 689
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18349,7 +18646,7 @@
         "bool": false
       }
     ],
-    "id": 679
+    "id": 690
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18376,7 +18673,7 @@
         "bool": false
       }
     ],
-    "id": 680
+    "id": 691
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18403,7 +18700,7 @@
         "bool": false
       }
     ],
-    "id": 681
+    "id": 692
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18430,7 +18727,7 @@
         "bool": false
       }
     ],
-    "id": 682
+    "id": 693
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18457,7 +18754,7 @@
         "bool": true
       }
     ],
-    "id": 683
+    "id": 694
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18484,7 +18781,7 @@
         "bool": true
       }
     ],
-    "id": 684
+    "id": 695
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18511,7 +18808,7 @@
         "bool": false
       }
     ],
-    "id": 685
+    "id": 696
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18538,7 +18835,7 @@
         "bool": false
       }
     ],
-    "id": 686
+    "id": 697
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18565,7 +18862,7 @@
         "bool": false
       }
     ],
-    "id": 687
+    "id": 698
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18592,7 +18889,7 @@
         "bool": false
       }
     ],
-    "id": 688
+    "id": 699
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18619,7 +18916,7 @@
         "bool": false
       }
     ],
-    "id": 689
+    "id": 700
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18646,7 +18943,7 @@
         "bool": false
       }
     ],
-    "id": 690
+    "id": 701
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18673,7 +18970,7 @@
         "bool": false
       }
     ],
-    "id": 691
+    "id": 702
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18700,7 +18997,7 @@
         "bool": false
       }
     ],
-    "id": 692
+    "id": 703
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18727,7 +19024,7 @@
         "bool": false
       }
     ],
-    "id": 693
+    "id": 704
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18754,7 +19051,7 @@
         "bool": false
       }
     ],
-    "id": 694
+    "id": 705
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18781,7 +19078,7 @@
         "bool": false
       }
     ],
-    "id": 695
+    "id": 706
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18808,7 +19105,7 @@
         "bool": false
       }
     ],
-    "id": 696
+    "id": 707
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18835,7 +19132,7 @@
         "bool": false
       }
     ],
-    "id": 697
+    "id": 708
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18862,7 +19159,7 @@
         "bool": true
       }
     ],
-    "id": 698
+    "id": 709
   },
   {
     "info": "5th-year/obstetrics/compiled (2012)",
@@ -18889,7 +19186,7 @@
         "bool": false
       }
     ],
-    "id": 699
+    "id": 710
   },
   {
     "info": "5th-year/obstetrics/compiled (2011)",
@@ -18916,7 +19213,7 @@
         "bool": true
       }
     ],
-    "id": 700
+    "id": 711
   },
   {
     "info": "5th-year/obstetrics/compiled (2011)",
@@ -18943,7 +19240,7 @@
         "bool": false
       }
     ],
-    "id": 701
+    "id": 712
   },
   {
     "info": "5th-year/obstetrics/compiled (2011)",
@@ -18970,7 +19267,7 @@
         "bool": false
       }
     ],
-    "id": 702
+    "id": 713
   },
   {
     "info": "5th-year/obstetrics/compiled (2011)",
@@ -18997,7 +19294,7 @@
         "bool": false
       }
     ],
-    "id": 703
+    "id": 714
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19024,7 +19321,7 @@
         "bool": false
       }
     ],
-    "id": 704
+    "id": 715
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19051,7 +19348,7 @@
         "bool": true
       }
     ],
-    "id": 705
+    "id": 716
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19078,7 +19375,7 @@
         "bool": false
       }
     ],
-    "id": 706
+    "id": 717
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19105,7 +19402,7 @@
         "bool": false
       }
     ],
-    "id": 707
+    "id": 718
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19132,7 +19429,7 @@
         "bool": false
       }
     ],
-    "id": 708
+    "id": 719
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19159,7 +19456,7 @@
         "bool": false
       }
     ],
-    "id": 709
+    "id": 720
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19186,7 +19483,7 @@
         "bool": false
       }
     ],
-    "id": 710
+    "id": 721
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19213,7 +19510,7 @@
         "bool": false
       }
     ],
-    "id": 711
+    "id": 722
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19240,7 +19537,7 @@
         "bool": false
       }
     ],
-    "id": 712
+    "id": 723
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19267,7 +19564,7 @@
         "bool": true
       }
     ],
-    "id": 713
+    "id": 724
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19294,7 +19591,7 @@
         "bool": true
       }
     ],
-    "id": 714
+    "id": 725
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19321,7 +19618,7 @@
         "bool": false
       }
     ],
-    "id": 715
+    "id": 726
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19348,7 +19645,7 @@
         "bool": false
       }
     ],
-    "id": 716
+    "id": 727
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19375,7 +19672,7 @@
         "bool": false
       }
     ],
-    "id": 717
+    "id": 728
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19402,7 +19699,7 @@
         "bool": false
       }
     ],
-    "id": 718
+    "id": 729
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19429,7 +19726,7 @@
         "bool": false
       }
     ],
-    "id": 719
+    "id": 730
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19456,7 +19753,7 @@
         "bool": false
       }
     ],
-    "id": 720
+    "id": 731
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19483,7 +19780,7 @@
         "bool": false
       }
     ],
-    "id": 721
+    "id": 732
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19510,7 +19807,7 @@
         "bool": false
       }
     ],
-    "id": 722
+    "id": 733
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19537,7 +19834,7 @@
         "bool": false
       }
     ],
-    "id": 723
+    "id": 734
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19564,7 +19861,7 @@
         "bool": false
       }
     ],
-    "id": 724
+    "id": 735
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19591,7 +19888,7 @@
         "bool": false
       }
     ],
-    "id": 725
+    "id": 736
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19618,7 +19915,7 @@
         "bool": false
       }
     ],
-    "id": 726
+    "id": 737
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19645,7 +19942,7 @@
         "bool": false
       }
     ],
-    "id": 727
+    "id": 738
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19672,7 +19969,7 @@
         "bool": false
       }
     ],
-    "id": 728
+    "id": 739
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19699,7 +19996,7 @@
         "bool": false
       }
     ],
-    "id": 729
+    "id": 740
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19722,7 +20019,7 @@
         "bool": true
       }
     ],
-    "id": 730
+    "id": 741
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19749,7 +20046,7 @@
         "bool": false
       }
     ],
-    "id": 731
+    "id": 742
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19776,7 +20073,7 @@
         "bool": false
       }
     ],
-    "id": 732
+    "id": 743
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19803,7 +20100,7 @@
         "bool": false
       }
     ],
-    "id": 733
+    "id": 744
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19830,7 +20127,7 @@
         "bool": false
       }
     ],
-    "id": 734
+    "id": 745
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19857,7 +20154,7 @@
         "bool": false
       }
     ],
-    "id": 735
+    "id": 746
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19884,7 +20181,7 @@
         "bool": false
       }
     ],
-    "id": 736
+    "id": 747
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19911,7 +20208,7 @@
         "bool": false
       }
     ],
-    "id": 737
+    "id": 748
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19938,7 +20235,7 @@
         "bool": false
       }
     ],
-    "id": 738
+    "id": 749
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19965,7 +20262,7 @@
         "bool": false
       }
     ],
-    "id": 739
+    "id": 750
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -19992,7 +20289,7 @@
         "bool": true
       }
     ],
-    "id": 740
+    "id": 751
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20019,7 +20316,7 @@
         "bool": false
       }
     ],
-    "id": 741
+    "id": 752
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20046,7 +20343,7 @@
         "bool": false
       }
     ],
-    "id": 742
+    "id": 753
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20073,7 +20370,7 @@
         "bool": true
       }
     ],
-    "id": 743
+    "id": 754
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20100,7 +20397,7 @@
         "bool": false
       }
     ],
-    "id": 744
+    "id": 755
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20127,7 +20424,7 @@
         "bool": false
       }
     ],
-    "id": 745
+    "id": 756
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20154,7 +20451,7 @@
         "bool": false
       }
     ],
-    "id": 746
+    "id": 757
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20181,7 +20478,7 @@
         "bool": false
       }
     ],
-    "id": 747
+    "id": 758
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20208,7 +20505,7 @@
         "bool": false
       }
     ],
-    "id": 748
+    "id": 759
   },
   {
     "info": "5th-year/obstetrics/compiled (2009)",
@@ -20235,7 +20532,7 @@
         "bool": false
       }
     ],
-    "id": 749
+    "id": 760
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20262,7 +20559,7 @@
         "bool": true
       }
     ],
-    "id": 750
+    "id": 761
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20289,7 +20586,7 @@
         "bool": false
       }
     ],
-    "id": 751
+    "id": 762
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20316,7 +20613,7 @@
         "bool": false
       }
     ],
-    "id": 752
+    "id": 763
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20343,7 +20640,7 @@
         "bool": false
       }
     ],
-    "id": 753
+    "id": 764
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20370,7 +20667,7 @@
         "bool": false
       }
     ],
-    "id": 754
+    "id": 765
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20397,7 +20694,7 @@
         "bool": false
       }
     ],
-    "id": 755
+    "id": 766
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20424,7 +20721,7 @@
         "bool": false
       }
     ],
-    "id": 756
+    "id": 767
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20451,7 +20748,7 @@
         "bool": false
       }
     ],
-    "id": 757
+    "id": 768
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20478,7 +20775,7 @@
         "bool": false
       }
     ],
-    "id": 758
+    "id": 769
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20505,7 +20802,7 @@
         "bool": false
       }
     ],
-    "id": 759
+    "id": 770
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20532,7 +20829,7 @@
         "bool": false
       }
     ],
-    "id": 760
+    "id": 771
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20559,7 +20856,7 @@
         "bool": true
       }
     ],
-    "id": 761
+    "id": 772
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20586,7 +20883,7 @@
         "bool": true
       }
     ],
-    "id": 762
+    "id": 773
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20613,7 +20910,7 @@
         "bool": false
       }
     ],
-    "id": 763
+    "id": 774
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20640,7 +20937,7 @@
         "bool": false
       }
     ],
-    "id": 764
+    "id": 775
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20667,7 +20964,7 @@
         "bool": false
       }
     ],
-    "id": 765
+    "id": 776
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20694,7 +20991,7 @@
         "bool": true
       }
     ],
-    "id": 766
+    "id": 777
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20721,7 +21018,7 @@
         "bool": false
       }
     ],
-    "id": 767
+    "id": 778
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20748,7 +21045,7 @@
         "bool": false
       }
     ],
-    "id": 768
+    "id": 779
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20775,7 +21072,7 @@
         "bool": false
       }
     ],
-    "id": 769
+    "id": 780
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20802,7 +21099,7 @@
         "bool": false
       }
     ],
-    "id": 770
+    "id": 781
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20829,7 +21126,7 @@
         "bool": false
       }
     ],
-    "id": 771
+    "id": 782
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20856,7 +21153,7 @@
         "bool": false
       }
     ],
-    "id": 772
+    "id": 783
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20883,7 +21180,7 @@
         "bool": false
       }
     ],
-    "id": 773
+    "id": 784
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20910,7 +21207,7 @@
         "bool": false
       }
     ],
-    "id": 774
+    "id": 785
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20937,7 +21234,7 @@
         "bool": false
       }
     ],
-    "id": 775
+    "id": 786
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20964,7 +21261,7 @@
         "bool": true
       }
     ],
-    "id": 776
+    "id": 787
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -20991,7 +21288,7 @@
         "bool": true
       }
     ],
-    "id": 777
+    "id": 788
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21018,7 +21315,7 @@
         "bool": false
       }
     ],
-    "id": 778
+    "id": 789
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21045,7 +21342,7 @@
         "bool": false
       }
     ],
-    "id": 779
+    "id": 790
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21072,7 +21369,7 @@
         "bool": true
       }
     ],
-    "id": 780
+    "id": 791
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21099,7 +21396,7 @@
         "bool": false
       }
     ],
-    "id": 781
+    "id": 792
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21126,7 +21423,7 @@
         "bool": true
       }
     ],
-    "id": 782
+    "id": 793
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21153,7 +21450,7 @@
         "bool": false
       }
     ],
-    "id": 783
+    "id": 794
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21180,7 +21477,7 @@
         "bool": true
       }
     ],
-    "id": 784
+    "id": 795
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21207,7 +21504,7 @@
         "bool": true
       }
     ],
-    "id": 785
+    "id": 796
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21234,7 +21531,7 @@
         "bool": false
       }
     ],
-    "id": 786
+    "id": 797
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21261,7 +21558,7 @@
         "bool": true
       }
     ],
-    "id": 787
+    "id": 798
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21288,7 +21585,7 @@
         "bool": false
       }
     ],
-    "id": 788
+    "id": 799
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21315,7 +21612,7 @@
         "bool": true
       }
     ],
-    "id": 789
+    "id": 800
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21342,7 +21639,7 @@
         "bool": false
       }
     ],
-    "id": 790
+    "id": 801
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21369,7 +21666,7 @@
         "bool": false
       }
     ],
-    "id": 791
+    "id": 802
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21396,7 +21693,7 @@
         "bool": false
       }
     ],
-    "id": 792
+    "id": 803
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21423,7 +21720,7 @@
         "bool": false
       }
     ],
-    "id": 793
+    "id": 804
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21450,7 +21747,7 @@
         "bool": false
       }
     ],
-    "id": 794
+    "id": 805
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21477,7 +21774,7 @@
         "bool": false
       }
     ],
-    "id": 795
+    "id": 806
   },
   {
     "info": "5th-year/obstetrics/compiled (2008)",
@@ -21504,6 +21801,6 @@
         "bool": true
       }
     ],
-    "id": 796
+    "id": 807
   }
 ]

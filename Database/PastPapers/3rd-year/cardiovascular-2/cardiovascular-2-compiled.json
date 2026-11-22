@@ -81,6 +81,33 @@
     "id": 2
   },
   {
+    "info": "3rd-year/cardiovascular-2/compiled (2021, 2020, 2019, 2012)",
+    "question": "A 4-year-old boy is brought by his parents with the complaint that he frequently catches a cold and gets cough. According to the parents, he had pneumonia thrice this year and had to be admitted to the hospital one time. On examination, an ejection systolic murmur is heard on the left upper sternal border with a fixed splitting of the second heart sound. The first heart sound is loud. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Ventricular septal defect",
+        "bool": false
+      },
+      {
+        "option": "Patent ductus arteriosus",
+        "bool": false
+      },
+      {
+        "option": "Atrial septal defect",
+        "bool": true
+      },
+      {
+        "option": "Cystic fibrosis",
+        "bool": false
+      },
+      {
+        "option": "Coarctation of aorta",
+        "bool": false
+      }
+    ],
+    "id": 3
+  },
+  {
     "info": "3rd-year/cardiovascular-2/compiled (2025, 2021, 2019)",
     "question": "What is the length of nasogastric tube that should be inserted during gastric lavage?",
     "answers": [
@@ -105,7 +132,7 @@
         "bool": true
       }
     ],
-    "id": 3
+    "id": 4
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024, 2023, 2022)",
@@ -132,7 +159,7 @@
         "bool": false
       }
     ],
-    "id": 4
+    "id": 5
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023, 2022, 2020)",
@@ -159,7 +186,7 @@
         "bool": true
       }
     ],
-    "id": 5
+    "id": 6
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023, 2022, 2021)",
@@ -186,7 +213,7 @@
         "bool": false
       }
     ],
-    "id": 6
+    "id": 7
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2019, 2018)",
@@ -213,7 +240,7 @@
         "bool": true
       }
     ],
-    "id": 7
+    "id": 8
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2019, 2018)",
@@ -240,7 +267,7 @@
         "bool": false
       }
     ],
-    "id": 8
+    "id": 9
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2019, 2018)",
@@ -267,7 +294,7 @@
         "bool": false
       }
     ],
-    "id": 9
+    "id": 10
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2019)",
@@ -294,7 +321,7 @@
         "bool": false
       }
     ],
-    "id": 10
+    "id": 11
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2020, 2019)",
@@ -321,7 +348,7 @@
         "bool": false
       }
     ],
-    "id": 11
+    "id": 12
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2019)",
@@ -348,7 +375,7 @@
         "bool": false
       }
     ],
-    "id": 12
+    "id": 13
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2020, 2019)",
@@ -375,7 +402,7 @@
         "bool": false
       }
     ],
-    "id": 13
+    "id": 14
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -402,7 +429,7 @@
         "bool": true
       }
     ],
-    "id": 14
+    "id": 15
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -429,7 +456,7 @@
         "bool": true
       }
     ],
-    "id": 15
+    "id": 16
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -456,7 +483,7 @@
         "bool": false
       }
     ],
-    "id": 16
+    "id": 17
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -483,7 +510,7 @@
         "bool": true
       }
     ],
-    "id": 17
+    "id": 18
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -510,7 +537,7 @@
         "bool": true
       }
     ],
-    "id": 18
+    "id": 19
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -537,7 +564,7 @@
         "bool": false
       }
     ],
-    "id": 19
+    "id": 20
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022, 2021, 2020)",
@@ -561,33 +588,6 @@
       },
       {
         "option": "0.28 sec",
-        "bool": false
-      }
-    ],
-    "id": 20
-  },
-  {
-    "info": "3rd-year/cardiovascular-2/compiled (2021, 2020, 2019)",
-    "question": "A 4-year-old boy is brought by his parents with the complaint that he frequently catches a cold and gets cough. According to the parents, he had pneumonia thrice this year and had to be admitted to the hospital one time. On examination, an ejection systolic murmur is heard on the left upper sternal border with a fixed splitting of the second heart sound. The first heart sound is loud. What is the most likely diagnosis?",
-    "answers": [
-      {
-        "option": "Ventricular septal defect",
-        "bool": false
-      },
-      {
-        "option": "Patent ductus arteriosus",
-        "bool": false
-      },
-      {
-        "option": "Atrial septal defect",
-        "bool": true
-      },
-      {
-        "option": "Cystic fibrosis",
-        "bool": false
-      },
-      {
-        "option": "Coarctation of aorta",
         "bool": false
       }
     ],
@@ -2079,6 +2079,33 @@
     "id": 76
   },
   {
+    "info": "3rd-year/cardiovascular-2/compiled (2021, 2016)",
+    "question": "Which of these is closely related to the partially hydrogenated oils?",
+    "answers": [
+      {
+        "option": "Cis form of fat",
+        "bool": false
+      },
+      {
+        "option": "Mono unsaturated fats",
+        "bool": false
+      },
+      {
+        "option": "Saturated fats",
+        "bool": false
+      },
+      {
+        "option": "Poly unsaturated fats",
+        "bool": false
+      },
+      {
+        "option": "Trans form of fat",
+        "bool": true
+      }
+    ],
+    "id": 77
+  },
+  {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2017)",
     "question": "Which of these is a non-modifiable risk factor in the context of cardiovascular diseases?",
     "answers": [
@@ -2103,7 +2130,7 @@
         "bool": false
       }
     ],
-    "id": 77
+    "id": 78
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2018)",
@@ -2130,7 +2157,7 @@
         "bool": true
       }
     ],
-    "id": 78
+    "id": 79
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2019)",
@@ -2157,7 +2184,7 @@
         "bool": false
       }
     ],
-    "id": 79
+    "id": 80
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2184,7 +2211,7 @@
         "bool": false
       }
     ],
-    "id": 80
+    "id": 81
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2211,7 +2238,7 @@
         "bool": false
       }
     ],
-    "id": 81
+    "id": 82
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2238,7 +2265,7 @@
         "bool": false
       }
     ],
-    "id": 82
+    "id": 83
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2265,7 +2292,7 @@
         "bool": true
       }
     ],
-    "id": 83
+    "id": 84
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2292,7 +2319,7 @@
         "bool": false
       }
     ],
-    "id": 84
+    "id": 85
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2319,7 +2346,7 @@
         "bool": false
       }
     ],
-    "id": 85
+    "id": 86
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2346,7 +2373,7 @@
         "bool": true
       }
     ],
-    "id": 86
+    "id": 87
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2373,7 +2400,7 @@
         "bool": false
       }
     ],
-    "id": 87
+    "id": 88
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2400,7 +2427,7 @@
         "bool": false
       }
     ],
-    "id": 88
+    "id": 89
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021, 2020)",
@@ -2427,7 +2454,7 @@
         "bool": false
       }
     ],
-    "id": 89
+    "id": 90
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2017)",
@@ -2454,7 +2481,7 @@
         "bool": false
       }
     ],
-    "id": 90
+    "id": 91
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2018)",
@@ -2481,7 +2508,7 @@
         "bool": false
       }
     ],
-    "id": 91
+    "id": 92
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2508,7 +2535,7 @@
         "bool": false
       }
     ],
-    "id": 92
+    "id": 93
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2535,7 +2562,7 @@
         "bool": false
       }
     ],
-    "id": 93
+    "id": 94
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2562,7 +2589,7 @@
         "bool": false
       }
     ],
-    "id": 94
+    "id": 95
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2589,7 +2616,7 @@
         "bool": true
       }
     ],
-    "id": 95
+    "id": 96
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2616,7 +2643,7 @@
         "bool": false
       }
     ],
-    "id": 96
+    "id": 97
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2643,7 +2670,7 @@
         "bool": false
       }
     ],
-    "id": 97
+    "id": 98
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2670,7 +2697,7 @@
         "bool": false
       }
     ],
-    "id": 98
+    "id": 99
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2697,7 +2724,7 @@
         "bool": false
       }
     ],
-    "id": 99
+    "id": 100
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020, 2019)",
@@ -2724,7 +2751,7 @@
         "bool": false
       }
     ],
-    "id": 100
+    "id": 101
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2751,7 +2778,7 @@
         "bool": false
       }
     ],
-    "id": 101
+    "id": 102
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2778,7 +2805,7 @@
         "bool": true
       }
     ],
-    "id": 102
+    "id": 103
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2805,7 +2832,7 @@
         "bool": false
       }
     ],
-    "id": 103
+    "id": 104
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2832,7 +2859,7 @@
         "bool": false
       }
     ],
-    "id": 104
+    "id": 105
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2859,7 +2886,7 @@
         "bool": true
       }
     ],
-    "id": 105
+    "id": 106
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2886,7 +2913,7 @@
         "bool": true
       }
     ],
-    "id": 106
+    "id": 107
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2017)",
@@ -2913,7 +2940,7 @@
         "bool": false
       }
     ],
-    "id": 107
+    "id": 108
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -2940,7 +2967,7 @@
         "bool": false
       }
     ],
-    "id": 108
+    "id": 109
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -2967,7 +2994,7 @@
         "bool": false
       }
     ],
-    "id": 109
+    "id": 110
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -2994,7 +3021,7 @@
         "bool": true
       }
     ],
-    "id": 110
+    "id": 111
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -3021,7 +3048,7 @@
         "bool": false
       }
     ],
-    "id": 111
+    "id": 112
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -3048,7 +3075,7 @@
         "bool": true
       }
     ],
-    "id": 112
+    "id": 113
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -3075,7 +3102,7 @@
         "bool": false
       }
     ],
-    "id": 113
+    "id": 114
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -3102,7 +3129,7 @@
         "bool": false
       }
     ],
-    "id": 114
+    "id": 115
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019, 2018)",
@@ -3129,7 +3156,7 @@
         "bool": false
       }
     ],
-    "id": 115
+    "id": 116
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018, 2017)",
@@ -3156,7 +3183,7 @@
         "bool": false
       }
     ],
-    "id": 116
+    "id": 117
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018, 2017)",
@@ -3183,7 +3210,7 @@
         "bool": false
       }
     ],
-    "id": 117
+    "id": 118
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018, 2017)",
@@ -3210,7 +3237,7 @@
         "bool": false
       }
     ],
-    "id": 118
+    "id": 119
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018, 2017)",
@@ -3237,7 +3264,7 @@
         "bool": true
       }
     ],
-    "id": 119
+    "id": 120
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018, 2017)",
@@ -3264,7 +3291,7 @@
         "bool": false
       }
     ],
-    "id": 120
+    "id": 121
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018, 2017)",
@@ -3291,7 +3318,1330 @@
         "bool": false
       }
     ],
-    "id": 121
+    "id": 122
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "\"Tramline\" bruising is a specific pattern caused by the impact of a cylindrical solid object. This would be classified as what type of bruise?",
+    "answers": [
+      {
+        "option": "Intradermal patterned bruise",
+        "bool": true
+      },
+      {
+        "option": "Ectopic bruise",
+        "bool": false
+      },
+      {
+        "option": "Subcutaneous hematoma",
+        "bool": false
+      },
+      {
+        "option": "Petechial suction bruise",
+        "bool": false
+      },
+      {
+        "option": "Deep contusion",
+        "bool": false
+      }
+    ],
+    "id": 123
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A patient with an abdominal aortic aneurysm has an atherosclerotic plaque with numerous activated macrophages. Which enzymes released by these cells contribute to degradation of the vascular extracellular matrix?",
+    "answers": [
+      {
+        "option": "metalloproteinases",
+        "bool": true
+      },
+      {
+        "option": "exopeptidases",
+        "bool": false
+      },
+      {
+        "option": "phosphatases",
+        "bool": false
+      },
+      {
+        "option": "transaminases",
+        "bool": false
+      },
+      {
+        "option": "protein kinases",
+        "bool": false
+      }
+    ],
+    "id": 124
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A patient arrives 2 hours after onset of severe chest pain coronary angiography demonstrates complete occlusion of an epicardial coronary artery. Which type of infarction is most likely?",
+    "answers": [
+      {
+        "option": "Transmural infarction",
+        "bool": true
+      },
+      {
+        "option": "Multifocal infarction",
+        "bool": false
+      },
+      {
+        "option": "Septal infarction",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhagic infarction",
+        "bool": false
+      },
+      {
+        "option": "Subendocardial infarction",
+        "bool": false
+      }
+    ],
+    "id": 125
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 45 year old women develops endothelial dysfunction associated with reduced nitic oxide availability. Which vascular function would be most directly impaired?",
+    "answers": [
+      {
+        "option": "Platelet production",
+        "bool": false
+      },
+      {
+        "option": "Oxygen binding",
+        "bool": false
+      },
+      {
+        "option": "Formation of red blood cells",
+        "bool": false
+      },
+      {
+        "option": "Regulation of vascular tone",
+        "bool": true
+      },
+      {
+        "option": "Collagen synthesis",
+        "bool": false
+      }
+    ],
+    "id": 126
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 63-year-old woman who survived an acute transmural myocardial infarction 8 weeks ago attends a hospital-based outpatient cardiac rehabilitation program. The program features structured, medically supervised aerobic exercise training, nutritional counseling, psychosocial support, and optimization of secondary cardioprotective pharmacotherapy. This clinical intervention exemplifies which level of prevention?",
+    "answers": [
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Quaternary prevention",
+        "bool": false
+      },
+      {
+        "option": "Tertiary prevention",
+        "bool": true
+      },
+      {
+        "option": "Primary prevention",
+        "bool": false
+      }
+    ],
+    "id": 127
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "Digoxin is a cardiac glycoside utilized in selected patients with heart failure and supraventricular arrhythmias because it enhances myocardial contractility while slowing atrioventricular (AV) nodal conduction through increased parasympathetic (vagal) activity. What is the fundamental molecular target directly inhibited by digoxin on the cardiomyocyte membrane?",
+    "answers": [
+      {
+        "option": "Sarcoplasmic reticulum Ca2+-ATPase (SERCA2a)",
+        "bool": false
+      },
+      {
+        "option": "L-type voltage-gated calcium channels",
+        "bool": false
+      },
+      {
+        "option": "Sarcolemmal sodium-calcium exchanger (NCX)",
+        "bool": false
+      },
+      {
+        "option": "Sarcolemmal Na+/K+-ATPase pump",
+        "bool": true
+      },
+      {
+        "option": "Cardiac phosphodiesterase type 3 (PDE-3)",
+        "bool": false
+      }
+    ],
+    "id": 128
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 58 year old man with hypertension and remote history of myocardial infarction with preserved left ventricular systolic function requires an additional antihypertensive agent. Immediate release short acting dihydropyridines (such as immediate-release nifedipine) are avoided because they cause reflex sympathetic tachycardia and increase myocardial oxygen demand. Which of the following calcium channel blockers exerts negative inotropic and chronotropic actions without triggering reflex tachycardia?",
+    "answers": [
+      {
+        "option": "Immediate-release Nifedipine",
+        "bool": false
+      },
+      {
+        "option": "Nimodipine",
+        "bool": false
+      },
+      {
+        "option": "Felodipine",
+        "bool": false
+      },
+      {
+        "option": "Verapamil",
+        "bool": true
+      },
+      {
+        "option": "Nicardipine",
+        "bool": false
+      }
+    ],
+    "id": 129
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 54-year-old man with a 6-year history of type 2 diabetes mellitus, hypertension, and mixed dyslipidemia is found to have microalbuminuria (urine albumin-to-creatinine ratio 180 mg/g) on routine urinalysis. His current blood pressure is 152/92 mmHg. Which of the following antihypertensive medications is the preferred first-line agent due to its proven ability to reduce intraglomerular pressure and retard the progression of diabetic nephropathy",
+    "answers": [
+      {
+        "option": "Hydrochlorothiazide",
+        "bool": false
+      },
+      {
+        "option": "Hydralazine",
+        "bool": false
+      },
+      {
+        "option": "Enalapril",
+        "bool": true
+      },
+      {
+        "option": "Clonidine",
+        "bool": false
+      },
+      {
+        "option": "Atenolol",
+        "bool": false
+      }
+    ],
+    "id": 130
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "In medical jurisprudence and criminal law, how is the legal offense of 'assault' distinguished from 'battery'?",
+    "answers": [
+      {
+        "option": "Assault requires proof of actual bodily harm, whereas battery involves only non-contact verbal intimidation",
+        "bool": false
+      },
+      {
+        "option": "Assault requires proof of severe permanent grievous injury, whereas battery is a minor bailable infraction",
+        "bool": false
+      },
+      {
+        "option": "Assault cannot be legally committed without physical bodily contact simultaneously taking place",
+        "bool": false
+      },
+      {
+        "option": "Assault involves an intentional act creating a reasonable apprehension of imminent harmful contact, whereas battery requires the actual unlawful application of physical force",
+        "bool": true
+      },
+      {
+        "option": "Assault applies only to damage inflicted on tangible property, whereas battery applies to physical contact with a person",
+        "bool": false
+      }
+    ],
+    "id": 131
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A patient with hypertrophic obstructive cardiomyopathy develops worsening symptoms after standing suddenly. What is the likely mechanism?",
+    "answers": [
+      {
+        "option": "Reduced preload worsening LV outflow obstruction",
+        "bool": true
+      },
+      {
+        "option": "Decreased LV outflow tract obstruction",
+        "bool": false
+      },
+      {
+        "option": "Increased coronary perfusion",
+        "bool": false
+      },
+      {
+        "option": "Increased systemic vascular resistance only",
+        "bool": false
+      },
+      {
+        "option": "Increased LV preload",
+        "bool": false
+      }
+    ],
+    "id": 132
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 26 year old women attends a pre-conceptional counseling clinic in anticipation of her first pregnancy. Which of the following nutritional supplements should be prescribed starting prior to conception and continued through out early pregnancy to significantly reduce the incidence of congenital anomalies, including congenital heart defects and neural tube defects?",
+    "answers": [
+      {
+        "option": "Vitamin C",
+        "bool": false
+      },
+      {
+        "option": "Folic acid",
+        "bool": true
+      },
+      {
+        "option": "Vitamin K1",
+        "bool": false
+      },
+      {
+        "option": "Vitamin D3",
+        "bool": false
+      },
+      {
+        "option": "Vitamin A",
+        "bool": false
+      }
+    ],
+    "id": 133
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "In forensic traumatology, an abrasion that faithfully reproduces the distinctive geometrical pattern, weave, or surface configuration of the offending weapon or object upon the victim’s skin is termed an imprint or patterned abrasion.\nWhich of the following is a classic forensic example of an imprint abrasion?",
+    "answers": [
+      {
+        "option": "A curved crescentic scratch mark produced by a fingernail on the neck",
+        "bool": false
+      },
+      {
+        "option": "An irregular linear scrape abrasion sustained during a slide over asphalt",
+        "bool": false
+      },
+      {
+        "option": "An incised defense wound with cleanly divided tissue planes on the forearm",
+        "bool": false
+      },
+      {
+        "option": "A stellate crush laceration over the vertex of the scalp",
+        "bool": false
+      },
+      {
+        "option": "A grooved ligature mark around the neck bearing the weave pattern of a suspension rope in hanging",
+        "bool": true
+      }
+    ],
+    "id": 134
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A provincial government introduces restrictions on tobacco advertising, requires healthier foods in schools and develops bicycle lanes to promote physical activity. Which preventive approach is best represented by these policies?",
+    "answers": [
+      {
+        "option": "Primordial prevention",
+        "bool": true
+      },
+      {
+        "option": "Disability limitation",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Tertiary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primary prevention",
+        "bool": false
+      }
+    ],
+    "id": 135
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A patient develops myocardial infarction after prolonged hypotension due to septic shock. Only the inner one-third of the ventricular wall is involved. Which type of infarction is this?",
+    "answers": [
+      {
+        "option": "Multifocal infarction",
+        "bool": false
+      },
+      {
+        "option": "Papillary infarction",
+        "bool": false
+      },
+      {
+        "option": "Transmural infarction",
+        "bool": false
+      },
+      {
+        "option": "Subendocardial infarction",
+        "bool": true
+      },
+      {
+        "option": "Hemorrhagic infarction",
+        "bool": false
+      }
+    ],
+    "id": 136
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 4-year-old child with a known history of a large, uncorrected membranous ventricular septal defect (VSD) was previously noted to have a loud, harsh pansystolic murmur. Upon recent re-evaluation, the murmur has markedly softened and diminished in intensity, but the child has now developed perioral cyanosis on mild exertion and digital clubbing. What hemodynamic transition explains this clinical progression?",
+    "answers": [
+      {
+        "option": "Development of severe pulmonary vascular resistance leading to reversal of the shunt from right-to-left (Eisenmenger syndrome)",
+        "bool": true
+      },
+      {
+        "option": "Acute infective endocarditis causing mitral valve leaflet perforation",
+        "bool": false
+      },
+      {
+        "option": "Spontaneous anatomical closure of the ventricular septal defect with complete normalization of pressures",
+        "bool": false
+      },
+      {
+        "option": "Development of isolated tricuspid valve insufficiency with right-sided heart failure",
+        "bool": false
+      },
+      {
+        "option": "Development of acute left-to-right shunting through an acquired atrial septal defect",
+        "bool": false
+      }
+    ],
+    "id": 137
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 62-year-old man presents with facial plethora, periorbital edema, and prominent engorged superficial collateral veins over the anterior chest wall and neck. A contrast-enhanced chest CT scan confirms severe extrinsic compression and thrombosis of the superior vena cava by an invasive mediastinal mass. Which of the following neoplasms is the most common cause of superior vena cava (SVC) syndrome?",
+    "answers": [
+      {
+        "option": "Esophageal adenocarcinoma",
+        "bool": false
+      },
+      {
+        "option": "Mediastinal thymoma",
+        "bool": false
+      },
+      {
+        "option": "Pericardial mesothelioma",
+        "bool": false
+      },
+      {
+        "option": "Hodgkin lymphoma",
+        "bool": false
+      },
+      {
+        "option": "Bronchogenic carcinoma",
+        "bool": true
+      }
+    ],
+    "id": 138
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 2-year-old boy is brought to the emergency department with a sudden episode of severe cyanosis and rapid breathing. His mother reports that similar episodes occur when he becomes upset or cries and that he often squats after playing. On examination, he is centrally cyanosed and has a harsh ejection systolic murmur at the left upper sternal border. Chest X-ray shows a normal-sized heart with reduced pulmonary vascular markings. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Coarctation of the aorta",
+        "bool": false
+      },
+      {
+        "option": "Tetralogy of Fallot",
+        "bool": true
+      },
+      {
+        "option": "Atrial septal defect",
+        "bool": false
+      },
+      {
+        "option": "Patent ductus arteriosus",
+        "bool": false
+      },
+      {
+        "option": "Ventricular septal defect",
+        "bool": false
+      }
+    ],
+    "id": 139
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 67 year old man undergoes surgical internal fixation for an unstable pelvic fracture. On post operative day 3, following continuous strict bed rest, he develops unilateral calf swelling, warmth, tenderness and pitting edema. What component of Virchow's triad is the primary predisposing factor for this deep vein thrombosis (DVT)?",
+    "answers": [
+      {
+        "option": "venous stasis secondary to prolonged immobilization",
+        "bool": true
+      },
+      {
+        "option": "Reactive thrombocytosis secondary to acute surgical blood loss",
+        "bool": false
+      },
+      {
+        "option": "Congenital deficiency of antithrombin lll",
+        "bool": false
+      },
+      {
+        "option": "Direct mechanical transection of the popliteal vein",
+        "bool": false
+      },
+      {
+        "option": "Increased lymphatic clearance and vascular compliance",
+        "bool": false
+      }
+    ],
+    "id": 140
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 66-year-old man who sustained an extensive anterior myocardial infarction remains persistently hypotensive with cold, clammy extremities, oliguria, and pulmonary vascular congestion despite initial intravenous fluid administration. What is the fundamental pathophysiological disturbance responsible for his cardiogenic shock?",
+    "answers": [
+      {
+        "option": "Severe primary myocardial pump failure resulting in critically reduced cardiac output and inadequate tissue perfusion",
+        "bool": true
+      },
+      {
+        "option": "Severe intravascular volume depletion secondary to excessive osmotic diuresis",
+        "bool": false
+      },
+      {
+        "option": "Capillary leak syndrome causing massive third-space fluid sequestration",
+        "bool": false
+      },
+      {
+        "option": "Complete autonomic failure with loss of central sympathetic vasomotor tone",
+        "bool": false
+      },
+      {
+        "option": "Widespread peripheral arteriolar vasodilation causing profound reduction in systemic vascular resistance",
+        "bool": false
+      }
+    ],
+    "id": 141
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 28-year-old woman presents with acute pleuritic chest pain following an upper respiratory tract infection. Cardiac examination reveals a three-phase pericardial friction rub. Which of the following electrocardiographic (ECG) patterns is characteristically seen during the early stage (Stage 1) of acute pericarditis?",
+    "answers": [
+      {
+        "option": "Focal convex ST-segment elevation with reciprocal ST-segment depression in opposite leads",
+        "bool": false
+      },
+      {
+        "option": "Prominent S1Q3T3 pattern with right bundle branch block",
+        "bool": false
+      },
+      {
+        "option": "Diffuse, widespread concave ST-segment elevation with PR-segment depression",
+        "bool": true
+      },
+      {
+        "option": "Electrical alternans with alternating amplitude of the QRS complex in all leads",
+        "bool": false
+      },
+      {
+        "option": "Deep pathological Q waves with symmetric T-wave inversions across leads II, III, and aVF",
+        "bool": false
+      }
+    ],
+    "id": 142
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 32-year-old man presents to the clinic with sharp, retrosternal chest pain that radiates to his left trapezius ridge. The pain is pleuritic, worsening significantly with coughing and deep inspiration. A high-pitched, scratchy friction rub is heard on auscultation. Which of the following positional changes is characteristically known to relieve the chest discomfort of acute pericarditis?",
+    "answers": [
+      {
+        "option": "Standing upright and performing the Valsalva maneuver",
+        "bool": false
+      },
+      {
+        "option": "Flexing the knees and hips while lying supine",
+        "bool": false
+      },
+      {
+        "option": "Sitting upright and leaning forward",
+        "bool": true
+      },
+      {
+        "option": "Lying flat in the supine position",
+        "bool": false
+      },
+      {
+        "option": "Assuming the left lateral decubitus position",
+        "bool": false
+      }
+    ],
+    "id": 143
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A pathologist examines an infarcted heart 5 days after myocardial infarction. Which cells are predominantly responsible for removal of dead myocardial fibers?",
+    "answers": [
+      {
+        "option": "Neutrophils",
+        "bool": false
+      },
+      {
+        "option": "Eosinophils",
+        "bool": false
+      },
+      {
+        "option": "Plasma cells",
+        "bool": false
+      },
+      {
+        "option": "Fibroblasts",
+        "bool": false
+      },
+      {
+        "option": "Macrophages",
+        "bool": true
+      }
+    ],
+    "id": 144
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "An elderly woman presents with a persistent, severe unilateral throbbing headache, scalp tenderness when brushing her hair, and pain in her jaw muscles while chewing. Laboratory evaluation reveals an ESR of 105 mm/hr and elevated C-reactive protein. What is the most likely diagnosis?",
+    "answers": [
+      {
+        "option": "Granulomatosis with polyangiitis",
+        "bool": false
+      },
+      {
+        "option": "Polyarteritis nodosa",
+        "bool": false
+      },
+      {
+        "option": "Giant cell (temporal) arteritis",
+        "bool": true
+      },
+      {
+        "option": "Takayasu arteritis",
+        "bool": false
+      },
+      {
+        "option": "Microscopic polyangiitis",
+        "bool": false
+      }
+    ],
+    "id": 145
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 16-year-old girl had acute rheumatic fever with carditis five years ago and now has mild residual mitral regurgitation. She comes in for a planned tooth extraction and has been faithfully receiving monthly benzathine penicillin prophylaxis. What is the best approach to take before the dental procedure?",
+    "answers": [
+      {
+        "option": "Temporarily stop her penicillin prophylaxis and use infective endocarditis prophylaxis in its place",
+        "bool": false
+      },
+      {
+        "option": "Give only NSAIDs ahead of the procedure",
+        "bool": false
+      },
+      {
+        "option": "Do not give prophylaxis of any type, because her residual valve disease is mild",
+        "bool": true
+      },
+      {
+        "option": "Do not give any extra antibiotics, because her current penicillin prophylaxis already covers her",
+        "bool": false
+      },
+      {
+        "option": "Add infective endocarditis prophylaxis on top of her ongoing secondary rheumatic fever prophylaxis",
+        "bool": false
+      }
+    ],
+    "id": 146
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 12-year-old girl is diagnosed with acute rheumatic fever after a throat infection. Which organism is the main trigger behind acute rheumatic fever and the chronic rheumatic heart disease that can follow?",
+    "answers": [
+      {
+        "option": "Streptococcus pyogenes",
+        "bool": true
+      },
+      {
+        "option": "Enterococcus faecalis",
+        "bool": false
+      },
+      {
+        "option": "Staphylococcus aureus",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus viridans",
+        "bool": false
+      },
+      {
+        "option": "Streptococcus pneumoniae",
+        "bool": false
+      }
+    ],
+    "id": 147
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 10-year-old boy develops chorea, migratory polyarthritis, subcutaneous nodules, and a new apical holosystolic murmur three weeks after an untreated sore throat. The heart and valve damage in acute rheumatic fever results from antibody cross-reactivity aimed at which bacterial virulence factor?",
+    "answers": [
+      {
+        "option": "Streptococcal pyrogenic exotoxin A",
+        "bool": false
+      },
+      {
+        "option": "Capsular hyaluronic acid",
+        "bool": false
+      },
+      {
+        "option": "Streptococcal M protein",
+        "bool": true
+      },
+      {
+        "option": "Staphylococcal protein A",
+        "bool": false
+      },
+      {
+        "option": "Streptolysin O",
+        "bool": false
+      }
+    ],
+    "id": 148
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 54-year-old man with severe mitral regurgitation develops progressive dilation of the left ventricle. Which type of hypertrophy is most likely to occur?",
+    "answers": [
+      {
+        "option": "Symmetric hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Physiologic hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Concentric hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Restrictive hypertrophy",
+        "bool": false
+      },
+      {
+        "option": "Eccentric hypertrophy",
+        "bool": true
+      }
+    ],
+    "id": 149
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "An 18-year-old male basketball player suddenly collapses during strenuous exercise and dies despite resuscitation attempts. At autopsy, the heart shows disproportionate thickening of the interventricular septum compared with the left ventricular free wall, resulting in a narrowed, banana-shaped ventricular cavity. Which type of ventricular remodeling is most characteristic of this condition?",
+    "answers": [
+      {
+        "option": "Right ventricular fibrofatty replacement",
+        "bool": false
+      },
+      {
+        "option": "Concentric / asymmetric septal hypertrophy",
+        "bool": true
+      },
+      {
+        "option": "Eccentric hypertrophy with chamber dilatation",
+        "bool": false
+      },
+      {
+        "option": "Transmural ischemic wall thinning with aneurysm",
+        "bool": false
+      },
+      {
+        "option": "Restrictive endocardial fibrosis",
+        "bool": false
+      }
+    ],
+    "id": 150
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A young adult man has a strong family history of dilated cardiomyopathy. Genetic testing identifies a truncating mutation in the TTN gene. Which protein is most directly affected by this mutation?",
+    "answers": [
+      {
+        "option": "Troponin I",
+        "bool": false
+      },
+      {
+        "option": "Titin",
+        "bool": true
+      },
+      {
+        "option": "Alpha-tropomyosin",
+        "bool": false
+      },
+      {
+        "option": "Myosin-binding protein c",
+        "bool": false
+      },
+      {
+        "option": "Dystrophin",
+        "bool": false
+      }
+    ],
+    "id": 151
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "In ballistics, the internal bore of a rifled firearm barrel features alternating helical raised ridges and indented grooves. What is the primary mechanical and aerodynamic purpose of this rifling?",
+    "answers": [
+      {
+        "option": "Imparts rotational spin to the bullet around its longitudinal axis, improving flight stability and trajectory accuracy.",
+        "bool": true
+      },
+      {
+        "option": "Reduces gas pressure within the barrel to prevent damage to the firearm chamber.",
+        "bool": false
+      },
+      {
+        "option": "Dissipates excess heat to prevent barrel overheating during firing.",
+        "bool": false
+      },
+      {
+        "option": "Decreases the muzzle velocity of the projectile to minimize terminal damage.",
+        "bool": false
+      },
+      {
+        "option": "Facilitates the mechanical extraction and ejection of the spent cartridge case.",
+        "bool": false
+      }
+    ],
+    "id": 152
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "The likelihood and visibility of bruising following blunt trauma vary according to the tissue structure, skin thickness, and vascularity of the affected region. In which of the following anatomical sites is bruise formation most difficult or significantly delayed due to thick, tightly adherent skin and dense underlying fibrous tissue?",
+    "answers": [
+      {
+        "option": "Scrotal wall",
+        "bool": false
+      },
+      {
+        "option": "Anterior abdominal wall",
+        "bool": false
+      },
+      {
+        "option": "Subcutaneous tissue of the eyelids",
+        "bool": false
+      },
+      {
+        "option": "Vulvar labia",
+        "bool": false
+      },
+      {
+        "option": "Palmar surface of the hand",
+        "bool": true
+      }
+    ],
+    "id": 153
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "In traumatology, examining a blunt force injury requires differentiating between a contusion and laceration. Which of the following morphological characteristics fundamentally distinguishes a bruise from laceration?",
+    "answers": [
+      {
+        "option": "Tissue bridging of intact nerves and vessels occurs in a bruise but is absent in a  laceration",
+        "bool": false
+      },
+      {
+        "option": "The anatomical continuity of the overlying skin remains intact in bruise",
+        "bool": true
+      },
+      {
+        "option": "Extravasation of blood into the subcutaneous tissue occurs only in a laceration",
+        "bool": false
+      },
+      {
+        "option": "Hair bulbs and nerve strands are cleanly sheared in a bruise",
+        "bool": false
+      },
+      {
+        "option": "Wound margins are sharply incised, clean-cut, and everted in a bruise",
+        "bool": false
+      }
+    ],
+    "id": 154
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "Under the Qisas and Diyat law, an injury that does not involve the head or face and does not penetrate into a body cavity is classified as?",
+    "answers": [
+      {
+        "option": "Shajjah-e-ammah",
+        "bool": false
+      },
+      {
+        "option": "Shajjah-e-mudihah",
+        "bool": false
+      },
+      {
+        "option": "Ghair Jaifah",
+        "bool": true
+      },
+      {
+        "option": "Itlaf-i-salahiyyat-i-udw",
+        "bool": false
+      },
+      {
+        "option": "Jaifah",
+        "bool": false
+      }
+    ],
+    "id": 155
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "Shajjah-e-ammah is best defined as an injury to the head or face that:",
+    "answers": [
+      {
+        "option": "Penetrates into a body cavity of the trunk",
+        "bool": false
+      },
+      {
+        "option": "Fractures the skull bone touching the membranes",
+        "bool": false
+      },
+      {
+        "option": "Causes only superficial bleeding without exposing bone",
+        "bool": true
+      },
+      {
+        "option": "Reaches the membrane of the brain without rupturing it",
+        "bool": false
+      },
+      {
+        "option": "Exposes the bone without fracturing it",
+        "bool": false
+      }
+    ],
+    "id": 156
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "An elderly women with primary hypercholesterolemia is started on cholestyramine.  One month later, she presents with complain of severe bloating, abdominal fullness, and chronic constipation. Lab tests show mild decrease in fat-soluble vitamins. What is the primary mechanism of action of this medication?",
+    "answers": [
+      {
+        "option": "Direct chemical degradation of circulating chylomicrons",
+        "bool": false
+      },
+      {
+        "option": "Binding and sequestration of bile acids in small intestine",
+        "bool": true
+      },
+      {
+        "option": "Competitive inhibition of systemic triglyceride synthesis",
+        "bool": false
+      },
+      {
+        "option": "Inactivation of intracellular hormone sensitive lipase",
+        "bool": false
+      },
+      {
+        "option": "Upregulation of hepatic LDL receptors via PCSK9 inhibition",
+        "bool": false
+      }
+    ],
+    "id": 157
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A patient develops hypotension, raised JVP and clear lung sounds after an inferior wall myocardial infraction. Which complication should be expected?",
+    "answers": [
+      {
+        "option": "Left ventricular failure",
+        "bool": false
+      },
+      {
+        "option": "Acute mitral regurgitation",
+        "bool": false
+      },
+      {
+        "option": "Cardiac tamponade",
+        "bool": false
+      },
+      {
+        "option": "Ventricular septal rupture",
+        "bool": false
+      },
+      {
+        "option": "Right ventricular infarction",
+        "bool": true
+      }
+    ],
+    "id": 158
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "An elderly male is evaluated during routine follow-up appointment. He has been taking an antiarrhythmic drug for the past year to maintain sinus rhythm following a history of paroxysmal atrial fibrillation. He reports recent progressive shortness of breath with exertion and a dry cough. A chest x-ray reveals patchy, bilateral interstitial infiltrates, restrictive pulmonary functionary tests. Which drug is most likely responsible for the findings?",
+    "answers": [
+      {
+        "option": "Flecainide",
+        "bool": false
+      },
+      {
+        "option": "Lidocaine",
+        "bool": false
+      },
+      {
+        "option": "Amiodarone",
+        "bool": true
+      },
+      {
+        "option": "Verapamil",
+        "bool": false
+      },
+      {
+        "option": "Esmolol",
+        "bool": false
+      }
+    ],
+    "id": 159
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 68 year old man undergoes an abdominal CT scan during an evaluation for persistent generalized back pain. The scan reveals a focal, asymmetrical outpouching involving only a portion of the abdominal aortic circumference on one side of the vessel wall, with a laminated mural thrombus occupying the lumen. What is the classification of this aneurysm?",
+    "answers": [
+      {
+        "option": "Fusiform aneurysm",
+        "bool": false
+      },
+      {
+        "option": "Dissecting aneurysm",
+        "bool": false
+      },
+      {
+        "option": "Mycotic aneurysm",
+        "bool": false
+      },
+      {
+        "option": "Saccular aneurysm",
+        "bool": true
+      },
+      {
+        "option": "False aneurysm",
+        "bool": false
+      }
+    ],
+    "id": 160
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 62 year old women undergoes a vascular surgery. Few weeks later, she complains of a pulsatile mass at the side of arterial instrumentation. Imaging shows a defect in the arterial wall with an adjacent hematoma communicating with arterial lumen. What is the diagnosis?",
+    "answers": [
+      {
+        "option": "Aortic dissection",
+        "bool": false
+      },
+      {
+        "option": "Pseudoaneurysm",
+        "bool": true
+      },
+      {
+        "option": "Atherosclerotic plaque",
+        "bool": false
+      },
+      {
+        "option": "Fusiform aneurysm",
+        "bool": false
+      },
+      {
+        "option": "True aneurysm",
+        "bool": false
+      }
+    ],
+    "id": 161
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 69 year old man who sustained an acute transmural inferior myocardial infarction 4 days ago suddenly develops severe shortness of breath, profound hypotension, and pulmonary edema. On physical examination a new harsh, loud holosystolic murmur is heard best at the cardiac apex ,radiating to axilla. Which of the following complications has most likely occured?",
+    "answers": [
+      {
+        "option": "Ventricular septal rupture causing an acquired left to right",
+        "bool": false
+      },
+      {
+        "option": "Acute fibrinous pericarditis",
+        "bool": false
+      },
+      {
+        "option": "Posteromedial papillary muscle rupture causing acute mitral regurgitation",
+        "bool": true
+      },
+      {
+        "option": "Development of a true left ventricular aneurysm",
+        "bool": false
+      },
+      {
+        "option": "Left ventricular free wall rupture causing hemopericardium",
+        "bool": false
+      }
+    ],
+    "id": 162
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 69 year old man who sustained an acute transmural inferior myocardial infarction 4 days ago suddenly develops severe shortness of breath, profound hypotension, and pulmonary edema. On physical examination a new harsh, loud holosystolic murmur is heard best at the cardiac apex ,radiating to axilla. Which of the following complications has most likely occurred?",
+    "answers": [
+      {
+        "option": "Left ventricular free wall rupture causing hemopericardium",
+        "bool": false
+      },
+      {
+        "option": "Posteromedial papillary muscle rupture causing acute mitral regurgitation",
+        "bool": true
+      },
+      {
+        "option": "Development of a true left ventricular aneurysm",
+        "bool": false
+      },
+      {
+        "option": "Acute fibrinous pericarditis",
+        "bool": false
+      },
+      {
+        "option": "Ventricular septal rupture causing an acquired left to right",
+        "bool": false
+      }
+    ],
+    "id": 163
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 48-year-old man with a sedentary lifestyle and regular consumption of sugar-sweetened beverages visits his physician for a routine checkup. His blood pressure, fasting glucose, and lipid levels are currently within normal ranges. He is advised to improve his diet and incorporate daily physical activity to reduce the risk of developing future cardiovascular and metabolic diseases. Which level of prevention does this intervention represent?",
+    "answers": [
+      {
+        "option": "Tertiary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primary prevention",
+        "bool": true
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      },
+      {
+        "option": "Disability limitation",
+        "bool": false
+      }
+    ],
+    "id": 164
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "Asymptomatic women aged 40–74 years are invited to undergo routine screening mammography to identify breast cancer at an early, preclinical stage, before symptoms or palpable masses develop. Which level of prevention is demonstrated by this population-based screening program?",
+    "answers": [
+      {
+        "option": "Tertiary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primary prevention",
+        "bool": false
+      },
+      {
+        "option": "Secondary prevention",
+        "bool": true
+      },
+      {
+        "option": "Quaternary prevention",
+        "bool": false
+      },
+      {
+        "option": "Primordial prevention",
+        "bool": false
+      }
+    ],
+    "id": 165
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 60 year old man with a history of gout presents with a blood pressure of 152/96 mmHg. which of the following antihypertensive medications should be avoided due to risk of precipitating an acute gout flare-up?",
+    "answers": [
+      {
+        "option": "Amlodipine",
+        "bool": false
+      },
+      {
+        "option": "Losartan",
+        "bool": false
+      },
+      {
+        "option": "Lisinopril",
+        "bool": false
+      },
+      {
+        "option": "Hydrochlorothiazide",
+        "bool": true
+      },
+      {
+        "option": "Metoprolol",
+        "bool": false
+      }
+    ],
+    "id": 166
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 60 year old women had a myocardial infarction. Which agent should be used to prevent life-threatening arrhythmias that can occur post MI?",
+    "answers": [
+      {
+        "option": "Metoprolol",
+        "bool": true
+      },
+      {
+        "option": "Flecainide",
+        "bool": false
+      },
+      {
+        "option": "Amlodipine",
+        "bool": false
+      },
+      {
+        "option": "Procainamide",
+        "bool": false
+      },
+      {
+        "option": "Digoxin",
+        "bool": false
+      }
+    ],
+    "id": 167
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 63-year-old patient with chronic stable angina is treated with both a beta-blocker and a long-acting nitrate. His cardiologist notes that the pairing works well because each drug offsets the other’s undesirable hemodynamic effects through reflex mechanisms. Which of these parameters is raised by nitrates but then blunted once a beta-blocker is added?",
+    "answers": [
+      {
+        "option": "Glomerular filtration rate",
+        "bool": false
+      },
+      {
+        "option": "Myocardial contractility",
+        "bool": false
+      },
+      {
+        "option": "Heart rate",
+        "bool": true
+      },
+      {
+        "option": "Afterload",
+        "bool": false
+      },
+      {
+        "option": "Preload",
+        "bool": false
+      }
+    ],
+    "id": 168
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A patient comes in with acute chest pain, and the ECG shows ST-segment elevation in leads II, III and aVF. Which coronary artery is the usual culprit?",
+    "answers": [
+      {
+        "option": "Diagonal artery",
+        "bool": false
+      },
+      {
+        "option": "Left circumflex artery only",
+        "bool": false
+      },
+      {
+        "option": "Left main coronary artery",
+        "bool": false
+      },
+      {
+        "option": "Left anterior descending artery",
+        "bool": false
+      },
+      {
+        "option": "Right coronary artery",
+        "bool": true
+      }
+    ],
+    "id": 169
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "Beck’s triad is a classic set of findings taught in emergency cardiovascular medicine. Which of these physical exam findings belongs to Beck’s triad in cardiac tamponade?",
+    "answers": [
+      {
+        "option": "S3 gallop with bibasilar pulmonary rales",
+        "bool": false
+      },
+      {
+        "option": "Loud pansystolic murmur at the cardiac apex",
+        "bool": false
+      },
+      {
+        "option": "Bradycardia with irregular rhythm",
+        "bool": false
+      },
+      {
+        "option": "Hypertension with widened pulse pressure",
+        "bool": false
+      },
+      {
+        "option": "Muffled heart sounds",
+        "bool": true
+      }
+    ],
+    "id": 170
+  },
+  {
+    "info": "3rd-year/cardiovascular-2/compiled (2026)",
+    "question": "A 45-year-old man is brought to the emergency department after a high-speed car crash. He is hypotensive at 80/50 mmHg with a heart rate of 118 bpm, and his neck veins are markedly distended with a very high jugular venous pressure. Heart sounds are faint and muffled on auscultation, while breath sounds are normal and clear in both lungs. What is the most probable diagnosis?",
+    "answers": [
+      {
+        "option": "Cardiac tamponade",
+        "bool": true
+      },
+      {
+        "option": "Acute myocardial infarction",
+        "bool": false
+      },
+      {
+        "option": "Constrictive pericarditis",
+        "bool": false
+      },
+      {
+        "option": "Massive pulmonary embolism",
+        "bool": false
+      },
+      {
+        "option": "Tension pneumothorax",
+        "bool": false
+      }
+    ],
+    "id": 171
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3318,7 +4668,7 @@
         "bool": false
       }
     ],
-    "id": 122
+    "id": 172
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3345,7 +4695,7 @@
         "bool": false
       }
     ],
-    "id": 123
+    "id": 173
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3372,7 +4722,7 @@
         "bool": false
       }
     ],
-    "id": 124
+    "id": 174
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3399,7 +4749,7 @@
         "bool": false
       }
     ],
-    "id": 125
+    "id": 175
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3426,7 +4776,7 @@
         "bool": false
       }
     ],
-    "id": 126
+    "id": 176
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3453,7 +4803,7 @@
         "bool": true
       }
     ],
-    "id": 127
+    "id": 177
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3480,7 +4830,7 @@
         "bool": false
       }
     ],
-    "id": 128
+    "id": 178
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3507,7 +4857,7 @@
         "bool": false
       }
     ],
-    "id": 129
+    "id": 179
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3534,7 +4884,7 @@
         "bool": false
       }
     ],
-    "id": 130
+    "id": 180
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3561,7 +4911,7 @@
         "bool": true
       }
     ],
-    "id": 131
+    "id": 181
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3588,7 +4938,7 @@
         "bool": false
       }
     ],
-    "id": 132
+    "id": 182
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3615,7 +4965,7 @@
         "bool": false
       }
     ],
-    "id": 133
+    "id": 183
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3642,7 +4992,7 @@
         "bool": false
       }
     ],
-    "id": 134
+    "id": 184
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3669,7 +5019,7 @@
         "bool": false
       }
     ],
-    "id": 135
+    "id": 185
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3696,7 +5046,7 @@
         "bool": true
       }
     ],
-    "id": 136
+    "id": 186
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3723,7 +5073,7 @@
         "bool": false
       }
     ],
-    "id": 137
+    "id": 187
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3750,7 +5100,7 @@
         "bool": false
       }
     ],
-    "id": 138
+    "id": 188
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3777,7 +5127,7 @@
         "bool": false
       }
     ],
-    "id": 139
+    "id": 189
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3804,7 +5154,7 @@
         "bool": false
       }
     ],
-    "id": 140
+    "id": 190
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3831,7 +5181,7 @@
         "bool": true
       }
     ],
-    "id": 141
+    "id": 191
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3858,7 +5208,7 @@
         "bool": false
       }
     ],
-    "id": 142
+    "id": 192
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3885,7 +5235,7 @@
         "bool": true
       }
     ],
-    "id": 143
+    "id": 193
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3912,7 +5262,7 @@
         "bool": false
       }
     ],
-    "id": 144
+    "id": 194
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3939,7 +5289,7 @@
         "bool": false
       }
     ],
-    "id": 145
+    "id": 195
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3966,7 +5316,7 @@
         "bool": false
       }
     ],
-    "id": 146
+    "id": 196
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -3993,7 +5343,7 @@
         "bool": false
       }
     ],
-    "id": 147
+    "id": 197
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4020,7 +5370,7 @@
         "bool": false
       }
     ],
-    "id": 148
+    "id": 198
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4047,7 +5397,7 @@
         "bool": false
       }
     ],
-    "id": 149
+    "id": 199
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4078,7 +5428,7 @@
         "bool": false
       }
     ],
-    "id": 150
+    "id": 200
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4105,7 +5455,7 @@
         "bool": false
       }
     ],
-    "id": 151
+    "id": 201
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4132,7 +5482,7 @@
         "bool": false
       }
     ],
-    "id": 152
+    "id": 202
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4159,7 +5509,7 @@
         "bool": false
       }
     ],
-    "id": 153
+    "id": 203
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4186,7 +5536,7 @@
         "bool": false
       }
     ],
-    "id": 154
+    "id": 204
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4213,7 +5563,7 @@
         "bool": false
       }
     ],
-    "id": 155
+    "id": 205
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4240,7 +5590,7 @@
         "bool": false
       }
     ],
-    "id": 156
+    "id": 206
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4267,7 +5617,7 @@
         "bool": false
       }
     ],
-    "id": 157
+    "id": 207
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4294,7 +5644,7 @@
         "bool": false
       }
     ],
-    "id": 158
+    "id": 208
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4321,7 +5671,7 @@
         "bool": false
       }
     ],
-    "id": 159
+    "id": 209
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4348,7 +5698,7 @@
         "bool": false
       }
     ],
-    "id": 160
+    "id": 210
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4375,7 +5725,7 @@
         "bool": false
       }
     ],
-    "id": 161
+    "id": 211
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4402,7 +5752,7 @@
         "bool": false
       }
     ],
-    "id": 162
+    "id": 212
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4429,7 +5779,7 @@
         "bool": false
       }
     ],
-    "id": 163
+    "id": 213
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4456,7 +5806,7 @@
         "bool": false
       }
     ],
-    "id": 164
+    "id": 214
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4483,7 +5833,7 @@
         "bool": false
       }
     ],
-    "id": 165
+    "id": 215
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4510,7 +5860,7 @@
         "bool": false
       }
     ],
-    "id": 166
+    "id": 216
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4537,7 +5887,7 @@
         "bool": false
       }
     ],
-    "id": 167
+    "id": 217
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4572,7 +5922,7 @@
         "bool": false
       }
     ],
-    "id": 168
+    "id": 218
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4599,7 +5949,7 @@
         "bool": false
       }
     ],
-    "id": 169
+    "id": 219
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4626,7 +5976,7 @@
         "bool": true
       }
     ],
-    "id": 170
+    "id": 220
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4653,7 +6003,7 @@
         "bool": false
       }
     ],
-    "id": 171
+    "id": 221
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4680,7 +6030,7 @@
         "bool": false
       }
     ],
-    "id": 172
+    "id": 222
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2025)",
@@ -4707,7 +6057,7 @@
         "bool": false
       }
     ],
-    "id": 173
+    "id": 223
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4734,7 +6084,7 @@
         "bool": false
       }
     ],
-    "id": 174
+    "id": 224
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4761,7 +6111,7 @@
         "bool": false
       }
     ],
-    "id": 175
+    "id": 225
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4788,7 +6138,7 @@
         "bool": true
       }
     ],
-    "id": 176
+    "id": 226
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4815,7 +6165,7 @@
         "bool": false
       }
     ],
-    "id": 177
+    "id": 227
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4842,7 +6192,7 @@
         "bool": false
       }
     ],
-    "id": 178
+    "id": 228
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4869,7 +6219,7 @@
         "bool": false
       }
     ],
-    "id": 179
+    "id": 229
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4896,7 +6246,7 @@
         "bool": false
       }
     ],
-    "id": 180
+    "id": 230
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4923,7 +6273,7 @@
         "bool": false
       }
     ],
-    "id": 181
+    "id": 231
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4950,7 +6300,7 @@
         "bool": false
       }
     ],
-    "id": 182
+    "id": 232
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -4977,7 +6327,7 @@
         "bool": false
       }
     ],
-    "id": 183
+    "id": 233
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5004,7 +6354,7 @@
         "bool": false
       }
     ],
-    "id": 184
+    "id": 234
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5031,7 +6381,7 @@
         "bool": false
       }
     ],
-    "id": 185
+    "id": 235
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5058,7 +6408,7 @@
         "bool": true
       }
     ],
-    "id": 186
+    "id": 236
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5085,7 +6435,7 @@
         "bool": false
       }
     ],
-    "id": 187
+    "id": 237
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5112,7 +6462,7 @@
         "bool": false
       }
     ],
-    "id": 188
+    "id": 238
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5139,7 +6489,7 @@
         "bool": false
       }
     ],
-    "id": 189
+    "id": 239
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5166,7 +6516,7 @@
         "bool": false
       }
     ],
-    "id": 190
+    "id": 240
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5193,7 +6543,7 @@
         "bool": false
       }
     ],
-    "id": 191
+    "id": 241
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5220,7 +6570,7 @@
         "bool": false
       }
     ],
-    "id": 192
+    "id": 242
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5247,7 +6597,7 @@
         "bool": false
       }
     ],
-    "id": 193
+    "id": 243
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5274,7 +6624,7 @@
         "bool": false
       }
     ],
-    "id": 194
+    "id": 244
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5301,7 +6651,7 @@
         "bool": false
       }
     ],
-    "id": 195
+    "id": 245
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5328,7 +6678,7 @@
         "bool": false
       }
     ],
-    "id": 196
+    "id": 246
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5355,7 +6705,7 @@
         "bool": false
       }
     ],
-    "id": 197
+    "id": 247
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5382,7 +6732,7 @@
         "bool": false
       }
     ],
-    "id": 198
+    "id": 248
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5409,7 +6759,7 @@
         "bool": false
       }
     ],
-    "id": 199
+    "id": 249
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5436,7 +6786,7 @@
         "bool": true
       }
     ],
-    "id": 200
+    "id": 250
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5463,7 +6813,7 @@
         "bool": false
       }
     ],
-    "id": 201
+    "id": 251
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5490,7 +6840,7 @@
         "bool": false
       }
     ],
-    "id": 202
+    "id": 252
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5517,7 +6867,7 @@
         "bool": true
       }
     ],
-    "id": 203
+    "id": 253
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5544,7 +6894,7 @@
         "bool": false
       }
     ],
-    "id": 204
+    "id": 254
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5571,7 +6921,7 @@
         "bool": false
       }
     ],
-    "id": 205
+    "id": 255
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5598,7 +6948,7 @@
         "bool": false
       }
     ],
-    "id": 206
+    "id": 256
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5625,7 +6975,7 @@
         "bool": false
       }
     ],
-    "id": 207
+    "id": 257
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5652,7 +7002,7 @@
         "bool": true
       }
     ],
-    "id": 208
+    "id": 258
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5679,7 +7029,7 @@
         "bool": false
       }
     ],
-    "id": 209
+    "id": 259
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5706,7 +7056,7 @@
         "bool": false
       }
     ],
-    "id": 210
+    "id": 260
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5733,7 +7083,7 @@
         "bool": false
       }
     ],
-    "id": 211
+    "id": 261
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5760,7 +7110,7 @@
         "bool": false
       }
     ],
-    "id": 212
+    "id": 262
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5787,7 +7137,7 @@
         "bool": true
       }
     ],
-    "id": 213
+    "id": 263
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5814,7 +7164,7 @@
         "bool": true
       }
     ],
-    "id": 214
+    "id": 264
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5841,7 +7191,7 @@
         "bool": false
       }
     ],
-    "id": 215
+    "id": 265
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5868,7 +7218,7 @@
         "bool": false
       }
     ],
-    "id": 216
+    "id": 266
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5895,7 +7245,7 @@
         "bool": false
       }
     ],
-    "id": 217
+    "id": 267
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5922,7 +7272,7 @@
         "bool": false
       }
     ],
-    "id": 218
+    "id": 268
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5949,7 +7299,7 @@
         "bool": false
       }
     ],
-    "id": 219
+    "id": 269
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -5976,7 +7326,7 @@
         "bool": false
       }
     ],
-    "id": 220
+    "id": 270
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -6003,7 +7353,7 @@
         "bool": false
       }
     ],
-    "id": 221
+    "id": 271
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -6030,7 +7380,7 @@
         "bool": true
       }
     ],
-    "id": 222
+    "id": 272
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -6057,7 +7407,7 @@
         "bool": false
       }
     ],
-    "id": 223
+    "id": 273
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2024)",
@@ -6084,7 +7434,7 @@
         "bool": false
       }
     ],
-    "id": 224
+    "id": 274
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6111,7 +7461,7 @@
         "bool": false
       }
     ],
-    "id": 225
+    "id": 275
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6138,7 +7488,7 @@
         "bool": false
       }
     ],
-    "id": 226
+    "id": 276
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6165,7 +7515,7 @@
         "bool": true
       }
     ],
-    "id": 227
+    "id": 277
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6192,7 +7542,7 @@
         "bool": false
       }
     ],
-    "id": 228
+    "id": 278
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6219,7 +7569,7 @@
         "bool": true
       }
     ],
-    "id": 229
+    "id": 279
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6246,7 +7596,7 @@
         "bool": true
       }
     ],
-    "id": 230
+    "id": 280
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6273,7 +7623,7 @@
         "bool": false
       }
     ],
-    "id": 231
+    "id": 281
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6300,7 +7650,7 @@
         "bool": false
       }
     ],
-    "id": 232
+    "id": 282
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6327,7 +7677,7 @@
         "bool": false
       }
     ],
-    "id": 233
+    "id": 283
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6354,7 +7704,7 @@
         "bool": false
       }
     ],
-    "id": 234
+    "id": 284
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6381,7 +7731,7 @@
         "bool": false
       }
     ],
-    "id": 235
+    "id": 285
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6408,7 +7758,7 @@
         "bool": false
       }
     ],
-    "id": 236
+    "id": 286
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6435,7 +7785,7 @@
         "bool": false
       }
     ],
-    "id": 237
+    "id": 287
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6462,7 +7812,7 @@
         "bool": false
       }
     ],
-    "id": 238
+    "id": 288
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6489,7 +7839,7 @@
         "bool": false
       }
     ],
-    "id": 239
+    "id": 289
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6516,7 +7866,7 @@
         "bool": false
       }
     ],
-    "id": 240
+    "id": 290
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6543,7 +7893,7 @@
         "bool": false
       }
     ],
-    "id": 241
+    "id": 291
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6570,7 +7920,7 @@
         "bool": false
       }
     ],
-    "id": 242
+    "id": 292
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6597,7 +7947,7 @@
         "bool": false
       }
     ],
-    "id": 243
+    "id": 293
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6624,7 +7974,7 @@
         "bool": false
       }
     ],
-    "id": 244
+    "id": 294
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6651,7 +8001,7 @@
         "bool": false
       }
     ],
-    "id": 245
+    "id": 295
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6678,7 +8028,7 @@
         "bool": true
       }
     ],
-    "id": 246
+    "id": 296
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6705,7 +8055,7 @@
         "bool": false
       }
     ],
-    "id": 247
+    "id": 297
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6732,7 +8082,7 @@
         "bool": false
       }
     ],
-    "id": 248
+    "id": 298
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6759,7 +8109,7 @@
         "bool": false
       }
     ],
-    "id": 249
+    "id": 299
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6786,7 +8136,7 @@
         "bool": false
       }
     ],
-    "id": 250
+    "id": 300
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6813,7 +8163,7 @@
         "bool": true
       }
     ],
-    "id": 251
+    "id": 301
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6840,7 +8190,7 @@
         "bool": true
       }
     ],
-    "id": 252
+    "id": 302
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6867,7 +8217,7 @@
         "bool": false
       }
     ],
-    "id": 253
+    "id": 303
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6894,7 +8244,7 @@
         "bool": false
       }
     ],
-    "id": 254
+    "id": 304
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6921,7 +8271,7 @@
         "bool": false
       }
     ],
-    "id": 255
+    "id": 305
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6948,7 +8298,7 @@
         "bool": false
       }
     ],
-    "id": 256
+    "id": 306
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -6975,7 +8325,7 @@
         "bool": true
       }
     ],
-    "id": 257
+    "id": 307
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7002,7 +8352,7 @@
         "bool": false
       }
     ],
-    "id": 258
+    "id": 308
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7029,7 +8379,7 @@
         "bool": false
       }
     ],
-    "id": 259
+    "id": 309
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7056,7 +8406,7 @@
         "bool": false
       }
     ],
-    "id": 260
+    "id": 310
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7083,7 +8433,7 @@
         "bool": false
       }
     ],
-    "id": 261
+    "id": 311
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7110,7 +8460,7 @@
         "bool": false
       }
     ],
-    "id": 262
+    "id": 312
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7137,7 +8487,7 @@
         "bool": false
       }
     ],
-    "id": 263
+    "id": 313
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7164,7 +8514,7 @@
         "bool": false
       }
     ],
-    "id": 264
+    "id": 314
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7191,7 +8541,7 @@
         "bool": false
       }
     ],
-    "id": 265
+    "id": 315
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7218,7 +8568,7 @@
         "bool": false
       }
     ],
-    "id": 266
+    "id": 316
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7245,7 +8595,7 @@
         "bool": false
       }
     ],
-    "id": 267
+    "id": 317
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7272,7 +8622,7 @@
         "bool": false
       }
     ],
-    "id": 268
+    "id": 318
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7299,7 +8649,7 @@
         "bool": true
       }
     ],
-    "id": 269
+    "id": 319
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7326,7 +8676,7 @@
         "bool": false
       }
     ],
-    "id": 270
+    "id": 320
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7353,7 +8703,7 @@
         "bool": true
       }
     ],
-    "id": 271
+    "id": 321
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7380,7 +8730,7 @@
         "bool": false
       }
     ],
-    "id": 272
+    "id": 322
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2023)",
@@ -7407,7 +8757,7 @@
         "bool": false
       }
     ],
-    "id": 273
+    "id": 323
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7434,7 +8784,7 @@
         "bool": true
       }
     ],
-    "id": 274
+    "id": 324
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7461,7 +8811,7 @@
         "bool": false
       }
     ],
-    "id": 275
+    "id": 325
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7488,7 +8838,7 @@
         "bool": false
       }
     ],
-    "id": 276
+    "id": 326
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7515,7 +8865,7 @@
         "bool": false
       }
     ],
-    "id": 277
+    "id": 327
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7542,7 +8892,7 @@
         "bool": true
       }
     ],
-    "id": 278
+    "id": 328
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7569,7 +8919,7 @@
         "bool": false
       }
     ],
-    "id": 279
+    "id": 329
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7596,7 +8946,7 @@
         "bool": false
       }
     ],
-    "id": 280
+    "id": 330
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7623,7 +8973,7 @@
         "bool": false
       }
     ],
-    "id": 281
+    "id": 331
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7650,7 +9000,7 @@
         "bool": false
       }
     ],
-    "id": 282
+    "id": 332
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7677,7 +9027,7 @@
         "bool": false
       }
     ],
-    "id": 283
+    "id": 333
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7704,7 +9054,7 @@
         "bool": true
       }
     ],
-    "id": 284
+    "id": 334
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7731,7 +9081,7 @@
         "bool": true
       }
     ],
-    "id": 285
+    "id": 335
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7758,7 +9108,7 @@
         "bool": true
       }
     ],
-    "id": 286
+    "id": 336
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7785,7 +9135,7 @@
         "bool": false
       }
     ],
-    "id": 287
+    "id": 337
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7812,7 +9162,7 @@
         "bool": false
       }
     ],
-    "id": 288
+    "id": 338
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7839,7 +9189,7 @@
         "bool": false
       }
     ],
-    "id": 289
+    "id": 339
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7866,7 +9216,7 @@
         "bool": false
       }
     ],
-    "id": 290
+    "id": 340
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7893,7 +9243,7 @@
         "bool": false
       }
     ],
-    "id": 291
+    "id": 341
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7920,7 +9270,7 @@
         "bool": false
       }
     ],
-    "id": 292
+    "id": 342
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7947,7 +9297,7 @@
         "bool": false
       }
     ],
-    "id": 293
+    "id": 343
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -7974,7 +9324,7 @@
         "bool": false
       }
     ],
-    "id": 294
+    "id": 344
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8001,7 +9351,7 @@
         "bool": true
       }
     ],
-    "id": 295
+    "id": 345
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8028,7 +9378,7 @@
         "bool": true
       }
     ],
-    "id": 296
+    "id": 346
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8055,7 +9405,7 @@
         "bool": true
       }
     ],
-    "id": 297
+    "id": 347
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8082,7 +9432,7 @@
         "bool": true
       }
     ],
-    "id": 298
+    "id": 348
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8109,7 +9459,7 @@
         "bool": false
       }
     ],
-    "id": 299
+    "id": 349
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8136,7 +9486,7 @@
         "bool": false
       }
     ],
-    "id": 300
+    "id": 350
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8163,7 +9513,7 @@
         "bool": false
       }
     ],
-    "id": 301
+    "id": 351
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8190,7 +9540,7 @@
         "bool": false
       }
     ],
-    "id": 302
+    "id": 352
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8217,7 +9567,7 @@
         "bool": false
       }
     ],
-    "id": 303
+    "id": 353
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8244,7 +9594,7 @@
         "bool": false
       }
     ],
-    "id": 304
+    "id": 354
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8271,7 +9621,7 @@
         "bool": true
       }
     ],
-    "id": 305
+    "id": 355
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8298,7 +9648,7 @@
         "bool": false
       }
     ],
-    "id": 306
+    "id": 356
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8325,7 +9675,7 @@
         "bool": false
       }
     ],
-    "id": 307
+    "id": 357
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8352,7 +9702,7 @@
         "bool": false
       }
     ],
-    "id": 308
+    "id": 358
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8379,7 +9729,7 @@
         "bool": false
       }
     ],
-    "id": 309
+    "id": 359
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8406,7 +9756,7 @@
         "bool": false
       }
     ],
-    "id": 310
+    "id": 360
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8433,7 +9783,7 @@
         "bool": false
       }
     ],
-    "id": 311
+    "id": 361
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8460,7 +9810,7 @@
         "bool": false
       }
     ],
-    "id": 312
+    "id": 362
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8487,7 +9837,7 @@
         "bool": false
       }
     ],
-    "id": 313
+    "id": 363
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8514,7 +9864,7 @@
         "bool": true
       }
     ],
-    "id": 314
+    "id": 364
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8541,7 +9891,7 @@
         "bool": false
       }
     ],
-    "id": 315
+    "id": 365
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8568,7 +9918,7 @@
         "bool": false
       }
     ],
-    "id": 316
+    "id": 366
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8595,7 +9945,7 @@
         "bool": false
       }
     ],
-    "id": 317
+    "id": 367
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8622,7 +9972,7 @@
         "bool": false
       }
     ],
-    "id": 318
+    "id": 368
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8649,7 +9999,7 @@
         "bool": true
       }
     ],
-    "id": 319
+    "id": 369
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8676,7 +10026,7 @@
         "bool": true
       }
     ],
-    "id": 320
+    "id": 370
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8703,7 +10053,7 @@
         "bool": true
       }
     ],
-    "id": 321
+    "id": 371
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8730,7 +10080,7 @@
         "bool": true
       }
     ],
-    "id": 322
+    "id": 372
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8757,7 +10107,7 @@
         "bool": false
       }
     ],
-    "id": 323
+    "id": 373
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8784,7 +10134,7 @@
         "bool": false
       }
     ],
-    "id": 324
+    "id": 374
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8811,7 +10161,7 @@
         "bool": false
       }
     ],
-    "id": 325
+    "id": 375
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8838,7 +10188,7 @@
         "bool": false
       }
     ],
-    "id": 326
+    "id": 376
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8865,7 +10215,7 @@
         "bool": false
       }
     ],
-    "id": 327
+    "id": 377
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8892,7 +10242,7 @@
         "bool": false
       }
     ],
-    "id": 328
+    "id": 378
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8919,7 +10269,7 @@
         "bool": false
       }
     ],
-    "id": 329
+    "id": 379
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8946,7 +10296,7 @@
         "bool": false
       }
     ],
-    "id": 330
+    "id": 380
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -8973,7 +10323,7 @@
         "bool": false
       }
     ],
-    "id": 331
+    "id": 381
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9000,7 +10350,7 @@
         "bool": false
       }
     ],
-    "id": 332
+    "id": 382
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9027,7 +10377,7 @@
         "bool": false
       }
     ],
-    "id": 333
+    "id": 383
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9054,7 +10404,7 @@
         "bool": false
       }
     ],
-    "id": 334
+    "id": 384
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9081,7 +10431,7 @@
         "bool": false
       }
     ],
-    "id": 335
+    "id": 385
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9108,7 +10458,7 @@
         "bool": false
       }
     ],
-    "id": 336
+    "id": 386
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9135,7 +10485,7 @@
         "bool": true
       }
     ],
-    "id": 337
+    "id": 387
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9162,7 +10512,7 @@
         "bool": false
       }
     ],
-    "id": 338
+    "id": 388
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9189,7 +10539,7 @@
         "bool": true
       }
     ],
-    "id": 339
+    "id": 389
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9216,7 +10566,7 @@
         "bool": false
       }
     ],
-    "id": 340
+    "id": 390
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9243,7 +10593,7 @@
         "bool": true
       }
     ],
-    "id": 341
+    "id": 391
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9270,7 +10620,7 @@
         "bool": true
       }
     ],
-    "id": 342
+    "id": 392
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9297,7 +10647,7 @@
         "bool": true
       }
     ],
-    "id": 343
+    "id": 393
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9324,7 +10674,7 @@
         "bool": false
       }
     ],
-    "id": 344
+    "id": 394
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9351,7 +10701,7 @@
         "bool": true
       }
     ],
-    "id": 345
+    "id": 395
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2022)",
@@ -9378,34 +10728,7 @@
         "bool": false
       }
     ],
-    "id": 346
-  },
-  {
-    "info": "3rd-year/cardiovascular-2/compiled (2021)",
-    "question": "Which of these is closely related to the partially hydrogenated oils?",
-    "answers": [
-      {
-        "option": "Cis form of fat",
-        "bool": false
-      },
-      {
-        "option": "Mono unsaturated fats",
-        "bool": false
-      },
-      {
-        "option": "Saturated fats",
-        "bool": false
-      },
-      {
-        "option": "Poly unsaturated fats",
-        "bool": false
-      },
-      {
-        "option": "Trans form of fat",
-        "bool": true
-      }
-    ],
-    "id": 347
+    "id": 396
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9432,7 +10755,7 @@
         "bool": false
       }
     ],
-    "id": 348
+    "id": 397
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9459,7 +10782,7 @@
         "bool": false
       }
     ],
-    "id": 349
+    "id": 398
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9486,7 +10809,7 @@
         "bool": false
       }
     ],
-    "id": 350
+    "id": 399
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9513,7 +10836,7 @@
         "bool": false
       }
     ],
-    "id": 351
+    "id": 400
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9540,7 +10863,7 @@
         "bool": false
       }
     ],
-    "id": 352
+    "id": 401
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9567,7 +10890,7 @@
         "bool": false
       }
     ],
-    "id": 353
+    "id": 402
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9594,7 +10917,7 @@
         "bool": true
       }
     ],
-    "id": 354
+    "id": 403
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9621,7 +10944,7 @@
         "bool": false
       }
     ],
-    "id": 355
+    "id": 404
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9648,7 +10971,7 @@
         "bool": false
       }
     ],
-    "id": 356
+    "id": 405
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9675,7 +10998,7 @@
         "bool": false
       }
     ],
-    "id": 357
+    "id": 406
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9702,7 +11025,7 @@
         "bool": false
       }
     ],
-    "id": 358
+    "id": 407
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9729,7 +11052,7 @@
         "bool": true
       }
     ],
-    "id": 359
+    "id": 408
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9756,7 +11079,7 @@
         "bool": false
       }
     ],
-    "id": 360
+    "id": 409
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9783,7 +11106,7 @@
         "bool": false
       }
     ],
-    "id": 361
+    "id": 410
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9810,7 +11133,7 @@
         "bool": false
       }
     ],
-    "id": 362
+    "id": 411
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9837,7 +11160,7 @@
         "bool": true
       }
     ],
-    "id": 363
+    "id": 412
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9864,7 +11187,7 @@
         "bool": false
       }
     ],
-    "id": 364
+    "id": 413
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9891,7 +11214,7 @@
         "bool": false
       }
     ],
-    "id": 365
+    "id": 414
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9918,7 +11241,7 @@
         "bool": false
       }
     ],
-    "id": 366
+    "id": 415
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9945,7 +11268,7 @@
         "bool": true
       }
     ],
-    "id": 367
+    "id": 416
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9972,7 +11295,7 @@
         "bool": false
       }
     ],
-    "id": 368
+    "id": 417
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -9999,7 +11322,7 @@
         "bool": false
       }
     ],
-    "id": 369
+    "id": 418
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10026,7 +11349,7 @@
         "bool": false
       }
     ],
-    "id": 370
+    "id": 419
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10053,7 +11376,7 @@
         "bool": true
       }
     ],
-    "id": 371
+    "id": 420
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10080,7 +11403,7 @@
         "bool": true
       }
     ],
-    "id": 372
+    "id": 421
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10107,7 +11430,7 @@
         "bool": false
       }
     ],
-    "id": 373
+    "id": 422
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10134,7 +11457,7 @@
         "bool": false
       }
     ],
-    "id": 374
+    "id": 423
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10161,7 +11484,7 @@
         "bool": false
       }
     ],
-    "id": 375
+    "id": 424
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10188,7 +11511,7 @@
         "bool": false
       }
     ],
-    "id": 376
+    "id": 425
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10215,7 +11538,7 @@
         "bool": false
       }
     ],
-    "id": 377
+    "id": 426
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10242,7 +11565,7 @@
         "bool": false
       }
     ],
-    "id": 378
+    "id": 427
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10269,7 +11592,7 @@
         "bool": false
       }
     ],
-    "id": 379
+    "id": 428
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10296,7 +11619,7 @@
         "bool": true
       }
     ],
-    "id": 380
+    "id": 429
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10323,7 +11646,7 @@
         "bool": false
       }
     ],
-    "id": 381
+    "id": 430
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10350,7 +11673,7 @@
         "bool": false
       }
     ],
-    "id": 382
+    "id": 431
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10377,7 +11700,7 @@
         "bool": false
       }
     ],
-    "id": 383
+    "id": 432
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10404,7 +11727,7 @@
         "bool": false
       }
     ],
-    "id": 384
+    "id": 433
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10431,7 +11754,7 @@
         "bool": false
       }
     ],
-    "id": 385
+    "id": 434
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10458,7 +11781,7 @@
         "bool": true
       }
     ],
-    "id": 386
+    "id": 435
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10485,7 +11808,7 @@
         "bool": false
       }
     ],
-    "id": 387
+    "id": 436
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10512,7 +11835,7 @@
         "bool": false
       }
     ],
-    "id": 388
+    "id": 437
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10539,7 +11862,7 @@
         "bool": true
       }
     ],
-    "id": 389
+    "id": 438
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10566,7 +11889,7 @@
         "bool": true
       }
     ],
-    "id": 390
+    "id": 439
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10593,7 +11916,7 @@
         "bool": false
       }
     ],
-    "id": 391
+    "id": 440
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10620,7 +11943,7 @@
         "bool": false
       }
     ],
-    "id": 392
+    "id": 441
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10647,7 +11970,7 @@
         "bool": false
       }
     ],
-    "id": 393
+    "id": 442
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2021)",
@@ -10674,7 +11997,7 @@
         "bool": true
       }
     ],
-    "id": 394
+    "id": 443
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10701,7 +12024,7 @@
         "bool": true
       }
     ],
-    "id": 395
+    "id": 444
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10728,7 +12051,7 @@
         "bool": false
       }
     ],
-    "id": 396
+    "id": 445
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10755,7 +12078,7 @@
         "bool": true
       }
     ],
-    "id": 397
+    "id": 446
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10782,7 +12105,7 @@
         "bool": true
       }
     ],
-    "id": 398
+    "id": 447
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10809,7 +12132,7 @@
         "bool": false
       }
     ],
-    "id": 399
+    "id": 448
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10836,7 +12159,7 @@
         "bool": true
       }
     ],
-    "id": 400
+    "id": 449
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10863,7 +12186,7 @@
         "bool": false
       }
     ],
-    "id": 401
+    "id": 450
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10890,7 +12213,7 @@
         "bool": true
       }
     ],
-    "id": 402
+    "id": 451
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10917,7 +12240,7 @@
         "bool": false
       }
     ],
-    "id": 403
+    "id": 452
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10944,7 +12267,7 @@
         "bool": true
       }
     ],
-    "id": 404
+    "id": 453
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10971,7 +12294,7 @@
         "bool": false
       }
     ],
-    "id": 405
+    "id": 454
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -10998,7 +12321,7 @@
         "bool": false
       }
     ],
-    "id": 406
+    "id": 455
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11025,7 +12348,7 @@
         "bool": false
       }
     ],
-    "id": 407
+    "id": 456
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11052,7 +12375,7 @@
         "bool": false
       }
     ],
-    "id": 408
+    "id": 457
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11079,7 +12402,7 @@
         "bool": false
       }
     ],
-    "id": 409
+    "id": 458
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11106,7 +12429,7 @@
         "bool": false
       }
     ],
-    "id": 410
+    "id": 459
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11133,7 +12456,7 @@
         "bool": false
       }
     ],
-    "id": 411
+    "id": 460
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11160,7 +12483,7 @@
         "bool": false
       }
     ],
-    "id": 412
+    "id": 461
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11187,7 +12510,7 @@
         "bool": true
       }
     ],
-    "id": 413
+    "id": 462
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11214,7 +12537,7 @@
         "bool": false
       }
     ],
-    "id": 414
+    "id": 463
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11241,7 +12564,7 @@
         "bool": false
       }
     ],
-    "id": 415
+    "id": 464
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11268,7 +12591,7 @@
         "bool": false
       }
     ],
-    "id": 416
+    "id": 465
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11295,7 +12618,7 @@
         "bool": true
       }
     ],
-    "id": 417
+    "id": 466
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11322,7 +12645,7 @@
         "bool": false
       }
     ],
-    "id": 418
+    "id": 467
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11349,7 +12672,7 @@
         "bool": true
       }
     ],
-    "id": 419
+    "id": 468
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11376,7 +12699,7 @@
         "bool": true
       }
     ],
-    "id": 420
+    "id": 469
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11403,7 +12726,7 @@
         "bool": false
       }
     ],
-    "id": 421
+    "id": 470
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11434,7 +12757,7 @@
         "bool": true
       }
     ],
-    "id": 422
+    "id": 471
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11461,7 +12784,7 @@
         "bool": false
       }
     ],
-    "id": 423
+    "id": 472
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11488,7 +12811,7 @@
         "bool": false
       }
     ],
-    "id": 424
+    "id": 473
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11515,7 +12838,7 @@
         "bool": false
       }
     ],
-    "id": 425
+    "id": 474
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11542,7 +12865,7 @@
         "bool": true
       }
     ],
-    "id": 426
+    "id": 475
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11569,7 +12892,7 @@
         "bool": false
       }
     ],
-    "id": 427
+    "id": 476
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11596,7 +12919,7 @@
         "bool": false
       }
     ],
-    "id": 428
+    "id": 477
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11623,7 +12946,7 @@
         "bool": false
       }
     ],
-    "id": 429
+    "id": 478
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11650,7 +12973,7 @@
         "bool": false
       }
     ],
-    "id": 430
+    "id": 479
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11677,7 +13000,7 @@
         "bool": false
       }
     ],
-    "id": 431
+    "id": 480
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11704,7 +13027,7 @@
         "bool": true
       }
     ],
-    "id": 432
+    "id": 481
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11731,7 +13054,7 @@
         "bool": false
       }
     ],
-    "id": 433
+    "id": 482
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11758,7 +13081,7 @@
         "bool": false
       }
     ],
-    "id": 434
+    "id": 483
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11785,7 +13108,7 @@
         "bool": false
       }
     ],
-    "id": 435
+    "id": 484
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11812,7 +13135,7 @@
         "bool": false
       }
     ],
-    "id": 436
+    "id": 485
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11839,7 +13162,7 @@
         "bool": false
       }
     ],
-    "id": 437
+    "id": 486
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11866,7 +13189,7 @@
         "bool": false
       }
     ],
-    "id": 438
+    "id": 487
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11893,7 +13216,7 @@
         "bool": false
       }
     ],
-    "id": 439
+    "id": 488
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11920,7 +13243,7 @@
         "bool": false
       }
     ],
-    "id": 440
+    "id": 489
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11947,7 +13270,7 @@
         "bool": false
       }
     ],
-    "id": 441
+    "id": 490
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -11974,7 +13297,7 @@
         "bool": false
       }
     ],
-    "id": 442
+    "id": 491
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12001,7 +13324,7 @@
         "bool": false
       }
     ],
-    "id": 443
+    "id": 492
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12028,7 +13351,7 @@
         "bool": false
       }
     ],
-    "id": 444
+    "id": 493
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12055,7 +13378,7 @@
         "bool": false
       }
     ],
-    "id": 445
+    "id": 494
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12082,7 +13405,7 @@
         "bool": false
       }
     ],
-    "id": 446
+    "id": 495
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12109,7 +13432,7 @@
         "bool": false
       }
     ],
-    "id": 447
+    "id": 496
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12136,7 +13459,7 @@
         "bool": false
       }
     ],
-    "id": 448
+    "id": 497
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12163,7 +13486,7 @@
         "bool": false
       }
     ],
-    "id": 449
+    "id": 498
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12190,7 +13513,7 @@
         "bool": true
       }
     ],
-    "id": 450
+    "id": 499
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12217,7 +13540,7 @@
         "bool": false
       }
     ],
-    "id": 451
+    "id": 500
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12244,7 +13567,7 @@
         "bool": false
       }
     ],
-    "id": 452
+    "id": 501
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12271,7 +13594,7 @@
         "bool": false
       }
     ],
-    "id": 453
+    "id": 502
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12298,7 +13621,7 @@
         "bool": true
       }
     ],
-    "id": 454
+    "id": 503
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12325,7 +13648,7 @@
         "bool": false
       }
     ],
-    "id": 455
+    "id": 504
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12352,7 +13675,7 @@
         "bool": true
       }
     ],
-    "id": 456
+    "id": 505
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12379,7 +13702,7 @@
         "bool": false
       }
     ],
-    "id": 457
+    "id": 506
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12406,7 +13729,7 @@
         "bool": true
       }
     ],
-    "id": 458
+    "id": 507
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12433,7 +13756,7 @@
         "bool": false
       }
     ],
-    "id": 459
+    "id": 508
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12460,7 +13783,7 @@
         "bool": false
       }
     ],
-    "id": 460
+    "id": 509
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12487,7 +13810,7 @@
         "bool": true
       }
     ],
-    "id": 461
+    "id": 510
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12514,7 +13837,7 @@
         "bool": false
       }
     ],
-    "id": 462
+    "id": 511
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12541,7 +13864,7 @@
         "bool": false
       }
     ],
-    "id": 463
+    "id": 512
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12568,7 +13891,7 @@
         "bool": true
       }
     ],
-    "id": 464
+    "id": 513
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12595,7 +13918,7 @@
         "bool": false
       }
     ],
-    "id": 465
+    "id": 514
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12622,7 +13945,7 @@
         "bool": true
       }
     ],
-    "id": 466
+    "id": 515
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12649,7 +13972,7 @@
         "bool": false
       }
     ],
-    "id": 467
+    "id": 516
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12676,7 +13999,7 @@
         "bool": false
       }
     ],
-    "id": 468
+    "id": 517
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12703,7 +14026,7 @@
         "bool": false
       }
     ],
-    "id": 469
+    "id": 518
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12730,7 +14053,7 @@
         "bool": false
       }
     ],
-    "id": 470
+    "id": 519
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12757,7 +14080,7 @@
         "bool": false
       }
     ],
-    "id": 471
+    "id": 520
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12784,7 +14107,7 @@
         "bool": false
       }
     ],
-    "id": 472
+    "id": 521
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12811,7 +14134,7 @@
         "bool": false
       }
     ],
-    "id": 473
+    "id": 522
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12838,7 +14161,7 @@
         "bool": false
       }
     ],
-    "id": 474
+    "id": 523
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12865,7 +14188,7 @@
         "bool": false
       }
     ],
-    "id": 475
+    "id": 524
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12892,7 +14215,7 @@
         "bool": true
       }
     ],
-    "id": 476
+    "id": 525
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12919,7 +14242,7 @@
         "bool": false
       }
     ],
-    "id": 477
+    "id": 526
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12946,7 +14269,7 @@
         "bool": true
       }
     ],
-    "id": 478
+    "id": 527
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -12973,7 +14296,7 @@
         "bool": false
       }
     ],
-    "id": 479
+    "id": 528
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13000,7 +14323,7 @@
         "bool": false
       }
     ],
-    "id": 480
+    "id": 529
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13027,7 +14350,7 @@
         "bool": false
       }
     ],
-    "id": 481
+    "id": 530
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13054,7 +14377,7 @@
         "bool": false
       }
     ],
-    "id": 482
+    "id": 531
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13081,7 +14404,7 @@
         "bool": true
       }
     ],
-    "id": 483
+    "id": 532
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13108,7 +14431,7 @@
         "bool": true
       }
     ],
-    "id": 484
+    "id": 533
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13135,7 +14458,7 @@
         "bool": false
       }
     ],
-    "id": 485
+    "id": 534
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13162,7 +14485,7 @@
         "bool": false
       }
     ],
-    "id": 486
+    "id": 535
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13189,7 +14512,7 @@
         "bool": false
       }
     ],
-    "id": 487
+    "id": 536
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13216,7 +14539,7 @@
         "bool": false
       }
     ],
-    "id": 488
+    "id": 537
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13243,7 +14566,7 @@
         "bool": true
       }
     ],
-    "id": 489
+    "id": 538
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13270,7 +14593,7 @@
         "bool": true
       }
     ],
-    "id": 490
+    "id": 539
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13297,7 +14620,7 @@
         "bool": false
       }
     ],
-    "id": 491
+    "id": 540
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2020)",
@@ -13324,7 +14647,7 @@
         "bool": false
       }
     ],
-    "id": 492
+    "id": 541
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13351,7 +14674,7 @@
         "bool": false
       }
     ],
-    "id": 493
+    "id": 542
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13378,7 +14701,7 @@
         "bool": true
       }
     ],
-    "id": 494
+    "id": 543
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13405,7 +14728,7 @@
         "bool": false
       }
     ],
-    "id": 495
+    "id": 544
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13432,7 +14755,7 @@
         "bool": false
       }
     ],
-    "id": 496
+    "id": 545
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13459,7 +14782,7 @@
         "bool": true
       }
     ],
-    "id": 497
+    "id": 546
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13486,7 +14809,7 @@
         "bool": false
       }
     ],
-    "id": 498
+    "id": 547
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13513,7 +14836,7 @@
         "bool": false
       }
     ],
-    "id": 499
+    "id": 548
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13540,7 +14863,7 @@
         "bool": true
       }
     ],
-    "id": 500
+    "id": 549
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13567,7 +14890,7 @@
         "bool": false
       }
     ],
-    "id": 501
+    "id": 550
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13594,7 +14917,7 @@
         "bool": true
       }
     ],
-    "id": 502
+    "id": 551
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13621,7 +14944,7 @@
         "bool": false
       }
     ],
-    "id": 503
+    "id": 552
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13648,7 +14971,7 @@
         "bool": false
       }
     ],
-    "id": 504
+    "id": 553
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13675,7 +14998,7 @@
         "bool": true
       }
     ],
-    "id": 505
+    "id": 554
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13702,7 +15025,7 @@
         "bool": true
       }
     ],
-    "id": 506
+    "id": 555
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13729,7 +15052,7 @@
         "bool": false
       }
     ],
-    "id": 507
+    "id": 556
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13756,7 +15079,7 @@
         "bool": false
       }
     ],
-    "id": 508
+    "id": 557
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13783,7 +15106,7 @@
         "bool": false
       }
     ],
-    "id": 509
+    "id": 558
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13810,7 +15133,7 @@
         "bool": true
       }
     ],
-    "id": 510
+    "id": 559
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13837,7 +15160,7 @@
         "bool": false
       }
     ],
-    "id": 511
+    "id": 560
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13864,7 +15187,7 @@
         "bool": false
       }
     ],
-    "id": 512
+    "id": 561
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13891,7 +15214,7 @@
         "bool": false
       }
     ],
-    "id": 513
+    "id": 562
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13918,7 +15241,7 @@
         "bool": true
       }
     ],
-    "id": 514
+    "id": 563
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13945,7 +15268,7 @@
         "bool": false
       }
     ],
-    "id": 515
+    "id": 564
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13972,7 +15295,7 @@
         "bool": false
       }
     ],
-    "id": 516
+    "id": 565
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -13999,7 +15322,7 @@
         "bool": false
       }
     ],
-    "id": 517
+    "id": 566
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14026,7 +15349,7 @@
         "bool": false
       }
     ],
-    "id": 518
+    "id": 567
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14053,7 +15376,7 @@
         "bool": true
       }
     ],
-    "id": 519
+    "id": 568
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14080,7 +15403,7 @@
         "bool": false
       }
     ],
-    "id": 520
+    "id": 569
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14107,7 +15430,7 @@
         "bool": false
       }
     ],
-    "id": 521
+    "id": 570
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14134,7 +15457,7 @@
         "bool": false
       }
     ],
-    "id": 522
+    "id": 571
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14161,7 +15484,7 @@
         "bool": true
       }
     ],
-    "id": 523
+    "id": 572
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14188,7 +15511,7 @@
         "bool": false
       }
     ],
-    "id": 524
+    "id": 573
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14215,7 +15538,7 @@
         "bool": false
       }
     ],
-    "id": 525
+    "id": 574
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14242,7 +15565,7 @@
         "bool": false
       }
     ],
-    "id": 526
+    "id": 575
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14269,7 +15592,7 @@
         "bool": false
       }
     ],
-    "id": 527
+    "id": 576
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14296,7 +15619,7 @@
         "bool": false
       }
     ],
-    "id": 528
+    "id": 577
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14323,7 +15646,7 @@
         "bool": false
       }
     ],
-    "id": 529
+    "id": 578
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14350,7 +15673,7 @@
         "bool": false
       }
     ],
-    "id": 530
+    "id": 579
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14377,7 +15700,7 @@
         "bool": true
       }
     ],
-    "id": 531
+    "id": 580
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14404,7 +15727,7 @@
         "bool": false
       }
     ],
-    "id": 532
+    "id": 581
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14431,7 +15754,7 @@
         "bool": false
       }
     ],
-    "id": 533
+    "id": 582
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14458,7 +15781,7 @@
         "bool": false
       }
     ],
-    "id": 534
+    "id": 583
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14485,7 +15808,7 @@
         "bool": false
       }
     ],
-    "id": 535
+    "id": 584
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14512,7 +15835,7 @@
         "bool": false
       }
     ],
-    "id": 536
+    "id": 585
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14539,7 +15862,7 @@
         "bool": false
       }
     ],
-    "id": 537
+    "id": 586
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14566,7 +15889,7 @@
         "bool": true
       }
     ],
-    "id": 538
+    "id": 587
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14593,7 +15916,7 @@
         "bool": true
       }
     ],
-    "id": 539
+    "id": 588
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14620,7 +15943,7 @@
         "bool": false
       }
     ],
-    "id": 540
+    "id": 589
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14647,7 +15970,7 @@
         "bool": false
       }
     ],
-    "id": 541
+    "id": 590
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14674,7 +15997,7 @@
         "bool": false
       }
     ],
-    "id": 542
+    "id": 591
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14701,7 +16024,7 @@
         "bool": false
       }
     ],
-    "id": 543
+    "id": 592
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14728,7 +16051,7 @@
         "bool": true
       }
     ],
-    "id": 544
+    "id": 593
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14755,7 +16078,7 @@
         "bool": true
       }
     ],
-    "id": 545
+    "id": 594
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14782,7 +16105,7 @@
         "bool": true
       }
     ],
-    "id": 546
+    "id": 595
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14809,7 +16132,7 @@
         "bool": false
       }
     ],
-    "id": 547
+    "id": 596
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14836,7 +16159,7 @@
         "bool": true
       }
     ],
-    "id": 548
+    "id": 597
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14863,7 +16186,7 @@
         "bool": false
       }
     ],
-    "id": 549
+    "id": 598
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14890,7 +16213,7 @@
         "bool": false
       }
     ],
-    "id": 550
+    "id": 599
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14917,7 +16240,7 @@
         "bool": false
       }
     ],
-    "id": 551
+    "id": 600
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14944,7 +16267,7 @@
         "bool": false
       }
     ],
-    "id": 552
+    "id": 601
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14971,7 +16294,7 @@
         "bool": false
       }
     ],
-    "id": 553
+    "id": 602
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -14998,7 +16321,7 @@
         "bool": true
       }
     ],
-    "id": 554
+    "id": 603
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15025,7 +16348,7 @@
         "bool": true
       }
     ],
-    "id": 555
+    "id": 604
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15052,7 +16375,7 @@
         "bool": false
       }
     ],
-    "id": 556
+    "id": 605
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15079,7 +16402,7 @@
         "bool": false
       }
     ],
-    "id": 557
+    "id": 606
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15106,7 +16429,7 @@
         "bool": false
       }
     ],
-    "id": 558
+    "id": 607
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15133,7 +16456,7 @@
         "bool": false
       }
     ],
-    "id": 559
+    "id": 608
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15160,7 +16483,7 @@
         "bool": false
       }
     ],
-    "id": 560
+    "id": 609
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15187,7 +16510,7 @@
         "bool": false
       }
     ],
-    "id": 561
+    "id": 610
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15214,7 +16537,7 @@
         "bool": false
       }
     ],
-    "id": 562
+    "id": 611
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15241,7 +16564,7 @@
         "bool": false
       }
     ],
-    "id": 563
+    "id": 612
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15268,7 +16591,7 @@
         "bool": true
       }
     ],
-    "id": 564
+    "id": 613
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15295,7 +16618,7 @@
         "bool": true
       }
     ],
-    "id": 565
+    "id": 614
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15322,7 +16645,7 @@
         "bool": false
       }
     ],
-    "id": 566
+    "id": 615
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15349,7 +16672,7 @@
         "bool": false
       }
     ],
-    "id": 567
+    "id": 616
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15376,7 +16699,7 @@
         "bool": false
       }
     ],
-    "id": 568
+    "id": 617
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15403,7 +16726,7 @@
         "bool": true
       }
     ],
-    "id": 569
+    "id": 618
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15430,7 +16753,7 @@
         "bool": false
       }
     ],
-    "id": 570
+    "id": 619
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15457,7 +16780,7 @@
         "bool": false
       }
     ],
-    "id": 571
+    "id": 620
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15484,7 +16807,7 @@
         "bool": false
       }
     ],
-    "id": 572
+    "id": 621
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15511,7 +16834,7 @@
         "bool": false
       }
     ],
-    "id": 573
+    "id": 622
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15538,7 +16861,7 @@
         "bool": false
       }
     ],
-    "id": 574
+    "id": 623
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15565,7 +16888,7 @@
         "bool": false
       }
     ],
-    "id": 575
+    "id": 624
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15592,7 +16915,7 @@
         "bool": false
       }
     ],
-    "id": 576
+    "id": 625
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2019)",
@@ -15619,7 +16942,7 @@
         "bool": false
       }
     ],
-    "id": 577
+    "id": 626
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15646,7 +16969,7 @@
         "bool": false
       }
     ],
-    "id": 578
+    "id": 627
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15673,7 +16996,7 @@
         "bool": false
       }
     ],
-    "id": 579
+    "id": 628
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15700,7 +17023,7 @@
         "bool": false
       }
     ],
-    "id": 580
+    "id": 629
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15727,7 +17050,7 @@
         "bool": false
       }
     ],
-    "id": 581
+    "id": 630
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15754,7 +17077,7 @@
         "bool": false
       }
     ],
-    "id": 582
+    "id": 631
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15781,7 +17104,7 @@
         "bool": true
       }
     ],
-    "id": 583
+    "id": 632
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15808,7 +17131,7 @@
         "bool": false
       }
     ],
-    "id": 584
+    "id": 633
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15835,7 +17158,7 @@
         "bool": false
       }
     ],
-    "id": 585
+    "id": 634
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15862,7 +17185,7 @@
         "bool": true
       }
     ],
-    "id": 586
+    "id": 635
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15889,7 +17212,7 @@
         "bool": false
       }
     ],
-    "id": 587
+    "id": 636
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15916,7 +17239,7 @@
         "bool": false
       }
     ],
-    "id": 588
+    "id": 637
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15943,7 +17266,7 @@
         "bool": false
       }
     ],
-    "id": 589
+    "id": 638
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15970,7 +17293,7 @@
         "bool": false
       }
     ],
-    "id": 590
+    "id": 639
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -15997,7 +17320,7 @@
         "bool": false
       }
     ],
-    "id": 591
+    "id": 640
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16024,7 +17347,7 @@
         "bool": false
       }
     ],
-    "id": 592
+    "id": 641
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16051,7 +17374,7 @@
         "bool": false
       }
     ],
-    "id": 593
+    "id": 642
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16078,7 +17401,7 @@
         "bool": false
       }
     ],
-    "id": 594
+    "id": 643
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16105,7 +17428,7 @@
         "bool": false
       }
     ],
-    "id": 595
+    "id": 644
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16132,7 +17455,7 @@
         "bool": true
       }
     ],
-    "id": 596
+    "id": 645
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16159,7 +17482,7 @@
         "bool": false
       }
     ],
-    "id": 597
+    "id": 646
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16186,7 +17509,7 @@
         "bool": false
       }
     ],
-    "id": 598
+    "id": 647
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16213,7 +17536,7 @@
         "bool": false
       }
     ],
-    "id": 599
+    "id": 648
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16240,7 +17563,7 @@
         "bool": false
       }
     ],
-    "id": 600
+    "id": 649
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16267,7 +17590,7 @@
         "bool": false
       }
     ],
-    "id": 601
+    "id": 650
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16294,7 +17617,7 @@
         "bool": false
       }
     ],
-    "id": 602
+    "id": 651
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16321,7 +17644,7 @@
         "bool": false
       }
     ],
-    "id": 603
+    "id": 652
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16348,7 +17671,7 @@
         "bool": false
       }
     ],
-    "id": 604
+    "id": 653
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16375,7 +17698,7 @@
         "bool": false
       }
     ],
-    "id": 605
+    "id": 654
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16402,7 +17725,7 @@
         "bool": true
       }
     ],
-    "id": 606
+    "id": 655
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16429,7 +17752,7 @@
         "bool": false
       }
     ],
-    "id": 607
+    "id": 656
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16456,7 +17779,7 @@
         "bool": false
       }
     ],
-    "id": 608
+    "id": 657
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16483,7 +17806,7 @@
         "bool": false
       }
     ],
-    "id": 609
+    "id": 658
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16510,7 +17833,7 @@
         "bool": true
       }
     ],
-    "id": 610
+    "id": 659
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16537,7 +17860,7 @@
         "bool": true
       }
     ],
-    "id": 611
+    "id": 660
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16564,7 +17887,7 @@
         "bool": false
       }
     ],
-    "id": 612
+    "id": 661
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16591,7 +17914,7 @@
         "bool": false
       }
     ],
-    "id": 613
+    "id": 662
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16618,7 +17941,7 @@
         "bool": true
       }
     ],
-    "id": 614
+    "id": 663
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16645,7 +17968,7 @@
         "bool": false
       }
     ],
-    "id": 615
+    "id": 664
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16672,7 +17995,7 @@
         "bool": false
       }
     ],
-    "id": 616
+    "id": 665
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16699,7 +18022,7 @@
         "bool": true
       }
     ],
-    "id": 617
+    "id": 666
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16726,7 +18049,7 @@
         "bool": false
       }
     ],
-    "id": 618
+    "id": 667
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16753,7 +18076,7 @@
         "bool": false
       }
     ],
-    "id": 619
+    "id": 668
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16780,7 +18103,7 @@
         "bool": false
       }
     ],
-    "id": 620
+    "id": 669
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16807,7 +18130,7 @@
         "bool": false
       }
     ],
-    "id": 621
+    "id": 670
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16834,7 +18157,7 @@
         "bool": false
       }
     ],
-    "id": 622
+    "id": 671
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16861,7 +18184,7 @@
         "bool": false
       }
     ],
-    "id": 623
+    "id": 672
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16888,7 +18211,7 @@
         "bool": false
       }
     ],
-    "id": 624
+    "id": 673
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16915,7 +18238,7 @@
         "bool": false
       }
     ],
-    "id": 625
+    "id": 674
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16942,7 +18265,7 @@
         "bool": false
       }
     ],
-    "id": 626
+    "id": 675
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16969,7 +18292,7 @@
         "bool": false
       }
     ],
-    "id": 627
+    "id": 676
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -16996,7 +18319,7 @@
         "bool": false
       }
     ],
-    "id": 628
+    "id": 677
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17023,7 +18346,7 @@
         "bool": false
       }
     ],
-    "id": 629
+    "id": 678
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17050,7 +18373,7 @@
         "bool": false
       }
     ],
-    "id": 630
+    "id": 679
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17077,7 +18400,7 @@
         "bool": false
       }
     ],
-    "id": 631
+    "id": 680
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17104,7 +18427,7 @@
         "bool": false
       }
     ],
-    "id": 632
+    "id": 681
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17131,7 +18454,7 @@
         "bool": false
       }
     ],
-    "id": 633
+    "id": 682
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17158,7 +18481,7 @@
         "bool": false
       }
     ],
-    "id": 634
+    "id": 683
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17185,7 +18508,7 @@
         "bool": false
       }
     ],
-    "id": 635
+    "id": 684
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17212,7 +18535,7 @@
         "bool": false
       }
     ],
-    "id": 636
+    "id": 685
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17239,7 +18562,7 @@
         "bool": false
       }
     ],
-    "id": 637
+    "id": 686
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17266,7 +18589,7 @@
         "bool": false
       }
     ],
-    "id": 638
+    "id": 687
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17293,7 +18616,7 @@
         "bool": false
       }
     ],
-    "id": 639
+    "id": 688
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17320,7 +18643,7 @@
         "bool": false
       }
     ],
-    "id": 640
+    "id": 689
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17347,7 +18670,7 @@
         "bool": false
       }
     ],
-    "id": 641
+    "id": 690
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17374,7 +18697,7 @@
         "bool": false
       }
     ],
-    "id": 642
+    "id": 691
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17401,7 +18724,7 @@
         "bool": false
       }
     ],
-    "id": 643
+    "id": 692
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17428,7 +18751,7 @@
         "bool": false
       }
     ],
-    "id": 644
+    "id": 693
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17455,7 +18778,7 @@
         "bool": true
       }
     ],
-    "id": 645
+    "id": 694
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17482,7 +18805,7 @@
         "bool": false
       }
     ],
-    "id": 646
+    "id": 695
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17509,7 +18832,7 @@
         "bool": false
       }
     ],
-    "id": 647
+    "id": 696
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17536,7 +18859,7 @@
         "bool": true
       }
     ],
-    "id": 648
+    "id": 697
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17563,7 +18886,7 @@
         "bool": false
       }
     ],
-    "id": 649
+    "id": 698
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17590,7 +18913,7 @@
         "bool": false
       }
     ],
-    "id": 650
+    "id": 699
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17617,7 +18940,7 @@
         "bool": false
       }
     ],
-    "id": 651
+    "id": 700
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17644,7 +18967,7 @@
         "bool": false
       }
     ],
-    "id": 652
+    "id": 701
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17671,7 +18994,7 @@
         "bool": false
       }
     ],
-    "id": 653
+    "id": 702
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17698,7 +19021,7 @@
         "bool": false
       }
     ],
-    "id": 654
+    "id": 703
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17725,7 +19048,7 @@
         "bool": false
       }
     ],
-    "id": 655
+    "id": 704
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17752,7 +19075,7 @@
         "bool": true
       }
     ],
-    "id": 656
+    "id": 705
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17779,7 +19102,7 @@
         "bool": false
       }
     ],
-    "id": 657
+    "id": 706
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17806,7 +19129,7 @@
         "bool": false
       }
     ],
-    "id": 658
+    "id": 707
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17833,7 +19156,7 @@
         "bool": false
       }
     ],
-    "id": 659
+    "id": 708
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17860,7 +19183,7 @@
         "bool": true
       }
     ],
-    "id": 660
+    "id": 709
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17887,7 +19210,7 @@
         "bool": false
       }
     ],
-    "id": 661
+    "id": 710
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17914,7 +19237,7 @@
         "bool": true
       }
     ],
-    "id": 662
+    "id": 711
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2018)",
@@ -17941,7 +19264,7 @@
         "bool": false
       }
     ],
-    "id": 663
+    "id": 712
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -17968,7 +19291,7 @@
         "bool": false
       }
     ],
-    "id": 664
+    "id": 713
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -17995,7 +19318,7 @@
         "bool": false
       }
     ],
-    "id": 665
+    "id": 714
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18022,7 +19345,7 @@
         "bool": false
       }
     ],
-    "id": 666
+    "id": 715
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18049,7 +19372,7 @@
         "bool": false
       }
     ],
-    "id": 667
+    "id": 716
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18076,7 +19399,7 @@
         "bool": false
       }
     ],
-    "id": 668
+    "id": 717
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18103,7 +19426,7 @@
         "bool": false
       }
     ],
-    "id": 669
+    "id": 718
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18130,7 +19453,7 @@
         "bool": true
       }
     ],
-    "id": 670
+    "id": 719
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18157,7 +19480,7 @@
         "bool": false
       }
     ],
-    "id": 671
+    "id": 720
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18184,7 +19507,7 @@
         "bool": false
       }
     ],
-    "id": 672
+    "id": 721
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18211,7 +19534,7 @@
         "bool": false
       }
     ],
-    "id": 673
+    "id": 722
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18238,7 +19561,7 @@
         "bool": true
       }
     ],
-    "id": 674
+    "id": 723
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18265,7 +19588,7 @@
         "bool": false
       }
     ],
-    "id": 675
+    "id": 724
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18292,7 +19615,7 @@
         "bool": false
       }
     ],
-    "id": 676
+    "id": 725
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18319,7 +19642,7 @@
         "bool": true
       }
     ],
-    "id": 677
+    "id": 726
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18346,7 +19669,7 @@
         "bool": true
       }
     ],
-    "id": 678
+    "id": 727
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18373,7 +19696,7 @@
         "bool": false
       }
     ],
-    "id": 679
+    "id": 728
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18400,7 +19723,7 @@
         "bool": false
       }
     ],
-    "id": 680
+    "id": 729
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18427,7 +19750,7 @@
         "bool": false
       }
     ],
-    "id": 681
+    "id": 730
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18454,7 +19777,7 @@
         "bool": false
       }
     ],
-    "id": 682
+    "id": 731
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18481,7 +19804,7 @@
         "bool": true
       }
     ],
-    "id": 683
+    "id": 732
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18508,7 +19831,7 @@
         "bool": false
       }
     ],
-    "id": 684
+    "id": 733
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18535,7 +19858,7 @@
         "bool": false
       }
     ],
-    "id": 685
+    "id": 734
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18562,7 +19885,7 @@
         "bool": true
       }
     ],
-    "id": 686
+    "id": 735
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18589,7 +19912,7 @@
         "bool": false
       }
     ],
-    "id": 687
+    "id": 736
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18616,7 +19939,7 @@
         "bool": false
       }
     ],
-    "id": 688
+    "id": 737
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18643,7 +19966,7 @@
         "bool": true
       }
     ],
-    "id": 689
+    "id": 738
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18670,7 +19993,7 @@
         "bool": true
       }
     ],
-    "id": 690
+    "id": 739
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18697,7 +20020,7 @@
         "bool": false
       }
     ],
-    "id": 691
+    "id": 740
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18724,7 +20047,7 @@
         "bool": false
       }
     ],
-    "id": 692
+    "id": 741
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18751,7 +20074,7 @@
         "bool": false
       }
     ],
-    "id": 693
+    "id": 742
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18778,7 +20101,7 @@
         "bool": false
       }
     ],
-    "id": 694
+    "id": 743
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18805,7 +20128,7 @@
         "bool": false
       }
     ],
-    "id": 695
+    "id": 744
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18832,7 +20155,7 @@
         "bool": false
       }
     ],
-    "id": 696
+    "id": 745
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18859,7 +20182,7 @@
         "bool": false
       }
     ],
-    "id": 697
+    "id": 746
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18886,7 +20209,7 @@
         "bool": true
       }
     ],
-    "id": 698
+    "id": 747
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18913,7 +20236,7 @@
         "bool": true
       }
     ],
-    "id": 699
+    "id": 748
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18940,7 +20263,7 @@
         "bool": false
       }
     ],
-    "id": 700
+    "id": 749
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18967,7 +20290,7 @@
         "bool": false
       }
     ],
-    "id": 701
+    "id": 750
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -18994,7 +20317,7 @@
         "bool": false
       }
     ],
-    "id": 702
+    "id": 751
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19021,7 +20344,7 @@
         "bool": true
       }
     ],
-    "id": 703
+    "id": 752
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19048,7 +20371,7 @@
         "bool": false
       }
     ],
-    "id": 704
+    "id": 753
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19075,7 +20398,7 @@
         "bool": false
       }
     ],
-    "id": 705
+    "id": 754
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19102,7 +20425,7 @@
         "bool": false
       }
     ],
-    "id": 706
+    "id": 755
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19129,7 +20452,7 @@
         "bool": false
       }
     ],
-    "id": 707
+    "id": 756
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19156,7 +20479,7 @@
         "bool": false
       }
     ],
-    "id": 708
+    "id": 757
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19183,7 +20506,7 @@
         "bool": false
       }
     ],
-    "id": 709
+    "id": 758
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19210,7 +20533,7 @@
         "bool": false
       }
     ],
-    "id": 710
+    "id": 759
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19237,7 +20560,7 @@
         "bool": true
       }
     ],
-    "id": 711
+    "id": 760
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19264,7 +20587,7 @@
         "bool": false
       }
     ],
-    "id": 712
+    "id": 761
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19291,7 +20614,7 @@
         "bool": false
       }
     ],
-    "id": 713
+    "id": 762
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19318,7 +20641,7 @@
         "bool": true
       }
     ],
-    "id": 714
+    "id": 763
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19345,7 +20668,7 @@
         "bool": false
       }
     ],
-    "id": 715
+    "id": 764
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19372,7 +20695,7 @@
         "bool": false
       }
     ],
-    "id": 716
+    "id": 765
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19399,7 +20722,7 @@
         "bool": false
       }
     ],
-    "id": 717
+    "id": 766
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19426,7 +20749,7 @@
         "bool": true
       }
     ],
-    "id": 718
+    "id": 767
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19453,7 +20776,7 @@
         "bool": false
       }
     ],
-    "id": 719
+    "id": 768
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19480,7 +20803,7 @@
         "bool": false
       }
     ],
-    "id": 720
+    "id": 769
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19507,7 +20830,7 @@
         "bool": false
       }
     ],
-    "id": 721
+    "id": 770
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19534,7 +20857,7 @@
         "bool": false
       }
     ],
-    "id": 722
+    "id": 771
   },
   {
     "info": "3rd-year/cardiovascular-2/compiled (2017)",
@@ -19561,6 +20884,6 @@
         "bool": false
       }
     ],
-    "id": 723
+    "id": 772
   }
 ]

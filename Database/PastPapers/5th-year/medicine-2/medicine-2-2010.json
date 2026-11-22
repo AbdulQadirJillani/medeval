@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/medicine-2/2010",
+    "question": "Which of the following is the drug of choice for treating complicated malaria?",
+    "answers": [
+      {
+        "option": "Tetracycline",
+        "bool": false
+      },
+      {
+        "option": "Quinine",
+        "bool": true
+      },
+      {
+        "option": "Dapsone",
+        "bool": false
+      },
+      {
+        "option": "Chloroquine",
+        "bool": false
+      },
+      {
+        "option": "Mefloquine",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/medicine-2/2010",
+    "question": "Which of the following kidney disease is most likely associated with Systemic lupus erythematosus (SLE)?",
+    "answers": [
+      {
+        "option": "Focal segmental glomerulonephritis",
+        "bool": false
+      },
+      {
+        "option": "Acute tubular necrosis",
+        "bool": false
+      },
+      {
+        "option": "Membranous glomerulonephritis",
+        "bool": false
+      },
+      {
+        "option": "Minimal change glomerulonephritis",
+        "bool": false
+      },
+      {
+        "option": "Membranoproliferative glomerulonephritis",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/medicine-2/2010",
+    "question": "Which cells does the acquired immunodeficiency virus (AIDS) virus infect?",
+    "answers": [
+      {
+        "option": "Eosinophils",
+        "bool": false
+      },
+      {
+        "option": "Basophils",
+        "bool": false
+      },
+      {
+        "option": "B cells",
+        "bool": false
+      },
+      {
+        "option": "Red blood cells",
+        "bool": false
+      },
+      {
+        "option": "T cells",
+        "bool": true
+      }
+    ]
+  }
+]

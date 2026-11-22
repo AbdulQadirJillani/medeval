@@ -81,6 +81,33 @@
     "id": 2
   },
   {
+    "info": "2nd-year/reproductive/compiled (2025, 2024, 2018)",
+    "question": "What is the most common cause of maternal mortality in Pakistan?",
+    "answers": [
+      {
+        "option": "Eclampsia",
+        "bool": false
+      },
+      {
+        "option": "Sepsis",
+        "bool": false
+      },
+      {
+        "option": "Abortion",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhage",
+        "bool": true
+      },
+      {
+        "option": "Malaria",
+        "bool": false
+      }
+    ],
+    "id": 3
+  },
+  {
     "info": "2nd-year/reproductive/compiled (2024, 2020, 2019)",
     "question": "A female patient came to the gynecology outpatient department (OPD) with a complaint of infertility. After lab investigation, it was found that the problem is with the conduction of sperms and ovum to the site of fertilization. What is the site of fertilization?",
     "answers": [
@@ -105,7 +132,7 @@
         "bool": false
       }
     ],
-    "id": 3
+    "id": 4
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2021, 2020)",
@@ -132,7 +159,7 @@
         "bool": false
       }
     ],
-    "id": 4
+    "id": 5
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023, 2021)",
@@ -159,7 +186,7 @@
         "bool": false
       }
     ],
-    "id": 5
+    "id": 6
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2022, 2021)",
@@ -186,7 +213,34 @@
         "bool": false
       }
     ],
-    "id": 6
+    "id": 7
+  },
+  {
+    "info": "2nd-year/reproductive/compiled (2023, 2018, 2016)",
+    "question": "During translation, the initiation codon of mRNA attaches to the ribosome at which site?",
+    "answers": [
+      {
+        "option": "A site of 50S subunit",
+        "bool": false
+      },
+      {
+        "option": "P site of 30S subunit",
+        "bool": true
+      },
+      {
+        "option": "E site of 50S subunit",
+        "bool": false
+      },
+      {
+        "option": "A site of 30S subunit",
+        "bool": false
+      },
+      {
+        "option": "E site of 30S subunit",
+        "bool": false
+      }
+    ],
+    "id": 8
   },
   {
     "info": "2nd-year/reproductive/compiled (2022, 2019, 2016)",
@@ -213,7 +267,7 @@
         "bool": false
       }
     ],
-    "id": 7
+    "id": 9
   },
   {
     "info": "2nd-year/reproductive/compiled (2022, 2021, 2019)",
@@ -240,7 +294,7 @@
         "bool": false
       }
     ],
-    "id": 8
+    "id": 10
   },
   {
     "info": "2nd-year/reproductive/compiled (2022, 2021, 2020)",
@@ -267,7 +321,7 @@
         "bool": true
       }
     ],
-    "id": 9
+    "id": 11
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2019, 2016)",
@@ -294,7 +348,7 @@
         "bool": false
       }
     ],
-    "id": 10
+    "id": 12
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2019, 2016)",
@@ -321,7 +375,7 @@
         "bool": false
       }
     ],
-    "id": 11
+    "id": 13
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2019, 2016)",
@@ -348,7 +402,7 @@
         "bool": false
       }
     ],
-    "id": 12
+    "id": 14
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2020, 2016)",
@@ -375,7 +429,7 @@
         "bool": false
       }
     ],
-    "id": 13
+    "id": 15
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2019, 2016)",
@@ -402,7 +456,7 @@
         "bool": true
       }
     ],
-    "id": 14
+    "id": 16
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2020, 2019)",
@@ -429,7 +483,7 @@
         "bool": false
       }
     ],
-    "id": 15
+    "id": 17
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2020, 2019)",
@@ -456,7 +510,7 @@
         "bool": true
       }
     ],
-    "id": 16
+    "id": 18
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2020, 2019)",
@@ -483,7 +537,7 @@
         "bool": false
       }
     ],
-    "id": 17
+    "id": 19
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2020, 2019)",
@@ -510,7 +564,7 @@
         "bool": false
       }
     ],
-    "id": 18
+    "id": 20
   },
   {
     "info": "2nd-year/reproductive/compiled (2021, 2020, 2019)",
@@ -537,34 +591,7 @@
         "bool": false
       }
     ],
-    "id": 19
-  },
-  {
-    "info": "2nd-year/reproductive/compiled (2025, 2024)",
-    "question": "What is the most common cause of maternal mortality in Pakistan?",
-    "answers": [
-      {
-        "option": "Eclampsia",
-        "bool": false
-      },
-      {
-        "option": "Sepsis",
-        "bool": false
-      },
-      {
-        "option": "Abortion",
-        "bool": false
-      },
-      {
-        "option": "Hemorrhage",
-        "bool": true
-      },
-      {
-        "option": "Malaria",
-        "bool": false
-      }
-    ],
-    "id": 20
+    "id": 21
   },
   {
     "info": "2nd-year/reproductive/compiled (2025, 2024)",
@@ -591,7 +618,7 @@
         "bool": false
       }
     ],
-    "id": 21
+    "id": 22
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2017)",
@@ -618,7 +645,7 @@
         "bool": true
       }
     ],
-    "id": 22
+    "id": 23
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2017)",
@@ -645,7 +672,7 @@
         "bool": false
       }
     ],
-    "id": 23
+    "id": 24
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2020)",
@@ -672,7 +699,7 @@
         "bool": false
       }
     ],
-    "id": 24
+    "id": 25
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2020)",
@@ -699,7 +726,7 @@
         "bool": false
       }
     ],
-    "id": 25
+    "id": 26
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2020)",
@@ -726,7 +753,7 @@
         "bool": false
       }
     ],
-    "id": 26
+    "id": 27
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2020)",
@@ -753,7 +780,7 @@
         "bool": false
       }
     ],
-    "id": 27
+    "id": 28
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2020)",
@@ -776,7 +803,7 @@
         "bool": false
       }
     ],
-    "id": 28
+    "id": 29
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2021)",
@@ -803,7 +830,7 @@
         "bool": false
       }
     ],
-    "id": 29
+    "id": 30
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2021)",
@@ -830,7 +857,7 @@
         "bool": false
       }
     ],
-    "id": 30
+    "id": 31
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2021)",
@@ -857,7 +884,7 @@
         "bool": true
       }
     ],
-    "id": 31
+    "id": 32
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2021)",
@@ -884,7 +911,7 @@
         "bool": true
       }
     ],
-    "id": 32
+    "id": 33
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2021)",
@@ -911,7 +938,7 @@
         "bool": true
       }
     ],
-    "id": 33
+    "id": 34
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2022)",
@@ -938,7 +965,7 @@
         "bool": false
       }
     ],
-    "id": 34
+    "id": 35
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -965,7 +992,7 @@
         "bool": false
       }
     ],
-    "id": 35
+    "id": 36
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -992,7 +1019,7 @@
         "bool": false
       }
     ],
-    "id": 36
+    "id": 37
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1019,7 +1046,7 @@
         "bool": false
       }
     ],
-    "id": 37
+    "id": 38
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1046,7 +1073,7 @@
         "bool": false
       }
     ],
-    "id": 38
+    "id": 39
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1073,7 +1100,7 @@
         "bool": false
       }
     ],
-    "id": 39
+    "id": 40
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1100,7 +1127,7 @@
         "bool": false
       }
     ],
-    "id": 40
+    "id": 41
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1127,7 +1154,7 @@
         "bool": false
       }
     ],
-    "id": 41
+    "id": 42
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1154,7 +1181,7 @@
         "bool": false
       }
     ],
-    "id": 42
+    "id": 43
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1181,7 +1208,7 @@
         "bool": false
       }
     ],
-    "id": 43
+    "id": 44
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1208,7 +1235,7 @@
         "bool": false
       }
     ],
-    "id": 44
+    "id": 45
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1235,7 +1262,7 @@
         "bool": false
       }
     ],
-    "id": 45
+    "id": 46
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1262,7 +1289,7 @@
         "bool": false
       }
     ],
-    "id": 46
+    "id": 47
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1289,7 +1316,7 @@
         "bool": false
       }
     ],
-    "id": 47
+    "id": 48
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1316,7 +1343,7 @@
         "bool": false
       }
     ],
-    "id": 48
+    "id": 49
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1343,7 +1370,7 @@
         "bool": false
       }
     ],
-    "id": 49
+    "id": 50
   },
   {
     "info": "2nd-year/reproductive/compiled (2024, 2023)",
@@ -1367,33 +1394,6 @@
       },
       {
         "option": "Amniotic sac",
-        "bool": false
-      }
-    ],
-    "id": 50
-  },
-  {
-    "info": "2nd-year/reproductive/compiled (2023, 2016)",
-    "question": "During translation, the initiation codon of mRNA attaches to the ribosome at which site?",
-    "answers": [
-      {
-        "option": "A site of 50S subunit",
-        "bool": false
-      },
-      {
-        "option": "P site of 30S subunit",
-        "bool": true
-      },
-      {
-        "option": "E site of 50S subunit",
-        "bool": false
-      },
-      {
-        "option": "A site of 30S subunit",
-        "bool": false
-      },
-      {
-        "option": "E site of 30S subunit",
         "bool": false
       }
     ],

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "info": "4th-year/orthopedics/2016",
+    "question": "A 55-year-old female, para 11+2, presents to the outpatient clinic with bilateral knee and back pain for the past 6 months. The doctor recommends an investigation for determining the bone mineral density. What is the investigation of choice?",
+    "answers": [
+      {
+        "option": "Computed tomography (CT) scan",
+        "bool": false
+      },
+      {
+        "option": "X-ray",
+        "bool": false
+      },
+      {
+        "option": "Ultrasound",
+        "bool": false
+      },
+      {
+        "option": "Dual-energy x-ray absorptiometry (DEXA)",
+        "bool": true
+      },
+      {
+        "option": "Bone scan",
+        "bool": false
+      }
+    ]
+  }
+]

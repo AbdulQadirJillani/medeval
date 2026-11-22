@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "info": "3rd-year/infectious/2016",
+    "question": "Which vaccines are given at birth according to the EPI schedule?",
+    "answers": [
+      {
+        "option": "OPV + BCG + hep B",
+        "bool": true
+      },
+      {
+        "option": "BCG + OPV 1",
+        "bool": false
+      },
+      {
+        "option": "Pneumo + BCG",
+        "bool": false
+      },
+      {
+        "option": "Penta + OPV",
+        "bool": false
+      },
+      {
+        "option": "OPV 0 + BCG",
+        "bool": false
+      }
+    ]
+  }
+]

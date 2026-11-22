@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "info": "2nd-year/reproductive/2018",
+    "question": "During translation, the initiation codon of mRNA attaches to the ribosome at which site?",
+    "answers": [
+      {
+        "option": "A site of 50S subunit",
+        "bool": false
+      },
+      {
+        "option": "P site of 30S subunit",
+        "bool": true
+      },
+      {
+        "option": "E site of 50S subunit",
+        "bool": false
+      },
+      {
+        "option": "A site of 30S subunit",
+        "bool": false
+      },
+      {
+        "option": "E site of 30S subunit",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "2nd-year/reproductive/2018",
+    "question": "What is the most common cause of maternal mortality in Pakistan?",
+    "answers": [
+      {
+        "option": "Eclampsia",
+        "bool": false
+      },
+      {
+        "option": "Sepsis",
+        "bool": false
+      },
+      {
+        "option": "Abortion",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhage",
+        "bool": true
+      },
+      {
+        "option": "Malaria",
+        "bool": false
+      }
+    ]
+  }
+]

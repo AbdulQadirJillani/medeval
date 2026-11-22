@@ -1,0 +1,191 @@
+[
+  {
+    "id": 0,
+    "info": "5th-year/surgery-1/2022",
+    "question": "A patient was induced for general anesthesia with propofol and atracurium. Suddenly his pulse increased from 70 bpm to 140 bpm. What is the most likely cause for a rise in the pulse?",
+    "answers": [
+      {
+        "option": "Hyperthermia",
+        "bool": false
+      },
+      {
+        "option": "Raised intracranial pressure",
+        "bool": false
+      },
+      {
+        "option": "Pain",
+        "bool": false
+      },
+      {
+        "option": "Hyperventilation",
+        "bool": false
+      },
+      {
+        "option": "Light anesthesia",
+        "bool": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "info": "5th-year/surgery-1/2022",
+    "question": "A male patient presents with confusion postoperatively following a transurethral resection of the prostate (TURP). What is the most likely cause of his presentation?",
+    "answers": [
+      {
+        "option": "Saline irrigation",
+        "bool": true
+      },
+      {
+        "option": "Trauma",
+        "bool": false
+      },
+      {
+        "option": "Uremia",
+        "bool": false
+      },
+      {
+        "option": "Hemorrhage",
+        "bool": false
+      },
+      {
+        "option": "Hyponatremia",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "info": "5th-year/surgery-1/2022",
+    "question": "A patient presented to the hospital with progressive right-sided paralysis for 1-month. On a CT scan, an extra-axial mass in the frontal lobe with a dural tail can be seen. What is the most appropriate management option for this patient?",
+    "answers": [
+      {
+        "option": "Steroids",
+        "bool": false
+      },
+      {
+        "option": "Stereotactic neurosurgery",
+        "bool": true
+      },
+      {
+        "option": "Excisional biopsy",
+        "bool": false
+      },
+      {
+        "option": "Radiotherapy",
+        "bool": false
+      },
+      {
+        "option": "Chemotherapy",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "info": "5th-year/surgery-1/2022",
+    "question": "What is the best statement regarding prophylactic antibiotics given to prevent postoperative infection?",
+    "answers": [
+      {
+        "option": "Just before the induction of anesthesia and continued for 5 doses",
+        "bool": false
+      },
+      {
+        "option": "Once first before or at the time of induction of anesthesia",
+        "bool": true
+      },
+      {
+        "option": "Given specifically against staphylococcus aureus",
+        "bool": false
+      },
+      {
+        "option": "To keep the infection rate around 20%",
+        "bool": false
+      },
+      {
+        "option": "Just before or at the time of induction of anesthesia and not to be continued beyond 3 doses",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "info": "5th-year/surgery-1/2022",
+    "question": "A patient was admitted to the hospital with a serum potassium level of 6.0 mmol/L. The house officer interprets the report. What is the most likely cause of this presentation?",
+    "answers": [
+      {
+        "option": "Laxatives",
+        "bool": false
+      },
+      {
+        "option": "Acute renal failure",
+        "bool": true
+      },
+      {
+        "option": "Malabsorption",
+        "bool": false
+      },
+      {
+        "option": "Diuretics",
+        "bool": false
+      },
+      {
+        "option": "Nasogastric lavage",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "info": "5th-year/surgery-1/2022",
+    "question": "What is the most adequate flap for covering a 3x4 cm ulcer on the tibia from its right side?",
+    "answers": [
+      {
+        "option": "Transposition",
+        "bool": false
+      },
+      {
+        "option": "Island",
+        "bool": false
+      },
+      {
+        "option": "Rotational",
+        "bool": false
+      },
+      {
+        "option": "Advancement",
+        "bool": true
+      },
+      {
+        "option": "Axial",
+        "bool": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "info": "5th-year/surgery-1/2022",
+    "question": "What is the total energy requirement per day in a patient of 60 kg according to total parenteral nutrition (TPN) who just underwent surgery?",
+    "answers": [
+      {
+        "option": "2400-3000 kcal/day",
+        "bool": false
+      },
+      {
+        "option": "1300-1800 kcal/day",
+        "bool": true
+      },
+      {
+        "option": "2000 kcal/day",
+        "bool": false
+      },
+      {
+        "option": "3000-3600 kcal/day",
+        "bool": false
+      },
+      {
+        "option": "500 kcal/day",
+        "bool": false
+      }
+    ]
+  }
+]

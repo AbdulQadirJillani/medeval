@@ -29265,5 +29265,86 @@
       }
     ],
     "id": 1084
+  },
+  {
+    "info": "2nd-year/head-and-neck/compiled (2015)",
+    "question": "Which of the following is the preferred treatment for subarachnoid hemorrhage (SAH)?",
+    "answers": [
+      {
+        "option": "Nifedipine",
+        "bool": false
+      },
+      {
+        "option": "Beta blockers",
+        "bool": false
+      },
+      {
+        "option": "Nimodipine",
+        "bool": true
+      },
+      {
+        "option": "Mannitol",
+        "bool": false
+      },
+      {
+        "option": "Urgent craniotomy",
+        "bool": false
+      }
+    ],
+    "id": 1085
+  },
+  {
+    "info": "2nd-year/head-and-neck/compiled (undated)",
+    "question": "Which muscle brings about the protrusion of the tongue?",
+    "answers": [
+      {
+        "option": "Hypoglossus",
+        "bool": false
+      },
+      {
+        "option": "Palatopharyngeus",
+        "bool": false
+      },
+      {
+        "option": "Genioglossus",
+        "bool": true
+      },
+      {
+        "option": "Palatoglossus",
+        "bool": false
+      },
+      {
+        "option": "Styloglossus",
+        "bool": false
+      }
+    ],
+    "id": 1086
+  },
+  {
+    "info": "2nd-year/head-and-neck/compiled (undated)",
+    "question": "The eustachian tube in which wall of the middle ear?",
+    "answers": [
+      {
+        "option": "Posterior",
+        "bool": false
+      },
+      {
+        "option": "Anterior",
+        "bool": true
+      },
+      {
+        "option": "Middle",
+        "bool": false
+      },
+      {
+        "option": "Lateral",
+        "bool": false
+      },
+      {
+        "option": "Medial",
+        "bool": false
+      }
+    ],
+    "id": 1087
   }
 ]
