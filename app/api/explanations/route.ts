@@ -32,6 +32,8 @@ async function redis(cfg: Config, command: string[]): Promise<unknown> {
     headers: { Authorization: `Bearer ${cfg.token}`, "Content-Type": "application/json" },
     body: JSON.stringify(command),
     cache: "no-store",
+    // Under the client's 10s save timeout, so a hung store answers 502
+    signal: AbortSignal.timeout(8000),
   })
   const data = await res.json().catch(() => null) as { result?: unknown, error?: unknown } | null
   if (!res.ok || !data || data.error !== undefined) throw new Error(`Upstash ${res.status}`)

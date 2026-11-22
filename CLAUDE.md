@@ -234,9 +234,11 @@ JSON `{ text, info, updatedAt }`), never in `Database/` or the build.
   (reader), and the store's `KV_REST_API_URL` / `KV_REST_API_TOKEN`, set by Vercel's Upstash
   integration (`UPSTASH_REDIS_REST_URL` / `_TOKEN` also work). Missing any → the route returns 503.
 - **Keys on a device:** opening any page with `?key=<value>` stores it as `explain-key` in
-  `localStorage` (`?key=off` forgets it) and strips the param (`takeKeyFromUrl`, called by
-  `ExplainKeyCapture` in the layout and by `useExplanations` first, since quiz effects run before
-  the layout's). Rotating a key = changing the env var and redeploying.
+  `localStorage` (`?key=off` forgets it) and strips the param, in an inline script in
+  `layout.tsx` that runs **before hydration**. Don't move it into an effect: a layout effect runs
+  before Next patches `history`, so its `replaceState` wipes Next's state, breaks Back, and leaves
+  the key in the router (re-sent in `_rsc` prefetch URLs). Rotating a key = changing the env var
+  and redeploying.
 - **Route:** `POST { keys }` (either key) → `{ role, explanations }`; `PUT { key, text, info }`
   (write key only; blank text deletes). Bearer auth compared in constant time (`auth.ts`); every
   response is `no-store`. Plain `Response`, so it runs under `node --test`.

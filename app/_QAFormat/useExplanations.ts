@@ -1,12 +1,13 @@
 import { useCallback, useEffect, useState } from "react"
 import type { Quiz } from "./types"
 import { MAX_INFO, MAX_KEYS } from "@/lib/explanations"
-import { storedKey, takeKeyFromUrl } from "./explanationKey"
+import { storedKey } from "./explanationKey"
 
 type Role = "author" | "reader"
 type ReadResponse = { role?: unknown, explanations?: Record<string, string> }
 
 const API = "/api/explanations"
+const SAVE_TIMEOUT_MS = 10000
 
 const headers = (key: string) => ({ Authorization: `Bearer ${key}`, "Content-Type": "application/json" })
 
@@ -19,8 +20,6 @@ export default function useExplanations(enabled: boolean, data: Quiz, keyAt: (i:
   const [texts, setTexts] = useState<Record<string, string>>({})
 
   useEffect(() => {
-    // Before reading the key: this effect runs before the layout's capture
-    takeKeyFromUrl()
     const key = storedKey()
     if (!enabled || !key) return
 
@@ -63,6 +62,8 @@ export default function useExplanations(enabled: boolean, data: Quiz, keyAt: (i:
         method: "PUT",
         headers: headers(key),
         body: JSON.stringify({ key: k, text: value, info: data[i].info.slice(0, MAX_INFO) }),
+        // A hung request would leave the editor stuck on "Saving…"
+        signal: typeof AbortSignal.timeout === "function" ? AbortSignal.timeout(SAVE_TIMEOUT_MS) : undefined,
       })
       if (!res.ok) return false
     } catch {

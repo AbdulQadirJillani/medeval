@@ -21,28 +21,37 @@ type Props = {
 // and an open dialog already blocks the quiz's answer/move/bookmark keys
 const Explanation = ({ text, canEdit, onSave }: Props) => {
   const [open, setOpen] = useState<boolean>(false)
-  const [draft, setDraft] = useState<string>("")
+  // Kept until Cancel or a successful save, so a stray tap outside the
+  // dialog (or Esc) doesn't throw away what was typed
+  const [draft, setDraft] = useState<string | null>(null)
   const [saving, setSaving] = useState<boolean>(false)
   const [failed, setFailed] = useState<boolean>(false)
 
   if (!text && !canEdit) return null
 
-  const empty = draft.trim() === ""
-  const unchanged = draft.trim() === (text ?? "")
+  const value = draft ?? text ?? ""
+  const empty = value.trim() === ""
+  const unchanged = value.trim() === (text ?? "")
 
   const openEditor = () => {
-    setDraft(text ?? "")
     setFailed(false)
     setOpen(true)
+  }
+
+  const cancel = () => {
+    setDraft(null)
+    setOpen(false)
   }
 
   const save = async () => {
     setSaving(true)
     setFailed(false)
-    const ok = await onSave(draft)
+    const ok = await onSave(value)
     setSaving(false)
-    if (ok) setOpen(false)
-    else setFailed(true)
+    if (ok) {
+      setDraft(null)
+      setOpen(false)
+    } else setFailed(true)
   }
 
   return (
@@ -73,7 +82,7 @@ const Explanation = ({ text, canEdit, onSave }: Props) => {
             <DialogDescription>Only you and your reader can see this.</DialogDescription>
           </DialogHeader>
           <textarea
-            value={draft}
+            value={value}
             onChange={e => setDraft(e.target.value)}
             maxLength={MAX_TEXT}
             rows={8}
@@ -84,7 +93,7 @@ const Explanation = ({ text, canEdit, onSave }: Props) => {
             <p role="alert" className="text-sm text-destructive">Couldn&apos;t save. Check your connection and try again.</p>
           )}
           <DialogFooter className="gap-2">
-            <Button variant="outline" disabled={saving} onClick={() => setOpen(false)}>Cancel</Button>
+            <Button variant="outline" disabled={saving} onClick={cancel}>Cancel</Button>
             <Button variant="brand" disabled={saving || unchanged} onClick={save}>
               {saving ? "Saving…" : empty && text ? "Delete" : "Save"}
             </Button>

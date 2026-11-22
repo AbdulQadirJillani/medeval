@@ -30,14 +30,3 @@ export function parseWriteBody(body: unknown): { key: string, text: string, info
   if (trimmed.length > MAX_TEXT || info.length > MAX_INFO) return null
   return { key, text: trimmed, info }
 }
-
-// The ?key= param from a link, and the same URL without it (hash kept), for
-// replaceState. null when the URL has no key param.
-export function readKeyParam(href: string): { value: string, cleaned: string } | null {
-  const url = new URL(href)
-  if (!url.searchParams.has("key")) return null
-  const value = (url.searchParams.get("key") ?? "").trim()
-  url.searchParams.delete("key")
-  const search = url.searchParams.toString()
-  return { value, cleaned: url.pathname + (search ? `?${search}` : "") + url.hash }
-}

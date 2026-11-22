@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import NavBar from "./_NavBar/NavBar";
-import ExplainKeyCapture from "./_components/ExplainKeyCapture";
 import { baseOpenGraph } from "@/lib/metadata";
+import { EXPLAIN_KEY_STORAGE } from "@/lib/explanations";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -75,6 +75,12 @@ export const metadata: Metadata = {
   },
 };
 
+// A ?key= link stores its explanations key on this device ("off" or empty
+// forgets it) and drops the param. It must run before hydration: a React
+// effect runs before Next patches history, so its replaceState wiped Next's
+// state, and the router kept (and re-sent) the key from the original URL.
+const explainKeyScript = `(function(){try{var u=new URL(location.href);if(!u.searchParams.has('key'))return;var v=(u.searchParams.get('key')||'').trim();try{if(v===''||v==='off')localStorage.removeItem('${EXPLAIN_KEY_STORAGE}');else localStorage.setItem('${EXPLAIN_KEY_STORAGE}',v)}catch(e){}u.searchParams.delete('key');var s=u.searchParams.toString();history.replaceState(history.state,'',u.pathname+(s?'?'+s:'')+u.hash)}catch(e){}})()`
+
 function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -84,8 +90,8 @@ function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
             __html: `(function(){try{if(localStorage.getItem('theme')==='true'){document.documentElement.classList.add('dark')}}catch(e){}})()`,
           }}
         />
+        <script dangerouslySetInnerHTML={{ __html: explainKeyScript }} />
         <NavBar />
-        <ExplainKeyCapture />
         {children}
       </body>
     </html>
