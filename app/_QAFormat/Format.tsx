@@ -33,6 +33,9 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
   const [confirmFinish, setConfirmFinish] = useState<boolean>(false)
   // Frozen when the confirm opens, so its text can't change while it animates closed
   const [unansweredAt, setUnansweredAt] = useState({ count: 0, first: 0 })
+  // Bumped by moves that can land on the index already shown (Retake, Review),
+  // so the question's highlights still clear
+  const [visit, setVisit] = useState<number>(0)
   const score = useRef<number>(0)
   const lock = useRef<boolean>(false)
   const recorded = useRef<boolean>(false)
@@ -152,6 +155,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
     if (missed.length === 0) return
     setReview(missed)
     setIndex(missed[0])
+    setVisit(v => v + 1)
     lock.current = false
     setFinishModal(false)
   }
@@ -163,6 +167,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
     lock.current = false
     recorded.current = false
     setIndex(0)
+    setVisit(v => v + 1)
     setClickedOption([])
     setFinishModal(false)
   }
@@ -197,7 +202,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
 
         <ProgressMap statuses={statuses} saved={savedFlags} index={index} open={mapOpen} onOpenChange={setMapOpen} onJump={jump} />
 
-        <Question question={data[index].question} />
+        <Question key={`${index}-${visit}`} question={data[index].question} />
 
         {
           // Ternary, not &&: a difficulty of 0 would otherwise render a stray "0"
