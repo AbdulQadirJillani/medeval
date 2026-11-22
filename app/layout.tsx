@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import NavBar from "./_NavBar/NavBar";
+import { baseOpenGraph } from "@/lib/metadata";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -11,7 +12,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   // Essentials
   metadataBase: new URL("https://med-eval.vercel.app"),
-  title: "MedEval",
+  title: { default: "MedEval", template: "%s | MedEval" },
   description: "MedEval is a free, student-built medical study hub. Access past papers, a growing book bank, and hospital maps. All 100% FREE. Study smarter, not harder.",
 
   // SEO FUNDAMENTALS
@@ -21,20 +22,10 @@ export const metadata: Metadata = {
 
   // OPEN GRAPH (Social Media Sharing)
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
+    ...baseOpenGraph,
     url: 'https://med-eval.vercel.app',
     title: 'MedEval — Free Medical Assessment Hub',
     description: "MedEval is a free, student-built medical study hub. Access past papers, a growing book bank, and hospital maps. All 100% FREE. Study smarter, not harder.",
-    siteName: "MedEval",
-    images: [
-      {
-        url: '/android-chrome-384x384.png',
-        width: 384,
-        height: 384,
-        alt: 'Logo'
-      }
-    ]
   },
 
   // ICONS & FAVICONS

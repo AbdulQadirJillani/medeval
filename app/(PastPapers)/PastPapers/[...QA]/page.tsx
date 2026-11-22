@@ -1,6 +1,9 @@
+import type { Metadata } from "next"
 import Format from "@/app/_QAFormat/Format"
 import type { Quiz, QuizLink } from "@/app/_QAFormat/types"
 import { allRoutes, yearsFor } from "@/app/(PastPapers)/pastPapers"
+import { pageMetadata } from "@/lib/metadata"
+import { labelParts } from "@/lib/papers"
 import { redirect } from "next/navigation"
 
 export function generateStaticParams() {
@@ -15,13 +18,29 @@ type Props = {
   QA: string[]
 }
 
+async function loadPaper([annual, module, year]: string[]): Promise<Quiz> {
+  const promisedData = await import(`../../../../Database/PastPapers/${annual}/${module}/${module}-${year}.json`)
+  return promisedData.default
+}
+
+export async function generateMetadata({ params }: { params: Promise<Props> }): Promise<Metadata> {
+  const { QA } = await params
+  const path = `/PastPapers/${QA.join("/")}`
+  const [annual, module, tag] = labelParts(path)
+  const compiled = QA[2] === "compiled"
+  const title = compiled ? `${annual} · ${module} · Compiled Past Papers` : `${annual} · ${module} · ${tag} Past Paper`
+  const count = await loadPaper(QA).then(d => d.length, () => undefined)
+  const mcqs = count === undefined ? "MCQs" : `${count} MCQs`
+  const source = compiled ? `compiled from past ${annual} ${module} papers` : `from the ${annual} ${module} ${tag} paper`
+  return pageMetadata(title, `${mcqs} ${source}, as a free interactive quiz. Progress saves in your browser.`, path)
+}
+
 const page = async ({ params }: { params: Promise<Props> }) => {
   let data: Quiz
   try {
     const { QA } = await params
     const [annual, module, year] = QA
-    const promisedData = await import(`../../../../Database/PastPapers/${annual}/${module}/${module}-${year}.json`)
-    data = await promisedData.default
+    data = await loadPaper(QA)
 
     const tags = yearsFor(annual, module)
     const i = tags.findIndex(t => String(t) === year)

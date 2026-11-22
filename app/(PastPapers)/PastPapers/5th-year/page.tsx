@@ -1,7 +1,10 @@
 import PastPaper from "@/app/(PastPapers)/PastPaper"
 import { MODULE_ORDER, yearsFor } from "@/app/(PastPapers)/pastPapers"
+import { yearMetadata } from "@/lib/metadata"
 
 const ANNUAL = "5th-year"
+
+export const metadata = yearMetadata(ANNUAL)
 
 export default function page() {
   const modules = MODULE_ORDER[ANNUAL]

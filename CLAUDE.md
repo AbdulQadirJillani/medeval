@@ -49,6 +49,13 @@ Also present: `app/robots.ts`, `app/sitemap.ts` (enumerates all quiz and book ro
 same source lists; `/Saved` is deliberately left out — it's per-browser — and so is System Review
 while it's hidden), `app/not-found.tsx`.
 
+Every route except the homepage sets its own title and description through `pageMetadata()`
+(`lib/metadata.ts`). The layout's title template adds " | MedEval". Quiz and book pages count their
+data in `generateMetadata` ("39 MCQs from the 1st Year Blood 2016 paper…"), and labels come from
+`labelParts`. Next merges metadata shallowly, so a page's `openGraph` replaces the layout's whole
+object. Build it from `baseOpenGraph`, or link previews lose the image and site name.
+`Performance/page.tsx` is a client component, so its metadata lives in a pass-through `layout.tsx`.
+
 ### Past Papers routing (`app/(PastPapers)/pastPapers.ts`)
 
 Module/tag discovery is **filesystem-driven** via `readdirSync` at build time:
