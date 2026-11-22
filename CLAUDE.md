@@ -168,6 +168,12 @@ right after closing.
 `HintDifficulty` renders only when both `hint` and `difficulty` are present — i.e. System Review
 only; Past Papers questions never have these fields.
 
+Stem words are tappable highlights (tap again clears that word; adjacent ones join into one
+`<mark>` band via `stemWords`/`markRuns` in `quizLogic.ts`). They live only in `Question`'s local
+state, are never persisted, and clear on every move: `Format` keys `<Question>` by
+`` `${index}-${visit}` ``, and `visit` bumps in Retake and Review, which can land on the index
+already shown. A click with `detail > 1` is ignored so a double-click doesn't undo itself.
+
 Options are sorted by **descending string length** (`sortOptions`), so the longest option always
 renders first. It's deterministic, which is what keeps persisted answer indices valid across a resume.
 
