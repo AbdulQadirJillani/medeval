@@ -130,3 +130,24 @@ export function remapAnswers(records: AnswerRecord[], data: Quiz, keyAt: (i: num
   }
   return out
 }
+
+// Tappable highlight words in the question stem. Newlines collapse to single
+// spaces, as the stem's <p> already renders them.
+export function stemWords(question: string): string[] {
+  return question.split(/\s+/).filter(Boolean)
+}
+
+export type WordRun = { start: number, end: number, marked: boolean }
+
+// Consecutive words with the same state, so a highlighted phrase renders as one
+// band instead of word-sized blocks with gaps
+export function markRuns(count: number, marked: ReadonlySet<number>): WordRun[] {
+  const runs: WordRun[] = []
+  for (let i = 0; i < count; i++) {
+    const m = marked.has(i)
+    const last = runs[runs.length - 1]
+    if (last && last.marked === m) last.end = i + 1
+    else runs.push({ start: i, end: i + 1, marked: m })
+  }
+  return runs
+}
