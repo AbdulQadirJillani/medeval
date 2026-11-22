@@ -151,3 +151,13 @@ export function markRuns(count: number, marked: ReadonlySet<number>): WordRun[] 
   }
   return runs
 }
+
+// Whether the student has found a correct option on this question by now (any
+// click, not just the first). Explanations wait for this, so they can't give
+// the answer away while the student is still guessing.
+export function foundCorrect(q: Question, clicked: Clicked, index: number): boolean {
+  const entry = clicked.find(c => c.questionIndex === index)
+  if (!entry) return false
+  const sorted = sortOptions(q.answers)
+  return entry.optionIndex.some(i => sorted[i]?.bool)
+}
