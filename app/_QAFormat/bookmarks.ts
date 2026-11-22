@@ -69,6 +69,11 @@ export function parseBookmarks(raw: string | null): Bookmark[] {
   } catch {
     return []
   }
+  return cleanBookmarks(parsed)
+}
+
+// Also used on bookmarks read from a backup file
+export function cleanBookmarks(parsed: unknown): Bookmark[] {
   if (!Array.isArray(parsed)) return []
   // The key can always be re-derived from the stored copy
   return parsed.filter(isBookmark).map(b => typeof b.key === "string" ? b : { ...b, key: questionKey(b.question) })

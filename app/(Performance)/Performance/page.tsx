@@ -1,17 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import Performance from "../Performance"
-import { type PerformanceData, type PerformanceEntry } from "../types"
-
-// Hand-edited or extension-written values would otherwise crash the page on every visit
-function isEntry(e: unknown): e is PerformanceEntry {
-  const o = e as Record<string, unknown> | null
-  return !!o && typeof o === "object"
-    && typeof o.pathname === "string"
-    && Number.isFinite(o.score)
-    && Number.isFinite(o.totalQuestions)
-    && !Number.isNaN(new Date(o.finishDateTime as string).getTime())
-}
+import { isEntry, type PerformanceData } from "../types"
 
 function Page() {
   const [performance, setPerformance] = useState<PerformanceData>([])
