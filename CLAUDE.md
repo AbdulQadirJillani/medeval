@@ -245,6 +245,13 @@ JSON `{ text, info, updatedAt }`), never in `Database/` or the build.
 - **Quiz:** `Format`'s `explanations` prop is passed by the Past Papers page and `SavedPage`, not
   System Review (it has per-option explanations). The box shows only once the correct option is
   found (`foundCorrect`, any click) or in Review; the author edits in a dialog.
+- **Markdown:** explanations render with react-markdown + remark-gfm (tables) + remark-breaks (a
+  single newline stays a line break). Raw HTML is escaped, never rendered (no rehype-raw).
+  `markdownOptions.ts` (no JSX, so `node --test` can render it) shifts headings down two levels
+  (`#` → `h3`), wraps tables in `overflow-x-auto` and makes links open in a new tab.
+  `ExplanationMarkdown` is loaded with `next/dynamic`, so keyless visitors never download it.
+  Limits: 20,000 characters per explanation, 100 keys per read request (keeps a response well under
+  Vercel's 4.5 MB cap).
 - **Setup:** Vercel → Storage → Upstash for Redis; add the two keys (`openssl rand -hex 24`);
   redeploy; open `/?key=<key>` once per device.
 

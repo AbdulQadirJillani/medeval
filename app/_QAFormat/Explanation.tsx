@@ -1,4 +1,5 @@
 import { useState } from "react"
+import dynamic from "next/dynamic"
 import { Pencil } from "lucide-react"
 import {
   Dialog,
@@ -10,6 +11,10 @@ import {
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import { MAX_TEXT } from "@/lib/explanations"
+
+// Only key holders ever render this, so students never download the Markdown code.
+// Nothing while it loads, rather than a flash of raw Markdown.
+const ExplanationMarkdown = dynamic(() => import("./ExplanationMarkdown"), { loading: () => null })
 
 type Props = {
   text?: string,
@@ -67,7 +72,7 @@ const Explanation = ({ text, canEdit, onSave }: Props) => {
                 </Button>
               )}
             </div>
-            <p className="whitespace-pre-wrap text-base sm:text-lg">{text}</p>
+            <ExplanationMarkdown text={text} />
           </div>
           : <Button variant="outline" className="mt-6" onClick={openEditor}>
             <Pencil /> Add explanation
