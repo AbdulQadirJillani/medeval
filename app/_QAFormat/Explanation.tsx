@@ -85,7 +85,7 @@ const Explanation = ({ text, canEdit, onSave }: Props) => {
             value={value}
             onChange={e => setDraft(e.target.value)}
             maxLength={MAX_TEXT}
-            rows={8}
+            rows={14}
             autoFocus
             className="w-full rounded-md border border-input bg-background p-3 text-base focus:outline-none focus-visible:ring"
           />

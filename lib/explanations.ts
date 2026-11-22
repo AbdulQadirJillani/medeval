@@ -2,8 +2,8 @@
 // no env access, so it runs on both sides (and under node --test).
 
 export const EXPLAIN_KEY_STORAGE = "explain-key"
-export const MAX_TEXT = 5000
-export const MAX_KEYS = 2000
+export const MAX_TEXT = 20000
+export const MAX_KEYS = 100
 export const MAX_INFO = 200
 
 // questionKey() output: a base36 hash, at most 11 characters today
