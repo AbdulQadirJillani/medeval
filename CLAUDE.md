@@ -248,8 +248,14 @@ JSON `{ text, info, updatedAt }`), never in `Database/` or the build.
 - **Markdown:** explanations render with react-markdown + remark-gfm (tables) + remark-breaks (a
   single newline stays a line break). Raw HTML is escaped, never rendered (no rehype-raw).
   `markdownOptions.ts` (no JSX, so `node --test` can render it) shifts headings down two levels
-  (`#` → `h3`), wraps tables in `overflow-x-auto` and makes links open in a new tab.
-  `ExplanationMarkdown` is loaded with `next/dynamic`, so keyless visitors never download it.
+  (`#` → `h3`), wraps tables in `overflow-x-auto` and makes links open in a new tab. Medical text
+  guards: `singleTilde: false` (`~100` means approximately; only `~~x~~` strikes), and
+  `keepComparisons` escapes a leading `>` before a number so `- >40 years` isn't a blockquote.
+  **Scrollable tables stop touch events natively** (`keepTouches` ref callback): `Format`'s
+  react-swipeable listens for native touches on an ancestor, so otherwise dragging a table
+  sideways changes the question. Code blocks wrap (`pre` is `whitespace-pre-wrap`) rather than
+  scroll, for the same reason. `ExplanationMarkdown` is loaded with `next/dynamic` (keyless
+  visitors never download it); a failed chunk load falls back to plain text instead of crashing.
   Limits: 20,000 characters per explanation, 100 keys per read request (keeps a response well under
   Vercel's 4.5 MB cap).
 - **Setup:** Vercel → Storage → Upstash for Redis; add the two keys (`openssl rand -hex 24`);

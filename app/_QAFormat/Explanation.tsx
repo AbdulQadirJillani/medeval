@@ -13,8 +13,16 @@ import { Button } from "@/components/ui/button"
 import { MAX_TEXT } from "@/lib/explanations"
 
 // Only key holders ever render this, so students never download the Markdown code.
-// Nothing while it loads, rather than a flash of raw Markdown.
-const ExplanationMarkdown = dynamic(() => import("./ExplanationMarkdown"), { loading: () => null })
+// Nothing while it loads, rather than a flash of raw Markdown. If the code can't
+// be fetched (bad connection, a tab left open across a deploy), show the note as
+// plain text instead of letting the failed import crash the quiz.
+const PlainExplanation = ({ text }: { text: string }) => (
+  <p className="whitespace-pre-wrap break-words text-base sm:text-lg">{text}</p>
+)
+const ExplanationMarkdown = dynamic(
+  () => import("./ExplanationMarkdown").catch(() => ({ default: PlainExplanation })),
+  { loading: () => null },
+)
 
 type Props = {
   text?: string,

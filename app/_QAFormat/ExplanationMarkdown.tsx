@@ -1,3 +1,4 @@
+import { memo } from "react"
 import Markdown from "react-markdown"
 import { cn } from "@/lib/utils"
 import { keepComparisons, markdownOptions } from "./markdownOptions"
@@ -18,6 +19,8 @@ const styles = cn(
   "[&_th]:min-w-28 [&_th]:border [&_th]:border-input [&_th]:bg-accent [&_th]:px-2 [&_th]:py-1 [&_th]:text-left [&_th]:align-top",
   "[&_td]:min-w-28 [&_td]:border [&_td]:border-input [&_td]:px-2 [&_td]:py-1 [&_td]:align-top",
   "[&_a]:text-brand [&_a]:underline",
+  // Long code lines wrap: a scrolling <pre> would fight the quiz's swipe like tables did
+  "[&_pre]:my-2 [&_pre]:whitespace-pre-wrap",
   "[&_code]:rounded [&_code]:bg-accent [&_code]:px-1 [&_code]:text-[0.9em]",
   "[&_hr]:my-4 [&_hr]:border-input",
   "[&_blockquote]:my-2 [&_blockquote]:border-l-2 [&_blockquote]:border-input [&_blockquote]:pl-3 [&_blockquote]:italic",
@@ -30,4 +33,6 @@ const ExplanationMarkdown = ({ text }: { text: string }) => (
   </div>
 )
 
-export default ExplanationMarkdown
+// Memoised: typing in the editor re-renders Explanation on every keystroke, and
+// re-parsing a long note each time made typing lag on phones
+export default memo(ExplanationMarkdown)
