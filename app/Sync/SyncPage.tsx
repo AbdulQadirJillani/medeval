@@ -15,7 +15,19 @@ const MAX_BYTES = 20 * 1024 * 1024
 
 const INVALID = "That file isn't a MedEval backup. Nothing was changed."
 const NEWER = "This backup was made by a newer version of MedEval. Reload the site and try again."
+const UNREADABLE = "Couldn't read that file. Nothing was changed."
 const FULL = "Couldn't finish restoring: this browser's storage is full. Free some space, then restore the same file again."
+
+// null when the browser can't read it (e.g. an Android file that's no longer
+// accessible). An oversized file reads as "", which parses as not-a-backup.
+async function readFile(file: File): Promise<string | null> {
+  if (file.size > MAX_BYTES) return ""
+  try {
+    return await file.text()
+  } catch {
+    return null
+  }
+}
 
 function download(file: File) {
   const url = URL.createObjectURL(file)
@@ -52,11 +64,16 @@ function SyncPage() {
     const el = e.currentTarget
     const file = el.files?.[0]
     if (!file) return
-    const parsed = file.size > MAX_BYTES ? null : parseBackup(await file.text())
+    const text = await readFile(file)
     // Cleared so picking the same file again still fires onChange
     el.value = ""
-    if (!parsed || !parsed.ok) {
-      setStatus({ text: parsed?.ok === false && parsed.error === "newer" ? NEWER : INVALID, error: true })
+    if (text === null) {
+      setStatus({ text: UNREADABLE, error: true })
+      return
+    }
+    const parsed = parseBackup(text)
+    if (!parsed.ok) {
+      setStatus({ text: parsed.error === "newer" ? NEWER : INVALID, error: true })
       return
     }
     const before = readLocalSnapshot()

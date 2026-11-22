@@ -83,7 +83,7 @@ Bookmark removals compare times, because a question can be saved again later. Se
 removals match one exact item, whatever its time. An identical session or attempt can't be created
 again, so there's nothing to compare.
 
-Only the four places that delete things today change:
+Only the five places that delete things today change:
 
 - `useBookmarks.ts` `write()`: records a removal for every bookmark in the old list that's missing
   from the new one. This covers the quiz icon, the S key, Saved-page removals and "Remove the N I
@@ -95,6 +95,13 @@ Only the four places that delete things today change:
   comparing against attempt times.
 - `Performance.tsx` `clearAll`: records one `attempt` removal per attempt it deletes. A clear of
   200 attempts adds about 18 KB.
+- `ResumeModal.tsx` "Start from beginning": records a `session` removal for the abandoned session.
+  This one was found in the final review.
+
+A session's `updatedAt` must mean "last answered", not "last opened". Opening a paper re-saves
+the restored answers, so `useQuizPersistence` moves `updatedAt` only when the answers actually
+change. Otherwise a stale copy opened later would beat the other device's newer work. This was
+also found in the final review.
 
 Not recorded:
 - Deleting unreadable or corrupt values.

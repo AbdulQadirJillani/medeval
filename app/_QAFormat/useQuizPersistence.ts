@@ -22,7 +22,7 @@ type Options = {
 
 // A saved session that isn't a JSON object (hand-edited, or written by an
 // extension) would throw on every visit, so it's deleted and treated as absent
-function readSession(key: string): Record<string, any> | null {
+export function readSession(key: string): Record<string, any> | null {
   const raw = localStorage.getItem(key)
   if (raw === null) return null
   try {
@@ -66,11 +66,13 @@ function useQuizPersistence({
       const moduleKey = `${pathname}-module`
       const obj = readSession(moduleKey)
       if (obj) {
+        // Only answering moves updatedAt. Opening a paper re-saves the restored
+        // answers, and sync reads updatedAt as when the paper was last worked on.
+        if (JSON.stringify(obj.answers) !== JSON.stringify(clickedOption)) obj.updatedAt = new Date()
         obj.score = score.current
         obj.resumeIndex = resumeIndex.current = resumeIndexFor(clickedOption, totalQuestions)
         obj.answers = clickedOption
         obj.answerKeys = answerRecords(data, clickedOption, keyAt)
-        obj.updatedAt = new Date()
         localStorage.setItem(moduleKey, JSON.stringify(obj))
       } else {
         localStorage.setItem(moduleKey, JSON.stringify({

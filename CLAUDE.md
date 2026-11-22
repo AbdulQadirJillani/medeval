@@ -141,7 +141,9 @@ questions with the answer shown.
   finished; removed on finish. A value that isn't a JSON object is deleted and treated as absent
   (same for unreadable `-performance` keys on `/Performance`). Merely opening a paper writes one with
   `answers: []`. `updatedAt` was added later, so
-  readers must fall back to `startDateTime`. `resumeIndex` is the question *after the most recently
+  readers must fall back to `startDateTime`. It moves only when the answers change: opening a paper
+  re-saves the restored answers without touching it, because Sync reads it as when the paper was
+  last worked on. `resumeIndex` is the question *after the most recently
   answered one* (`resumeIndexFor`), not the furthest viewed, so peeking ahead via the map doesn't
   move Resume. `answers` holds *positions*, which go stale if a paper is re-scraped or reordered,
   so each save also writes `answerKeys` (`{ key: questionKey, options: clicked option texts }[]`).
@@ -157,10 +159,11 @@ questions with the answer shown.
   doesn't reach old saves). Changes broadcast a `bookmarks-change` window event; `useBookmarks`
   also listens to `storage` for other tabs.
 - `removals` (not per-pathname) — what the student deliberately removed, so restoring another
-  device's backup doesn't bring it back (`lib/removals.ts`). Recorded at four sites:
+  device's backup doesn't bring it back (`lib/removals.ts`). Recorded at five sites:
   - `useBookmarks` `write`: a bookmark that's gone from the new list.
   - The Continue strip ×: a discarded session.
   - The `useQuizPersistence` finish effect: a finished session.
+  - The Resume popup's "Start from beginning": the abandoned session.
   - "Clear all attempts": one entry per attempt.
 
   Never pruned, because pruning would let an old backup restore removed items.

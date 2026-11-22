@@ -7,6 +7,8 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
+import { recordRemovals } from "@/lib/removals"
+import { readSession } from "./useQuizPersistence"
 
 type clicked = { questionIndex: number, optionIndex: number[] }[]
 
@@ -30,7 +32,10 @@ const ResumeModal = ({ pathname, answered, resumeModal, setResumeModal, resumeIn
   const StartBegin = async () => {
     //For deleting module data from local storage and DB on StartBegin
     try {
+      // Remembered so restoring another device's backup doesn't bring the old answers back
+      const obj = readSession(`${pathname}-module`)
       localStorage.removeItem(`${pathname}-module`)
+      if (obj) recordRemovals([{ kind: "session", path: pathname, started: String(obj.startDateTime ?? ""), at: new Date().toISOString() }])
       resumeIndex.current = 0
       score.current = 0
       setClickedOption([])

@@ -56,9 +56,13 @@ function isBookmark(b: unknown): b is Bookmark {
     && !!q && typeof q === "object"
     && typeof q.question === "string"
     && typeof q.info === "string"
+    // Rendered by the Saved quiz; an object here would crash it
+    && (q.hint === undefined || typeof q.hint === "string")
+    && (q.difficulty === undefined || Number.isFinite(q.difficulty))
     // Every option must render and hash: a bad one would throw in the navbar on every page
     && Array.isArray(q.answers)
-    && q.answers.every(a => !!a && typeof a.option === "string" && typeof a.bool === "boolean")
+    && q.answers.every(a => !!a && typeof a.option === "string" && typeof a.bool === "boolean"
+      && (a.explanation === undefined || typeof a.explanation === "string"))
 }
 
 export function parseBookmarks(raw: string | null): Bookmark[] {

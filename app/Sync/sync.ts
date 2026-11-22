@@ -35,8 +35,18 @@ const PERFORMANCE = "-performance"
 // Only quiz paths become storage keys, so a crafted file can't write any other key
 const QUIZ_PATH = /^\/(PastPapers|SystemReview)\/[A-Za-z0-9/-]+$/
 
+const optionalNumber = (v: unknown) => v === undefined || Number.isFinite(v)
+
+// As strict as the readers need: the Continue strip renders score, the quiz
+// steps through answers and remaps answerKeys without checking them again
 function isSession(v: unknown): v is StoredSession {
-  return !!v && typeof v === "object" && !Array.isArray(v) && Array.isArray((v as Record<string, unknown>).answers)
+  if (!v || typeof v !== "object" || Array.isArray(v)) return false
+  const o = v as Record<string, unknown>
+  return optionalNumber(o.score) && optionalNumber(o.totalQuestions)
+    && (o.answerKeys === undefined || Array.isArray(o.answerKeys))
+    && Array.isArray(o.answers)
+    && o.answers.every(a => !!a && Number.isInteger(a.questionIndex) && a.questionIndex >= 0
+      && Array.isArray(a.optionIndex) && a.optionIndex.every(Number.isInteger))
 }
 
 function cleanAttempts(path: string, v: unknown): PerformanceEntry[] {
