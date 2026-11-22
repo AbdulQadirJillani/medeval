@@ -3,6 +3,12 @@
 Item #1 of the 2026-11-22 improvement round (#4 page metadata, #6 System Review off the sitemap and
 #8 housekeeping are done).
 
+**Revised 2026-11-22, after review.** Sessions and attempts are now removed by exact identity, not by
+a cutoff time. The first version recorded "Clear all attempts" as "drop every attempt finished
+before T", and dropped any session older than a discard or a finish. A restore could then delete the
+other device's *own* older history or progress, which the clearing device never had, and there's no
+undo.
+
 ## Why
 
 Students study on both a phone and a laptop and want the same progress on each. Everything MedEval
@@ -33,10 +39,14 @@ changed must change nothing.
 3. **Restore** opens a file picker, checks the file, combines it with this device using the rules
    below, then shows a one-line summary of what changed. A file that isn't a MedEval backup is
    rejected with a message and changes nothing.
-4. **Removals stick across devices.** Unsaving a bookmark, discarding an in-progress paper
-   (× on the homepage Continue strip) or "Clear all attempts" is remembered with its time, and
+4. **Removals stick across devices.** Unsaving a bookmark, discarding an in-progress paper (× on
+   the homepage Continue strip), finishing a paper, or "Clear all attempts" is remembered and
    carried in the backup. So a restore from the other device doesn't bring those items back, in
    either direction.
+   - A removal names the exact items removed. It never removes items that only the other device
+     had.
+   - The one exception is bookmarks, which are per question: unsaving a question unsaves it
+     everywhere, unless it was saved again later.
 
 ## Merge rules
 
@@ -46,8 +56,8 @@ keeping the latest time per item), and the other three kinds are then checked ag
 | Data | Rule |
 |---|---|
 | **Bookmarks** (`bookmarks`) | Union by `path + key`. If both sides have one, keep the copy with the later `savedAt`. Drop any whose `savedAt` is older than a bookmark removal for the same `path + key`. Sort newest `savedAt` first, as the list is stored today. |
-| **Attempts** (`<path>-performance`) | Union per path, dropping exact duplicates (same `finishDateTime`, `score` and `totalQuestions`). Drop attempts finished at or before the latest "cleared all attempts" removal. |
-| **In-progress papers** (`<path>-module`) | Per path, an incoming session replaces the local one only if it has at least one answer, and either the local one is missing, the local one has no answers, or the incoming one is newer. Then drop the surviving session if it's not newer than that path's latest attempt (in the merged attempts) or than a discard removal for that path. |
+| **Attempts** (`<path>-performance`) | Union per path, dropping exact duplicates. An attempt's identity is its path, `finishDateTime`, `score` and `totalQuestions`. Drop any attempt with an `attempt` removal for that identity. |
+| **In-progress papers** (`<path>-module`) | A session's identity is its path plus `startDateTime`. That's set once when the session is created and kept on every save, so all copies of one session share it. Per path, first drop any candidate (local or incoming) with a `session` removal for its identity. Of what's left, an incoming session replaces the local one only if it has at least one answer, and either the local one is missing, the local one has no answers, or the incoming one is newer. |
 | **Removals** (`removals`) | Union, keeping the latest time per item. Never pruned: pruning would let an old backup bring removed items back. |
 
 The time used for a session is `updatedAt`, falling back to `startDateTime` (as `sessions.ts` does).
@@ -64,22 +74,29 @@ re-places them by content, as it does today (`remapAnswers`). The merge never ne
 A new key, `removals`, holds a JSON array of:
 
 ```ts
-| { kind: "bookmark", path: string, key: string, at: string }  // ISO time
-| { kind: "session",  path: string, at: string }
-| { kind: "attempts", at: string }                              // "Clear all attempts"
+| { kind: "bookmark", path: string, key: string, at: string }      // ISO time; a later savedAt wins
+| { kind: "session",  path: string, started: string, at: string }  // started = the session's startDateTime
+| { kind: "attempt",  id: string, at: string }                     // id = path|finish ms|score|totalQuestions
 ```
 
-Only the three places that delete things today change:
+Bookmark removals compare times, because a question can be saved again later. Session and attempt
+removals match one exact item, whatever its time. An identical session or attempt can't be created
+again, so there's nothing to compare.
+
+Only the four places that delete things today change:
 
 - `useBookmarks.ts` `write()`: records a removal for every bookmark in the old list that's missing
   from the new one. This covers the quiz icon, the S key, Saved-page removals and "Remove the N I
   got right" in one place. Re-saving later needs nothing extra, because the new `savedAt` is
   newer than the removal.
-- `ContinueStrip.tsx` `discard`: records a `session` removal.
-- `Performance.tsx` `clearAll`: records an `attempts` removal.
+- `ContinueStrip.tsx` `discard`: records a `session` removal for that session's `startDateTime`.
+- `useQuizPersistence.ts`, the effect that removes `-module` once a paper is finished: records a
+  `session` removal for the session it removes. That's what makes finishing stick, instead of
+  comparing against attempt times.
+- `Performance.tsx` `clearAll`: records one `attempt` removal per attempt it deletes. A clear of
+  200 attempts adds about 18 KB.
 
 Not recorded:
-- Finishing a paper. The new attempt's time already handles it.
 - Deleting unreadable or corrupt values.
 - Discarding a legacy session whose question count changed.
 
@@ -179,6 +196,10 @@ newer than 1 ("made by a newer version of MedEval, reload the site and try again
   shared so restore can use it.
 - **Removed items in the summary** count only things that were on this device before and are now
   gone, not removals that merely arrived in the file.
+- **The "Clear all attempts" dialog** no longer says the attempts are deleted only "from your
+  browser". It now reads: "This permanently deletes every attempt recorded in this browser. If you
+  sync with another device, these attempts are removed there too, but attempts made only on that
+  device are kept. This can't be undone."
 
 ## Files likely touched
 
@@ -186,8 +207,10 @@ newer than 1 ("made by a newer version of MedEval, reload the site and try again
   merge, write).
 - New removals helper (e.g. `lib/removals.ts` or `app/_QAFormat/removals.ts`).
 - `app/_QAFormat/useBookmarks.ts` (record removals in `write`).
-- `app/_Homepage/ContinueStrip.tsx` (record discard).
-- `app/(Performance)/Performance.tsx` (record clear), and `Performance/page.tsx` (`isEntry` moves
+- `app/_Homepage/ContinueStrip.tsx` (record discard), and `sessions.ts` (`Session` gains
+  `started`).
+- `app/_QAFormat/useQuizPersistence.ts` (record finish).
+- `app/(Performance)/Performance.tsx` (record clear, new dialog copy), and `Performance/page.tsx` (`isEntry` moves
   out).
 - `app/_NavBar/Menu.tsx` (Sync link).
 - `CLAUDE.md`: the `removals` key, the `/Sync` route, the merge rules in short.
