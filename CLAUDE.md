@@ -19,8 +19,9 @@ in mount effects), so compare counts rather than expecting a zero exit. Verify c
 ## Architecture Overview
 
 MedEval is a Next.js 16 (React 19) app for MBBS students — past papers, a book bank, system review
-questions, hospital maps, and a performance tracker. It has **no backend, no auth, no API routes**.
-All data lives in `Database/` and all user state lives in `localStorage`. Deployed to Vercel at
+questions, hospital maps, and a performance tracker. It has **no accounts and one API route**:
+`/api/explanations`, for the owner's private explanations (see below), backed by Upstash Redis. All
+other data lives in `Database/` and all user state lives in `localStorage`. Deployed to Vercel at
 `med-eval.vercel.app`.
 
 Scale: ~59.3k past-paper questions across 364 JSON files (5 years), ~4.9k System Review questions
@@ -223,6 +224,28 @@ in `sync.ts`:
 
 Files are validated with the same guards the readers use, and only quiz-path keys can be written.
 
+### Private explanations (`app/api/explanations/`, `lib/explanations.ts`)
+
+The owner writes one explanation per question from the live quiz; only the owner and one reader can
+see them. They live **only in Upstash Redis** (hash `explanations`, field = base `questionKey`, value
+JSON `{ text, info, updatedAt }`), never in `Database/` or the build.
+
+- **Env vars** (Vercel; locally `.env.local`): `EXPLAIN_WRITE_KEY` (owner), `EXPLAIN_READ_KEY`
+  (reader), and the store's `KV_REST_API_URL` / `KV_REST_API_TOKEN`, set by Vercel's Upstash
+  integration (`UPSTASH_REDIS_REST_URL` / `_TOKEN` also work). Missing any → the route returns 503.
+- **Keys on a device:** opening any page with `?key=<value>` stores it as `explain-key` in
+  `localStorage` (`?key=off` forgets it) and strips the param (`takeKeyFromUrl`, called by
+  `ExplainKeyCapture` in the layout and by `useExplanations` first, since quiz effects run before
+  the layout's). Rotating a key = changing the env var and redeploying.
+- **Route:** `POST { keys }` (either key) → `{ role, explanations }`; `PUT { key, text, info }`
+  (write key only; blank text deletes). Bearer auth compared in constant time (`auth.ts`); every
+  response is `no-store`. Plain `Response`, so it runs under `node --test`.
+- **Quiz:** `Format`'s `explanations` prop is passed by the Past Papers page and `SavedPage`, not
+  System Review (it has per-option explanations). The box shows only once the correct option is
+  found (`foundCorrect`, any click) or in Review; the author edits in a dialog.
+- **Setup:** Vercel → Storage → Upstash for Redis; add the two keys (`openssl rand -hex 24`);
+  redeploy; open `/?key=<key>` once per device.
+
 ### Performance Dashboard
 
 `(Performance)/Performance/page.tsx` is a client component that scans all `*-performance` keys from
@@ -294,6 +317,9 @@ and option text unique within a question.
 
 ## Gotchas
 
+- **A keyless visitor must never call `/api/explanations` or receive explanation text.**
+  `useExplanations` returns before hashing or fetching when no `explain-key` is stored; keep it
+  that way, and never copy explanations into `Database/` or prerendered pages.
 - **Deleting stored data must call `recordRemovals`** (`lib/removals.ts`). Otherwise the next
   restore from another device quietly brings the deleted item back.
 - **`MODULE_ORDER` vs. folder names** — see above. `Database/` has been restructured independently

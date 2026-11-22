@@ -105,6 +105,7 @@ function SavedQuiz({ scope }: { scope: string }) {
       key={seed}
       data={run.map(b => b.question)}
       practice={{ refs: run.map(({ path, key, index }) => ({ path, key, index })), onAgain, onExit: () => router.push("/Saved") }}
+      explanations
     />
   )
 }

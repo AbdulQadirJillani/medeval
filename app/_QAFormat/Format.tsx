@@ -12,15 +12,19 @@ import Footer from "./Footer"
 import ResumeModal from "./ResumeModal"
 import FinishModal from "./FinishModal"
 import FinishConfirm from "./FinishConfirm"
+import Explanation from "./Explanation"
 import { useSwipeable } from "react-swipeable"
 import type { Clicked, Practice, Quiz, QuizLink, QuestionRef } from "./types"
 import useQuizPersistence from "./useQuizPersistence"
 import useBookmarks from "./useBookmarks"
+import useExplanations from "./useExplanations"
 import { isSaved, occurrenceKeys, questionKey } from "./bookmarks"
-import { isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionPrompt, questionStatuses } from "./quizLogic"
+import { foundCorrect, isQuizKeyBlocked, missedIndices, nextMissed, prevMissed, questionPrompt, questionStatuses } from "./quizLogic"
 
 
-function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, back?: QuizLink, practice?: Practice }) {
+// explanations: show private explanations (Past Papers and the Saved quiz;
+// System Review has its own per-option ones)
+function Format({ data, next, back, practice, explanations }: { data: Quiz, next?: QuizLink, back?: QuizLink, practice?: Practice, explanations?: boolean }) {
   const pathname = usePathname()
   const [index, setIndex] = useState<number>(0)
   const [clickedOption, setClickedOption] = useState<Clicked>([])
@@ -55,6 +59,7 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
     }
     return k
   }, [data])
+  const explain = useExplanations(!!explanations, data, keyAt)
   // Bookmark keys number identical twins ("a", "a-1"), which needs the whole
   // paper: computed once, on first need (a bookmark here, a toggle, a #k link)
   const bookmarkKeys = useRef<string[] | null>(null)
@@ -212,6 +217,13 @@ function Format({ data, next, back, practice }: { data: Quiz, next?: QuizLink, b
         }
 
         <Options options={data[index].answers} clickedOption={clickedOption} setClickedOption={setClickedOption} questionIndex={index} score={score} lock={lock} finished={recorded} reveal={review !== null} onFinishedClick={review ? undefined : Finish} />
+
+        {
+          // Only once the answer is known, so it can't spoil the guessing
+          review !== null || foundCorrect(data[index], clickedOption, index)
+            ? <Explanation key={index} text={explain.text(index)} canEdit={explain.role === "author"} onSave={t => explain.save(index, t)} />
+            : null
+        }
 
         <Footer
           canBack={review ? prevStop !== undefined : index > 0}

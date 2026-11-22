@@ -53,7 +53,7 @@ const page = async ({ params }: { params: Promise<Props> }) => {
 
     // Keyed per paper so "Next paper" mounts a fresh quiz instead of keeping
     // the previous paper's index and answers.
-    return <Format key={QA.join("/")} data={data} next={next} back={back} />
+    return <Format key={QA.join("/")} data={data} next={next} back={back} explanations />
   }
   catch (e) {
     console.log(e)
